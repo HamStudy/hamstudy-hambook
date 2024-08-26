@@ -3,7 +3,11 @@
 
 Imagine you're standing on a beach, watching waves roll in. Some waves are gentle ripples, while others are massive swells. The electromagnetic spectrum is like an infinite ocean of waves, but instead of water, these waves are made of electric and magnetic fields traveling through space.
 
-The electromagnetic spectrum encompasses all types of electromagnetic radiation, from the longest radio waves to the shortest gamma rays. Each type of radiation is characterized by its wavelength and frequency, which we discussed in the previous section. Let's take a journey through this spectrum, starting with the longest waves and moving to the shortest:
+#### What is the Electromagnetic Spectrum?
+
+The electromagnetic spectrum encompasses all types of electromagnetic radiation, from the longest radio waves to the shortest gamma rays. Each type of radiation is characterized by its wavelength and frequency, which we discussed in the previous section. Let’s take a journey through this spectrum, starting with the longest waves and moving to the shortest:
+
+#### Types of Electromagnetic Radiation
 
 1. **Radio Waves** (longest wavelengths, lowest frequencies)
    - Used for communication: AM/FM radio, television, cell phones, and of course, amateur radio!
@@ -33,7 +37,9 @@ The electromagnetic spectrum encompasses all types of electromagnetic radiation,
    - Emitted by radioactive decay, used in some medical treatments
    - Wavelengths shorter than 0.01 nanometers
 
-Here's a visual representation of the spectrum:
+#### Visual Representation of the Spectrum
+
+Here’s a visual representation of the spectrum:
 
 ```
 Radio Waves | Microwaves | Infrared | Visible | UV | X-rays | Gamma Rays
@@ -41,6 +47,8 @@ Radio Waves | Microwaves | Infrared | Visible | UV | X-rays | Gamma Rays
 Low Frequency                                             High Frequency
 Long Wavelength                                         Short Wavelength
 ```
+
+#### The Radio Spectrum
 
 As amateur radio operators, we're primarily concerned with the radio wave portion of the spectrum. The radio spectrum is further divided into bands, each with its own characteristics and uses:
 
@@ -60,8 +68,21 @@ As amateur radio operators, we're primarily concerned with the radio wave portio
 
 Each of these bands has unique propagation characteristics, which we'll explore in later sections. For instance, HF waves can bounce off the ionosphere and travel around the world, while VHF and UHF waves generally travel in straight lines and are limited to line-of-sight distances.
 
-It's important to note that the entire electromagnetic spectrum is governed by the same physical laws. The speed of light (c) in a vacuum is constant for all electromagnetic waves, regardless of their frequency or wavelength. This is why we can use the equation $c = f\lambda$ for all parts of the spectrum.
+#### Important Frequency Ranges to Remember
 
-As an amateur radio operator, you're part of a select group that gets to explore and utilize a significant portion of this spectrum. From the 160-meter band (1.8 MHz) to the microwave bands above 300 GHz, amateur radio encompasses a vast range of frequencies, each with its own challenges and opportunities for communication.
+While the above table is a lot to remember, you should probably remember these three ranges in particular:
+
+- **HF** - 3 MHz to 30 MHz
+- **VHF** - 30 MHz to 300 MHz
+- **UHF** - 300 MHz to 3000 MHz
+  - *Note*: 1 GHz - 40 GHz is often referred to as "microwave"
+
+#### Governing Laws of the Electromagnetic Spectrum
+
+It’s important to note that the entire electromagnetic spectrum is governed by the same physical laws. The speed of light (c) in a vacuum is constant for all electromagnetic waves, regardless of their frequency or wavelength. This is why we can use the equation $c = f\lambda$ for all parts of the spectrum.
+
+#### The Role of Amateur Radio in the Electromagnetic Spectrum
+
+As an amateur radio operator, you’re part of a select group that gets to explore and utilize a significant portion of this spectrum. From the 160-meter band (1.8 MHz) to the microwave bands above 300 GHz, amateur radio encompasses a vast range of frequencies, each with its own challenges and opportunities for communication.
 
 Understanding the electromagnetic spectrum helps us appreciate the unique place that amateur radio occupies in the world of wireless communication. It also underscores the importance of responsible spectrum use and the need for international cooperation in managing this invaluable natural resource.

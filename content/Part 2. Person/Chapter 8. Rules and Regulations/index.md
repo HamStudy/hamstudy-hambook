@@ -17,4 +17,6 @@ Remember, these rules aren't just bureaucratic red tape - they're designed to en
 
 By the end of this chapter, you'll have a clear understanding of your rights and responsibilities as an amateur radio operator. You'll be prepared to operate legally and ethically, upholding the proud traditions of the amateur radio service.
 
+Remember: When it comes to operating an Amateur Radio station, the FCC rules *always* apply – when there are exceptions, like for an emergency, that exception is written into the rules so they still apply!
+
 So, let's dive into the rules and ensure your amateur radio adventure stays on the right frequency!

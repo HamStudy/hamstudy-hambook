@@ -31,15 +31,17 @@ PACTOR is like the Swiss Army knife of digital modes. It can automatically switc
 
 **Digital Mobile Radio (DMR)**
 DMR is like the smartphone of the radio world. It's a digital mode that uses time-division multiple access (TDMA) technology. In simple terms, it splits one 12.5 kHz channel into two time slots, allowing two conversations to happen simultaneously. Cool, right? Here's the scoop:
-- DMR repeaters use "color codes" instead of PL tones or DCS codes
-- It organizes users into "talkgroups" - like chat rooms for your radio
+- DMR repeaters use "color codes" instead of PL tones or DCS codes. Your color code must match to access the repeater!
+- It organizes users into "talkgroups" - like chat rooms for your radio. Program the group ID or code and you're in!
 - The audio quality is super clear, even with weak signals
 
 **SSTV (Slow Scan Television)**
 SSTV is like sending a postcard via radio. It transmits still images, taking anywhere from a few seconds to a couple of minutes to send a single picture. You can even receive pictures from the International Space Station!
 
 **FSTV (Fast Scan Television)**
-FSTV is full-motion video over the air. Think of it as YouTube for ham radio! It requires a lot of bandwidth, so it's typically used on UHF and higher frequencies. The NTSC (National Television System Committee) standard, which was used for analog TV in North America, is also used in amateur television. It's like broadcasting your own TV channel!
+FSTV is full-motion video over the air. Think of it as YouTube for ham radio! It requires a lot of bandwidth, so it's typically used on UHF and higher frequencies. The NTSC (National Television System Committee) standard, which was used for analog TV in North America, is also used in amateur television. It's like having your own TV channel!
+
+That said and as fun as it is, remember that broadcasts intended for the general public are forbidden (See chapter 8!). Any transmissions you make including Amateur Television need to be for an allowed purpose in the Amateur Radio service.
 
 **Mesh Networks**
 Mesh networks are like a web of interconnected radios. Each station in a mesh network can receive and relay data, creating a robust, decentralized network. It's based on standard Wi-Fi equipment with custom firmware and relies on the same IEEE 802.11 modes as a traditional wireless network, just modified a bit. Imagine a whole neighborhood linked together, able to communicate even if the internet goes down!

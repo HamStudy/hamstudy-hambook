@@ -17,13 +17,15 @@ Here's a neat trick: want to know the wavelength of a frequency in meters? Just 
 
 #### Key Characteristics
 
-1. **Line-of-Sight Propagation**: VHF and UHF waves generally travel in straight lines, similar to light. This makes them reliable for local communications.
+1. **Line-of-Sight Propagation**: VHF and UHF waves generally travel in straight lines, similar to light. This makes them reliable for local communications. They are not usually propagated by the ionosphere, so sky wave propagation generally does not apply
 
 2. **Compact Antennas**: Higher frequencies mean shorter wavelengths, allowing for smaller, more manageable antennas. This is great for portable and mobile operations.
 
 3. **Less Affected by Ionospheric Conditions**: Unlike HF bands, VHF and UHF are less impacted by solar activity, providing more consistent local communications.
 
 4. **Ideal for Repeater Use**: Many repeaters operate on these bands, greatly extending the range of your radio.
+
+
 
 #### Practical Applications
 
