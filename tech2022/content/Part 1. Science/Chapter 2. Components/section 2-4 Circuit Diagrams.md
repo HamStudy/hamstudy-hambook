@@ -1,5 +1,22 @@
 ---
 questions: [ "T6C05", "T6C07", "T6C04", "T6C06", "T6C10", "T6C03", "T6C09", "T6C01", "T6C08", "T6C02", "T6C11", "T6C12", "T6D10" ]
+gistMap:
+  "schem-antenna.svg": "https://gist.github.com/taxilian/a7d1cca34d08baa8f98a3d6d4b408e55/raw/ee7b08b28dfebdf4d772f4b420f857c5deaf9a03/schem-antenna.svg"
+  "schem-battery.svg": "https://gist.github.com/taxilian/a7d1cca34d08baa8f98a3d6d4b408e55/raw/ee7b08b28dfebdf4d772f4b420f857c5deaf9a03/schem-battery.svg"
+  "schem-capacitor.svg": "https://gist.github.com/taxilian/a7d1cca34d08baa8f98a3d6d4b408e55/raw/ee7b08b28dfebdf4d772f4b420f857c5deaf9a03/schem-capacitor.svg"
+  "schem-diode.svg": "https://gist.github.com/taxilian/a7d1cca34d08baa8f98a3d6d4b408e55/raw/ee7b08b28dfebdf4d772f4b420f857c5deaf9a03/schem-diode.svg"
+  "schem-ground.svg": "https://gist.github.com/taxilian/a7d1cca34d08baa8f98a3d6d4b408e55/raw/ee7b08b28dfebdf4d772f4b420f857c5deaf9a03/schem-ground.svg"
+  "schem-inductor.svg": "https://gist.github.com/taxilian/a7d1cca34d08baa8f98a3d6d4b408e55/raw/ee7b08b28dfebdf4d772f4b420f857c5deaf9a03/schem-inductor.svg"
+  "schem-led.svg": "https://gist.github.com/taxilian/a7d1cca34d08baa8f98a3d6d4b408e55/raw/ee7b08b28dfebdf4d772f4b420f857c5deaf9a03/schem-led.svg"
+  "schem-npn.svg": "https://gist.github.com/taxilian/a7d1cca34d08baa8f98a3d6d4b408e55/raw/ee7b08b28dfebdf4d772f4b420f857c5deaf9a03/schem-npn.svg"
+  "schem-pnp.svg": "https://gist.github.com/taxilian/a7d1cca34d08baa8f98a3d6d4b408e55/raw/ee7b08b28dfebdf4d772f4b420f857c5deaf9a03/schem-pnp.svg"
+  "schem-potentiometer.svg": "https://gist.github.com/taxilian/a7d1cca34d08baa8f98a3d6d4b408e55/raw/ee7b08b28dfebdf4d772f4b420f857c5deaf9a03/schem-potentiometer.svg"
+  "schem-resistor.svg": "https://gist.github.com/taxilian/a7d1cca34d08baa8f98a3d6d4b408e55/raw/ee7b08b28dfebdf4d772f4b420f857c5deaf9a03/schem-resistor.svg"
+  "schem-spdt.svg": "https://gist.github.com/taxilian/a7d1cca34d08baa8f98a3d6d4b408e55/raw/ee7b08b28dfebdf4d772f4b420f857c5deaf9a03/schem-spdt.svg"
+  "schem-spst.svg": "https://gist.github.com/taxilian/a7d1cca34d08baa8f98a3d6d4b408e55/raw/ee7b08b28dfebdf4d772f4b420f857c5deaf9a03/schem-spst.svg"
+  "schem-transformer.svg": "https://gist.github.com/taxilian/a7d1cca34d08baa8f98a3d6d4b408e55/raw/ee7b08b28dfebdf4d772f4b420f857c5deaf9a03/schem-transformer.svg"
+  "schem-varcapacitor.svg": "https://gist.github.com/taxilian/a7d1cca34d08baa8f98a3d6d4b408e55/raw/ee7b08b28dfebdf4d772f4b420f857c5deaf9a03/schem-varcapacitor.svg"
+  "schem-varinductor.svg": "https://gist.github.com/taxilian/a7d1cca34d08baa8f98a3d6d4b408e55/raw/ee7b08b28dfebdf4d772f4b420f857c5deaf9a03/schem-varinductor.svg"
 ---
 
 ### Section 2.4: Circuit Diagrams and Schematic Symbols
