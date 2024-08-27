@@ -1,15 +1,24 @@
 ---
 title: About Amateur Radio
 questions: ["T1A01", "T1A02"]
+gistMap:
+    aboutradio.svg: "https://gist.github.com/taxilian/a7d1cca34d08baa8f98a3d6d4b408e55/raw/11758be2cfd8c2ff43a6aab97e55d2aca478ea02/aboutradio.svg"
+    kidsfun1.svg: "https://gist.github.com/taxilian/a7d1cca34d08baa8f98a3d6d4b408e55/raw/a5789589185716a43748777ddfb7be48f2ba3b2c/kidsfun1.svg"
+    morethanhobby.svg: "https://gist.github.com/taxilian/a7d1cca34d08baa8f98a3d6d4b408e55/raw/a5789589185716a43748777ddfb7be48f2ba3b2c/morethanhobby.svg"
 ---
 
 # About Amateur Radio
+
 
 Amateur radio, often called "ham radio," is more than just a hobby—it's a community of enthusiasts who connect with others, experiment with electronics, and provide vital communication during emergencies. Unlike the internet, cell towers, or the electrical grid, amateur radio can operate independently, keeping you connected no matter where you are or what’s happening around you. Whether you’re chatting with a neighbor, tinkering with a new antenna, or helping out in a crisis, amateur radio opens up a world of possibilities.
 
 > You might see "HAM" radio written in all caps, and that’s understandable—there’s been confusion over where the term comes from. Some think it’s an acronym, and while it has been used that way, "ham" actually started as a playful jab at clumsy operators. Over time, it evolved into the friendly term we use today. So, while "HAM" in all caps might irk some old-timers, don’t worry—we won’t give you too much grief. Just know that "ham" works perfectly fine, lowercase and all!
 
 ## A World of Possibilities
+
+<div style="text-align: center">
+    <img src="../../images/illus/aboutradio.svg" alt="Ground Schematic Symbol" width="500" style="text-align: center">
+</div>
 
 Imagine staying in touch when everything else is down—no cell service, no internet, not even power. With amateur radio, you’re not just using someone else’s network; you’re creating your own. Whether you’re deep in the mountains or in the middle of a city blackout, your radio keeps you connected.
 
@@ -18,7 +27,7 @@ Ham radio operators are known for making things work, even in the toughest condi
 Even as a Technician class operator, you will have access to VHF and UHF frequencies, perfect for local and regional communication. With repeaters, you can extend your range even further, making amateur radio a tool for adventure and exploration, no matter where you are.
 
 ## More Than Just a Hobby
-
+<img src="../../images/illus/morethanhobby.svg" alt="Ground Schematic Symbol" width="250" align="right" style="margin-left: 2em">
 Sure, amateur radio is fun, but it’s also a vital tool in emergencies. When disasters strike and cell towers go down, ham radio operators often step in to keep communication lines open. During Hurricane Maria in 2017, when Puerto Rico’s communication systems were wiped out, hams were there, helping coordinate relief efforts and reconnect families.
 
 For example, during Hurricane Maria in 2017, amateur radio operators in Puerto Rico provided critical communication support when much of the island's infrastructure was destroyed. They relayed emergency messages, helped coordinate relief efforts, and even assisted in reuniting families who had lost contact during the disaster.
@@ -32,10 +41,12 @@ Ham radio has a long history of innovation. Many of the technologies we take for
 In 2014, a group of hams made headlines by repurposing an old NASA satellite for amateur use. The ISEE-3 satellite, launched in 1978 and long forgotten, was brought back to life by these innovative hams, showcasing the ingenuity that defines the amateur radio community.
 
 ## A Hobby for Everyone
-
+<img src="../../images/illus/kidsfun1.svg" alt="Ground Schematic Symbol" width="250" align="left" style="margin-right: 2em">
 Whether you’re into the technical side of things, enjoy making long-distance contacts, or just want to be prepared in case of an emergency, amateur radio has something to offer. It’s a hobby that spans generations, bringing together people of all ages who share a love for radio communication.
 
 As you dive into amateur radio, you’ll find a community ready to help you learn, grow, and connect. Whether it’s through local club meetings or global contests, there are endless opportunities to make new friends and discover new aspects of the hobby.
+
+<div style="clear:both;"></div>
 
 ## The purpose of Amateur Radio
 
