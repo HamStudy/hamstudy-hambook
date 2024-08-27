@@ -55,6 +55,6 @@ Here's a nifty feature you'll find on many VHF/UHF transceivers: the Reverse fun
 
 #### Learn Your Radio!
 
-Remember, every radio is a bit different, so don't be afraid to crack open that manual. Yeah, I know, reading manuals isn't as fun as making contacts. But trust me, a little reading now will save you a lot of head-scratching later.
+Remember, every radio is a bit different, so don't be afraid to crack open that owner's manual. Yeah, I know, reading manuals isn't as fun as making contacts. But trust me, a little reading now will save you a lot of head-scratching later.
 
 So there you have it - your crash course in FM radio controls. Now get out there and start spinning those dials! Just remember, if you accidentally transmit your karaoke session to the entire repeater network, we'll pretend we didn't hear it. Happy operating!

@@ -49,7 +49,7 @@ In amateur radio, power is crucial because it directly influences:
 
 Understanding these four basic quantities will help you make sense of equipment specifications, troubleshoot problems, and ensure you're operating your station safely and efficiently.
 
-#### Decibels
+##### Decibels
 
 In radio (or audio for that matter), we often use decibels (dB) to express ratios of power. Decibels are logarithmic units, which makes them useful for expressing large ratios in manageable numbers.
 
@@ -159,7 +159,7 @@ Understanding AC and DC is crucial for working with power supplies and ensuring 
 
 While resistance opposes the flow of current, inductance and capacitance deal with changes in current and voltage, which are crucial in tuning and filtering radio signals.
 
-#### Inductance
+##### Inductance
 
 Inductance is the property of an electrical circuit that opposes changes in current. It's measured in henries (H), named after the American scientist Joseph Henry.
 
@@ -172,7 +172,7 @@ In ham radio, inductors are used to:
 - Filter out unwanted signals, so you only hear what you want.
 - Create oscillators that generate radio signals.
 
-#### Capacitance
+##### Capacitance
 
 Capacitance is the ability of a component to store an electric charge. It's measured in farads (F), named after the English physicist Michael Faraday.
 

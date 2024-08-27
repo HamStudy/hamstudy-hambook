@@ -1,15 +1,15 @@
 ---
-title: "How to use this manual"
+title: "How to use this HamBook"
 questions: []
 ---
 
-# How to Use This Manual
+# How to Use This HamBook
 
-Welcome to your guide for the Technician Class amateur radio license! This manual is designed to help you understand the concepts and regulations you'll need to know to pass your exam and start your journey as a ham radio operator. Here's how to get the most out of this resource:
+Welcome to your guide for the Technician Class amateur radio license! This book is designed to help you understand the concepts and regulations you'll need to know to pass your exam and start your journey as a ham radio operator. Here's how to get the most out of this resource:
 
-## Structure of the Manual
+## Structure of the HamBook
 
-This manual is divided into two main parts:
+This HamBook is divided into two main parts:
 
 1. **The Science Behind Amateur Radio**: This section covers the technical aspects of radio, including electrical principles, radio wave behavior, and antenna basics.
 
@@ -23,11 +23,11 @@ Each chapter breaks down complex topics into easy-to-understand segments, with k
 - **Practice Questions**: At the end of each section, you'll find practice questions similar to those on the actual exam. Use these to test your understanding.
 - **Hands-On Learning**: Whenever possible, try to apply what you're learning. If you have access to amateur radio equipment, practice using it (under the supervision of a licensed operator, of course).
 
-## Using This Manual with the HamStudy App
+## Using This HamBook with the HamStudy App
 
-This manual is designed to work seamlessly with the HamStudy mobile application, enhancing your study experience:
+This HamBook is designed to work seamlessly with the HamStudy mobile application, enhancing your study experience:
 
-1. **Book-Aligned Study**: When you first open the Technician pool in the HamStudy app, you'll have the option to align your studies with this manual. This ensures that the app's question organization matches the book's structure.
+1. **Book-Aligned Study**: When you first open the Technician pool in the HamStudy app, you'll have the option to align your studies with this book. This ensures that the app's question organization matches the book's structure.
 
 2. **Targeted Practice**: You can use the app to focus on specific sections of the book. For instance, if you've just finished reading Chapter 1, Section 1.2, you can tell the app to quiz you on just those questions.
 
@@ -40,7 +40,7 @@ This manual is designed to work seamlessly with the HamStudy mobile application,
 ## Making the Most of Your Study Time
 
 1. **Set a Schedule**: Dedicate regular time to study. Consistency is key!
-2. **Use Multiple Methods**: Combine reading the manual, using the HamStudy app, and practicing with real equipment for a well-rounded approach.
+2. **Use Multiple Methods**: Combine reading your HamBook, using the HamStudy app, and practicing with real equipment for a well-rounded approach.
 3. **Join a Study Group**: Many local ham radio clubs offer study sessions. This can be a great way to learn and make connections in the ham community.
 4. **Take Practice Tests**: Use the HamStudy app to take full practice tests when you feel ready. This will help you get comfortable with the exam format and give you an idea of how ready you are to take the license exam.
 

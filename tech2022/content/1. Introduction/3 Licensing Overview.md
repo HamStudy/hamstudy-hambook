@@ -9,7 +9,7 @@ Becoming a licensed amateur radio operator in the United States involves passing
 
 ## License Classes
 
-1. **Technician Class**: This is the entry-level license and the focus of this manual. It provides operating privileges on all VHF and UHF amateur bands and some limited privileges on HF bands.
+1. **Technician Class**: This is the entry-level license and the focus of this book. It provides operating privileges on all VHF and UHF amateur bands and some limited privileges on HF bands.
 
 2. **General Class**: The next step up, requiring passage of both the Technician and General exams. It grants significantly more HF privileges.
 

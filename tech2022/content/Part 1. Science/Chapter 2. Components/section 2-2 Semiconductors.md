@@ -8,7 +8,7 @@ gistMap:
 
 Semiconductors are the building blocks of modern electronics. They’re special materials that can act as both a conductor (letting electricity flow) and an insulator (blocking electricity), depending on how they’re used. This unique property allows us to create all sorts of devices that control electricity in useful ways.
 
-### Diodes: One-Way Streets
+#### Diodes: One-Way Streets
 
 A diode is like a one-way street for electricity—it only allows current to flow in one direction. Think of it as a one-way valve in plumbing: water (or in this case, electrical current) can flow through, but only one way. If you try to push current the other way, the diode blocks it.
 

@@ -1,12 +1,12 @@
 ---
-title: "Table of Contents: HamStudy Technician License Manual (2022-2026)"
+title: "Table of Contents: HamStudy Technician License HamBook (2022-2026)"
 ---
 
-# HamStudy: Technician License Manual (2022-2026)
+# HamStudy: Technician License HamBook (2022-2026)
 
 ## Introduction
 - About Amateur Radio
-- How to Use This Manual
+- How to Use This HamBook
 - Overview of Licensing Process
 
 ## Part 1: The Science Behind Amateur Radio

@@ -19,6 +19,11 @@ Where:
 
 In plain English, Ohm's Law is saying, "The voltage across a component is equal to the current flowing through it times its resistance." It’s like figuring out how much push (voltage) is needed to get the right amount of flow (current) through a certain resistance.
 
+Applying a little basic algebra we can modify this to give us any of the three units provided we have the other two. It's the same formula, just mutated around! For your reference, though, here are the other two ways to write it:
+
+$$I \text{ (Current)} = \frac{V}{I}$$
+$$R \text{ (Resistance)} = \frac{V}{R}$$
+
 **Example 1**: 
 Let’s say you have a resistor with a resistance of 10 ohms, and there’s 2 amps of current running through it. According to Ohm's Law:
 
