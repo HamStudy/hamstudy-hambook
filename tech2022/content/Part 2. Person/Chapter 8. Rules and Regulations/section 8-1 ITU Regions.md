@@ -1,3 +1,6 @@
+---
+questions: []
+---
 
 ### Section 8.1: ITU Regions
 

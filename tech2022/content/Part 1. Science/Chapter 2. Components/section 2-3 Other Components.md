@@ -1,3 +1,6 @@
+---
+questions: [ "T6D02", "T6D03", "T6D06" ]
+---
 
 ### Section 2.3: Other Components
 

@@ -1,3 +1,7 @@
+---
+questions: [ "T2B07", "T8D13", "T8D01", "T8D04", "T8D06", "T8D11", "T4A06", "T4B09", "T8D02", "T8D05", "T8D07", "T8D08", "T8D10", "T8D03", "T8D12", "T2B12", "T4A04", "T4A07", "T4A10", "T4B07", "T4B11" ]
+---
+
 ### Section 3.7: Digital and Video Modes
 
 Welcome to the digital age of amateur radio! If voice modes are like having a conversation, digital modes are like sending text messages or emails through the airwaves. And video? You might be surprised to know that it's been possible to send pictures and even television via Amateur Radio for decades!

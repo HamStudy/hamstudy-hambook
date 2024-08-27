@@ -1,3 +1,7 @@
+---
+questions: [ "T8A01", "T8A06", "T8A02", "T8A03", "T8A04", "T8A05", "T8A07", "T8A08", "T8A09", "T8A10", "T8A11" ]
+---
+
 ### Section 3.6: Modulation Modes and Bandwidth
 
 Imagine you're at a busy train station. You see trains of all shapes and sizes, carrying different types of cargo. Some are sleek passenger trains, others are long freight trains. In the world of radio, our "trains" are carrier waves, and the "cargo" is the information we want to send. The way we load this information onto our carrier wave is called modulation.

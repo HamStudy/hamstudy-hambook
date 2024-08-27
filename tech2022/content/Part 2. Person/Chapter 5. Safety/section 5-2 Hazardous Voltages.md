@@ -1,3 +1,6 @@
+---
+questions: []
+---
 
 ### Section 5.2: Hazardous Voltages
 

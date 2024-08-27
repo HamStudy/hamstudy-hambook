@@ -1,3 +1,7 @@
+---
+questions: [ "T1E10", "T1E08", "T1E07", "T1E03", "T1D07", "T1E11", "T1E01", "T1E04", "T1E05", "T1E06", "T1E09", "T1F01", "T1F10" ]
+---
+
 ### Section 8.7: Control Operator and Control Types
 
 Let's dive into the world of control operators and control types - it's all about who's responsible for what's going out over the airwaves!

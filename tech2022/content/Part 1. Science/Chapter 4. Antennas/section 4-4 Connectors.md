@@ -1,3 +1,6 @@
+---
+questions: [ "T9B07", "T9B06" ]
+---
 ### Section 4.4: Connectors
 
 Ever tried to plug your phone charger into a USB-C port, only to realize it's micro-USB? That's the world of connectors in a nutshell. In ham radio, getting the right connection is crucial—it's the handshake between your radio and antenna.

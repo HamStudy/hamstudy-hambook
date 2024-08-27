@@ -1,6 +1,5 @@
 ---
-questions:
-- T5A09
+questions: [ "T0A06", "T0A02", "T0A03" ]
 ---
 
 ### Section 5.1: AC Power

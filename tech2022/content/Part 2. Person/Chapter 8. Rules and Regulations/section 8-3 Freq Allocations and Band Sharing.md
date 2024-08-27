@@ -1,3 +1,7 @@
+---
+questions: [ "T1A08", "T1A09", "T2A10", "T2B08", "T2B09", "T1B08" ]
+---
+
 ### Section 8.3: Frequency Allocations and Band Sharing
 
 Now that we've covered the specific frequencies available to Technician class operators, let's zoom out and look at the bigger picture of how the radio spectrum is allocated and shared. It's like figuring out where your favorite hangout spots are in a big, busy city – and how to share them with others!

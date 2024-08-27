@@ -1,3 +1,7 @@
+---
+questions: [ "T0A01", "T6A10", "T6A11", "T0A10", "T4A09" ]
+---
+
 ### Section 5.4: Batteries
 
 Ah, batteries—the lifeblood of portable ham radio! Whether you're operating from a mountaintop or preparing for emergencies, these portable powerhouses keep us on the air. But like any good superhero, they come with their own kryptonite. Let’s dive into the world of batteries and learn how to harness their power safely and effectively.

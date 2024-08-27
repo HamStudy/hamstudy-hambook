@@ -1,3 +1,6 @@
+---
+questions: [ "T3B10", "T3B08", "T3B09" ]
+---
 
 ### Section 3.2: The Electromagnetic Spectrum
 

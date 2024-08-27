@@ -1,6 +1,6 @@
 ---
 title: "Overview of the Licensing Process"
-questions: ["T1C01", "T1C04", "T1C07", "T1C08", "T1C09", "T1C10", "T1C11"]
+questions: [ "T1C09", "T1C11", "T1C08", "T1C01", "T1C10", "T1C04", "T1C07" ]
 ---
 
 # Overview of the Licensing Process

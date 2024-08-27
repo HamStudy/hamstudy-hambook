@@ -1,3 +1,7 @@
+---
+questions: [ "T4B02", "T4B04", "T7A07", "T4B08", "T4A12", "T4B01", "T4B06", "T4B10" ]
+---
+
 ### Section 6.4: Operating Controls for All-Mode Transceivers
 
 Operating an all-mode transceiver opens up a whole new world of communication possibilities. These radios can handle various modes, including SSB, CW, FM, and digital, making them versatile tools for any ham. Let's break down the key controls and settings you'll need to master to get the most out of your all-mode rig.

@@ -1,3 +1,7 @@
+---
+questions: [ "T1F05", "T2A06", "T1A03", "T1D11", "T1F02", "T1F03", "T1F04", "T1F06" ]
+---
+
 ### Section 8.5: Station Identification
 
 Alright, fellow hams, let's talk about one of the most fundamental rules in amateur radio: station identification. It's like signing your name, but over the airwaves!

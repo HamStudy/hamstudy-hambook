@@ -1,3 +1,6 @@
+---
+questions: [ "T3C01", "T2A11", "T2A02" ]
+---
 
 ### Section 3.4: VHF and UHF Waves
 

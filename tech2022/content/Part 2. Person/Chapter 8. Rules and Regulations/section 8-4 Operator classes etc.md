@@ -1,5 +1,5 @@
 ---
-questions: ['T1C02']
+questions: [ "T2C03", "T1A04", "T1C02", "T1C01", "T1F11", "T1A05", "T1C05", "T1C04", "T1C07" ]
 ---
 
 ### Section 8.4: Operator Classes, Privileges, and Call Signs

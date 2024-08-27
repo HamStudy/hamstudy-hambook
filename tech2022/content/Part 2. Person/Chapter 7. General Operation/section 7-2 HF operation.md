@@ -1,3 +1,7 @@
+---
+questions: [ "T2A05", "T2A12", "T2C03", "T8D09" ]
+---
+
 ### Section 7.2: HF Operation
 
 Alright, new Technicians, let's take a peek into the world of HF (High Frequency) operation. Now, I know what you're thinking: "But I'm a Technician, I don't have many HF privileges!" True, but you do have some, and understanding HF operation is still useful both for the license exam and for possible future operations if you upgrade your license!

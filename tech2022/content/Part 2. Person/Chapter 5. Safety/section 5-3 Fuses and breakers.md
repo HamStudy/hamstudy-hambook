@@ -1,3 +1,6 @@
+---
+questions: [ "T6A09", "T0A04", "T0A05", "T0A08" ]
+---
 
 ### Section 5.3: Fuses and Circuit Breakers
 

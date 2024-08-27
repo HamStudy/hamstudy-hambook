@@ -1,3 +1,7 @@
+---
+questions: [ "T6D04", "T7C01", "T7C03", "T7D04", "T0A12", "T7D01", "T7D02", "T7D03", "T7D06", "T7D07", "T7D09", "T7D11", "T0A11", "T7D08", "T7D10" ]
+---
+
 ### Section 6.8: Basic Repair and Testing
 
 #### Introduction to Test Equipment

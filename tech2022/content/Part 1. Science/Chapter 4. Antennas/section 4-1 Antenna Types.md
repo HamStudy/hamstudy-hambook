@@ -1,3 +1,7 @@
+---
+questions: [ "T9A01", "T9A10", "T9A02", "T9B04", "T9A04", "T9A05", "T9A11", "T9A12", "T9A06" ]
+---
+
 ### Section 4.1: Antenna Types
 
 Imagine you're at a party, trying to talk to a friend across a noisy room. You might cup your hands around your mouth to direct your voice, or turn your ear towards your friend to hear better. Antennas in radio work similarly - they're all about directing radio energy where you want it to go, and picking up signals you want to hear.

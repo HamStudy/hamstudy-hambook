@@ -1,3 +1,7 @@
+---
+questions: [ "T1A06" ]
+---
+
 ### Section 3.5: HF Waves
 
 #### Introduction to HF

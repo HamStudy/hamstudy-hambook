@@ -1,3 +1,7 @@
+---
+questions: [ "T2B01", "T2B13", "T4B02", "T4B04", "T4B05", "T7A07", "T2B06", "T4B03" ]
+---
+
 ### Section 6.3: Operating Controls for FM Transceivers
 
 Alright, new hams, let's get our hands dirty with the knobs and buttons you'll be twiddling on your shiny new FM radio! Whether you're rocking a handheld (HT) or a mobile VHF/UHF rig, knowing your way around these controls is key to having a blast on the airwaves.

@@ -1,7 +1,5 @@
 ---
-questions:
-- T4B03
-- T4B06
+questions: [ "T6D05", "T4A03", "T4A01", "T4A02", "T4A05" ]
 ---
 
 ### Section 6.1: Station Accessories
