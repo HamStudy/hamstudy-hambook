@@ -1,3 +1,7 @@
+---
+questions: [ "T5D07", "T5D12", "T5D10", "T5D09", "T5D08", "T5D02", "T5D06", "T5D01", "T5D03", "T5D11", "T5C08", "T5C09", "T5C10", "T5C11", "T5D04", "T5D05" ]
+---
+
 ### Section 1.3: Electrical Laws (and Math)
 
 Okay, let's get into some of the basic math and electrical laws you'll use all the time in amateur radio. Don't worry—this isn’t rocket science (though I imagine rocket scientists would use this as well!). We’re talking about Ohm’s Law and the Power Law, which are like the peanut butter and jelly of electronics. They go together perfectly and once you get the hang of them, you'll see they're not that hard to digest.

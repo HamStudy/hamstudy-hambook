@@ -1,7 +1,5 @@
 ---
-questions:
-- T5C01
-- T5C03
+questions: [ "T6A04", "T6A12", "T6A01", "T5D14", "T6A02", "T6A03", "T6A06", "T5D13", "T6A05", "T6A07", "T6D08", "T6A08" ]
 ---
 
 ### Section 2.1: Passive Components
