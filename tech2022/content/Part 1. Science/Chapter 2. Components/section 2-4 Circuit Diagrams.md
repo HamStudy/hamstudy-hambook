@@ -12,56 +12,106 @@ Think of a schematic diagram as a map of an electronic circuit. Instead of roads
 
 Let's decode some common symbols you'll encounter:
 
+#### Passive Components: Resistors, Capacitors, and Inductors
+
+These components are the backbone of most circuits, controlling the flow and storage of electrical energy.
+
 **Resistor**: 
 Represented by a zigzag line or a rectangle. It's the traffic cop of the circuit, controlling current flow.
+
+<img src="../../../images/schem-resistor.svg" alt="Resistor Schematic Symbol" width="100" height="100">
+
+&nbsp;
 
 **Capacitor**: 
 Shown as two parallel lines. If one of the lines is curved, it represents a polarized capacitor (like an electrolytic capacitor).
 
+<img src="../../../images/schem-capacitor.svg" alt="Capacitor Schematic Symbol" width="100" height="100">
+
+&nbsp;
+
 **Inductor**: 
 Drawn as a series of loops or coils. It's the component that stores energy in a magnetic field.
+
+<img src="../../../images/schem-inductor.svg" alt="Inductor Schematic Symbol" width="100" height="100">
+
+&nbsp;
+
+**Variable Capacitor & Variable Inductor**:
+These components allow for tuning circuits, such as in radios, by adjusting their capacitance or inductance.
+
+| Component Type       | Schematic Symbol                                         |
+|----------------------|----------------------------------------------------------|
+| Variable Capacitor    | <img src="../../../images/schem-varcapacitor.svg" alt="Variable Capacitor Schematic Symbol" width="100" height="100"> |
+| Variable Inductor     | <img src="../../../images/schem-varinductor.svg" alt="Variable Inductor Schematic Symbol" width="100" height="100"> |
+
+&nbsp;
+
+#### Active Components: Diodes, Transistors, and LEDs
+
+Active components are crucial for amplifying signals, controlling current flow, and converting energy from one form to another.
 
 **Diode**: 
 Appears as a triangle pointing at a line. Remember, current flows in the direction the triangle points!
 
+<img src="../../../images/schem-diode.svg" alt="Diode Schematic Symbol" width="100" height="100">
+
 **LED (Light Emitting Diode)**: 
 Similar to a regular diode, but with two arrows pointing away to represent light emission.
+
+<img src="../../../images/schem-led.svg" alt="LED Schematic Symbol" width="100" height="100">
 
 **Transistor**: 
 Usually shown as a circle with three lines attached. The specific arrangement depends on the type of transistor (NPN, PNP, etc.).
 
+| Transistor Type  | Schematic Symbol                                         |
+|------------------|----------------------------------------------------------|
+| NPN Transistor   | <img src="../../../images/schem-npn.svg" alt="NPN Transistor Schematic Symbol" width="100" height="100"> |
+| PNP Transistor   | <img src="../../../images/schem-pnp.svg" alt="PNP Transistor Schematic Symbol" width="100" height="100"> |
+
+&nbsp;
+
+#### Power Components: Batteries, Transformers, and Ground
+
+These components are related to the power management and flow within circuits.
+
 **Battery**: 
-Represented by long and short parallel lines. The longer line is the positive terminal, the shorter one is negative. You might see several of these stacked to indicate higher voltages.
+Represented by long and short parallel lines. The longer line is the positive terminal, the shorter one is negative.
+
+<img src="../../../images/schem-battery.svg" alt="Battery Schematic Symbol" width="100" height="100">
+
+**Transformer**:
+Depicted as two sets of coils with lines between them, representing the primary and secondary windings.
+
+<img src="../../../images/schem-transformer.svg" alt="Transformer Schematic Symbol" width="100" height="100">
 
 **Ground**: 
-Typically shown as a horizontal line with smaller vertical lines below it, or sometimes as a downward-pointing triangle. It's the reference point for voltage measurements in the circuit.
+Shown as a horizontal line with smaller vertical lines below it, or sometimes as a downward-pointing triangle. It's the reference point for voltage measurements in the circuit.
 
-**Lamp**: 
-Often depicted as a circle with a cross inside it. In ham radio, you might see this used for indicator lights.
+<img src="../../../images/schem-ground.svg" alt="Ground Schematic Symbol" width="100" height="100">
+
+&nbsp;
+
+#### Signal and Control Components: Antennas, Switches, and Potentiometers
+
+These components are essential for controlling the flow of signals and adjusting the behavior of circuits.
 
 **Antenna**: 
-Looks like a triangle with zigzag lines above it. It's how your radio says "hello" to the world!
+There are a few variations, but the one we see in the examples in the question pool looks like a triangle with the "tip" of the triangle towards the circuit.
 
-**Switches**: 
-- SPST (Single Pole, Single Throw): Shown as a line that can connect to one other point.
-- SPDT (Single Pole, Double Throw): Represented as a line that can connect to either of two other points.
-- DPDT (Double Pole, Double Throw): Like two SPDT switches controlled by one mechanism.
+<img src="../../../images/schem-antenna.svg" alt="Antenna Schematic Symbol" width="100" height="100">
 
-**Fuse**: 
-A fuse looks like a little box with a squiggly line inside. It's your circuit's safety valve, breaking the connection if too much current flows.
+**Switches**:
 
-**Potentiometer**: 
-This variable resistor is shown as a resistor symbol with an arrow through it. It's what allows you to adjust volume or other settings smoothly.
+| Switch Type           | Schematic Symbol                                         |
+|-----------------------|----------------------------------------------------------|
+| SPST (Single Pole, Single Throw) | <img src="../../../images/schem-spst.svg" alt="SPST Switch Schematic Symbol" width="100" height="100"> |
+| SPDT (Single Pole, Double Throw) | <img src="../../../images/schem-spdt.svg" alt="SPDT Switch Symbol" width="100" height="100"> |
 
-**Variable Inductor**: 
-This is drawn as a coil with a diagonal arrow through it. You'll often find these in antenna tuners, allowing for adjustable inductance.
+**Potentiometer / Variable Resistor**: 
+This variable resistor is shown as a resistor symbol with an arrow through it.
 
-**Variable Capacitor**: 
-Similar to the variable inductor, this uses the capacitor symbol with a diagonal arrow. These are crucial in tuning circuits for radios.
-
-Fun fact: The diode symbol is like a little signpost. The triangle points in the direction that current is allowed to flow!
-
-Schematic Shenanigans: Ever noticed how some complex schematics look like abstract art? Some engineers and hobbyists have been known to create circuit designs in fun shapes for special occasions. Imagine a Christmas tree schematic that actually works as a blinking light circuit!
+<img src="../../../images/schem-potentiometer.svg" alt="Potentiometer Schematic Symbol" width="100" height="100">
 
 #### Reading Between the Lines
 

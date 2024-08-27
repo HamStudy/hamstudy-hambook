@@ -1,5 +1,7 @@
 ---
 questions: [ "T6B02", "T6B11", "T6B06", "T6B08", "T6D07", "T6D01", "T6D09", "T6B03", "T6B04", "T6B09", "T6B10", "T6B01", "T6B05", "T6B07", "T6B12" ]
+gistMap:
+   "schem-bridgerectifier.svg": "https://gist.github.com/taxilian/a7d1cca34d08baa8f98a3d6d4b408e55/raw/65fa82634729e8d9f46857591488b125cff4c767/schem-bridgerectifier.svg"
 ---
 
 ### Section 2.2: Semiconductors
@@ -31,9 +33,9 @@ Diodes are used in many circuits, especially in converting AC (alternating curre
 
 A rectifier is a specific type of circuit that uses diodes to convert AC (which flows back and forth) into DC (which flows in only one direction). This process is crucial in power supplies, where the alternating current from the wall outlet needs to be converted into the direct current that most electronic devices require.
 
+<img src="../../../images/schem-bridgerectifier.svg" alt="Full Bridge Rectifier Schematic Symbol" width="100" height="100" align="right">
 In a basic rectifier circuit, diodes are arranged so that they only allow current to pass when it’s flowing in the desired direction, effectively “chopping up” the AC into DC. In a "full bridge" rectifier two paths are created through the diodes so that whichever direction current flows in it will always flow out the same direction.
 
-![Full Bridge Rectifier Schematic Symbol](schem-bridgerectifier.svg "Full Bridge Rectifier")
 
 - **Key Points:**
   - **Function:** Rectifiers convert AC into varying DC using diodes.

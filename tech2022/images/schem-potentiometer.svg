@@ -3,20 +3,18 @@
   <defs>
     <style>
       .cls-1 {
-        stroke: #000;
         stroke-linejoin: bevel;
-        stroke-width: 3.5px;
       }
 
       .cls-1, .cls-2 {
         fill: none;
+        stroke: #000;
         stroke-linecap: round;
+        stroke-width: 3.5px;
       }
 
       .cls-2 {
-        stroke: #010101;
         stroke-linejoin: round;
-        stroke-width: 3px;
       }
 
       .cls-3 {
@@ -28,13 +26,10 @@
   <g>
     <g id="Layer_1">
       <rect class="cls-3" width="100" height="100"/>
-      <path id="path3970" class="cls-1" d="M95,25h-15l-5-10-10,20-10-20-10,20-10-20-10,20-5-10H5"/>
-      <g>
-        <rect class="cls-2" x="24.7" y="65.7" width="50.6" height="17.9"/>
-        <line class="cls-2" x1="33.6" y1="65.7" x2="33.6" y2="83.2"/>
-        <line class="cls-2" x1="66" y1="66.4" x2="66" y2="84.3"/>
-        <line class="cls-2" x1="5" y1="75" x2="24.7" y2="75"/>
-        <line class="cls-2" x1="75.3" y1="75" x2="95" y2="75"/>
+      <g id="g1299">
+        <path id="path1222" class="cls-1" d="M5,63.5h13.5l4.5,9,9-18,9,18,9-18,9,18,9-18,9,18,4.5-9h13.5"/>
+        <path id="path1233" class="cls-2" d="M50,50v-22.5"/>
+        <path id="path1235" class="cls-2" d="M41,41l9,9,9-9"/>
       </g>
     </g>
   </g>
