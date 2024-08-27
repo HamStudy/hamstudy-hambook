@@ -1,34 +1,3 @@
----
-questions: 
-- T5A01
-- T5A02
-- T5A03
-- T5A04
-- T5A05
-- T5A09
-- T5A10
-- T5A11
-- T5A12
-- T5C01
-- T5C02
-- T5C03
-- T5C04
-- T6D08
-- T5B01
-- T5B02
-- T5B03
-- T5B04
-- T5B05
-- T5B06
-- T5B07
-- T5B08
-- T5B09
-- T5B10
-- T5B11
-- T5B12
-- T5B13
----
-
 ### Section 1.2: Electrical Units and Quantities
 
 To understand how our radios work, we need to familiarize ourselves with some basic electrical quantities. Let's start with the "big three": voltage, current, and resistance.
@@ -37,7 +6,7 @@ To understand how our radios work, we need to familiarize ourselves with some ba
 
 Imagine electricity as water flowing through a pipe system. This analogy, while not perfect, can help us visualize these abstract concepts.
 
-**Voltage** is like the water pressure in the pipes. It's the force that causes electron flow – the force that pushes electrons through the circuit. We measure voltage in volts (V). In your ham shack, you might encounter various voltages:
+**Voltage** is like the water pressure in the pipes. It's the force that pushes electrons through a circuit. We measure voltage in volts (V). In your ham shack, you might encounter various voltages:
 
 - 12V DC from a car battery or power supply
 - 120V AC from a wall outlet
@@ -45,25 +14,56 @@ Imagine electricity as water flowing through a pipe system. This analogy, while 
 
 Voltage is always measured between two points. When we say a car battery is 12V, we mean there's a 12V difference between its positive and negative terminals.
 
-**Current** is like the amount of water flowing through the pipes. It's the actual flow (movement) of electrons through a conductor. We measure current in amperes, or amps (A). In amateur radio, you might deal with:
+**Current** is like the amount of water flowing through the pipes. It's the actual flow of electrons through a conductor. We measure current in amperes, or amps (A). In amateur radio, you might deal with:
 
 - Milliamps (mA) in low-power circuits
 - A few amps powering a mobile transceiver
 - 15-20 amps for a high-power HF amplifier
 
-**Resistance** is like the friction in the pipes that opposes the flow of water. In electrical terms, it's the opposition to the flow of current. We measure resistance in ohms (Ω). Resistance is crucial in radio circuits:
+**Resistance** is like the friction in the pipes that opposes the flow of water. In electrical terms, it's the opposition to the flow of current. We measure resistance in ohms ($\Omega$). Resistance is crucial in radio circuits:
 
 - Low resistance in antenna connections for efficient signal transfer
 - High resistance in dummy loads to safely absorb transmitter power
 - Specific resistances in filter circuits to shape frequency response
 
-Here's a fun fact: resistance doesn't discriminate! Whether it's DC steadily flowing in one direction, or AC swinging back and forth, resistance opposes all types of current flow.
+These three quantities are intimately related through Ohm's Law, which is explained in more detail in Section 1.3.
 
-These three quantities are intimately related through Ohm's Law, which we'll explore shortly.
+#### Power
 
-Real-world example: Let's say you're setting up a mobile ham station in your car. You connect your 50W VHF/UHF transceiver to the car's 12V battery. The radio draws about 8A of current when transmitting at full power. Using Ohm's Law (which we'll discuss next), we can calculate that the effective resistance of the radio is 1.5Ω ($\frac{12V}{8A} = 1.5Ω$).
+Power is the rate at which electrical energy is used or generated in a circuit. In simpler terms, it’s a measure of how much work is being done by the electricity in your circuit. We measure power in watts (W), but if Voltage is the pressure in the pipe and Current is the rate of flow, Power is a measure of the two together – rate of flow at a given pressure, or to remove the metaphor it's current draw at a given voltage.
 
-Understanding these basic quantities will help you make sense of equipment specifications, troubleshoot problems, and ensure you're operating your station safely and efficiently.
+We'll discuss this more in the next section (Section 1.3) but Power is defined as the product of voltage and current:
+$$\text{Power Law}: P = I \times V$$
+
+In amateur radio, power is crucial because it directly influences:
+
+- **Transmission Range**: The more power your transmitter outputs, the further your signal can travel.
+- **Heat Generation**: More power means more heat, which needs to be managed to prevent damage to your equipment.
+- **Power Supply Requirements**: You need to ensure your power supply can provide enough power to your radio and accessories.
+
+Understanding these four basic quantities will help you make sense of equipment specifications, troubleshoot problems, and ensure you're operating your station safely and efficiently.
+
+#### Decibels
+
+In radio (or audio for that matter), we often use decibels (dB) to express ratios of power. Decibels are logarithmic units, which makes them useful for expressing large ratios in manageable numbers.
+
+Some key decibel values to remember:
+
+- 3 dB represents a doubling or halving of power
+- 10 dB is a tenfold increase or decrease in power
+- Positive numbers means gain, negative means loss, so:
+  - +3dB is a doubling
+  - -3dB is a halving
+
+Real-world example: If you upgrade your antenna and get a 3 dB gain, it's equivalent to doubling your transmitter power! This is why many hams say, "If you can't raise your power, raise your antenna."
+
+Understanding these concepts of AC, DC, and power will help you make informed decisions about your station setup, interpret equipment specifications, and troubleshoot issues effectively.
+
+Here are the specific examples you might need to answer you take your exam:
+
+- Power increase from 5 watts to 10 watts: **3 dB**
+- Power decrease from 12 watts to 3 watts: **-6 dB**
+- Power increase from 20 watts to 200 watts: **10 dB**
 
 #### Metric Prefixes and Electrical Units
 
@@ -71,14 +71,14 @@ In amateur radio and electronics, we often deal with very large or very small qu
 
 | Prefix | Symbol | Multiplier | Example |
 |--------|--------|------------|---------|
-| pico   | p      | 10⁻¹²      | 1 pF = 0.000000000001 F |
-| nano   | n      | 10⁻⁹       | 1 nF = 0.000000001 F |
-| micro  | μ      | 10⁻⁶       | 1 μF = 0.000001 F |
-| milli  | m      | 10⁻³       | 1 mV = 0.001 V |
-| (none) | -      | 10⁰        | 1 A = 1 A |
-| kilo   | k      | 10³        | 1 kHz = 1,000 Hz |
-| mega   | M      | 10⁶        | 1 MHz = 1,000,000 Hz |
-| giga   | G      | 10⁹        | 1 GHz = 1,000,000,000 Hz |
+| pico   | p      | $10^{-12}$ | 1 pF = 0.000000000001 F |
+| nano   | n      | $10^{-9}$  | 1 nF = 0.000000001 F |
+| micro  | μ      | $10^{-6}$  | 1 μF = 0.000001 F |
+| milli  | m      | $10^{-3}$  | 1 mV = 0.001 V |
+| (none) | -      | $10^0$     | 1 A = 1 A |
+| kilo   | k      | $10^3$     | 1 kHz = 1,000 Hz |
+| mega   | M      | $10^6$     | 1 MHz = 1,000,000 Hz |
+| giga   | G      | $10^9$     | 1 GHz = 1,000,000,000 Hz |
 
 Here's how these prefixes apply to common electrical units:
 
@@ -86,13 +86,13 @@ Here's how these prefixes apply to common electrical units:
    Example: 146.520 MHz = 146,520,000 Hz
 
 2. **Voltage (Volts, V)**: Common prefixes include mV (millivolts) and kV (kilovolts).
-   Example: 12 mV = 0.012 V
+   Example: 1 kilovolt = 1000 volts
 
 3. **Current (Amperes, A)**: You'll frequently encounter mA (milliamps) and μA (microamps).
    Example: 100 mA = 0.1 A
 
-4. **Resistance (Ohms, Ω)**: Common prefixes include kΩ (kilohms) and MΩ (megohms).
-   Example: 4.7 kΩ = 4,700 Ω
+4. **Resistance (Ohms, $\Omega$)**: Common prefixes include k$\Omega$ (kilohms) and M$\Omega$ (megohms).
+   Example: 4.7 k$\Omega$ = 4,700 $\Omega$
 
 5. **Capacitance (Farads, F)**: Most capacitors are in the pF (picofarad), nF (nanofarad), or μF (microfarad) range.
    Example: 100 pF = 0.0000000001 F
@@ -126,7 +126,6 @@ Practice using these prefixes and conversions - they're essential for understand
 | 28400 kHz              | 28.400 MHz             | T5B12       |
 | 2425 MHz               | 2.425 GHz              | T5B13       |
 
-
 #### AC and DC
 
 In amateur radio, we work with two types of electrical current: Alternating Current (AC) and Direct Current (DC).
@@ -147,54 +146,8 @@ While most of our radio equipment runs on DC, we often use AC in amateur radio f
 
 Real-world example: When you plug your radio's power supply into the wall, it's receiving 120V AC. The power supply then converts this to 13.8V DC, which is what most modern transceivers use.
 
-Relevant question IDs:
-- T5A09 (Description of alternating current)
-- T5A12 (Definition of frequency for AC)
+Understanding AC and DC is crucial for working with power supplies and ensuring your equipment operates correctly.
 
-#### Power
-
-Power is the rate at which electrical energy is used. In other words, it's how much work electricity can do in a given time. We measure power in watts (W).
-
-In amateur radio, power is crucial. It determines:
-
-- How far your signal can potentially travel
-- How much heat your equipment generates
-- What kind of power supply you need
-
-To calculate power in a DC circuit, we use the power law:
-
-$P = I \times E$
-
-Where:
-- $P$ is Power in watts ($W$)
-- $I$ is Current in amperes ($A$)
-- $E$ is Voltage in volts ($V$)
-
-Real-world example: Let's say you're using a 100W HF transceiver that operates on 13.8V DC. When transmitting at full power, you can calculate the current draw:
-
-$100W = I \times 13.8V$
-$I = \frac{100W}{13.8V} ≈ 7.25A$
-
-This tells you that you need a power supply capable of providing at least 7.25A continuously.
-
-#### Decibels
-
-In radio, we often use decibels (dB) to express ratios of power. Decibels are logarithmic units, which makes them useful for expressing large ratios in manageable numbers.
-
-Some key decibel values to remember:
-
-- 3 dB represents a doubling or halving of power
-- 10 dB is a tenfold increase or decrease in power
-
-Real-world example: If you upgrade your antenna and get a 3 dB gain, it's equivalent to doubling your transmitter power! This is why many hams say, "If you can't raise your power, raise your antenna."
-
-Understanding these concepts of AC, DC, and power will help you make informed decisions about your station setup, interpret equipment specifications, and troubleshoot issues effectively.
-
-Here are the specific examples you might need to answer you take your exam:
-
-- Power increase from 5 watts to 10 watts: **3 dB**
-- Power decrease from 12 watts to 3 watts: **-6 dB**
-- Power increase from 20 watts to 200 watts: **10 dB**
 
 #### Inductance and Capacitance
 
@@ -232,7 +185,7 @@ Everyday example: The touch screen on your smartphone uses capacitance. When you
 
 #### Understanding Impedance
 
-Resistance affects all current the same, regardless of direction or change in magnitude. Impedance is what you might think of as resistance due to change in voltage and current.
+Resistance affects all current the same, regardless of direction or change in magnitude. Impedance is what you might think of as resistance due to alternating current flow (that is to say, it varies with the frequency of the alternating current).
 
 ##### Capacitors (Water Balloon Metaphor)
 A capacitor is like a water balloon. When you start filling it, water flows in easily (low resistance). As the balloon stretches and fills, it resists more, making it harder to add more water (higher resistance). If you reverse the flow, the water flows out easily again. The faster you fill and empty the balloon, the less it resists because it doesn’t have time to stretch fully. So, a capacitor offers less resistance to fast-changing currents.
@@ -280,8 +233,6 @@ This principle is fundamental to many aspects of radio, including:
 - Filter construction
 
 Amateur radio example: A typical crystal filter in an SSB transceiver uses multiple resonant circuits to achieve sharp selectivity, allowing the desired signal to pass while rejecting nearby interfering signals.
-
-Everyday example: The circuit in an electric toothbrush that wirelessly charges the battery uses resonance. The charging base and the toothbrush form a resonant circuit, allowing energy to be transferred efficiently at a specific frequency.
 
 Understanding inductance and capacitance is crucial for grasping how radio circuits work and for troubleshooting issues in your equipment. As you progress in your amateur radio journey, you'll encounter these concepts frequently, from adjusting antenna tuners to understanding how different components in your radio function.
 

@@ -1,4 +1,4 @@
-### Section 6.7: Basic Repair and Testing
+### Section 6.8: Basic Repair and Testing
 
 #### Introduction to Test Equipment
 
@@ -26,7 +26,6 @@ Your trusty multimeter is the Swiss Army knife of the ham shack, usually combini
    - Ensure the circuit is not powered when measuring resistance.
 
 WARNING: Never attempt to measure current by connecting the probes in parallel with a circuit or component. This can cause a short circuit and damage your meter or create a safety hazard.
-
 
 #### Special Considerations for Capacitors
 

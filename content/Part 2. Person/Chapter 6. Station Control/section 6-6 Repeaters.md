@@ -1,4 +1,4 @@
-### Section 6.5: Repeater Operation
+### Section 6.6: Repeater Operation
 
 Alright, let's talk about repeaters - the range-extending marvels of the ham radio world. These helpful devices take your signal and shout it from the rooftops (or mountaintops) for you.
 

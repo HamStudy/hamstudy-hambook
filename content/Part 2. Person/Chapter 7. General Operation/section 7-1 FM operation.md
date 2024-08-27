@@ -31,6 +31,7 @@ When operating FM, remember:
 - Speak clearly and at a normal pace. No need to shout - the mic is right there!
 - Leave a pause between transmissions. This gives others a chance to join in or signal an emergency.
 - Use simplex when possible. It keeps repeaters free for those who really need the extra range.
+- **Tune accurately**: FM signals require precise tuning for clear audio. If you tune your FM receiver slightly above or below the signal’s frequency, the result will be audio distortion. Unlike other modes where off-frequency tuning might change the pitch or create a tone, FM tuning errors lead directly to poor audio quality. Make sure your receiver is properly set to the exact frequency to avoid this issue.
 
 #### FM Quirks
 

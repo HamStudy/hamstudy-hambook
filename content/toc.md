@@ -17,12 +17,13 @@ title: "Table of Contents: HamStudy Technician License Manual (2022-2026)"
 - Section 1.2: Electrical Units and Quantities
   - Voltage, Current, Resistance
     - Metric (SI) Units
-    - Ohm's Law
-  - AC and DC
   - Power
-    - Power Law
     - Decibels
+  - AC and DC
   - Inductance and Capacitance
+- Section 1.3: Electrical Laws (and Math)
+  - Ohm's Law
+  - Power Law
 
 ### Chapter 2: Electrical Components
 - Section 2.1: Passive Components
@@ -74,6 +75,7 @@ title: "Table of Contents: HamStudy Technician License Manual (2022-2026)"
 - Section 6.1: Station Accessories
 - Section 6.2: Interference and Grounding
 - Section 6.3: Operating Controls
+
 - Section 6.4: Receiver, Transmitter, Transceiver
 - Section 6.5: Repeater Operation
   - Offset, offset direction (shift)

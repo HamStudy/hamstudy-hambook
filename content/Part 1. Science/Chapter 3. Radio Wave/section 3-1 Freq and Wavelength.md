@@ -9,6 +9,12 @@ Imagine you're at a concert, listening to a bass guitar playing a low note. You 
 
 Radio waves work in a similar way, but instead of sound, they're electromagnetic waves traveling through space at the speed of light. Let’s dive into the key concepts of frequency, wavelength, and polarization to understand how they relate to radio signals.
 
+#### What is RF?
+
+You’ve probably heard the term **RF** tossed around, but what does it actually mean? **RF stands for Radio Frequency** – basically, it’s a fancy way of saying "radio signals." RF covers all types of radio signals, whether they’re used for voice, data, or other forms of wireless communication. So when someone mentions RF, they’re talking about the entire range of frequencies that we hams and other radio operators use to send our signals through the air.
+
+Whether you’re tuning in to your favorite FM station, chatting on a repeater, or sending data over a satellite link, you’re working with RF. It’s the bread and butter of all radio communication, and it’s what makes all this cool stuff possible.
+
 #### Understanding Frequency
 
 The frequency of a radio wave is how many times it completes a cycle in one second, measured in Hertz (Hz). One Hertz means one cycle per second.

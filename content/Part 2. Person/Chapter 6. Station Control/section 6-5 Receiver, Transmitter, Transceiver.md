@@ -1,5 +1,5 @@
 
-### Section 6.4: Receiver, Transmitter, Transceiver
+### Section 6.5: Receiver, Transmitter, Transceiver
 
 Alright, radio rookies, let's break down the building blocks of ham radio communication. We're talking about receivers, transmitters, and the jack-of-all-trades: transceivers.
 

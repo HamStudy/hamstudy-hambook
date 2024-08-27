@@ -1,5 +1,5 @@
 
-### Section 6.6: Interference and Troubleshooting
+### Section 6.7: Interference and Troubleshooting
 
 Welcome to the world of radio detective work! As a ham, you'll sometimes encounter interference or audio issues. Let's explore how to identify, prevent, and solve these problems.
 
