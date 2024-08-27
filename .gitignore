@@ -1,4 +1,10 @@
 .DS_Store
 node_modules
 book.md
-tech2022/hugo/content
+*/hugo/content
+*/hugo/public
+*/hugo/resources
+*/hugo/static/images
+.codebuddy
+.vscode
+.hugo_build.lock

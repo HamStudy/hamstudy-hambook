@@ -1,0 +1,11 @@
+#baseURL = 'https://tech.hamstudy.org/'
+languageCode = 'en-us'
+title = 'HamStudy Technician License HamBook'
+
+[module]
+[[module.imports]]
+path = 'github.com/alex-shpak/hugo-book'
+
+
+[markup.goldmark.renderer]
+unsafe = true
