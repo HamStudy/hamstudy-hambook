@@ -1,0 +1,6 @@
+
+@media print {
+    nav#TableOfContents { display: none !important; }
+    label[for="menu-control"] { display: none !important; }
+    label[for='toc-control'] { display: none !important; }
+}
