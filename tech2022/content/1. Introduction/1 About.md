@@ -1,5 +1,6 @@
 ---
 title: About Amateur Radio
+slug: about
 questions: ["T1A01", "T1A02"]
 gistMap:
     aboutradio.svg: "https://gist.github.com/taxilian/a7d1cca34d08baa8f98a3d6d4b408e55/raw/2af014f6fe1a1cdca103b22e7d15c17bafc396c7/aboutradio.svg"

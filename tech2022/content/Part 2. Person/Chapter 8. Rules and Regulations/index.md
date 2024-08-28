@@ -1,4 +1,5 @@
 ---
+slug: chpt8
 questions: []
 ---
 

@@ -1,4 +1,5 @@
 ---
+slug: chpt6
 questions: []
 ---
 

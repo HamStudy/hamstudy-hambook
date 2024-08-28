@@ -1,4 +1,5 @@
 ---
+slug: section2.4
 questions: [ "T6C05", "T6C07", "T6C04", "T6C06", "T6C10", "T6C03", "T6C09", "T6C01", "T6C08", "T6C02", "T6C11", "T6C12", "T6D10" ]
 gistMap:
   "schem-antenna.svg": "https://gist.github.com/taxilian/a7d1cca34d08baa8f98a3d6d4b408e55/raw/ee7b08b28dfebdf4d772f4b420f857c5deaf9a03/schem-antenna.svg"

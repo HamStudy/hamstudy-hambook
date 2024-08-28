@@ -58,7 +58,7 @@ This method will give you an estimate of how long your equipment can run before 
 For example, if you have a 12Ah battery and your radio draws an average of 2A:
 
 $$
-\text{Battery Life (hours)} = \frac{12 \text{Ah}}{2 \text{A}} = 6 \text{ hours}
+\text{Battery Life (hours)} = \frac{12 \text{Ah}}{2A} = 6 \text{ hours}
 $$
 
 This means your battery could power your equipment for about 6 hours under these conditions. Keep in mind that this is a rough estimate and actual performance can vary based on factors like temperature, battery age, and usage patterns.

@@ -1,7 +1,7 @@
 ---
+slug: pt2
 questions: []
 ---
-
 
 # Part 2: The Person Behind Amateur Radio
 

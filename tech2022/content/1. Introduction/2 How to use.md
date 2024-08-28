@@ -1,5 +1,6 @@
 ---
 title: "How to use this HamBook"
+slug: howtouse
 questions: []
 ---
 

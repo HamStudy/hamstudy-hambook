@@ -1,5 +1,6 @@
 ---
 questions: []
+slug: chpt1
 ---
 
 ## Chapter 1: Electrical Principles

@@ -1,3 +1,6 @@
+---
+slug: copyright
+---
 ### Copyright
 
 This work is copyright 2024 HamStudy.org LLC.
