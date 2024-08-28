@@ -2,6 +2,10 @@ const fs = require('fs/promises');
 const path = require('path');
 const yaml = require('yaml');
 const yargs = require('yargs');
+const chokidar = require('chokidar');
+const _ = require('lodash');
+
+const preprocessMarkdown = v => v;
 
 /**
  * Capitalizes a string to title case, where the first letter of each major word is capitalized.
@@ -246,16 +250,57 @@ function writeFrontMatter(data) {
  * @param {Chapter | Section} chapterOrSection
  * @returns {string}
  */
-function getSanitizedTitle(chapterOrSection) {
+function getTitleSlug(chapterOrSection) {
     // If there is an intro, use that title
     const intro = (chapterOrSection.sections || []).find(s => s.intro);
     if (intro) {
-        return intro.title.replace(/[^\w\s-]/g, '').replace(/\s+/g, '-').toLowerCase();
+        const src = intro.frontMatter?.slug || intro.title;
+        return src.replace(/[^\w\s-]/g, '').replace(/\s+/g, '-').toLowerCase();
     } else {
-        return chapterOrSection.title.replace(/[^\w\s-]/g, '').replace(/\s+/g, '-').toLowerCase();
+        const title = chapterOrSection.frontMatter?.slug || chapterOrSection.title;
+        return title.replace(/[^\w\s-]/g, '').replace(/\s+/g, '-').toLowerCase();
     }
 }
 
+/**
+ * 
+ * @param {string} markdown 
+ * @returns 
+ */
+function adjustMarkdownHeaders(markdown) {
+    // Match all headers in the document
+    const headers = [...markdown.matchAll(/^#+\s.*$/gm)];
+
+    if (!headers.length) {
+        return markdown; // No headers found, return the document unchanged
+    }
+
+    // Determine the lowest level header
+    let minLevel = Math.min(...headers.map(header => header[0].match(/^#+/)[0].length));
+
+    let targetLevel = 1;
+    // There can be only one H1, so if there are more than one at the min level we need to bump them up
+    if (minLevel > 1) {
+        const h1s = headers.filter(header => header[0].match(/^#+/)[0].length === minLevel);
+        if (h1s.length > 1) {
+            targetLevel = 2;
+        }
+    }
+
+    if (minLevel > targetLevel) {
+        return reduceHeadingLevels(markdown, minLevel - targetLevel);
+    } else {
+        return markdown;
+    }
+}
+
+function reduceHeadingLevels(content, level) {
+    content = content.replace(/(^#+)/gm, (match, p1) => {
+        const newLevel = Math.max(1, p1.length - level);
+        return '#'.repeat(newLevel);
+    });
+    return content;
+}
 
 /**
  * Writes the book content in Hugo-compatible format.
@@ -267,10 +312,10 @@ async function writeHugoBook(book, outputPath) {
     const contentPath = path.join(outputPath, 'content', 'docs');
     const sourceDir = path.dirname(outputPath); // This is now the root of the source files
 
-    const writeChapter = async (chapter, currentPath, index, level = 0) => {
-        const sanitizedTitle = getSanitizedTitle(chapter);
-        const chapterPath = path.join(currentPath, sanitizedTitle);
-        chapter.filename = sanitizedTitle;
+    const writeChapter = async (chapter, currentPath, index, level = 1) => {
+        const chptSlug = getTitleSlug(chapter);
+        const chapterPath = path.join(currentPath, chptSlug);
+        chapter.filename = chptSlug;
         await fs.mkdir(chapterPath, { recursive: true });
 
         if (chapter.sections?.length) {
@@ -283,9 +328,10 @@ async function writeHugoBook(book, outputPath) {
             
             // Process images in the intro content
             introContent = await processImages(introContent, sourceDir, outputPath, path.relative(outputPath, chapterPath));
+            introContent = adjustMarkdownHeaders(preprocessMarkdown(introContent));
             
-            introContent.filename = '_index.md';
-            await fs.writeFile(path.join(chapterPath, '_index.md'), introContent);
+            introContent.filename = '_index';
+            await fs.writeFile(path.join(chapterPath, '${introContent.filename}.md'), introContent);
         }
 
         let sectionIndex = 1;
@@ -294,26 +340,20 @@ async function writeHugoBook(book, outputPath) {
             if ('sections' in section) {
                 await writeChapter(section, chapterPath, sectionIndex, level + 1);
             } else {
-                const sectionTitle = getSanitizedTitle(section);
-                const sectionFileName = `${sectionTitle}.md`;
+                const sectionSlug = getTitleSlug(section);
+                const sectionFileName = `${sectionSlug}`;
                 let sectionContent = writeFrontMatter({
                     title: section.title,
                     weight: sectionIndex,
                     ...section.frontMatter || {},
                 }) + section.content;
 
-                if (level > 0) {
-                    sectionContent = sectionContent.replace(/(^#+)/gm, (match, p1) => {
-                        const newLevel = Math.max(1, p1.length - level);
-                        return '#'.repeat(newLevel);
-                    });
-                }
-
                 // Process images in the section content
                 sectionContent = await processImages(sectionContent, sourceDir, outputPath, path.relative(outputPath, chapterPath));
+                sectionContent = adjustMarkdownHeaders(preprocessMarkdown(sectionContent));
 
                 section.filename = sectionFileName;
-                await fs.writeFile(path.join(chapterPath, sectionFileName), sectionContent);
+                await fs.writeFile(path.join(chapterPath, `${sectionFileName}.md`), sectionContent);
             }
             sectionIndex++;
         }
@@ -331,9 +371,10 @@ async function writeHugoBook(book, outputPath) {
 
             // Process images in the conclusion content
             conclusionContent = await processImages(conclusionContent, sourceDir, outputPath, path.relative(outputPath, contentPath));
+            conclusionContent = adjustMarkdownHeaders(preprocessMarkdown(conclusionContent));
 
-            part.filename = `${partIndex}-conclusion.md`;
-            await fs.writeFile(path.join(contentPath, `${partIndex}-conclusion.md`), conclusionContent);
+            part.filename = `conclusion`;
+            await fs.writeFile(path.join(contentPath, `${part.filename}.md`), conclusionContent);
         } else if (part.sections) {
             await writeChapter(part, contentPath, partIndex);
         } else {
@@ -347,6 +388,12 @@ async function writeHugoBook(book, outputPath) {
     await fs.writeFile(path.join(contentPath, '_index.md'), tocContent);
 }
 
+function getLinkSlug(chapterOrSection) {
+    // The slug for this will either be the frontmatter slug without modification
+    // or else the filename without the extension
+    return chapterOrSection.frontMatter?.slug || path.basename(chapterOrSection.filename, '.md');
+}
+
 /**
  * Generates a table of contents for the Hugo book.
  * @param {Book} book - The book object containing all the sections and chapters.
@@ -356,10 +403,13 @@ function generateTableOfContents(book) {
     let toc = '# Table of Contents\n\n';
 
     for (const part of book.parts) {
+        const partSlug = getLinkSlug(part);
         if (part.intro) { 
             continue; // Skip intro
+        } else if (part.conclusion) {
+            toc += `- [Conclusion](${getLinkSlug(part)})\n`;
+            continue;
         }
-        const partSlug = part.filename;
         toc += `- [${part.title}](${partSlug}/)\n`;
 
         if ('sections' in part) {
@@ -368,22 +418,20 @@ function generateTableOfContents(book) {
                     continue; // Skip intro
                 }
                 if ('sections' in chapter) {
-                    const chapterSlug = `${partSlug}/${chapter.filename}`;
+                    const chapterSlug = `${partSlug}/${getLinkSlug(chapter)}`;
                     toc += `  - [${chapter.title}](${chapterSlug}/)\n`;
 
                     for (const section of chapter.sections) {
                         if (!section.intro) {
-                            const sectionSlug = `${chapterSlug}/${section.filename}`;
+                            const sectionSlug = `${chapterSlug}/${getLinkSlug(section)}`;
                             toc += `    - [${section.title}](${sectionSlug})\n`;
                         }
                     }
                 } else {
-                    const sectionSlug = `${partSlug}/${chapter.filename}`;
+                    const sectionSlug = `${partSlug}/${getLinkSlug(chapter)}`;
                     toc += `  - [${chapter.title}](${sectionSlug})\n`;
                 }
             }
-        } else if (part.conclusion) {
-            toc += `- [Conclusion](${partSlug}/${part.filename})\n`;
         } else {
             throw new Error('Invalid book structure: parts must have sections or a conclusion.', part);
         }
@@ -506,9 +554,85 @@ const formatTypes = {
 };
 
 /**
- * Main function to handle the script execution with command-line arguments.
+ * Processes the book based on the specified output format.
+ * @param {Book} book - The book object to process.
+ * @param {string} outputFormat - The desired output format.
+ * @param {string} outputPath - The path where the output should be written.
  * @returns {Promise<void>}
  */
+async function processBook(book, outputFormat, outputPath) {
+    switch (outputFormat) {
+        case formatTypes.singleFileMarkdown:
+            await writeSingleFileMarkdown(book, outputPath);
+            break;
+        case formatTypes.singleDirectoryBook:
+            await writeSingleDirectoryBook(book, outputPath);
+            break;
+        case formatTypes.jsonStructure:
+            await fs.writeFile(outputPath, JSON.stringify(getBookStructure(book), null, 2));
+            break;
+        case formatTypes.hugo:
+            await writeHugoBook(book, outputPath);
+            break;
+        default:
+            throw new Error('Invalid output format specified.');
+    }
+}
+
+
+/**
+ * Watches for changes in the source directory and re-runs the book processing.
+ * @param {string} rootDir - The root directory to watch.
+ * @param {string} outputFormat - The desired output format.
+ * @param {string} outputPath - The path where the output should be written.
+ */
+function watchAndProcess(rootDir, outputFormat, outputPath) {
+    const watchPatterns = [
+        path.join(rootDir, 'content', '**', '*.md'),
+        path.join(rootDir, 'images', '**')
+    ];
+
+    const watcher = chokidar.watch(watchPatterns, {
+        ignored: /(^|[\/\\])\../, // ignore dotfiles
+        persistent: true
+    });
+
+    console.log(`Watching for changes in ${rootDir}`);
+
+    const processChanges = async () => {
+        console.log('Changes detected, reprocessing...');
+        try {
+            const book = await loadBook(rootDir);
+            await processBook(book, outputFormat, outputPath);
+            console.log(`Output regenerated at ${outputPath}`);
+        } catch (error) {
+            console.error('Error processing changes:', error);
+        }
+    };
+    const debouncedProcessChanges = _.debounce(processChanges, 1000);
+
+    watcher
+        .on('add', path => {
+            if (path.endsWith('.md')) {
+                console.log(`File ${path} has been added`);
+                debouncedProcessChanges();
+            }
+        })
+        .on('change', path => {
+            if (path.endsWith('.md')) {
+                console.log(`File ${path} has been changed`);
+                debouncedProcessChanges();
+            }
+        })
+        .on('unlink', path => {
+            if (path.endsWith('.md')) {
+                console.log(`File ${path} has been removed`);
+                debouncedProcessChanges();
+            }
+        });
+}
+
+// Main function
 (async () => {
     const argv = yargs
         .positional('root-dir', {
@@ -518,12 +642,7 @@ const formatTypes = {
         .option('output-format', {
             alias: 'f',
             description: 'Specify the output format',
-            choices: [
-                formatTypes.singleFileMarkdown,
-                formatTypes.singleDirectoryBook,
-                formatTypes.hugo,
-                formatTypes.jsonStructure,
-            ],
+            choices: Object.values(formatTypes),
             demandOption: true,
             type: 'string'
         })
@@ -532,6 +651,12 @@ const formatTypes = {
             description: 'Specify the output path',
             type: 'string',
             demandOption: true,
+        })
+        .option('watch', {
+            alias: 'w',
+            description: 'Watch for changes and reprocess',
+            type: 'boolean',
+            default: false
         })
         .argv;
 
@@ -543,29 +668,12 @@ const formatTypes = {
         }
 
         const book = await loadBook(rootDir);
+        await processBook(book, argv['output-format'], argv['output-path']);
+        console.log(`Initial output generated at ${argv['output-path']}`);
 
-        switch (argv['output-format']) {
-            case formatTypes.singleFileMarkdown:
-                await writeSingleFileMarkdown(book, argv['output-path']);
-                break;
-
-            case formatTypes.singleDirectoryBook:
-                await writeSingleDirectoryBook(book, argv['output-path']);
-                break;
-
-            case formatTypes.jsonStructure:
-                await fs.writeFile(argv['output-path'], JSON.stringify(getBookStructure(book), null, 2));
-                break;
-
-            case formatTypes.hugo:
-                await writeHugoBook(book, argv['output-path']);
-                break;
-
-            default:
-                throw new Error('Invalid output format specified.');
+        if (argv.watch) {
+            watchAndProcess(rootDir, argv['output-format'], argv['output-path']);
         }
-
-        console.log(`Output generated at ${argv['output-path']}`);
     } catch (error) {
         console.error('Error:', error);
     }

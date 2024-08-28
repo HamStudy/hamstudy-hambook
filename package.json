@@ -1,5 +1,8 @@
 {
   "dependencies": {
+    "chokidar": "^3.6.0",
+    "katex": "^0.16.11",
+    "lodash": "^4.17.21",
     "yaml": "^2.5.0",
     "yargs": "^17.7.2"
   }

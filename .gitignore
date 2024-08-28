@@ -8,3 +8,4 @@ book.md
 .codebuddy
 .vscode
 .hugo_build.lock
+package-lock.json
