@@ -40,8 +40,8 @@ So, you’d need 20 volts to push 2 amps through that 10-ohm resistor.
 Now suppose you’ve got a 12-volt battery hooked up to a circuit with a total resistance of 4 ohms. To figure out the current flowing through the circuit:
 
 $$I = \frac{V}{R}$$
-$$I = \frac{12 \, \text{V}}{4 \, \text{Ω}}$$
-$$I = 3 \, \text{A}$$
+$$I = \frac{12V}{4\Omega}$$
+$$I = 3A$$
 
 That’s 3 amps of current flowing through the circuit.
 
@@ -102,11 +102,20 @@ Here’s a quick cheat sheet to keep these formulas handy:
 
 - **Ohm's Law**: 
   - $V = I \times R$
+&nbsp;
+
   - $I = \frac{V}{R}$
+&nbsp;
+
   - $R = \frac{V}{I}$
+&nbsp;
 - **Power Law**:
   - $P = V \times I$
+&nbsp;
+
   - $P = I^2 \times R$
+&nbsp;
+
   - $P = \frac{V^2}{R}$
 
 The more you practice with these, the easier they get. Soon enough, you’ll be calculating like a pro and solving problems on the fly. Keep this section bookmarked—you’ll find yourself coming back to it often as you dive deeper into the world of amateur radio.
