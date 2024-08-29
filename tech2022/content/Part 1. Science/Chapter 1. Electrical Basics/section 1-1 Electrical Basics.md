@@ -11,11 +11,13 @@ Electricity is the lifeblood of amateur radio. To understand how our equipment w
 
 #### Conductors and Insulators
 
+<img src="../../../images/illus/conductors-insulators.svg" alt="cartoon showing a conductor on the left and an insulator on the right, angry with each other" width="250" align="right" style=" margin: 3px;">
+
 In the world of electricity, materials fall into two main categories: conductors and insulators.
 
 **Conductors** are materials that allow electricity to flow through them easily. Think of them as highways for electrons. The most common conductors in amateur radio equipment are metals, with copper being a particular favorite due to its excellent conductivity and relatively low cost.
 
-A fun fact: silver is actually a better conductor than copper, but its high price makes it impractical for most applications. However, you might find silver-plated components in some high-end radio equipment!
+> A fun fact: silver is actually a better conductor than copper, but its high price makes it impractical for most applications. However, you might find silver-plated components in some high-end radio equipment!
 
 **Insulators**, on the other hand, are materials that resist the flow of electricity. They act like barriers, keeping electricity where we want it and preventing it from going where we don't want it. Common insulators include plastics, rubber, glass, and air.
 

@@ -1,7 +1,5 @@
 #!/bin/bash
 
-#!/bin/bash
-
 function iterate_compress {
     declare -i COUNT
     TOTALDIFF=0
