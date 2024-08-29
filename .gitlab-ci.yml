@@ -49,7 +49,7 @@ deploy-image:
   image:
     name: bitnami/kubectl:latest
   only:
-    - staging
+    - main
   stage: deploy
   environment: production
   before_script:
