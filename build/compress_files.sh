@@ -46,7 +46,7 @@ function do_compress {
     FNAME=$4
     FOUT=${FNAME}.${3}
     if [ -f "$FOUT" ]; then
-        # echo "$FOUT already exists"
+        echo "$FOUT already exists"
         return 0
     fi
     "$1" "$2" "$FNAME"
@@ -57,7 +57,7 @@ function do_compress {
     NEWSIZE=$(wc -c "$FOUT" | awk '{print $1;}')
     if (( NEWSIZE > MINSIZE)); then
         echo "Insufficient compression ratio, skipping $FNAME"
-        # rm -fv $FOUT
+        rm -fv $FOUT
     else
         echo "Compressed $FNAME with $1 to $FOUT"
     fi
