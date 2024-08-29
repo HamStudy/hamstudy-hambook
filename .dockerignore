@@ -1,7 +1,7 @@
 .DS_Store
 node_modules
 book.md
-*/hugo/content
+*/hugo/content/docs
 */hugo/public
 */hugo/resources
 */hugo/static/images
