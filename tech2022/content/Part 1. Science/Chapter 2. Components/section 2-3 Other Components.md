@@ -53,13 +53,6 @@ In your ham radio adventures, you'll find crystals:
 
 Crystal clear fact: Some high-precision frequency standards use crystals cooled to near absolute zero temperature. At these extreme conditions, the crystal's frequency becomes incredibly stable, drifting by less than a second over millions of years!
 
-Relevant question IDs:
-- T6A09 (Function of a fuse)
-- T6A10 (Types of rechargeable batteries)
-- T6A11 (Non-rechargeable battery chemistry)
-- T6D02 (Definition of a relay)
-- T6D06 (Function of a transformer)
-
 
 #### Antennas: The Signal Radiators
 
@@ -110,9 +103,5 @@ Choosing the right type of wire for each application in your ham shack is crucia
 From resistors and capacitors to diodes and transistors, from transformers and relays to antennas and ground connections, each component in your radio equipment plays a crucial role. Understanding these basic building blocks is key to comprehending how your gear works, troubleshooting issues, and even designing your own circuits.
 
 As you continue your journey in amateur radio, you'll encounter these components again and again in various configurations. Each time you key up your mic or tune across the bands, remember that you're witnessing the harmonious interplay of these electrical elements, working together to make the magic of radio communication possible.
-
-Relevant question IDs:
-- T6C11 (Identification of antenna symbol in schematic diagrams)
-- T6C12 (Information accurately represented in electrical schematics)
 
 Now that you're familiar with these fundamental components, you're well-equipped to delve deeper into the fascinating world of radio electronics. Keep exploring, and don't be afraid to experiment – that's how all great discoveries in this field have been made!

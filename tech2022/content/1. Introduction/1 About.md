@@ -29,7 +29,7 @@ Even as a Technician class operator, you will have access to VHF and UHF frequen
 
 ## More Than Just a Hobby
 <img src="../../images/illus/morethanhobby.svg" alt="Illustration showing ham radio operators helping with a disaster" width="250" align="right" style="margin-left: 2em">
-Sure, amateur radio is fun, but it’s also a vital tool in emergencies. When disasters strike and cell towers go down, ham radio operators often step in to keep communication lines open. During Hurricane Maria in 2017, when Puerto Rico’s communication systems were wiped out, hams were there, helping coordinate relief efforts and reconnect families.
+Sure, amateur radio is fun, but it’s also a vital tool in emergencies. When disasters strike and cell towers go down, ham radio operators often step in to keep communication lines open.
 
 For example, during Hurricane Maria in 2017, amateur radio operators in Puerto Rico provided critical communication support when much of the island's infrastructure was destroyed. They relayed emergency messages, helped coordinate relief efforts, and even assisted in reuniting families who had lost contact during the disaster.
 
