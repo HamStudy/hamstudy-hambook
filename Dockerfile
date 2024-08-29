@@ -1,8 +1,9 @@
-FROM golang:1.21.5-alpine AS builder
+FROM golang:1.23.0-alpine AS builder
 
 # Install node.js and npm
-RUN apk add --no-cache 'nodejs~=20' npm brotli gzip git zopfli bash
-RUN apk add --no-cache --repository=https://dl-cdn.alpinelinux.org/alpine/edge/community hugo
+RUN apk add --no-cache 'nodejs~=20' npm brotli gzip git zopfli bash gcc g++ musl-dev libc-dev
+# RUN apk add --no-cache --repository=https://dl-cdn.alpinelinux.org/alpine/edge/community hugo
+RUN CGO_ENABLED=1 go install -tags extended github.com/gohugoio/hugo@latest
 
 WORKDIR /app
 COPY . .
@@ -11,6 +12,7 @@ RUN npm install
 RUN node src/import.js -f hugo tech2022 -o tech2022/hugo
 
 WORKDIR /app/tech2022/hugo
+
 
 RUN hugo --minify
 
