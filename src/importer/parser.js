@@ -20,7 +20,7 @@ async function parseMarkdownFile(filePath) {
         const lines = content.split('\n');
         const firstNotBlankLine = lines.find(line => line.trim() !== '');
         if (firstNotBlankLine && firstNotBlankLine.startsWith('#')) {
-            title = firstNotBlankLine.replace(/\./g, '-').replace(/^#+\s*/, '');
+            title = firstNotBlankLine.replace(/^#+\s*/, '');
         } else {
             const filename = path.basename(filePath, '.md').replace(/-/g, ' ');
             title = toTitleCase(filename);

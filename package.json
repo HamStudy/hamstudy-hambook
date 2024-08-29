@@ -1,4 +1,8 @@
 {
+  "scripts": {
+    "hugo": "node src/import.js -f hugo tech2022 -o tech2022/hugo --watch",
+    "build:hugo": "node src/import.js -f hugo tech2022 -o tech2022/hugo"
+  },
   "dependencies": {
     "chokidar": "^3.6.0",
     "katex": "^0.16.11",
