@@ -1,0 +1,30 @@
+{{- if .Params.questions -}}
+  {{- $questionsData := .Site.Data.questions.questions -}}
+  {{- $shownFigures := dict -}}
+  <div class="questions-list">
+    <h3>Exam questions related to this section:</h3>
+    {{- range .Params.questions -}}
+      {{- $questionID := . -}}
+      {{- $question := index $questionsData $questionID -}}
+      {{- if $question -}}
+        {{- $imagePath := printf "/figures/%s" $question.image -}}
+        {{- if and $question.image (not (index $shownFigures $question.image)) -}}
+          <div class="question-figure">
+            <img src="{{ $imagePath }}" alt="Figure for {{ $questionID }}" style="filter: var(--icon-filter);">
+          </div>
+          {{- $shownFigures = $shownFigures | merge (dict $question.image true) -}}
+        {{- end -}}
+        <div class="question-item">
+          <h4>{{ $questionID }}: {{ $question.text }}</h4>
+          <ul class="answers-list">
+            {{- range $question.answers -}}
+              <li class="answer-item{{ if eq .letter $question.answer }} correct-answer{{ end }}">
+                <strong>{{ .letter }}:</strong> {{ .text }}
+              </li>
+            {{- end -}}
+          </ul>
+        </div>
+      {{- end -}}
+    {{- end -}}
+  </div>
+{{- end -}}

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 224 155.86" style="enable-background:new 0 0 224 155.86;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#010101;}
+	.st1{fill:none;stroke:#010101;stroke-width:0.479;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st2{fill-rule:evenodd;clip-rule:evenodd;fill:#010101;}
+	.st3{fill:none;stroke:#010101;stroke-width:1.919;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st4{fill:none;stroke:#010101;stroke-width:0.5;stroke-miterlimit:10;}
+	.st5{fill:none;stroke:#010101;stroke-width:0.959;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10.0001;}
+	.st6{fill:none;stroke:#010101;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10.0001;}
+	.st7{fill:none;stroke:#010101;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st8{font-family:'ArialMT';}
+	.st9{font-size:11.279px;}
+	.st10{font-size:12px;}
+	.st11{fill:none;stroke:#010101;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st12{fill:none;stroke:#000000;stroke-miterlimit:10;}
+</style>
+<rect x="114.84" y="66.21" transform="matrix(1 -4.374638e-03 4.374638e-03 1 -0.3565 0.5092)" class="st0" width="2.76" height="31.08"/>
+<line class="st1" x1="116.18" y1="86.97" x2="131.22" y2="95.07"/>
+<polyline class="st2" points="129.79,96.99 135.31,97.33 132.17,92.78 129.79,96.99 "/>
+<line class="st1" x1="116.14" y1="76.53" x2="135.05" y2="66.13"/>
+<path class="st3" d="M142.2,81.4c-0.05-12.02-9.53-21.74-21.16-21.69c-11.62,0.05-21.02,9.85-20.96,21.87
+	c0.05,12.02,9.53,21.74,21.16,21.69C132.86,103.22,142.25,93.42,142.2,81.4z"/>
+<polyline class="st1" points="74.79,89.07 70.88,73.97 67.23,89.11 63.44,74 59.67,89.14 55.88,74.04 "/>
+<polyline class="st1" points="55.89,74.28 54,81.6 31.2,81.59 "/>
+<polyline class="st1" points="74.67,88.95 76.44,81.51 116.18,81.3 "/>
+<line class="st4" x1="181.22" y1="79.45" x2="181.43" y2="106.73"/>
+<polyline class="st1" points="172.1,114.93 175.91,107.11 187.79,107.06 184.34,114.87 "/>
+<line class="st1" x1="181.55" y1="107.09" x2="178.22" y2="114.9"/>
+<ellipse class="st5" cx="28.15" cy="97.8" rx="3.24" ry="3.24"/>
+<ellipse class="st6" cx="27.96" cy="81.6" rx="3.24" ry="3.24"/>
+<line class="st1" x1="135.79" y1="98.29" x2="136" y2="119.17"/>
+<polyline class="st1" points="126.8,127.37 130.48,119.43 142.36,119.38 139.04,127.31 "/>
+<line class="st1" x1="136.12" y1="119.4" x2="132.92" y2="127.34"/>
+<line class="st1" x1="28.2" y1="101.04" x2="28.42" y2="121.91"/>
+<polyline class="st1" points="19.09,130.12 22.9,122.18 34.78,122.13 31.33,130.06 "/>
+<line class="st1" x1="28.54" y1="122.15" x2="25.21" y2="130.09"/>
+<polyline class="st7" points="157.06,41.31 135.9,41.4 136.01,66 "/>
+<g>
+	<text transform="matrix(1 -4.374680e-03 4.374680e-03 1 61.8414 64.289)" class="st0 st8 st9">1</text>
+</g>
+<g>
+	<text transform="matrix(1 -4.374680e-03 4.374680e-03 1 109.0745 53.4021)" class="st0 st8 st9">2</text>
+</g>
+<g>
+	<text transform="matrix(1 -4.374680e-03 4.374680e-03 1 156.0715 16.1161)" class="st0 st8 st9">3</text>
+</g>
+<g>
+	<text transform="matrix(1 -4.374680e-03 4.374680e-03 1 204.2014 73.1463)" class="st0 st8 st9">4</text>
+</g>
+<g>
+	<text transform="matrix(1 -4.374680e-03 4.374680e-03 1 24.6418 146.6523)" class="st0 st8 st9">5</text>
+</g>
+<rect x="169.55" y="63.05" transform="matrix(1 -4.374638e-03 4.374638e-03 1 -0.2772 0.7933)" class="st0" width="23.28" height="1.44"/>
+<rect x="175.57" y="68.57" transform="matrix(1 -4.374638e-03 4.374638e-03 1 -0.3011 0.7934)" class="st0" width="11.28" height="1.32"/>
+<rect x="169.6" y="73.37" transform="matrix(1 -4.374638e-03 4.374638e-03 1 -0.3224 0.7936)" class="st0" width="23.28" height="1.44"/>
+<rect x="175.62" y="78.89" transform="matrix(1 -4.374638e-03 4.374638e-03 1 -0.3465 0.7937)" class="st0" width="11.28" height="1.44"/>
+<g>
+	<text transform="matrix(1 -4.374680e-03 4.374680e-03 1 61.8414 64.289)" class="st0 st8 st9">1</text>
+</g>
+<g>
+	<text transform="matrix(1 -4.374680e-03 4.374680e-03 1 156.0715 16.1161)" class="st0 st8 st9">3</text>
+</g>
+<g>
+	<text transform="matrix(1 -4.374680e-03 4.374680e-03 1 55.0685 134.3994)" class="st0 st8 st10">Fi</text>
+	<text transform="matrix(1 -4.374680e-03 4.374680e-03 1 65.0685 134.3556)" class="st0 st8 st10">g</text>
+	<text transform="matrix(1 -4.374680e-03 4.374680e-03 1 71.6285 134.327)" class="st0 st8 st10">ur</text>
+	<text transform="matrix(1 -4.374680e-03 4.374680e-03 1 82.2985 134.2803)" class="st0 st8 st10">e</text>
+	<text transform="matrix(1 -4.374680e-03 4.374680e-03 1 89.0185 134.2509)" class="st0 st8 st10"> </text>
+	<text transform="matrix(1 -4.374680e-03 4.374680e-03 1 92.3585 134.2363)" class="st0 st8 st10">T</text>
+	<text transform="matrix(1 -4.374680e-03 4.374680e-03 1 99.8185 134.2036)" class="st0 st8 st10">1</text>
+</g>
+<path class="st11" d="M121.72,19.3"/>
+<path class="st1" d="M157.06,35.06c0-1.99,1.61-3.6,3.6-3.6c1.99,0,3.6,1.61,3.6,3.6l0.08,6.22l16.8-0.07l0.09,22.56"/>
+<path class="st11" d="M160.66,24.22c-3.22,0-5.83,2.61-5.83,5.83v8.83h11.66v-8.83C166.49,26.83,163.88,24.22,160.66,24.22z"/>
+<line class="st7" x1="157.06" y1="35.06" x2="157.06" y2="41.31"/>
+<path class="st12" d="M7.55,84.68"/>
+<polyline class="st12" points="24.72,81.61 14.37,81.6 7.55,78.52 "/>
+<line class="st12" x1="7.55" y1="84.68" x2="14.37" y2="81.6"/>
+<polyline class="st12" points="24.91,97.82 14.56,97.8 7.74,94.72 "/>
+<line class="st12" x1="7.74" y1="100.88" x2="14.56" y2="97.8"/>
+</svg>

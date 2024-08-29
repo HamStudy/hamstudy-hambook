@@ -1,6 +1,100 @@
-
 @media print {
-    nav#TableOfContents { display: none !important; }
-    label[for="menu-control"] { display: none !important; }
-    label[for='toc-control'] { display: none !important; }
+  nav#TableOfContents,
+  label[for="menu-control"],
+  label[for="toc-control"] {
+    display: none !important;
+  }
+}
+
+:root {
+  --question-bg: var(--gray-100); /* Background for question item */
+  --question-border: var(--gray-200); /* Border for question item */
+  --answer-bg: var(--gray-200); /* Background for answer item */
+  --answer-border: var(--gray-200); /* Border for answer item */
+  --correct-answer-bg: #228b22; /* Strong green for correct answer background */
+  --correct-answer-border: #006400; /* Dark green border for correct answer */
+  --correct-answer-text: #ffffff; /* Text color for correct answer */
+  --correct-answer-highlight: #ffffff; /* Inset border for correct answer */
+  --dark-bg: #2b2b2b; /* Background for dark mode */
+  --dark-question-bg: #1a1a1a; /* Background for question item in dark mode */
+  --dark-answer-bg: #333333; /* Background for answer item in dark mode */
+  --dark-border: #444444; /* Border for question item in dark mode */
+  --dark-answer-border: #555555; /* Border for answer item in dark mode */
+}
+
+.questions-list {
+  margin: 20px 0;
+
+  h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: var(--body-font-color);
+  }
+
+  .question-figure {
+    text-align: center;
+    margin-bottom: 20px;
+
+    img {
+      max-width: 100%;
+      max-height: 50vh; /* 50% of the viewport height */
+      height: auto;
+      width: auto;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      filter: var(--icon-filter); /* Inverts image in dark mode */
+    }
+  }
+
+  .question-item {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid var(--question-border);
+    border-radius: 5px;
+    background-color: var(--question-bg);
+
+    h4 {
+      margin: 0 0 10px 0;
+      font-size: 18px;
+      font-weight: bold;
+      color: var(--body-font-color);
+    }
+
+    .answers-list {
+      list-style-type: none;
+      padding: 0;
+
+      .answer-item {
+        padding: 10px;
+        margin: 5px 0;
+        border: 1px solid var(--answer-border);
+        border-radius: 4px;
+        background-color: var(--answer-bg);
+        color: var(--body-font-color);
+
+        &.correct-answer {
+          background-color: var(--correct-answer-bg);
+          border-color: var(--correct-answer-border);
+          font-weight: bold;
+          color: var(--correct-answer-text);
+          box-shadow: inset 0 0 0 3px var(--correct-answer-highlight); /* Visual cue */
+        }
+
+        strong {
+          margin-right: 8px;
+          color: var(--body-font-color);
+        }
+      }
+    }
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --question-bg: var(--dark-question-bg); /* Override for question item in dark mode */
+    --question-border: var(--dark-border); /* Override for question item border in dark mode */
+    --answer-bg: var(--dark-answer-bg); /* Override for answer item in dark mode */
+    --answer-border: var(--dark-answer-border); /* Override for answer item border in dark mode */
+  }
 }

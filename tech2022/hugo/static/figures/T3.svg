@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 210 203" style="enable-background:new 0 0 210 203;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#010101;stroke-width:0.479;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#010101;stroke-width:0.5;stroke-miterlimit:10;}
+	.st2{fill:#010101;}
+	.st3{fill-rule:evenodd;clip-rule:evenodd;fill:#010101;}
+	.st4{fill:none;stroke:#010101;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st5{font-family:'ArialMT';}
+	.st6{font-size:12px;}
+	.st7{fill:#010101;stroke:#010101;stroke-width:0.479;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st8{fill:none;stroke:#000000;stroke-width:1.5;stroke-miterlimit:10;}
+</style>
+<path class="st0" d="M170.04,69.76"/>
+<line class="st1" x1="91.74" y1="104.68" x2="95.04" y2="104.68"/>
+<line class="st1" x1="95.34" y1="153.1" x2="95.34" y2="185.5"/>
+<line class="st0" x1="95.04" y1="81.34" x2="95.04" y2="104.68"/>
+<path class="st2" d="M98.22,81.34c0-1.72-1.43-3.12-3.18-3.12s-3.18,1.4-3.18,3.12c0,1.72,1.43,3.12,3.18,3.12
+	S98.22,83.06,98.22,81.34z"/>
+<polyline class="st0" points="85.62,193.78 89.7,185.5 102.3,185.5 98.58,193.78 "/>
+<line class="st0" x1="95.58" y1="185.5" x2="92.1" y2="193.78"/>
+<rect x="129.96" y="69.16" class="st2" width="1.44" height="24"/>
+<rect x="137.88" y="69.16" class="st2" width="1.56" height="24"/>
+<line class="st0" x1="63.66" y1="81.16" x2="130.68" y2="81.16"/>
+<rect x="54.96" y="69.4" class="st2" width="1.44" height="23.88"/>
+<rect x="62.88" y="69.4" class="st2" width="1.56" height="23.88"/>
+<line class="st0" x1="118.68" y1="93.28" x2="143.4" y2="73.48"/>
+<polyline class="st3" points="144.84,75.76 147.24,70.36 141.6,71.68 144.84,75.76 "/>
+<line class="st0" x1="45.24" y1="93.16" x2="69.96" y2="73.36"/>
+<polyline class="st3" points="71.4,75.64 73.8,70.36 68.16,71.56 71.4,75.64 "/>
+<polyline class="st0" points="170.04,42.02 169.85,81.16 139.05,81.16 "/>
+<polyline class="st4" points="93.01,164.38 115.09,164.38 115.09,128.92 100.09,128.92 "/>
+<polyline class="st3" points="100.56,126.28 95.28,128.92 100.56,131.56 100.56,126.28 "/>
+<path class="st0" d="M98.22,164.32c0-1.62-1.32-2.94-2.94-2.94s-2.94,1.32-2.94,2.94s1.32,2.94,2.94,2.94
+	C96.9,167.26,98.22,165.94,98.22,164.32z"/>
+<g>
+	<text transform="matrix(1 0 0 1 5.9995 84.7597)" class="st2 st5 st6">1</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 55.7993 55.2402)" class="st2 st5 st6">2</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 70.0795 135.9999)" class="st2 st5 st6">3</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 165.8393 15.8798)" class="st2 st5 st6">4</text>
+</g>
+<line class="st0" x1="25.56" y1="81.27" x2="55.8" y2="81.27"/>
+<rect x="169.39" y="24.46" class="st2" width="1.56" height="18.9"/>
+<path class="st7" d="M98.22,164.32c0-1.62-1.32-2.94-2.94-2.94s-2.94,1.32-2.94,2.94s1.32,2.94,2.94,2.94
+	C96.9,167.26,98.22,165.94,98.22,164.32z"/>
+<g>
+	<text transform="matrix(1 0 0 1 152.3994 151.5995)" class="st2 st5 st6">Fi</text>
+	<text transform="matrix(1 0 0 1 162.3994 151.5995)" class="st2 st5 st6">g</text>
+	<text transform="matrix(1 0 0 1 168.9594 151.5995)" class="st2 st5 st6">ur</text>
+	<text transform="matrix(1 0 0 1 179.6294 151.5995)" class="st2 st5 st6">e</text>
+	<text transform="matrix(1 0 0 1 186.3494 151.5995)" class="st2 st5 st6"> </text>
+	<text transform="matrix(1 0 0 1 189.6894 151.5995)" class="st2 st5 st6">T</text>
+	<text transform="matrix(1 0 0 1 197.1494 151.5995)" class="st2 st5 st6">3</text>
+</g>
+<polygon class="st8" points="170.11,43.12 182.21,24.46 157.87,24.46 "/>
+<path class="st0" d="M91.74,116.8c-3.35,0-6.06-2.71-6.06-6.06c0-3.35,2.71-6.06,6.06-6.06"/>
+<line class="st1" x1="91.74" y1="116.8" x2="95.04" y2="116.8"/>
+<path class="st0" d="M92.28,128.92c-3.35,0-6.06-2.71-6.06-6.06c0-3.35,2.71-6.06,6.06-6.06"/>
+<line class="st1" x1="92.28" y1="128.92" x2="100.09" y2="128.92"/>
+<path class="st0" d="M92.28,141.04c-3.35,0-6.06-2.71-6.06-6.06s2.71-6.06,6.06-6.06"/>
+<line class="st1" x1="92.28" y1="141.04" x2="95.58" y2="141.04"/>
+<path class="st0" d="M92.28,153.16c-3.35,0-6.06-2.71-6.06-6.06s2.71-6.06,6.06-6.06"/>
+<line class="st1" x1="92.28" y1="153.16" x2="95.58" y2="153.16"/>
+<path class="st0" d="M25.47,73.83c0,0,1.7,1.92,1.7,3.9c0,1.95-3.59,5.19-3.59,7.4c0,1.82,1.89,3.34,1.89,3.34"/>
+</svg>
