@@ -43,24 +43,23 @@ build-image:
       .
     - echo "Built $VERSION ($CI_COMMIT_SHA) to $TARGETIMG"
 
-# deploy-image:
-#   variables:
-#     DEPLOYMENT: hambook-tech
-#     CONTAINER: web
-#   image:
-#     name: bitnami/kubectl:latest
-#   only:
-#     - staging
-#   stage: deploy
-#   environment: production
-#   before_script:
-#     - USER_TOKEN=$(cat /var/run/secrets/kubernetes.io/serviceaccount/token)
-#     - CERTIFICATE_AUTHORITY_DATA=$(cat /var/run/secrets/kubernetes.io/serviceaccount/ca.crt | base64 -i -w0 -)
-#     - kubectl config set-cluster k8s --server="https://kubernetes.default.svc"
-#     - kubectl config set clusters.k8s.certificate-authority-data ${CERTIFICATE_AUTHORITY_DATA}
-#     - kubectl config set-credentials gitlab --token="${USER_TOKEN}"
-#     - kubectl config set-context default --cluster=k8s --user=gitlab --namespace signalstuff
-#     - kubectl config use-context default
-#   script:
-#     - kubectl -n signalstuff set image deployment ${DEPLOYMENT} ${CONTAINER}=${TARGET}:${CI_COMMIT_SHORT_SHA} 
+deploy-image:
+  variables:
+    CONTAINER: web
+  image:
+    name: bitnami/kubectl:latest
+  only:
+    - staging
+  stage: deploy
+  environment: production
+  before_script:
+    - USER_TOKEN=$(cat /var/run/secrets/kubernetes.io/serviceaccount/token)
+    - CERTIFICATE_AUTHORITY_DATA=$(cat /var/run/secrets/kubernetes.io/serviceaccount/ca.crt | base64 -i -w0 -)
+    - kubectl config set-cluster k8s --server="https://kubernetes.default.svc"
+    - kubectl config set clusters.k8s.certificate-authority-data ${CERTIFICATE_AUTHORITY_DATA}
+    - kubectl config set-credentials gitlab --token="${USER_TOKEN}"
+    - kubectl config set-context default --cluster=k8s --user=gitlab --namespace ${NAMESPACE}
+    - kubectl config use-context default
+  script:
+    - kubectl -n ${NAMESPACE} set image deployment ${DEPLOYMENT} ${CONTAINER}=${TARGET}:${CI_COMMIT_SHORT_SHA} 
 
