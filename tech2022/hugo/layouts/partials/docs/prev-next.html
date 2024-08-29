@@ -17,7 +17,7 @@
   <div class="flex flex-wrap justify-between prevnext {{ if $padding }}pad-{{ $padding }}{{ end }}">
     {{ with $prev }}
       <a href="{{ .RelPermalink }}" class="flex align-center float-left book-icon">
-        <img src="{{ "svg/backward.svg" | relURL }}" alt="Previous" title="{{ partial "docs/title" . }}" />
+        <img src="{{ "svg/backward.svg" | relURL }}" class="back" alt="Previous" title="{{ partial "docs/title" . }}" />
         <span>{{ partial "docs/title" . }}</span>
       </a>
     {{ else }}
@@ -26,7 +26,7 @@
     {{- with $next }}
       <a href="{{ .RelPermalink }}" class="flex align-center float-right book-icon">
         <span>{{ partial "docs/title" . }}</span>
-        <img src="{{ "svg/forward.svg" | relURL }}" alt="Next" title="{{ partial "docs/title" . }}" />
+        <img src="{{ "svg/forward.svg" | relURL }}" class="next" alt="Next" title="{{ partial "docs/title" . }}" />
       </a>
     {{ end -}}
   </div>
