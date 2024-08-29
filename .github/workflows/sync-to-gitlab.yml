@@ -1,0 +1,23 @@
+name: Sync to GitLab
+
+on:
+  push:
+    branches:
+      - main  # or your default branch name
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0  # Fetch all history for all branches and tags
+
+      - name: Push to GitLab
+        env:
+          GITLAB_TOKEN: ${{ secrets.GITLAB_TOKEN }}
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git remote add gitlab https://oauth2:${GITLAB_TOKEN}@gitlab.com/HamStudy/hambook.git
+          git push gitlab main:main --force
