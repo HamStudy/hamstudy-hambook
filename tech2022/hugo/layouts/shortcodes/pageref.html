@@ -1,0 +1,25 @@
+{{- $path := .Get 0 -}}
+{{- $anchor := .Get 1 -}}
+{{- $page := .Site.GetPage $path -}}
+
+{{- $inAllPagesTemplate := .Site.Home.Store.Get "inAllPagesTemplate" -}}
+
+{{- if $inAllPagesTemplate -}}
+    {{- if $page -}}
+        {{- $cleanPath := replaceRE "\\.md$" "" $page.File.Path -}}
+        {{- $pageAnchor := anchorize $cleanPath -}}
+        {{- if $anchor -}}
+            {{- printf "#%s-%s" $pageAnchor $anchor -}}
+        {{- else -}}
+            {{- printf "#%s" $pageAnchor -}}
+        {{- end -}}
+    {{- else -}}
+        {{- errorf "pageref shortcode: unable to find page %s" $path -}}
+    {{- end -}}
+{{- else -}}
+    {{- if $anchor -}}
+        {{- relref . $path $anchor -}}
+    {{- else -}}
+        {{- relref . $path -}}
+    {{- end -}}
+{{- end -}}

@@ -2,38 +2,46 @@
 {{ partial "docs/prev-next" (dict "context" . "padding" "both") }}
 
 {{- if .Params.questions -}}
-  {{- $baseURL := "https://hamstudy.org/flashcard/E2_2022?def=q:" -}}
   {{- $ids := .Params.questions -}}
   {{- $joinedIDs := delimit $ids "," -}}
-  {{- $hsURL := printf "%s%s" $baseURL $joinedIDs -}}
   {{- $questionsData := .Site.Data.questions.questions -}}
   {{- $shownFigures := dict -}}
   <div class="questions-list markdown">
-    <h3>Exam questions related to this section:</h3>
-    <div class="markdown text-center pad-bottom"><a href="{{ $hsURL }}" class="book-btn" target="hamstudy">Study these questions on HamStudy.org</a></div>
-    {{- range .Params.questions -}}
-      {{- $questionID := . -}}
-      {{- $question := index $questionsData $questionID -}}
-      {{- if $question -}}
-        {{- $imagePath := printf "/figures/%s" $question.image -}}
-        {{- if and $question.image (not (index $shownFigures $question.image)) -}}
-          <div class="question-figure">
-            <img src="{{ $imagePath }}" alt="Figure for {{ $questionID }}" style="filter: var(--icon-filter);">
-          </div>
-          {{- $shownFigures = $shownFigures | merge (dict $question.image true) -}}
-        {{- end -}}
-        <div class="question-item">
-          <h4>{{ $questionID }}: {{ $question.text }}</h4>
-          <ul class="answers-list">
-            {{- range $question.answers -}}
-              <li class="answer-item{{ if eq .letter $question.answer }} correct-answer{{ end }}">
-                <strong>{{ .letter }}:</strong> {{ .text }}
-              </li>
-            {{- end -}}
-          </ul>
-        </div>
+      <h4>Possible Exam Questions:</h4>
+      {{- range .Params.questions -}}
+          {{- $questionID := . -}}
+          {{- $question := index $questionsData $questionID -}}
+          {{- if $question -}}
+              {{- $imagePath := printf "/figures/%s" $question.image -}}
+              {{- if and $question.image (not (index $shownFigures $question.image)) -}}
+                  <div class="question-figure">
+                      <img src="{{ $imagePath }}" alt="Figure for {{ $questionID }}" style="filter: var(--icon-filter);">
+                  </div>
+                  {{- $shownFigures = $shownFigures | merge (dict $question.image true) -}}
+              {{- end -}}
+              <div class="question-item">
+                  <strong>{{ $questionID }}: {{ $question.text }}</strong>
+                  {{- $hasAllTheseChoices := false -}}
+                  {{- range $question.answers -}}
+                      {{- if and (eq .letter $question.answer) (in (lower .text) "all these choices") -}}
+                          {{- $hasAllTheseChoices = true -}}
+                      {{- end -}}
+                  {{- end -}}
+                  <ul class="answers-list{{ if $hasAllTheseChoices }} has-all-choices{{ end }}">
+                      {{- range $question.answers -}}
+                          <li class="answer-item{{ if eq .letter $question.answer }} correct-answer{{ end }}">
+                              {{- if $hasAllTheseChoices -}}
+                                  <strong>{{ .letter }}:</strong>
+                              {{- else -}}
+                                  <strong>Answer:</strong>
+                              {{- end -}}
+                              {{ .text }}
+                          </li>
+                      {{- end -}}
+                  </ul>
+              </div>
+          {{- end -}}
       {{- end -}}
-    {{- end -}}
   </div>
-{{ partial "docs/prev-next" (dict "context" . "padding" "top") }}
+  {{ partial "docs/prev-next" (dict "context" . "padding" "top") }}
 {{- end -}}

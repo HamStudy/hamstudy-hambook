@@ -33,7 +33,7 @@ Voltage is always measured between two points. When we say a car battery is 12V,
 - High resistance in dummy loads to safely absorb transmitter power
 - Specific resistances in filter circuits to shape frequency response
 
-These three quantities are intimately related through Ohm's Law, which is explained in more detail in Section 1.3.
+These three quantities are intimately related through Ohm's Law, which is explained in more detail in [Section 1.3]({{< pageref "section13" >}} "Section 1.3").
 
 #### Power
 

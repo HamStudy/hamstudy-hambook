@@ -1,6 +1,6 @@
 ---
 ---
-# Welcome to the HamStudy Technician License HamBook
+# HamStudy Technician License HamBook
 
 <div style="text-align: center">
     <img src="/figures/coverfornow.jpg" width="400" /><br />
