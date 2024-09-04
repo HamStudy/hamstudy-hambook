@@ -44,16 +44,18 @@
     margin-bottom: 20px;
     padding: 10px;
 
-    > strong {
+
+    > strong { // Question number and text
       margin: 0 0 10px 0;
       display: block;
       background-color: var(--question-bg);
       padding: 5px;
-      border-radius: 5px;
+      border-radius: 15px 15px 0 0;
       font-size: 18px;
       font-weight: bold;
       color: var(--body-font-color);
       border-bottom: 1px dashed var(--question-border);
+      i { opacity: 0; }
     }
 
     .answers-list {
@@ -68,10 +70,10 @@
         display: none;
         &.correct-answer {
           display: list-item;
-          padding: 10px;
-          margin: 5px 0;
+          padding: 5px 10px;
+          margin: 3px 0;
           border: 1px solid var(--correct-answer-border);
-          border-radius: 25px;
+          border-radius: 10px;
           background-color: var(--correct-answer-bg);
           font-weight: bold;
           color: var(--body-font-color);

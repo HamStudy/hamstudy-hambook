@@ -17,18 +17,16 @@ Transformers consist of two or more coils of wire wound around a common core, us
 2. **Impedance matching**: In audio circuits, transformers can match the impedance of different stages for optimal power transfer.
 3. **Antenna tuners**: Some antenna tuners use transformers to help match your antenna to your radio.
 
-Fun fact: The largest transformer in the world weighs over 800 tons and can handle 1,000 megavolt-amperes - enough to power a small city! Thankfully, the transformers in your ham shack are much, much smaller.
+Fun fact: The largest transformer in the world weighs over 800 tons and can handle about 1 billion watts of power - enough to supply electricity to a small city! Thankfully, the transformers in your ham shack are much, much smaller.
 
-#### Lamps: The Illuminating Indicators
+#### Lamps: Simple Light Indicators
 
-While LEDs have largely taken over indicator duties in modern equipment, you might still encounter traditional incandescent lamps in some vintage or specialized gear. These tiny light bulbs serve as visual indicators, lighting up to show that power is on or a particular function is active.
+Lamps are basic light-emitting devices used in electronic circuits. In the context of amateur radio equipment:
 
-In the context of amateur radio, lamps can also play a more specialized role:
+- They serve as visual indicators, lighting up to show that power is on or a particular function is active.
+- On schematics, lamps are typically represented by a circle with a cross inside or a symbol resembling a light bulb.
 
-1. **Dummy loads**: High-power light bulbs can serve as simple dummy loads for testing transmitters.
-2. **Field strength indicators**: In some antenna analyzers or field strength meters, lamps act as simple, visual indicators of RF field intensity.
-
-Trivia time: The longest-lasting light bulb in the world, known as the Centennial Light, has been burning almost continuously since 1901. It's in a fire station in Livermore, California. Now that's what we call reliability!
+While modern equipment often uses LEDs for these purposes, understanding how lamps are represented in circuits remains important for reading schematics, especially of older equipment.
 
 #### Relays: The Electromagnetic Switches
 
@@ -51,7 +49,7 @@ In your ham radio adventures, you'll find crystals:
 1. **Oscillators**: Crystals form the heart of stable oscillator circuits, generating precise frequencies for transmitters and receivers.
 2. **Filters**: Crystal filters provide excellent selectivity in receivers, helping to separate desired signals from interference.
 
-Crystal clear fact: Some high-precision frequency standards use crystals cooled to near absolute zero temperature. At these extreme conditions, the crystal's frequency becomes incredibly stable, drifting by less than a second over millions of years!
+Crystal clear fact: Some high-end radios have a small case around the frequency reference crystal with a heater. The vibrating frequency of a crystal changes with temperature, and by closely regulating the temperature of the crystal, you can attain very high stability and accuracy of the frequency displayed on the radio. This feature, known as a temperature-compensated crystal oscillator (TCXO) or oven-controlled crystal oscillator (OCXO), is crucial for maintaining precise frequency control in advanced amateur radio operations.
 
 
 #### Antennas: The Signal Radiators

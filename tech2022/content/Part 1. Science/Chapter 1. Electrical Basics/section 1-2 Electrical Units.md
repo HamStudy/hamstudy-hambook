@@ -1,7 +1,7 @@
 ---
 slug: "section1.2"
-questions: [
-   "T5A12", "T5A01", "T5A03", "T5A02", "T5A06", "T5A10", "T5B01", "T5C12", "T6D11", "T5A05", "T5B02", "T5B03", "T5B04", "T5B05", "T5B06", "T5B07", "T5B08", "T5B09", "T5B10", "T5B11", "T5B12", "T5B13", "T5C01", "T5C02", "T5C03", "T5C04", "T5C05", "T5A04", "T5A09", "T5A11", "T5C13" ]
+questions: ["T5A12", "T5A01", "T5A03", "T5A05", "T5A04", "T5A02", "T5A10", "T5B09", "T5B10", "T5B11", "T5B01", "T5B02", "T5B03", "T5B04", "T5B05", "T5B06", "T5B07", "T5B08", "T5B12", "T5B13", "T5C13", "T5A09", "T5A11", "T5C01", "T5C02", "T5C03", "T5C04", "T5C05", "T5C12", "T6D11", "T5A06"]
+   
 ---
 
 
@@ -13,7 +13,7 @@ To understand how our radios work, we need to familiarize ourselves with some ba
 
 Imagine electricity as water flowing through a pipe system. This analogy, while not perfect, can help us visualize these abstract concepts.
 
-**Voltage** is like the water pressure in the pipes. It's the force that pushes electrons through a circuit. We measure voltage in volts (V). In your ham shack, you might encounter various voltages:
+**Voltage** ($E$ or $V$) is like the water pressure in the pipes. It's the force that pushes electrons through a circuit. We measure voltage in volts (V). Voltage is also sometimes called "electromotive force" or EMF, because it's the "force" that moves electricity. Don't worry too much about the term - just remember that voltage and EMF are the same thing. In your ham shack, you might encounter various voltages:
 
 - 12V DC from a car battery or power supply
 - 120V AC from a wall outlet
@@ -21,19 +21,32 @@ Imagine electricity as water flowing through a pipe system. This analogy, while 
 
 Voltage is always measured between two points. When we say a car battery is 12V, we mean there's a 12V difference between its positive and negative terminals.
 
-**Current** is like the amount of water flowing through the pipes. It's the actual flow of electrons through a conductor. We measure current in amperes, or amps (A). In amateur radio, you might deal with:
+**Current** ($I$) is like the amount of water flowing through the pipes. It's the actual flow of electrons through a conductor. We measure current in amperes, or amps (A). In amateur radio, you might deal with:
 
 - Milliamps (mA) in low-power circuits
 - A few amps powering a mobile transceiver
 - 15-20 amps for a high-power HF amplifier
 
-**Resistance** is like the friction in the pipes that opposes the flow of water. In electrical terms, it's the opposition to the flow of current. We measure resistance in ohms ($\Omega$). Resistance is crucial in radio circuits:
+**Resistance** ($R$) is like the friction in the pipes that opposes the flow of water. In electrical terms, it's the opposition to the flow of current. We measure resistance in ohms ($\Omega$). Resistance is crucial in radio circuits:
 
 - Low resistance in antenna connections for efficient signal transfer
 - High resistance in dummy loads to safely absorb transmitter power
 - Specific resistances in filter circuits to shape frequency response
 
 These three quantities are intimately related through Ohm's Law, which is explained in more detail in [Section 1.3]({{< pageref "section13" >}} "Section 1.3").
+
+When you see formulas involving electricity, you'll often see E (or V) for voltage, I for current, and R for resistance. Don't worry if you're not comfortable with math - we'll walk you through it step by step when we need to use these.
+
+#### Frequency {#12frequency}
+
+In amateur radio, we often deal with alternating currents (AC) that change direction many times per second. **Frequency** describes how many times per second an alternating current completes a full cycle. We measure frequency in Hertz (Hz), where 1 Hz equals one cycle per second.
+
+For example:
+- Power from your wall outlet alternates at 60 Hz (60 times per second)
+- AM radio stations broadcast at frequencies around 1000 kHz (1,000,000 cycles per second)
+- FM radio and many amateur bands use frequencies in the MHz range (millions of cycles per second)
+
+Understanding frequency is crucial in amateur radio, as it determines which bands we can use and how our signals propagate. We'll discuss it in a lot more detail later on.
 
 #### Power
 
@@ -143,7 +156,7 @@ In amateur radio, we work with two types of electrical current: Alternating Curr
 - Solar panels
 - Power supplies for most radio equipment
 
-**Alternating Current (AC)** periodically reverses direction. If DC is like a river flowing steadily in one direction, AC is like waves in the ocean, moving back and forth. AC is what you get from your wall outlets at home. In the US, this alternation happens 60 times per second (60 Hz).
+**Alternating Current (AC)** periodically reverses direction. If DC is like a river flowing steadily in one direction, AC is like waves in the ocean, moving back and forth. AC is what you get from your wall outlets at home. In the US, this alternation happens 60 times per second – so 60 Hz is the [Frequency](#12frequency).
 
 While most of our radio equipment runs on DC, we often use AC in amateur radio for:
 
@@ -225,8 +238,6 @@ This principle is fundamental to many aspects of radio, including:
 - Tuning circuits in receivers and transmitters
 - Antenna design
 - Filter construction
-
-Amateur radio example: A typical crystal filter in an SSB transceiver uses multiple resonant circuits to achieve sharp selectivity, allowing the desired signal to pass while rejecting nearby interfering signals.
 
 Understanding inductance and capacitance is crucial for grasping how radio circuits work and for troubleshooting issues in your equipment. As you progress in your amateur radio journey, you'll encounter these concepts frequently, from adjusting antenna tuners to understanding how different components in your radio function.
 
