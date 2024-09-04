@@ -27,13 +27,15 @@ Just like musical notes, radio frequencies span a wide range:
 
 Wavelength is the distance a radio wave travels during one complete cycle of its frequency. Think of it as how far the wave moves through space before it starts the next cycle. The higher (faster) the frequency, the shorter the distance the wave travels in one cycle, and thus, the shorter the wavelength. Conversely, lower frequencies have longer wavelengths because each wave travels farther before completing a cycle.
 
+![Frequency vs. Wavelength - Distance Traveled at Light Speed](../../../images/freq_vs_wavelen_dualband.svg)
+
 Here’s the cool part: frequency and wavelength are linked by the speed of light, and the relationship is simple:
 
 Wavelength (in meters) = Speed of light (in meters per second) / Frequency (in Hz)
 
 Or, to put it in a handy formula:
 
-$\lambda = \frac{c}{f}$
+$$\lambda = \frac{c}{f}$$
 
 Where:
 - $\lambda$ (lambda) is the wavelength in meters
@@ -42,7 +44,7 @@ Where:
 
 Since $f$ is on the bottom of the fraction, the higher the frequency the shorter the wavelength. For example, a 2-meter amateur radio band operates around 144 MHz. Let's calculate its wavelength:
 
-$\lambda = \frac{300,000,000}{144,000,000} = 2.08 \text{ meters}$
+$$\lambda = \frac{300,000,000}{144,000,000} = 2.08 \text{ meters}$$
 
 Pretty close to 2 meters, right? That's why it's called the 2-meter band!
 
@@ -52,7 +54,7 @@ Wavelength (in meters) = 300 / Frequency (in MHz)
 
 or
 
-$\lambda = \frac{300}{144} = 2.08 \text{ meters}$
+$$\lambda = \frac{300}{144} = 2.08 \text{ meters}$$
 
 It's the same thing, but 300 is easier to remember than 300 million!
 
