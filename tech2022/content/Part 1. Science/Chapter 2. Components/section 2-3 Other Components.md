@@ -11,6 +11,8 @@ As we venture further into the world of electronic components, we encounter a di
 
 Imagine a seesaw at a playground, where a small child on one end can lift a much heavier adult on the other. Transformers work on a similar principle, but with electrical energy instead of playground physics.
 
+![Transformer schematic diagram](../../../images/s2-3-transformer.svg)
+
 Transformers consist of two or more coils of wire wound around a common core, usually made of iron. They're the masters of voltage conversion, capable of stepping voltage up or down while maintaining (almost) the same power. This ability makes them crucial in various amateur radio applications:
 
 1. **Power supplies**: Transformers help convert the high voltage from your wall outlet to the lower voltages your radio equipment needs.
@@ -25,12 +27,16 @@ Lamps are basic light-emitting devices used in electronic circuits. In the conte
 
 - They serve as visual indicators, lighting up to show that power is on or a particular function is active.
 - On schematics, lamps are typically represented by a circle with a cross inside or a symbol resembling a light bulb.
+  
+<img src="../../../images/schem-lamp.svg" alt="Lamp Schematic Symbol" width="100">
 
 While modern equipment often uses LEDs for these purposes, understanding how lamps are represented in circuits remains important for reading schematics, especially of older equipment.
 
 #### Relays: The Electromagnetic Switches
 
 If transistors are the traffic lights of the electronic world, relays are like drawbridges. They use electromagnets to mechanically open or close electrical contacts, allowing one circuit to control another.
+
+![Relay schematic diagram](../../../images/s2-3-relay.svg)
 
 In amateur radio, relays shine in several applications:
 
@@ -56,6 +62,8 @@ Crystal clear fact: Some high-end radios have a small case around the frequency 
 
 In the world of electrical components, antennas stand out as unique elements that convert electrical energy into electromagnetic waves and vice versa. At its simplest, an antenna is a conductor or system of conductors designed to transmit or receive radio signals.
 
+![Antenna schematic diagram](../../../images/s2-3-antenna.svg)
+
 In your radio circuits, antennas serve as the interface between your equipment and free space. They can be as simple as a wire of a specific length or as complex as multi-element arrays. The key thing to remember is that antennas are resonant circuits, with their electrical characteristics heavily dependent on their physical dimensions and the frequency of operation.
 
 We will discuss antennas including common types and basic design in a future chapter.
@@ -63,6 +71,8 @@ We will discuss antennas including common types and basic design in a future cha
 #### Ground: The Reference Point
 
 In electrical circuits, "ground" refers to a common reference point from which other voltages are measured. It's often represented by a special symbol on schematics. While it can be a physical connection to the Earth, in many circuits, it's simply a common return path for current.
+
+![Ground schematic diagram](../../../images/s2-3-ground.svg)
 
 In radio equipment, a good ground connection can help reduce noise and provide a path for static electricity and induced currents to dissipate safely. It's an integral part of many circuit designs, working silently alongside other components to ensure proper operation.
 

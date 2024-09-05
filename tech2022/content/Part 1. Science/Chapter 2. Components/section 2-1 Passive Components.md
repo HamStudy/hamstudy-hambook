@@ -13,6 +13,8 @@ Resistors are like the traffic cops of the electronic world. They control the fl
 
 Physically, resistors are small cylindrical components with colored bands that indicate their resistance value. These color codes are like a secret language that electronics enthusiasts learn to decipher. For instance, a resistor with brown, black, and orange bands has a value of 10,000 ohms or 10 kΩ.
 
+![Resistor schematic diagram with both styles](../../../images/s2-1-resistor.svg)
+
 In amateur radio, resistors play crucial roles:
 
 1. **Voltage division**: In a receiver, resistors help divide down high voltages to levels that delicate components can handle.
@@ -26,6 +28,8 @@ Fun fact: The largest resistor ever made was the size of a person and could hand
 If resistors are traffic cops, then capacitors are like tiny, fast-charging batteries. They store electrical energy in an electric field and can release it quickly when needed.
 
 Capacitors come in various shapes and sizes, from tiny ceramic discs to large cylindrical electrolytic types. Their capacity to store charge is measured in farads (F), but most capacitors you'll encounter in radio circuits are in the microfarad (µF) or picofarad (pF) range.
+
+![Capacitor schematic diagram with both styles](../../../images/s2-1-capacitor.svg)
 
 In amateur radio, capacitors are indispensable:
 
@@ -43,15 +47,21 @@ When building or analyzing circuits, you'll often encounter two common configura
 
     - Example: If you connect three resistors in series, the total resistance of the circuit is the sum of the resistances of each resistor.
 
+    ![Series circuit diagram example](../../../images/s2-1-series-circuit.svg)
+
 - **Parallel Circuits**: In a parallel circuit, components are connected across the same two points, providing multiple paths for the current to flow. In this configuration, the **voltage (V)** across all components is the same, but the current (I) through each component can vary depending on its resistance. If one path in a parallel circuit fails, current can still flow through the other paths, so the circuit continues to operate.
 
     - Example: The electrical outlets in your home are typically wired in parallel, so you can plug in multiple devices without affecting the voltage they receive.
+
+    ![Parallel circuit diagram example](../../../images/s2-1-parallel-circuit.svg)
 
 Understanding the differences between series and parallel circuits will help you design and troubleshoot circuits effectively, whether you're working on a simple project or a more complex radio setup.
 
 #### Inductors: The Magnetic Field Maestros
 
 Inductors are the magicians of the electronic world, storing energy in magnetic fields. They typically look like coils of wire, sometimes wrapped around a core material.
+
+![Inductor schematic diagram with both styles](../../../images/s2-1-inductor.svg)
 
 In the realm of amateur radio, inductors are stars:
 
@@ -67,6 +77,8 @@ Potentiometers, often called "pots" for short, are variable resistors that allow
 
 A potentiometer has three terminals: two fixed ends of a resistive element and a wiper that moves along this element. As you turn the knob or slide the control, the wiper moves, changing the resistance between it and the fixed terminals.
 
+![Inductor schematic diagram with both styles](../../../images/s2-1-potentiometer.svg)
+
 In amateur radio, potentiometers are used for:
 1. Volume control
 2. Adjusting transmit power levels
@@ -79,12 +91,20 @@ Switches are components that can make or break an electrical connection, allowin
 Common types of switches include:
 
 1. **SPST (Single Pole, Single Throw)**: The simplest type of switch. It has two terminals and can either make or break a single connection. Think of a basic light switch in your home.
+   
+   ![SPST schematic diagram](../../../images/s2-1-spst-switch.svg)
 
 2. **SPDT (Single Pole, Double Throw)**: This switch has three terminals. It can connect one terminal to either of two others, but never both at the same time. It's like a railroad switch, directing a train down one of two tracks.
 
+   ![SPDT schematic diagram](../../../images/s2-1-spdt-switch.svg)
+
 3. **DPST (Double Pole, Single Throw)**: Essentially two SPST switches controlled by a single mechanism. It can make or break two separate circuits simultaneously.
 
+   ![DPST schematic diagram](../../../images/s2-1-dpst-switch.svg)
+
 4. **DPDT (Double Pole, Double Throw)**: This is like two SPDT switches controlled by a single mechanism. It can connect two inputs to two pairs of outputs in two different ways.
+
+   ![DPDT schematic diagram](../../../images/s2-1-dpdt-switch.svg)
 
 In these acronyms:
 - "Pole" refers to the number of separate circuits the switch can control.

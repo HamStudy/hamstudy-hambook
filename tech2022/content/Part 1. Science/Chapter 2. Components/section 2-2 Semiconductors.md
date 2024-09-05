@@ -18,6 +18,8 @@ Diodes have two terminals:
 * Anode (A): The positive side where current enters.
 * Cathode (K or C): The negative side where current exits.
 
+![Diode schematic diagram with anode / cathode labeled](../../../images/s2-2-diode.svg)
+
 An easy way to remember this is: The Anode and Cathode are **A positive** and **C negative**! (***AC***)
 
 Diodes are used in many circuits, especially in converting AC (alternating current) to DC (direct current). When you plug your radio into the wall, the power supply uses diodes to turn the AC from the outlet into the DC that your radio needs.
@@ -31,6 +33,16 @@ Diodes are used in many circuits, especially in converting AC (alternating curre
   - **Current Flow:** Diodes allow current to flow in only one direction.
   - **Markings:** The cathode (negative side) is often marked with a stripe.
   - **Forward Voltage Drop:** The forward voltage drop is lower in some diode types (like Schottky diodes) than in others (like silicon diodes).
+
+
+#### Light-Emitting Diodes (LEDs): Let There Be Light
+
+An LED is a special kind of diode that emits light when current flows through it. LEDs are used as visual indicators in almost all electronic devices, from the power light on your computer to the blinking lights on your radio. When current passes through the LED in the forward direction, it lights up, making it easy to see whether your circuit is working.
+
+![LED schematic diagram with anode / cathode labeled](../../../images/s2-2-led.svg)
+
+- **Key Points:**
+  - **Visual Indicator:** LEDs emit light when current flows through them in the correct direction.
 
 
 #### Rectifiers: Turning AC into DC
@@ -64,14 +76,6 @@ To create a basic power supply, the AC from the wall needs to be transformed and
 
 Together, these components form the backbone of many power supplies, converting high-voltage AC into usable low-voltage DC.
 
-
-#### Light-Emitting Diodes (LEDs): Let There Be Light
-
-An LED is a special kind of diode that emits light when current flows through it. LEDs are used as visual indicators in almost all electronic devices, from the power light on your computer to the blinking lights on your radio. When current passes through the LED in the forward direction, it lights up, making it easy to see whether your circuit is working.
-
-- **Key Points:**
-  - **Visual Indicator:** LEDs emit light when current flows through them in the correct direction.
-
 #### Transistors: The Workhorses of Electronics
 
 Transistors are like tiny electronic switches or amplifiers. They can turn a small signal into a larger one, making them essential in all sorts of circuits, from radios to computers. They are generally made from three regions of semiconductor material.
@@ -79,10 +83,14 @@ Transistors are like tiny electronic switches or amplifiers. They can turn a sma
 There are two main types of transistors: Bipolar Junction Transistors (BJTs) and Field-Effect Transistors (FETs).
 
 - **Bipolar Junction Transistors (BJTs):** These have three parts called the emitter, base, and collector. Imagine the base as the control gate. They use a small amount of current at the base to control a larger current flow between the emitter and collector, making them excellent for current amplification. This ability to amplify signals is called "gain" - it's the ratio of the output signal to the input signal.
+
+  ![BJT schematic diagram with labels](../../../images/s2-2-bjt.svg)
   
 - **Field-Effect Transistors (FETs):** Instead of using a small current to control the transistor, FETs use voltage applied to a part called the gate. They also have two other parts called the drain and source. When you apply voltage to the gate, it creates an electric field that controls the current flow between the drain and source. FETs are often used as voltage-controlled switches and are very common in low-power and high-frequency applications.
  
-- **Summary:**
+  ![FET schematic diagram with labels](../../../images/s2-2-fet.svg)
+
+**Let's Review!:**
   BJTs have an emitter, base, and collector and are typically used when current gain or amplification is needed. FETs have a gate, drain, and source and are often used as voltage-controlled switches or in applications requiring high input impedance.
 
 > "Gain" in transistors refers to their ability to produce an output signal that's larger than the input signal. For BJTs, this usually means current gain (a small input current controls a larger output current), while for FETs, it often relates to how effectively the gate voltage controls the output current.
