@@ -6,7 +6,7 @@ questions: [ "T6A09", "T0A04", "T0A05", "T0A08" ]
 
 #### What Are Fuses and Circuit Breakers?
 
-Let’s talk about the unsung heroes of electrical safety: fuses and circuit breakers. These little guardians might not look like much, but they're the difference between a minor inconvenience and a major disaster. Think of fuses and circuit breakers as the bouncers of the electrical world. Their job? To kick out any unruly electrical currents before they can trash your equipment—or worse, start a fire.
+Let’s talk about the unsung heroes of electrical safety: **fuses and circuit breakers are devices designed to protect electrical circuits from overcurrent conditions**. These little guardians might not look like much, but they're the difference between a minor inconvenience and a major disaster. Think of fuses and circuit breakers as the bouncers of the electrical world. Their job? To kick out any unruly electrical currents before they can trash your equipment—or worse, start a fire.
 
 #### Fuses: The One-Time Heroes
 
@@ -22,7 +22,7 @@ Why should you care about these as a ham? Well, let's paint a picture:
 
 Imagine you've just scored a sweet deal on a used power supply for your shack. You plug it in, flip the switch, and... nothing. You notice the fuse is blown. "No biggie," you think, "I'll just replace it with a bigger one."
 
-Stop right there! That's a recipe for disaster. Fuses and circuit breakers are sized specifically for the equipment they protect. Using a larger fuse is like telling the bouncer to let in anyone, no matter how rowdy they look. You're asking for trouble.
+**Hold on!** That's a recipe for disaster. **Using a higher-rated fuse than specified allows excessive current to flow, which can cause wires and components to overheat, potentially leading to a fire**. Fuses and circuit breakers are sized specifically for the equipment they protect. Using a larger fuse is like telling the bouncer to let in anyone, no matter how rowdy they look. You're asking for trouble.
 
 #### Key Points to Remember
 
@@ -32,7 +32,7 @@ Here are some key points to keep in mind when dealing with fuses and circuit bre
 
 2. **Investigate Persistent Issues**: If a fuse keeps blowing, don't just keep replacing it. There's a problem that needs fixing.
 
-3. **Know Your Circuit Breakers**: Know where your circuit breakers are and what they control. Label them if they're not already. Remember that the circuit breaker should always be in series with the "hot" (also called "live") conductor.
+3. **Know Your Circuit Breakers**: Know where your circuit breakers are and what they control. Label them if they're not already. **In 120V AC power circuits, the fuse or circuit breaker should always be in series with the "hot" (live) conductor**. This ensures that when the overcurrent device operates, it disconnects the live voltage source, keeping you safe from electric shock.
 
 4. **Use Power Strips with Built-In Breakers**: In your shack, consider using power strips with built-in circuit breakers for an extra layer of protection.
 
@@ -40,9 +40,19 @@ Here are some key points to keep in mind when dealing with fuses and circuit bre
 
 6. **Overcurrent vs. Overvoltage**: Remember, fuses and circuit breakers protect against overcurrent, not overvoltage. They're not a cure-all for electrical problems.
 
+#### Safety First: Don't Bypass Protection
+
+It's tempting to bypass a fuse or stick a larger one in when you're in the middle of a QSO and a fuse blows. **Resist that urge!** **Never replace a blown fuse with one of a higher rating or modify a circuit to defeat overcurrent protection**. Defeating safety devices can lead to equipment damage or personal injury. Always use the correct fuse type and rating specified by the manufacturer.
+
+> **Important**: Doing so is like removing the brakes from your car because they slow you down—not a good idea!
+ 
 #### Real-World Example
 
-Here’s a real-world ham radio example: Let’s say you’re setting up a mobile rig in your car. You’ve got a 50W VHF/UHF transceiver that draws about 10A at full power. You might be tempted to use a 30A fuse "just to be safe." But that's overkill and potentially dangerous. Stick with a 15A or 20A fuse as recommended by the manufacturer.
+Here’s a real-world ham radio example: Let’s say you’re setting up a mobile rig in your car. You’ve got a 50W VHF/UHF transceiver that draws about 10A at full power. You might be tempted to use a 30A fuse "just to be safe." **But that's overkill and potentially dangerous. Using a fuse rated higher than necessary can prevent it from blowing when it should.** Stick with a 15A or 20A fuse as recommended by the manufacturer.
+
+#### Fuses and Circuit Breakers in DC Circuits
+
+While we often think of circuit breakers in the context of household AC power, **overcurrent protection is equally important in DC circuits**, like those in mobile or battery-powered setups. A short circuit in a DC system can cause wires to overheat rapidly. Installing the appropriate fuse in series with the positive lead protects against this risk.
 
 #### Final Thoughts
 
