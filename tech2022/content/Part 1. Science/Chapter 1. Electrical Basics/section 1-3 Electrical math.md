@@ -150,3 +150,5 @@ While I usually prefer to focus just on material in a book like this, it's worth
 | T5D12           | Voltage across 10 ohms and 2 amperes    | $E = 2A \times 10\Omega$             | $E = 20V$  |
 
 Note that you can get at most two of these on your exam, so even if you don't understand it – don't get intimidated! You can miss 9 questions on the Technician exam and still pass.
+
+<ohms-law-calculator></ohms-law-calculator>
