@@ -21,7 +21,7 @@ Each chapter breaks down complex topics into easy-to-understand segments, with k
 ## Study Tips
 
 - **Read Actively**: Don't just skim the text. Take notes, highlight important points, and try to relate new concepts to things you already know.
-- **Practice Questions**: At the end of each section, you'll find practice questions similar to those on the actual exam. Use these to test your understanding.
+- **Practice Questions**: At the end of each section, you'll find a list of questions from the official question pool which were addressed in the section. Make sure you know the answer and re-read if you missed it! These are the questions you might see on your exam.
 - **Hands-On Learning**: Whenever possible, try to apply what you're learning. If you have access to amateur radio equipment, practice using it (under the supervision of a licensed operator, of course).
 
 ## Using This HamBook with the HamStudy App
