@@ -5,11 +5,11 @@ No single approach works for everyone when preparing for your Ham Radio license.
 
 The AI was given these prompts:
 
-    I need a summary of this book. The audience is someone who wants to get started with ham radio and may not know a lot about it yet. Keep it short (2 or 3 paragraphs) and focus on particular strengths. If there are particular weaknesses you can mention them, but only if they are noteworthy. We will use this to compare different books or resources. There are four types of users who we want to rate it for: Complete Beginners, Technical Enthusiasts, Exam-Focused Learners, and Visual and Hands-On Learners
+> I need a summary of this book. The audience is someone who wants to get started with ham radio and may not know a lot about it yet. Keep it short (2 or 3 paragraphs) and focus on particular strengths. If there are particular weaknesses you can mention them, but only if they are noteworthy. We will use this to compare different books or resources. There are four types of users who we want to rate it for: Complete Beginners, Technical Enthusiasts, Exam-Focused Learners, and Visual and Hands-On Learners
 
 To rate each resource:
 
-    Please rate this book (out of 10) on these five criteria: Content Clarity, Suitability for Exam Preparation, Practical Application, Organization and Structure, and Supplemental Resources. No explanation needed, just a list of items and ratings. Also give a rating out of 10 for how suitable it is for Complete Beginners, Technical Enthusiasts, Exam-Focused Learners, or Visual and Hands-On Learners
+> Please rate this book (out of 10) on these five criteria: Content Clarity, Suitability for Exam Preparation, Practical Application, Organization and Structure, and Supplemental Resources. No explanation needed, just a list of items and ratings. Also give a rating out of 10 for how suitable it is for Complete Beginners, Technical Enthusiasts, Exam-Focused Learners, or Visual and Hands-On Learners
 
 **PLEASE NOTE**: The danger of running this through AI is that I can request ratings 5 times in a row and get slightly different ratings, so use them only as a *very* general guideline. The AI was given no context for each query, so ratings are not an objective comparison.
 
