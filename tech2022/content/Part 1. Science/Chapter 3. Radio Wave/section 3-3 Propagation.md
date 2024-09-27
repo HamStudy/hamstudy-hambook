@@ -6,6 +6,9 @@ questions: [ "T3C07", "T3C08", "T3A05", "T3A07", "T3A08", "T3A10", "T3A11", "T3A
 
 When you toss a pebble into a pond, you see ripples spreading out in all directions. Radio waves behave in a similar way, but instead of traveling across water, they propagate through space. Let's explore the fascinating ways radio signals travel from transmitter to receiver and the factors that can affect their journey.
 
+![Propagation types at different frequency ranges](../../../images/propagation-types.svg)
+
+
 #### Ground Wave Propagation
 
 Imagine you're dragging a long rope across a field. The rope doesn't travel in a straight line; it follows the contours of the ground. This is similar to how low-frequency radio waves travel along the Earth's surface. This method of propagation is called ground wave.
