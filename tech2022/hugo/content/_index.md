@@ -24,6 +24,8 @@ This HamBook covers everything you need to know to pass your Technician exam and
 
 While we believe this HamBook is complete and covers all necessary topics, please note that it is still in active development. We're continuously refining and improving the content to ensure it's as helpful as possible.
 
+Did you spot an issue or want to help out? https://github.com/hamstudy/hamstudy-hambook or contact support@hamstudy.org.
+
 ## Copyright and Licensing
 
 This HamBook is copyright © HamStudy.org LLC and is licensed under the [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](https://creativecommons.org/licenses/by-nc-nd/4.0/).

@@ -53,6 +53,18 @@ For example, during periods of high solar activity, the F region of the ionosphe
 
 Another interesting propagation mode related to the ionosphere is **auroral backscatter**. When VHF signals encounter the aurora, they can be scattered back to Earth. However, these signals are often distorted and fluctuate in strength, making communication challenging but fascinating for those interested in space weather effects.
 
+### Near Vertical Incidence Skywave (NVIS) Propagation
+
+NVIS propagation is like throwing a ball almost straight up to have it come back down nearby. In radio terms, NVIS allows for short- to medium-range communication over rough terrain or when obstacles block the line of sight. It’s particularly useful in mountainous regions, forests, or for emergency communications.
+
+- **Best Bands**: NVIS works primarily in the **low HF bands** such as **80 meters** and **40 meters**. It is most effective at frequencies between **2 MHz** and **10 MHz**.
+- **How It Works**: NVIS signals are transmitted almost straight up (at steep angles) toward the ionosphere, which then reflects the signals back down over a radius of up to a few hundred miles. This method helps to cover areas where ground-wave or line-of-sight propagation would be ineffective.
+- **Ideal Conditions**: The D layer of the ionosphere, which typically absorbs lower HF signals during the day, becomes less active at night. Thus, NVIS is often more effective in the **early morning**, **late afternoon**, and **nighttime**. It also tends to work better when solar activity is moderate, as too much ionization can prevent lower frequencies from reflecting back down.
+
+**Why Use NVIS?** In regions with hills, forests, or urban environments where obstacles block direct signals, NVIS can provide reliable communication where line-of-sight or ground-wave propagation fails. Emergency response teams, military communications, and amateurs in remote areas often rely on NVIS to maintain local and regional communication links.
+
+When setting up for NVIS operation, antennas should be low to the ground—typically **0.1 to 0.25 wavelengths** high. For the 80-meter band, that means positioning the antenna only about 10 to 20 feet above the ground. A horizontal dipole or loop antenna works best for NVIS, as these create the high-angle radiation pattern needed to send signals upward.
+
 #### Sporadic E Propagation
 
 **Sporadic E propagation** is another exciting phenomenon that can occur within the ionosphere. This mode is most commonly associated with the 10, 6, and 2-meter bands and can allow for strong signals from beyond the usual radio horizon.
