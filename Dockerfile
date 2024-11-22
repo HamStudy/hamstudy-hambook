@@ -14,7 +14,7 @@ RUN node src/import.js -f hugo tech2022 -o tech2022/hugo
 WORKDIR /app/tech2022/hugo
 
 
-RUN hugo --minify
+RUN hugo --minify --baseURL https://hambook.org
 
 WORKDIR /app/tech2022/hugo/public
 
