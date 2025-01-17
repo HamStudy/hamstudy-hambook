@@ -1,5 +1,5 @@
 ---
-questions: [ "T0B01", "T0A09", "T0B07", "T0B04", "T0B06", "T0B05", "T0B03", "T0B10", "T0B09", "T0B11", "T0A07", "T0B08", "T0B02" ]
+questions: [ "T0B01", "T0A09", "T0B07", "T0B04", "T0B06", "T0B05", "T0B03", "T4A08", "T0B10", "T0B09", "T0B11", "T0A07", "T0B08", "T0B02" ]
 ---
 
 ### Section 5.5: Antennas
@@ -29,6 +29,8 @@ On a related note, let's talk about lightning arresters - your antenna system's 
 Where should you install a lightning arrester? The best spot is on a grounded panel where your feedlines enter the building, mounted on a grounded panel. This way, it can shunt any excess voltage to ground before it reaches your gear.
 
 If you have multiple external ground rods or earth connections be sure to **_bond them all together with heavy wire or conductive strap_** to make sure everything goes to ground in the same place, rather than running amok through your equipment to find a different path to ground.
+
+When bonding your ground connections, flat copper strap is your best friend. Think of RF like a crowd of people trying to get through a doorway - they can only move along the surface. RF acts the same way (we call this the "skin effect"), which is why flat strap works better than round wire or braid. The wide, flat surface gives the RF current plenty of room to flow, and the shape keeps inductance low. It's like building a highway instead of a back road for your RF grounding!
 
 Sharp bends in your ground wire (or strap) can increase the impedance of conductor, which can impede lightning when traveling through it. Lightning will take the lowest resistance path to ground, so keep bends in your grounding conductors as gradual as you can to minimize lightning resistance and maximize effectiveness!
 

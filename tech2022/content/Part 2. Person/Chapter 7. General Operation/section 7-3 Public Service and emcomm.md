@@ -1,5 +1,5 @@
 ---
-questions: [ "T2C05", "T2C08", "T2C09", "T2C06", "T2C10", "T1A10", "T2C11", "T2C02", "T2C04", "T2C01" ]
+questions: [ "T2C05", "T2C07", "T2C08", "T2C09", "T2C06", "T2C10", "T1A10", "T2C11", "T2C02", "T2C04", "T2C01" ]
 ---
 
 ### Section 7.3: Public Service, Emergency, and Non-emergency Operations
@@ -36,7 +36,7 @@ While RACES might sound a bit more formal and structured than ARES, it’s a vit
 
 Nets are a key part of both emergency and non-emergency operations. A net is simply a group of stations that meet on a specific frequency to exchange information. Some nets are routine, like those for traffic handling or weather spotting, others are activated for specific events or during emergencies. Many clubs run a weekly net which is just a chance for everyone to check in with each other, make sure radios are working, and keep the club together. You might say this is what hams were using for social networking before it was cool :-).
 
-The Net Control Station (NCS) is the linchpin of any net. They’re the person in charge, responsible for keeping the net organized and running smoothly. Here are the typical duties of a Net Control Station:
+The Net Control Station (NCS) is the linchpin of any net. They’re the person in charge, responsible for keeping the net organized and running smoothly – and typically _they are the only ones who should be transmitting except as directed or in an emergency_. Here are the typical duties of a Net Control Station:
 
 - **Call the net to order**: The NCS starts the net, usually by making an opening announcement and inviting stations to check in.
 - **Direct communications**: The NCS manages who speaks and when, ensuring that the net flows smoothly and efficiently. They might ask specific stations to provide information, relay messages, or stand by for further instructions. These messages exchanged by stations in the net are referred to as "traffic".

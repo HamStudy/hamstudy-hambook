@@ -1,5 +1,5 @@
 ---
-questions: [ "T7C07", "T7C10", "T9B11", "T7C09", "T9B02", "T9B03", "T9B05", "T9B10", "T9B08" ]
+questions: [ "T7C07", "T7C10", "T9B11", "T7C09", "T7C11", "T9B02", "T9B03", "T9B05", "T9B10", "T9B08" ]
 ---
 
 ### Section 4.3: Feed Lines
@@ -56,6 +56,10 @@ Now, while coax is great at keeping your signal contained, it's not perfect. The
 #### Alternative Feed Lines: Ladder Line
 
 All that said, coax isn't the only game in town. Some hams use ladder line, especially for HF antennas. Ladder line looks like a ribbon with two parallel wires. It has very low loss, which is great, but it's more susceptible to interference and needs to be kept away from metal objects. It's like the high-performance sports car of feed lines - fantastic performance, but a bit finicky to work with.
+
+#### Special Types of Coax
+
+While most hams use solid or foam dielectric coax, there's also a high-performance variant called air core (or air-dielectric) coax. As the name suggests, it uses air as the insulator between the center conductor and shield. This design gives it extremely low loss - great for those long runs or high-frequency applications. But there's a catch: you need to be extra careful to keep moisture out. If water gets in, it can ruin the cable's performance and potentially create all sorts of issues. That's why air core coax requires special weatherproofing techniques and installation care. It's like having a high-performance sports car - amazing capabilities, but needs extra maintenance to keep it running right!
 
 #### Choosing the Right Feed Line
 

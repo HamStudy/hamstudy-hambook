@@ -1,5 +1,5 @@
 ---
-questions: [ "T1A07", "T1E02", "T8B01", "T8B03", "T8B06", "T8B05", "T8B04", "T8B11", "T1B02", "T8B02", "T8B07", "T8B08", "T8B10", "T8B12" ]
+questions: [ "T1A07", "T1E02", "T8B01", "T8B03", "T8B06", "T8B05", "T8B04", "T8B09", "T8B11", "T1B02", "T8B02", "T8B07", "T8B08", "T8B10", "T8B12" ]
 ---
 
 ### Section 7.4: Amateur Satellite Operation
@@ -21,6 +21,16 @@ Now, let's talk about satellite beacons. These are special transmissions that sa
 Satellite beacons aren't just for telemetry. They also help you locate and identify the satellite. It's like a cosmic game of Marco Polo - the beacon calls out, and you use it to find the satellite's signal.
 
 Best of all, beacons aren't encrypted – anyone can receive them!
+
+#### Satellite Signal Characteristics: Spin Fading
+
+Ever wonder why satellite signals can sound like they're doing a weird dance? Let's talk about spin fading! 
+
+When a satellite rotates, its antennas change orientation relative to the Earth. This rotation can cause the signal strength to vary periodically - almost like a cosmic lighthouse effect. As the satellite turns, its antennas might point toward or away from Earth at different moments, creating a fluctuating signal strength. This phenomenon is called "spin fading".
+
+Imagine a satellite spinning like a slowly tumbling basketball in space. As it turns, the antenna's radiation pattern changes, which means the signal strength you receive goes up and down. It's not interference or Doppler shift - it's simply the physical rotation of the satellite itself causing these signal variations.
+
+This is why satellite operators and ham radio enthusiasts tracking satellites need to be aware of the satellite's rotational characteristics. Some advanced tracking software even takes spin fading into account when predicting signal strength.
 
 #### Getting Started with Satellite Operation
 
