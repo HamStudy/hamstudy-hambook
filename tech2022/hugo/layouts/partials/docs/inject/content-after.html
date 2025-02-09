@@ -6,8 +6,13 @@
   {{- $joinedIDs := delimit $ids "," -}}
   {{- $questionsData := .Site.Data.questions.questions -}}
   {{- $shownFigures := dict -}}
+  {{- $baseURL := "https://hamstudy.org/flashcard/E2_2022?def=q:" -}}
+  {{- $ids := .Params.questions -}}
+  {{- $joinedIDs := delimit $ids "," -}}
+  {{- $hsURL := printf "%s%s" $baseURL $joinedIDs -}}
   <div class="questions-list markdown">
       <h4>Possible Exam Questions:</h4>
+      <div class="markdown text-center pad-bottom"><a href="{{ $hsURL }}" class="book-btn" target="hamstudy">Study these questions on HamStudy.org</a></div>
       {{- range .Params.questions -}}
           {{- $questionID := . -}}
           {{- $question := index $questionsData $questionID -}}
