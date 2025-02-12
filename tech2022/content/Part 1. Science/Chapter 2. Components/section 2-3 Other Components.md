@@ -28,7 +28,7 @@ Lamps are basic light-emitting devices used in electronic circuits. In the conte
 - They serve as visual indicators, lighting up to show that power is on or a particular function is active.
 - On schematics, lamps are typically represented by a circle with a cross inside or a symbol resembling a light bulb.
   
-<img src="../../../images/schem-lamp.svg" alt="Lamp Schematic Symbol" width="100">
+<img src="../../../images/schem-lamp.svg" alt="Lamp Schematic Symbol" style="width: 100px;">
 
 While modern equipment often uses LEDs for these purposes, understanding how lamps are represented in circuits remains important for reading schematics, especially of older equipment.
 

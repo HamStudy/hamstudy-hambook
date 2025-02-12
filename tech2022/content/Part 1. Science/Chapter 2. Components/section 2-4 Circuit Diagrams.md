@@ -27,7 +27,7 @@ Here’s a quick review of the schematic symbols we’ve talked about so far. Th
 
 - **Variable Resistor (Potentiometer)**: A variable resistor, also known as a potentiometer, lets you adjust resistance in a circuit. Its symbol is like a resistor, but with an arrow through it to show you can change its value.
 
-  <img src="../../../images/schem-potentiometer.svg" alt="Potentiometer schematic Symbol" width="100" height="100">
+  <img src="../../../images/schem-potentiometer.svg" alt="Potentiometer schematic Symbol"  style="width: 100px;">
 
 - **Capacitor**: Capacitors, which store electrical energy, come in two varieties—polarized and non-polarized. The symbol for a non-polarized capacitor looks like two parallel lines, while a polarized capacitor has one straight line and one curved line. You’ll notice these pop up when you need to store charge or filter signals.
 
@@ -35,7 +35,7 @@ Here’s a quick review of the schematic symbols we’ve talked about so far. Th
 
 - **Variable Capacitor**: A variable capacitor looks like a regular capacitor symbol but with an arrow through it, meaning you can adjust its value.
 
-  <img src="../../../images/schem-varcapacitor.svg" alt="Variable Capacitor schematic Symbol" width="100" height="100">
+  <img src="../../../images/schem-varcapacitor.svg" alt="Variable Capacitor schematic Symbol" style="width: 100px;">
 
 - **Inductor**: An inductor stores energy in a magnetic field. Its symbol looks like a coiled spring, which makes sense since most inductors are actually coils of wire. You’ll see inductors in circuits dealing with things like oscillation or filtering.
 
@@ -43,19 +43,19 @@ Here’s a quick review of the schematic symbols we’ve talked about so far. Th
 
 - **Variable Inductor**: A variable inductor looks like a regular inductor symbol (coiled wire) but with an arrow through it, meaning you can adjust its value.
 
-  <img src="../../../images/schem-varinductor.svg" alt="Variable Inductor schematic Symbol" width="100" height="100">
+  <img src="../../../images/schem-varinductor.svg" alt="Variable Inductor schematic Symbol" style="width: 100px;">
 
 - **Transformer**: A transformer moves energy between circuits, and its symbol shows two coils side by side. You’ll usually see lines between the coils to show how energy is transferred.
 
-  <img src="../../../images/schem-transformer.svg" alt="Transformer schematic Symbol" width="100" height="100">
+  <img src="../../../images/schem-transformer.svg" alt="Transformer schematic Symbol" style="width: 100px;">
 
 - **Lamp**: You might also come across a lamp symbol, which looks like a circle with a little cross inside. This is used for lights in the circuit. Note that these are being mostly replaced by LEDs these days, but you should know the symbol anyway – particularly because it may come up on the exam!
 
-  <img src="../../../images/schem-lamp.svg" alt="Lamp Schematic Symbol" width="100" height="100">
+  <img src="../../../images/schem-lamp.svg" alt="Lamp Schematic Symbol" style="width: 100px;">
 
 - **Antenna**: The antenna symbol looks like a straight line with curved lines at the top, representing the signal being broadcast or received. You’ll see this when a circuit is meant to transmit or receive radio waves.
 
-  <img src="../../../images/schem-antenna.svg" alt="Antenna Schematic Symbol" width="100" height="100">
+  <img src="../../../images/schem-antenna.svg" alt="Antenna Schematic Symbol" style="width: 100px;">
 
 
 #### Semiconductors
@@ -72,8 +72,8 @@ Here’s a quick review of the schematic symbols we’ve talked about so far. Th
 
 | Transistor Type  | Schematic Symbol                                         |
 |------------------|----------------------------------------------------------|
-| NPN Transistor   | <img src="../../../images/schem-npn.svg" alt="NPN Transistor Schematic Symbol" width="100" height="100"> |
-| PNP Transistor   | <img src="../../../images/schem-pnp.svg" alt="PNP Transistor Schematic Symbol" width="100" height="100"> |
+| NPN Transistor   | <img src="../../../images/schem-npn.svg" alt="NPN Transistor Schematic Symbol" style="width: 100px;"> |
+| PNP Transistor   | <img src="../../../images/schem-pnp.svg" alt="PNP Transistor Schematic Symbol" style="width: 100px;"> |
 
 #### Other Important Components
 
@@ -86,11 +86,11 @@ Here’s a quick review of the schematic symbols we’ve talked about so far. Th
 
 - **Battery**: The battery symbol shows the positive and negative terminals using a long line (positive) and a short line (negative). Multiple sets of lines mean multiple cells in the battery.
 
-  <img src="../../../images/schem-battery.svg" alt="Battery Schematic Symbol" width="100" height="100">
+  <img src="../../../images/schem-battery.svg" alt="Battery Schematic Symbol" style="width: 100px;">
 
 - **Ground**: Ground is where your circuit “anchors.” It’s the common return path for current. The symbol usually looks like a set of stacked lines or a downward-pointing triangle, and you’ll see it in almost every circuit diagram.
 
-  <img src="../../../images/schem-ground.svg" alt="Ground Schematic Symbol" width="100" height="100">
+  <img src="../../../images/schem-ground.svg" alt="Ground Schematic Symbol" style="width: 100px;">
 
 ### How to Read a Circuit Diagram Without Overthinking It
 

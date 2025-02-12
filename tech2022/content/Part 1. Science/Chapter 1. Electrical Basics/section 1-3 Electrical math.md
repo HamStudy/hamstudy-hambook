@@ -9,7 +9,7 @@ Okay, let's get into some of the basic math and electrical laws you'll use all t
 
 #### Ohm's Law
 
-<img src="../../../images/illus/ohms_triangle.svg" alt="cartoon showing a conductor on the left and an insulator on the right, angry with each other" width="250" align="right" style=" margin: 3px;">
+<img src="../../../images/illus/ohms_triangle.svg" alt="cartoon showing a conductor on the left and an insulator on the right, angry with each other" style="float: right; width: 250px; margin: 3px;">
 
 First up is Ohm’s Law. This is the bread and butter of everything electrical. It’s all about how voltage, current, and resistance are related in a circuit. The law itself is simple:
 

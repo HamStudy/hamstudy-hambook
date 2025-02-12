@@ -49,7 +49,7 @@ An LED is a special kind of diode that emits light when current flows through it
 
 A rectifier is a specific type of circuit that uses diodes to convert AC (which flows back and forth) into DC (which flows in only one direction). This process is crucial in power supplies, where the alternating current from the wall outlet needs to be converted into the direct current that most electronic devices require.
 
-<img src="../../../images/schem-bridgerectifier.svg" alt="Full Wave Bridge Rectifier Schematic Symbol" width="100" height="100" align="right">
+<img src="../../../images/schem-bridgerectifier.svg" alt="Full Wave Bridge Rectifier Schematic Symbol" style="float: right; width: 100px; height: auto;">
 In a basic rectifier circuit, diodes are arranged so that they only allow current to pass when it’s flowing in the desired direction, effectively “chopping up” the AC into DC. In a "full wave bridge rectifier" two paths are created through the diodes so that whichever direction current flows in it will always flow out the same direction.
 
 The output of a full wave bridge rectifier is pulsating DC, which goes from 0 to +V back to 0 and repeats, rather than alternating between positive and negative like AC. In a power supply, capacitors may then be used to smooth out the signal.
