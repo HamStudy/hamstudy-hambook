@@ -2,7 +2,7 @@
 ---
 # HamStudy Technician License HamBook
 
-<div style="text-align: center">
+<div style="text-align: center" class="web-only">
     <img src="/figures/coverfornow.jpg" style="width: 400px;" /><br />
     {{< button relref="/docs" >}}Start reading now{{< /button >}}
 </div>

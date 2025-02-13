@@ -1,5 +1,5 @@
 {{ if eq .Type "block" }}
-  {{ $opts := dict "displayMode" true }}
+  {{ $opts := dict "displayMode" true "output" "html" }}
   <span class="katex-display">{{ transform.ToMath .Inner $opts }}</span>
 {{ else }}
   {{ transform.ToMath .Inner }}

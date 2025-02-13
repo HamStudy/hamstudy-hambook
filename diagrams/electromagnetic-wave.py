@@ -20,18 +20,37 @@ ax.set_xlabel('Propagation Direction (z-axis)')
 ax.set_ylabel('Electric Field (y-axis)')
 ax.set_zlabel('Magnetic Field (x-axis)')
 
+ax.set_xticks([0, np.pi, 2 * np.pi])
+ax.set_xticklabels(['', '', ''])
+ax.set_yticks([-1, 0, 1])
+ax.set_yticklabels(['', '', ''])
+ax.set_zticks([-1, 0, 1])
+ax.set_zticklabels(['', '', ''])
+
+
 # Adjust the viewing angle
 ax.view_init(elev=20, azim=-60)
 
 # Plot static lines for reference
-ax.plot(z, np.zeros_like(z), np.zeros_like(z), color='k', linestyle='--', linewidth=1)  # z-axis line
+ax.plot(z, np.zeros_like(z), np.zeros_like(z), color='k', linestyle=':', linewidth=1)  # z-axis line
 ax.plot([0, 2 * np.pi], [0, 0], [0, 0], color='k', linestyle='--', linewidth=1)  # y-axis line
-ax.plot([0, 0], [-0.5, 0.5], [0, 0], color='k', linestyle='--', linewidth=1)  # Perpendicular line on x/y plane
-ax.plot([0, 0], [0, 0], [-0.5, 0.5], color='k', linestyle='--', linewidth=1)  # x-axis line
+ax.plot([0, 0], [-0.5, 0.5], [0, 0], color='k', linestyle=':', linewidth=1)  # Perpendicular line on x/y plane
+ax.plot([0, 0], [0, 0], [-0.5, 0.5], color='k', linestyle='-', linewidth=1)  # x-axis line
 
 # Initialize lines for electric and magnetic fields
-electric_line, = ax.plot([], [], [], color='r', label='Electric Field (E)')
-magnetic_line, = ax.plot([], [], [], color='b', label='Magnetic Field (B)')
+# Electric Field (E) in red, dotted line, slightly lighter
+electric_line, = ax.plot([], [], [], 
+                         color='r', 
+                         linestyle='--', 
+                         alpha=0.5, 
+                         label='Electric Field (E)')
+
+# Magnetic Field (B) in blue, solid line (full opacity)
+magnetic_line, = ax.plot([], [], [], 
+                         color='b', 
+                         linestyle='-', 
+                         alpha=1.0, 
+                         label='Magnetic Field (B)')
 
 # Set up the title and legend
 ax.set_title('Electromagnetic Wave: Electric and Magnetic Fields')
@@ -57,11 +76,11 @@ def update(frame):
     E_field = 0.5 * np.sin(2 * z - phase_shift)  # Electric field
     B_field = 0.5 * np.sin(2 * z - phase_shift + np.pi / 2)  # Magnetic field
 
-    # Update electric field line
+    # Update electric field (dotted, lighter)
     electric_line.set_data(z, E_field)
     electric_line.set_3d_properties(np.zeros_like(z))
 
-    # Update magnetic field line
+    # Update magnetic field (solid)
     magnetic_line.set_data(z, np.zeros_like(z))
     magnetic_line.set_3d_properties(B_field)
     
@@ -73,7 +92,7 @@ anim = FuncAnimation(fig, update, frames=frames, init_func=init, blit=True, inte
 # Save as GIF
 anim.save('wave_animation.gif', writer=PillowWriter(fps=15))
 
-# Save as MP4
+# Optional: Save as MP4 (uncomment if needed)
 # anim.save('wave_animation.mp4', writer='ffmpeg', fps=30)
 
 # Show the plot (optional)

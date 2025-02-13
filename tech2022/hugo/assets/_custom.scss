@@ -1,7 +1,59 @@
+
+#cover-image {
+  display: none;
+}
+div.print-page-break { display: none; }
+
 @media print {
+  html { font-size: 11.5px; }
+
+  div.print-page-break {
+    display: block;
+    page-break-after: always;
+    break-after: page;
+  }
+  #cover-image {
+    display: block;
+    page-break-after: always;
+    break-after: page;
+  }
+  .web-only { display: none; }
+
+  .markdown {
+    line-height: 1.4 !important;
+  }
+
   .book-header, .book-btn, .prevnext, ohms-law-component {
     display: none !important;
   }
+  math annotation { display: none !important; }
+  #_index h1 { margin-top: 0; font-size: 1.5em; text-align: center; }
+  a.anchor { display: none !important; }
+  section.book-section h2 { string-set: chapter content(), section ''; }
+  section.book-section h3 { string-set: section content(); }
+  .book-all-pages-toc {
+    string-set: chapter '';
+    break-before: page;
+    page-break-before: always;
+    break-after: page;
+    page-break-after: always;
+  }
+  section.book-section::after {
+    string-set: section '';
+  }
+  .book-section.level1 {
+    break-before: page;
+    page-break-before: always;
+  }
+  .book-section.level2 {
+    break-before: page;
+    page-break-before: always;
+  }
+  .book-section.level3 {
+    margin-bottom: 5rem;
+  }
+  h1, h2, h3, h4 { font-weight: 700 !important; }
+  h3 { font-size: 1.3rem !important; }
 }
 
 :root {
@@ -20,11 +72,11 @@
 }
 
 .questions-list {
-  margin: 20px 0;
+  margin: 2rem 0;
 
   .question-figure {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 1rem;
 
     img {
       max-width: 100%;
@@ -41,17 +93,17 @@
   .question-item {
     margin: 0 auto;
     width: 90%;
-    margin-bottom: 20px;
-    padding: 10px;
+    padding: 0.5rem;
     page-break-inside: avoid;
+    break-inside: avoid-page;
 
     > strong { // Question number and text
-      margin: 0 0 10px 0;
+      margin: 0 0 0.5rem 0;
       display: block;
       background-color: var(--question-bg);
-      padding: 5px;
-      border-radius: 15px 15px 0 0;
-      font-size: 18px;
+      padding: 0.5rem;
+      border-radius: 1.5rem 1.5rem 0 0;
+      font-size: 1.05rem;
       font-weight: bold;
       color: var(--body-font-color);
       border-bottom: 1px dashed var(--question-border);
@@ -64,16 +116,16 @@
       margin: 0;
 
       .answer-item {
-        padding: 0 10px;
+        padding: 0 1rem;
         
         color: var(--question-distractor-color);
         display: none;
         &.correct-answer {
           display: list-item;
-          padding: 5px 10px;
-          margin: 3px 0;
+          padding: 0.5rem 1rem;
+          margin: 0.3rem 0;
           border: 1px solid var(--correct-answer-border);
-          border-radius: 10px;
+          border-radius: 1rem;
           background-color: var(--correct-answer-bg);
           font-weight: bold;
           color: var(--body-font-color);
@@ -81,7 +133,7 @@
         }
 
         strong {
-          margin-right: 8px;
+          margin-right: 0.8rem;
           color: var(--body-font-color);
         }
       }
@@ -108,24 +160,22 @@
 
 .prevnext {
   font-size: 90%;
-  .back { margin-right: 5px; }
-  .next { margin-left: 5px; }
+  .back { margin-right: 0.5rem; }
+  .next { margin-left: 0.5rem; }
 }
 
 .pad-top {
-  margin-top: 20px;
+  margin-top: 2rem;
 }
 .pad-bottom {
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
 }
 .pad-both {
-  margin: 20px 0;
+  margin: 2rem 0;
 }
 
 .book-content {
   .book-all-pages-toc {
-    // page-break-after: always;
-    // break-after: page;
     ul {
       list-style-type: none;
       padding-left: 1.5em;
@@ -140,16 +190,12 @@
     a:hover {
         text-decoration: underline;
     }
-  }
+    a::after {
+      content: leader('.') target-counter(attr(href), page);
 
-  .book-section {
-    page-break-inside: avoid;
-
-    &:not(:last-child) {
-      page-break-after: always;
-      break-after: page;
     }
   }
+
   .question-item {
     page-break-inside: avoid;
   }

@@ -62,7 +62,7 @@ It's the same thing, but 300 is easier to remember than 300 million!
 
 Now, let’s talk about what’s happening inside those radio waves. Radio waves are a type of electromagnetic wave, which means they have both electric and magnetic fields. These fields are like two dance partners—they’re always at right angles to each other and move together at the speed of light. This perpendicular relationship is key to how radio waves travel through space.
 
-![Electric vs Magnetic Fields - always at a right angle from each other](../../../images/electromagnetic-3d.gif)
+<img src="../../../images/electromagnetic-3d.gif" alt="Electric vs Magnetic Fields - always at a right angle from each other"  style="max-width: 400px;">
 
 #### Polarization and the Electric Field
 
