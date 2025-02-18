@@ -18,9 +18,9 @@ Becoming a licensed amateur radio operator in the United States involves passing
 
 To progress to a higher class, you must pass the exam for that class as well as all lower classes. For example, to obtain a General Class license, you must pass both the Technician and General exams.
 
-## License issue, expiration, and renewal
+## License Issue, Expiration, and Renewal
 
-Once you pass your exam and your license application is submitted you will receive an email from the FCC instructing you to pay a $35 fee on their online portal. Once you have completed that step your license will usually appear in the database the next morning.
+Once you pass your exam and your license application is submitted you will receive an email from the FCC instructing you to pay a $35 application fee on their online portal. Once you have completed that step your license will usually appear in the database the next morning.
 
 If the FCC attempts to reach you by email and is unable to do so *even after you are licensed* they may choose to revoke or suspend your license, so make sure to use a valid email address and update your license records with the FCC if it changes!
 
@@ -48,7 +48,7 @@ Remember that even if you find the exam session through HamStudy or another webs
 
 ## Remote Exams
 
-Since 2020, fully remote exam sessions have become widely available. These allow you to take your exam from home using video conferencing software. To participate in a remote exam:
+Since 2020, remote exam sessions have become widely available. These allow you to take your exam from home using video conferencing software. To participate in a remote exam:
 
 1. Ensure you have a reliable internet connection and a webcam.
 2. Have a clean, private space for taking the exam.
@@ -56,19 +56,3 @@ Since 2020, fully remote exam sessions have become widely available. These allow
 4. Visit https://ham.study/sessions/online to find available remote sessions.
 
 When registering for a remote exam, carefully read all instructions provided by the exam team. Pay attention to any specific software requirements or pre-exam procedures they may have.
-
-## Question Pools
-
-The exam questions come from publicly available question pools developed by the National Conference of Volunteer Examiner Coordinators (NCVEC). These pools are updated on a regular schedule:
-
-- Technician Class pool: Updated every four years
-- General Class pool: Updated every four years
-- Amateur Extra Class pool: Updated every four years
-
-The updates are staggered, so only one pool changes each year. This ensures that study materials and exams remain current with evolving technology and regulations.
-
-Each question pool contains many more questions than will appear on any single exam. Your actual test will be a random selection of questions from the appropriate pool, ensuring that each exam is unique.
-
-Remember, the goal of the licensing process is not just to pass an exam, but to ensure that amateur radio operators have the knowledge needed to operate their stations safely and in compliance with FCC regulations. As you prepare for your exam, focus on understanding the material rather than just memorizing answers.
-
-Good luck with your studies, and welcome to the exciting world of amateur radio!
