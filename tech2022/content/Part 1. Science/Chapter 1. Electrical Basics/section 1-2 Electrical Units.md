@@ -10,25 +10,26 @@ To understand how our radios work, we need to familiarize ourselves with some ba
 
 #### Voltage, Current, and Resistance
 
-Imagine electricity as water flowing through a pipe system. This analogy, while not perfect, can help us visualize these abstract concepts.
+While we often compare electricity to water flowing through pipes, this analogy isn't perfect. Let's look at what's really happening:
 
-- **Voltage** ($E$ or $V$) is like the water pressure in the pipes. It’s *the force that pushes electrons through a circuit*, and we measure it in **volts (V)**.  
-  - Voltage is also sometimes called **electromotive force (EMF)**, because it’s what "moves" electricity.
-  - Voltage is always measured *between two points*. When we say a car battery is 12V, we mean there’s a **12-volt difference** between its positive and negative terminals.
+- **Voltage** ($E$ or $V$) is like electrical "pressure" - *it's the force that creates electric fields in a circuit*, and we measure it in **volts (V)**.  
+  - Voltage is also sometimes called **electromotive force (EMF)**, because it creates the conditions that allow current to flow.
+  - Voltage is always measured *between two points*. When we say a car battery is 12V, we mean there's a **12-volt difference** between its positive and negative terminals.
 
-- **Current** ($I$) is like the amount of water flowing through the pipes. It’s *the actual movement of electrons through a conductor*, measured in **amperes (A)**.  
+- **Current** ($I$) is *the rate at which electric charge flows through a circuit*, measured in **amperes (A)**. Here's what's interesting:
+  - While individual electrons move quite slowly through a conductor (about half an inch per minute!), the *effect* of current is nearly instantaneous - like a long tube filled with marbles. Push one in at one end, and one pops out the other end almost immediately.
   - In amateur radio, you might deal with:
-    - **Milliamps (mA)** in low-power circuits.
-    - **A few amps** powering a mobile transceiver.
-    - **15-20 amps** for a high-power HF amplifier.
+    - **Milliamps (mA)** in low-power circuits
+    - **A few amps** powering a mobile transceiver
+    - **15-20 amps** for a high-power HF amplifier
 
-- **Resistance** ($R$) is like friction in the pipes that slows the water down. It’s *the opposition to electrical flow* and is measured in **ohms ($\Omega$)**.  
-  - Resistance is important in radio circuits:
-    - Low resistance ensures *efficient antenna connections*.
-    - High resistance in dummy loads *safely absorbs transmitter power*.
-    - Specific resistances in filter circuits *shape frequency response*.
+- **Resistance** ($R$) is *how much a material opposes current flow by converting electrical energy into heat*, measured in **ohms ($\Omega$)**.  
+  - Think of resistance as a way of controlling how electrical energy is used in a circuit:
+    - Low resistance ensures *efficient antenna connections*
+    - High resistance in dummy loads *safely converts transmitter power into heat*
+    - Specific resistances in filter circuits *shape frequency response*
 
-These three are closely related through **Ohm’s Law**, which we’ll cover in **Section 1.3**.
+These three quantities are fundamentally linked as explained by **Ohm's Law**, which we'll cover in **Section 1.3**.
 
 #### Frequency {#12frequency}
 
@@ -58,7 +59,7 @@ Instead of always talking in watts, hams often use **decibels (dB)** to express 
 
 - **+3 dB** means power *doubles*.
 - **-3 dB** means power *is cut in half*.
-- **+10 dB** means power *increases tenfold*.
+- **+10 dB** means power *increases by ten times*.
 
 Some real-world examples:
 - A power increase from **5W to 10W** is a **+3 dB gain**.
