@@ -17,6 +17,7 @@ Before diving into the study material, it's helpful to understand what you're pr
 Some key points about the exam:
 - All possible questions and their correct answers are publicly available
 - Many of the questions simply test your knowledge of terminology or specific numbers you need to remember
+- Though there is a lot to learn, some of the material is just common sense. Once you learn it you won't forget it easily!
 - You don't need to be a technical expert to pass - many concepts are practical and straightforward
 - Questions are grouped into subelements (major topics) which are in turn grouped into sections (minor topics). Each exam draws one question from each section, so if there is a section you just don't understand you can safely skip that one and still pass the exam!
 
