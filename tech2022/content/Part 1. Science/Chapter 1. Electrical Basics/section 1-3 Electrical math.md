@@ -42,6 +42,19 @@ $$I = \frac{E}{R}$$
 
 $$R = \frac{E}{I}$$
 
+To help remember these relationships, you can use this simple circle diagram.
+
+<img src="../../../images/form-ohms.svg" alt="Ohm's Law Circle" style="width: 150px; margin: 3px;">
+
+To use this helper:
+1. Cover up the value you want to find
+2. The remaining values show you how to calculate it
+   - Cover E: multiply $I \times R$
+
+   - Cover I: divide $\frac{E}{R}$
+
+   - Cover R: divide $\frac{E}{I}$
+
 #### **Example 1**  
 You have a **10-ohm resistor**, and **2 amps of current** are running through it. According to Ohm's Law:
 
@@ -68,8 +81,22 @@ $$P = E \times I$$
 
 Where:
 - **$P$** is the *power* in **watts (W)**  
-- **$E$** is the *voltage* in **volts (V)**  
 - **$I$** is the *current* in **amperes (A)**  
+- **$E$** is the *voltage* in **volts (V)**  
+
+Easy as PIE! Just like with Ohm's Law, there's a helpful circle diagram for power calculations.
+
+<img src="../../../images/form-power.svg" alt="Power Law Circle" style="width: 150px; margin: 3px;">
+
+The same principle applies:
+1. Cover what you want to calculate
+2. The remaining values show you the formula
+
+   - Cover P: multiply $I \times E$
+
+   - Cover I: divide $\frac{P}{E}$
+
+   - Cover E: divide $\frac{P}{I}$
 
 *Though you won't need it on the exam*, you can rearrange this formula and even combine it with Ohm’s Law to find **any missing value if you have two known values**:
 
