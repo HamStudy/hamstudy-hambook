@@ -1,5 +1,5 @@
 
-# Other books for preparing for your Ham Radio license
+## Other books for preparing for your Ham Radio license
 
 No single approach works for everyone when preparing for your Ham Radio license. Our goal is to provide an unbiased review of different options. To achieve this, we've enlisted the help of an AI to offer impartial reviews. Here are some popular study resources, along with ratings and summaries provided by an AI.
 
