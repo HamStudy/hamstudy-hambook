@@ -10,6 +10,8 @@ Welcome to the digital age of amateur radio! If voice modes are like having a co
 
 Imagine sending an email through radio waves. That’s essentially what packet radio does! It breaks your message into small "packets" of data, sends them over the air, and then reassembles them at the receiving end. Each packet includes:
 
+**Key Information:** All Packet Radio transmissions include:
+
 - A checksum for error detection
 - The call sign of the destination station
 - An automatic repeat request if errors are detected
@@ -18,17 +20,19 @@ It's like sending a puzzle through the air that reassembles itself perfectly on 
 
 #### APRS (Automatic Packet Reporting System)
 
-APRS is like the social media of ham radio. It lets you transmit all sorts of data: your position, weather info, short messages—you name it! Imagine a real-time map showing where hams are operating, complete with status updates. It's super useful for public service events or emergencies, letting coordinators see where their operators are at a glance. With APRS, you can:
+APRS is like the social media of ham radio. It lets you transmit all sorts of data: your position, weather info, short messages—you name it! Imagine a real-time map showing where hams are operating, complete with status updates. It's super useful for public service events or emergencies, letting coordinators see where their operators are at a glance.
 
-- Track your location as you move around
-- Set up a home station as a digital signpost
-- Share local weather data
-- Send short text messages
-- View a map showing the locations of other stations
+**Key Information:** APRS supports various types of data, including:
 
-It's like Twitter meets Google Maps, but for radio!
+- GPS position data
+- Weather data
+- Text messages
+
+With APRS you can set up even a home station as a digital signpost and view a map showing the locations of other stations! It's like Twitter meets Google Maps, but for radio!
 
 #### PSK31
+
+**Key Information:** PSK stands for _Phase Shift Keying_
 
 PSK31 is like the smooth jazz of digital modes. It’s designed for real-time, keyboard-to-keyboard conversations. PSK stands for "Phase Shift Keying," and the "31" in its name comes from its bandwidth—just 31 Hz! That’s incredibly narrow, allowing it to get through in tough conditions.
 
@@ -42,17 +46,30 @@ PACTOR is like the Swiss Army knife of digital modes. It can automatically switc
 
 #### Digital Mobile Radio (DMR)
 
+**Key Information:** 
+
+- DMR uses time-division multiple access (TDMA) to split a 12.5 kHz channel into two time slots
+- Color codes are used to access repeaters
+- Talkgroups allow groups of users to share a channel at different times using a group ID or code
+- DMR radios are programmed with a "code plug"
+
 Think of DMR as the multitasking wizard of the radio world. This digital mode uses a nifty trick called time-division multiple access (TDMA). What does that mean for you? Well, it splits a single 12.5 kHz channel into two separate time slots, allowing two conversations to happen at once on the same frequency. It’s like getting double the channels without needing more spectrum!
 
 Here’s what makes DMR stand out:
 - **Color Codes**: Instead of using PL tones or DCS codes like in analog systems, DMR repeaters use color codes. To get on a DMR repeater, you’ve got to match the right color code—think of it as a digital key to unlock access.
 - **Talkgroups**: DMR organizes users into talkgroups, which are basically like radio chat rooms. Just program the right group ID, and you’re chatting with other hams in that group, whether they’re around the corner or around the world.
 
-DMR radios are usually configured by installing a "code plug" into the radio. The code plug is actually just software configuration containing access information for repeaters and talk groups.
+_DMR radios are usually configured by installing a "code plug" into the radio. The code plug is actually just software configuration containing access information for repeaters and talk groups._
 
 DMR is popular in both the amateur and commercial radio worlds, and with its efficient use of spectrum and robust features, it’s no wonder why.
 
 ### D-STAR (Digital Smart Technologies for Amateur Radio)
+
+**Key Information:** 
+
+- The first thing you must do with a D-STAR transceiver is program your call sign
+- D-STAR operates on 2-meter, 70-centimeter, and 1.2 GHz bands
+- Call sign routing is a unique feature of D-STAR
 
 D-STAR, which stands for Digital Smart Technologies for Amateur Radio, is a digital voice and data protocol developed specifically for amateur radio by the Japan Amateur Radio League (JARL). It was one of the first digital modes designed for amateur use and remains popular among hams who appreciate its versatility and features.
 
@@ -70,6 +87,8 @@ To use D-STAR, you'll need a compatible transceiver and either a local D-STAR re
 
 System Fusion, also known as C4FM, is a digital communication mode developed by Yaesu. It was designed to provide the flexibility of both digital and analog FM communications in one system, making it easy for users to transition between modes depending on their needs.
 
+_System Fusion is not currently mentioned on the license exam_, but you may still want to know a bit about it.
+
 System Fusion offers several key features:
 - **Automatic Mode Select (AMS)**: This feature allows System Fusion radios to automatically switch between digital and analog modes depending on the incoming signal. This makes it easier for operators to communicate without worrying about manually changing settings.
 - **Digital Group Monitor (GM)**: This feature lets you see who else is within range and operating on the same frequency. It's particularly useful for group activities or emergencies.
@@ -78,6 +97,8 @@ System Fusion offers several key features:
 System Fusion repeaters can operate in both digital and analog modes, providing greater flexibility for local clubs and groups. System Fusion can connect to the internet via Wires-X, Yaesu's network of linked repeaters and nodes.
 
 #### Digital Mode Hot Spots
+
+**Key Information:** Digital hot spots allow communication using voice or data via the internet
 
 A digital mode hot spot is like your personal gateway to the world of digital radio. Imagine having your own miniature repeater that connects your transceiver to digital networks via the internet. Whether you're using DMR, D-STAR, or System Fusion, a hot spot extends your reach far beyond the local area, letting you chat with hams across the globe without leaving your shack.
 
@@ -89,13 +110,23 @@ SSTV is like sending a postcard via radio. It transmits still images, taking any
 
 #### FSTV (Fast Scan Television)
 
+**Key Information:** NTSC indicates an analog fast-scan color TV signal
+
 FSTV is full-motion video over the air. Think of it as YouTube for ham radio! It requires a lot of bandwidth, so it's typically used on UHF and higher frequencies. The NTSC (National Television System Committee) standard, which was used for analog TV in North America, is also used in amateur television. Just remember, as fun as it is, broadcasts intended for the general public are forbidden. Any transmissions you make, including Amateur Television, need to be for an allowed purpose in the Amateur Radio service.
 
 #### Mesh Networks
 
 Mesh networks are like a web of interconnected radios. Each station in a mesh network can receive and relay data, creating a robust, decentralized network. It’s based on standard Wi-Fi equipment with custom firmware and relies on the same IEEE 802.11 modes as a traditional wireless network, just modified a bit. Imagine a whole neighborhood linked together, able to communicate even if the internet goes down!
 
+**Key Information:** An amateur radio mesh network is a data network using commercial Wi-Fi equipment with modified firmware.
+
 #### New Digital Modes
+
+**Key Information:**
+
+- FT8 is a digital mode capable of low signal-to-noise operation that works with WSJT-X software
+- A computer-radio interface for digital modes requires Receive Audio, Transmit Audio, and Transmitter keying; the receive audio connection usually involves a connection from the transceiver speaker to the computer's "line in" connector.
+
 
 The world of digital modes is constantly evolving. Modes like FT8 and FT4, developed by Joe Taylor, K1JT, have revolutionized weak signal communication. These modes can pull readable signals out of noise levels that would make voice communication impossible.
 
@@ -107,7 +138,9 @@ There are also interfaces that plug into your USB port and provide both the audi
 
 #### ARQ
 
-ARQ (Automatic Repeat reQuest) is a clever error correction method. If a receiving station detects an error, it automatically asks for a retransmission. It’s like having a built-in "Could you repeat that?" function.
+**Key Information:** ARQ (Automatic Repeat reQuest) is an error correction method where the receiving station detects errors and requests retransmission.
+
+If a receiving station detects an error, it automatically asks for a retransmission. It’s like having a built-in "Could you repeat that?" function.
 
 #### Getting Started with Digital Modes
 

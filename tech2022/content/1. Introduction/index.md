@@ -5,20 +5,27 @@ slug: intro
 
 # Introduction
 
-Are you ready to embark on an exciting journey into the world of amateur radio? You've come to the right place! This HamBook is your comprehensive guide to obtaining your Technician Class amateur radio license, the entry-level ticket to the fascinating realm of ham radio.
+Welcome to the HamStudy Technician License HamBook! Whether you're looking to quickly get your license or dive deep into amateur radio, this book is designed to help you succeed. Amateur radio (often called "ham radio") opens up a world of possibilities, from casual conversations with local operators to bouncing signals off the moon.
 
 **What's Inside**
 
-In this HamBook, you'll find:
+This HamBook contains everything you need to get your Technician Class license:
 
-- A friendly introduction to amateur radio and its many facets
 - Clear explanations of technical concepts, from basic electronics to radio wave propagation
-- Practical information on setting up and operating your first station
+- Practical information about setting up and operating your first station
 - Important safety guidelines to keep you and your equipment protected
-- An overview of FCC rules and regulations for amateur radio operators
+- A straightforward overview of FCC rules and regulations
+- Practice questions from the actual exam pool
 
-Whether you're drawn to amateur radio for the technical challenge, the thrill of making long-distance contacts, or the ability to provide emergency communications, this HamBook will help you build a solid foundation. 
+People come to amateur radio for many different reasons. You might be interested in:
+- Emergency communications and public service
+- Building and experimenting with radio equipment
+- Making friends over the airwaves
+- The technical challenge of bouncing signals off satellites
+- Or simply having a new way to chat with people while driving
 
-As you progress through the chapters, remember that you're not just preparing for a test - you're joining a vibrant community of enthusiasts who share a passion for radio communication. Take your time, enjoy the learning process, and don't hesitate to reach out to the amateur radio community for support.
+Whatever draws you to amateur radio, this HamBook is designed to help you get licensed and start exploring. You can choose how deeply you want to dive into each topic - some concepts are fascinating to explore in detail, while others you might just need to know enough to pass the exam.
 
-Ready to take your first step? Let's dive in and discover the exciting world of amateur radio together!
+Remember, getting your license is just the first step. Many hams find that their real learning and growth happens once they get on the air and start operating. Whether you choose to study intensively or take a more gradual approach, we're here to help you join the amateur radio community.
+
+Ready to begin? Let's get started!
