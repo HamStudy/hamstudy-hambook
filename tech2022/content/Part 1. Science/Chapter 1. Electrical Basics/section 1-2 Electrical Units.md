@@ -107,12 +107,16 @@ Most ham gear runs on **DC power**, but **radio signals themselves are AC**—th
 
 #### Impedance
 
-**Impedance is the opposition to AC current flow** and, like resistance, it’s measured in **ohms ($\Omega$)**. The only thing you *need* to know for the exam is that *impedance is measured in ohms* and that it *describes the opposition to AC current flow*. But since impedance is important in radio, let’s go a little deeper.
+> **Key Information:** *Impedance is the opposition to AC current flow* and, like resistance, it’s measured in *ohms ($\Omega$)*.
 
-In a **DC circuit**, resistance is simple—it just slows down the flow of electricity, like friction in a water pipe. But in an **AC circuit**, two additional factors affect impedance:
+In a **DC circuit**, resistance is simple—it just slows down the flow of electricity, like friction in a water pipe. But in an **AC circuit**, impedance is more complex because it also includes reactance, which depends on frequency.
 
-- **Inductors** *resist changes in current*.
-- **Capacitors** *resist changes in voltage*.
+- **Inductive reactance** makes it harder for AC to flow as frequency increases, which is why inductors are used in filters and tuning circuits.
+- **Capacitive reactance** does the opposite—capacitors allow more AC to flow as frequency increases, making them useful for blocking DC while letting AC through.
+
+Taken together, resistance, capacitive reactance, and inductive reactance determine a circuit's opposition to alternating current. This total opposition is called **impedance**, measured in ohms.
+
+Since **reactance** depends on frequency, impedance changes at different frequencies. This is why antennas and feedlines must be designed for the correct impedance—otherwise, power gets reflected instead of radiating efficiently.
 
 Your radio is designed to work best when connected to a **50-ohm antenna system**. If the impedance doesn’t match:
 - Some of your signal gets **reflected back** instead of being transmitted.
