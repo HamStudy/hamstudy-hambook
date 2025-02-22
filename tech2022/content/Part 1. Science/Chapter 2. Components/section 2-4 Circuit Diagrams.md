@@ -7,7 +7,7 @@ questions: [ "T6C05", "T6C07", "T6C04", "T6C06", "T6C10", "T6C03", "T6C09", "T6C
 
 By now, you've gotten to know a lot of different components—resistors, capacitors, transistors, and more. You've seen their symbols sprinkled throughout earlier sections, and hopefully, they're starting to feel familiar. Now it's time to gather everything in one place and focus on how these symbols are used in circuit diagrams.
 
-**Key Information**: A *schematic* is an electrical wiring diagram that uses standard component symbols. The most important thing to remember is that schematics show *component connections* accurately.
+> **Key Information**: A *schematic* is an electrical wiring diagram that uses standard component symbols. The most important thing to remember is that schematics show *component connections* accurately.
 
 Think of a schematic as a map for electronics. Instead of using pictures of actual parts, it uses standard symbols to show how components connect. Once you know how to read them, circuit diagrams are your key to understanding any electronic device, no matter how complicated.
 
@@ -17,40 +17,50 @@ Let's review the key components you'll encounter in circuit diagrams. Pay specia
 
 ##### Basic Components
 
-**Key Information**: A *resistor controls the flow of current* in a circuit.
+> **Key Information**: A *resistor controls the flow of current* in a circuit.
 
 - **Resistor**: That familiar zig-zag line represents a component that controls current flow. You'll see these everywhere in circuits.
-  ![Resistor schematic diagram with both styles](../../../images/s2-1-resistor.svg)
+  
+  ![Resistor schematic diagram](../../../images/s2-1-resistor.svg)
 
 - **Variable Resistor (Potentiometer)**: Like a regular resistor, but with an arrow showing you can adjust its value.
+  
   <img src="../../../images/schem-potentiometer.svg" alt="Potentiometer schematic Symbol"  style="width: 100px;">
 
 - **Capacitor**: Those parallel lines store electrical energy. You'll see both polarized (with a curved line) and non-polarized versions.
-  ![Capacitor schematic diagram with both styles](../../../images/s2-1-capacitor.svg)
+  
+  ![Capacitor schematic diagram](../../../images/s2-1-capacitor.svg)
 
 - **Transformer**: Two coils side by side show energy transfer between circuits.
+  
   <img src="../../../images/schem-transformer.svg" alt="Transformer schematic Symbol" style="width: 100px;">
 
 - **Variable Inductor**: A coil with an arrow through it means you can adjust its value.
+  
   <img src="../../../images/schem-varinductor.svg" alt="Variable Inductor schematic Symbol" style="width: 100px;">
 
 ##### Active Components
 
 - **Transistor**: These workhorses control current flow and provide amplification. The arrow shows current direction.
+  
   <img src="../../../images/schem-npn.svg" alt="NPN Transistor Schematic Symbol" style="width: 100px;">
 
 - **LED (Light Emitting Diode)**: Like a regular diode but with arrows showing it emits light.
+  
   ![LED schematic diagram with anode / cathode labeled](../../../images/s2-2-led.svg)
 
 ##### Power and Indicators
 
 - **Battery**: Long and short lines show positive and negative terminals.
+  
   <img src="../../../images/schem-battery.svg" alt="Battery Schematic Symbol" style="width: 100px;">
 
 - **Lamp**: A circle with a cross inside represents a light bulb.
+  
   <img src="../../../images/schem-lamp.svg" alt="Lamp Schematic Symbol" style="width: 100px;">
 
 - **Antenna**: A line with smaller lines at an angle represents where signals enter or leave the circuit.
+  
   <img src="../../../images/schem-antenna.svg" alt="Antenna Schematic Symbol" style="width: 100px;">
 
 #### Reading Circuit Diagrams

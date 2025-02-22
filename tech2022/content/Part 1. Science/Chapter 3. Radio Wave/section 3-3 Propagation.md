@@ -6,13 +6,11 @@ questions: [ "T3C07", "T3C08", "T3A05", "T3A07", "T3A08", "T3A10", "T3A11", "T3A
 
 When you toss a pebble into a pond, you see ripples spreading out in all directions. Radio waves behave in a similar way, but instead of traveling across water, they propagate through space. Different frequencies travel in different ways, and understanding these behaviors helps us communicate more effectively.
 
-#### Basic Wave Behavior
-
-**Key Information**: 
-- The *ionosphere can refract or bend HF and VHF radio waves*
-- The *radio horizon is farther than the visual horizon* because the *atmosphere refracts radio waves slightly*
-- *Long-distance ionospheric propagation is far more common on HF* than on VHF/UHF
-- *UHF signals are rarely heard beyond their radio horizon* because they're *usually not propagated by the ionosphere*
+> **Key Information**: Basic Wave Behavior
+> - The *ionosphere can refract or bend HF and VHF radio waves*
+> - The *radio horizon is farther than the visual horizon* because the *atmosphere refracts radio waves slightly*
+> - *Long-distance ionospheric propagation is far more common on HF* than on VHF/UHF
+> - *UHF signals are rarely heard beyond their radio horizon* because they're *usually not propagated by the ionosphere*
 
 ![Propagation types at different frequency ranges](../../../images/propagation-types.svg)
 
@@ -24,9 +22,9 @@ When you toss a pebble into a pond, you see ripples spreading out in all directi
 
 Line-of-sight is like being able to see someone across a field - if you can see them, you can probably communicate with them. However, several important effects can help or hinder this basic propagation:
 
-**Key Information - Multipath Effects**: 
-- *VHF signal strengths can vary greatly when moving just a few feet* because *multipath propagation cancels or reinforces signals*
-- *Picket fencing* is the *rapid flutter on mobile signals due to multipath propagation*
+> **Key Information - Multipath Effects**: 
+> - *VHF signal strengths can vary greatly when moving just a few feet* because *multipath propagation cancels or reinforces signals*
+> - *Picket fencing* is the *rapid flutter on mobile signals due to multipath propagation*
 
 When radio signals travel from transmitter to receiver, they often take multiple paths:
 - Some signals go directly
@@ -38,9 +36,9 @@ When radio signals travel from transmitter to receiver, they often take multiple
 
 This is why you might hear a mobile signal rapidly cutting in and out as you drive - like looking through a picket fence.
 
-**Key Information - Working Around Obstacles**:
-- When buildings block a repeater signal, you can often *communicate by finding a path that reflects signals* to the repeater
-- *Knife-edge diffraction allows radio signals to travel beyond obstructions*
+> **Key Information - Working Around Obstacles**:
+> - When buildings block a repeater signal, you can often *communicate by finding a path that reflects signals* to the repeater
+> - *Knife-edge diffraction allows radio signals to travel beyond obstructions*
 
 Just because you can't see your target doesn't mean you can't reach it:
 - **Reflections**: Like bouncing a ball off a wall, your signal can bounce off buildings or other surfaces to reach a repeater
@@ -48,10 +46,10 @@ Just because you can't see your target doesn't mean you can't reach it:
 
 #### Sky Wave Propagation
 
-**Key Information**:
-- *Irregular fading of signals is caused by random combining of signals arriving via different paths*
-- Best time for 10-meter band F region propagation: *from dawn to shortly after sunset during high sunspot activity*
-- During peak sunspot cycle, *6 and 10 meters* can use F region propagation
+> **Key Information**:
+> - *Irregular fading of signals is caused by random combining of signals arriving via different paths*
+> - Best time for 10-meter band F region propagation: *from dawn to shortly after sunset during high sunspot activity*
+> - During peak sunspot cycle, *6 and 10 meters* can use F region propagation
 
 Think of sky wave propagation like bouncing a ball off the ceiling to reach someone across the room. The ionosphere acts as our "ceiling" in the sky, but it's constantly changing:
 - Different layers of the ionosphere affect different frequencies
@@ -63,21 +61,21 @@ Signals received via auroral reflection are *distorted and signal strength varie
 
 #### Sporadic E Propagation
 
-**Key Information**: *Sporadic E causes occasional strong signals on the 10, 6, and 2 meter bands* from beyond the radio horizon.
+> **Key Information**: *Sporadic E causes occasional strong signals on the 10, 6, and 2 meter bands* from beyond the radio horizon.
 
 Think of Sporadic E like catching a lucky bounce off a cloud - it happens occasionally and can give you unexpected long-distance contacts. While you can't predict exactly when it will occur, it's a regular feature of VHF propagation.
 
 #### Tropospheric Ducting
 
-**Key Information**:
-- *Caused by temperature inversions* in the atmosphere
-- Allows *VHF and UHF communications to ranges of approximately 300 miles regularly*
+> **Key Information**:
+> - *Caused by temperature inversions* in the atmosphere
+> - Allows *VHF and UHF communications to ranges of approximately 300 miles regularly*
 
 Imagine a tunnel in the sky that can carry your signal much farther than usual. Temperature inversions create these "ducts" that can guide VHF and UHF signals far beyond their normal range, making long-distance contacts possible on bands that usually work only for local communication.
 
 #### Meteor Scatter
 
-**Key Information**: The *6 meter band is best suited* for meteor scatter communications.
+> **Key Information**: The *6 meter band is best suited* for meteor scatter communications.
 
 When meteors burn up in the atmosphere, they leave brief trails that can reflect radio signals. It's like playing ping-pong with a shooting star - the reflections are brief but can allow contacts over surprising distances. The 6 meter band works particularly well for this type of communication.
 
@@ -85,11 +83,11 @@ When meteors burn up in the atmosphere, they leave brief trails that can reflect
 
 Different environmental factors affect different frequencies in various ways:
 
-**Key Information**: 
-- *Precipitation can decrease range at microwave frequencies*
-- *Fog and rain have little effect* on signals in the *10 meter and 6 meter bands*
-- *UHF and microwave signals are absorbed by vegetation*
-- *Multipath propagation can increase error rates* in data transmissions
+> **Key Information**: 
+> - *Precipitation can decrease range at microwave frequencies*
+> - *Fog and rain have little effect* on signals in the *10 meter and 6 meter bands*
+> - *UHF and microwave signals are absorbed by vegetation*
+> - *Multipath propagation can increase error rates* in data transmissions
 
 Understanding these effects helps you:
 - Choose appropriate frequencies for different weather conditions

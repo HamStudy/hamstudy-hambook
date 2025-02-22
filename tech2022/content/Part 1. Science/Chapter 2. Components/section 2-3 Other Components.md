@@ -9,7 +9,7 @@ As we venture further into the world of electronic components, we encounter a di
 
 #### Transformers: The Voltage Jugglers
 
-**Key Information**: A *transformer changes 120V AC power to a lower AC voltage* for other uses.
+> **Key Information**: A *transformer changes 120V AC power to a lower AC voltage* for other uses.
 
 Imagine a seesaw at a playground, where a small child on one end can lift a much heavier adult on the other. Transformers work on a similar principle, but with electrical energy instead of playground physics.
 
@@ -24,7 +24,7 @@ Fun fact: The largest transformer in the world weighs over 800 tons and can hand
 
 #### Relays: The Electromagnetic Switches
 
-**Key Information**: A *relay is an electrically-controlled switch*.
+> **Key Information**: A *relay is an electrically-controlled switch*.
 
 <img src="../../../images/s2-3-relay.svg" alt="Relay schematic diagram" style="float: right; padding-left: 1rem;">
 
@@ -42,7 +42,7 @@ Relay revelation: The first practical relay was invented by Joseph Henry in 1835
 
 When setting up your ham shack or building equipment, you'll encounter various types of wire. Let's look at a few important ones:
 
-**Key Information**: *Shielded wire is used to prevent coupling of unwanted signals to or from the wire*.
+> **Key Information**: *Shielded wire is used to prevent coupling of unwanted signals to or from the wire*.
 
 1. **Shielded Wire**: This is your signal's bodyguard. Shielded wire typically has one or more insulated inner conductors, surrounded by a conductive layer (the shield) and then an outer insulating jacket. The shield is usually made of braided wire or metal foil.
 

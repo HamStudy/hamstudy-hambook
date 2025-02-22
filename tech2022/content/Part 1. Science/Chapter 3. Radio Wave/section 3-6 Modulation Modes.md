@@ -8,7 +8,7 @@ Imagine you're at a busy train station. Trains of all shapes and sizes are carry
 
 #### Amplitude Modulation (AM)
 
-**Key Information**: *Single Sideband (SSB) is a form of amplitude modulation.*
+> **Key Information**: *Single Sideband (SSB) is a form of amplitude modulation.*
 
 Imagine you're trying to communicate with a friend using a special lightbulb. In Amplitude Modulation (AM), you're changing the brightness of the bulb to send your message. A bright light means one thing, a dim light means another. The intensity of the light represents your signal - just like the height (amplitude) of a radio wave changes to carry information.
 
@@ -16,24 +16,24 @@ While AM isn't the most common mode in amateur radio, you'll still encounter it 
 
 #### Frequency Modulation (FM) and Phase Modulation (PM)
 
-**Key Information**:
-- *FM/PM are commonly used for VHF packet radio transmissions*
-- *FM/PM are the primary modes for VHF and UHF voice repeaters*
+> **Key Information**:
+> - *FM/PM are commonly used for VHF packet radio transmissions*
+> - *FM/PM are the primary modes for VHF and UHF voice repeaters*
 
 Now imagine a different signaling method. Instead of changing brightness, you're changing the color of the lightbulb. A blue light might mean one thing, a green light another, with the colors shifting rapidly to convey your message. This is how Frequency Modulation (FM) works - the frequency of the wave changes to carry information. The light stays at a constant brightness, but the color shifts to communicate.
 
 Phase Modulation (PM) is similar, but instead of shifting the actual color dramatically, think of it like delaying or advancing the timing of the color change. Imagine that instead of switching instantly between blue and green, there’s a slight hesitation or an early jump between colors. The overall colors stay the same, but the timing of when the change occurs is slightly altered. If that doesn't make a lot of sense to you – don't worry, you don't really need to understand it, just remember that FM and PM are functionally almost the same and we usually just refer to them both as "FM".
 
-**Key Information**: A *typical VHF repeater FM voice signal has a bandwidth between 10 and 15 kHz*.
+> **Key Information**: A *typical VHF repeater FM voice signal has a bandwidth between 10 and 15 kHz*.
 
 #### Single Sideband (SSB)
 
 Now, let's talk about SSB, which is where amplitude modulation gets a cool upgrade. *SSB is the preferred mode for long-distance (weak signal) contacts on the VHF and UHF bands.* 
 
-**Key Information**:
-- *Compared to FM, SSB signals have a narrower bandwidth*
-- *Upper Sideband (USB)* is *normally used for 10-meter HF, VHF, and UHF single-sideband communications*
-- A *typical single sideband voice signal has an approximate bandwidth of 3 kHz*
+> **Key Information**:
+> - *Compared to FM, SSB signals have a narrower bandwidth*
+> - *Upper Sideband (USB)* is *normally used for 10-meter HF, VHF, and UHF single-sideband communications*
+> - A *typical single sideband voice signal has an approximate bandwidth of 3 kHz*
 
 Continuing our lightbulb analogy, SSB is like finding a way to communicate using just a small part of the color spectrum, removing unnecessary information. We've stripped away the "white light" (carrier) and one set of colors (sideband), leaving a more efficient signal. The result? A more focused way of sending your message. It's still amplitude modulation, but now using only half as much bandwidth.
 
@@ -45,11 +45,11 @@ There are two flavors of SSB:
 
 Radio signals are like different-sized trains, each taking up a different amount of track space in the radio spectrum:
 
-**Key Information**: Approximate bandwidths:
-- *CW (Morse Code)*: *Narrowest bandwidth, about 150 Hz*
-- *SSB voice*: About 3 kHz
-- *FM voice*: About 10-15 kHz
-- *AM fast-scan television*: About 6 MHz
+> **Key Information**: Approximate bandwidths:
+> - *CW (Morse Code)*: *Narrowest bandwidth, about 150 Hz*
+> - *SSB voice*: About 3 kHz
+> - *FM voice*: About 10-15 kHz
+> - *AM fast-scan television*: About 6 MHz
 
 #### Bandwidth and Frequency Range
 

@@ -8,10 +8,10 @@ Imagine you're standing on a beach, watching waves roll in. Some waves are gentl
 
 #### Key Radio Frequency Ranges
 
-**Key Information**: For your exam, you need to know these three frequency ranges:
-- *HF (High Frequency)*: 3 to 30 MHz
-- *VHF (Very High Frequency)*: 30 to 300 MHz
-- *UHF (Ultra High Frequency)*: 300 to 3000 MHz
+> **Key Information**: For your exam, you need to know these three frequency ranges:
+> - *HF (High Frequency)*: 3 to 30 MHz
+> - *VHF (Very High Frequency)*: 30 to 300 MHz
+> - *UHF (Ultra High Frequency)*: 300 to 3000 MHz
 
 Think of these ranges like different lanes in a swimming pool:
 - HF is like the slow lane - longer, more relaxed waves

@@ -4,7 +4,7 @@ questions: [ "T1A06" ]
 
 ### Section 3.5: HF Waves
 
-**Key Information**: A *beacon* is defined as *an amateur station transmitting communications for the purposes of observing propagation or related experimental activities*.
+> **Key Information**: A *beacon* is defined as *an amateur station transmitting communications for the purposes of observing propagation or related experimental activities*.
 
 While VHF and UHF are great for local communications, HF (High Frequency) waves can travel enormous distances, bouncing off the ionosphere like stones skipping across water. As a Technician, you'll have access to only a small slice of HF spectrum, so most of the information in this section is more about knowing what is out there rather than preparing for the exam.
 
