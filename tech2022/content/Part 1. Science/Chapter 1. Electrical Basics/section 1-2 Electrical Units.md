@@ -109,7 +109,7 @@ Most ham gear runs on **DC power**, but **radio signals themselves are AC**—th
 
 > **Key Information:** *Impedance is the opposition to AC current flow* and, like resistance, it’s measured in *ohms ($\Omega$)*.
 
-In a **DC circuit**, resistance is simple—it just slows down the flow of electricity, like friction in a water pipe. But in an **AC circuit**, impedance is more complex because it also includes reactance, which depends on frequency.
+In a **DC circuit**, resistance is simple—it just opposes down the flow of electricity, like friction in a water pipe. But in an **AC circuit**, impedance is more complex because it also includes reactance, which depends on frequency.
 
 - **Inductive reactance** makes it harder for AC to flow as frequency increases, which is why inductors are used in filters and tuning circuits.
 - **Capacitive reactance** does the opposite—capacitors allow more AC to flow as frequency increases, making them useful for blocking DC while letting AC through.

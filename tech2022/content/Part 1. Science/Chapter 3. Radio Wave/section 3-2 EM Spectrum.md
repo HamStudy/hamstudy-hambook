@@ -51,7 +51,7 @@ Different frequency ranges have different characteristics that make them useful 
   - Good for urban areas
 
 **Beyond the Test**: Other parts of the radio spectrum include:
-- Lower frequencies (like AM radio below HF)
+- Lower frequencies (like the "AM broadcast band" below HF)
 - Higher frequencies (microwaves above UHF)
 - Each range has unique properties that make it suitable for different uses
 
