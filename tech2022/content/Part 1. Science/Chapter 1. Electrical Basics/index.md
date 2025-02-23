@@ -11,4 +11,4 @@ We'll start with the basics - what is electricity, and how does it behave? You'l
 
 As we progress, we'll delve into the differences between AC and DC, understand power in electrical systems, and introduce you to the concepts of capacitance and inductance. These principles form the backbone of how radio waves are generated, transmitted, and received.
 
-By the end of this chapter, you'll have a solid grasp of electrical fundamentals that will serve you well throughout your amateur radio journey. So, let's flip the switch and energize our learning!
+By the end of this chapter, you'll have a decent grasp of electrical fundamentals that will serve you well throughout your amateur radio journey. So, let's flip the switch and energize our learning!

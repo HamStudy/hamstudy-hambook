@@ -1,0 +1,12 @@
+<svg viewBox="0 0 200 200" width="150" height="150" xmlns="http://www.w3.org/2000/svg">
+  <!-- Circle -->
+  <circle cx="100" cy="100" r="80" fill="white" stroke="black" stroke-width="2"/>
+  <!-- Horizontal Divider -->
+  <line x1="20" y1="100" x2="180" y2="100" stroke="black" stroke-width="2"/>
+  <!-- Vertical Divider -->
+  <line x1="100" y1="100" x2="100" y2="180" stroke="black" stroke-width="2"/>
+  <!-- Text Labels -->
+  <text x="100" y="80" text-anchor="middle" font-family="Arial" font-size="40" font-weight="bold">300</text>
+  <text x="65" y="145" text-anchor="middle" font-family="Arial" font-size="40" font-weight="bold">λ</text>
+  <text x="135" y="145" text-anchor="middle" font-family="Arial" font-size="40" font-weight="bold">ƒ</text>
+</svg>

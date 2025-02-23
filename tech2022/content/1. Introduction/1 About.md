@@ -25,7 +25,7 @@ Imagine staying in touch when everything else is down—no cell service, no inte
 
 Ham radio operators are known for making things work, even in the toughest conditions. On a remote hike where your phone has no signal, a simple, portable radio can still get you in touch with others. In emergencies, when other communication systems fail, amateur radio becomes a lifeline, linking people and communities.
 
-Even as a Technician class operator, you will have access to VHF and UHF frequencies, perfect for local and regional communication. With repeaters, you can extend your range even further, making amateur radio a tool for adventure and exploration, no matter where you are.
+As a Technician class operator, you'll have access to VHF and UHF frequencies, perfect for local and regional communication. With repeaters, you can extend your range even further, making amateur radio a tool for adventure and exploration, no matter where you are.
 
 ## More Than Just a Hobby
 <img src="../../images/illus/morethanhobby.svg" alt="Illustration showing ham radio operators helping with a disaster" style="float: right; margin-left: 2em; width: 250px;">
@@ -51,7 +51,7 @@ As you dive into amateur radio, you’ll find a community ready to help you lear
 
 ## The purpose of Amateur Radio
 
-The Federal Communications Commission (FCC) regulates and enforces the rules for the Amateur Radio service in the United States and it was established with specific purposes in mind. These form the basis and purpose of our hobby and service:
+The Federal Communications Commission (FCC) regulates and enforces the rules for the Amateur Radio service in the United States and it was established with specific purposes which you may need to know for the exam. These form the basis and purpose of our hobby and service:
 
 1. Advancing skills in both the technical and communication aspects of radio.
 2. Expanding the pool of trained operators, technicians, and electronic experts.

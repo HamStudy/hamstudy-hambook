@@ -2,7 +2,7 @@
 questions: [ "T2C05", "T2C07", "T2C08", "T2C09", "T2C06", "T2C10", "T1A10", "T2C11", "T2C02", "T2C04", "T2C01" ]
 ---
 
-### Section 7.3: Public Service, Emergency, and Non-emergency Operations
+### Section 7.3: Public Service and (Non)Emergency Operations
 
 Alright, radio heroes in training, let's talk about one of the coolest parts of ham radio: using our skills to help our communities. Whether it's assisting during disasters or keeping your local marathon running smoothly, ham radio operators play a crucial role in public service.
 
