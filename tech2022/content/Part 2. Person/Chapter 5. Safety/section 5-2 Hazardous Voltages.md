@@ -4,6 +4,8 @@ questions: []
 
 ### Section 5.2: Hazardous Voltages
 
+> **Note:** While this section doesn't contain material directly tied to specific exam questions, the safety information presented here is essential knowledge for any ham radio operator working with electrical equipment.
+
 #### What Are Hazardous Voltages?
 
 In the ham radio world, we generally consider anything above 30 volts to be potentially hazardous. That might seem low, but remember, it doesn't take much to give you a nasty shock or worse.
@@ -20,7 +22,7 @@ You might be surprised where hazardous voltages can pop up:
 
 - **Capacitors**: These little storage tanks can hold a charge long after equipment is unplugged. They're like electrical grudge-holders.
 
-Here’s a story to keep in mind: A ham I know was working on an old receiver. He’d unplugged it but didn’t discharge the capacitors. One zap later, and he had a newfound respect for those innocuous-looking components!
+> This is worth emphasizing; when capacitors are involved, just because it's unplugged and power is off does not mean it's safe! Many people have hurt themselves by opening equipment and touching the wrong thing before the capacitors were fully discharged.
 
 #### Staying Safe Around Hazardous Voltages
 
@@ -30,18 +32,28 @@ So, how do we stay safe?
 
 - **One Hand Rule**: Use one hand when working around high voltages. It sounds weird, but it keeps current from flowing across your chest if you do get shocked.
 
-- **Discharge Capacitors Properly**: Capacitors can hold a dangerous charge. Learn safe ways to discharge them before you need to.
+- **Discharge Capacitors Properly**: Capacitors can hold a dangerous charge. Learn safe ways to discharge them before poking around—usually through a resistor of appropriate value, never by shorting them directly.
 
-- **Keep Your Workspace Dry**: Water and electricity don’t mix. Use insulated tools and make sure your work area is dry.
+- **Use Properly Insulated Tools**: When working with potentially hazardous voltages, use tools with insulated handles rated for the voltage you're working with. Look for tools marked with voltage ratings (often 1000V) and make sure the insulation isn't cracked or damaged.
+
+- **Keep Your Workspace Dry**: Water and electricity don't mix. Make sure your work area is dry and you're not standing on a damp floor or concrete (which can be conductive).
+
+- **Look for Warning Labels**: Pay attention to any warning labels on equipment indicating hazardous voltages. If you're building or modifying equipment, consider adding your own warning labels where appropriate.
 
 - **Never Work Alone**: When working on high-voltage equipment, always have a buddy around who knows CPR, just in case.
 
-- **If You're Not Sure, Don’t Touch It**: There’s no shame in asking for help or leaving it to the experts.
+- **If You're Not Sure, Don't Touch It**: There's no shame in asking for help or leaving it to the experts.
 
-Remember, the goal is to make contacts, not become one with your equipment. Electricity doesn’t care how experienced you are or how careful you think you’re being. It’ll take any path to ground, including through you if you give it the chance.
+#### First Aid for Electrical Shock
 
-#### Final Thoughts
+If someone does receive an electrical shock:
 
-But don’t let this scare you away from the hobby! With proper respect and precautions, you can safely enjoy all aspects of ham radio. Just remember: when in doubt, hands out!
+1. Don't touch them if they're still in contact with the electrical source
+2. Cut power if possible before providing assistance
+3. Call for emergency medical help immediately
+4. Provide CPR if the person is unresponsive and not breathing normally
+5. Treat any burns after addressing life-threatening conditions
 
-Stay safe, and keep those electrons where they belong—in your radio, not through your body!
+Remember, the goal is to make contacts, not become one with your equipment. Electricity doesn't care how experienced you are or how careful you think you're being. It'll take any path to ground, including through you if you give it the chance.
+
+With proper respect and precautions, you can safely enjoy all aspects of ham radio. Just remember: when in doubt, hands out!
