@@ -18,15 +18,28 @@ Everyone learns differently and has different goals. Here are some ways you can 
 
 ### Quick Path to Getting Licensed
 - Skim each section first to get a general overview of the concepts
+- Focus particularly on anything *italicized* and any **"Key Information"**.
 - Pay special attention to topics that catch your interest or seem important
 - Review the practice questions at the end of each section
 - Read deeper explanations for concepts you find challenging or interesting
-- Use the HamStudy app alongside the book to track your progress
+- Use the HamStudy app alongside the book to track your progress and review the questions efficiently
 - Keep the book as a reference to explore topics more thoroughly after getting licensed
+
+### Final Exam Preparation
+Once you've covered the material and are getting close to exam day, here's an effective strategy using the HamStudy app:
+
+- First, use Study Mode until you've seen 100% of the questions at least once
+- Then follow this proven method to efficiently prepare for the exam:
+  1. Take a practice exam to identify knowledge gaps
+  2. Select "Study Weakest Areas" (in the app) or focus on the categories where you missed the most questions (on the website)
+  3. Study those areas for a set amount of time until you feel more confident
+  4. Take another practice exam and repeat the process
+- You're likely ready for the exam when you're consistently scoring 85% or better on practice tests (remember, you only need 74% to pass)
+- Strategic tip: Since each exam question comes from a different section of the question pool, you could theoretically skip up to 9 sections entirely as long as you master the other 26
 
 ### Deep Learning Approach
 - Read each chapter thoroughly before attempting practice questions
-- Take notes and highlight key concepts
+- Take notes and highlight key concepts, particularly Key Information and anything in *italics*
 - Try to relate new concepts to things you already know
 - Engage with local ham radio clubs to discuss what you're learning
 
