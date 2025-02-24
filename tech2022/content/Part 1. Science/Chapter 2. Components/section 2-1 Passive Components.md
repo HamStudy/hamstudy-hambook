@@ -12,8 +12,6 @@ illustration_ideas:
 
 When you peek inside any radio equipment, you'll find a fascinating array of electronic components working together in harmony. Let's start our exploration with passive components - the workhorses of electronic circuits that don't require an external power source to function.
 
-**Note to Students**: This chapter provides more information than you'll need for the Technician license exam. Look for the **Key Information** sections throughout the text, which highlight the specific details most likely to appear on your test. But don't skip the rest - the additional context and fun details will help you develop a deeper understanding of how radio electronics really work!
-
 #### Resistors: The Traffic Cops of Electronics
 
 > **Key Information**: A *resistor opposes the flow of current in a DC circuit*.
