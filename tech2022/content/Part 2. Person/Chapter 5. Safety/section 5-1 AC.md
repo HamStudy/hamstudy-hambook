@@ -12,34 +12,54 @@ First things first: AC stands for Alternating Current. Unlike the DC (Direct Cur
 
 Why should you care about AC power as a ham? Well, unless you're running everything off batteries (and kudos if you are!), AC is what's powering your station. It's also potentially dangerous if not respected.
 
+> **Key Information:**
+> - AC power in the U.S. is typically 120 volts and can cause serious injury or death if mishandled
+> - *In standard U.S. household wiring, black insulation indicates the "hot" wire, white is neutral, and green or bare copper is the ground*
+> - *Electrical current through the body can cause tissue heating, disrupt cellular electrical function, and cause involuntary muscle contractions*
+> - *Always use three-wire cords and plugs for all AC-powered equipment, connect to a common safety ground, and install mechanical interlocks in high-voltage circuits*
+
 #### The Basics of AC Power
 
-Let’s break down the basics:
+Let's break down the basics:
 
 - **Voltage**: In the U.S., most home outlets provide 120 volts AC. That's enough to give you a nasty shock or worse. Some appliances, like electric dryers or stoves, use 240 volts.
   
 - **Current**: This is measured in amperes or amps. Your typical household circuit might be 15 or 20 amps.
 
-- **Grounding**: This is super important. The third prong on your plugs? That's the ground. It's there to protect you if something goes wrong inside the equipment.
+- **Wiring Colors**: Understanding wire colors in AC wiring is important for safety. *In the United States, black wire insulation indicates the "hot" conductor*, white indicates neutral, and green or bare copper is used for equipment ground. Never assume a wire is safe to touch just based on its color – always test with proper equipment.
+
+- **Grounding**: This is super important. The third prong on your plugs? That's the ground. It's there to protect you by providing a safe path for current if something goes wrong inside the equipment.
+
+#### Electrical Hazards to the Human Body
+
+Electrical current flowing through the body is dangerous in several ways:
+
+- *It can cause heating of tissue*, similar to how a heating element works but inside your body. This can cause burns, both external and internal.
+
+- *It can disrupt the normal electrical functions of cells*, especially in the heart and nervous system. Even relatively small currents can interfere with your heart's rhythm.
+
+- *It can cause involuntary muscle contractions* that might prevent you from letting go of an energized conductor, leading to prolonged exposure.
+
+Any one of these effects can be serious or fatal depending on the current path through your body, duration of contact, and the amount of current.
 
 #### AC Power Safety Tips
 
-Now, let's talk safety:
+To guard against electrical shock at your station:
+
+- *Use three-wire cords and plugs for all AC-powered equipment*. The third wire (green/bare) provides an alternate path for current if insulation fails.
+
+- *Connect all AC-powered station equipment to a common safety ground*. This helps prevent voltage differences between equipment that could create shock hazards.
+
+- *Install mechanical interlocks in high-voltage circuits* to prevent accidental contact with dangerous voltages.
 
 - **Keep It Dry**: Water and electricity don't mix. Keep your equipment dry, and never operate with wet hands.
 
 - **Unplug Before Working**: If you're going to work on equipment, unplug it first. And even then, be careful—some devices (like old tube amplifiers) can store charge in capacitors long after they're unplugged.
-
-- **Grounding Matters**: Use properly grounded outlets and equipment. That third prong isn't just for show!
 
 - **Check Your Cords**: Be cautious of frayed cords or damaged plugs. They're accidents waiting to happen.
 
 - **Don't Overload Circuits**: Know how much current your equipment draws and make sure your wiring can handle it.
 
 - **Ask for Help**: If you're not sure, ask for help. There's no shame in calling an electrician or a more experienced ham for advice.
-
-#### A Word on Generators
-
-Oh, and one more thing: if you're thinking of running a generator for field day or emergency operations, make sure you know how to use it safely. Never run a generator indoors or in an enclosed space—the carbon monoxide can be deadly.
 
 Stay safe out there, and happy hamming!
