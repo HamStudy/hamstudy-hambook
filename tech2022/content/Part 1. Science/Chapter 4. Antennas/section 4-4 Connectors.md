@@ -36,7 +36,8 @@ Many hams use **BNC adapters** on their radios so they can easily switch between
 
 
 #### PL-259/SO-239 (UHF Connector)  
-**Key Information:** *PL-259 connectors are **commonly used at HF and VHF frequencies** but are **not ideal for true UHF work**.*  
+
+> **Key Information:** *PL-259 connectors are **commonly used at HF and VHF frequencies** but are **not ideal for true UHF work**.*  
 
 Despite its name, the “UHF connector” is a bit of a misnomer. It’s widely used for **HF and VHF** radios, but it’s not the best choice for UHF. Think of it as that friend who got a nickname as a kid and never shook it off.  
 
@@ -53,7 +54,8 @@ You’ll find these connectors on a lot of **mobile and base station gear**. The
 These connectors work well up to about **150 MHz**, but if you’re working above that, you might want to use **Type N** connectors instead.  
 
 #### Type N  
-**Key Information:** *Type N connectors are the **best choice for frequencies above 400 MHz** due to their **low loss and excellent shielding**.*  
+
+> **Key Information:** *Type N connectors are the **best choice for frequencies above 400 MHz** due to their **low loss and excellent shielding**.*  
 
 Meet the heavyweight champion of RF connectors. **Type N connectors** are like the armored tanks of the radio world—**strong, weatherproof, and built for high frequencies**.  
   
