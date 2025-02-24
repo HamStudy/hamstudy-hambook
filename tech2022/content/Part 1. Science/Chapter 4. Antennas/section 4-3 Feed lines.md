@@ -18,18 +18,18 @@ Coaxial cable, or just *coax*, is the go-to feed line for hams. It’s easy to u
 If you’ve ever looked behind your TV, you might have seen **75-ohm** coax for cable or satellite. Can you use it for ham radio? Technically, yes. Should you? Not really. Ham gear is designed for **50-ohm** coax, so that’s what you want to use to keep your setup running smoothly.
 
 #### Types of Coaxial Cable  
-**Key Information:** *Thicker coax usually means **lower loss**. **RG-213** and **LMR-400** are great for long runs, while **RG-58** is better for short cables or portable setups.*
+**Key Information:** *Thicker coax usually means **lower loss**. **RG-213** and **LMR-400** have less loss at any given frequency and are great for long runs, while **RG-58** is better for short cables or portable setups.*
 
 There are lots of different kinds of coax, and they each have their pros and cons. Here are some common types:  
 
 - **RG-58** – Thin and flexible. Great for short runs or portable use, but it has *higher loss* over distance.  
 - **RG-8X** – A little better than RG-58, still flexible but with *less signal loss*.  
-- **RG-8 / RG-213 / LMR-400** – Thicker, *low-loss* coax that’s great for longer runs and higher frequencies.  
+- **RG-8 / RG-213 / LMR-400** – Thicker, *low-loss* coax that’s great for longer runs and higher frequencies. 
 - **RG-59 / RG-6** – The **75-ohm** TV stuff. It *technically* works, but it’s not a great choice for ham radio.  
-- **Hardline / Heliax** – Heavy-duty, *super low-loss* coax. Used for repeaters and big setups where you can’t afford to lose power along the way.  
+- **Hardline / Heliax** – Heavy-duty, *super low-loss* coax. Used for repeaters and big setups where you can’t afford to lose power along the way. *This has the lowest loss at *any* given frequency (including UHF and VHF)* of the coaxial types we've mentioned here.
 
 #### Understanding Loss in Feed Lines  
-**Key Information:** *The higher the frequency, the more **loss** you'll have in coax. A **3 dB loss** means you're losing **half** your power before it reaches the antenna.*
+**Key Information:** *The higher the frequency, the more **loss** you'll have in coax. A **3 dB loss** means you're losing **half** your power before it reaches the antenna. Power lost in feed lines is converted to heat.*
 
 No coax is perfect—some of your power is always lost as heat before it even makes it to the antenna. The higher the frequency, the worse the loss. That’s why satellite dishes often put the transmitter *right at the antenna* instead of running a long coax cable.
 
