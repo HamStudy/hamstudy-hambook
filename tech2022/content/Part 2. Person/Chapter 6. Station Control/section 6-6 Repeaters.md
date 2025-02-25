@@ -8,7 +8,7 @@ Alright, let's talk about repeaters - the range-extending marvels of the ham rad
 
 #### What's a Repeater?
 
-> **Key Information:** A *repeater station simultaneously retransmits the signal of another amateur station on a different channel or channels*.
+> **Key Information:** A *repeater station simultaneously retransmits the signal of another amateur station on a different channel or channels*. This type of amateur station is formally known as a *repeater station*.
 
 Imagine a radio relay station perched high up on a hill or tall building. It listens on one frequency and simultaneously retransmits what it hears on another. This extends your range way beyond what your little handheld or mobile rig could do on its own.
 
@@ -43,11 +43,15 @@ Pro Tip: You can use a VHF/UHF transceiver's "reverse" function to *listen on a 
 
 #### Accessing Repeaters
 
-> **Key Information:** Most repeaters use *CTCSS tones or DCS codes* for access. Difficulties accessing a repeater could be caused by *improper offset, wrong CTCSS tone, or wrong DCS code*.
+> **Key Information:** Most repeaters use *CTCSS tones or DCS codes* for access. Difficulties accessing a repeater could be caused by *improper offset, wrong CTCSS tone, or wrong DCS code*. *CTCSS (Continuous Tone-Coded Squelch System) is a sub-audible tone transmitted along with normal voice audio to open the squelch of a receiver*.
 
 Most repeaters require either a CTCSS (Continuous Tone-Coded Squelch System) tone, often called a PL (Private Line) tone, or a DCS (Digital Coded Squelch) code to access them. *CTCSS is a sub-audible tone transmitted along with normal voice audio to open the squelch of a receiver*. DCS, on the other hand, is a continuous stream of low-speed digital data. 
 
-Both serve the same purpose: they help prevent interference and unintended activations of the repeater. Your radio can be set to transmit either type of squelch signal, depending on what the repeater requires. Check your local repeater directory or club information to find out which system a particular repeater uses.
+Both serve the same purpose: they help prevent interference and unintended activations of the repeater. Your radio must be set to transmit the correct CTCSS tone or DCS code for the repeater to even recognize your signal. Check your local repeater directory or club information to find out which system a particular repeater uses.
+
+> **Key Information:** *DTMF (Dual-Tone Multi-Frequency) uses pairs of audio tones* for sending commands to repeaters and accessing systems like IRLP, but is different from CTCSS/DCS which are required for basic repeater access.
+
+You'll also encounter DTMF (Dual-Tone Multi-Frequency) in repeater operation. *DTMF uses pairs of audio tones* and is the same technology used in touch-tone phones. Unlike CTCSS or DCS, DTMF is not used for basic repeater access but instead for controlling repeater functions, activating links to other systems, or accessing internet-connected systems like IRLP.
 
 If you're having trouble accessing a repeater whose output you can hear, there could be several reasons:
 - *You're using the wrong offset*
@@ -101,6 +105,14 @@ When communicating through a repeater, you're operating in duplex mode since you
 
 For VHF/UHF bands, there are designated simplex channels. For example, *146.52 MHz is the national calling frequency for FM simplex operations in the 2 meter band*. These simplex channels are specifically set aside in band plans to allow stations within range of each other to communicate without tying up a repeater.
 
+> **Key Information:** Simplex channels are designated in VHF/UHF band plans *so stations within range of each other can communicate without tying up a repeater*.
+
+Simplex operation has several advantages:
+- It keeps repeaters free for stations that actually need them
+- It's more efficient when stations can hear each other directly
+- It doesn't depend on repeater infrastructure, which is important during emergencies
+- It can be more private since fewer people are listening
+
 #### Linked Repeater Systems
 
 > **Key Information:** A linked repeater network is one where *signals received by one repeater are transmitted by all the repeaters in the network*.
@@ -108,6 +120,12 @@ For VHF/UHF bands, there are designated simplex channels. For example, *146.52 M
 Imagine trying to pass a message across a line of friends, where each person repeats the message to the next. Linked repeater systems work in a similar way, but instead of people, they use a network of repeaters that are electronically connected. In a *linked repeater network, signals received by one repeater are transmitted by all the repeaters in the network*.
 
 This setup allows your signal to cover much greater distances, potentially spanning entire regions, states, or even countries! When you transmit on one repeater in a linked system, your signal is instantly relayed to all the other repeaters in the network. This means someone listening on a linked repeater in another city or even across the country can hear you as clearly as if they were standing right next to you.
+
+Linked repeaters are particularly valuable for:
+- Emergency communications across wide areas
+- Club nets that span multiple cities or counties
+- Special events where coordination is needed across a large region
+- Allowing mobile operators to stay connected while traveling long distances
 
 #### Internet-Linked Repeaters
 
