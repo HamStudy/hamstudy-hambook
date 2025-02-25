@@ -35,6 +35,8 @@ To combat this, you might need to do some detective work. Try turning off device
 
 Now, let's get down to earth—literally. Grounding is crucial for both safety and reducing interference. A good ground system is like the foundation of a house—you don't see it, but everything depends on it.
 
+> **Key Information:** All external ground rods or earth connections should be *bonded together with heavy wire or conductive strap* to ensure proper grounding and safety.
+
 ##### Station Grounding Basics
 
 For your station, you want a low-impedance path to ground. This means:
@@ -42,13 +44,17 @@ For your station, you want a low-impedance path to ground. This means:
 - **Keep it as short and straight as possible** and avoid sharp bends.
 - **Connect to a good earth ground** (ground rods, cold water pipes, etc.).
 
-Here's a pro tip: All your equipment should be grounded to a single point. This prevents "ground loops" which can cause all sorts of headaches. As recommended in the Safety chapter, if you have more than one ground rod or earth connection, be sure to bond them all together with heavy wire or conductive strap.
+Here's a pro tip: All your equipment should be grounded to a single point. This prevents "ground loops" which can cause all sorts of headaches. As recommended in the Safety chapter, if you have more than one ground rod or earth connection, *be sure to bond them all together with heavy wire or conductive strap*.
 
 Remember, grounding isn't just about performance; it's also a safety issue. A good ground can help protect your equipment (and you!) from static buildup and can be part of your lightning protection system.
 
 ##### Grounding in Mobile Installations
 
-When setting up a mobile transceiver in a vehicle, proper grounding is just as crucial as it is in your home station, but with a few extra considerations. The negative power return, or ground, should be connected directly to the 12-volt battery’s chassis ground. This connection minimizes the risk of electrical noise, which can interfere with your transceiver’s performance, and it also helps to prevent potential damage to the equipment.
+When setting up a mobile transceiver in a vehicle, proper grounding is just as crucial as it is in your home station, but with a few extra considerations. 
+
+> **Key Information:** The negative power return of a mobile transceiver should be connected *at the 12-volt battery chassis ground*, not to random metal parts of the vehicle.
+
+The negative power return, or ground, should be connected directly to the 12-volt battery's chassis ground. This connection minimizes the risk of electrical noise, which can interfere with your transceiver's performance, and it also helps to prevent potential damage to the equipment.
 
 Avoid the temptation to ground your transceiver to any random metal part of the vehicle. While it might seem convenient, this approach can lead to grounding loops or introduce differences in grounding potential, leading to poor performance or even interference issues such as alternator whine or other noise. By connecting directly to the chassis ground near the battery, you ensure a stable and clean ground, which is crucial for both transmitting and receiving signals without interference.
 
