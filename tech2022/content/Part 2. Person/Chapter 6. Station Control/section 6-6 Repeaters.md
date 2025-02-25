@@ -8,7 +8,7 @@ Alright, let's talk about repeaters - the range-extending marvels of the ham rad
 
 #### What's a Repeater?
 
-> **Key Information:** A *repeater station simultaneously retransmits the signal of another amateur station on a different channel or channels*. This type of amateur station is formally known as a *repeater station*.
+> **Key Information:** A *repeater station simultaneously retransmits the signal of another amateur station on a different channel (frequency)*. This type of amateur station is formally known as a *repeater station*.
 
 Imagine a radio relay station perched high up on a hill or tall building. It listens on one frequency and simultaneously retransmits what it hears on another. This extends your range way beyond what your little handheld or mobile rig could do on its own.
 
@@ -93,7 +93,7 @@ Here are some other common phrases:
 * *"This is KD7BBC, mobile and monitoring"* – indicating both that you are moving around and that you are on the frequency, presumably happy to talk to someone if they want.
 * *"KF7KGR listening"* – shorter version of the same
 * *"This is AC7DM. Anyone around to chat while I drive?"* – more casual, but still fine
-* *"This is NV7V, could I get a signal report?"* – indicates that you just want a short QSO to confirm how well you are getting into the repeater.
+* *"This is NV7V, could I get a signal report?"* – indicates that you aren't looking for a QSO, just to confirm how well you are getting into the repeater.
 
 The specifics don't matter, as long as it's easy to understand and not deceptive.
 
@@ -103,9 +103,9 @@ The specifics don't matter, as long as it's easy to understand and not deceptive
 
 When communicating through a repeater, you're operating in duplex mode since you're using two different frequencies (the repeater's input and output). However, sometimes you might want to communicate directly with another station without going through the repeater. This is called *simplex operation*, where you're *transmitting and receiving on the same frequency*.
 
-For VHF/UHF bands, there are designated simplex channels. For example, *146.52 MHz is the national calling frequency for FM simplex operations in the 2 meter band*. These simplex channels are specifically set aside in band plans to allow stations within range of each other to communicate without tying up a repeater.
+For VHF/UHF bands, there are designated simplex frequency. For example, *146.52 MHz is the national calling frequency for FM simplex operations in the 2 meter band*. These simplex frequencies are specifically set aside in band plans to allow stations within range of each other to communicate without tying up a repeater.
 
-> **Key Information:** Simplex channels are designated in VHF/UHF band plans *so stations within range of each other can communicate without tying up a repeater*.
+> **Key Information:** Simplex frequencies are designated in VHF/UHF band plans *so stations within range of each other can communicate without tying up a repeater*.
 
 Simplex operation has several advantages:
 - It keeps repeaters free for stations that actually need them
