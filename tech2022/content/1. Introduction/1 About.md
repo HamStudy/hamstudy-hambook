@@ -60,3 +60,7 @@ The Federal Communications Commission (FCC) regulates and enforces the rules for
 5. Contributing to the advancement of the radio art.
 
 These purposes highlight the multifaceted nature of amateur radio - it's not just a hobby, but a service with important technical, social, and public safety roles. As you progress in amateur radio, you'll find opportunities to fulfill each of these purposes, whether you're experimenting with new technologies, making friends across the globe, or helping your community during emergencies.
+
+## Coming up next
+
+Understanding the passion and potential of amateur radio is exciting, but how do you actually get started? The journey begins with the Technician Class license exam—a gateway that might seem daunting but is actually your first real adventure in ham radio. Let's demystify the exam process and show you that with the right approach, you'll be on the airwaves before you know it.
