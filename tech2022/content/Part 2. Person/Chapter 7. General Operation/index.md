@@ -8,16 +8,16 @@ questions: []
 
 Welcome to the heart of amateur radio - actually getting on the air and making contacts! In this chapter, we'll dive into the practical aspects of operating your station and communicating with other hams around the world.
 
-We'll start with the basics of how to make a contact, covering everything from calling CQ to exchanging signal reports. You'll learn about operating protocols and etiquette that help keep the airwaves friendly and organized.
+We'll start with the fundamentals of FM operation, the mode you'll likely use most as a new Technician. You'll learn everything from calling procedures to handling signal issues, and understanding the quirks that make FM unique.
 
-Next, we'll explore different types of operation. We'll cover voice modes like FM and SSB, showing you how to get the most out of each. For those interested in digital modes, we'll introduce popular options like FT8 and discuss how they're changing the face of amateur radio.
+Next, we'll explore HF operation, giving you a taste of what's possible with your Technician privileges on the 10-meter band. Although your HF access is limited for now, this knowledge will be valuable both for the exam and for future adventures if you upgrade.
 
-We'll also delve into the world of public service and emergency communications, a proud tradition in amateur radio. You'll learn how hams provide crucial communication support during disasters and how you can get involved.
+We'll also delve into public service and emergency communications - a proud tradition in amateur radio. You'll discover how organizations like ARES and RACES work, and how hams provide crucial communication support during disasters when other systems fail.
 
-Special event stations, contests, and awards programs add an extra layer of excitement to the hobby, and we'll show you how to participate in these activities.
+For those with an eye toward the sky, we'll introduce satellite operation - yes, as a Technician, you can communicate through satellites orbiting hundreds of miles above Earth! We'll cover the basics of tracking, operating modes, and making that first thrilling space contact.
 
-For those with a technical bent, we'll discuss station logging, both paper and electronic, and introduce you to the concept of QSL cards - the ham radio equivalent of collecting postcards from your on-air travels.
+Finally, we'll explore fun activities like radio direction finding (fox hunting), contesting, and using grid locators. These engaging pursuits combine technical skills with friendly competition and outdoor adventure.
 
-By the end of this chapter, you'll have a solid foundation in amateur radio operating practices. You'll be ready to key up your mic or tap out your first CQ with confidence, knowing you're part of a global community of communicators.
+By the end of this chapter, you'll have a solid foundation in amateur radio operating practices across a variety of modes and settings. You'll be ready to key up your mic with confidence, knowing you're part of a global community of communicators.
 
 So, let's tune up and get ready to join the conversation on the airwaves!
