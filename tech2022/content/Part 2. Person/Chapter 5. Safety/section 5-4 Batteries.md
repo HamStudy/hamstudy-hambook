@@ -49,8 +49,7 @@ Now, let's talk safety. Each of these battery types has its own quirks:
 - *The terminals can deliver a whopping amount of current if shorted. Remove your jewelry and use insulated tools. Trust me, you don't want to be the human fuse in this circuit!* (and do *not* ask me how I know the melting point of sterling silver jewelry...)
 - Each cell in a lead-acid battery produces about 2.1 volts. So, a typical "12-volt" battery actually measures around 12.6 volts when fully charged and has a working voltage range of 12.0-12.8V.
 
-> **Key Information:**
-> - *Shorting the terminals of a 12-volt storage battery can cause burns, fire, or an explosion*
+> **Key Information:** *Shorting the terminals of a 12-volt storage battery can cause burns, fire, or an explosion*
 
 ***Warning***: Avoid creating sparks near a charging lead-acid battery. The hydrogen gas it emits is flammable, and a spark could lead to an explosion — not the kind of bang you want in your shack! For this reason many people prefer to avoid keeping lead-acid batteries indoors.
 
@@ -73,8 +72,7 @@ Now, let's talk safety. Each of these battery types has its own quirks:
 - Each cell in a Lithium Iron Phosphate battery produces about 3.2 volts. A typical "12-volt" battery is actually 12.8V and will usually be charged to 14.6V to get to full capacity.
 - Over or undercharging a single LiFePO4 cell can ruin it!
 
-> **Key Information:**
-> - *Charging or discharging a battery too quickly can cause overheating or out-gassing*
+> **Key Information:** *Charging or discharging a battery too quickly can cause overheating or out-gassing*
 
 #### How Long Will Your Battery Last?
 
@@ -96,8 +94,7 @@ This means your battery could power your equipment for about 6 hours under these
 
 **Note**: For some batteries, particularly lead-acid batteries, the battery might not last as long as the calculation suggests if you're drawing a lot of current due to something called Peukert's Law. Basically, the harder you push the battery, the less total capacity you'll get out of it.
 
-> **Key Information:**
-> - *To determine battery life in hours, divide the battery's ampere-hour rating by the average current draw of the equipment*
+> **Key Information:** *To determine battery life in hours, divide the battery's ampere-hour rating by the average current draw of the equipment*
 
 #### General Battery Wisdom
 

@@ -16,7 +16,7 @@ The most popular Technician class bands are:
 - 2 meters (144-148 MHz) - VHF
 - 70 centimeters (420-450 MHz) - UHF
 
-> **Key Information**: *UHF signals are rarely heard beyond their radio horizon because they are not usually propagated by the ionosphere*.
+> **Key Information:** *UHF signals are rarely heard beyond their radio horizon because they are not usually propagated by the ionosphere*.
 
 Unlike HF signals, which can be refracted by the ionosphere to travel beyond the horizon, VHF and UHF signals generally follow a line-of-sight path. This makes them reliable for local communications but limits their range.
 
@@ -24,7 +24,7 @@ Unlike HF signals, which can be refracted by the ionosphere to travel beyond the
 
 #### Operating Modes
 
-> **Key Information**: 
+> **Key Information:** 
 > - *Simplex* means *transmitting and receiving on the same frequency*
 > - The *national calling frequency for FM simplex operations in the 2 meter band is **146.520 MHz***
 

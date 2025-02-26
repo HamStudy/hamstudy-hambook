@@ -7,7 +7,7 @@ questions: [ "T6C05", "T6C07", "T6C04", "T6C06", "T6C10", "T6C03", "T6C09", "T6C
 
 By now, you've gotten to know a lot of different components—resistors, capacitors, transistors, and more. You've seen their symbols sprinkled throughout earlier sections, and hopefully, they're starting to feel familiar. Now it's time to gather everything in one place and focus on how these symbols are used in circuit diagrams.
 
-> **Key Information**: A *schematic* is an electrical wiring diagram that uses standard component symbols. The most important thing to remember is that schematics show *component connections* accurately.
+> **Key Information:** A *schematic* is an electrical wiring diagram that uses standard component symbols. The most important thing to remember is that schematics show *component connections* accurately.
 
 Think of a schematic as a map for electronics. Instead of using pictures of actual parts, it uses standard symbols to show how components connect. Once you know how to read them, circuit diagrams are your key to understanding any electronic device, no matter how complicated.
 
@@ -17,7 +17,7 @@ Let's review the key components you'll encounter in circuit diagrams. Pay specia
 
 ##### Basic Components
 
-> **Key Information**: A *resistor controls the flow of current* in a circuit.
+> **Key Information:** A *resistor controls the flow of current* in a circuit.
 
 - **Resistor**: That familiar zig-zag line represents a component that controls current flow. You'll see these everywhere in circuits.
   

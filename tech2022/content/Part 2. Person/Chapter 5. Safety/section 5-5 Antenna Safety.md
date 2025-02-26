@@ -74,8 +74,7 @@ Proper grounding is essential for both safety and equipment protection. Here's w
 
 When working with coaxial feed lines and RF-carrying conductors, keep these points in mind:
 
-> **Key Information:**
-> - *Where should a lightning arrester be installed in a coaxial feed line? On a grounded panel near where feed lines enter the building*
+> **Key Information:** *A lightning arrester should be installed on a grounded panel near where feed lines enter the building.*
 
 #### Final Thoughts
 

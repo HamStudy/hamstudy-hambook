@@ -6,8 +6,7 @@ questions: [ "T1A07", "T1E02", "T8B01", "T8B03", "T8B06", "T8B05", "T8B04", "T8B
 
 Alright, space cadets, strap in for a journey to the final frontier of ham radio - satellite operation! Yes, you heard that right. As a Technician, you can communicate through satellites orbiting hundreds of miles above Earth, extending your radio's reach beyond the horizon and potentially around the globe. How cool is that?
 
-> **Key Information:**
-> *According to FCC Part 97, a space station is an amateur station located more than 50 km above Earth's surface.* *Any amateur holding a Technician class or higher license can communicate through amateur satellites.*
+> **Key Information:** *According to FCC Part 97, a space station is an amateur station located more than 50 km above Earth's surface.* *Any amateur holding a Technician class or higher license can communicate through amateur satellites.*
 
 #### What are Amateur Satellites?
 
@@ -15,8 +14,7 @@ Amateur satellites, often called "OSCAR" (Orbiting Satellite Carrying Amateur Ra
 
 *A LEO satellite is a satellite in low earth orbit*, typically between 100 to 1,200 miles above Earth. These space speedsters zip around Earth and pass overhead several times a day. Each pass only lasts 5 to 15 minutes, so you've got to be quick! Most amateur satellites, including the popular FM ones, are LEOs.
 
-> **Key Information:**
-> Satellites use different bands for receiving and transmitting. "U/V mode" means the satellite uplink is in the 70 cm band (UHF) and the downlink is in the 2 meter band (VHF).
+> **Key Information:** Satellites use different bands for receiving and transmitting. "U/V mode" means the satellite uplink is in the 70 cm band (UHF) and the downlink is in the 2 meter band (VHF).
 
 #### Satellite Beacons and Telemetry
 
@@ -30,8 +28,7 @@ Satellite beacons are special transmissions that satellites send out regularly, 
 
 This is why satellite operators and ham radio enthusiasts tracking satellites need to be aware of the satellite's rotational characteristics. Some advanced tracking software even takes spin fading into account when predicting signal strength.
 
-> **Key Information:**
-> *Satellite tracking programs provide maps showing the real-time position of satellites, pass timing information, and the apparent frequency including Doppler shift effects.* These programs use Keplerian elements as inputs to calculate satellite positions.
+> **Key Information:** *Satellite tracking programs provide maps showing the real-time position of satellites, pass timing information, and the apparent frequency including Doppler shift effects.* These programs use Keplerian elements as inputs to calculate satellite positions.
 
 #### Getting Started with Satellite Operation
 
@@ -47,8 +44,7 @@ Here's what you need to know to get started:
 
 5. **Power**: Unlike terrestrial repeaters, you don't need much power. In fact, *using excessive uplink power can block access to the satellite by other users.* A good way to determine if your uplink power is appropriate is if *your signal strength on the downlink should be about the same as the beacon.*
 
-> **Key Information:**
-> *Using too much power on a satellite uplink can block access by other users* - always use just enough power to make contact.
+> **Key Information:** *Using too much power on a satellite uplink can block access by other users* - always use just enough power to make contact.
 
 #### Types of Satellite Operations
 

@@ -11,7 +11,7 @@ Semiconductors are special materials that make modern electronics possible. They
 
 #### Diodes: One-Way Electronic Streets
 
-> **Key Information**: 
+> **Key Information:** 
 > - A *diode allows current to flow in only one direction*
 > - The *cathode lead (negative side) is often marked with a stripe*
 > - The *forward voltage drop is lower in some diode types than others*
@@ -28,7 +28,7 @@ One common use of diodes is in a *rectifier*, which changes alternating current 
 
 #### Light-Emitting Diodes (LEDs): Diodes That Shine
 
-> **Key Information**: An LED produces light when *forward current* flows through it.
+> **Key Information:** An LED produces light when *forward current* flows through it.
 
 LEDs are special diodes that light up when current flows through them. They're commonly used as indicator lights on radio equipment - that power light on your transceiver is an LED!
 
@@ -36,7 +36,7 @@ LEDs are special diodes that light up when current flows through them. They're c
 
 #### Transistors: The Heart of Modern Electronics
 
-> **Key Information**: 
+> **Key Information:** 
 > - *Transistors can be used as electronic switches*
 > - *Transistors can provide power gain* (ability to amplify signals)
 > - A transistor contains *three regions of semiconductor material*
@@ -55,7 +55,7 @@ There are two main types of transistors, and it's important to know the names of
 
 #### Integrated Circuits (ICs): Many Components in One
 
-> **Key Information**: An integrated circuit *combines several semiconductors and other components into one package*.
+> **Key Information:** An integrated circuit *combines several semiconductors and other components into one package*.
 
 Think of an IC as a tiny electronic city, where many components (transistors, diodes, resistors, etc.) work together in a single chip. This technology makes modern radio equipment possible by packing complex circuits into small spaces.
 

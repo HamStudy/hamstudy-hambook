@@ -6,8 +6,7 @@ questions: [ "T2C05", "T2C07", "T2C08", "T2C09", "T2C06", "T2C10", "T1A10", "T2C
 
 Alright, radio heroes in training, let's talk about one of the coolest parts of ham radio: using our skills to help our communities. Whether it's assisting during disasters or keeping your local marathon running smoothly, ham radio operators play a crucial role in public service.
 
-> **Key Information:**
-> In amateur radio, the term "*traffic*" refers to *messages exchanged by net stations*. Good traffic handling means passing messages exactly as received.
+> **Key Information:** In amateur radio, the term "*traffic*" refers to *messages exchanged by net stations*. Good traffic handling means passing messages exactly as received.
 
 #### Emergency Communications
 
@@ -47,8 +46,7 @@ The NCS has several key duties:
 
 Good traffic handling is essential – *passing messages exactly as received* without editing or deciding which messages are important enough to relay.
 
-> **Key Information:**
-> *FCC rules ALWAYS apply to the operation of amateur radio stations.* However, *amateur station control operators are permitted to operate outside their frequency privileges in situations involving the immediate safety of human life or protection of property*.
+> **Key Information:** *FCC rules ALWAYS apply to the operation of amateur radio stations.* However, *amateur station control operators are permitted to operate outside their frequency privileges in situations involving the immediate safety of human life or protection of property*.
 
 #### Formal Traffic and Radiograms
 
@@ -66,8 +64,7 @@ When you're participating in emergency communications or public service events, 
 
 Radiograms are used in both routine communications and in emergency situations. Handling formal traffic using radiograms is a key skill for any ham involved in public service or emergency communications. By mastering radiograms, you help ensure that critical messages get through, even when other communication systems are down.
 
-> **Key Information:**
-> When handling message traffic, focus on accuracy. Messages should be passed exactly as received without deciding whether they're worthy of relay or delivery.
+> **Key Information:** When handling message traffic, focus on accuracy. Messages should be passed exactly as received without deciding whether they're worthy of relay or delivery.
 
 #### Non-emergency Public Service & Operating Guidelines
 

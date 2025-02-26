@@ -6,8 +6,7 @@ questions: [ "T2A05", "T2A12", "T2C03", "T8D09" ]
 
 Alright, new Technicians, let's take a peek into the world of HF (High Frequency) operation. Now, I know what you're thinking: "But I'm a Technician, I don't have many HF privileges!" True, but you do have some, and understanding HF operation is still useful both for the license exam and for possible future operations if you upgrade your license!
 
-> **Key Information:**
-> HF (High Frequency) bands allow for long-distance communication through ionospheric propagation. Technicians have voice privileges on a portion of the 10-meter band (28.3 to 28.5 MHz).
+> **Key Information:** HF (High Frequency) bands allow for long-distance communication through ionospheric propagation. Technicians have voice privileges on a portion of the 10-meter band (28.3 to 28.5 MHz).
 
 #### Technician HF Privileges
 
@@ -38,8 +37,7 @@ Now, let's talk about actually using that 10-meter privilege:
 
 5. **Watch for Openings**: 10 meters can suddenly come alive when conditions are right. Keep an ear out for increased activity.
 
-> **Key Information:**
-> Always check if a frequency is clear before transmitting. Use standard phonetics for clarity when operating on HF bands. The phonetic alphabet helps ensure your callsign is understood correctly under poor conditions.
+> **Key Information:** Always check if a frequency is clear before transmitting. Use standard phonetics for clarity when operating on HF bands. The phonetic alphabet helps ensure your callsign is understood correctly under poor conditions.
 
 #### Calling CQ and Responding
 
@@ -62,8 +60,7 @@ When operating in most HF bands you are using a small amount of bandwidth for a 
 
 Example: If W1XYZ calls CQ, you might respond: "W1XYZ, this is KA1ABC, Kilo Alpha One Alpha Bravo Charlie."
 
-> **Key Information:**
-> When responding to a station calling CQ, first transmit their callsign, then your own callsign. This tells the calling station you're talking to them specifically.
+> **Key Information:** When responding to a station calling CQ, first transmit their callsign, then your own callsign. This tells the calling station you're talking to them specifically.
 
 Remember, if the bands seem "dead" it could be because conditions are bad – but it could also be that everyone else is *also* listening for someone else to call. Don't be afraid to be the first person to make the call!
 

@@ -6,7 +6,7 @@ questions: [ "T3C07", "T3C08", "T3A05", "T3A07", "T3A08", "T3A10", "T3A11", "T3A
 
 When you toss a pebble into a pond, you see ripples spreading out in all directions. Radio waves behave in a similar way, but instead of traveling across water, they propagate through space. Different frequencies travel in different ways, and understanding these behaviors helps us communicate more effectively.
 
-> **Key Information**: Basic Wave Behavior
+> **Key Information:** Basic Wave Behavior
 > - The *ionosphere can refract or bend HF and VHF radio waves*
 > - The *radio horizon is farther than the visual horizon* because the *atmosphere refracts radio waves slightly*
 > - *Long-distance ionospheric propagation is far more common on HF* than on VHF/UHF
@@ -46,7 +46,7 @@ Just because you can't see your target doesn't mean you can't reach it:
 
 #### Sky Wave Propagation
 
-> **Key Information**:
+> **Key Information:**
 > - *Irregular fading of signals is caused by random combining of signals arriving via different paths*
 > - Best time for 10-meter band F region propagation: *from dawn to shortly after sunset during high sunspot activity*
 > - During peak sunspot cycle, *6 and 10 meters* can use F region propagation
@@ -64,13 +64,13 @@ Signals received via auroral reflection are *distorted and signal strength varie
 
 #### Sporadic E Propagation
 
-> **Key Information**: *Sporadic E causes occasional strong signals on the 10, 6, and 2 meter bands* from beyond the radio horizon.
+> **Key Information:** *Sporadic E causes occasional strong signals on the 10, 6, and 2 meter bands* from beyond the radio horizon.
 
 Think of Sporadic E like catching a lucky bounce off a cloud - it happens occasionally and can give you unexpected long-distance contacts. While you can't predict exactly when it will occur, it's a regular feature of VHF propagation.
 
 #### Tropospheric Ducting
 
-> **Key Information**:
+> **Key Information:**
 > - *Caused by temperature inversions* in the atmosphere
 > - Allows *VHF and UHF communications to ranges of approximately 300 miles regularly*
 
@@ -78,7 +78,7 @@ Imagine a tunnel in the sky that can carry your signal much farther than usual. 
 
 #### Meteor Scatter
 
-> **Key Information**: The *6 meter band is best suited* for meteor scatter communications.
+> **Key Information:** The *6 meter band is best suited* for meteor scatter communications.
 
 When meteors burn up in the atmosphere, they leave brief trails that can reflect radio signals. It's like playing ping-pong with a shooting star - the reflections are brief but can allow contacts over surprising distances. The 6 meter band works particularly well for this type of communication.
 
@@ -86,7 +86,7 @@ When meteors burn up in the atmosphere, they leave brief trails that can reflect
 
 Different environmental factors affect different frequencies in various ways:
 
-> **Key Information**: 
+> **Key Information:** 
 > - *Precipitation can decrease range at microwave frequencies*
 > - *Fog and rain have little effect* on signals in the *10 meter and 6 meter bands*
 > - *UHF and microwave signals are absorbed by vegetation*

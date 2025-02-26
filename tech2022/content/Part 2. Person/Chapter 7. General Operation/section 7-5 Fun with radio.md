@@ -6,8 +6,7 @@ questions: [ "T8C01", "T8C03", "T8C02", "T8C05", "T8C04" ]
 
 Alright, radio adventurers, buckle up! We're about to explore some of the coolest, quirkiest, and downright awesome things you can do with your ham radio license. Let's start with a few activities that you might encounter on the exam.
 
-> **Key Information:**
-> *Radio direction finding is used to locate sources of noise interference or jamming.* It involves using directional antennas and receivers to determine the location of a radio signal.
+> **Key Information:** *Radio direction finding is used to locate sources of noise interference or jamming.* It involves using directional antennas and receivers to determine the location of a radio signal.
 
 #### Fox Hunting and Direction Finding
 
@@ -35,8 +34,7 @@ Ever felt the thrill of a race? Well, ham radio has its own version of high-spee
 
 4. Get on the air! Many contests have sections for newcomers or low-power stations. It's a perfect way to dip your toes into the contesting waters.
 
-> **Key Information:**
-> Contesting is a popular operating activity where operators try to contact as many stations as possible during a specified time period. Good contest procedure is to send only the minimum required information.
+> **Key Information:** Contesting is a popular operating activity where operators try to contact as many stations as possible during a specified time period. Good contest procedure is to send only the minimum required information.
 
 #### Grid locators
 

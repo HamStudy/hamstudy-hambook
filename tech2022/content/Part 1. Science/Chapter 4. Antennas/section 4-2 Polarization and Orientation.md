@@ -6,7 +6,7 @@ questions: [ "T3A03", "T3A04", "T3A09", "T9A03" ]
 
 Imagine you're trying to slip a letter through a mail slot. If the slot is horizontal, you'll turn your letter sideways. If it's vertical, you'll orient your letter up-and-down. Antenna polarization works in a similar way—it's all about matching the orientation of your radio waves to get the best results.
 
-> **Key Information**:
+> **Key Information:**
 > - *Horizontal polarization is normally used for long-distance CW and SSB contacts on VHF and UHF bands*
 > - When antennas at opposite ends of a VHF/UHF line of sight radio link use different polarizations, the *received signal strength is reduced*
 > - A dipole *oriented parallel to Earth's surface is a horizontally polarized antenna*
