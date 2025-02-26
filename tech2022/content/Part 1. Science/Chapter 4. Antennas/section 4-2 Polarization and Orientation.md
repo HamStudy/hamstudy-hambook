@@ -23,11 +23,11 @@ Picture an antenna standing straight up and down, like a flagpole. The radio wav
 Now imagine that flagpole laid down flat, parallel to the ground. You've got horizontal polarization - the waves vibrate side to side as they move. This is what you'll often use for those long-distance VHF/UHF contacts.
 
 **Elliptical and Circular Polarization**:
-Here's where things get interesting! When signals bounce off the ionosphere, they tend to get twisted around, becoming elliptically polarized - the wave's orientation traces an oval pattern as it travels through space. When this oval pattern becomes a perfect circle, we call it circular polarization.
+Here's where things get interesting! When signals "reflect" off the ionosphere and return to Earth, their polarization can change, often becoming elliptically polarized. This means the wave's orientation traces an oval pattern as it moves through space. When this oval pattern becomes a perfect circle, we call it circular polarization.
 
 Circular polarization is super useful for satellite work because it works regardless of how the antenna is oriented - kind of like a round peg that fits no matter how you rotate the hole. That's why many satellite operators use circularly polarized antennas.
 
-The neat thing about ionospheric propagation is that it tends to create elliptically polarized signals, which means *either vertically or horizontally polarized antennas may be used for transmission or reception*. Nature's doing the work of making your antenna choice more flexible!
+The neat thing about ionospheric propagation is that it naturally induces elliptical polarization, which means either vertically or horizontally polarized antennas may be used for transmission or reception. Nature’s doing the work of making your antenna choice more flexible!
 
 #### Why Should You Care?
 

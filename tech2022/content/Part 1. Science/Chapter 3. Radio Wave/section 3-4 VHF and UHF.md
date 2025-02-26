@@ -18,7 +18,7 @@ The most popular Technician class bands are:
 
 > **Key Information**: *UHF signals are rarely heard beyond their radio horizon because they are not usually propagated by the ionosphere*.
 
-Unlike HF signals that can bounce off the ionosphere to travel long distances, VHF and UHF signals generally travel in straight lines, making them reliable for local communications but limiting their range.
+Unlike HF signals, which can be refracted by the ionosphere to travel beyond the horizon, VHF and UHF signals generally follow a line-of-sight path. This makes them reliable for local communications but limits their range.
 
 > Reminder: want to know the wavelength of a frequency in meters? Just divide 300 by the frequency in MHz. So for 146 MHz ($\frac{300}{146}), you get about 2 meters.
 
