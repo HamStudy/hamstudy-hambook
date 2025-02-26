@@ -2,21 +2,20 @@
 questions: [ "T2C03", "T1A04", "T1C02", "T1C01", "T1F11", "T1A05", "T1C05", "T1C04", "T1C07" ]
 ---
 
-### Section 8.4: Operator Classes, Privileges, and Call Signs
+### Section 8.1: Operator Classes, Privileges, and Call Signs
 
 Welcome to the world of ham radio hierarchy! Let's break down the different operator classes, what they can do, and how to recognize them by their call signs.
 
 #### Operator Classes and Privileges
 
-> **Key Information:**
-> *New licenses are currently available from the FCC for three classes: Technician, General, and Amateur Extra.*
+> **Key Information:** *New licenses are currently available from the FCC for three classes: Technician, General, and Amateur Extra.*
 
 The FCC currently issues three classes of amateur radio licenses:
 
 1. **Technician Class**:
    - Entry-level license
    - Full privileges on all amateur bands above 50 MHz
-   - Limited HF privileges (as discussed in Section 8.2)
+   - Limited HF privileges (as discussed later in Section 8.3)
    - Great for local communications and experimentation with VHF/UHF
 
 2. **General Class**:
@@ -31,22 +30,19 @@ The FCC currently issues three classes of amateur radio licenses:
    - Access to exclusive Extra-only sections of bands
    - Can get accredited as a Volunteer Examiner to administer exams for new and upgrading operators of any license class
 
-> **Key Information:**
-> *Each person may hold only one operator/primary station license grant.*
+> **Key Information:** *Each person may hold only one operator/primary station license grant.*
 
 Each person can only hold *one operator/primary station license grant*, regardless of how many locations they operate from. This means you'll have just one call sign, even if you have multiple radios or operating locations.
 
 #### License Verification
 
-> **Key Information:**
-> *The appearance of a license in the FCC ULS database proves that the FCC has issued an operator/primary license grant.*
+> **Key Information:** *The appearance of a license in the FCC ULS database proves that the FCC has issued an operator/primary license grant.*
 
 How do you know if someone (including yourself) is officially licensed? The proof is in the database! *The appearance of your license grant in the FCC's Universal Licensing System (ULS) database is what officially proves you've been licensed* - not a paper certificate or an email confirmation.
 
 #### Email Requirements
 
-> **Key Information:**
-> *If the FCC is unable to reach you by email, they may revoke your station license or suspend your operator license. Failure to provide and maintain a correct email address with the FCC can result in license revocation or suspension.*
+> **Key Information:** *If the FCC is unable to reach you by email, they may revoke your station license or suspend your operator license. Failure to provide and maintain a correct email address with the FCC can result in license revocation or suspension.*
 
 Here's something critically important: *You must provide and maintain a correct email address with the FCC*. If they can't reach you by email, they can suspend or revoke your license. Make sure your email address stays current in the FCC database – it's a requirement, not just a suggestion!
 
@@ -54,8 +50,7 @@ Here's something critically important: *You must provide and maintain a correct 
 
 In the US, call signs are structured as follows: [Prefix][Number][Suffix]
 
-> **Key Information:**
-> *A valid Technician class call sign format includes a single letter prefix (K, N, or W) followed by a region number and three suffix letters (like KF1XXX).*
+> **Key Information:** *A valid Technician class call sign format includes a single letter prefix (K, N, or W) followed by a region number and three suffix letters (like KF1XXX).*
 
 For Technicians, valid call sign formats include a single letter prefix (K, N, or W) followed by a region number and three suffix letters (like *KF1XXX*). This is known as a "Group C" call sign.
 
@@ -91,8 +86,7 @@ When you earn your first ham radio license you will be issued a sequential call 
 
 #### Vanity Call Signs
 
-> **Key Information:**
-> *Any licensed amateur may select a desired call sign under the vanity call sign rules.*
+> **Key Information:** *Any licensed amateur may select a desired call sign under the vanity call sign rules.*
 
 Don't like your assigned call sign? Good news! *Any licensed amateur can select a desired call sign under the vanity call sign rules*. You can apply for a vanity call sign from your group or a lower group (representing a higher class license). There are also some prefixes which are assigned to specific geographical regions.
 
@@ -102,15 +96,13 @@ The number in a call sign typically indicates the call sign region. The region y
 
 #### Using Phonetics
 
-> **Key Information:**
-> *The FCC rules state that the use of a phonetic alphabet for station identification in the Amateur Radio Service is encouraged.*
+> **Key Information:** *The FCC rules state that the use of a phonetic alphabet for station identification in the Amateur Radio Service is encouraged.*
 
 As we discussed in Chapter 7, using standard phonetics helps ensure your call sign is understood clearly. The FCC rules actually *encourage the use of a phonetic alphabet* for station identification in the Amateur Radio Service. While not required, it's considered good practice, especially when operating under challenging conditions or when your call sign might be difficult to understand.
 
 #### Club Station Licenses
 
-> **Key Information:**
-> *A requirement for the issuance of a club station license grant is that the club must have at least four members.*
+> **Key Information:** *A requirement for the issuance of a club station license grant is that the club must have at least four members.*
 
 Club station licenses are a special type of amateur radio license granted to a club rather than an individual. Here's what you need to know:
 

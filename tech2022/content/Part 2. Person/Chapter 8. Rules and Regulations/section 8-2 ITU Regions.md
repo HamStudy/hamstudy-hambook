@@ -2,7 +2,7 @@
 questions: []
 ---
 
-### Section 8.1: ITU Regions
+### Section 8.2: ITU Regions
 
 #### What are ITU Regions?
 
