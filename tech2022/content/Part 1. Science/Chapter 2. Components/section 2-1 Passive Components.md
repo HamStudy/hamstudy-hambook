@@ -14,7 +14,7 @@ When you peek inside any radio equipment, you'll find a fascinating array of ele
 
 #### Resistors: The Traffic Cops of Electronics
 
-> **Key Information:** A *resistor opposes the flow of current in a DC circuit*.
+> **Key Information:** A *resistor opposes the flow of current in a DC circuit*.{{< link id="T6A01" >}}
 
 *Resistors* are small cylindrical components with colored bands that indicate their resistance value. These color codes help electronics enthusiasts determine the component's resistance. 
 
@@ -26,8 +26,8 @@ Common applications in amateur radio include:
 #### Capacitors: The Battery-like Energy Storers
 
 > **Key Information:**
-> 1. A *capacitor stores energy in an electric field*
-> 2. A *capacitor consists of conductive surfaces (usually metal plates) separated by an insulator*. This physical structure is fundamental to how capacitors work and is frequently tested.
+> 1. A *capacitor stores energy in an electric field*{{< link id="T6A04" >}}
+> 2. A *capacitor consists of conductive surfaces (usually metal plates) separated by an insulator*. This physical structure is fundamental to how capacitors work and is frequently tested.{{< link id="T6A05" >}}
 
 *Capacitors* come in various shapes and sizes, from tiny ceramic discs to large cylindrical types. Their capacity to store charge is measured in farads (F), though most radio circuits use microfarads (µF) or picofarads (pF).
 
@@ -39,8 +39,8 @@ In amateur radio, capacitors are used for:
 #### Understanding Circuit Configurations
 
 > **Key Information:** The fundamental differences between series and parallel circuits are:
-> - In *series circuits*, current is the same through all components
-> - In *parallel circuits*, voltage is the same across all components
+> - In *series circuits*, current is the same through all components {{< link id="T5D13" >}}
+> - In *parallel circuits*, voltage is the same across all components {{< link id="T5D14" >}}
 
 These two circuit types behave very differently:
 - **Series Circuits**: Components are connected end-to-end in a single path. If one component fails, the entire circuit stops functioning.
@@ -49,9 +49,9 @@ These two circuit types behave very differently:
 #### Inductors: The Magnetic Field Maestros
 
 > **Key Information:**
-> 1. *Inductors store energy in a magnetic field*
-> 2. They are *typically constructed as a coil of wire*
-> 3. They are *used with capacitors to make a resonant circuit*
+> 1. *Inductors store energy in a magnetic field* {{< link id="T6A06" >}}
+> 2. They are *typically constructed as a coil of wire* {{< link id="T6A07" >}}
+> 3. They are *used with capacitors to make a resonant circuit* {{< link id="T6D08" >}}
 
 *Inductors* play important roles in radio circuits, including:
 1. Signal filtering
@@ -60,7 +60,7 @@ These two circuit types behave very differently:
 
 #### Potentiometers: The Adjustable Resistors
 
-> **Key Information:** A *potentiometer is used to control resistance* and is often used as a *volume control*.
+> **Key Information:** A *potentiometer is used to control resistance* {{< link id="T6A03" >}} and is often used as a *volume control*. {{< link id="T6A02" >}}
 
 A *potentiometer* is a variable resistor with three terminals. As you turn the knob or slide the control, the resistance changes. In amateur radio, they are commonly used for:
 1. Volume control
@@ -69,7 +69,9 @@ A *potentiometer* is a variable resistor with three terminals. As you turn the k
 
 #### Switches: The Circuit Controllers
 
-> **Key Information:** For your exam, you need to know about an *SPDT (Single Pole, Double Throw) switch*. This type of switch allows *a single circuit to be switched between one of two other circuits*.
+> **Key Information:**
+> * For your exam, you need to know about an *SPDT (Single Pole, Double Throw) switch*. This type of switch allows *a single circuit to be switched between one of two other circuits*.{{< link id="T6A08" >}}
+> * You will also need to be able to *identify a SPST (Single Pole, Single Throw) switch on a circuit diagram*. {{< link id="T6A12" >}}
 
 Think of an SPDT switch like a railroad track switch with one input track (the pole) that can connect to either of two output tracks (the throws). When you flip the switch, you're choosing which output track the input will connect to.
 

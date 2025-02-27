@@ -7,55 +7,55 @@ illustration_ideas:
 
 ### Section 2.2: Semiconductors
 
-Semiconductors are special materials that make modern electronics possible. They’re special materials that can act as both a conductor (letting electricity flow) and an insulator (blocking electricity), depending on how they’re used. This unique property allows us to create all sorts of devices that control electricity in useful ways.
+Semiconductors are special materials that make modern electronics possible. They're special materials that can act as both a conductor (letting electricity flow) and an insulator (blocking electricity), depending on how they're used. This unique property allows us to create all sorts of devices that control electricity in useful ways.
 
 #### Diodes: One-Way Electronic Streets
 
 > **Key Information:** 
-> - A *diode allows current to flow in only one direction*
-> - The *cathode lead (negative side) is often marked with a stripe*
-> - The *forward voltage drop is lower in some diode types than others*
+> - A *diode allows current to flow in only one direction* {{< link id="T6B02" >}}
+> - The *cathode lead (negative side) is often marked with a stripe* {{< link id="T6B06" >}}
+> - The *forward voltage drop is lower in some diode types than others* {{< link id="T6B01" >}}
 
 A diode has two electrodes:
 - *Anode*: The positive connection
-- *Cathode*: The negative connection, marked with a stripe
+- *Cathode*: The negative connection, marked with a stripe {{< link id="T6B09" >}}
 
 ![Diode schematic diagram with anode / cathode labeled](../../../images/s2-2-diode.svg)
 
 Think of a diode like a one-way street - traffic (electrical current) can only flow in one direction. When current flows through a diode, there's a small voltage loss called the forward voltage drop. Different types of diodes have different amounts of voltage drop - for instance, Schottky diodes have a lower forward voltage drop than regular silicon diodes.
 
-One common use of diodes is in a *rectifier*, which changes alternating current (AC) into direct current (DC).
+One common use of diodes is in a *rectifier*, which changes alternating current (AC) into direct current (DC). {{< link id="T6D01" >}}
 
 #### Light-Emitting Diodes (LEDs): Diodes That Shine
 
-> **Key Information:** An LED produces light when *forward current* flows through it.
+> **Key Information:** An LED produces light when *forward current* flows through it. {{< link id="T6B07" >}}
 
-LEDs are special diodes that light up when current flows through them. They're commonly used as indicator lights on radio equipment - that power light on your transceiver is an LED!
+LEDs are special diodes that light up when current flows through them. They're commonly used as indicator lights on radio equipment - that power light on your transceiver is an LED! {{< link id="T6D07" >}}
 
 ![LED schematic diagram with anode / cathode labeled](../../../images/s2-2-led.svg)
 
 #### Transistors: The Heart of Modern Electronics
 
 > **Key Information:** 
-> - *Transistors can be used as electronic switches*
-> - *Transistors can provide power gain* (ability to amplify signals)
-> - A transistor contains *three regions of semiconductor material*
+> - *Transistors can be used as electronic switches* {{< link id="T6B03" >}}
+> - *Transistors can provide power gain* (ability to amplify signals) {{< link id="T6B10" >}}
+> - A transistor contains *three regions of semiconductor material* {{< link id="T6B04" >}}
 
 There are two main types of transistors, and it's important to know the names of their parts:
 
 1. **Bipolar Junction Transistor (BJT)**
-   - Three parts: *Emitter, Base, and Collector*
+   - Three parts: *Emitter, Base, and Collector* {{< link id="T6B12" >}}
    - Often used for amplifying signals
 
 2. **Field-Effect Transistor (FET)**
-   - Three parts: *Gate, Drain, and Source*
+   - Three parts: *Gate, Drain, and Source* {{< link id="T6B05" >}}
    - Often used as voltage-controlled switches
 
-**Understanding Gain**: When we talk about transistors providing "gain," we mean their *ability to amplify a signal* - making a small signal bigger. This is one of their most important functions in radio equipment.
+**Understanding Gain**: When we talk about transistors providing "gain," we mean their *ability to amplify a signal* - making a small signal bigger. {{< link id="T6B11" >}} This is one of their most important functions in radio equipment.
 
 #### Integrated Circuits (ICs): Many Components in One
 
-> **Key Information:** An integrated circuit *combines several semiconductors and other components into one package*.
+> **Key Information:** An integrated circuit *combines several semiconductors and other components into one package*. {{< link id="T6D09" >}}
 
 Think of an IC as a tiny electronic city, where many components (transistors, diodes, resistors, etc.) work together in a single chip. This technology makes modern radio equipment possible by packing complex circuits into small spaces.
 
@@ -85,3 +85,5 @@ Let's review the key semiconductor components and their main features:
    - Make complex circuits possible
 
 Remember: While semiconductors can seem complex, understanding their basic functions and terminal names will help you both with the exam and in your amateur radio activities.
+
+> **Key Information:** What does FET stand for? *Field Effect Transistor* {{< link id="T6B08" >}}

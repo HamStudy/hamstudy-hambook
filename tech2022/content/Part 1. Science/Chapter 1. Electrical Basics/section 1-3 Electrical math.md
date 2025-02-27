@@ -5,19 +5,19 @@ questions: [ "T5D07", "T5D12", "T5D10", "T5D09", "T5D08", "T5D02", "T5D06", "T5D
 
 ### Section 1.3: Electrical Laws (and Math)
 
-Okay, let's get into some of the basic math and electrical laws you'll use all the time in amateur radio. Don't worry—this isn’t rocket science (though I imagine rocket scientists would use this as well!). We’re talking about Ohm’s Law and the Power Law, which are like the peanut butter and jelly of electronics. They go together perfectly, and once you get the hang of them, you'll see they're not that hard to digest.
+Okay, let's get into some of the basic math and electrical laws you'll use all the time in amateur radio. Don't worry—this isn't rocket science (though I imagine rocket scientists would use this as well!). We're talking about Ohm's Law and the Power Law, which are like the peanut butter and jelly of electronics. They go together perfectly, and once you get the hang of them, you'll see they're not that hard to digest.
 
-#### But First... Don’t Panic About the Math!
+#### But First... Don't Panic About the Math!
 
-A lot of people see math questions and immediately start stressing—but there’s **no reason to panic**. At **most**, you’ll see **two** math-related questions on your exam: **one from T5C (power formulas) and one from T5D (Ohm’s Law).** And guess what? You can **miss up to 9 questions and still pass**!  
+A lot of people see math questions and immediately start stressing—but there's **no reason to panic**. At **most**, you'll see **two** math-related questions on your exam: **one from T5C (power formulas) and one from T5D (Ohm's Law).** And guess what? You can **miss up to 9 questions and still pass**!  
 
-So if this section just isn’t clicking for you, **don’t worry about it**—skip it and focus on the parts that make more sense. But if you take a little time to understand these formulas, you might find that they’re **actually pretty simple** and can help you in real-world radio troubleshooting.
+So if this section just isn't clicking for you, **don't worry about it**—skip it and focus on the parts that make more sense. But if you take a little time to understand these formulas, you might find that they're **actually pretty simple** and can help you in real-world radio troubleshooting.
 
 #### Ohm's Law
 
 <img src="../../../images/illus/ohms_triangle.svg" alt="cartoon showing a conductor on the left and an insulator on the right, angry with each other" style="float: right; width: 250px; margin: 3px;">
 
-First up is **Ohm’s Law**, the bread and butter of everything electrical. It’s all about how **voltage, current, and resistance** are related in a circuit. The law itself is simple:
+First up is **Ohm's Law**, the bread and butter of everything electrical. It's all about how **voltage, current, and resistance** are related in a circuit. The law itself is simple:
 
 $$E = I \times R$$
 
@@ -31,16 +31,16 @@ Where:
 <div style="clear:both;"></div>
 
 In plain English, Ohm's Law says:  
-*"The voltage across a component is equal to the current flowing through it times its resistance."*  
+*"The voltage across a component is equal to the current flowing through it times its resistance."*  {{< link id="T5D02" >}}
 
 Or, using a water analogy:  
 Voltage is like water pressure, **pushing** current (the water flow) through resistance (the pipe size).  
 
-Since it’s a simple formula, you can **rearrange it** to solve for any of the three values:
+Since it's a simple formula, you can **rearrange it** to solve for any of the three values:
 
-$$I = \frac{E}{R}$$
+$$I = \frac{E}{R}$$  {{< link id="T5D01" >}}
 
-$$R = \frac{E}{I}$$
+$$R = \frac{E}{I}$$  {{< link id="T5D03" >}}
 
 To help remember these relationships, you can use this simple circle diagram.
 
@@ -59,25 +59,25 @@ To use this helper:
 You have a **10-ohm resistor**, and **2 amps of current** are running through it. According to Ohm's Law:
 
 $$E = I \times R$$  
-$$E = 2A \times 10Ω$$  
-$$E = 20V$$  
+$$E = 2A \times 10\Omega$$  
+$$E = 20V$$  {{< link id="T5D12" >}}
 
-So, you’d need **20 volts** to push **2 amps** through that **10-ohm resistor**.
+So, you'd need **20 volts** to push **2 amps** through that **10-ohm resistor**.
 
 #### **Example 2**  
 You have a **12-volt battery** hooked up to a circuit with a total **resistance of 4 ohms**. To figure out the current flowing through the circuit:
 
 $$I = \frac{E}{R}$$  
-$$I = \frac{12V}{4Ω}$$  
-$$I = 3A$$  
+$$I = \frac{12V}{4\Omega}$$  
+$$I = 3A$$  {{< link id="T5D06" >}}
 
-That’s **3 amps** of current flowing through the circuit.
+That's **3 amps** of current flowing through the circuit.
 
 #### The Power Law
 
-Next up is the **Power Law**. This tells you how much **power (in watts)** your circuit is using, based on the **voltage and current**. Power is **how fast your circuit is consuming energy**, and here’s the formula:
+Next up is the **Power Law**. This tells you how much **power (in watts)** your circuit is using, based on the **voltage and current**. Power is **how fast your circuit is consuming energy**, and here's the formula:
 
-$$P = E \times I$$
+$$P = E \times I$$  {{< link id="T5C08" >}}
 
 Where:
 - **$P$** is the *power* in **watts (W)**  
@@ -98,24 +98,47 @@ The same principle applies:
 
    - Cover E: divide $\frac{P}{I}$
 
-*Though you won't need it on the exam*, you can rearrange this formula and even combine it with Ohm’s Law to find **any missing value if you have two known values**:
+*Though you won't need it on the exam*, you can rearrange this formula and even combine it with Ohm's Law to find **any missing value if you have two known values**:
 
 $$P = I^2 \times R$$  
 $$P = \frac{E^2}{R}$$  
 
-For example, if you know the **voltage and resistance**, you can find the **current** using Ohm’s Law, then plug that into the Power Law to find **power**. This is really useful when figuring out how much power your transmitter or other radio equipment is using.
+For example, if you know the **voltage and resistance**, you can find the **current** using Ohm's Law, then plug that into the Power Law to find **power**. This is really useful when figuring out how much power your transmitter or other radio equipment is using.
+
+Let's look at some specific examples that might appear on the exam:
+
+**Example 1: Power from voltage and current**  
+*How much power is delivered by a voltage of 13.8 volts DC and a current of 10 amperes?*
+
+$$P = E \times I$$  
+$$P = 13.8V \times 10A$$  
+$$P = 138 \text{ watts}$$  {{< link id="T5C09" >}}
+
+**Example 2: Another power calculation**  
+*How much power is delivered by a voltage of 12 volts DC and a current of 2.5 amperes?*
+
+$$P = E \times I$$  
+$$P = 12V \times 2.5A$$  
+$$P = 30 \text{ watts}$$  {{< link id="T5C10" >}}
+
+**Example 3: Finding current from power and voltage**  
+*How much current is required to deliver 120 watts at a voltage of 12 volts DC?*
+
+$$I = \frac{P}{E}$$  
+$$I = \frac{120W}{12V}$$  
+$$I = 10 \text{ amperes}$$  {{< link id="T5C11" >}}
 
 #### Why Does This Matter?
 
-You might be wondering, *"Why should I care about all this?"* Well, whenever you work with electronics, you will use these laws all the time. Whether you're **figuring out how much power your transmitter is using**, **picking the right resistor for a circuit**, or **troubleshooting why something isn’t working**, Ohm’s Law and the Power Law are your best friends.
+You might be wondering, *"Why should I care about all this?"* Well, whenever you work with electronics, you will use these laws all the time. Whether you're **figuring out how much power your transmitter is using**, **picking the right resistor for a circuit**, or **troubleshooting why something isn't working**, Ohm's Law and the Power Law are your best friends.
 
-- **Voltage Drop**: Long wires have resistance, and **Ohm’s Law** helps you calculate how much voltage is lost along the way.
+- **Voltage Drop**: Long wires have resistance, and **Ohm's Law** helps you calculate how much voltage is lost along the way.
 - **Power Rating**: Every electrical component has a limit on how much power it can handle before it overheats. **The Power Law** helps you make sure your components stay within safe limits.
 - **Efficiency**: When setting up **power systems and antennas**, understanding **how voltage, current, and power interact** helps you design more efficient systems.
 
 #### Quick Reference
 
-Here’s a **cheat sheet** for easy reference:
+Here's a **cheat sheet** for easy reference:
 
 - **Ohm's Law**:  
   - $E = I \times R$  
@@ -127,7 +150,7 @@ Here’s a **cheat sheet** for easy reference:
   - $P = I^2 \times R$  
   - $P = \frac{E^2}{R}$  
 
-The more you **practice using these**, the easier they become. Soon enough, you’ll be solving electrical problems on the fly!
+The more you **practice using these**, the easier they become. Soon enough, you'll be solving electrical problems on the fly!
 
 ---
 
@@ -144,14 +167,14 @@ This is a *complete* summary of all of the questions you could encounter on the 
 | T5D01           | Formula for current in a circuit        | $I = \frac{E}{R}$                    |            |
 | T5D02           | Formula for voltage in a circuit        | $E = I \times R$                     |            |
 | T5D03           | Formula for resistance in a circuit     | $R = \frac{E}{I}$                    |            |
-| T5D04           | Resistance with 90 volts and 3 amperes  | $R = \frac{90V}{3A}$                 | $R = 30\Omega$ |
-| T5D05           | Resistance with 12 volts and 1.5 amperes| $R = \frac{12V}{1.5A}$               | $R = 8\Omega$  |
+| T5D04           | Resistance with 90 volts and 3 amperes  | $R = \frac{90V}{3A}$                 | $R = 30\Omega$ {{< link id="T5D04" >}} |
+| T5D05           | Resistance with 12 volts and 1.5 amperes| $R = \frac{12V}{1.5A}$               | $R = 8\Omega$ {{< link id="T5D05" >}} |
 | T5D06           | Resistance with 12 volts and 4 amperes  | $R = \frac{12V}{4A}$                 | $R = 3\Omega$  |
-| T5D07           | Current with 120 volts and 80 ohms      | $I = \frac{120V}{80\Omega}$          | $I = 1.5A$ |
-| T5D08           | Current with 200 volts and 100 ohms     | $I = \frac{200V}{100\Omega}$         | $I = 2A$   |
-| T5D09           | Current with 240 volts and 24 ohms      | $I = \frac{240V}{24\Omega}$          | $I = 10A$  |
-| T5D10           | Voltage across 2 ohms and 0.5 amperes   | $E = 0.5A \times 2\Omega$            | $E = 1V$   |
-| T5D11           | Voltage across 10 ohms and 1 ampere     | $E = 1A \times 10\Omega$             | $E = 10V$  |
+| T5D07           | Current with 120 volts and 80 ohms      | $I = \frac{120V}{80\Omega}$          | $I = 1.5A$ {{< link id="T5D07" >}} |
+| T5D08           | Current with 200 volts and 100 ohms     | $I = \frac{200V}{100\Omega}$         | $I = 2A$ {{< link id="T5D08" >}} |
+| T5D09           | Current with 240 volts and 24 ohms      | $I = \frac{240V}{24\Omega}$          | $I = 10A$ {{< link id="T5D09" >}} |
+| T5D10           | Voltage across 2 ohms and 0.5 amperes   | $E = 0.5A \times 2\Omega$            | $E = 1V$ {{< link id="T5D10" >}} |
+| T5D11           | Voltage across 10 ohms and 1 ampere     | $E = 1A \times 10\Omega$             | $E = 10V$ {{< link id="T5D11" >}} |
 | T5D12           | Voltage across 10 ohms and 2 amperes    | $E = 2A \times 10\Omega$             | $E = 20V$  |
 
 (see the actual questions below)

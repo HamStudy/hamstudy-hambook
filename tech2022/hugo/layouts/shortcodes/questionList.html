@@ -1,0 +1,52 @@
+{{- $subelList := .Site.Data.questions.subelements -}}
+{{- $questionsData := .Site.Data.questions.questions -}}
+{{- $shownFigures := dict -}}
+
+<div class="markdown full-pool">
+  <h2>Question Pool</h2>
+
+  {{- range $subelList -}}
+    <h2 id="{{ .id }}" class="subel subel-{{ .id }}">{{ .id }}: {{ .name }}</h2>
+    
+    {{- range .sections -}}
+      <h3 id="{{ .id }}" class="section-head">Section <strong>{{ .id }}</strong>: {{ .summary }}</h3>
+      <section class="section section-{{ .id }}">
+        {{- range .questions -}}
+          {{- $questionID := . -}}
+          {{- $question := index $questionsData $questionID -}}
+          {{- if $question -}}
+            {{- $imagePath := printf "/figures/%s" $question.image -}}
+            {{- if and $question.image (not (index $shownFigures $question.image)) -}}
+              <div class="question-figure">
+                <img src="{{ $imagePath }}" alt="Figure for {{ $questionID }}" style="filter: var(--icon-filter);">
+              </div>
+              {{- $shownFigures = $shownFigures | merge (dict $question.image true) -}}
+            {{- end -}}
+
+            <div class="question-item">
+              <strong>{{ $questionID }}</strong>: {{ $question.text }}
+              
+              {{- $hasAllTheseChoices := false -}}
+              {{- range $question.answers -}}
+                {{- if and (eq .letter $question.answer) (in (lower .text) "all these choices") -}}
+                  {{- $hasAllTheseChoices = true -}}
+                {{- end -}}
+              {{- end -}}
+
+              <ul class="answers-list{{ if $hasAllTheseChoices }} has-all-choices{{ end }}">
+                {{- range $question.answers -}}
+                  <li class="answer-item{{ if eq .letter $question.answer }} correct-answer{{ end }}">
+                    {{- if $hasAllTheseChoices -}}
+                      <strong>{{ .letter }}: </strong>
+                    {{- end -}}
+                    {{ .text }}
+                  </li>
+                {{- end -}}
+              </ul>
+            </div>
+          {{- end -}}
+        {{- end -}}
+      </section>
+    {{- end -}}
+  {{- end -}}
+</div>
