@@ -6,39 +6,39 @@ questions: [ "T0C09", "T0C04", "T0C05", "T0C10", "T0C11", "T0C01", "T0C02", "T0C
 
 #### What is RF Exposure?
 
-Alright, fellow hams, let's clear the air about RF exposure. RF (Radio Frequency) radiation is a type of *non-ionizing electromagnetic radiation*. Unlike ionizing radiation (like X-rays), RF radiation doesn't have enough energy to knock electrons off atoms or molecules. It's the same kind of energy your microwave oven uses to heat food, just at different frequencies and power levels. In other words, it won't turn you into a comic book superhero (sorry to disappoint!).
+Alright, fellow hams, let's clear the air about RF exposure. RF (Radio Frequency) radiation is a type of *non-ionizing electromagnetic radiation*. {{< link id="T0C01" >}} Unlike ionizing radiation (like X-rays), RF radiation doesn't have enough energy to knock electrons off atoms or molecules. It's the same kind of energy your microwave oven uses to heat food, just at different frequencies and power levels. In other words, it won't turn you into a comic book superhero (sorry to disappoint!).
 
-> **Key Concept:** *RF signals are non-ionizing radiation*, which means they do not have sufficient energy to cause chemical changes in cells or damage DNA like ionizing radiation does.
+> **Key Concept:** *RF signals are non-ionizing radiation*, which means they do not have sufficient energy to cause chemical changes in cells or damage DNA like ionizing radiation does. {{< link id="T0C12" >}}
 
 #### Why Should We Care About RF Exposure?
 
 But don't get too comfortable just yet. While RF energy won't alter your DNA, it can still cause harm through a different mechanism: heat. Yep, just like your microwave oven (which, by the way, uses RF energy at 2.4 GHz), high levels of RF can heat up body tissues. And trust me, you don't want to cook your insides while making that awesome DX contact!
 
-*As the station licensee, you're responsible for ensuring that no one is exposed to RF radiation beyond the FCC limits*. This includes you, your family, neighbors, and even passersby if your antenna is near public areas.
+*As the station licensee, you're responsible for ensuring that no one is exposed to RF radiation beyond the FCC limits*. {{< link id="T0C13" >}} This includes you, your family, neighbors, and even passersby if your antenna is near public areas.
 
 > **Key Concept:** The primary concern with RF exposure is tissue heating, not genetic damage. *The station licensee is responsible for ensuring compliance with RF exposure limits.*
 
 #### RF Safety and Frequency Considerations
 
-Here's something interesting: RF exposure limits vary with frequency. Why? Because *the human body absorbs RF energy differently at different frequencies*. 
+Here's something interesting: RF exposure limits vary with frequency. Why? Because *the human body absorbs RF energy differently at different frequencies*. {{< link id="T0C05" >}}
 
-*Around 50 MHz (in the 6-meter band), the Maximum Permissible Exposure (MPE) limits have their lowest values* because that's where the human body is most efficient at absorbing RF energy. Think of it as an unfortunate resonance between our bodies and that particular frequency range. At higher and lower frequencies, our bodies don't absorb the energy quite as readily, so the limits are slightly more lenient.
+*Around 50 MHz (in the 6-meter band), the Maximum Permissible Exposure (MPE) limits have their lowest values* because that's where the human body is most efficient at absorbing RF energy. {{< link id="T0C02" >}} Think of it as an unfortunate resonance between our bodies and that particular frequency range. At higher and lower frequencies, our bodies don't absorb the energy quite as readily, so the limits are slightly more lenient.
 
 > **Key Concept:** *MPE limits are most restrictive (have the lowest values) at around 50 MHz* because human bodies absorb RF energy most efficiently at this frequency.
 
 #### The Importance of Duty Cycle
 
-When evaluating RF exposure, we don't just consider the peak power but also how long you're transmitting—what we call the "duty cycle." *Duty cycle is the percentage of time that a transmitter is actually transmitting* during the averaging time for RF exposure calculations.
+When evaluating RF exposure, we don't just consider the peak power but also how long you're transmitting—what we call the "duty cycle." *Duty cycle is the percentage of time that a transmitter is actually transmitting* during the averaging time for RF exposure calculations. {{< link id="T0C11" >}}
 
-Why does this matter? Because *duty cycle directly affects the average exposure to radiation*. If you transmit only 50% of the time instead of continuously, your average RF output is cut in half.
+Why does this matter? Because *duty cycle directly affects the average exposure to radiation*. {{< link id="T0C10" >}} If you transmit only 50% of the time instead of continuously, your average RF output is cut in half.
 
-Here's the practical part: *If you reduce your duty cycle from 100% to 50%, the allowable power density doubles*. This means you could potentially use twice as much power while still staying within safe exposure limits. It's like a radio operator's two-for-one special!
+Here's the practical part: *If you reduce your duty cycle from 100% to 50%, the allowable power density doubles*. {{< link id="T0C03" >}} This means you could potentially use twice as much power while still staying within safe exposure limits. It's like a radio operator's two-for-one special!
 
 > **Key Concept:** *Duty cycle affects the average exposure to radiation. When duty cycle decreases by half (from 100% to 50%), the allowable power density doubles.*
 
 #### Physical Hazards of RF Energy
 
-One direct hazard of RF energy that's often overlooked is what happens if you touch an antenna during transmission. Spoiler alert: it's not pleasant! *Touching an antenna during transmission can cause RF burns to your skin* due to the concentrated RF energy. These burns can occur even at relatively low power levels and may not be immediately noticeable.
+One direct hazard of RF energy that's often overlooked is what happens if you touch an antenna during transmission. Spoiler alert: it's not pleasant! *Touching an antenna during transmission can cause RF burns to your skin* due to the concentrated RF energy. {{< link id="T0C07" >}} These burns can occur even at relatively low power levels and may not be immediately noticeable.
 
 > **Key Concept:** *Never touch an antenna during transmission—it can cause RF burns to your skin.*
 
@@ -51,7 +51,7 @@ Now, here's the million-dollar question: How do we stay in compliance with RF sa
 2. **Do the Math (or Let Computers Do It for You)**: *You can determine whether your station complies with FCC RF exposure regulations in several ways:*
    - *By calculation based on FCC OET Bulletin 65*
    - *By calculation based on computer modeling*
-   - *By measurement of field strength using calibrated equipment*
+   - *By measurement of field strength using calibrated equipment* {{< link id="T0C06" >}}
 
 3. **Distance Is Your Friend**: The further you are from the antenna, the less RF exposure you'll get. It's like social distancing, but for radio waves.
 
@@ -65,13 +65,13 @@ Now, here's the million-dollar question: How do we stay in compliance with RF sa
 
 8. **When in Doubt, Measure**: If you're really concerned, you can get calibrated RF field strength meters to check your station's emissions.
 
-> **Key Concept:** *Several factors affect RF exposure: frequency and power level of the RF field, distance from the antenna to a person, and the radiation pattern of the antenna.*
+> **Key Concept:** *Several factors affect RF exposure: frequency and power level of the RF field, distance from the antenna to a person, and the radiation pattern of the antenna.* {{< link id="T0C04" >}}
 
 #### Actions to Reduce RF Exposure
 
 If you find that your station might be causing excessive RF exposure, there are several actions you can take:
 
-1. **Relocate Antennas**: *Moving antennas further away from people is one of the most effective ways to reduce RF exposure*. Even a small increase in distance can significantly reduce exposure levels due to the inverse square law (doubling the distance reduces the power density to one-quarter).
+1. **Relocate Antennas**: *Moving antennas further away from people is one of the most effective ways to reduce RF exposure*. {{< link id="T0C08" >}} Even a small increase in distance can significantly reduce exposure levels due to the inverse square law (doubling the distance reduces the power density to one-quarter).
 
 2. **Reduce Power Output**: If you can't move your antenna, consider reducing your transmitter power.
 
@@ -83,7 +83,7 @@ If you find that your station might be causing excessive RF exposure, there are 
 
 #### Keeping Your Station Compliant Over Time
 
-Your station isn't a static entity—it evolves as you upgrade equipment, change antennas, or modify your operating habits. *To make sure your station stays in compliance with RF safety regulations, you should re-evaluate it whenever you make a change to your transmitter or antenna system*.
+Your station isn't a static entity—it evolves as you upgrade equipment, change antennas, or modify your operating habits. *To make sure your station stays in compliance with RF safety regulations, you should re-evaluate it whenever you make a change to your transmitter or antenna system*. {{< link id="T0C09" >}}
 
 What worked safely with your 100-watt transceiver might not be safe when you add that shiny new linear amplifier. Similarly, changing from a simple wire antenna to a high-gain directional antenna could significantly alter your RF exposure patterns.
 
