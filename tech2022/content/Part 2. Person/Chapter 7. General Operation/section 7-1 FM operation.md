@@ -26,13 +26,13 @@ Now, let's talk about using FM in the ham world:
 
 1. **Simplex Operation**: This is direct radio-to-radio communication. You and your buddy are on the same frequency, taking turns to transmit and receive. It's great for local chats or emergency communications when repeaters might be down.
    
-   Hey, want to know a handy frequency to remember? *146.520 MHz is the national calling frequency for FM simplex operations in the 2 meter band.* It's like the radio equivalent of a public square where hams gather to make initial contacts before moving to another frequency for a longer chat -- or just somewhere to "hang out" when driving a long distance where you may find people to talk to.
+   Hey, want to know a handy frequency to remember? {{< link id="T2A02" >}}*146.520 MHz is the national calling frequency for FM simplex operations in the 2 meter band.* It's like the radio equivalent of a public square where hams gather to make initial contacts before moving to another frequency for a longer chat -- or just somewhere to "hang out" when driving a long distance where you may find people to talk to.
 
 2. **Repeater Operation**: Remember those range-extending marvels we talked about earlier? Most VHF and UHF repeaters use FM. They listen on one frequency and transmit on another, vastly extending your range.
 
 3. **Narrow Band FM**: Many modern radios use Narrow Band FM to squeeze more channels into our precious spectrum. It's like the radio equivalent of compact parking - same car, smaller space.
 
-> **Key Information:** Simplex means transmitting and receiving on the same frequency. The national FM simplex calling frequency for 2 meters is 146.520 MHz. When using a repeater, you're operating in duplex mode (transmitting and receiving on different frequencies).
+> **Key Information:** Simplex means transmitting and receiving on the same frequency. {{< link id="T2A11" >}} The national FM simplex calling frequency for 2 meters is 146.520 MHz. When using a repeater, you're operating in duplex mode (transmitting and receiving on different frequencies).
 
 #### FM Operating Tips
 
