@@ -46,7 +46,8 @@ Different types of operation tend to favor different polarizations. Here's the r
 Most repeaters use vertical polarization - that's why pretty much every antenna you see on cars and HTs is standing straight up. It's all about playing nice with the repeaters!
 
 2. **VHF/UHF Weak Signal Work**: 
-When you're trying to make those impressive long-distance contacts without repeaters, horizontal is your friend.
+
+When making long-distance contacts without repeaters, horizontal polarization is typically best. Most weak-signal VHF/UHF operators use horizontal antennas because they reduce signal loss due to polarization mismatch and can take better advantage of atmospheric propagation effects.
 
 > **Key Information:**
 > - *Horizontal polarization is normally used for long-distance CW and SSB contacts on VHF and UHF bands* {{< link id="T3A03" >}}
