@@ -12,12 +12,6 @@ First things first: AC stands for Alternating Current. Unlike the DC (Direct Cur
 
 Why should you care about AC power as a ham? Well, unless you're running everything off batteries (and kudos if you are!), AC is what's powering your station. It's also potentially dangerous if not respected.
 
-> **Key Information:**
-> - AC power in the U.S. is typically 120 volts and can cause serious injury or death if mishandled
-> - *In standard U.S. household wiring, black insulation indicates the "hot" wire, white is neutral, and green or bare copper is the ground*
-> - *Electrical current through the body can cause tissue heating, disrupt cellular electrical function, and cause involuntary muscle contractions*
-> - *Always use three-wire cords and plugs for all AC-powered equipment, connect to a common safety ground, and install mechanical interlocks in high-voltage circuits*
-
 #### The Basics of AC Power
 
 Let's break down the basics:
@@ -26,11 +20,16 @@ Let's break down the basics:
   
 - **Current**: This is measured in amperes or amps. Your typical household circuit might be 15 or 20 amps.
 
-- **Wiring Colors**: Understanding wire colors in AC wiring is important for safety. *In the United States, black wire insulation indicates the "hot" conductor*, white indicates neutral, and green or bare copper is used for equipment ground. Never assume a wire is safe to touch just based on its color – always test with proper equipment.
+
+- **Wiring Colors**: Understanding wire colors in AC wiring is important for safety. That said, never assume a wire is safe to touch just based on its color – always test with proper equipment!
+
+  > **Key Information:** *In the United States, black wire insulation indicates the "hot" wire, white is neutral, and green or bare copper is the ground* {{< link id="T0A03" >}}
 
 - **Grounding**: This is super important. The third prong on your plugs? That's the ground. It's there to protect you by providing a safe path for current if something goes wrong inside the equipment.
 
 #### Electrical Hazards to the Human Body
+
+> **Key Information:** *Electrical current through the body can cause tissue heating, disrupt cellular electrical function, and cause involuntary muscle contractions* {{< link id="T0A02" >}}
 
 Electrical current flowing through the body is dangerous in several ways:
 
@@ -43,6 +42,8 @@ Electrical current flowing through the body is dangerous in several ways:
 Any one of these effects can be serious or fatal depending on the current path through your body, duration of contact, and the amount of current.
 
 #### AC Power Safety Tips
+
+> **Key Information:** *Always use three-wire cords and plugs for all AC-powered equipment, connect to a common safety ground, and install mechanical interlocks in high-voltage circuits* {{< link id="T0A06" >}}
 
 To guard against electrical shock at your station:
 
