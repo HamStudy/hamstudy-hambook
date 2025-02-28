@@ -2,5 +2,6 @@
   {{ $opts := dict "displayMode" true "output" "html" }}
   <span class="katex-display">{{ transform.ToMath .Inner $opts }}</span>
 {{ else }}
-  {{ transform.ToMath .Inner }}
+  {{ $opts := dict "output" "html" }}
+  {{ transform.ToMath .Inner $opts }}
 {{ end }}
