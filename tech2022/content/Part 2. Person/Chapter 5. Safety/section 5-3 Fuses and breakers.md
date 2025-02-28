@@ -8,7 +8,7 @@ questions: [ "T6A09", "T0A04", "T0A05", "T0A08" ]
 
 > **Key Information:** *Fuses and circuit breakers are electrical components used to protect other circuit components from current overloads* {{< link id="T6A09" >}}
 
-Let's talk about the unsung heroes of electrical safety: *fuses and circuit breakers are devices designed to protect electrical circuits from overcurrent conditions*. These little guardians might not look like much, but they're the difference between a minor inconvenience and a major disaster. Think of fuses and circuit breakers as the bouncers of the electrical world. Their job? To kick out any unruly electrical currents before they can trash your equipment—or worse, start a fire.
+Let's talk about the first line of defense in electrical safety: *fuses and circuit breakers are devices designed to protect electrical circuits from overcurrent conditions*. These little guardians might not look like much, but they're the difference between a minor inconvenience and a major disaster. Think of fuses and circuit breakers as the bodyguards of your electrical system. Their job? To kick out any unruly electrical currents before they can wreck your equipment—or worse, start a fire.
 
 > **Key Information:** *The purpose of a fuse in an electrical circuit is to remove power in case of overload* {{< link id="T0A04" >}}
 
