@@ -56,4 +56,4 @@ If someone does receive an electrical shock:
 
 Remember, the goal is to make contacts, not become one with your equipment. Electricity doesn't care how experienced you are or how careful you think you're being. It'll take any path to ground, including through you if you give it the chance.
 
-With proper respect and precautions, you can safely enjoy all aspects of ham radio. Just remember: when in doubt, hands out!
+Stay safe, stay insulated, and may all your connections remain social and not electrical.
