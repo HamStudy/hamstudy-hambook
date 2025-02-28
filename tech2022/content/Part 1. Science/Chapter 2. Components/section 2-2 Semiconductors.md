@@ -40,6 +40,7 @@ LEDs are special diodes that light up when current flows through them. They're c
 > - *Transistors can be used as electronic switches* {{< link id="T6B03" >}}
 > - *Transistors can provide power gain* (ability to amplify signals) {{< link id="T6B10" >}}
 > - A transistor contains *three regions of semiconductor material* {{< link id="T6B04" >}}
+> - FET stands for *Field Effect Transistor* {{< link id="T6B08" >}}
 
 There are two main types of transistors, and it's important to know the names of their parts:
 
@@ -86,4 +87,3 @@ Let's review the key semiconductor components and their main features:
 
 Remember: While semiconductors can seem complex, understanding their basic functions and terminal names will help you both with the exam and in your amateur radio activities.
 
-> **Key Information:** What does FET stand for? *Field Effect Transistor* {{< link id="T6B08" >}}

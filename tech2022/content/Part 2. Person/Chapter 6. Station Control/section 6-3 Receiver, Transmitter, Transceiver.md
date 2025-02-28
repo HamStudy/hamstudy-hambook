@@ -67,9 +67,9 @@ For best performance, consider:
 - Holding the radio near a vehicle window
 - Positioning the radio where metal obstructions are minimized
 
-Pro tip: If you must operate inside the vehicle, try to keep your handheld as close to a window as possible to minimize signal loss.
+Pro tip: If you must operate inside the vehicle, try to keep your handheld as high up and as close to a window as possible to minimize signal loss.
 
-#### Final Thoughts
+---
 
 Remember, whether you're using a simple handheld or a fancy base station, the principles are the same. Your radio is constantly switching between listening and talking.
 

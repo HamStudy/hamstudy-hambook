@@ -10,7 +10,10 @@ Let's dive into some essential skills for keeping your ham shack running smoothl
 
 #### The Multimeter: Your Ham Shack Swiss Army Knife
 
-> **Key Information:** A multimeter can measure *voltage, current and resistance*. An *ammeter* is used to measure electric current. {{< link id="T7D07" >}}
+> **Key Information:**
+> * A multimeter can measure *voltage, current and resistance*.
+> * An *ammeter* is used to measure electric current. {{< link id="T7D07" >}}
+> * A meter displays an *electrical quantity as a numeric value*. {{< link id="T6D04" >}}
 
 Your trusty multimeter is perhaps the most versatile and essential diagnostic tool in the ham shack. It typically combines at least three crucial measurement instruments: a *voltmeter (to measure voltage)*, an *ammeter (to measure current)* {{< link id="T7D04" >}}, and an *ohmmeter (to measure resistance)*. When troubleshooting equipment issues, your first step should often be checking power supplies and connections with your multimeter. Remember, most ham radios run on 13.8V DC.
 

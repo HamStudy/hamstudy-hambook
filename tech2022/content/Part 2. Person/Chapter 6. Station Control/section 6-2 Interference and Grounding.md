@@ -1,5 +1,5 @@
 ---
-questions: [ "T0A09", "T4A11" ]
+questions: [ "T4A11" ]
 ---
 
 ### Section 6.2: Interference and Grounding
@@ -35,7 +35,7 @@ To combat this, you might need to do some detective work. Try turning off device
 
 Now, let's get down to earth—literally. Grounding is crucial for both safety and reducing interference. A good ground system is like the foundation of a house—you don't see it, but everything depends on it.
 
-> **Key Information:** All external ground rods or earth connections should be *bonded together with heavy wire or conductive strap* to ensure proper grounding and safety. {{< link id="T0A09" >}}
+> **Key Information:** As discussed already in Section 5.5, all external ground rods or earth connections should be *bonded together with heavy wire or conductive strap* to ensure proper grounding and safety!
 
 ##### Station Grounding Basics
 

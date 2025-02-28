@@ -37,7 +37,7 @@ For the exam, remember:
 - Different regions can have different frequency allocations for the same band.
 - These regions help coordinate international radio use and prevent interference.
 
-#### Final Thoughts
+#### This is more than just the United States
 
 Understanding ITU Regions is your first step into the world of international radio regulations. It's a reminder that amateur radio is truly a global hobby, connecting us across borders and oceans. So next time you're on the air, remember—you're not just a U.S. ham, you're part of a worldwide community of radio enthusiasts, all playing by (mostly) the same rulebook!
 

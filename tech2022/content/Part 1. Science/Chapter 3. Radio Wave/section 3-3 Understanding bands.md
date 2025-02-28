@@ -1,5 +1,5 @@
 ---
-questions: [ "T3C01", "T1A06" ]
+questions: [ "T1A06" ]
 ---
 
 ### Section 3.3: Understanding Amateur Radio Bands
@@ -36,8 +36,6 @@ These bands are ideal for consistent regional communications within a range of r
 For most new Technician class operators, the 2-meter band will likely become your primary operating band. Its reliable characteristics, abundance of repeaters, and wide availability of affordable equipment make it the perfect entry point for new hams. While we'll explore the operational aspects of this band in Chapter 7, it's worth noting now that this band forms the backbone of local amateur radio activity in most areas.
 
 #### UHF Bands (300-3000 MHz)
-
-> **Key Information:** *UHF signals are rarely heard beyond their radio horizon because they are usually not propagated by the ionosphere*.{{< link id="T3C01" >}}
 
 The UHF bands represent a different paradigm in radio communications. While the inability to use ionospheric propagation might seem like a limitation, it actually provides several advantages:
 - More predictable coverage areas

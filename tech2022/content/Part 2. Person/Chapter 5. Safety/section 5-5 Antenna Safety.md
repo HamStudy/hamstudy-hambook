@@ -78,7 +78,7 @@ Lightning follows the path of least resistance, and sharp bends can create high 
 
 These aren't just suggestions—they're legally required standards designed to keep you and your property safe. Always consult and follow your local electrical code when installing antennas and towers.
 
-#### Final Thoughts
+#### Safety first when working on antennas!
 
 Remember, the goal is to make contacts and have fun, not to star in the next "What Not to Do" video at your local ham club. Antenna work can be exciting and rewarding, but it needs to be done with a healthy dose of respect and caution.
 

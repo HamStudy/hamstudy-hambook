@@ -105,8 +105,8 @@ For emergency preparedness:
 - Regularly test and cycle your rechargeables. If you never use them, you're likely to find they aren't working when you need them!
 - Have a plan for charging during extended power outages. Solar chargers can be a ham's best friend.
 
-#### Final Thoughts
+#### Take care of your batteries!
 
-Batteries are incredible tools that let us take our hobby anywhere. But they demand respect. Treat them right, and they'll keep your radios powered and your conversations flowing, whether you're ragchewing from your backyard or providing emergency communications after a disaster.
+Batteries are incredible tools that let us take our hobby anywhere – but they demand respect. Treat them right, and they'll keep your radios powered and your conversations flowing, whether you're ragchewing from your backyard or providing emergency communications after a disaster.
 
 Stay safe, stay charged, and happy hamming!

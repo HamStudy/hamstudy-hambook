@@ -1,5 +1,5 @@
 ---
-questions: [ "T1A01", "T1A02", "T2C03", "T1A04", "T1C02", "T1C01", "T1F11", "T1A05", "T1C05", "T1C04", "T1C07" ]
+questions: [ "T1A01", "T1A02", "T1A04", "T1C02", "T1C01", "T1F11", "T1A05", "T1C05", "T1C04", "T1C07" ]
 ---
 
 ### Section 8.1: Operator Classes, Privileges, and Call Signs
@@ -109,12 +109,6 @@ Don't like your assigned call sign? Good news! *Any licensed amateur can select 
 #### Call Sign Regions
 
 The number in a call sign typically indicates the call sign region. The region you are assigned and whether or not you can be issued a region-restricted vanity call sign depends on the mailing address on your license.
-
-#### Using Phonetics
-
-> **Key Information:** *The FCC rules state that the use of a phonetic alphabet for station identification in the Amateur Radio Service is encouraged.*
-
-As we discussed in Chapter 7, using standard phonetics helps ensure your call sign is understood clearly. The FCC rules actually *encourage the use of a phonetic alphabet* for station identification in the Amateur Radio Service. {{< link id="T2C03" >}} While not required, it's considered good practice, especially when operating under challenging conditions or when your call sign might be difficult to understand.
 
 #### Club Station Licenses
 

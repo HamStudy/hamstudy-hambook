@@ -62,7 +62,7 @@ Here's a real-world ham radio example: Let's say you're setting up a mobile rig 
 
 While we often think of circuit breakers in the context of household AC power, *overcurrent protection is equally important in DC circuits*, like those in mobile or battery-powered setups. A short circuit in a DC system can cause wires to overheat rapidly. Installing the appropriate fuse in series with the positive lead protects against this risk.
 
-#### Final Thoughts
+#### Ignore these at your peril!
 
 Remember, fuses and circuit breakers are there to protect you and your equipment. They're not an annoyance to be bypassed, they're your first line of defense against electrical fires and equipment damage.
 

@@ -49,14 +49,14 @@ This feature automatically searches for active channels:
 
 ##### Tone Controls
 
-> **Key Information:** *CTCSS uses a sub-audible tone transmitted along with normal voice audio to open the squelch of a receiver*. {{< link id="T2B02" >}}
-
 Many repeaters require specific tones for access:
 
 - **CTCSS (Continuous Tone-Coded Squelch System)**: Sub-audible tones sent along with your voice
 - **DCS (Digital-Coded Squelch)**: Digital alternative to CTCSS
 
-> **Key Information:** *DTMF (Dual-Tone Multi-Frequency) uses pairs of audio tones* for sending commands. {{< link id="T2B06" >}}
+We will discuss these in more detail in the next section.
+
+> **Key Information:** *DTMF (Dual-Tone Multi-Frequency) uses pairs of audio tones* for sending commands. While most commonly used with repeaters, these can be used in many ways. {{< link id="T2B06" >}}
 
 - **DTMF**: The same technology as touch-tone phones, used to control repeater functions or access internet-linked systems
 
