@@ -70,6 +70,14 @@ D-STAR is a fully digital voice and data system developed by the Japan Amateur R
 
 *Before transmitting on D-STAR, you must program your call sign into the transceiver*. This is required because your call sign is included in every transmission, enabling call sign routing and repeater linking.
 
+#### Digital Station Groups and Selection
+
+> **Key Information:** *To select a specific group of stations on a digital voice transceiver, enter the group's identification code* {{< link id="T4B09" >}}
+
+Digital voice modes allow you to organize communication into different groups or channels. Whether you're using DMR talkgroups, D-STAR reflectors, or System Fusion rooms, you need to know how to join the right conversation. 
+
+To *select a specific group of stations on a digital voice transceiver*, you typically *enter the group's identification code* into your radio. This could be a DMR talkgroup ID, a D-STAR reflector number, or a similar identifier depending on the digital mode you're using. Properly configuring these settings ensures your transmissions reach your intended audience rather than being broadcast to everyone using that frequency.
+
 #### Digital Mode Hot Spots
 
 > **Key Information:** *Digital hot spots enable communication using digital voice or data systems via the internet* {{< link id="T4A10" >}}
