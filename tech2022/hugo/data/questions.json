@@ -9876,5 +9876,689 @@
         }
       ]
     }
-  }
+  },
+  "subelements": [
+    {
+      "id": "T1",
+      "name": "COMMISSION’S RULES",
+      "sections": [
+        {
+          "id": "T1A",
+          "summary": "Purpose and permissible use of the Amateur Radio Service; Operator/primary station license grant; Meanings of basic terms used in FCC rules; Interference; RACES rules; Phonetics; Frequency Coordinator",
+          "questions": [
+            "T1A01",
+            "T1A02",
+            "T1A03",
+            "T1A04",
+            "T1A05",
+            "T1A06",
+            "T1A07",
+            "T1A08",
+            "T1A09",
+            "T1A10",
+            "T1A11"
+          ]
+        },
+        {
+          "id": "T1B",
+          "summary": "Frequency allocations; Emission modes; Spectrum sharing; Transmissions near band edges; Contacting the International Space Station; Power output",
+          "questions": [
+            "T1B01",
+            "T1B02",
+            "T1B03",
+            "T1B04",
+            "T1B05",
+            "T1B06",
+            "T1B07",
+            "T1B08",
+            "T1B09",
+            "T1B10",
+            "T1B11",
+            "T1B12"
+          ]
+        },
+        {
+          "id": "T1C",
+          "summary": "Licensing: classes, sequential and vanity call sign systems, places where the Amateur Radio Service is regulated by the FCC, name and address on FCC license database, term, renewal, grace period, maintaining mailing address; International communications",
+          "questions": [
+            "T1C01",
+            "T1C02",
+            "T1C03",
+            "T1C04",
+            "T1C05",
+            "T1C06",
+            "T1C07",
+            "T1C08",
+            "T1C09",
+            "T1C10",
+            "T1C11"
+          ]
+        },
+        {
+          "id": "T1D",
+          "summary": "Authorized and prohibited transmissions: communications with other countries, music, exchange of information with other services, indecent language, compensation for operating, retransmission of other amateur signals, encryption, sale of equipment, unidentified transmissions, one-way transmission",
+          "questions": [
+            "T1D01",
+            "T1D02",
+            "T1D03",
+            "T1D04",
+            "T1D05",
+            "T1D06",
+            "T1D07",
+            "T1D08",
+            "T1D09",
+            "T1D10",
+            "T1D11"
+          ]
+        },
+        {
+          "id": "T1E",
+          "summary": "Control operator: eligibility, designating, privileges, duties, location, required; Control point; Control types: automatic, remote",
+          "questions": [
+            "T1E01",
+            "T1E02",
+            "T1E03",
+            "T1E04",
+            "T1E05",
+            "T1E06",
+            "T1E07",
+            "T1E08",
+            "T1E09",
+            "T1E10",
+            "T1E11"
+          ]
+        },
+        {
+          "id": "T1F",
+          "summary": "Station identification; Repeaters; Third party communications; Club stations; FCC inspection",
+          "questions": [
+            "T1F01",
+            "T1F02",
+            "T1F03",
+            "T1F04",
+            "T1F05",
+            "T1F06",
+            "T1F07",
+            "T1F08",
+            "T1F09",
+            "T1F10",
+            "T1F11"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "T2",
+      "name": "OPERATING PROCEDURES",
+      "sections": [
+        {
+          "id": "T2A",
+          "summary": "Station operation: choosing an operating frequency, calling another station, test transmissions; Band plans: calling frequencies, repeater offsets",
+          "questions": [
+            "T2A01",
+            "T2A02",
+            "T2A03",
+            "T2A04",
+            "T2A05",
+            "T2A06",
+            "T2A07",
+            "T2A08",
+            "T2A09",
+            "T2A10",
+            "T2A11",
+            "T2A12"
+          ]
+        },
+        {
+          "id": "T2B",
+          "summary": "VHF/UHF operating practices: FM repeater, simplex, reverse splits; Access tones: CTCSS, DTMF; DMR operation; Resolving operational problems; Q signals",
+          "questions": [
+            "T2B01",
+            "T2B02",
+            "T2B03",
+            "T2B04",
+            "T2B05",
+            "T2B06",
+            "T2B07",
+            "T2B08",
+            "T2B09",
+            "T2B10",
+            "T2B11",
+            "T2B12",
+            "T2B13"
+          ]
+        },
+        {
+          "id": "T2C",
+          "summary": "Public service: emergency operations, applicability of FCC rules, RACES and ARES, net and traffic procedures, operating restrictions during emergencies, use of phonetics in message handling",
+          "questions": [
+            "T2C01",
+            "T2C02",
+            "T2C03",
+            "T2C04",
+            "T2C05",
+            "T2C06",
+            "T2C07",
+            "T2C08",
+            "T2C09",
+            "T2C10",
+            "T2C11"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "T3",
+      "name": "RADIO WAVE PROPAGATION",
+      "sections": [
+        {
+          "id": "T3A",
+          "summary": "Radio wave characteristics: how a radio signal travels, fading, multipath, polarization, wavelength vs absorption; Antenna orientation",
+          "questions": [
+            "T3A01",
+            "T3A02",
+            "T3A03",
+            "T3A04",
+            "T3A05",
+            "T3A06",
+            "T3A07",
+            "T3A08",
+            "T3A09",
+            "T3A10",
+            "T3A11",
+            "T3A12"
+          ]
+        },
+        {
+          "id": "T3B",
+          "summary": "Electromagnetic wave properties: wavelength vs frequency, nature and velocity of electromagnetic waves, relationship of wavelength and frequency; Electromagnetic spectrum definitions: UHF, VHF, HF",
+          "questions": [
+            "T3B01",
+            "T3B02",
+            "T3B03",
+            "T3B04",
+            "T3B05",
+            "T3B06",
+            "T3B07",
+            "T3B08",
+            "T3B09",
+            "T3B10",
+            "T3B11"
+          ]
+        },
+        {
+          "id": "T3C",
+          "summary": "Propagation modes: sporadic E, meteor scatter, auroral propagation, tropospheric ducting; F region skip; Line of sight and radio horizon",
+          "questions": [
+            "T3C01",
+            "T3C02",
+            "T3C03",
+            "T3C04",
+            "T3C05",
+            "T3C06",
+            "T3C07",
+            "T3C08",
+            "T3C09",
+            "T3C10",
+            "T3C11"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "T4",
+      "name": "AMATEUR RADIO PRACTICES",
+      "sections": [
+        {
+          "id": "T4A",
+          "summary": "Station setup: connecting a microphone, a power source, a computer, digital equipment, an SWR meter; bonding; Mobile radio installation",
+          "questions": [
+            "T4A01",
+            "T4A02",
+            "T4A03",
+            "T4A04",
+            "T4A05",
+            "T4A06",
+            "T4A07",
+            "T4A08",
+            "T4A09",
+            "T4A10",
+            "T4A11",
+            "T4A12"
+          ]
+        },
+        {
+          "id": "T4B",
+          "summary": "Operating controls: frequency tuning, use of filters, squelch function, AGC, memory channels, noise blanker, microphone gain, receiver incremental tuning (RIT), bandwidth selection, digital transceiver configuration",
+          "questions": [
+            "T4B01",
+            "T4B02",
+            "T4B03",
+            "T4B04",
+            "T4B05",
+            "T4B06",
+            "T4B07",
+            "T4B08",
+            "T4B09",
+            "T4B10",
+            "T4B11",
+            "T4B12"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "T5",
+      "name": "ELECTRICAL PRINCIPLES",
+      "sections": [
+        {
+          "id": "T5A",
+          "summary": "Current and voltage: terminology and units, conductors and insulators, alternating and direct current",
+          "questions": [
+            "T5A01",
+            "T5A02",
+            "T5A03",
+            "T5A04",
+            "T5A05",
+            "T5A06",
+            "T5A07",
+            "T5A08",
+            "T5A09",
+            "T5A10",
+            "T5A11",
+            "T5A12"
+          ]
+        },
+        {
+          "id": "T5B",
+          "summary": "Math for electronics: conversion of electrical units, decibels",
+          "questions": [
+            "T5B01",
+            "T5B02",
+            "T5B03",
+            "T5B04",
+            "T5B05",
+            "T5B06",
+            "T5B07",
+            "T5B08",
+            "T5B09",
+            "T5B10",
+            "T5B11",
+            "T5B12",
+            "T5B13"
+          ]
+        },
+        {
+          "id": "T5C",
+          "summary": "Capacitance and inductance terminology and units; Radio frequency definition and units; Impedance definition and units; Calculating power",
+          "questions": [
+            "T5C01",
+            "T5C02",
+            "T5C03",
+            "T5C04",
+            "T5C05",
+            "T5C06",
+            "T5C07",
+            "T5C08",
+            "T5C09",
+            "T5C10",
+            "T5C11",
+            "T5C12",
+            "T5C13"
+          ]
+        },
+        {
+          "id": "T5D",
+          "summary": "Ohm’s Law; Series and parallel circuits",
+          "questions": [
+            "T5D01",
+            "T5D02",
+            "T5D03",
+            "T5D04",
+            "T5D05",
+            "T5D06",
+            "T5D07",
+            "T5D08",
+            "T5D09",
+            "T5D10",
+            "T5D11",
+            "T5D12",
+            "T5D13",
+            "T5D14"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "T6",
+      "name": "ELECTRONIC AND ELECTRICAL COMPONENTS",
+      "sections": [
+        {
+          "id": "T6A",
+          "summary": "Fixed and variable resistors; Capacitors; Inductors; Fuses; Switches; Batteries",
+          "questions": [
+            "T6A01",
+            "T6A02",
+            "T6A03",
+            "T6A04",
+            "T6A05",
+            "T6A06",
+            "T6A07",
+            "T6A08",
+            "T6A09",
+            "T6A10",
+            "T6A11",
+            "T6A12"
+          ]
+        },
+        {
+          "id": "T6B",
+          "summary": "Semiconductors: basic principles and applications of solid state devices, diodes and transistors",
+          "questions": [
+            "T6B01",
+            "T6B02",
+            "T6B03",
+            "T6B04",
+            "T6B05",
+            "T6B06",
+            "T6B07",
+            "T6B08",
+            "T6B09",
+            "T6B10",
+            "T6B11",
+            "T6B12"
+          ]
+        },
+        {
+          "id": "T6C",
+          "summary": "Circuit diagrams: use of schematics, basic structure; Schematic symbols of basic components",
+          "questions": [
+            "T6C01",
+            "T6C02",
+            "T6C03",
+            "T6C04",
+            "T6C05",
+            "T6C06",
+            "T6C07",
+            "T6C08",
+            "T6C09",
+            "T6C10",
+            "T6C11",
+            "T6C12"
+          ]
+        },
+        {
+          "id": "T6D",
+          "summary": "Component functions: rectifiers, relays, voltage regulators, meters, indicators, integrated circuits, transformers; Resonant circuit; Shielding",
+          "questions": [
+            "T6D01",
+            "T6D02",
+            "T6D03",
+            "T6D04",
+            "T6D05",
+            "T6D06",
+            "T6D07",
+            "T6D08",
+            "T6D09",
+            "T6D10",
+            "T6D11"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "T7",
+      "name": "PRACTICAL CIRCUITS",
+      "sections": [
+        {
+          "id": "T7A",
+          "summary": "Station equipment: receivers, transceivers, transmitter amplifiers, receive amplifiers, transverters; Basic radio circuit concepts and terminology: sensitivity, selectivity, mixers, oscillators, PTT, modulation",
+          "questions": [
+            "T7A01",
+            "T7A02",
+            "T7A03",
+            "T7A04",
+            "T7A05",
+            "T7A06",
+            "T7A07",
+            "T7A08",
+            "T7A09",
+            "T7A10",
+            "T7A11"
+          ]
+        },
+        {
+          "id": "T7B",
+          "summary": "Symptoms, causes, and cures of common transmitter and receiver problems: overload and overdrive, distortion, interference and consumer electronics, RF feedback",
+          "questions": [
+            "T7B01",
+            "T7B02",
+            "T7B03",
+            "T7B04",
+            "T7B05",
+            "T7B06",
+            "T7B07",
+            "T7B08",
+            "T7B09",
+            "T7B10",
+            "T7B11"
+          ]
+        },
+        {
+          "id": "T7C",
+          "summary": "Antenna and transmission line measurements and troubleshooting: measuring SWR, effects of high SWR, causes of feed line failures; Basic coaxial cable characteristics; Use of dummy loads when testing",
+          "questions": [
+            "T7C01",
+            "T7C02",
+            "T7C03",
+            "T7C04",
+            "T7C05",
+            "T7C06",
+            "T7C07",
+            "T7C08",
+            "T7C09",
+            "T7C10",
+            "T7C11"
+          ]
+        },
+        {
+          "id": "T7D",
+          "summary": "Using basic test instruments: voltmeter, ammeter, and ohmmeter; Soldering",
+          "questions": [
+            "T7D01",
+            "T7D02",
+            "T7D03",
+            "T7D04",
+            "T7D05",
+            "T7D06",
+            "T7D07",
+            "T7D08",
+            "T7D09",
+            "T7D10",
+            "T7D11"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "T8",
+      "name": "SIGNALS AND EMISSIONS",
+      "sections": [
+        {
+          "id": "T8A",
+          "summary": "Basic characteristics of FM and SSB; Bandwidth of various modulation modes: CW, SSB, FM, fast-scan TV; Choice of emission type: selection of USB vs LSB, use of SSB for weak signal work, use of FM for VHF packet and repeaters",
+          "questions": [
+            "T8A01",
+            "T8A02",
+            "T8A03",
+            "T8A04",
+            "T8A05",
+            "T8A06",
+            "T8A07",
+            "T8A08",
+            "T8A09",
+            "T8A10",
+            "T8A11",
+            "T8A12"
+          ]
+        },
+        {
+          "id": "T8B",
+          "summary": "Amateur satellite operation: Doppler shift, basic orbits, operating protocols, modulation mode selection, transmitter power considerations, telemetry and telecommand, satellite tracking programs, beacons, uplink and downlink mode definitions, spin fading, definition of “LEO”, setting uplink power",
+          "questions": [
+            "T8B01",
+            "T8B02",
+            "T8B03",
+            "T8B04",
+            "T8B05",
+            "T8B06",
+            "T8B07",
+            "T8B08",
+            "T8B09",
+            "T8B10",
+            "T8B11",
+            "T8B12"
+          ]
+        },
+        {
+          "id": "T8C",
+          "summary": "Operating activities: radio direction finding, contests, linking over the internet, exchanging grid locators",
+          "questions": [
+            "T8C01",
+            "T8C02",
+            "T8C03",
+            "T8C04",
+            "T8C05",
+            "T8C06",
+            "T8C07",
+            "T8C08",
+            "T8C09",
+            "T8C10",
+            "T8C11"
+          ]
+        },
+        {
+          "id": "T8D",
+          "summary": "Non-voice and digital communications: image signals and definition of NTSC, CW, packet radio, PSK, APRS, error detection and correction, amateur radio networking, Digital Mobile Radio, WSJT modes, Broadband-Hamnet",
+          "questions": [
+            "T8D01",
+            "T8D02",
+            "T8D03",
+            "T8D04",
+            "T8D05",
+            "T8D06",
+            "T8D07",
+            "T8D08",
+            "T8D09",
+            "T8D10",
+            "T8D11",
+            "T8D12",
+            "T8D13"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "T9",
+      "name": "ANTENNAS AND FEED LINES",
+      "sections": [
+        {
+          "id": "T9A",
+          "summary": "Antennas: vertical and horizontal polarization, concept of antenna gain, definition and types of beam antennas, antenna loading, common portable and mobile antennas, relationships between resonant length and frequency, dipole pattern",
+          "questions": [
+            "T9A01",
+            "T9A02",
+            "T9A03",
+            "T9A04",
+            "T9A05",
+            "T9A06",
+            "T9A07",
+            "T9A08",
+            "T9A09",
+            "T9A10",
+            "T9A11",
+            "T9A12"
+          ]
+        },
+        {
+          "id": "T9B",
+          "summary": "Feed lines: types, attenuation vs frequency, selecting; SWR concepts; Antenna tuners (couplers); RF Connectors: selecting, weather protection",
+          "questions": [
+            "T9B01",
+            "T9B02",
+            "T9B03",
+            "T9B04",
+            "T9B05",
+            "T9B06",
+            "T9B07",
+            "T9B08",
+            "T9B09",
+            "T9B10",
+            "T9B11",
+            "T9B12"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "T0",
+      "name": "SAFETY",
+      "sections": [
+        {
+          "id": "T0A",
+          "summary": "Power circuits and hazards: hazardous voltages, fuses and circuit breakers, grounding, electrical code compliance; Lightning protection; Battery safety",
+          "questions": [
+            "T0A01",
+            "T0A02",
+            "T0A03",
+            "T0A04",
+            "T0A05",
+            "T0A06",
+            "T0A07",
+            "T0A08",
+            "T0A09",
+            "T0A10",
+            "T0A11",
+            "T0A12"
+          ]
+        },
+        {
+          "id": "T0B",
+          "summary": "Antenna safety: tower safety and grounding, installing antennas, antenna supports",
+          "questions": [
+            "T0B01",
+            "T0B02",
+            "T0B03",
+            "T0B04",
+            "T0B05",
+            "T0B06",
+            "T0B07",
+            "T0B08",
+            "T0B09",
+            "T0B10",
+            "T0B11"
+          ]
+        },
+        {
+          "id": "T0C",
+          "summary": "RF hazards: radiation exposure, proximity to antennas, recognized safe power levels, radiation types, duty cycle",
+          "questions": [
+            "T0C01",
+            "T0C02",
+            "T0C03",
+            "T0C04",
+            "T0C05",
+            "T0C06",
+            "T0C07",
+            "T0C08",
+            "T0C09",
+            "T0C10",
+            "T0C11",
+            "T0C12",
+            "T0C13"
+          ]
+        }
+      ]
+    }
+  ]
 }
