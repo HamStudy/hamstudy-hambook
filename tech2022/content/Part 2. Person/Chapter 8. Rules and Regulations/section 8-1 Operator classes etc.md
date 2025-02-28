@@ -1,10 +1,26 @@
 ---
-questions: [ "T2C03", "T1A04", "T1C02", "T1C01", "T1F11", "T1A05", "T1C05", "T1C04", "T1C07" ]
+questions: [ "T1A01", "T1A02", "T2C03", "T1A04", "T1C02", "T1C01", "T1F11", "T1A05", "T1C05", "T1C04", "T1C07" ]
 ---
 
 ### Section 8.1: Operator Classes, Privileges, and Call Signs
 
 Welcome to the world of ham radio hierarchy! Let's break down the different operator classes, what they can do, and how to recognize them by their call signs.
+
+#### The Purpose of Amateur Radio
+
+As we discussed in "About Amateur Radio" at the beginning of the book, amateur radio was established with specific purposes that guide our activities and privileges.
+
+> **Key Information:** *The FCC regulates and enforces the rules for the Amateur Radio Service in the United States. The basis and purpose of the Amateur Radio Service includes advancing skills in both the technical and communication phases of radio.*
+
+The Federal Communications Commission (FCC) {{< link id="T1A02" >}} regulates and enforces the rules for the Amateur Radio service in the United States. Amateur radio was established with specific purposes {{< link id="T1A01" >}} that form the basis of our hobby and service:
+
+1. Advancing skills in both the technical and communication aspects of radio.
+2. Expanding the pool of trained operators, technicians, and electronic experts.
+3. Enhancing international goodwill through global communications.
+4. Providing a voluntary noncommercial communication service to the public, especially in times of emergency.
+5. Contributing to the advancement of the radio art.
+
+These purposes highlight the multifaceted nature of amateur radio - it's not just a hobby, but a service with important technical, social, and public safety roles. As you progress in amateur radio, you'll find opportunities to fulfill each of these purposes.
 
 #### Operator Classes and Privileges
 
