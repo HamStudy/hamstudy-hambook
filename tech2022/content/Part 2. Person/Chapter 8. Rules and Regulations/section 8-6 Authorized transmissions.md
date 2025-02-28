@@ -9,19 +9,19 @@ Welcome to the "do's and don'ts" of amateur radio! Understanding what you can an
 #### Authorized Transmissions
 
 > **Key Information:**
-> *Transmissions to a different country are limited to communications incidental to the purposes of the Amateur Radio Service and to remarks of a personal character.*
+> *Transmissions to a different country are limited to communications incidental to the purposes of the Amateur Radio Service and to remarks of a personal character.* {{< link id="T1C03" >}}
 
 1. **Non-Commercial Communication**: Amateur radio is for personal use and self-training, not for business.
 
    > **Key Information:**
-   > *The control operator of an amateur station may receive compensation for operating that station when the communication is incidental to classroom instruction at an educational institution.*
+   > *The control operator of an amateur station may receive compensation for operating that station when the communication is incidental to classroom instruction at an educational institution.* {{< link id="T1D08" >}}
 
    * Here's a tricky one: Can you ever get paid for being a ham? The short answer is usually 'no' - after all, we're in this for the love of radio, not the money. But there's one situation where the FCC says it's okay to get compensated. If you're helping out during an emergency or an emergency drill, and it's related to your day job, you can get paid for your time. Just remember, the radio part needs to be a small piece of what you're doing, not the main event.
 
 2. **Emergency Communications**: 
    
    > **Key Information:**
-   > *Amateur stations may transmit information in support of broadcasting, program production, or news gathering when such communications are directly related to the immediate safety of human life or protection of property.*
+   > *Amateur stations may transmit information in support of broadcasting, program production, or news gathering when such communications are directly related to the immediate safety of human life or protection of property.* {{< link id="T1D09" >}}
 
    When things go sideways, all bets are off. Use whatever means necessary to call for help or be a hero to others. It's like having a "break glass in case of emergency" option for the rulebook.
 
@@ -43,21 +43,21 @@ Welcome to the "do's and don'ts" of amateur radio! Understanding what you can an
 6. **Going International**:
    
    > **Key Information:**
-   > *FCC-licensed amateur radio stations are prohibited from exchanging communications with any country whose administration has notified the International Telecommunication Union (ITU) that it objects to such communications.*
+   > *FCC-licensed amateur radio stations are prohibited from exchanging communications with any country whose administration has notified the International Telecommunication Union (ITU) that it objects to such communications.* {{< link id="T1D01" >}}
 
    Time to flex those language skills! You can chat with hams worldwide, but keep it personal or radio-related. It's like having pen pals, but cooler.
 
    There are some countries that you are not allowed to communicate with: We won't be listing them here, because they could change over time, but any country can notify the ITU that they don't want ham radio operators to communicate with their citizens. If that happens? Forbidden.
 
    > **Key Information:**
-   > *From within any vessel or craft located in international waters and documented or registered in the United States, an FCC-licensed amateur station may transmit.*
+   > *From within any vessel or craft located in international waters and documented or registered in the United States, an FCC-licensed amateur station may transmit.* {{< link id="T1C06" >}}
 
    Here's a fun fact: You can transmit from a boat in international waters, as long as you stick to frequency bands allocated internationally in each of the three ITU regions. IF you are in territorial waters of another country then you need to know and follow their rules.
 
 #### Third-Party Communications: Playing Telephone (Literally)
 
 > **Key Information:**
-> *Third party communications is a message from a control operator (first party) of an amateur station to another amateur station control operator (second party) on behalf of another person (third party).*
+> *Third party communications is a message from a control operator (first party) of an amateur station to another amateur station control operator (second party) on behalf of another person (third party).* {{< link id="T1F08" >}}
 
 Ever wanted to let your non-ham friend use your radio? That – as well as passing messages on their behalf – counts as a third-party communication, and it comes with some rules:
 
@@ -70,7 +70,7 @@ Ever wanted to let your non-ham friend use your radio? That – as well as passi
 3. **International Third-Party Traffic**:
 
    > **Key Information:**
-   > *When a non-licensed person is allowed to speak to a foreign station using a station under the control of a licensed amateur operator, the foreign station must be in a country with which the U.S. has a third party agreement.*
+   > *When a non-licensed person is allowed to speak to a foreign station using a station under the control of a licensed amateur operator, the foreign station must be in a country with which the U.S. has a third party agreement.* {{< link id="T1F07" >}}
 
    This is where it gets tricky. Both countries need to have a "handshake agreement" allowing it. It's like needing parental permission for an international field trip. No third-party agreement? No talking to that foreign station! (except for emergency or disaster relief communications)
 
@@ -86,9 +86,9 @@ Ever wanted to let your non-ham friend use your radio? That – as well as passi
 #### One-Way Transmissions
 
 > **Key Information:**
-> *One-way transmissions by an amateur station are prohibited when they constitute broadcasting.*
+> *One-way transmissions by an amateur station are prohibited when they constitute broadcasting.* {{< link id="T1D02" >}}
 > 
-> *Broadcasting for the Amateur Radio Service is defined as transmissions intended for reception by the general public.*
+> *Broadcasting for the Amateur Radio Service is defined as transmissions intended for reception by the general public.* {{< link id="T1D10" >}}
 
 While amateur radio is primarily designed for two-way communications, there are specific situations where one-way transmissions are permitted:
 
@@ -111,7 +111,7 @@ Remember, these are exceptions to the general rule. The primary purpose of amate
 1. **Commercial Communications**: No using ham radio to conduct business or make money.
 
    > **Key Information:**
-   > *Amateur radio operators may use their stations to notify other amateurs of the availability of equipment for sale or trade when selling amateur radio equipment and not on a regular basis.*
+   > *Amateur radio operators may use their stations to notify other amateurs of the availability of equipment for sale or trade when selling amateur radio equipment and not on a regular basis.* {{< link id="T1D05" >}}
 
    * The language used in Part 97 to refer to these prohibited transmissions is:
       >Communications in which the station licensee or control operator has a pecuniary interest, including communications on behalf of an employer"
@@ -128,7 +128,7 @@ Remember, these are exceptions to the general rule. The primary purpose of amate
 3. **Encrypted Messages**: 
 
    > **Key Information:**
-   > *Messages encoded to obscure their meaning may be transmitted when transmitting control commands to space stations or radio control craft.*
+   > *Messages encoded to obscure their meaning may be transmitted when transmitting control commands to space stations or radio control craft.* {{< link id="T1D03" >}}
 
    Transmissions intended to obscure the meaning of the communication are generally prohibited. 
 
@@ -137,14 +137,14 @@ Remember, these are exceptions to the general rule. The primary purpose of amate
 4. **Music Transmission**: 
 
    > **Key Information:**
-   > *An amateur station is authorized to transmit music using a phone emission only when incidental to an authorized retransmission of manned spacecraft communications.*
+   > *An amateur station is authorized to transmit music using a phone emission only when incidental to an authorized retransmission of manned spacecraft communications.* {{< link id="T1D04" >}}
 
    Playing music over the air is generally not allowed, except for incidental music rebroadcast from space shuttle communications.
 
 5. **Keep It Family-Friendly**: 
 
    > **Key Information:**
-   > *Any language that may be considered indecent or obscene is prohibited in amateur radio communications.*
+   > *Any language that may be considered indecent or obscene is prohibited in amateur radio communications.* {{< link id="T1D06" >}}
 
    Imagine your grandma is listening - because she might be! No obscene or indecent language allowed. Let's keep it clean, folks.
 
@@ -160,7 +160,7 @@ Remember, these are exceptions to the general rule. The primary purpose of amate
 9.  **Play Nice**: 
 
    > **Key Information:**
-   > *Willful interference to other amateur radio stations is permitted at no time.*
+   > *Willful interference to other amateur radio stations is permitted at no time.* {{< link id="T1A11" >}}
 
    Intentionally interfering with other stations is like stepping on someone's sandcastle. It's not cool, and it's definitely not allowed.
 
