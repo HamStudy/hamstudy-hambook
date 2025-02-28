@@ -13,9 +13,9 @@ There are many different types of antennas, each with its own advantages and dis
 **We are going to cover a lot of information in this section which you don't strictly need to know to pass your license exam** – some readers may choose to skim and focus on the questions, then come back later when the information feels more relevant, and that's okay!
 
 > **Key Information:** 
-> - *Antenna gain* is the *increase in signal strength in a specified direction compared to a reference antenna*
-> - A half-wave dipole radiates its *strongest signal broadside to the antenna*
-> - *Shortening an antenna increases its resonant frequency*
+> - *Antenna gain* is the *increase in signal strength in a specified direction compared to a reference antenna* {{< link id="T9A11" >}}
+> - A half-wave dipole radiates its *strongest signal broadside to the antenna* {{< link id="T9A10" >}}
+> - *Shortening an antenna increases its resonant frequency* {{< link id="T9A05" >}}
 
 When we talk about antenna gain, think of it like changing from a regular light bulb to a spotlight - you get a brighter beam in one direction, but less light in others. Gain is typically measured in:
 - dBi (decibels relative to an isotropic radiator)
@@ -27,9 +27,9 @@ When we talk about antenna gain, think of it like changing from a regular light 
 
 1. **Beam Antennas**
   
-   **Key Information:** A *beam antenna* is *an antenna that concentrates signals in one direction*. Think of these like a flashlight reflector focusing light. The *Yagi antenna offers the greatest gain* of common antenna types, using multiple elements to achieve high gain and directivity.
+   **Key Information:** A *beam antenna* is *an antenna that concentrates signals in one direction* {{< link id="T9A01" >}}. Think of these like a flashlight reflector focusing light. The *Yagi antenna offers the greatest gain* {{< link id="T9A06" >}} of common antenna types, using multiple elements to achieve high gain and directivity.
    
-   It's important to remember that *gain* is just a redistribution of the signal – think of it like a mirror or a lens that focuses the siganl onto your antenna. You get a stronger signal from that focal point, but much weaker for anything coming from a different direction that misses the "lens".
+   It's important to remember that *gain* is just a redistribution of the signal – think of it like a mirror or a lens that focuses the siganl onto your antenna. You get a stronger signal from that focal point, but much weaker for anything coming from a different direction that misses the "lens".
 
 2. **Dipoles**
    
@@ -41,11 +41,11 @@ When we talk about antenna gain, think of it like changing from a regular light 
    A monopole is essentially half of a dipole that uses a ground plane (like your car body, handheld radio case, or the Earth itself) as the other half. Most handheld and mobile antennas are monopoles - they're simpler to build and mount than full dipoles while retaining similar radiation characteristics. When you see a quarter-wave vertical antenna on an HT or car, you're looking at a monopole.
 
 3. **Quarter-wave Verticals**
-   For the 2-meter band (146 MHz), a quarter-wave vertical is *approximately 19 inches long*. These are like dipoles standing on end, with the ground (or your car, or your handheld radio) acting as the other half.
+   For the 2-meter band (146 MHz), a quarter-wave vertical is *approximately 19 inches long* {{< link id="T9A08" >}}. These are like dipoles standing on end, with the ground (or your car, or your handheld radio) acting as the other half.
 
 4. **5/8 Wave Verticals**
 
-   **Key Information:** A 5/8 wavelength whip antenna has *more gain than a 1/4-wavelength antenna* by concentrating more signal toward the horizon instead of up into the sky.
+   **Key Information:** A 5/8 wavelength whip antenna has *more gain than a 1/4-wavelength antenna* {{< link id="T9A12" >}} by concentrating more signal toward the horizon instead of up into the sky.
    
    While this makes them popular for VHF and UHF mobile operations on flat terrain, it's important to understand that just like with a beam antenna this "gain" is just a redistribution of the signal. In hilly areas or canyons where your repeater might be above you, a 1/4-wave antenna can actually work better because it radiates more signal upward.
 
@@ -70,7 +70,7 @@ Below are common lengths for different bands. Some of these are answers to test 
 | Band  | Frequency | Half-wave length | Quarter-wave length |
 |-------|-----------|------------------|---------------------|
 | 10m   | 28 MHz    | 200 inches       | 100 inches          |
-| 6m    | 50 MHz    | **112 inches**   | 56 inches           |
+| 6m    | 50 MHz    | **112 inches** {{< link id="T9A09" >}}  | 56 inches          |
 | 2m    | 146 MHz   | 38 inches        | **19 inches**       |
 | 1.25m | 222 MHz   | 25 inches        | 12.5 inches         |
 | 70cm  | 440 MHz   | 13 inches        | 6.5 inches          |
@@ -81,13 +81,13 @@ Sometimes we need to modify antennas to make them work better or fit in a smalle
 
 1. **Antenna Loading**
 
-   **Key Information:** When space is tight, we can make an antenna electrically longer by *inserting inductors in the radiating elements*. This is called loading. While not as efficient as a full-size antenna, it lets us use shorter antennas when necessary.
+   **Key Information:** When space is tight, we can make an antenna electrically longer by *inserting inductors in the radiating elements* {{< link id="T9A02" >}}. This is called loading. While not as efficient as a full-size antenna, it lets us use shorter antennas when necessary.
 
 2. **Portable Antennas**
-   **Key Information:** The small, flexible antennas that come with handheld radios are convenient but have a significant drawback: they have *low efficiency compared to a full-sized quarter-wave antenna*. This means less of your power actually gets converted into radio waves.
+   **Key Information:** The small, flexible antennas that come with handheld radios are convenient but have a significant drawback: they have *low efficiency compared to a full-sized quarter-wave antenna* {{< link id="T9A04" >}}. This means less of your power actually gets converted into radio waves.
 
 3. **Antenna Tuners**
-   **Key Information:** An antenna tuner's main job is to *match the antenna system impedance to the transceiver's output impedance*. Think of it like a gearbox that helps your transmitter work efficiently with your antenna.
+   **Key Information:** An antenna tuner's main job is to *match the antenna system impedance to the transceiver's output impedance* {{< link id="T9B04" >}}. Think of it like a gearbox that helps your transmitter work efficiently with your antenna.
 
 #### Antennas Requiring Tuners
 
