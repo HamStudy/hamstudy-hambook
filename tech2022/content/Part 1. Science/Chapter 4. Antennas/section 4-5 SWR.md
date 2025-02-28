@@ -25,9 +25,11 @@ SWR is measured as a ratio - here's what different readings mean:
 
 > **Key Information:** *A benefit of low SWR is **reduced signal loss**. Most solid-state transmitters **reduce output power as SWR increases** to **protect the output amplifier transistors**.* {{< link id="T9B01" >}} {{< link id="T7C05" >}}
 
-Why should you care about SWR? It's all about efficiency. The lower your SWR, the more of your radio's power actually makes it to your antenna and (presumably) out into the world. High SWR means some of that power is coming back to your radio, which isn't great. It's like trying to talk while someone is yelling back in your face!
+Why should you care about SWR? It's all about efficiency. The lower your SWR, the more of your radio's power actually makes it to your antenna and (presumably) out into the world. High SWR means some of that power is bouncing back to your radio instead of being transmitted, wasting energy and potentially damaging your radio—especially at higher power levels.
 
-But it's not just about efficiency. High SWR could potentially damage your radio, especially if it's a higher-powered rig. Fortunately, most modern radios have built-in protections, reducing power or turning themselves off when SWR gets too high to protect the radio, but it's usually better not to risk it. Be especially careful with cheaper transmitters where they may have cut costs on protections.
+Think of it like trying to pour water through a hose. If the hose is clear and open (low SWR), most of the water flows out the end. But if there's a kink in the hose (high SWR), some of that water backs up, creating pressure and wasting energy. In radio terms, that wasted power can overheat your equipment or even damage it!
+
+Most modern radios have protections to reduce power or shut down if SWR gets too high, but it’s best not to rely on them—especially with cheaper transmitters. Keeping your SWR low keeps your radio efficient and safe.
 
 #### Common Causes of High SWR
 
@@ -58,7 +60,7 @@ If your SWR is high, don't panic! Here are some things you can try:
 
 1. **Check Your Connections**: A *loose connection in the antenna or feed line* is both a super easy fix and a super common issue, and it will shoot your SWR sky-high in no time flat!
 2. **Adjust the Length of Your Antenna**: Sometimes a little snip or stretch is all you need.
-3. **Use an Antenna Tuner**: It's like a matchmaker for your radio and antenna.
+3. **Use an Antenna Tuner**: It's like a matchmaker for your radio and antenna system.
 4. **Move Your Antenna**: Give it some space to breathe—away from metal objects!
 
 #### Final Thoughts on SWR
