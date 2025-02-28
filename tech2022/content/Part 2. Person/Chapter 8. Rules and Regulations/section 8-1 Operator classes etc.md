@@ -26,7 +26,7 @@ These purposes highlight the multifaceted nature of amateur radio - it's not jus
 
 > **Key Information:** *New licenses are currently available from the FCC for three classes: Technician, General, and Amateur Extra.*
 
-The FCC currently issues three classes of amateur radio licenses:
+The FCC currently issues three classes of amateur radio licenses: {{< link id="T1C01" >}}
 
 1. **Technician Class**:
    - Entry-level license
@@ -48,19 +48,19 @@ The FCC currently issues three classes of amateur radio licenses:
 
 > **Key Information:** *Each person may hold only one operator/primary station license grant.*
 
-Each person can only hold *one operator/primary station license grant*, regardless of how many locations they operate from. This means you'll have just one call sign, even if you have multiple radios or operating locations.
+Each person can only hold *one operator/primary station license grant*, regardless of how many locations they operate from. {{< link id="T1A04" >}} This means you'll have just one call sign, even if you have multiple radios or operating locations.
 
 #### License Verification
 
 > **Key Information:** *The appearance of a license in the FCC ULS database proves that the FCC has issued an operator/primary license grant.*
 
-How do you know if someone (including yourself) is officially licensed? The proof is in the database! *The appearance of your license grant in the FCC's Universal Licensing System (ULS) database is what officially proves you've been licensed* - not a paper certificate or an email confirmation.
+How do you know if someone (including yourself) is officially licensed? The proof is in the database! *The appearance of your license grant in the FCC's Universal Licensing System (ULS) database is what officially proves you've been licensed* - not a paper certificate or an email confirmation. {{< link id="T1A05" >}}
 
 #### Email Requirements
 
 > **Key Information:** *If the FCC is unable to reach you by email, they may revoke your station license or suspend your operator license. Failure to provide and maintain a correct email address with the FCC can result in license revocation or suspension.*
 
-Here's something critically important: *You must provide and maintain a correct email address with the FCC*. If they can't reach you by email, they can suspend or revoke your license. Make sure your email address stays current in the FCC database – it's a requirement, not just a suggestion!
+Here's something critically important: *You must provide and maintain a correct email address with the FCC*. {{< link id="T1C04" >}} If they can't reach you by email, they can suspend or revoke your license. Make sure your email address stays current in the FCC database – it's a requirement, not just a suggestion! {{< link id="T1C07" >}}
 
 #### Call Signs
 
@@ -68,7 +68,7 @@ In the US, call signs are structured as follows: [Prefix][Number][Suffix]
 
 > **Key Information:** *A valid Technician class call sign format includes a single letter prefix (K, N, or W) followed by a region number and three suffix letters (like KF1XXX).*
 
-For Technicians, valid call sign formats include a single letter prefix (K, N, or W) followed by a region number and three suffix letters (like *KF1XXX*). This is known as a "Group C" call sign.
+For Technicians, valid call sign formats include a single letter prefix (K, N, or W) followed by a region number and three suffix letters (like *KF1XXX*). {{< link id="T1C05" >}} This is known as a "Group C" call sign.
 
 There are four "groups" that call signs are assigned from:
 
@@ -104,7 +104,7 @@ When you earn your first ham radio license you will be issued a sequential call 
 
 > **Key Information:** *Any licensed amateur may select a desired call sign under the vanity call sign rules.*
 
-Don't like your assigned call sign? Good news! *Any licensed amateur can select a desired call sign under the vanity call sign rules*. You can apply for a vanity call sign from your group or a lower group (representing a higher class license). There are also some prefixes which are assigned to specific geographical regions.
+Don't like your assigned call sign? Good news! *Any licensed amateur can select a desired call sign under the vanity call sign rules*. {{< link id="T1C02" >}} You can apply for a vanity call sign from your group or a lower group (representing a higher class license). There are also some prefixes which are assigned to specific geographical regions.
 
 #### Call Sign Regions
 
@@ -114,7 +114,7 @@ The number in a call sign typically indicates the call sign region. The region y
 
 > **Key Information:** *The FCC rules state that the use of a phonetic alphabet for station identification in the Amateur Radio Service is encouraged.*
 
-As we discussed in Chapter 7, using standard phonetics helps ensure your call sign is understood clearly. The FCC rules actually *encourage the use of a phonetic alphabet* for station identification in the Amateur Radio Service. While not required, it's considered good practice, especially when operating under challenging conditions or when your call sign might be difficult to understand.
+As we discussed in Chapter 7, using standard phonetics helps ensure your call sign is understood clearly. The FCC rules actually *encourage the use of a phonetic alphabet* for station identification in the Amateur Radio Service. {{< link id="T2C03" >}} While not required, it's considered good practice, especially when operating under challenging conditions or when your call sign might be difficult to understand.
 
 #### Club Station Licenses
 
@@ -122,7 +122,7 @@ As we discussed in Chapter 7, using standard phonetics helps ensure your call si
 
 Club station licenses are a special type of amateur radio license granted to a club rather than an individual. Here's what you need to know:
 
-1. **Club Composition**: To qualify, *a club needs at least four members*. It's not a one-person show!
+1. **Club Composition**: To qualify, *a club needs at least four members*. {{< link id="T1F11" >}} It's not a one-person show!
 
 2. **Club Identity**: The club must have a name, a document of organization, and management. Think of it as your radio club's birth certificate and family tree.
 
