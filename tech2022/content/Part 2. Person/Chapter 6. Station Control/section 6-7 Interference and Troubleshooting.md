@@ -8,7 +8,7 @@ Welcome to the world of radio detective work! As a ham, you'll sometimes encount
 
 #### Types of Interference
 
-> **Key Information:** *Radio frequency interference (RFI) can be caused by fundamental overload, harmonics, and spurious emissions.* These are all potential sources of interference to other devices.
+> **Key Information:** *Radio frequency interference (RFI) can be caused by fundamental overload, harmonics, and spurious emissions.* {{< link id="T7B03" >}} These are all potential sources of interference to other devices.
 
 1. Radio Frequency Interference (RFI): This is unwanted radio signals interfering with your desired signal. It can come from various sources, including:
    - Other radio transmitters
@@ -19,11 +19,11 @@ Welcome to the world of radio detective work! As a ham, you'll sometimes encount
 2. Fundamental Overload: 
    This occurs when a strong nearby signal overwhelms a receiver, even if it's not on the frequency you're trying to receive. It's like trying to hear a whisper while someone's shouting nearby.
 
-   > **Key Information:** *Fundamental overload of a non-amateur radio or TV receiver by an amateur signal can be reduced or eliminated by blocking the amateur signal with a filter at the antenna input of the affected receiver.*
+   > **Key Information:** *Fundamental overload of a non-amateur radio or TV receiver by an amateur signal can be reduced or eliminated by blocking the amateur signal with a filter at the antenna input of the affected receiver.* {{< link id="T7B05" >}}
 
    - In non-amateur receivers (like TVs, radios, or cell phones), fundamental overload can happen when a nearby amateur transmitter is so strong that it overloads the receiver's front-end circuitry.
    - This can cause interference even if the amateur signal isn't on a frequency close to what the device is trying to receive.
-   - Symptoms might include *hearing amateur radio transmissions unintentionally on a broadcast AM or FM radio* because the receiver is unable to reject strong signals outside its intended band.
+   - Symptoms might include *hearing amateur radio transmissions unintentionally on a broadcast AM or FM radio* {{< link id="T7B02" >}} because the receiver is unable to reject strong signals outside its intended band.
 
    To address fundamental overload:
    - Reduce transmitter power if possible
@@ -59,13 +59,13 @@ Welcome to the world of radio detective work! As a ham, you'll sometimes encount
    - Solution: Adjust your mic gain and speak at a normal volume. If others report distorted audio, try backing off the mic a bit.
 
 2. Ferrite Chokes:
-   > **Key Information:** *A ferrite choke can be used to cure distorted audio caused by RF current on the shield of a microphone cable.*
+   > **Key Information:** *A ferrite choke can be used to cure distorted audio caused by RF current on the shield of a microphone cable.* {{< link id="T7B04" >}}
 
    - Use: These are great for reducing RFI on cables.
    - How: Slip them over power cords, audio cables, or coax feedlines to suppress unwanted RF.
 
 3. Filters:
-   > **Key Information:** *A band-reject filter can reduce overload of a VHF transceiver by a nearby commercial FM station.*
+   > **Key Information:** *A band-reject filter can reduce overload of a VHF transceiver by a nearby commercial FM station.* {{< link id="T7B07" >}}
 
    - Band-reject filters: These can block out a specific frequency range causing interference. For example, you could use one to block signals from a nearby commercial FM station.
    - Low-pass filters: Use these on your transmitter output to reduce harmonics that might interfere with TVs or other devices.
@@ -76,13 +76,13 @@ Welcome to the world of radio detective work! As a ham, you'll sometimes encount
 
 #### Dealing with Neighbor Complaints
 
-> **Key Information:** If a neighbor tells you that your station's transmissions are interfering with their radio or TV reception, *you should first make sure that your station is functioning properly and that it does not cause interference to your own radio or television when it is tuned to the same channel*.
+> **Key Information:** If a neighbor tells you that your station's transmissions are interfering with their radio or TV reception, *you should first make sure that your station is functioning properly and that it does not cause interference to your own radio or television when it is tuned to the same channel*. {{< link id="T7B06" >}}
 
 If a neighbor complains about interference:
 
 1. Take it seriously and be polite.
 2. *Verify your station is operating properly and not causing interference to your own devices.*
-3. *Work with your neighbor to identify the offending device.*
+3. *Work with your neighbor to identify the offending device.* {{< link id="T7B08" >}}
 4. Make sure your station meets the standards of good amateur practice.
 5. If it is your station, work on solutions like filters or adjusting operating times.
 
@@ -92,14 +92,14 @@ Remember that both you and your neighbor share responsibility in resolving inter
 
 1. Distorted Audio through Repeaters:
 
-   > **Key Information:** *If you receive a report that your audio signal through an FM repeater is distorted or unintelligible, it might be because your transmitter is slightly off frequency, your batteries are running low, or you are in a bad location.*
+   > **Key Information:** *If you receive a report that your audio signal through an FM repeater is distorted or unintelligible, it might be because your transmitter is slightly off frequency, your batteries are running low, or you are in a bad location.* {{< link id="T7B10" >}}
 
    - Possible causes: Overdeviation, poor signal into the repeater, repeater issues, low batteries, being off-frequency.
    - Solutions: Check your transmit audio levels, try a different location, replace or charge batteries, ensure your radio is on frequency, or contact the repeater owner if the problem persists.
 
 2. RF Feedback:
 
-   > **Key Information:** *A symptom of RF feedback in a transmitter or transceiver is reports of garbled, distorted, or unintelligible voice transmissions.*
+   > **Key Information:** *A symptom of RF feedback in a transmitter or transceiver is reports of garbled, distorted, or unintelligible voice transmissions.* {{< link id="T7B11" >}}
 
    - Symptoms: Garbled, distorted, or unintelligible transmissions.
    - Causes: RF energy from your transmitter is getting back into your microphone or audio circuits. This creates a feedback loop where your transmitted signal interferes with its own audio input.
@@ -107,7 +107,7 @@ Remember that both you and your neighbor share responsibility in resolving inter
 
 #### TV Interference
 
-> **Key Information:** *The first step to resolve cable TV interference caused by your amateur radio transmission is to be sure all TV feed line coaxial connectors are installed properly.*
+> **Key Information:** *The first step to resolve cable TV interference caused by your amateur radio transmission is to be sure all TV feed line coaxial connectors are installed properly.* {{< link id="T7B09" >}}
 
 Interference to cable TV can often be resolved by ensuring all connections are tight and properly shielded. Sometimes, a low-pass filter on your transmitter output or high-pass filters on affected TV equipment can help.
 

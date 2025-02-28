@@ -35,7 +35,7 @@ To combat this, you might need to do some detective work. Try turning off device
 
 Now, let's get down to earth—literally. Grounding is crucial for both safety and reducing interference. A good ground system is like the foundation of a house—you don't see it, but everything depends on it.
 
-> **Key Information:** All external ground rods or earth connections should be *bonded together with heavy wire or conductive strap* to ensure proper grounding and safety.
+> **Key Information:** All external ground rods or earth connections should be *bonded together with heavy wire or conductive strap* to ensure proper grounding and safety. {{< link id="T0A09" >}}
 
 ##### Station Grounding Basics
 
@@ -52,7 +52,7 @@ Remember, grounding isn't just about performance; it's also a safety issue. A go
 
 When setting up a mobile transceiver in a vehicle, proper grounding is just as crucial as it is in your home station, but with a few extra considerations. 
 
-> **Key Information:** The negative power return of a mobile transceiver should be connected *at the 12-volt battery chassis ground*, not to random metal parts of the vehicle.
+> **Key Information:** The negative power return of a mobile transceiver should be connected *at the 12-volt battery chassis ground*, not to random metal parts of the vehicle. {{< link id="T4A11" >}}
 
 The negative power return, or ground, should be connected directly to the 12-volt battery's chassis ground. This connection minimizes the risk of electrical noise, which can interfere with your transceiver's performance, and it also helps to prevent potential damage to the equipment.
 

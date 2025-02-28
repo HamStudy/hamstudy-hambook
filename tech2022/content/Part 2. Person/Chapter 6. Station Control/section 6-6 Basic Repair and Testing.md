@@ -2,7 +2,7 @@
 questions: [ "T6D04", "T7C01", "T7C03", "T7D04", "T0A12", "T7D01", "T7D02", "T7D03", "T7D06", "T7D07", "T7D09", "T7D11", "T0A11", "T7D08", "T7D10" ]
 ---
 
-### Section 6.8: Basic Repair and Testing
+### Section 6.6: Basic Repair and Testing
 
 #### Introduction to Test Equipment
 
@@ -10,16 +10,16 @@ Let's dive into some essential skills for keeping your ham shack running smoothl
 
 #### The Multimeter: Your Ham Shack Swiss Army Knife
 
-> **Key Information:** A multimeter can measure *voltage, current and resistance*. An *ammeter* is used to measure electric current.
+> **Key Information:** A multimeter can measure *voltage, current and resistance*. An *ammeter* is used to measure electric current. {{< link id="T7D07" >}}
 
-Your trusty multimeter is perhaps the most versatile and essential diagnostic tool in the ham shack. It typically combines at least three crucial measurement instruments: a *voltmeter (to measure voltage)*, an *ammeter (to measure current)*, and an *ohmmeter (to measure resistance)*. When troubleshooting equipment issues, your first step should often be checking power supplies and connections with your multimeter. Remember, most ham radios run on 13.8V DC.
+Your trusty multimeter is perhaps the most versatile and essential diagnostic tool in the ham shack. It typically combines at least three crucial measurement instruments: a *voltmeter (to measure voltage)*, an *ammeter (to measure current)* {{< link id="T7D04" >}}, and an *ohmmeter (to measure resistance)*. When troubleshooting equipment issues, your first step should often be checking power supplies and connections with your multimeter. Remember, most ham radios run on 13.8V DC.
 
 ##### Using a Multimeter
 
-> **Key Information:** A *voltmeter is connected in parallel* with a component to measure voltage. An *ammeter is connected in series* with a component to measure current.
+> **Key Information:** A *voltmeter is connected in parallel* {{< link id="T7D02" >}} with a component to measure voltage. An *ammeter is connected in series* {{< link id="T7D03" >}} with a component to measure current.
 
 1. Measuring Voltage:
-   - *Use a voltmeter* to measure electric potential (voltage).
+   - *Use a voltmeter* {{< link id="T7D01" >}} to measure electric potential (voltage).
    - Set the multimeter to the appropriate voltage range (DC or AC).
    - *Connect the voltmeter in parallel* - red probe to the positive point and the black probe to the negative point or ground.
    - Read the voltage on the display.
@@ -32,25 +32,25 @@ Your trusty multimeter is perhaps the most versatile and essential diagnostic to
 3. Measuring Resistance:
    - Set the multimeter to the resistance (ohms) function.
    - Connect the probes across the component you're measuring.
-   - *Ensure the circuit is not powered when measuring resistance* to avoid damaging the meter and getting inaccurate readings.
+   - *Ensure the circuit is not powered when measuring resistance* {{< link id="T7D11" >}} to avoid damaging the meter and getting inaccurate readings.
 
-> **Key Information:** *Attempting to measure voltage when using the resistance setting* on your multimeter can damage the meter. *Never attempt to measure current by connecting the probes in parallel* with a circuit.
+> **Key Information:** *Attempting to measure voltage when using the resistance setting* {{< link id="T7D06" >}} on your multimeter can damage the meter. *Never attempt to measure current by connecting the probes in parallel* with a circuit.
 
 ⚠️ **WARNING**: Never attempt to measure current by connecting the probes in parallel with a circuit or component. This can cause a short circuit and damage your meter or create a safety hazard.
 
 #### Special Considerations for Capacitors
 
-> **Key Information:** An increasing resistance reading on an ohmmeter indicates you're measuring a *discharged capacitor that is charging*.
+> **Key Information:** An increasing resistance reading on an ohmmeter indicates you're measuring a *discharged capacitor that is charging*. {{< link id="T7D10" >}}
 
 When measuring the resistance of a capacitor with an ohmmeter, you might notice the reading starts low and then increases. This is normal behavior for a discharged capacitor. As the ohmmeter applies a small voltage to make its measurement, it charges the capacitor, causing the apparent resistance to increase over time.
 
-> **Key Information:** Power supplies can store dangerous charges in filter capacitors even after being turned off.
+> **Key Information:** Power supplies can store dangerous charges in filter capacitors even after being turned off. {{< link id="T0A11" >}}
 
 ⚠️ **WARNING**: *Power supply filter capacitors can store charge* even after the equipment has been turned off. Always discharge capacitors safely before working on equipment.
 
 #### Safety First: Measuring High Voltages
 
-> **Key Information:** When measuring high voltages, *ensure that the voltmeter and leads are rated for the voltages to be measured*.
+> **Key Information:** When measuring high voltages, *ensure that the voltmeter and leads are rated for the voltages to be measured*. {{< link id="T0A12" >}}
 
 When it comes to measuring high voltages, safety is paramount. Always *ensure that your voltmeter and its leads are rated for the voltage you're measuring*. It's like making sure you're wearing the right protective gear for the job. Using a voltmeter rated for 50 volts to measure 1000 volts is a recipe for disaster - it could damage your meter or, worse, cause injury. 
 
@@ -60,7 +60,7 @@ Also, remember that some ham radio equipment, especially tube-based gear, can ha
 
 #### Other Essential Test Equipment
 
-> **Key Information:** A dummy load *prevents transmitting signals over the air when making tests* and consists of *a non-inductive resistor mounted on a heat sink*.
+> **Key Information:** A dummy load *prevents transmitting signals over the air when making tests* {{< link id="T7C01" >}} and consists of *a non-inductive resistor mounted on a heat sink*. {{< link id="T7C03" >}}
 
 1. SWR Meter: Measures the Standing Wave Ratio, which tells you how well your antenna is matched to your transmitter. High SWR can indicate antenna problems and may cause damage to your transmitter if left unchecked.
 
@@ -72,7 +72,7 @@ Also, remember that some ham radio equipment, especially tube-based gear, can ha
 
 #### The Art of Soldering
 
-> **Key Information:** *Acid-core solder should not be used for radio and electronic applications*. A *cold solder joint appears rough or lumpy*.
+> **Key Information:** *Acid-core solder should not be used for radio and electronic applications*. {{< link id="T7D08" >}} A *cold solder joint appears rough or lumpy*. {{< link id="T7D09" >}}
 
 Soldering is a skill that can save you money and keep your equipment in top shape. Here are some soldering basics:
 
