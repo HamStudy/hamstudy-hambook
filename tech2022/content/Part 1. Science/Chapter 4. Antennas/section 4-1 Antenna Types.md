@@ -8,7 +8,7 @@ Imagine you're at a party, trying to talk to a friend across a noisy room. You m
 
 There are many different types of antennas, each with its own advantages and disadvantages. Some take more space, some are directional, some have more gain. The trick is to find the antenna that works best for your situation – and most hams end up with several different antennas for various purposes.
 
-> **Let's Define a Term**: You have come across the term "Antenna system" – the Antenna System includes everything that is used by the transceiver as part of the antenna, such as the feed line and the antenna itself.
+> **Let's Define a Term**: You may have come across the term "Antenna system" – the Antenna System includes everything that is used by the transceiver as part of the antenna, such as the feed line and the antenna itself.
 
 #### Essential Antenna Concepts
 
