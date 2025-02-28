@@ -6,7 +6,7 @@ questions: [ "T8C01", "T8C03", "T8C02", "T8C05", "T8C04" ]
 
 Alright, radio adventurers, buckle up! We're about to explore some of the coolest, quirkiest, and downright awesome things you can do with your ham radio license. Let's start with a few activities that you might encounter on the exam.
 
-> **Key Information:** *Radio direction finding is used to locate sources of noise interference or jamming.* It involves using directional antennas and receivers to determine the location of a radio signal.
+> **Key Information:** *Radio direction finding is used to locate sources of noise interference or jamming.* {{< link id="T8C01" >}} It involves using directional antennas and receivers to determine the location of a radio signal.
 
 #### Fox Hunting and Direction Finding
 
@@ -16,7 +16,7 @@ Ever fancy yourself as a radio detective? Then you'll love fox hunting! In ham r
 2. *Hunters use directional antennas to track down the signal.*
 3. The first person or team to find the transmitter wins!
 
-Fox hunting helps you develop valuable skills like understanding radio wave propagation, emergency communications practice, and hands-on experience with directional antennas. To get started, you just need a handheld radio, *a directional antenna (like a Yagi)*, and an attenuator. Many clubs organize regular fox hunts, making it a great way to meet other hams and have some outdoor radio fun.
+Fox hunting helps you develop valuable skills like understanding radio wave propagation, emergency communications practice, and hands-on experience with directional antennas. To get started, you just need a handheld radio, *a directional antenna (like a Yagi)* {{< link id="T8C02" >}}, and an attenuator. Many clubs organize regular fox hunts, making it a great way to meet other hams and have some outdoor radio fun.
 
 While this is often done as a fun activity, it's also a useful skill to help locate sources of noise or jamming! Fun story – there was a time when for a few weeks a bunch of the wireless garage doors in the neighborhood weren't working. After some discussions, we noticed there was a signal on the frequencies they used which seemed to be interfering, so several of us got out our direction finding gear to track it down.
 
@@ -24,11 +24,11 @@ You can imagine my chagrin when we tracked the signal to a repeater in my garage
 
 #### Contesting
 
-Ever felt the thrill of a race? Well, ham radio has its own version of high-speed competition - Contesting! *It's an operating activity that involves contacting as many stations as possible during a specified period.* Here's the scoop:
+Ever felt the thrill of a race? Well, ham radio has its own version of high-speed competition - Contesting! *It's an operating activity that involves contacting as many stations as possible during a specified period.* {{< link id="T8C03" >}} Here's the scoop:
 
 1. What's a contest? It's an event where hams compete to make the most contacts, often with specific goals like working different countries, states, or grid squares. Some last a few hours, others a full weekend. It's like a global radio party!
 
-2. How does it work? You'll exchange brief info with each station you contact - usually a signal report and some other data like your location or a serial number. *When contacting another station in a contest, good procedure is to send only the minimum information needed for proper identification and the contest exchange.* It's not the time for a lengthy chat.
+2. How does it work? You'll exchange brief info with each station you contact - usually a signal report and some other data like your location or a serial number. *When contacting another station in a contest, good procedure is to send only the minimum information needed for proper identification and the contest exchange.* {{< link id="T8C04" >}} It's not the time for a lengthy chat.
 
 3. Why contest? It's a great way to improve your operating skills, test your station's performance, and maybe snag some rare locations for awards. Plus, the adrenaline rush is real!
 
@@ -38,7 +38,7 @@ Ever felt the thrill of a race? Well, ham radio has its own version of high-spee
 
 #### Grid locators
 
-Now, let's talk about a cool tool used in many contests: grid locators. *A grid locator is a letter-number designator assigned to a geographic location* on Earth. For example, 'FM18' covers the Washington D.C. area. In contests, you might exchange grid squares instead of states or countries. It's like a global game of battleship! Grid locators aren't just for contests - they're useful for satellite operations, VHF/UHF work, and even general ragchewing when you want to share your location.
+Now, let's talk about a cool tool used in many contests: grid locators. *A grid locator is a letter-number designator assigned to a geographic location* {{< link id="T8C05" >}} on Earth. For example, 'FM18' covers the Washington D.C. area. In contests, you might exchange grid squares instead of states or countries. It's like a global game of battleship! Grid locators aren't just for contests - they're useful for satellite operations, VHF/UHF work, and even general ragchewing when you want to share your location.
 
 Here are some examples:
 

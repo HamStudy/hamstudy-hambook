@@ -6,7 +6,7 @@ questions: [ "T2C05", "T2C07", "T2C08", "T2C09", "T2C06", "T2C10", "T1A10", "T2C
 
 Alright, radio heroes in training, let's talk about one of the coolest parts of ham radio: using our skills to help our communities. Whether it's assisting during disasters or keeping your local marathon running smoothly, ham radio operators play a crucial role in public service.
 
-> **Key Information:** In amateur radio, the term "*traffic*" refers to *messages exchanged by net stations*. Good traffic handling means passing messages exactly as received.
+> **Key Information:** In amateur radio, the term "*traffic*" refers to *messages exchanged by net stations*. {{< link id="T2C05" >}} Good traffic handling means passing messages exactly as received.
 
 #### Emergency Communications
 
@@ -14,7 +14,7 @@ When cell phones fail and the power's out, guess who's still chatting away? That
 
 **ARES (Amateur Radio Emergency Service)**:
 
-*ARES is a group of licensed amateurs who have voluntarily registered their qualifications and equipment for communications duty in the public service.* Run by the ARRL (American Radio Relay League), these volunteers provide emergency communication support when other systems fail.
+*ARES is a group of licensed amateurs who have voluntarily registered their qualifications and equipment for communications duty in the public service.* {{< link id="T2C06" >}} Run by the ARRL (American Radio Relay League), these volunteers provide emergency communication support when other systems fail.
 
 Local ARES groups operate across the country, ready to assist during disasters or public events. Members train together, participate in drills, and remain on call to help their communities. You don't need to be an ARRL member to join ARES.
 
@@ -22,7 +22,7 @@ The main purpose of ARES is providing reliable communication during emergencies,
 
 **RACES (Radio Amateur Civil Emergency Service)**: 
 
-*RACES is an FCC Part 97 amateur radio service for civil defense communications during national emergencies.* Unlike the volunteer-focused ARES, RACES operates under the authority of government agencies during civil emergencies.
+*RACES is an FCC Part 97 amateur radio service for civil defense communications during national emergencies.* {{< link id="T2C04" >}} {{< link id="T1A10" >}} Unlike the volunteer-focused ARES, RACES operates under the authority of government agencies during civil emergencies.
 
 To participate in RACES, you need to be an FCC-licensed amateur radio operator who's also certified and enrolled with a civil defense organization. During a declared emergency, RACES stations can only communicate with other RACES stations, government stations, or authorized amateur stations.
 
@@ -37,16 +37,16 @@ RACES provides a structured, government-coordinated approach to emergency commun
 
 Nets are organized groups of stations that meet on a specific frequency to exchange information. They can be routine (like weekly club check-ins) or activated for emergencies and special events.
 
-The *Net Control Station (NCS) is responsible for calling the net to order and directing communications between stations checking in*. As a participant, *when participating in a net, you should transmit only when directed by the net control station*.
+The *Net Control Station (NCS) is responsible for calling the net to order and directing communications between stations checking in*. {{< link id="T2C02" >}} As a participant, *when participating in a net, you should transmit only when directed by the net control station*. {{< link id="T2C07" >}}
 
 The NCS has several key duties:
 - Starting the net with announcements and inviting check-ins
 - Managing communications flow between participants
 - Facilitating message exchange (traffic) between stations
 
-Good traffic handling is essential – *passing messages exactly as received* without editing or deciding which messages are important enough to relay.
+Good traffic handling is essential – *passing messages exactly as received* {{< link id="T2C08" >}} without editing or deciding which messages are important enough to relay.
 
-> **Key Information:** *FCC rules ALWAYS apply to the operation of amateur radio stations.* However, *amateur station control operators are permitted to operate outside their frequency privileges in situations involving the immediate safety of human life or protection of property*.
+> **Key Information:** *FCC rules ALWAYS apply to the operation of amateur radio stations.* {{< link id="T2C01" >}} However, *amateur station control operators are permitted to operate outside their frequency privileges in situations involving the immediate safety of human life or protection of property*. {{< link id="T2C09" >}}
 
 #### Formal Traffic and Radiograms
 
@@ -54,9 +54,9 @@ When you're participating in emergency communications or public service events, 
 
 **Radiograms** are standardized message formats used in amateur radio to relay information accurately through networks like the National Traffic System (NTS). The key parts of a radiogram include:
 
-- **Preamble**: *Contains the information needed to track the message* including message number, precedence (priority), origin date/time, and originating station's call sign.
+- **Preamble**: *Contains the information needed to track the message* {{< link id="T2C10" >}} including message number, precedence (priority), origin date/time, and originating station's call sign.
 
-- **Check**: *Refers to the number of words or word equivalents in the text portion of the message*. Operators use this to verify that the message was received completely and correctly.
+- **Check**: *Refers to the number of words or word equivalents in the text portion of the message*. {{< link id="T2C11" >}} Operators use this to verify that the message was received completely and correctly.
 
 - **Text**: The actual message content, typically kept concise for accurate transmission.
 

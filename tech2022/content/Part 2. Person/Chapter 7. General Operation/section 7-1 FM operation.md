@@ -6,13 +6,13 @@ questions: [ "T2A11", "T2A02", "T2B10", "T2B11", "T2A08", "T7B01", "T2B05", "T8A
 
 Alright, new hams, let's dive into the world of FM (Frequency Modulation) - the bread and butter of many Technician class operators. Think of FM as the smooth jazz of radio modes: clear, crisp, and relatively noise-free.
 
-> **Key Information:** FM is the most common voice mode for VHF/UHF communications. It provides clear audio with resistance to noise, but uses more bandwidth than other modes. *When tuning an FM receiver, you must be precisely on frequency or the audio will be distorted.*
+> **Key Information:** FM is the most common voice mode for VHF/UHF communications. It provides clear audio with resistance to noise, but uses more bandwidth than other modes. *When tuning an FM receiver, you must be precisely on frequency or the audio will be distorted.* {{< link id="T4B12" >}}
 
 #### Why FM?
 
 FM is the go-to mode for most local communications, especially on VHF and UHF bands. While AM (Amplitude Modulation) gets all jittery when there's electrical interference, FM keeps its cool, delivering clear audio even in urban jungles full of electronic noise.
 
-*A disadvantage of FM compared to single sideband is that only one signal can be received at a time*, even when two signals are on the same frequency. This is due to the "capture effect" we'll discuss shortly.
+*A disadvantage of FM compared to single sideband is that only one signal can be received at a time*, even when two signals are on the same frequency. {{< link id="T8A12" >}} This is due to the "capture effect" we'll discuss shortly.
 
 #### How FM Works
 
@@ -42,7 +42,7 @@ When operating FM, remember:
 - Use simplex when possible. It keeps repeaters free for those who really need the extra range.
 - **Tune accurately**: *If you tune an FM receiver above or below a signal's frequency, the result will be distortion of the signal's audio.* Unlike other modes where off-frequency tuning might change the pitch or create a tone, FM tuning errors lead directly to poor audio quality.
 
-> **Key Information:** Over-deviation in FM transmission happens when you talk too loudly into the microphone, causing distortion on voice peaks. *The solution is to talk farther away from the microphone, not louder.*
+> **Key Information:** Over-deviation in FM transmission happens when you talk too loudly into the microphone, causing distortion on voice peaks. *The solution is to talk farther away from the microphone, not louder.* {{< link id="T7B01" >}} {{< link id="T2B05" >}}
 
 #### FM Quirks
 
@@ -54,15 +54,15 @@ FM has some quirks you should know about:
 
 While not specific to FM itself, there are a few special "codes" you should know about; these are left over from back when everyone used morse code but they are used often enough that you'll want to be familiar with them and what they mean:
 
-* **QSY** - "I'm changing frequency" or "Change your frequency to..." It's often used when you want to move a conversation to a different channel.
+* **QSY** - "I'm changing frequency" or "Change your frequency to..." {{< link id="T2B11" >}} It's often used when you want to move a conversation to a different channel.
 * **QTH** - "My location is..." This is used when sharing your geographic location.
-* **QRM** - "I'm experiencing interference from other stations." If you're having trouble hearing due to other signals, this is the code to use.
+* **QRM** - "I'm experiencing interference from other stations." {{< link id="T2B10" >}} If you're having trouble hearing due to other signals, this is the code to use.
 * **QRN** - "I'm experiencing interference from atmospheric noise or static." Think thunderstorms or other natural interference.
 * **QSL** - "I confirm receipt of your transmission" or simply "I understand." It's like saying "roger that" or "copy."
 * **QRZ** - "Who is calling me?" Used when you hear someone calling but can't quite make out their callsign.
 * **73** - "Best regards" or "Goodbye." This is a friendly way to end a QSO (conversation).
 * **88** - "Love and kisses." A more affectionate sign-off, often used between ham radio couples or very close friends.
-* **CQ** - "Calling any station." This is used when you're looking for anyone to talk to.
+* **CQ** - "Calling any station." {{< link id="T2A08" >}} This is used when you're looking for anyone to talk to.
 * **DX** - Distance or foreign countries. "Working DX" means making long-distance contacts.
 
 > **Key Information:** The procedural signal "CQ" means "calling any station" - it's how you announce you're looking for a contact. The Q-code "QSY" means you're changing frequency, and "QRM" indicates interference from other stations.
