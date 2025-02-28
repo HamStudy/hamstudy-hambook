@@ -41,13 +41,12 @@ title: "Table of Contents: HamStudy Technician License HamBook (2022-2026)"
 ### Chapter 3: Radio Wave Principles
 - Section 3.1: Frequency and Wavelength
 - Section 3.2: The Electromagnetic Spectrum
-- Section 3.3: How Signals Travel
-- Section 3.4: VHF and UHF Waves
-- Section 3.5: HF Waves
-- Section 3.6: Modulation Modes and Bandwidth
+- Section 3.3: Understanding Amateur Radio Bands
+- Section 3.4: How Signals Travel
+- Section 3.5: Modulation Modes and Bandwidth
   - AM, FM
   - SSB, USB, LSB
-- Section 3.7: Digital and Video Modes
+- Section 3.6: Digital and Video Modes
   - Packet, PSK31, RTTY, PACTOR III, SSTV, FSTV
 
 ### Chapter 4: Antennas
@@ -74,16 +73,15 @@ title: "Table of Contents: HamStudy Technician License HamBook (2022-2026)"
 ### Chapter 6: Station Control
 - Section 6.1: Station Accessories
 - Section 6.2: Interference and Grounding
-- Section 6.3: Operating Controls
-
-- Section 6.4: Receiver, Transmitter, Transceiver
+- Section 6.3: Receiver, Transmitter, Transceiver
+- Section 6.4: Operating Your Transceiver
 - Section 6.5: Repeater Operation
   - Offset, offset direction (shift)
   - Tone (CTCSS / PL, DCS)
-- Section 6.6: Interference and Troubleshooting
-- Section 6.7: Basic Repair and Testing
+- Section 6.6: Basic Repair and Testing
   - Using Test Equipment
   - Soldering
+- Section 6.7: Interference and Troubleshooting
 
 ### Chapter 7: General Operation
 - Section 7.1: FM Operation
@@ -93,10 +91,10 @@ title: "Table of Contents: HamStudy Technician License HamBook (2022-2026)"
 - Section 7.5: Fun with Amateur Radio
 
 ### Chapter 8: Rules and Regulations
-- Section 8.1: ITU Regions
-- Section 8.2: Authorized Frequencies
-- Section 8.3: Frequency Allocations
-- Section 8.4: Operator Classes, Privileges, Call Signs
+- Section 8.1: Operator Classes, Privileges, Call Signs
+- Section 8.2: ITU Regions
+- Section 8.3: Authorized Frequencies
+- Section 8.4: Frequency Allocations
 - Section 8.5: Station Identification
 - Section 8.6: Authorized and Prohibited Transmissions
 - Section 8.7: Control Operator and Control Types
