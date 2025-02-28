@@ -10,7 +10,7 @@ Becoming a licensed amateur radio operator in the United States involves passing
 
 ## License Classes
 
-> **Key Information:** *The FCC currently issues Technician, General, and Amateur Extra class licenses.* {{< link id="T1C01" >}}
+> **Key Information:** *The FCC currently issues Technician, General, and Amateur Extra class licenses.*
 
 1. **Technician Class**: This is the entry-level license and the focus of this book. It provides operating privileges on all VHF and UHF amateur bands and some limited privileges on HF bands.
 
@@ -24,9 +24,9 @@ To progress to a higher class, you must pass the exam for that class as well as 
 
 Once you pass your exam and your license application is submitted you will receive an email from the FCC instructing you to pay a $35 application fee on their online portal. Once you have completed that step your license will usually appear in the database the next morning.
 
-> **Key Information:** *It's important to maintain a valid email address with the FCC, as failure to do so could result in license suspension or revocation.* {{< link id="T1C07" >}}
+> **Key Information:** *It's important to maintain a valid email address with the FCC, as failure to do so could result in license suspension or revocation.*
 
-If the FCC attempts to reach you by email and is unable to do so *even after you are licensed* they may choose to revoke or suspend your license, so make sure your contact information is always current. {{< link id="T1C04" >}}
+If the FCC attempts to reach you by email and is unable to do so *even after you are licensed* they may choose to revoke or suspend your license, so make sure your contact information is always current.
 
 Some applications are flagged for manual (human) review for various reasons; in those cases there may be a delay before you are instructed to pay the fee. The VE (Volunteer Examiner) team you test with should be able to help you navigate any challenges!
 

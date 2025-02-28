@@ -64,7 +64,7 @@ One fascinating aspect of amateur radio is how available bandwidth influences ou
 
 As frequency ranges get wider, you can use more bandwidth-intensive modes. A 2-meter band contact might use narrow FM, while the broader 10-meter band allows for wider SSB and even digital modes. This flexibility is part of what makes amateur radio so dynamic and exciting.
 
-#### Final Thoughts
+#### These are just some of the modes!
 
 In ham radio, there's always something new to learn. Each mode has its own quirks and charms. As you gain experience, you'll develop preferences and understand when to use each type of modulation. The joy of amateur radio is in the exploration!
 
