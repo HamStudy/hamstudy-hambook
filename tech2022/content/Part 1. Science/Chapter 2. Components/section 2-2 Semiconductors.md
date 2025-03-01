@@ -22,9 +22,9 @@ A diode has two electrodes:
 
 ![Diode schematic diagram with anode / cathode labeled](../../../images/s2-2-diode.svg)
 
-Think of a diode like a one-way street - traffic (electrical current) can only flow in one direction. When current flows through a diode, there's a small voltage loss called the forward voltage drop. Different types of diodes have different amounts of voltage drop - for instance, Schottky diodes have a lower forward voltage drop than regular silicon diodes.
+Think of a diode like a one-way street - traffic (electrical current) can only flow in one direction. When current flows through a diode, not all the voltage makes it through - this loss is called the forward voltage drop (remember voltage drop from Section 1.2?). This drop causes the diode to heat up as electrical energy converts to thermal energy. Different types of diodes have different amounts of voltage drop - for instance, Schottky diodes have a lower forward voltage drop than regular silicon diodes.
 
-One common use of diodes is in a *rectifier*, which changes alternating current (AC) into direct current (DC). {{< link id="T6D01" >}}
+One common use of diodes is in a *rectifier*, which changes alternating current (AC) into a varying direct current (DC) signal. {{< link id="T6D01" >}}
 
 #### Light-Emitting Diodes (LEDs): Diodes That Shine
 

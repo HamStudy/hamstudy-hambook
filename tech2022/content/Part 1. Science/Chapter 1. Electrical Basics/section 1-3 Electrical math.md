@@ -36,11 +36,11 @@ In plain English, Ohm's Law says:
 Or, using a water analogy:  
 Voltage is like water pressure, **pushing** current (the water flow) through resistance (the pipe size).  
 
-Since it's a simple formula, you can **rearrange it** to solve for any of the three values:
+Since it's a simple formula, you can **rearrange it** to solve for any of the three values: {{< link id="T5D03" >}}{{< link id="T5D01" >}}
 
-$$I = \frac{E}{R}$$  {{< link id="T5D01" >}}
+$$I = \frac{E}{R}$$
 
-$$R = \frac{E}{I}$$  {{< link id="T5D03" >}}
+$$R = \frac{E}{I}$$
 
 To help remember these relationships, you can use this simple circle diagram.
 
@@ -55,29 +55,29 @@ To use this helper:
 
    - Cover R: divide $\frac{E}{I}$
 
-#### **Example 1**  
-You have a **10-ohm resistor**, and **2 amps of current** are running through it. According to Ohm's Law:
+##### **Example 1**  
+You have a **10-ohm resistor**, and **2 amps of current** are running through it. {{< link id="T5D12" >}} According to Ohm's Law:
 
 $$E = I \times R$$  
 $$E = 2A \times 10\Omega$$  
-$$E = 20V$$  {{< link id="T5D12" >}}
+$$E = 20V$$
 
 So, you'd need **20 volts** to push **2 amps** through that **10-ohm resistor**.
 
-#### **Example 2**  
-You have a **12-volt battery** hooked up to a circuit with a total **resistance of 4 ohms**. To figure out the current flowing through the circuit:
+##### **Example 2**  
+You have a **12-volt battery** hooked up to a circuit with a total **resistance of 4 ohms**. To figure out the current flowing through the circuit:{{< link id="T5D06" >}}
 
-$$I = \frac{E}{R}$$  
-$$I = \frac{12V}{4\Omega}$$  
-$$I = 3A$$  {{< link id="T5D06" >}}
+$$I = \frac{E}{R}$$
+$$I = \frac{12V}{4\Omega}$$
+$$I = 3A$$
 
 That's **3 amps** of current flowing through the circuit.
 
 #### The Power Law
 
-Next up is the **Power Law**. This tells you how much **power (in watts)** your circuit is using, based on the **voltage and current**. Power is **how fast your circuit is consuming energy**, and here's the formula:
+Next up is the **Power Law**. This tells you how much **power (in watts)** your circuit is using, based on the **voltage and current**. Power is **how fast your circuit is consuming energy**, and here's the formula:{{< link id="T5C08" >}}
 
-$$P = E \times I$$  {{< link id="T5C08" >}}
+$$P = I \times E$$
 
 Where:
 - **$P$** is the *power* in **watts (W)**  
@@ -107,54 +107,40 @@ For example, if you know the **voltage and resistance**, you can find the **curr
 
 Let's look at some specific examples that might appear on the exam:
 
-**Example 1: Power from voltage and current**  
-*How much power is delivered by a voltage of 13.8 volts DC and a current of 10 amperes?*
+##### **Example 1: Power from voltage and current** 
+*How much power is delivered by a voltage of 13.8 volts DC and a current of 10 amperes?* {{< link id="T5C09" >}}
 
 $$P = E \times I$$  
 $$P = 13.8V \times 10A$$  
-$$P = 138 \text{ watts}$$  {{< link id="T5C09" >}}
+$$P = 138 \text{ watts}$$  
 
-**Example 2: Another power calculation**  
-*How much power is delivered by a voltage of 12 volts DC and a current of 2.5 amperes?*
+##### **Example 2: Another power calculation**  
+*How much power is delivered by a voltage of 12 volts DC and a current of 2.5 amperes?* {{< link id="T5C10" >}}
 
-$$P = E \times I$$  
-$$P = 12V \times 2.5A$$  
-$$P = 30 \text{ watts}$$  {{< link id="T5C10" >}}
+$$P = E \times I$$
+$$P = 12V \times 2.5A$$
+$$P = 30 \text{ watts}$$
 
-**Example 3: Finding current from power and voltage**  
-*How much current is required to deliver 120 watts at a voltage of 12 volts DC?*
+#####  **Example 3: Finding current from power and voltage**  
+*How much current is required to deliver 120 watts at a voltage of 12 volts DC?* {{< link id="T5C11" >}}
 
-$$I = \frac{P}{E}$$  
-$$I = \frac{120W}{12V}$$  
-$$I = 10 \text{ amperes}$$  {{< link id="T5C11" >}}
+$$I = \frac{P}{E}$$
+$$I = \frac{120W}{12V}$$
+$$I = 10 \text{ amperes}$$
 
 #### Why Does This Matter?
 
 You might be wondering, *"Why should I care about all this?"* Well, whenever you work with electronics, you will use these laws all the time. Whether you're **figuring out how much power your transmitter is using**, **picking the right resistor for a circuit**, or **troubleshooting why something isn't working**, Ohm's Law and the Power Law are your best friends.
 
-- **Voltage Drop**: Long wires have resistance, and **Ohm's Law** helps you calculate how much voltage is lost along the way.
+- **Voltage Drop**: Remember voltage drop from Section 1.2? Ohm's Law gives us the formula: $\text{Voltage Drop} = I \times R$. This explains why higher voltage systems (like 24V vs 12V) experience less impact from the same drop - the percentage of lost voltage is smaller. This is also why mobile installations use thick, short power cables - to minimize R and therefore minimize the drop.
 - **Power Rating**: Every electrical component has a limit on how much power it can handle before it overheats. **The Power Law** helps you make sure your components stay within safe limits.
 - **Efficiency**: When setting up **power systems and antennas**, understanding **how voltage, current, and power interact** helps you design more efficient systems.
-
-#### Quick Reference
-
-Here's a **cheat sheet** for easy reference:
-
-- **Ohm's Law**:  
-  - $E = I \times R$  
-  - $I = \frac{E}{R}$  
-  - $R = \frac{E}{I}$  
-
-- **Power Law**:  
-  - $P = E \times I$  
-  - $P = I^2 \times R$  
-  - $P = \frac{E^2}{R}$  
 
 The more you **practice using these**, the easier they become. Soon enough, you'll be solving electrical problems on the fly!
 
 ---
 
-### **Exam Question Examples**
+#### **Exam Question Examples**
 
 This is a *complete* summary of all of the questions you could encounter on the exam which use these formulas.
 

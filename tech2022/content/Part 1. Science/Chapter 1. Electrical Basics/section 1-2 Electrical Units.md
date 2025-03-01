@@ -33,7 +33,21 @@ While we often compare electricity to water flowing through pipes, this analogy 
 
 These three quantities are fundamentally linked as explained by **Ohm's Law**, which we'll cover in **Section 1.3**.
 
+#### Voltage Drop
+
+When current flows through a resistive component or wire, some voltage is "used up" in the process. This decrease in voltage is called **voltage drop**.
+
+It's similar to water pressure decreasing as water flows through a pipe - the longer or narrower the pipe, the more pressure is lost. In electrical terms, when current flows through resistance, voltage decreases along the path.
+
+This concept is important in amateur radio because:
+- Long power cables to your radio can result in lower voltage at the radio than at the power source
+- Higher current draw (like during transmission) increases voltage drop
+
+This is why most mobile ham installations use thick, short power cables - to minimize voltage drop when operating equipment that draws significant current. This is a direct application of how resistance affects current and voltage in real-world amateur radio setups.
+
 #### Frequency {#12frequency}
+
+Now that we understand these basic DC electrical concepts, let's look at alternating current and frequency.
 
 In amateur radio, we often deal with **alternating current (AC)**, which smoothly changes direction in a sine wave pattern, unlike DC which flows constantly in one direction.
 
