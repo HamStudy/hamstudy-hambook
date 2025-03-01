@@ -4,6 +4,7 @@ questions: [ "T6A04", "T6A12", "T6A01", "T5D14", "T6A02", "T6A03", "T6A06", "T5D
 illustration_ideas:
 - component family portrait - A simple line drawing header for the section showing the basic components with friendly faces, positioned like a family photo.
 - capacitor internals, showing two conductive plates with an insulator
+- inductor and capacitor energy storage comparison (magnetic field vs electric field)
 - Railroad track SPDT switch diagram
 - Series vs parallel circuit diagrams
 ---
@@ -14,7 +15,7 @@ When you peek inside any radio equipment, you'll find a fascinating array of ele
 
 #### Resistors: The Traffic Cops of Electronics
 
-> **Key Information:** A *resistor opposes the flow of current in a DC circuit*.{{< link id="T6A01" >}}
+> **Key Information:** A *resistor opposes the flow of current in any circuit (including a DC circuit)*.{{< link id="T6A01" >}}
 
 *Resistors* are small cylindrical components with colored bands that indicate their resistance value. These color codes help electronics enthusiasts determine the component's resistance. 
 
@@ -23,7 +24,11 @@ Common applications in amateur radio include:
 2. Limiting current to sensitive parts
 3. Setting operating points in amplifier circuits
 
-#### Capacitors: The Battery-like Energy Storers
+#### Capacitors and Inductors: The Energy Storage Twins
+
+Just as a battery stores energy chemically, capacitors and inductors also store energy—but in completely different ways. These components are like siblings: they complement each other while having their own unique characteristics.
+
+##### Capacitors: Electric Field Energy Storage
 
 > **Key Information:**
 > 1. A *capacitor stores energy in an electric field*{{< link id="T6A04" >}}
@@ -31,10 +36,26 @@ Common applications in amateur radio include:
 
 *Capacitors* come in various shapes and sizes, from tiny ceramic discs to large cylindrical types. Their capacity to store charge is measured in farads (F), though most radio circuits use microfarads (µF) or picofarads (pF).
 
-In amateur radio, capacitors are used for:
-1. Filtering power supplies
-2. Passing AC signals while blocking DC
-3. Tuning circuits
+In amateur radio, capacitors are used to:
+1. Smooth out fluctuations in power supplies (AC to DC converters)
+2. Block unwanted signals or noise, including keeping RF out of audio circuits
+3. Help select or tune specific frequencies in a circuit
+
+##### Inductors: Magnetic Field Energy Storage
+
+> **Key Information:**
+> 1. *Inductors store energy in a magnetic field* {{< link id="T6A06" >}}
+> 2. They are *typically constructed as a coil of wire* {{< link id="T6A07" >}}
+> 3. They are *used with capacitors to make a resonant circuit* {{< link id="T6D08" >}}
+
+While capacitors store energy in an electric field, *inductors* store energy in a magnetic field that forms around the coil when current flows through it. This complementary relationship makes them perfect partners in radio circuits.
+
+*Inductors* play important roles in radio circuits, including:
+1. Signal filtering
+2. Impedance matching
+3. Energy storage
+
+Together, capacitors and inductors form the foundation of tuned circuits that select specific frequencies—the heart of radio technology.
 
 #### Understanding Circuit Configurations
 
@@ -45,18 +66,6 @@ In amateur radio, capacitors are used for:
 These two circuit types behave very differently:
 - **Series Circuits**: Components are connected end-to-end in a single path. If one component fails, the entire circuit stops functioning.
 - **Parallel Circuits**: Components are connected across the same two points. If one path fails, current can still flow through the other paths.
-
-#### Inductors: The Magnetic Field Maestros
-
-> **Key Information:**
-> 1. *Inductors store energy in a magnetic field* {{< link id="T6A06" >}}
-> 2. They are *typically constructed as a coil of wire* {{< link id="T6A07" >}}
-> 3. They are *used with capacitors to make a resonant circuit* {{< link id="T6D08" >}}
-
-*Inductors* play important roles in radio circuits, including:
-1. Signal filtering
-2. Impedance matching
-3. Energy storage
 
 #### Potentiometers: The Adjustable Resistors
 
