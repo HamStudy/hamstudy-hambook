@@ -16,17 +16,20 @@ While we often compare electricity to water flowing through pipes, this analogy 
   - Voltage is always measured *between two points*. When we say a car battery is 12V, we mean there's a **12-volt difference** between its positive and negative terminals.
 
 - **Current** ($I$) is *the flow of electrons in an electric circuit*, measured in **amperes (A)**. {{< link id="T5A01" >}} {{< link id="T5A03" >}} Here's what's interesting:
-  - While individual electrons move quite slowly through a conductor (about half an inch per minute!), the *effect* of current is nearly instantaneous - like a long tube filled with marbles. Push one in at one end, and one pops out the other end almost immediately.
+  - While individual electrons move quite slowly through a conductor (about half an inch per minute!), the movement of electrical charges is nearly instantaneous - like a long tube filled with marbles. Push one in at one end, and one pops out the other end almost immediately.
   - In amateur radio, you might deal with:
     - **Milliamps (mA)** in low-power circuits
     - **A few amps** powering a mobile transceiver
     - **15-20 amps** for a high-power HF amplifier
 
 - **Resistance** ($R$) is *how much a material opposes current flow by converting electrical energy into heat*, measured in **ohms ($\Omega$)**.  {{< link id="T5A04" >}}
-  - Think of resistance as a way of controlling how electrical energy is used in a circuit:
-    - Low resistance ensures *efficient antenna connections*
-    - High resistance in dummy loads *safely converts transmitter power into heat*
-    - Specific resistances in filter circuits *shape frequency response*
+  - Think of resistance as a fundamental property that affects how electrical energy moves through a circuit:
+    - *Conductors* like copper wire have *very low resistance*, allowing current to flow easily
+    - *Insulators* like rubber or glass have *very high resistance*, blocking current flow
+    - *Resistors* are components with specific, controlled resistance values used to:
+      - Limit current in LED circuits to prevent burnout
+      - Divide voltage in measurement circuits
+      - Convert electrical energy to heat in applications like dummy loads
 
 These three quantities are fundamentally linked as explained by **Ohm's Law**, which we'll cover in **Section 1.3**.
 
