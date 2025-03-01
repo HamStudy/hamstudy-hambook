@@ -35,11 +35,16 @@ These three quantities are fundamentally linked as explained by **Ohm's Law**, w
 
 #### Frequency {#12frequency}
 
-In amateur radio, we often deal with **alternating current (AC)**, which constantly changes direction. The number of times AC completes a full cycle per second is called **frequency**, measured in **Hertz (Hz)**.  {{< link id="T5A12" >}} {{< link id="T5A06" >}}
+In amateur radio, we often deal with **alternating current (AC)**, which smoothly changes direction in a sine wave pattern, unlike DC which flows constantly in one direction.
 
-- Household power alternates at **60 Hz** (60 cycles per second).
-- AM radio stations broadcast around **1000 kHz** (1,000,000 cycles per second).
-- FM radio and many ham bands use frequencies in the **MHz range** (millions of cycles per second).
+![Diagram showing 2 cycles of 120VAC voltage at 60Hz](../../../images/sine_wave_two_cycles.svg)
+
+The diagram shows two complete **cycles** of AC - each starting at zero, rising to a positive peak, falling through zero to a negative peak, then returning to zero. *The number of these cycles completed per second is called frequency, measured in Hertz (Hz)*. {{< link id="T5A12" >}} {{< link id="T5A06" >}}
+
+Some examples:
+- Household power: **60 Hz** (60 cycles per second)
+- AM radio stations: around **1000 kHz** (1,000,000 cycles per second)
+- FM radio and many ham bands: **MHz range** (millions of cycles per second)
 
 Understanding *frequency* is crucial in amateur radio because it determines *which bands you can use* and *how far your signals can travel*.
 
