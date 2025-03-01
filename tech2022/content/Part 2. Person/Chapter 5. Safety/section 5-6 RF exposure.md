@@ -22,7 +22,9 @@ But don't get too comfortable just yet. While RF energy won't alter your DNA, it
 
 Here's something interesting: RF exposure limits vary with frequency. Why? Because *the human body absorbs RF energy differently at different frequencies*. {{< link id="T0C05" >}}
 
-*Around 50 MHz (in the 6-meter band), the Maximum Permissible Exposure (MPE) limits have their lowest values* because that's where the human body is most efficient at absorbing RF energy. {{< link id="T0C02" >}} Think of it as an unfortunate resonance between our bodies and that particular frequency range. At higher and lower frequencies, our bodies don't absorb the energy quite as readily, so the limits are slightly more lenient.
+*Around 50 MHz (in the 6-meter band), the Maximum Permissible Exposure (MPE) limits have their lowest values* because that's where the human body is most efficient at absorbing RF energy. {{< link id="T0C02" >}} At both higher and lower frequencies, our bodies absorb less energy, so the limits are slightly more lenient.
+
+This makes sense when you think about it! $\frac{1}{4}$ wavelength on 6 meters is 1.5 meters (around 5 feet) which is pretty close to the height of a typical human, making the human body a pretty good antenna at these frequencies.
 
 > **Key Information:** *MPE limits are most restrictive (have the lowest values) at around 50 MHz* because human bodies absorb RF energy most efficiently at this frequency.
 
