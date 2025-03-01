@@ -46,7 +46,7 @@ The recommendations from frequency coordinators aren't legally binding, but foll
 
 Remember that frequency allocations can vary between ITU regions, so always check local regulations if operating internationally.
 
-### Simplex Channels in the VHF/UHF Band Plans
+#### Simplex Channels in the VHF/UHF Band Plans
 
 > **Key Information:** *Simplex channels are designated in the VHF/UHF band plans so stations within range of each other can communicate without tying up a repeater.* {{< link id="T2B09" >}}
 
@@ -54,7 +54,7 @@ Ever wondered why there are designated simplex channels in the VHF and UHF band 
 
 On a related note, it's tempting to just pick an arbitrary frequency and start operating, but always check the local band plan first – you might be on the input to a repeater and not know it, resulting in everyone else listening to your traffic (and likely angry that you are tying up the repeater).
 
-### Interference and Resolution
+#### Interference and Resolution
 
 > **Key Information:** *When two stations transmitting on the same frequency interfere with each other, the stations should negotiate continued use of the frequency.* {{< link id="T2B08" >}}
 

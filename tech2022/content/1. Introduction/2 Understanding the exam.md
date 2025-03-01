@@ -10,7 +10,7 @@ The exam questions come from publicly available question pools developed by the 
 
 The updates are staggered, so only one pool changes each year. This ensures that study materials and exams remain current with evolving technology and regulations.
 
-## The Technician Class Question Pool
+#### The Technician Class Question Pool
 
 Before diving into the study material, it's helpful to understand what you're preparing for. The Technician license exam consists of 35 multiple-choice questions chosen from a pool of about 400 possible questions. To pass, you need to answer 26 questions correctly (74%).
 
@@ -23,11 +23,11 @@ Some key points about the exam:
 
 The exam format means that with focused study, most people can prepare for and pass the test much more quickly than one might expect. While some students have passed by simply memorizing the questions and answers, understanding the material will make you a more confident and capable operator once licensed.
 
-## Why Is the Question Pool So Comprehensive?
+#### Why Is the Question Pool So Comprehensive?
 
 You might wonder why the Technician question pool covers so many topics when you may only be interested in a specific aspect of amateur radio. There are good reasons for this breadth:
 
-### Different Paths in Amateur Radio
+##### Different Paths in Amateur Radio
 
 Amateur radio operators pursue surprisingly different interests under the same license. Possible focus areas include (among others):
 
@@ -43,7 +43,7 @@ Amateur radio operators pursue surprisingly different interests under the same l
 
 The question pool tries to ensure all new licensees have at least basic knowledge across these diverse areas, even if you initially only plan to use one aspect of the hobby.
 
-### Historical Evolution
+##### Historical Evolution
 
 The question pool has evolved over decades and is managed by committee. This creates some interesting dynamics:
 - Changes tend to happen slowly and conservatively
@@ -51,7 +51,7 @@ The question pool has evolved over decades and is managed by committee. This cre
 - Removing topics requires convincing evidence it's no longer relevant
 - The committee strives for consensus across many different perspectives
 
-### Focus on What Matters For You
+##### Focus on What Matters For You
 
 The important takeaway is this: don't get discouraged if parts of the question pool seem irrelevant to your interests. Your strategy should be to:
 

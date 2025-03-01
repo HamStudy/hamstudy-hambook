@@ -173,6 +173,6 @@ These principles apply to many parts of your radio system, including antennas, w
 
 ---
 
-### **Wrapping It All Up**
+#### **Wrapping It All Up**
 
 Understanding these electrical quantities will help you make sense of your radio gear and pass the exam. As you continue your ham radio journey, these ideas will come up again and again, so keep this knowledge handy!

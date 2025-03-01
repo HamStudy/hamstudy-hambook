@@ -15,9 +15,9 @@ To rate each resource:
 
 We'll start with this book (minus this chapter) because fair is fair!
 
-## The HamStudy Technician Class HamBook
+#### The HamStudy Technician Class HamBook
 
-### Overall Rating: 8.2 / 10
+##### Overall Rating: 8.2 / 10
 Based on the summary and review provided, here are the ratings for the HamStudy Technician License HamBook on the five criteria requested:
 
 - **Content Clarity**: 9/10
@@ -35,7 +35,7 @@ Who is it suitable for?
 
 Overall, the book scores highly across all criteria, with particular strengths in content clarity, exam preparation, and supplemental resources.
 
-### Summary
+#### Summary
 
 The book you've provided, titled HamBook, is an excellent resource for individuals preparing for their Technician Class amateur radio license. Its main strengths lie in its friendly, approachable tone and clear, well-organized content that covers both technical aspects and practical guidance. The book starts by introducing key concepts in amateur radio, including basic electronics, radio wave propagation, and FCC regulations. It emphasizes hands-on learning and safety, which makes it particularly useful for newcomers who may be overwhelmed by technical jargon or complex concepts. The book also highlights the importance of amateur radio in emergencies, which can resonate with those interested in public service.
 
@@ -49,9 +49,9 @@ Lastly, Visual and Hands-On Learners will appreciate the straightforward diagram
 
 Overall, HamBook is a well-rounded resource with a strong focus on accessibility, making it a great choice for most types of learners, especially those new to the hobby. Its primary weakness for more experienced or technically inclined readers is its focus on introductory content.
 
-## The Fast Track to Your Technician Class Ham Radio License
+#### The Fast Track to Your Technician Class Ham Radio License
 
-### Overall Rating: 8.6 / 10
+##### Overall Rating: 8.6 / 10
 
 Based on the summary and review, here are ratings for "The Fast Track to Your Technician Class Ham Radio License" on the five criteria:
 
@@ -70,15 +70,15 @@ Who is it suitable for?
 
 Overall, these ratings reflect the book's strengths in providing clear, comprehensive preparation for the Technician class license exam, with a good balance of theoretical knowledge and practical application.
 
-### Summary
+##### Summary
 
 This book, "The Fast Track to Your Technician Class Ham Radio License" by Michael Burnette (AF7KB) and Kerry Burnette (KC7YL), is a comprehensive guide for those looking to obtain their entry-level Technician ham radio license. It covers all the material needed to pass the FCC exam, including radio theory, regulations, operating procedures, and safety. The authors present complex topics in an accessible way, using analogies and real-world examples to make concepts easier to understand.
 
 A key strength of this book is its practical approach. It not only prepares readers for the exam but also provides valuable information on getting started in the hobby after obtaining a license. The authors include tips on choosing equipment, making first contacts, and participating in the ham radio community. The book also features bonus chapters on radio history and advanced topics, giving readers a broader context for the hobby. Overall, this resource stands out for its clear explanations, comprehensive coverage, and focus on practical application of ham radio knowledge.
 
-## The ARRL Ham Radio License Manual
+#### The ARRL Ham Radio License Manual
 
-### Overall Rating: 8.6 / 10
+##### Overall Rating: 8.6 / 10
 
 Based on the content and review, here's a rating of the ARRL Ham Radio License Manual on the five criteria you specified:
 
@@ -95,7 +95,7 @@ Who is it suitable for?
 - **Exam-Focused Learners**: 9/10  
 - **Visual and Hands-On Learners**: 6/10
 
-### Summary
+##### Summary
 
 The *ARRL Ham Radio License Manual, 5th Edition* is a comprehensive study guide aimed at helping individuals pass the Technician license exam and get started in ham radio. It’s structured in an accessible way, covering fundamental topics such as radio signals, basic electronics, equipment, regulations, and safety. Its strength lies in breaking down complex subjects into manageable pieces, offering a clear, step-by-step guide to understanding not just the answers to exam questions but also the broader context of amateur radio. The inclusion of the question pool directly in the book is particularly helpful for reinforcing learning through practice.
 
@@ -108,7 +108,7 @@ For the target groups:
 - **Exam-Focused Learners**: The integrated question pool and exam tips make it an excellent resource for passing the test.
 - **Visual and Hands-On Learners**: The book includes diagrams and examples, but the practical hands-on content is mainly online or in external resources, so learners may need to supplement it.
 
-## Gordon West Technician Class Amateur Radio License Preparation 10th Edition 2022-2026
+#### Gordon West Technician Class Amateur Radio License Preparation 10th Edition 2022-2026
 
 Gordon West is one of the best-known names in amateur radio education, and for good reason! He's been teaching and writing about ham radio for decades and is known for his personable and enthusiastic approach to mentoring new hams. While we couldn't provide a detailed AI review of this book due to format limitations, it's worth noting that Gordon West's materials are highly regarded in the amateur radio community.
 
@@ -116,11 +116,11 @@ This book is absolutely worth consideration if you're looking to go deeper into 
 
 Gordon's books are supported by the [HamStudy mobile app](https://ham.study/appstore).
 
-## Ham Radio School
+#### Ham Radio School
 
 Another good resource supported by the [HamStudy mobile app](https://ham.study/appstore).  is Ham Radio School Technician License Course (2022–2026) by Stu Turner, W0STU. Like Gordon's books I was unable to run it through the AI so I can't provide a review for this. It's worth noting that they have their own web-based learning system as well! I have no personal experience with it so cannot say more – but feel free to look it up!
 
-## Other options
+#### Other options
 
 Do you know other options that should be here? [Shoot me an email](mailto:richard@hamstudy.org) and we can discuss it. I'm going to be a bit choosy about who we add going forward, but if you want to be listed on this page the main thing I need is a digital copy of the text of your book so I can run it through the AI. Don't worry, we won't use it with any of our resources!
 

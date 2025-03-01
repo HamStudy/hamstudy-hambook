@@ -54,7 +54,7 @@ These examples show how grid locators can pinpoint locations across the United S
 
 ---
 
-### Beyond the Exam: More Ham Radio Adventures
+#### Beyond the Exam: More Ham Radio Adventures
 
 Now that we've covered the operating activities you need to know for the exam, let's explore some other exciting aspects of ham radio. While these topics won't be on your Technician test, they represent the incredible diversity of this hobby and might inspire your next radio adventure!
 

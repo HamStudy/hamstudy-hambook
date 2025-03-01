@@ -15,7 +15,7 @@ Let's take a moment to reflect on what you've learned:
 
 5. The Community: Perhaps most importantly, you've gotten a glimpse into the vibrant, global community of amateur radio operators that you're about to join.
 
-### Preparing for Your Technician License Exam
+#### Preparing for Your Technician License Exam
 
 Now that you've gone through the material, it's time to prepare for your exam. Here's how you can use HamStudy.org to effectively prepare:
 
@@ -52,7 +52,7 @@ Now that you've gone through the material, it's time to prepare for your exam. H
 
 Remember, the goal isn't just to memorize answers, but to understand the concepts. The questions you see on the actual exam may be worded differently from what you've studied, so focus on comprehension rather than rote memorization.
 
-### Your Next Steps
+#### Your Next Steps
 
 Passing the exam and getting your license is just the beginning. Here are some next steps to consider:
 

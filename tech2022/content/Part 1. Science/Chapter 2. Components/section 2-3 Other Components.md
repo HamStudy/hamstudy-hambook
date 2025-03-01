@@ -59,7 +59,7 @@ When setting up your ham shack or building equipment, you'll encounter various t
 
 Choosing the right type of wire for each application in your ham shack is crucial for optimal performance and safety. It's all part of the fun of building and customizing your own gear!
 
-### Conclusion
+#### Conclusion
 
 From transformers and relays to different types of wire, each component in your radio equipment plays a crucial role. Understanding these basic building blocks is key to comprehending how your gear works, troubleshooting issues, and even designing your own circuits.
 

@@ -60,7 +60,7 @@ Avoid the temptation to ground your transceiver to any random metal part of the 
 
 A well-grounded mobile installation not only improves your signal quality but also protects your equipment, ensuring that your mobile setup operates smoothly wherever your travels take you.
 
-### Conclusion: Be the Radio Detective
+#### Conclusion: Be the Radio Detective
 
 Dealing with interference and setting up proper grounding might not be as exciting as making your first contact, but it's what separates the novices from the pros. Plus, there's a certain satisfaction in solving these puzzles. It's like being a radio detective!
 
