@@ -6,7 +6,7 @@ questions: []
 
 ## Chapter 7: Operating Practices
 
-Welcome to the heart of amateur radio - actually getting on the air and making contacts! In this chapter, we'll dive into the practical aspects of operating your station and communicating with other hams around the world.
+Welcome to the heart of amateur radio - actually getting on the air and making contacts! In this chapter, we'll discuss the practical aspects of operating your station and communicating with other hams around the world.
 
 We'll start with the fundamentals of FM operation, the mode you'll likely use most as a new Technician. You'll learn everything from calling procedures to handling signal issues, and understanding the quirks that make FM unique.
 

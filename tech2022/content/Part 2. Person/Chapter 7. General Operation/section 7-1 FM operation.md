@@ -4,7 +4,7 @@ questions: [ "T2A11", "T2A02", "T2B10", "T2B11", "T2A08", "T7B01", "T2B05", "T8A
 
 ### Section 7.1: FM Operation
 
-Alright, new hams, let's dive into the world of FM (Frequency Modulation) - the bread and butter of many Technician class operators. Think of FM as the smooth jazz of radio modes: clear, crisp, and relatively noise-free.
+Alright, new hams, welcome to the world of FM (Frequency Modulation)—the bread and butter of many Technician class operators. Think of FM as the smooth jazz of radio modes: clear, crisp, and relatively noise-free.  
 
 > **Key Information:** FM is the most common voice mode for VHF/UHF communications. It provides clear audio with resistance to noise, but uses more bandwidth than other modes. *When tuning an FM receiver, you must be precisely on frequency or the audio will be distorted.* {{< link id="T4B12" >}}
 

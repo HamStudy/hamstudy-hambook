@@ -129,7 +129,7 @@ Some repeaters aren't just linked through the airwaves—they use the internet t
 
 > **Key Information:** IRLP access is accomplished *by using DTMF signals*. To use EchoLink, you must *register your call sign and provide proof of license*. {{< link id="T8C06" >}} {{< link id="T8C10" >}}
 
-Now, let's dive into systems that you can interact with and control directly. These systems don't just relay your signal—they let you take control and connect with repeaters and hams all over the globe:
+Now, let’s take a closer look at systems you can interact with and control directly. These aren’t just simple relays—they give you the power to connect with repeaters and hams all over the globe.
 
 **IRLP (Internet Radio Linking Project)**
 

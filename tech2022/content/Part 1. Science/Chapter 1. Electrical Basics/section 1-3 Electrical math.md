@@ -5,7 +5,7 @@ questions: [ "T5D07", "T5D12", "T5D10", "T5D09", "T5D08", "T5D02", "T5D06", "T5D
 
 ### Section 1.3: Electrical Laws (and Math)
 
-Okay, let's get into some of the basic math and electrical laws you'll use all the time in amateur radio. Don't worry—this isn't rocket science (though I imagine rocket scientists would use this as well!). We're talking about Ohm's Law and the Power Law, which are like the peanut butter and jelly of electronics. They go together perfectly, and once you get the hang of them, you'll see they're not that hard to digest.
+Okay, let's get into some of the basic math and electrical laws you'll use all the time in amateur radio. Don't worry—this isn't rocket science (though I rocket scientists would likely use this as well!). We're talking about Ohm's Law and the Power Law, which are like the peanut butter and jelly of electronics. They go together perfectly, and once you get the hang of them, you'll see they're not that hard to digest.
 
 #### But First... Don't Panic About the Math!
 

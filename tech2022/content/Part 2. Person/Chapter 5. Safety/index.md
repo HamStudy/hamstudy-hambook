@@ -15,4 +15,4 @@ Battery safety is another crucial topic we'll cover, especially important for th
 
 Remember, safety isn't just about following rules - it's about developing a mindset that prioritizes well-being in all aspects of the hobby. By the end of this chapter, you'll have the knowledge to create a safe environment for your radio activities, ensuring that your ham radio experience is not only fun but also secure.
 
-So, let's put on our safety glasses and hard hats (metaphorically speaking) and dive into the world of amateur radio safety!
+So, let’s put on our safety glasses and hard hats (metaphorically speaking) and learn how to enjoy ham radio without any shocking surprises!

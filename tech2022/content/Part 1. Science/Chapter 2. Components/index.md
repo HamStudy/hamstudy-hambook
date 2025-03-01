@@ -7,7 +7,7 @@ questions: []
 
 Every radio is made up of basic building blocks - electrical components that work together to make communication possible. In this chapter, we'll introduce you to these components and help you understand their roles in amateur radio equipment.
 
-You don't need to be an electrical engineer to understand this stuff! We'll keep things simple and practical, focusing on what these components do rather than complex theory. Think of it like getting to know the different tools in a toolbox - you don't need to know how to build them, just what they're used for.
+You don't need to be an electrical engineer to understand this stuff! We'll keep things simple and practical, focusing on what these components do rather than complex theory. It's just like getting to know the different tools in a toolbox - you don't need to know how to build them, just what they're used for.
 
 We'll look at:
 - Basic parts like resistors and capacitors

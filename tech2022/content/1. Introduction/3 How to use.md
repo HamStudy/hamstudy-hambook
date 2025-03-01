@@ -1,6 +1,6 @@
 # How to Use This HamBook
 
-Welcome to your guide for the Technician Class amateur radio license! This HamBook is designed to support you wherever you are in your amateur radio journey, whether you're looking to quickly get your license or dive deep into the technical concepts. Here's how to get the most out of this resource:
+Welcome to your guide for the Technician Class amateur radio license! This HamBook is designed to support you wherever you are in your amateur radio journey, whether you're looking to quickly get your license or gain a deeper understanding of the technical concepts. Here's how to get the most out of this resource:
 
 ## Structure of the HamBook
 

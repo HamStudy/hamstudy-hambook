@@ -40,13 +40,11 @@ Even if it seems convenient, it's just not worth the risk. Utility poles often c
 
 #### Guy Wires and Structural Support
 
-Towers often need guy wires for support, especially taller ones.
+Tall towers often need guy wires to keep them standing strong. But there’s a small but important detail—if the turnbuckles (the metal adjusters that tighten the guy wires) loosen due to vibration, the whole structure could be at risk!
 
 > **Key Information:** *The purpose of a safety wire through a turnbuckle used to tension guy lines is to prevent loosening of the turnbuckle from vibration* {{< link id="T0B05" >}}
 
-Think of it as a safety pin that keeps the turnbuckle from unwinding itself due to wind and weather.
-
-Here's how it works: You run a thin wire through the eyes or holes in the turnbuckle after it's been properly adjusted. This wire prevents the turnbuckle from rotating, keeping your guy wires at the proper tension. It's a simple step that can prevent a tower collapse!
+The fix is simple: after adjusting the turnbuckle, thread a thin safety wire through its holes and twist the ends together. This keeps it from spinning loose over time. Just a little wire can make the difference between a steady tower and a dangerous collapse!
 
 #### Grounding Systems and Lightning Protection
 

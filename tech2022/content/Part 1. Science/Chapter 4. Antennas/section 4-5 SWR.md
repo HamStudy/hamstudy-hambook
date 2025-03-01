@@ -12,7 +12,7 @@ Standing Wave Ratio, or SWR, is a critical concept in ensuring your antenna syst
 
 SWR is essentially a report card for the impedance match in your antenna system. It tells you how well the impedance of your transmitter matches the impedance of your feed line and antenna combined. When these impedances match (typically at 50 ohms in amateur radio), maximum power transfers from your transmitter to your antenna system.
 
-Think of it like two pipes connected together. If they're the same size, water flows smoothly from one to the other. If one pipe is bigger than the other, some water splashes back. In radio terms, that "splash back" is power being reflected back to your transmitter instead of being accepted by your feed line and antenna.
+Think of your radio system like water flowing through pipes. Your transmitter pushes the signal (water) through your feed line (pipe) to your antenna. When the pipes are the right size (good impedance match), water flows smoothly. But if there's a mismatch, some water gets pushed back, creating backpressure - just like RF energy being reflected back to your transmitter. This backpressure is what SWR measures.
 
 SWR is measured as a ratio - here's what different readings mean:
 

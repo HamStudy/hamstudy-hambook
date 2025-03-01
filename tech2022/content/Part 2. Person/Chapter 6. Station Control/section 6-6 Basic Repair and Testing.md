@@ -6,7 +6,7 @@ questions: [ "T6D04", "T7C01", "T7C03", "T7D04", "T0A12", "T7D01", "T7D02", "T7D
 
 #### Introduction to Test Equipment
 
-Let's dive into some essential skills for keeping your ham shack running smoothly: using test equipment and basic soldering.
+Let’s get familiar with some essential skills for keeping your ham shack running smoothly: using test equipment and basic soldering.
 
 #### The Multimeter: Your Ham Shack Swiss Army Knife
 

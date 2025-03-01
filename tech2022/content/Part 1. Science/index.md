@@ -18,4 +18,4 @@ Whether you're preparing for the Technician class exam or simply curious about r
 
 Don't worry if some concepts seem challenging at first. Every experienced ham operator started exactly where you are now—curious and eager to learn. As you progress, you'll build a foundation of knowledge that transforms scientific principles into the magic of radio communication.
 
-So let's dive in and explore the incredible science that makes amateur radio possible!
+So let's get started and explore the incredible science that makes amateur radio possible!

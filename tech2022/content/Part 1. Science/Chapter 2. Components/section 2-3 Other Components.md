@@ -11,7 +11,7 @@ As we venture further into the world of electronic components, we encounter a di
 
 > **Key Information:** A *transformer changes 120V AC power to a lower AC voltage* for other uses. {{< link id="T6D06" >}}
 
-Imagine a seesaw at a playground, where a small child on one end can lift a much heavier adult on the other. Transformers work on a similar principle, but with electrical energy instead of playground physics.
+Picture a seesaw at a playground, where a small child on one end can lift a much heavier adult on the other. Transformers work on a similar principle, but with electrical energy instead of playground physics.
 
 <img src="../../../images/s2-3-transformer.svg" alt="Transformer schematic diagram" style="width: 150px; float: right; padding-right: 1rem; ">
 Transformers consist of two or more coils of wire wound around a common core, usually made of iron. They're the masters of voltage conversion, capable of stepping voltage up or down while maintaining (almost) the same power. This ability makes them crucial in various amateur radio applications:

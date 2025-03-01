@@ -11,7 +11,7 @@ In this chapter, we'll navigate the world of FCC regulations that govern amateur
 
 You'll learn about frequency allocations - which parts of the radio spectrum are available for amateur use and what you're allowed to do in each band. We'll cover important concepts like primary and secondary allocations, and how to share bands with other services.
 
-We'll dive into the nitty-gritty of station identification, teaching you when and how to properly identify your station. You'll learn about authorized and prohibited transmissions, ensuring you stay on the right side of the law while on the air.
+We'll get into the nitty-gritty of station identification, teaching you when and how to properly identify your station. You'll learn about authorized and prohibited transmissions, ensuring you stay on the right side of the law while on the air.
 
 We'll also cover important topics like emergency communications protocols, third-party traffic rules, and international regulations that affect amateur radio.
 
@@ -21,4 +21,4 @@ By the end of this chapter, you'll have a clear understanding of your rights and
 
 > When it comes to operating an Amateur Radio station, the FCC rules *always* apply – when there are exceptions, like for an emergency, that exception is written into the rules so they still apply!
 
-So, let's dive into the rules and ensure your amateur radio adventure stays on the right frequency!
+With that in mind, let’s discuss the rules and ensure your amateur radio adventure stays on the right frequency!  

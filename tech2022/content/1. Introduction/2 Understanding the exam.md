@@ -29,7 +29,7 @@ You might wonder why the Technician question pool covers so many topics when you
 
 ### Different Paths in Amateur Radio
 
-Amateur radio operators pursue wildly different interests under the same license. Possible focus areas include (among others):
+Amateur radio operators pursue surprisingly different interests under the same license. Possible focus areas include (among others):
 
 - Emergency communications and public service
 - DXing (contacting distant stations around the world)

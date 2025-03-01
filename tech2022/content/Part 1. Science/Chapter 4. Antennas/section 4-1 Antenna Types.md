@@ -29,9 +29,9 @@ When we talk about antenna gain, think of it like changing from a regular light 
 
 1. **Beam Antennas**
   
-   **Key Information:** A *beam antenna* is *an antenna that concentrates signals in one direction* {{< link id="T9A01" >}}. Think of these like a flashlight reflector focusing light. The *Yagi antenna offers the greatest gain* {{< link id="T9A06" >}} of common antenna types, using multiple elements to achieve high gain and directivity.
-   
-   It's important to remember that *gain* is just a redistribution of the signal – think of it like a mirror or a lens that focuses the siganl onto your antenna. You get a stronger signal from that focal point, but much weaker for anything coming from a different direction that misses the "lens".
+   **Key Information:** A *beam antenna* is *an antenna that concentrates signals in one direction* {{< link id="T9A01" >}}. Picture it as a flashlight reflector focusing light. The *Yagi antenna offers the greatest gain* {{< link id="T9A06" >}} of common antenna types, using multiple elements to achieve high gain and directivity.  
+
+   It's important to remember that *gain* is just a redistribution of the signal—like a mirror or a lens that directs the signal toward your antenna. You get a stronger signal at that focal point, but anything outside that focus becomes much weaker.
 
 2. **Dipoles**
    
@@ -89,7 +89,7 @@ Sometimes we need to modify antennas to make them work better or fit in a smalle
    **Key Information:** The small, flexible antennas that come with handheld radios are convenient but have a significant drawback: they have *low efficiency compared to a full-sized quarter-wave antenna* {{< link id="T9A04" >}}. This means less of your power actually gets converted into radio waves.
 
 3. **Antenna Tuners**
-   **Key Information:** An antenna tuner's main job is to *match the antenna system impedance to the transceiver's output impedance* {{< link id="T9B04" >}}. Think of it like a gearbox that helps your transmitter work efficiently with your antenna.
+   **Key Information:** An antenna tuner's main job is to *match the antenna system impedance to the transceiver's output impedance* {{< link id="T9B04" >}}. It’s like a gearshift, adjusting the connection so your transmitter and antenna work together as efficiently as possible.  
 
 #### Antennas Requiring Tuners
 

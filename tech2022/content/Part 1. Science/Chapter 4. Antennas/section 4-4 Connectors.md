@@ -39,7 +39,7 @@ Many hams use **BNC adapters** on their radios so they can easily switch between
 
 > **Key Information:** *PL-259 connectors are **commonly used at HF and VHF frequencies** but are **not ideal for true UHF work**.* {{< link id="T9B07" >}}
 
-Despite its name, the “UHF connector” is a bit of a misnomer. It’s widely used for **HF and VHF** radios, but it’s not the best choice for UHF. Think of it as that friend who got a nickname as a kid and never shook it off.  
+Despite its name, the “UHF connector” is a bit of a misnomer. It’s widely used for **HF and VHF** radios, but it’s not the best choice for UHF. The name originates from a time when the UHF spectrum was defined as a different (lower) range of frequencies but the connector name stuck.
 
 You’ll find these connectors on a lot of **mobile and base station gear**. They’re **rugged**, **easy to solder**, and can handle **high power levels**.  
 

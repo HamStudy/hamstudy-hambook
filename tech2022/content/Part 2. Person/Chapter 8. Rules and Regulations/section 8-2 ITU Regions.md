@@ -41,4 +41,4 @@ For the exam, remember:
 
 Understanding ITU Regions is your first step into the world of international radio regulations. It's a reminder that amateur radio is truly a global hobby, connecting us across borders and oceans. So next time you're on the air, remember—you're not just a U.S. ham, you're part of a worldwide community of radio enthusiasts, all playing by (mostly) the same rulebook!
 
-Keep this international perspective in mind as we dive deeper into the rules and regulations that govern our exciting hobby. Up next, we'll explore the specific frequencies you're allowed to use as a Technician class operator. Stay tuned!
+Keep this international perspective in mind as we get deeper into the rules and regulations that govern our exciting hobby. Up next, we'll explore the specific frequencies you're allowed to use as a Technician class operator. Stay tuned!

@@ -4,7 +4,7 @@ questions: [ "T4A11" ]
 
 ### Section 6.2: Interference and Grounding
 
-Alright, let's dive into the world of interference and grounding - or as I like to call it, "The Art of Keeping Your Signals Clean and Your Neighbors Happy."
+Alright, let’s step into the world of interference and grounding—or as I like to call it, "The Art of Keeping Your Signals Clean and Your Neighbors Happy."
 
 #### Interference: The Uninvited Guest
 

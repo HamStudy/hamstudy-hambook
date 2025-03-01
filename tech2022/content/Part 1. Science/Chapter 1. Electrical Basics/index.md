@@ -3,9 +3,9 @@ questions: []
 slug: chpt1
 ---
 
-## Chapter 1: Electrical Principles
+## Chapter 1: Electrical Principles  
 
-Welcome to the foundation of amateur radio - electrical principles! In this chapter, we'll dive into the fascinating world of electricity that powers all our radio adventures. Don't worry if you're not an electrical engineer; we'll break down these concepts into bite-sized, easy-to-understand pieces.
+Welcome to the foundation of amateur radio—electrical principles! In this chapter, we’ll unravel the fascinating world of electricity that powers all our radio adventures. Don’t worry if you’re not an electrical engineer; we’ll break these concepts down into bite-sized, easy-to-understand pieces.  
 
 We'll start with the basics - what is electricity, and how does it behave? You'll learn about voltage, current, and resistance, the three musketeers of electrical circuits. We'll explore Ohm's Law, the fundamental relationship between these quantities, and see how it applies to real-world radio situations.
 

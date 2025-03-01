@@ -21,11 +21,11 @@ Always keep the wires between your power supply and radio short and reasonably h
 
 #### Surge Protectors
 
-Speaking of power, don't forget a good surge protector. Think of it as a bouncer for your equipment, keeping those nasty power spikes out of your radio's delicate circuits.
+Speaking of power, don't forget a good surge protector. It’s like a shock absorber for your equipment, softening the blow of unexpected power spikes before they reach your radio’s delicate circuits.
 
-#### Digital Interfaces
+#### Digital Interfaces  
 
-For the digital enthusiasts, an interface to connect your radio to your computer can be a lot of fun. This little box lets you dive into the world of digital modes, opening up new ways to communicate. When you're hooking up your radio to a computer for digital modes, *you're dealing with three main signals: receive audio, transmit audio, and push-to-talk (PTT).*
+For digital enthusiasts, connecting your radio to your computer can open up a whole new world of communication. This little box acts as your bridge to digital modes, unlocking exciting possibilities. When setting up your radio for digital modes, *you’ll be working with three main signals: receive audio, transmit audio, and push-to-talk (PTT).*  
 
 #### Antenna Analyzers, SWR Meters, and Power Meters
 

@@ -4,7 +4,7 @@ questions: [ "T2B01", "T2B13", "T4B02", "T4B04", "T4B05", "T7A07", "T2B06", "T4B
 
 ### Section 6.4: Operating Your Transceiver
 
-Now that you understand what transceivers are and how they work, let's dive into how to actually operate them. We'll start with the most common controls found on all radios and then introduce some specialized features that you might encounter if you decide to explore additional modes beyond FM.
+Now that you understand what transceivers are and how they work, let’s explore how to operate them. We’ll start with the most common controls found on all radios and then introduce some specialized features you might encounter if you decide to explore additional modes beyond FM.
 
 #### Basic Controls for All Transceivers
 

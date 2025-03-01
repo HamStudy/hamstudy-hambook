@@ -45,7 +45,7 @@ In 2014, a group of hams made headlines by repurposing an old NASA satellite for
 <img src="../../images/illus/kidsfun1.svg" alt="A couple of kids with radios" style="float: left; margin-right: 2em; width: 250px;">
 Whether you’re into the technical side of things, enjoy making long-distance contacts, or just want to be prepared in case of an emergency, amateur radio has something to offer. It’s a hobby that spans generations, bringing together people of all ages who share a love for radio communication.
 
-As you dive into amateur radio, you’ll find a community ready to help you learn, grow, and connect. Whether it’s through local club meetings or global contests, there are endless opportunities to make new friends and discover new aspects of the hobby.
+As you explore amateur radio, you’ll find a community ready to help you learn, grow, and connect. Whether it’s through local club meetings or global contests, there are endless opportunities to make new friends and discover new aspects of the hobby.
 
 <div style="clear:both;"></div>
 

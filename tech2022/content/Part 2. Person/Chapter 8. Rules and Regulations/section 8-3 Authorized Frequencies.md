@@ -101,7 +101,7 @@ Here's a pro tip that might save you from an FCC warning: Be careful about opera
 
 3. Frequency Drift: Some radios, especially if they're not warmed up, might drift slightly in frequency as you operate.
 
-For these reasons, it's good practice to stay a little bit inside the band edges when you transmit. Think of it as giving yourself a safety margin. Most experienced hams try to stay at least a few kHz inside the band, just to be on the safe side.
+For these reasons, it's good practice to stay a little bit inside the band edges when you transmit, giving yourself a safety margin. Most experienced hams try to stay at least a few kHz inside the band, just to be on the safe side.
 
 It's always better to err on the side of caution and keep your signals well within the authorized limits. That way, you can focus on enjoying your contacts without worrying about accidentally straying out of bounds!
 

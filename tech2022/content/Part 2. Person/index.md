@@ -20,4 +20,5 @@ Each chapter builds on the scientific foundation you've already established. Saf
 
 As you progress through these chapters, you'll transform from someone who understands radio theory to a skilled amateur radio operator ready to make your first contact, help your community, and become part of a global network of communicators.
 
-The scientific journey of Part 1 was about understanding how radio works. The human journey of Part 2 is about showing what amateur radio can do. Let's dive in and discover the incredible world that awaits beyond the theory!
+The scientific journey of Part 1 was about understanding how radio works. The human journey of Part 2 is about showing what amateur radio can do. It's now time to discover the incredible world that awaits beyond the theory!
+

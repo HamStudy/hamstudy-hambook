@@ -118,7 +118,7 @@ Club station licenses are a special type of amateur radio license granted to a c
 
 1. **Club Composition**: To qualify, *a club needs at least four members*. {{< link id="T1F11" >}} It's not a one-person show!
 
-2. **Club Identity**: The club must have a name, a document of organization, and management. Think of it as your radio club's birth certificate and family tree.
+2. **Club Identity**: The club must have a name, a document of organization, and management. Think of it as the club’s charter—it lays out who you are, how things are run, and makes everything official.
 
 3. **Primary Purpose**: The club's main goal should be all about amateur radio activities. No disguising your book club as a ham radio club!
 

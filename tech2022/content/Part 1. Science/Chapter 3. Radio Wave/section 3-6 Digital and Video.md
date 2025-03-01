@@ -32,7 +32,7 @@ It's like sending a puzzle through the air that reassembles itself perfectly on 
 
 #### RTTY (RadioTeletype)
 
-RTTY is the granddaddy of digital modes, dating back to the 1930s. Think of it as a radio-based typewriter. It's still popular in contests and among some news agencies.
+RTTY is the granddaddy of digital modes, dating back to the 1930s. It's pretty much a radio-based typewriter. It's still popular in contests and among some news agencies.
 
 #### PACTOR
 
@@ -82,7 +82,7 @@ To *select a specific group of stations on a digital voice transceiver*, you typ
 
 > **Key Information:** *Digital hot spots enable communication using digital voice or data systems via the internet* {{< link id="T4A10" >}}
 
-A *digital hot spot* allows *communication using digital voice or data systems via the internet*. Think of it as your personal gateway to the world of digital radio, extending your reach far beyond your local area for modes like DMR, D-STAR, or System Fusion.
+A *digital hot spot* allows *communication using digital voice or data systems via the internet*. It's almost like having your own personal repeater, providing a gateway to the world of digital radio, extending your reach far beyond your local area for modes like DMR, D-STAR, or System Fusion.
 
 #### Computer-Radio Interfaces
 
