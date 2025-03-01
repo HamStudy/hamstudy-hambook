@@ -28,7 +28,7 @@ Imagine you’re outside on a sunny day:
 The electromagnetic spectrum includes all types of electromagnetic radiation, from the longest radio waves to the shortest gamma rays. As amateur radio operators, we work primarily with the radio portion of this spectrum. Here's how our key ranges fit in:
 
 ```
-Radio Waves (Our Domain)                 Higher Energy Waves
+Radio Waves (Our Domain)             Higher frequency Waves
 <-----------------------------------|----------------------->
      HF         VHF         UHF     | Microwaves, Light, etc.
 3-30 MHz   30-300 MHz   300-3000 MHz
