@@ -12,9 +12,11 @@ Radio waves work in a similar way, but instead of sound, they're electromagnetic
 
 > **Key Information:** *RF* (Radio Frequency) refers to *radio signals of all types*.{{< link id="T5C06" >}}
 
-You've probably heard the term **RF** tossed around, but what does it actually mean? **RF stands for Radio Frequency** – basically, it's a fancy way of saying "radio signals." RF covers all types of radio signals, whether they're used for voice, data, or other forms of wireless communication. So when someone mentions RF, they're talking about the entire range of frequencies that we hams and other radio operators use to send our signals through the air.
+You've probably heard the term **RF** tossed around, but what does it actually mean? **RF stands for Radio Frequency** – basically, it's a fancy way of saying "radio signals." RF covers all types of radio signals, whether they're used for voice, data, or other forms of wireless communication.  
 
-Whether you're tuning in to your favorite FM station, chatting on a repeater, or sending data over a satellite link, you're working with RF. It's the bread and butter of all radio communication, and it's what makes all this cool stuff possible.
+As we've already mentioned, **radio frequency energy (RF) is a form of alternating current (AC), but at much higher frequencies than household electricity**. Instead of moving electrons back and forth in a wire, like AC in your home, RF travels as electromagnetic waves through space, carrying signals across short and long distances.  
+
+Whether you're tuning in to your favorite FM station, chatting on a repeater, or sending data over a satellite link, you're working with RF. It's the bread and butter of all radio communication, and it's what makes all this cool stuff possible.  
 
 > **Key Information:** The abbreviation *MHz* stands for "megahertz" which is a measurement of frequency (1,000,000 Hz).{{< link id="T5C07" >}}
 
