@@ -4,9 +4,7 @@ questions: [ "T3B03", "T3B06", "T3B02", "T3B04", "T3B05", "T3B07", "T3B11", "T5C
 
 ### Section 3.1: Frequency and Wavelength
 
-Imagine you're at a concert, listening to a bass guitar playing a low note. You can feel the deep, slow vibrations in your chest. Now, picture a flute playing a high note—it's a quick, light sound that seems to dance in the air. This difference in pitch is all about frequency—how many times the sound wave vibrates in a second.
-
-Radio waves work in a similar way, but instead of sound, they're electromagnetic waves traveling through space at the speed of light.
+Imagine you're watching waves at the beach. Some waves come in quickly, one after another, while others roll in more slowly with greater distance between them. This difference is all about frequency—how many waves arrive in a given time. Radio waves work in a similar way, but instead of water, they're electromagnetic waves traveling through space at the speed of light.
 
 #### What is RF?
 
@@ -16,7 +14,7 @@ You've probably heard the term **RF** tossed around, but what does it actually m
 
 As we've already mentioned, **radio frequency energy (RF) is a form of alternating current (AC), but at much higher frequencies than household electricity**. Instead of moving electrons back and forth in a wire, like AC in your home, RF travels as electromagnetic waves through space, carrying signals across short and long distances.  
 
-Whether you're tuning in to your favorite FM station, chatting on a repeater, or sending data over a satellite link, you're working with RF. It's the bread and butter of all radio communication, and it's what makes all this cool stuff possible.  
+Whether you're tuning in to your favorite broadcast station, chatting on a repeater, or sending data over a satellite link, you're working with RF. It's the bread and butter of all radio communication, and it's what makes all this cool stuff possible.  
 
 > **Key Information:** The abbreviation *MHz* stands for "megahertz" which is a measurement of frequency (1,000,000 Hz).{{< link id="T5C07" >}}
 
@@ -46,13 +44,27 @@ This is crucial because your antenna needs to match this orientation for best re
 > - To find wavelength in meters, use this formula: *300 divided by frequency in megahertz* {{< link id="T3B06" >}}
 > - Amateur radio bands are often identified by their *approximate wavelength in meters* {{< link id="T3B07" >}}
 
-Just like musical notes, radio frequencies span a wide range:
-- **Low frequencies** (like AM radio) are the bass guitar of the radio world, with wavelengths that can be kilometers long
-- **High frequencies** (like microwaves and the radios used for wireless networking or cell phones) are more like the flute, with wavelengths that might be just a few millimeters
+Radio waves come in all sorts of sizes. The size of a radio wave—its wavelength—is directly related to its frequency, and understanding this relationship is key to understanding amateur radio bands.
 
-The higher (faster) the frequency, the shorter the distance the wave travels in one cycle, and thus, the shorter the wavelength. Conversely, lower frequencies have longer wavelengths because each wave travels farther before completing a cycle.
+Wavelength is the physical distance a radio wave travels while completing one full cycle. When you hear about the "2-meter band" or the "70-centimeter band," you're hearing about the approximate wavelength of the signals in that band.
 
-Here's how to calculate wavelength:
+The radio spectrum is divided into several frequency ranges that are important to ham radio operators:
+
+- **HF (High Frequency)**: 3-30 MHz, with wavelengths from 100 meters down to 10 meters
+  - Includes our 80m, 40m, 20m, 15m, and 10m bands
+  - Often allows for long-distance communication due to ionospheric propagation
+
+- **VHF (Very High Frequency)**: 30-300 MHz, with wavelengths from 10 meters down to 1 meter
+  - Includes our popular 6m and 2m bands
+  - Primarily used for regional communication, with occasional long-distance openings
+
+- **UHF (Ultra High Frequency)**: 300-3000 MHz, with wavelengths from 1 meter down to 10 centimeters
+  - Includes our 70cm and 33cm bands
+  - Typically used for local communication and specialized applications
+
+The higher the frequency, the shorter the wavelength. This inverse relationship means that as frequency increases, wavelength decreases proportionally. A signal at 144 MHz (2m band) has twice the frequency and half the wavelength of a signal at 72 MHz.
+
+Here's how to calculate wavelength (which we often refer to with the variable lambda, or λ):
 
 $$\text{Wavelength (}\lambda\text{)} = \frac{300}{\text{Frequency in MHz (}f\text{)}}$$
 
