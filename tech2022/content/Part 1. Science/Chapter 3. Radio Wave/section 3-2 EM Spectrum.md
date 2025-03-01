@@ -4,7 +4,9 @@ questions: [ "T3B10", "T3B08", "T3B09" ]
 
 ### Section 3.2: The Electromagnetic Spectrum
 
-Imagine you're standing on a beach, watching waves roll in. Some waves are gentle ripples, while others are massive swells. The electromagnetic spectrum is like an infinite ocean of waves, but instead of water, these waves are made of electric and magnetic fields traveling through space.
+The electromagnetic spectrum is like a vast highway with different lanes for different types of energy. Radio waves, visible light, X-rays, and gamma rays are all electromagnetic energy traveling at the speed of light, but each occupies its own "lane" in the spectrum, defined by its frequency and wavelength.
+
+As amateur radio operators, we get to work with specific portions of this highway—different frequency bands that have been allocated for our use. Each band has unique characteristics that make it suitable for different types of communication.
 
 #### Key Radio Frequency Ranges
 
