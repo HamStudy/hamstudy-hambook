@@ -132,25 +132,28 @@ Most ham gear runs on **DC power**, but **radio signals themselves are AC**—th
 
 > **Key Information:** *Impedance is the opposition to AC current flow* {{< link id="T5C12" >}} and, like resistance, it's measured in *ohms ($\Omega$)*. {{< link id="T5C05" >}}
 
-In a **DC circuit**, resistance is simple—it just opposes down the flow of electricity, like friction in a water pipe. But in an **AC circuit**, impedance is more complex because it also includes reactance, which depends on frequency.
-
-- **Inductive reactance** makes it harder for AC to flow as frequency increases, which is why inductors are used in filters and tuning circuits.
-- **Capacitive reactance** does the opposite—capacitors allow more AC to flow as frequency increases, making them useful for blocking DC while letting AC through.
+In a **DC circuit**, resistance simply opposes the flow of electricity. But in an **AC circuit**, the story gets more complex.
 
 *Capacitance describes the ability to store energy in an electric field* {{< link id="T5C01" >}} and is measured in *farads*. {{< link id="T5C02" >}}
 
 *Inductance describes the ability to store energy in a magnetic field* {{< link id="T5C03" >}} and is measured in *henrys*. {{< link id="T5C04" >}}
 
-Taken together, resistance, capacitive reactance, and inductive reactance determine a circuit's opposition to alternating current. This total opposition is called **impedance**, measured in ohms.
+In electrical circuits that include capacitors and/or inductors, the effect these components have on alternating current will vary with frequency. This frequency-dependent opposition to current flow is called **reactance**.
 
-Since **reactance** depends on frequency, impedance changes at different frequencies. This is why antennas and feedlines must be designed for the correct impedance—otherwise, power gets reflected instead of radiating efficiently.
+- **Inductive reactance** increases as frequency increases
+- **Capacitive reactance** decreases as frequency increases
 
-Your radio is designed to work best when connected to a **50-ohm antenna system**. If the impedance doesn't match:
-- Some of your signal gets **reflected back** instead of being transmitted.
-- Your signal might not travel as far.
-- Your radio could even **reduce power or overheat** to protect itself.
+**Impedance** combines both resistance and reactance, giving us the total opposition to AC current flow in a circuit.
 
-A *resonant circuit consists of an inductor and a capacitor in series or parallel*. {{< link id="T6D11" >}} These circuits are fundamental to radio design as they can be tuned to respond strongly to specific frequencies.
+A *resonant circuit consists of an inductor and a capacitor in series or parallel*. {{< link id="T6D11" >}} At resonance, the inductive and capacitive reactances are equal in magnitude but opposite in effect, creating interesting and useful circuit behaviors.
+
+Amateur radio equipment is typically designed to work with specific impedance values. For example, most transceivers are designed to connect to a **50-ohm** system. When impedances aren't properly matched:
+
+- Power transfer becomes less efficient
+- Some energy may be reflected back toward the source
+- Equipment may need to reduce power output to protect itself
+
+These principles apply to many parts of your radio system, including antennas, which exhibit properties of resistance, capacitance, and inductance.
 
 ---
 
