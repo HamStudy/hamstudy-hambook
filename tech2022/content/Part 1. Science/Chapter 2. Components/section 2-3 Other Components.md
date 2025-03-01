@@ -17,7 +17,7 @@ Picture a seesaw at a playground, where a small child on one end can lift a much
 Transformers consist of two or more coils of wire wound around a common core, usually made of iron. They're the masters of voltage conversion, capable of stepping voltage up or down while maintaining (almost) the same power. This ability makes them crucial in various amateur radio applications:
 
 1. **Power supplies**: Transformers help convert the high voltage from your wall outlet to the lower voltages your radio equipment needs.
-2. **Impedance matching**: In audio circuits, transformers can match the impedance of different stages for optimal power transfer.
+2. **Impedance matching**: In audio circuits, transformers can match the impedance of different stages for optimal power transfer. Between a transmission line and an antenna, a transformer can help match the transmission line impedance to the impedance of the antenna.
 3. **Antenna tuners**: Some antenna tuners use transformers to help match your antenna system to your radio.
 
 Fun fact: The largest transformer in the world weighs over 800 tons and can handle about 1 billion watts of power - enough to supply electricity to a small city! Thankfully, the transformers in your ham shack are much, much smaller.
