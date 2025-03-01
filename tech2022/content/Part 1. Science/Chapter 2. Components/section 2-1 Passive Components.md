@@ -9,7 +9,7 @@ illustration_ideas:
 - Series vs parallel circuit diagrams
 ---
 
-### Section 2.1: Passive Components
+### Section 2.1: Basic Components
 
 When you peek inside any radio equipment, you'll find a fascinating array of electronic components working together in harmony. Let's start our exploration with passive components - the workhorses of electronic circuits that don't require an external power source to function.
 
@@ -71,10 +71,10 @@ These two circuit types behave very differently:
 
 > **Key Information:** A *potentiometer is used to control resistance* {{< link id="T6A03" >}} and is often used as a *volume control*. {{< link id="T6A02" >}}
 
-A *potentiometer* is a variable resistor with three terminals. As you turn the knob or slide the control, the resistance changes. In amateur radio, they are commonly used for:
+A *potentiometer* is a variable resistor. As you turn the knob or slide the control, the resistance changes. In amateur radio, they are commonly used for:
 1. Volume control
 2. Adjusting transmit power levels
-3. Tuning circuits
+3. Adjusting the squelch control
 
 #### Switches: The Circuit Controllers
 
