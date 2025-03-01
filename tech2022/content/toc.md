@@ -26,7 +26,7 @@ title: "Table of Contents: HamStudy Technician License HamBook (2022-2026)"
   - Power Law
 
 ### Chapter 2: Electrical Components
-- Section 2.1: Passive Components
+- Section 2.1: Basic Components
   - Resistor
   - Inductor, capacitor
 - Section 2.2: Semiconductors
