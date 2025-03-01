@@ -39,6 +39,8 @@ In amateur radio, we often deal with **alternating current (AC)**, which smoothl
 
 ![Diagram showing 2 cycles of 120VAC voltage at 60Hz](../../../images/sine_wave_two_cycles.svg)
 
+AC occurs naturally when a magnet rotates near a wire. As the magnet's north pole approaches the wire, current flows one way. When the south pole approaches, current flows the opposite way. This continuous rotation creates the smooth sine wave pattern shown in the diagram. This is the basic principle behind generators that produce the electricity powering our homes and the alternating currents in our radio circuits.
+
 The diagram shows two complete **cycles** of AC - each starting at zero, rising to a positive peak, falling through zero to a negative peak, then returning to zero. *The number of these cycles completed per second is called frequency, measured in Hertz (Hz)*. {{< link id="T5A12" >}} {{< link id="T5A06" >}}
 
 Some examples:
