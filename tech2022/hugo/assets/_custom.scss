@@ -135,6 +135,13 @@ div.print-page-break { display: none; }
   max-width: var(--max-image-width) !important;
 }
 
+.markdown section blockquote {
+  background-color: #f0fdff;
+  // border-radius: 0.75rem;
+  border-left: 0.5rem solid #00bcd6;
+  margin: 1rem;
+}
+
 .full-pool {
 
   a.question-link::after {
@@ -316,7 +323,6 @@ div.print-page-break { display: none; }
     }
     a::after {
       content: leader('.') target-counter(attr(href), page);
-
     }
   }
 
