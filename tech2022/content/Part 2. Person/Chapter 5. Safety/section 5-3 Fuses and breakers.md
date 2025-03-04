@@ -32,7 +32,7 @@ Imagine you've just scored a sweet deal on a used power supply for your shack. Y
 
 > **Key Information:** *A 5-ampere fuse should never be replaced with a 20-ampere fuse because excessive current could cause a fire*{{< link id="T0A05" >}}
 
-#### Key Points to Remember
+#### Key Points about Fuses and Breakers
 
 Here are some key points to keep in mind when dealing with fuses and circuit breakers:
 

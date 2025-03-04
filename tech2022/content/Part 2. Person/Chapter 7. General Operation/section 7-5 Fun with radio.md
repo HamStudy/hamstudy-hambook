@@ -62,7 +62,7 @@ Now that we've covered the operating activities you need to know for the exam, l
 
 Imagine creating your own mini-internet using radio waves. That's what mesh networking is all about. Hams are setting up networks of nodes that can pass data between them, creating a robust, decentralized communication system. It's a wide area wireless network that doesn't go down when your ISP does!
 
-#### APRS (Automatic Packet Reporting System)
+#### APRS (Automatic Packet Reporting System) {#aprs-section75}
 
 Think of APRS as social media for your radio! It lets you transmit your position, weather data, and short messages over ham radio. Imagine a real-time map showing where hams are operating, complete with status updates and local information. It's especially useful during public service events or emergencies, allowing coordinators to see where their operators are at a glance.
 

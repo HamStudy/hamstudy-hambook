@@ -103,7 +103,7 @@ Understanding these effects helps you:
 
 When using digital modes, multipath propagation can be particularly troublesome because signals arriving via different paths can interfere with each other, increasing error rates. This is why digital modes often include error detection and correction mechanisms.
 
-#### Putting It All Together
+#### Propagation Review
 
 All these propagation methods work together to make radio communication possible. Understanding them helps you:
 - Choose the right band for your desired communication distance

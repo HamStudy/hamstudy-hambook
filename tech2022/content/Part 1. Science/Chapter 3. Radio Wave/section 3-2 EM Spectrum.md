@@ -34,7 +34,7 @@ Radio Waves (Our Domain)             Higher frequency Waves
 3-30 MHz   30-300 MHz   300-3000 MHz
 ```
 
-#### Practical Applications
+#### Different Bands for Different Purposes
 
 Different frequency ranges have different characteristics that make them useful for various types of communication:
 

@@ -3,10 +3,11 @@
 {{- $shownFigures := dict -}}
 
 <div class="markdown full-pool">
-  <h1>Question Pool</h1>
+  <h1>{{ .Site.Data.questions.title }}</h1>
+  <h4 class="subheading"><strong>Last updated: </strong>{{ .Site.Data.questions.lastUpdate }}</h4>
 
   {{- range $subelList -}}
-    <h2 id="{{ .id }}" class="subel subel-{{ .id }} header-text">{{ .id }}: {{ .name }}</h2>
+    <h2 id="{{ .id }}" class="subel subel-{{ .id }} header-text">Subelement {{ .id }}: {{ .name }}</h2>
     
     {{- range .sections -}}
       <h3 id="{{ .id }}" class="section-head"><span class="footer-text">Section <strong>{{ .id }}</strong></span>: {{ .summary }}</h3>
@@ -49,4 +50,6 @@
       </section>
     {{- end -}}
   {{- end -}}
+
+  <div class="h1 text-center">THE END!</div>
 </div>

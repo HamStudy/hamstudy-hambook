@@ -68,7 +68,8 @@ Consider these factors when choosing coax:
 - **How much power are you running?** Some coax handles heat and power better than others.  
 - **Will it be outside?** If so, use **UV-resistant, weatherproof** coax or protect it properly.  
 
-#### Conclusion  
+---
+
 Your feed line is just as important as your antenna. You could have the best antenna in the world, but if your coax is terrible, most of your power gets wasted before it even gets there.  
 
 So when you're setting up your station, **don't cheap out on your feed line!** Pick the right coax, protect it from the elements, and keep those connectors tight. Your signal (and everyone trying to hear you) will thank you!

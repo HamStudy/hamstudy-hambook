@@ -56,6 +56,9 @@
   display: none;
 }
 .blank-page { display: none; }
+h4.subheading {
+  margin-top: -0.67rem;
+}
 
 @media print {
   :root {
@@ -143,11 +146,17 @@
   margin: 1rem;
 }
 
+.h1 {
+  font-weight: 700;
+  font-size: 2em;
+}
+.text-center { text-align: center;}
+
 .full-pool {
 
   a.question-link::after {
     content: ' (page ' target-counter(attr(href), page) ')';
-  }å
+  }
   .subel {
     text-align: center; font-weight: bolder; font-size: 1.05rem;
     padding: 0.25rem;
@@ -156,7 +165,7 @@
     border-bottom-style: dashed;
     margin-bottom: 0.25rem;
   }
-  div.section-head {
+  .section-head {
     width: 90%; margin: 0 auto 1em auto; font-size: 0.95em !important;
     background-color: #eee; border: 1px dotted #333; padding: 0.5em; border-radius: 0.5rem;
   }

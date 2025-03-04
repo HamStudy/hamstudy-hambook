@@ -95,7 +95,7 @@ Some types of amateur stations are permitted to automatically retransmit signals
 
 3. Space Stations: Satellites and other space-based amateur radio stations can automatically retransmit signals from Earth stations.
 
-#### Key Points to Remember
+#### Key Points to Control Operators
 
 1. The control operator is responsible for all transmissions from the station, regardless of who is actually speaking.
 2. If the station licensee and the control operator are not the same individual, both equally share responsibility for proper operation of the station. It's like loaning out your car – careful who you give the keys to, because if there is an accident you both end up paying!

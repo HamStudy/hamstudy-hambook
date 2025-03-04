@@ -92,7 +92,7 @@ When an antenna's length matches the wavelength (or a fraction of it) of the rad
 
 For example, a half-wave dipole antenna for the 2-meter band would be about 1 meter long (half of 2.08 meters). We'll explore this more when we discuss antennas!
 
-#### Practical Applications
+#### Better Understanding, Better Results!
 
 Understanding these relationships helps you:
 1. Choose the right antenna length for your frequency

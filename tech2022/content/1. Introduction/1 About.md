@@ -50,7 +50,7 @@ As you explore amateur radio, you’ll find a community ready to help you learn,
 
 <div style="clear:both;"></div>
 
-## The purpose of Amateur Radio
+## The purpose of Amateur Radio {#purpose-intro}
 
 The Federal Communications Commission (FCC) regulates and enforces the rules for the Amateur Radio service in the United States and it was established with specific purposes *which you may need to know for the exam*. These form the basis and purpose of our hobby and service:
 

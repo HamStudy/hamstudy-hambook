@@ -60,7 +60,7 @@ There are two main types of transistors, and it's important to know the names of
 
 Think of an IC as a tiny electronic city, where many components (transistors, diodes, resistors, etc.) work together in a single chip. This technology makes modern radio equipment possible by packing complex circuits into small spaces.
 
-#### Putting It All Together
+#### Semiconductor Review
 
 Let's review the key semiconductor components and their main features:
 

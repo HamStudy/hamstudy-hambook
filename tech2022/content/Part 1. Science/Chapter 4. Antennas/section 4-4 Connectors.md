@@ -83,9 +83,9 @@ However, adapters aren’t for everyone. They **add bulk** and **a tiny amount o
 3. **Be gentle with SMA connectors** – They’re tough, but not indestructible.  
 4. **Stick to one connector type in your shack** – It’ll save you from adapter headaches down the road.  
 
-Remember, while adapters can be lifesavers, they’re **not ideal for permanent setups**. Every connection is a potential point of **signal loss or failure**. When possible, **use antennas and gear that match your radio’s connector directly**.  
+Remember, while adapters can be lifesavers, they’re **not ideal for permanent setups**. Every connection is a potential point of **signal loss or failure**. When possible, **use antennas and gear that match your radio’s connector directly**.
 
-#### Conclusion  
+---
 
 Understanding connectors isn’t the most exciting part of ham radio, but it’s one of the most **practical**. If you don’t know the difference between SMA-M and SMA-F, you might buy an antenna that won’t fit your handheld. If you don’t recognize a PL-259, you could end up with the wrong coax for your mobile or base station.  
 
