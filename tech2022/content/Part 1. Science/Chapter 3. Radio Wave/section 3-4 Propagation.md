@@ -55,7 +55,7 @@ Just because you can't see your target doesn't mean you can't reach it:
 
 Think of sky wave propagation like bouncing a ball off the ceiling to reach someone across the room. The ionosphere acts as our "ceiling" in the sky, but instead of a hard surface, it's a region of charged particles that bends (or refracts) radio waves back toward Earth. Because the ionosphere isn't uniform, signals may take different paths, causing variations in signal strength.
 
-For simplicity, this bending effect is often called reflection, though in reality, it's a gradual refraction through layers of the ionosphere that eventually sends the signal downward.
+For simplicity, this bending effect is often called "bouncing" or "reflection", though in reality, it's a gradual refraction through layers of the ionosphere that eventually sends the signal downward.
 
 - Different layers of the ionosphere affect different frequencies
 - Time of day and solar activity change how well it reflects signals
