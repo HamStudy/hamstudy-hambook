@@ -64,10 +64,10 @@ The vehicle's metal body acts as an RF shield, blocking or substantially reducin
 
 For best performance, consider:
 - Using an external magnetic mount antenna
-- Holding the radio near a vehicle window
-- Positioning the radio where metal obstructions are minimized
+- Holding the radio near a vehicle window / where metal obstructions are minimized
+- Using a properly installed mobile radio instead of a handheld
 
-Pro tip: If you must operate inside the vehicle, try to keep your handheld as high up and as close to a window as possible to minimize signal loss.
+> Pro tip: If you must operate inside the vehicle, keep your handheld as high up and as close to a window as possible to minimize signal loss. And remember, if you're driving, safety comes first—consider using hands-free options or waiting until you're stopped to operate your radio.
 
 ---
 
