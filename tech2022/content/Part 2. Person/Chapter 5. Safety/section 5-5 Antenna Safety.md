@@ -62,7 +62,7 @@ This ensures that lightning energy finds a direct path to ground instead of trav
 
 > **Key Information:** *A proper ground method for a tower is separate eight-foot ground rods for each tower leg, bonded to the tower and each other* {{< link id="T0B08" >}}
 
-This provides multiple paths to earth ground, reducing ground resistance and improving lightning protection.
+This provides multiple paths to earth ground, reducing ground resistance and improving lightning protection – it also reduces the chance of lightning seeking other paths to ground, such as the mounting hardware holding the tower in place!
 
 > **Key Information:** *Flat copper strap is the preferred conductor for RF bonding* {{< link id="T4A08" >}}
 
