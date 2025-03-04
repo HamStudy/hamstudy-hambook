@@ -1,7 +1,7 @@
 
 ## Conclusion: Your Journey into Amateur Radio
 
-Congratulations! You've made it through the Technician License HamBook, and what a journey it's been. From the basics of electricity and radio waves to the intricacies of operating procedures and FCC regulations, you've laid a solid foundation for your amateur radio adventure.
+Congratulations! You've made it through the Technician License HamBook, and what a journey it's been. From the basics of electricity and radio waves to the intricacies of operating procedures and FCC regulations, you've laid a solid foundation for your amateur radio adventure. <span class="clear-footer"></span>
 
 Let's take a moment to reflect on what you've learned:
 

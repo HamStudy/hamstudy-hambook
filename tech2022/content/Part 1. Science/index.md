@@ -1,11 +1,12 @@
 ---
 slug: pt1
 questions: []
+pagebreak: true
 ---
 
 # Part 1: The Science Behind Amateur Radio
 
-How can a small radio device send your voice across towns, states, or even around the world? The answer lies in the fascinating scientific principles of electricity, radio waves, and communication technology.
+How can a small radio device send your voice across towns, states, or even around the world? The answer lies in the fascinating scientific principles of electricity, radio waves, and communication technology. <span class="clear-footer"></span>
 
 Amateur radio is more than just talking into a microphone—it's a remarkable blend of physics, engineering, and human innovation. In this section, we'll explore the fundamental scientific principles that transform electrical signals into long-distance communication.
 

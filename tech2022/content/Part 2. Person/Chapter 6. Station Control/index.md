@@ -1,6 +1,7 @@
 ---
 slug: chpt6
 questions: []
+pagebreak: true
 ---
 
 ## Chapter 6: Station Setup

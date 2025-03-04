@@ -1,6 +1,7 @@
 ---
 slug: chpt8
 questions: []
+pagebreak: true
 ---
 
 ## Chapter 8: Rules and Regulations

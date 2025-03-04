@@ -1,6 +1,7 @@
 ---
 slug: chpt2
 questions: []
+pagebreak: true
 ---
 
 ## Chapter 2: Electrical Components

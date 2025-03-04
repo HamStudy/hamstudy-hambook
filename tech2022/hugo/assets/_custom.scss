@@ -55,7 +55,7 @@
 #cover-image {
   display: none;
 }
-div.print-page-break { display: none; }
+.print-page-break { display: none; }
 
 @media print {
   :root {
@@ -65,10 +65,10 @@ div.print-page-break { display: none; }
 
   p { margin-block: var(--paragraph-spacing); }
 
-  div.print-page-break {
+  .print-page-break {
     display: block;
-    page-break-after: always;
-    break-after: page;
+    page-break-before: always;
+    break-before: page;
   }
   #cover-image {
     display: block;
@@ -87,8 +87,12 @@ div.print-page-break { display: none; }
   math annotation { display: none !important; }
   #_index h1 { margin-top: 0; font-size: 1.5em; text-align: center; }
   a.anchor { display: none !important; }
-  section.book-section h2 { string-set: chapter content(), section ''; }
-  section.book-section h3 { string-set: section content(); }
+  section.book-section > h2, .header-text { string-set: chapter content(); }
+  section.book-section > h3, .footer-text { string-set: section content(); }
+  .clear-footer {
+    string-set: section '';
+    position: relative
+  }
   .book-all-pages-toc {
     string-set: chapter '';
     break-before: page;
@@ -98,14 +102,6 @@ div.print-page-break { display: none; }
   }
   section.book-section::after {
     string-set: section '';
-  }
-  .book-section.level1 {
-    break-before: page;
-    page-break-before: always;
-  }
-  .book-section.level2 {
-    break-before: page;
-    page-break-before: always;
   }
   .book-section.level3 {
     margin-bottom: var(--post-section-margin);
@@ -146,8 +142,8 @@ div.print-page-break { display: none; }
 
   a.question-link::after {
     content: ' (page ' target-counter(attr(href), page) ')';
-  }
-  h2.subel {
+  }å
+  .subel {
     text-align: center; font-weight: bolder; font-size: 1.05rem;
     padding: 0.25rem;
     border-radius: 0.5rem 0.5rem 0 0rem;
@@ -155,7 +151,7 @@ div.print-page-break { display: none; }
     border-bottom-style: dashed;
     margin-bottom: 0.25rem;
   }
-  h3.section-head {
+  div.section-head {
     width: 90%; margin: 0 auto 1em auto; font-size: 0.95em !important;
     background-color: #eee; border: 1px dotted #333; padding: 0.5em; border-radius: 0.5rem;
   }
