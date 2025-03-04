@@ -70,7 +70,7 @@ Tactical call signs are short, descriptive names used to identify a station's fu
 
 * "1st street, this is Net Control"
 * "Net control from 1st street, go ahead!"
-* "Do you have eyes on the parade with the giant bologna sandwich?"
+* "Can you see the parade float with the giant bologna sandwich?"
 * "Affirmative net control, they are passing my location now"
 * "Thank you. I'll send someone to return their cooler of pastrami – it fell off a block back and they didn't notice"
 * "Copy that. 1st street, KF1AZT clear"

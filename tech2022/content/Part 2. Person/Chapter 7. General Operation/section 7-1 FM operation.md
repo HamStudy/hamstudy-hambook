@@ -30,7 +30,7 @@ Now, let's talk about using FM in the ham world:
 
 2. **Repeater Operation**: Remember those range-extending marvels we talked about earlier? Most VHF and UHF repeaters use FM. They listen on one frequency and transmit on another, vastly extending your range.
 
-3. **Narrow Band FM**: Many modern radios use Narrow Band FM to squeeze more channels into our precious spectrum. It's like the radio equivalent of compact parking - same car, smaller space.
+3. **Narrow Band FM**: Many modern radios use Narrow Band FM to squeeze more channels into our precious spectrum. It's like the radio equivalent of compact parking - smaller car, smaller space.
 
 > **Key Information:** Simplex means transmitting and receiving on the same frequency. {{< link id="T2A11" >}} The national FM simplex calling frequency for 2 meters is 146.520 MHz. When using a repeater, you're operating in duplex mode (transmitting and receiving on different frequencies).
 
@@ -48,7 +48,7 @@ When operating FM, remember:
 
 FM has some quirks you should know about:
 - **Capture Effect**: The strongest signal wins. If two stations transmit simultaneously, you'll usually hear only the stronger one. If the signals are roughly the same strength then likely neither will be understandable.
-- **Near-Far Problem**: A nearby station can sometimes overpower a more distant repeater on a nearby frequency. If this happens, try adjusting your squelch or using a directional antenna.
+- **Near-Far Problem**: A nearby station can sometimes overpower a more distant repeater on a nearby frequency. If this happens, try moving or using a directional antenna.
 
 #### Common Radio Codes
 

@@ -21,9 +21,9 @@ Welcome to the "do's and don'ts" of amateur radio! Understanding what you can an
 2. **Emergency Communications**: 
    
    > **Key Information:**
-   > *Amateur stations may transmit information in support of broadcasting, program production, or news gathering when such communications are directly related to the immediate safety of human life or protection of property.* {{< link id="T1D09" >}}
+   > *Amateur stations may transmit information in support of broadcasting, program production, or news gathering when such communications are directly related to the **immediate safety of human life or protection of property**.* {{< link id="T1D09" >}}
 
-   When things go sideways, all bets are off. Use whatever means necessary to call for help or be a hero to others. It's like having a "break glass in case of emergency" option for the rulebook.
+   In a real emergency, the usual rules take a backseat—you’re allowed to use any communication method necessary to get help! It's like having a "break glass in case of emergency" option for the rulebook, but remember that you may be called on to justify your decision, so make sure it was an actual emergency and that was the only way to solve it!
 
 3. **Ham Radio Show-and-Tell**:
    - Spread the word about cool ham radio stuff
@@ -52,7 +52,7 @@ Welcome to the "do's and don'ts" of amateur radio! Understanding what you can an
    > **Key Information:**
    > *From within any vessel or craft located in international waters and documented or registered in the United States, an FCC-licensed amateur station may transmit.* {{< link id="T1C06" >}}
 
-   Here's a fun fact: You can transmit from a boat in international waters, as long as you stick to frequency bands allocated internationally in each of the three ITU regions. IF you are in territorial waters of another country then you need to know and follow their rules.
+   Here's a fun fact: You can transmit from a boat in international waters, as long as you stick to frequency bands allocated internationally in each of the three ITU regions. If you are in territorial waters of another country then you need to know and follow their rules.
 
 #### Third-Party Communications: Playing Telephone (Literally)
 
@@ -154,8 +154,9 @@ Remember, these are exceptions to the general rule. The primary purpose of amate
 7. **Stay in Your Lane**: 
    Retransmitting other radio services (like your local FM station or police scanner) is a big no-no. Stick to amateur radio content.
 
-8. **Check the "Do Not Call" List**: 
-   Some countries are off-limits for ham communication. If the FCC says no, it means no. Always check before making international contacts.
+8. **Check the "Do Not Call" List**:  
+   Some countries are off-limits for ham communication—not just because the FCC says so, but because those countries have notified the **International Telecommunication Union (ITU)** (See Section 8.2) that they don’t allow their citizens to communicate with foreign amateur radio operators.
+
 
 9.  **Play Nice**: 
 

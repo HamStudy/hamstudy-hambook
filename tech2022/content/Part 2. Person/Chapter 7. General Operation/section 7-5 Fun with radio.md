@@ -64,7 +64,7 @@ Imagine creating your own mini-internet using radio waves. That's what mesh netw
 
 #### APRS (Automatic Packet Reporting System) {#aprs-section75}
 
-Think of APRS as social media for your radio! It lets you transmit your position, weather data, and short messages over ham radio. Imagine a real-time map showing where hams are operating, complete with status updates and local information. It's especially useful during public service events or emergencies, allowing coordinators to see where their operators are at a glance.
+We talked about this a bit in Section 3.6 – think of APRS as social media for your radio! It lets you transmit your position, weather data, and short messages over ham radio. Imagine a real-time map showing where hams are operating, complete with status updates and local information. It's especially useful during public service events or emergencies, allowing coordinators to see where their operators are at a glance.
 
 #### SOTA (Summits On The Air) and POTA (Parks On The Air)
 

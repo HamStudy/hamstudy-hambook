@@ -6,11 +6,11 @@ questions: [ "T2A05", "T2A12", "T2C03", "T8D09" ]
 
 Alright, new Technicians, let's take a peek into the world of HF (High Frequency) operation. Now, I know what you're thinking: "But I'm a Technician, I don't have many HF privileges!" True, but you do have some, and understanding HF operation is still useful both for the license exam and for possible future operations if you upgrade your license!
 
-HF (High Frequency) bands allow for long-distance communication through ionospheric propagation. Technicians have voice privileges on a portion of the 10-meter band (28.3 to 28.5 MHz).
-
 #### Technician HF Privileges
 
-As a Technician, you have voice privileges on a small slice of the 10-meter band (28.3 to 28.5 MHz) when conditions are right. This is your gateway to HF, and it's a whole different ballgame from VHF/UHF.
+As a Technician, you have voice privileges on a small slice of the 10-meter band (28.3 to 28.5 MHz), which allows for long-distance communication through skywave propagation when conditions are right. Think of this as your foot in the door to HF—it’s a whole different world compared to VHF/UHF!
+
+But wait, there's more! If you're feeling adventurous, as a Technician, you can also use up to 200 watts for *CW* (Morse code) on the 15, 40, and 80-meter bands. So, while your voice privileges are limited, you still have plenty of opportunities to explore HF!
 
 #### What Makes HF Special
 

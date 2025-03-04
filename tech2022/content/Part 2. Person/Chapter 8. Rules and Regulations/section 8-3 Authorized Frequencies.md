@@ -77,7 +77,7 @@ Now, before you get too excited about cranking up the power, remember a few thin
 
 - Just because you can use that much power doesn't mean you always should. Good operators use the minimum power necessary to make the contact. It's like using an "indoor voice" - you don't shout when a normal conversation will do.
 
-- Some modes or specific segments might have lower power limits. Always check the current band plan and regulations.
+- Some modes, specific segments, and even geographical areas might have lower power limits. Always check the current band plan and regulations!
 
 - With great power comes great responsibility. Higher power means more potential for interference with neighbors' electronics and more safety considerations in your shack.
 

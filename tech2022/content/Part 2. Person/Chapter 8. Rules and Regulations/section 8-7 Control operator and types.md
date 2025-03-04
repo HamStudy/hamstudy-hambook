@@ -26,7 +26,7 @@ A control operator is an amateur radio operator designated by the station licens
 
    > **Key Information:** *An amateur station may never transmit without a control operator.* {{< link id="T1E01" >}}
    
-   Even in the case of automatic control such as a repeater, the control operator is the repeater licensee.
+   Even in the case of automatic control such as a repeater where no control operator is present, there must still be a control operator designated (usually the repeater owner or trustee).
 
 5. Keep your station records organized and complete:
 
