@@ -55,7 +55,7 @@
 #cover-image {
   display: none;
 }
-.print-page-break { display: none; }
+.blank-page { display: none; }
 
 @media print {
   :root {
@@ -69,6 +69,11 @@
     display: block;
     page-break-before: always;
     break-before: page;
+  }
+  .blank-page {
+    display: block;
+    page-break-after: always;
+    break-after: page;
   }
   #cover-image {
     display: block;

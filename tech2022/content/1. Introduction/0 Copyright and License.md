@@ -1,5 +1,6 @@
 ---
 slug: copyright
+pagebreak: true
 ---
 ## Copyright
 
