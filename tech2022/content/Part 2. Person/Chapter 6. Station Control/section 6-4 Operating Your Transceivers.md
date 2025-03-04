@@ -136,7 +136,7 @@ All-mode transceivers often include noise reduction systems:
 
 - **Noise Blanker**: Helps reduce impulse noise like ignition noise
 - **Digital Noise Reduction**: Uses DSP to identify and reduce random noise
-- **Notch Filter**: Eliminates steady tones that can make reception difficult
+- **Notch Filter**: Eliminates steady tones that can make reception difficult and can help reduce interference from an adjacent signal
 
 These features enhance your receiver's ability to pick out desired signals by filtering out unwanted signals and noise.
 
