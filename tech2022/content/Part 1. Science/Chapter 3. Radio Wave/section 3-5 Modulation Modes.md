@@ -4,13 +4,15 @@ questions: [ "T8A01", "T8A06", "T8A02", "T8A03", "T8A04", "T8A05", "T8A07", "T8A
 
 ### Section 3.5: Modulation Modes and Bandwidth
 
-Imagine you're at a busy train station. Trains of all shapes and sizes are carrying different types of cargo. In the world of radio, our "trains" are carrier waves, and the "cargo" is the information we want to send. The way we load this information onto our carrier wave is called modulation.
+Imagine you're trying to send a message to a friend across a dark field using a laser pointer. You might blink it on and off, vary its brightness, or switch between different colored lasers (red, green, blue) to communicate. That's exactly what we're doing in radio! Radio waves and visible light are both forms of electromagnetic (EM) waves—they're cousins in the same energy family, just at different frequencies.
 
-#### Amplitude Modulation (AM)
+The color of a laser is determined by its frequency—red has a lower frequency than green or blue. Similarly, in radio, we work with different frequencies that we can't see. When we talk about radio modulation, we're talking about how we manipulate these invisible waves to carry our voice or data. Let's explore these different ways of manipulating radio waves and how much radio spectrum space (bandwidth) each method needs.
 
-> **Key Information:** *Single Sideband (SSB) is a form of amplitude modulation.* {{< link id="T8A01" >}}
+### Amplitude Modulation (AM)
 
-Imagine you're trying to communicate with a friend using a special lightbulb. In Amplitude Modulation (AM), you're changing the brightness of the bulb to send your message. A bright light means one thing, a dim light means another. The intensity of the light represents your signal - just like the height (amplitude) of a radio wave changes to carry information.
+In Amplitude Modulation (AM), we vary the strength (amplitude) of a radio wave to carry information. Think of it like changing the brightness of the laser, rapidly increasing or decreasing the power of the light in order to convey information.
+
+When we vary the amplitude (intensity of the light) rapidly enough, something interesting happens: the signal creates additional frequencies (colors) slightly above and below the main frequency. These are called **sidebands**, and they actually contain the information you're transmitting. The main carrier wave itself doesn't contain any information — our hypothetical laser pointer's main color would be there but we'd see other colors above and below the main color as well and those are what would give us the message.
 
 While AM isn't the most common mode in amateur radio, you'll still encounter it in broadcast radio and some specialized communications. Most analog television signals, including Amateur Television (ATV), use AM.
 
@@ -20,9 +22,9 @@ While AM isn't the most common mode in amateur radio, you'll still encounter it 
 > - *FM/PM are commonly used for VHF packet radio transmissions* {{< link id="T8A02" >}}
 > - *FM/PM are the primary modes for VHF and UHF voice repeaters* {{< link id="T8A04" >}}
 
-Now imagine a different signaling method. Instead of changing brightness, you're changing the color of the lightbulb. A blue light might mean one thing, a green light another, with the colors shifting rapidly to convey your message. This is how Frequency Modulation (FM) works - the frequency of the wave changes to carry information. The light stays at a constant brightness, but the color shifts to communicate.
+In Frequency Modulation (FM), we keep the amplitude (brightness) constant but vary the frequency (color) of the radio wave. It's like using a light that maintains the same brightness but shifts between different colors to send your message—a specific color shift represents a specific sound or piece of data.
 
-Phase Modulation (PM) is similar, but instead of shifting the actual color dramatically, it's like delaying or advancing the timing of the color change. Imagine that instead of switching instantly between blue and green, there's a slight hesitation or an early jump between colors. The overall colors stay the same, but the timing of when the change occurs is slightly altered. If that doesn't make a lot of sense to you – don't worry, you don't really need to understand it, just remember that FM and PM are functionally almost the same and we usually just refer to them both as "FM".
+**Phase Modulation (PM)** is closely related to FM, but instead of directly changing the frequency, it shifts the **timing** of the wave. In practice, the effect is so similar that most amateur radio operators simply group PM and FM together as "FM." The specific differences are beyond the scope of this book, but for ham radio use, just remember that FM and PM both result in the same practical type of signal.  
 
 > **Key Information:** A *typical VHF repeater FM voice signal has a bandwidth between 10 and 15 kHz*. {{< link id="T8A09" >}}
 
@@ -34,16 +36,25 @@ Now, let's talk about SSB, which is where amplitude modulation gets a cool upgra
 > - *Compared to FM, SSB signals have a narrower bandwidth* {{< link id="T8A07" >}}
 > - *Upper Sideband (USB)* is *normally used for 10-meter HF, VHF, and UHF single-sideband communications* {{< link id="T8A06" >}}
 > - A *typical single sideband voice signal has an approximate bandwidth of 3 kHz* {{< link id="T8A08" >}}
+> - Single Sideband (SSB) is a form of amplitude modulation. {{< link id="T8A01" >}}
 
-Continuing our lightbulb analogy, SSB is like finding a way to communicate using just a small part of the color spectrum, removing unnecessary information. We've stripped away the "white light" (carrier) and one set of colors (sideband), leaving a more efficient signal. The result? A more focused way of sending your message. It's still amplitude modulation, but now using only half as much bandwidth.
+Remember how AM creates sidebands above and below the main frequency? In SSB, we eliminate the carrier wave and one of the sidebands. Using our laser pointer analogy, this would be like keeping the laser's color variations that represent your voice, but eliminating the constant background brightness of the beam when you're not speaking.
+
+If you could filter out just the color variations above the laser pointer's main frequency, the colors that represent your voice, you'd be left with just the colors in the side band below the pointer's main color. These colors can be referred to as a "single side band" or SSB. Your laser would only emit light when you're actually speaking, and it would use exactly the minimum amount of light needed to represent your voice - no wasted energy on a constant beam or redundant information from the upper side band. 
+
+If you removed the laser pointer's main frequency and the colors below (the colors in the lower side band), you'd be left with Upper Side Band (USB). 
+
+Both Upper Side Band (USB) and Lower Side Band (LSB) modulation are referred to as Single Side Band (SSB), because we're removed one of the side bands. Both are a form of Amplitude Modulation.
 
 There are two flavors of SSB:
 - **Upper Sideband (USB)**: Generally used on frequencies above 10 MHz. This includes the 30, 20, 17, 15, 12, and 10 meter bands.
 - **Lower Sideband (LSB)**: Used below 10 MHz, covering the 160, 80, and 40 meter bands.
 
+Since we only transmit the essential part of the signal, SSB uses about **half the bandwidth** of standard AM and requires much less power for the same range—making it a favorite for weak signal and long-distance communications.
+
 #### Bandwidth Comparison
 
-Radio signals are like different-sized trains, each taking up a different amount of track space in the radio spectrum:
+Different modulation modes occupy different amounts of frequency space, much like how different colors of light take up different parts of the visual spectrum:
 
 > **Key Information:** Approximate bandwidths:
 > - *CW (Morse Code)*: *Narrowest bandwidth, about 150 Hz* {{< link id="T8A05" >}} {{< link id="T8A11" >}}
@@ -53,16 +64,18 @@ Radio signals are like different-sized trains, each taking up a different amount
 
 #### Bandwidth and Frequency Range
 
-One fascinating aspect of amateur radio is how available bandwidth influences our choice of modulation. Think of radio bands like different-sized highways:
+One fascinating aspect of amateur radio is how available bandwidth influences our choice of modulation. Think of radio bands like different-sized sections of the electromagnetic spectrum:
 
-- **Narrow Highways (Limited Bandwidth)**: Modes like CW (Morse code) work brilliantly because they use an incredibly narrow slice of spectrum. When you have limited space, you want an efficient, skinny vehicle.
+- **Narrow Sections (Limited Bandwidth)**: Modes like CW (Morse code) work brilliantly because they use an incredibly narrow slice of spectrum—like using just a sliver of a specific color in the rainbow.
 
-- **Wider Highways (More Bandwidth)**: Bands with more available frequencies can support "wider" modes. For example:
+- **Wider Sections (More Bandwidth)**: Bands with more available frequencies can support "wider" modes. For example:
   - The 10-meter band has enough room for both narrow CW and wider SSB
   - VHF/UHF repeater bands can handle FM voice, which needs more bandwidth
-  - Fast-scan television requires massive bandwidth (about 6 MHz!)
+  - Fast-scan television requires massive bandwidth (about 6 MHz!) That's more than the width of any of the amateur bands below 70cm, so it is only allowed on 70cm and above.
 
-As frequency ranges get wider, you can use more bandwidth-intensive modes. A 2-meter band contact might use narrow FM, while the broader 10-meter band allows for wider SSB and even digital modes. This flexibility is part of what makes amateur radio so dynamic and exciting.
+As frequency ranges get wider, you can use more bandwidth-intensive modes. A 2-meter band voice contact might use wide FM (15kHz) or narrow FM (5kHz), or even narrower SSB (3kHz). There are digital modes which can be even narrower. One digital mode, PSK31 (which we'll discuss later), sends characters at 31 characters per second and coincidently only takes up 31Hz!
+
+This flexibility is part of what makes amateur radio so dynamic and exciting.
 
 #### These are just some of the modes!
 
