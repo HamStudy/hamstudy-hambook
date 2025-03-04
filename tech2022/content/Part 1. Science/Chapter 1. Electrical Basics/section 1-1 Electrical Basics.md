@@ -1,5 +1,7 @@
 ---
 slug: "section1.1"
+chapter: "1"
+section: "1.1"
 questions: 
 - T5A07
 - T5A08

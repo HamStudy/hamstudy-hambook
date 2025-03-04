@@ -1,4 +1,6 @@
 ---
+chapter: "6"
+section: "6.7"
 questions: [ "T7B06", "T7B04", "T7B02", "T7B03", "T7B11", "T7B08", "T7B05", "T7B07", "T7B09", "T7B10" ]
 ---
 

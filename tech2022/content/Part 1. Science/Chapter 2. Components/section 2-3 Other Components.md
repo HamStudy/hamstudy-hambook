@@ -1,5 +1,7 @@
 ---
 slug: section2.3
+chapter: "2"
+section: "2.3"
 questions: [ "T6D02", "T6D03", "T6D06" ]
 ---
 

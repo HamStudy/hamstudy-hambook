@@ -1,4 +1,6 @@
 ---
+chapter: "6"
+section: "6.5"
 questions: [ "T2A04", "T1F09", "T2B02", "T2B04", "T2B03", "T2A03", "T2A07", "T8C08", "T2A01", "T2A09", "T8C06", "T8C07", "T8C10", "T8C11", "T8C09" ]
 ---
 
