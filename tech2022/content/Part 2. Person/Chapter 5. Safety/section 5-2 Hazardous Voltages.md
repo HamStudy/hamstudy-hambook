@@ -14,6 +14,8 @@ In the ham radio world, we generally consider anything above 30 volts to be pote
 
 You might be surprised where hazardous voltages can pop up:
 
+- **Test Leads**: Whenever you are *measuring* hazardous voltages don't forget that the probes you use to measure are then also subject to those dangerous voltages! It's an easy thing to overlook when testing.
+
 - **Power Supplies**: That 13.8V power supply for your radio? Inside, it's converting 120V AC to DC. One wrong move and you could be in for a shock.
 
 - **Antenna Systems**: Ever heard of "hot" antennas? Some antennas can develop high voltages at their feed points, especially when transmitting.
