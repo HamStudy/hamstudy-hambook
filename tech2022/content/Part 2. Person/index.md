@@ -6,7 +6,7 @@ pagebreak: true
 
 # Part 2: The Person Behind Amateur Radio
 
-In Part 1, we explored the scientific foundations of radio communication—diving deep into electrical principles, radio waves, and the fundamental physics that make amateur radio possible. We learned how electrons flow, how radio waves propagate, and the intricate dance of electromagnetic energy. But science alone doesn't make a ham radio operator—it's what you do with that knowledge that truly matters.<span class="clear-footer"></span>
+In Part 1, we explored the scientific foundations of radio communication—learning about electrical principles, radio waves, and the fundamental physics that make amateur radio possible. We learned how electrons flow, how radio waves propagate, and the intricate dance of electromagnetic energy. But science alone doesn't make a ham radio operator—it's what you do with that knowledge that truly matters.<span class="clear-footer"></span>
 
 Now, we transition from understanding the invisible world of radio waves to the very human world of radio operation. Amateur radio isn't just about complex equations and technical diagrams; it's about connection, service, and community. The scientific principles you've learned are the tools, but the heart of amateur radio beats through the operators who use those tools to communicate, help others, and push the boundaries of technology.
 

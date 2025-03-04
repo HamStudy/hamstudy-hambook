@@ -6,7 +6,7 @@ pagebreak: true
 
 ## Chapter 6: Station Setup
 
-Get ready to build your gateway to the world! In this chapter, we're diving into the practical aspects of setting up and operating your amateur radio station. Whether you're planning a simple VHF/UHF setup or dreaming of expanding your capabilities, this chapter will guide you through the essentials.
+Get ready to build your gateway to the world! In this chapter, we're learning about into the practical aspects of setting up and operating your amateur radio station. Whether you're planning a simple VHF/UHF setup or dreaming of expanding your capabilities, this chapter will guide you through the essentials.
 
 We'll start by exploring must-have station accessories to complement your radio. You'll learn about power supplies, meters, and other gadgets that help your station function efficiently. We'll also cover proper grounding and interference prevention - crucial aspects that ensure your station performs well while playing nice with other electronics in your home.
 
