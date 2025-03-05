@@ -60,6 +60,21 @@ h4.subheading {
   margin-top: -0.67rem;
 }
 
+div.study-prompt {
+  display: flex; align-items: end; justify-content: space-between;
+  h4 { width: 50%; margin: 0; }
+}
+div.qrcode {
+  display: none !important;
+  justify-content: space-evenly; margin: 0 auto; width: 50%; min-width: 20rem;
+  padding: 0.5rem 0;
+  div, h4 { display: flex; justify-content: center; align-items: center; text-align: center; flex-shrink: 1; }
+  a { display: flex; }
+  border: 1px solid #00bcd6; border-radius: 0.5rem; text-align: center;
+  img { width: 5rem; max-width: none !important; padding-right: 0.5rem; }
+}
+
+
 @media print {
   :root {
     --max-image-width: var(--max-image-print-width);
@@ -84,6 +99,10 @@ h4.subheading {
     break-after: page;
   }
   .web-only { display: none; }
+
+  div.qrcode { 
+    display: flex !important;
+  }  
 
   .markdown {
     line-height: var(--body-line-height) !important;
@@ -177,6 +196,15 @@ h4.subheading {
       height: auto;
       width: auto;
       margin: auto;
+    }
+    &.figure-T1 img {
+      max-width: 60% !important;
+    }
+    &.figure-T2 img {
+      max-width: 100% !important;
+    }
+    &.figure-T3 img {
+      max-width: 50% !important;
     }
   }
   .question-item {

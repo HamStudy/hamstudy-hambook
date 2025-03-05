@@ -6,13 +6,35 @@
   {{- $joinedIDs := delimit $ids "," -}}
   {{- $questionsData := .Site.Data.questions.questions -}}
   {{- $shownFigures := dict -}}
-  {{- $baseURL := "https://hamstudy.org/flashcard/E2_2022?def=q:" -}}
+  {{- $hsBaseURL := .Site.Params.hsBaseURL -}}
+  {{- $qrBaseURL := .Site.Params.qrBaseURL -}}
+  {{- $bookChapter := .Params.chapter -}}
+  {{- $bookSection := .Params.section -}}
   {{- $ids := .Params.questions -}}
   {{- $joinedIDs := delimit $ids "," -}}
-  {{- $hsURL := printf "%s%s" $baseURL $joinedIDs -}}
+  {{- $hsURL := printf "%s%s&lvl1=%s&lvl2=%s" $hsBaseURL $joinedIDs $bookChapter $bookSection -}}
+  {{- $qrURL := printf "%s?%s" $qrBaseURL (querify "link" $hsURL) -}}
   <div class="questions-list markdown">
+
+    <div class="study-prompt">
       <h4>Possible Exam Questions:</h4>
-      <div class="markdown text-center pad-bottom"><a href="{{ $hsURL }}" class="book-btn" target="hamstudy">Study these questions on HamStudy.org</a></div>
+      <div class="markdown text-center web-only">
+        <a href="{{ $hsURL }}" class="book-btn" target="hamstudy">
+          Study this section with HamStudy
+        </a>
+      </div>
+      <div class="qrcode">
+        <div class="label">
+            Study this section<br />with HamStudy
+        </div>
+        <div class="img">
+            <a href="{{ $hsURL }}" target="hamstudy">
+                <img src="{{ $qrURL }}" alt="QR Code to study on HamStudy.org">
+            </a>
+        </div>
+      </div>
+    </div>
+
       {{- range .Params.questions -}}
           {{- $questionID := . -}}
           {{- $question := index $questionsData $questionID -}}
