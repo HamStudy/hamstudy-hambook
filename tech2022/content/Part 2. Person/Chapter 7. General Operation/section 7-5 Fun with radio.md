@@ -1,7 +1,7 @@
 ---
 chapter: "7"
 section: "7.5"
-questions: [ "T8C01", "T8C03", "T8C02", "T8C05", "T8C04" ]
+questions: [ "T8C01", "T8C02", "T8C03", "T8C04", "T8C05" ]
 ---
 
 ### Section 7.5: Fun with Amateur Radio

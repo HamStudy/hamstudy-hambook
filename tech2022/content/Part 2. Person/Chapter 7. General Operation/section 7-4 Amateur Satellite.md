@@ -1,7 +1,7 @@
 ---
 chapter: "7"
 section: "7.4"
-questions: [ "T1A07", "T1E02", "T8B01", "T8B03", "T8B06", "T8B05", "T8B04", "T8B09", "T8B11", "T1B02", "T8B02", "T8B07", "T8B08", "T8B10", "T8B12" ]
+questions: [ "T1A07", "T1E02", "T1B02", "T8B10", "T8B08", "T8B04", "T8B01", "T8B05", "T8B11", "T8B09", "T8B07", "T8B03", "T8B06", "T8B02", "T8B12" ]
 ---
 
 ### Section 7.4: Amateur Satellite Operation

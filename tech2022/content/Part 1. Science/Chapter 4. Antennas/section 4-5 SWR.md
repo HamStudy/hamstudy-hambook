@@ -1,7 +1,7 @@
 ---
 chapter: "4"
 section: "4.5"
-questions: [ "T7C04", "T7C06", "T7C02", "T7C05", "T7C08", "T9B01", "T9B09", "T9B12" ]
+questions: [ "T9B12", "T7C04", "T7C06", "T9B01", "T7C05", "T9B09", "T7C02", "T7C08" ]
 ---
 
 ### Section 4.5: Standing Wave Ratio (SWR)

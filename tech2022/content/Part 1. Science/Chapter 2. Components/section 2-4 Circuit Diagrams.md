@@ -2,7 +2,7 @@
 slug: section2.4
 chapter: "2"
 section: "2.4"
-questions: [ "T6C05", "T6C07", "T6C04", "T6C06", "T6C10", "T6C03", "T6C09", "T6C01", "T6C08", "T6C02", "T6C11", "T6C12", "T6D10" ]
+questions: [ "T6C01", "T6C12", "T6D10", "T6C02", "T6C08", "T6C06", "T6C09", "T6C10", "T6C03", "T6C07", "T6C05", "T6C04", "T6C11" ]
 ---
 
 ### Section 2.4: Circuit Diagrams: Putting It All Together

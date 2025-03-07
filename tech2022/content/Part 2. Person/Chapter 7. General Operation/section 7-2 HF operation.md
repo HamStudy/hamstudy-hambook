@@ -1,7 +1,7 @@
 ---
 chapter: "7"
 section: "7.2"
-questions: [ "T2A05", "T2A12", "T2C03", "T8D09" ]
+questions: [ "T8D09", "T2A12", "T2C03", "T2A05" ]
 ---
 
 ### Section 7.2: HF Operation

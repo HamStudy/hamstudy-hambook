@@ -2,7 +2,7 @@
 slug: section1.3
 chapter: "1"
 section: "1.3"
-questions: [ "T5D07", "T5D12", "T5D10", "T5D09", "T5D08", "T5D02", "T5D06", "T5D01", "T5D03", "T5D11", "T5C08", "T5C09", "T5C10", "T5C11", "T5D04", "T5D05" ]
+questions: [ "T5D03", "T5D01", "T5D02", "T5D12", "T5D06", "T5C08", "T5C09", "T5C10", "T5C11", "T5D04", "T5D05", "T5D07", "T5D08", "T5D09", "T5D10", "T5D11" ]
 ---
 
 ### Section 1.3: Electrical Laws (and Math)

@@ -1,7 +1,7 @@
 ---
 chapter: "4"
 section: "4.2"
-questions: [ "T3A03", "T3A04", "T3A09", "T9A03" ]
+questions: [ "T9A03", "T3A09", "T3A04", "T3A03" ]
 ---
 
 ### Section 4.2: Polarization and Orientation

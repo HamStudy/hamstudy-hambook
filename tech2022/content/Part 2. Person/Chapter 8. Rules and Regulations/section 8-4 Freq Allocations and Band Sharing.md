@@ -1,7 +1,7 @@
 ---
 chapter: "8"
 section: "8.4"
-questions: [ "T1A08", "T1A09", "T2A10", "T2B08", "T2B09", "T1B08" ]
+questions: [ "T1B08", "T2A10", "T1A08", "T1A09", "T2B09", "T2B08" ]
 ---
 
 ### Section 8.4: Frequency Allocations and Band Sharing

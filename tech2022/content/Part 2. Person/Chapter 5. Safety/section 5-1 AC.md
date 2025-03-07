@@ -1,7 +1,7 @@
 ---
 chapter: "5"
 section: "5.1"
-questions: [ "T0A06", "T0A02", "T0A03" ]
+questions: [ "T0A03", "T0A02", "T0A06" ]
 ---
 
 ### Section 5.1: AC Power

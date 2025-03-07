@@ -2,7 +2,7 @@
 slug: section2.1
 chapter: "2"
 section: "2.1"
-questions: [ "T6A04", "T6A12", "T6A01", "T5D14", "T6A02", "T6A03", "T6A06", "T5D13", "T6A05", "T6A07", "T6D08", "T6A08" ]
+questions: [ "T6A01", "T6A04", "T6A05", "T6A06", "T6A07", "T6D08", "T5D13", "T5D14", "T6A03", "T6A02", "T6A08", "T6A12" ]
 illustration_ideas:
 - component family portrait - A simple line drawing header for the section showing the basic components with friendly faces, positioned like a family photo.
 - capacitor internals, showing two conductive plates with an insulator

@@ -1,7 +1,7 @@
 ---
 chapter: "3"
 section: "3.5"
-questions: [ "T8A01", "T8A06", "T8A02", "T8A03", "T8A04", "T8A05", "T8A07", "T8A08", "T8A09", "T8A10", "T8A11" ]
+questions: [ "T8A02", "T8A04", "T8A09", "T8A03", "T8A07", "T8A06", "T8A08", "T8A01", "T8A05", "T8A11", "T8A10" ]
 ---
 
 ### Section 3.5: Modulation Modes and Bandwidth

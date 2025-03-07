@@ -1,7 +1,7 @@
 ---
 chapter: "8"
 section: "8.1"
-questions: [ "T1A01", "T1A02", "T1A04", "T1C02", "T1C01", "T1F11", "T1A05", "T1C05", "T1C04", "T1C07" ]
+questions: [ "T1A02", "T1A01", "T1C01", "T1A04", "T1A05", "T1C04", "T1C07", "T1C05", "T1C02", "T1F11" ]
 ---
 
 ### Section 8.1: Operator Classes, Privileges, and Call Signs

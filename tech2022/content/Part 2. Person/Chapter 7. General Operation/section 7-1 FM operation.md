@@ -1,7 +1,7 @@
 ---
 chapter: "7"
 section: "7.1"
-questions: [ "T2A11", "T2A02", "T2B10", "T2B11", "T2A08", "T7B01", "T2B05", "T8A12", "T4B12" ]
+questions: [ "T4B12", "T8A12", "T2A02", "T2A11", "T7B01", "T2B05", "T2B11", "T2B10", "T2A08" ]
 ---
 
 ### Section 7.1: FM Operation

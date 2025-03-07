@@ -1,7 +1,7 @@
 ---
 chapter: "6"
 section: "6.3"
-questions: [ "T7A01", "T7A02", "T7A04", "T7A05", "T7A03", "T7A08", "T7A06", "T7A09", "T7A11", "T7A10", "T9A07" ]
+questions: [ "T7A01", "T7A04", "T7A05", "T7A03", "T7A08", "T7A02", "T7A06", "T7A10", "T7A09", "T7A11", "T9A07" ]
 ---
 
 ### Section 6.3: Receiver, Transmitter, Transceiver
