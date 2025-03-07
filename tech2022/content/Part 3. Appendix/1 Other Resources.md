@@ -1,3 +1,6 @@
+---
+noprint: true
+---
 
 ## Other books for preparing for your Ham Radio license
 

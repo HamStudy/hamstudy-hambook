@@ -67,16 +67,15 @@ div.study-prompt {
     margin-top: var(--post-section-rev-margin);
     align-items: center;
   }
-  margin-bottom: 1rem;
   h4 { width: 50%; margin: 0; }
 }
 div.qrcode {
   display: none !important;
   justify-content: space-evenly; margin: 0 auto; width: 50%; min-width: 20rem;
   padding: 0.5rem 0;
-  div { display: flex; justify-content: center; align-items: center; text-align: center; flex-shrink: 1; }
+  div { display: flex; justify-content: center; align-items: center; text-align: center; }
   div.label { padding: 0 0.25em; }
-  div.img { height: 5rem; padding: 0; margin: 0; }
+  div.img { padding: 0; margin: 0; }
   a { display: block; height: 5rem; padding-right: 0.5rem; width: 6rem; }
   border: 1px solid #00bcd6; border-radius: 0.5rem; text-align: center;
   img { width: 5rem; max-width: none !important; }
@@ -392,6 +391,7 @@ div.qrcode {
 
   .question-item {
     page-break-inside: avoid;
+    break-inside: avoid-page;
   }
 
   @media screen {
