@@ -14,8 +14,8 @@ params:
   locale: 'en-us'
   social:
     facebook_admin: 723077621
-  hsBaseURL: "https://hamstudy.org/flashcard/E2_2022?bk=hb2022&def=q:"
   qrBaseURL: "https://hamstudy.org/api/v1/qrcode"
+  hsBaseURL: "https://hamstudy.org/flashcard/E2_2022?bk=hambook-tech2022&def=q:"
 
 
 markup:
