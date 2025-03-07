@@ -25,15 +25,15 @@
       </div>
       <div class="qrcode">
         <div class="label">
-            Study this section<br />with HamStudy
+            Study this section with HamStudy
         </div>
-        <div class="img">
-            <a href="{{ $hsURL }}" target="hamstudy">
-                <img src="{{ $qrURL }}" alt="QR Code to study on HamStudy.org">
-            </a>
-        </div>
+        <div class="img"><a
+            href="{{ $hsURL }}" target="hamstudy"
+            ><img src="{{ $qrURL }}" alt="QR Code to study on HamStudy.org"
+            ></a
+        ></div>
       </div>
-    </div>
+  </div>
 
       {{- range .Params.questions -}}
           {{- $questionID := . -}}

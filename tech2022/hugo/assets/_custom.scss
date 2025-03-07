@@ -16,6 +16,7 @@
   --side-caption-margin: 1em;
 
   --post-section-margin: 5rem;
+  --post-section-rev-margin: -4rem;
 
   --max-image-print-width: 100%;
 }
@@ -62,18 +63,29 @@ h4.subheading {
 
 div.study-prompt {
   display: flex; align-items: end; justify-content: space-between;
+  &.chapter-end {
+    margin-top: var(--post-section-rev-margin);
+    align-items: center;
+  }
+  margin-bottom: 1rem;
   h4 { width: 50%; margin: 0; }
 }
 div.qrcode {
   display: none !important;
   justify-content: space-evenly; margin: 0 auto; width: 50%; min-width: 20rem;
   padding: 0.5rem 0;
-  div, h4 { display: flex; justify-content: center; align-items: center; text-align: center; flex-shrink: 1; }
-  a { display: flex; }
+  div { display: flex; justify-content: center; align-items: center; text-align: center; flex-shrink: 1; }
+  div.label { padding: 0 0.25em; }
+  div.img { height: 5rem; padding: 0; margin: 0; }
+  a { display: block; height: 5rem; padding-right: 0.5rem; width: 6rem; }
   border: 1px solid #00bcd6; border-radius: 0.5rem; text-align: center;
-  img { width: 5rem; max-width: none !important; padding-right: 0.5rem; }
+  img { width: 5rem; max-width: none !important; }
 }
 
+.markdown table tbody td {
+  font-size: 0.8rem;
+  .katex { white-space: nowrap; }
+}
 
 @media print {
   :root {
@@ -82,6 +94,13 @@ div.qrcode {
   html { font-size: var(--body-text-size); }
 
   p { margin-block: var(--paragraph-spacing); }
+
+  hr.section-break {
+    background-color: #00bcd6;
+    height: 2px;
+    width: 50%;
+    margin: var(--post-section-margin) auto;
+  }
 
   .print-page-break {
     display: block;
@@ -137,6 +156,13 @@ div.qrcode {
   h3 { font-size: 1.35rem !important; }
   h4 { font-size: 1.2rem !important; }
   .book-all-pages-toc > h2:first-of-type, section.book-section > h1:first-of-type, section.book-section > h2:first-of-type { margin-top: 0; }
+
+  // Fix things that don't work in weasyprint:
+  aside nav ul ul { padding-left: 1rem; }
+  .book-languages ul { padding-left: 1.5em; }
+  .markdown {
+    ol, ul { padding-left: 2rem; }
+  }
 }
 
 :root {
@@ -159,7 +185,7 @@ div.qrcode {
 }
 
 .markdown section blockquote {
-  background-color: #f0fdff;
+  background-color: #e1fbff;
   // border-radius: 0.75rem;
   border-left: 0.5rem solid #00bcd6;
   margin: 1rem;
@@ -380,9 +406,4 @@ div.qrcode {
     }
   }
 
-  @media print {
-    hr {
-      display: none;
-    }
-  }
 }
