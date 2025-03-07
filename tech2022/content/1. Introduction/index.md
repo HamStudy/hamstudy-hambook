@@ -1,31 +1,32 @@
 ---
-title: Introduction
-slug: intro
+slug: copyright
 ---
+## Copyright, License, and Contributors
 
-# Introduction
+This work is copyright 2024 HamStudy.org LLC.
 
-Welcome to the HamStudy Technician License HamBook! Whether you're aiming to get your license quickly or develop a solid foundation in amateur radio, this book is here to help you succeed. Amateur radio (often called "ham radio") unlocks a world of possibilities, from casual chats with local operators to bouncing signals off the moon.  
+## License
 
-**What's Inside**
+This work is licensed under a [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](https://creativecommons.org/licenses/by-nc-nd/4.0/).
 
-This HamBook contains everything you need to get your Technician Class license:
+You are free to:
+- **Share** — copy and redistribute the material in any medium or format
 
-- Clear explanations of technical concepts, from basic electronics to radio wave propagation
-- Practical information about setting up and operating your first station
-- Important safety guidelines to keep you and your equipment protected
-- A straightforward overview of FCC rules and regulations
-- Practice questions from the actual exam pool
+Under the following terms:
+- **Attribution** — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+- **NonCommercial** — You may not use the material for commercial purposes.
+- **NoDerivatives** — If you remix, transform, or build upon the material, you may not distribute the modified material.
 
-People come to amateur radio for many different reasons. You might be interested in:
-- Emergency communications and public service
-- Building and experimenting with radio equipment
-- Making friends over the airwaves
-- The technical challenge of bouncing signals off satellites
-- Or simply having a new way to chat with people while driving
+## Contributors
 
-Whatever draws you to amateur radio, this HamBook is designed to help you get licensed and start exploring. You can choose how deeply you want to dig into each topic - some concepts are fascinating to explore in detail, while others you might just need to know enough to pass the exam.
+The following entities have contributed in major ways to this book:
 
-Remember, getting your license is just the first step. Many hams find that their real learning and growth happens once they get on the air and start operating. Whether you choose to study intensively or take a more gradual approach, we're here to help you join the amateur radio community.
+* Richard Bateman, KD7BBC – Primary author and mastermind
+* Ben Loveridge, KF7KGR – Publishing consultant and Chief of Keeping Richard On Task (CKROT)
+* Norm Goodkin, K6YXH – Content review and editor.
+* https://claude.ai – Much of the writing was done using Claude
+* https://chatgpt.com – A lot of ideas and minor text revisions were done with the help of ChatGPT
 
-Ready to begin? Let's get started!
+Also huge thanks to all who have emailed us about corrections or typos!
+
+---

@@ -6,11 +6,9 @@ gistMap:
     aboutradio.svg: "https://gist.github.com/taxilian/a7d1cca34d08baa8f98a3d6d4b408e55/raw/2af014f6fe1a1cdca103b22e7d15c17bafc396c7/aboutradio.svg"
     kidsfun1.svg: "https://gist.github.com/taxilian/a7d1cca34d08baa8f98a3d6d4b408e55/raw/a5789589185716a43748777ddfb7be48f2ba3b2c/kidsfun1.svg"
     morethanhobby.svg: "https://gist.github.com/taxilian/a7d1cca34d08baa8f98a3d6d4b408e55/raw/a5789589185716a43748777ddfb7be48f2ba3b2c/morethanhobby.svg"
-pagebreak: true
 ---
 
 # About Amateur Radio
-
 
 Amateur radio, often called "ham radio," is more than just a hobby—it's a community of enthusiasts who connect with others, experiment with electronics, and provide vital communication during emergencies. Unlike the internet, cell towers, or the electrical grid, amateur radio can operate independently, keeping you connected no matter where you are or what’s happening around you. Whether you’re chatting with a neighbor, tinkering with a new antenna, or helping out in a crisis, amateur radio opens up a world of possibilities.
 
