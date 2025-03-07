@@ -72,9 +72,9 @@ Here's how to calculate wavelength (which we often refer to with the variable la
 
 $$\text{Wavelength (}\lambda\text{)} = \frac{300}{\text{Frequency in MHz (}f\text{)}}$$
 
-Like when we talked about Ohm's law, we can make a simple circle diagram for this relationship as well, though we need to use the symbols for brevity:
+<img src="../../../images/form-wavelength.svg" alt="Wavelength/Frequency formula Circle" style="float: right; width: 150px; margin: 3px;">
 
-<img src="../../../images/form-wavelength.svg" alt="Wavelength/Frequency formula Circle" style="width: 150px; margin: 3px;">
+Like when we talked about Ohm's law, we can make a simple circle diagram for this relationship as well, though we need to use the symbols for brevity:
 
 To use this helper:
 1. Cover up the variable you want to find
@@ -86,7 +86,11 @@ To use this helper:
 
 For example, let's calculate the wavelength for the 2-meter band (144 MHz):
 
-$$\text{Wavelength} = \frac{300}{144} = 2.08 \text{ meters}$$
+$$
+\begin{align*}
+\text{Wavelength} &= \frac{300}{144}\\
+&= 2.08 \text{ meters}
+\end{align*}$$
 
 That's why we call it the 2-meter band!
 
