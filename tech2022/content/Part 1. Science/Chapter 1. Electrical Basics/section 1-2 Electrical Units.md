@@ -68,9 +68,7 @@ Understanding *frequency* is crucial in amateur radio because it determines *whi
 
 #### Power
 
-Power is *the rate at which electrical energy is used or generated in a circuit*. {{< link id="T5A10" >}} It's measured in **watts (W)** {{< link id="T5A02" >}} and is calculated using:
-
-$$P = I \times V$$
+Power is *the rate at which electrical energy is used or generated in a circuit*. {{< link id="T5A10" >}} It's measured in **watts (W)** {{< link id="T5A02" >}} and is calculated using the **Power Law**, which we'll cover in **Section 1.3**.
 
 In amateur radio, power is important because:
 
@@ -132,8 +130,6 @@ All of these conversions are worth memorizing for the exam:
 - *1,000,000 picofarads equals 1 microfarad* {{< link id="T5B08" >}}
 - *28400 kHz equals 28.400 MHz* {{< link id="T5B12" >}}
 - *2425 MHz equals 2.425 GHz* {{< link id="T5B13" >}}
-
-The proper abbreviation for kilohertz is *kHz* {{< link id="T5C13" >}}
 
 #### AC and DC
 

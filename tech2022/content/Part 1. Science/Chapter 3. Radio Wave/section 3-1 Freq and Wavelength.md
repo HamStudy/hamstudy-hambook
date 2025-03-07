@@ -18,7 +18,9 @@ As we've already mentioned, **radio frequency energy (RF) is a form of alternati
 
 Whether you're tuning in to your favorite broadcast station, chatting on a repeater, or sending data over a satellite link, you're working with RF. It's the bread and butter of all radio communication, and it's what makes all this cool stuff possible.  
 
-> **Key Information:** The abbreviation *MHz* stands for "megahertz" which is a measurement of frequency (1,000,000 Hz).{{< link id="T5C07" >}}
+> **Key Information:**
+> * The abbreviation *kHz* stands for "kilohertz" which is a measurement of frequency (1,000 Hz).{{< link id="T5C13" >}}
+> * The abbreviation *MHz* stands for "megahertz" which is a measurement of frequency (1,000,000 Hz).{{< link id="T5C07" >}}
 
 #### The Nature of Radio Waves
 
