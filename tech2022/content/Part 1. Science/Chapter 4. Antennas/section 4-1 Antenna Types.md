@@ -72,7 +72,7 @@ $\text{Length (in inches)} ≈ \frac{5600}{\text{frequency (in MHz)}}$
 Below are common lengths for different bands. Some of these are answers to test questions! You can learn the equation or just memorize the number, whichever is easiest for you.
 
 | Band  | Frequency | Half-wave length | Quarter-wave length |
-|-------|-----------|------------------|---------------------|
+|:-----:|:---------:|:----------------:|:-------------------:|
 | 10m   | 28 MHz    | 200 inches       | 100 inches          |
 | 6m    | 50 MHz    | **112 inches** {{< link id="T9A09" >}}  | 56 inches          |
 | 2m    | 146 MHz   | 38 inches        | **19 inches**       |

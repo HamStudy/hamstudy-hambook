@@ -45,7 +45,7 @@ Now, let's talk about a cool tool used in many contests: grid locators. *A grid 
 Here are some examples:
 
 | Landmark | Address | City, State, ZIP | Grid Locator |
-|----------|---------|------------------|--------------|
+|----------|---------|------------------|:------------:|
 | Statue of Liberty | Liberty Island | New York, NY 10004 | FN20xq |
 | Golden Gate Bridge | Golden Gate Bridge | San Francisco, CA 94129 | CM87ts |
 | White House | 1600 Pennsylvania Avenue NW | Washington, D.C. 20500 | FM18lv |

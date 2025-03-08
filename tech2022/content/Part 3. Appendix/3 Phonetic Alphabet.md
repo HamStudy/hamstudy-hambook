@@ -10,8 +10,8 @@ While it can be fun to make up your own Phonetics and many people do particularl
 
 There are others, but the most commonly used phonetic alphabet is the Radiotelephony Spelling Alphabet, commonly known as the **NATO phonetic alphabet**:
 
-| Letter | Phonetic  | Letter | Phonetic  | Letter | Phonetic  |
-|--------|----------|--------|----------|--------|----------|
+| Letter | Phonetic | Letter | Phonetic | Letter | Phonetic |
+|:------:|:--------:|:------:|:--------:|:------:|:--------:|
 | A      | Alpha    | B      | Bravo    | C      | Charlie  |
 | D      | Delta    | E      | Echo     | F      | Foxtrot  |
 | G      | Golf     | H      | Hotel    | I      | India    |

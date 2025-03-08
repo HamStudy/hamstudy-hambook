@@ -25,7 +25,7 @@ When using repeaters, you need to know about offsets. An *offset is the differen
 Here's a handy table of common repeater offsets for various amateur radio bands:
 
 | Band | Frequency Range | Common Offset |
-|------|-----------------|---------------|
+|:----:|:---------------:|:-------------:|
 | 6m   | 50-54 MHz       | -500 kHz or -1 MHz |
 | 2m   | 144-148 MHz     | *±600 kHz* |
 | 1.25m| 222-225 MHz     | -1.6 MHz |

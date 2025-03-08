@@ -94,7 +94,7 @@ Some real-world examples:
 In amateur radio, we often deal with very large or very small numbers. Instead of writing out all the zeros, we use **metric prefixes**:
 
 | Prefix | Symbol | Multiplier | Example |
-|--------|--------|------------|---------|
+|:------:|:------:|:----------:|:-------:|
 | pico   | p      | $10^{-12}$ | 1 pF = 0.000000000001 F |
 | nano   | n      | $10^{-9}$  | 1 nF = 0.000000001 F |
 | micro  | μ      | $10^{-6}$  | 1 μF = 0.000001 F |
@@ -107,7 +107,7 @@ In amateur radio, we often deal with very large or very small numbers. Instead o
 Here are some common conversions that may appear on the exam:
 
 | Original               | Equivalent             | Question ID |
-|------------------------|------------------------|-------------|
+|------------------------|------------------------|:-----------:|
 | 1.5 amperes            | 1500 milliamperes      | T5B01       |
 | 1500 kHz               | 1.5 MHz                | T5B02       |
 | 1 kilovolt             | 1000 volts             | T5B03       |
