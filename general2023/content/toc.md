@@ -304,7 +304,7 @@ title: "Table of Contents: HamStudy General Class License HamBook (2023-2027)"
 
 ## Part 2: Operating as a General Class Amateur
 
-### Chapter 6: Safety 
+### Chapter 6: Safety
 
 - Section 6.1: AC Power and Circuit Protection - ["G0B01", "G0B02", "G0B03", "G0B05", "G0B06", "G0B12"]
   - G0B01 - Which wire or wires in a four-conductor 240 VAC circuit should be attached to fuses or circuit breakers?
