@@ -216,14 +216,8 @@ Let's look at some common scenarios where test equipment proves invaluable:
 3. Observe keying waveform for CW operation
 4. Test for harmonic content with a spectrum analyzer (if available)
 
-#### From Testing to Transmitting
+#### From Components to Signals
 
-Understanding schematic symbols and using appropriate test equipment are valuable skills that will enhance your amateur radio experience:
-- Schematics help you understand how equipment works
-- Test equipment allows you to verify proper operation
-- Troubleshooting becomes more efficient and effective
-- Equipment maintenance and adjustments become simpler
+Now that we've explored the basic components that make up your radio equipment, you have a better understanding of what's happening "under the hood" when you operate. These components—from simple resistors and capacitors to complex integrated circuits and power supply systems—form the foundation of all radio communication.
 
-With your General class privileges, these skills become increasingly important as you explore new bands, modes, and possibly equipment construction. Whether you're checking an antenna, troubleshooting a power supply, or building a new accessory, the right tools and knowledge make all the difference!
-
-Now that we've explored the components and circuits that make up your radio equipment, it's time to take our signals to the airwaves. In the next chapter, we'll dive into the fascinating world of radio wave propagation—understanding how your signals travel around the block or around the world!
+But how do these components work together to create, process, and decode radio signals? In the next chapter, we'll dive into signal theory and modulation—exploring how information is encoded onto radio waves using both analog and digital techniques. You'll learn about the modulation methods used for different amateur modes and understand how signals are mixed, filtered, and processed in modern transceivers. This knowledge will help you make informed operating decisions as you explore your new General class privileges.
