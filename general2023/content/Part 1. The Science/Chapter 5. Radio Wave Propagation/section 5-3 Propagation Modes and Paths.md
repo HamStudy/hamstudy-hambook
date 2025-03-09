@@ -3,7 +3,7 @@ slug: "section3.3"
 questions: ["G3B01", "G3B02", "G3B03", "G3B04", "G3B09", "G3B10", "G3B12", "G3C06", "G3C07", "G3C08", "G3C09", "G3C10"]
 ---
 
-### Section 3.3: Propagation Modes and Paths
+### Section 5.3: Propagation Modes and Paths
 
 With your General class privileges, you'll discover that radio signals don't always travel in straight lines or take the most obvious path to their destination. In fact, some of the most interesting contacts happen through unusual propagation modes that can surprise even experienced operators. Let's explore the various ways your signals can travel and how to take advantage of them!
 
@@ -175,10 +175,10 @@ To make the most of various propagation modes:
    - Propagation can change quickly
    - Sometimes calling CQ into an apparently "dead" band can reveal surprising openings
 
-#### Putting Knowledge into Practice
+#### The Complete Journey: From Radio to Radio
 
-With your General class privileges, you now have access to the full range of HF bands where these fascinating propagation modes come into play. As you explore these bands, you'll develop an intuitive feel for propagation patterns and how they change with time of day, season, and solar conditions.
+We've now followed the complete journey of a radio signal—from the electrical principles that make it possible, through the components that generate and process it, the modulation methods that encode information onto it, the antenna systems that launch it into space, and finally the propagation mechanisms that carry it around the world.
 
-Understanding these various propagation modes helps you know not just which band to use, but when to use it and what path your signal might take. This knowledge transforms your operating from simple trial and error into informed decisions that maximize your chances of making those exciting long-distance contacts.
+This understanding of the entire communication chain gives you a solid foundation for making the most of your General class privileges. You'll be able to make informed decisions about when and where to operate, which modes to use for different conditions, and how to optimize your station for the contacts you want to make.
 
-Next, we'll explore the world of antennas - the critical link between your radio and these propagation paths. The right antenna can make all the difference in taking advantage of these propagation opportunities!
+In Part 2 of this HamBook, we'll build on this technical foundation by exploring operating procedures, station setup, regulations, and safety considerations. You'll learn not just how radio works, but how to use it effectively to connect with other operators around the block or around the world. With the science under your belt, you're ready to dive into the practical aspects of General class operation!

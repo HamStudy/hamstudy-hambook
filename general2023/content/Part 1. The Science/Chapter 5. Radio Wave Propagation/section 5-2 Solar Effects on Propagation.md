@@ -3,7 +3,7 @@ slug: "section3.2"
 questions: ["G3A01", "G3A02", "G3A03", "G3A04", "G3A05", "G3A06", "G3A07", "G3A08", "G3A09", "G3A10", "G3A11", "G3A12", "G3A13", "G3A14"]
 ---
 
-### Section 3.2: Solar Effects on Propagation
+### Section 5.2: Solar Effects on Propagation
 
 If the ionosphere is the stage for the drama of radio propagation, the sun is definitely the director! Our sun's ever-changing activity directly affects how the ionosphere forms and behaves, creating both opportunities and challenges for HF communication. Understanding this relationship is key to successful operation with your new General privileges.
 

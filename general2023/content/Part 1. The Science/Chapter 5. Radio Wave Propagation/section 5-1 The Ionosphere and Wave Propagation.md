@@ -3,7 +3,7 @@ slug: "section3.1"
 questions: ["G3C01", "G3C02", "G3C03", "G3C04", "G3C05", "G3C11", "G3B05", "G3B06", "G3B07", "G3B08", "G3B11"]
 ---
 
-### Section 3.1: The Ionosphere and Wave Propagation
+### Section 5.1: The Ionosphere and Wave Propagation
 
 If you've been using your Technician privileges primarily on VHF and UHF bands, you're about to discover a whole new dimension to radio communication. When working with HF frequencies, the ionosphere becomes your friend, foe, and fascinating playground all at once. Let's explore how this mysterious region of our atmosphere can send your signals bouncing around the globe!
 

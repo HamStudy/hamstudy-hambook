@@ -131,51 +131,61 @@ title: "Table of Contents: HamStudy General Class License HamBook (2023-2027)"
   - G4B07 - What signals are used to conduct a two-tone test?
   - G4B08 - What transmitter performance parameter does a two-tone test analyze?
   - G4B09 - When is an analog multimeter preferred to a digital multimeter?
-    
-### Chapter 3: Understanding RF Propagation
 
-- Section 3.1: The Ionosphere and Radio Waves - ["G3C01", "G3C02", "G3C03", "G3C04", "G3C05", "G3C11", "G3B05", "G3B06", "G3B07", "G3B08", "G3B11"]
-  - G3C01 - Which ionospheric region is closest to the surface of Earth?
-  - G3C02 - What is meant by the term "critical frequency" at a given incidence angle?
-  - G3C03 - Why is skip propagation via the F2 region longer than that via the other ionospheric regions?
-  - G3C04 - What does the term "critical angle" mean, as applied to radio wave propagation?
-  - G3C05 - Why is long-distance communication on the 40-, 60-, 80-, and 160-meter bands more difficult during the day?
-  - G3C11 - Which ionospheric region is the most absorbent of signals below 10 MHz during daylight hours?
-  - G3B05 - How does the ionosphere affect radio waves with frequencies below the MUF and above the LUF?
-  - G3B06 - What usually happens to radio waves with frequencies below the LUF?
-  - G3B07 - What does LUF stand for?
-  - G3B08 - What does MUF stand for?
-  - G3B11 - What happens to HF propagation when the LUF exceeds the MUF?
+### Chapter 3: Signal Theory and Modulation
+- Section 3.1: Analog Modulation Methods - ["G8A02", "G8A03", "G8A04", "G8A05", "G8A07", "G8A08", "G8A10", "G8A11", "G7C01", "G7C02", "G7C04"]
+  - G8A02 - What is the name of the process that changes the phase angle of an RF signal to convey information?
+  - G8A03 - What is the name of the process that changes the instantaneous frequency of an RF wave to convey information?
+  - G8A04 - What emission is produced by a reactance modulator connected to a transmitter RF amplifier stage?
+  - G8A05 - What type of modulation varies the instantaneous power level of the RF signal?
+  - G8A07 - Which of the following phone emissions uses the narrowest bandwidth?
+  - G8A08 - Which of the following is an effect of overmodulation?
+  - G8A10 - What is meant by the term "flat-topping," when referring to an amplitude-modulated phone signal?
+  - G8A11 - What is the modulation envelope of an AM signal?
+  - G7C01 - What circuit is used to select one of the sidebands from a balanced modulator?
+  - G7C02 - What output is produced by a balanced modulator?
+  - G7C04 - How is a product detector used?
 
-- Section 3.2: Solar Effects on Communication - ["G3A01", "G3A02", "G3A03", "G3A04", "G3A05", "G3A06", "G3A07", "G3A08", "G3A09", "G3A10", "G3A11", "G3A12", "G3A13", "G3A14"]
-  - G3A01 - How does a higher sunspot number affect HF propagation?
-  - G3A02 - What effect does a sudden ionospheric disturbance have on the daytime ionospheric propagation?
-  - G3A03 - Approximately how long does it take the increased ultraviolet and X-ray radiation from a solar flare to affect radio propagation on Earth?
-  - G3A04 - Which of the following are the least reliable bands for long-distance communications during periods of low solar activity?
-  - G3A05 - What is the solar flux index?
-  - G3A06 - What is a geomagnetic storm?
-  - G3A07 - At what point in the solar cycle does the 20-meter band usually support worldwide propagation during daylight hours?
-  - G3A08 - How can a geomagnetic storm affect HF propagation?
-  - G3A09 - How can high geomagnetic activity benefit radio communications?
-  - G3A10 - What causes HF propagation conditions to vary periodically in a 26- to 28-day cycle?
-  - G3A11 - How long does it take a coronal mass ejection to affect radio propagation on Earth?
-  - G3A12 - What does the K-index measure?
-  - G3A13 - What does the A-index measure?
-  - G3A14 - How is long distance radio communication usually affected by the charged particles that reach Earth from solar coronal holes?
+- Section 3.2: Digital Modes and Signals - ["G8A01", "G8A06", "G8A09", "G8A12", "G8C02", "G8C03", "G8C04", "G8C05", "G8C06", "G8C07", "G8C08", "G8C10", "G8C11", "G8C12", "G8C13", "G8C14", "G8C15", "G8C16"]
+  - G8A01 - How is direct binary FSK modulation generated?
+  - G8A06 - Which of the following is characteristic of QPSK31?
+  - G8A09 - What type of modulation is used by FT8?
+  - G8A12 - What is QPSK modulation?
+  - G8C02 - Which digital mode is used as a low-power beacon for assessing HF propagation?
+  - G8C03 - What part of a packet radio frame contains the routing and handling information?
+  - G8C04 - Which of the following describes Baudot code?
+  - G8C05 - In an ARQ mode, what is meant by a NAK response to a transmitted packet?
+  - G8C06 - What action results from a failure to exchange information due to excessive transmission attempts when using an ARQ mode?
+  - G8C07 - Which of the following narrow-band digital modes can receive signals with very low signal-to-noise ratios?
+  - G8C08 - Which of the following statements is true about PSK31?
+  - G8C10 - How does forward error correction (FEC) allow the receiver to correct data errors?
+  - G8C11 - How are the two separate frequencies of a Frequency Shift Keyed (FSK) signal identified?
+  - G8C12 - Which type of code is used for sending characters in a PSK31 signal?
+  - G8C13 - What is indicated on a waterfall display by one or more vertical lines on either side of a data mode or RTTY signal?
+  - G8C14 - Which of the following describes a waterfall display?
+  - G8C15 - What does an FT8 signal report of +3 mean?
+  - G8C16 - Which of the following provide digital voice modes?
 
-- Section 3.3: Propagation Modes and Paths - ["G3B01", "G3B02", "G3B03", "G3B04", "G3B09", "G3B10", "G3B12", "G3C06", "G3C07", "G3C08", "G3C09", "G3C10"]
-  - G3B01 - What is a characteristic of skywave signals arriving at your location by both short-path and long-path propagation?
-  - G3B02 - What factors affect the MUF?
-  - G3B03 - Which frequency will have the least attenuation for long-distance skip propagation?
-  - G3B04 - Which of the following is a way to determine current propagation on a desired band from your station?
-  - G3B09 - What is the approximate maximum distance along the Earth's surface normally covered in one hop using the F2 region?
-  - G3B10 - What is the approximate maximum distance along the Earth's surface normally covered in one hop using the E region?
-  - G3B12 - Which of the following is typical of the lower HF frequencies during the summer?
-  - G3C06 - What is a characteristic of HF scatter?
-  - G3C07 - What makes HF scatter signals often sound distorted?
-  - G3C08 - Why are HF scatter signals in the skip zone usually weak?
-  - G3C09 - What type of propagation allows signals to be heard in the transmitting station's skip zone?
-  - G3C10 - What is near vertical incidence skywave (NVIS) propagation?
+- Section 3.3: Frequency Mixing and Bandwidth - ["G8B01", "G8B02", "G8B03", "G8B04", "G8B05", "G8B06", "G8B07", "G8B08", "G8B09", "G8B10", "G8B11", "G8B12", "G8B13"]
+  - G8B01 - Which mixer input is varied or tuned to convert signals of different frequencies to an intermediate frequency (IF)?
+  - G8B02 - What is the term for interference from a signal at twice the IF frequency from the desired signal?
+  - G8B03 - What is another term for the mixing of two RF signals?
+  - G8B04 - What is the stage in a VHF FM transmitter that generates a harmonic of a lower frequency signal to reach the desired operating frequency?
+  - G8B05 - Which intermodulation products are closest to the original signal frequencies?
+  - G8B06 - What is the total bandwidth of an FM phone transmission having 5 kHz deviation and 3 kHz modulating frequency?
+  - G8B07 - What is the frequency deviation for a 12.21 MHz reactance modulated oscillator in a 5 kHz deviation, 146.52 MHz FM phone transmitter?
+  - G8B08 - Why is it important to know the duty cycle of the mode you are using when transmitting?
+  - G8B09 - Why is it good to match receiver bandwidth to the bandwidth of the operating mode?
+  - G8B10 - What is the relationship between transmitted symbol rate and bandwidth?
+  - G8B11 - What combination of a mixer's Local Oscillator (LO) and RF input frequencies is found in the output?
+  - G8B12 - What process combines two signals in a non-linear circuit to produce unwanted spurious outputs?
+  - G8B13 - Which of the following is an odd-order intermodulation product of frequencies F1 and F2?
+
+- Section 3.4: Digital Signal Processing - ["G7C06", "G7C09", "G7C10", "G7C11"]
+  - G7C06 - What is an advantage of a digital signal processing (DSP) filter compared to an analog filter?
+  - G7C09 - What is the phase difference between the I and Q RF signals that software-defined radio (SDR) equipment uses for modulation and demodulation?
+  - G7C10 - What is an advantage of using I-Q modulation with software-defined radios (SDRs)?
+  - G7C11 - Which of these functions is performed by software in a software-defined radio (SDR)?
 
 ### Chapter 4: Advanced Antenna Systems
 
@@ -247,60 +257,50 @@ title: "Table of Contents: HamStudy General Class License HamBook (2023-2027)"
   - G9D08 - How does a "screwdriver" mobile antenna adjust its feed point impedance?
   - G9D11 - Which of the following is a disadvantage of multiband antennas?
 
-### Chapter 5: Signal Theory and Modulation
-- Section 5.1: Analog Modulation TyAnalog Modulation Methodspes - ["G8A02", "G8A03", "G8A04", "G8A05", "G8A07", "G8A08", "G8A10", "G8A11", "G7C01", "G7C02", "G7C04"]
-  - G8A02 - What is the name of the process that changes the phase angle of an RF signal to convey information?
-  - G8A03 - What is the name of the process that changes the instantaneous frequency of an RF wave to convey information?
-  - G8A04 - What emission is produced by a reactance modulator connected to a transmitter RF amplifier stage?
-  - G8A05 - What type of modulation varies the instantaneous power level of the RF signal?
-  - G8A07 - Which of the following phone emissions uses the narrowest bandwidth?
-  - G8A08 - Which of the following is an effect of overmodulation?
-  - G8A10 - What is meant by the term "flat-topping," when referring to an amplitude-modulated phone signal?
-  - G8A11 - What is the modulation envelope of an AM signal?
-  - G7C01 - What circuit is used to select one of the sidebands from a balanced modulator?
-  - G7C02 - What output is produced by a balanced modulator?
-  - G7C04 - How is a product detector used?
+### Chapter 5: Understanding RF Propagation
 
-- Section 5.2: Digital Modes and Signals - ["G8A01", "G8A06", "G8A09", "G8A12", "G8C02", "G8C03", "G8C04", "G8C05", "G8C06", "G8C07", "G8C08", "G8C10", "G8C11", "G8C12", "G8C13", "G8C14", "G8C15", "G8C16"]
-  - G8A01 - How is direct binary FSK modulation generated?
-  - G8A06 - Which of the following is characteristic of QPSK31?
-  - G8A09 - What type of modulation is used by FT8?
-  - G8A12 - What is QPSK modulation?
-  - G8C02 - Which digital mode is used as a low-power beacon for assessing HF propagation?
-  - G8C03 - What part of a packet radio frame contains the routing and handling information?
-  - G8C04 - Which of the following describes Baudot code?
-  - G8C05 - In an ARQ mode, what is meant by a NAK response to a transmitted packet?
-  - G8C06 - What action results from a failure to exchange information due to excessive transmission attempts when using an ARQ mode?
-  - G8C07 - Which of the following narrow-band digital modes can receive signals with very low signal-to-noise ratios?
-  - G8C08 - Which of the following statements is true about PSK31?
-  - G8C10 - How does forward error correction (FEC) allow the receiver to correct data errors?
-  - G8C11 - How are the two separate frequencies of a Frequency Shift Keyed (FSK) signal identified?
-  - G8C12 - Which type of code is used for sending characters in a PSK31 signal?
-  - G8C13 - What is indicated on a waterfall display by one or more vertical lines on either side of a data mode or RTTY signal?
-  - G8C14 - Which of the following describes a waterfall display?
-  - G8C15 - What does an FT8 signal report of +3 mean?
-  - G8C16 - Which of the following provide digital voice modes?
+- Section 5.1: The Ionosphere and Radio Waves - ["G3C01", "G3C02", "G3C03", "G3C04", "G3C05", "G3C11", "G3B05", "G3B06", "G3B07", "G3B08", "G3B11"]
+  - G3C01 - Which ionospheric region is closest to the surface of Earth?
+  - G3C02 - What is meant by the term "critical frequency" at a given incidence angle?
+  - G3C03 - Why is skip propagation via the F2 region longer than that via the other ionospheric regions?
+  - G3C04 - What does the term "critical angle" mean, as applied to radio wave propagation?
+  - G3C05 - Why is long-distance communication on the 40-, 60-, 80-, and 160-meter bands more difficult during the day?
+  - G3C11 - Which ionospheric region is the most absorbent of signals below 10 MHz during daylight hours?
+  - G3B05 - How does the ionosphere affect radio waves with frequencies below the MUF and above the LUF?
+  - G3B06 - What usually happens to radio waves with frequencies below the LUF?
+  - G3B07 - What does LUF stand for?
+  - G3B08 - What does MUF stand for?
+  - G3B11 - What happens to HF propagation when the LUF exceeds the MUF?
 
-- Section 5.3: Frequency Mixing and Bandwidth - ["G8B01", "G8B02", "G8B03", "G8B04", "G8B05", "G8B06", "G8B07", "G8B08", "G8B09", "G8B10", "G8B11", "G8B12", "G8B13"]
-  - G8B01 - Which mixer input is varied or tuned to convert signals of different frequencies to an intermediate frequency (IF)?
-  - G8B02 - What is the term for interference from a signal at twice the IF frequency from the desired signal?
-  - G8B03 - What is another term for the mixing of two RF signals?
-  - G8B04 - What is the stage in a VHF FM transmitter that generates a harmonic of a lower frequency signal to reach the desired operating frequency?
-  - G8B05 - Which intermodulation products are closest to the original signal frequencies?
-  - G8B06 - What is the total bandwidth of an FM phone transmission having 5 kHz deviation and 3 kHz modulating frequency?
-  - G8B07 - What is the frequency deviation for a 12.21 MHz reactance modulated oscillator in a 5 kHz deviation, 146.52 MHz FM phone transmitter?
-  - G8B08 - Why is it important to know the duty cycle of the mode you are using when transmitting?
-  - G8B09 - Why is it good to match receiver bandwidth to the bandwidth of the operating mode?
-  - G8B10 - What is the relationship between transmitted symbol rate and bandwidth?
-  - G8B11 - What combination of a mixer's Local Oscillator (LO) and RF input frequencies is found in the output?
-  - G8B12 - What process combines two signals in a non-linear circuit to produce unwanted spurious outputs?
-  - G8B13 - Which of the following is an odd-order intermodulation product of frequencies F1 and F2?
+- Section 5.2: Solar Effects on Communication - ["G3A01", "G3A02", "G3A03", "G3A04", "G3A05", "G3A06", "G3A07", "G3A08", "G3A09", "G3A10", "G3A11", "G3A12", "G3A13", "G3A14"]
+  - G3A01 - How does a higher sunspot number affect HF propagation?
+  - G3A02 - What effect does a sudden ionospheric disturbance have on the daytime ionospheric propagation?
+  - G3A03 - Approximately how long does it take the increased ultraviolet and X-ray radiation from a solar flare to affect radio propagation on Earth?
+  - G3A04 - Which of the following are the least reliable bands for long-distance communications during periods of low solar activity?
+  - G3A05 - What is the solar flux index?
+  - G3A06 - What is a geomagnetic storm?
+  - G3A07 - At what point in the solar cycle does the 20-meter band usually support worldwide propagation during daylight hours?
+  - G3A08 - How can a geomagnetic storm affect HF propagation?
+  - G3A09 - How can high geomagnetic activity benefit radio communications?
+  - G3A10 - What causes HF propagation conditions to vary periodically in a 26- to 28-day cycle?
+  - G3A11 - How long does it take a coronal mass ejection to affect radio propagation on Earth?
+  - G3A12 - What does the K-index measure?
+  - G3A13 - What does the A-index measure?
+  - G3A14 - How is long distance radio communication usually affected by the charged particles that reach Earth from solar coronal holes?
 
-- Section 5.4: Digital Signal Processing - ["G7C06", "G7C09", "G7C10", "G7C11"]
-  - G7C06 - What is an advantage of a digital signal processing (DSP) filter compared to an analog filter?
-  - G7C09 - What is the phase difference between the I and Q RF signals that software-defined radio (SDR) equipment uses for modulation and demodulation?
-  - G7C10 - What is an advantage of using I-Q modulation with software-defined radios (SDRs)?
-  - G7C11 - Which of these functions is performed by software in a software-defined radio (SDR)?
+- Section 5.3: Propagation Modes and Paths - ["G3B01", "G3B02", "G3B03", "G3B04", "G3B09", "G3B10", "G3B12", "G3C06", "G3C07", "G3C08", "G3C09", "G3C10"]
+  - G3B01 - What is a characteristic of skywave signals arriving at your location by both short-path and long-path propagation?
+  - G3B02 - What factors affect the MUF?
+  - G3B03 - Which frequency will have the least attenuation for long-distance skip propagation?
+  - G3B04 - Which of the following is a way to determine current propagation on a desired band from your station?
+  - G3B09 - What is the approximate maximum distance along the Earth's surface normally covered in one hop using the F2 region?
+  - G3B10 - What is the approximate maximum distance along the Earth's surface normally covered in one hop using the E region?
+  - G3B12 - Which of the following is typical of the lower HF frequencies during the summer?
+  - G3C06 - What is a characteristic of HF scatter?
+  - G3C07 - What makes HF scatter signals often sound distorted?
+  - G3C08 - Why are HF scatter signals in the skip zone usually weak?
+  - G3C09 - What type of propagation allows signals to be heard in the transmitting station's skip zone?
+  - G3C10 - What is near vertical incidence skywave (NVIS) propagation?
 
 ## Part 2: Operating as a General Class Amateur
 
