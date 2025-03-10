@@ -3,6 +3,9 @@ from schemdraw import elements as elm
 import os
 
 schemdraw.theme('default')
+# schemdraw.use('svg')
+# schemdraw.svgconfig.precision = 2
+# schemdraw.svgconfig.text = 'path'
 
 # Get the directory of the current script
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -48,20 +51,6 @@ def draw_resistor():
     d.save(os.path.join(OUTPUT_DIR, 's2-1-resistor.svg'), transparent=False)
     elm.style(elm.STYLE_IEEE)
 
-def draw_series_circuit():
-    d = schemdraw.Drawing()
-    d += (BAT1 := elm.Battery().right().label('Battery'))
-    d += (R1 := elm.Resistor().right().label('R1'))
-    d += (R2 := elm.Resistor().down().label('R2'))
-    d += (R3 := elm.Resistor().left().label('R3'))
-    d += (L1 := elm.Line().left().tox(BAT1.start))
-    d += (L2 := elm.Line().up().toy(BAT1.start))
-
-    # Add the total resistance label to the diagram
-    d += elm.Label().at((R1.center[0] - 2, R1.center[1] - 1)).label('$R_\\text{total} = R_1 + R_2 + R_3$')
-
-    d.save(os.path.join(OUTPUT_DIR, 's2-1-series-circuit.svg'), transparent=False)
-
 def draw_antenna():
     d = schemdraw.Drawing()
     
@@ -77,6 +66,31 @@ def draw_ground():
     d += elm.Ground().right().label('Ground')
 
     d.save(os.path.join(OUTPUT_DIR, 's2-3-ground.svg'), transparent=False)
+
+
+def draw_series_circuit():
+    d = schemdraw.Drawing()
+    
+    # Battery
+    d += (BAT1 := elm.Battery().right().label('Battery'))
+    
+    # Resistors
+    d += (R1 := elm.Resistor().right().label('$R_1$'))
+    d += (R2 := elm.Resistor().down().label('$R_2$'))
+    d += (R3 := elm.Resistor().left().label('$R_3$'))
+    
+    # Connecting lines
+    d += (L1 := elm.Line().left().tox(BAT1.start))
+    d += (L2 := elm.Line().up().toy(BAT1.start))
+
+    # Arrows for current flow
+    d += elm.Arrow().at((BAT1.end[0] - .5, BAT1.end[1] - .25)).right(1).label('$I_\\text{total}$', loc='bottom')
+    d += elm.Arrow().at((R3.end[0] - .5, R3.end[1] + .25)).left(1).label('$I_\\text{total}$', loc='top')
+
+    # Add the total resistance label to the diagram
+    d += elm.Label().at((R1.center[0] - 2, R1.center[1] - 1.35)).label('$R_\\text{total} = R_1 + R_2 + R_3$')
+
+    d.save(os.path.join(OUTPUT_DIR, 's2-1-series-circuit.svg'), transparent=True)
 
 def draw_parallel_circuit():
     d = schemdraw.Drawing()
@@ -94,13 +108,22 @@ def draw_parallel_circuit():
 
     d += (L4 := elm.Line().right(d.unit * 1.5)).at(BAT1.start)
 
+    # # Arrows for current flow
+    d += elm.Arrow().at((R1.end[0] - .25, R1.end[1] - .25)).down(0.5).label('$I_1$', loc='top')
+    d += elm.Arrow().at((R2.end[0] - .25, R2.end[1] - .25)).down(0.5).label('$I_2$', loc='top')
+    d += elm.Arrow().at((R3.end[0] - .25, R3.end[1] - .25)).down(0.5).label('$I_3$', loc='top')
+
+    d += elm.Arrow().at((BAT1.start[0] - .25, BAT1.start[1] - .75)).up(0.5).label('$I_\\text{total}$', loc='top')
+
+    # d += elm.Arrow().at((R3.end[0] - .5, R3.end[1] + .25)).left(1).label('$I_\\text{total}$', loc='top')
+
     # Invisible line to add padding at the bottom
     d += elm.Line().down().at(BAT1.end - 0.15).length(0.75).color('white')
     
     # Add the total resistance label to the diagram
     d += elm.Label().at((R2.center[0] - 1, R1.center[1] - 1.85)).label('$R_\\text{total} = \\frac{1}{\\frac{1}{R_1} + \\frac{1}{R_2} + \\frac{1}{R_3}}$')
 
-    d.save(os.path.join(OUTPUT_DIR, 's2-1-parallel-circuit.svg'), transparent=False)
+    d.save(os.path.join(OUTPUT_DIR, 's2-1-parallel-circuit.svg'), transparent=True)
 
 def draw_capacitor():
     d = schemdraw.Drawing()
