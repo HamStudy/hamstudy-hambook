@@ -1,6 +1,6 @@
 ---
 slug: "section1.1"
-questions: ["G5C03", "G5C04", "G5C08", "G5C09", "G5C10", "G5C11", "G5C12", "G5C13", "G5C14"]
+questions: ["G5C03", "G5C04", "G5C08", "G5C09", "G5C10", "G5C11", "G5C12", "G5C13", "G5C14", "G5B02"]
 ---
 
 ### Section 1.1: Series and Parallel Circuits
@@ -28,6 +28,9 @@ Imagine water flowing through pipes. That's a helpful way to visualize how curre
 * **Multiple Paths:** In a parallel circuit, components are connected side-by-side, providing *multiple paths* for the current. Think of water flowing through multiple pipes branching off from a main line.
 * **Constant Voltage:** The *voltage across each component is the same* as the voltage supplied to the circuit. Each resistor in the parallel circuit gets the full voltage.
 * **Divided Current:** The total current is *divided* among the different paths. The amount of current flowing through each path depends on the resistance of that path.
+
+> **Key Information:** *In a circuit of parallel resistors, the total current equals the sum of the currents through each branch.* {{< link id="G5B02" >}}
+
 * **Applying Ohm's Law:** Since the voltage is the same across all components, the current through each component depends on its resistance ($I = \frac{E}{R}$). Components with lower resistance will draw more current.
 * **Independent Operation:** If one component fails, the other paths remain unaffected. Current can still flow through the remaining components.
 
@@ -131,7 +134,7 @@ $$\begin{align*}
 \frac{1}{C_{\text{total}}} &= \frac{1}{100} + \frac{1}{100} + \frac{1}{100} \\
 &= \frac{3}{100} \\
 C_{\text{total}} &= \frac{100}{3}\\
-&\approx 33.33 \text{ mF}
+&\approx 33.33 \text{ μF}
 \end{align*}$$
 
 Another common example:
@@ -142,37 +145,37 @@ $$\begin{align*}
 C_{\text{total}} &= \frac{C_1 \cdot C_2}{C_1 + C_2} \\
 &= \frac{20 \cdot 50}{20 + 50} \\
 &= \frac{1000}{70} \\
-&= 14.3 \text{ mF}
+&= 14.3 \text{ μF}
 \end{align*}$$
 
-##### Inductors in Combination
+#### Inductors in Combination
 
 Inductors store energy in magnetic fields and follow rules similar to resistors.
 
 > **Key Information:** *To increase the total inductance in a circuit, add an inductor in series.* {{< link id="G5C14" >}}
 
-###### **Inductors in Series (Direct Sum Method):**
+##### **Inductors in Series (Direct Sum Method):**
 When inductors are connected in series (and are not magnetically coupled), their values add:
 
 $$ L_\text{total} = L_1 + L_2 + L_3 + \ldots $$
 
-###### **Inductors in Parallel (Reciprocal Method):**
+##### **Inductors in Parallel (Reciprocal Method):**
 For inductors in parallel (assuming no magnetic coupling), we use:
 
 What is the inductance of a circuit with a 20-mH inductor connected in series with a 50-mH inductor? {{< link id="G5C11" >}}
 
-$$\begin{align}
+$$\begin{align*}
 L_{\text{total}} &= 20 \text{ mH} + 50 \text{ mH} \\
 &= 70 \text{ mH}
-\end{align}$$
+\end{align*}$$
 
 What is the inductance of three 10-mH inductors connected in parallel? {{< link id="G5C10" >}}
 
-$$\begin{align}
+$$\begin{align*}
 \frac{1}{L_{\text{total}}} &= \frac{1}{10} + \frac{1}{10} + \frac{1}{10} \\
 &= \frac{3}{10} \\
 L_{\text{total}} &= \frac{10}{3} = 3.33 \text{ mH} \approx 3.3 \text{ mH}
-\end{align}$$
+\end{align*}$$
 
 #### Connecting to Real Amateur Radio Applications
 
