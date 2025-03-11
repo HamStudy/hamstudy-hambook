@@ -136,16 +136,7 @@ When $X_L = X_C$, these opposing effects perfectly balance. Since inductive reac
 
 $f_r = \frac{1}{2\pi\sqrt{LC}}$
 
-Resonance creates dramatically different behaviors depending on whether components are in series or parallel:
-
-* **Series Resonant Circuits**: When L and C are in series, impedance reaches minimum at resonance (current flows easily)
-* **Parallel Resonant Circuits**: When L and C are in parallel, impedance reaches maximum at resonance (current flow is blocked)
-
-These properties make resonant circuits the foundation for:
-- Tuned antenna systems that work efficiently on specific frequencies
-- Filters that select desired signals and reject others
-- Oscillators that generate precise frequencies
-- Matching networks that transform impedance
+Resonance creates dramatically different circuit behaviors depending on the configuration of components. We'll explore these configurations and their applications in detail in the next section, where we examine filters and resonant circuits.
 
 #### The Foundation of Radio Circuit Design
 
