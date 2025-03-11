@@ -86,34 +86,25 @@ $$PEP = \frac{(\frac{E_{p-p}}{2})^2}{2R} = \frac{E_{p-p}^2}{8R}$$
 
 #### Logarithmic Measurements: Decibels
 
-Radio science frequently uses logarithmic measurements because they compress wide ranges of values into manageable numbers and allow addition rather than multiplication when combining effects.
-
-The decibel (dB) is a logarithmic unit expressing the ratio between two power values:
-
-$$dB = 10 \log_{10}\left(\frac{P_2}{P_1}\right)$$
-
-Where:
-- $P_1$ is the reference power level
-- $P_2$ is the power level being compared
+Radio science frequently uses decibels (dB) because they simplify how we express large changes in power. Instead of saying a signal is "100 times stronger," we can say it's "20 dB stronger." This makes calculations easier and allows us to add gains and losses instead of multiplying and dividing.
 
 > **Key Information:** *A change of approximately 3 dB represents a factor of two increase or decrease in power.* {{< link id="G5B01" >}}
 
-The beauty of decibels is that they convert multiplication and division into simple addition and subtraction. Positive dB values represent power increases (multiplication), while negative dB values represent decreases (division).
-
 > **Key Information:** *A loss of 1 dB represents a power loss of approximately 20.6 percent.* {{< link id="G5B10" >}}
 
-Common decibel values to remember:
+Positive dB values represent power increases, while negative dB values represent decreases. Here are the most useful dB values to remember:
 
 | dB | Power Ratio | Description |
 |:--:|:-----------:|:-----------:|
 | 1 dB | 1.26 | 26% increase |
 | 2 dB | 1.58 | 58% increase |
-| 3 dB | 2.00 | 2x power |
-| 6 dB | 4.00 | 4x power |
-| 9 dB | 8.00 | 8x power |
-| 10 dB | 10.0 | 10 times power |
-| 20 dB | 100 | 100 times power |
-| 30 dB | 1000 | 1000 times power |
+| 3 dB | 2    | 2x power |
+| -3 dB | 0.5 | $\frac{1}{2}$ power |
+| 6 dB | 4    | 4x power |
+| 9 dB | 8    | 8x power |
+| 10 dB | 10  | 10x power |
+| 20 dB | 100 | 100x power |
+| 30 dB | 1000 | 1000x power |
 
 **Note:** For power decreases (negative dB), use the reciprocal (1/x) of the ratio. To calculate percentage loss you'd use $(1 - \frac{1}{\text{Power Ratio}})$ For example:
 * -3 dB: $(1 - \frac{1}{2}) = (1 - 0.5) = 0.5 = 50\%$
