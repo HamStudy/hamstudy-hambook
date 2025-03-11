@@ -9,7 +9,7 @@ The HF bands contain numerous signals occupying adjacent frequencies. The scienc
 
 #### Resonance in Circuit Applications
 
-In Section 1.2, we learned about resonance as the frequency where inductive and capacitive reactance are equal and cancel each other out. This fundamental principle leads to two important circuit configurations with dramatically different behaviors:
+In Section 1.2, we learned that resonance occurs when inductive reactance equals capacitive reactance ($X_L = X_C$). How this affects a circuit depends crucially on whether the components are in series or parallel:
 
 1. **Series Resonant Circuit**: When L and C are in series, at resonance their reactances cancel each other out, leaving only the resistance in the circuit to determine the impedance. This creates minimum impedance at resonance, allowing maximum current flow.
 
