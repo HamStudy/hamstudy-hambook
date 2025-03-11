@@ -152,4 +152,4 @@ Resonant circuits and filters embody fundamental electromagnetic principles that
 
 The relationship between component values and frequency response demonstrates the predictive power of electromagnetic theory. Mathematical models accurately describe how circuits will respond to various frequencies, allowing engineers to design systems with precisely defined characteristics.
 
-In the next section, we'll explore transformers and impedance matching—techniques that ensure maximum power transfer between circuit stages with different impedance characteristics.
+In the next section, we'll explore various ways to ensure that the impedance matches between any two parts of your station–particularly between your transceiver and antenna.
