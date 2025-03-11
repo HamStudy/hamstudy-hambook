@@ -13,8 +13,9 @@ title: "Table of Contents: HamStudy General Class License HamBook (2023-2027)"
 
 ### Chapter 1: Building Your Electrical Foundation
 
-- Section 1.1: Series and Parallel Circuits - ["G5C03", "G5C04", "G5C08", "G5C09", "G5C10", "G5C11", "G5C12", "G5C13", "G5C14"]
+- Section 1.1: Series and Parallel Circuits - ["G5C03", "G5C04", "G5C08", "G5C09", "G5C10", "G5C11", "G5C12", "G5C13", "G5C14", "G5B02"]
   - G5C03 - What is the total resistance of a 10-, a 20-, and a 50-ohm resistor connected in parallel?
+  - G5B02 - How does the total current relate to the individual currents in a circuit of parallel resistors?
   - G5C04 - What is the approximate total resistance of a 100- and a 200-ohm resistor in parallel?
   - G5C08 - What is the equivalent capacitance of two 5.0-nanofarad capacitors and one 750-picofarad capacitor connected in parallel?
   - G5C09 - What is the capacitance of three 100-microfarad capacitors connected in series?
@@ -45,7 +46,7 @@ title: "Table of Contents: HamStudy General Class License HamBook (2023-2027)"
   - G7C07 - What term specifies a filter's attenuation inside its passband?
   - G5A10 - Which of the following devices can be used for impedance matching at radio frequencies?
 
-- Section 1.4: Transformers and Matching - ["G5C01", "G5C02", "G5C05", "G5C06", "G5C07", "G9C11", "G9C12"]
+- Section 1.4: Impedance Matching and Transformers - ["G5C01", "G5C02", "G5C05", "G5C06", "G5C07", "G9C11", "G9C12"]
   - G5C01 - What causes a voltage to appear across the secondary winding of a transformer when an AC voltage source is connected across its primary winding?
   - G5C02 - What is the output voltage if an input signal is applied to the secondary winding of a 4:1 voltage step-down transformer instead of the primary winding?
   - G5C05 - Why is the primary winding wire of a voltage step-up transformer usually a larger size than that of the secondary winding?
@@ -54,9 +55,8 @@ title: "Table of Contents: HamStudy General Class License HamBook (2023-2027)"
   - G9C11 - What is a beta or hairpin match?
   - G9C12 - Which of the following is a characteristic of using a gamma match with a Yagi antenna?
 
-- Section 1.5: Power and Measurements - ["G5B01", "G5B02", "G5B03", "G5B04", "G5B05", "G5B06", "G5B07", "G5B08", "G5B09", "G5B10", "G5B11", "G5B12", "G5B13", "G5B14", "G9A06", "G9C04"]
+- Section 1.5: Power and Measurements - ["G5B01", "G5B03", "G5B04", "G5B05", "G5B06", "G5B07", "G5B08", "G5B09", "G5B10", "G5B11", "G5B12", "G5B13", "G5B14", "G9A06", "G9C04"]
   - G5B01 - What dB change represents a factor of two increase or decrease in power?
-  - G5B02 - How does the total current relate to the individual currents in a circuit of parallel resistors?
   - G5B03 - How many watts of electrical power are consumed if 400 VDC is supplied to an 800-ohm load?
   - G5B04 - How many watts of electrical power are consumed by a 12 VDC light bulb that draws 0.2 amperes?
   - G5B05 - How many watts are consumed when a current of 7.0 milliamperes flows through a 1,250-ohm resistance?
