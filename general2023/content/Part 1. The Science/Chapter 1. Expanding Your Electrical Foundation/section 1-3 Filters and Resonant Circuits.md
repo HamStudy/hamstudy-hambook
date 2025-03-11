@@ -7,30 +7,19 @@ questions: ["G7B09", "G7C12", "G7C14", "G7C13", "G7C07", "G5A10"]
 
 The HF bands contain numerous signals occupying adjacent frequencies. The science of isolating specific signals relies on resonance and filtering—concepts that allow your radio to select desired frequencies while rejecting others. While modern transceivers handle many of these functions automatically, understanding the underlying principles helps you make better use of your equipment and grasp why certain adjustments affect reception and transmission in specific ways.
 
-#### Resonance: Tuning to a specific frequency
+#### Resonance in Circuit Applications
 
-Remember our discussion about how inductors and capacitors react differently to AC? This difference creates a fascinating phenomenon when we combine them in a circuit—resonance.
+In Section 1.2, we learned about resonance as the frequency where inductive and capacitive reactance are equal and cancel each other out. This fundamental principle leads to two important circuit configurations with dramatically different behaviors:
 
-At a specific frequency—the resonant frequency—the inductive reactance and capacitive reactance become exactly equal in magnitude but opposite in phase. They essentially cancel each other out, leaving only the resistance to determine the circuit's impedance. This unique condition occurs at exactly one frequency for a given combination of inductance and capacitance:
+1. **Series Resonant Circuit**: When L and C are in series, at resonance their reactances cancel each other out, leaving only the resistance in the circuit to determine the impedance. This creates minimum impedance at resonance, allowing maximum current flow.
 
-$f_r = \frac{1}{2\pi\sqrt{LC}}$
-
-Where:
-- $f_r$ is the resonant frequency in hertz (Hz)
-- $L$ is inductance in henrys (H)
-- $C$ is capacitance in farads (F)
+2. **Parallel Resonant Circuit**: When L and C are in parallel (forming what's called a "tank circuit"), a very different effect occurs at resonance. The circuit impedance rises to a maximum, as the two components essentially form a high-impedance path at the resonant frequency.
 
 > **Key Information:** *The frequency of an LC oscillator is determined by the inductance and capacitance in the tank circuit.* {{< link id="G7B09" >}}
 
-But what makes resonance so special? It depends on how the components are connected:
-
-1. **Series Resonant Circuit**: When L and C are in series, at resonance their reactances cancel each other out, leaving only the resistance in the circuit to determine the impedance. This allows the circuit to be designed with precisely the resistance needed to match impedances between stages, facilitating optimal power transfer at the resonant frequency.
-
-2. **Parallel Resonant Circuit**: When L and C are in parallel (forming what's called a "tank circuit"), a very different effect occurs at resonance. The circuit impedance rises to a maximum, as the two components essentially form a high-impedance path at the resonant frequency. This high impedance characteristic is valuable for creating selective tuned circuits or for presenting a specific load impedance to another circuit stage.
-
 The term "tank circuit" comes from the circuit's ability to store and transfer energy between the inductor and capacitor, similar to a water tank storing and releasing water. This energy storage property is why tank circuits are fundamental to oscillators.
 
-These properties make resonant circuits perfect for selecting frequencies in filters, oscillators, and tuned circuits.
+These opposing behaviors of series and parallel resonant circuits make them perfect for selecting frequencies in filters, oscillators, and tuned circuits.
 
 ![Series vs Parallel Resonant Circuits](../images/resonant-circuits.svg)
 
