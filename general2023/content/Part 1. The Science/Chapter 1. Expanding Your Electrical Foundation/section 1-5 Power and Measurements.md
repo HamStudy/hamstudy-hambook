@@ -16,7 +16,7 @@ $P = I \times E$
 Where:
 - $P$ is power in watts (W)
 - $I$ is current in amperes (A)
-- $E$ is voltage in volts (V)
+- $E$ is voltage (**E**lectromotive force) in volts (V)
 
 Building on Ohm's Law from Section 1.1, we can express power in three equivalent ways:
 
@@ -47,14 +47,14 @@ The answer is Root Mean Square (RMS) values. RMS is a special mathematical metho
 
 Why RMS and not just the average of the absolute values? It's because of how power works in resistive circuits. Power is proportional to voltage squared ($P = \frac{E^2}{R}$), not to voltage directly. The heating effect in a resistor—which is what actually matters in power calculations—depends on this squared relationship.
 
-If we used the average of absolute values (which is about $0.637 \times V_{peak}$ for a sine wave), our power calculations would be incorrect. The RMS calculation precisely accounts for the non-linear relationship between voltage and power by:
+If we used the average of absolute values (which is about $0.637 \times E_{peak}$ for a sine wave), our power calculations would be incorrect. The RMS calculation precisely accounts for the non-linear relationship between voltage and power by:
 1. Taking the square of each instantaneous value (the "Square" in RMS)
 2. Finding the average (Mean) of those squared values
 3. Taking the square Root of that average
 
 For a sine wave, this works out to:
 
-$V_{RMS} = V_{peak} \cdot \frac{1}{\sqrt{2}} \approx 0.707 \cdot V_{peak}$
+$E_{RMS} = E_{peak} \cdot \frac{1}{\sqrt{2}} \approx 0.707 \cdot E_{peak}$
 
 This mathematical relationship is why we can use Ohm's Law with AC circuits—when we use RMS values, the power calculations give the true power. When you hear that household electricity is 120 volts, that's the RMS value, not the 170-volt peak.
 
@@ -62,9 +62,9 @@ The following table shows the relationships between different AC voltage measure
 
 | Measure        | Relationship to RMS |
 |-------------- |---------------------|
-| RMS           | $V_{RMS}$  (reference) |
-| Peak          | $$ \begin{align*} V_{peak} &= V_{RMS} \times \sqrt{2} \\ &\approx V_{RMS} \times 1.414 \end{align*} $$ |
-| Peak-to-Peak  | $$ \begin{align*} V_{p-p} &= 2 \times V_{peak} \\ &= 2 \times V_{RMS} \times \sqrt{2} \\ &\approx V_{RMS} \times 2.828 \end{align*} $$ |
+| RMS           | $E_{RMS}$  (reference) |
+| Peak          | $$ \begin{align*} E_{peak} &= E_{RMS} \times \sqrt{2} \\ &\approx E_{RMS} \times 1.414 \end{align*} $$ |
+| Peak-to-Peak  | $$ \begin{align*} E_{p-p} &= 2 \times E_{peak} \\ &= 2 \times E_{RMS} \times \sqrt{2} \\ &\approx E_{RMS} \times 2.828 \end{align*} $$ |
 
 #### RF Power Measurements: PEP
 
@@ -78,11 +78,11 @@ For a *continuous carrier with no modulation* (like a test tone or CW signal wit
 
 The mathematical relationship between RMS voltage and PEP for a sinusoidal RF waveform across a resistive load is:
 
-$$PEP = \frac{V_{peak}^2}{2R}$$
+$$PEP = \frac{E_{peak}^2}{2R}$$
 
 When working with peak-to-peak voltage measurements, this becomes:
 
-$$PEP = \frac{(\frac{V_{p-p}}{2})^2}{2R} = \frac{V_{p-p}^2}{8R}$$
+$$PEP = \frac{(\frac{E_{p-p}}{2})^2}{2R} = \frac{E_{p-p}^2}{8R}$$
 
 #### Logarithmic Measurements: Decibels
 
@@ -156,14 +156,14 @@ Below is a summary of the power calculation questions you might encounter on you
 | **G5B03**: Power with 400 VDC and 800 ohms              | $P = \frac{E^2}{R}$           | $P = 200W$ |
 | **G5B04**: Power with 12V and 0.2 amperes               | $P = I \times E$               | $P = 2.4W$ |
 | **G5B05**: Power with 7mA and 1,250 ohms                | $P = I^2 \times R$            | $P = 61mW$ |
-| **G5B06**: PEP with 200V peak-to-peak across 50 ohms    | $PEP = \frac{V_{p-p}^2}{8R}$  | $PEP = 100W$ |
-| **G5B08**: Peak-to-peak voltage from 120V RMS           | $V_{p-p} = V_{RMS} \times 2.828$ | $V_{p-p} = 339.4V$ |
-| **G5B09**: RMS voltage from 17V peak                     | $V_{RMS} = \frac{V_{peak}}{1.414}$ | $V_{RMS} = 12V$ |
+| **G5B06**: PEP with 200V peak-to-peak across 50 ohms    | $PEP = \frac{E_{p-p}^2}{8R}$  | $PEP = 100W$ |
+| **G5B08**: Peak-to-peak voltage from 120V RMS           | $E_{p-p} = E_{RMS} \times 2.828$ | $E_{p-p} = 339.4V$ |
+| **G5B09**: RMS voltage from 17V peak                     | $E_{RMS} = \frac{E_{peak}}{1.414}$ | $E_{RMS} = 12V$ |
 | **G5B10**: Power loss from 1 dB                          | $1 - 10^{-0.1} \approx 0.206$ | 20.6% |
 | **G5B11**: PEP to average ratio for unmodulated carrier  | $\frac{PEP}{P_{avg}} = 1$ | 1.00 |
-| **G5B12**: RMS voltage with 1200W across 50 ohms        | $V_{RMS} = \sqrt{P \times R}$ | $V_{RMS} = 245V$ |
+| **G5B12**: RMS voltage with 1200W across 50 ohms        | $E_{RMS} = \sqrt{P \times R}$ | $E_{RMS} = 245V$ |
 | **G5B13**: PEP of unmodulated carrier with 1060W average | PEP = Average Power (for unmodulated carrier) | $PEP = 1060W$ |
-| **G5B14**: PEP with 500V peak-to-peak across 50 ohms    | $PEP = \frac{V_{p-p}^2}{8R}$  | $PEP = 625W$ |
+| **G5B14**: PEP with 500V peak-to-peak across 50 ohms    | $PEP = \frac{E_{p-p}^2}{8R}$  | $PEP = 625W$ |
 
 While it is ideal to learn the equations and relationships, there are few enough of these that you can get away with memorizing them if you need to. Just remember to come back to this chapter when you need to understand it better!
 
