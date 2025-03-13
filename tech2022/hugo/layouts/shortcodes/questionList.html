@@ -26,8 +26,9 @@
             {{- end -}}
 
             <div class="question-item">
-              <strong><a href="#link-{{ $questionID }}" class="question-link">{{ $questionID }}</a></strong>:
+              <strong><a href="#link-{{ $questionID }}" class="question-link">{{ $questionID }}</a>:
                 <span>{{ $question.text }}</span>
+              </strong>
               {{- $hasAllTheseChoices := false -}}
               {{- range $question.answers -}}
                 {{- if and (eq .letter $question.answer) (in (lower .text) "all these choices") -}}

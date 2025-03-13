@@ -276,7 +276,6 @@ div.qrcode {
         border: 1px solid var(--correct-answer-border);
         border-radius: 1rem;
         background-color: var(--correct-answer-bg);
-        font-weight: bold;
         color: var(--body-font-color);
         box-shadow: inset 0 0 0 3px var(--correct-answer-bg); /* Visual cue */
       }
@@ -351,7 +350,6 @@ div.qrcode {
           border: 1px solid var(--correct-answer-border);
           border-radius: 1rem;
           background-color: var(--correct-answer-bg);
-          font-weight: bold;
           color: var(--body-font-color);
           box-shadow: inset 0 0 0 3px var(--correct-answer-bg); /* Visual cue */
         }
