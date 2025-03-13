@@ -3,7 +3,7 @@ FROM golang:1.23.0-alpine AS builder
 # Install node.js and npm
 RUN apk add --no-cache 'nodejs~=20' npm brotli gzip git zopfli bash gcc g++ musl-dev libc-dev
 # RUN apk add --no-cache --repository=https://dl-cdn.alpinelinux.org/alpine/edge/community hugo
-RUN CGO_ENABLED=1 go install -tags extended github.com/gohugoio/hugo@latest
+RUN CGO_ENABLED=1 go install -tags extended github.com/gohugoio/hugo@v0.133.1
 
 WORKDIR /app
 COPY . .
