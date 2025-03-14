@@ -64,13 +64,6 @@
   @top-right { content: var(--right-page-number); font-size: 70%; margin-top: var(--top-caption-margin); margin-right: var(--side-caption-margin); }
   margin: var(--top-margin) var(--side-margin) var(--bottom-margin) var(--binding-margin);
 }
-@page:first {
-  margin: 0;
-  @top-left { content: none; }
-  @top-center { content: none; }
-  @top-right { content: none; }
-  @bottom-center { content: none; }
-}
 
 #cover-image {
   display: none;
@@ -100,7 +93,12 @@ div.qrcode {
   img { width: 5rem; max-width: none !important; }
 }
 
+.print-only { display: none; }
 @media print {
+  .web-only { display: none; }
+  .print-only {
+    display: block;
+  }
   :root {
     --max-image-width: var(--max-image-print-width);
   }

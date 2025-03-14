@@ -48,19 +48,29 @@ Once you've covered the material and are getting close to exam day, here's an ef
 - Use the detailed table of contents to quickly find specific topics
 - Refer back to sections as you encounter them in your ham radio activities
 
-#### Using This HamBook with the HamStudy App
+#### Enhance Your Learning with HamStudy
 
-This HamBook works seamlessly with the HamStudy mobile application to enhance your learning:
+<img src="../../images/hamstudy_a.svg" style="float: right; width: 75px; margin: 1rem;" />
 
-1. **Book-Aligned Study**: In the HamStudy app's Technician pool, you can align your studies with this book's organization.
+HamStudy.org and the HamStudy mobile app work seamlessly with this HamBook, providing dynamic practice tailored to what you’re reading and what you struggle with the most.
 
-2. **Flexible Practice**: Focus on specific chapters or sections that match your current study needs.
+1. **Study Resources**: HamStudy.org provides all the study materials you need for your license exam completely free.
 
-3. **Progress Tracking**: See which areas you've mastered and which might need more attention.
+2. **Progress Tracking**: See which areas you've mastered and which might need more attention.
 
-4. **Study Mode**: Use the app's intelligent flash card system to reinforce what you're learning.
+3. **Study Mode**: Intelligent flash card study reinforces what you're learning.
 
-5. **Mobile Learning**: Study on-the-go with the app, then use the book for deeper explanations when needed.
+4. {{< web-only >}}**Study Buttons**: At the end of each section in this HamBook, you'll find a "Study this section with HamStudy" button that links to those section-specific questions in HamStudy.{{< /web-only >}}
+   {{< print-only >}}**QR Codes to Study**: Throughout this book, you'll find QR codes at the end of each section and chapter. Scanning these codes will open a customized Study session in HamStudy with the relevant questions for what you've just read.{{< /print-only >}}
+
+5. **Mobile Option**: The HamStudy mobile app offers additional features including:
+   - **Enhanced Tracking**: Additional insights and tools to optimize your study
+   - **Book-Aligned Study**: Focus on specific chapters or sections based on this book’s organization
+   - **Offline Study**: Practice questions anywhere, even without an internet connection
+   - **Sharing**: Share progress with a mentor or assist others in learning
+
+   {{< web-only >}}{{< button href="https://hamstudy.org/appstore?ref=hb2022w&a=1" >}} Get the HamStudy app{{< /button >}}{{< /web-only >}}
+   {{< print-only >}}{{< get-app >}}{{< /print-only >}}
 
 #### Study Tips for Success
 
