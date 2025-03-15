@@ -3,232 +3,111 @@ slug: "section2.3"
 questions: ["G7A01", "G7A02", "G7A03", "G7A04", "G7A05", "G7A06", "G7A07", "G7A08"]
 ---
 
-### Section 2.3: Power Supply Fundamentals
+#### Rectification: Converting AC to DC
 
-Behind every successful amateur radio station lies an unsung hero: the power supply. While it may not be as exciting as a new transceiver or antenna, your power supply is the foundation that keeps everything running. With your General license privileges, you might be adding higher-power amplifiers or more sophisticated equipment to your station—making it even more important to understand how power supplies work.
+The first step in converting AC to DC is rectification—changing alternating current that flows back and forth into direct current that flows in one direction. There are two basic approaches to rectification: half-wave and full-wave.
 
-#### From Wall Power to Radio Power
+> **Key Information:**
+> * *A half-wave rectifier converts 180 degrees of the AC cycle to DC.* {{< link id="G7A05" >}}
+> * *A full-wave rectifier converts 360 degrees of the AC cycle to DC.* {{< link id="G7A06" >}}
 
-Most amateur radio equipment operates on DC (Direct Current), typically 12-14 volts. But the power coming from your wall outlet is 120V AC (Alternating Current). Your power supply's job is to perform this crucial conversion safely and reliably.
+<img src="../../../images/rectifier-waveforms.svg" alt="Comparison of AC input with half-wave and full-wave rectified outputs" style="width: 400px; margin: 10px;">
 
-Let's look at the key components that make this transformation possible.
+As you can see in the waveform comparison:
+- The input AC signal alternates between positive and negative
+- Half-wave rectification preserves only the positive portions, creating gaps in the output
+- Full-wave rectification flips the negative portions to create a continuous series of positive pulses
 
-#### Rectification: Making AC Go One Way
+#### Half-Wave Rectification
 
-The first step in converting AC to DC is rectification—changing alternating current that flows back and forth into direct current that flows in just one direction.
+> **Key Information:** *A half-wave rectifier is characterized by using only one diode.* {{< link id="G7A04" >}}
 
-##### Half-Wave Rectification
+<img src="../../../images/half-wave-rectifier.svg" alt="Half-Wave Rectifier Circuit schematic showing an AC source, one diode, and a load in a circuit" style="width: 300px; margin: 5px; float: right; padding: 5px; background-color: white;">
 
-> **Key Information:** *A half-wave rectifier uses only one diode and only converts 180 degrees of the AC cycle to DC.* {{< link id="G7A04" >}} {{< link id="G7A05" >}}
+The half-wave rectifier is the simplest design:
+- A single diode allows current to flow only during the positive half-cycle
+- The negative half-cycle is completely blocked
+- The output pulses occur at the same frequency as the input AC
 
-<img src="../images/half-wave-rectifier.svg" alt="Half-Wave Rectifier Circuit and Waveform" style="width: 350px; margin: 10px;">
+Despite its inefficiency (using only half the available power), half-wave rectification is sometimes used in:
+- Simple battery chargers
+- Power indicators
+- Applications where cost and simplicity outweigh efficiency concerns
+- Circuits where only a small amount of DC power is needed
 
-In a half-wave rectifier:
-- Only one diode is used
-- Current flows only during positive half-cycles
-- The negative half-cycles are blocked
-- The output is pulsating DC with significant gaps
+<div style="clear:both;"></div>
 
-While simple, half-wave rectifiers are inefficient because they waste half of the input power. They're rarely used in amateur radio power supplies except in the simplest applications.
+#### Full-Wave Rectification
 
-##### Full-Wave Rectification
-
-For more efficient power conversion, we use full-wave rectification:
-
-> **Key Information:** *A full-wave rectifier converts 360 degrees of the AC cycle to DC.* {{< link id="G7A06" >}}
-
-There are two common types of full-wave rectifiers:
-
-1. **Center-Tapped Transformer with Two Diodes**
-
-> **Key Information:** *A full-wave rectifier circuit using a center-tapped transformer uses two diodes.* {{< link id="G7A03" >}}
-
-<img src="../images/center-tap-rectifier.svg" alt="Center-Tapped Full-Wave Rectifier" style="width: 350px; margin: 10px;">
-
-In this design:
-- The transformer has a center tap on its secondary winding
-- One diode conducts during positive half-cycles
-- The other diode conducts during negative half-cycles
-- The output uses both halves of the input cycle
-
-2. **Bridge Rectifier**
-
-<img src="../images/bridge-rectifier.svg" alt="Bridge Rectifier Circuit" style="width: 350px; margin: 10px;">
-
-The bridge rectifier uses four diodes arranged so that:
-- Current always flows through the load in the same direction
-- The entire AC cycle is utilized
-- No center-tapped transformer is required
+Full-wave rectifiers utilize the entire AC cycle, making them more efficient and easier to filter.
 
 > **Key Information:** *An unfiltered full-wave rectifier connected to a resistive load produces a series of DC pulses at twice the frequency of the AC input.* {{< link id="G7A07" >}}
 
-For example, with 60 Hz AC input, the output pulses occur at 120 Hz because both the positive and negative half-cycles of the input are converted to positive pulses in the output.
+The main advantage of full-wave rectification is its efficiency:
+- It utilizes both positive and negative portions of the AC cycle, effectively doubling the energy captured compared to half-wave rectification
+- By converting both halves of the cycle, it inherently produces pulses at twice the input frequency (120 Hz from a 60 Hz input)
+- This continuous flow with no complete gaps makes filtering easier and requires less capacitance to smooth the output
 
-#### Filter Networks: Smoothing the Bumps
+The exam covers two common full-wave rectifier designs: center-tapped transformer and bridge rectifier.
 
-The output from a rectifier is pulsating DC—not the smooth, constant voltage our radio equipment needs. Filter networks smooth these pulses into a more constant DC voltage.
+##### **Center-Tapped Transformer Design**
 
-> **Key Information:** *Capacitors and inductors are used in a power supply filter network.* {{< link id="G7A02" >}}
+> **Key Information:** *A full-wave rectifier circuit using a center-tapped transformer uses two diodes.* {{< link id="G7A03" >}}
 
-<img src="../images/filter-network.svg" alt="Power Supply Filter Network" style="width: 350px; margin: 10px;">
+<img src="../../../images/center-tap-rectifier.svg" alt="Center-Tapped Full-Wave Rectifier" style="width: 350px; float: right; margin: 5px; padding: 5px; background-color: white;">
 
-A typical filter network includes:
+This design uses:
+- A transformer with a center tap on its secondary winding
+- Two diodes that alternately conduct during opposite half-cycles
+- The center tap serves as the common (often ground) connection
 
-1. **Filter Capacitors**:
-   - Store energy during voltage peaks
-   - Release energy during voltage dips
-   - Larger capacitance provides better smoothing
+During operation:
+- When the top of the secondary is positive, the top diode conducts
+- When the bottom of the secondary is positive, the bottom diode conducts
+- Both scenarios create current flow in the same direction through the load
 
-2. **Filter Inductors** (sometimes called chokes):
-   - Resist changes in current flow
-   - Help maintain steady current during voltage variations
-   - Work with capacitors to reduce ripple
+<div style="clear:both;"></div>
 
-The combination of capacitors and inductors creates a low-pass filter that allows DC to pass while blocking the AC ripple components.
+##### **Bridge Rectifier Design**
 
-#### Bleeder Resistors: An Important Safety Feature
+<img src="../../../images/bridge-rectifier.svg" alt="Bridge Rectifier Circuit" style="width: 350px; float: right; padding: 5px; margin: 5px; background-color: white;">
 
-You might notice a large resistor connected across the filter capacitors in power supply schematics:
+The bridge rectifier uses four diodes arranged to:
+- Direct current through the load in the same direction regardless of input polarity
+- Eliminate the need for a center-tapped transformer
+- Provide full-wave rectification with a standard transformer
 
-> **Key Information:** *A power supply bleeder resistor discharges the filter capacitors when power is removed.* {{< link id="G7A01" >}}
+To illustrate the current path we'll use compass points – N, E, S, W (going clockwise starting at the top of the diagram on the right). We'll use the "positive to negative" convention of tracing current flow.
 
-<img src="../images/bleeder-resistor.svg" alt="Bleeder Resistor in Power Supply" style="width: 300px; margin: 10px;">
+<div style="clear:both;"></div>
 
-This seemingly simple component serves a crucial safety function. Filter capacitors can hold a dangerous charge even after the power supply is turned off and unplugged. The bleeder resistor safely discharges these capacitors, preventing nasty (and potentially lethal) surprises when servicing the equipment.
+- When N is positive, current flows from N -> D2 -> DC+ -> Load -> DC- -> D4 -> S
+- When N is negative, current flows from S -> D3 -> DC+ -> Load -> DC- -> D1 -> N
 
-Good safety practices include:
-- Always including bleeder resistors in power supply designs
-- Waiting for capacitors to discharge before touching internal components
-- Using a discharging tool (insulated handle with resistor and probe) to manually discharge capacitors before working on equipment
 
-#### Linear vs. Switching Power Supplies
+#### Center-tapped vs. Bridge Rectifier Designs
 
-Amateur radio operators use two main types of power supplies: linear and switching. Each has advantages and disadvantages.
+Each design has advantages and disadvantages:
 
-##### Linear Power Supplies
+Center-tapped transformer design:
+- Uses fewer components (only two diodes)
+- Only one diode voltage drop in the current path
+- Requires a special center-tapped transformer
+- Less efficient use of the transformer (each half of the secondary winding conducts only 50% of the time)
 
-Traditional linear power supplies use:
-- Transformer to reduce voltage
-- Rectifiers to convert AC to DC
-- Filter capacitors to smooth the output
-- Linear regulator to maintain stable voltage
+Bridge rectifier design:
+- Works with any transformer (no center tap required)
+- More efficient use of transformer windings
+- Requires four diodes instead of two
+- Two diode voltage drops in series (higher loss)
 
-They're relatively simple, reliable, and generate clean DC output with minimal RF noise.
+#### Practical Considerations
 
-##### Switching Power Supplies
+In practical circuits, the diode forward voltage drop affects the output. Each silicon diode typically drops 0.6-0.7V when conducting. This means:
+- In half-wave rectifiers: output is reduced by about 0.7V
+- In center-tapped designs: output is reduced by about 0.7V
+- In bridge rectifiers: output is reduced by about 1.4V (two diodes in series)
 
-> **Key Information:** *A characteristic of a switchmode power supply as compared to a linear power supply is that high-frequency operation allows the use of smaller components.* {{< link id="G7A08" >}}
+For high-power applications, this voltage drop represents wasted power and heat generation in the diodes.
 
-<img src="../images/switching-ps.svg" alt="Switching Power Supply Block Diagram" style="width: 400px; margin: 10px;">
-
-Switching power supplies (also called switch-mode power supplies or SMPS):
-- Convert AC to DC
-- Chop this DC into high-frequency pulses
-- Use a small, high-frequency transformer
-- Rectify and filter the transformer output
-
-Their high-frequency operation (typically 50 kHz to 1 MHz) allows the use of much smaller transformers and filter components, making switching supplies more compact and lighter than equivalent linear supplies.
-
-However, the switching action can generate RF noise that might interfere with your radio operation. Quality switching supplies designed specifically for amateur radio use include additional filtering to minimize this interference.
-
-#### Voltage Regulation
-
-Both linear and switching supplies typically include voltage regulation circuits to maintain steady output voltage despite:
-- Variations in input voltage
-- Changes in load current
-- Temperature fluctuations
-
-Modern power supplies often include additional features:
-- Adjustable output voltage
-- Current limiting for protection
-- Over-voltage protection
-- Short circuit protection
-- Multiple outputs
-
-#### Practical Power Supply Considerations
-
-As a General class operator with access to more bands and possibly higher power levels, you'll want to consider these factors when selecting a power supply:
-
-1. **Current Capacity**:
-   - A 100W HF transceiver typically needs 20-25A
-   - Add margin for accessories
-   - Consider peak current demands, especially for SSB operation
-
-2. **Voltage Stability**:
-   - Most modern transceivers specify 13.8V DC ±15%
-   - Poor regulation can cause output power fluctuation
-   - Voltage sag under load can cause symptoms like distorted audio
-
-3. **RF Noise**:
-   - Some switching supplies generate RFI
-   - Look for supplies designed specifically for amateur radio
-   - Additional filtering may be needed
-
-4. **Physical Size and Heat**:
-   - Linear supplies are typically larger and heavier
-   - Both types generate heat and need ventilation
-   - Mobile/portable operation may require compromise
-
-#### Power Supply Safety
-
-Working with power supplies requires attention to safety:
-
-1. **High Voltage Dangers**:
-   - Filter capacitors can hold lethal charges
-   - Always discharge capacitors before servicing
-   - Use insulated tools when working on power supplies
-
-2. **Current Capacity**:
-   - High-current DC can cause severe burns and fire
-   - Use properly rated wiring and connectors
-   - Fuse all DC power lines appropriately
-
-3. **Heat Management**:
-   - Ensure adequate ventilation
-   - Keep power supplies away from flammable materials
-   - Monitor for unusual heating during operation
-
-#### Power Supply Troubleshooting
-
-Common power supply problems and their symptoms include:
-
-1. **No Output Voltage**:
-   - Blown fuse or tripped circuit breaker
-   - Failed rectifier diodes
-   - Open transformer winding
-   - Failed regulator
-
-2. **Low Output Voltage**:
-   - Failing filter capacitors (increased ripple)
-   - Regulator issues
-   - Overload condition
-   - Input voltage too low
-
-3. **Excessive Ripple**:
-   - Failed filter capacitors
-   - Open filter inductor
-   - Rectifier diode issues
-
-4. **Overheating**:
-   - Component failure
-   - Overload condition
-   - Inadequate ventilation
-   - Internal short circuit
-
-Basic troubleshooting steps include:
-- Visual inspection for burned components
-- Checking fuses
-- Measuring input and output voltages
-- Checking ripple with an oscilloscope (if available)
-- Testing rectifier diodes with a multimeter
-
-#### Powering Your Adventures
-
-A reliable power supply is the foundation of your amateur radio station. Understanding how they work helps you:
-- Select the right power supply for your needs
-- Troubleshoot problems when they arise
-- Operate safely with high voltages and currents
-
-Whether you choose a traditional linear supply or a modern switching supply, ensuring it provides clean, stable power at sufficient current capacity will help your radio equipment perform at its best—letting you make the most of your new General class privileges!
-
-With reliable power now flowing to our equipment, let's explore how modern radios utilize digital circuits to process signals, control functions, and open up exciting new operating modes.
+Most amateur radio power supplies use full-wave rectification because of these advantages, with bridge rectifiers being the most common in modern designs due to their flexibility and the low cost of diodes.
