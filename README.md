@@ -45,7 +45,7 @@ The **web version** of this book is licensed under a
 [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](https://creativecommons.org/licenses/by-nc-nd/4.0/).
 
 You are free to:
-- **Share** — copy and redistribute the material in any medium or format
+- **Share** — copy and redistribute the material in any medium or format  
 
 Under the following terms:
 - **Attribution** — You must give appropriate credit, provide a link to the license, and indicate if changes were made.
@@ -73,6 +73,6 @@ This HamBook is brought to you by the team at **HamStudy.org** and is fully fund
 
 If you have any questions or suggestions, please open an issue in this repository or contact us at [insert contact information].
 
-Happy studying, and we'll see you on the airwaves!
+Happy studying, and we'll see you on the airwaves!  
 
 **73 from KD7BBC and the HamStudy team.**

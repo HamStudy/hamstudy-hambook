@@ -22,11 +22,6 @@
 
   --max-image-print-width: 100%;
 
-  --qrcode-x: 0.25in;
-  --qrcode-y: 3.75in;
-  --qrcode-width: 1in;
-  --qrcode-height: 1in;
-
   // Colors
   --hamstudy: #00bcd6;
   --blockquote-bg: #e1fbff;
@@ -68,7 +63,6 @@
 #cover-image {
   display: none;
 }
-.blank-page { display: none; height: calc(var(--page-height) / 2); }
 h4.subheading {
   margin-top: -0.67rem;
 }
@@ -83,7 +77,7 @@ div.study-prompt {
 }
 div.qrcode {
   display: none !important;
-  justify-content: space-evenly; margin: 0 auto; width: 50%; min-width: 20rem;
+  justify-content: space-evenly; margin: 0 auto; width: 80%; min-width: 20rem;
   padding: 0.5rem 0;
   div { display: flex; justify-content: center; align-items: center; text-align: center; }
   div.label { padding: 0 0.25em; }
@@ -91,6 +85,7 @@ div.qrcode {
   a { display: block; height: 5rem; padding-right: 0.5rem; width: 6rem; }
   border: 1px solid var(--hamstudy); border-radius: 0.5rem; text-align: center;
   img { width: 5rem; max-width: none !important; }
+  > img { padding-left: 1rem; }
 }
 
 .print-only { display: none; }
@@ -118,10 +113,13 @@ div.qrcode {
     page-break-before: always;
     break-before: page;
   }
-  .blank-page {
-    display: block;
+  .full-page {
+    // Used to add a full page at some arbitrary place
+    height: calc(var(--page-height) - 2rem);
+    max-width: var(--page-width);
     page-break-after: always;
     break-after: page;
+    .qrcode { margin: 5rem auto; }
   }
   #cover-image {
     display: block;
