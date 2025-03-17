@@ -17,7 +17,7 @@ Amateur radio, often called "ham radio," is more than just a hobby—it's a comm
 ## A World of Possibilities
 
 <div style="text-align: center">
-    <img src="../../images/illus/aboutradio.svg" alt="Illustration showing many people with radios" style="text-align: center; width: 500px; max-width: 60% !important;;">
+    <img src="../../images/illus/aboutradio.svg" alt="Illustration showing many people with radios" style="text-align: center; width: 500px; max-width: 60% !important;">
 </div>
 
 Imagine staying in touch when everything else is down—no cell service, no internet, not even power. With amateur radio, you’re not just using someone else’s network; you’re creating your own. Whether you’re deep in the mountains or in the middle of a city blackout, your radio keeps you connected.

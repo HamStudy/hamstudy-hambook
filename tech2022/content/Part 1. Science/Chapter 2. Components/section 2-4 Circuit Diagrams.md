@@ -82,4 +82,4 @@ Remember: While schematics might look complicated at first, they're just maps sh
 - Follow the current path from power source through components
 - Remember that connection points are shown by dots where lines meet
 
-As a Technician Class operator you won't need to know this stuff in depth, but there are a few questions you might see on the exam which require you to identify a component by its symbol – make sure you look over them so you know what to look for!
+As a Technician Class operator you won't need to know this stuff in depth, but there are a few questions you might see on the exam which require you to identify a component by its symbol – make sure you look over them carefully so you know what to look for!

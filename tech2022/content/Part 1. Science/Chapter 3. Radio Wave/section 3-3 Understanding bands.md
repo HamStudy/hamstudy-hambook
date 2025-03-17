@@ -6,7 +6,7 @@ questions: [ "T1A06" ]
 
 ### Section 3.3: Understanding Amateur Radio Bands
 
-Now that we understand what the electromagnetic spectrum is, let's focus specifically on the portions allocated to amateur radio operators. The frequencies we have been assied are not arbitrary - they're carefully allocated to provide a variety of propagation characteristics and capabilities.
+Now that we understand what the electromagnetic spectrum is, let's focus specifically on the portions allocated to amateur radio operators. The frequencies we have been assigned are not arbitrary - they're carefully allocated to provide a variety of propagation characteristics and capabilities.
 
 #### The Amateur Radio Band Plan
 
