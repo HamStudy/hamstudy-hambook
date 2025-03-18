@@ -20,11 +20,11 @@ This little connector is like the smartphone of radio connectors—small, sleek,
 An **SMA-M (male) connector** has **internal threads** and a **center pin**. This often causes confusion because the **external threads** of an **SMA-F (female) connector** can make it *look* male at first glance. However, the key detail is that **the center conductor determines the gender**:  
 - Center **pin** = **male**  
 
-  <img src="../../../images/SMAMale.jpg" alt="SMA Male Connector"  style="width: 100px;">
+  <img src="../../../images/SMAMale.jpg" alt="SMA Male Connector"  style="width: 100px;" />
   
 - Center **socket** = **female**
 
-  <img src="../../../images/SMAFemale.jpg" alt="SMA Female Connector"  style="width: 100px;">
+  <img src="../../../images/SMAFemale.jpg" alt="SMA Female Connector"  style="width: 100px;" />
 
 Confused yet? Don’t worry, you’ll get the hang of it. Just remember: whatever connector is on your radio, you need the *opposite* on your antenna.  
 
@@ -34,7 +34,7 @@ Think of BNC as the quick-change artist of connectors. Instead of screwing on li
 
 Many hams use **BNC adapters** on their radios so they can easily switch between antennas. It’s especially useful if you like to swap between a rubber duck, a whip, and a mobile antenna without wearing out your radio’s built-in connector.  
 
-<img src="../../../images/bncadapters.jpg" alt="BNC Male and Adapters"  style="width: 200px;">
+<img src="../../../images/bncadapters.jpg" alt="BNC Male and Adapters"  style="width: 200px;" />
 
 
 #### PL-259/SO-239 (UHF Connector)  
@@ -47,11 +47,11 @@ You’ll find these connectors on a lot of **mobile and base station gear**. The
 
 - The **PL-259** is the male **PL**ug.
   
-  <img src="../../../images/PL259.jpg" alt="BNC Male and Adapters"  style="width: 100px;">
+  <img src="../../../images/PL259.jpg" alt="BNC Male and Adapters"  style="width: 100px;" />
 
 - The **SO-239** is the female **SO**cket.
 
-  <img src="../../../images/SO239.jpg" alt="BNC Male and Adapters"  style="width: 100px;">
+  <img src="../../../images/SO239.jpg" alt="BNC Male and Adapters"  style="width: 100px;" />
 
 These connectors work well up to about **150 MHz**, but if you’re working above that, you might want to use **Type N** connectors instead.  
 
@@ -61,7 +61,7 @@ These connectors work well up to about **150 MHz**, but if you’re working abov
 
 Meet the heavyweight champion of RF connectors. **Type N connectors** are like the armored tanks of the radio world—**strong, weatherproof, and built for high frequencies**.  
   
-<img src="../../../images/typen.jpg" alt="BNC Male and Adapters"  style="width: 100px;">
+<img src="../../../images/typen.jpg" alt="BNC Male and Adapters"  style="width: 100px;" />
 
 They’re designed for **UHF and microwave bands**, which means they work great for **repeaters, satellite communications, and serious VHF/UHF setups**. While they’re bigger than SMA or BNC connectors, they make up for it with **low signal loss and excellent shielding**.  
 

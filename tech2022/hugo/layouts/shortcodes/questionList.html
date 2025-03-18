@@ -20,7 +20,7 @@
             {{- $imgId := replaceRE "\\..*$" "" $question.image -}}
             {{- if and $question.image (not (index $shownFigures $question.image)) -}}
               <div class="question-figure figure-{{ $imgId }}">
-                <img src="{{ $imagePath }}" alt="Figure for {{ $questionID }}" style="filter: var(--icon-filter);">
+                <img src="{{ $imagePath }}" alt="Figure for {{ $questionID }}" style="filter: var(--icon-filter);" />
               </div>
               {{- $shownFigures = $shownFigures | merge (dict $question.image true) -}}
             {{- end -}}

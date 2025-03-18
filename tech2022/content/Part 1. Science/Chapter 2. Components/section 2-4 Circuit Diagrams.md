@@ -27,7 +27,7 @@ Let's review the key components you'll encounter in circuit diagrams. Pay specia
 
 - **Variable Resistor (Potentiometer)**: Like a regular resistor, but with an arrow showing you can adjust its value. {{< link id="T6C08" >}}
   
-  <img src="../../../images/schem-potentiometer.svg" alt="Potentiometer schematic Symbol"  style="width: 100px;">
+  <img src="../../../images/schem-potentiometer.svg" alt="Potentiometer schematic Symbol"  style="width: 100px;" />
 
 - **Capacitor**: Those parallel lines store electrical energy. You'll see both polarized (with a curved line) and non-polarized versions. {{< link id="T6C06" >}}
   
@@ -35,17 +35,17 @@ Let's review the key components you'll encounter in circuit diagrams. Pay specia
 
 - **Transformer**: Two coils side by side show energy transfer between circuits. {{< link id="T6C09" >}}
   
-  <img src="../../../images/schem-transformer.svg" alt="Transformer schematic Symbol" style="width: 100px;">
+  <img src="../../../images/schem-transformer.svg" alt="Transformer schematic Symbol" style="width: 100px;" />
 
 - **Variable Inductor**: A coil with an arrow through it means you can adjust its value. {{< link id="T6C10" >}}
   
-  <img src="../../../images/schem-varinductor.svg" alt="Variable Inductor schematic Symbol" style="width: 100px;">
+  <img src="../../../images/schem-varinductor.svg" alt="Variable Inductor schematic Symbol" style="width: 100px;" />
 
 ##### Active Components
 
 - **Transistor**: These workhorses control current flow and provide amplification. The arrow shows current direction. {{< link id="T6C03" >}}
   
-  <img src="../../../images/schem-npn.svg" alt="NPN Transistor Schematic Symbol" style="width: 100px;">
+  <img src="../../../images/schem-npn.svg" alt="NPN Transistor Schematic Symbol" style="width: 100px;" />
 
 - **LED (Light Emitting Diode)**: Like a regular diode but with arrows showing it emits light. {{< link id="T6C07" >}}
   
@@ -55,15 +55,15 @@ Let's review the key components you'll encounter in circuit diagrams. Pay specia
 
 - **Battery**: Long and short lines show positive and negative terminals. {{< link id="T6C05" >}}
   
-  <img src="../../../images/schem-battery.svg" alt="Battery Schematic Symbol" style="width: 100px;">
+  <img src="../../../images/schem-battery.svg" alt="Battery Schematic Symbol" style="width: 100px;" />
 
 - **Lamp**: A circle with a cross inside represents a light bulb. {{< link id="T6C04" >}}
   
-  <img src="../../../images/schem-lamp.svg" alt="Lamp Schematic Symbol" style="width: 100px;">
+  <img src="../../../images/schem-lamp.svg" alt="Lamp Schematic Symbol" style="width: 100px;" />
 
 - **Antenna**: A line with smaller lines at an angle represents where signals enter or leave the circuit. {{< link id="T6C11" >}}
   
-  <img src="../../../images/schem-antenna.svg" alt="Antenna Schematic Symbol" style="width: 100px;">
+  <img src="../../../images/schem-antenna.svg" alt="Antenna Schematic Symbol" style="width: 100px;" />
 
 #### Reading Circuit Diagrams
 

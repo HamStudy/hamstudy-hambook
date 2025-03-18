@@ -29,7 +29,7 @@ Whether you're tuning in to your favorite broadcast station, chatting on a repea
 > - These fields are *at right angles* to each other{{< link id="T3B01" >}}
 > - Radio waves travel at the *speed of light* in free space (approximately *300,000,000 meters per second*){{< link id="T3B04" >}}{{< link id="T3B11" >}}
 
-<img src="../../../images/electromagnetic-3d.gif" alt="Electric vs Magnetic Fields - always at a right angle from each other"  style="max-width: 400px;">
+<img src="../../../images/electromagnetic-3d.gif" alt="Electric vs Magnetic Fields - always at a right angle from each other"  style="max-width: 400px;" />
 
 #### Polarization
 
