@@ -11,23 +11,25 @@ As you move beyond the basics of your Technician license, you'll need a solid gr
 
 #### Understanding Current and Voltage in Series and Parallel Circuits
 
-Imagine water flowing through pipes. That's a helpful way to visualize how current and voltage behave in electrical circuits. The key difference between series and parallel circuits lies in how these "pipes" are arranged, which dramatically affects how current and voltage are distributed.
+Imagine water flowing through pipes. That's a helpful way to visualize how current and voltage are characterized in electrical circuits. The key difference between series and parallel circuits lies in how these "pipes" are arranged, which affects where current flows and how voltages are distributed.
 
+{{% captioned caption="Figure 1 – Series and Parallel Circuit Diagrams" %}}
 ![figure: Series circuit on the left, parallel circuit on the right. Both show three resistors R1, R2, R3. The series circuit has a single I_total arrow, the parallel circuit has I_total and individual I_1, I_2, and I_3 arrows.](../../../images/s1-1-parallel-series.svg)
+{{% /captioned %}}
 
 ##### Series Circuits (A Single Pipe):
 
-* **One Path:** In a series circuit, components like resistors are connected one after another, forming a single, continuous path for the current. Think of water flowing through a single pipe – it has to go through each section in turn.
+* **One Path:** In a series circuit, components like resistors are connected one after another, forming a single, continuous loop in which current flows. Think of water flowing through a single pipe – it has to go through each section in turn.
 * **Constant Current:** Consequently, the *same amount of current* flows through every component in the series circuit. Just like the water flow is the same throughout the single pipe.
-* **Divided Voltage:** The total voltage supplied to the circuit is *divided* among the components. Each component "uses up" a portion of the total voltage.
+* **Divided Voltage:** The total voltage supplied to the circuit is *divided* among the components. Each component "uses up" a portion of the total voltage. Each component will have an associated voltage drop across its two terminals. All of the voltage drops in the current loop will add up to zero.
 * **Applying Ohm's Law:** Since the current is the same throughout, the voltage drop across each component depends on its resistance ($E = I \times R$). Components with higher resistance will have larger voltage drops.
-* **Single Point of Failure:** If one component fails (like a break in the pipe), the entire circuit stops working. This is why old-style Christmas lights went dark when one bulb burned out.
+* **Single Point of Failure:** If one component fails by opening (infinite resistance, like a break in the pipe), then current flow will be interrupted and the entire circuit stops working. This is why old-style Christmas lights went dark when one bulb burned out. It is worth noting that a component could also fail by shorting (zero resistance), in which case the circuit would still work, but differently because the component would be effectively removed from the circuit.
 
 ##### Parallel Circuits (Multiple Pipes):
 
-* **Multiple Paths:** In a parallel circuit, components are connected side-by-side, providing *multiple paths* for the current. Think of water flowing through multiple pipes branching off from a main line.
-* **Constant Voltage:** The *voltage across each component is the same* as the voltage supplied to the circuit. Each resistor in the parallel circuit gets the full voltage.
-* **Divided Current:** The total current is *divided* among the different paths. The amount of current flowing through each path depends on the resistance of that path.
+* **Multiple Paths:** In a parallel circuit, components are connected side-by-side, providing *multiple paths* for current flow. Think of water flowing through multiple pipes branching off from a main line.
+* **Constant Voltage:** The *voltage across each component is the same* as the voltage supplied to the circuit. Each resistor in the parallel circuit has the full voltage applied across its two terminals.
+* **Divided Current:** The total current is *divided* among the different paths. The amount of current flowing through each path depends on the resistance of that path. The sum of the current in each branch will add to the total current flowing in the main trunk.
 
 > **Key Information:** *In a circuit of parallel resistors, the total current equals the sum of the currents through each branch.* {{< link id="G5B02" >}}
 
@@ -49,11 +51,13 @@ Now that we understand the basic principles, let's examine how resistors, capaci
 
 Here's a summary of how components combine:
 
+{{% captioned caption="Table 1 – Summary of governing equations for series and parallel circuits" %}}
 | Component | Series Connection | Parallel Connection |
 |-----------|------------------|---------------------|
 | Resistors | Direct Sum: $$R_{total} = R_1 + R_2 + R_3 + \ldots$$ | Reciprocal Method: $$\frac{1}{R_{total}} = \frac{1}{R_1} + \frac{1}{R_2} + \frac{1}{R_3} + \ldots$$|
 | Capacitors | Reciprocal Method: $$\frac{1}{C_{total}} = \frac{1}{C_1} + \frac{1}{C_2} + \frac{1}{C_3} + \ldots$$| Direct Sum: $$C_{total} = C_1 + C_2 + C_3 + \ldots$$ |
 | Inductors | Direct Sum: $$L_{total} = L_1 + L_2 + L_3 + \ldots$$ | Reciprocal Method: $$\frac{1}{L_{total}} = \frac{1}{L_1} + \frac{1}{L_2} + \frac{1}{L_3} + \ldots$$|
+{{% /captioned %}}
 
 Notice the pattern: Resistors and inductors follow the same rules (direct sum in series, reciprocal method in parallel), while capacitors follow the opposite pattern (reciprocal method in series, direct sum in parallel). This relationship makes sense when you consider the physical properties of these components. Let's explore each component type with practical examples.
 
@@ -101,7 +105,7 @@ R_{\text{total}} &= \frac{R_1 \cdot R_2}{R_1 + R_2} \\
 
 #### Capacitors in Combination
 
-Capacitors store energy in electric fields and follow combination rules opposite to resistors.
+Capacitors store energy in electric fields, typically between two parallel metal plates, and follow combination rules opposite to resistors. The capacitance of the capacitor is proportional to the surface area of the metal plates.
 
 > **Key Information:** *To increase the total capacitance in a circuit, add a capacitor in parallel.* {{< link id="G5C13" >}}
 
@@ -110,10 +114,12 @@ When capacitors are connected in parallel, their values add:
 
 $$ C_\text{total} = C_1 + C_2 + C_3 + \ldots $$
 
-This makes sense when you visualize capacitors as storage containers—connecting them in parallel creates a larger combined container.
+This makes sense when you visualize capacitors as storage containers—connecting them in parallel creates a larger combined container. When capacitors are connected in parallel, it's equivalent to having parallel plates with more surface area.
 
 ##### **Capacitors in Series (Reciprocal Method):**
 For capacitors in series, we use:
+
+$$\frac{1}{C_{total}} = \frac{1}{C_1} + \frac{1}{C_2} + \frac{1}{C_3} + \ldots$$
 
 For two capacitors, we can simplify to:
 
@@ -179,16 +185,16 @@ L_{\text{total}} &= \frac{10}{3} = 3.33 \text{ mH} \approx 3.3 \text{ mH}
 
 #### Connecting to Real Amateur Radio Applications
 
-Understanding series and parallel circuits goes far beyond just solving textbook problems—it's the foundation for nearly every aspect of radio design. Here's why these concepts are so crucial:
+Understanding series and parallel circuits goes far beyond just solving textbook problems—it's the foundation for understanding circuit design. Here's why these concepts are so crucial:
 
-1. **Resonant Circuits**: The combination of inductors and capacitors forms the core of tuned circuits that select frequencies in your receiver, generate signals in your transmitter, and match your antenna. Without understanding how these components combine, you can't grasp how your radio separates one signal from thousands of others.
+1. **Resonant Circuits**: The combination of inductors and capacitors forms the core of tuned circuits that select frequencies in your receiver, generate signals in your transmitter, and match your antenna. Without understanding how these components combine, you can't grasp how your radio separates one signal from thousands of others. The discussion and examples above didn't cover combinations of a mixture of capacitors, inductors, and resistors, but we will discuss those more in the next section.
 
-2. **Impedance Matching**: Every effective RF system requires matching impedances for maximum power transfer. The series and parallel relationships we've discussed form the basis for matching networks in antenna tuners, amplifiers, and feed line systems.
+2. **Impedance Matching**: Every effective RF system requires matching impedances for maximum power transfer. The series and parallel relationships we've discussed form the basis for matching networks in antenna tuners, amplifiers, and feed line systems. Matching networks typically consist of series-connected impedances and parallel-connected impedances, which will be covered more in section 1.3.
 
-3. **Filtering**: Whether you're trying to eliminate interference or ensure your transmitted signal is clean, filters use the mathematics of series and parallel circuits to pass some frequencies while blocking others.
+3. **Filtering**: Whether you're trying to eliminate interference or ensure your transmitted signal is clean, filters use the mathematics of series and parallel circuits to pass some frequencies while blocking others. Filtering is an area of engineering that is very well understaood and there are many references that go into great detail on filter design. We will introduce that topic in section 1.3, but you may want to explore it further on your own.
 
-4. **Signal Division and Distribution**: The voltage and current division principles we've covered explain how signals are routed, split, combined, and isolated throughout your station.
+4. **Signal Division and Combination**: The voltage and current division principles we've covered are used when designing circuits that route, split, combine, and isolate signals throughout your station.
 
 #### Moving Forward
 
-With this understanding of how basic components interact, you're ready to explore more advanced concepts. In the next section, we'll see how these same components behave differently when AC is applied—introducing reactance and impedance, the fundamental concepts that explain why radio frequency circuits behave the way they do.
+With this understanding of series and parallel circuits, you're ready to explore more advanced concepts. In the next section, we'll see how these same components behave differently when AC is applied—introducing the fundamental concepts of reactance and impedance.
