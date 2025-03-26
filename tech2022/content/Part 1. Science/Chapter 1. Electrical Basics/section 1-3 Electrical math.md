@@ -15,7 +15,7 @@ A lot of people see math questions and immediately start stressing—but there's
 
 So if this section just isn't clicking for you, **don't worry about it**—skip it and focus on the parts that make more sense. But if you take a little time to understand these formulas, you might find that they're **actually pretty simple** and can help you in real-world radio troubleshooting.
 
-<img src="../../../images/illus/ohms_triangle.svg" alt="cartoon showing a conductor on the left and an insulator on the right, angry with each other" style="float: right; width: 250px; margin: 3px;" />
+<img src="../../../images/illus/ohmslawhero.svg" alt="cartoon showing a conductor on the left and an insulator on the right, angry with each other" style="float: right; width: 150px; margin: 3px;" />
 
 #### Ohm's Law
 

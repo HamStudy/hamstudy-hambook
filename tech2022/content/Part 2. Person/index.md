@@ -2,6 +2,7 @@
 slug: pt2
 questions: []
 pagebreak: true
+epubtype: part
 ---
 
 # Part 2: The Person Behind Amateur Radio

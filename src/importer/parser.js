@@ -32,7 +32,7 @@ async function parseMarkdownFile(filePath) {
     return { title, content, frontMatter };
 }
 
-async function processDirectory(dirPath) {
+async function processDirectory(dirPath) {    
     const entries = await fs.readdir(dirPath, { withFileTypes: true });
     const sortedEntries = entries.sort((a, b) => a.name.localeCompare(b.name));
     const chapters = [];
@@ -75,7 +75,11 @@ async function loadBook(rootDir) {
     const toc = await parseMarkdownFile(tocPath);
     const parts = await processDirectory(contentDir);
 
-    return { toc, parts };
+    const poolFilePath = path.join(rootDir, 'pool.json');
+    const poolFileContent = await fs.readFile(poolFilePath, 'utf8');
+    const pool = JSON.parse(poolFileContent);
+
+    return { toc, parts, pool };
 }
 
 module.exports = {

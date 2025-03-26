@@ -2,7 +2,8 @@
 title: "Glossary of Amateur Radio Terms"
 slug: glossary
 questions: []
-pagebreak: true
+pagebreak: false
+fontsize: smaller
 ---
 
 ## Glossary of Amateur Radio Terms

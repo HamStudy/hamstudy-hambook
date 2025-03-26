@@ -1,10 +1,14 @@
 const fs = require('fs/promises');
 const path = require('path');
 const { writeFrontMatter, getTitleSlug, adjustMarkdownHeaders, getLinkSlug } = require('../utils');
+const { processImages } = require('../image-utils');
 
-async function writeHugoBook(book, outputPath) {
+async function writeHugoBook(book, outputPath, sourcePath) {
     const contentPath = path.join(outputPath, 'content', 'docs');
-    const sourceDir = path.dirname(outputPath);
+    const sourceDir = path.resolve(sourcePath);
+
+    const imagesDir = path.join(outputPath, 'static');
+    const imagesRelDir = path.join(outputPath, 'images');
 
     const writeChapter = async (chapter, currentPath, index, level = 1) => {
         const chptSlug = getTitleSlug(chapter);
@@ -20,7 +24,7 @@ async function writeHugoBook(book, outputPath) {
                 ...intro?.frontMatter || {},
             }) + (intro?.content || '');
 
-            introContent = await processImages(introContent, sourceDir, outputPath, path.relative(outputPath, chapterPath));
+            introContent = await processImages(introContent, sourceDir, imagesDir, path.relative(chapterPath, imagesRelDir));
             introContent = adjustMarkdownHeaders(introContent);
 
             introContent.filename = '_index';
@@ -41,7 +45,7 @@ async function writeHugoBook(book, outputPath) {
                     ...section.frontMatter || {},
                 }) + section.content;
 
-                sectionContent = await processImages(sectionContent, sourceDir, outputPath, path.relative(outputPath, chapterPath));
+                sectionContent = await processImages(sectionContent, sourceDir, imagesDir, path.relative(chapterPath, imagesRelDir));
                 sectionContent = adjustMarkdownHeaders(sectionContent);
 
                 section.filename = sectionFileName;
@@ -60,7 +64,7 @@ async function writeHugoBook(book, outputPath) {
                 ...part.frontMatter || {},
             }) + part.content;
 
-            conclusionContent = await processImages(conclusionContent, sourceDir, outputPath, path.relative(outputPath, contentPath));
+            conclusionContent = await processImages(conclusionContent, sourceDir, imagesDir, path.relative(contentPath, imagesRelDir));
             conclusionContent = adjustMarkdownHeaders(conclusionContent);
 
             part.filename = `conclusion`;
@@ -116,65 +120,6 @@ function generateTableOfContents(book) {
     }
 
     return writeFrontMatter({ title: 'Table of Contents' }) + toc;
-}
-
-async function processImages(content, sourceDir, outputDir, relativeOutputPath) {
-    const imageRegex = /!\[([^\]]*)\]\(([^)]+)\)|<img[^>]*src=["']([^"']+)["'][^>]*>/g;
-    const imageDir = path.join(sourceDir, 'images');
-    const staticDir = path.join(outputDir, 'static', 'images');
-
-    let lastIndex = 0;
-    let result = '';
-    let match;
-
-    while ((match = imageRegex.exec(content)) !== null) {
-        const [fullMatch, alt, mdSrc, htmlSrc] = match;
-        const imageSrc = mdSrc || htmlSrc;
-        const imageName = path.basename(imageSrc);
-
-        result += content.slice(lastIndex, match.index);
-
-        const imagePath = await findImage(imageDir, imageName);
-
-        if (imagePath) {
-            const relativePath = path.relative(imageDir, imagePath);
-            const newImagePath = path.join(staticDir, relativePath);
-            await fs.mkdir(path.dirname(newImagePath), { recursive: true });
-            await fs.copyFile(imagePath, newImagePath);
-
-            const newImageUrl = path.join('/images', relativePath).replace(/\\/g, '/');
-
-            if (mdSrc) {
-                result += `![${alt}](${newImageUrl})`;
-            } else {
-                result += fullMatch.replace(htmlSrc, newImageUrl);
-            }
-        } else {
-            result += fullMatch;
-        }
-
-        lastIndex = imageRegex.lastIndex;
-    }
-
-    result += content.slice(lastIndex);
-
-    return result;
-}
-
-async function findImage(dir, imageName) {
-    const entries = await fs.readdir(dir, { withFileTypes: true });
-
-    for (const entry of entries) {
-        const fullPath = path.join(dir, entry.name);
-        if (entry.isDirectory()) {
-            const result = await findImage(fullPath, imageName);
-            if (result) return result;
-        } else if (entry.isFile() && entry.name === imageName) {
-            return fullPath;
-        }
-    }
-
-    return null;
 }
 
 module.exports = {

@@ -1,8 +1,11 @@
+---
+epubtype: introduction
+---
 # How to Use This HamBook
 
 Welcome to your guide for the Technician Class amateur radio license! This HamBook is designed to support you wherever you are in your amateur radio journey, whether you're looking to quickly get your license or gain a deeper understanding of the technical concepts. Here's how to get the most out of this resource:
 
-#### Structure of the HamBook
+## Structure of the HamBook
 
 This HamBook is divided into two main parts:
 
@@ -12,11 +15,11 @@ This HamBook is divided into two main parts:
 
 Each chapter breaks down topics into digestible segments, with key concepts highlighted for easy reference. Whether you're doing a deep study or looking for quick answers, you'll find what you need.
 
-#### Different Ways to Use This Book
+## Different Ways to Use This Book
 
 Everyone learns differently and has different goals. Here are some ways you can use this HamBook:
 
-#### Quick Path to Getting Licensed
+## Quick Path to Getting Licensed
 - Skim each section first to get a general overview of the concepts
 - Focus particularly on anything *italicized* and any **"Key Information"**.
 - Pay special attention to topics that catch your interest or seem important
@@ -25,7 +28,7 @@ Everyone learns differently and has different goals. Here are some ways you can 
 - Use the HamStudy app alongside the book to track your progress and review the questions efficiently
 - Keep the book as a reference to explore topics more thoroughly after getting licensed
 
-#### Final Exam Preparation
+## Final Exam Preparation
 Once you've covered the material and are getting close to exam day, here's an effective strategy using the HamStudy app:
 
 - First, use Study Mode until you've seen 100% of the questions at least once
@@ -37,18 +40,18 @@ Once you've covered the material and are getting close to exam day, here's an ef
 - You're likely ready for the exam when you're consistently scoring 85% or better on practice tests (remember, you only need 74% to pass)
 - Strategic tip: Since each exam question comes from a different section of the question pool, you could theoretically skip up to 9 sections entirely as long as you master the other 26
 
-#### Deep Learning Approach
+## Deep Learning Approach
 - Read each chapter thoroughly before attempting practice questions
 - Take notes and highlight key concepts, particularly Key Information and anything in *italics*
 - Try to relate new concepts to things you already know
 - Engage with local ham radio clubs to discuss what you're learning
 
-#### Reference Guide
+## Reference Guide
 - Keep the book handy after getting licensed
 - Use the detailed table of contents to quickly find specific topics
 - Refer back to sections as you encounter them in your ham radio activities
 
-#### Enhance Your Learning with HamStudy
+## Enhance Your Learning with HamStudy
 
 <img src="../../images/hamstudy_a.svg" style="float: right; width: 75px; margin: 1rem;" />
 
@@ -60,7 +63,7 @@ HamStudy.org and the HamStudy mobile app work seamlessly with this HamBook, prov
 
 3. **Study Mode**: Intelligent flash card study reinforces what you're learning.
 
-4. {{< web-only >}}**Study Buttons**: At the end of each section in this HamBook, you'll find a "Study this section with HamStudy" button that links to those section-specific questions in HamStudy.{{< /web-only >}}
+4. {{< web-only tag="span" >}}**Study Buttons**: At the end of each section in this HamBook, you'll find a "Study this section with HamStudy" button that links to those section-specific questions in HamStudy.{{< /web-only >}}
    {{< print-only >}}**QR Codes to Study**: Throughout this book, you'll find QR codes at the end of each section and chapter. Scanning these codes will open a customized Study session in HamStudy with the relevant questions for what you've just read.{{< /print-only >}}
 
 5. **Mobile Option**: The HamStudy mobile app offers additional features including:
@@ -69,10 +72,10 @@ HamStudy.org and the HamStudy mobile app work seamlessly with this HamBook, prov
    - **Offline Study**: Practice questions anywhere, even without an internet connection
    - **Sharing**: Share progress with a mentor or assist others in learning
 
-   {{< web-only >}}{{< button href="https://hamstudy.org/appstore?ref=hb2022w&a=1" >}} Get the HamStudy app{{< /button >}}{{< /web-only >}}
+   {{< web-only tag="span" >}}{{< button href="https://hamstudy.org/appstore?ref=hb2022w&a=1" >}} Get the HamStudy app{{< /button >}}{{< /web-only >}}
    {{< print-only >}}{{< get-app >}}{{< /print-only >}}
 
-#### Study Tips for Success
+## Study Tips for Success
 
 - **Set Realistic Goals**: Whether you're aiming to get licensed quickly or take a slower, deeper approach, set goals that work for you.
 

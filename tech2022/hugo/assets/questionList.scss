@@ -1,0 +1,177 @@
+@use 'sass:color';
+
+// Common variables and mixins
+$border-radius-standard: 0.5rem;
+$question-color: #336;
+
+:root {
+  --question-color: #333;
+  --question-link-color: #{color.scale($question-color, $lightness: 30%)};
+  --correct-answer-color: #063;
+  --section-color: #633;
+  --subel-color: #{color.scale(#633, $lightness: 30%)};
+  --section-border: var(--section-color);
+}
+
+// Common styles for question figures
+@mixin question-figure-base {
+  text-align: center;
+  
+  > img, > object, > object > img {
+    max-width: var(--max-image-width);
+    max-height: 50vh; /* 50% of the viewport height */
+    height: auto;
+    width: auto;
+    margin: auto;
+    display: block;
+    filter: var(--icon-filter); /* Inverts image in dark mode */
+  }
+
+  &.figure-T1 {
+    > img, > object, > object > img {
+      max-width: 80% !important;
+    }
+  }
+  
+  &.figure-T2 {
+    > img, > object, > object > img {
+      max-width: 100% !important;
+    }
+  }
+  
+  &.figure-T3 {
+    > img, > object, > object > img {
+      max-width: 50% !important;
+    }
+  }
+}
+
+// Common styles for question items
+@mixin question-item-base {
+  margin-bottom: 0.85em;
+  
+  .answers-list {
+    margin: 0;
+    padding-left: 0rem;
+    list-style-type: none;
+    
+    .answer-item {
+      display: flex;
+      justify-content: start;
+      align-items: start;
+      margin: 0;
+      padding: 0.1rem 0.75rem;
+      line-height: 1rem;
+      border: 1px solid transparent;
+      color: var(--question-distractor-color);
+      
+      > strong {
+        color: var(--question-distractor-color);
+        display: inline-block;
+        min-width: 1.1rem;
+      }
+      
+      &.correct-answer {
+        line-height: 1.25rem;
+        border: 1px solid var(--correct-answer-border);
+        border-radius: $border-radius-standard;
+        background-color: var(--correct-answer-bg);
+        color: var(--correct-answer-color);
+        box-shadow: inset 0 0 0 3px var(--correct-answer-bg); /* Visual cue */
+
+        strong {
+          color: var(--correct-answer-color);
+        }
+      }
+    }
+  }
+}
+
+// Common styles for answer items
+@mixin answer-item-with-strong {
+  strong { flex: 0; margin-right: 0.25rem; color: var(--question-link-color); white-space: nowrap; }
+}
+
+.full-pool {
+  a.question-link {
+    white-space: nowrap;
+    &::after {
+      content: ' (page ' target-counter(attr(href), page) ')';
+    }
+  }
+}
+
+// Unified styles
+.full-pool, .questions-list {
+
+  font-size: var(--question-pool-font-size);
+
+  .question-figure {
+    @include question-figure-base;
+    margin-bottom: 0.25rem;
+  }
+  
+  .question-item {
+    @include question-item-base;
+    page-break-inside: avoid;
+    break-inside: avoid-page;
+  }
+
+  .subel {
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.05rem;
+    padding: 0.25rem;
+    border-width: 1px 0 1px 0;
+    border-style: solid;
+    border-color: var(--subel-color);
+    color: var(--subel-color);
+    margin-bottom: 0.25rem;
+  }
+  
+  .section-head {
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto 1em auto;
+    font-size: 0.95em !important;
+    padding: 0.5em;
+    border-radius: $border-radius-standard;
+    border-width: 1px .25rem 1px .25rem;
+    border-style: solid;
+    border-color: var(--section-border);
+    line-height: 1.25rem;
+    label {
+      display: inline-block;
+      padding: 0 0.5rem;
+      border: 1px solid var(--section-border);
+      border-radius: 0.75rem;
+      color: var(--section-border);
+      text-align: center;
+      margin-right: 0.25rem;
+    }
+  }
+}
+
+.question-item {
+  > strong {
+    display: inline-block;
+    line-height: 1.25rem;
+    span.q-id {
+      font-weight: 900;
+      a {
+        color: var(--question-link-color);
+      }
+    }
+    
+    span.q-text {
+      padding-left: 0.5rem; /* Space after the : */
+      color: var(--question-color);
+      font-weight: 400;
+    }
+  }
+
+  .answer-item {
+    @include answer-item-with-strong;
+  }
+}

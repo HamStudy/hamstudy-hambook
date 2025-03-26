@@ -2,6 +2,7 @@
 slug: pt1
 questions: []
 pagebreak: true
+epubtype: part
 ---
 
 # Part 1: The Science Behind Amateur Radio

@@ -17,19 +17,19 @@ const formatTypes = {
     hugo: 'hugo'
 };
 
-async function processBook(book, outputFormat, outputPath) {
+async function processBook(book, outputFormat, outputPath, sourcePath) {
     switch (outputFormat) {
         case formatTypes.singleFileMarkdown:
-            await writeSingleFileMarkdown(book, outputPath);
+            await writeSingleFileMarkdown(book, outputPath, sourcePath);
             break;
         case formatTypes.singleDirectoryBook:
-            await writeSingleDirectoryBook(book, outputPath);
+            await writeSingleDirectoryBook(book, outputPath, sourcePath);
             break;
         case formatTypes.jsonStructure:
             await fs.writeFile(outputPath, JSON.stringify(getBookStructure(book), null, 2));
             break;
         case formatTypes.hugo:
-            await writeHugoBook(book, outputPath);
+            await writeHugoBook(book, outputPath, sourcePath);
             break;
         default:
             throw new Error('Invalid output format specified.');
@@ -53,7 +53,7 @@ function watchAndProcess(rootDir, outputFormat, outputPath) {
         console.log('Changes detected, reprocessing...');
         try {
             const book = await loadBook(rootDir);
-            await processBook(book, outputFormat, outputPath);
+            await processBook(book, outputFormat, outputPath, rootDir);
             console.log(`Output regenerated at ${outputPath}`);
         } catch (error) {
             console.error('Error processing changes:', error);
@@ -117,7 +117,7 @@ function watchAndProcess(rootDir, outputFormat, outputPath) {
         }
 
         const book = await loadBook(rootDir);
-        await processBook(book, argv['output-format'], argv['output-path']);
+        await processBook(book, argv['output-format'], argv['output-path'], rootDir);
         console.log(`Initial output generated at ${argv['output-path']}`);
 
         if (argv.watch) {

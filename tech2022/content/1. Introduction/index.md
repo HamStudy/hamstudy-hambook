@@ -1,5 +1,7 @@
 ---
 slug: copyright
+epubtype: introduction
+fontsize: smaller
 ---
 ## Copyright, License, and Contributors
 
@@ -7,7 +9,7 @@ This work is copyright 2024 HamStudy.org LLC.
 
 ## License
 
-{{< web-only >}}
+{{< web-only tag="div" >}}
 ### **Web Version**
 The **web version** of this book is licensed under a [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](https://creativecommons.org/licenses/by-nc-nd/4.0/).
 
@@ -24,7 +26,7 @@ Under the following terms:
 ### **Ebook (PDF/EPUB) & Paperback License**
 
 {{< print-only >}}The **ebook (PDF/EPUB) and paperback versions are NOT covered under the Creative Commons license of the web version!.**{{< /print-only >}}
-{{< web-only >}}The **ebook (PDF/EPUB) and paperback versions are NOT covered under the Creative Commons license above.**{{< /web-only >}}
+{{< web-only tag="span">}}The **ebook (PDF/EPUB) and paperback versions are NOT covered under the Creative Commons license above.**{{< /web-only >}}
 
 - These versions are licensed for **personal and immediate family use only**.
 - ❌ You **may not** share, distribute, or upload the ebook to any public or private platform.

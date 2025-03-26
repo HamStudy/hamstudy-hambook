@@ -2,13 +2,14 @@
 title: Introduction
 slug: intro
 pagebreak: true
+epubtype: introduction
 ---
 
 # Introduction
 
 Welcome to the HamStudy Technician License HamBook! Whether you're aiming to get your license quickly or develop a solid foundation in amateur radio, this book is here to help you succeed. Amateur radio (often called "ham radio") unlocks a world of possibilities, from casual chats with local operators to bouncing signals off the moon.  
 
-**What's Inside**
+## What's Inside
 
 This HamBook contains everything you need to get your Technician Class license:
 

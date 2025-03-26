@@ -1,6 +1,10 @@
 {{- $subelList := .Site.Data.questions.subelements -}}
 {{- $questionsData := .Site.Data.questions.questions -}}
+{{- $figurePath := .Site.Params.figurePath -}}
+{{- $pages := .Site.Pages -}}
 {{- $shownFigures := dict -}}
+{{- $linkTrim := .Site.Params.linktrim | default "" -}}
+{{- $inAllPagesTemplate := .Site.Home.Store.Get "inAllPagesTemplate" -}}
 
 <div class="markdown full-pool">
   <h1>{{ .Site.Data.questions.title }}</h1>
@@ -10,41 +14,58 @@
     <h2 id="{{ .id }}" class="subel subel-{{ .id }} header-text">Subelement {{ .id }}: {{ .name }}</h2>
     
     {{- range .sections -}}
-      <h3 id="{{ .id }}" class="section-head"><span class="footer-text">Section <strong>{{ .id }}</strong></span>: {{ .summary }}</h3>
+      <div id="{{ .id }}" class="section-head">
+        <label class="footer-text">Section <strong>{{ .id }}</strong></label>
+        {{ .summary }}
+      </div>
       <section class="section section-{{ .id }}">
         {{- range .questions -}}
           {{- $questionID := . -}}
           {{- $question := index $questionsData $questionID -}}
           {{- if $question -}}
-            {{- $imagePath := printf "/figures/%s" $question.image -}}
+            {{- $imagePath := printf $figurePath (replace $question.image "png" "svg") -}}
+            {{- $pngImagePath := replace $imagePath "svg" "png" -}}
             {{- $imgId := replaceRE "\\..*$" "" $question.image -}}
             {{- if and $question.image (not (index $shownFigures $question.image)) -}}
               <div class="question-figure figure-{{ $imgId }}">
-                <img src="{{ $imagePath }}" alt="Figure for {{ $questionID }}" style="filter: var(--icon-filter);" />
+                <object data="{{ $imagePath }}" type="image/svg+xml" style="filter: var(--icon-filter);" class="q-figure">
+                  <img src="{{ $pngImagePath }}" alt="Figure for {{ $questionID }}" style="filter: var(--icon-filter);" class="q-figure" />
+                </object>
               </div>
               {{- $shownFigures = $shownFigures | merge (dict $question.image true) -}}
             {{- end -}}
 
             <div class="question-item">
-              <strong><a href="#link-{{ $questionID }}" class="question-link">{{ $questionID }}</a>:
-                <span>{{ $question.text }}</span>
+              {{- $pagesWithQuestion := where $pages "Params.questions" "intersect" (slice $questionID) }}
+              {{- $targetPage := (index $pagesWithQuestion 0) }}
+              {{- range $pagesWithQuestion }}
+                {{- if strings.Contains .RawContent (printf "\"%s\"" $questionID) }}
+                  {{- $targetPage = . }}
+                  {{- break }}
+                {{- end }}
+              {{- end }}
+              {{- $pageURL := $targetPage.RelPermalink -}}
+                {{- $pageURL = replace $pageURL $linkTrim "" -}}
+              {{- if $inAllPagesTemplate -}}{{ $pageURL = "" -}}{{ end -}}
+              <strong>
+                <span class="q-id"><a href="{{ $pageURL }}#link-{{ $questionID }}" class="question-link">{{ $questionID }}</a>:</span>
+                <span class="q-text">{{ $question.text }}</span>
               </strong>
-              {{- $hasAllTheseChoices := false -}}
-              {{- range $question.answers -}}
-                {{- if and (eq .letter $question.answer) (in (lower .text) "all these choices") -}}
-                  {{- $hasAllTheseChoices = true -}}
-                {{- end -}}
-              {{- end -}}
+              {{- $hasAllTheseChoices := $question.allCorrect -}}
 
               <ul class="answers-list{{ if $hasAllTheseChoices }} has-all-choices{{ end }}">
-                {{- range $question.answers -}}
-                  <li class="answer-item{{ if eq .letter $question.answer }} correct-answer{{ end }}">
-                    {{- if $hasAllTheseChoices -}}
-                      <strong>{{ .letter }}: </strong>
-                    {{- end -}}
-                    {{ .text }}
+              {{- range $question.answers -}}
+                {{- if or $hasAllTheseChoices .correct -}}
+                  <li class="answer-item{{ if .correct }} correct-answer{{ end }}">
+                      {{- if .correct -}}
+                        <strong><img src="/svg/arrow-right.svg" alt="→" class="icon" /></strong>
+                      {{- else -}}
+                        <strong>{{ .letter }}:</strong>
+                      {{- end -}}
+                      {{ .text }}
                   </li>
                 {{- end -}}
+              {{- end -}}
               </ul>
             </div>
           {{- end -}}

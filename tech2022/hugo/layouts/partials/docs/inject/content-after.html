@@ -8,23 +8,24 @@
   {{- $shownFigures := dict -}}
   {{- $hsBaseURL := .Site.Params.hsBaseURL -}}
   {{- $qrBaseURL := .Site.Params.qrBaseURL -}}
-  {{- $bookChapter := .Params.chapter -}}
   {{- $bookSection := .Params.section -}}
   {{- $ids := .Params.questions -}}
   {{- $joinedIDs := delimit $ids "," -}}
-  {{- $hsURL := printf "%s%s&lvl1=%s&lvl2=%s" $hsBaseURL $joinedIDs $bookChapter $bookSection -}}
+  {{- $hsURL := printf "%s%s&groups=%s" $hsBaseURL $joinedIDs $bookSection -}}
   {{- $qrURL := printf "%s?%s" $qrBaseURL (querify "link" $hsURL) -}}
   <div class="questions-list markdown">
 
     <div class="study-prompt">
-      <h4>Question Review</h4>
+      <h4 class="footer-text">Question Review</h4>
       <div class="markdown text-center web-only">
         <a href="{{ $hsURL }}" class="book-btn" target="hamstudy">
           Study this section with HamStudy
         </a>
       </div>
       <div class="qrcode">
-        <img src="/images/hamstudy_a.svg" alt="HamStudy Antenna Icon" />
+        <div class="img ml-1">
+            <img class="hsa" src="/images/hamstudy_a.svg" alt="HamStudy Antenna Icon" />
+        </div>
         <div class="label">
             Study this section with HamStudy
         </div>
@@ -41,9 +42,10 @@
           {{- $question := index $questionsData $questionID -}}
           {{- if $question -}}
               {{- $imagePath := printf "/figures/%s" $question.image -}}
+              {{- $imgId := replaceRE "\\..*$" "" $question.image -}}
               {{- if and $question.image (not (index $shownFigures $question.image)) -}}
-                  <div class="question-figure">
-                      <img src="{{ $imagePath }}" alt="Figure for {{ $questionID }}" style="filter: var(--icon-filter);" />
+                  <div class="question-figure figure-{{ $imgId }}">
+                      <img src="{{ $imagePath }}" alt="Figure for {{ $questionID }}" class="q-figure" />
                   </div>
                   {{- $shownFigures = $shownFigures | merge (dict $question.image true) -}}
               {{- end -}}
