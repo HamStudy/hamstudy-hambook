@@ -7,7 +7,7 @@ questions: ["G5A01", "G5A02", "G5A03", "G5A04", "G5A05", "G5A06", "G5A07", "G5A0
 
 Radio signals are alternating currents that change direction millions of times per second, making radio circuits behave very differently from DC circuits. While you'll only see one or two exam questions on these concepts (and you can miss 9 questions and still pass the exam!), understanding the basics will help you make sense of antenna behavior and equipment performance across different bands.
 
-In RF circuits, capacitors and inductors store and release energy with each cycle, creating frequency-dependent opposition called reactance. This property explains why antennas work better on some frequencies than others and forms the foundation for filters, tuned circuits, and impedance matching—all essential aspects of your new General class operations.
+In RF circuits, capacitors and inductors store and release energy with each cycle, creating frequency-dependent opposition to current flow called reactance. This property explains why antennas work better on some frequencies than others and forms the foundation for filters, tuned circuits, and impedance matching—all essential aspects of your new General class operations.
 
 #### Dynamic Opposition: Reactance in Action
 
@@ -45,11 +45,11 @@ Unlike resistance, which converts electrical energy to heat, reactance temporari
 
 Reactance is measured in ohms (Ω) just like resistance and is represented by the letter **X**. {{< link id="G5A11" >}} There are two types, each with distinct phase relationships:
 
-1. **Inductive Reactance ($X_L$)**: *Opposition to alternating current in an inductor* {{< link id="G5A03" >}}
+1. **Inductive Reactance ($X_L$)**: *Opposition to the flow of alternating current in an inductor* {{< link id="G5A03" >}}
    * Current lags voltage by 90 degrees
    * Energy stored in a magnetic field
 
-2. **Capacitive Reactance ($X_C$)**: *Opposition to alternating current in a capacitor* {{< link id="G5A04" >}}
+2. **Capacitive Reactance ($X_C$)**: *Opposition to the flow of alternating current in a capacitor* {{< link id="G5A04" >}}
    * Current leads voltage by 90 degrees
    * Energy stored in an electric field
 
@@ -76,7 +76,7 @@ Where:
 **For Capacitors:**
 > **Key Information:** *As frequency increases, a capacitor's reactance decreases.* {{< link id="G5A06" >}}
 
-Capacitors become more "willing" to pass current as frequency rises. This is why they're excellent as bypass capacitors, offering an easy path for RF signals while blocking DC. 
+Capacitors become more "willing" to allow current flow as frequency rises. This is why they're excellent as bypass capacitors, offering an easy path for RF signals while blocking DC. 
 
 Continuing our spring analogy: At low frequencies, you push the spring through its full compression cycle, meeting maximum resistance. But at very high frequencies, you're changing direction so quickly that the spring barely begins to compress before you reverse direction—it just vibrates in place with minimal resistance. The faster the frequency, the less time the spring has to compress and build up opposing force (lower reactance).
 
