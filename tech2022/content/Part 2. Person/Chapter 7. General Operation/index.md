@@ -4,7 +4,6 @@ questions: []
 pagebreak: true
 ---
 
-
 ## Chapter 7: Operating Practices
 
 Welcome to the heart of amateur radio - actually getting on the air and making contacts! In this chapter, we'll discuss the practical aspects of operating your station and communicating with other hams around the world.

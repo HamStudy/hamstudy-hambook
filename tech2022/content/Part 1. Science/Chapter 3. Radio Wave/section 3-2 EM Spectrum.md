@@ -22,7 +22,6 @@ Imagine you’re outside on a sunny day:
 - **VHF waves are like a flashlight beam**—they move in straight lines and can pass through some obstacles, but they don’t bend as much. If something large is in the way (like a hill or building), the signal gets blocked.  
 - **UHF waves are like a laser pointer**—very short, direct, and easily blocked unless they reflect off something. **These waves work great in cities, bouncing off walls and buildings, but they don’t travel as far as VHF or HF.**  
 
-
 #### Understanding the Bigger Picture
 
 **Beyond the Test**: While you only need to know the HF, VHF, and UHF ranges for the exam, understanding how they fit into the broader electromagnetic spectrum can help make sense of radio communication.

@@ -43,7 +43,6 @@ Since it's a simple formula, you can **rearrange it** to solve for any of the th
 
 > Voltage is sometimes written with $V$ (voltage) instead of $E$ (electromotive force or EMF). **Electromotive force is another term for voltage** and is measured in **volts (V)**. Many prefer to use **$E$** because **$V$ is also used for velocity** in many engineering formulas.
 
-
 <div style="clear:both;"></div>
 
 In plain English, Ohm's Law says:  
@@ -103,12 +102,10 @@ The same principle applies:
 
 *Though you won't need it on the exam*, you can rearrange this formula and even combine it with Ohm's Law to find **any missing value if you have two known values**:
 
-
 $$\begin{align*}
 P &= I^2 \times R\\
 P &= \frac{E^2}{R}\\
 \end{align*}$$
-
 
 For example, if you know the **voltage and resistance**, you can find the **current** using Ohm's Law, then plug that into the Power Law to find **power**. This is really useful when figuring out how much power your transmitter or other radio equipment is using.
 

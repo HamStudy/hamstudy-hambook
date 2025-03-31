@@ -36,7 +36,6 @@ Many hams use **BNC adapters** on their radios so they can easily switch between
 
 <img src="../../../images/bncadapters.jpg" alt="BNC Male and Adapters"  style="width: 200px;" />
 
-
 #### PL-259/SO-239 (UHF Connector)  
 
 > **Key Information:** *PL-259 connectors are **commonly used at HF and VHF frequencies** but are **not ideal for true UHF work**.* {{< link id="T9B07" >}}

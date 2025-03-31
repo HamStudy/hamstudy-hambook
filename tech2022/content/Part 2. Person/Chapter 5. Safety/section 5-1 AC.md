@@ -22,7 +22,6 @@ Let's break down the basics:
   
 - **Current**: This is measured in amperes or amps. Your typical household circuit might be 15 or 20 amps.
 
-
 - **Wiring Colors**: Understanding wire colors in AC wiring is important for safety. That said, never assume a wire is safe to touch just based on its color – always test with proper equipment!
 
   > **Key Information:** *In the United States, black wire insulation indicates the "hot" wire, white is neutral, and green or bare copper is the ground* {{< link id="T0A03" >}}

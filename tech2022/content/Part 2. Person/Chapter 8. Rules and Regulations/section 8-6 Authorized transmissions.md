@@ -30,7 +30,6 @@ Welcome to the "do's and don'ts" of amateur radio! Understanding what you can an
    Part 97.403 Specifies:
       > No provision of these rules prevents the use by an amateur station of any means of radiocommunication at its disposal to provide essential communication needs in connection with the immediate safety of human life and immediate protection of property when normal communication systems are not available.
 
-
 3. **Ham Radio Show-and-Tell**:
    - Spread the word about cool ham radio stuff
    - Practice for when the zombies come (aka disaster prep)
