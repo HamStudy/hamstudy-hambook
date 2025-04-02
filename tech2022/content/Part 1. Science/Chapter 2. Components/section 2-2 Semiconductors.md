@@ -18,11 +18,12 @@ Semiconductors are special materials that make modern electronics possible. They
 > - The *cathode lead (negative side) is often marked with a stripe* {{< link id="T6B06" >}}
 > - The *forward voltage drop is lower in some diode types than others* {{< link id="T6B01" >}}
 
+![Diode schematic diagram with anode / cathode labeled](../../../images/s2-2-diode.svg)
+{.img-small .float-right}
+
 A diode has two electrodes:
 - *Anode*: The positive connection
 - *Cathode*: The negative connection, marked with a stripe {{< link id="T6B09" >}}
-
-![Diode schematic diagram with anode / cathode labeled](../../../images/s2-2-diode.svg)
 
 Think of a diode like a one-way street - traffic (electrical current) can only flow in one direction. When current flows through a diode, not all the voltage makes it through - this loss is called the forward voltage drop (remember voltage drop from Section 1.2?). This drop causes the diode to heat up as electrical energy converts to thermal energy. Different types of diodes have different amounts of voltage drop - for instance, Schottky diodes have a lower forward voltage drop than regular silicon diodes.
 
@@ -32,9 +33,10 @@ One common use of diodes is in a *rectifier*, which changes alternating current 
 
 > **Key Information:** An LED produces light when *forward current* flows through it. {{< link id="T6B07" >}}
 
-LEDs are special diodes that light up when current flows through them. They're commonly used as indicator lights on radio equipment - that power light on your transceiver is an LED! {{< link id="T6D07" >}}
-
 ![LED schematic diagram with anode / cathode labeled](../../../images/s2-2-led.svg)
+{.img-small .float-right}
+
+LEDs are special diodes that light up when current flows through them. They're commonly used as indicator lights on radio equipment - that power light on your transceiver is an LED! {{< link id="T6D07" >}}
 
 #### Transistors: The Heart of Modern Electronics
 

@@ -15,7 +15,9 @@ As we venture further into the world of electronic components, we encounter a di
 
 Picture a seesaw at a playground, where a small child on one end can lift a much heavier adult on the other. Transformers work on a similar principle, but with electrical energy instead of playground physics.
 
-<img src="../../../images/s2-3-transformer.svg" alt="Transformer schematic diagram" style="width: 150px; float: right; padding-right: 1rem; " />
+![Transformer schematic diagram](../../../images/s2-3-transformer.svg)
+{.img-small .float-right}
+
 Transformers consist of two or more coils of wire wound around a common core, usually made of iron. They're the masters of voltage conversion, capable of stepping voltage up or down while maintaining (almost) the same power. This ability makes them crucial in various amateur radio applications:
 
 1. **Power supplies**: Transformers help convert the high voltage from your wall outlet to the lower voltages your radio equipment needs.
@@ -28,7 +30,8 @@ Fun fact: The largest transformer in the world weighs over 800 tons and can hand
 
 > **Key Information:** A *relay is an electrically-controlled switch*. {{< link id="T6D02" >}}
 
-<img src="../../../images/s2-3-relay.svg" alt="Relay schematic diagram" style="float: right; padding-left: 1rem;" />
+![Relay schematic diagram](../../../images/s2-3-relay.svg)
+{.img-small .float-right}
 
 If transistors are the traffic lights of the electronic world, relays are like drawbridges. They use electromagnets to mechanically open or close electrical contacts, allowing one circuit to control another.
 

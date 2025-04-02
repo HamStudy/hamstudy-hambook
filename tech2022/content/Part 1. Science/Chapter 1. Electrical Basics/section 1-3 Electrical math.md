@@ -15,7 +15,8 @@ A lot of people see math questions and immediately start stressing—but there's
 
 So if this section just isn't clicking for you, **don't worry about it**—skip it and focus on the parts that make more sense. But if you take a little time to understand these formulas, you might find that they're **actually pretty simple** and can help you in real-world radio troubleshooting.
 
-<img src="../../../images/illus/ohmslawhero.svg" alt="cartoon showing a conductor on the left and an insulator on the right, angry with each other" style="float: right; width: 150px; margin: 3px;" />
+![cartoon showing a triangle with ohm's law (E = I * R) wearing a superhero mask and cape](/images/illus/ohmslawhero.svg)
+{.img-small .float-right}
 
 #### Ohm's Law
 
@@ -23,7 +24,8 @@ First up is **Ohm's Law**, the bread and butter of everything electrical. It's a
 
 $$E = I \times R$$
 
-<img src="../../../images/form-ohms.svg" alt="Ohm's Law Circle" style="width: 150px; margin: 3px; float: right; clear: right;" />
+![Ohm's Law Circle](/images/form-ohms.svg)
+{.float-right .img-small}
 
 Where:
 - **$E$** is the *voltage (electromotive force)* in **volts (V)**  
@@ -43,7 +45,7 @@ Since it's a simple formula, you can **rearrange it** to solve for any of the th
 
 > Voltage is sometimes written with $V$ (voltage) instead of $E$ (electromotive force or EMF). **Electromotive force is another term for voltage** and is measured in **volts (V)**. Many prefer to use **$E$** because **$V$ is also used for velocity** in many engineering formulas.
 
-<div style="clear:both;"></div>
+<div class="clear"></div>
 
 In plain English, Ohm's Law says:  
 *"The voltage across a component is equal to the current flowing through it times its resistance."*  {{< link id="T5D02" >}}
@@ -79,7 +81,8 @@ Next up is the **Power Law**. This tells you how much **power (in watts)** your 
 
 $$P = I \times E$$
 
-<img src="../../../images/form-power.svg" alt="Power Law Circle" style="float: right; width: 150px; margin: 3px;" />
+![Power Law Circle](/images/form-power.svg)
+{.float-right .img-small}
 
 Where:
 - **$P$** is the *power* in **watts (W)**  
@@ -98,7 +101,7 @@ The same principle applies:
 
    - Cover E: divide $\frac{P}{I}$
 
-<div style="clear:both;"></div>
+<div class="clear"></div>
 
 *Though you won't need it on the exam*, you can rearrange this formula and even combine it with Ohm's Law to find **any missing value if you have two known values**:
 

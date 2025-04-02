@@ -261,7 +261,7 @@ async function processImages(content, sourceDir, outputDir, relativePath = '/ima
                     replacement = `![${altText}](${newImageUrl})`;
                 } else {
                     // For HTML, rebuild a new <img> tag rather than replacing just the src attribute.
-                    replacement = `<img src="${newImageUrl}" alt="${altText}"${styleAttr} />`;
+                    replacement = fullMatch.replace(htmlSrc, newImageUrl);
                 }
                 result += replacement;
                 imgCache[imagePath] = replacement;

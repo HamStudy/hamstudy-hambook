@@ -53,7 +53,8 @@ Once you've covered the material and are getting close to exam day, here's an ef
 
 ## Enhance Your Learning with HamStudy
 
-<img src="../../images/hamstudy_a.svg" style="float: right; width: 75px; margin: 1rem;" />
+![HamStudy A Logo](../../images/hamstudy_a.svg)
+{ .float-right .ma-1 .w-4r }
 
 HamStudy.org and the HamStudy mobile app work seamlessly with this HamBook, providing dynamic practice tailored to what you’re reading and what you struggle with the most.
 
@@ -72,8 +73,7 @@ HamStudy.org and the HamStudy mobile app work seamlessly with this HamBook, prov
    - **Offline Study**: Practice questions anywhere, even without an internet connection
    - **Sharing**: Share progress with a mentor or assist others in learning
 
-   {{< web-only tag="span" >}}{{< button href="https://hamstudy.org/appstore?ref=hb2022w&a=1" >}} Get the HamStudy app{{< /button >}}{{< /web-only >}}
-   {{< print-only >}}{{< get-app >}}{{< /print-only >}}
+   {{< get-app >}}
 
 ## Study Tips for Success
 

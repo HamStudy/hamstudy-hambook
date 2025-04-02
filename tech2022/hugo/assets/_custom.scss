@@ -215,6 +215,24 @@ div.qrcode {
   }
 }
 
+.img-med {
+  width: 60%;
+}
+.img-full {
+  width: 100%;
+}
+.img-pgcap {
+  width: 50%;
+  width: 250px;
+  max-width: 40% !important;
+}
+.img-small {
+  width: 5rem;
+}
+.ml-2 { margin-left: 2rem; }
+.float-right { float: right; margin-left: 1.5rem; }
+.float-left { float: left; margin-right: 1.5rem; }
+
 .markdown section blockquote {
   background-color: #e1fbff;
   // border-radius: 0.75rem;
@@ -234,11 +252,23 @@ img.icon {
   font-weight: 700;
   font-size: 2em;
 }
+.w-4r {
+  width: 4rem;
+}
+.mw-60 {
+  max-width: 60%;
+}
+.clear { clear: both; }
 .text-center { text-align: center;}
 .ma-0 { margin: 0; }
+.ma-1 { margin: 1rem; }
 .mb-0 { margin-bottom: 0; }
 .mb-1 { margin-bottom: 1rem; }
 .mb-2 { margin-bottom: 2rem; }
+
+img.hsa {
+
+}
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -296,12 +326,6 @@ img.icon {
   @media screen {
     .book-section {
       margin-bottom: 2rem;
-    }
-
-    hr {
-      margin: 2rem 0;
-      border: 0;
-      border-top: 1px solid var(--bg-gray);
     }
   }
 

@@ -54,6 +54,7 @@ Now that we understand these basic DC electrical concepts, let's look at alterna
 In amateur radio, we often deal with **alternating current (AC)**, which smoothly changes direction in a sine wave pattern, unlike DC which flows constantly in one direction.
 
 ![Diagram showing 2 cycles of 120VAC voltage at 60Hz](../../../images/sine_wave_two_cycles.svg)
+{.img-centered .img-full}
 
 AC occurs naturally when a magnet rotates near a wire. As the magnet's north pole approaches the wire, current flows one way. When the south pole approaches, current flows the opposite way. This continuous rotation creates the smooth sine wave pattern shown in the diagram. This is the basic principle behind generators that produce the electricity powering our homes and the alternating currents in our radio circuits.
 

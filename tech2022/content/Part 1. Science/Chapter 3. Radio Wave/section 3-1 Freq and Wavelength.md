@@ -6,13 +6,14 @@ questions: [ "T5C06", "T5C07", "T5C13", "T3B03", "T3B01", "T3B04", "T3B11", "T3B
 
 ### Section 3.1: Frequency and Wavelength
 
-<img src="../../../images/illus/waves.svg" alt="cartoon showing a conductor on the left and an insulator on the right, angry with each other" style="float: right; width: 350px; max-width: 50% !important; margin: 3px; margin-top: -1rem" />
+![cartoon showing a boy on the beach watching waves; how fast they come is frequency and the distance between them is wavelength](../../../images/illus/waves.svg)
+{.img-pgcap .float-right}
 
 Imagine you're watching waves at the beach. Some waves come in quickly, one after another, while others roll in more slowly with greater distance between them. This difference is all about frequency—how many waves arrive in a given time. Radio waves work in a similar way, but instead of water, they're electromagnetic waves traveling through space at the speed of light.
 
 #### What is RF?
 
-<div style="clear:both;"></div>
+<div class="clear"></div>
 
 > **Key Information:** *RF* (Radio Frequency) refers to *radio signals of all types*.{{< link id="T5C06" >}}
 
@@ -33,7 +34,8 @@ Whether you're tuning in to your favorite broadcast station, chatting on a repea
 > - These fields are *at right angles* to each other{{< link id="T3B01" >}}
 > - Radio waves travel at the *speed of light* in free space (approximately *300,000,000 meters per second*){{< link id="T3B04" >}}{{< link id="T3B11" >}}
 
-<img src="../../../images/electromagnetic-3d.gif" alt="Electric vs Magnetic Fields - always at a right angle from each other"  style="max-width: 400px;" />
+![Electric vs Magnetic Fields - always at a right angle from each other](../../../images/electromagnetic-3d.gif)
+{.img-centered .mw-60}
 
 #### Polarization
 
@@ -76,7 +78,8 @@ Here's how to calculate wavelength (which we often refer to with the variable la
 
 $$\text{Wavelength (}\lambda\text{)} = \frac{300}{\text{Frequency in MHz (}f\text{)}}$$
 
-<img src="../../../images/form-wavelength.svg" alt="Wavelength/Frequency formula Circle" style="float: right; width: 150px; margin: 3px;" />
+![Wavelength/Frequency formula Circle](../../../images/form-wavelength.svg)
+{.img-small float-right}
 
 Like when we talked about Ohm's law, we can make a simple circle diagram for this relationship as well, though we need to use the symbols for brevity:
 

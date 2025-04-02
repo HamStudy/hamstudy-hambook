@@ -13,9 +13,8 @@ Amateur radio, often called "ham radio," is more than just a hobby—it's a comm
 
 ## A World of Possibilities
 
-<div style="text-align: center">
-    <img src="../../images/illus/aboutradio-color.svg" alt="Illustration showing many people with radios" style="text-align: center; width: 60%;" />
-</div>
+![Illustration showing many people with radios](../../images/illus/aboutradio-color.svg)
+{.img-full .img-centered}
 
 Imagine staying in touch when everything else is down—no cell service, no internet, not even power. With amateur radio, you’re not just using someone else’s network; you’re creating your own. Whether you’re deep in the mountains or in the middle of a city blackout, your radio keeps you connected.
 
@@ -24,7 +23,10 @@ Ham radio operators are known for making things work, even in the toughest condi
 As a Technician class operator, you'll have access to VHF and UHF frequencies, perfect for local and regional communication. With repeaters, you can extend your range even further, making amateur radio a tool for adventure and exploration, no matter where you are.
 
 ## More Than Just a Hobby
-<img src="../../images/illus/morethanhobby-color.svg" alt="Illustration showing ham radio operators helping with a disaster" style="float: right; margin-left: 2em; width: 250px; max-width: 40% !important;" />
+
+![Illustration showing ham radio operators helping with a disaster](../../images/illus/morethanhobby-color.svg)
+{.float-right .img-pgcap}
+
 Sure, amateur radio is fun, but it’s also a vital tool in emergencies. When disasters strike and cell towers go down, ham radio operators often step in to keep communication lines open.
 
 For example, during Hurricane Maria in 2017, amateur radio operators in Puerto Rico provided critical communication support when much of the island's infrastructure was destroyed. They relayed emergency messages, helped coordinate relief efforts, and even assisted in reuniting families who had lost contact during the disaster.
@@ -38,12 +40,15 @@ Ham radio has a long history of innovation. Many of the technologies we take for
 In 2014, a group of hams made headlines by repurposing an old NASA satellite for amateur use. The ISEE-3 satellite, launched in 1978 and long forgotten, was brought back to life by these innovative hams, showcasing the ingenuity that defines the amateur radio community.
 
 ## A Hobby for Everyone
-<img src="../../images/illus/kidsfun-color.svg" alt="A couple of kids with radios" style="float: left; margin-right: 2em; width: 250px; max-width: 40% !important;" />
+
+![Illustration showing a couple of kids with radios](../../images/illus/kidsfun-color.svg)
+{.float-left .img-pgcap}
+
 Whether you’re into the technical side of things, enjoy making long-distance contacts, or just want to be prepared in case of an emergency, amateur radio has something to offer. It’s a hobby that spans generations, bringing together people of all ages who share a love for radio communication.
 
 As you explore amateur radio, you’ll find a community ready to help you learn, grow, and connect. Whether it’s through local club meetings or global contests, there are endless opportunities to make new friends and discover new aspects of the hobby.
 
-<div style="clear:both;"></div>
+<div class="clear"></div>
 
 ## The purpose of Amateur Radio {#purpose-intro}
 

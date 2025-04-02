@@ -11,7 +11,8 @@ Electricity is the lifeblood of amateur radio. To understand how our equipment w
 
 #### Conductors and Insulators
 
-<img src="../../../images/illus/conductors-insulators-color.svg" alt="cartoon showing a conductor on the left and an insulator on the right, angry with each other" style="width: 250px; float: right; margin: 3px; max-width: 50% !important;" />
+![cartoon showing a conductors on the left and insulators on the right, glowering at each other](/images/illus/conductors-insulators-color.svg)
+{.float-right .img-pgcap}
 
 In the world of electricity, materials fall into two main categories: conductors and insulators.
 

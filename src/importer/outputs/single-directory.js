@@ -11,15 +11,16 @@ const { writeFrontMatter } = require('../utils');
  * @param {Record<string, any>} options 
  */
 async function convertToPdfImageProcessor(sourcePath, destPath, options = {}) {
-    const TmpFile = (await import('tempfile')).default;
+    return sourcePath;
+    // const TmpFile = (await import('tempfile')).default;
 
-    if (sourcePath.endsWith('.svg')) {
-        const outFile = TmpFile({ extension: 'png' });
-        await convertPngToSvg(sourcePath, outFile);
-        return outFile;
-    } else {
-        return sourcePath;
-    }
+    // if (sourcePath.endsWith('.svg')) {
+    //     const outFile = TmpFile({ extension: 'png' });
+    //     await convertPngToSvg(sourcePath, outFile);
+    //     return outFile;
+    // } else {
+    //     return sourcePath;
+    // }
 }
 
 /**
@@ -39,12 +40,12 @@ async function writeSingleDirectoryBook(book, outputPath, sourcePath) {
     const poolData = await formatPoolData(book.pool, sourceDir);
     const poolFilePath = path.join(dataDir, 'questions.json');
     await fs.writeFile(poolFilePath, JSON.stringify(poolData, null, 2));
-    
+
     // Create the necessary directories
     await fs.mkdir(contentDir, { recursive: true });
     await fs.mkdir(imagesOutputDir, { recursive: true });
     await fs.mkdir(dataDir, { recursive: true });
-    
+
     // Keep track of processed images
     const processedImages = [];
 
@@ -52,17 +53,17 @@ async function writeSingleDirectoryBook(book, outputPath, sourcePath) {
         const sanitizedTitle = section.title.replace(/[^\w\s-]/g, '').replace(/\s+/g, '-').toLowerCase();
         const filename = `${String(index).padStart(2, '0')}-${sanitizedTitle}.md`;
         const filePath = path.join(contentDir, filename);
-        
+
         // Add weight to the frontmatter
         const frontMatter = {
             ...section.frontMatter,
             weight: index,
             title: section.title
         };
-        
+
         // Create content with frontmatter
         const contentWithFrontmatter = writeFrontMatter(frontMatter) + section.content;
-        
+
         // Process the content to handle images and collect image info
         const processedContent = await processImages(contentWithFrontmatter, sourceDir, outputPath, 'images', {
             imagesDir: path.relative(outputPath, imagesOutputDir),
@@ -72,7 +73,7 @@ async function writeSingleDirectoryBook(book, outputPath, sourcePath) {
                 // Add to processed images list if not already included
                 const relativePath = path.relative(path.join(imagesOutputDir, '..'), imgOutPath);
                 const imageId = relativePath.replace(/[^a-zA-Z0-9]/g, '-');
-                
+
                 // Check if this image is already in the list
                 if (!processedImages.some(img => img.id === imageId)) {
                     processedImages.push({
@@ -83,44 +84,73 @@ async function writeSingleDirectoryBook(book, outputPath, sourcePath) {
                 }
             }
         });
-        
+
         await fs.writeFile(filePath, processedContent);
-        return filename;
+        return { filename, frontMatter };
     };
 
-    // Table of contents content
-    let tocContent = "";
+    let tocContent = '';
     const sectionFiles = [];
 
     const processSections = async (sections, level = 0) => {
-        const indent = '    '.repeat(level);
-        let n = 1;
+        const indent = '    '.repeat(level + 1); // Extra indentation for the HTML
         for (const section of sections) {
             if ('sections' in section && Array.isArray(section.sections)) {
                 const intro = (section.sections?.find(s => s.intro));
                 // Add a header for this section group
                 if (intro) {
                     const title = section.title.replace(/[0-9]+\. /, '');
-                    const filename = await saveSection(intro, fileIndex++);
-                    tocContent += `${indent}${n++}. [${title}]({{% booklink "${filename}" %}})\n`;
+                    const { filename, frontMatter } = await saveSection(intro, fileIndex++);
+                    const epubType = frontMatter.epubtype || 'chapter';
+
+                    tocContent += `${indent}<li>\n`
+                        + `${indent}    <a href="{{% booklink "${filename}" %}}" epub:type="${epubType}">${frontMatter.title || title}</a>`;
+
                     sectionFiles.push({ title: section.title, filename });
                     section.sections = section.sections.filter(s => !s.intro);
-                } else {
-                    tocContent += `${indent}${n++}. ${section.title}\n`;
-                }
 
-                // Process subsections
-                await processSections(section.sections, level + 1);
+                    // If there are subsections, add a nested list
+                    if (section.sections.length > 0) {
+                        tocContent += `\n${indent}    <ol>`;
+                        await processSections(section.sections, level + 1);
+                        tocContent += `\n${indent}    </ol>`;
+                    }
+
+                    tocContent += `\n${indent}</li>`;
+                } else {
+                    // Just a section title with subsections
+                    tocContent += `${indent}<li>\n`
+                        + `${indent}    <span>${section.title}</span>\n`
+                        + `${indent}    <ol>`;
+
+                    // Process subsections
+                    await processSections(section.sections, level + 1);
+
+                    tocContent += `\n${indent}    </ol>`
+                        + `${indent}</li>`;
+                }
             } else {
                 // Save the section and add to TOC
-                const filename = await saveSection(section, fileIndex++);
-                tocContent += `${indent}${n++}. [${section.title}]({{% booklink "${filename}" %}})\n`;
+                const { filename, frontMatter } = await saveSection(section, fileIndex++);
+                const epubType = frontMatter.epubtype || 'chapter';
+
+                tocContent += `${indent}<li>\n`
+                    + `${indent}    <a href="{{% booklink "${filename}" %}}" epub:type="${epubType}">${frontMatter.title || section.title}</a>\n`
+                    + `${indent}</li>`;
+
                 sectionFiles.push({ title: section.title, filename });
             }
         }
     };
 
+    // Table of contents content with HTML directly
+    tocContent += `<ol>`
+        + `<li epub:type="cover"><a href="cover.xhtml">Cover</a></li>\n`;
+
     await processSections(book.parts);
+
+    // Close the HTML tags
+    tocContent += `\n</ol>\n`;
 
     if (book.conclusion) {
         const filename = await saveSection(book.conclusion, fileIndex++);
@@ -136,7 +166,7 @@ async function writeSingleDirectoryBook(book, outputPath, sourcePath) {
     };
     const tocWithFrontMatter = writeFrontMatter(tocFrontMatter) + tocContent;
     await fs.writeFile(path.join(contentDir, '00-table-of-contents.md'), tocWithFrontMatter);
-    
+
     // Write a metadata file that can be used for EPUB generation
     const metadata = {
         title: book.toc?.title || "Book Title",
@@ -145,20 +175,20 @@ async function writeSingleDirectoryBook(book, outputPath, sourcePath) {
         date: new Date().toISOString().split('T')[0],
         language: book.toc?.frontMatter?.language || "en-US"
     };
-    
+
     // Write bookImages.json for EPUB generation
     await fs.writeFile(
         path.join(dataDir, 'bookImages.json'),
         JSON.stringify(processedImages, null, 2)
     );
-    
+
     await fs.writeFile(
-        path.join(dataDir, 'book.json'), 
+        path.join(dataDir, 'book.json'),
         JSON.stringify(metadata, null, 2)
     );
-    
+
     await fs.mkdir(path.join(outputPath, 'data'), { recursive: true });
-    
+
     return {
         tocFile: '00-table-of-contents.md',
         sections: sectionFiles,
