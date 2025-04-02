@@ -14,14 +14,15 @@ RUN curl -L https://github.com/sass/dart-sass/releases/download/1.86.0/dart-sass
  && ln -s /usr/local/dart-sass/sass /usr/local/bin/sass
 
 WORKDIR /app
+COPY package.json .
+RUN npm install
+
 COPY . .
 
-RUN npm install
 RUN node src/import.js -f hugo tech2022 -o tech2022/hugo
 
 WORKDIR /app/tech2022/hugo
 
-RUN chmod +rx /usr/local/bin/sass
 RUN hugo --minify --baseURL https://hambook.org
 
 WORKDIR /app/tech2022/hugo/public

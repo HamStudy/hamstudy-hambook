@@ -6,7 +6,7 @@ variables:
   KUBERNETES_POD_ANNOTATIONS_2: "container.seccomp.security.alpha.kubernetes.io/build=unconfined"
   BUILDKIT_IMAGE: docker.io/taxilian/buildkit-rootless-utils:v0.12.3
   BUILDKITD_FLAGS: --oci-worker-no-process-sandbox
-  CACHEREPO: ${DOCKER_REPO}/hambook/hambook-cache
+  CACHEREPO: ${DOCKER_REPO}/hambook/hambook-cache2
   TARGET: ${DOCKER_REPO}/hambook/hambook
   COMMON_FLAGS: >-
     --progress=plain
