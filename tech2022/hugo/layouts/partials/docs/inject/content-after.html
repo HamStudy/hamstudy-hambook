@@ -37,6 +37,7 @@
       </div>
   </div>
 
+      {{- $page := . }}
       {{- range .Params.questions -}}
           {{- $questionID := . -}}
           {{- $question := index $questionsData $questionID -}}
@@ -49,27 +50,31 @@
                   </div>
                   {{- $shownFigures = $shownFigures | merge (dict $question.image true) -}}
               {{- end -}}
-              <div class="question-item">
-                  <strong>{{ $questionID }}: {{ $question.text }}</strong>
-                  {{- $hasAllTheseChoices := false -}}
-                  {{- range $question.answers -}}
-                      {{- if and (eq .letter $question.answer) (in (lower .text) "all these choices") -}}
-                          {{- $hasAllTheseChoices = true -}}
-                      {{- end -}}
-                  {{- end -}}
-                  <ul class="answers-list{{ if $hasAllTheseChoices }} has-all-choices{{ end }}">
-                      {{- range $question.answers -}}
-                          <li class="answer-item{{ if eq .letter $question.answer }} correct-answer{{ end }}">
-                              {{- if $hasAllTheseChoices -}}
-                                  <strong>{{ .letter }}:</strong>
-                              {{- else -}}
-                                  <strong>Answer:</strong>
-                              {{- end -}}
-                              {{ .text }}
-                          </li>
-                      {{- end -}}
-                  </ul>
-              </div>
+                <div class="question-item">
+                    <strong>
+                        {{- if strings.Contains $page.RawContent (printf "\"%s\"" $questionID) -}}
+                        <span class="q-id"><a href="#link-{{ $questionID }}" class="question-link">{{ $questionID }}</a>:</span>
+                        {{- else -}}
+                        <span class="q-id">{{ $questionID }}:</span>
+                        {{- end -}}
+                        <span class="q-text">{{ $question.text }}</span>
+                    </strong>
+                    {{- $hasAllTheseChoices := $question.allCorrect -}}
+                    <ul class="answers-list{{ if $hasAllTheseChoices }} has-all-choices{{ end }}">
+                        {{- range $question.answers -}}
+                            {{- if or $hasAllTheseChoices .correct -}}
+                            <li class="answer-item{{ if .correct }} correct-answer{{ end }}">
+                                {{- if .correct -}}
+                                    <strong><img src="/svg/arrow-right.svg" alt="→" class="icon" /></strong>
+                                {{- else -}}
+                                    <strong>{{ .letter }}:</strong>
+                                {{- end -}}
+                                {{ .text }}
+                            </li>
+                            {{- end -}}
+                        {{- end -}}
+                    </ul>
+                </div>
           {{- end -}}
       {{- end -}}
   </div>
