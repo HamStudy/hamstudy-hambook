@@ -79,7 +79,7 @@ Here's how to calculate wavelength (which we often refer to with the variable la
 $$\text{Wavelength (}\lambda\text{)} = \frac{300}{\text{Frequency in MHz (}f\text{)}}$$
 
 ![Wavelength/Frequency formula Circle](../../../images/form-wavelength.svg)
-{.img-small float-right}
+{.img-small .float-right}
 
 Like when we talked about Ohm's law, we can make a simple circle diagram for this relationship as well, though we need to use the symbols for brevity:
 
