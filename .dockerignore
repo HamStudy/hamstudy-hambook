@@ -9,5 +9,4 @@ hugo-common/public
 .codebuddy
 .vscode
 .hugo_build.lock
-package-lock.json
 .gitlab-ci.yml

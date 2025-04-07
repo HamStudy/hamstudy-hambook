@@ -1,0 +1,8 @@
+FROM registry.gitlab.com/hamstudy/signalstuff-vendure-frontend/watcher:s3
+
+USER root
+
+COPY watcher.sh /watcher.sh
+RUN chmod +x /watcher.sh
+
+USER builder
