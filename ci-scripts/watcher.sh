@@ -438,8 +438,8 @@ while true; do
       CURRENT_HASH=$NEW_HASH
       # Update last hash values for all projects
       for project in $PROJECTS; do
-        local current_hash_var="CURRENT_${project}_HASH"
-        local last_hash_var="LAST_${project}_HASH"
+        current_hash_var="CURRENT_${project}_HASH"
+        last_hash_var="LAST_${project}_HASH"
         declare -g "$last_hash_var"="${!current_hash_var}"
       done
       LAST_HUGO_COMMON_HASH=$CURRENT_HUGO_COMMON_HASH

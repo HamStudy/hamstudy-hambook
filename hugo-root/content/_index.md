@@ -8,7 +8,7 @@ Welcome to HamBooks—free, comprehensive study guides designed to help you earn
 ## Begin your license journey today!
 
 ![License Journey Path](/license-path.svg)
-{.img-med}
+{.img-path}
 
 ### Technician Class
 **Available Now!**
