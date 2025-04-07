@@ -54,6 +54,20 @@ h4.subheading {
   margin-top: -0.67rem;
 }
 
+.hb-cover {
+  // Cover images on the title page
+  width: 15rem;
+  float: left;
+  margin-right: 2rem;
+}
+@media only screen and (max-width: 600px) {
+  .hb-cover {
+    float: none;
+    width: 10rem;
+    margin-right: 1rem;
+  }
+}
+
 .book-brand a {
   flex-direction: column;
   img.book-icon {
