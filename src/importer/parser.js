@@ -5,7 +5,7 @@ const { toTitleCase } = require('./utils');
 
 async function parseMarkdownFile(filePath) {
     const fileContent = await fs.readFile(filePath, 'utf8');
-    const frontMatterMatch = /^---\n([\s\S]+?)\n---/.exec(fileContent);
+    const frontMatterMatch = /^---\n([\s\S]*?)\n---/.exec(fileContent);
     let frontMatter = {};
     let content = fileContent;
 

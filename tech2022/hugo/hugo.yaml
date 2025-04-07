@@ -1,24 +1,17 @@
 # baseURL: 'https://hambook.org/'
 languageCode: 'en-us'
-title: 'HamStudy Technician License HamBook'
+title: 'Technician HamBook'
 
 module:
   imports:
-    - path: 'github.com/alex-shpak/hugo-book'
+    - path: hambook.org/hambook/common
 
 params:
-  BookTheme: 'auto'
-  math: true
-  images:
-    - "/figures/coverfornow.jpg"
-  locale: 'en-us'
-  social:
-    facebook_admin: 723077621
+  BookSubtitle: (2022 - 2026)
+  BookLogo: "figures/coverfornow.jpg"
   hsBaseURL: "https://hamstudy.org/flashcard/E2_2022?bk=hambook-tech2022&def=q:"
-  qrBaseURL: "https://hamstudy.org/api/v1/qrcode"
-  figurePath: "/figures/%s"
+  figurePath: "figures/%s"
   linktrim: ""
-
 
 markup:
   tableOfContents:
@@ -29,8 +22,22 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+      xHTML: true
+      hardWraps: false
+    parser:
+      wrapStandAloneImageWithinParagraph: false
+      attribute:
+        block: true
+        title: true
+      autoHeadingID: true
 
     extensions:
+      definitionList: true
+      footnote: true
+      table: true
+      strikethrough: true
+      taskList: true
+      typographer: true
       passthrough:
         enable: true
         delimiters:

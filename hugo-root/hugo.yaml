@@ -1,0 +1,47 @@
+# baseURL: 'https://hambook.org/'
+languageCode: 'en-us'
+title: 'HamStudy HamBook Collection'
+
+module:
+  imports:
+    - path: hambook.org/hambook/common
+
+params:
+  BookLogo: "/hb-panton-red-sq.svg"
+  BookSection: "/"
+  BookSearch: false
+  BookComments: false
+  BookToC: false
+
+markup:
+  tableOfContents:
+    endLevel: 2
+    ordered: false
+    startLevel: 1
+
+  goldmark:
+    renderer:
+      unsafe: true
+    parser:
+      wrapStandAloneImageWithinParagraph: false
+      attribute:
+        block: true
+        title: true
+      autoHeadingID: true
+
+    extensions:
+      definitionList: true
+      footnote: true
+      table: true
+      strikethrough: true
+      taskList: true
+      typographer: true
+      passthrough:
+        enable: true
+        delimiters:
+          block:
+            - ['\[', '\]']
+            - ['$$', '$$']
+          inline:
+            - ['\(', '\)']
+            - ['$', '$']

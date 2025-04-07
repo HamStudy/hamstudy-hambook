@@ -1,15 +1,12 @@
 .DS_Store
 node_modules
 book.md
-*/hugo/content/docs
+hugo-root/public
+hugo-root/resources
+*/hugo/content
 */hugo/public
 */hugo/resources
 */hugo/static/images
-formats/*/static/OEBPS/images
-formats/*/resources
-formats/*/public
-formats/*/content
-formats/*/data
 .codebuddy
 .vscode
 .hugo_build.lock
@@ -17,3 +14,5 @@ package-lock.json
 tech2022.md
 epubcheck.txt
 *.epub
+*/hugo/data/questions.json
+build

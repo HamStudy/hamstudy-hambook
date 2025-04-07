@@ -1,10 +1,11 @@
 .DS_Store
 node_modules
 book.md
-*/hugo/content/docs
+*/hugo/content
 */hugo/public
 */hugo/resources
 */hugo/static/images
+hugo-common/public
 .codebuddy
 .vscode
 .hugo_build.lock

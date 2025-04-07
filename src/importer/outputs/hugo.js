@@ -2,13 +2,21 @@ const fs = require('fs/promises');
 const path = require('path');
 const { writeFrontMatter, getTitleSlug, adjustMarkdownHeaders, getLinkSlug } = require('../utils');
 const { processImages } = require('../image-utils');
+const { formatPoolData } = require('../pool-utils');
 
 async function writeHugoBook(book, outputPath, sourcePath) {
-    const contentPath = path.join(outputPath, 'content', 'docs');
+    const contentPath = path.join(outputPath, 'content');
     const sourceDir = path.resolve(sourcePath);
+    const dataDir = path.join(outputPath, 'data');
 
     const imagesDir = path.join(outputPath, 'static');
     const imagesRelDir = path.join(outputPath, 'images');
+
+    // Create data directory and write questions.json
+    await fs.mkdir(dataDir, { recursive: true });
+    const poolData = await formatPoolData(book.pool, sourceDir);
+    const poolFilePath = path.join(dataDir, 'questions.json');
+    await fs.writeFile(poolFilePath, JSON.stringify(poolData, null, 2));
 
     const writeChapter = async (chapter, currentPath, index, level = 1) => {
         const chptSlug = getTitleSlug(chapter);
@@ -56,7 +64,8 @@ async function writeHugoBook(book, outputPath, sourcePath) {
     };
 
     let partIndex = 1;
-    for (const part of book.parts) {
+
+    for (const part of book.parts.filter(part => !part.intro)) {
         if (part.conclusion) {
             let conclusionContent = writeFrontMatter({
                 title: part.title,
@@ -82,9 +91,16 @@ async function writeHugoBook(book, outputPath, sourcePath) {
 }
 
 function generateTableOfContents(book) {
-    let toc = '# Table of Contents\n\n';
+    const intro = book.parts.find(part => part.intro);
+    const frontMatter = {
+        title: 'Table of Contents',
+        ...(intro?.frontMatter || {}),
+    };
 
-    for (const part of book.parts) {
+    let toc = (intro?.content || '# Table of Contents') + '\n\n';
+
+    const parts = book.parts.filter(part => !part.intro);
+    for (const part of parts) {
         const partSlug = getLinkSlug(part);
         if (part.intro) { 
             continue;
@@ -119,7 +135,7 @@ function generateTableOfContents(book) {
         }
     }
 
-    return writeFrontMatter({ title: 'Table of Contents' }) + toc;
+    return writeFrontMatter(frontMatter) + toc;
 }
 
 module.exports = {

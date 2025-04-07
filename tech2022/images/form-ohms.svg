@@ -1,15 +1,15 @@
 <svg viewBox="0 0 200 200" width="150" height="150" xmlns="http://www.w3.org/2000/svg">
   <!-- Circle -->
-  <circle cx="100" cy="100" r="80" fill="white" stroke="black" stroke-width="2"/>
+  <circle cx="100" cy="100" r="80" fill="white" stroke="#1a373a" stroke-width="2" />
   
   <!-- Horizontal Divider -->
-  <line x1="20" y1="100" x2="180" y2="100" stroke="black" stroke-width="2"/>
+  <line x1="20" y1="100" x2="180" y2="100" stroke="#1a373a" stroke-width="2"/>
   
   <!-- Vertical Divider -->
-  <line x1="100" y1="100" x2="100" y2="180" stroke="black" stroke-width="2"/>
+  <line x1="100" y1="100" x2="100" y2="180" stroke="#1a373a" stroke-width="2"/>
   
   <!-- Text Labels -->
-  <text x="100" y="75" text-anchor="middle" font-family="Arial" font-size="40" font-weight="bold">E</text>
-  <text x="65" y="150" text-anchor="middle" font-family="Arial" font-size="40" font-weight="bold">I</text>
-  <text x="135" y="150" text-anchor="middle" font-family="Arial" font-size="40" font-weight="bold">R</text>
+  <text x="100" y="75" text-anchor="middle" font-family="Arial" font-size="40" font-weight="bold" fill="#d60000">E</text>
+  <text x="65" y="150" text-anchor="middle" font-family="Arial" font-size="40" font-weight="bold" fill="#00bcd6">I</text>
+  <text x="135" y="150" text-anchor="middle" font-family="Arial" font-size="40" font-weight="bold" fill="#7a6e10">R</text>
 </svg>

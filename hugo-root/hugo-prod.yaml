@@ -1,0 +1,4 @@
+baseURL: 'https://hambook.org/'
+
+params:
+  BookServiceWorker: true
