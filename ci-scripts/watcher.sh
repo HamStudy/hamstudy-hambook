@@ -1,4 +1,4 @@
-#!/bin/sh -e
+#!/bin/bash -e
 
 # Default environment variables with container-level override support
 REPO_URL="${REPO_URL:-https://github.com/HamStudy/hamstudy-hambook.git}"
@@ -17,6 +17,14 @@ PROJECTS="tech2022"
 # Initialize script variables
 FORCE_REBUILD=false
 IMMEDIATE_CHECK=false
+
+SASSPATH=$(dirname $(which -a sass | grep -v 'node_modules/.bin/sass' | uniq | head -n 1))
+# If not found or empty, bail out or fall back to just calling hugo
+if [ -z "$SASSPATH" ]; then
+  echo "Warning: No matching sass found outside of node_modules/.bin"
+  exit 2
+fi
+PATH=$SASSPATH:$PATH
 
 # Create a function to clean up child processes
 cleanup() {
@@ -40,7 +48,7 @@ calculate_project_hashes() {
   for project in $PROJECTS; do
     local hash_var_name="CURRENT_${project}_HASH"
     declare -g "$hash_var_name"="$(get_project_hash "$project")"
-    echo "Calculated hash for $project: ${!hash_var_name:0:10}..."
+    echo "Calculated hash for $project: $(echo ${!hash_var_name} | sha256sum)..."
   done
 }
 
@@ -183,25 +191,14 @@ update_build_state() {
   local new_hash="$2"
   LAST_BUILD_TIME="$3"
   
-  echo "Updating ConfigMap $CONFIGMAP_NAME with new output (${output_name}.tar.gz)..."
   s3_upload "last_hash" "$new_hash"
   s3_upload "last_output" "$output_name"
   s3_upload "last_build_time" "$LAST_BUILD_TIME"
   
-  # Save common hashes
-  s3_upload "last_hugo_common_hash" "$CURRENT_HUGO_COMMON_HASH"
-  s3_upload "last_hugo_root_hash" "$CURRENT_HUGO_ROOT_HASH"
-  
-  # Save project hashes
-  for project in $PROJECTS; do
-    local current_hash_var="CURRENT_${project}_HASH"
-    s3_upload "last_${project}_hash" "${!current_hash_var}"
-  done
-
   # Log out the current state
   echo "Current state:"
   echo " - Last hash: $new_hash"
-  echo " - Last output: $output_name.tar.gz"
+  echo " - Last output: ${output_name}.tar.gz"
   echo " - Last build time: $LAST_BUILD_TIME"
   echo " - Last Hugo common hash: $CURRENT_HUGO_COMMON_HASH"
   echo " - Last Hugo root hash: $CURRENT_HUGO_ROOT_HASH"
@@ -216,11 +213,12 @@ update_build_state() {
   # Get the current path from configmap before updating
   local current_path=$(kubectl get configmap "$CONFIGMAP_NAME" -n "$NAMESPACE" -o jsonpath='{.data.current_path}')
   
+  echo "Updating ConfigMap ${NAMESPACE}/$CONFIGMAP_NAME with new output (${output_name}.tar.gz)..."
   kubectl patch configmap "$CONFIGMAP_NAME" \
     -n "$NAMESPACE" \
     --type=json \
     -p="[
-      {'op': 'replace', 'path': '/data/current_path', 'value': '$output_name.tar.gz'},
+      {'op': 'replace', 'path': '/data/current_path', 'value': '${output_name}.tar.gz'},
       {'op': 'replace', 'path': '/data/previous_path', 'value': '$current_path'},
       {'op': 'replace', 'path': '/data/last_build_time', 'value': '$LAST_BUILD_TIME'}
     ]"
@@ -350,16 +348,16 @@ npm ci
 #region Main loop
 
 # Load stored hashes
-CURRENT_HASH=$(load_hash "last_hash" "git rev-parse --short HEAD" "No previous hash found, using current HEAD")
+CURRENT_HASH=$(load_hash "last_hash" "git rev-parse --short HEAD~" "No previous hash found, using previous to force build")
 LAST_BUILD_TIME=$(s3_download "last_build_time" || echo "0")
 
-# Load common hash values
-LAST_HUGO_COMMON_HASH=$(load_hash "last_hugo_common_hash" "get_hugo_common_hash" "No previous hugo common hash found")
-LAST_HUGO_ROOT_HASH=$(load_hash "last_hugo_root_hash" "get_hugo_root_hash" "No previous hugo root hash found")
+# Init common hash values
+LAST_HUGO_COMMON_HASH=""
+LAST_HUGO_ROOT_HASH=""
 
-# Load project hash values
+# Init project hash values
 for project in $PROJECTS; do
-  declare -g "LAST_${project}_HASH"="$(load_hash "last_${project}_hash" "echo none" "No previous $project hash found")"
+  declare -g "LAST_${project}_HASH"=""
 done
 
 # Calculate current hashes
