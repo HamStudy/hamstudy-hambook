@@ -1,12 +1,13 @@
+# baseURL: 'https://hambook.org/tech2022
 languageCode: 'en-us'
 title: 'Technician HamBook'
-relativeURLs: true
 
 module:
   imports:
     - path: hambook.org/hambook/common
 
 params:
+  BookPortableLinks: true
   BookSubtitle: (2022 - 2026)
   BookLogo: "figures/coverfornow.jpg"
   hsBaseURL: "https://hamstudy.org/flashcard/E2_2022?bk=hambook-tech2022&def=q:"
