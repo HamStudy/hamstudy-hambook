@@ -200,13 +200,13 @@ update_build_state() {
   echo " - Last hash: $new_hash"
   echo " - Last output: ${output_name}.tar.gz"
   echo " - Last build time: $LAST_BUILD_TIME"
-  echo " - Last Hugo common hash: $CURRENT_HUGO_COMMON_HASH"
-  echo " - Last Hugo root hash: $CURRENT_HUGO_ROOT_HASH"
+  echo " - Last Hugo common hash: $(echo $CURRENT_HUGO_COMMON_HASH | sha256sum)"
+  echo " - Last Hugo root hash: $(echo $CURRENT_HUGO_ROOT_HASH | sha256sum)"
   
   # Log project hashes
   for project in $PROJECTS; do
     local current_hash_var="CURRENT_${project}_HASH"
-    echo " - Last $project hash: ${!current_hash_var:0:10}..."
+    echo " - Last $project hash: $(echo ${!current_hash_var} | sha256sum)"
   done
   echo "--"
   
@@ -242,7 +242,7 @@ run_build() {
   local rebuild_common=false
   
   # Create the output directory
-  mkdir -p "$BUILD_BASE_DIR/$output_dir"
+  mkdir -pv "$BUILD_BASE_DIR/$output_dir"
   
   # Check if common files changed
   if [ "$CURRENT_HUGO_COMMON_HASH" != "$LAST_HUGO_COMMON_HASH" ]; then
@@ -261,7 +261,7 @@ run_build() {
     echo " -- No changes in hugo-root, skipping rebuild."
   fi
   # Copy root files to output directory
-  echo " -- Copying hugo-root files to $output_dir/..."
+  echo " -- Copying hugo-root files to $BUILD_BASE_DIR/$output_dir/..."
   cp -r hugo-root/public/* "$BUILD_BASE_DIR/$output_dir/"
   
   # Check and build each project
@@ -275,15 +275,15 @@ run_build() {
       
       # Compress project assets
       echo " -- Compressing $project assets..."
-      compress_static_assets "$project/hugo/$project"
+      compress_static_assets "$project/hugo/public"
     else
       echo " -- No changes in $project, skipping rebuild."
     fi
     
     # Copy project files to output directory
-    echo " -- Copying $project files to $output_dir/$project/..."
+    echo " -- Copying $project files to $BUILD_BASE_DIR/$output_dir/$project..."
     mkdir -p "$BUILD_BASE_DIR/$output_dir/$project"
-    cp -r "$project/hugo/public/"* "$BUILD_BASE_DIR/$output_dir/$project/"
+    cp -rv "$project/hugo/public/"* "$BUILD_BASE_DIR/$output_dir/$project/"
   done
   
   return 0
@@ -416,7 +416,8 @@ while true; do
 
     if run_build "$OUTPUT_NAME"; then
       echo " -- Creating tar.gz archive..."
-      tar -czf "${BUILD_BASE_DIR}/${OUTPUT_NAME}.tar.gz" -C "${BUILD_BASE_DIR}/${OUTPUT_NAME}" .
+      echo tar -czvf "${BUILD_BASE_DIR}/${OUTPUT_NAME}.tar.gz" -C "${BUILD_BASE_DIR}/${OUTPUT_NAME}" .
+      tar -czvf "${BUILD_BASE_DIR}/${OUTPUT_NAME}.tar.gz" -C "${BUILD_BASE_DIR}/${OUTPUT_NAME}" .
       
       echo " -- Uploading archive to S3..."
       # Upload the tar.gz file to S3
@@ -451,7 +452,7 @@ while true; do
   # Clean up old builds
   clean_old_builds
 
-  # Sleep in the background and wait for signals
+  # Sleep in the background and wavit for signals
   sleep "$SLEEP_DURATION" & PID=$!
   wait $PID || true
   unset PID
