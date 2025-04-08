@@ -254,17 +254,15 @@ run_build() {
   if [ "$CURRENT_HUGO_ROOT_HASH" != "$LAST_HUGO_ROOT_HASH" ]; then
     echo " -- Rebuilding hugo-root..."
     run_or_error hugo -s hugo-root --minify --config hugo.yaml,hugo-prod.yaml --cleanDestinationDir
-    
-    # Copy root files to output directory
-    echo " -- Copying hugo-root files to $output_dir/..."
-    cp -r hugo-root/public/* "$BUILD_BASE_DIR/$output_dir/"
-    
     # Compress root assets
     echo " -- Compressing hugo-root assets..."
-    compress_static_assets "$BUILD_BASE_DIR/$output_dir"
+    compress_static_assets "hugo-root/public"
   else
     echo " -- No changes in hugo-root, skipping rebuild."
   fi
+  # Copy root files to output directory
+  echo " -- Copying hugo-root files to $output_dir/..."
+  cp -r hugo-root/public/* "$BUILD_BASE_DIR/$output_dir/"
   
   # Check and build each project
   for project in $PROJECTS; do
@@ -275,17 +273,17 @@ run_build() {
       echo " -- Rebuilding $project..."
       run_or_error hugo -s "$project/hugo" --minify --config hugo.yaml,hugo-prod.yaml --cleanDestinationDir
       
-      # Copy project files to output directory
-      echo " -- Copying $project files to $output_dir/$project/..."
-      mkdir -p "$BUILD_BASE_DIR/$output_dir/$project"
-      cp -r "$project/hugo/public/"* "$BUILD_BASE_DIR/$output_dir/$project/"
-      
       # Compress project assets
       echo " -- Compressing $project assets..."
-      compress_static_assets "$BUILD_BASE_DIR/$output_dir/$project"
+      compress_static_assets "$project/hugo/$project"
     else
       echo " -- No changes in $project, skipping rebuild."
     fi
+    
+    # Copy project files to output directory
+    echo " -- Copying $project files to $output_dir/$project/..."
+    mkdir -p "$BUILD_BASE_DIR/$output_dir/$project"
+    cp -r "$project/hugo/public/"* "$BUILD_BASE_DIR/$output_dir/$project/"
   done
   
   return 0

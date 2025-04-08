@@ -1,4 +1,4 @@
-baseURL: 'https://hambook.org/tech2022'
+baseURL: 'https://hambook.org/tech2022/'
 
 params:
   BookServiceWorker: true
