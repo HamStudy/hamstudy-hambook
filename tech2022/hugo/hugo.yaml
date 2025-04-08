@@ -1,6 +1,6 @@
-# baseURL: 'https://hambook.org/'
 languageCode: 'en-us'
 title: 'Technician HamBook'
+relativeURLs: true
 
 module:
   imports:
