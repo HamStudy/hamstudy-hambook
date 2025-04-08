@@ -17,49 +17,49 @@ variables:
     --local context=${CI_PROJECT_DIR}
 
 
-build-image:
-  stage: build
-  variables:
-    TAGPARAM: "--output type=image,\"name=${TARGET}:${CI_COMMIT_REF_SLUG},${TARGET}:${CI_COMMIT_SHORT_SHA}\",push=true"
-  image:
-    name: ${BUILDKIT_IMAGE}
-    entrypoint: ["sh", "-c"]
-  before_script:
-    - echo "CI_REGISTRY_IMAGE=${CI_REGISTRY_IMAGE}"
-    - echo "CI_COMMIT_REF_SLUG=${CI_COMMIT_REF_SLUG}"
-    - >-
-      echo '{"auths": {"dockerreg.zzt.net": {"auth": "'${DOCKERREG_ACCESS}'"}}}' > ~/.docker/config.json
-    - >
-      cat ~/.docker/config.json |
-      jq ".auths += {\"$CI_REGISTRY\": {
-        auth: \"$(echo -n "$CI_REGISTRY_USER:$CI_REGISTRY_PASSWORD" | base64)\"
-      }}" | sponge ~/.docker/config.json
-  script:
-    - cd "$CI_PROJECT_DIR"
-    - >-
-      /usr/bin/buildctl-daemonless.sh build
-      ${COMMON_FLAGS}
-      --output type=image,\"name=${TARGET}:${CI_COMMIT_SHORT_SHA},${TARGET}:${CI_COMMIT_REF_SLUG}\",push=true
-      .
-    - echo "Built $VERSION ($CI_COMMIT_SHA) to $TARGETIMG"
+# build-image:
+#   stage: build
+#   variables:
+#     TAGPARAM: "--output type=image,\"name=${TARGET}:${CI_COMMIT_REF_SLUG},${TARGET}:${CI_COMMIT_SHORT_SHA}\",push=true"
+#   image:
+#     name: ${BUILDKIT_IMAGE}
+#     entrypoint: ["sh", "-c"]
+#   before_script:
+#     - echo "CI_REGISTRY_IMAGE=${CI_REGISTRY_IMAGE}"
+#     - echo "CI_COMMIT_REF_SLUG=${CI_COMMIT_REF_SLUG}"
+#     - >-
+#       echo '{"auths": {"dockerreg.zzt.net": {"auth": "'${DOCKERREG_ACCESS}'"}}}' > ~/.docker/config.json
+#     - >
+#       cat ~/.docker/config.json |
+#       jq ".auths += {\"$CI_REGISTRY\": {
+#         auth: \"$(echo -n "$CI_REGISTRY_USER:$CI_REGISTRY_PASSWORD" | base64)\"
+#       }}" | sponge ~/.docker/config.json
+#   script:
+#     - cd "$CI_PROJECT_DIR"
+#     - >-
+#       /usr/bin/buildctl-daemonless.sh build
+#       ${COMMON_FLAGS}
+#       --output type=image,\"name=${TARGET}:${CI_COMMIT_SHORT_SHA},${TARGET}:${CI_COMMIT_REF_SLUG}\",push=true
+#       .
+#     - echo "Built $VERSION ($CI_COMMIT_SHA) to $TARGETIMG"
 
-deploy-image:
-  variables:
-    CONTAINER: web
-  image:
-    name: bitnami/kubectl:latest
-  only:
-    - main
-  stage: deploy
-  environment: production
-  before_script:
-    - USER_TOKEN=$(cat /var/run/secrets/kubernetes.io/serviceaccount/token)
-    - CERTIFICATE_AUTHORITY_DATA=$(cat /var/run/secrets/kubernetes.io/serviceaccount/ca.crt | base64 -i -w0 -)
-    - kubectl config set-cluster k8s --server="https://kubernetes.default.svc"
-    - kubectl config set clusters.k8s.certificate-authority-data ${CERTIFICATE_AUTHORITY_DATA}
-    - kubectl config set-credentials gitlab --token="${USER_TOKEN}"
-    - kubectl config set-context default --cluster=k8s --user=gitlab --namespace ${NAMESPACE}
-    - kubectl config use-context default
-  script:
-    - kubectl -n ${NAMESPACE} set image deployment ${DEPLOYMENT} ${CONTAINER}=${TARGET}:${CI_COMMIT_SHORT_SHA} 
+# deploy-image:
+#   variables:
+#     CONTAINER: web
+#   image:
+#     name: bitnami/kubectl:latest
+#   only:
+#     - main
+#   stage: deploy
+#   environment: production
+#   before_script:
+#     - USER_TOKEN=$(cat /var/run/secrets/kubernetes.io/serviceaccount/token)
+#     - CERTIFICATE_AUTHORITY_DATA=$(cat /var/run/secrets/kubernetes.io/serviceaccount/ca.crt | base64 -i -w0 -)
+#     - kubectl config set-cluster k8s --server="https://kubernetes.default.svc"
+#     - kubectl config set clusters.k8s.certificate-authority-data ${CERTIFICATE_AUTHORITY_DATA}
+#     - kubectl config set-credentials gitlab --token="${USER_TOKEN}"
+#     - kubectl config set-context default --cluster=k8s --user=gitlab --namespace ${NAMESPACE}
+#     - kubectl config use-context default
+#   script:
+#     - kubectl -n ${NAMESPACE} set image deployment ${DEPLOYMENT} ${CONTAINER}=${TARGET}:${CI_COMMIT_SHORT_SHA} 
 
