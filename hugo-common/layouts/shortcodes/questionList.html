@@ -28,8 +28,8 @@
             {{- $imgId := replaceRE "\\..*$" "" $question.image -}}
             {{- if and $question.image (not (index $shownFigures $question.image)) -}}
               <div class="question-figure figure-{{ $imgId }}">
-                <object data="{{ $imagePath }}" type="image/svg+xml" style="filter: var(--icon-filter);" class="q-figure">
-                  <img src="{{ $pngImagePath }}" alt="Figure for {{ $questionID }}" style="filter: var(--icon-filter);" class="q-figure" />
+                <object data="{{ $imagePath | relURL }}" type="image/svg+xml" style="filter: var(--icon-filter);" class="q-figure">
+                  <img src="{{ $pngImagePath | relURL }}" alt="Figure for {{ $questionID }}" style="filter: var(--icon-filter);" class="q-figure" />
                 </object>
               </div>
               {{- $shownFigures = $shownFigures | merge (dict $question.image true) -}}
@@ -58,7 +58,7 @@
                 {{- if or $hasAllTheseChoices .correct -}}
                   <li class="answer-item{{ if .correct }} correct-answer{{ end }}">
                       {{- if .correct -}}
-                        <strong><img src="/svg/arrow-right.svg" alt="→" class="icon" /></strong>
+                        <strong><img src="{{ "svg/arrow-right.svg" | relURL }}" alt="→" class="icon" /></strong>
                       {{- else -}}
                         <strong>{{ .letter }}:</strong>
                       {{- end -}}

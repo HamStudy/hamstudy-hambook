@@ -1,9 +1,9 @@
-# baseURL: 'https://hambook.org/tech2022
+baseURL: 'https://hambook.org/tech2022'
 languageCode: 'en-us'
 title: 'Technician HamBook'
 
 relativeURLs: false
-canonicalURLs: true
+canonifyURLs: false
 
 module:
   imports:

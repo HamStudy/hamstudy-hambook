@@ -24,7 +24,7 @@
       </div>
       <div class="qrcode">
         <div class="img ml-1">
-            <img class="hsa" src="/images/hamstudy_a.svg" alt="HamStudy Antenna Icon" />
+            <img class="hsa" src="{{ "images/hamstudy_a.svg" | relURL }}" alt="HamStudy Antenna Icon" />
         </div>
         <div class="label">
             Study this section with HamStudy
@@ -42,11 +42,11 @@
           {{- $questionID := . -}}
           {{- $question := index $questionsData $questionID -}}
           {{- if $question -}}
-              {{- $imagePath := printf "/figures/%s" $question.image -}}
+              {{- $imagePath := printf "figures/%s" $question.image -}}
               {{- $imgId := replaceRE "\\..*$" "" $question.image -}}
               {{- if and $question.image (not (index $shownFigures $question.image)) -}}
                   <div class="question-figure figure-{{ $imgId }}">
-                      <img src="{{ $imagePath }}" alt="Figure for {{ $questionID }}" class="q-figure" />
+                      <img src="{{ $imagePath | relURL }}" alt="Figure for {{ $questionID }}" class="q-figure" />
                   </div>
                   {{- $shownFigures = $shownFigures | merge (dict $question.image true) -}}
               {{- end -}}
@@ -65,7 +65,7 @@
                             {{- if or $hasAllTheseChoices .correct -}}
                             <li class="answer-item{{ if .correct }} correct-answer{{ end }}">
                                 {{- if .correct -}}
-                                    <strong><img src="/svg/arrow-right.svg" alt="→" class="icon" /></strong>
+                                    <strong><img src="{{ "svg/arrow-right.svg" | relURL }}" alt="→" class="icon" /></strong>
                                 {{- else -}}
                                     <strong>{{ .letter }}:</strong>
                                 {{- end -}}

@@ -4,6 +4,8 @@ const { writeFrontMatter, getTitleSlug, adjustMarkdownHeaders, getLinkSlug } = r
 const { processImages } = require('../image-utils');
 const { formatPoolData } = require('../pool-utils');
 
+const hugoRelImgPath = '/images';
+
 async function writeHugoBook(book, outputPath, sourcePath) {
     const contentPath = path.join(outputPath, 'content');
     const sourceDir = path.resolve(sourcePath);
@@ -32,7 +34,7 @@ async function writeHugoBook(book, outputPath, sourcePath) {
                 ...intro?.frontMatter || {},
             }) + (intro?.content || '');
 
-            introContent = await processImages(introContent, sourceDir, imagesDir, '/images');
+            introContent = await processImages(introContent, sourceDir, imagesDir, hugoRelImgPath);
             introContent = adjustMarkdownHeaders(introContent);
 
             introContent.filename = '_index';
@@ -53,7 +55,7 @@ async function writeHugoBook(book, outputPath, sourcePath) {
                     ...section.frontMatter || {},
                 }) + section.content;
 
-                sectionContent = await processImages(sectionContent, sourceDir, imagesDir, '/images');
+                sectionContent = await processImages(sectionContent, sourceDir, imagesDir, hugoRelImgPath);
                 sectionContent = adjustMarkdownHeaders(sectionContent);
 
                 section.filename = sectionFileName;
@@ -73,7 +75,7 @@ async function writeHugoBook(book, outputPath, sourcePath) {
                 ...part.frontMatter || {},
             }) + part.content;
 
-            conclusionContent = await processImages(conclusionContent, sourceDir, imagesDir, '/images');
+            conclusionContent = await processImages(conclusionContent, sourceDir, imagesDir, hugoRelImgPath);
             conclusionContent = adjustMarkdownHeaders(conclusionContent);
 
             part.filename = `conclusion`;

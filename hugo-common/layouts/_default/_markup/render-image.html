@@ -1,7 +1,7 @@
 {{- if .Page.Site.Params.BookPortableLinks -}}
   {{- template "portable-image" . -}}
 {{- else -}}
-  <img src="{{ .Destination | safeURL }}" alt="{{ .Text }}" {{ with .Title }}title="{{ . }}"{{ end }}
+  <img src="{{ .Destination | replaceRE "^/" "" | relURL }}" alt="{{ .Text }}" {{ with .Title }}title="{{ . }}"{{ end }}
   {{- with .Attributes }}
     {{- range $key, $value := . }}
       {{- $key }}="{{ $value }}"
@@ -20,7 +20,7 @@
       {{- warnf "Image '%s' not found in '%s'" .Destination .Page.File }}
     {{- end }}
   {{- end }}
-  <img src="{{ .Destination | safeURL }}" alt="{{ .Text }}" {{ with .Title }}title="{{ . }}"{{ end }}
+  <img src="{{ .Destination | replaceRE "^/" "" | relURL }}" alt="{{ .Text }}" {{ with .Title }}title="{{ . }}"{{ end }}
     {{- with .Attributes }}
       {{- range $key, $value := . }}
         {{- $key }}="{{ $value }}"
