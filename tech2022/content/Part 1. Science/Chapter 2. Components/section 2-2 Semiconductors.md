@@ -1,5 +1,4 @@
 ---
-slug: section2.2
 chapter: "2"
 section: "2.2"
 questions: [ "T6B02", "T6B06", "T6B01", "T6B09", "T6D01", "T6B07", "T6D07", "T6B03", "T6B10", "T6B04", "T6B08", "T6B12", "T6B05", "T6B11", "T6D09" ]

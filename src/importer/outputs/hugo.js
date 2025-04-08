@@ -10,7 +10,7 @@ async function writeHugoBook(book, outputPath, sourcePath) {
     const dataDir = path.join(outputPath, 'data');
 
     const imagesDir = path.join(outputPath, 'static');
-    const imagesRelDir = path.join(outputPath, 'images');
+    const imagesRelDir = path.join(imagesDir, 'images');
 
     // Create data directory and write questions.json
     await fs.mkdir(dataDir, { recursive: true });
@@ -32,7 +32,7 @@ async function writeHugoBook(book, outputPath, sourcePath) {
                 ...intro?.frontMatter || {},
             }) + (intro?.content || '');
 
-            introContent = await processImages(introContent, sourceDir, imagesDir, path.relative(chapterPath, imagesRelDir));
+            introContent = await processImages(introContent, sourceDir, imagesDir, '/images');
             introContent = adjustMarkdownHeaders(introContent);
 
             introContent.filename = '_index';
@@ -53,7 +53,7 @@ async function writeHugoBook(book, outputPath, sourcePath) {
                     ...section.frontMatter || {},
                 }) + section.content;
 
-                sectionContent = await processImages(sectionContent, sourceDir, imagesDir, path.relative(chapterPath, imagesRelDir));
+                sectionContent = await processImages(sectionContent, sourceDir, imagesDir, '/images');
                 sectionContent = adjustMarkdownHeaders(sectionContent);
 
                 section.filename = sectionFileName;
@@ -73,7 +73,7 @@ async function writeHugoBook(book, outputPath, sourcePath) {
                 ...part.frontMatter || {},
             }) + part.content;
 
-            conclusionContent = await processImages(conclusionContent, sourceDir, imagesDir, path.relative(contentPath, imagesRelDir));
+            conclusionContent = await processImages(conclusionContent, sourceDir, imagesDir, '/images');
             conclusionContent = adjustMarkdownHeaders(conclusionContent);
 
             part.filename = `conclusion`;
@@ -105,7 +105,7 @@ function generateTableOfContents(book) {
         if (part.intro) { 
             continue;
         } else if (part.conclusion) {
-            toc += `- [Conclusion](${getLinkSlug(part)})\n`;
+            toc += `- [Conclusion]({{< relref "${getLinkSlug(part)}" >}})\n`;
             continue;
         }
         toc += `- [${part.title}](${partSlug}/)\n`;
@@ -117,17 +117,17 @@ function generateTableOfContents(book) {
                 }
                 if ('sections' in chapter) {
                     const chapterSlug = `${partSlug}/${getLinkSlug(chapter)}`;
-                    toc += `  - [${chapter.title}](${chapterSlug}/)\n`;
+                    toc += `  - [${chapter.title}]({{% relref "${chapterSlug}" %}})\n`;
 
                     for (const section of chapter.sections) {
                         if (!section.intro) {
                             const sectionSlug = `${chapterSlug}/${getLinkSlug(section)}`;
-                            toc += `    - [${section.title}](${sectionSlug})\n`;
+                            toc += `    - [${section.title}]({{% relref "${sectionSlug}" %}})\n`;
                         }
                     }
                 } else {
                     const sectionSlug = `${partSlug}/${getLinkSlug(chapter)}`;
-                    toc += `  - [${chapter.title}](${sectionSlug})\n`;
+                    toc += `  - [${chapter.title}]({{% relref "${sectionSlug}" %}})\n`;
                 }
             }
         } else {

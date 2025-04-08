@@ -1,5 +1,4 @@
 ---
-slug: "section1.2"
 chapter: "1"
 section: "1.2"
 questions: ["T5A05", "T5A01", "T5A03", "T5A04", "T5A12", "T5A06", "T5A10", "T5A02", "T5B09", "T5B11", "T5B10", "T5B01", "T5B02", "T5B03", "T5B04", "T5B05", "T5B06", "T5B07", "T5B08", "T5B12", "T5B13", "T5A09", "T5A11", "T5C12", "T5C05", "T5C01", "T5C02", "T5C03", "T5C04", "T6D11"]
