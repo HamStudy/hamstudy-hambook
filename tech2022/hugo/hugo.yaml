@@ -2,6 +2,9 @@
 languageCode: 'en-us'
 title: 'Technician HamBook'
 
+relativeURLs: false
+canonicalURLs: true
+
 module:
   imports:
     - path: hambook.org/hambook/common
