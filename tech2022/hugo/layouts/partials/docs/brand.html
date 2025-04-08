@@ -1,0 +1,17 @@
+<a href="/" class="back-btn">
+  <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 512 512" width="1rem" height="1rem" class="icon">
+    <path d="M9.4,278.7l128,128c12.5,12.5,32.8,12.5,45.3,0,12.5-12.5,12.5-32.8,0-45.3l-73.4-73.4h370.7c17.7,0,32-14.3,32-32,0-17.7-14.3-32-32-32H109.3s73.4-73.4,73.4-73.4c12.5-12.5,12.5-32.8,0-45.3s-32.8-12.5-45.3,0L9.4,233.3c-12.5,12.5-12.5,32.8,0,45.3h0Z"/>
+  </svg>
+  HamBook Home
+</a>
+<h2 class="book-brand">
+  <a class="flex align-center" href="{{ cond (not .Site.Home.File) .Sites.Default.Home.RelPermalink .Site.Home.RelPermalink }}">
+    {{- with .Site.Params.BookLogo -}}
+    <img src="{{ . | relURL }}" alt="Logo" class="book-icon" />
+    {{- end -}}
+    <span>{{ .Site.Title }}</span>
+    {{ with .Site.Params.BookSubtitle -}}
+      <span class="book-subtitle">{{ . }}</span>
+    {{- end -}}
+  </a>
+</h2>
