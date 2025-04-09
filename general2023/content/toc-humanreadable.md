@@ -1,0 +1,289 @@
+---
+title: "Table of Contents: HamStudy General Class License HamBook (2023-2027)"
+---
+
+# HamStudy: General Class License HamBook (2023-2027)
+
+## Introduction
+- Moving Beyond Technician
+- How to Use This HamBook
+- General Class Privileges Overview
+
+## Part 1: The Science Behind General Class Operation
+
+### Chapter 1: Advanced Electrical Concepts
+- Section 1.1: Series and Parallel Circuits
+  - Resistors, Capacitors, and Inductors in Combination
+  - Calculating Values for Series and Parallel Components
+- Section 1.2: Reactance and Impedance
+  - How Components React to AC
+  - Understanding Reactance
+  - Impedance and Admittance
+  - Resonance
+- Section 1.3: Filters and Resonant Circuits
+  - LC Oscillators
+  - Filter Types and Performance
+  - Bandwidth and Cutoff Frequency
+- Section 1.4: Transformers and Impedance Matching
+  - Transformer Theory and Operation
+  - Turns Ratio and Voltage/Impedance Transformation
+  - Antenna Matching Techniques
+- Section 1.5: Power and Measurements
+  - Decibels and Power Ratios
+  - RMS and Peak Measurements
+  - PEP Calculations
+  - Calculating Power in Circuits
+
+### Chapter 2: Building Advanced Circuits
+- Section 2.1: Essential RF Components
+  - Diodes and Their Properties
+  - Capacitor Types and Applications
+  - Ferrites and Their Uses
+  - Component Selection for RF Circuits
+- Section 2.2: Amplification and Oscillation
+  - Transistor Types and Operation
+  - Vacuum Tubes
+  - Amplifier Classes
+  - Oscillator Design
+  - Efficiency and Linearity
+- Section 2.3: Power Supply Design
+  - Rectification Circuits
+  - Filter Networks
+  - Linear vs. Switching Power Supplies
+  - Bleeder Resistors and Safety
+- Section 2.4: Digital Circuit Fundamentals
+  - Logic Gates and Functions
+  - Integrated Circuits
+  - Counters and Shift Registers
+  - MMICs and Operational Amplifiers
+- Section 2.5: Schematic Reading and Test Equipment
+  - Component Symbols
+  - Using Oscilloscopes
+  - Multimeters and Signal Analysis
+  - Two-Tone Testing
+
+### Chapter 3: Radio Wave Propagation
+- Section 3.1: The Ionosphere and Wave Propagation
+  - Ionospheric Regions (D, E, F1, F2)
+  - Critical Angle and Critical Frequency
+  - Maximum Usable Frequency (MUF)
+  - Lowest Usable Frequency (LUF)
+  - Skip Distance and Skip Zones
+- Section 3.2: Solar Effects on Propagation
+  - Sunspot Cycle
+  - Solar Flares and CMEs
+  - Geomagnetic Storms
+  - Solar Flux Index
+  - A-Index and K-Index
+  - Sudden Ionospheric Disturbances
+- Section 3.3: Propagation Modes and Paths
+  - Long Path vs. Short Path
+  - Scatter Propagation
+  - Gray Line Propagation
+  - Near Vertical Incidence Skywave (NVIS)
+  - Seasonal and Daily Variations
+  - Propagation Prediction Tools
+
+### Chapter 4: Antenna Systems
+- Section 4.1: Feed Lines and Connections
+  - Characteristic Impedance
+  - Velocity Factor
+  - Attenuation and Loss
+  - RF Connectors and Their Applications
+  - Balanced vs. Unbalanced Lines
+- Section 4.2: SWR and Antenna Matching
+  - Reflection and Standing Waves
+  - Causes of High SWR
+  - Measuring SWR
+  - Impedance Matching Techniques
+  - Antenna Tuners and Transformers
+  - Link Budgets and Margins
+- Section 4.3: Directional Antennas
+  - Yagi Antenna Design
+  - Element Lengths and Spacing
+  - Gain and Front-to-Back Ratio
+  - Stacking Antennas
+  - Log-Periodic Antennas
+  - Radiation Patterns and Lobes
+- Section 4.4: Dipoles and Vertical Antennas
+  - Dipole Variations and Properties
+  - Ground Plane Verticals
+  - Radial Systems
+  - Antenna Height Effects
+  - Inverted V and Other Configurations
+  - Calculating Antenna Lengths
+- Section 4.5: Mobile and Portable Antennas
+  - Loading Coils and Capacitance Hats
+  - Corona Balls
+  - Multiband Antennas and Traps
+  - "Screwdriver" Antennas
+  - Special-Purpose Antennas
+
+### Chapter 5: Signal Theory and Modulation
+- Section 5.1: Analog Modulation Methods
+  - Amplitude Modulation Techniques
+  - Phase and Frequency Modulation
+  - Sideband Theory
+  - Balanced Modulators
+  - Product Detectors
+  - Modulation Envelopes
+- Section 5.2: Digital Modes and Signals
+  - FSK and AFSK
+  - PSK31 and QPSK
+  - FT8 and Other Weak Signal Modes
+  - Packet Communication
+  - Forward Error Correction
+  - Baudot Code and ARQ
+  - Waterfall Displays
+- Section 5.3: Frequency Mixing and Bandwidth
+  - Mixer Theory and Applications
+  - Heterodyning
+  - Image Responses
+  - Intermodulation Products
+  - Bandwidth Requirements
+  - Symbol Rate vs. Bandwidth
+- Section 5.4: Digital Signal Processing
+  - DSP Filter Advantages
+  - I-Q Signals and Processing
+  - Software-Defined Radio Concepts
+
+## Part 2: Operating as a General Class Amateur
+
+### Chapter 6: Safety 
+- Section 6.1: AC Power and Circuit Protection
+  - Circuit Breakers and Fuses
+  - Wire Sizing
+  - National Electrical Code
+  - Ground Fault Circuit Interrupters
+  - Power Supply Interlocks
+- Section 6.2: Batteries and Power Systems
+  - Battery Types and Characteristics
+  - Proper Mobile Installation
+  - Solar Power Systems
+  - Emergency Power Considerations
+  - Lead-Tin Solder Safety
+- Section 6.3: Grounding and Lightning Protection
+  - RF Grounding vs. Electrical Grounding
+  - Ground Loops
+  - Lightning Arrestors
+  - RF Burns and Prevention
+  - Resonant Ground Connections
+- Section 6.4: Tower and Antenna Safety
+  - Safety Harnesses
+  - Climbing Best Practices
+  - Electrical Safety Near Towers
+- Section 6.5: RF Exposure
+  - Biological Effects of RF Energy
+  - Exposure Evaluation Methods
+  - Time Averaging
+  - Duty Cycle Considerations
+  - Compliance with FCC Regulations
+  - RF "Hot Spots"
+
+### Chapter 7: Setting Up Your HF Station
+- Section 7.1: Getting Started with HF Reception
+  - Receiver Controls and Features
+  - Noise Reduction Techniques
+  - Notch Filters and Noise Blankers
+  - Antenna Tuners
+  - S-Meters and Signal Reporting
+- Section 7.2: Transmitting on HF
+  - SSB Operating Techniques
+  - Dual-VFO Operation
+  - Speech Processing
+  - CW Reception and Transmission
+  - Electronic Keyers
+- Section 7.3: Power Amplifiers and Measurement
+  - Amplifier Tuning Procedures
+  - Load and Coupling Controls
+  - ALC and Linearity
+  - Amplifier Efficiency
+  - Neutralization
+  - Time Delay Sequencing
+- Section 7.4: Digital Mode Station Setup
+  - AFSK Considerations
+  - Waterfall Display Reading
+  - FT8 and Other Digital Mode Requirements
+  - ALC Settings for Digital Modes
+  - RTTY Setup
+- Section 7.5: Test Equipment and Measurement
+  - Oscilloscopes
+  - Signal Analysis
+  - Waveform Checking
+  - Voltage and Power Measurement
+  - Antenna Analysis
+
+### Chapter 8: Operating Techniques and Procedures
+- Section 8.1: Getting Started on HF
+  - Sideband Conventions
+  - Advantages of SSB
+  - Band Plans and Courtesy
+  - Frequency Selection
+- Section 8.2: Voice Operating Techniques
+  - Breaking Into Contacts
+  - VOX Operation
+  - ALC Setting
+  - Signal Reports and S-Units
+  - Frequency Spacing
+  - Avoiding Interference
+- Section 8.3: CW Operating Practices
+  - Full Break-In (QSK)
+  - Zero-Beat Technique
+  - CW Abbreviations and Q-Signals
+  - CW Message Formatting
+  - Speed Considerations
+- Section 8.4: DX and Contest Operating
+  - CQ DX Conventions
+  - Long Path Operation
+  - Phonetic Alphabet
+  - Contest Rules and Procedures
+  - QRP Operation
+  - Frequency Selection Near Band Edges
+- Section 8.5: Digital Mode Procedures
+  - RTTY Operation
+  - FT8 and Other Mode Conventions
+  - VARA and PACTOR
+  - Digital Mode Frequencies
+  - Establishing Digital Contacts
+- Section 8.6: Emergency Communication
+  - Distress Calls
+  - RACES Operations
+  - Net Operations
+  - Volunteer Monitoring
+  - Station Logs
+  - Winlink and AREDN Networks
+  - Digital Messaging Systems
+
+### Chapter 9: Rules and Regulations
+- Section 9.1: General Class Frequency Privileges
+  - Band Segments and Restrictions
+  - Phone, Image, and CW Privileges
+  - Channel-Based Operations
+  - Power Limits by Band
+  - 60-Meter Band Requirements
+- Section 9.2: Secondary Allocations and Interference
+  - Secondary User Obligations
+  - Avoiding Interference
+  - Beacon Frequencies
+  - Automatic Control Restrictions
+- Section 9.3: Digital Communications Rules
+  - New Protocol Requirements
+  - Permitted and Prohibited Transmissions
+  - Abbreviations and Procedural Signals
+  - Spread Spectrum Requirements
+- Section 9.4: Antenna and Station Regulations
+  - Height Restrictions
+  - Local Government Regulations
+  - Beacons and Automatic Operation
+  - "Good Engineering and Amateur Practice"
+- Section 9.5: International Operations
+  - Third-Party Communications
+  - Countries with Third-Party Agreements
+  - Remote Operation Regulations
+  - International Region Considerations
+- Section 9.6: Licensing and Examinations
+  - Volunteer Examiners
+  - Examination Requirements
+  - License Credit and Renewal
+  - Certificate of Successful Completion of Examination
+  - Station Identification with Pending Upgrades
