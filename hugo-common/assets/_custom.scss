@@ -113,7 +113,7 @@ a.back-btn {
 }
 
 div.study-prompt {
-  display: flex; align-items: center; justify-content: space-around;
+  display: flex; flex-wrap: wrap; align-items: center; justify-content: space-around;
   // margin: 1rem 0;
   > * {
     text-align: center;
@@ -321,6 +321,9 @@ div.qrcode {
 }
 .img-full {
   width: 100%;
+}
+.img-portrait {
+  max-height: 50vh;
 }
 .img-pgcap {
   width: 50%;
