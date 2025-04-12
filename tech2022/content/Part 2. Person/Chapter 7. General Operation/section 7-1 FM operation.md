@@ -12,6 +12,9 @@ Alright, new hams, welcome to the world of FM (Frequency Modulation)—the bread
 
 #### Why FM?
 
+![FM HT Antenna](../../../images/illus/ht-signalstick.svg)
+{.img-xsmall .float-right}
+
 FM is the go-to mode for most local communications, especially on VHF and UHF bands. While AM (Amplitude Modulation) gets all jittery when there's electrical interference, FM keeps its cool, delivering clear audio even in urban jungles full of electronic noise.
 
 *A disadvantage of FM compared to single sideband is that only one signal can be received at a time*, even when two signals are on the same frequency. {{< link id="T8A12" >}} This is due to the "capture effect" we'll discuss shortly.

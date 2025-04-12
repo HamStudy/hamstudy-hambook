@@ -12,9 +12,14 @@ Alright, let's talk about repeaters - the range-extending marvels of the ham rad
 
 > **Key Information:** A *repeater station simultaneously retransmits the signal of another amateur station on a different channel (frequency)*. This type of amateur station is formally known as a *repeater station*. {{< link id="T1F09" >}}
 
+![Illustration showing two operators on either side of a mountain talking via a repeater on the mountaintop](../../../images/repeater-illustration.svg)
+{.img-med .float-right}
+
 Imagine a radio relay station perched high up on a hill or tall building. It listens on one frequency and simultaneously retransmits what it hears on another. This extends your range way beyond what your little handheld or mobile rig could do on its own.
 
 Now, only one signal can usefully exist on a given frequency at once, so the repeater can't talk on the same frequency you are talking on. Instead, when you transmit to a repeater, you're actually sending on one frequency (the input), and listening on another (the output). Don't worry, your radio will handle this automatically if you've set it up correctly.
+
+<div class="clear"></div>
 
 #### Repeater Offsets
 

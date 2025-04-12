@@ -6,6 +6,9 @@ questions: [ "T1F03", "T2A06", "T1F04", "T1F05", "T1A03", "T1F06", "T1F02", "T1D
 
 ### Section 8.5: Station Identification
 
+![Illustation of an ID badge with the call sign NT3ST and picture of an HT](../../../images/idbadge.svg)
+{.img-xsmall .float-right}
+
 Alright, fellow hams, let's talk about one of the most fundamental rules in amateur radio: station identification. It's like signing your name, but over the airwaves!
 
 #### When to Identify
