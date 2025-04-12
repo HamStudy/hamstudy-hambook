@@ -1,0 +1,65 @@
+{{- /* 
+  study-prompt.html - A Hugo partial to create a study prompt with QR code
+  
+  Parameters:
+    - questions: Array of question IDs (strings)
+    - groups: Array of group IDs (strings)
+*/ -}}
+
+{{- /* Accept parameters */ -}}
+{{- $questions := .questions -}}
+{{- $groups := .groups -}}
+{{- $type := .type | default "section" -}}
+
+{{- /* Site parameters */ -}}
+{{- $images := .Site.Params.deskImages -}}
+{{- $hsBaseURL := .Site.Params.hsBaseURL -}}
+{{- $qrBaseURL := .Site.Params.qrBaseURL -}}
+
+{{- /* Process arrays into comma-delimited strings */ -}}
+{{- $joinedIDs := delimit $questions "," -}}
+{{- $joinedGroups := delimit $groups "," -}}
+
+{{- /* Build URLs */ -}}
+{{- $hsURL := printf "%s%s&groups=%s" $hsBaseURL $joinedIDs $joinedGroups -}}
+{{- $hsTextUrl := printf "%s?%s" $qrBaseURL (querify "type" "string" "link" $hsURL) -}}
+{{- $qrURLSvg := printf "%s?%s" $qrBaseURL (querify "type" "svg" "link" $hsURL) -}}
+
+{{- /* Get resources */ -}}
+{{- $hsShortUrl := resources.GetRemote $hsTextUrl -}}
+{{- $svgResource := resources.GetRemote $qrURLSvg -}}
+
+{{- /* Create unique filename based on content hash */ -}}
+{{- $svgHash := strings.Substr (sha1 $svgResource.Content) 0 8 -}}
+{{- $svgSaved := $svgResource.Content | resources.FromString (printf "codes/qr_%s.svg" $svgHash) -}}
+
+{{- /* if type is "chapter" then chaptreview-text.svg else qreview-text.svg */ -}}
+
+{{- $reviewImg := "qreview-text.svg" -}}
+{{- if eq $type "chapter" -}}
+  {{- $reviewImg = "chaptreview-text.svg" -}}
+{{- end -}}
+{{- $reviewImgPath := printf "svg/%s" $reviewImg -}}
+
+{{- /* Render the study prompt */ -}}
+
+<div class="study-prompt {{ if eq $type "chapter" -}}chapter{{- else -}}section{{- end -}}-end">
+  {{ $random := index $images (int (math.Floor (mul (math.Rand) (len $images)))) }}
+  <div class="review-img">
+    <img src="{{ $random | relURL }}" alt="Person studying at desk" />
+    <img src="{{ $reviewImgPath | relURL }}" alt="Question Review" />
+  </div>
+  <div class="label" style="display: flex !important; flex-direction: row; justify-content: right; gap: 1rem; align-items: center;">
+    <img src="{{ "svg/phone2_hs_a.svg" | relURL }}" class="hsp" alt="HamStudy phone icon" />
+    <div>
+      <a href="{{ $hsShortUrl.Content }}">
+        Open in<br />HamStudy
+      </a>
+    </div>
+    <div class="img">
+      <a href="{{ $hsShortUrl.Content }}" target="hamstudy">
+        <img src="{{ $svgSaved.RelPermalink }}" alt="QR Code to study on HamStudy.org" />
+      </a>
+    </div>
+  </div>
+</div>

@@ -1,82 +1,21 @@
-
 {{ partial "docs/prev-next" (dict "context" . "padding" "both") }}
 
 {{- if .Params.questions -}}
-  {{- $ids := .Params.questions -}}
-  {{- $joinedIDs := delimit $ids "," -}}
-  {{- $questionsData := .Site.Data.questions.questions -}}
-  {{- $shownFigures := dict -}}
-  {{- $hsBaseURL := .Site.Params.hsBaseURL -}}
-  {{- $qrBaseURL := .Site.Params.qrBaseURL -}}
-  {{- $bookSection := .Params.section -}}
-  {{- $ids := .Params.questions -}}
-  {{- $joinedIDs := delimit $ids "," -}}
-  {{- $hsURL := printf "%s%s&groups=%s" $hsBaseURL $joinedIDs $bookSection -}}
-  {{- $qrURL := printf "%s?%s" $qrBaseURL (querify "link" $hsURL) -}}
   <div class="questions-list markdown">
+    <!-- Use study-prompt partial -->
+    {{ partial "study-prompt" (dict 
+      "questions" .Params.questions
+      "groups" (slice .Params.section)
+      "Site" .Site
+    ) }}
 
-    <div class="study-prompt">
-      <h4 class="footer-text">Question Review</h4>
-      <div class="markdown text-center web-only">
-        <a href="{{ $hsURL }}" class="book-btn" target="hamstudy">
-          Study this section with HamStudy
-        </a>
-      </div>
-      <div class="qrcode">
-        <div class="img ml-1">
-            <img class="hsa" src="{{ "images/hamstudy_a.svg" | relURL }}" alt="HamStudy Antenna Icon" />
-        </div>
-        <div class="label">
-            Study this section with HamStudy
-        </div>
-        <div class="img"><a
-            href="{{ $hsURL }}" target="hamstudy"
-            ><img src="{{ $qrURL }}" alt="QR Code to study on HamStudy.org"
-            ></a
-        ></div>
-      </div>
+    <!-- Use showQuestions partial -->
+    {{ partial "showQuestions" (dict 
+      "questions" .Params.questions
+      "page" .
+      "Site" .Site
+    ) }}
   </div>
-
-      {{- $page := . }}
-      {{- range .Params.questions -}}
-          {{- $questionID := . -}}
-          {{- $question := index $questionsData $questionID -}}
-          {{- if $question -}}
-              {{- $imagePath := printf "figures/%s" $question.image -}}
-              {{- $imgId := replaceRE "\\..*$" "" $question.image -}}
-              {{- if and $question.image (not (index $shownFigures $question.image)) -}}
-                  <div class="question-figure figure-{{ $imgId }}">
-                      <img src="{{ $imagePath | relURL }}" alt="Figure for {{ $questionID }}" class="q-figure" />
-                  </div>
-                  {{- $shownFigures = $shownFigures | merge (dict $question.image true) -}}
-              {{- end -}}
-                <div class="question-item">
-                    <strong>
-                        {{- if strings.Contains $page.RawContent (printf "\"%s\"" $questionID) -}}
-                        <span class="q-id"><a href="#link-{{ $questionID }}" class="question-link">{{ $questionID }}</a>:</span>
-                        {{- else -}}
-                        <span class="q-id">{{ $questionID }}:</span>
-                        {{- end -}}
-                        <span class="q-text">{{ $question.text }}</span>
-                    </strong>
-                    {{- $hasAllTheseChoices := $question.allCorrect -}}
-                    <ul class="answers-list{{ if $hasAllTheseChoices }} has-all-choices{{ end }}">
-                        {{- range $question.answers -}}
-                            {{- if or $hasAllTheseChoices .correct -}}
-                            <li class="answer-item{{ if .correct }} correct-answer{{ end }}">
-                                {{- if .correct -}}
-                                    <strong><img src="{{ "svg/arrow-right.svg" | relURL }}" alt="→" class="icon" /></strong>
-                                {{- else -}}
-                                    <strong>{{ .letter }}:</strong>
-                                {{- end -}}
-                                {{ .text }}
-                            </li>
-                            {{- end -}}
-                        {{- end -}}
-                    </ul>
-                </div>
-          {{- end -}}
-      {{- end -}}
-  </div>
+  
   {{ partial "docs/prev-next" (dict "context" . "padding" "top") }}
 {{- end -}}

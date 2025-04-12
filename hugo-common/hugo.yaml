@@ -18,6 +18,26 @@ params:
   figurePath: "/figures/%s"
   linktrim: ""
   BookServiceWorker: false # enable in prod only
+  deskImages:
+  - svg/boy3-desk.svg
+  - svg/boy2-desk.svg
+  - svg/jessica-desk.svg
+  - svg/ben-desk.svg
+  - svg/girl6-desk.svg
+  - svg/richard-desk.svg
+  - svg/girl1-desk.svg
+  - svg/cpuchip-desk.svg
+  - svg/boy4-desk.svg
+  - svg/girl5-desk.svg
+  - svg/girl4-desk.svg
+  - svg/dave-desk.svg
+  - svg/man1-desk.svg
+  - svg/boy1-desk.svg
+  - svg/steve-desk.svg
+  - svg/girl2-desk.svg
+  - svg/girl3-desk.svg
+  - svg/caleb-desk.svg
+  - svg/ray-desk.svg
 
 markup:
   tableOfContents:

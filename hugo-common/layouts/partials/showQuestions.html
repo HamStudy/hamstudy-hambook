@@ -1,0 +1,62 @@
+{{- /* 
+  questions-list.html - A Hugo partial to display a list of questions with answers
+  
+  Parameters:
+    - questions: Array of question IDs (strings)
+    - page: The current page context
+*/ -}}
+
+{{- /* Accept parameters */ -}}
+{{- $questions := .questions -}}
+{{- $page := .page -}}
+
+{{- /* Site data */ -}}
+{{- $questionsData := .Site.Data.questions.questions -}}
+
+{{- /* Initialize shown figures tracking */ -}}
+{{- $shownFigures := dict -}}
+
+<div class="questions-list markdown">
+  <div class="spacer-1"></div>
+  {{- range $questions -}}
+    {{- $questionID := . -}}
+    {{- $question := index $questionsData $questionID -}}
+    {{- if $question -}}
+      {{- $hasAllTheseChoices := $question.allCorrect -}}
+      {{- $imagePath := printf "figures/%s" $question.image -}}
+      {{- $imgId := replaceRE "\\..*$" "" $question.image -}}
+      {{- if and $question.image (not (index $shownFigures $question.image)) -}}
+        <div class="question-figure figure-{{ $imgId }}">
+          <img src="{{ $imagePath | relURL }}" alt="Figure for {{ $questionID }}" class="q-figure"
+            style="filter: var(--icon-filter); max-width: 500px; max-height: 400px;" />
+        </div>
+        {{- $shownFigures = $shownFigures | merge (dict $question.image true) -}}
+      {{- end -}}
+      <div class="question-item">
+        <strong>
+          {{- if strings.Contains $page.RawContent (printf "\"%s\"" $questionID) -}}
+            <span class="q-id"><a href="#link-{{ $questionID }}" class="question-link">{{ $questionID }}</a>:</span>
+          {{- else -}}
+            <span class="q-id">{{ $questionID }}:</span>
+          {{- end -}}
+          <span class="q-text">{{ $question.text }}</span>
+        </strong>
+        {{- $hasAllTheseChoices := $question.allCorrect -}}
+        <ul class="answers-list{{ if $hasAllTheseChoices }} has-all-choices{{ end }}">
+          {{- range $question.answers -}}
+            {{- if or $hasAllTheseChoices .correct -}}
+              <li class="answer-item{{ if .correct }} correct-answer{{ end }}">
+                {{- if .correct -}}
+                  <strong><img src="{{ "svg/arrow-right.svg" | relURL }}" alt="→" class="icon" /></strong>
+                {{- else -}}
+                  <strong>{{ .letter }}:</strong>
+                {{- end -}}
+                {{ .text }}
+              </li>
+            {{- end -}}
+          {{- end -}}
+        </ul>
+      </div>
+    {{- end -}}
+  {{- end -}}
+</div>
