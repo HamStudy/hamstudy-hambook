@@ -19,6 +19,9 @@ The bands available to radio amateurs are carefully allocated through internatio
 
 #### HF Bands (3-30 MHz)
 
+![HF illustration showing ionospheric propagation](../../../images/illus/hf-illus.svg)
+{.img-pgcap .float-right}
+
 As a Technician, you'll only have limited access to HF, primarily on the 10-meter band (28 MHz), but understanding how these frequencies behave is still important.
 
 The most distinctive characteristic of HF bands is their ability to provide long-distance communications without infrastructure. This happens because HF waves can be refracted by the ionosphere, allowing them to return to Earth hundreds or thousands of miles away from the transmitter.
@@ -29,6 +32,9 @@ Beacon stations are particularly important on HF bands where conditions constant
 
 #### VHF Bands (30-300 MHz)
 
+![VHF illustration showing line of sight propagation](../../../images/illus/vhf-illus.svg)
+{.img-pgcap .float-right}
+
 The VHF spectrum represents a transition zone between the globally-reaching HF bands and the strictly local UHF bands.
 
 VHF bands like 6 meters (50-54 MHz) occasionally experience enhanced propagation that can provide surprising long-distance contacts, while the popular 2-meter band (144-148 MHz) provides reliable regional communications that are less affected by changing ionospheric conditions.
@@ -38,6 +44,9 @@ These bands are ideal for consistent regional communications within a range of r
 For most new Technician class operators, the 2-meter band will likely become your primary operating band. Its reliable characteristics, abundance of repeaters, and wide availability of affordable equipment make it the perfect entry point for new hams. While we'll explore the operational aspects of this band in Chapter 7, it's worth noting now that this band forms the backbone of local amateur radio activity in most areas.
 
 #### UHF Bands (300-3000 MHz)
+
+![UHF illustration showing short range line of sight propagation between two HT radios with 446.000 on the displays](../../../images/illus/uhf-illus.svg)
+{.img-pgcap .float-right}
 
 The UHF bands represent a different paradigm in radio communications. While the inability to use ionospheric propagation might seem like a limitation, it actually provides several advantages:
 - More predictable coverage areas
@@ -53,17 +62,17 @@ Along with the 2-meter band, the 70-centimeter band (420-450 MHz) will be one of
 
 The "best" band depends entirely on what you're trying to accomplish:
 
-**When Distance Matters**: 
+##### **When Distance Matters**: 
 - HF bands can provide global reach when conditions are favorable
 - Lower VHF bands (6 meters) occasionally offer surprising long-distance openings
 - Upper VHF and UHF bands require infrastructure like repeaters for distance
 
-**When Reliability Matters**:
+##### When Reliability Matters**:
 - UHF and VHF provide more consistent day-to-day performance
 - Less affected by solar conditions and time of day
 - More predictable coverage areas
 
-**When Equipment Size Matters**:
+##### When Equipment Size Matters**:
 - Higher frequencies allow for smaller antennas
 - UHF mobile and handheld antennas can be very compact
 - HF operation typically requires larger antenna systems

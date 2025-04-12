@@ -142,6 +142,9 @@ I &= 10 \text{ amperes}\\
 
 #### Why Does This Matter?
 
+![Illustration of a boy shrugging with a questioning look on his face, a question mark hovers above](../../../images/illus/boyquestion.svg)
+{.img-pgcap .float-right}
+
 You might be wondering, *"Why should I care about all this?"* Well, whenever you work with electronics, you will use these laws all the time. Whether you're **figuring out how much power your transmitter is using**, **picking the right resistor for a circuit**, or **troubleshooting why something isn't working**, Ohm's Law and the Power Law are your best friends.
 
 - **Voltage Drop**: Remember voltage drop from Section 1.2? Ohm's Law gives us the formula: $\text{Voltage Drop} = I \times R$. This explains why higher voltage systems (like 24V vs 12V) experience less impact from the same drop - the percentage of lost voltage is smaller. This is also why mobile installations use thick, short power cables - to minimize R and therefore minimize the drop.

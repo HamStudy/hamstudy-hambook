@@ -10,6 +10,9 @@ To understand how our radios work, we need to familiarize ourselves with some ba
 
 #### Voltage, Current, and Resistance
 
+![Remake of a classic illustration showing three figures – voltage is pushing current, Resistance is squeezing a pipe to resist current flowing, current is being pushed through the narrow pipe](../../../images/illus/ohmslawpigs.svg)
+{.img-pgcap .float-right}
+
 While we often compare electricity to water flowing through pipes, this analogy isn't perfect. Let's look at what's really happening:
 
 - **Voltage** ($E$ or $V$) is like electrical "pressure" - *it's the force that causes electron flow in a circuit*, and we measure it in **volts (V)**.  {{< link id="T5A05" >}}

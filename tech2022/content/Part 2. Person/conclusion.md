@@ -1,3 +1,7 @@
+---
+slug: conclusion
+pagebreak: true
+---
 
 ## Conclusion: Your Journey into Amateur Radio
 
@@ -78,3 +82,6 @@ Don't be discouraged if you don't get a perfect score on practice exams. The jou
 Lastly, don't forget to relax and have confidence in your preparation. You've put in the work, and now it's time to show what you've learned. Good luck, and we look forward to welcoming you to the amateur radio community!
 
 We'll see you on the airwaves. 73!
+
+![Illustration of the HamStudy development team](../../../images/teamcartoon.svg)
+{.img-full .img-centered .img-portrait}
