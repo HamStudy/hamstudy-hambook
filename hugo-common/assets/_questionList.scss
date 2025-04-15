@@ -13,6 +13,17 @@ $question-color: #336;
   --section-border: var(--section-color);
 }
 
+@media (prefers-color-scheme: dark) {
+  :root {
+    --question-color: #ccc;
+    --question-link-color: #{color.scale($question-color, $lightness: 60%)};
+    --correct-answer-color: #{color.scale(#063, $lightness: 30%)};
+    --section-color: #{color.scale(#633, $lightness: 30%)};
+    --subel-color: #{color.scale(#633, $lightness: 60%)};
+    --section-border: var(--section-color);
+  }
+}
+
 // Common styles for question figures
 @mixin question-figure-base {
   text-align: center;

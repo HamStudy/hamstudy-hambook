@@ -13,6 +13,7 @@ Amateur radio is more than just talking into a microphone—it's a remarkable bl
 
 The chapters ahead will break down complex concepts into understandable pieces:
 - Electrical Principles: Understanding how electrons flow and power communication
+- Electrical Components: Exploring the building blocks of radio circuits
 - Radio Wave Principles: Exploring how electromagnetic waves travel and interact
 - Antennas: The critical interface that turns electrical signals into radio signals
 

@@ -100,7 +100,7 @@ a.back-btn {
 
 .book-brand a {
   flex-direction: column;
-  img.book-icon {
+  img.book-cover {
     width: auto;
     height: 13rem;
     max-width: 100%;
@@ -296,7 +296,7 @@ div.qrcode {
   --dark-question-bg: #111111; /* Background for question item in dark mode */
   --dark-answer-bg: #333333; /* Background for answer item in dark mode */
   --dark-correct-answer-border: #00aa00; /* Lighter green border for correct answer */
-  --dark-question-distractor-color: #333333; /* Color for distractors */
+  --dark-question-distractor-color: #888888; /* Color for distractors */
   --dark-border: #111111; /* Border for question item in dark mode */
   --dark-answer-border: #555555; /* Border for answer item in dark mode */
 }

@@ -92,6 +92,44 @@ Some real-world examples:
 - A decrease from **12W to 3W** is a **-6 dB loss**. {{< link id="T5B10" >}}
 - Going from **20W to 200W**? That's a **+10 dB boost**.
 
+#### AC and DC
+
+Electricity comes in two types:
+
+- **Direct Current (DC)** flows *in one direction*, like from a **battery** or power supply. Most radios run on **12V DC**.
+- **Alternating Current (AC)** *constantly reverses direction, alternating between positive and negative directions*, like **household power**. {{< link id="T5A09" >}}
+
+Most ham gear runs on **DC power**, but **radio signals themselves are AC**—they alternate at **radio frequencies**. Radio frequency (RF) signals are simply AC signals at very high frequencies used for wireless communication.
+
+*Resistance opposes all types of current flow*, including direct current, alternating current, and RF current. {{< link id="T5A11" >}}
+
+#### Impedance
+
+> **Key Information:** *Impedance is the opposition to AC current flow* {{< link id="T5C12" >}} and, like resistance, it's measured in *ohms ($\Omega$)*. {{< link id="T5C05" >}}
+
+In a **DC circuit**, resistance simply opposes the flow of electricity. But in an **AC circuit**, the story gets more complex.
+
+*Capacitance describes the ability to store energy in an electric field* {{< link id="T5C01" >}} and is measured in *farads (F)*. {{< link id="T5C02" >}}
+
+*Inductance describes the ability to store energy in a magnetic field* {{< link id="T5C03" >}} and is measured in *henrys (H)*. {{< link id="T5C04" >}}
+
+In electrical circuits that include capacitors and/or inductors, the effect these components have on alternating current will vary with frequency. This frequency-dependent opposition to current flow is called **reactance**.
+
+- **Inductive reactance** increases as frequency increases
+- **Capacitive reactance** decreases as frequency increases
+
+**Impedance** combines both resistance and reactance, giving us the total opposition to AC current flow in a circuit.
+
+A *resonant circuit consists of an inductor and a capacitor connected either in series (one after another) or parallel (side by side)*. {{< link id="T6D11" >}} At a specific frequency, the inductive and capacitive reactances are equal in magnitude but opposite in effect, effectively canceling each other out. This creates an electrical balance that allows signals at that frequency to pass easily (in series) or be blocked (in parallel). That frequency is called the **resonant frequency**, and this phenomenon is known as **resonance**.
+
+Amateur radio equipment is typically designed to work with specific impedance values. For example, most transceivers are designed to connect to a **50-ohm** system. When impedances aren't properly matched:
+
+- Power transfer becomes less efficient
+- Some energy may be reflected back toward the source
+- Equipment may need to reduce power output to protect itself
+
+These principles apply to many parts of your radio system, including antennas, which exhibit properties of resistance, capacitance, and inductance.
+
 #### Metric Prefixes and Electrical Units
 
 In amateur radio, we often deal with very large or very small numbers. Instead of writing out all the zeros, we use **metric prefixes**:
@@ -107,20 +145,22 @@ In amateur radio, we often deal with very large or very small numbers. Instead o
 | mega   | M      | $10^6$     | 1 MHz = 1,000,000 Hz |
 | giga   | G      | $10^9$     | 1 GHz = 1,000,000,000 Hz |
 
+Note: The F (farad) and H (henry) units refer to capacitance and inductance as discussed above, which we'll explore in more detail in Section 2.1.
+
 Here are some common conversions that may appear on the exam:
 
 | Original               | Equivalent             | Question ID |
 |------------------------|------------------------|:-----------:|
-| 1.5 amperes            | 1500 milliamperes      | T5B01       |
-| 1500 kHz               | 1.5 MHz                | T5B02       |
-| 1 kilovolt             | 1000 volts             | T5B03       |
-| 1 microvolt            | 0.000001 volts         | T5B04       |
-| 500 milliwatts         | 0.5 watts              | T5B05       |
-| 3000 milliamperes      | 3 amperes              | T5B06       |
-| 3.525 MHz              | 3525 kHz               | T5B07       |
-| 1,000,000 picofarads   | 1 microfarad           | T5B08       |
-| 28400 kHz              | 28.400 MHz             | T5B12       |
-| 2425 MHz               | 2.425 GHz              | T5B13       |
+| 1.5 amperes            | 1500 milliamperes      | {{< qid >}}T5B01{{< /qid >}}       |
+| 1500 kHz               | 1.5 MHz                | {{< qid >}}T5B02{{< /qid >}}       |
+| 1 kilovolt             | 1000 volts             | {{< qid >}}T5B03{{< /qid >}}       |
+| 1 microvolt            | 0.000001 volts         | {{< qid >}}T5B04{{< /qid >}}       |
+| 500 milliwatts         | 0.5 watts              | {{< qid >}}T5B05{{< /qid >}}       |
+| 3000 milliamperes      | 3 amperes              | {{< qid >}}T5B06{{< /qid >}}       |
+| 3.525 MHz              | 3525 kHz               | {{< qid >}}T5B07{{< /qid >}}       |
+| 1,000,000 picofarads   | 1 microfarad           | {{< qid >}}T5B08{{< /qid >}}       |
+| 28400 kHz              | 28.400 MHz             | {{< qid >}}T5B12{{< /qid >}}       |
+| 2425 MHz               | 2.425 GHz              | {{< qid >}}T5B13{{< /qid >}}       |
 
 All of these conversions are worth memorizing for the exam:
 - *1.5 amperes equals 1500 milliamperes* {{< link id="T5B01" >}}
@@ -133,44 +173,6 @@ All of these conversions are worth memorizing for the exam:
 - *1,000,000 picofarads equals 1 microfarad* {{< link id="T5B08" >}}
 - *28400 kHz equals 28.400 MHz* {{< link id="T5B12" >}}
 - *2425 MHz equals 2.425 GHz* {{< link id="T5B13" >}}
-
-#### AC and DC
-
-Electricity comes in two types:
-
-- **Direct Current (DC)** flows *in one direction*, like from a **battery** or power supply. Most radios run on **12V DC**.
-- **Alternating Current (AC)** *constantly reverses direction, alternating between positive and negative directions*, like **household power**. {{< link id="T5A09" >}}
-
-Most ham gear runs on **DC power**, but **radio signals themselves are AC**—they alternate at **radio frequencies**.
-
-*Resistance opposes all types of current flow*, including direct current, alternating current, and RF current. {{< link id="T5A11" >}}
-
-#### Impedance
-
-> **Key Information:** *Impedance is the opposition to AC current flow* {{< link id="T5C12" >}} and, like resistance, it's measured in *ohms ($\Omega$)*. {{< link id="T5C05" >}}
-
-In a **DC circuit**, resistance simply opposes the flow of electricity. But in an **AC circuit**, the story gets more complex.
-
-*Capacitance describes the ability to store energy in an electric field* {{< link id="T5C01" >}} and is measured in *farads*. {{< link id="T5C02" >}}
-
-*Inductance describes the ability to store energy in a magnetic field* {{< link id="T5C03" >}} and is measured in *henrys*. {{< link id="T5C04" >}}
-
-In electrical circuits that include capacitors and/or inductors, the effect these components have on alternating current will vary with frequency. This frequency-dependent opposition to current flow is called **reactance**.
-
-- **Inductive reactance** increases as frequency increases
-- **Capacitive reactance** decreases as frequency increases
-
-**Impedance** combines both resistance and reactance, giving us the total opposition to AC current flow in a circuit.
-
-A *resonant circuit consists of an inductor and a capacitor in series or parallel*. {{< link id="T6D11" >}} At resonance, the inductive and capacitive reactances are equal in magnitude but opposite in effect, creating interesting and useful circuit behaviors.
-
-Amateur radio equipment is typically designed to work with specific impedance values. For example, most transceivers are designed to connect to a **50-ohm** system. When impedances aren't properly matched:
-
-- Power transfer becomes less efficient
-- Some energy may be reflected back toward the source
-- Equipment may need to reduce power output to protect itself
-
-These principles apply to many parts of your radio system, including antennas, which exhibit properties of resistance, capacitance, and inductance.
 
 ---
 
