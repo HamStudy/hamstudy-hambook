@@ -38,6 +38,7 @@
 
   --block-font-family: roboto, sans-serif;
   --header-font-family: roboto, sans-serif;
+  --questionid-font-family: roboto, sans-serif;
 }
 
 p, div, li {
@@ -52,6 +53,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 h4.subheading {
   margin-top: -0.67rem;
+}
+
+.qid, .q-id {
+  font-family: var(--questionid-font-family) !important;
+  font-weight: 700;
 }
 
 .hb-cover {

@@ -16,6 +16,9 @@ First off, let's meet our cast of characters:
 > - *Rechargeable battery types include: nickel-metal hydride, lithium-ion, lead-acid, and nickel-cadmium*{{< link id="T6A10" >}}
 > - *Carbon-zinc batteries are not rechargeable*{{< link id="T6A11" >}}
 
+![Illustration of several different kinds of batteries sitting side by side](../../../images/illus/batteries.svg)
+{.img-full .img-centered}
+
 1. **Lead-Acid Batteries**: The old reliable. You'll find these in cars and as backup power for your shack. They're like the dependable workhorse of the battery world. *They're rechargeable and can deliver high currents.*
    
 2. **Lithium-Ion (Li-ion)**: The star of modern handheld radios. They pack a punch in a small package, but they can be a bit temperamental. *These are rechargeable and have a high energy density.*

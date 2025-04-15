@@ -8,6 +8,9 @@ pagebreak: true
 
 Welcome to your Amateur Radio rulebook! While it might not sound as exciting as making DX contacts or experimenting with antennas, understanding the rules and regulations is crucial for being a responsible and legal operator – not to mention avoiding ticking off more experienced hams!
 
+![amusing illustration showing someone in a courtroom in front of a radio with "rules and regulations" on the wall](../../../images/illus/rules-and-regs.svg)
+{.img-pgcap .float-right}
+
 In this chapter, we'll navigate the world of FCC regulations that govern amateur radio in the United States. We'll start by explaining the structure of amateur radio licensing, including the different license classes and the privileges they offer.
 
 You'll learn about frequency allocations - which parts of the radio spectrum are available for amateur use and what you're allowed to do in each band. We'll cover important concepts like primary and secondary allocations, and how to share bands with other services.

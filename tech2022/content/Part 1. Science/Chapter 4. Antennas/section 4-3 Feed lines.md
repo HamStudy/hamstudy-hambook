@@ -53,6 +53,9 @@ Even the best coax can run into problems. Here are some things to watch out for:
 
 > **Key Information:** *Ladder line has **way less loss** than coax but must be **kept away from metal** or it won't work right.*
 
+![illustration of coax and ladder line side by side; the coax is labeled "RG-58/U"](../../../images/illus/feedline.svg)
+{.img-xsmall .float-right}
+
 Ladder line is like the sports car of feed lines—super efficient, but kind of picky. It has *way* lower loss than coax, especially at HF, but it has one big catch: **you have to keep it away from metal** or it starts picking up noise and acting weird. It's a fantastic choice if you're using a balanced antenna and have room to route it properly.
 
 #### Special Types of Coax  

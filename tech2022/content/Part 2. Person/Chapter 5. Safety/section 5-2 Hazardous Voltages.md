@@ -10,6 +10,9 @@ questions: []
 
 #### What Are Hazardous Voltages?
 
+![Hazardous voltage symbol](../../../images/illus/hazardvolts.svg)
+{.img-pgcap .float-right}
+
 In the ham radio world, we generally consider anything above 30 volts to be potentially hazardous. That might seem low, but remember, it doesn't take much to give you a nasty shock or worse.
 
 #### Where Might You Encounter Hazardous Voltages?

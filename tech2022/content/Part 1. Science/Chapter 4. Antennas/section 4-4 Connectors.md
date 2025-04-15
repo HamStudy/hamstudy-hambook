@@ -37,7 +37,7 @@ Think of BNC as the quick-change artist of connectors. Instead of screwing on li
 Many hams use **BNC adapters** on their radios so they can easily switch between antennas. It’s especially useful if you like to swap between a rubber duck, a whip, and a mobile antenna without wearing out your radio’s built-in connector.  
 
 ![BNC Male and Adapters](../../../images/bncadapters.jpg)
-{.img-full .img-centered} 
+{.img-med .img-centered} 
 
 #### PL-259/SO-239 (UHF Connector)  
 

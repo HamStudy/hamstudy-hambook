@@ -8,6 +8,10 @@ questions: [ "T9A03", "T3A09", "T3A04", "T3A03" ]
 
 Imagine you're trying to slip a letter through a mail slot. If the slot is horizontal, you'll turn your letter sideways. If it's vertical, you'll orient your letter up-and-down. Antenna polarization works in a similar way—it's all about matching the orientation of your radio waves to get the best results.
 
+![Illustration; top: boy holding a handheld radio with the antenna extending vertically. bottom: boy holding a handheld radio turned on its side with the antenna extending horizontally.](../../../images/illus/polarization.svg)
+{.img-pgcap .float-right}
+
+
 #### Types of Polarization
 
 Here's the deal with polarization - it's really just about which way your antenna is oriented and how that affects your radio waves. You've got three main flavors:
@@ -17,6 +21,8 @@ Picture an antenna standing straight up and down, like a flagpole. The radio wav
 
 **Horizontal Polarization**: 
 Now imagine that flagpole laid down flat, parallel to the ground. You've got horizontal polarization - the waves vibrate side to side as they move. This is what you'll often use for those long-distance VHF/UHF contacts.
+
+<div class="clear"></div>
 
 > **Key Information:**
 > - A dipole *oriented parallel to Earth's surface is a horizontally polarized antenna* {{< link id="T9A03" >}}

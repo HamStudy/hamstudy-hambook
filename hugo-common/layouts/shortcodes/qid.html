@@ -1,0 +1,6 @@
+{{ $tag := .Get "tag" | default "span" -}}
+{{ if .Inner -}}
+{{ printf "<%s class=\"qid\">" $tag | safeHTML -}}
+  {{ .Inner | markdownify -}}
+{{ printf "</%s>" $tag | safeHTML -}}
+{{- end }}

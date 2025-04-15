@@ -160,21 +160,21 @@ The more you **practice using these**, the easier they become. Soon enough, you'
 This is a *complete* summary of all of the questions you could encounter on the exam which use these formulas.
 | **Question**                                       | **Equation**                    | **Answer** |
 |----------------------------------------------------|--------------------------------|------------|
-| **T5C08**: Power formula for a DC circuit          | $P = E \times I$                |            |
-| **T5C09**: Power from 13.8 volts and 10 amperes    | $P = 13.8V \times 10A$          | $P = 138W$ |
-| **T5C10**: Power from 12 volts and 2.5 amperes     | $P = 12V \times 2.5A$           | $P = 30W$  |
-| **T5C11**: Current required for 120 watts at 12V   | $I = \frac{120W}{12V}$         | $I = 10A$  |
-| **T5D01**: Formula for current in a circuit        | $I = \frac{E}{R}$              |            |
-| **T5D02**: Formula for voltage in a circuit        | $E = I \times R$                |            |
-| **T5D03**: Formula for resistance in a circuit     | $R = \frac{E}{I}$              |            |
-| **T5D04**: Resistance with 90 volts and 3 amperes  | $R = \frac{90V}{3A}$           | $R = 30\Omega$ {{< link id="T5D04" >}} |
-| **T5D05**: Resistance with 12 volts and 1.5 amperes| $R = \frac{12V}{1.5A}$         | $R = 8\Omega$ {{< link id="T5D05" >}} |
-| **T5D06**: Resistance with 12 volts and 4 amperes  | $R = \frac{12V}{4A}$           | $R = 3\Omega$  |
-| **T5D07**: Current with 120 volts and 80 ohms      | $I = \frac{120V}{80\Omega}$    | $I = 1.5A$ {{< link id="T5D07" >}} |
-| **T5D08**: Current with 200 volts and 100 ohms     | $I = \frac{200V}{100\Omega}$   | $I = 2A$ {{< link id="T5D08" >}} |
-| **T5D09**: Current with 240 volts and 24 ohms      | $I = \frac{240V}{24\Omega}$    | $I = 10A$ {{< link id="T5D09" >}} |
-| **T5D10**: Voltage across 2 ohms and 0.5 amperes   | $E = 0.5A \times 2\Omega$       | $E = 1V$ {{< link id="T5D10" >}} |
-| **T5D11**: Voltage across 10 ohms and 1 ampere     | $E = 1A \times 10\Omega$        | $E = 10V$ {{< link id="T5D11" >}} |
-| **T5D12**: Voltage across 10 ohms and 2 amperes    | $E = 2A \times 10\Omega$        | $E = 20V$  |
+| {{< qid >}}T5C08{{< /qid >}}: Power formula for a DC circuit          | $P = E \times I$                |            |
+| {{< qid >}}T5C09{{< /qid >}}: Power from 13.8 volts and 10 amperes    | $P = 13.8V \times 10A$          | $P = 138W$ |
+| {{< qid >}}T5C10{{< /qid >}}: Power from 12 volts and 2.5 amperes     | $P = 12V \times 2.5A$           | $P = 30W$  |
+| {{< qid >}}T5C11{{< /qid >}}: Current required for 120 watts at 12V   | $I = \frac{120W}{12V}$         | $I = 10A$  |
+| {{< qid >}}T5D01{{< /qid >}}: Formula for current in a circuit        | $I = \frac{E}{R}$              |            |
+| {{< qid >}}T5D02{{< /qid >}}: Formula for voltage in a circuit        | $E = I \times R$                |            |
+| {{< qid >}}T5D03{{< /qid >}}: Formula for resistance in a circuit     | $R = \frac{E}{I}$              |            |
+| {{< qid >}}T5D04{{< /qid >}}: Resistance with 90 volts and 3 amperes  | $R = \frac{90V}{3A}$           | $R = 30\Omega$ {{< link id="T5D04" >}} |
+| {{< qid >}}T5D05{{< /qid >}}: Resistance with 12 volts and 1.5 amperes| $R = \frac{12V}{1.5A}$         | $R = 8\Omega$ {{< link id="T5D05" >}} |
+| {{< qid >}}T5D06{{< /qid >}}: Resistance with 12 volts and 4 amperes  | $R = \frac{12V}{4A}$           | $R = 3\Omega$  |
+| {{< qid >}}T5D07{{< /qid >}}: Current with 120 volts and 80 ohms      | $I = \frac{120V}{80\Omega}$    | $I = 1.5A$ {{< link id="T5D07" >}} |
+| {{< qid >}}T5D08{{< /qid >}}: Current with 200 volts and 100 ohms     | $I = \frac{200V}{100\Omega}$   | $I = 2A$ {{< link id="T5D08" >}} |
+| {{< qid >}}T5D09{{< /qid >}}: Current with 240 volts and 24 ohms      | $I = \frac{240V}{24\Omega}$    | $I = 10A$ {{< link id="T5D09" >}} |
+| {{< qid >}}T5D10{{< /qid >}}: Voltage across 2 ohms and 0.5 amperes   | $E = 0.5A \times 2\Omega$       | $E = 1V$ {{< link id="T5D10" >}} |
+| {{< qid >}}T5D11{{< /qid >}}: Voltage across 10 ohms and 1 ampere     | $E = 1A \times 10\Omega$        | $E = 10V$ {{< link id="T5D11" >}} |
+| {{< qid >}}T5D12{{< /qid >}}: Voltage across 10 ohms and 2 amperes    | $E = 2A \times 10\Omega$        | $E = 20V$  |
 
 <ohms-law-calculator></ohms-law-calculator>
