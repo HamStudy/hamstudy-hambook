@@ -18,8 +18,6 @@ Let's review the key components you'll encounter in circuit diagrams. Pay specia
 
 ##### Basic Components
 
-> **Key Information:** A *resistor controls the flow of current* in a circuit. {{< link id="T6D10" >}}
-
 | **Component** | **Description** | **Symbol**  |
 |---------------|------------------|---|
 | **Resistor** | That familiar zig-zag line represents a component that controls current flow. You'll see these everywhere in circuits. {{< link id="T6C02" >}} | ![Resistor schematic diagram](../../../images/s2-1-resistor.svg) |
@@ -34,7 +32,8 @@ Let's review the key components you'll encounter in circuit diagrams. Pay specia
 
 | **Component** | **Description** | **Symbol** |
 |---------------|-----------------|------------|
-| **Transistor** | These workhorses control current flow and provide amplification. The arrow shows current direction. | ![NPN Transistor Schematic Symbol](../../../images/schem-npn.svg) {{< link id="T6C03" >}} |
+| **Transistor** | These workhorses control current flow and provide amplification. The arrow shows current direction.{{< link id="T6D10" >}} | ![NPN Transistor Schematic Symbol](../../../images/schem-npn.svg) {{< link id="T6C03" >}} |
+| **Diode** | As seen in the Section 2.2, the arrow points towards negative (cathode) | ![Diode diagram with anode / cathode labeled](../../../images/s2-2-diode.svg) |
 | **LED (Light Emitting Diode)** | Like a regular diode but with arrows showing it emits light. | ![LED schematic diagram with anode / cathode labeled](../../../images/s2-2-led.svg) {{< link id="T6C07" >}} |
 {.component-table}
 

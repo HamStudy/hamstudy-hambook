@@ -24,7 +24,7 @@ A diode has two electrodes:
 - *Anode*: The positive connection
 - *Cathode*: The negative connection, marked with a stripe {{< link id="T6B09" >}}
 
-Think of a diode like a one-way street - traffic (electrical current) can only flow in one direction. When current flows through a diode, not all the voltage makes it through - this loss is called the forward voltage drop (remember voltage drop from Section 1.2?). This drop causes the diode to heat up as electrical energy converts to thermal energy. Different types of diodes have different amounts of voltage drop - for instance, Schottky diodes have a lower forward voltage drop than regular silicon diodes.
+Think of a diode like a one-way street—current can only flow in one direction. But even when it’s flowing the right way, a diode doesn’t conduct perfectly. It takes a small amount of voltage just to get current moving; this is called the forward voltage drop (you might remember the concept of voltage drop from Section 1.2). That lost voltage turns into heat as electrical energy becomes thermal energy. Different types of diodes drop different amounts—for example, Schottky diodes typically have a lower forward voltage drop than regular silicon diodes.
 
 One common use of diodes is in a *rectifier*, which changes alternating current (AC) into a varying direct current (DC) signal. {{< link id="T6D01" >}}
 

@@ -1,7 +1,7 @@
 ---
 chapter: "3"
 section: "3.1"
-questions: [ "T5C06", "T5C07", "T5C13", "T3B03", "T3B01", "T3B04", "T3B11", "T3B02", "T3B05", "T3B06", "T3B07"]
+questions: [ "T5C06", "T3B03", "T3B01", "T3B04", "T3B11", "T3B02", "T3B05", "T3B06", "T3B07"]
 ---
 
 ### Section 3.1: Frequency and Wavelength
@@ -19,13 +19,9 @@ Imagine you're watching waves at the beach. Some waves come in quickly, one afte
 
 You've probably heard the term **RF** tossed around, but what does it actually mean? **RF stands for Radio Frequency** – basically, it's a fancy way of saying "radio signals." RF covers all types of radio signals, whether they're used for voice, data, or other forms of wireless communication.  
 
-As we've already mentioned, **radio frequency energy (RF) is a form of alternating current (AC), but at much higher frequencies than household electricity**. Instead of moving electrons back and forth in a wire, like AC in your home, RF travels as electromagnetic waves through space, carrying signals across short and long distances.  
+As we discussed in Chapter 1, **radio frequency energy (RF) is a form of alternating current (AC), but at much higher frequencies than household electricity**. Instead of moving electrons back and forth in a wire, like AC in your home, RF travels as electromagnetic waves through space, carrying signals across short and long distances.  
 
 Whether you're tuning in to your favorite broadcast station, chatting on a repeater, or sending data over a satellite link, you're working with RF. It's the bread and butter of all radio communication, and it's what makes all this cool stuff possible.  
-
-> **Key Information:**
-> * The abbreviation *kHz* stands for "kilohertz" which is a measurement of frequency (1,000 Hz).{{< link id="T5C13" >}}
-> * The abbreviation *MHz* stands for "megahertz" which is a measurement of frequency (1,000,000 Hz).{{< link id="T5C07" >}}
 
 #### The Nature of Radio Waves
 
@@ -103,7 +99,7 @@ That's why we call it the 2-meter band!
 
 #### Resonance and Antenna Design
 
-When an antenna's length matches the wavelength (or a fraction of it) of the radio waves you want to work with, it resonates like a tuning fork. This makes the antenna most efficient at that frequency. 
+When an antenna's length matches the wavelength—or certain specific fractions of it, like a quarter wavelength—it resonates like a tuning fork. This physical matching creates optimal conditions for the antenna to absorb or emit electromagnetic energy at that specific frequency, resulting in much more efficient signal transmission and reception.
 
 For example, a half-wave dipole antenna for the 2-meter band would be about 1 meter long (half of 2.08 meters). We'll explore this more when we discuss antennas!
 

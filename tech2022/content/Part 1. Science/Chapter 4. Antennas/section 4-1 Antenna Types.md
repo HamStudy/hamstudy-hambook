@@ -18,7 +18,6 @@ There are many different types of antennas, each with its own advantages and dis
 
 > **Key Information:** 
 > - *Antenna gain* is the *increase in signal strength in a specified direction compared to a reference antenna* {{< link id="T9A11" >}}
-> - A half-wave dipole radiates its *strongest signal broadside to the antenna* {{< link id="T9A10" >}}
 > - *Shortening an antenna increases its resonant frequency* {{< link id="T9A05" >}}
 
 When we talk about antenna gain, think of it like changing from a regular light bulb to a spotlight - you get a brighter beam in one direction, but less light in others. Gain is typically measured in:

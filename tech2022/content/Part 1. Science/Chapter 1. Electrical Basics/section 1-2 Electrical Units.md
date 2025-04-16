@@ -1,7 +1,7 @@
 ---
 chapter: "1"
 section: "1.2"
-questions: ["T5A05", "T5A01", "T5A03", "T5A04", "T5A12", "T5A06", "T5A10", "T5A02", "T5B09", "T5B11", "T5B10", "T5B01", "T5B02", "T5B03", "T5B04", "T5B05", "T5B06", "T5B07", "T5B08", "T5B12", "T5B13", "T5A09", "T5A11", "T5C12", "T5C05", "T5C01", "T5C02", "T5C03", "T5C04", "T6D11"]
+questions: ["T5A05", "T5A01", "T5A03", "T5A04", "T5A12", "T5A06", "T5A10", "T5A02", "T5B09", "T5B11", "T5B10", "T5A09", "T5A11", "T5C12", "T5C05", "T5C01", "T5C02", "T5C03", "T5C04", "T6D11", "T5C13", "T5C07", "T5B01", "T5B02", "T5B03", "T5B04", "T5B05", "T5B06", "T5B07", "T5B08", "T5B12", "T5B13"]
 ---
 
 ### Section 1.2: Electrical Units and Quantities
@@ -145,6 +145,10 @@ In amateur radio, we often deal with very large or very small numbers. Instead o
 | mega   | M      | $10^6$     | 1 MHz = 1,000,000 Hz |
 | giga   | G      | $10^9$     | 1 GHz = 1,000,000,000 Hz |
 
+> **Key Information:**
+> * The abbreviation *kHz* stands for "kilohertz".{{< link id="T5C13" >}}
+> * The abbreviation *MHz* stands for "megahertz".{{< link id="T5C07" >}}
+
 Note: The F (farad) and H (henry) units refer to capacitance and inductance as discussed above, which we'll explore in more detail in Section 2.1.
 
 Here are some common conversions that may appear on the exam:
@@ -161,18 +165,9 @@ Here are some common conversions that may appear on the exam:
 | 1,000,000 picofarads   | 1 microfarad           | {{< qid >}}T5B08{{< /qid >}}       |
 | 28400 kHz              | 28.400 MHz             | {{< qid >}}T5B12{{< /qid >}}       |
 | 2425 MHz               | 2.425 GHz              | {{< qid >}}T5B13{{< /qid >}}       |
+| 
 
-All of these conversions are worth memorizing for the exam:
-- *1.5 amperes equals 1500 milliamperes* {{< link id="T5B01" >}}
-- *1500 kHz equals 1.5 MHz* {{< link id="T5B02" >}}
-- *1 kilovolt equals 1000 volts* {{< link id="T5B03" >}}
-- *1 microvolt equals one one-millionth of a volt* {{< link id="T5B04" >}}
-- *500 milliwatts equals 0.5 watts* {{< link id="T5B05" >}}
-- *3000 milliamperes equals 3 amperes* {{< link id="T5B06" >}}
-- *3.525 MHz equals 3525 kHz* {{< link id="T5B07" >}}
-- *1,000,000 picofarads equals 1 microfarad* {{< link id="T5B08" >}}
-- *28400 kHz equals 28.400 MHz* {{< link id="T5B12" >}}
-- *2425 MHz equals 2.425 GHz* {{< link id="T5B13" >}}
+All of the conversions in this table are worth memorizing for the exam!
 
 ---
 

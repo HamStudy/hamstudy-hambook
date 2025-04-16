@@ -44,29 +44,24 @@ Simple - if you want the best signal possible, you want your receiving antenna t
 > **Key Information:**
 > - When antennas at opposite ends of a VHF/UHF line of sight radio link use different polarizations, the *received signal strength is reduced* {{< link id="T3A04" >}}
 
-If your polarization is mismatched with the station you're working, you could lose up to 20 dB of signal strength - that's like turning your 100-watt transmitter into a 1-watt transmitter. Ouch!
+If your polarization is mismatched with the station you want to communicate with, you could lose up to 20 dB of signal strength - that's like turning your 100-watt transmitter into a 1-watt transmitter. Ouch!
 
 #### What Works Where?
 
 Different types of operation tend to favor different polarizations. Here's the rundown:
 
-1. **VHF/UHF FM and Repeaters**: 
-Most repeaters use vertical polarization - that's why pretty much every antenna you see on cars and HTs is standing straight up. It's all about playing nice with the repeaters!
+1. **VHF/UHF FM and Repeaters**: Most repeaters use vertical polarization - that's why pretty much every antenna you see on cars and HTs is standing straight up. It's all about playing nice with the repeaters!
 
-2. **VHF/UHF Weak Signal Work**: 
+2. **VHF/UHF Weak Signal Work**: When making long-distance contacts without repeaters, horizontal polarization is typically best. Most weak-signal VHF/UHF operators use horizontal antennas because they reduce signal loss due to polarization mismatch and can take better advantage of atmospheric propagation effects.
 
-When making long-distance contacts without repeaters, horizontal polarization is typically best. Most weak-signal VHF/UHF operators use horizontal antennas because they reduce signal loss due to polarization mismatch and can take better advantage of atmospheric propagation effects.
+   > **Key Information:**
+   > - *Horizontal polarization is normally used for long-distance CW and SSB contacts on VHF and UHF bands* {{< link id="T3A03" >}}
 
-> **Key Information:**
-> - *Horizontal polarization is normally used for long-distance CW and SSB contacts on VHF and UHF bands* {{< link id="T3A03" >}}
+   It also tends to pick up less man-made noise, which is always a plus.
 
-It also tends to pick up less man-made noise, which is always a plus.
+3. **HF Operation**: Here's a fun twist - because the ionosphere tends to mix things up anyway, you can use either vertical or horizontal antennas. Each has its advantages, and many hams end up using both!
 
-3. **HF Operation**: 
-Here's a fun twist - because the ionosphere tends to mix things up anyway, you can use either vertical or horizontal antennas. Each has its advantages, and many hams end up using both!
-
-4. **Satellite Work**:
-Now we're really having fun! Satellites don't sit still relative to us, so their signals are constantly changing polarization. Many satellite enthusiasts use circularly polarized antennas to handle this. It's like being ready for a mail slot that's spinning!
+4. **Satellite Work**: Now we're really having fun! Satellites don't sit still relative to us, so their signals are constantly changing polarization. Many satellite enthusiasts use circularly polarized antennas to handle this. It's like being ready for a mail slot that's spinning!
 
 #### Cool Tricks and Tips
 

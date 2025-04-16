@@ -10,7 +10,7 @@ Now that we understand what the electromagnetic spectrum is, let's focus specifi
 
 #### The Amateur Radio Band Plan
 
-Amateur radio frequencies are organized into "bands" based on their wavelengths. For example, the "2-meter band" refers to frequencies around 144-148 MHz, where the wavelength is approximately 2 meters. These band designations provide a quick way to reference different frequency ranges and their general characteristics.
+Amateur radio frequencies are organized into "bands" based on their wavelengths. For example, the "2-meter band" refers to frequencies in the 144-148 MHz range, where the wavelength is approximately 2 meters. These band designations provide a quick way to reference different frequency ranges and their general characteristics.
 
 The bands available to radio amateurs are carefully allocated through international agreements to provide a variety of propagation characteristics. This thoughtful allocation gives amateurs access to frequencies that can:
 - Travel around the world (HF)

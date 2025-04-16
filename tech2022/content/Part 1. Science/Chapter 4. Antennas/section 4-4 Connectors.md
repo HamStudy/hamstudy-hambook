@@ -85,8 +85,8 @@ However, adapters aren’t for everyone. They **add bulk** and **a tiny amount o
 
 #### Pro Tips for Using Connectors  
 
-1. **Keep connectors clean and dry** – They’re the gatekeepers of your signal, so treat them well.  
-2. **Don’t over-tighten** – Hand-tight is usually just right for handhelds.  
+1. **Keep connectors clean and dry** – They're crucial connection points for your signal, so treat them well.    
+2. **Tighten, but don’t over-tighten** – Hand-tight is usually just right for handhelds.
 3. **Be gentle with SMA connectors** – They’re tough, but not indestructible.  
 4. **Stick to one connector type in your shack** – It’ll save you from adapter headaches down the road.  
 

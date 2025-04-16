@@ -10,7 +10,7 @@ As we venture further into the world of electronic components, we encounter a di
 
 #### Transformers: The Voltage Jugglers
 
-> **Key Information:** A *transformer changes 120V AC power to a lower AC voltage* for other uses. {{< link id="T6D06" >}}
+> **Key Information:** A *transformer can be used to change 120V AC power to a higher or lower AC voltage* for other uses. {{< link id="T6D06" >}}
 
 Picture a seesaw at a playground, where a small child on one end can lift a much heavier adult on the other. Transformers work on a similar principle, but with electrical energy instead of playground physics.
 
@@ -32,7 +32,7 @@ Fun fact: The largest transformer in the world weighs over 800 tons and can hand
 ![Relay schematic diagram](../../../images/s2-3-relay.svg)
 {.img-small .float-right .img-bw}
 
-If transistors are the traffic lights of the electronic world, relays are like drawbridges. They use electromagnets to mechanically open or close electrical contacts, allowing one circuit to control another.
+Relays and transistors both act as switches, but relays do it the old-fashioned way—with moving parts. When current flows through a coil inside the relay, it generates a magnetic field that pulls contacts open or closed. It’s like a miniature drawbridge controlled by electricity, allowing one circuit to turn another on or off by physically making or breaking the connection. You can often even hear the _click_ when it switches!
 
 In amateur radio, relays shine in several applications:
 

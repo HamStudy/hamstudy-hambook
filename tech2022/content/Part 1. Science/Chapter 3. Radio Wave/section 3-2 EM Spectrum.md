@@ -20,7 +20,7 @@ Imagine you’re outside on a sunny day:
 
 - **HF waves are like the glow of a sunset**—long, soft, and able to bend around obstacles. Just like sunset light wraps around buildings and trees, **HF waves can bend over mountains and reflect off the atmosphere** to travel incredible distances.  
 - **VHF waves are like a flashlight beam**—they move in straight lines and can pass through some obstacles, but they don’t bend as much. If something large is in the way (like a hill or building), the signal gets blocked.  
-- **UHF waves are like a laser pointer**—very short, direct, and easily blocked unless they reflect off something. **These waves work great in cities, bouncing off walls and buildings, but they don’t travel as far as VHF or HF.**  
+- **UHF waves are like a laser pointer**—very short, direct, and easily blocked by dense materials like concrete and metal. Unlike lower frequencies, they don't bend around obstacles well. However, **these waves excel in urban environments because they readily reflect off surfaces like walls and buildings**, creating multiple paths to reach their destination. This reflection characteristic makes them great for indoor and city communication, though they don't travel as far as VHF or HF.
 
 #### Understanding the Bigger Picture
 

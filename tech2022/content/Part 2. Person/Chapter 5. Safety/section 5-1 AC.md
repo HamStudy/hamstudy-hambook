@@ -8,7 +8,7 @@ questions: [ "T0A03", "T0A02", "T0A06" ]
 
 #### What is AC Power?
 
-First things first: AC stands for Alternating Current. Unlike the DC (Direct Current) that powers most of our radios, AC constantly changes direction. In the United States, it does this 60 times per second. That's why we say our power is 60 Hz.
+First things first: AC stands for Alternating Current. Unlike DC (Direct Current) that powers most of our radios by flowing steadily in one direction, AC constantly changes. In the United States, AC operates at 60 Hz, which means the current flows in one direction, decreases to zero, reverses to flow in the opposite direction, and then returns to zero – completing this entire pattern 60 times every second.
 
 #### Why Does AC Power Matter for Hams?
 
