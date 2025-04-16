@@ -51,7 +51,9 @@ Now, let's talk safety. Each of these battery types has its own quirks:
 
 ***Warning***: Avoid creating sparks near a charging lead-acid battery. The hydrogen gas it emits is flammable, and a spark could lead to an explosion — not the kind of bang you want in your shack! For this reason many people prefer to avoid keeping lead-acid batteries indoors.
 
-> Here's a real-world cautionary tale: I once tried to connect lead-acid batteries in parallel for a battery bank. Long story short, I mixed up the connections and ended up with a smoking cable hot enough to melt rubber. The moral? Always double-check your connections and use fuses!
+> 🔥 Here's a real-world cautionary tale: While attempting to connect lead-acid batteries in parallel to build a battery bank, an operator once reversed the wiring. The result? A smoking cable hot enough to melt rubber. Fortunately, the damage was limited—but it's a vivid reminder to always double-check your connections and use proper fusing.
+>
+> There's ample evidence that even experienced operators can make mistakes like this—including some who go on to write books on the subject.
 
 **Lithium-Ion Batteries**:
 - Overcharging is a big no-no. It can lead to overheating or even fire. Stick to the charger that came with your radio.
@@ -59,9 +61,13 @@ Now, let's talk safety. Each of these battery types has its own quirks:
 - They're not fans of extreme temperatures. Kind of like Goldilocks—not too hot, not too cold.
 - Each cell in a lithium-ion battery produces 3.7 volts, so if you see a "12 volt" lithium-ion battery it is probably using some electronics to get the voltage where you want it.
 
-> One more cautionary tale for you; my 11-year-old son was playing with some 18650 Lithium-Ion battery cells on his bed one day not long before we started this book. We suspect he somehow accidentally shorted out the cells, but all we know for sure is one minute he was happily playing with the motor he stripped off of a motorized scooter and the next minute the battery casing was on the other side of the room and there was a melted spot the size of a soft ball on his quilt and a nasty smell in the air.
+> 🔥 One more cautionary tale: A young (11yo) radio enthusiast was once experimenting with 18650 Lithium-Ion battery cells–on his bed, no less–while playing with a motor stripped from a scooter.
 > 
-> Fortunately everyone was okay, the house wasn't burned down, and the only real damage was to some bedding, but be careful! They tell us that batteries don't really explode, but Lithium-Ion batteries truly have been known to "vent with flame".
+> ![Photograph of a 18650 lithium-ion battery case which is no longer intact](../../../images/18650.jpg)
+> {.float-right .img-pgcap}
+> The exact details are unclear, but somehow the cells shorted. One moment everything was fine, and the next, the battery casing was across the room, a softball-sized burn had melted through the quilt, and the air was filled with a harsh chemical smell.
+>
+> Fortunately, no one was hurt and the damage was limited to some bedding, but it's a stark reminder: Lithium-Ion batteries can and do fail violently when mishandled. Despite common claims that they “don’t explode,” they can absolutely vent with flame under the right conditions.
 
 **Lithium Iron Phosphate (LiFePO4) Batteries**:
 - These are the laid-back cousins of Li-ion. Safer, but they still prefer their own special chargers.
