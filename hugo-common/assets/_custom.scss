@@ -238,6 +238,11 @@ div.qrcode {
       margin-top: var(--heading-margin-top);
       margin-bottom: var(--heading-margin-bottom);
     }
+
+    table tr {
+      page-break-inside: avoid;
+      break-inside: avoid-page;
+    }
   }
 
   .book-header, .book-btn, .prevnext, ohms-law-component {
