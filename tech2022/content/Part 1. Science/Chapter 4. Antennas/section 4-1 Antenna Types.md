@@ -48,7 +48,7 @@ When we talk about antenna gain, think of it like changing from a regular light 
 
 4. **5/8 Wave Verticals**
 
-   **Key Information:** A 5/8 wavelength whip antenna has *more gain than a 1/4-wavelength antenna* {{< link id="T9A12" >}} by concentrating more signal toward the horizon instead of up into the sky.
+   **Key Information:** A 5/8 wavelength whip antenna has *more gain than a 1/4-wavelength antenna {{< link id="T9A12" >}} by concentrating more signal toward the horizon instead of up into the sky.
    
    While this makes them popular for VHF and UHF mobile operations on flat terrain, it's important to understand that just like with a beam antenna this "gain" is just a redistribution of the signal. In hilly areas or canyons where your repeater might be above you, a 1/4-wave antenna can actually work better because it radiates more signal upward.
 

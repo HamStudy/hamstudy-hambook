@@ -23,7 +23,7 @@ Here's what makes HF special:
 
 3. **Different Modes**: While you're mostly limited to voice as a Technician, you'll hear all sorts of modes on HF - SSB (Single Sideband), CW (Morse Code), and various digital modes.
 
-> **Key Information:** *CW stands for "Continuous Wave," which is another name for a Morse code transmission.* {{< link id="T8D09" >}}
+> **Key Information:** CW stands for "Continuous Wave," which is another name for a Morse code transmission. {{< link id="T8D09" >}}
 
 Though it might seem outdated to newcomers, CW remains popular on the HF bands due to its efficiency and ability to get through when voice signals can't.
 
@@ -31,13 +31,13 @@ Though it might seem outdated to newcomers, CW remains popular on the HF bands d
 
 Now, let's talk about actually using that 10-meter privilege:
 
-> **Key Information:** *Before calling CQ, you should always listen first and make sure that the frequency is not already in use.* {{< link id="T2A12" >}}
+> **Key Information:** Before calling CQ, you should always listen first and make sure that the frequency is not already in use. {{< link id="T2A12" >}}
 
 1. **Listen First**: Always listen before transmitting. HF bands can be crowded, and you don't want to interrupt ongoing conversations.
 
 2. **Sideband Selection**: For voice on 10 meters and most HF bands above 10 MHz, you'll use USB (Upper Sideband). However, on HF bands below 10 MHz (like 40, 80, and 160 meters), LSB (Lower Sideband) is the convention. Remember: "Ten and up, USB; below ten, LSB." It's like choosing the right lane on a highway - using the correct sideband ensures clear communication and follows ham radio etiquette.
 
-> **Key Information:** *When voice messages contain unusual words, the standard technique to ensure they are received correctly is to spell the words using a standard phonetic alphabet.* {{< link id="T2C03" >}}
+> **Key Information:** When voice messages contain unusual words, the standard technique to ensure they are received correctly is to spell the words using a standard phonetic alphabet. {{< link id="T2C03" >}}
 
 3. **Speak Clearly**: HF can be noisy. Enunciate your words and use the standard phonetic alphabet for your callsign to ensure your transmission is received correctly.
 
@@ -59,7 +59,7 @@ Example: "CQ CQ CQ, this is KA1ABC, Kilo Alpha One Alpha Bravo Charlie calling C
 
 When operating in most HF bands you are using a small amount of bandwidth for a large stretch of frequencies, so it's often a good idea to have a slightly longer "CQ" message so you are talking long enough for someone who is scanning through the band to hear you. Make sure to indicate in some way that you're done because with SSB there is no carrier to drop out – there is no audible difference between transmitting and not talking and actually being done.
 
-> **Key Information:** *When responding to a station calling CQ, you should transmit the other station's call sign followed by your own call sign.* {{< link id="T2A05" >}}
+> **Key Information:** When responding to a station calling CQ, you should transmit the other station's call sign followed by your own call sign. {{< link id="T2A05" >}}
 
 **Responding to a CQ**:
 1. Wait for the station to finish their CQ call.

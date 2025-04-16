@@ -16,11 +16,11 @@ Every radio, regardless of type, has these fundamental controls:
 - **Frequency Entry**: *The keypad or VFO knob can be used to enter a transceiver's operating frequency*. {{< link id="T4B02" >}}
   - **Direct Entry**: Use the keypad to type in the exact frequency
   - **VFO Knob**: Turn to tune up or down the band
-- **PTT (Push-To-Talk)**: This button *switches the transceiver from receive to transmit when grounded*. {{< link id="T7A07" >}}
+- **PTT (Push-To-Talk)**: This button *switches the transceiver from receive to transmit when grounded (pushed)*. {{< link id="T7A07" >}}
 
 #### Memory Channels
 
-> **Key Information:** *To enable quick access to a favorite frequency or channel on your transceiver, store it in a memory channel*. {{< link id="T4B04" >}}
+> **Key Information:** To enable quick access to a favorite frequency or channel on your transceiver, store it in a memory channel. {{< link id="T4B04" >}}
 
 Rather than entering frequencies manually each time, store them in your radio's memory:
 - Program your frequently used channels (repeaters, simplex frequencies)
@@ -29,7 +29,7 @@ Rather than entering frequencies manually each time, store them in your radio's 
 
 #### Squelch Control
 
-> **Key Information:** The squelch function *mutes the receiver audio when a signal is not present*. {{< link id="T2B13" >}}
+> **Key Information:** The squelch function *mutes the receiver audio* when a signal is not present. {{< link id="T2B13" >}}
 
 The squelch control sets a threshold—signals below this level are muted:
 - Too low: Constant background noise
@@ -68,7 +68,7 @@ We will discuss these in more detail in the next section.
 
 When working through repeaters, you'll use:
 
-- **Offset**: Sets the difference between transmit and receive frequencies for repeaters. Common offsets are plus or minus 600 kHz on 2 meters and plus or minus 5 MHz on 70 cm bands.
+- **Offset**: Sets the difference between transmit and receive frequencies for repeaters. Common offsets are plus or minus 600 kHz on 2 meters and plus or minus 5 MHz on 70 cm.
 
 - **Reverse Function**: Temporarily swaps your transmit and receive frequencies to listen on the repeater's input frequency.
 
@@ -98,7 +98,7 @@ For VHF/UHF SSB operation, *Upper Sideband (USB) is normally used*.
 
 ##### Receiver Bandwidth Controls
 
-> **Key Information:** *Having multiple receive bandwidth choices on a multimode transceiver permits noise or interference reduction by selecting a bandwidth matching the mode*. {{< link id="T4B08" >}} For SSB reception, *a 2400 Hz filter bandwidth provides the best signal-to-noise ratio*. {{< link id="T4B10" >}}
+> **Key Information:** Having multiple receive bandwidth choices on a multimode transceiver permits noise or interference reduction by selecting a bandwidth matching the mode. {{< link id="T4B08" >}} For SSB reception, a *2400 Hz filter bandwidth* provides the best signal-to-noise ratio. {{< link id="T4B10" >}}
 
 As explained in Section 6.3, bandwidth controls let you adjust how "wide" a slice of the radio spectrum your receiver processes:
 
@@ -112,7 +112,7 @@ Narrower bandwidths reduce noise and interference but might affect audio quality
 
 ##### Microphone Gain
 
-> **Key Information:** *Excessive microphone gain on SSB transmissions causes distorted transmitted audio*. {{< link id="T4B01" >}}
+> **Key Information:** Excessive microphone gain on SSB transmissions causes distorted transmitted audio. {{< link id="T4B01" >}}
 
 Unlike FM, where your microphone gain rarely needs adjustment, proper mic gain setting is critical for SSB:
 - Too high: Distorted audio that's difficult to understand
@@ -122,13 +122,13 @@ Start with a moderate setting and get on-air reports to adjust it properly. Clea
 
 ##### RIT/Clarifier
 
-> **Key Information:** *The RIT or Clarifier control can be used if the voice pitch of a single-sideband signal seems too high or low*. {{< link id="T4B06" >}}
+> **Key Information:** The RIT or Clarifier control can be used if the voice pitch of a single-sideband signal seems too high or low. {{< link id="T4B06" >}}
 
 When operating SSB, you might notice that some stations sound too high-pitched or too low-pitched. The RIT (Receiver Incremental Tuning) control—sometimes called a Clarifier—allows you to adjust only your receive frequency without changing your transmit frequency, making the voice sound more natural.
 
 ##### Electronic Keyers for CW
 
-> **Key Information:** An *electronic keyer assists in manual sending of Morse code*. {{< link id="T4A12" >}}
+> **Key Information:** An electronic keyer assists in manual sending of Morse code. {{< link id="T4A12" >}}
 
 If you're interested in Morse code, all-mode transceivers typically include an electronic keyer for use with a paddle-type Morse key. This feature helps generate properly timed dots and dashes, making your CW transmissions cleaner and more consistent.
 

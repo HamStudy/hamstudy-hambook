@@ -38,13 +38,13 @@ Why does this matter? Because *duty cycle directly affects the average exposure 
 
 Here's the practical part: *If you reduce your duty cycle from 100% to 50%, the allowable power density doubles*. {{< link id="T0C03" >}} This means you could potentially use twice as much power while still staying within safe exposure limits. It's like a radio operator's two-for-one special!
 
-> **Key Information:** *Duty cycle affects the average exposure to radiation. When duty cycle decreases by half (from 100% to 50%), the allowable power density doubles.*
+> **Key Information:** Duty cycle affects the average exposure to radiation. When duty cycle decreases by half (from 100% to 50%), the allowable power density doubles.
 
 #### Physical Hazards of RF Energy
 
 One direct hazard of RF energy that's often overlooked is what happens if you touch an antenna during transmission. Spoiler alert: it's not pleasant! *Touching an antenna during transmission can cause RF burns to your skin* due to the concentrated RF energy. {{< link id="T0C07" >}} These burns can occur even at relatively low power levels and may not be immediately noticeable.
 
-> **Key Information:** *Never touch an antenna during transmission—it can cause RF burns to your skin.*
+> **Key Information:** Never touch an antenna during transmission—it can cause RF burns to your skin.
 
 #### Staying in Compliance with RF Safety Regulations
 
@@ -52,10 +52,10 @@ Now, here's the million-dollar question: How do we stay in compliance with RF sa
 
 1. **Know Your Limits**: The FCC has set Maximum Permissible Exposure (MPE) limits. These vary based on frequency, power level, and whether it's a controlled environment (your shack) or uncontrolled (public areas).
 
-2. **Do the Math (or Let Computers Do It for You)**: *You can determine whether your station complies with FCC RF exposure regulations in several ways:*
-   - *By calculation based on FCC OET Bulletin 65*
-   - *By calculation based on computer modeling*
-   - *By measurement of field strength using calibrated equipment* {{< link id="T0C06" >}}
+2. **Do the Math (or Let Computers Do It for You)**: You can determine whether your station complies with FCC RF exposure regulations in several ways:
+   - By calculation based on FCC OET Bulletin 65
+   - By calculation based on computer modeling
+   - By measurement of field strength using calibrated equipment {{< link id="T0C06" >}}
 
 3. **Distance Is Your Friend**: The further you are from the antenna, the less RF exposure you'll get. It's like social distancing, but for radio waves.
 
@@ -69,7 +69,7 @@ Now, here's the million-dollar question: How do we stay in compliance with RF sa
 
 8. **When in Doubt, Measure**: If you're really concerned, you can get calibrated RF field strength meters to check your station's emissions.
 
-> **Key Information:** *Several factors affect RF exposure: frequency and power level of the RF field, distance from the antenna to a person, and the radiation pattern of the antenna.* {{< link id="T0C04" >}}
+> **Key Information:** Several factors affect RF exposure: frequency and power level of the RF field, distance from the antenna to a person, and the radiation pattern of the antenna. {{< link id="T0C04" >}}
 
 #### Actions to Reduce RF Exposure
 
@@ -83,7 +83,7 @@ If you find that your station might be causing excessive RF exposure, there are 
 
 4. **Limit Transmission Time**: Reduce your duty cycle by transmitting less frequently or for shorter periods.
 
-> **Key Information:** *Relocating antennas is an effective way to reduce RF exposure to people near an amateur station.*
+> **Key Information:** Relocating antennas is an effective way to reduce RF exposure to people near an amateur station.
 
 #### Keeping Your Station Compliant Over Time
 
@@ -91,7 +91,7 @@ Your station isn't a static entity—it evolves as you upgrade equipment, change
 
 What worked safely with your 100-watt transceiver might not be safe when you add that shiny new linear amplifier. Similarly, changing from a simple wire antenna to a high-gain directional antenna could significantly alter your RF exposure patterns.
 
-> **Key Information:** *Re-evaluate your station's RF exposure compliance whenever you change an item in your transmitter or antenna system.*
+> **Key Information:** Re-evaluate your station's RF exposure compliance whenever you change an item in your transmitter or antenna system.
 
 #### The Bottom Line on RF Safety
 

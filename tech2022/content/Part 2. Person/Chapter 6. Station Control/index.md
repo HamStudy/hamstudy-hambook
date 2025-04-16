@@ -21,6 +21,4 @@ A significant portion of this chapter is dedicated to repeater operations - a ma
 
 We'll also cover troubleshooting common problems you might encounter, from interference issues to audio distortion. Finally, you'll get an introduction to basic test equipment and repair techniques that will help you maintain your station in top condition.
 
-By the end of this chapter, you'll have the knowledge you need to set up, operate, and maintain your amateur radio station effectively. For more detailed information on antennas and transmission lines, look forward to Chapter 9, where we'll explore those topics in depth.
-
-So grab your radio, and let's get your station up and running!
+By the end of this chapter, you'll have the knowledge you need to set up, operate, and maintain your amateur radio station effectively. So grab your radio, and let's get your station up and running!

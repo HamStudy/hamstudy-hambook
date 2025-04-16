@@ -13,9 +13,9 @@ Semiconductors are special materials that make modern electronics possible. They
 #### Diodes: One-Way Electronic Streets
 
 > **Key Information:** 
-> - A *diode allows current to flow in only one direction* {{< link id="T6B02" >}}
-> - The *cathode lead (negative side) is often marked with a stripe* {{< link id="T6B06" >}}
-> - The *forward voltage drop is lower in some diode types than others* {{< link id="T6B01" >}}
+> - A diode allows current to flow *in only one direction* {{< link id="T6B02" >}}
+> - The *cathode lead (negative side)* is often *marked with a stripe* {{< link id="T6B06" >}}
+> - The forward voltage drop is lower in some diode types than others {{< link id="T6B01" >}}
 
 ![Diode schematic diagram with anode / cathode labeled](../../../images/s2-2-diode.svg)
 {.img-small .float-right .img-bw}
@@ -40,8 +40,8 @@ LEDs are special diodes that light up when current flows through them. They're c
 #### Transistors: The Heart of Modern Electronics
 
 > **Key Information:** 
-> - *Transistors can be used as electronic switches* {{< link id="T6B03" >}}
-> - *Transistors can provide power gain* (ability to amplify signals) {{< link id="T6B10" >}}
+> - Transistors can be used as electronic switches {{< link id="T6B03" >}}
+> - Transistors can provide power gain (the ability to amplify signals) {{< link id="T6B10" >}}
 > - A transistor contains *three regions of semiconductor material* {{< link id="T6B04" >}}
 > - FET stands for *Field Effect Transistor* {{< link id="T6B08" >}}
 
@@ -59,7 +59,7 @@ There are two main types of transistors, and it's important to know the names of
 
 #### Integrated Circuits (ICs): Many Components in One
 
-> **Key Information:** An integrated circuit *combines several semiconductors and other components into one package*. {{< link id="T6D09" >}}
+> **Key Information:** An integrated circuit combines several semiconductors and other components into one package. {{< link id="T6D09" >}}
 
 Think of an IC as a tiny electronic city, where many components (transistors, diodes, resistors, etc.) work together in a single chip. This technology makes modern radio equipment possible by packing complex circuits into small spaces.
 

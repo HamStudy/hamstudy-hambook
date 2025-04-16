@@ -11,10 +11,10 @@ Now that we understand the different amateur radio bands, let's explore how sign
 When you transmit a signal, it doesn't simply travel in a straight line like a laser beam. Radio waves can bend, bounce, scatter, and penetrate obstacles in ways that sometimes seem almost magical. Understanding these propagation mechanisms is key to successful amateur radio communications.
 
 > **Key Information:** Basic Wave Behavior Across Amateur Bands
-> - The *ionosphere can refract or bend HF and VHF radio waves* {{< link id="T3A11" >}}
-> - The *radio horizon is farther than the visual horizon* because the *atmosphere refracts radio waves slightly* {{< link id="T3C11" >}}
-> - *Long-distance ionospheric propagation is far more common on HF* than on VHF/UHF {{< link id="T3C02" >}}
-> - *UHF signals are rarely heard beyond their radio horizon* because they're *usually not propagated by the ionosphere* {{< link id="T3C01" >}}
+> - The ionosphere can refract or bend HF and VHF radio waves {{< link id="T3A11" >}}
+> - The radio horizon is farther than the visual horizon because the *atmosphere refracts radio waves slightly* {{< link id="T3C11" >}}
+> - Long-distance ionospheric propagation is far more common on HF than on VHF/UHF {{< link id="T3C02" >}}
+> - *UHF signals* are rarely heard beyond their radio horizon because they're *usually not propagated by the ionosphere* {{< link id="T3C01" >}}
 
 ![Propagation types at different frequency ranges](../../../images/propagation-types.svg)
 
@@ -27,8 +27,8 @@ When you transmit a signal, it doesn't simply travel in a straight line like a l
 Line-of-sight is like being able to see someone across a field - if you can see them, you can probably communicate with them. However, several important effects can help or hinder this basic propagation:
 
 > **Key Information - Multipath Effects**: 
-> - *VHF signal strengths can vary greatly when moving just a few feet* because *multipath propagation cancels or reinforces signals* {{< link id="T3A01" >}}
-> - *Picket fencing* is the *rapid flutter on mobile signals due to multipath propagation* {{< link id="T3A06" >}}
+> - VHF signal strengths can vary greatly when moving just a few feet because *multipath propagation cancels or reinforces signals* {{< link id="T3A01" >}}
+> - **Picket fencing** is the *rapid flutter on mobile signals due to multipath propagation* {{< link id="T3A06" >}}
 
 When radio signals travel from transmitter to receiver, they often take multiple paths:
 - Some signals go directly
@@ -42,7 +42,7 @@ This is why you might hear a mobile signal rapidly cutting in and out as you dri
 
 > **Key Information - Working Around Obstacles**:
 > - When buildings block a repeater signal, you can often *communicate by finding a path that reflects signals* to the repeater {{< link id="T3A05" >}}
-> - *Knife-edge diffraction allows radio signals to travel beyond obstructions* {{< link id="T3C05" >}}
+> - Knife-edge diffraction allows radio signals to travel beyond obstructions {{< link id="T3C05" >}}
 
 Just because you can't see your target doesn't mean you can't reach it:
 - **Reflections**: Like bouncing a ball off a wall, your signal can bounce off buildings or other surfaces to reach a repeater

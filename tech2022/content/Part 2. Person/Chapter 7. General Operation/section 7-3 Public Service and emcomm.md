@@ -48,7 +48,7 @@ The NCS has several key duties:
 
 Good traffic handling is essential – *passing messages exactly as received* {{< link id="T2C08" >}} without editing or deciding which messages are important enough to relay.
 
-> **Key Information:** *FCC rules ALWAYS apply to the operation of amateur radio stations.* {{< link id="T2C01" >}} However, *amateur station control operators are permitted to operate outside their frequency privileges in situations involving the immediate safety of human life or protection of property*. {{< link id="T2C09" >}}
+> **Key Information:** FCC rules **_ALWAYS_** apply to the operation of amateur radio stations. {{< link id="T2C01" >}} However, amateur station control operators are permitted to operate outside their frequency privileges in situations involving the _**immediate safety of human life or protection of property**_. {{< link id="T2C09" >}}
 
 #### Formal Traffic and Radiograms
 

@@ -16,7 +16,7 @@ When you peek inside any radio equipment, you'll find a fascinating array of ele
 
 #### Resistors: The Traffic Cops of Electronics
 
-> **Key Information:** A *resistor opposes the flow of current in any circuit (including a DC circuit)*.{{< link id="T6A01" >}}
+> **Key Information:** A resistor opposes the flow of current in any circuit (including a DC circuit).{{< link id="T6A01" >}}
 
 *Resistors* are small cylindrical components with colored bands that indicate their resistance value. These color codes help electronics enthusiasts determine the component's resistance. 
 
@@ -32,8 +32,8 @@ Just as a battery stores energy chemically, capacitors and inductors also store 
 ##### Capacitors: Electric Field Energy Storage
 
 > **Key Information:**
-> 1. A *capacitor stores energy in an electric field*{{< link id="T6A04" >}}
-> 2. A *capacitor consists of conductive surfaces (usually metal plates) separated by an insulator*. This physical structure is fundamental to how capacitors work and is frequently tested.{{< link id="T6A05" >}}
+> - A capacitor stores energy in an *electric field*{{< link id="T6A04" >}}
+> - A capacitor consists of *conductive surfaces (usually metal plates) separated by an insulator*. This physical structure is fundamental to how capacitors work and is frequently tested.{{< link id="T6A05" >}}
 
 *Capacitors* come in various shapes and sizes, from tiny ceramic discs to large cylindrical types. Their capacity to store charge is measured in farads (F), though most radio circuits use microfarads (µF) or picofarads (pF).
 
@@ -45,9 +45,9 @@ In amateur radio, capacitors are used to:
 ##### Inductors: Magnetic Field Energy Storage
 
 > **Key Information:**
-> 1. *Inductors store energy in a magnetic field* {{< link id="T6A06" >}}
-> 2. They are *typically constructed as a coil of wire* {{< link id="T6A07" >}}
-> 3. They are *used with capacitors to make a resonant circuit* {{< link id="T6D08" >}}
+> - Inductors store energy in a magnetic field {{< link id="T6A06" >}}
+> - They are typically constructed as a *coil of wire* {{< link id="T6A07" >}}
+> - They are *used with capacitors* to make a *resonant circuit* {{< link id="T6D08" >}}
 
 While capacitors store energy in an electric field, *inductors* store energy in a magnetic field that forms around the coil when current flows through it. This complementary relationship makes them perfect partners in radio circuits.
 

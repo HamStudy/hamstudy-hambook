@@ -46,7 +46,7 @@ This is crucial because your antenna needs to match this orientation for best re
 #### Wavelength and Frequency
 
 > **Key Information:** 
-> - *Wavelength gets shorter as frequency increases* {{< link id="T3B05" >}}
+> - Wavelength gets shorter as frequency increases {{< link id="T3B05" >}}
 > - To find wavelength in meters, use this formula: *300 divided by frequency in megahertz* {{< link id="T3B06" >}}
 > - Amateur radio bands are often identified by their *approximate wavelength in meters* {{< link id="T3B07" >}}
 

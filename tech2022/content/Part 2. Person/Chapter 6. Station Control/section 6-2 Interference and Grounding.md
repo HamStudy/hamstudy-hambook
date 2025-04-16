@@ -56,11 +56,9 @@ When setting up a mobile transceiver in a vehicle, proper grounding is just as c
 
 > **Key Information:** The negative power return of a mobile transceiver should be connected *at the 12-volt battery chassis ground*, not to random metal parts of the vehicle. {{< link id="T4A11" >}}
 
-The negative power return, or ground, should be connected directly to the 12-volt battery's chassis ground. This connection minimizes the risk of electrical noise, which can interfere with your transceiver's performance, and it also helps to prevent potential damage to the equipment.
+The negative power return, or ground, should be connected directly to the 12-volt battery or the primary chassis ground. Avoid the temptation to ground your transceiver to any random metal part of the vehicle. While it might seem convenient, this can lead to poor grounding, ground loops, or differences in ground potential—potentially causing issues like alternator whine or other noise. The standard practice in mobile radio installations is to run both the positive and negative power leads directly to the battery, with fuses on both lines. The fuse on the ground lead protects the radio in rare situations where power could be fed backward—like during an improperly done jump-start.
 
-Avoid the temptation to ground your transceiver to any random metal part of the vehicle. While it might seem convenient, this approach can lead to grounding loops or introduce differences in grounding potential, leading to poor performance or even interference issues such as alternator whine or other noise. By connecting directly to the chassis ground near the battery, you ensure a stable and clean ground, which is crucial for both transmitting and receiving signals without interference.
-
-A well-grounded mobile installation not only improves your signal quality but also protects your equipment, ensuring that your mobile setup operates smoothly wherever your travels take you.
+Whenever possible, connect your ground to the battery directly or to the same point where the battery’s negative terminal is grounded to the vehicle chassis. Many vehicles have a common grounding point near the battery with a heavy-gauge wire already in place for this purpose. A well-grounded mobile installation not only improves your signal quality but also protects your equipment, ensuring that your mobile setup operates smoothly wherever your travels take you.
 
 #### Be the Radio Detective
 

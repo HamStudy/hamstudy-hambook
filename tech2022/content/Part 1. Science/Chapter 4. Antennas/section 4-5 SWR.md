@@ -10,7 +10,7 @@ Standing Wave Ratio, or SWR, is a critical concept in ensuring your antenna syst
 
 #### What is SWR?
 
-> **Key Information:** *SWR is a **measure of how well a load is matched to a transmission line**. A reading of **1:1** on an SWR meter indicates a **perfect impedance match** between the antenna and feed line.* {{< link id="T9B12" >}} {{< link id="T7C04" >}}
+> **Key Information:** SWR is a **measure of how well a load is matched to a transmission line**. A reading of **1:1** on an SWR meter indicates a **perfect impedance match** between the antenna and feed line. {{< link id="T9B12" >}} {{< link id="T7C04" >}}
 
 ![Illustration showing water flowing through pipes which change diameter, causing backpressure](../../../images/illus/backpressure.svg)
 {.img-pgcap .float-right}
@@ -28,7 +28,7 @@ SWR is measured as a ratio - here's what different readings mean:
 
 #### Why Does SWR Matter?
 
-> **Key Information:** *A benefit of low SWR is **reduced signal loss**. Most solid-state transmitters **reduce output power as SWR increases** to **protect the output amplifier transistors**.* {{< link id="T9B01" >}} {{< link id="T7C05" >}}
+> **Key Information:** A benefit of low SWR is **reduced signal loss**. Most solid-state transmitters **reduce output power as SWR increases** to **protect the output amplifier transistors**. {{< link id="T9B01" >}} {{< link id="T7C05" >}}
 
 Why should you care about SWR? It's all about efficiency and equipment safety. The lower your SWR, the more of your radio's power actually makes it to your antenna and out into the world. High SWR means some of that power is bouncing back to your radio instead of being transmitted.
 
@@ -42,7 +42,7 @@ Modern radios have protection circuits that detect high SWR and reduce power or 
 
 #### Common Causes of High SWR
 
-> **Key Information:** *A **loose connection in the antenna or feed line** can cause **erratic changes in SWR**.* {{< link id="T9B09" >}}
+> **Key Information:** A loose connection in the antenna or feed line can cause *erratic changes in SWR*. {{< link id="T9B09" >}}
 
 What causes high SWR? Here are some common culprits:
 
@@ -53,7 +53,7 @@ What causes high SWR? Here are some common culprits:
 
 #### Measuring SWR
 
-> **Key Information:** *An **antenna analyzer** or a **directional wattmeter** can be used to determine if an **antenna is resonant** at the desired frequency and to **measure SWR**.* {{< link id="T7C02" >}} {{< link id="T7C08" >}}
+> **Key Information:** An *antenna analyzer* or a *directional wattmeter* can be used to determine if an *antenna is resonant* at the desired frequency and to *measure SWR*. {{< link id="T7C02" >}} {{< link id="T7C08" >}}
 
 How do you check your SWR? Many modern radios have built-in SWR meters. If yours doesn't, you can get an external SWR meter or an antenna analyzer. These tools are great to have in your ham radio toolbox. Another option is using a directional wattmeter—measure how much power is leaving your radio (forward power) and how much power is coming back from the antenna (reflected power), and you can calculate your SWR.
 

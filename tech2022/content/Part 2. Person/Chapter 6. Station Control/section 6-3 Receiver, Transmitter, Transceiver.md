@@ -60,9 +60,9 @@ To enhance your station's capabilities, you might consider some additional acces
 
 > **Key Information:** Using a handheld transceiver with a flexible antenna inside a vehicle results in *reduced signal strength due to the shielding effect of the vehicle*.
 
-When using a handheld radio inside a vehicle, the metal body of the car can actually significantly reduce your signal strength. Unlike lower frequencies, VHF and UHF signals (like those at 146 MHz and 440 MHz) are easily attenuated by metal structures. 
+When using a handheld radio inside a vehicle, the metal body of the car can actually significantly reduce your signal strength. VHF and UHF signals (like those at 146 MHz and 440 MHz) are easily attenuated by metal structures. 
 
-The vehicle's metal body acts as an RF shield, blocking or substantially reducing radio wave propagation. This means that a handheld antenna inside a vehicle will have *dramatically reduced signal strength due to the shielding effect of the vehicle* {{< link id="T9A07" >}}. The metal surfaces reflect and absorb these high-frequency signals, creating a "signal shadow" that limits your radio's effective range.
+The vehicle's metal body acts as an RF shield, blocking or substantially reducing radio wave propagation. This means that a handheld antenna inside a vehicle will have *dramatically reduced signal strength due to the shielding effect of the vehicle* {{< link id="T9A07" >}}. The metal surfaces reflect and absorb VHF and UHF signals, creating a "signal shadow" that limits your radio's effective range.
 
 For best performance, consider:
 - Using an external magnetic mount antenna

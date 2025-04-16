@@ -13,7 +13,7 @@ Alright, fellow hams, let's talk about one of the most fundamental rules in amat
 
 #### When to Identify
 
-> **Key Information:** *You are required to transmit your assigned call sign at least every 10 minutes during and at the end of a communication.* {{< link id="T1F03" >}}
+> **Key Information:** You are required to transmit your assigned call sign at least every 10 minutes during and at the end of a communication. {{< link id="T1F03" >}}
 
 The FCC requires you to identify your station in two key situations:
 1. At least every 10 minutes during a contact
@@ -21,13 +21,13 @@ The FCC requires you to identify your station in two key situations:
 
 Remember: "Ten and End" - identify at least every ten minutes and at the end.
 
-> **Key Information:** *When making on-the-air test transmissions, you must identify the transmitting station.* {{< link id="T2A06" >}}
+> **Key Information:** When making on-the-air test transmissions, you must identify the transmitting station. {{< link id="T2A06" >}}
 
 Even for short test transmissions, you must identify your station with your call sign. There's no "just testing" exception to the identification rules!
 
 #### How to Identify
 
-> **Key Information:** *English is the required language for identification when operating phone in the Amateur Radio Service.* {{< link id="T1F04" >}}
+> **Key Information:** English is the required language for identification when operating phone in the Amateur Radio Service. {{< link id="T1F04" >}}
 >
 > *The method of call sign identification for a phone transmission is to use a CW or phone emission.* {{< link id="T1F05" >}}
 
@@ -43,7 +43,7 @@ Your station identification must include your FCC-assigned call sign. Here are s
 
 5. **Self-Assigned Indicators**: 
 
-> **Key Information:** *All of these choices are acceptable when using a phone transmission: KL7CC stroke W3, KL7CC slant W3, or KL7CC slash W3.* {{< link id="T1F06" >}}
+> **Key Information:** All of these choices are acceptable when using a phone transmission: KL7CC stroke W3, KL7CC slant W3, or KL7CC slash W3. {{< link id="T1F06" >}}
 
 Want to add a little flair to your call sign? You can use self-assigned indicators! These are like radio bumper stickers that tell others something special about your operation. Add them before or after your call sign (or both!), separated by a slash (/), the word "stroke," "slant," or "slash." For example, "KA1ABC/MOB" or "KA1ABC stroke R" lets folks know you're on the move. "W1AW/70" might indicate you're celebrating a 70th anniversary. Just remember, your indicator can't clash with any FCC-specified indicators or country prefixes.
 
@@ -55,7 +55,7 @@ Want to add a little flair to your call sign? You can use self-assigned indicato
 
 #### Using Tactical Call Signs
 
-> **Key Information:** *When using tactical call signs such as "Race Headquarters," you must identify with your FCC-assigned call sign at the end of each communication and every ten minutes during a communication.* {{< link id="T1F02" >}}
+> **Key Information:** When using tactical call signs such as "Race Headquarters," you must identify with your FCC-assigned call sign at the end of each communication and every ten minutes during a communication. {{< link id="T1F02" >}}
 
 As much as we all love our call signs (if you don't, you will!) there are times when it's not super convenient to keep track of them when working with a group. Imagine you are helping with a large event – perhaps a parade in a mid-sized city. Let's say we need someone at each of these stations:
 
@@ -91,7 +91,7 @@ Remember, tactical call signs are the cherry on top of your communication sundae
 
 #### Exceptions to Identification Requirements
 
-> **Key Information:** *When transmitting signals to control model craft, amateur stations are not required to identify on the air.* {{< link id="T1D11" >}}
+> **Key Information:** When transmitting signals to control model craft, amateur stations are not required to identify on the air. {{< link id="T1D11" >}}
 
 While station identification is generally required, there are a few specific situations where an amateur station may transmit without identifying on the air:
 

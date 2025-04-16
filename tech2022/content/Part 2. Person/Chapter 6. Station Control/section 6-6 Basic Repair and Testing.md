@@ -25,7 +25,7 @@ Your trusty multimeter is perhaps the most versatile and essential diagnostic to
 > * A *voltmeter is connected in parallel* {{< link id="T7D02" >}} with a component to measure voltage.
 > * An *ammeter is connected in series* {{< link id="T7D03" >}} with a component to measure current.
 > * *Ensure the circuit is not powered when measuring resistance* {{< link id="T7D11" >}} to avoid damage to the meter.
-> * *Attempting to measure voltage when using the resistance setting* {{< link id="T7D06" >}} can damage your multimeter.
+> * Attempting to measure voltage when using the resistance setting* {{< link id="T7D06" >}} can damage your multimeter.
 
 When measuring voltage, set your multimeter to the appropriate range (DC or AC) and connect it in parallel with the component - red probe to the positive point and black to negative or ground.
 
@@ -53,7 +53,7 @@ Remember that some ham radio equipment, especially tube-based gear, can have dan
 
 #### Other Essential Test Equipment
 
-> **Key Information:** A dummy load *prevents transmitting signals over the air when making tests* {{< link id="T7C01" >}} and consists of *a non-inductive resistor mounted on a heat sink*. {{< link id="T7C03" >}}
+> **Key Information:** A dummy load *prevents transmitting signals over the air when making (performing) tests* {{< link id="T7C01" >}} and consists of *a non-inductive resistor mounted on a heat sink*. {{< link id="T7C03" >}}
 
 1. **SWR Meter**: Measures the Standing Wave Ratio, telling you how well your antenna is matched to your transmitter. High SWR can indicate antenna problems and may damage your transmitter.
 
@@ -66,8 +66,8 @@ Remember that some ham radio equipment, especially tube-based gear, can have dan
 #### The Art of Soldering
 
 > **Key Information:** 
-> * *Acid-core solder should not be used for radio and electronic applications*. {{< link id="T7D08" >}} 
-> * A *cold solder joint appears rough or lumpy*. {{< link id="T7D09" >}}
+> * Acid-core solder should not be used for radio and electronic applications. {{< link id="T7D08" >}} 
+> * A cold solder joint appears rough or lumpy. {{< link id="T7D09" >}}
 
 Soldering is a skill that can save you money and keep your equipment in top shape. Here are some soldering basics:
 

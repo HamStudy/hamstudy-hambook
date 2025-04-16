@@ -13,8 +13,8 @@ Ah, batteries—the lifeblood of portable ham radio! Whether you're operating fr
 First off, let's meet our cast of characters:
 
 > **Key Information:**
-> - *Rechargeable battery types include: nickel-metal hydride, lithium-ion, lead-acid, and nickel-cadmium*{{< link id="T6A10" >}}
-> - *Carbon-zinc batteries are not rechargeable*{{< link id="T6A11" >}}
+> - Rechargeable battery types include: nickel-metal hydride, lithium-ion, lead-acid, and nickel-cadmium{{< link id="T6A10" >}}
+> - Carbon-zinc batteries are not rechargeable{{< link id="T6A11" >}}
 
 ![Illustration of several different kinds of batteries sitting side by side](../../../images/illus/batteries.svg)
 {.img-full .img-centered}
@@ -41,12 +41,12 @@ It's worth noting that batteries of different types may have different voltages 
 
 Now, let's talk safety. Each of these battery types has its own quirks:
 
-> **Key Information:** *Shorting the terminals of *any* battery can cause burns, fire, or an explosion* {{< link id="T0A01" >}}
+> **Key Information:** Shorting the terminals of *any* battery can cause burns, fire, or an explosion {{< link id="T0A01" >}}
 
 **Lead-Acid Batteries**:
 - These guys can produce hydrogen gas, especially when charging. Always use them in well-ventilated areas. You don't want your shack turning into a blimp!
 - They contain sulfuric acid. Treat them like you would a grumpy cat—with respect and protective gear.
-- *The terminals can deliver a whopping amount of current if shorted. Remove your jewelry and use insulated tools. Trust me, you don't want to be the human fuse in this circuit!* (and do *not* ask me how I know the melting point of sterling silver jewelry...)
+- The terminals can deliver a whopping amount of current if shorted. Remove your jewelry and use insulated tools—you definitely don’t want to be the human fuse in this circuit! (And do not ask the authors of this book the melting point of sterling silver jewelry. They would have absolutely no personal reason to know that. None at all.)
 - Each cell in a lead-acid battery produces about 2.1 volts. So, a typical "12-volt" battery actually measures around 12.6 volts when fully charged and has a working voltage range of 12.0-12.8V.
 
 ***Warning***: Avoid creating sparks near a charging lead-acid battery. The hydrogen gas it emits is flammable, and a spark could lead to an explosion — not the kind of bang you want in your shack! For this reason many people prefer to avoid keeping lead-acid batteries indoors.
@@ -75,17 +75,17 @@ Now, let's talk safety. Each of these battery types has its own quirks:
 - Each cell in a Lithium Iron Phosphate battery produces about 3.2 volts. A typical "12-volt" battery is actually 12.8V and will usually be charged to 14.6V to get to full capacity.
 - Over or undercharging a single LiFePO4 cell can ruin it!
 
-> **Key Information:** *Charging or discharging a battery too quickly can cause overheating or out-gassing* {{< link id="T0A10" >}}
+> **Key Information:** Charging or discharging a battery too quickly can cause overheating or out-gassing {{< link id="T0A10" >}}
 
 #### How Long Will Your Battery Last?
 
 When you're out in the field or during a power outage, knowing how long your equipment can run on a battery is crucial. This is where understanding your battery's ampere-hour (Ah) rating and your equipment's current draw comes into play.
 
-> **Key Information:** *Battery life can be determined by dividing the battery ampere-hour rating by the average current draw of the equipment*{{< link id="T4A09" >}}
+> **Key Information:** Battery life can be determined by dividing the battery ampere-hour rating by the average current draw of the equipment{{< link id="T4A09" >}}
 
 To determine how long your battery will last, you can use the following method:
 
-- **Battery Life Calculation**: *Divide the battery's ampere-hour (Ah) rating by the average current draw of your equipment.*
+- **Battery Life Calculation**: Divide the battery's ampere-hour (Ah) rating by the average current draw of your equipment.
 
 This method will give you an estimate of how long your equipment can run before the battery is depleted. 
 

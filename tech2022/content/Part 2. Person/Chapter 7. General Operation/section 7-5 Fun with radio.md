@@ -8,7 +8,7 @@ questions: [ "T8C01", "T8C02", "T8C03", "T8C04", "T8C05" ]
 
 Alright, radio adventurers, buckle up! We're about to explore some of the coolest, quirkiest, and downright awesome things you can do with your ham radio license. Let's start with a few activities that you might encounter on the exam.
 
-> **Key Information:** *Radio direction finding is used to locate sources of noise interference or jamming.* {{< link id="T8C01" >}} It involves using directional antennas and receivers to determine the location of a radio signal.
+> **Key Information:** Radio direction finding is used to locate sources of noise interference or jamming. {{< link id="T8C01" >}} It involves using directional antennas and receivers to determine the location of a radio signal.
 
 #### Fox Hunting and Direction Finding
 

@@ -13,9 +13,9 @@ Welcome to the toy store of ham radio! Let's talk about the gadgets and gizmos t
 Unless you're running solely on batteries, you'll need a power supply. When setting up a mobile rig, power is crucial. 
 
 > **Key Information:**
-> - *For a typical 50-watt output mobile FM transceiver, you'll need a power supply rated at 13.8 volts at 12 amperes* {{< link id="T4A01" >}}
-> - *The function of a voltage regulator circuit is to control the amount of voltage from a power supply* {{< link id="T6D05" >}}
-> - *Short, heavy-gauge wires should be used for a transceiver's DC power connection to minimize voltage drop when transmitting* {{< link id="T4A03" >}}
+> - For a typical 50-watt output mobile FM transceiver, you'll need a power supply rated at 13.8 volts at 12 amperes {{< link id="T4A01" >}}
+> - The function of a voltage regulator circuit is to control the amount of voltage from a power supply {{< link id="T6D05" >}}
+> - Short, heavy-gauge wires should be used for a transceiver's DC power connection to minimize voltage drop when transmitting {{< link id="T4A03" >}}
 
 This power supply plugs into a wall socket and delivers the DC power your radio needs. Inside, voltage regulators ensure your radio gets a steady, consistent voltage regardless of fluctuations.
 
@@ -23,19 +23,22 @@ Always keep the wires between your power supply and radio short and reasonably h
 
 #### Surge Protectors
 
-Speaking of power, don't forget a good surge protector. It’s like a shock absorber for your equipment, softening the blow of unexpected power spikes before they reach your radio’s delicate circuits.
+Speaking of power, don't forget a good surge protector. It's like a shock absorber for your equipment, softening the blow of unexpected power spikes before they reach your radio's delicate circuits.
 
 #### Digital Interfaces  
 
-For digital enthusiasts, connecting your radio to your computer can open up a whole new world of communication. This little box acts as your bridge to digital modes, unlocking exciting possibilities. When setting up your radio for digital modes, *you’ll be working with three main signals: receive audio, transmit audio, and push-to-talk (PTT).*  
+For digital enthusiasts, connecting your radio to your computer can open up a whole new world of communication. This little box acts as your bridge to digital modes, unlocking exciting possibilities. When setting up your radio for digital modes, *you'll be working with three main signals: receive audio, transmit audio, and push-to-talk (PTT).*  
 
 #### Antenna Analyzers, SWR Meters, and Power Meters
+
+![Illustration of a SWR meter](../../../images/illus/swrmeter.svg)
+{.img-pgcap .float-right}
 
 Let's talk about antenna analyzers, SWR meters, and power meters. These tools help you tune your antennas and ensure your equipment is operating efficiently.
 
 > **Key Information:**
-> - *When selecting an accessory SWR meter, you should consider the frequency and power level at which the measurements will be made* {{< link id="T4A02" >}}
-> - *An RF power meter should be installed in the feed line, between the transmitter and antenna* {{< link id="T4A05" >}}
+> - When selecting an accessory SWR meter, you should consider the frequency and power level at which the measurements will be made {{< link id="T4A02" >}}
+> - An RF power meter should be installed in the feed line, between the transmitter and antenna {{< link id="T4A05" >}}
 
 An antenna analyzer is like a Swiss Army knife for antenna work, while SWR meters and power meters are more straightforward. They connect "inline" between your transmitter and antenna to measure outgoing and reflected power. This tells you how well your antenna is performing.
 
@@ -51,17 +54,25 @@ For mobile operation, several antenna mounting options are available:
 
 Choose based on your needs and vehicle type. Proper installation is key for both performance and safety. There are even mounts which you can use to put the antenna from your handheld transceiver on the roof of your vehicle!
 
-#### Audio Accessories
+#### Mobile and Portable Operation Accessories
 
-Now, here's something you might not think about right away: a good pair of headphones. When the bands are busy or you're trying to pull out a weak signal, headphones can make all the difference. Plus, they keep the peace if you're operating while others are trying to watch TV!
+When operating from a vehicle or on the go with your handheld transceiver (HT), a few accessories can dramatically improve your experience:
 
-#### Other Accessories
+For handheld operation:
+- Speaker-microphones let you keep your radio on your belt while operating
+- Earpieces or headsets are invaluable during public service events, bicycle mobile operation, or in noisy environments
+- Tactical PTT buttons can be attached to handlebars or clothing for easier operation when mobile
+- Extended battery packs for long operating sessions
 
-A few other helpful accessories to consider:
+For mobile installations:
+- External speakers improve audio clarity over road and engine noise
+- Microphone extension cables allow flexible microphone placement
+- Mounting brackets keep your radio secure and within reach while driving
+- Headsets can reduce distraction while operating mobile, though you should always take care with any such operation!
 
-- **Surge protectors** to keep power spikes away from your equipment
-- **Digital interfaces** to connect your radio to a computer for digital modes using receive audio, transmit audio, and PTT signals
-- **Headphones** for pulling out weak signals and keeping peace with family members
+These accessories not only make operation more comfortable but can be critical for effective communication during public service events or emergencies when you need to hear and be heard clearly.
+
+---
 
 Remember, you don't need all this stuff to get started. A radio, an antenna, and a power source are all you really need to join the conversation. As your interests grow, you can add accessories that enhance your specific operating style.
 
