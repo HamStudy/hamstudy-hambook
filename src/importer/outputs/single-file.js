@@ -31,18 +31,18 @@ async function loadQuestionsJson() {
  * @param {Question} question 
  * @returns 
  */
-function formatQuestionMarkdown(question) {
-    const correctAnswer = question.answers.find((answer) => answer.letter === question.answer);
+function formatQuestionMarkdown(question, qId) {
+    const correctAnswer = question.answers.find((answer) => answer.correct);
     let content = '\n';
     if (correctAnswer.text.toLowerCase().includes('all of these')) {
-        content += `**${question.id}**: (${question.answer}) ${question.text}\n\n`;
+        content += `**${qId}**: (${question.answer}) ${question.text}\n\n`;
         for (const answer of question.answers) {
             content += `* **${answer.letter}.**: ${answer.text}\n`;
         }
     } else {
         // We only show the text and correct answer
-        content = `\n**${question.id}**: ${question.text}\n\n`;
-        let correctAnswerText = question.answers.find((answer) => answer.letter === question.answer).text;
+        content = `\n**${qId}**: ${question.text}\n\n`;
+        let correctAnswerText = question.answers.find((answer) => answer.correct).text;
         content += `* **Answer**: ${correctAnswerText}\n\n`;
     }
     return content + '\n';
@@ -84,7 +84,7 @@ async function writeSingleFileMarkdown(book, outputPath) {
                 if (!q) {
                     throw new Error(`Question not found: ${question}`);
                 }
-                content += formatQuestionMarkdown(q);
+                content += formatQuestionMarkdown(q, question);
             }
         }
 
