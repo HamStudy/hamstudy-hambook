@@ -84,9 +84,9 @@ A *potentiometer* is a variable resistor. As you turn the knob or slide the cont
 > * You will also need to be able to *identify a SPST (Single Pole, Single Throw) switch on a circuit diagram*. {{< link id="T6A12" >}}
 
 ![Diagram of a SPST switch](../../../images/s2-1-spst-switch.svg)
-{.img-small .float-right .mb-1}
+{.img-small .float-right .mb-1 .img-bw}
 ![Diagram of a SPDT switch](../../../images/s2-1-spdt-switch.svg)
-{.img-small .float-right .clear}
+{.img-small .float-right .clear .img-bw}
 
 A SPST switch is a simple on/off switch that controls one input. A SPDT switch is similar, but instead of merely turning the input on or off it switches it between two outputs. Think of an SPDT switch like a railroad track switch with one input track (the pole) that can connect to either of two output tracks (the throws). When you flip the switch, you're choosing which output track the input will connect to.
 

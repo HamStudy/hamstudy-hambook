@@ -35,7 +35,7 @@ Whether you're tuning in to your favorite broadcast station, chatting on a repea
 > - Radio waves travel at the *speed of light* in free space (approximately *300,000,000 meters per second*){{< link id="T3B04" >}}{{< link id="T3B11" >}}
 
 ![Electric vs Magnetic Fields - always at a right angle from each other](../../../images/electromagnetic-3d.gif)
-{.img-centered .mw-60}
+{.img-centered .img-large}
 
 #### Polarization
 

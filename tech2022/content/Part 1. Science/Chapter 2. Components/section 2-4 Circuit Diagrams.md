@@ -20,59 +20,32 @@ Let's review the key components you'll encounter in circuit diagrams. Pay specia
 
 > **Key Information:** A *resistor controls the flow of current* in a circuit. {{< link id="T6D10" >}}
 
-- **Resistor**: That familiar zig-zag line represents a component that controls current flow. You'll see these everywhere in circuits. {{< link id="T6C02" >}}
-  
-  ![Resistor schematic diagram](../../../images/s2-1-resistor.svg)
-  {.img-small}
-
-- **Variable Resistor (Potentiometer)**: Like a regular resistor, but with an arrow showing you can adjust its value. {{< link id="T6C08" >}}
-  
-  ![Potentiometer schematic symbol](../../../images/schem-potentiometer.svg)
-  {.img-small}
-
-- **Capacitor**: Those parallel lines store electrical energy. You'll see both polarized (with a curved line) and non-polarized versions. {{< link id="T6C06" >}}
-  
-  ![Capacitor schematic diagram](../../../images/s2-1-capacitor.svg)
-  {.img-small}
-
-- **Transformer**: Two coils side by side show energy transfer between circuits. {{< link id="T6C09" >}}
-  
-  ![Transformer schematic Symbol](../../../images/schem-transformer.svg)
-  {.img-small}
-
-- **Variable Inductor**: A coil with an arrow through it means you can adjust its value. {{< link id="T6C10" >}}
-  
-  ![Variable Inductor schematic symbol](../../../images/schem-varinductor.svg)
-  {.img-small}
+| **Component** | **Description** | **Symbol**  |
+|---------------|------------------|---|
+| **Resistor** | That familiar zig-zag line represents a component that controls current flow. You'll see these everywhere in circuits. {{< link id="T6C02" >}} | ![Resistor schematic diagram](../../../images/s2-1-resistor.svg) |
+| **Variable Resistor (Potentiometer)** | Like a regular resistor, but with an arrow showing you can adjust its value. {{< link id="T6C08" >}} | ![Potentiometer schematic symbol](../../../images/schem-potentiometer.svg) |
+| **Capacitor** | Those parallel lines store electrical energy. You'll see both polarized (with a curved line) and non-polarized versions. {{< link id="T6C06" >}} | ![Capacitor schematic diagram](../../../images/s2-1-capacitor.svg) |
+| **Inductor** | A coil of wire which stores energy in a magnetic field | ![Inductor schematic Symbol](../../../images/s2-1-inductor.svg) |
+| **Transformer** | Two coils side by side show energy transfer between circuits. {{< link id="T6C09" >}} | ![Transformer schematic Symbol](../../../images/schem-transformer.svg) |
+| **Variable Inductor** | A coil with an arrow showing you can adjust its value. {{< link id="T6C10" >}} | ![Variable Inductor schematic symbol](../../../images/schem-varinductor.svg) |
+{.component-table}
 
 ##### Active Components
 
-- **Transistor**: These workhorses control current flow and provide amplification. The arrow shows current direction. {{< link id="T6C03" >}}
-  
-  ![NPN Transistor Schematic Symbol](../../../images/schem-npn.svg)
-  {.img-small}
-
-- **LED (Light Emitting Diode)**: Like a regular diode but with arrows showing it emits light. {{< link id="T6C07" >}}
-  
-  ![LED schematic diagram with anode / cathode labeled](../../../images/s2-2-led.svg)
-  {.img-small}
+| **Component** | **Description** | **Symbol** |
+|---------------|-----------------|------------|
+| **Transistor** | These workhorses control current flow and provide amplification. The arrow shows current direction. | ![NPN Transistor Schematic Symbol](../../../images/schem-npn.svg) {{< link id="T6C03" >}} |
+| **LED (Light Emitting Diode)** | Like a regular diode but with arrows showing it emits light. | ![LED schematic diagram with anode / cathode labeled](../../../images/s2-2-led.svg) {{< link id="T6C07" >}} |
+{.component-table}
 
 ##### Power and Indicators
 
-- **Battery**: Long and short lines show positive and negative terminals. {{< link id="T6C05" >}}
-  
-  ![Power Supply Schematic Symbol](../../../images/schem-battery.svg)
-  {.img-small}
-
-- **Lamp**: A circle with a cross inside represents a light bulb. {{< link id="T6C04" >}}
-  
-  ![Lamp Lamp Schematic Symbol](../../../images/schem-lamp.svg)
-  {.img-small}
-
-- **Antenna**: A line with smaller lines at an angle represents where signals enter or leave the circuit. {{< link id="T6C11" >}}
-  
-  ![Antenna Schematic Symbol](../../../images/schem-antenna.svg)
-  {.img-small}
+| **Component** | **Description** | **Symbol** |
+|---------------|-----------------|------------|
+| **Battery** | Long and short lines show positive and negative terminals. | ![Power Supply Schematic Symbol](../../../images/schem-battery.svg) {{< link id="T6C05" >}} |
+| **Lamp** | A light bulb, or lamp. | ![Lamp Lamp Schematic Symbol](../../../images/schem-lamp.svg) {{< link id="T6C04" >}} |
+| **Antenna** | A line with smaller lines at an angle represents an antenna, where signals enter or leave the circuit. {{< link id="T6C11" >}} | ![Antenna Schematic Symbol](../../../images/schem-antenna.svg) |
+{.component-table}
 
 #### Reading Circuit Diagrams
 

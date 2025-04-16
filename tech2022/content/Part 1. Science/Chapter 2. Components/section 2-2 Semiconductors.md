@@ -18,7 +18,7 @@ Semiconductors are special materials that make modern electronics possible. They
 > - The *forward voltage drop is lower in some diode types than others* {{< link id="T6B01" >}}
 
 ![Diode schematic diagram with anode / cathode labeled](../../../images/s2-2-diode.svg)
-{.img-small .float-right}
+{.img-small .float-right .img-bw}
 
 A diode has two electrodes:
 - *Anode*: The positive connection
@@ -33,7 +33,7 @@ One common use of diodes is in a *rectifier*, which changes alternating current 
 > **Key Information:** An LED produces light when *forward current* flows through it. {{< link id="T6B07" >}}
 
 ![LED schematic diagram with anode / cathode labeled](../../../images/s2-2-led.svg)
-{.img-small .float-right}
+{.img-small .float-right .img-bw}
 
 LEDs are special diodes that light up when current flows through them. They're commonly used as indicator lights on radio equipment - that power light on your transceiver is an LED! {{< link id="T6D07" >}}
 

@@ -23,7 +23,7 @@
     {{- $question := index $questionsData $questionID -}}
     {{- if $question -}}
       {{- $hasAllTheseChoices := $question.allCorrect -}}
-      {{- $imagePath := printf "figures/%s" $question.image -}}
+      {{- $imagePath := printf "figures/%s" (strings.Replace $question.image ".png" ".svg") -}}
       {{- $imgId := replaceRE "\\..*$" "" $question.image -}}
       {{- if and $question.image (not (index $shownFigures $question.image)) -}}
         <div class="question-figure figure-{{ $imgId }}">

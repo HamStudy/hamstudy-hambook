@@ -299,6 +299,7 @@ div.qrcode {
   --dark-question-distractor-color: #888888; /* Color for distractors */
   --dark-border: #111111; /* Border for question item in dark mode */
   --dark-answer-border: #555555; /* Border for answer item in dark mode */
+  --dark-blockquote-bg: #002f35; /* Background for blockquote in dark mode */
 }
 
 .markdown .book-section {
@@ -320,6 +321,18 @@ div.qrcode {
     line-height: 0.8rem;
     background-color: var(--bg-gray);
   }
+
+  &.component-table {
+    // break-inside: avoid;
+    // page-break-inside: avoid;
+    img {
+      width: 15rem;
+    }
+  }
+}
+
+img.img-bw {
+  filter: var(--icon-filter);
 }
 
 .img-med {
@@ -327,6 +340,10 @@ div.qrcode {
 }
 .img-full {
   width: 100%;
+}
+.img-large {
+  width: 60%;
+  border: 1px solid black;
 }
 .img-portrait {
   max-height: 50vh;
@@ -349,8 +366,8 @@ div.qrcode {
 .float-right { float: right; margin-left: 1.5rem; clear: right; }
 .float-left { float: left; margin-right: 1.5rem; clear: right; }
 
-.markdown section blockquote {
-  background-color: #e1fbff;
+.markdown blockquote {
+  background-color: var(--blockquote-bg);
   // border-radius: 0.75rem;
   border-left: 0.5rem solid var(--blockquote-left);
   margin: 1rem;
@@ -372,7 +389,7 @@ img.icon {
   width: 4rem;
 }
 .mw-60 {
-  max-width: 60%;
+  max-width: 60% !important;
 }
 .clear { clear: both; }
 .text-center { text-align: center;}
@@ -390,6 +407,11 @@ img.icon {
     --answer-border: var(--dark-answer-border); /* Override for answer item border in dark mode */
     --correct-answer-border: var(--dark-correct-answer-border); /* Override for correct answer border in dark mode */
     --question-distractor-color: var(--dark-question-distractor-color); /* Override for distractor color in dark mode */
+    --blockquote-bg: var(--dark-blockquote-bg); /* Override for blockquote background in dark mode */
+  }
+
+  .markdown table.component-table img {
+    filter: var(--icon-filter);
   }
 }
 
