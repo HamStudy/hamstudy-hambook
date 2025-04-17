@@ -129,6 +129,9 @@ A message transmitted by a control operator of an amateur station to another ama
 ##### ULS (Universal Licensing System)
 The FCC database where licenses are recorded. An amateur radio license is valid as soon as it appears and is active in the ULS.
 
+##### UHF (Ultra High Frequency)
+The radio frequency band between 300 MHz and 3 GHz. Commonly used for local communication, including handheld radios and repeaters.
+
 #### V
 
 ##### Vanity Call Sign
@@ -165,3 +168,6 @@ Acknowledgment of receipt or understanding.
 
 ##### QSY
 Changing to a different frequency.
+
+##### QTH
+The location of a station. For example, “My QTH is Salt Lake City” means “My location is Salt Lake City.”

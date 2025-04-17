@@ -1,12 +1,48 @@
-<svg viewBox="0 0 200 200" width="200" height="200" xmlns="http://www.w3.org/2000/svg">
-  <!-- Circle -->
-  <circle cx="100" cy="100" r="80" fill="white" stroke="black" stroke-width="2"/>
-  <!-- Horizontal Divider -->
-  <line x1="20" y1="100" x2="180" y2="100" stroke="black" stroke-width="2"/>
-  <!-- Vertical Divider -->
-  <line x1="100" y1="100" x2="100" y2="180" stroke="black" stroke-width="2"/>
-  <!-- Text Labels -->
-  <text x="100" y="80" text-anchor="middle" font-family="Arial" font-size="40" font-weight="bold">300</text>
-  <text x="65" y="145" text-anchor="middle" font-family="Arial" font-size="40" font-weight="bold">λ</text>
-  <text x="135" y="145" text-anchor="middle" font-family="Arial" font-size="40" font-weight="bold">ƒ</text>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" width="175" height="175" version="1.1" viewBox="0 0 175 175">
+  <!-- Generator: Adobe Illustrator 29.4.0, SVG Export Plug-In . SVG Version: 2.1.0 Build 152)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #efede0;
+        stroke: #000;
+      }
+
+      .st0, .st1 {
+        stroke-width: 2px;
+      }
+
+      .st2 {
+        fill: #d60000;
+      }
+
+      .st2, .st3, .st4 {
+        font-family: Arial-BoldMT, Arial;
+        font-size: 40px;
+        font-weight: 700;
+        isolation: isolate;
+      }
+
+      .st1 {
+        fill: none;
+        stroke: #1a373a;
+      }
+
+      .st3 {
+        fill: #5aba47;
+      }
+
+      .st4 {
+        fill: #1a373a;
+      }
+    </style>
+  </defs>
+  <g>
+    <circle class="st0" cx="87.5" cy="87.5" r="80"/>
+    <line class="st1" x1="7.5" y1="87.5" x2="167.5" y2="87.5"/>
+    <line class="st1" x1="87.5" y1="87.5" x2="87.5" y2="167.5"/>
+  </g>
+  <text class="st4" transform="translate(54.1 67.5)"><tspan x="0" y="0">300</tspan></text>
+  <text class="st2" transform="translate(41.4 132.5)"><tspan x="0" y="0">λ</tspan></text>
+  <text class="st3" transform="translate(111.4 132.5)"><tspan x="0" y="0">ƒ</tspan></text>
 </svg>
