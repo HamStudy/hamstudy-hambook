@@ -11,18 +11,18 @@ Alright, space cadets, strap in for a journey to the final frontier of ham radio
 > **Key Information:** 
 > * According to FCC Part 97, a space station is an amateur station located more than 50 km above Earth's surface. {{< link id="T1A07" >}} 
 > * Any amateur holding a Technician class or higher license can communicate through amateur satellites. {{< link id="T1E02" >}} 
-> * Any amateur holding a Technician class or higher license may contact the ISS on VHF bands {{< link id="T1B02" >}} when it passes overhead.
+> * Any amateur holding a Technician class or higher license may contact the International Space Station (ISS) on VHF bands {{< link id="T1B02" >}} when it passes overhead.
 
 #### What are Amateur Satellites?
 
 Amateur satellites, often called "OSCAR" (Orbiting Satellite Carrying Amateur Radio), are like space-based repeaters. They receive signals on one frequency (uplink) and retransmit them on another (downlink). It's like playing cosmic ping-pong with your radio waves!
 
 > **Key Information:**
-> * A LEO satellite is a satellite in Low Earth Orbit, {{< link id="T8B10" >}} typically between 100 to 1,200 miles above Earth.
+> * A LEO satellite is a satellite in _**L**ow **E**arth **O**rbit_, {{< link id="T8B10" >}} typically between 100 to 1,200 miles above Earth.
 > * When a satellite is operating in "U/V mode," the satellite uplink is in the 70 centimeter band (UHF) and the downlink is in the 2 meter band (VHF). {{< link id="T8B08" >}}
 > * Amateur radio satellites commonly use multiple transmission modes including SSB, FM, CW, and data. {{< link id="T8B04" >}}
 
-These space speedsters zip around Earth and pass overhead several times a day. Each pass only lasts 5 to 15 minutes, so you've got to be quick! Most amateur satellites, including the popular FM ones, are LEOs.
+These space speedsters zip around Earth and pass overhead several times a day. A "pass" refers to the portion of the satellite's orbit when it's visible from your location on Earth - when it's above your horizon and you can communicate with it. Each pass typically only lasts 5 to 15 minutes, so you've got to be quick! Most amateur satellites are LEOs (Low Earth Orbit satellites), which makes them accessible to operators with modest equipment.
 
 #### Satellite Beacons and Telemetry
 
@@ -38,9 +38,9 @@ Satellite beacons are special transmissions that satellites send out regularly, 
 > * Spin fading of satellite signals is caused by rotation of the satellite and its antennas. {{< link id="T8B09" >}}
 > * Doppler shift in satellite communications is an observed change in signal frequency caused by relative motion between the satellite and Earth station. {{< link id="T8B07" >}}
 
-As a satellite rotates in space, its antennas change orientation relative to Earth, causing the signal strength to vary periodically - almost like a cosmic lighthouse effect. This is why satellite operators need to be aware of the satellite's rotational characteristics.
+As a satellite rotates in space, its antennas change orientation relative to Earth, causing the signal strength to vary periodically - almost like a cosmic lighthouse effect. This phenomenon, called spin fading, is why satellite operators need to be aware of the satellite's rotational characteristics.
 
-With Doppler shift, as the satellite approaches, the frequency appears higher, and as it moves away, it seems lower - just like the changing pitch of a passing train's whistle.
+With Doppler shift, as the satellite approaches, the frequency appears higher, and as it moves away, it seems lower - just like the changing pitch of a passing train's whistle. This means you'll need to adjust your frequency during the pass to compensate for this effect.
 
 #### Tracking and Operating Satellites
 
@@ -48,17 +48,17 @@ With Doppler shift, as the satellite approaches, the frequency appears higher, a
 > * Satellite tracking programs provide maps showing the real-time position of satellites, pass timing information, and the apparent frequency including Doppler shift effects. {{< link id="T8B03" >}}
 > * *These programs use Keplerian elements as inputs* {{< link id="T8B06" >}} - a set of numbers that describe the satellite's orbit.
 > * Using excessive uplink power can block access to the satellite by other users. {{< link id="T8B02" >}}
-> * Your signal strength on the downlink should be about the same as the beacon {{< link id="T8B12" >}} to ensure your uplink power is appropriate.
+> * Your signal strength on the downlink should be about the same as the beacon {{< link id="T8B12" >}} to ensure your uplink power is appropriate. This means you should listen to your own signal as it's retransmitted by the satellite and compare it to the strength of the satellite's beacon signal. If your signal is much stronger than the beacon, reduce your power; if it's weaker, you might need to increase power or improve your antenna pointing.
 
 Here's what you need to know to get started:
 
 1. **Frequencies**: Most ham satellites operate on VHF and UHF bands, right in your Technician wheelhouse. You'll often use one band for uplink and another for downlink.
 
-2. **Tracking**: Satellites move fast! You'll need tracking programs to know when they're passing overhead. They're like a cosmic recipe for predicting where a satellite will be at any given time.
+2. **Tracking**: Satellites move fast! You'll need tracking programs to know when they're passing overhead. These programs use mathematical formulas for predicting where a satellite will be at any given time.
    
 3. **Antennas**: While you can make some contacts with a handheld and its stock antenna, directional antennas work much better for satellite communications.
 
-4. **Power**: Unlike terrestrial repeaters, you don't need much power. Always use just enough power to make contact.
+4. **Power**: Unlike terrestrial repeaters, you don't need much power. Always use just enough power to make contact. Too much power can actually cause problems for other users trying to access the satellite at the same time.
 
 #### Types of Satellite Operations
 

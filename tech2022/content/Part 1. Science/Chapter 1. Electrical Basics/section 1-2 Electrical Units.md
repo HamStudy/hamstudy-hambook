@@ -15,25 +15,27 @@ To understand how our radios work, we need to familiarize ourselves with some ba
 
 While we often compare electricity to water flowing through pipes, this analogy isn't perfect. Let's look at what's really happening:
 
-- **Voltage** ($E$ or $V$) is like electrical "pressure" - *it's the force that causes electron flow in a circuit*, and we measure it in **volts (V)**.  {{< link id="T5A05" >}}
-  - Voltage is also sometimes called **electromotive force (EMF)**, because it creates the conditions that allow current to flow.
-  - Voltage is always measured *between two points*. When we say a car battery is 12V, we mean there's a **12-volt difference** between its positive and negative terminals.
+**Voltage** ($E$ or $V$) is like electrical "pressure" - *it's the force that causes electron flow in a circuit*, and we measure it in **volts (V)**.  {{< link id="T5A05" >}}
+- Voltage is also sometimes called **electromotive force (EMF)**, because it creates the conditions that allow current to flow.
+- Voltage is always measured *between two points*. When we say a car battery is 12V, we mean there's a **12-volt difference** between its positive and negative terminals.
 
-- **Current** ($I$) is *the flow of electrons in an electric circuit*, measured in **amperes (A)**. {{< link id="T5A01" >}} {{< link id="T5A03" >}} Here's what's interesting:
-  - While individual electrons move quite slowly through a conductor (about half an inch per minute!), the movement of electrical charges is nearly instantaneous - like a long tube filled with marbles. Push one in at one end, and one pops out the other end almost immediately.
-  - In amateur radio, you might deal with:
-    - **Milliamps (mA)** in low-power circuits
-    - **A few amps** powering a mobile transceiver
-    - **15-20 amps** for a high-power HF amplifier
+**Current** ($I$) is *the flow of electrons in an electric circuit*, measured in **amperes (A)**. {{< link id="T5A01" >}} {{< link id="T5A03" >}} Here's what's interesting:
 
-- **Resistance** ($R$) is *how much a material opposes current flow by converting electrical energy into heat*, measured in **ohms ($\Omega$)**.  {{< link id="T5A04" >}}
-  - Think of resistance as a fundamental property that affects how electrical energy moves through a circuit:
-    - *Conductors* like copper wire have *very low resistance*, allowing current to flow easily
-    - *Insulators* like rubber or glass have *very high resistance*, blocking current flow
-    - *Resistors* are components with specific, controlled resistance values used to:
-      - Limit current in LED circuits to prevent burnout
-      - Divide voltage in measurement circuits
-      - Convert electrical energy to heat in applications like dummy loads
+While individual electrons move quite slowly through a conductor (about half an inch per minute!), the movement of electrical charges is nearly instantaneous - like a long tube filled with marbles. Push one in at one end, and one pops out the other end almost immediately.
+
+In amateur radio, you might deal with:
+- **Milliamps (mA)** in low-power circuits
+- **A few amps** powering a mobile transceiver
+- **15-20 amps** for a high-power HF amplifier
+
+**Resistance** ($R$) is *how much a material opposes current flow by converting electrical energy into heat*, measured in **ohms ($\Omega$)**.  {{< link id="T5A04" >}}
+Think of resistance as a fundamental property that affects how electrical energy moves through a circuit:
+- *Conductors* like copper wire have *very low resistance*, allowing current to flow easily
+- *Insulators* like rubber or glass have *very high resistance*, blocking current flow
+- *Resistors* are components with specific, controlled resistance values used to:
+  - Limit current in LED circuits to prevent burnout
+  - Divide voltage in measurement circuits
+  - Convert electrical energy to heat in applications like dummy loads
 
 These three quantities are fundamentally linked as explained by **Ohm's Law**, which we'll cover in **Section 1.3**.
 
@@ -81,16 +83,22 @@ In amateur radio, power is important because:
 
 #### Decibels
 
-Instead of always talking in watts, hams often use **decibels (dB)** to express power changes. Decibels make it easy to compare signal strengths:
+Instead of always talking in watts, hams often use **decibels (dB)** to express power changes. The decibel is a *logarithmic unit* that makes it much easier to express and work with very large or very small ratios. Instead of multiplying power levels, we can simply add or subtract dB values, which is particularly useful in radio systems where signals might be amplified and attenuated multiple times.
+
+Here's what decibels mean in practice:
 
 - **+3 dB** means power *doubles*. {{< link id="T5B09" >}}
 - **-3 dB** means power *is cut in half*.
+- **-6 dB** means power *is cut in half twice (divided by four)*. 
 - **+10 dB** means power *increases by ten times*. {{< link id="T5B11" >}}
+- **+20 dB** means power increases by one hundred times.
 
 Some real-world examples:
 - A power increase from **5W to 10W** is a **+3 dB gain**.
 - A decrease from **12W to 3W** is a **-6 dB loss**. {{< link id="T5B10" >}}
 - Going from **20W to 200W**? That's a **+10 dB boost**.
+
+The beauty of the decibel scale is that it compresses large numbers into a more manageable range, making it easier to understand and discuss signal gains and losses throughout a radio system.
 
 #### AC and DC
 

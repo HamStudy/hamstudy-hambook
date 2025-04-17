@@ -45,7 +45,7 @@ Your station identification must include your FCC-assigned call sign. Here are s
 
 > **Key Information:** All of these choices are acceptable when using a phone transmission: KL7CC stroke W3, KL7CC slant W3, or KL7CC slash W3. {{< link id="T1F06" >}}
 
-Want to add a little flair to your call sign? You can use self-assigned indicators! These are like radio bumper stickers that tell others something special about your operation. Add them before or after your call sign (or both!), separated by a slash (/), the word "stroke," "slant," or "slash." For example, "KA1ABC/MOB" or "KA1ABC stroke R" lets folks know you're on the move. "W1AW/70" might indicate you're celebrating a 70th anniversary. Just remember, your indicator can't clash with any FCC-specified indicators or country prefixes.
+Want to add a little flair to your call sign? You can use self-assigned indicators! These are like radio bumper stickers that tell others something special about your operation. Add them before or after your call sign (or both!), separated by a slash (/), the word "stroke," "slant," or "slash." For example, "KA1ABC/MOB" might be used to let folks know you're on the move. "W1AW/70" might indicate you're celebrating a 70th anniversary. Just remember, your indicator can't clash with any FCC-specified indicators or country prefixes.
 
 #### Special Situations
 

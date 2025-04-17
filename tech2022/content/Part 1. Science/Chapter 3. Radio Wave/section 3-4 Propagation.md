@@ -88,13 +88,13 @@ When meteors burn up in the atmosphere, they leave brief trails that can reflect
 
 #### Environmental Effects
 
-Different environmental factors affect different frequencies in various ways:
+Different environmental factors affect different frequencies in various ways.
 
 > **Key Information:** 
-> - *Precipitation can decrease range at microwave frequencies* {{< link id="T3A07" >}}
-> - *Fog and rain have little effect* on signals in the *10 meter and 6 meter bands* {{< link id="T3A12" >}}
-> - *UHF and microwave signals are absorbed by vegetation* {{< link id="T3A02" >}}
-> - *Multipath propagation can increase error rates* in data transmissions {{< link id="T3A10" >}}
+> - Precipitation can decrease range at microwave frequencies {{< link id="T3A07" >}}
+> - Fog and rain have little effect on signals in the 10 meter and 6 meter bands {{< link id="T3A12" >}}
+> - UHF and microwave signals are absorbed by vegetation {{< link id="T3A02" >}}
+> - Multipath propagation can increase error rates in data transmissions {{< link id="T3A10" >}}
 
 Understanding these effects helps you:
 - Choose appropriate frequencies for different weather conditions

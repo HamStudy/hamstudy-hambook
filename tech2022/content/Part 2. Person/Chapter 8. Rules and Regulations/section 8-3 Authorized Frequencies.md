@@ -89,7 +89,9 @@ Remember, as a Technician, you're learning the ropes of ham radio. Start with lo
 
 #### Listening Privileges
 
-While these are your transmitting privileges, you can listen on any frequency. It's like having an all-access pass to the radio concert, but you can only sing along on certain stages!
+While your license governs where you can **transmit**, you’re free to **listen** on any amateur radio frequency. In fact, many hams enjoy tuning around and listening to activity on bands they can’t yet transmit on.
+
+Be aware that some **non-amateur frequencies**—like cordless or cellular phone communications—may be **illegal to monitor**, especially if they’re encrypted or intended to be private. In practice, most of those signals are digital or encrypted and can’t be decoded anyway, but it's good to know.
 
 #### Operating Near Band Edges
 

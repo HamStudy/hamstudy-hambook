@@ -22,7 +22,7 @@ The Federal Communications Commission (FCC) {{< link id="T1A02" >}} regulates an
 4. Providing a voluntary noncommercial communication service to the public, especially in times of emergency.
 5. Contributing to the advancement of the radio art.
 
-These purposes highlight the multifaceted nature of amateur radio - it's not just a hobby, but a service with important technical, social, and public safety roles. As you progress in amateur radio, you'll find opportunities to fulfill each of these purposes.
+These purposes highlight the multifaceted nature of amateur radio - it's not just a hobby, but a service with important technical, social, and public safety roles. As you progress in amateur radio, you'll find opportunities to fulfill each of these purposes. To support these purposes, the FCC grants different levels of licenses, each with increasing privileges.
 
 #### Operator Classes and Privileges
 
@@ -48,9 +48,9 @@ The FCC currently issues three classes of amateur radio licenses: {{< link id="T
    - Access to exclusive Extra-only sections of bands
    - Can get accredited as a Volunteer Examiner to administer exams for new and upgrading operators of any license class
 
-> **Key Information:** Each person may hold only one operator/primary station license grant.
+You may come across other license classes besides these; that's because the rules have changed over the years and the Novice, Technician Plus, and Advanced licenses are no longer issued to new licensees. There are still people out there who hold Novice or Advanced licenses but that's a topic outside of the scope of this book.
 
-Each person can only hold *one operator/primary station license grant*, regardless of how many locations they operate from. {{< link id="T1A04" >}} This means you'll have just one call sign, even if you have multiple radios or operating locations.
+> **Key Information:** Each person may hold only one operator/primary station license grant. {{< link id="T1A04" >}} This means you'll have just one call sign, even if you have multiple radios or operating locations.
 
 #### License Verification
 
@@ -68,11 +68,9 @@ Here's something critically important: *You must provide and maintain a correct 
 
 In the US, call signs are structured as follows: [Prefix][Number][Suffix]
 
-> **Key Information:** A valid Technician class call sign format includes a single letter prefix (K, N, or W) followed by a region number and three suffix letters (like KF1XXX).
+> **Key Information:** All Technician call signs will be either 2x3 or 1x3, from groups C or D (described below), such as KF1XXX or K1XXX. A Technician class operator cannot be assigned a 1x2 or 2x1 (such as W1XX or KA1X). {{< link id="T1C05" >}}
 
-For Technicians, valid call sign formats include a single letter prefix (K, N, or W) followed by a region number and three suffix letters (like *KF1XXX*). {{< link id="T1C05" >}} This is known as a "Group C" call sign.
-
-There are four "groups" that call signs are assigned from:
+There are four "groups" that call signs are assigned from. 
 
 **Call Sign Groups**:
 
@@ -84,7 +82,7 @@ There are four "groups" that call signs are assigned from:
    **Special event call signs**: The 1x1 format call signs, like K1A, are only used for special event stations and are only assigned for a limited time. You may hear them, but one will never be assigned to an individual.
 
 * **Group B - Advanced Class**
-   - **Prefix:** Two letters starting with K, N, or W
+   - **Prnefix:** Two letters starting with K, N, or W
    - **Suffix:** 2 letters
    - **Examples:** KA1AA, WB2BB, NT3ST
 
@@ -106,7 +104,7 @@ When you earn your first ham radio license you will be issued a sequential call 
 
 > **Key Information:** Any licensed amateur may select a desired call sign under the vanity call sign rules.
 
-Don't like your assigned call sign? Good news! *Any licensed amateur can select a desired call sign under the vanity call sign rules*. {{< link id="T1C02" >}} You can apply for a vanity call sign from your group or a lower group (representing a higher class license). There are also some prefixes which are assigned to specific geographical regions.
+Don't like your assigned call sign? Good news! *Any licensed amateur can select a desired call sign under the vanity call sign rules*. {{< link id="T1C02" >}} You can apply for a vanity call sign from your group or a lower group (representing a lower class license). There are also some prefixes which are assigned to and reserved for specific geographical regions.
 
 #### Call Sign Regions
 

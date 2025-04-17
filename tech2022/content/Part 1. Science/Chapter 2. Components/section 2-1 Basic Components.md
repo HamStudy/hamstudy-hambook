@@ -27,6 +27,9 @@ Common applications in amateur radio include:
 
 #### Capacitors and Inductors: The Energy Storage Twins
 
+![Illustration with a cartoon capacitor and inductor, clearly fraternal twins](../../../images/illus/inducticap.svg)
+{.img-pgcap .float-right}
+
 Just as a battery stores energy chemically, capacitors and inductors also store energy—but in completely different ways. These components are like siblings: they complement each other while having their own unique characteristics.
 
 ##### Capacitors: Electric Field Energy Storage

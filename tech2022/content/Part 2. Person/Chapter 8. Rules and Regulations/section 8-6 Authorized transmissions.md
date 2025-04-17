@@ -57,7 +57,7 @@ Welcome to the "do's and don'ts" of amateur radio! Understanding what you can an
 
 #### Third-Party Communications: Playing Telephone (Literally)
 
-> **Key Information:** Third party communications is a message from a control operator (first party) of an amateur station to another amateur station control operator (second party) on behalf of another person (third party). {{< link id="T1F08" >}}
+> **Key Information:** Third party communications are messages from a control operator (first party) of an amateur station to another amateur station control operator (second party) on behalf of another person (third party). {{< link id="T1F08" >}}
 
 Ever wanted to let your non-ham friend use your radio? That – as well as passing messages on their behalf – counts as a third-party communication, and it comes with some rules:
 
@@ -142,7 +142,7 @@ Remember, these are exceptions to the general rule. The primary purpose of amate
 
    Imagine your grandma is listening - because she might be! No obscene or indecent language allowed. Let's keep it clean, folks.
 
-6. **No Fake News or Impersonations**: 
+6. **No False or Fraudulent Signals**: 
    False distress calls or pretending to be another station? That's not just against the rules, it's potentially dangerous. Don't do it!
 
 7. **Stay in Your Lane**: 

@@ -17,12 +17,14 @@ The radio spectrum is a finite resource, and just like seating in a packed theat
 > **Key Information:** In segments of bands where the Amateur Radio Service is secondary, U.S. amateurs may find non-amateur stations in those segments, and must avoid interfering with them. {{< link id="T1B08" >}}
 
 Not all spectrum allocations are created equal! There are two main types of allocations:
+ 
+- **Primary**: If you're on a primary allocation, you've got a reserved seat — like having a confirmed airline ticket. You have priority, and others are expected not to interfere with your operations.
 
-- **Primary**: If you're on a primary allocation, you've got the best seat in the house. You have priority, and others are expected not to interfere with you.
-  
-- **Secondary**: If you're using a secondary allocation, it's like being at the back of the line at a crowded concert. You have to make sure you're not interfering with the primary users. If primary users are active, you need to either work around them or move to another frequency. Even if they cause interference to your communications, you have no recourse - they have the right to be there.
+- **Secondary**: If you're on a secondary allocation, you're flying standby. You can use the frequency when it’s available, but if the primary users show up, you need to step aside. Even if their presence causes interference to your signal, they still have the right to be there — you're the one who has to work around them.
 
-As an amateur operator, you'll find yourself in both situations. For example, on the 70 cm band (420-450 MHz), amateur radio is secondary to government radiolocation services in some areas. That means if Uncle Sam needs the airwaves, we step aside.
+As an amateur operator, you'll find yourself in both situations. For example, on the 70 cm band (420–450 MHz), amateur radio is secondary to government radiolocation services in some areas. That means if Uncle Sam needs the airwaves, we step aside.
+
+On the other hand, there are bands where amateurs have primary status. A great example is the 2.4 GHz band, specifically around 2400–2450 MHz, which overlaps with Wi-Fi channel 1. In this portion of the spectrum, amateur radio has primary allocation, while Wi-Fi devices operate on a secondary basis. That means if there's interference between an amateur station and Wi-Fi devices on that frequency, the amateur station has legal priority – though it's quite likely your nieghbor won't be aware of that, so the practical usefulness is questionable.
 
 #### Band Plans
 

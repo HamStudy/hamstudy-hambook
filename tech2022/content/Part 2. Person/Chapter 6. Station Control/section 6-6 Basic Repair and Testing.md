@@ -12,6 +12,9 @@ Let's get familiar with some essential skills for keeping your ham shack running
 
 #### The Multimeter: Your Ham Shack Swiss Army Knife
 
+![Cartoon of a anthropomorphic multimeter](../../../images/illus/multimeter.svg)
+{.img-small .float-right}
+
 > **Key Information:**
 > * A multimeter can measure *voltage, current and resistance*.
 > * An *ammeter* is used to measure electric current. {{< link id="T7D07" >}}

@@ -51,7 +51,7 @@ Here are some examples:
 | Landmark | Address | City, State, ZIP | Grid Locator |
 |----------|---------|------------------|:------------:|
 | Statue of Liberty | Liberty Island | New York, NY 10004 | FN20xq |
-| Golden Gate Bridge | Golden Gate Bridge | San Francisco, CA 94129 | CM87ts |
+| Golden Gate Bridge | Golden Gate Bridge | San Francisco, CA 94129 | CM87st |
 | White House | 1600 Pennsylvania Avenue NW | Washington, D.C. 20500 | FM18lv |
 | Space Needle | 400 Broad St | Seattle, WA 98109 | CN87to |
 | Graceland | 3764 Elvis Presley Blvd | Memphis, TN 38116 | EM45xb |
