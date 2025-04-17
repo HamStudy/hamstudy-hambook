@@ -10,14 +10,18 @@ While it can be fun to make up your own Phonetics and many people do particularl
 
 There are others, but the most commonly used phonetic alphabet is the Radiotelephony Spelling Alphabet, commonly known as the **NATO phonetic alphabet**:
 
-| Letter | Phonetic | Letter | Phonetic | Letter | Phonetic |
-|:------:|:--------:|:------:|:--------:|:------:|:--------:|
-| A      | Alpha    | B      | Bravo    | C      | Charlie  |
-| D      | Delta    | E      | Echo     | F      | Foxtrot  |
-| G      | Golf     | H      | Hotel    | I      | India    |
-| J      | Juliett  | K      | Kilo     | L      | Lima     |
-| M      | Mike     | N      | November | O      | Oscar    |
-| P      | Papa     | Q      | Quebec   | R      | Romeo    |
-| S      | Sierra   | T      | Tango    | U      | Uniform  |
-| V      | Victor   | W      | Whiskey  | X      | X-ray    |
-| Y      | Yankee   | Z      | Zulu     |        |          |
+| Letter | Phonetic | Letter | Phonetic |
+|:------:|:--------:|:------:|:--------:|
+| A      | Alpha    | N      | November |
+| B      | Bravo    | O      | Oscar    |
+| C      | Charlie  | P      | Papa     |
+| D      | Delta    | Q      | Quebec   |
+| E      | Echo     | R      | Romeo    |
+| F      | Foxtrot  | S      | Sierra   |
+| G      | Golf     | T      | Tango    |
+| H      | Hotel    | U      | Uniform  |
+| I      | India    | V      | Victor   |
+| J      | Juliett  | W      | Whiskey  |
+| K      | Kilo     | X      | X-ray    |
+| L      | Lima     | Y      | Yankee   |
+| M      | Mike     | Z      | Zulu     |

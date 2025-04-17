@@ -24,16 +24,11 @@ Imagine you’re outside on a sunny day:
 
 #### Understanding the Bigger Picture
 
-**Beyond the Test**: While you only need to know the HF, VHF, and UHF ranges for the exam, understanding how they fit into the broader electromagnetic spectrum can help make sense of radio communication.
+While the exam focuses on the HF, VHF, and UHF bands, it helps to zoom out a bit.
 
-The electromagnetic spectrum includes all types of electromagnetic radiation, from the longest radio waves to the shortest gamma rays. As amateur radio operators, we work primarily with the radio portion of this spectrum. Here's how our key ranges fit in:
+The electromagnetic spectrum includes all types of electromagnetic radiation, from the long waves used in radio to the short bursts of gamma rays. Radio waves are just one slice of this spectrum—one that happens to be useful for communication.
 
-```
-Radio Waves (Our Domain)             Higher frequency Waves
-<-----------------------------------|----------------------->
-     HF         VHF         UHF     | Microwaves, Light, etc.
-3-30 MHz   30-300 MHz   300-3000 MHz
-```
+What’s fascinating is that waves we encounter in everyday life, like microwaves, infrared heat, and even visible light, are all fundamentally the same kind of energy: electromagnetic waves. They just differ in frequency and wavelength. The frequencies we use with ham radio live in the lower-frequency end of that spectrum, but they're all part of the same physical phenomenon.
 
 #### Different Bands for Different Purposes
 

@@ -129,7 +129,7 @@ A message transmitted by a control operator of an amateur station to another ama
 ##### ULS (Universal Licensing System)
 The FCC database where licenses are recorded. An amateur radio license is valid as soon as it appears and is active in the ULS.
 
-##### UHF (Ultra High Frequency)
+##### UHF (Ultra High Frequency) {#glossary-uhf}
 The radio frequency band between 300 MHz and 3 GHz. Commonly used for local communication, including handheld radios and repeaters.
 
 #### V
