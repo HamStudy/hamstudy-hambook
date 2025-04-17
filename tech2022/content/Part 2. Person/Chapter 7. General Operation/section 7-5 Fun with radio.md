@@ -12,6 +12,9 @@ Alright, radio adventurers, buckle up! We're about to explore some of the cooles
 
 #### Fox Hunting and Direction Finding
 
+![illustration showing a guy in a park with a directional antenna looking for something. A fox tail sticks out from behind a tree and onlookers gawk in confusion](../../../images/illus/foxhunt.svg)
+{.img-xlarge .img-centered}
+
 Ever fancy yourself as a radio detective? Then you'll love fox hunting! In ham radio, a "fox" is a hidden transmitter, and your job is to find it using your radio skills and some clever equipment. It's like a high-tech game of hide-and-seek. Here's how it works:
 
 1. Someone sets up a low-power transmitter (the "fox") in a secret location.

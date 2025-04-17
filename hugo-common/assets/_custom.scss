@@ -1,4 +1,3 @@
-
 :root {
   --page-width: 8.5in;
   --page-height: 11in;
@@ -120,7 +119,7 @@ a.back-btn {
 
 div.study-prompt {
   display: flex; flex-wrap: wrap; align-items: center; justify-content: space-around;
-  // margin: 1rem 0;
+  margin: 0.5rem 0;
   > * {
     text-align: center;
   }
@@ -141,9 +140,6 @@ div.study-prompt {
     gap: 0;
     justify-content: center;
   }
-  // h4 { width: 50%; margin: 0; text-align: center;
-  //   img { max-height: 4rem; }
-  // }
 }
 div.qrcode {
   display: none !important;
@@ -331,8 +327,14 @@ div.qrcode {
   }
 
   &.component-table {
-    // break-inside: avoid;
-    // page-break-inside: avoid;
+    img {
+      width: 15rem;
+    }
+  }
+  &.connector-table {
+    tbody td {
+      font-size: 1rem;
+    }
     img {
       width: 15rem;
     }
@@ -351,7 +353,7 @@ img.img-bw {
   max-width: 100% !important;
 }
 .img-large {
-  width: 60%;
+  width: 50%;
 }
 .img-xlarge {
   width: 80%;

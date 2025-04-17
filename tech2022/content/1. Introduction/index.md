@@ -36,7 +36,7 @@ Under the following terms:
 
 By purchasing this book, you agree to these terms.  
 
-**These versions are not yet available; when they are, you can find them at:** https://hambook.org
+**You can find all versions of the book for online viewing or purchase at https://hambook.org**
 
 ---
 

@@ -65,6 +65,7 @@ $question-color: #336;
     margin: 0;
     padding-left: 0rem;
     list-style-type: none;
+    margin-top: 0.1rem;
     
     .answer-item {
       display: flex;
@@ -83,7 +84,7 @@ $question-color: #336;
       }
       
       &.correct-answer {
-        line-height: 1.25rem;
+        line-height: 1.1rem;
         border: 1px solid var(--correct-answer-border);
         border-radius: $border-radius-standard;
         background-color: var(--correct-answer-bg);
@@ -151,7 +152,7 @@ $question-color: #336;
     border-width: 1px .25rem 1px .25rem;
     border-style: solid;
     border-color: var(--section-border);
-    line-height: 1.25rem;
+    line-height: 1.1rem;
     label {
       display: inline-block;
       padding: 0 0.5rem;
@@ -167,7 +168,7 @@ $question-color: #336;
 .question-item {
   > strong {
     display: inline-block;
-    line-height: 1.25rem;
+    line-height: 1.1rem;
     span.q-id {
       font-weight: 900;
       a {
