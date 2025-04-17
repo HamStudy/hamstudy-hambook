@@ -203,7 +203,7 @@ div.qrcode {
     background-color: var(--section-hr);
     height: 1px;
     width: 75%;
-    margin: 0.25rem auto;
+    margin: 1rem auto;
   }
 
   .print-page-break {
@@ -309,7 +309,10 @@ div.qrcode {
 
 .markdown .book-section {
   > img, > div > img, > p > img {
-    max-width: var(--max-image-width) !important;
+    max-width: var(--max-image-width);
+    &.img-full {
+      max-width: 100% !important;
+    }
     display: block;
     margin: auto;
   }
@@ -345,9 +348,13 @@ img.img-bw {
 }
 .img-full {
   width: 100%;
+  max-width: 100% !important;
 }
 .img-large {
   width: 60%;
+}
+.img-xlarge {
+  width: 80%;
 }
 .img-portrait {
   max-height: 50vh;
