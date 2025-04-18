@@ -21,7 +21,17 @@ New operators start here!
 * Practical station setup guidance for beginners
 * Perfect for anyone new to amateur radio
 
-[**Read Now**](/tech2022) | [Download Options Coming Soon!]()
+[**Read Now**](/tech2022)  
+**Download and Purchase Options** *(from $9.99)*:  
+* [PDF](https://signalstuff.com/products/hambook-tech2022/?format=pdf) — Available now  
+* E-Book (EPUB) — Coming soon!
+* Paperback version – Coming soon!
+<!-- • [EPUB](https://signalstuff.com/products/hambook-tech2022/?format=epub) — Coming soon  
+• [Audiobook](https://signalstuff.com/products/hambook-tech2022/?format=audiobook) — Coming soon -->
+<!-- • [EPUB](https://signalstuff.com/products/hambook-tech2022/?format=epub) — Coming soon  
+• [Audiobook](https://signalstuff.com/products/hambook-tech2022/?format=audiobook) — Coming soon -->
+
+Your purchase helps support the development and maintenance of these free resources.
 
 <div class="clear"></div>
 
