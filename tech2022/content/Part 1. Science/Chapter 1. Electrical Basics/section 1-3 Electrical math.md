@@ -10,7 +10,7 @@ Okay, let's get into some of the basic math and electrical laws you'll use all t
 
 #### But First... Don't Panic About the Math!
 
-A lot of people see math questions and immediately start stressing—but there's **no reason to panic**. At **most**, you'll see **two** math-related questions on your exam: **one from T5C (power formulas) and one from T5D (Ohm's Law).** And guess what? You can **miss up to 9 questions and still pass**!  
+A lot of people see math questions and immediately start stressing—but there's **no reason to panic**. At **most**, you'll see **two** math-related questions on your exam: **one from {{< qid >}}T5C{{< /qid >}} (power formulas) and one from {{< qid >}}T5D{{< /qid >}} (Ohm's Law).** And guess what? You can **miss up to 9 questions and still pass**!  
 
 So if this section just isn't clicking for you, **don't worry about it**—skip it and focus on the parts that make more sense. But if you take a little time to understand these formulas, you might find that they're **actually pretty simple** and can help you in real-world radio troubleshooting.
 

@@ -17,6 +17,7 @@
   --bottom-margin: 0.5in;
 
   --top-caption-margin: 0.25in;
+  --bottom-caption-margin: 0.25in;
   --side-caption-margin: 1em;
 
   --post-section-margin: 5rem;
@@ -55,7 +56,7 @@ h4.subheading {
 }
 
 .qid, .q-id {
-  font-family: var(--questionid-font-family) !important;
+  // font-family: var(--questionid-font-family) !important;
   font-weight: 700;
 }
 
