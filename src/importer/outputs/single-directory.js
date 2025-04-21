@@ -95,6 +95,9 @@ async function writeSingleDirectoryBook(book, outputPath, sourcePath) {
     const processSections = async (sections, level = 0) => {
         const indent = '    '.repeat(level + 1); // Extra indentation for the HTML
         for (const section of sections) {
+            if (section.frontMatter?.epub === false) {
+                continue;
+            }
             if ('sections' in section && Array.isArray(section.sections)) {
                 const intro = (section.sections?.find(s => s.intro));
                 // Add a header for this section group
