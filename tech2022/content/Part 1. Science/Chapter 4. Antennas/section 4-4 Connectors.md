@@ -19,10 +19,9 @@ This little connector is like the smartphone of radio connectors—small, sleek,
 **Understanding SMA Connector Gender:**  
 An **SMA-M (male) connector** has **internal threads** and a **center pin**. This often causes confusion because the **external threads** of an **SMA-F (female) connector** can make it *look* male at first glance. However, the key detail is that **the center conductor determines the gender**:  
 
-| Connector | Image |
+| Center **pin** = **male** | Center **socket** = **female** |
 |:---------:|:-----:|
-| Center **pin** = **male** | ![SMA Male Connector](../../../images/SMAMale.jpg) |
-| Center **socket** = **female** | ![SMA Female Connector](../../../images/SMAFemale.jpg) |
+| ![SMA Male Connector](../../../images/SMAMale.jpg) | ![SMA Female Connector](../../../images/SMAFemale.jpg) |
 {.connector-table}
 
 Confused yet? Don’t worry, you’ll get the hang of it. Just remember: whatever connector is on your radio, you need the *opposite* on your antenna.  
@@ -32,9 +31,17 @@ Confused yet? Don’t worry, you’ll get the hang of it. Just remember: whateve
 ![BNC Male and Adapters](../../../images/bncadapters.jpg)
 {.img-large .float-right} 
 
-Think of BNC as the quick-change artist of connectors. Instead of screwing on like SMA, it has a **twist-and-lock** mechanism that makes connecting and disconnecting antennas a breeze. You’ll see these on some handheld radios, a lot of test equipment, and even some HF accessories.
+Think of BNC as the quick-change artist of connectors. Instead of screwing on like SMA, it has a **twist-and-lock** mechanism that makes connecting and disconnecting antennas a breeze. You'll see these on some handheld radios, a lot of test equipment, and even some HF accessories.
 
-Many hams use **BNC adapters** on their radios so they can easily switch between antennas. It’s especially useful if you like to swap between a rubber duck, a whip, and a mobile antenna without wearing out your radio’s built-in connector.  
+**Since early 2021, there's been a significant shift in the handheld radio community** toward using BNC connectors. While most handhelds still come with SMA connectors, a growing number of operators—especially those who regularly swap antennas—are now **adding BNC adapters to their radios**. This trend has accelerated quickly, with BNC adapters becoming standard equipment for many hams.
+
+**Why are so many hams making this switch?**
+- **Quick antenna changes**—twist-and-lock instead of multiple rotations with SMA threads
+- **Reduced wear on radio connectors**—the adapter takes the strain instead of your radio's built-in connector
+- **Flexibility for different situations**—swap between rubber duck, whip, and mobile antennas in seconds
+- **Less risk of cross-threading**—a common issue with SMA connectors
+
+However, adapters aren't for everyone. They **add bulk** and **a tiny amount of signal loss**. If you don't switch antennas often, sticking with what fits your radio directly is totally fine.
 
 
 #### PL-259/SO-239 (UHF Connector)  
@@ -45,10 +52,11 @@ Despite its name, the “UHF connector” is a bit of a misnomer. It’s widely 
 
 You’ll find these connectors on a lot of **mobile and base station gear**. They’re **rugged**, **easy to solder**, and can handle **high power levels**.  
 
-| Connector | Image |
+* The **PL-259** is the male **PL**ug.
+* The **SO-239** is the female **SO**cket.
+| PL-259 (UHF Male) | SO-239 (UHF Female) |
 |:---------:|:-----:|
-| The **PL-259** is the male **PL**ug. | ![PL-259 Connector (UHF Male)](../../../images/PL259.jpg) |
-| The **SO-239** is the female **SO**cket. | ![SO-239 Connector (UHF Female)](../../../images/SO239.jpg) |
+| ![PL-259 Connector (UHF Male)](../../../images/PL259.jpg) | ![SO-239 Connector (UHF Female)](../../../images/SO239.jpg) |
 {.connector-table}
 
 These connectors work well up to about **150 MHz**, but if you’re working above that, you might want to use **Type N** connectors instead.  
@@ -65,17 +73,6 @@ Meet the heavyweight champion of RF connectors. **Type N connectors** are like t
 They’re designed for **UHF and microwave bands**, which means they work great for **repeaters, satellite communications, and serious VHF/UHF setups**. While they’re bigger than SMA or BNC connectors, they make up for it with **low signal loss and excellent shielding**.  
 
 If you’re working at **frequencies above 400 MHz**, **Type N** is your best bet for **maximum performance**.  
-
-#### The Trend Toward BNC  
-
-Lately, there’s been a trend toward **using BNC connectors on handheld radios**—not because radios are shipping with them, but because **many hams use adapters**.  
-
-Why? **BNC connectors are:**  
-- **Quick to connect**—no more twisting tiny SMA threads.  
-- **Tougher than SMA**—less wear and tear on your radio’s connector.  
-- **Great for swapping antennas**—perfect for those who like experimenting.  
-
-However, adapters aren’t for everyone. They **add bulk** and **a tiny amount of signal loss**. If you don’t switch antennas often, sticking with what fits your radio directly is totally fine.  
 
 #### Pro Tips for Using Connectors  
 
