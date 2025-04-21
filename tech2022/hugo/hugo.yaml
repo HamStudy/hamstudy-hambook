@@ -14,6 +14,7 @@ params:
   BookSubtitle: (2022 - 2026)
   BookLogo: "figures/coverfornow.jpg"
   hsBaseURL: "https://hamstudy.org/flashcard/E2_2022?bk=hambook-tech2022&def=q:"
+  qrBaseURL: "https://hamstudy.org/api/v1/qrcode"
   figurePath: "figures/%s"
   linktrim: ""
 

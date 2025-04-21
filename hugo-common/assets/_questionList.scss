@@ -104,15 +104,6 @@ $question-color: #336;
   strong { flex: 0; margin-right: 0.25rem; color: var(--question-link-color); white-space: nowrap; }
 }
 
-.full-pool {
-  a.question-link {
-    white-space: nowrap;
-    &::after {
-      content: ' (page ' target-counter(attr(href), page) ')';
-    }
-  }
-}
-
 // Unified styles
 .full-pool, .questions-list {
 

@@ -9,6 +9,7 @@
 {{- /* Accept parameters */ -}}
 {{- $questions := .questions -}}
 {{- $page := .page -}}
+{{- $shouldLink := .shouldLink | default true -}}
 
 {{- /* Site data */ -}}
 {{- $questionsData := .Site.Data.questions.questions -}}
@@ -34,8 +35,10 @@
       {{- end -}}
       <div class="question-item">
         <strong>
-          {{- if strings.Contains $page.RawContent (printf "\"%s\"" $questionID) -}}
+          {{- if or $shouldLink (strings.Contains $page.RawContent (printf "\"%s\"" $questionID)) -}}
             <span class="q-id"><a href="#link-{{ $questionID }}" class="question-link">{{ $questionID }}</a>:</span>
+          {{- else if $shouldLink -}}
+            <span class="q-id">{{ $questionID }}:</span>
           {{- else -}}
             <span class="q-id">{{ $questionID }}:</span>
           {{- end -}}

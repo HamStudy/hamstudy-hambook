@@ -161,6 +161,8 @@ Note: The F (farad) and H (henry) units refer to capacitance and inductance as d
 
 Here are some common conversions that may appear on the exam:
 
+{{< link id="T5B01" >}} {{< link id="T5B02" >}} {{< link id="T5B03" >}} {{< link id="T5B04" >}} {{< link id="T5B05" >}} {{< link id="T5B06" >}} {{< link id="T5B07" >}} {{< link id="T5B08" >}} {{< link id="T5B12" >}} {{< link id="T5B13" >}}
+
 | Original               | Equivalent             | Question ID |
 |------------------------|------------------------|:-----------:|
 | 1.5 amperes            | 1500 milliamperes      | {{< qid >}}T5B01{{< /qid >}}       |

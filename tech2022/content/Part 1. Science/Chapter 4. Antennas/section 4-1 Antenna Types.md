@@ -1,7 +1,7 @@
 ---
 chapter: "4"
 section: "4.1"
-questions: [ "T9A11", "T9A10", "T9A05", "T9A01", "T9A06", "T9A08", "T9A12", "T9A09", "T9A02", "T9A04", "T9B04" ]
+questions: [ "T9A11", "T9A05", "T9A01", "T9A06", "T9A10", "T9A08", "T9A12", "T9A09", "T9A02", "T9A04", "T9B04" ]
 ---
 
 ### Section 4.1: Antenna Types
@@ -36,7 +36,7 @@ When we talk about antenna gain, think of it like changing from a regular light 
 
 2. **Dipoles**
    
-   **Key Information:** A half-wave dipole radiates the strongest signal broadside to the antenna.
+   **Key Information:** A half-wave dipole radiates the strongest signal broadside to the antenna. {{< link id="T9A10" >}}
 
    The dipole is the most basic and fundamental antenna type - just two conductors of equal length, fed at the center. Most other antennas are really just clever variations on this basic design. A *half-wavelength dipole antenna* can be oriented in any direction, and its signal is always *strongest broadside (perpendicular) to the wire*. Understanding dipoles helps you understand how almost every other antenna works.
 
