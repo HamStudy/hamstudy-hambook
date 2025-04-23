@@ -1,3 +1,8 @@
+---
+title: "HamStudy License Class HamBooks"
+description: "Free and affordable study guides for every level of amateur radio licensing. Start with the Technician Class HamBook or upgrade with General and Extra guides."
+keywords: [ham radio, amateur radio, technician license, general class, extra class, study guide, hambook]
+---
 # HamStudy License Class HamBooks
 
 ## Your Path to Amateur Radio Success
@@ -10,38 +15,51 @@ Welcome to HamBooks—free, comprehensive study guides designed to help you earn
 ![License Journey Path](/license-path.svg)
 {.img-path}
 
-### Technician Class
-**Available Now!**
+### Technician Class – **Available Now!**
+
+{{% columns class="book-details" ratio="1:2" %}}
 
 ![Technician HamBook](/tech2022.jpg)
 {.hb-cover}
 
+<---> <!-- magic separator, between columns -->
+
 New operators start here!
 * Complete coverage of the 2022-2026 Technician Class question pool
-* Practical station setup guidance for beginners
+* Practical guidance for beginners
 * Perfect for anyone new to amateur radio
 
-[**Read Now**](/tech2022)  
-**Download and Purchase Options** *(from $9.99)*:  
-* [PDF](https://signalstuff.com/products/hambook-tech2022/?format=pdf) — Available now  
-* E-Book (EPUB) — Coming soon!
-* Paperback version – Coming soon!
-<!-- • [EPUB](https://signalstuff.com/products/hambook-tech2022/?format=epub) — Coming soon  
-• [Audiobook](https://signalstuff.com/products/hambook-tech2022/?format=audiobook) — Coming soon -->
-<!-- • [EPUB](https://signalstuff.com/products/hambook-tech2022/?format=epub) — Coming soon  
+{{< button relref="/tech2022" >}}Read online for Free!{{< /button >}}
+
+**Download and Purchase**:
+
+*Support development and get offline access.*
+
+From $9.99 – choose your format:
+
+* [PDF](https://signalstuff.com/products/hambook-tech2022/?format=pdf) – Multiple page sizes available!
+* [E-Book (EPUB3)](https://signalstuff.com/products/hambook-tech2022/?format=epub)
+* Paperback books from Amazon:
+  * [6" x 9" Paperback](https://amzn.to/4irwONy) – $19.99
+  * [8.5" x 11" Large Print Paperback](https://amzn.to/4jIS6qX) – $29.99
+<!-- * [Audiobook](https://signalstuff.com/products/hambook-tech2022/?format=audiobook) — Coming soon -->
+<!-- * [EPUB](https://signalstuff.com/products/hambook-tech2022/?format=epub) — Coming soon  
 • [Audiobook](https://signalstuff.com/products/hambook-tech2022/?format=audiobook) — Coming soon -->
 
 Your purchase helps support the development and maintenance of these free resources.
 
-<div class="clear"></div>
+{{% /columns %}}
 
 ---
 
-### General Class
-**Coming Soon**
+### General Class – **Coming Soon**
+
+{{% columns class="book-details" ratio="1:2" %}}
 
 ![General HamBook](/general2023.jpg)
 {.hb-cover}
+
+<---> <!-- magic separator, between columns -->
 
 Expand your privileges and capabilities.
 * Based on the 2023-2027 General question pool
@@ -52,15 +70,20 @@ Expand your privileges and capabilities.
 
 [Coming Soon]()
 
+{{% /columns %}}
+
 <div class="clear"></div>
 
 ---
 
-### Extra Class
-**Coming Soon**
+### Extra Class – **Coming Soon**
+
+{{% columns class="book-details" ratio="1:2" %}}
 
 ![Extra HamBook](/extra2024.jpg)
 {.hb-cover}
+
+<---> <!-- magic separator, between columns -->
 
 Master advanced radio theory and regulations.
 * Covers the 2024-2028 Extra Class question pool
@@ -70,6 +93,8 @@ Master advanced radio theory and regulations.
 
 [Coming Soon]()
 
+{{% /columns %}}
+
 <div class="clear"></div>
 
 ---
@@ -77,7 +102,7 @@ Master advanced radio theory and regulations.
 ## Why Choose HamBooks?
 
 * **Written for Real Beginners** - No assumed knowledge or technical jargon
-* **Study Your Way** - Whether you prefer quick review or deep understanding
+* **Study Your Way** - Whether you prefer quick reviews or deep understanding
 * **Seamless Integration** - Works perfectly with HamStudy.org tools
 * **Community Supported** - Constantly improved with user feedback
 * **Completely Free Web Version** - No paywalls or hidden costs
