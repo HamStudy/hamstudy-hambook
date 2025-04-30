@@ -54,6 +54,7 @@ You’ll find these connectors on a lot of **mobile and base station gear**. The
 
 * The **PL-259** is the male **PL**ug.
 * The **SO-239** is the female **SO**cket.
+
 | PL-259 (UHF Male) | SO-239 (UHF Female) |
 |:---------:|:-----:|
 | ![PL-259 Connector (UHF Male)](../../../images/PL259.jpg) | ![SO-239 Connector (UHF Female)](../../../images/SO239.jpg) |
