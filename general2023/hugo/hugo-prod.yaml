@@ -1,0 +1,4 @@
+baseURL: 'https://hambook.org/general2023/'
+
+params:
+  BookServiceWorker: true

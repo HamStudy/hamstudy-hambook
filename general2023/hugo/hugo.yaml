@@ -1,0 +1,54 @@
+# baseURL: 'https://hambook.org/tech2022'
+languageCode: 'en-us'
+title: 'General HamBook'
+
+relativeURLs: false
+canonifyURLs: false
+
+module:
+  imports:
+    - path: hambook.org/hambook/common
+
+params:
+  BookPortableLinks: true
+  BookSubtitle: (2023 - 2027)
+  BookLogo: "general2023.jpg"
+  hsBaseURL: "https://hamstudy.org/flashcard/E3_2023?bk=hambook-general2023&def=q:"
+  qrBaseURL: "https://hamstudy.org/api/v1/qrcode"
+  figurePath: "figures/%s"
+  linktrim: ""
+
+markup:
+  tableOfContents:
+    endLevel: 5
+    ordered: false
+    startLevel: 2
+
+  goldmark:
+    renderer:
+      unsafe: true
+      xHTML: true
+      hardWraps: false
+    parser:
+      wrapStandAloneImageWithinParagraph: false
+      attribute:
+        block: true
+        title: true
+      autoHeadingID: true
+
+    extensions:
+      definitionList: true
+      footnote: true
+      table: true
+      strikethrough: true
+      taskList: true
+      typographer: true
+      passthrough:
+        enable: true
+        delimiters:
+          block:
+            - ['\[', '\]']
+            - ['$$', '$$']
+          inline:
+            - ['\(', '\)']
+            - ['$', '$']
