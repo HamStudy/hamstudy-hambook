@@ -31,7 +31,7 @@
     {
       "qcount": 6,
       "id": "T1",
-      "name": "COMMISSION’S RULES -",
+      "name": "COMMISSION’S RULES",
       "sections": [
         {
           "id": "T1A",
@@ -1141,7 +1141,7 @@
     {
       "qcount": 3,
       "id": "T2",
-      "name": "OPERATING PROCEDURES -",
+      "name": "OPERATING PROCEDURES",
       "sections": [
         {
           "id": "T2A",
@@ -1755,7 +1755,7 @@
     {
       "qcount": 3,
       "id": "T3",
-      "name": "RADIO WAVE PROPAGATION -",
+      "name": "RADIO WAVE PROPAGATION",
       "sections": [
         {
           "id": "T3A",
@@ -2312,7 +2312,7 @@
     {
       "qcount": 2,
       "id": "T4",
-      "name": "AMATEUR RADIO PRACTICES -",
+      "name": "AMATEUR RADIO PRACTICES",
       "sections": [
         {
           "id": "T4A",
@@ -2734,7 +2734,7 @@
     {
       "qcount": 4,
       "id": "T5",
-      "name": "ELECTRICAL PRINCIPLES -",
+      "name": "ELECTRICAL PRINCIPLES",
       "sections": [
         {
           "id": "T5A",
@@ -3519,7 +3519,7 @@
     {
       "qcount": 4,
       "id": "T6",
-      "name": "ELECTRONIC AND ELECTRICAL COMPONENTS -",
+      "name": "ELECTRONIC AND ELECTRICAL COMPONENTS",
       "sections": [
         {
           "id": "T6A",
@@ -4277,7 +4277,7 @@
     {
       "qcount": 4,
       "id": "T7",
-      "name": "PRACTICAL CIRCUITS -",
+      "name": "PRACTICAL CIRCUITS",
       "sections": [
         {
           "id": "T7A",
@@ -5001,7 +5001,7 @@
     {
       "qcount": 4,
       "id": "T8",
-      "name": "SIGNALS AND EMISSIONS -",
+      "name": "SIGNALS AND EMISSIONS",
       "sections": [
         {
           "id": "T8A",
@@ -5828,7 +5828,7 @@
     {
       "qcount": 2,
       "id": "T9",
-      "name": "ANTENNAS AND FEED LINES -",
+      "name": "ANTENNAS AND FEED LINES",
       "sections": [
         {
           "id": "T9A",
@@ -6235,7 +6235,7 @@
     {
       "qcount": 3,
       "id": "T0",
-      "name": "SAFETY -",
+      "name": "SAFETY",
       "sections": [
         {
           "id": "T0A",
