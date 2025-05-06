@@ -11,17 +11,21 @@ The HF bands contain numerous signals occupying adjacent frequencies. The scienc
 
 In Section 1.2, we learned that resonance occurs when inductive reactance equals capacitive reactance ($X_L = X_C$). How this affects a circuit depends crucially on whether the components are in series or parallel:
 
-1. **Series Resonant Circuit**: When L and C are in series, at resonance their reactances cancel each other out, leaving only the resistance in the circuit to determine the impedance. This creates minimum impedance at resonance, allowing maximum current flow.
+1. ![Series Resonant RLC Circuit diagram](../../../images/series-resonant.svg)
+   {.float-right .img-med}
+   **Series Resonant Circuit**: When L and C are in series, at resonance their reactances cancel each other out. At the magic frequency where $X_L = X_C$, leaving only the resistance in the circuit to determine the impedance. This creates minimum impedance at resonance, allowing maximum current flow.
 
-2. **Parallel Resonant Circuit**: When L and C are in parallel (forming what's called a "tank circuit"), a very different effect occurs at resonance. The circuit impedance rises to a maximum, as the two components essentially form a high-impedance path at the resonant frequency.
+2. ![Series Resonant RLC Circuit diagram](../../../images/parallel-resonant.svg)
+   {.float-right .img-med}
+   **Parallel Resonant Circuit**: When L and C are in parallel (forming what’s called a “tank circuit”), a very different effect occurs at resonance. At the resonant frequency, the circuit’s impedance reaches a maximum, because the currents through the inductor and capacitor cancel each other out, creating a high-impedance path. As you move below resonance, inductive reactance ($X_L$) decreases; as you move above resonance, capacitive reactance ($X_C$) decreases. In either direction away from resonance, the tank offers a lower impedance path, allowing more current to flow.
+
+   Because of this behavior, parallel resonant circuits are often used as “notch” filters or “traps”—they effectively block a specific frequency while passing others.
 
 > **Key Information:** *The frequency of an LC oscillator is determined by the inductance and capacitance in the tank circuit.* {{< link id="G7B09" >}}
 
-The term "tank circuit" comes from the circuit's ability to store and transfer energy between the inductor and capacitor, similar to a water tank storing and releasing water. This energy storage property is why tank circuits are fundamental to oscillators.
+The term "tank circuit" comes from the circuit's ability to store and transfer energy between the inductor and capacitor. Just like a water tank can store water and release it when needed, a tank circuit stores energy and "sloshes" it back and forth between the capacitor and inductor. This energy storage property is why tank circuits are fundamental to oscillators.
 
 These opposing behaviors of series and parallel resonant circuits make them perfect for selecting frequencies in filters, oscillators, and tuned circuits.
-
-![Series vs Parallel Resonant Circuits](../images/resonant-circuits.svg)
 
 #### Filters: Controlling the Flow of Signals
 
@@ -118,6 +122,8 @@ Besides selecting frequencies, many filter circuits also provide impedance match
 
 Pi-networks (named because their schematic resembles the Greek letter π) and T-networks (shaped like the letter T) are common filter configurations that can also transform impedance while filtering. This dual functionality makes them essential in antenna tuners and amplifier output circuits.
 
+You'll see the shape if you squint at a circuit diagram—it really looks like the Greek letter π!
+
 ![Pi and T Networks](../images/pi-t-networks.svg)
 
 #### Common Filter Designs
@@ -132,7 +138,7 @@ The mathematical relationships between filter components determine the frequency
 
 #### Scientific Significance of Resonance and Filtering
 
-Resonant circuits and filters embody fundamental electromagnetic principles that make modern radio communication possible. Their ability to discriminate between frequencies allows:
+A lot of this may feel a bit outside of what you'd really need to worry about, but resonance and filtering aren't just math tricks—they're what make it possible for thousands of different signals to share the airwaves without turning into one big mess. Resonant circuits and filters embody fundamental electromagnetic principles that make modern radio communication possible. Their ability to discriminate between frequencies allows:
 
 - Multiple signals to coexist in the same electromagnetic space
 - Receivers to extract weak signals from noise and interference

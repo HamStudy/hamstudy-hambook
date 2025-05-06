@@ -33,13 +33,13 @@ Imagine a spinning wheel. As the wheel turns, a point on its edge moves in a cir
   * *Why?* Inductors resist changes in current because of their magnetic fields. The magnetic field must build up first, delaying the current flow. Like pushing a heavy object, maximum movement occurs well after maximum force is applied.
 
 * **Capacitors:** In a capacitor, the current leads the voltage by 90 degrees.
-  * *Why?* Capacitors store electrical charge. Current flows immediately to build charge, but voltage increases gradually as charge accumulates. Like compressing a spring, the movement is fastest at the beginning while the stored energy (voltage) builds up more slowly.
+  * *Why?* Capacitors store electrical charge. Current starts flowing immediately to begin building charge, but voltage increases gradually as charge accumulates. Like compressing a spring, the movement is fastest at the beginning while the stored energy (voltage) builds up more slowly.
 
 This 90-degree phase shift makes reactance fundamentally different from resistance and is why impedance calculations use the "j" operator.
 
 #### Reactance: The Frequency-Dependent Opposition
 
-> **Key Information:** *Reactance is opposition to the flow of alternating current caused by capacitance or inductance.* {{< link id="G5A02" >}}
+> **Key Information:** *Reactance is a frequency-dependent opposition to alternating current caused by capacitors and inductors.* {{< link id="G5A02" >}}
 
 Unlike resistance, which converts electrical energy to heat, reactance temporarily stores energy in electric or magnetic fields and then returns it to the circuit. This creates a phase shift between voltage and current that's crucial for many radio applications.
 
@@ -97,7 +97,7 @@ In real-world radio circuits, we always have both resistance and reactance prese
 
 Impedance (Z) represents the total opposition to current flow and is measured in ohms (Ω). {{< link id="G5A09" >}} But unlike pure resistance, impedance includes the phase relationship between voltage and current:
 
-$Z = R + jX$
+$$Z = R + jX$$
 
 Where:
 - $R$ is resistance (the in-phase component)
@@ -106,7 +106,7 @@ Where:
 
 When we measure impedance with an antenna analyzer or other test equipment, we typically see the magnitude:
 
-$|Z| = \sqrt{R^2 + X^2}$
+$$|Z| = \sqrt{R^2 + X^2}$$
 
 Understanding impedance is crucial because:
 - It determines how efficiently power transfers between components
@@ -122,19 +122,19 @@ When working with parallel circuits, engineers often find it more convenient to 
 
 Just as conductance (G) is the inverse of resistance, admittance (Y) is the inverse of impedance:
 
-$Y = \frac{1}{Z}$
+$$Y = \frac{1}{Z}$$
 
 Admittance is measured in siemens (S) and particularly useful when analyzing parallel circuits, just as impedance is more convenient for series circuits.
 
 #### Resonance: Where It All Comes Together
 
-The opposite frequency responses of inductors and capacitors create a fascinating phenomenon—resonance:
+The opposite reactions to frequency changes of inductors and capacitors create a fascinating phenomenon—resonance:
 
 > **Key Information:** *At resonance in an LC circuit, inductive reactance and capacitive reactance are equal and cancel each other.* {{< link id="G5A12" >}} {{< link id="G5A01" >}}
 
 When $X_L = X_C$, these opposing effects perfectly balance. Since inductive reactance increases with frequency while capacitive reactance decreases, there's always exactly one frequency where they're equal—the resonant frequency:
 
-$f_r = \frac{1}{2\pi\sqrt{LC}}$
+$$f_r = \frac{1}{2\pi\sqrt{LC}}$$
 
 Resonance creates dramatically different circuit behaviors depending on the configuration of components. We'll explore these configurations and their applications in detail in the next section, where we examine filters and resonant circuits.
 

@@ -31,11 +31,11 @@ Remember those old Christmas lights where one bulb burned out and plunged the wh
 
 * **Multiple Paths:** In a parallel circuit, components are connected side-by-side, providing *multiple paths* for current flow. Think of water flowing through multiple pipes branching off from a main line.
 * **Constant Voltage:** The *voltage across each component is the same* as the voltage supplied to the circuit. Each resistor in the parallel circuit has the full voltage applied across its two terminals.
-* **Divided Current:** The total current is *divided* among the different paths. The amount of current flowing through each path depends on the resistance of that path. The sum of the current in each branch will add to the total current flowing in the main trunk.
+* **Divided Current:** The total current is *divided* among the different paths. The amount of current flowing through each path depends on the resistance of that path. The sum of the current in each branch equals the total current flowing in the main trunk.
 
 > **Key Information:** In a circuit of parallel resistors, the total current equals the sum of the currents through each branch. {{< link id="G5B02" >}}
 
-One classic example of parallel circuits is the electrical outlets in your house. If one lamp goes out or is unplugged, it doesn't affect your TV or computer. That’s the beauty of parallel circuits—each device operates independently. That said, if you plug too many things in each will draw more current until you have either more current flowing than your source can provide or else more than the components in the non-parallel parts of your circuit can handle.
+One classic example of parallel circuits is the electrical outlets in your house. If one lamp goes out or is unplugged, it doesn't affect your TV or computer. That’s the beauty of parallel circuits—each device operates independently. However, if you plug too many things into one circuit, each device draws current until the total exceeds what your circuit breakers can handle, causing the breaker to trip and shutting everything down.
 
 * **Applying Ohm's Law:** Since the voltage is the same across all components, the current through each component depends on its resistance ($I = \frac{E}{R}$). Components with lower resistance will draw more current.
 * **Independent Operation:** If one component fails, the other paths remain unaffected. Current can still flow through the remaining components.
