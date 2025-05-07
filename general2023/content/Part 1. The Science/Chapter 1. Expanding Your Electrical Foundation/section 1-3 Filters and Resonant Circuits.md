@@ -5,146 +5,160 @@ questions: ["G7B09", "G7C12", "G7C14", "G7C13", "G7C07", "G5A10"]
 
 ### Section 1.3: Resonance and Filters
 
-The HF bands contain numerous signals occupying adjacent frequencies. The science of isolating specific signals relies on resonance and filtering—concepts that allow your radio to select desired frequencies while rejecting others. While modern transceivers handle many of these functions automatically, understanding the underlying principles helps you make better use of your equipment and grasp why certain adjustments affect reception and transmission in specific ways.
+Once you've got your General license, you'll discover the HF bands are much more crowded than VHF/UHF frequencies. To successfully navigate this crowded spectrum, you'll need to understand how your radio separates desired signals from unwanted ones. This is where resonance and filters come into play.
 
-#### Resonance in Circuit Applications
+#### Why Resonance Matters in Amateur Radio
 
-In Section 1.2, we learned that resonance occurs when inductive reactance equals capacitive reactance ($X_L = X_C$). How this affects a circuit depends crucially on whether the components are in series or parallel:
+We introduced the concept of resonance in Section 1.2—that special frequency where inductive reactance equals capacitive reactance ($X_L = X_C$). But why do we care about this electrical phenomenon? Because resonance is the foundation of frequency selection in radio circuits.
+
+> **Key Information:** At resonance in an LC circuit, inductive reactance and capacitive reactance are equal and cancel each other.
+
+When an LC circuit reaches resonance, it responds dramatically to signals at its resonant frequency while ignoring others. This selectivity is precisely what we need to:
+
+- Tune into specific stations
+- Reject interference
+- Generate stable oscillator frequencies
+- Define our transmitted signal bandwidth
+
+The resonant frequency of an LC circuit is calculated using:
+
+$$f_r = \frac{1}{2\pi\sqrt{LC}}$$
+
+Where:
+- $f_r$ is the resonant frequency in Hz
+- $L$ is inductance in henries
+- $C$ is capacitance in farads
+
+Let's see how resonance works in practical circuit configurations.
+
+#### Series and Parallel Resonance: Two Critical Circuit Behaviors
+
+There are two fundamental ways to connect inductors and capacitors in resonant circuits, and they behave quite differently:
 
 1. ![Series Resonant RLC Circuit diagram](../../../images/series-resonant.svg)
    {.float-right .img-med}
-   **Series Resonant Circuit**: When L and C are in series, at resonance their reactances cancel each other out. At the magic frequency where $X_L = X_C$, leaving only the resistance in the circuit to determine the impedance. This creates minimum impedance at resonance, allowing maximum current flow.
+   **Series Resonant Circuit**: When L and C are in series, their reactances cancel at resonance, leaving only the resistance to limit current flow. This creates minimum impedance at the resonant frequency, allowing maximum current flow.
+   
+   *Application*: Series resonant circuits are excellent for creating band-pass filters that select a specific frequency range.
 
-2. ![Series Resonant RLC Circuit diagram](../../../images/parallel-resonant.svg)
+2. ![Parallel Resonant RLC Circuit diagram](../../../images/parallel-resonant.svg)
    {.float-right .img-med}
-   **Parallel Resonant Circuit**: When L and C are in parallel (forming what’s called a “tank circuit”), a very different effect occurs at resonance. At the resonant frequency, the circuit’s impedance reaches a maximum, because the currents through the inductor and capacitor cancel each other out, creating a high-impedance path. As you move below resonance, inductive reactance ($X_L$) decreases; as you move above resonance, capacitive reactance ($X_C$) decreases. In either direction away from resonance, the tank offers a lower impedance path, allowing more current to flow.
+   **Parallel Resonant Circuit (Tank Circuit)**: When L and C are in parallel, the opposite occurs—impedance is maximum at resonance. The currents through the inductor and capacitor cancel each other out, creating a high-impedance path at the resonant frequency.
+   
+   Why "tank"? Because energy sloshes back and forth between the inductor's magnetic field and the capacitor's electric field—like water sloshing in a tank—creating an oscillating current without additional input.
 
-   Because of this behavior, parallel resonant circuits are often used as “notch” filters or “traps”—they effectively block a specific frequency while passing others.
+> **Key Information:** The frequency of an LC oscillator is determined by the inductance and capacitance in the tank circuit. {{< link id="G7B09" >}}
 
-> **Key Information:** *The frequency of an LC oscillator is determined by the inductance and capacitance in the tank circuit.* {{< link id="G7B09" >}}
-
-The term "tank circuit" comes from the circuit's ability to store and transfer energy between the inductor and capacitor. Just like a water tank can store water and release it when needed, a tank circuit stores energy and "sloshes" it back and forth between the capacitor and inductor. This energy storage property is why tank circuits are fundamental to oscillators.
-
-These opposing behaviors of series and parallel resonant circuits make them perfect for selecting frequencies in filters, oscillators, and tuned circuits.
+**Practical Note:** While modern transceivers use digital frequency synthesis rather than tank circuits for frequency generation, understanding these resonant circuits remains relevant for antenna tuners, filters, and many homebrew projects.
 
 #### Filters: Controlling the Flow of Signals
 
-Filters are circuits designed to allow certain frequencies to pass while blocking others. They're essential in radio equipment for:
+Filters are circuits designed to pass some frequencies while rejecting others. As a General class operator, you'll encounter several types:
 
-- Selecting the frequency you want to receive
-- Rejecting interfering signals
-- Preventing your transmitter from emitting unwanted frequencies
-- Defining the bandwidth of your transmitted signal
+1. **Low-Pass Filters**: Pass frequencies below a cutoff point
+   - *Application*: Reduce harmonics from your transmitter output
+   - *Example*: TVI filters that prevent television interference
 
-##### Types of Filters
+2. **High-Pass Filters**: Pass frequencies above a cutoff point
+   - *Application*: Eliminate low-frequency noise
+   - *Example*: Telephone filters that block RF interference
 
-Radio equipment uses several types of filters, each with specific purposes:
+3. **Band-Pass Filters**: Pass a specific range of frequencies
+   - *Application*: Select your operating band
+   - *Example*: Receiver front-end filters
 
-1. **Low-Pass Filters**: Allow frequencies below a certain point (the cutoff frequency) to pass while blocking higher frequencies. These are often used at transmitter outputs to prevent harmonic radiation.
+4. **Band-Stop (Notch) Filters**: Block specific frequencies
+   - *Application*: Eliminate interference from a nearby station
+   - *Example*: Notch filters in modern transceivers
 
-2. **High-Pass Filters**: Allow frequencies above the cutoff point to pass while blocking lower frequencies. These can help eliminate low-frequency noise or interference.
+#### Key Filter Specifications You Should Know
 
-3. **Band-Pass Filters**: Allow a specific range of frequencies to pass while blocking frequencies above and below this range. These are used in receiver front ends and for selecting specific bands.
-
-4. **Band-Stop Filters (Notch Filters)**: Block a specific range of frequencies while allowing others to pass. These are great for eliminating specific interference.
-
-The behavior of these filters can be visualized with frequency response curves:
-
-![Filter Response Curves](../images/filter-responses.svg)
-
-#### Understanding Filter Specifications
-
-When evaluating filters, several key specifications tell you how they'll perform:
+Whether you're evaluating equipment or building your own circuits, understanding these specifications will help you make informed decisions:
 
 ##### Cutoff Frequency
 
-> **Key Information:** *The cutoff frequency of a low-pass filter is the frequency above which its output power is less than half the input power.* {{< link id="G7C12" >}}
+> **Key Information:** The cutoff frequency of a low-pass filter is the frequency above which its output power is less than half the input power. {{< link id="G7C12" >}}
 
-This "half-power" point corresponds to a 3 dB reduction in power (remember our discussion about decibels). For a band-pass filter, there are two cutoff frequencies—one at the lower edge and one at the upper edge of the passband.
+This "half-power" point corresponds to a 3 dB reduction in power. When you see filter specifications mentioning "-3 dB points," they're referring to these cutoff frequencies.
 
 ##### Filter Bandwidth
 
-> **Key Information:** *The bandwidth of a band-pass filter is measured between its upper and lower half-power (-3 dB) points.* {{< link id="G7C14" >}}
+> **Key Information:** The bandwidth of a band-pass filter is measured between its upper and lower half-power (-3 dB) points. {{< link id="G7C14" >}}
 
-Bandwidth tells you how selective a filter is. A narrow bandwidth is more selective (letting fewer frequencies through) but may distort some signals. A wider bandwidth passes more frequencies but might allow more interference.
+Different operating modes require different bandwidths:
+- CW: 250-500 Hz
+- SSB: 2.4-2.8 kHz
+- AM: 6 kHz
+- FM: 10-15 kHz
 
-For example, typical filter bandwidths for different modes are:
-- CW (Morse code): 250-500 Hz
-- SSB voice: 2.4-2.8 kHz
-- AM voice: 6 kHz
-- FM voice: 10-15 kHz
-
-Matching your filter bandwidth to your operating mode gives you the best signal-to-noise ratio.
+**Operating Tip:** Using a wider filter than necessary reduces your signal-to-noise ratio, while using one that's too narrow can distort the received signal. Modern transceivers allow you to select appropriate filter bandwidths for different modes.
 
 ##### Insertion Loss
 
-> **Key Information:** *Insertion loss specifies a filter's attenuation inside its passband.* {{< link id="G7C07" >}}
+> **Key Information:** Insertion loss specifies a filter's attenuation inside its passband. {{< link id="G7C07" >}}
 
-Even the frequencies a filter is designed to pass experience some loss—this is insertion loss. It's typically measured in dB, with lower values meaning better performance. For example, a filter with 1 dB insertion loss passes about 80% of the input power within its passband.
+Ideally, a filter would pass desired frequencies with zero attenuation, but real-world components always introduce some loss. Lower insertion loss values indicate better filter performance.
+
+For example, a filter with 1 dB insertion loss passes about 80% of the input power within its passband. High-quality filters typically have insertion losses below 3 dB.
 
 ##### Ultimate Rejection
 
-> **Key Information:** *Ultimate rejection specifies a filter's maximum ability to reject signals outside its passband.* {{< link id="G7C13" >}}
+> **Key Information:** Ultimate rejection specifies a filter's maximum ability to reject signals outside its passband. {{< link id="G7C13" >}}
 
-This tells you how well the filter blocks unwanted frequencies and is also measured in dB. A filter with 60 dB ultimate rejection reduces unwanted signals to one-millionth of their original power. Higher rejection values mean better filtering of unwanted signals.
+This tells you how well the filter blocks unwanted signals. A higher value (measured in dB) means better filtering of interference.
 
-#### Filter Implementation in Radio Circuits
-
-Radio equipment employs filters throughout the signal chain, each solving specific frequency-selection challenges:
-
-1. **Front-End Band-Pass Filters**: These provide the first stage of frequency selection, passing only the desired band while attenuating out-of-band signals. This prevents strong out-of-band signals from causing intermodulation and overloading sensitive amplifier stages.
-
-2. **IF (Intermediate Frequency) Filters**: After frequency conversion in the mixer stage, these filters define the receiver's overall bandwidth. The fixed-frequency nature of IF stages allows for optimized filter designs with precisely controlled characteristics.
-
-3. **Transmitter Output Filters**: These low-pass filters perform the critical function of suppressing harmonic emissions, ensuring spectral purity of the transmitted signal.
-
-4. **Crystal Filters**: These use the precise mechanical resonant properties of quartz crystals to achieve extremely narrow bandwidths with steep skirts. The high Q-factor of crystals creates naturally selective filter responses.
-
-5. **Ceramic Filters**: These offer good performance at lower cost than crystal filters, using ceramic resonator elements to define filter characteristics.
-
-6. **Cavity Filters**: At VHF/UHF frequencies, these use resonant cavities to achieve high selectivity and power handling capability.
-
-#### Filter Technology
-
-Filter design involves various approaches with different performance characteristics:
-
-**Passive LC Filters**: Combinations of inductors and capacitors provide basic filtering, with performance limited by component quality.
-
-**Crystal Filters**: These leverage quartz crystals' precise resonant properties to achieve narrow bandwidths and steep skirts, especially useful in IF stages.
-
-**Digital Signal Processing (DSP)**: Modern transceivers often implement filtering mathematically rather than with physical components, offering tremendous flexibility in filter characteristics.
+A filter with 60 dB ultimate rejection reduces unwanted signals to one-millionth of their original power. Contest-grade bandpass filters might have ultimate rejection values of 50 dB or more.
 
 #### Impedance Matching with Filters
 
-Besides selecting frequencies, many filter circuits also provide impedance matching:
+Many filter circuits serve double duty—they not only select frequencies but also match impedances between different parts of your station:
 
-> **Key Information:** *Transformers, Pi-networks, and lengths of transmission line can all be used for impedance matching at radio frequencies.* {{< link id="G5A10" >}}
+> **Key Information:** Transformers, Pi-networks, and lengths of transmission line can all be used for impedance matching at radio frequencies. {{< link id="G5A10" >}}
 
-Pi-networks (named because their schematic resembles the Greek letter π) and T-networks (shaped like the letter T) are common filter configurations that can also transform impedance while filtering. This dual functionality makes them essential in antenna tuners and amplifier output circuits.
+Common examples include:
 
-You'll see the shape if you squint at a circuit diagram—it really looks like the Greek letter π!
+- **Pi-networks**: Named for their resemblance to the Greek letter π in schematic form (capacitor-inductor-capacitor), these are often found in antenna tuners and amplifier output circuits.
 
-![Pi and T Networks](../images/pi-t-networks.svg)
+- **L-networks**: Simpler than Pi-networks, using just two components (one series and one parallel), these are common in antenna matching applications.
 
-#### Common Filter Designs
+- **Quarter-wave transformers**: Special sections of transmission line that transform impedance based on their characteristic impedance.
 
-Several basic filter configurations are used in radio circuits:
+#### Filter Technologies in Your Radio
 
-1. **Pi-Networks**: Named for their resemblance to the Greek letter π in schematic form, these filters consist of a series element between two shunt elements. They're particularly useful for impedance matching while filtering.
+Modern amateur radio equipment employs various filter technologies:
 
-2. **T-Networks**: Similar to Pi-networks but with two series elements and one shunt element, creating a "T" shape in the schematic.
+1. **LC Filters**: Traditional combinations of inductors and capacitors
+   - *Advantages*: Simple, passive, high power handling
+   - *Limitations*: Larger size, fixed characteristics
 
-The mathematical relationships between filter components determine the frequency response, with different designs offering trade-offs between response flatness and roll-off steepness.
+2. **Crystal Filters**: Use quartz crystals for precise, narrow filtering
+   - *Advantages*: Excellent selectivity, high stability
+   - *Limitations*: Fixed frequency, relatively expensive
 
-#### Scientific Significance of Resonance and Filtering
+3. **Mechanical Filters**: Use mechanical resonant elements
+   - *Advantages*: Exceptional shape factor, good for SSB/CW
+   - *Limitations*: Found mostly in older equipment
 
-A lot of this may feel a bit outside of what you'd really need to worry about, but resonance and filtering aren't just math tricks—they're what make it possible for thousands of different signals to share the airwaves without turning into one big mess. Resonant circuits and filters embody fundamental electromagnetic principles that make modern radio communication possible. Their ability to discriminate between frequencies allows:
+4. **Digital Signal Processing (DSP) Filters**: Implement filtering mathematically
+   - *Advantages*: Adjustable characteristics, can be updated
+   - *Limitations*: Require digital processing power
 
-- Multiple signals to coexist in the same electromagnetic space
-- Receivers to extract weak signals from noise and interference
-- Transmitters to concentrate energy in desired frequency bands
-- Systems to meet regulatory requirements for spectral purity
+**Looking Forward:** As you grow in amateur radio, you may encounter specialized filter applications like roofing filters that protect receiver front ends, or crystal ladder filters in homebrew projects. The principles covered here will help you understand how they all work.
 
-The relationship between component values and frequency response demonstrates the predictive power of electromagnetic theory. Mathematical models accurately describe how circuits will respond to various frequencies, allowing engineers to design systems with precisely defined characteristics.
+#### Practical Applications in Your General Class Operations
 
-In the next section, we'll explore various ways to ensure that the impedance matches between any two parts of your station–particularly between your transceiver and antenna.
+How will you use this knowledge of resonance and filters in your everyday operating?
+
+1. **Selecting Filter Bandwidths**: Choose appropriate filter settings in your transceiver for different modes and band conditions.
+
+2. **Reducing Interference**: Add external band-pass or notch filters when facing stubborn interference problems.
+
+3. **Building Projects**: Design simple resonant circuits for antenna tuners or QRP (low power) equipment.
+
+4. **Troubleshooting**: Recognize when filter-related issues might be affecting your station's performance.
+
+5. **Equipment Selection**: Make informed choices when evaluating transceivers based on their filter specifications.
+
+While digital technology handles most filtering automatically in modern equipment, understanding these principles helps you make the most of your radio's capabilities.
+
+In the next section, we'll explore transformers and advanced impedance matching techniques that ensure efficient power transfer throughout your station.

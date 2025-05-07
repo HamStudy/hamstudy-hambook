@@ -5,64 +5,44 @@ questions: ["G5A01", "G5A02", "G5A03", "G5A04", "G5A05", "G5A06", "G5A07", "G5A0
 
 ### Section 1.2: Reactance and Impedance
 
-Radio signals are alternating currents that change direction millions of times per second, making radio circuits behave very differently from DC circuits. While you'll only see one or two exam questions on these concepts (and you can miss 9 questions and still pass the exam!), understanding the basics will help you make sense of antenna behavior and equipment performance across different bands.
+Radio signals are alternating currents that change direction millions of times per second, making radio circuits behave very differently from DC circuits. As a new General class operator, you'll encounter these concepts frequently—when tuning antennas, dealing with feed line effects, and understanding why your equipment performs differently across various bands.
 
-In RF circuits, capacitors and inductors store and release energy with each cycle, creating frequency-dependent opposition to current flow called reactance. This property explains why antennas work better on some frequencies than others and forms the foundation for filters, tuned circuits, and impedance matching—all essential aspects of your new General class operations.
+In this section, we'll explore how capacitors and inductors create frequency-dependent effects that form the foundation of radio circuit design.
 
-#### Dynamic Opposition: Reactance in Action
+#### Why AC Circuits Are Different: The Phase Concept
 
-> **Key Information:** *Reactance is opposition to the flow of alternating current caused by capacitance or inductance.* {{< link id="G5A02" >}}
-
-Unlike resistance, which simply opposes current flow and converts energy to heat, reactance temporarily stores energy and then returns it to the circuit. This storage and return creates a critical difference: it shifts the timing between voltage and current, a concept called "phase."
-
-**Understanding Phase:**
+Before diving into reactance, let's understand phase—a concept central to AC circuit behavior.
 
 Imagine a spinning wheel. As the wheel turns, a point on its edge moves in a circle, completing a full rotation. Each rotation is a "cycle."
 
-![animation: Relationship between a circle and a sine wave, illustrating phase](../../../images/circle_sine_animated.gif)
+![Animation: Relationship between a circle and a sine wave, illustrating phase](../../../images/circle_sine_animated.gif)
 
-* **Phase** tells us where that point is in its rotation, or what part of the cycle it's in. We measure this in degrees, with a full circle being 360 degrees.
-* If you graph the height of that point as the wheel spins, you get a sine wave. The sine wave is just another way to visualize the circular motion and its phase.
-* In AC circuits, voltage and current follow these sine wave patterns.
-* If voltage and current rise and fall together, they are "in phase" - like two points on the spinning wheel moving together.
-* When current reaches its peak at a different time than voltage, they are "out of phase" - at different points on the spinning wheel.
+* **Phase** tells us where a point is in its rotation, measured in degrees (a full circle is 360°).
+* In AC circuits, voltage and current follow sine wave patterns.
+* If voltage and current rise and fall together, they are "in phase."
+* When current peaks at a different time than voltage, they are "out of phase."
 
-**Reactance and Phase Shift:**
+This phase relationship becomes crucial when we examine how components behave in AC circuits.
 
-* **Inductors:** In an inductor, the current lags behind the voltage by 90 degrees. 
-  * *Why?* Inductors resist changes in current because of their magnetic fields. The magnetic field must build up first, delaying the current flow. Like pushing a heavy object, maximum movement occurs well after maximum force is applied.
+#### Reactance: Opposition Beyond Resistance
 
-* **Capacitors:** In a capacitor, the current leads the voltage by 90 degrees.
-  * *Why?* Capacitors store electrical charge. Current starts flowing immediately to begin building charge, but voltage increases gradually as charge accumulates. Like compressing a spring, the movement is fastest at the beginning while the stored energy (voltage) builds up more slowly.
+> **Key Information:** *Reactance is opposition to the flow of alternating current caused by capacitance or inductance.* {{< link id="G5A02" >}}
 
-This 90-degree phase shift makes reactance fundamentally different from resistance and is why impedance calculations use the "j" operator.
+Unlike resistance, which simply converts electrical energy to heat, reactance temporarily stores energy and then returns it to the circuit. This energy storage creates a phase shift between voltage and current.
 
-#### Reactance: The Frequency-Dependent Opposition
+Reactance is measured in ohms (Ω) just like resistance and is represented by the letter **X**. {{< link id="G5A11" >}} There are two types, each with unique behaviors:
 
-> **Key Information:** *Reactance is a frequency-dependent opposition to alternating current caused by capacitors and inductors.* {{< link id="G5A02" >}}
+##### Inductive Reactance
 
-Unlike resistance, which converts electrical energy to heat, reactance temporarily stores energy in electric or magnetic fields and then returns it to the circuit. This creates a phase shift between voltage and current that's crucial for many radio applications.
+> **Key Information:** *Inductive reactance is opposition to the flow of alternating current in an inductor.* {{< link id="G5A03" >}}
 
-Reactance is measured in ohms (Ω) just like resistance and is represented by the letter **X**. {{< link id="G5A11" >}} There are two types, each with distinct phase relationships:
+Inductors resist changes in current by generating a magnetic field. This creates a phase shift where current lags 90° behind voltage.
 
-1. **Inductive Reactance ($X_L$)**: *Opposition to the flow of alternating current in an inductor* {{< link id="G5A03" >}}
-   * Current lags voltage by 90 degrees
-   * Energy stored in a magnetic field
+An inductor's reactance depends on frequency:
 
-2. **Capacitive Reactance ($X_C$)**: *Opposition to the flow of alternating current in a capacitor* {{< link id="G5A04" >}}
-   * Current leads voltage by 90 degrees
-   * Energy stored in an electric field
+> **Key Information:** *As the frequency of applied AC increases, inductive reactance increases.* {{< link id="G5A05" >}}
 
-#### How Frequency Changes Everything
-
-What makes reactance fundamentally different from resistance is how it changes with frequency. This frequency dependence is crucial for creating filters, tuned circuits, and impedance matching networks:
-
-**For Inductors:**
-> **Key Information:** *As frequency increases, an inductor's reactance increases.* {{< link id="G5A05" >}}
-
-Think of an inductor as increasingly "stubborn" about changing current flow as frequency rises. This property makes inductors useful as RF chokes that block high frequencies while passing DC and low frequencies. 
-
-Extending our heavy object analogy: At low frequencies, you're pushing long enough to overcome the inertia and move the object. But at very high frequencies, you're rapidly changing direction before the object has a chance to get moving at all—like trying to shake a bowling ball back and forth very quickly. The faster you try to change (higher frequency), the more it resists movement (higher reactance).
+Think of an inductor as increasingly "stubborn" about changing current flow as frequency rises. This makes inductors useful as RF chokes that block high frequencies while passing DC and low frequencies.
 
 The formula for inductive reactance is:
 
@@ -73,14 +53,21 @@ Where:
 - $f$ is frequency in hertz (Hz)
 - $L$ is inductance in henrys (H)
 
-**For Capacitors:**
-> **Key Information:** *As frequency increases, a capacitor's reactance decreases.* {{< link id="G5A06" >}}
+**Practical Application:** When you see an RF choke in an antenna feed line or a ferrite bead on a computer cable, you're seeing inductive reactance at work—blocking RF signals while allowing desired currents to pass.
 
-Capacitors become more "willing" to allow current flow as frequency rises. This is why they're excellent as bypass capacitors, offering an easy path for RF signals while blocking DC. 
+##### Capacitive Reactance
 
-Continuing our spring analogy: At low frequencies, you push the spring through its full compression cycle, meeting maximum resistance. But at very high frequencies, you're changing direction so quickly that the spring barely begins to compress before you reverse direction—it just vibrates in place with minimal resistance. The faster the frequency, the less time the spring has to compress and build up opposing force (lower reactance).
+> **Key Information:** *Capacitive reactance is opposition to the flow of alternating current in a capacitor.* {{< link id="G5A04" >}}
 
-The formula is:
+Capacitors store electrical charge, creating a phase shift where current leads voltage by 90°.
+
+A capacitor's reactance also depends on frequency, but in the opposite way:
+
+> **Key Information:** *As the frequency of applied AC increases, capacitive reactance decreases.* {{< link id="G5A06" >}}
+
+Capacitors become more "willing" to pass current as frequency rises. This makes them excellent as bypass capacitors that provide an easy path for RF signals while blocking DC.
+
+The formula for capacitive reactance is:
 
 $$X_C = \frac{1}{2\pi fC}$$
 
@@ -89,13 +76,15 @@ Where:
 - $f$ is frequency in hertz (Hz)
 - $C$ is capacitance in farads (F)
 
-#### Impedance: Combining Resistance and Reactance
+**Practical Application:** Bypass capacitors used in radio equipment allow AC signals to "bypass" certain components while blocking DC—a direct application of capacitive reactance.
 
-In real-world radio circuits, we always have both resistance and reactance present. Their combined effect gives us impedance:
+#### Impedance: The Complete Picture
+
+Real-world radio circuits always contain both resistance and reactance. Their combined effect is called impedance:
 
 > **Key Information:** *Impedance is the ratio of voltage to current in an AC circuit.* {{< link id="G5A08" >}}
 
-Impedance (Z) represents the total opposition to current flow and is measured in ohms (Ω). {{< link id="G5A09" >}} But unlike pure resistance, impedance includes the phase relationship between voltage and current:
+Impedance (Z) represents the total opposition to current flow and is measured in ohms (Ω). {{< link id="G5A09" >}} Unlike resistance alone, impedance includes both magnitude and phase relationships:
 
 $$Z = R + jX$$
 
@@ -104,54 +93,50 @@ Where:
 - $X$ is reactance (the 90° out-of-phase component)
 - $j$ is the mathematical way to represent the 90° phase shift
 
-When we measure impedance with an antenna analyzer or other test equipment, we typically see the magnitude:
+When measuring impedance with an antenna analyzer, you typically see the magnitude:
 
 $$|Z| = \sqrt{R^2 + X^2}$$
 
-Understanding impedance is crucial because:
-- It determines how efficiently power transfers between components
-- It explains SWR readings on your antenna system
-- It's the basis for matching networks and antenna tuners
-- It varies with frequency, creating the band-dependent behavior of antennas
+**Why Impedance Matters:** Impedance is crucial because it determines how efficiently power transfers between components. Maximum power transfer occurs when impedances match—a principle central to antenna systems, feed lines, and amplifier design.
 
-#### Admittance: The Flow Perspective
+#### Admittance: The Inverse Perspective
 
-When working with parallel circuits, engineers often find it more convenient to think about how easily current flows rather than how much it's opposed:
+When analyzing parallel circuits, engineers often find it easier to work with the inverse of impedance:
 
 > **Key Information:** *Admittance is the inverse of impedance.* {{< link id="G5A07" >}}
 
-Just as conductance (G) is the inverse of resistance, admittance (Y) is the inverse of impedance:
+Just as conductance is the inverse of resistance, admittance (Y) is the inverse of impedance:
 
 $$Y = \frac{1}{Z}$$
 
-Admittance is measured in siemens (S) and particularly useful when analyzing parallel circuits, just as impedance is more convenient for series circuits.
+Admittance is measured in siemens (S) and is particularly useful when analyzing parallel circuits.
 
-#### Resonance: Where It All Comes Together
+#### Introducing Resonance: A Special Case
 
-The opposite reactions to frequency changes of inductors and capacitors create a fascinating phenomenon—resonance:
+The opposing behaviors of inductors and capacitors create a fascinating scenario when they're combined in a circuit:
 
-> **Key Information:** *At resonance in an LC circuit, inductive reactance and capacitive reactance are equal and cancel each other.* {{< link id="G5A12" >}} {{< link id="G5A01" >}}
+> **Key Information:** *At resonance, inductive reactance and capacitive reactance are equal and cancel each other.* {{< link id="G5A12" >}} {{< link id="G5A01" >}}
 
-When $X_L = X_C$, these opposing effects perfectly balance. Since inductive reactance increases with frequency while capacitive reactance decreases, there's always exactly one frequency where they're equal—the resonant frequency:
+Since inductive reactance increases with frequency while capacitive reactance decreases, there's always exactly one frequency where they're equal—the resonant frequency.
 
-$$f_r = \frac{1}{2\pi\sqrt{LC}}$$
+At this special frequency, dramatic circuit behaviors occur that we'll explore in detail in the next section. Resonance is the foundation for:
+- Filters that select desired frequencies
+- Oscillators that generate signals
+- Antenna systems that efficiently radiate power
+- Impedance matching networks
 
-Resonance creates dramatically different circuit behaviors depending on the configuration of components. We'll explore these configurations and their applications in detail in the next section, where we examine filters and resonant circuits.
+#### Why These Concepts Matter for General Class Operators
 
-#### The Foundation of Radio Circuit Design
+Understanding reactance and impedance helps explain many practical aspects of amateur radio operation:
 
-The concepts of reactance, impedance, and resonance form the foundation for virtually every aspect of radio system design:
+1. **Band-Dependent Antenna Performance**: Your antenna's impedance varies with frequency due to reactive effects, explaining why SWR changes across bands.
 
-1. **Impedance Matching**: Efficiently transferring power between your transmitter, feed line, and antenna requires managing impedance. Matching networks use carefully calculated combinations of inductors and capacitors to transform impedance for maximum power transfer.
+2. **Feed Line Behavior**: Transmission lines transform impedance depending on their length and frequency, affecting your antenna system's performance.
 
-2. **Frequency Selection**: Your radio's ability to select specific signals depends on resonant circuits. The tuned circuits in receivers and transmitters use the resonance properties we've discussed to isolate desired frequencies.
+3. **Tuners and Matching Networks**: Antenna tuners use variable reactive components to transform impedance, providing the match your transmitter needs.
 
-3. **Antenna Systems**: Antennas exhibit impedance that varies with frequency. Understanding this helps you optimize your antenna system for different bands and explains why certain antenna lengths work for specific frequencies.
+4. **Receiver Selectivity**: Your radio's ability to select desired signals relies on reactive circuits tuned to specific frequencies.
 
-4. **Feed Line Effects**: Transmission lines can transform impedance depending on their length relative to wavelength. This explains why moving your antenna feed point or changing line length sometimes affects SWR readings.
+While you won't need to calculate reactance values for everyday operation, these concepts explain why your equipment behaves as it does across different frequencies.
 
-5. **Signal Filtering**: Every filter in your radio equipment, from the front-end filters to IF filters, relies on the frequency-selective properties of reactive components.
-
-These principles explain many of the behaviors you'll observe as you operate with your General privileges. When your antenna works better on some bands than others, when you adjust your antenna tuner, or when you encounter interference issues, reactance and impedance are working behind the scenes. While you won't need to calculate reactance values for everyday operation, understanding these concepts helps make sense of how your equipment behaves across different frequencies and operating conditions.
-
-In our next section, we'll explore how these principles come together in filters and resonant circuits—showing how specific combinations of components can select desired signals while rejecting unwanted ones.
+In the next section, we'll explore how resonant circuits harness these principles to create filters and tuned circuits—the building blocks of radio frequency selection.
