@@ -47,10 +47,9 @@ function watchAndProcess(rootDir, outputFormat, outputPath) {
         .filter(e => e.isDirectory() && /^content(\.[a-z]{2})?$/.test(e.name))
         .map(e => path.join(rootDir, e.name));
 
-    // Watch all files in all content dirs and all files in images dir
     const watchPatterns = [
-        ...contentDirs.map(dir => path.join(dir, '**', '*')), // all files in content dirs
-        path.join(rootDir, 'images', '**', '*') // all files in images
+        ...contentDirs.map(dir => path.join(dir, '**', '*')),
+        path.join(rootDir, 'images', '**', '*')
     ];
 
     const watcher = chokidar.watch(watchPatterns, {
@@ -63,8 +62,20 @@ function watchAndProcess(rootDir, outputFormat, outputPath) {
     const processChanges = async () => {
         console.log('Changes detected, reprocessing...');
         try {
-            const book = await loadBook(rootDir);
-            await processBook(book, outputFormat, outputPath, rootDir);
+            let book, isMultilingual = false;
+            if (outputFormat === formatTypes.hugo) {
+                const dirEntries = await fs.readdir(rootDir, { withFileTypes: true });
+                const contentDirs = dirEntries.filter(e => e.isDirectory() && /^content(\.[a-z]{2})?$/.test(e.name));
+                if (contentDirs.length > 1) {
+                    book = await loadMultilingualBook(rootDir);
+                    isMultilingual = true;
+                } else {
+                    book = await loadBook(rootDir);
+                }
+            } else {
+                book = await loadBook(rootDir);
+            }
+            await processBook(book, outputFormat, outputPath, rootDir, isMultilingual);
             console.log(`Output regenerated at ${outputPath}`);
         } catch (error) {
             console.error('Error processing changes:', error);

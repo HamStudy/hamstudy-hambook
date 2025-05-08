@@ -1,5 +1,6 @@
 const fs = require('fs/promises');
 const path = require('path');
+const crypto = require('crypto');
 const { writeFrontMatter, getTitleSlug, adjustMarkdownHeaders, getLinkSlug } = require('../utils');
 const { processImages } = require('../image-utils');
 const { formatPoolData } = require('../pool-utils');
@@ -13,6 +14,25 @@ const hugoRelImgPath = '/images';
  * @param {string} sourcePath - Source root
  */
 async function writeHugoMultilingualBook(books, outputPath, sourcePath) {
+    // Assign translationKey using filePath (relative to content dir) for each section/part
+    for (const [lang, book] of Object.entries(books)) {
+        function assignKeys(parts) {
+            for (const part of parts) {
+                if (part.filePath) {
+                    part.frontMatter = part.frontMatter || {};
+                    if (part.frontMatter.translationKey) {
+                        console.warn('Translation key already exists:', part.frontMatter.translationKey, 'for', part.filePath);
+                    }
+                    part.frontMatter.translationKey = crypto.createHash('md5').update(part.filePath).digest('hex');
+                    console.log('Assigning translationKey:', part.frontMatter.translationKey, `for ${lang} filePath:`, part.filePath);
+                } else {
+                    // console.warn('Missing filePath for part:', part);
+                }
+                if (part.sections) assignKeys(part.sections);
+            }
+        }
+        assignKeys(book.parts);
+    }
     for (const [lang, book] of Object.entries(books)) {
         const langDir = lang === 'default' ? 'content' : `content.${lang}`;
         const outContentPath = path.join(outputPath, langDir);

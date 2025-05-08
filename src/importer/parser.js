@@ -3,7 +3,7 @@ const path = require('path');
 const yaml = require('yaml');
 const { toTitleCase } = require('./utils');
 
-async function parseMarkdownFile(filePath) {
+async function parseMarkdownFile(filePath, contentDir) {
     const fileContent = await fs.readFile(filePath, 'utf8');
     const frontMatterMatch = /^---\n([\s\S]*?)\n---/.exec(fileContent);
     let frontMatter = {};
@@ -29,10 +29,16 @@ async function parseMarkdownFile(filePath) {
         frontMatter.title = title;
     }
 
-    return { title, content, frontMatter };
+    // Add filePath relative to contentDir
+    let relPath = filePath;
+    if (contentDir) {
+        relPath = path.relative(contentDir, filePath);
+    }
+
+    return { title, content, frontMatter, filePath: relPath };
 }
 
-async function processDirectory(dirPath) {    
+async function processDirectory(dirPath, contentDir) {    
     const entries = await fs.readdir(dirPath, { withFileTypes: true });
     const sortedEntries = entries.sort((a, b) => a.name.localeCompare(b.name));
     const chapters = [];
@@ -44,14 +50,14 @@ async function processDirectory(dirPath) {
         const fullPath = path.join(dirPath, entry.name);
 
         if (entry.isDirectory()) {
-            const chapterSections = await processDirectory(fullPath);
+            const chapterSections = await processDirectory(fullPath, contentDir);
             const chapter = {
                 title: entry.name,
                 sections: chapterSections,
             };
             chapters.push(chapter);
         } else if (entry.isFile() && entry.name.endsWith('.md')) {
-            const section = await parseMarkdownFile(fullPath);
+            const section = await parseMarkdownFile(fullPath, contentDir);
             if (entry.name.toLowerCase() === 'toc.md') {
                 continue; // skip the toc file
             } else if (entry.name.toLowerCase() === 'index.md') {
@@ -72,8 +78,8 @@ async function processDirectory(dirPath) {
 async function loadBook(rootDir) {
     const contentDir = path.join(rootDir, 'content');
     const tocPath = path.join(contentDir, 'toc.md');
-    const toc = await parseMarkdownFile(tocPath);
-    const parts = await processDirectory(contentDir);
+    const toc = await parseMarkdownFile(tocPath, contentDir);
+    const parts = await processDirectory(contentDir, contentDir);
 
     const poolFilePath = path.join(rootDir, 'pool.json');
     const poolFileContent = await fs.readFile(poolFilePath, 'utf8');
@@ -109,8 +115,8 @@ async function loadMultilingualBook(rootDir) {
         const lang = dir === 'content' ? 'default' : dir.match(/^content\.([a-z]{2})$/)[1];
         const contentDir = path.join(rootDir, dir);
         const tocPath = path.join(contentDir, 'toc.md');
-        const toc = await parseMarkdownFile(tocPath);
-        const parts = await processDirectory(contentDir);
+        const toc = await parseMarkdownFile(tocPath, contentDir);
+        const parts = await processDirectory(contentDir, contentDir);
         books[lang] = { toc, parts, pool: pools[lang] || pools['default'] };
     }
     // Compare structure and questions
