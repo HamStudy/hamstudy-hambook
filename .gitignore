@@ -14,5 +14,5 @@ hugo-root/resources
 tech2022.md
 epubcheck.txt
 *.epub
-*/hugo/data/questions.json
+*/hugo/data/questions*.json
 build

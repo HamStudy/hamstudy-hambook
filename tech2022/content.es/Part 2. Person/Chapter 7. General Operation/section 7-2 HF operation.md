@@ -35,7 +35,7 @@ Ahora, hablemos sobre cómo usar realmente ese privilegio de 10 metros:
 
 1. **Escucha Primero**: Siempre escucha antes de transmitir. Las bandas HF pueden estar concurridas, y no querrás interrumpir conversaciones en curso.
 
-2. **Selección de Banda Lateral**: Para voz en 10 metros y la mayoría de las bandas HF por encima de 10 MHz, usarás USB (Banda Lateral Superior). Sin embargo, en bandas HF por debajo de 10 MHz (como 40, 80 y 160 metros), LSB (Banda Lateral Inferior) es la convención. Recuerda: "Diez y arriba, USB; por debajo de diez, LSB." Es como elegir el carril correcto en una autopista - usar la banda lateral correcta asegura una comunicación clara y sigue la etiqueta de la radioafición.
+2. **Selección de Banda Lateral**: Para voz en 10 metros y la mayoría de las bandas HF por encima de 10 MHz, usarás USB (Banda Lateral Superior). Sin embargo, en bandas HF por debajo de 10 MHz (como 40, 80 y 160 metros), LSB (Banda Lateral Inferior) es la convención. Recuerda: "Diez y más, USB; menos de diez, LSB." Es como elegir el carril correcto en una autopista - usar la banda lateral correcta asegura una comunicación clara y sigue la etiqueta de la radioafición.
 
 > **Información Clave:** Cuando los mensajes de voz contienen palabras inusuales, la técnica estándar para asegurarse de que se reciban correctamente es deletrear las palabras usando un alfabeto fonético estándar. {{< link id="T2C03" >}}
 

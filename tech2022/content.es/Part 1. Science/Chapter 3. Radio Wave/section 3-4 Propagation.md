@@ -42,11 +42,11 @@ Es por eso que podrías escuchar una señal móvil cortándose rápidamente al c
 
 > **Información Clave - Sorteando Obstáculos**:
 > - Cuando los edificios bloquean una señal de repetidor, a menudo puedes *comunicarte encontrando un camino que refleje las señales* hacia el repetidor {{< link id="T3A05" >}}
-> - La difracción de borde de navaja permite que las señales de radio viajen más allá de las obstrucciones {{< link id="T3C05" >}}
+> - La difracción de filo de cuchillo permite que las señales de radio viajen más allá de las obstrucciones {{< link id="T3C05" >}}
 
 El hecho de que no puedas ver tu objetivo no significa que no puedas alcanzarlo:
 - **Reflexiones**: Como rebotar una pelota en una pared, tu señal puede rebotar en edificios u otras superficies para llegar a un repetidor
-- **Difracción de borde de navaja**: Las ondas de radio pueden doblarse alrededor de bordes afilados de obstáculos (como montañas o edificios), similar a cómo el agua fluye alrededor de una roca en un arroyo
+- **Difracción de filo de cuchillo**: Las ondas de radio pueden doblarse alrededor de bordes afilados de obstáculos (como montañas o edificios), similar a cómo el agua fluye alrededor de una roca en un arroyo
 
 #### Propagación por Onda Espacial
 
