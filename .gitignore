@@ -4,6 +4,7 @@ book.md
 hugo-root/public
 hugo-root/resources
 */hugo/content
+*/hugo/content.*
 */hugo/public
 */hugo/resources
 */hugo/static/images

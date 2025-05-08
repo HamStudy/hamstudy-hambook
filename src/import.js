@@ -4,10 +4,10 @@ const yargs = require('yargs');
 const chokidar = require('chokidar');
 const _ = require('lodash');
 
-const { loadBook } = require('./importer/parser');
+const { loadBook, loadMultilingualBook } = require('./importer/parser');
 const { writeSingleFileMarkdown } = require('./importer/outputs/single-file');
 const { writeSingleDirectoryBook } = require('./importer/outputs/single-directory');
-const { writeHugoBook } = require('./importer/outputs/hugo');
+const { writeHugoBook, writeHugoMultilingualBook } = require('./importer/outputs/hugo');
 const { getBookStructure } = require('./importer/utils');
 
 const formatTypes = {
@@ -17,7 +17,7 @@ const formatTypes = {
     hugo: 'hugo'
 };
 
-async function processBook(book, outputFormat, outputPath, sourcePath) {
+async function processBook(book, outputFormat, outputPath, sourcePath, isMultilingual = false) {
     switch (outputFormat) {
         case formatTypes.singleFileMarkdown:
             await writeSingleFileMarkdown(book, outputPath, sourcePath);
@@ -29,7 +29,11 @@ async function processBook(book, outputFormat, outputPath, sourcePath) {
             await fs.writeFile(outputPath, JSON.stringify(getBookStructure(book), null, 2));
             break;
         case formatTypes.hugo:
-            await writeHugoBook(book, outputPath, sourcePath);
+            if (isMultilingual) {
+                await writeHugoMultilingualBook(book, outputPath, sourcePath);
+            } else {
+                await writeHugoBook(book, outputPath, sourcePath);
+            }
             break;
         default:
             throw new Error('Invalid output format specified.');
@@ -37,9 +41,16 @@ async function processBook(book, outputFormat, outputPath, sourcePath) {
 }
 
 function watchAndProcess(rootDir, outputFormat, outputPath) {
+    // Dynamically find all content directories (e.g., content, content.es, content.fr, etc.)
+    const fsSync = require('fs');
+    const contentDirs = fsSync.readdirSync(rootDir, { withFileTypes: true })
+        .filter(e => e.isDirectory() && /^content(\.[a-z]{2})?$/.test(e.name))
+        .map(e => path.join(rootDir, e.name));
+
+    // Watch all files in all content dirs and all files in images dir
     const watchPatterns = [
-        path.join(rootDir, 'content', '**', '*.md'),
-        path.join(rootDir, 'images', '**')
+        ...contentDirs.map(dir => path.join(dir, '**', '*')), // all files in content dirs
+        path.join(rootDir, 'images', '**', '*') // all files in images
     ];
 
     const watcher = chokidar.watch(watchPatterns, {
@@ -47,7 +58,7 @@ function watchAndProcess(rootDir, outputFormat, outputPath) {
         persistent: true
     });
 
-    console.log(`Watching for changes in ${rootDir}`);
+    console.log(`Watching for changes in: ${watchPatterns.join(', ')}`);
 
     const processChanges = async () => {
         console.log('Changes detected, reprocessing...');
@@ -62,23 +73,17 @@ function watchAndProcess(rootDir, outputFormat, outputPath) {
     const debouncedProcessChanges = _.debounce(processChanges, 1000);
 
     watcher
-        .on('add', path => {
-            if (path.endsWith('.md')) {
-                console.log(`File ${path} has been added`);
-                debouncedProcessChanges();
-            }
+        .on('add', filePath => {
+            console.log(`File ${filePath} has been added`);
+            debouncedProcessChanges();
         })
-        .on('change', path => {
-            if (path.endsWith('.md')) {
-                console.log(`File ${path} has been changed`);
-                debouncedProcessChanges();
-            }
+        .on('change', filePath => {
+            console.log(`File ${filePath} has been changed`);
+            debouncedProcessChanges();
         })
-        .on('unlink', path => {
-            if (path.endsWith('.md')) {
-                console.log(`File ${path} has been removed`);
-                debouncedProcessChanges();
-            }
+        .on('unlink', filePath => {
+            console.log(`File ${filePath} has been removed`);
+            debouncedProcessChanges();
         });
 }
 
@@ -116,8 +121,23 @@ function watchAndProcess(rootDir, outputFormat, outputPath) {
             throw new Error('Please provide the root directory as a command line argument.');
         }
 
-        const book = await loadBook(rootDir);
-        await processBook(book, argv['output-format'], argv['output-path'], rootDir);
+        let book, isMultilingual = false;
+
+        if (argv['output-format'] === formatTypes.hugo) {
+            // Detect multilingual content
+            const dirEntries = await fs.readdir(rootDir, { withFileTypes: true });
+            const contentDirs = dirEntries.filter(e => e.isDirectory() && /^content(\.[a-z]{2})?$/.test(e.name));
+            if (contentDirs.length > 1) {
+                book = await loadMultilingualBook(rootDir);
+                isMultilingual = true;
+            } else {
+                book = await loadBook(rootDir);
+            }
+        } else {
+            book = await loadBook(rootDir);
+        }
+
+        await processBook(book, argv['output-format'], argv['output-path'], rootDir, isMultilingual);
         console.log(`Initial output generated at ${argv['output-path']}`);
 
         if (argv.watch) {

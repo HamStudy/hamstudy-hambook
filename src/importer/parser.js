@@ -82,8 +82,71 @@ async function loadBook(rootDir) {
     return { toc, parts, pool };
 }
 
+/**
+ * Loads all multilingual book versions from content* directories, checks structure and question consistency.
+ * Throws if any translation is missing files or has mismatched questions.
+ * Returns: { [lang]: { toc, parts, pool } }
+ */
+async function loadMultilingualBook(rootDir) {
+    const dirEntries = await fs.readdir(rootDir, { withFileTypes: true });
+    const contentDirs = dirEntries
+        .filter(e => e.isDirectory() && /^content(\.[a-z]{2})?$/.test(e.name))
+        .map(e => e.name);
+    if (!contentDirs.includes('content')) {
+        throw new Error('Default content directory missing');
+    }
+    // Load all pools (default and per-language if present)
+    const poolFiles = dirEntries.filter(e => e.isFile() && /^pool(\.[a-z]{2})?\.json$/.test(e.name));
+    const pools = {};
+    for (const pf of poolFiles) {
+        const lang = pf.name === 'pool.json' ? 'default' : pf.name.match(/^pool\.([a-z]{2})\.json$/)[1];
+        const poolFileContent = await fs.readFile(path.join(rootDir, pf.name), 'utf8');
+        pools[lang] = JSON.parse(poolFileContent);
+    }
+    // Load all books
+    const books = {};
+    for (const dir of contentDirs) {
+        const lang = dir === 'content' ? 'default' : dir.match(/^content\.([a-z]{2})$/)[1];
+        const contentDir = path.join(rootDir, dir);
+        const tocPath = path.join(contentDir, 'toc.md');
+        const toc = await parseMarkdownFile(tocPath);
+        const parts = await processDirectory(contentDir);
+        books[lang] = { toc, parts, pool: pools[lang] || pools['default'] };
+    }
+    // Compare structure and questions
+    function compareParts(baseParts, transParts, basePath = '') {
+        if (baseParts.length !== transParts.length) {
+            throw new Error(`Structure mismatch at ${basePath}: different number of parts/sections`);
+        }
+        for (let i = 0; i < baseParts.length; ++i) {
+            const base = baseParts[i];
+            const trans = transParts[i];
+            const curPath = basePath + '/' + (base.title || '');
+            if (base.sections && trans.sections) {
+                compareParts(base.sections, trans.sections, curPath);
+            } else if (!base.sections && !trans.sections) {
+                // Compare questions in frontmatter
+                const bq = base.frontMatter?.questions || [];
+                const tq = trans.frontMatter?.questions || [];
+                if (JSON.stringify(bq) !== JSON.stringify(tq)) {
+                    throw new Error(`Question mismatch at ${curPath}`);
+                }
+            } else {
+                throw new Error(`Structure mismatch at ${curPath}`);
+            }
+        }
+    }
+    const base = books['default'];
+    for (const [lang, book] of Object.entries(books)) {
+        if (lang === 'default') continue;
+        compareParts(base.parts, book.parts);
+    }
+    return books;
+}
+
 module.exports = {
     parseMarkdownFile,
     processDirectory,
-    loadBook
+    loadBook,
+    loadMultilingualBook
 };

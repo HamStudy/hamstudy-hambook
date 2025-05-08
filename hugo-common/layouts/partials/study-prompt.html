@@ -35,9 +35,9 @@
 
 {{- /* if type is "chapter" then chaptreview-text.svg else qreview-text.svg */ -}}
 
-{{- $reviewImg := "qreview-text.svg" -}}
+{{- $reviewImg := lang.Translate "qreview-file" -}}
 {{- if eq $type "chapter" -}}
-  {{- $reviewImg = "chaptreview-text.svg" -}}
+    {{- $reviewImg = lang.Translate "chaptreview-file" -}}
 {{- end -}}
 {{- $reviewImgPath := printf "svg/%s" $reviewImg -}}
 
@@ -53,12 +53,12 @@
     <img src="{{ "svg/phone2_hs_a.svg" | relURL }}" class="hsp" alt="HamStudy phone icon" />
     <div>
       <a href="{{ $hsShortUrl.Content }}">
-        Open in<br />HamStudy
+        {{- i18n "open" }} <br />HamStudy {{- /* remove whitespace */ -}}
       </a>
     </div>
     <div class="img">
       <a href="{{ $hsShortUrl.Content }}" target="hamstudy">
-        <img src="{{ $svgSaved.RelPermalink }}" alt="QR Code to study on HamStudy.org" />
+        <img src="{{ $svgSaved.RelPermalink }}" alt="{{ i18n "qrtag" }}" />
       </a>
     </div>
   </div>

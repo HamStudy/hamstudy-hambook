@@ -6,8 +6,23 @@ const { formatPoolData } = require('../pool-utils');
 
 const hugoRelImgPath = '/images';
 
-async function writeHugoBook(book, outputPath, sourcePath) {
-    const contentPath = path.join(outputPath, 'content');
+/**
+ * Writes all multilingual book versions to the correct Hugo content subdirectories.
+ * @param {Object} books - { [lang]: { toc, parts, pool } }
+ * @param {string} outputPath - Hugo project root
+ * @param {string} sourcePath - Source root
+ */
+async function writeHugoMultilingualBook(books, outputPath, sourcePath) {
+    for (const [lang, book] of Object.entries(books)) {
+        const langDir = lang === 'default' ? 'content' : `content.${lang}`;
+        const outContentPath = path.join(outputPath, langDir);
+        await writeHugoBook(book, outputPath, sourcePath, outContentPath);
+    }
+}
+
+// Patch: allow custom content path for multilingual
+async function writeHugoBook(book, outputPath, sourcePath, customContentPath) {
+    const contentPath = customContentPath || path.join(outputPath, 'content');
     const sourceDir = path.resolve(sourcePath);
     const dataDir = path.join(outputPath, 'data');
 
@@ -141,5 +156,6 @@ function generateTableOfContents(book) {
 }
 
 module.exports = {
-    writeHugoBook
+    writeHugoBook,
+    writeHugoMultilingualBook
 };

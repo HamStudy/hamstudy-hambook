@@ -5,6 +5,19 @@ title: 'Technician HamBook'
 relativeURLs: false
 canonifyURLs: false
 
+defaultContentLanguage: 'en'
+defaultContentLanguageInSubdir: false
+
+languages:
+  en:
+    languageName: "English"
+    contentDir: "content"
+    weight: 1
+  es:
+    languageName: "Español" 
+    contentDir: "content.es"
+    weight: 2
+
 module:
   imports:
     - path: hambook.org/hambook/common
