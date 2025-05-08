@@ -1,5 +1,5 @@
 
-async function formatPoolData(poolDoc) {
+function formatPoolData(poolDoc) {
     /**  */
     const startDate = new Date(poolDoc.valid_from);
     const endDate = new Date(poolDoc.expires);

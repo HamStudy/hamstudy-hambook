@@ -42,12 +42,12 @@ async function processBook(book, outputFormat, outputPath, sourcePath, isMultili
 
 function watchAndProcess(rootDir, outputFormat, outputPath) {
     // Dynamically find all content directories (e.g., content, content.es, content.fr, etc.)
-    const fsSync = require('fs');
+        const fsSync = require('fs');
     const contentDirs = fsSync.readdirSync(rootDir, { withFileTypes: true })
         .filter(e => e.isDirectory() && /^content(\.[a-z]{2})?$/.test(e.name))
         .map(e => path.join(rootDir, e.name));
 
-    const watchPatterns = [
+        const watchPatterns = [
         ...contentDirs.map(dir => path.join(dir, '**', '*')),
         path.join(rootDir, 'images', '**', '*')
     ];

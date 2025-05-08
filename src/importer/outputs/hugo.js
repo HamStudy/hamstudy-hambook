@@ -24,7 +24,7 @@ async function writeHugoMultilingualBook(books, outputPath, sourcePath) {
                         console.warn('Translation key already exists:', part.frontMatter.translationKey, 'for', part.filePath);
                     }
                     part.frontMatter.translationKey = crypto.createHash('md5').update(part.filePath).digest('hex');
-                    console.log('Assigning translationKey:', part.frontMatter.translationKey, `for ${lang} filePath:`, part.filePath);
+                    // console.log('Assigning translationKey:', part.frontMatter.translationKey, `for ${lang} filePath:`, part.filePath);
                 } else {
                     // console.warn('Missing filePath for part:', part);
                 }
@@ -33,10 +33,31 @@ async function writeHugoMultilingualBook(books, outputPath, sourcePath) {
         }
         assignKeys(book.parts);
     }
+
+    // Always process and write the main pool.json to data/questions.json
+    const mainPoolPath = path.join(sourcePath, 'pool.json');
+    const dataDir = path.join(outputPath, 'data');
+    await fs.mkdir(dataDir, { recursive: true });
+    if (await fs.stat(mainPoolPath).then(() => true, () => false)) {
+        const mainPoolContent = await fs.readFile(mainPoolPath, 'utf8');
+        const mainPoolDoc = JSON.parse(mainPoolContent);
+        const formattedMainPool = formatPoolData(mainPoolDoc);
+        await fs.writeFile(path.join(dataDir, 'questions.json'), JSON.stringify(formattedMainPool, null, 2));
+    }
     for (const [lang, book] of Object.entries(books)) {
         const langDir = lang === 'default' ? 'content' : `content.${lang}`;
         const outContentPath = path.join(outputPath, langDir);
         await writeHugoBook(book, outputPath, sourcePath, outContentPath);
+
+        // If a pool.<lang>.json exists, process and write it to data/questions-<lang>.json
+        if (lang === 'default') continue;
+        const langPoolPath = path.join(sourcePath, `pool.${lang}.json`);
+        if (await fs.stat(langPoolPath).then(() => true, () => false)) {
+            const langPoolContent = await fs.readFile(langPoolPath, 'utf8');
+            const langPoolDoc = JSON.parse(langPoolContent);
+            const formattedLangPool = formatPoolData(langPoolDoc);
+            await fs.writeFile(path.join(dataDir, `questions-${lang}.json`), JSON.stringify(formattedLangPool, null, 2));
+        }
     }
 }
 
@@ -44,16 +65,8 @@ async function writeHugoMultilingualBook(books, outputPath, sourcePath) {
 async function writeHugoBook(book, outputPath, sourcePath, customContentPath) {
     const contentPath = customContentPath || path.join(outputPath, 'content');
     const sourceDir = path.resolve(sourcePath);
-    const dataDir = path.join(outputPath, 'data');
 
     const imagesDir = path.join(outputPath, 'static');
-    const imagesRelDir = path.join(imagesDir, 'images');
-
-    // Create data directory and write questions.json
-    await fs.mkdir(dataDir, { recursive: true });
-    const poolData = await formatPoolData(book.pool, sourceDir);
-    const poolFilePath = path.join(dataDir, 'questions.json');
-    await fs.writeFile(poolFilePath, JSON.stringify(poolData, null, 2));
 
     const writeChapter = async (chapter, currentPath, index, level = 1) => {
         const chptSlug = getTitleSlug(chapter);

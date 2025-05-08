@@ -37,7 +37,7 @@ async function writeSingleDirectoryBook(book, outputPath, sourcePath) {
     const dataDir = path.join(outputPath, 'data');
     const sourceDir = path.resolve(sourcePath);
 
-    const poolData = await formatPoolData(book.pool, sourceDir);
+    const poolData = formatPoolData(book.pool, sourceDir);
     const poolFilePath = path.join(dataDir, 'questions.json');
     await fs.writeFile(poolFilePath, JSON.stringify(poolData, null, 2));
 

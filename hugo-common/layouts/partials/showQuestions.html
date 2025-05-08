@@ -4,15 +4,30 @@
   Parameters:
     - questions: Array of question IDs (strings)
     - page: The current page context
+    - lang: Language code (optional)
 */ -}}
 
 {{- /* Accept parameters */ -}}
 {{- $questions := .questions -}}
 {{- $page := .page -}}
 {{- $shouldLink := .shouldLink | default true -}}
+{{- $lang := .lang | default .Site.Language.Lang -}}
+
+{{- /* Determine the data file based on language */ -}}
+{{- $qdataXlateKey := printf "questions-%s" $lang -}}
+
+{{- $poolFile := .Site.Data.questions -}}
+{{- if (index .Site.Data $qdataXlateKey) }}
+  {{- $poolFile = index .Site.Data $qdataXlateKey -}}
+{{- end -}}
 
 {{- /* Site data */ -}}
-{{- $questionsData := .Site.Data.questions.questions -}}
+{{- $questionsData := $poolFile.questions -}}
+
+{{- /* Check if questions are empty */ -}}
+{{- if not $questions -}}
+  {{- return -}}
+{{- end -}}
 
 {{- /* Initialize shown figures tracking */ -}}
 {{- $shownFigures := dict -}}
