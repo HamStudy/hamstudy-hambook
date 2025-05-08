@@ -19,7 +19,7 @@ Aunque a menudo comparamos la electricidad con el agua fluyendo a través de tub
 - El voltaje también se llama a veces **fuerza electromotriz (FEM)**, porque crea las condiciones que permiten que fluya la corriente.
 - El voltaje siempre se mide *entre dos puntos*. Cuando decimos que una batería de coche es de 12V, nos referimos a que hay una **diferencia de 12 voltios** entre sus terminales positivo y negativo.
 
-**Corriente** ($I$) es *el flujo de electrones en un circuito eléctrico*, medido en **amperios (A)**. {{< link id="T5A01" >}} {{< link id="T5A03" >}} Esto es lo interesante:
+**Corriente** ($I$) es *el flujo de electrones en un circuito eléctrico*, medido en **amperios (A)**. {{< link id="T5A01" >}} {{< link id="T5A03" >}} Aquí viene lo curioso:
 
 Aunque los electrones individuales se mueven bastante lentamente a través de un conductor (¡aproximadamente media pulgada por minuto!), el movimiento de las cargas eléctricas es casi instantáneo - como un tubo largo lleno de canicas. Empuja una en un extremo, y una sale por el otro extremo casi inmediatamente.
 

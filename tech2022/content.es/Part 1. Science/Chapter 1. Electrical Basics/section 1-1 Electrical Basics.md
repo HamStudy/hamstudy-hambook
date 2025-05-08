@@ -6,7 +6,7 @@ questions: ["T5A07", "T5A08"]
 
 ### Sección 1.1: Fundamentos Eléctricos
 
-La electricidad es la fuerza vital de la radioafición. Para entender cómo funciona nuestro equipo y operarlo de manera efectiva, necesitamos comprender algunos conceptos eléctricos fundamentales. Comencemos con lo básico: conductores y aislantes.
+La electricidad es la fuerza vital de la radioafición. Para entender cómo funciona nuestro equipo y operarlo de manera efectiva, necesitamos comprender algunos conceptos eléctricos fundamentales. Vamos con lo básico: conductores y aislantes.
 
 #### Conductores y Aislantes
 

@@ -16,7 +16,7 @@ Como operadores de radioafición, podemos usar secciones específicas del espect
 
 #### Longitud de Onda y Propagación: Sombras y Luz  
 
-Imagina que estás afuera en un día soleado:  
+Imagínate que estás afuera en un día soleado:  
 
 - **Las ondas HF son como el resplandor de una puesta de sol**—largas, suaves y capaces de doblarse alrededor de obstáculos. Al igual que la luz del atardecer envuelve edificios y árboles, **las ondas HF pueden curvarse sobre montañas y reflejarse en la atmósfera** para viajar distancias increíbles.  
 - **Las ondas VHF son como el haz de una linterna**—se mueven en líneas rectas y pueden atravesar algunos obstáculos, pero no se doblan tanto. Si algo grande está en el camino (como una colina o edificio), la señal se bloquea.  
