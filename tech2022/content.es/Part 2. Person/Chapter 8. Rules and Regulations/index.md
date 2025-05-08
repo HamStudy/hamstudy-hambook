@@ -8,7 +8,7 @@ pagebreak: true
 
 ¡Bienvenido a tu manual de reglas de Radioaficionado! Aunque puede que no suene tan emocionante como hacer contactos DX o experimentar con antenas, entender las normas y reglamentos es crucial para ser un operador responsable y legal – ¡sin mencionar evitar molestar a radioaficionados más experimentados!
 
-![ilustración divertida que muestra a alguien en una sala de tribunal frente a una radio con "normas y reglamentos" en la pared](../../../images/illus/rules-and-regs.svg)
+![ilustración divertida que muestra a alguien en una sala de tribunal frente a una radio con "normas y reglamentos" en la pared](../../../images/illus/rules-and-regs-es.svg)
 {.img-pgcap .float-right}
 
 En este capítulo, navegaremos por el mundo de las regulaciones de la FCC que gobiernan la radioafición en los Estados Unidos. Comenzaremos explicando la estructura de las licencias de radioaficionado, incluyendo las diferentes categorías de licencia y los privilegios que ofrecen.

@@ -14,7 +14,7 @@ La Relación de Onda Estacionaria, o ROE (también conocida como SWR por sus sig
 
 La ROE es esencialmente una tarjeta de reporte para la coincidencia de impedancia en tu sistema de antena. Te dice qué tan bien la impedancia de tu transmisor coincide con la impedancia combinada de tu línea de alimentación y tu antena. Cuando estas impedancias coinciden (típicamente a 50 ohmios en radioafición), se transfiere la máxima potencia de tu transmisor a tu sistema de antena.
 
-![Ilustración que muestra agua fluyendo a través de tuberías que cambian de diámetro, causando contrapresión](../../../images/illus/backpressure.svg)
+![Ilustración que muestra agua fluyendo a través de tuberías que cambian de diámetro, causando contrapresión](../../../images/illus/backpressure-es.svg)
 {.img-pgcap .float-right}
 
 Piensa en tu sistema de radio como agua fluyendo a través de tuberías. Tu transmisor empuja la señal (agua) a través de tu línea de alimentación (tubería) hacia tu antena. Cuando las tuberías son del tamaño correcto (buena coincidencia de impedancia), el agua fluye suavemente. Pero si hay una discordancia, parte del agua es empujada hacia atrás, creando contrapresión - igual que la energía RF reflejada de vuelta a tu transmisor. Esta contrapresión es lo que mide la ROE.

@@ -8,7 +8,7 @@ pagebreak: false
 
 Bienvenido a uno de los capítulos más importantes en tu camino para convertirte en un operador responsable de radioafición: **seguridad**. Hacer contactos a través del mundo es emocionante, pero es igual de vital asegurar que tus aventuras de radio no te pongan en riesgo—ni a nadie más.
 
-![Ilustración de una persona con equipo de seguridad sosteniendo una lista de verificación de seguridad](../../../images/safety-ben.svg)
+![Ilustración de una persona con equipo de seguridad sosteniendo una lista de verificación de seguridad](../../../images/safety-ben-es.svg)
 {.img-small .float-right}
 
 En este capítulo, exploraremos temas clave de seguridad que todo radioaficionado debe entender. Comenzaremos con **seguridad eléctrica**, incluyendo cómo manejar la corriente alterna responsablemente y reconocer peligros potenciales en tu estación. Aprenderás la importancia de una conexión a tierra adecuada y cómo protegerte de descargas eléctricas.

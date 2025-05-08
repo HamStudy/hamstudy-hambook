@@ -4,7 +4,7 @@ slug: chpt1
 pagebreak: false
 ---
 
-## Capítulo 1: Principios Eléctricos  
+## Capítulo 1: Electricidad Básica
 
 Bienvenido a los fundamentos de la radioafición—¡los principios eléctricos! En este capítulo, desentrañaremos el fascinante mundo de la electricidad que impulsa todas nuestras aventuras radiofónicas. No te preocupes si no eres un ingeniero eléctrico; desglosaremos estos conceptos en piezas pequeñas y fáciles de entender.
 
