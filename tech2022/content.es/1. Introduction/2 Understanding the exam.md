@@ -65,3 +65,6 @@ Recuerda que necesitas responder correctamente 26 de 35 preguntas, lo que te da 
 La belleza de la radioafición es que puedes comenzar con lo que más te interese, y luego explorar otras facetas del pasatiempo a tu propio ritmo después de obtener la licencia.
 
 ¿La moraleja? ¡Este examen no es tan difícil como podrías pensar, y con este libro puedes elegir qué tan profundamente quieres aprender el material mientras te preparas para tu licencia!
+---
+
+*Nota: Aunque el banco de preguntas está disponible en español, puede ser difícil encontrar un equipo capaz de administrar los exámenes en ese idioma. Por esta razón, estudiar también en inglés puede ser recomendable. Esto le dará más flexibilidad a la hora de programar su examen y asegurará que está preparado para cualquier equipo de examinadores que encuentre. Además, muchos de los recursos y comunidades de radioaficionados en los Estados Unidos operan principalmente en inglés, por lo que familiarizarse con la terminología técnica en inglés será beneficioso para su experiencia futura en la radioafición.*
