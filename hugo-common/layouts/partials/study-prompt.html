@@ -10,6 +10,7 @@
 {{- $questions := .questions -}}
 {{- $groups := .groups -}}
 {{- $type := .type | default "section" -}}
+{{- $lang := .lang | default .Site.Language.Lang -}}
 
 {{- /* Site parameters */ -}}
 {{- $images := .Site.Params.deskImages -}}
@@ -20,8 +21,14 @@
 {{- $joinedIDs := delimit $questions "," -}}
 {{- $joinedGroups := delimit $groups "," -}}
 
+{{- $hsUrlBase := printf "%s%s" $hsBaseURL $joinedIDs -}}
+{{- /* if we aren't in English, add a language code */ -}}
+{{- if ne $lang "en" -}}
+    {{- $hsUrlBase = printf "%s&lng=%s" $hsUrlBase $lang -}}
+{{- end -}}
+
 {{- /* Build URLs */ -}}
-{{- $hsURL := printf "%s%s&groups=%s" $hsBaseURL $joinedIDs $joinedGroups -}}
+{{- $hsURL := printf "%s&groups=%s" $hsUrlBase $joinedGroups -}}
 {{- $hsTextUrl := printf "%s?%s" $qrBaseURL (querify "type" "string" "link" $hsURL) -}}
 {{- $qrURLSvg := printf "%s?%s" $qrBaseURL (querify "type" "svg" "link" $hsURL) -}}
 
