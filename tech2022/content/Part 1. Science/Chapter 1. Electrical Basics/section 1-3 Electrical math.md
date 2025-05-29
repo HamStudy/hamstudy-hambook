@@ -23,7 +23,7 @@ First up is **Ohm's Law**, the fundamental principle of everything electrical. I
 
 $$E = I \times R$$
 
-![Ohm's Law Circle](/images/form-ohms.svg)
+![Ohm's Law Circle, with E centered in the top half of the circle. A line divides the top and bottom in half and another line divides the left and right side of the bottom half, with I on one side and R on the other.](/images/form-ohms.svg)
 {.float-right .img-small}
 
 Where:

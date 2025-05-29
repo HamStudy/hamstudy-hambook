@@ -43,14 +43,13 @@ By purchasing this book, you agree to these terms.
 ## Contributors
 
 The following entities have contributed in major ways to this book:
-
-* Richard Bateman, KD7BBC – Primary author and mastermind
-* Ben Loveridge, KF7KGR – Publishing consultant and Chief of Keeping Richard On Task (CKROT)
-* Norm Goodkin, K6YXH – Content review and editor.
-* Mitch Berger, N2YIC – Technical reviewer and editor.
+* Primary author, content architect, and project lead; directed, revised, and refined all material, including content generated or edited with the aid of AI tools
+* Ben Loveridge, K1BEN – Publishing consultant and Chief of Keeping Richard On Task (CKROT)
+* Norm Goodkin, K6YXH – Content review and editor
+* Mitch Berger, N2YIC – Technical reviewer and editor
 * Noji Ratzlaff, KN0JI – Creator of the fantastic organizational layout we used
-* https://claude.ai – Much of the writing was done using Claude
-* https://chatgpt.com – A lot of ideas and minor text revisions were done with the help of ChatGPT
+* Claude AI – Assisted with drafting and revision under human direction
+* ChatGPT – Helped with brainstorming and minor text refinements
 
 Also huge thanks to all who have emailed us about corrections or typos!
 
