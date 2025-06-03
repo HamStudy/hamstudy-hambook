@@ -54,7 +54,7 @@ Once you've covered the material and are getting close to exam day, here's an ef
 ## Enhance Your Learning with HamStudy
 
 ![HamStudy A Logo](../../images/hamstudy_a.svg)
-{ .float-right .ma-1 .w-4r }
+{ .float-right .ma-1 .w-4r .hide-audio }
 
 HamStudy.org and the HamStudy mobile app work seamlessly with this HamBook, providing dynamic practice tailored to what you’re reading and what you struggle with the most.
 

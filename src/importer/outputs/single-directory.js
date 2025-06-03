@@ -28,8 +28,9 @@ async function convertToPdfImageProcessor(sourcePath, destPath, options = {}) {
  * @param {Object} book - The book object with parts and sections
  * @param {string} outputPath - The path to the Hugo project root
  * @param {string} sourcePath - The path to the source directory
+ * @param {string|undefined} lang - Language code (e.g., 'es'), or undefined for default
  */
-async function writeSingleDirectoryBook(book, outputPath, sourcePath) {
+async function writeSingleDirectoryBook(book, outputPath, sourcePath, lang = undefined) {
     let fileIndex = 1;
     const contentDir = path.join(outputPath, 'content');
     const staticDir = path.join(outputPath, 'static', 'OEBPS');
@@ -38,7 +39,10 @@ async function writeSingleDirectoryBook(book, outputPath, sourcePath) {
     const sourceDir = path.resolve(sourcePath);
 
     const poolData = formatPoolData(book.pool, sourceDir);
-    const poolFilePath = path.join(dataDir, 'questions.json');
+    // Write language-specific questions file
+    const poolFilePath = lang && lang !== 'default'
+        ? path.join(dataDir, `questions-${lang}.json`)
+        : path.join(dataDir, 'questions.json');
     await fs.writeFile(poolFilePath, JSON.stringify(poolData, null, 2));
 
     // Create the necessary directories
@@ -51,7 +55,9 @@ async function writeSingleDirectoryBook(book, outputPath, sourcePath) {
 
     const saveSection = async (section, index) => {
         const sanitizedTitle = section.title.replace(/[^\w\s-]/g, '').replace(/\s+/g, '-').toLowerCase();
-        const filename = `${String(index).padStart(2, '0')}-${sanitizedTitle}.md`;
+        // Use .md for default, .<lang>.md for others
+        const ext = lang && lang !== 'default' ? `.${lang}.md` : '.en.md';
+        const filename = `${String(index).padStart(2, '0')}-${sanitizedTitle}${ext}`;
         const filePath = path.join(contentDir, filename);
 
         // Add weight to the frontmatter
@@ -148,7 +154,7 @@ async function writeSingleDirectoryBook(book, outputPath, sourcePath) {
 
     // Table of contents content with HTML directly
     tocContent += `<ol>`
-        + `<li epub:type="cover"><a href="cover.xhtml">Cover</a></li>\n`;
+        + `<li epub:type="cover"><a href="cover.xhtml">{{% T "cover" %}}</a></li>\n`;
 
     await processSections(book.parts);
 
@@ -167,8 +173,10 @@ async function writeSingleDirectoryBook(book, outputPath, sourcePath) {
         weight: 0,
         layout: "toc",
     };
+    // Use .md for default, .<lang>.md for others
+    const tocExt = lang && lang !== 'default' ? `.${lang}.md` : '.md';
     const tocWithFrontMatter = writeFrontMatter(tocFrontMatter) + tocContent;
-    await fs.writeFile(path.join(contentDir, '00-table-of-contents.md'), tocWithFrontMatter);
+    await fs.writeFile(path.join(contentDir, `00-table-of-contents${tocExt}`), tocWithFrontMatter);
 
     // Write a metadata file that can be used for EPUB generation
     const metadata = {
@@ -193,7 +201,7 @@ async function writeSingleDirectoryBook(book, outputPath, sourcePath) {
     await fs.mkdir(path.join(outputPath, 'data'), { recursive: true });
 
     return {
-        tocFile: '00-table-of-contents.md',
+        tocFile: `00-table-of-contents${tocExt}`,
         sections: sectionFiles,
         metadata,
         images: processedImages

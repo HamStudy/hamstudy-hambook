@@ -23,13 +23,14 @@ Bajo los siguientes términos:
 
 {{< /web-only >}}
 
-### **Licencia de Ebook (PDF/EPUB) y Versión Impresa**
+### **Licencia de Ebook (PDF/EPUB), Versión Impresa y Audiolibro**
 
-{{< print-only >}}Las **versiones ebook (PDF/EPUB) e impresa NO están cubiertas bajo la licencia Creative Commons de la versión web!.**{{< /print-only >}}
+{{< print-only >}}Las **versiones ebook (PDF/EPUB), Audiolibro e impresa NO están cubiertas bajo la licencia Creative Commons de la versión web!.**{{< /print-only >}}
 {{< web-only tag="span">}}Las **versiones ebook (PDF/EPUB) e impresa NO están cubiertas bajo la licencia Creative Commons mencionada anteriormente.**{{< /web-only >}}
+{{< audiobook-only >}}Este Audiolibro fue creado con la asistencia de texto a voz generado por IA bajo la dirección creativa de HamStudy.org LLC. Las versiones ebook (tanto PDF como epub), Audiolibro e impresa de este libro NO están cubiertas bajo la licencia Creative Commons de la versión web!{{< /audiobook-only >}}
 
 - Estas versiones están licenciadas **solo para uso personal y familiar inmediato**.
-- ❌ Usted **no puede** compartir, distribuir o cargar el ebook en ninguna plataforma pública o privada.
+- ❌ Usted **no puede** compartir, distribuir o cargar el ebook o audiolibro en ninguna plataforma pública o privada.
 - ❌ Usted **no puede** escanear, copiar o digitalizar la versión impresa para redistribución.
 - ❌ Usted **no puede** vender ni obtener beneficios de copias no autorizadas de este libro.
 - ✅ Usted **puede vender su copia impresa personal** como un libro usado.
@@ -43,14 +44,13 @@ Al comprar este libro, usted acepta estos términos.
 ## Colaboradores
 
 Las siguientes entidades han contribuido de manera significativa a este libro:
-
-* Richard Bateman, KD7BBC – Autor principal y mente maestra
-* Ben Loveridge, KF7KGR – Consultor de publicación y Jefe de Mantener a Richard en la Tarea (CKROT)
-* Norm Goodkin, K6YXH – Revisión de contenido y editor.
-* Mitch Berger, N2YIC – Revisor técnico y editor.
+* Richard Bateman, KD7BBC – Autor principal, arquitecto de contenido y líder del proyecto; dirigió, revisó y refinó todo el material, incluyendo contenido generado o editado con la ayuda de herramientas de IA
+* Ben Loveridge, K1BEN – Consultor de publicación y Jefe de Mantener a Richard en la Tarea (CKROT)
+* Norm Goodkin, K6YXH – Revisión de contenido y editor
+* Mitch Berger, N2YIC – Revisor técnico y editor
 * Noji Ratzlaff, KN0JI – Creador del fantástico diseño organizativo que utilizamos
-* https://claude.ai – Gran parte de la redacción se realizó utilizando Claude
-* https://chatgpt.com – Muchas ideas y revisiones menores de texto se realizaron con la ayuda de ChatGPT
+* Claude AI – Asistió con la redacción y revisión bajo dirección humana
+* ChatGPT – Ayudó con lluvia de ideas y refinamientos menores de texto
 
 ¡También un enorme agradecimiento a todos los que nos han enviado correos electrónicos sobre correcciones o erratas!
 

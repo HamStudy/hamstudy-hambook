@@ -68,6 +68,20 @@ async function writeHugoBook(book, outputPath, sourcePath, customContentPath) {
 
     const imagesDir = path.join(outputPath, 'static');
 
+    // Assign translationKey to parts and sections if not already assigned by multilingual process
+    function assignKeys(parts) {
+        for (const part of parts) {
+            if (part.filePath) {
+                part.frontMatter = part.frontMatter || {};
+                if (!part.frontMatter.translationKey) {
+                    part.frontMatter.translationKey = crypto.createHash('md5').update(part.filePath).digest('hex');
+                }
+            }
+            if (part.sections) assignKeys(part.sections);
+        }
+    }
+    assignKeys(book.parts);
+
     const writeChapter = async (chapter, currentPath, index, level = 1) => {
         const chptSlug = getTitleSlug(chapter);
         const chapterPath = path.join(currentPath, chptSlug);

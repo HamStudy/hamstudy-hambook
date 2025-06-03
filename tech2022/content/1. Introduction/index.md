@@ -23,27 +23,28 @@ Under the following terms:
 
 {{< /web-only >}}
 
-### **Ebook (PDF/EPUB) & Paperback License**
+### **Ebook (PDF/EPUB), Paperback, and Audiobook License**
 
-{{< print-only >}}The **ebook (PDF/EPUB) and paperback versions are NOT covered under the Creative Commons license of the web version!.**{{< /print-only >}}
+{{< print-only >}}The **ebook (PDF/EPUB), Audiobook, and paperback versions are NOT covered under the Creative Commons license of the web version!.**{{< /print-only >}}
 {{< web-only tag="span">}}The **ebook (PDF/EPUB) and paperback versions are NOT covered under the Creative Commons license above.**{{< /web-only >}}
+{{< audiobook-only >}}This Audiobook was created with the assistance of AI-generated Text-to-speech under the creative direction of HamStudy.org LLC. The ebook (both PDF and epub), Audiobook, and paperback versions of this book are NOT covered under the Creative Commons license of the web version!{{< /audiobook-only >}}
 
 - These versions are licensed for **personal and immediate family use only**.
-- ❌ You **may not** share, distribute, or upload the ebook to any public or private platform.
+- ❌ You **may not** share, distribute, or upload the ebook or audiobook to any public or private platform.
 - ❌ You **may not** scan, copy, or digitize the paperback version for redistribution.
 - ❌ You **may not** sell or profit from any unauthorized copies of this book.
 - ✅ You **may sell your personal paperback copy** as a used book.
 
 By purchasing this book, you agree to these terms.  
 
-**You can find all versions of the book for online viewing or purchase at https://hambook.org**
+** You can find all versions of the book for online viewing or purchase at https://hambook.org **
 
 ---
 
 ## Contributors
 
 The following entities have contributed in major ways to this book:
-* Primary author, content architect, and project lead; directed, revised, and refined all material, including content generated or edited with the aid of AI tools
+* Richard Bateman, KD7BBC – Primary author, content architect, and project lead; directed, revised, and refined all material, including content generated or edited with the aid of AI tools
 * Ben Loveridge, K1BEN – Publishing consultant and Chief of Keeping Richard On Task (CKROT)
 * Norm Goodkin, K6YXH – Content review and editor
 * Mitch Berger, N2YIC – Technical reviewer and editor

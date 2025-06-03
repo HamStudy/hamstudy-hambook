@@ -7,6 +7,7 @@ const _ = require('lodash');
 const { loadBook, loadMultilingualBook } = require('./importer/parser');
 const { writeSingleFileMarkdown } = require('./importer/outputs/single-file');
 const { writeSingleDirectoryBook } = require('./importer/outputs/single-directory');
+const { writeAudiobookDirectoryBook } = require('./importer/outputs/audiobook-directory');
 const { writeHugoBook, writeHugoMultilingualBook } = require('./importer/outputs/hugo');
 const { getBookStructure } = require('./importer/utils');
 
@@ -14,16 +15,27 @@ const formatTypes = {
     singleFileMarkdown: 'mdfile',
     singleDirectoryBook: 'dirbook',
     jsonStructure: 'jsonStruct',
-    hugo: 'hugo'
+    hugo: 'hugo',
+    audiobookDirectoryBook: 'audiobookdir'
 };
 
-async function processBook(book, outputFormat, outputPath, sourcePath, isMultilingual = false) {
+async function processBook(book, outputFormat, outputPath, sourcePath, isMultilingual = false, lang = undefined) {
     switch (outputFormat) {
         case formatTypes.singleFileMarkdown:
             await writeSingleFileMarkdown(book, outputPath, sourcePath);
             break;
         case formatTypes.singleDirectoryBook:
-            await writeSingleDirectoryBook(book, outputPath, sourcePath);
+            await writeSingleDirectoryBook(book, outputPath, sourcePath, lang);
+            break;
+        case formatTypes.audiobookDirectoryBook:
+            if (isMultilingual) {
+                // book is an object: { lang: { toc, parts, pool } }
+                for (const [curLang, bookObj] of Object.entries(book)) {
+                    await writeAudiobookDirectoryBook(bookObj, outputPath + (curLang === 'default' ? '' : `-${curLang}`), sourcePath, curLang === 'default' ? undefined : curLang);
+                }
+            } else {
+                await writeAudiobookDirectoryBook(book, outputPath, sourcePath, lang);
+            }
             break;
         case formatTypes.jsonStructure:
             await fs.writeFile(outputPath, JSON.stringify(getBookStructure(book), null, 2));
@@ -42,12 +54,12 @@ async function processBook(book, outputFormat, outputPath, sourcePath, isMultili
 
 function watchAndProcess(rootDir, outputFormat, outputPath) {
     // Dynamically find all content directories (e.g., content, content.es, content.fr, etc.)
-        const fsSync = require('fs');
+    const fsSync = require('fs');
     const contentDirs = fsSync.readdirSync(rootDir, { withFileTypes: true })
         .filter(e => e.isDirectory() && /^content(\.[a-z]{2})?$/.test(e.name))
         .map(e => path.join(rootDir, e.name));
 
-        const watchPatterns = [
+    const watchPatterns = [
         ...contentDirs.map(dir => path.join(dir, '**', '*')),
         path.join(rootDir, 'images', '**', '*')
     ];
@@ -69,6 +81,19 @@ function watchAndProcess(rootDir, outputFormat, outputPath) {
                 if (contentDirs.length > 1) {
                     book = await loadMultilingualBook(rootDir);
                     isMultilingual = true;
+                } else {
+                    book = await loadBook(rootDir);
+                }
+            } else if (outputFormat === formatTypes.singleDirectoryBook) {
+                const dirEntries = await fs.readdir(rootDir, { withFileTypes: true });
+                const contentDirs = dirEntries.filter(e => e.isDirectory() && /^content(\.[a-z]{2})?$/.test(e.name));
+                if (contentDirs.length > 1) {
+                    const books = await loadMultilingualBook(rootDir);
+                    for (const [lang, bookObj] of Object.entries(books)) {
+                        await processBook(bookObj, outputFormat, outputPath, rootDir, true, lang === 'default' ? undefined : lang);
+                    }
+                    console.log(`Output regenerated at ${outputPath}`);
+                    return;
                 } else {
                     book = await loadBook(rootDir);
                 }
@@ -141,6 +166,25 @@ function watchAndProcess(rootDir, outputFormat, outputPath) {
             if (contentDirs.length > 1) {
                 book = await loadMultilingualBook(rootDir);
                 isMultilingual = true;
+            } else {
+                book = await loadBook(rootDir);
+            }
+        } else if (argv['output-format'] === formatTypes.singleDirectoryBook) {
+            // Detect multilingual content for single-directory output
+            const dirEntries = await fs.readdir(rootDir, { withFileTypes: true });
+            const contentDirs = dirEntries.filter(e => e.isDirectory() && /^content(\.[a-z]{2})?$/.test(e.name));
+            if (contentDirs.length > 1) {
+                // Multilingual: load each language and output with lang extension
+                const books = await loadMultilingualBook(rootDir);
+                for (const [lang, bookObj] of Object.entries(books)) {
+                    // lang === 'default' for the main language
+                    await processBook(bookObj, argv['output-format'], argv['output-path'], rootDir, true, lang === 'default' ? undefined : lang);
+                }
+                console.log(`Initial multilingual output generated at ${argv['output-path']}`);
+                if (argv.watch) {
+                    watchAndProcess(rootDir, argv['output-format'], argv['output-path']);
+                }
+                return;
             } else {
                 book = await loadBook(rootDir);
             }

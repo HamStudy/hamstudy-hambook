@@ -49,8 +49,8 @@ Si alguna vez tuviste una licencia y tenías una licencia de clase General o Ama
 
 Hay varias formas de encontrar sesiones de examen locales:
 
-1. **HamStudy.org**: Visita https://hamstudy.org/sessions para buscar sesiones de examen tanto presenciales como en línea.
-2. **Sitio Web de ARRL**: La Liga Americana de Radio Relay (ARRL) mantiene una lista de sesiones de examen en https://www.arrl.org/find-an-amateur-radio-license-exam-session.
+1. **HamStudy.org**: Visita [hamstudy.org/sessions](https://hamstudy.org/sessions) para buscar sesiones de examen tanto presenciales como en línea.
+2. **Sitio Web de ARRL**: La Liga Americana de Radio Relay (ARRL) mantiene una lista de sesiones de examen que puedes encontrar [en su sitio web en www.arrl.org](https://www.arrl.org/find-an-amateur-radio-license-exam-session).
 3. **Clubes Locales de Radioafición**: Muchos clubes organizan sesiones de examen regulares. Consulta con los clubes en tu área para conocer las próximas fechas.
 
 Recuerda que incluso si encuentras la sesión de examen a través de HamStudy u otro sitio web, generalmente solo están listando sesiones de examen para un equipo específico de Examinadores Voluntarios -- necesitas contactar a ese equipo directamente con cualquier pregunta. Si te registras para el examen a través de HamStudy.org, por ejemplo, deberías recibir un correo electrónico de registro al que puedes responder para contactar al equipo de VE.
@@ -62,7 +62,7 @@ Desde 2020, las sesiones de examen remotas se han vuelto ampliamente disponibles
 1. Asegúrate de tener una conexión a internet confiable y una webcam.
 2. Ten un espacio limpio y privado para tomar el examen.
 3. Prepárate para mostrar tu entorno de examen a los examinadores.
-4. Visita https://ham.study/sessions/online para encontrar sesiones remotas disponibles.
+4. Visita https://hamstudy.org/sessions/online para encontrar sesiones remotas disponibles.
 
 Al registrarte para un examen remoto, lee cuidadosamente todas las instrucciones proporcionadas por el equipo de examen. Presta atención a cualquier requisito de software específico o procedimientos previos al examen que puedan tener.
 

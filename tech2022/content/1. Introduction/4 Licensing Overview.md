@@ -49,8 +49,8 @@ If you were once licensed and had a General or Amateur Extra class license you c
 
 There are several ways to find local exam sessions:
 
-1. **HamStudy.org**: Visit https://hamstudy.org/sessions to search for both in-person and online exam sessions.
-2. **ARRL Website**: The American Radio Relay League (ARRL) maintains a list of exam sessions at https://www.arrl.org/find-an-amateur-radio-license-exam-session.
+1. **HamStudy.org**: Visit [hamstudy.org/sessions](https://hamstudy.org/sessions) to search for both in-person and online exam sessions.
+2. **ARRL Website**: The American Radio Relay League (ARRL) maintains a list of exam sessions that you can find [on their website at www.arrl.org](https://www.arrl.org/find-an-amateur-radio-license-exam-session).
 3. **Local Amateur Radio Clubs**: Many clubs host regular exam sessions. Check with clubs in your area for upcoming dates.
 
 Remember that even if you find the exam session through HamStudy or another website they are usually just listing exam sessions for a specific team of Volunteer Examiners -- you need to contact that team directly with any questions. If you register for the exam via HamStudy.org, for example, you should receive a registration email that you can reply to in order to contact the VE team.
@@ -62,7 +62,7 @@ Since 2020, remote exam sessions have become widely available. These allow you t
 1. Ensure you have a reliable internet connection and a webcam.
 2. Have a clean, private space for taking the exam.
 3. Be prepared to show your exam environment to the examiners.
-4. Visit https://ham.study/sessions/online to find available remote sessions.
+4. Visit https://hamstudy.org/sessions/online to find available remote sessions.
 
 When registering for a remote exam, carefully read all instructions provided by the exam team. Pay attention to any specific software requirements or pre-exam procedures they may have.
 

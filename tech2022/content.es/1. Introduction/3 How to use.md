@@ -54,7 +54,7 @@ Una vez que hayas cubierto el material y estés cerca del día del examen, aquí
 ## Mejora Tu Aprendizaje con HamStudy
 
 ![Logo de HamStudy A](../../images/hamstudy_a.svg)
-{ .float-right .ma-1 .w-4r }
+{ .float-right .ma-1 .w-4r .hide-audio }
 
 HamStudy.org y la aplicación móvil HamStudy funcionan perfectamente con este Manual HamBook, proporcionando práctica dinámica adaptada a lo que estás leyendo y a lo que más te cuesta.
 
