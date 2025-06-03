@@ -1,6 +1,6 @@
 ---
 questions: []
-slug: part2-intro
+slug: pt2
 ---
 
 # Part 2: Operating as a General Class Amateur

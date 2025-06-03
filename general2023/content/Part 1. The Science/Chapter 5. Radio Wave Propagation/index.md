@@ -1,6 +1,6 @@
 ---
 questions: []
-slug: chpt3-intro
+slug: chpt3
 ---
 
 # Chapter 3: Understanding Radio Wave Propagation

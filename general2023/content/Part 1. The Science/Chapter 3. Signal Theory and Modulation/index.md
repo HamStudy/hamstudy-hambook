@@ -1,6 +1,6 @@
 ---
 questions: []
-slug: chpt5-intro
+slug: chpt5
 ---
 
 # Chapter 5: Signal Theory and Modulation

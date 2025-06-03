@@ -1,5 +1,6 @@
 ---
-slug: "section3.2"
+chapter: "3"
+section: "3.2"
 questions: ["G8A01", "G8A06", "G8A09", "G8A12", "G8C02", "G8C03", "G8C04", "G8C05", "G8C06", "G8C07", "G8C08", "G8C10", "G8C11", "G8C12", "G8C13", "G8C14", "G8C15", "G8C16"]
 ---
 

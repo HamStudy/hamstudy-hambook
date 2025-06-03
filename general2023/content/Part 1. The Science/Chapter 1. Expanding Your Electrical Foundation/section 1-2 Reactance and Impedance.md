@@ -1,5 +1,6 @@
 ---
-slug: "section1.2"
+chapter: "1"
+section: "1.2"
 questions: ["G5A01", "G5A02", "G5A03", "G5A04", "G5A05", "G5A06", "G5A07", "G5A08", "G5A09", "G5A11", "G5A12"]
 ---
 

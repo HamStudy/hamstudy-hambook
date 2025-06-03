@@ -1,8 +1,9 @@
 {{- $outputMode := "htmlAndMathml" -}}
-{{ if eq .Type "block" }}
-  {{ $opts := dict "displayMode" true "output" $outputMode }}
+{{ $inner := .Inner | default "" -}}
+{{ if or (eq .Type "block") (strings.Contains $inner "\\begin") }}
+  {{ $opts := dict "displayMode" true "output" $outputMode "strict" "ignore" }}
   <span class="katex-display">{{ transform.ToMath .Inner $opts }}</span>
 {{ else }}
-  {{ $opts := dict "output" $outputMode }}
+  {{ $opts := dict "output" $outputMode "strict" "ignore" }}
   {{ transform.ToMath .Inner $opts }}
 {{ end }}

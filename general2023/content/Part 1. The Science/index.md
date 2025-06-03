@@ -1,6 +1,6 @@
 ---
 questions: []
-slug: part1-intro
+slug: pt1
 ---
 
 # Part 1: The Science Behind General Class Operation

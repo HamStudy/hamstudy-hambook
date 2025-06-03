@@ -1,5 +1,6 @@
 ---
-slug: "section6.4"
+chapter: "6"
+section: "6.4"
 questions: ["G0B07", "G0B08"]
 ---
 

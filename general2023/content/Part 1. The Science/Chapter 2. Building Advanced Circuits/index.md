@@ -1,6 +1,6 @@
 ---
 questions: []
-slug: chpt2-intro
+slug: chpt2
 ---
 
 # Chapter 2: Essential Radio Components

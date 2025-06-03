@@ -155,6 +155,22 @@ div.qrcode {
   > img { margin-left: 0.75rem; }
 }
 
+figure, .markdown figure {
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+  max-width: var(--max-image-width);
+  img {
+    max-width: var(--max-image-width);
+    display: block;
+    margin: auto;
+  }
+  figcaption {
+    text-align: center;
+    font-size: var(--margin-text-size);
+  }
+}
+
 .print-only { display: none; }
 @media print {
   .web-only { display: none; }

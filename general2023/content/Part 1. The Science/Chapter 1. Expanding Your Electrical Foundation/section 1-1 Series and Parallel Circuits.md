@@ -1,5 +1,6 @@
 ---
-slug: "section1.1"
+chapter: "1"
+section: "1.1"
 questions: ["G5C03", "G5C04", "G5C08", "G5C09", "G5C10", "G5C11", "G5C12", "G5C13", "G5C14", "G5B02"]
 ---
 
@@ -13,9 +14,9 @@ As you move beyond the basics of your Technician license, you'll need a solid gr
 
 Imagine water flowing through pipes. That's a helpful way to visualize how current and voltage are characterized in electrical circuits. The key difference between series and parallel circuits lies in how these "pipes" are arranged, which affects where current flows and how voltages are distributed.
 
-{{% captioned caption="Figure 1 – Series and Parallel Circuit Diagrams" %}}
+{{< captioned caption="Figure 1 – Series and Parallel Circuit Diagrams" >}}
 ![figure: Series circuit on the left, parallel circuit on the right. Both show three resistors R1, R2, R3. The series circuit has a single I_total arrow, the parallel circuit has I_total and individual I_1, I_2, and I_3 arrows.](../../../images/s1-1-parallel-series.svg)
-{{% /captioned %}}
+{{< /captioned >}}
 
 ##### Series Circuits (A Single Pipe):
 
@@ -55,13 +56,13 @@ Now that we understand the basic principles, let's examine how resistors, capaci
 
 Here's a summary of how components combine:
 
-{{% captioned caption="Table 1 – Summary of governing equations for series and parallel circuits" %}}
+{{< captioned caption="Table 1 – Summary of governing equations for series and parallel circuits" >}}
 | Component | Series Connection | Parallel Connection |
 |-----------|------------------|---------------------|
 | Resistors | Direct Sum: $$R_{total} = R_1 + R_2 + R_3 + \ldots$$ | Reciprocal Method: $$\frac{1}{R_{total}} = \frac{1}{R_1} + \frac{1}{R_2} + \frac{1}{R_3} + \ldots$$|
 | Capacitors | Reciprocal Method: $$\frac{1}{C_{total}} = \frac{1}{C_1} + \frac{1}{C_2} + \frac{1}{C_3} + \ldots$$| Direct Sum: $$C_{total} = C_1 + C_2 + C_3 + \ldots$$ |
 | Inductors | Direct Sum: $$L_{total} = L_1 + L_2 + L_3 + \ldots$$ | Reciprocal Method: $$\frac{1}{L_{total}} = \frac{1}{L_1} + \frac{1}{L_2} + \frac{1}{L_3} + \ldots$$|
-{{% /captioned %}}
+{{< /captioned >}}
 
 Notice the pattern: Resistors and inductors follow the same rules (direct sum in series, reciprocal method in parallel), while capacitors follow the opposite pattern (reciprocal method in series, direct sum in parallel). This relationship makes sense when you consider the physical properties of these components. Let's explore each component type with practical examples.
 

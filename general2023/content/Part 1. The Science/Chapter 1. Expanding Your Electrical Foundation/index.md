@@ -1,6 +1,6 @@
 ---
 questions: []
-slug: chpt1-intro
+slug: chpt1
 ---
 
 # Chapter 1: Building Your Electrical Foundation

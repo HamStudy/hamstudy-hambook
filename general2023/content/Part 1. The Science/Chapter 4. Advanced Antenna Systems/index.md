@@ -1,6 +1,6 @@
 ---
 questions: []
-slug: chpt4-intro
+slug: chpt4
 ---
 
 # Chapter 4: Advanced Antenna Systems
