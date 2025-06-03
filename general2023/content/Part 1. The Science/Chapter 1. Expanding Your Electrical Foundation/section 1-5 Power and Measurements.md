@@ -22,9 +22,9 @@ Where:
 Building on Ohm's Law from Section 1.1, we can express power in three equivalent ways:
 
 $$\begin{align*}
-P &= I \times E\\
-P &= \frac{E^2}{R}\\
-P &= I^2 \times R\\
+P &= I \times E\\[1.25em]
+P &= \frac{E^2}{R}\\[1.25em]
+P &= I^2 \times R
 \end{align*}$$
 
 These equations allow us to calculate power in any circuit when we know at least two of the following: voltage, current, or resistance.
@@ -34,7 +34,7 @@ Let's look at a basic power calculation example:
 If we apply 400 VDC to an 800-ohm load, we can calculate the power: {{< link id="G5B03" >}}
 
 $$\begin{align*}
-I &= \frac{E}{R} = \frac{400V}{800\Omega} = 0.5A \\
+I &= \frac{E}{R} = \frac{400V}{800\Omega} = 0.5A \\[1.25em]
 P &= I \times E = 0.5A \times 400V = 200W
 \end{align*}$$
 
@@ -62,10 +62,10 @@ This mathematical relationship is why we can use Ohm's Law with AC circuits—wh
 The following table shows the relationships between different AC voltage measurements:
 
 | Measure        | Relationship to RMS |
-|-------------- |---------------------|
+|:-------------:|:--------------------:|
 | RMS           | $E_{RMS}$  (reference) |
-| Peak          | $$ \begin{align*} E_{peak} &= E_{RMS} \times \sqrt{2} \\ &\approx E_{RMS} \times 1.414 \end{align*} $$ |
-| Peak-to-Peak  | $$ \begin{align*} E_{p-p} &= 2 \times E_{peak} \\ &= 2 \times E_{RMS} \times \sqrt{2} \\ &\approx E_{RMS} \times 2.828 \end{align*} $$ |
+| Peak          | $$\begin{align*} E_{peak} &= E_{RMS} \times \sqrt{2} \\ &\approx E_{RMS} \times 1.414 \end{align*}$$ |
+| Peak-to-Peak  | $$\begin{align*} E_{p-p} &= 2 \times E_{peak} \\ &= 2 \times E_{RMS} \times \sqrt{2} \\ &\approx E_{RMS} \times 2.828 \end{align*}$$ |
 
 #### RF Power Measurements: PEP
 
@@ -107,7 +107,7 @@ Positive dB values represent power increases, while negative dB values represent
 | 20 dB | 100 | 100x power |
 | 30 dB | 1000 | 1000x power |
 
-**Note:** For power decreases (negative dB), use the reciprocal (1/x) of the ratio. To calculate percentage loss you'd use $(1 - \frac{1}{\text{Power Ratio}})$ For example:
+**Note:** For power decreases (negative dB), use the reciprocal ($1 \over x$) of the ratio. To calculate percentage loss you'd use $(1 - \frac{1}{\text{Power Ratio}})$ For example:
 * -3 dB: $(1 - \frac{1}{2}) = (1 - 0.5) = 0.5 = 50\%$
 * -1 dB: $(1 - \frac{1}{1.26}) \approx (1 - 0.794) \approx 0.206 = 20.6\%$
 

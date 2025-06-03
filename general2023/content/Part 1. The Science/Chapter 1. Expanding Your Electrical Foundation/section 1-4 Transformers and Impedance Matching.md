@@ -34,10 +34,21 @@ One of the most commonly known uses for a transformer is to convert between diff
 
 The turns ratio determines how a transformer converts voltage, current, and impedance:
 
-* **Turns Ratio**: The ratio of turns on the secondary side to turns on the primary side $$n = \frac{N_\text{secondary}}{N_\text{primary}}$$
-* **Voltage Transformation**: The voltage ratio equals the turns ratio (see above) $$ V_s = V_p \cdot n = \frac{V_p \cdot N_s}{N_p}$$
-* **Current Transformation**: The current ratio equals the inverse of the turns ratio $$I_s = I_p \cdot \frac{1}{n} = \frac{I_p \cdot N_p}{N_s}$$
-* **Impedance Transformation**: The impedance ratio equals the square of the turns ratio $$Z_s = Z_p \cdot n^2 = \frac{Z_p \cdot {N_s}^2}{ {N_p}^2 }$$
+* **Turns Ratio**: The ratio of turns on the secondary side to turns on the primary side
+  
+  $$n = \frac{N_\text{secondary}}{N_\text{primary}}$$
+
+* **Voltage Transformation**: The voltage ratio equals the turns ratio (see above)
+  
+  $$ V_s = V_p \cdot n = \frac{V_p \cdot N_s}{N_p}$$
+
+* **Current Transformation**: The current ratio equals the inverse of the turns ratio
+  
+  $$I_s = I_p \cdot \frac{1}{n} = \frac{I_p \cdot N_p}{N_s}$$
+  
+* **Impedance Transformation**: The impedance ratio equals the square of the turns ratio
+  
+  $$Z_s = Z_p \cdot n^2 = \frac{Z_p \cdot {N_s}^2}{ {N_p}^2 }$$
 
 For example, a transformer with twice as many turns in the secondary as in the primary (2:1 turns ratio) will:
 * Double the voltage
@@ -86,8 +97,8 @@ $$V_s = V_p \cdot \frac{N_s}{N_p}$$
 
 $$
 \begin{align*}
-V_s &= 120V \cdot \frac{1500}{500}\\
-&= 120V \cdot 3\\
+V_s &= 120V \cdot \frac{1500}{500}\\[1.25em]
+&= 120V \cdot 3\\[1.25em]
 &= 360V
 \end{align*}
 $$
@@ -108,9 +119,9 @@ Rearranging to solve for n:
 
 $$
 \begin{align*}
-n &= \sqrt{\frac{Z_s}{Z_p}} \\
-&= \sqrt{\frac{600 \Omega}{50 \Omega}} \\
-&= \sqrt{12} \\
+n &= \sqrt{\frac{Z_s}{Z_p}} \\[1.25em]
+&= \sqrt{\frac{600 \Omega}{50 \Omega}} \\[1.25em]
+&= \sqrt{12} \\[1.25em]
 &\approx 3.46
 \end{align*}
 $$

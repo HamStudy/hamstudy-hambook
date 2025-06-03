@@ -89,9 +89,9 @@ Let's solve a problem you might encounter on your exam:
 What is the total resistance of a 10-ohm, a 20-ohm, and a 50-ohm resistor connected in parallel? {{< link id="G5C03" >}}
 
 $$\begin{align*}
-\frac{1}{R_{\text{total}}} &= \frac{1}{10} + \frac{1}{20} + \frac{1}{50} \\
-&= \frac{5}{50} + \frac{2.5}{50} + \frac{1}{50} \\
-&= \frac{8.5}{50} \\
+\frac{1}{R_{\text{total}}} &= \frac{1}{10} + \frac{1}{20} + \frac{1}{50} \\[1.25em]
+&= \frac{5}{50} + \frac{2.5}{50} + \frac{1}{50} \\[1.25em]
+&= \frac{8.5}{50} \\[1.25em]
 R_{\text{total}} &= \frac{50}{8.5} \approx 5.9 \text{ ohms}
 \end{align*}$$
 
@@ -102,9 +102,9 @@ For a more common example:
 What is the approximate total resistance of a 100-ohm and a 200-ohm resistor in parallel? {{< link id="G5C04" >}}
 
 $$\begin{align*}
-R_{\text{total}} &= \frac{R_1 \cdot R_2}{R_1 + R_2} \\
-&= \frac{100 \cdot 200}{100 + 200} \\
-&= \frac{20,000}{300} \\
+R_{\text{total}} &= \frac{R_1 \cdot R_2}{R_1 + R_2} \\[1.25em]
+&= \frac{100 \cdot 200}{100 + 200} \\[1.25em]
+&= \frac{20,000}{300} \\[1.25em]
 &= 66.7 \text{ ohms} \approx 67 \text{ ohms}
 \end{align*}$$
 
@@ -135,16 +135,16 @@ What is the equivalent capacitance of two 5.0-nanofarad capacitors and one 750-p
 Since capacitors in parallel add directly, we just need to convert to the same unit (750 pF = 0.75 nF) and add:
 
 $$\begin{align*}
-C_{\text{total}} &= 5.0 \text{ nF} + 5.0 \text{ nF} + 0.75 \text{ nF} \\
+C_{\text{total}} &= 5.0 \text{ nF} + 5.0 \text{ nF} + 0.75 \text{ nF} \\[1.25em]
 &= 10.75 \text{ nF}
 \end{align*}$$
 
 What is the capacitance of three 100-microfarad capacitors connected in series? {{< link id="G5C09" >}}
 
 $$\begin{align*}
-\frac{1}{C_{\text{total}}} &= \frac{1}{100} + \frac{1}{100} + \frac{1}{100} \\
-&= \frac{3}{100} \\
-C_{\text{total}} &= \frac{100}{3}\\
+\frac{1}{C_{\text{total}}} &= \frac{1}{100} + \frac{1}{100} + \frac{1}{100} \\[1.25em]
+&= \frac{3}{100} \\[1.25em]
+C_{\text{total}} &= \frac{100}{3}\\[1.25em]
 &\approx 33.33 \text{ μF}
 \end{align*}$$
 
@@ -153,9 +153,9 @@ Another common example:
 What is the capacitance of a 20-microfarad capacitor connected in series with a 50-microfarad capacitor? {{< link id="G5C12" >}}
 
 $$\begin{align*}
-C_{\text{total}} &= \frac{C_1 \cdot C_2}{C_1 + C_2} \\
-&= \frac{20 \cdot 50}{20 + 50} \\
-&= \frac{1000}{70} \\
+C_{\text{total}} &= \frac{C_1 \cdot C_2}{C_1 + C_2} \\[1.25em]
+&= \frac{20 \cdot 50}{20 + 50} \\[1.25em]
+&= \frac{1000}{70} \\[1.25em]
 &= 14.3 \text{ μF}
 \end{align*}$$
 
@@ -183,8 +183,8 @@ L_{\text{total}} &= 20 \text{ mH} + 50 \text{ mH} \\
 What is the inductance of three 10-mH inductors connected in parallel? {{< link id="G5C10" >}}
 
 $$\begin{align*}
-\frac{1}{L_{\text{total}}} &= \frac{1}{10} + \frac{1}{10} + \frac{1}{10} \\
-&= \frac{3}{10} \\
+\frac{1}{L_{\text{total}}} &= \frac{1}{10} + \frac{1}{10} + \frac{1}{10} \\[1.25em]
+&= \frac{3}{10} \\[1.25em]
 L_{\text{total}} &= \frac{10}{3} = 3.33 \text{ mH} \approx 3.3 \text{ mH}
 \end{align*}$$
 
