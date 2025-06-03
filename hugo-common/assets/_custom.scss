@@ -155,16 +155,7 @@ div.qrcode {
   > img { margin-left: 0.75rem; }
 }
 
-figure, .markdown figure {
-  margin: 0 auto;
-  text-align: center;
-  width: 100%;
-  max-width: var(--max-image-width);
-  img {
-    max-width: var(--max-image-width);
-    display: block;
-    margin: auto;
-  }
+figure {
   figcaption {
     text-align: center;
     font-size: var(--margin-text-size);
@@ -334,6 +325,9 @@ figure, .markdown figure {
   display: table;
   margin: 1rem auto;
   width: 100%;
+  &.w-50 {
+    width: 50%;
+  }
   tbody td {
     font-size: 0.8rem;
     .katex { white-space: nowrap; }
@@ -391,6 +385,11 @@ img.img-bw {
 .img-centered {
   display: block;
   margin: auto;
+  text-align: center;
+  img {
+    max-width: 100%;
+    height: auto;
+  }
 }
 .ml-2 { margin-left: 2rem; }
 .float-right { float: right; margin-left: 1.5rem; clear: right; }

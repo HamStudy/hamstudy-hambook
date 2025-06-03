@@ -1,29 +1,57 @@
-{{- if .Page.Site.Params.BookPortableLinks -}}
-  {{- template "portable-image" . -}}
-{{- else -}}
-  <img src="{{ .Destination | replaceRE "^/" "" | relURL }}" alt="{{ .Text }}" {{ with .Title }}title="{{ . }}"{{ end }}
-  {{- with .Attributes }}
-    {{- range $key, $value := . }}
-      {{- $key }}="{{ $value }}"
-    {{- end }}
-  {{- end }} />
-{{- end -}}
 
-{{- define "portable-image" -}}
-  {{- $isRemote := or (in .Destination "://") (strings.HasPrefix .Destination "//") }}
-  {{- if not $isRemote }}
-    {{- $path := print .Page.File.Dir .Destination }}
-    {{- if strings.HasPrefix .Destination "/" }}
-      {{- $path = print "/static" .Destination }}
-    {{- end }}
-    {{- if not (fileExists $path) }}
-      {{- warnf "Image '%s' not found in '%s'" .Destination .Page.File }}
-    {{- end }}
-  {{- end }}
-  <img src="{{ .Destination | replaceRE "^/" "" | relURL }}" alt="{{ .Text }}" {{ with .Title }}title="{{ . }}"{{ end }}
+{{- $hasCaption := (and .Attributes (index .Attributes "caption")) -}}
+{{- if .Page.Site.Params.BookPortableLinks -}}
+  {{- template "portable-image" (dict "ctx" . "hasCaption" $hasCaption) -}}
+{{- else -}}
+  {{- if $hasCaption -}}
+    <figure
+      {{- with .Attributes }}
+        {{- range $key, $value := . }}
+          {{- if and $value (ne $key "caption") }} {{ $key }}="{{ $value }}"{{ end }}
+        {{- end }}
+      {{- end }}>
+      <img src="{{ .Destination | replaceRE "^/" "" | relURL }}" alt="{{ .Text }}" {{ with .Title }}title="{{ . }}"{{ end }} />
+      <figcaption>{{ index .Attributes "caption" }}</figcaption>
+    </figure>
+  {{- else -}}
+    <img src="{{ .Destination | replaceRE "^/" "" | relURL }}" alt="{{ .Text }}" {{ with .Title }}title="{{ . }}"{{ end }}
     {{- with .Attributes }}
       {{- range $key, $value := . }}
         {{- $key }}="{{ $value }}"
       {{- end }}
     {{- end }} />
+  {{- end -}}
+{{- end -}}
+
+{{- define "portable-image" -}}
+  {{- $ctx := .ctx -}}
+  {{- $hasCaption := .hasCaption -}}
+  {{- $isRemote := or (in $ctx.Destination "://") (strings.HasPrefix $ctx.Destination "//") }}
+  {{- if not $isRemote }}
+    {{- $path := print $ctx.Page.File.Dir $ctx.Destination }}
+    {{- if strings.HasPrefix $ctx.Destination "/" }}
+      {{- $path = print "/static" $ctx.Destination }}
+    {{- end }}
+    {{- if not (fileExists $path) }}
+      {{- warnf "Image '%s' not found in '%s'" $ctx.Destination $ctx.Page.File }}
+    {{- end }}
+  {{- end }}
+  {{- if $hasCaption -}}
+    <figure
+      {{- with $ctx.Attributes }}
+        {{- range $key, $value := . }}
+          {{- if and $value (ne $key "caption") }} {{ $key }}="{{ $value }}"{{ end }}
+        {{- end }}
+      {{- end }}>
+      <img src="{{ $ctx.Destination | replaceRE "^/" "" | relURL }}" alt="{{ $ctx.Text }}" {{ with $ctx.Title }}title="{{ . }}"{{ end }} />
+      <figcaption>{{ index $ctx.Attributes "caption" }}</figcaption>
+    </figure>
+  {{- else -}}
+    <img src="{{ $ctx.Destination | replaceRE "^/" "" | relURL }}" alt="{{ $ctx.Text }}" {{ with $ctx.Title }}title="{{ . }}"{{ end }}
+    {{- with $ctx.Attributes }}
+      {{- range $key, $value := . }}
+        {{- $key }}="{{ $value }}"
+      {{- end }}
+    {{- end }} />
+  {{- end -}}
 {{- end -}}

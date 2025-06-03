@@ -1,6 +1,6 @@
 <figure {{ with .Get "class" }}class="{{ . }}"{{ end }}>
   {{ .Inner | markdownify }}
-  {{ if .Get "caption" }}
-    <figcaption>{{ .Get "caption" }}</figcaption>
+  {{ with .Get "caption" }}
+    <figcaption>{{ . }}</figcaption>
   {{ end }}
 </figure>

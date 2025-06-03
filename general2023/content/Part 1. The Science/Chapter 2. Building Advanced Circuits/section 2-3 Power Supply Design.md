@@ -82,8 +82,8 @@ To illustrate the current path we'll use compass points – N, E, S, W (going c
 
 <div style="clear:both;"></div>
 
-- When N is positive, current flows from N -> D2 -> DC+ -> Load -> DC- -> D4 -> S
-- When N is negative, current flows from S -> D3 -> DC+ -> Load -> DC- -> D1 -> N
+- When N is positive, current flows from `N` -> `D2` -> `DC+` -> `Load` -> `DC-` -> `D4` -> `S`
+- When N is negative, current flows from `S` -> `D3` -> `DC+` -> `Load` -> `DC-` -> `D1` -> `N`
 
 
 #### Center-tapped vs. Bridge Rectifier Designs
@@ -104,7 +104,7 @@ Bridge rectifier design:
 
 #### Practical Considerations
 
-In practical circuits, the diode forward voltage drop affects the output. Each silicon diode typically drops 0.6-0.7V when conducting. This means:
+In practical circuits, the diode forward voltage drop affects the output. Each silicon diode typically drops about `0.7V` when conducting. This means:
 - In half-wave rectifiers: output is reduced by about 0.7V
 - In center-tapped designs: output is reduced by about 0.7V
 - In bridge rectifiers: output is reduced by about 1.4V (two diodes in series)

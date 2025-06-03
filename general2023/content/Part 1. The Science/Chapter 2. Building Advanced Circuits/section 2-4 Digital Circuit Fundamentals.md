@@ -31,6 +31,7 @@ The fundamental building blocks of digital circuits are logic gates—components
  0 | 1 | 0
  1 | 0 | 0
  1 | 1 | 1
+{.w-50 caption="Table 1: AND gate truth table"}
 
 Think of an AND gate as similar to a series circuit with two switches—both must be closed for current to flow. In digital terms:
 - If Input A = 1 AND Input B = 1, then Output = 1
@@ -82,7 +83,8 @@ While we're focusing on digital circuits, it's important to understand how analo
 
 > **Key Information:** *An integrated circuit operational amplifier is an analog device.* {{< link id="G6B06" >}}
 
-<img src="../../../images/op-amp.svg" alt="Operational Amplifier Symbol" style="width: 150px; margin: 10px; float: right;">
+![Operational Amplifier Symbol](../../../images/op-amp.svg)
+{.float-right .img-sm caption="Figure 1: Operational Amplifier symbol"}
 
 Operational amplifiers (op-amps) are versatile analog ICs that:
 - Amplify and condition signals
@@ -102,6 +104,7 @@ Digital circuits include specialized components for managing digital information
 > **Key Information:** *A shift register is a clocked array of circuits that passes data in steps along the array.* {{< link id="G7B06" >}}
 
 ![Shift Register Operation](../../../images/shift-register.gif)
+{.img-centered caption="Figure 2: Shift register example animation"}
 
 A shift register functions like a bucket brigade for digital data—each pulse of a clock signal moves the data one position down the line. This sequential movement is important for:
 - Converting between serial and parallel data forms
@@ -117,7 +120,7 @@ Shift registers are widely used in the digital signal processing capabilities of
 A binary counter is a digital circuit that advances through a sequence of binary states with each clock pulse. For a 3-bit counter:
 
 | Decimal | Binary |
-|---------|--------|
+|:-------:|:------:|
 | 0       | 000    |
 | 1       | 001    |
 | 2       | 010    |
@@ -126,15 +129,16 @@ A binary counter is a digital circuit that advances through a sequence of binary
 | 5       | 101    |
 | 6       | 110    |
 | 7       | 111    |
+{.w-50}
 
-That's 2³ = 8 different states.
+That's $2^3 = 8$ different states.
 
 Binary counters are fundamental to:
 - Frequency synthesis in modern transceivers
 - Digital frequency displays
 - Timing and control functions
 
-The number of bits in a counter determines how many states it can represent: an n-bit counter can represent 2^n different states. This exponential relationship is why adding just a few bits dramatically increases a digital system's capabilities.
+The number of bits in a counter determines how many states it can represent: an n-bit counter can represent $2^n$ different states. This exponential relationship is why adding just a few bits dramatically increases a digital system's capabilities.
 
 #### The Digital Foundation for Advanced Radio Features
 

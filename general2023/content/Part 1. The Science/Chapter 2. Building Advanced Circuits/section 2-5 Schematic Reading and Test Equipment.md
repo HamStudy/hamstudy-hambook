@@ -16,7 +16,8 @@ Schematics are the universal language of electronics—a standardized way to des
 
 For the General class exam, you need to recognize several important schematic symbols. Let's look at Figure G7-1, which shows some of the most common symbols used in radio circuits:
 
-<img src="../../../images/G7-1.svg" alt="Figure G7-1: Common electronic schematic symbols" style="width: 500px; margin: 10px;">
+![Figure G7-1: Common electronic schematic symbols from the official question pool](../../../images/G7-1.svg)
+{.img-full .img-centered caption="Figure G7: Electronic schematic symbols from the official question pool"}
 
 We don't need to know all of the numbered components for the exam, but let's focus on the most important ones. They are:
 
