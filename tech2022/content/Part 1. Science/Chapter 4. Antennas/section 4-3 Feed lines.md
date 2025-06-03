@@ -45,7 +45,7 @@ Even the best coax can run into problems. Here are some things to watch out for:
 
 - **Water intrusion** – Coax and water don't mix. If moisture gets in, performance tanks. *Always weatherproof outdoor connections!* {{< link id="T7C09" >}}
 - **Poor connections** – Loose or corroded connectors are like potholes in your signal's highway. *Keep them clean and tight!* {{< link id="T9B08" >}}
-- **High SWR** – We covered SWR earlier, but just remember—if it's too high, you're losing power in your feed line instead of radiating it.  
+- **High SWR** – We will talk more about SWR later in Section 4.5, but just remember—if the impedance match and thus your SWR is too high, you're losing power in your feed line instead of radiating it via the antenna.
 - **Too many connectors** – Every extra adapter or connection means *more loss*. Keep it simple!  
 - **UV Damage** – The sun's **UV rays** can break down coax over time. If it's going outside, make sure it's **UV-resistant** or protect it with conduit or tape. {{< link id="T7C10" >}}
 
