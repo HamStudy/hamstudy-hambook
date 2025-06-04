@@ -25,7 +25,7 @@ When you look at a modern transceiver schematic, you'll see dozens (or even hund
 
 **Symbol 1: Field Effect Transistor (FET)** {{< link id="G7A09" >}} - FETs control current flow through an electric field rather than a current, and appear frequently in RF circuits because they offer high input impedance and excellent performance at radio frequencies. In your transceiver, you'll find FETs handling everything from weak signal amplification to signal mixing and frequency generation.
 
-**Symbol 2: NPN Junction Transistor** {{< link id="G7A11" >}} - The arrow pointing outward from the base identifies this bipolar transistor as NPN (Not Pointing iN), rather than PNP, where the arrow would Point iNward Proudly. These transistors handle everything from audio amplification to switching functions throughout your radio equipment.
+**Symbol 2: NPN Junction Transistor** {{< link id="G7A11" >}} - The arrow pointing outward from the base identifies this bipolar transistor as NPN (rather than PNP, where the arrow would point inward). These transistors handle everything from audio amplification to switching functions throughout your radio equipment.
 
 **Symbol 5: Zener Diode** {{< link id="G7A10" >}} - Unlike standard diodes that conduct in only one direction, Zener diodes have a specific reverse breakdown voltage where they begin to conduct. This property makes them excellent for voltage regulation in power supplies and reference circuits.
 
@@ -33,9 +33,9 @@ When you look at a modern transceiver schematic, you'll see dozens (or even hund
 
 **Symbol 7: Tapped Inductor** {{< link id="G7A13" >}} - An inductor with an additional connection point somewhere along its length. This "tap" allows access to just a portion of the total inductance, which is useful for creating precise impedance matching networks or resonant circuits without needing separate components.
 
-> **Key Information:** For the exam, memorize these five symbols and their functions: FET (Symbol 1), NPN transistor (Symbol 2), Zener diode (Symbol 5), solid core transformer (Symbol 6), and tapped inductor (Symbol 7).
+While you don't need to know these for the exam, the other symbols shown are also common in radio circuits: Symbol 3 (regular diode), Symbol 4 (varactor diode), Symbol 8 (electrolytic capacitor), and Symbol 9 (resistor).
 
-While you don't need to know these for the exam, the other symbols shown are: Symbol 3 (regular diode), Symbol 4 (varactor diode), Symbol 8 (electrolytic capacitor), and Symbol 9 (resistor).
+> **Key Information:** For the exam, memorize these five symbols and their functions: FET (Symbol 1), NPN transistor (Symbol 2), Zener diode (Symbol 5), solid core transformer (Symbol 6), and tapped inductor (Symbol 7).
 
 ##### Practical Applications of Schematic Reading
 
@@ -54,11 +54,21 @@ As a General class operator, having access to good test equipment dramatically e
 
 ##### The Oscilloscope
 
-The oscilloscope contains horizontal and vertical channel amplifiers that work together to display signals on screen. {{< link id="G4B01" >}} Think of it as an electronic camera that captures electrical signals in real time. The vertical amplifier controls the height (voltage) display, while the horizontal amplifier controls the time base (how quickly the trace moves across the screen).
+Imagine trying to understand a musical performance by only knowing the average volume level. You'd miss the rhythm, the melody, and all the subtle variations that make music interesting. That's the difference between a voltmeter and an oscilloscope when measuring electrical signals.
 
-<img src="../images/oscilloscope.svg" alt="Basic Oscilloscope" style="width: 350px; margin: 10px;">
+An oscilloscope displays electrical signals as they change over time, creating a graph where the horizontal axis represents time and the vertical axis represents voltage. Think of it as creating a moving picture of your electrical signals, letting you see exactly what your circuits are doing moment by moment.
 
-An oscilloscope offers a significant advantage over a digital voltmeter because complex waveforms can be measured. {{< link id="G4B02" >}} While a voltmeter gives you a single number, an oscilloscope shows you the entire shape of a signal—revealing details about how it changes over time. This capability allows you to:
+But here's the key insight: to create this display, the oscilloscope needs two separate amplifier systems working together. The oscilloscope contains horizontal and vertical channel amplifiers that work together to display signals on screen. {{< link id="G4B01" >}} 
+
+The **vertical amplifier** takes your input signal and amplifies it appropriately for the screen's voltage range. If you're measuring a 1-volt signal but need it to fill the screen for easy viewing, the vertical amplifier boosts it up. If you're measuring a 100-volt signal that would otherwise blow up the display, the vertical amplifier scales it down to a safe level.
+
+The **horizontal amplifier** creates the time base—it generates the sweep that moves the electron beam (or digital equivalent) across the screen at a controlled rate. Want to see a fast-changing signal? Speed up the horizontal sweep. Want to capture a slow change? Slow down the horizontal sweep. This amplifier essentially controls how much time each horizontal division on the screen represents.
+
+> **Key Information:** An oscilloscope contains horizontal and vertical channel amplifiers.
+
+![Basic Oscilloscope](../images/oscilloscope.svg)
+
+An oscilloscope offers a significant advantage over a digital voltmeter because complex waveforms can be measured. {{< link id="G4B02" >}} While a voltmeter gives you a single number (like "12.3 volts"), an oscilloscope shows you the entire shape of a signal—revealing details about how it changes over time. This capability allows you to:
 
 - See distortion that might cause interference
 - Measure signal timing and frequency
@@ -67,9 +77,13 @@ An oscilloscope offers a significant advantage over a digital voltmeter because 
 
 For CW operation, the oscilloscope is particularly valuable. The best instrument to use for checking the keying waveform of a CW transmitter is an oscilloscope. {{< link id="G4B03" >}} By examining the shape of the keying waveform, you can identify problems that affect your signal quality. Too sharp a transition creates key clicks that interfere with nearby stations; too slow a transition makes your code sound mushy and difficult to copy.
 
-<img src="../images/cw-keying-waveform.svg" alt="CW Keying Waveform on Oscilloscope" style="width: 350px; margin: 10px;">
+> **Key Information:** Use an oscilloscope to check CW keying waveforms.
+
+![CW Keying Waveform on Oscilloscope](../images/cw-keying-waveform.svg)
 
 When checking your transmitter's signal envelope, the attenuated RF output of the transmitter is connected to the vertical input of an oscilloscope. {{< link id="G4B04" >}} This setup requires caution—your transmitter might produce 100 watts, but the oscilloscope can only handle a few volts. Always use an appropriate attenuator to reduce the signal to a safe level.
+
+> **Key Information:** Connect the attenuated RF output to the oscilloscope's vertical input when checking transmitter signals.
 
 ##### Digital and Analog Multimeters
 
@@ -82,24 +96,34 @@ An advantage of a digital multimeter compared to an analog multimeter is higher 
 - Higher input impedance
 - Easy-to-read displays
 
+> **Key Information:** Digital multimeters have higher precision than analog multimeters.
+
 Despite the advantages of digital instruments, analog meters still have their place in the ham shack. An analog multimeter is preferred to a digital multimeter when adjusting circuits for maximum or minimum values. {{< link id="G4B09" >}} The moving needle of an analog meter provides immediate visual feedback about which way values are changing and how quickly. This continuous display makes it much easier to find peaks or nulls than watching changing digits on a digital display.
+
+> **Key Information:** Use analog multimeters when adjusting for maximum or minimum values.
 
 When measuring high-impedance circuits, meter selection becomes especially important. Voltmeters have high input impedance to decrease the loading on circuits being measured. {{< link id="G4B05" >}} If your meter draws significant current from the circuit you're measuring, it changes the circuit's behavior—giving you inaccurate readings or possibly even damaging sensitive components. This is why modern DMMs typically have 10 megohm or higher input impedance.
 
-<img src="../images/voltmeter-loading.svg" alt="Voltmeter Loading Effect" style="width: 350px; margin: 10px;">
+> **Key Information:** Voltmeters need high input impedance to avoid loading the circuit being measured.
+
+![Voltmeter Loading Effect](../images/voltmeter-loading.svg)
 
 ##### Transmitter Testing
 
 For SSB transmitters, linearity is crucial to prevent splatter and interference. To conduct a two-tone test, two non-harmonically related audio signals are used. {{< link id="G4B07" >}} This test involves feeding two pure audio tones (typically 700 Hz and 1900 Hz) into your transmitter instead of voice. The resulting pattern on an oscilloscope reveals any distortion that might cause interference.
 
-<img src="../images/two-tone-test.svg" alt="Two-Tone Test Setup" style="width: 350px; margin: 10px;">
+> **Key Information:** Use two non-harmonically related audio signals for a two-tone test.
+
+![Two-Tone Test Setup](../images/two-tone-test.svg)
 
 A two-tone test analyzes transmitter linearity. {{< link id="G4B08" >}} Looking at the resulting patterns tells you a lot about your transmitter's performance:
 - Flattened peaks indicate compression or clipping
 - Asymmetry suggests bias problems
 - Jagged patterns reveal unwanted distortion products
 
-<img src="../images/two-tone-patterns.svg" alt="Two-Tone Test Patterns" style="width: 400px; margin: 10px;">
+> **Key Information:** A two-tone test analyzes transmitter linearity.
+
+![Two-Tone Test Patterns](../images/two-tone-patterns.svg)
 
 Non-linear operation creates spurious emissions that can cause interference to other stations, make your signal sound distorted, and waste power in unwanted frequencies.
 
@@ -107,17 +131,25 @@ Non-linear operation creates spurious emissions that can cause interference to o
 
 For antenna system measurements, specialized tools provide critical insights. Standing wave ratio (SWR) can be determined with a directional wattmeter. {{< link id="G4B10" >}} This instrument contains sensors that distinguish between forward power (going to your antenna) and reflected power (coming back from the antenna). By comparing these values, you can calculate SWR—a critical indicator of how well your antenna system is matched to your transmitter.
 
-<img src="../images/directional-wattmeter.svg" alt="Directional Wattmeter" style="width: 300px; margin: 10px;">
+> **Key Information:** A directional wattmeter can determine SWR.
+
+![Directional Wattmeter](../images/directional-wattmeter.svg)
 
 Modern antenna analyzers take these measurements to the next level. When using an antenna analyzer for SWR measurements, the antenna and feed line must be connected. {{< link id="G4B11" >}} These sophisticated instruments not only measure SWR but also display complex impedance (resistance and reactance), helping you identify resonant frequencies and optimize antenna performance.
 
+> **Key Information:** Connect the antenna and feed line when using an antenna analyzer for SWR measurements.
+
 However, antenna analyzers can be affected by external signals. Strong signals from nearby transmitters can interfere with an antenna analyzer by generating received power that interferes with SWR readings. {{< link id="G4B12" >}} This happens because the analyzer can't distinguish between its own test signal and external RF from nearby transmitters. For accurate measurements, try to conduct antenna tests when local RF activity is minimal.
+
+> **Key Information:** Strong nearby transmitters can interfere with antenna analyzer readings.
 
 Beyond antenna measurements, an antenna analyzer can be used to measure the impedance of coaxial cable. {{< link id="G4B13" >}} This capability helps you:
 - Find faults in coaxial cables
 - Measure cable loss
 - Determine the electrical length of a cable
 - Create matching sections for antenna systems
+
+> **Key Information:** Antenna analyzers can measure coaxial cable impedance.
 
 #### Building Your Test Bench
 
