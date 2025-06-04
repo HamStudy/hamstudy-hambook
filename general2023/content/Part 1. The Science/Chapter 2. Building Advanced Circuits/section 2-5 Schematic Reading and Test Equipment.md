@@ -19,36 +19,23 @@ For the General class exam, you need to recognize several important schematic sy
 ![Figure G7-1: Common electronic schematic symbols from the official question pool](../../../images/G7-1.svg)
 {.img-full .img-centered caption="Figure G7: Electronic schematic symbols from the official question pool"}
 
-We don't need to know all of the numbered components for the exam, but let's focus on the most important ones. They are:
+##### Essential Symbols for General Class
 
-* Symbol 1: Field Effect Transistor (FET)
-* Symbol 2: NPN Junction Transistor  
-* Symbol 5: Zener Diode
-* Symbol 6: Solid Core Transformer
-* Symbol 7: Tapped Inductor
+When you look at a modern transceiver schematic, you'll see dozens (or even hundreds) of different components. Here are the key symbols you need to recognize from Figure G7-1:
 
-You don't need to know these for the exam, but the others are:
+**Symbol 1: Field Effect Transistor (FET)** {{< link id="G7A09" >}} - FETs control current flow through an electric field rather than a current, and appear frequently in RF circuits because they offer high input impedance and excellent performance at radio frequencies. In your transceiver, you'll find FETs handling everything from weak signal amplification to signal mixing and frequency generation.
 
-* Symbol 3: Diode
-* Symbol 4: Varactor Diode
-* Symbol 8: Electrolytic Capacitor
-* Symbol 9: Resistor
+**Symbol 2: NPN Junction Transistor** {{< link id="G7A11" >}} - The arrow pointing outward from the base identifies this bipolar transistor as NPN (Not Pointing iN), rather than PNP, where the arrow would Point iNward Proudly. These transistors handle everything from audio amplification to switching functions throughout your radio equipment.
 
-##### Transistors and Semiconductors
+**Symbol 5: Zener Diode** {{< link id="G7A10" >}} - Unlike standard diodes that conduct in only one direction, Zener diodes have a specific reverse breakdown voltage where they begin to conduct. This property makes them excellent for voltage regulation in power supplies and reference circuits.
 
-When you look at a modern transceiver schematic, you'll see dozens (or even hundreds) of semiconductor devices. Let's identify the most important symbols from Figure G7-1.
+**Symbol 6: Solid Core Transformer** {{< link id="G7A12" >}} - Shows two coils with parallel lines between them, representing a magnetic core material. As we saw in Section 1.4, transformers are crucial for impedance matching, voltage conversion, and isolation between circuits. This symbol specifically indicates a solid core (usually ferrite or iron) rather than an air core transformer.
 
-Symbol 1 in Figure G7-1 represents a field effect transistor (FET). {{< link id="G7A09" >}} FETs control current flow through an electric field rather than a current, and appear frequently in RF circuits because they offer high input impedance and excellent performance at radio frequencies. In your transceiver, you'll find FETs handling everything from weak signal amplification to signal mixing and frequency generation.
+**Symbol 7: Tapped Inductor** {{< link id="G7A13" >}} - An inductor with an additional connection point somewhere along its length. This "tap" allows access to just a portion of the total inductance, which is useful for creating precise impedance matching networks or resonant circuits without needing separate components.
 
-Symbol 2 in Figure G7-1 represents an NPN junction transistor. {{< link id="G7A11" >}} The arrow pointing outward from the base identifies this bipolar transistor as NPN (rather than PNP, where the arrow would point inward). These transistors handle everything from audio amplification to switching functions throughout your radio equipment.
+> **Key Information:** For the exam, memorize these five symbols and their functions: FET (Symbol 1), NPN transistor (Symbol 2), Zener diode (Symbol 5), solid core transformer (Symbol 6), and tapped inductor (Symbol 7).
 
-Symbol 5 in Figure G7-1 represents a Zener diode. {{< link id="G7A10" >}} Unlike standard diodes that conduct in only one direction, Zener diodes have a specific reverse breakdown voltage where they begin to conduct. This property makes them excellent for voltage regulation in power supplies and reference circuits.
-
-##### Magnetic Components
-
-The solid core transformer (Symbol 6 in Figure G7-1) {{< link id="G7A12" >}} shows two coils with parallel lines between them, representing a magnetic core material. As we saw in Section 1.4, transformers are crucial for impedance matching, voltage conversion, and isolation between circuits. This symbol specifically indicates a solid core (usually ferrite or iron) rather than an air core transformer.
-
-The tapped inductor (Symbol 7 in Figure G7-1) {{< link id="G7A13" >}} is an inductor with an additional connection point somewhere along its length. This "tap" allows access to just a portion of the total inductance, which is useful for creating precise impedance matching networks or resonant circuits without needing separate components.
+While you don't need to know these for the exam, the other symbols shown are: Symbol 3 (regular diode), Symbol 4 (varactor diode), Symbol 8 (electrolytic capacitor), and Symbol 9 (resistor).
 
 ##### Practical Applications of Schematic Reading
 
