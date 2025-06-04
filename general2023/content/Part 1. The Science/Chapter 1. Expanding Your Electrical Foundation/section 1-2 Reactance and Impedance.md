@@ -17,6 +17,7 @@ Before diving into reactance, let's understand phase—a concept central to AC c
 Imagine a spinning wheel. As the wheel turns, a point on its edge moves in a circle, completing a full rotation. Each rotation is a "cycle."
 
 ![Animation: Relationship between a circle and a sine wave, illustrating phase](../../../images/circle_sine_animated.gif)
+{caption="Figure 2: A sine wave is merely the Y position going around a circle over time"}
 
 * **Phase** tells us where a point is in its rotation, measured in degrees (a full circle is 360°).
 * In AC circuits, voltage and current follow sine wave patterns.
