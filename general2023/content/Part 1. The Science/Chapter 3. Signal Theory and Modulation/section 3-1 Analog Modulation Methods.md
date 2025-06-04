@@ -49,17 +49,19 @@ AM is particularly susceptible to a problem called flat-topping. The term "flat-
 
 ![Flat-Topping Waveform](../images/flat-topping.svg)
 
-#### Single Sideband: Solving AM's Problems
+#### Single Sideband: Trading Simplicity for Efficiency
 
-Single sideband was developed to solve AM's efficiency problems. If both sidebands contain the same information and the carrier contains no information, why not eliminate the waste?
+Single sideband was developed to maximize efficiency for point-to-point communications. If both sidebands contain the same information and the carrier contains no information, why not eliminate the redundancy?
 
-The phone emission that uses the narrowest bandwidth is single sideband. {{< link id="G8A07" >}} SSB eliminates the carrier and one sideband, keeping only the sideband that contains your voice. This gives SSB several advantages:
+The phone emission that uses the narrowest bandwidth is single sideband. {{< link id="G8A07" >}} SSB eliminates the carrier and one sideband, keeping only the sideband that contains your voice. This creates significant efficiency gains:
 - Uses half the bandwidth of AM
 - Puts all your power into the information-carrying signal
 - Provides better range with the same power
 - Reduces interference to adjacent frequencies
 
 > **Key Information:** Single sideband is the phone emission that uses the narrowest bandwidth.
+
+However, SSB comes with trade-offs. It requires more complex equipment, precise tuning, and more skill to operate effectively. AM remains preferred for broadcasting because it's simpler for listeners—any basic AM radio can receive it without precise tuning. SSB excels where efficiency and spectrum conservation matter most, particularly in amateur radio and other point-to-point services.
 
 ##### Creating SSB: The Two-Step Process
 
