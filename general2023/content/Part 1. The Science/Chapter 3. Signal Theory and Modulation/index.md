@@ -1,9 +1,9 @@
 ---
 questions: []
-slug: chpt5
+slug: chpt3
 ---
 
-# Chapter 5: Signal Theory and Modulation
+# Chapter 3: Signal Theory and Modulation
 
 Now that you've learned about propagation and antenna systems, it's time to focus on the signals themselves. How do we encode information onto radio waves? What makes different transmission modes unique? And how do these signals behave as they travel from transmitter to receiver?
 

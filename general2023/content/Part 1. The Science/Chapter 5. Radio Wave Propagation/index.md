@@ -1,9 +1,9 @@
 ---
 questions: []
-slug: chpt3
+slug: chpt5
 ---
 
-# Chapter 3: Understanding Radio Wave Propagation
+# Chapter 5: Radio Wave Propagation
 
 When you earned your Technician license, you likely focused on local and regional communications—reaching repeaters, participating in local nets, and perhaps making occasional contacts via satellites or sporadic band openings. Now, with your General class privileges, you're about to discover the fascinating world of high-frequency (HF) propagation that can connect you to operators across the continent and around the globe.
 
