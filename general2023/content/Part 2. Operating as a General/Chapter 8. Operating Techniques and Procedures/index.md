@@ -1,6 +1,7 @@
 ---
 slug: chpt8
 questions: []
+status: generated
 ---
 
 ## Chapter 8: Operating Procedures

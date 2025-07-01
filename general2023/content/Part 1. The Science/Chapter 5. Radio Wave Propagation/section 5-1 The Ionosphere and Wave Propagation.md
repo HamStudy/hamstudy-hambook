@@ -2,6 +2,7 @@
 chapter: "5"
 section: "5.1"
 questions: ["G3C01", "G3C02", "G3C03", "G3C04", "G3C05", "G3C11", "G3B05", "G3B06", "G3B07", "G3B08", "G3B11"]
+status: generated
 ---
 
 ### Section 5.1: The Ionosphere and Wave Propagation

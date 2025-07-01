@@ -2,6 +2,7 @@
 chapter: "2"
 section: "2.5"
 questions: ["G7A09", "G7A10", "G7A11", "G7A12", "G7A13", "G4B01", "G4B02", "G4B03", "G4B04", "G4B05", "G4B06", "G4B07", "G4B08", "G4B09", "G4B10", "G4B11", "G4B12", "G4B13"]
+status: draft1
 ---
 
 ### Section 2.5: Test Equipment and Schematic Reading

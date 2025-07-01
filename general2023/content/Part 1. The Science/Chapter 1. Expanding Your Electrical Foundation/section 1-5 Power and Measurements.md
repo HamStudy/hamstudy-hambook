@@ -2,6 +2,7 @@
 chapter: "1"
 section: "1.5"
 questions: ["G5B03", "G5B07", "G5B11", "G5B13", "G5B01", "G5B10", "G9C04", "G9A06", "G5B04", "G5B05", "G5B06", "G5B08", "G5B09", "G5B12", "G5B14"]
+status: draft1
 ---
 
 ### Section 1.5: Power and Measurements

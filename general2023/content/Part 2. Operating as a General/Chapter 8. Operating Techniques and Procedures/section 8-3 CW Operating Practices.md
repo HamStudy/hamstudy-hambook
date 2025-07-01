@@ -2,6 +2,7 @@
 chapter: "8"
 section: "8.3"
 questions: ["G2C01", "G2C05", "G2C06", "G2C07", "G2C08", "G2B04", "G2C02", "G2C03", "G2C04", "G2C09", "G2C10", "G2C11"]
+status: generated
 ---
 
 ### Section 8.3: CW Operating Procedures

@@ -2,6 +2,7 @@
 slug: chpt9
 questions: []
 pagebreak: true
+status: generated
 ---
 
 ## Chapter 9: Rules and Regulations

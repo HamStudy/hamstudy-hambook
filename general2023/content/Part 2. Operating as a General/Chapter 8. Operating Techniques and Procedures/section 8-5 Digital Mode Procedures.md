@@ -2,6 +2,7 @@
 chapter: "8"
 section: "8.5"
 questions: ["G2E01", "G2E02", "G2E03", "G2E04", "G2E05", "G2E06", "G2E07", "G2E08", "G2E09", "G2E10", "G2E11", "G2E12", "G2E13", "G2E14", "G2E15"]
+status: generated
 ---
 
 ### Section 8.5: Digital Mode Operating Procedures

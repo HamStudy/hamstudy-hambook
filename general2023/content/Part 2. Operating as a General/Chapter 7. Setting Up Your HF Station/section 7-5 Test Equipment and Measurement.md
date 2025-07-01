@@ -2,6 +2,7 @@
 chapter: "7"
 section: "7.5"
 questions: ["G4B01", "G4B02", "G4B03", "G4B04", "G4B05", "G4B06", "G4B07", "G4B08", "G4B09", "G4B12", "G4B13"]
+status: generated
 ---
 
 ### Section 7.5: Test Equipment and Measurement

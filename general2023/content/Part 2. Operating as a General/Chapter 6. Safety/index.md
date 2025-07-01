@@ -1,6 +1,7 @@
 ---
 slug: chpt6
 questions: []
+status: generated
 ---
 
 ## Chapter 6: Safety

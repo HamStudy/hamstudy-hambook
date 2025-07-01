@@ -1,6 +1,7 @@
 ---
 questions: []
 slug: pt1
+status: generated
 ---
 
 # Part 1: The Science Behind General Class Operation

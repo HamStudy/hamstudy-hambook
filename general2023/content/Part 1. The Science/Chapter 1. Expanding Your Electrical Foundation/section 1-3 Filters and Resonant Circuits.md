@@ -2,6 +2,7 @@
 chapter: "1"
 section: "1.3"
 questions: ["G7B09", "G7C12", "G7C14", "G7C13", "G7C07", "G5A10"]
+status: draft1
 ---
 
 ### Section 1.3: Resonance and Filters

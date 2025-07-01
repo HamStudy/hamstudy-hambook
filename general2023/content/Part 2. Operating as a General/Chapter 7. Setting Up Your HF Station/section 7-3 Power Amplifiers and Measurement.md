@@ -2,6 +2,7 @@
 chapter: "7"
 section: "7.3"
 questions: ["G4A04", "G4A08", "G4A05", "G4A09", "G7B08", "G7B02", "G7B01", "G7B11"]
+status: generated
 ---
 
 ### Section 7.3: Power Amplifiers and Measurement

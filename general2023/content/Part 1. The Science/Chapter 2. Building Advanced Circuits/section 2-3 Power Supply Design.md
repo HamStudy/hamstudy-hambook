@@ -2,6 +2,7 @@
 chapter: "2"
 section: "2.3"
 questions: ["G7A01", "G7A02", "G7A03", "G7A04", "G7A05", "G7A06", "G7A07", "G7A08"]
+status: draft1
 ---
 
 #### Rectification: Converting AC to DC

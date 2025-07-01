@@ -2,6 +2,7 @@
 chapter: "7"
 section: "7.1"
 questions: ["G4A06", "G4A13", "G4A01", "G4A03", "G4A07", "G4D04", "G4B10", "G4B11"]
+status: generated
 ---
 
 ### Section 7.1: Getting Started with HF Reception

@@ -2,6 +2,7 @@
 chapter: "9"
 section: "9.3"
 questions: ["G1C07", "G1B04", "G1B05", "G1B07", "G1E03", "G1E07", "G1E08"]
+status: generated
 ---
 
 ### Section 9.3: Digital Communications Rules

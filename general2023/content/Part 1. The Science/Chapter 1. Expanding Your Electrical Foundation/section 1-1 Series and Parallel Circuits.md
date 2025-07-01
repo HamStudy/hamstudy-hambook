@@ -2,6 +2,7 @@
 chapter: "1"
 section: "1.1"
 questions: ["G5C03", "G5C04", "G5C08", "G5C09", "G5C10", "G5C11", "G5C12", "G5C13", "G5C14", "G5B02"]
+status: draft1
 ---
 
 ### Section 1.1: Series and Parallel Circuits

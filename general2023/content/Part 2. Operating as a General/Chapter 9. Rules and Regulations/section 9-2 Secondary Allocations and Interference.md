@@ -2,6 +2,7 @@
 chapter: "9"
 section: "9.2"
 questions: ["G1A06", "G1E04", "G1E10", "G1E11"]
+status: generated
 ---
 
 ### Section 9.2: Secondary Allocations and Interference

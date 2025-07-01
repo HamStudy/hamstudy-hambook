@@ -2,6 +2,7 @@
 chapter: "8"
 section: "8.6"
 questions: ["G1E01", "G1E02", "G1E03", "G1E04", "G1E05", "G1E06", "G1E07", "G1E08", "G1E10", "G1E11", "G1E12"]
+status: generated
 ---
 
 ### Section 8.6: Emergency Communications

@@ -2,6 +2,7 @@
 chapter: "4"
 section: "4.2"
 questions: ["G9A02", "G9A04", "G9A07", "G9A08", "G9A09", "G9A10", "G9A11", "G7C03", "G4B10", "G4B11", "G4B12", "G4B13", "G8A13", "G8A14"]
+status: generated
 ---
 
 ### Section 4.2: SWR and Antenna Matching

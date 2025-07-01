@@ -1,6 +1,7 @@
 ---
 questions: []
 slug: chpt5
+status: generated
 ---
 
 # Chapter 5: Radio Wave Propagation

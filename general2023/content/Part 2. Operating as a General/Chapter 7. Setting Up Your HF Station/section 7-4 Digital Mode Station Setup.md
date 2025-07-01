@@ -2,6 +2,7 @@
 chapter: "7"
 section: "7.4"
 questions: ["G4A11", "G2E07", "G2E14", "G8C14", "G8C13", "G2E06"]
+status: generated
 ---
 
 ### Section 7.4: Digital Mode Station Setup

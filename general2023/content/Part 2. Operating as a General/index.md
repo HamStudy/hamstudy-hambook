@@ -1,6 +1,7 @@
 ---
 questions: []
 slug: pt2
+status: generated
 ---
 
 # Part 2: Operating as a General Class Amateur

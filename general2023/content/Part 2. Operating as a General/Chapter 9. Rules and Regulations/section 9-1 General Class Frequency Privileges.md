@@ -2,6 +2,7 @@
 chapter: "9"
 section: "9.1"
 questions: ["G1A01", "G1A02", "G1A03", "G1A04", "G1A05", "G1A07", "G1A08", "G1A09", "G1A10", "G1A11", "G1C01", "G1C02", "G1C05", "G1C06", "G1C11", "G1C03", "G1C04", "G1C09"]
+status: generated
 ---
 
 ### Section 9.1: General Class Frequency Privileges

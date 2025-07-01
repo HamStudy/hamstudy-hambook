@@ -2,6 +2,7 @@
 chapter: "6"
 section: "6.5"
 questions: ["G0A01", "G0A02", "G0A03", "G0A04", "G0A05", "G0A06", "G0A07", "G0A08", "G0A09", "G0A10", "G0A11", "G0A12", "G4C11"]
+status: generated
 ---
 
 ### Section 6.5: RF Exposure

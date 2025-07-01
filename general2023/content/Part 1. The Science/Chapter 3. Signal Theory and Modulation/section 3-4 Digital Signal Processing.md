@@ -2,6 +2,7 @@
 chapter: "3"
 section: "3.4"
 questions: ["G7C06", "G7C09", "G7C10", "G7C11"]
+status: draft1
 ---
 
 ### Section 3.4: Digital Signal Processing

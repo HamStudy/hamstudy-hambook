@@ -2,6 +2,7 @@
 chapter: "9"
 section: "9.4"
 questions: ["G1B01", "G1B06", "G1B09", "G1B10", "G1B11", "G1B02", "G1B03"]
+status: generated
 ---
 
 ### Section 9.4: Antenna and Station Regulations

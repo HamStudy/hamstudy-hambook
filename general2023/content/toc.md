@@ -1,5 +1,6 @@
 ---
 title: "Table of Contents: HamStudy General Class License HamBook (2023-2027)"
+status: generated
 ---
 
 # HamStudy: General Class License HamBook (2023-2027)

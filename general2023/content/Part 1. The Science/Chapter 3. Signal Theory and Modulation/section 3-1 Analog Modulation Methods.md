@@ -2,6 +2,7 @@
 chapter: "3"
 section: "3.1"
 questions: ["G8A05", "G8A11", "G8A10", "G8A07", "G7C02", "G7C01", "G7C04", "G8A03", "G8A02", "G8A04", "G8A08"]
+status: draft1
 ---
 
 ### Section 3.1: Analog Modulation Methods

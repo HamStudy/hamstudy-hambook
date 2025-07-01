@@ -2,6 +2,7 @@
 chapter: "9"
 section: "9.5"
 questions: ["G1B08", "G1B11", "G1E01", "G1E05", "G1E06", "G1E12", "G1D05", "G1D12"]
+status: generated
 ---
 
 ### Section 9.5: International Operations
