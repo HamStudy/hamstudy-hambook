@@ -2,130 +2,137 @@
 chapter: "9"
 section: "9.3"
 questions: ["G1C07", "G1B04", "G1B05", "G1B07", "G1E03", "G1E07", "G1E08"]
-status: generated
+status: reviewed1
 ---
 
 ### Section 9.3: Digital Communications Rules
 
-The digital revolution has dramatically transformed amateur radio, creating exciting opportunities for new modes and techniques. As a General class operator, you'll have access to digital segments across all amateur bands. Understanding the rules governing these digital operations is essential for legal and effective operation.
+Welcome to the wild west of amateur radio—except it's not that wild anymore. Digital modes have transformed from exotic experiments into everyday communication tools, and with that evolution comes a framework of rules designed to keep our digital playground both innovative and orderly.
 
-#### New Digital Protocols
+As a new General, you're about to discover modes that can punch through noise floors that would swallow voice communications whole. But first, let's decode the regulations.
 
-Innovation is at the heart of amateur radio, and nowhere is this more evident than in the development of new digital modes. The FCC encourages this innovation while ensuring transparency:
+#### Rolling Your Own: New Digital Protocols
 
-> **Key Information:** *Before using a new digital protocol on the air, you must publicly document the technical characteristics of the protocol.* {{< link id="G1C07" >}}
+Imagine you've just invented the next FT8—a mode so efficient it can decode signals buried 30 dB below the noise floor using nothing but good intentions and phase shifts. Exciting! But before you fire up that revolutionary new mode:
 
-<img src="../images/digital-protocol-documentation.svg" alt="Diagram showing protocol documentation process" style="width: 450px; margin: 10px;">
+> *Key Information:* *Before using a new digital protocol on the air, you must publicly document the technical characteristics of the protocol.* {{< link id="G1C07" >}}
 
-This requirement serves several important purposes:
-- Allows other amateurs to decode your transmissions
-- Prevents obscuring the meaning of communications
-- Promotes sharing of innovations within the amateur community
-- Enables interference identification and resolution
+![Diagram showing protocol documentation process](../images/digital-protocol-documentation.svg)
 
-Documentation should include:
-- Modulation technique
-- Bandwidth requirements
-- Symbol rates
-- Error correction methods
-- Protocol specifications
+This isn't bureaucratic gatekeeping—it's the opposite. The FCC essentially says, "Go ahead, innovate! Just tell everyone how it works." No approval needed, no forms to file, just transparency.
 
-The documentation must be publicly available but does not need formal FCC approval. Publishing the information on a website, in amateur radio publications, or through radio clubs fulfills this requirement.
+Your documentation recipe should include:
+- How the modulation works (the secret sauce)
+- Bandwidth requirements (how much spectrum you're eating)
+- Symbol rates and timing
+- Error correction methods (if any)
+- Enough detail for others to build compatible systems
 
-#### Permitted and Prohibited Transmissions
+Post it on your blog, publish in QST, present at your radio club—anywhere public counts. The goal? Keep amateur radio open. When everyone can decode everyone else's signals (at least in theory), we maintain the community spirit that makes ham radio special.
 
-The FCC clearly defines what types of transmissions are permitted in the amateur service:
+#### What Can We Send? The Transmission Rules
 
-> **Key Information:** *Occasional retransmission of weather and propagation forecast information from US government stations is permitted for all amateur stations.* {{< link id="G1B04" >}}
+Digital modes open doors to automated operation and information sharing, but not everything goes:
 
-<img src="../images/permitted-retransmissions.svg" alt="Chart showing permitted and prohibited retransmissions" style="width: 450px; margin: 10px;">
+> *Key Information:* *Occasional retransmission of weather and propagation forecast information from US government stations is permitted for all amateur stations.* {{< link id="G1B04" >}}
 
-This allows amateurs to share valuable information from authoritative sources like NOAA or WWV when it benefits the amateur community. The key word is "occasional" – setting up an automated system to constantly rebroadcast such information would go beyond what's permitted.
+![Chart showing permitted and prohibited retransmissions](../images/permitted-retransmissions.svg)
 
-Some one-way transmissions are also specifically allowed:
+Notice that word "occasional"? It's doing heavy lifting here. Sharing this morning's solar flux numbers from WWV during a net? Perfect. Setting up an automated beacon that rebroadcasts NOAA weather every 15 minutes? That crosses the line from occasional to constant.
 
-> **Key Information:** *Transmissions to assist with learning the International Morse code are permitted as one-way communications.* {{< link id="G1B05" >}}
+The spirit here: Amateur radio can help spread useful information, but we're not a broadcast service.
 
-This exemption enables W1AW and other stations to transmit code practice sessions, encouraging Morse code proficiency within the amateur community.
+Speaking of helping others learn:
 
-When using digital modes, special attention must be paid to abbreviations and procedural signals:
+> *Key Information:* *Transmissions to assist with learning the International Morse code are permitted as one-way transmissions.* {{< link id="G1B05" >}}
 
-> **Key Information:** *Abbreviations and procedural signals may be used in the amateur service if they do not obscure the meaning of a message.* {{< link id="G1B07" >}}
+This exception keeps the tradition alive. W1AW's code practice, your local club's slow-speed CW sessions, even your personal code practice beacon (properly identified, of course)—all explicitly blessed by the FCC. Because even in our digital age, there's something magical about the original digital mode.
 
-<img src="../images/digital-abbreviations.svg" alt="Examples of acceptable and unacceptable abbreviations" style="width: 400px; margin: 10px;">
+#### Digital Abbreviations: When UR 2 CRYPTIC
 
-Standard Q-signals, abbreviations like "DE" (meaning "from"), and common digital protocol terms are permitted and widely used. However, creating private codes or encryption that obscures your message's meaning violates FCC rules.
+Digital modes love abbreviations. Packet uses them. PSK31 thrives on them. But where's the line?
 
-#### Automatic Control in Digital Operations
+> *Key Information:* *Abbreviations and procedural signals may be used if they do not obscure the meaning of a message.* {{< link id="G1B07" >}}
 
-Digital stations often operate under automatic control, which has specific requirements:
+![Examples of acceptable and unacceptable abbreviations](../images/digital-abbreviations.svg)
 
-> **Key Information:** *When communicating with a digital station operating under automatic control outside the automatic control band segments, the station initiating the contact must be under local or remote control.* {{< link id="G1E03" >}}
+The test is simple: Could another ham reasonably understand your transmission?
+- "QTH UR 599 IN CALIF" = Obviously fine
+- "THE WX HR IS SUNNY" = No problem
+- "XYZ ABC 123 QQQ" = What are you hiding?
 
-<img src="../images/automatic-control-requirements.svg" alt="Diagram showing automatic control requirements" style="width: 450px; margin: 10px;">
+Standard abbreviations, Q-signals, and common digital shortcuts are your friends. Creating your own secret code that only you and your buddy understand? That's a one-way ticket to an FCC notice.
 
-This means that while the responding station might be operating automatically (like a digital node or bulletin board), the initiating station must have a control operator present either locally or remotely. This ensures human oversight of the communication.
+#### Automatic Control: When Robots Answer
 
-Automatic control is limited to specific band segments. When operating outside these designated areas, at least one side of the communication must have direct operator supervision.
+Digital stations often run unattended—think Winlink gateways, APRS digipeaters, or packet BBSs. But even robots need rules:
 
-#### Sharing Spectrum with Non-Amateur Services
+> *Key Information:* *When communicating with a digital station operating under automatic control outside the automatic control band segments, the station initiating the contact must be under local or remote control.* {{< link id="G1E03" >}}
 
-Some frequency bands have special restrictions when it comes to digital operations:
+![Diagram showing automatic control requirements](../images/automatic-control-requirements.svg)
 
-> **Key Information:** *Amateur stations may not communicate with non-licensed Wi-Fi stations in any part of the 2.4 GHz band.* {{< link id="G1E07" >}}
+Translation: That Winlink gateway can sit there all day automatically responding to connection requests. But you, the human making the connection, need to be actively controlling your station—either sitting at the radio (local) or controlling it over the internet (remote).
 
-<img src="../images/wifi-band-restrictions.svg" alt="Chart showing 2.4 GHz band usage" style="width: 400px; margin: 10px;">
+Why? Because someone needs to take responsibility if things go sideways. The gateway can't decide to QSY if it's causing interference—but you can.
 
-The 2.4 GHz band (2400-2450 MHz) is shared with Industrial, Scientific, and Medical (ISM) devices, including Wi-Fi networks, Bluetooth devices, and microwave ovens. Despite the technical similarity between some amateur digital systems and Wi-Fi, direct communication between amateur stations and non-licensed Wi-Fi networks is prohibited.
+#### The Wi-Fi Temptation
 
-Amateurs can create their own networks using amateur radio protocols on these frequencies, but they cannot connect to or communicate with commercial or personal Wi-Fi networks.
+Your 2.4 GHz amateur privileges overlap with Wi-Fi channels. Your ham radio can technically speak Wi-Fi's language. So why not bridge the gap?
 
-#### Spread Spectrum Communications
+> *Key Information:* *Amateur stations may not communicate with non-licensed Wi-Fi stations in any part of the 2.4 GHz band.* {{< link id="G1E07" >}}
 
-Spread spectrum is a sophisticated transmission technique that distributes a signal over a wide bandwidth, offering advantages like interference resistance and security:
+![Chart showing 2.4 GHz band usage](../images/wifi-band-restrictions.svg)
 
-> **Key Information:** *The maximum PEP output allowed for spread spectrum transmissions is 10 watts.* {{< link id="G1E08" >}}
+The wall between amateur radio and Part 15 (unlicensed) devices is absolute. You can't connect your ham station to the coffee shop's Wi-Fi, even if you have the technical skills to do it. You can't set up a cross-band repeater that bridges 2 meters to your home network.
 
-<img src="../images/spread-spectrum-power-limits.svg" alt="Chart showing spread spectrum power limits compared to other modes" style="width: 450px; margin: 10px;">
+What you CAN do: Build your own amateur-only high-speed network using Wi-Fi technology but following amateur rules (proper ID, no encryption, etc.). Several groups have created impressive regional amateur data networks this way—just no mixing with consumer Wi-Fi.
 
-This power limitation is significantly lower than the 1500-watt limit for most amateur operations. The restriction helps prevent interference to other users due to the wide bandwidth nature of spread spectrum signals.
+#### Spread Spectrum: With Great Bandwidth Comes Little Power
 
-Spread spectrum techniques include:
-- Frequency Hopping Spread Spectrum (FHSS): Rapidly switching frequencies during transmission
-- Direct Sequence Spread Spectrum (DSSS): Using a pseudorandom code to spread the signal
-- Chirp Spread Spectrum: Utilizing frequency sweeps to distribute the signal
+Spread spectrum trades bandwidth for reliability, spreading signals across a wide swath of spectrum. It's incredibly resistant to interference, which sounds perfect for amateur radio. There's just one catch:
 
-These techniques are primarily used on VHF, UHF, and microwave bands for specialized applications including high-speed data networks and mesh systems.
+> *Key Information:* *The maximum PEP output allowed for spread spectrum transmissions is 10 watts.* {{< link id="G1E08" >}}
 
-#### Digital Mode Frequency Allocations
+![Chart showing spread spectrum power limits compared to other modes](../images/spread-spectrum-power-limits.svg)
 
-Digital modes have specific frequency allocations within amateur bands that vary based on the band and mode:
+Ten watts. Not 100, not 1500—ten. That's QRP territory, whether you like it or not.
 
-<img src="../images/digital-mode-allocations.svg" alt="Chart showing digital mode frequency allocations across bands" style="width: 450px; margin: 10px;">
+Why so stingy? Spread spectrum signals are bandwidth hogs. A 10-watt spread spectrum signal affects more spectrum than a 1500-watt CW signal. The power limit keeps these wide signals from steamrolling other users.
 
-Each band typically has:
-- Narrow bandwidth digital segments (for modes like PSK31, FT8)
-- Medium bandwidth digital segments (for RTTY, Packet)
-- Wider bandwidth segments (for WINLINK, VARA)
+But don't dismiss spread spectrum because of the power limit. Ten watts of properly implemented spread spectrum can be remarkably effective, especially for local and regional digital networks.
 
-Voluntary band plans further subdivide these allocations for specific modes, helping to organize activity and prevent interference. While these band plans aren't legally binding, following them demonstrates good amateur practice and helps everyone share the spectrum effectively.
+#### Digital Band Planning: Finding Your Frequency
 
-#### Practical Digital Mode Operations
+Unlike phone operation where you can pretty much transmit anywhere in the phone bands, digital modes have evolved their own neighborhoods:
 
-When operating digital modes under your new General privileges, keep these practical considerations in mind:
+![Chart showing digital mode frequency allocations across bands](../images/digital-mode-allocations.svg)
 
-1. **Mode-Specific Software**: Most digital modes require specific software and hardware interfaces. Research and set up the appropriate tools before operating.
+Each digital mode has its preferred hangouts:
+- **PSK31**: Usually found near the bottom of phone bands
+- **FT8**: Has claimed specific frequencies on each band (like 14.074 MHz)
+- **RTTY**: Traditional spots that haven't changed in decades
+- **Packet**: VHF/UHF frequencies coordinated locally
 
-2. **Audio Levels**: Proper audio levels are critical for digital modes. Too much drive can create spurious emissions that interfere with others.
+These aren't FCC regulations—they're gentleman's agreements that keep different modes from stepping on each other. Following them isn't legally required, but it's like using your turn signal: technically optional in a parking lot, but everyone appreciates when you do it.
 
-3. **Documentation**: Keep documentation of the digital modes you use, especially less common ones, to share with others who might be interested.
+#### Operating Digital: Practical Magic
 
-4. **Station Identification**: Remember that all FCC identification requirements still apply when using digital modes. Your software should allow for proper station identification.
+Now that you know the rules, here's how to be a good digital citizen:
 
-5. **Band Conditions**: Digital modes have different performance characteristics under varying band conditions. Some modes like FT8 excel in poor conditions, while others require better signal-to-noise ratios.
+**Audio Levels Matter**: Overdriving your digital signal doesn't make it louder—it makes it wider. That PSK31 signal that should be 31 Hz wide? Overdrive it and you're splattering across 200 Hz, wiping out six other QSOs. Watch your ALC meter—it should barely move.
 
-#### The Digital Evolution Continues
+**Know Your Mode**: Keep notes on the modes you use. When someone asks "What's that signal?", you should be able to point them to resources. Being an ambassador for your favorite mode grows the community.
 
-Digital modes continue to evolve at a remarkable pace. The FCC's approach balances encouraging innovation with maintaining the open nature of amateur communications. As a General class operator, you now have the privilege and responsibility to participate in this vibrant aspect of modern amateur radio.
+**ID Properly**: Yes, even on digital. Most software handles this automatically, but verify it's working. Some modes (like FT8) have shortened ID protocols—use them correctly.
 
-Understanding these digital communications rules ensures you can confidently explore these modes while operating legally and courteously. Whether you're interested in high-speed data networks, weak signal work, or emergency communications, digital modes offer exciting opportunities to expand your amateur radio horizons.
+**Respect the Neighborhoods**: If you hear a bunch of FT8 signals on 14.074, don't fire up your RTTY there just because it's legal. Find where RTTY operators congregate.
+
+**Power Wisdom**: Just because you can run 1500 watts on digital doesn't mean you should. Many digital modes work brilliantly at 25-50 watts. Save the kilowatt for when you really need it.
+
+#### The Digital Future Is Now
+
+Digital modes aren't the future of amateur radio—they're the present. From FT8 making contacts possible when conditions are abysmal, to Winlink providing email when infrastructure fails, to high-speed data modes pushing megabits through amateur spectrum, digital has become essential to modern ham radio.
+
+The rules we've covered aren't meant to restrict innovation—they're designed to enable it while keeping our bands functional for everyone. As you explore digital modes with your new General privileges, remember that today's experimental protocol might be tomorrow's emergency communications standard.
+
+Ready to see what antenna and station regulations your General license brings? The next section takes us from the digital domain to the physical realm of towers, antennas, and RF exposure.
