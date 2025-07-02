@@ -83,11 +83,15 @@ Where:
 
 #### Impedance: The Complete Picture
 
-Real-world radio circuits always contain both resistance and reactance. Their combined effect is called impedance:
+Real-world radio circuits always contain both resistance and reactance. Their combined effect is called impedance.
+
+Remember Ohm's law from your Technician studies? For DC circuits, we learned that resistance equals voltage divided by current: $R = \frac{E}{I}$. This fundamental relationship doesn't change for AC circuits—we just need to account for the phase shifts caused by reactance.
+
+In AC circuits, we still have the same basic relationship between voltage and current, but now we call the total opposition "impedance" instead of just "resistance":
 
 > **Key Information:** *Impedance is the ratio of voltage to current in an AC circuit.* {{< link id="G5A08" >}}
 
-Impedance (Z) represents the total opposition to current flow and is measured in ohms (Ω). {{< link id="G5A09" >}} Unlike resistance alone, impedance includes both magnitude and phase relationships:
+Just like Ohm's law tells us that $Z = \frac{E}{I}$, impedance (Z) represents the total opposition to current flow and is measured in ohms (Ω). {{< link id="G5A09" >}} The key difference is that impedance includes both magnitude and phase relationships:
 
 $$Z = R + jX$$
 
