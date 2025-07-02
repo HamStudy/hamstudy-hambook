@@ -1,17 +1,19 @@
 ---
 slug: chpt6
 questions: []
-status: generated
+status: reviewed1
 ---
 
 ## Chapter 6: Safety
 
-Your new General class privileges open exciting doors—higher power, more complex antenna systems, and potentially high-voltage equipment—all of which come with additional safety considerations beyond what you learned as a Technician.
+That kilowatt amplifier beckons from the hamfest table. The 60-foot tower promises worldwide contacts. Your emergency go-kit needs reliable power when the grid fails. But every one of these General-class dreams carries risks that can end your ham radio career—or worse—in seconds. Master safety now, because the best DX is the contact you live to tell about.
 
-In this chapter, we'll cover the safety aspects that matter most for General class operators. We'll explore AC power safety for your growing station, examine battery and alternative power systems for portable and emergency operations, and discuss comprehensive grounding approaches that protect both equipment and operators.
+Safety separates competent operators from statistics. Your General privileges unlock power levels and antenna systems that demand respect. AC mains that can stop hearts. Towers where gravity never sleeps. Batteries that become bombs when mistreated. Lightning that sees your antenna as an invitation. RF energy that silently heats tissue beyond safe limits.
 
-For those considering tower-mounted antennas, we'll share critical safety practices for installation and maintenance work. We'll also tackle RF exposure management—increasingly important as you access higher power levels and new frequency bands.
+This chapter transforms safety from rules to reflex. You'll discover how proper circuit protection prevents fires, why ground fault protection saves lives, and when the National Electrical Code becomes your best friend. We explore portable power systems that keep you on the air when others go dark, from deep-cycle batteries to solar panels to generators—each with unique hazards to manage.
 
-Safety isn't the most glamorous topic in ham radio, but it's essential for enjoying the hobby long-term. The knowledge you gain here will help you create a station that's not only capable but also safe for you, your family, and your community.
+When antennas need altitude, we reveal the climbing techniques and safety gear that stand between you and disaster. Grounding gets demystified as we untangle RF grounds, safety grounds, and lightning grounds—similar names, different purposes, all critical. Finally, we tackle the invisible hazard of RF exposure, showing you how to calculate, measure, and mitigate the fields your station creates.
 
-Let's build safe habits that become second nature in all your amateur radio activities!
+Real stories from real hams illustrate why these precautions matter. The operator whose proper bonding prevented electrocution. The tower climber whose harness saved his life. The portable station that avoided carbon monoxide poisoning. The antenna system that survived a direct lightning strike. Each tale reinforces that safety isn't paranoia—it's preparation.
+
+Ready to operate with confidence? Let's build safety habits that protect you while you pursue the magic of radio!
