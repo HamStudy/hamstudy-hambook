@@ -2,165 +2,175 @@
 chapter: "7"
 section: "7.2"
 questions: ["G4A12", "G4D01", "G4D02", "G4D03", "G4A02", "G4A10"]
-status: generated
+status: reviewed1
 ---
 
 ### Section 7.2: Transmitting on HF
 
-Now that you've mastered receiving HF signals, it's time to get on the air! Transmitting on HF bands with your new General privileges introduces new operating modes, techniques, and considerations beyond what you experienced as a Technician. In this section, we'll cover essential transmitting skills that will help ensure your signal is heard clearly around the world.
+Finally—time to transmit! Your first HF contact awaits, but hold that microphone. The difference between a signal that cuts through the pile-up and one that dies unheard isn't just power—it's technique. HF demands different skills than the FM repeaters you mastered as a Technician. Get this right, and 100 watts reaches around the world. Get it wrong, and even a kilowatt won't save you.
 
-#### Getting Started with Voice Modes
+#### SSB: Welcome to Efficient Voice Communication
 
-##### SSB: The Voice Workhorse of HF
+Forget everything FM taught you. Single sideband strips away the carrier and opposite sideband, cramming all your power into the intelligence-carrying portion of the signal. Result? Your 100 watts acts like 400 watts compared to AM, and you use half the bandwidth.
 
-As a Technician, you likely gained experience with FM voice communications. On HF, however, single sideband (SSB) is the dominant voice mode. SSB is more spectrum-efficient than FM and performs better under marginal conditions. There are two variants:
+The rules are simple but absolute:
+- **Below 10 MHz**: Lower Sideband (LSB)
+- **10 MHz and above**: Upper Sideband (USB)
 
-- **Lower Sideband (LSB)**: Conventionally used on 160, 80, and 40 meters
-- **Upper Sideband (USB)**: Used on 20, 17, 15, 12, and 10 meters
+Your radio probably switches automatically, but verify—nothing marks you as a newcomer faster than USB on 40 meters.
 
-Your transceiver will often select the appropriate sideband automatically based on the band, but understanding which to use is important, especially when operating near band edges or on less common frequencies.
+#### Split Operation: The DX Secret Weapon
 
-##### VFO Flexibility: Split Operation
-
-One feature you'll appreciate as you start working distant stations (DX) is dual VFO capability:
+Here's the scenario: A rare DX station appears on 14.195 MHz. Hundreds of stations call simultaneously, creating an impenetrable wall of sound. The DX operator's solution? "Listening 14.205 to 14.210." Welcome to split operation:
 
 > **Key Information:** *A common use of the dual-VFO feature on a transceiver is to transmit on one frequency and listen on another.* {{< link id="G4A12" >}}
 
 <img src="../images/split-operation.svg" alt="Diagram showing split frequency operation" style="width: 450px; margin: 10px;">
 
-When operating "split," you transmit on one frequency (VFO A) while listening on another (VFO B). This technique is essential when working DX stations that may be listening 5-10 kHz away from their transmitting frequency to manage large pileups.
+You listen to the DX on VFO A (14.195) but transmit on VFO B (somewhere in their listening range). This spreads out the calling stations, letting the DX pick out individual calls instead of hearing an unintelligible roar.
 
-Most modern transceivers make split operation straightforward with dedicated "A/B" and "Split" buttons. Practice this technique before needing it in the heat of a DX pileup!
+Master split operation before you need it:
+1. Set VFO A to the DX frequency
+2. Set VFO B to your transmit frequency
+3. Press SPLIT
+4. Listen on A, transmit on B
 
-#### Voice Processing and Quality
+Practice now, or fumble later while that rare one gets away.
 
-Getting your voice audio right is critical for effective HF communication. Unlike FM, where deviation limiting keeps audio relatively consistent, SSB requires more attention to audio quality and processing.
+#### The Audio Arms Race: Making Your Voice Cut Through
 
-##### Speech Processors: Increasing Talk Power
+On FM, everyone sounds roughly the same. On SSB, audio quality separates the stations everyone can copy from those lost in the noise. Your secret weapon sits right in your radio's menu:
 
 > **Key Information:** *The purpose of a speech processor in a transceiver is to increase the apparent loudness of transmitted voice signals.* {{< link id="G4D01" >}}
 
 <img src="../images/speech-processor-effect.svg" alt="Audio waveform showing effect of speech processing" style="width: 400px; margin: 10px;">
 
-Speech processors increase your signal's average power without increasing its peak power:
+Here's the magic: speech processing squeezes more average power from your transmitter without increasing peaks. Normal speech has a huge dynamic range—whispers to shouts. The processor compresses this range, bringing up the quiet parts that carry intelligibility:
 
 > **Key Information:** *A speech processor affects a single sideband phone signal by increasing its average power.* {{< link id="G4D02" >}}
 
-This makes your signal sound louder and more easily copyable under marginal conditions. Think of it as audio compression that brings up the quieter parts of your voice while preventing the louder parts from overmodulating.
+Your 100-watt peaks still hit 100 watts, but now your average power jumps from maybe 25 watts to 40 watts. That's like adding a 60% power boost for free.
 
-However, speech processing must be used carefully:
+But here's where newcomers destroy their audio:
 
-> **Key Information:** *The effect of an incorrectly adjusted speech processor includes distorted speech, excessive background noise, and excessive bandwidth.* {{< link id="G4D03" >}}
+> **Key Information:** *The effect of an incorrectly adjusted speech processor includes all these choices: distorted speech, excess intermodulation products, and excessive background noise.* {{< link id="G4D03" >}}
 
 <img src="../images/speech-processor-settings.svg" alt="Audio waveforms showing proper vs excessive speech processing" style="width: 450px; margin: 10px;">
 
-Start with minimal processing and gradually increase it while getting on-air audio reports from other stations. Aim for improved readability without distortion. Most operators find that moderate compression (3-6 dB) provides benefits without negative effects.
+Too much processing creates a harsh, distorted mess that's harder to copy than no processing at all. The sweet spot:
+1. Start with processing OFF
+2. Increase slowly while monitoring ALC
+3. Stop when ALC shows moderate activity on voice peaks
+4. Get on-air reports—"How's my audio?"
 
-##### Microphone Technique and Settings
+#### Microphone Mastery
 
-Beyond processing, how you use your microphone significantly affects your transmitted audio:
+Your mic technique matters more than your radio's price tag:
 
-1. **Microphone Position**: Maintain a consistent distance (typically 1-3 inches) from the microphone
-2. **Speaking Level**: Use a normal conversational tone rather than shouting
-3. **Mic Gain**: Adjust so your ALC (Automatic Level Control) meter shows activity on voice peaks but doesn't pin at maximum
-4. **Equalization**: If your transceiver offers audio equalization, adjust for clarity rather than "broadcast" quality
+**Distance**: 2-3 inches—close enough for presence, far enough to avoid breath pops
+**Angle**: Speak across the mic, not into it
+**Voice**: Normal conversation level—let the processor do the work
+**Gain**: ALC flickers on peaks, never pins
 
-Remember that communication effectiveness, not audio fidelity, is the goal. Optimizing for intelligibility rather than pleasing sound will make your signal more effective under difficult conditions.
+Forget "broadcast quality." You want "cuts through noise quality." That means emphasizing the 2-3 kHz range where human speech intelligibility lives.
 
-#### Working CW and Digital Modes
+#### Beyond Voice: CW and Digital Mastery
 
-While voice communication is popular, CW (Morse code) and digital modes offer advantages in challenging conditions. Your General privileges open up extensive CW and digital mode segments across the HF spectrum.
+When conditions deteriorate and SSB becomes unintelligible, CW punches through. When CW struggles, digital modes decode signals you can't even hear. Your General privileges unlock these powerful alternatives across every HF band.
 
-##### CW Operation Enhancements
+##### CW: The Original Digital Mode
 
-If you're exploring CW, your HF transceiver offers features to enhance your experience:
+Here's a trick that separates CW operators who struggle from those who thrive in QRM:
 
 > **Key Information:** *The benefit of using the opposite or "reverse" sideband when receiving CW is that it may be possible to reduce or eliminate interference from other signals.* {{< link id="G4A02" >}}
 
-This technique works because changing from USB to LSB (or vice versa) when receiving CW effectively shifts the pitch of the received signal. Interfering signals will shift in the opposite direction, potentially moving them out of your receiver's audio passband while keeping your desired signal audible.
+Switching sidebands flips the audio spectrum. That interfering signal 200 Hz below your desired CW note jumps to 200 Hz above when you switch sidebands. Your brain refocuses on the new pitch while the interference moves to a less bothersome frequency. It's like moving your chair when someone blocks your view—same signal, better perspective.
 
-For sending CW, most modern transceivers include an electronic keyer:
+For sending perfect CW, embrace the electronic keyer:
 
 > **Key Information:** *The function of an electronic keyer is automatic generation of dots and dashes for CW operation.* {{< link id="G4A10" >}}
 
 <img src="../images/electronic-keyer.svg" alt="Diagram showing electronic keyer operation" style="width: 400px; margin: 10px;">
 
-Electronic keyers work with paddle-style keys to generate perfectly timed dots and dashes. Simply press one side of the paddle for dots and the other for dashes. Most keyers allow you to adjust the speed (in words per minute) and the weight (the dot-to-dash ratio).
+Unlike a straight key where you form every element manually, a keyer's paddle lets you press one side for perfect dots, the other for perfect dashes. The keyer handles timing, spacing, and weight. You just decide what to send.
 
-Some transceivers also include:
-- Memory keyers to store and play back common messages
-- Beacon modes for propagation testing
-- CW decoders that display received Morse on the screen
+Modern keyers add power features:
+- Memories for "CQ DX DE W1XYZ" and other repetitive sends
+- Speed control from 5 to 50+ WPM
+- Iambic modes that let you squeeze both paddles for alternating elements
 
-##### Digital Mode Considerations
+#### Digital Modes: When Every Decibel Counts
 
-Digital modes like RTTY, PSK31, FT8, and others have become increasingly popular on HF bands. When operating digital modes:
+FT8 works when nothing else will. PSK31 sends perfect text through noise. RTTY contests push rates beyond what voice can achieve. But digital modes demand different thinking:
 
-1. **Audio Levels**: Set proper audio levels between your computer and radio (too high causes distortion, too low reduces effectiveness)
-2. **ALC Management**: *Keep your ALC (Automatic Level Control) inactive or minimal when transmitting digital signals to prevent distortion*
-3. **Duty Cycle Awareness**: Many digital modes transmit continuously while active, potentially causing your transmitter to heat up more than with voice modes
-4. **Bandwidth Considerations**: Respect the conventional segments for different digital modes within each band
+**The Golden Rule**: NO ALC action on digital modes—ever. That flickering ALC meter means distortion, splatter, and failed QSOs. Reduce audio drive until ALC stays at zero.
 
-#### Operating at Band Edges
+**Duty Cycle Reality**: Digital modes run continuous power. Your 100-watt radio might only handle 50 watts continuous. Check your manual or prepare for expensive repairs.
 
-With your General privileges, you'll have access to portions of bands that have specific frequency limits. Operating near band edges requires attention to your emission bandwidth:
+**Audio Balance**: Too little drive and you're weak. Too much creates splatter across 10 kHz. Use waterfall displays to see your signal—it should be crisp and narrow, not a fuzzy blob.
+
+#### Band Edge Operations: Don't Be "That Guy"
+
+Your General ticket comes with frequency limits. Exceed them and you're the lid everyone talks about. Here's how SSB bandwidth really works:
 
 <img src="../images/band-edge-operation.svg" alt="Diagram showing proper operation near band edges" style="width: 450px; margin: 10px;">
 
-For SSB operation, remember that:
-- A typical SSB signal occupies about 2.8 kHz of bandwidth
-- When using LSB, your displayed frequency is at the upper edge of your transmitted signal
-- When using USB, your displayed frequency is at the lower edge of your transmitted signal
+**USB Reality**: Your displayed frequency marks the BOTTOM of your signal. At 14.350 MHz (the band edge), your signal extends UP to 14.353.
 
-This means when operating LSB near the lower edge of a voice segment, you should keep your displayed frequency at least 3 kHz above the band edge. Similarly, when operating USB near the upper edge, keep your displayed frequency at least 3 kHz below the band edge.
+**LSB Reality**: Your displayed frequency marks the TOP of your signal. At 7.175 MHz (the band edge), your signal extends DOWN to 7.172.
 
-#### Specialized Transmitting Techniques
+The safety rule: Stay 3 kHz inside any band edge. Better to be conservative than explain yourself to the FCC.
 
-As you gain experience on HF, you'll encounter specialized operating scenarios that require specific techniques:
+#### Advanced Operating: DX Pileup Survival
 
-##### Working DX and Pileups
+A new country appears on 20 meters. Within minutes, a thousand stations call simultaneously. Most create QRM. A few make the contact. Here's how to join the successful few:
 
-When rare or desirable stations come on the air, many operators call them simultaneously, creating a "pileup." Effective techniques include:
+**Rule 1: Listen First**
+Does the DX work split? By numbers? Specific regions? Figure out their system before transmitting.
 
-1. **Listen First**: Understand the DX station's pattern before calling
-2. **Timing**: Call slightly before or after the majority of stations
-3. **Brevity**: Give your call sign once or twice, clearly and at moderate speed
-4. **Power Control**: More power doesn't always help—a clean, well-timed signal often works better
-5. **Split Operation**: When the DX works "split," transmit on their listening frequency, not their transmitting frequency
+**Rule 2: Time Your Calls**
+Don't join the roaring mob. Call slightly off-beat, in the gaps between the masses.
 
-##### Contest Operation
+**Rule 3: Partial Calls Work**
+If the DX says "W3?" and you're W3ABC, send "W3ABC" immediately—not just "ABC."
 
-HF contests provide excellent opportunities to make many contacts and improve your operating skills:
+**Rule 4: Match Their Speed**
+If they're sending quick exchanges, don't give your life story. "W1XYZ" beats "Whiskey One X-ray Yankee Zulu."
 
-1. **Efficiency**: Keep exchanges brief and to the format required by the contest
-2. **Endurance**: Manage your voice to avoid strain during extended operating periods
-3. **Strategy**: Know when to call CQ and when to search and pounce on other stations
-4. **Log Accuracy**: Ensure you correctly copy call signs and exchange information
+#### Contest Success: Speed Meets Accuracy
 
-#### Station Accessories for Better Transmitting
+Contests teach efficient operating like nothing else. Whether chasing points or just making QSOs, contest-style operation sharpens every skill:
 
-Consider these accessories to enhance your transmitting capabilities:
+**Exchange Only What's Required**: "59 CT" not "You're 59 in Connecticut, name is Bob, weather is..."
+**Voice Preservation**: Use voice keyer memories, stay hydrated, speak from your chest not throat
+**Rate Maximization**: Strong signal? Run (call CQ). Weak signal? Search and pounce.
+**Accuracy Matters**: Better to ask for repeats than log wrong calls
 
-1. **External Audio Equalizer**: Tailors your audio for maximum clarity and "punch"
-2. **Footswitch**: Frees your hands for logging or other tasks while transmitting
-3. **Headset/Boom Microphone**: Provides consistent microphone positioning and reduces background noise
-4. **External Antenna Tuner**: Offers greater flexibility than internal tuners for matching antennas
-5. **Linear Amplifier**: Can boost your signal when conditions require (remember proper license limits)
+#### Station Upgrades That Actually Matter
 
-#### Being a Good Operator
+Before spending money on more power, consider these game-changers:
 
-With your General class privileges comes additional responsibility to operate professionally:
+**Headset with Boom Mic**: Consistent audio, hands-free operation, better DX success than any amplifier
+**Footswitch**: Essential for contesting, DXing, or any serious operating
+**Audio Processor**: External units often outperform built-in processing
+**Antenna Tuner**: A good external tuner matches what internal tuners can't
 
-1. **Courtesy**: Listen before transmitting to avoid interrupting ongoing contacts
-2. **Efficiency**: Be clear and concise, especially in busy band conditions
-3. **Accuracy**: Ensure you're operating within authorized frequency segments
-4. **Cleanliness**: Maintain a properly adjusted transmitter that doesn't create splatter or distortion
-5. **Helpfulness**: Assist newcomers as others likely helped you
+Notice what's missing? The amplifier. Fix everything else first—then consider more power.
 
-#### The Bottom Line: Effective Transmission Practices
+#### The Operating Code: Professionalism on the Air
 
-Transmitting effectively on HF requires attention to both technical details and operating practices. By maintaining proper audio levels, using appropriate modes and techniques for different situations, and respecting band plans and other operators, you'll build a reputation as a skilled and courteous operator.
+Your signal represents you. Make it count:
 
-As you gain experience, you'll develop your own operating style and preferences. Don't be afraid to experiment with different approaches to find what works best for you and your station. The journey from making your first HF contact to becoming a proficient HF operator is rewarding and filled with learning opportunities.
+**Listen First, Transmit Second**: That frequency might sound clear, but is someone listening for a weak signal?
+**Keep It Moving**: Long-winded transmissions frustrate everyone. Say what's needed, then listen.
+**Stay In Bounds**: Your privileges have edges. Respect them.
+**Clean Signals**: Overdriven audio and splatter mark you as careless or clueless.
+**Pay It Forward**: Someone helped you learn. Return the favor.
 
-In the next section, we'll explore power amplifiers and measurement techniques that can help you optimize your station's performance and ensure compliance with regulations.
+#### Your Transmitting Reality Check
+
+Great operators aren't born—they're made through deliberate practice. Every contest entered, every DX contact attempted, every net joined teaches lessons no book can provide. Start with solid technique, add experience, and watch your signal reports climb.
+
+Remember: More power rarely solves problems that good technique can fix. Master your current station before upgrading. The operator matters more than the equipment.
+
+Next up: When 100 watts isn't enough, amplifiers beckon. But with great power comes great responsibility—and the need for careful measurement and control.
