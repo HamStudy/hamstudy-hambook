@@ -2,12 +2,14 @@
 chapter: "8"
 section: "8.1"
 questions: ["G2A01", "G2A02", "G2A03", "G2A04", "G2A05", "G2A06", "G2A07", "G2A09", "G2B07", "G2B08"]
-status: generated
+status: reviewed1
 ---
 
 ### Section 8.1: Getting Started on HF
 
-With your new General class privileges, you now have access to the fascinating world of High Frequency (HF) communications. Gone are the days when your contacts were limited to local repeaters or line-of-sight simplex. Now you can talk around the world using the ionosphere as your radio signal's natural relay. Let's explore the fundamentals of HF operation that will help you make successful contacts across the continent and around the globe.
+Picture this: It's 3 AM, and you're wide awake in your shack. The house is quiet, but your radio is alive with voices from halfway around the world. A station in Japan is calling CQ, their signal bouncing off the ionosphere and landing crystal clear in your receiver. With your new General class privileges, this isn't just a dream—it's Tuesday night.
+
+Welcome to HF, where the ionosphere becomes your personal worldwide repeater system. Unlike the predictable coverage of VHF/UHF, HF offers adventure. One moment the band seems dead, the next you're chatting with Antarctica. Let's unlock the secrets of successful HF operation.
 
 #### Understanding HF Voice Modes
 
@@ -17,7 +19,7 @@ As a Technician, you likely focused on FM operation on VHF and UHF bands. On HF,
 
 > **Key Information:** *Upper sideband (USB) is most commonly used for voice communications on frequencies of 14 MHz or higher.* {{< link id="G2A01" >}}
 
-<img src="../images/sideband-selection.svg" alt="Diagram showing which sidebands are used on different bands" style="width: 400px; margin: 10px;">
+![Diagram showing which sidebands are used on different bands](../images/sideband-selection.svg)
 
 The HF bands follow a convention for which sideband to use:
 
@@ -31,7 +33,7 @@ For the less commonly used bands:
 
 > **Key Information:** *Upper sideband (USB) is most commonly used for voice communications on the 17- and 12-meter bands.* {{< link id="G2A04" >}}
 
-This sideband convention is important because using the wrong sideband will make your audio sound unintelligible to other operators. Think of it as a community standard that everyone follows to ensure smooth communication.
+Why does this matter? Try listening to someone using the wrong sideband—they'll sound like they're speaking through a kazoo underwater. Following the convention ensures everyone can understand each other.
 
 The simple rule of thumb is: 
 - **LSB**: Use on 160, 75, and 40 meters (below 10 MHz)
@@ -42,13 +44,13 @@ Why do we use LSB on lower bands and USB on higher bands? This is primarily a hi
 
 ##### Advantages of SSB
 
-You'll quickly notice that SSB sounds different from FM. There's no squelch to eliminate background noise, and voices may initially sound "Donald Duck-like" until you fine-tune the frequency. Despite these differences, SSB offers significant advantages for HF operation:
+Your first SSB experience might surprise you. Where's the squelch? Why does everyone sound like Donald Duck until you tune precisely? Don't worry—your ears will quickly adapt, and you'll discover why SSB dominates HF:
 
 > **Key Information:** *Single sideband is the most commonly used voice mode on the HF amateur bands.* {{< link id="G2A05" >}}
 
 > **Key Information:** *Less bandwidth used and greater power efficiency are advantages of single sideband compared to other analog voice modes on the HF amateur bands.* {{< link id="G2A06" >}}
 
-<img src="../images/ssb-bandwidth-efficiency.svg" alt="Diagram showing SSB efficiency compared to other voice modes" style="width: 450px; margin: 10px;">
+![Diagram showing SSB efficiency compared to other voice modes](../images/ssb-bandwidth-efficiency.svg)
 
 SSB transmits only one sideband of the amplitude-modulated signal, eliminating the carrier and other sideband:
 
@@ -60,7 +62,7 @@ This efficiency translates to:
 - Better performance under marginal conditions
 - More efficient use of limited spectrum space
 
-Understanding these efficiency advantages helps explain why most HF voice operation uses SSB rather than AM or even FM for long-distance communication.
+Think of it this way: SSB is like a fuel-efficient car that can go three times farther on the same tank. When every watt counts for reaching distant stations, efficiency wins.
 
 ##### Why Most Amateur Stations Use LSB on Lower Bands
 
@@ -76,11 +78,11 @@ With numerous frequencies available across multiple bands, how do you decide whe
 
 ##### Following Band Plans
 
-Band plans are voluntary guidelines developed by the amateur community to coordinate different activities within the bands:
+Ever wonder how thousands of hams share the bands without chaos? Band plans are our gentleman's agreement—voluntary guidelines that keep CW operators from accidentally landing in the middle of a phone roundtable:
 
 > **Key Information:** *Following the voluntary band plan for the operating mode you are using is commonly accepted amateur practice when choosing a frequency on which to initiate a call.* {{< link id="G2B07" >}}
 
-<img src="../images/bandplan-example.svg" alt="Sample band plan showing different mode segments" style="width: 450px; margin: 10px;">
+![Sample band plan showing different mode segments](../images/bandplan-example.svg)
 
 Band plans typically divide each band into segments for different modes and activities:
 - CW/digital modes at the lower end
@@ -103,7 +105,7 @@ Similar special-purpose segments exist on other bands, including:
 - Digital mode clusters
 - QRP (low power) calling frequencies
 
-Always check band plans and special operating guidelines for the band you're using.
+Pro tip: Print out current band plans and keep them at your operating position. Even experienced operators reference them regularly.
 
 #### Practical Tips for Getting Started on HF
 
@@ -118,7 +120,7 @@ Before transmitting, spend time listening to different bands. This helps you:
 - Get comfortable with SSB reception
 - Identify where the DX (distant) stations are operating
 
-Most successful HF operators spend far more time listening than transmitting. This practice builds knowledge of propagation patterns and operating conventions.
+Here's a secret: The best HF operators have "golden ears" developed through hours of listening. They know when 20 meters opens to Europe, recognize the sound of long-path propagation, and can tell you which DX station has the best operating skills—all from listening.
 
 ##### Making Your First HF Contacts
 
@@ -134,13 +136,13 @@ When you're ready to transmit:
 3. **Call CQ** using this format:
    "CQ CQ CQ, this is [your callsign], [phonetically spell callsign], calling CQ and standing by."
    
-   For example: "CQ CQ CQ, this is WB6ABC, Whiskey Bravo Six Alpha Bravo Charlie, calling CQ and standing by."
+   For example: "CQ CQ CQ, this is W1ABC, Whiskey One Alpha Bravo Charlie, calling CQ and standing by."
 
 4. **Responding to a CQ** requires a different approach:
    - Wait for the station to finish calling
    - Give the other station's callsign once, followed by your callsign phonetically
    
-   For example: "W1XYZ, this is WB6ABC, Whiskey Bravo Six Alpha Bravo Charlie."
+   For example: "W1XYZ, this is W1ABC, Whiskey One Alpha Bravo Charlie."
 
 5. **Exchange information** typically including:
    - Signal report (using the RS system: Readability 1-5, Strength 1-9)
@@ -149,7 +151,7 @@ When you're ready to transmit:
    - Brief description of your equipment (optional)
 
 6. **End the contact** with a courteous sign-off:
-   "Thanks for the contact, [callsign]. This is WB6ABC, clear."
+   "Thanks for the contact, [callsign]. This is W1ABC, clear."
 
 ##### Recommended First HF Bands
 
@@ -163,10 +165,10 @@ For your first HF experiences:
 
 #### Developing Your HF Approach
 
-HF operation is an art that rewards patience and consistent practice. Unlike the reliable, noise-free qualities of local FM repeaters, HF offers the excitement of variable conditions, distant contacts, and the occasional surprise opening to rare locations.
+HF isn't instant gratification like hitting a repeater. Some nights you'll work the world with 5 watts; others, 100 watts won't get you past the state line. That unpredictability? That's not a bug—it's the feature that keeps us coming back.
 
 Don't be discouraged if your first attempts at HF contacts aren't immediately successful. Even experienced operators sometimes spend hours calling without a response when conditions are poor. With time, you'll develop an intuitive feel for when and where to operate for the best results.
 
-Remember that every successful HF contact you make represents a genuine achievement—your signal has likely traveled thousands of miles, bouncing off the ionosphere and reaching across continents or oceans. That's the special magic of HF that keeps operators coming back decade after decade.
+Think about your next QSO differently: Your voice will leave your antenna, rise hundreds of miles into space, reflect off an ionized layer of atmosphere heated by the sun, and descend to earth on another continent. If that doesn't give you goosebumps, check your pulse.
 
 In the next section, we'll explore more advanced voice operating techniques that will help you make the most of challenging band conditions and special operating situations.

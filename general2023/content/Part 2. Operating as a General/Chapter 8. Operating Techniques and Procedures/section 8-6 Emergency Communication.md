@@ -5,7 +5,7 @@ questions: ["G1E01", "G1E02", "G1E03", "G1E04", "G1E05", "G1E06", "G1E07", "G1E0
 status: generated
 ---
 
-### Section 8.6: Emergency Communications
+### Section 8.6: Emergency Communication
 
 Few aspects of amateur radio showcase its value to society more clearly than emergency communications. While commercial systems may fail during disasters due to power outages, infrastructure damage, or congestion, amateur radio often continues to function—providing critical communication when it's needed most. With your General class privileges, you now have significantly expanded capabilities for emergency service across all amateur bands.
 
@@ -19,7 +19,7 @@ During emergencies, you'll often need to relay messages for non-amateurs:
 
 > **Key Information:** *A third party would be disqualified from participating in sending a message via an amateur station if the third party's amateur license has been revoked and not reinstated.* {{< link id="G1E01" >}}
 
-<img src="../images/third-party-communications.svg" alt="Diagram showing permitted vs disqualified third-party communications" style="width: 450px; margin: 10px;">
+![Diagram showing permitted vs disqualified third-party communications](../images/third-party-communications.svg)
 
 While anyone without an amateur license can participate as a third party under appropriate circumstances, those whose licenses have been revoked are specifically prohibited. This restriction helps maintain the integrity of the amateur service even during emergencies.
 
@@ -35,7 +35,7 @@ Digital systems under automatic control play an increasingly important role in e
 
 > **Key Information:** *To conduct communications with a digital station operating under automatic control outside the automatic control band segments, the station initiating the contact must be under local or remote control.* {{< link id="G1E03" >}}
 
-<img src="../images/automatic-control-contacts.svg" alt="Illustration of automatic vs manually controlled station contacts" style="width: 450px; margin: 10px;">
+![Illustration of automatic vs manually controlled station contacts](../images/automatic-control-contacts.svg)
 
 This requirement ensures human oversight when communicating with automatically controlled stations operating outside their normal frequency ranges. During emergencies, this might apply to digital repeaters, packet nodes, or Winlink gateways temporarily operating on non-standard frequencies.
 
@@ -55,7 +55,7 @@ Amateur radio's global nature makes it particularly valuable for international d
 
 > **Key Information:** *Messages to a third party in a country with which there is a third-party agreement must relate to amateur radio or remarks of a personal character, or messages relating to emergencies or disaster relief.* {{< link id="G1E05" >}}
 
-<img src="../images/international-third-party-communications.svg" alt="Map showing countries with third-party agreements" style="width: 450px; margin: 10px;">
+![Map showing countries with third-party agreements](../images/international-third-party-communications.svg)
 
 These limitations ensure that amateur radio doesn't compete with commercial communication services while still allowing humanitarian assistance during disasters. The content restrictions strike a balance between enabling emergency communications and preserving amateur radio's non-commercial nature.
 
@@ -65,7 +65,7 @@ Understanding how frequency allocations work globally helps with international e
 
 > **Key Information:** *ITU Region 2 radio frequency allocations apply to amateur radio operators in North and South America.* {{< link id="G1E06" >}}
 
-<img src="../images/itu-regions-map.svg" alt="World map showing the three ITU regions" style="width: 450px; margin: 10px;">
+![World map showing the three ITU regions](../images/itu-regions-map.svg)
 
 The International Telecommunication Union (ITU) divides the world into three regions with somewhat different frequency allocations. Knowing your region helps ensure you're operating within authorized frequencies when communicating internationally during emergencies.
 
@@ -87,7 +87,7 @@ Advanced modulation techniques offer unique capabilities for emergency communica
 
 > **Key Information:** *The maximum PEP output allowed for spread spectrum transmissions is 10 watts.* {{< link id="G1E08" >}}
 
-<img src="../images/spread-spectrum-power-limits.svg" alt="Chart comparing power limits for different modes" style="width: 400px; margin: 10px;">
+![Chart comparing power limits for different modes](../images/spread-spectrum-power-limits.svg)
 
 Spread spectrum techniques distribute a signal across a wide bandwidth, providing interference resistance and security benefits that can be valuable during emergencies. While the power limitation seems restrictive, spread spectrum's efficiency often allows effective communication at lower power levels.
 
@@ -97,7 +97,7 @@ When assessing potential emergency communication paths, propagation beacons prov
 
 > **Key Information:** *An amateur operator should normally avoid transmitting on 14.100, 18.110, 21.150, 24.930, and 28.200 MHz because a system of propagation beacon stations operates on those frequencies.* {{< link id="G1E10" >}}
 
-<img src="../images/international-beacon-network.svg" alt="Diagram showing international beacon network operation" style="width: 450px; margin: 10px;">
+![Diagram showing international beacon network operation](../images/international-beacon-network.svg)
 
 These internationally coordinated beacons transmit in sequence, allowing operators worldwide to assess propagation conditions in real time. During emergencies, this information helps determine which bands might support communication with affected areas.
 
@@ -107,7 +107,7 @@ Digital systems continue operating without constant human supervision are partic
 
 > **Key Information:** *Automatically controlled stations transmitting RTTY or data emissions may communicate with other automatically controlled digital stations anywhere in the 6-meter or shorter wavelength bands, and in limited segments of some of the HF bands.* {{< link id="G1E11" >}}
 
-<img src="../images/auto-control-band-segments.svg" alt="Chart showing frequency allocations for automatically controlled digital stations" style="width: 450px; margin: 10px;">
+![Chart showing frequency allocations for automatically controlled digital stations](../images/auto-control-band-segments.svg)
 
 These provisions allow digital networks to function with minimal human intervention, maintaining communication paths and handling message traffic automatically. During emergencies, when operator resources may be stretched thin, such systems provide critical message-handling capabilities.
 
@@ -117,7 +117,7 @@ Modern amateur stations increasingly incorporate remote control capabilities:
 
 > **Key Information:** *Under any circumstances in which third party messages are permitted by FCC rules, third-party messages may be transmitted via remote control.* {{< link id="G1E12" >}}
 
-<img src="../images/remote-control-third-party.svg" alt="Diagram showing remote control setup with third-party messages" style="width: 450px; margin: 10px;">
+![Diagram showing remote control setup with third-party messages](../images/remote-control-third-party.svg)
 
 Remote control technology allows operators to:
 - Manage stations from safe locations during hazardous conditions
@@ -164,7 +164,7 @@ Your emergency equipment should reflect your expanded General class capabilities
 - Digital interfaces for Winlink, APRS, and other modes
 - Essential accessories (headphones, adapters, tools)
 
-<img src="../images/emergency-go-kit.svg" alt="Illustration of comprehensive emergency go-kit components" style="width: 450px; margin: 10px;">
+![Illustration of comprehensive emergency go-kit components](../images/emergency-go-kit.svg)
 
 The best emergency equipment balances capability with portability and power efficiency. Regularly testing your go-kit ensures everything will function when needed.
 
