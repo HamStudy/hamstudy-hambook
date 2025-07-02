@@ -1,7 +1,7 @@
 ---
 chapter: "4"
 section: "4.5"
-questions: ["G4E01", "G4E02", "G4E05", "G4E06", "G9D04", "G9D08", "G9D11"]
+questions: ["G4E01", "G4E06", "G4E02", "G4E05", "G9D08", "G9D04", "G9D11"]
 status: reviewed1
 ---
 

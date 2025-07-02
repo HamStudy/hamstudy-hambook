@@ -1,7 +1,7 @@
 ---
 chapter: "5"
 section: "5.3"
-questions: ["G3B01", "G3B02", "G3B03", "G3B04", "G3B09", "G3B10", "G3B12", "G3C06", "G3C07", "G3C08", "G3C09", "G3C10"]
+questions: ["G3B09", "G3B10", "G3B01", "G3C06", "G3C07", "G3C09", "G3C08", "G3C10", "G3B04", "G3B02", "G3B03", "G3B12"]
 status: reviewed1
 ---
 
