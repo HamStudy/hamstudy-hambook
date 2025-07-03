@@ -19,7 +19,7 @@ A Yagi is elegantly simple—just aluminum elements mounted on a horizontal boom
 
 **The Driven Element** is the heart of the antenna—the only element connected to your coax. 
 
-> **Key Information:** *The approximate length of the driven element of a Yagi antenna is 1/2 wavelength.* {{< link id="G9C02" >}}
+> **Key Information:** The approximate length of the driven element of a Yagi antenna is 1/2 wavelength. {{< link id="G9C02" >}}
 
 This half-wavelength element resonates at your operating frequency, just like a dipole. But here's where the magic begins: we add parasitic elements (not connected to anything) that interact with the driven element's radiated field.
 
@@ -27,7 +27,7 @@ This half-wavelength element resonates at your operating frequency, just like a 
 
 **Directors** are placed in front of the driven element, slightly shorter than a half wavelength. They "pull" the signal forward, further concentrating energy in the desired direction.
 
-> **Key Information:** *In a three-element Yagi, the reflector is longer and the director is shorter than the driven element.* {{< link id="G9C03" >}}
+> **Key Information:** In a three-element Yagi, the reflector is longer and the director is shorter than the driven element. {{< link id="G9C03" >}}
 
 This precise relationship between element lengths creates the directional pattern. The reflector acts like a mirror behind a flashlight, while the directors act like a lens in front, focusing your signal into a tight beam.
 
@@ -37,13 +37,13 @@ When you're ready to put up a beam antenna, understanding what makes one Yagi pe
 
 **Adding More Elements** is the most obvious way to improve a Yagi. Each additional director further focuses your signal, squeezing more gain from the same input power.
 
-> **Key Information:** *Increasing boom length and adding directors to a Yagi antenna primarily increases its gain.* {{< link id="G9C05" >}}
+> **Key Information:** Increasing boom length and adding directors to a Yagi antenna primarily increases its gain. {{< link id="G9C05" >}}
 
 Think of it like adding more lenses to a telescope—each one helps focus the image a bit more. A three-element Yagi might give you 7 dB of gain, while a five-element version on a longer boom could reach 10 dB. That extra 3 dB doubles your effective power!
 
 **Element Diameter** affects how your antenna performs across a band. HF bands are wide—20 meters spans 350 kHz—and you want good SWR across the entire range.
 
-> **Key Information:** *Using larger-diameter elements would increase the bandwidth of a Yagi antenna.* {{< link id="G9C01" >}}
+> **Key Information:** Using larger-diameter elements would increase the bandwidth of a Yagi antenna. {{< link id="G9C01" >}}
 
 Thicker elements are like wider pipes—they're more forgiving of slight frequency changes. This is why commercial Yagis often use aluminum tubing rather than wire elements.
 
@@ -55,13 +55,13 @@ Shopping for a beam antenna can feel overwhelming with all the specifications th
 
 **The Main Lobe** is where your antenna concentrates its power—the primary direction of radiation.
 
-> **Key Information:** *The main lobe of a directive antenna is the direction of maximum radiated field strength from the antenna.* {{< link id="G9C08" >}}
+> **Key Information:** The main lobe of a directive antenna is the direction of maximum radiated field strength from the antenna. {{< link id="G9C08" >}}
 
 The width of this main lobe determines how precisely you need to aim. A sharp, narrow beam requires accurate pointing but delivers maximum punch to your target. A broader beam is more forgiving but spreads your power over a wider area.
 
 **Front-to-Back Ratio** tells you how well your antenna ignores signals from behind.
 
-> **Key Information:** *Front-to-back ratio means the power radiated in the major lobe compared to that in the opposite direction.* {{< link id="G9C07" >}}
+> **Key Information:** Front-to-back ratio means the power radiated in the major lobe compared to that in the opposite direction. {{< link id="G9C07" >}}
 
 Imagine working Europe from the East Coast while a loud station in California is on the same frequency. A Yagi with 20 dB front-to-back ratio reduces that California station by 100 times compared to the European station you're pointed at. It's like having selective hearing that focuses on the conversation you want!
 
@@ -69,7 +69,7 @@ Imagine working Europe from the East Coast while a loud station in California is
 
 Every Yagi design involves compromises. Want maximum gain? You might sacrifice bandwidth. Need to cover an entire band with low SWR? You might give up some gain. The beauty is that you can tailor the antenna to your operating style.
 
-> **Key Information:** *Forward gain, front-to-back ratio, and SWR bandwidth of a Yagi antenna can all be optimized by adjusting the physical length of the boom, the number of elements on the boom, and the spacing of each element along the boom.* {{< link id="G9C10" >}}
+> **Key Information:** Forward gain, front-to-back ratio, and SWR bandwidth of a Yagi antenna can all be optimized by adjusting the physical length of the boom, the number of elements on the boom, and the spacing of each element along the boom. {{< link id="G9C10" >}}
 
 Computer modeling has revolutionized antenna design. Modern Yagis are optimized for specific goals:
 - **DX chasers** might choose maximum forward gain
@@ -82,13 +82,13 @@ The good news? Even a basic three-element Yagi dramatically improves your signal
 
 Here's a secret of the big gun DX stations: they rarely use just one antenna. Stacking multiple Yagis multiplies your effective power without touching the amplifier knob.
 
-> **Key Information:** *In free space, the gain of two 3-element Yagi antennas spaced vertically 1/2 wavelength apart is approximately 3 dB higher than a single 3-element Yagi.* {{< link id="G9C09" >}}
+> **Key Information:** In free space, the gain of two 3-element Yagi antennas spaced vertically 1/2 wavelength apart is approximately 3 dB higher than a single 3-element Yagi. {{< link id="G9C09" >}}
 
 ![Stacked Yagi Antennas](../images/stacked-yagis.svg)
 
 That 3 dB improvement means your 100-watt signal now hits like 200 watts—without the expense and complexity of an amplifier. But the benefits go beyond raw gain.
 
-> **Key Information:** *An advantage of vertically stacking horizontally polarized Yagi antennas is that it narrows the main lobe in elevation.* {{< link id="G9D05" >}}
+> **Key Information:** An advantage of vertically stacking horizontally polarized Yagi antennas is that it narrows the main lobe in elevation. {{< link id="G9D05" >}}
 
 This narrower elevation pattern is like switching from a floodlight to a laser. Instead of wasting power at high angles that just heat up the ionosphere, stacked antennas concentrate your signal at the low angles where DX lives. On 20 meters, a single Yagi at 70 feet might have its main lobe at 15 degrees elevation. Stack another one at 35 feet, and you can push that main lobe down to 7 degrees—perfect for working the other side of the planet.
 
@@ -98,13 +98,13 @@ While stacked Yagis offer ultimate performance on a single band, many General op
 
 As a new General, you've just gained privileges on nine HF bands. Wouldn't it be nice to have one antenna that works on all of them? Enter the log periodic dipole array (LPDA)—the multi-tool of beam antennas.
 
-> **Key Information:** *An advantage of a log periodic antenna is wide bandwidth.* {{< link id="G9D06" >}}
+> **Key Information:** An advantage of a log periodic antenna is wide bandwidth. {{< link id="G9D06" >}}
 
 ![Log Periodic Antenna](../images/log-periodic-antenna.svg)
 
 Where a Yagi is optimized for one band, a log periodic covers a huge frequency range—often 14 to 30 MHz in a single antenna. The secret lies in its unique construction.
 
-> **Key Information:** *A log periodic antenna has element length and spacing vary logarithmically along the boom.* {{< link id="G9D07" >}}
+> **Key Information:** A log periodic antenna has element length and spacing vary logarithmically along the boom. {{< link id="G9D07" >}}
 
 Picture a Yagi where each element is scaled down from the one before it by a constant ratio. The longest elements resonate on the lowest frequency, while progressively shorter elements handle higher frequencies. As you change bands, different groups of elements "wake up" and become active.
 
@@ -118,7 +118,7 @@ Beyond the familiar Yagi and log periodic designs, amateur radio has produced so
 
 When you're operating VHF SSB mobile or portable, you need horizontal polarization to match other SSB stations. But how do you use a horizontally polarized antenna without constantly rotating it?
 
-> **Key Information:** *The maximum radiation from a VHF/UHF "halo" antenna is omnidirectional in the plane of the halo.* {{< link id="G9D03" >}}
+> **Key Information:** The maximum radiation from a VHF/UHF "halo" antenna is omnidirectional in the plane of the halo. {{< link id="G9D03" >}}
 
 ![VHF/UHF Halo Antenna](../images/halo-antenna.svg)
 
@@ -128,7 +128,7 @@ The halo antenna solves this elegantly—it's essentially a dipole bent into a c
 
 Sometimes the most useful part of an antenna pattern isn't where it radiates, but where it doesn't.
 
-> **Key Information:** *An electrically small loop (less than 1/10 wavelength in circumference) has nulls in its radiation pattern broadside to the loop.* {{< link id="G9D10" >}}
+> **Key Information:** An electrically small loop (less than 1/10 wavelength in circumference) has nulls in its radiation pattern broadside to the loop. {{< link id="G9D10" >}}
 
 ![Small Loop Antenna Pattern](../images/small-loop-pattern.svg)
 
@@ -138,7 +138,7 @@ These deep nulls make small loops excellent for direction finding—rotate the l
 
 For serious low-band DXers chasing weak signals on 160 and 80 meters, nothing beats a Beverage antenna.
 
-> **Key Information:** *The primary use of a Beverage antenna is directional receiving for MF and low HF bands.* {{< link id="G9D09" >}}
+> **Key Information:** The primary use of a Beverage antenna is directional receiving for MF and low HF bands. {{< link id="G9D09" >}}
 
 ![Beverage Antenna](../images/beverage-antenna.svg)
 

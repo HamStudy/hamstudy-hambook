@@ -17,7 +17,7 @@ Picture 100 million volts seeking the easiest path to ground. Your antenna syste
 
 The first rule of lightning protection: never invite it indoors. Every ground rod, every connection, every surge path must remain outside your living space.
 
-> **Key Information:** *The lightning protection ground system should be located outside the building.* {{< link id="G0B04" >}}
+> **Key Information:** The lightning protection ground system should be located outside the building. {{< link id="G0B04" >}}
 
 <img src="../images/lightning-ground-outside.svg" alt="Diagram showing proper lightning ground system located outside the building" style="width: 450px; margin: 10px;">
 
@@ -27,7 +27,7 @@ Think of your house as a Faraday cage that protects what's inside. Bringing ligh
 
 Here's how hams die: Multiple ground systems at different potentials during a strike. Your tower ground sits at 50,000 volts while your shack ground remains at zero. The difference seeks equalization—through your equipment, through your house wiring, through you.
 
-> **Key Information:** *Lightning protection ground rods must be bonded together with all other grounds.* {{< link id="G0B11" >}}
+> **Key Information:** Lightning protection ground rods must be bonded together with all other grounds. {{< link id="G0B11" >}}
 
 <img src="../images/ground-bonding.svg" alt="Diagram showing proper bonding of multiple ground systems" style="width: 450px; margin: 10px;">
 
@@ -37,7 +37,7 @@ Bonding creates a single ground system that rises and falls in voltage together.
 
 Ground systems handle the energy, but arrestors determine where it goes. Install them wrong, and lightning enters your shack before finding ground. Install them right, and the energy never makes it past your entry point.
 
-> **Key Information:** *Lightning arrestors should be located where feed lines enter the building.* {{< link id="G0B13" >}}
+> **Key Information:** Lightning arrestors should be located where feed lines enter the building. {{< link id="G0B13" >}}
 
 <img src="../images/lightning-arrestor-placement.svg" alt="Diagram showing proper lightning arrestor placement at building entry point" style="width: 400px; margin: 10px;">
 
@@ -47,7 +47,7 @@ Arrestors work like pressure relief valves—normally invisible to your signals,
 
 That beautiful soldered ground connection will vaporize when lightning strikes. The extreme current creates heat that instantly melts solder, breaking your protective path at the worst possible moment.
 
-> **Key Information:** *Soldered joints should not be used in lightning protection ground connections because a soldered joint will likely be destroyed by the heat of a lightning strike.* {{< link id="G4C07" >}}
+> **Key Information:** Soldered joints should not be used in lightning protection ground connections because a soldered joint will likely be destroyed by the heat of a lightning strike. {{< link id="G4C07" >}}
 
 <img src="../images/ground-connection-methods.svg" alt="Diagram comparing proper mechanical connections vs. improper soldered connections" style="width: 400px; margin: 10px;">
 
@@ -61,7 +61,7 @@ Your new General privileges mean more power and lower frequencies. Suddenly, equ
 
 Here's what catches new HF operators: RF doesn't care about DC ground. At radio frequencies, your ground wire has impedance that changes with frequency. Hit the wrong length, and your "ground" becomes an antenna.
 
-> **Key Information:** *High RF voltages that produce RF burns can be caused by a ground wire having high impedance on that frequency.* {{< link id="G4C05" >}}
+> **Key Information:** High RF voltages that produce RF burns can be caused by a ground wire having high impedance on that frequency. {{< link id="G4C05" >}}
 
 Picture this: Your ground wire measures exactly ¼ wavelength on 20 meters. Instead of providing a ground, it resonates like a vertical antenna. The "grounded" chassis now carries dangerous RF voltage. Touch it while transmitting, and you'll get an RF burn that hurts for weeks.
 
@@ -69,7 +69,7 @@ Picture this: Your ground wire measures exactly ¼ wavelength on 20 meters. Inst
 
 Resonant grounds create another nasty surprise—hot equipment cases. Your rig's metal cabinet, supposedly at ground potential, develops high RF voltage.
 
-> **Key Information:** *A possible effect of a resonant ground connection is high RF voltages on the enclosures of station equipment.* {{< link id="G4C06" >}}
+> **Key Information:** A possible effect of a resonant ground connection is high RF voltages on the enclosures of station equipment. {{< link id="G4C06" >}}
 
 Symptoms include:
 - Equipment warm or tingling to touch
@@ -84,7 +84,7 @@ The solution requires rethinking "ground" for RF frequencies.
 
 Forget running individual ground wires to earth. For RF, you need equipotential bonding—connecting all equipment together so everything floats at the same RF potential.
 
-> **Key Information:** *Bonding all equipment enclosures together helps to minimize RF "hot spots" in an amateur station.* {{< link id="G4C11" >}}
+> **Key Information:** Bonding all equipment enclosures together helps to minimize RF "hot spots" in an amateur station. {{< link id="G4C11" >}}
 
 <img src="../images/equipment-bonding.svg" alt="Diagram showing proper bonding between equipment enclosures" style="width: 450px; margin: 10px;">
 
@@ -94,7 +94,7 @@ Use wide copper strap, not wire. Strap has lower inductance at RF frequencies. C
 
 Your new HF station sounds terrible. There's humming in the audio, buzzing when you type, and whining that varies with engine RPM in mobile installations. You've entered ground loop hell—where multiple ground paths fight each other.
 
-> **Key Information:** *Ground loops can be minimized by bonding equipment enclosures together.* {{< link id="G4C09" >}}
+> **Key Information:** Ground loops can be minimized by bonding equipment enclosures together. {{< link id="G4C09" >}}
 
 <img src="../images/ground-loop-diagram.svg" alt="Diagram showing how ground loops form and create problems" style="width: 400px; margin: 10px;">
 
@@ -112,7 +112,7 @@ Breaking ground loops requires systematic approach:
 
 Beyond lightning and RF concerns lies basic electrical safety. Every piece of equipment needs a safety ground to prevent electrocution from internal faults.
 
-> **Key Information:** *All metal enclosures of station equipment must be grounded to ensure that hazardous voltages cannot appear on the chassis.* {{< link id="G4C12" >}}
+> **Key Information:** All metal enclosures of station equipment must be grounded to ensure that hazardous voltages cannot appear on the chassis. {{< link id="G4C12" >}}
 
 This isn't optional—it's life-saving. When insulation fails or components short, the chassis can become energized at full line voltage. A proper safety ground provides a low-resistance path that trips breakers instantly, preventing electrocution.
 

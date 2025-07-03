@@ -15,9 +15,9 @@ Picture this: with just two pieces of wire and some coax, you can work stations 
 
 <img src="../images/dipole-radiation.svg" alt="Dipole Radiation Pattern" style="width: 350px; margin: 10px;">
 
-The dipole's effectiveness comes from its radiation pattern. {{< link id="G9B04" >}} Unlike a light bulb that shines equally in all directions, a dipole focuses its energy in specific directions.
+The dipole's effectiveness comes from its radiation pattern. Unlike a light bulb that shines equally in all directions, a dipole focuses its energy in specific directions.
 
-> **Key Information:** *The radiation pattern of a dipole antenna in free space is a figure-eight at right angles to the antenna.*
+> **Key Information:** The radiation pattern of a dipole antenna in free space is a figure-eight at right angles to the antenna. {{< link id="G9B04" >}}
 
 This figure-eight pattern means your signal radiates strongest broadside to the wire—perpendicular to its length. Orient your dipole so this maximum radiation heads toward your target areas, whether that's Europe, Japan, or your favorite net control station.
 
@@ -28,8 +28,8 @@ Here's something that surprises many new General operators: the same dipole ante
 When you mount a dipole low (less than a half wavelength high), something interesting happens. {{< link id="G9B05" >}} The ground reflection changes your radiation pattern from that classic figure-eight into something more like a cloud overhead.
 
 > **Key Information:** 
-> - *If a horizontal dipole HF antenna is less than 1/2 wavelength high, its azimuthal radiation pattern is almost omnidirectional at elevation angles higher than about 45 degrees*
-> - *The feed point impedance of a horizontal 1/2 wave dipole antenna steadily decreases as its height is reduced to 1/10 wavelength above ground* {{< link id="G9B07" >}}
+> - If a horizontal dipole HF antenna is less than 1/2 wavelength high, its azimuthal radiation pattern is almost omnidirectional at elevation angles higher than about 45 degrees 
+> - The feed point impedance of a horizontal 1/2 wave dipole antenna steadily decreases as its height is reduced to 1/10 wavelength above ground {{< link id="G9B07" >}}
 
 <img src="../images/dipole-height-patterns.svg" alt="Dipole Patterns at Different Heights" style="width: 400px; margin: 10px;">
 
@@ -37,9 +37,9 @@ This height effect creates two distinct operating modes. A low dipole sends most
 
 #### Feed Point Magic: Controlling Impedance
 
-Want to match your antenna to different feed line impedances? The secret lies in where you connect your feed line. {{< link id="G9B08" >}} A dipole offers different impedances at different points along its length, giving you a natural impedance transformer.
+Want to match your antenna to different feed line impedances? The secret lies in where you connect your feed line. A dipole offers different impedances at different points along its length, giving you a natural impedance transformer.
 
-> **Key Information:** *The feed point impedance of a 1/2 wave dipole steadily increases as the feed point is moved from the center toward the ends.*
+> **Key Information:** The feed point impedance of a 1/2 wave dipole steadily increases as the feed point is moved from the center toward the ends. {{< link id="G9B08" >}}
 
 <img src="../images/dipole-feed-points.svg" alt="Dipole Feed Point Variations" style="width: 350px; margin: 10px;">
 
@@ -51,11 +51,11 @@ Converting your General privileges into on-air contacts starts with cutting your
 
 $$Length (feet) = \frac{468}{f_{MHz}}$$
 
-Let's see this formula in action for popular General class frequencies. {{< link id="G9B10" >}} {{< link id="G9B11" >}}
+Let's see this formula in action for popular General class frequencies.
 
 > **Key Information:** 
-> - *The approximate length for a 1/2 wave dipole antenna cut for 14.250 MHz is 33 feet*
-> - *The approximate length for a 1/2 wave dipole antenna cut for 3.550 MHz is 132 feet*
+> - The approximate length for a 1/2 wave dipole antenna cut for 14.250 MHz is 33 feet {{< link id="G9B10" >}}
+> - The approximate length for a 1/2 wave dipole antenna cut for 3.550 MHz is 132 feet {{< link id="G9B11" >}}
 
 These calculations give you starting points—expect to trim a few inches for perfect resonance. That 33-foot dipole for 20 meters fits in many suburban yards, while the 132-foot 80-meter dipole might require some creative installation techniques!
 
@@ -63,7 +63,7 @@ These calculations give you starting points—expect to trim a few inches for pe
 
 Not everyone has two tall supports perfectly spaced for a flat dipole. Enter the inverted V—a clever solution that needs just one central support while maintaining excellent performance. {{< link id="G9D12" >}}
 
-> **Key Information:** *The common name of a dipole with a single central support is an inverted V.*
+> **Key Information:** The common name of a dipole with a single central support is an inverted V.
 
 <img src="../images/inverted-v.svg" alt="Inverted V Dipole" style="width: 300px; margin: 10px;">
 
@@ -75,7 +75,7 @@ Sometimes your perfect antenna location puts the center right where you can't re
 
 This convenience comes with a technical challenge. {{< link id="G9D02" >}} Remember how moving the feed point toward the ends increases impedance? At the very end, you're dealing with extreme values.
 
-> **Key Information:** *The feed point impedance of an end-fed half-wave antenna is very high.*
+> **Key Information:** The feed point impedance of an end-fed half-wave antenna is very high.
 
 <img src="../images/efhw-antenna.svg" alt="End-Fed Half-Wave Antenna" style="width: 350px; margin: 10px;">
 
@@ -87,7 +87,7 @@ Every antenna decision involves trade-offs, and polarization is no exception. Yo
 
 Horizontal antennas like dipoles offer a significant efficiency advantage for most amateur stations. {{< link id="G9B09" >}} The physics of how radio waves interact with the ground favors horizontal polarization.
 
-> **Key Information:** *An advantage of using a horizontally polarized as compared to a vertically polarized HF antenna is lower ground losses.*
+> **Key Information:** An advantage of using a horizontally polarized as compared to a vertically polarized HF antenna is lower ground losses.
 
 Think of it this way: vertical antennas must push their signals through the ground to create their radiation pattern, losing energy in the process. Horizontal antennas interact with the ground differently, reflecting signals with less loss. This efficiency advantage is especially pronounced over typical suburban soil. However, verticals shine in other ways—they're compact, don't need tall supports, and can provide excellent low-angle radiation for DX when properly installed.
 
@@ -99,7 +99,7 @@ When horizontal space is at a premium but you still want to work DX, vertical an
 
 The vertical's superpower is its omnidirectional coverage. {{< link id="G9B03" >}} Unlike beams that must be rotated or dipoles that favor certain directions, verticals hear and transmit equally in all directions.
 
-> **Key Information:** *The radiation pattern of a quarter-wave ground-plane vertical antenna is omnidirectional in azimuth.*
+> **Key Information:** The radiation pattern of a quarter-wave ground-plane vertical antenna is omnidirectional in azimuth.
 
 This 360-degree coverage means you'll never miss a rare DX station calling from an unexpected direction. It also makes verticals perfect for nets, emergency communications, or any time you need to maintain awareness in all directions. The trade-off? You can't focus your signal like a beam antenna, but many operators find the convenience of omnidirectional coverage outweighs the lack of gain.
 
@@ -109,7 +109,7 @@ Here's what many new General operators don't realize: a vertical antenna is only
 
 For ground-mounted verticals, proper radial installation makes the difference between a mediocre antenna and a DX powerhouse. {{< link id="G9B06" >}}
 
-> **Key Information:** *The radial wires of a ground-mounted vertical antenna system should be placed on the surface or buried a few inches below the ground.*
+> **Key Information:** The radial wires of a ground-mounted vertical antenna system should be placed on the surface or buried a few inches below the ground.
 
 <img src="../images/vertical-radial-system.svg" alt="Vertical Antenna with Radial System" style="width: 350px; margin: 10px;">
 
@@ -121,7 +121,7 @@ A quarter-wave vertical naturally presents about 36 ohms impedance—close to 50
 
 The angle of your radials controls more than just the ground plane—it also affects feed point impedance. {{< link id="G9B02" >}} By tilting the radials, you change how the antenna "sees" its environment.
 
-> **Key Information:** *To adjust the feed point impedance of an elevated quarter-wave ground-plane vertical antenna to be approximately 50 ohms, slope the radials downward.*
+> **Key Information:** To adjust the feed point impedance of an elevated quarter-wave ground-plane vertical antenna to be approximately 50 ohms, slope the radials downward.
 
 <img src="../images/sloper-radials.svg" alt="Vertical with Sloping Radials" style="width: 300px; margin: 10px;">
 
@@ -135,7 +135,7 @@ $$Length (feet) = \frac{234}{f_{MHz}}$$
 
 Let's calculate a practical example for 10 meters. {{< link id="G9B12" >}}
 
-> **Key Information:** *The approximate length for a 1/4 wave monopole antenna cut for 28.5 MHz is 8 feet.*
+> **Key Information:** The approximate length for a 1/4 wave monopole antenna cut for 28.5 MHz is 8 feet.
 
 That's remarkably manageable—an 8-foot vertical for 10 meters fits almost anywhere! This compact size makes verticals especially attractive on higher bands where even modest heights achieve excellent low-angle radiation for DX work.
 
@@ -145,7 +145,7 @@ Life doesn't always provide perfect antenna situations. Maybe you're in an HOA-r
 
 Random wires come with a unique challenge that catches many operators off guard. {{< link id="G9B01" >}} When you connect a non-resonant wire directly to your equipment, the antenna system becomes unbalanced.
 
-> **Key Information:** *A characteristic of a random-wire HF antenna connected directly to the transmitter is that station equipment may carry significant RF current.*
+> **Key Information:** A characteristic of a random-wire HF antenna connected directly to the transmitter is that station equipment may carry significant RF current.
 
 <img src="../images/random-wire.svg" alt="Random Wire Antenna Setup" style="width: 350px; margin: 10px;">
 
@@ -157,7 +157,7 @@ Sometimes DX isn't the goal. When disasters strike, during emergency nets, or fo
 
 NVIS works by deliberately creating a high-angle radiation pattern. {{< link id="G9D01" >}} Instead of fighting to get your antenna higher for DX, you optimize for regional coverage.
 
-> **Key Information:** *A horizontal dipole antenna most effective as a Near Vertical Incidence Skywave (NVIS) antenna for short-skip communications on 40 meters during the day is one placed between 1/10 and 1/4 wavelength above the ground.*
+> **Key Information:** A horizontal dipole antenna most effective as a Near Vertical Incidence Skywave (NVIS) antenna for short-skip communications on 40 meters during the day is one placed between 1/10 and 1/4 wavelength above the ground.
 
 <img src="../images/nvis-propagation.svg" alt="NVIS Propagation Pattern" style="width: 400px; margin: 10px;">
 

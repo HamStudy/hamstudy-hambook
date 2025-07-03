@@ -13,7 +13,7 @@ You key up on 20 meters for the first time, ready to work the world. "CQ DX, CQ 
 
 That multi-band dipole in your backyard works great on 20 meters but shows 3:1 SWR on 40. You could string up separate antennas for each band—or you could use the tool that makes one antenna work everywhere:
 
-> **Key Information:** *The purpose of an antenna tuner is to increase power transfer from the transmitter to the feed line.* {{< link id="G4A06" >}}
+> **Key Information:** The purpose of an antenna tuner is to increase power transfer from the transmitter to the feed line. {{< link id="G4A06" >}}
 
 <img src="../images/antenna-tuner-diagram.svg" alt="Diagram showing power transfer with and without antenna tuner" style="width: 450px; margin: 10px;">
 
@@ -30,7 +30,7 @@ The payoff? That single dipole now works from 80 through 10 meters. Your receive
 
 Picture this: Contest weekend, 40 meters packed with kilowatt stations. Your S-meter pins at S9+40, the receiver sounds distorted, and phantom signals appear everywhere. You're experiencing receiver overload—and there's a simple fix:
 
-> **Key Information:** *The purpose of using a receive attenuator is to prevent receiver overload from strong incoming signals.* {{< link id="G4A13" >}}
+> **Key Information:** The purpose of using a receive attenuator is to prevent receiver overload from strong incoming signals. {{< link id="G4A13" >}}
 
 <img src="../images/receive-attenuator-function.svg" alt="Diagram showing signal with and without attenuator" style="width: 400px; margin: 10px;">
 
@@ -48,7 +48,7 @@ Yes, you're reducing desired signals too. But a readable S5 beats a distorted S9
 
 That annoying carrier whistle right on top of the DX station you're trying to work? The S9 pulse noise from your neighbor's electric fence? Modern receivers pack digital weapons to fight back:
 
-> **Key Information:** *The purpose of the notch filter found on many HF transceivers is to reduce interference from carriers in the receiver passband.* {{< link id="G4A01" >}}
+> **Key Information:** The purpose of the notch filter found on many HF transceivers is to reduce interference from carriers in the receiver passband. {{< link id="G4A01" >}}
 
 <img src="../images/notch-filter-operation.svg" alt="Spectrum display showing notch filter eliminating carrier" style="width: 450px; margin: 10px;">
 
@@ -64,7 +64,7 @@ During contests or pile-ups, the notch filter transforms unintelligible chaos in
 
 Your neighbor fires up their plasma TV and 20 meters sounds like a buzzsaw. Thunderstorms 500 miles away create constant static crashes. Welcome to HF's noise battlefield, where two weapons help you fight back:
 
-> **Key Information:** *A noise blanker works by reducing receiver gain during a noise pulse.* {{< link id="G4A03" >}}
+> **Key Information:** A noise blanker works by reducing receiver gain during a noise pulse. {{< link id="G4A03" >}}
 
 <img src="../images/noise-blanker-operation.svg" alt="Diagram showing noise blanker removing impulse noise" style="width: 400px; margin: 10px;">
 
@@ -72,7 +72,7 @@ The noise blanker attacks pulse noise—those sharp pops from electric fences, p
 
 Digital noise reduction (NR) tackles the steady hiss and static using DSP magic. But here's the catch:
 
-> **Key Information:** *As a receiver's noise reduction control level is increased, received signals may become distorted.* {{< link id="G4A07" >}}
+> **Key Information:** As a receiver's noise reduction control level is increased, received signals may become distorted. {{< link id="G4A07" >}}
 
 Crank up the NR and yes, the noise fades—but so does audio quality. Voices turn robotic, CW notes warble, and weak signals disappear entirely. The sweet spot? Just enough NR to make signals readable without turning them into underwater robots. Start low, increase gradually, and stop when intelligibility peaks.
 
@@ -80,7 +80,7 @@ Crank up the NR and yes, the noise fades—but so does audio quality. Voices tur
 
 Numbers tell stories on HF. That S-meter isn't just a dancing needle—it's intelligence about propagation, antenna performance, and whether conditions favor that rare DX contact:
 
-> **Key Information:** *An S meter measures received signal strength.* {{< link id="G4D04" >}}
+> **Key Information:** An S meter measures received signal strength. {{< link id="G4D04" >}}
 
 <img src="../images/s-meter-scale.svg" alt="S-meter scale showing signal strength measurements" style="width: 400px; margin: 10px;">
 
@@ -96,7 +96,7 @@ Forget absolute accuracy—S-meters vary wildly between radios. Their real value
 
 Your radio says 100 watts out, but what's really reaching your antenna? Enter the directional wattmeter—part power meter, part antenna system health monitor:
 
-> **Key Information:** *A directional wattmeter can determine standing wave ratio.* {{< link id="G4B10" >}}
+> **Key Information:** A directional wattmeter can determine standing wave ratio. {{< link id="G4B10" >}}
 
 <img src="../images/directional-wattmeter.svg" alt="Diagram of directional wattmeter showing forward and reflected power" style="width: 450px; margin: 10px;">
 
@@ -114,7 +114,7 @@ Modern radios start reducing power above 2:1 SWR. They're protecting themselves,
 
 SWR is high on 20 meters. Is it the antenna? The coax? A bad connector? Stop guessing:
 
-> **Key Information:** *An antenna analyzer must be connected to an antenna and feed line when being used for SWR measurements.* {{< link id="G4B11" >}}
+> **Key Information:** An antenna analyzer must be connected to an antenna and feed line when being used for SWR measurements. {{< link id="G4B11" >}}
 
 <img src="../images/antenna-analyzer-connection.svg" alt="Diagram showing proper connection of antenna analyzer" style="width: 400px; margin: 10px;">
 

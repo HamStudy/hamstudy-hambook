@@ -21,7 +21,7 @@ The sun's influence arrives in multiple forms: electromagnetic radiation traveli
 
 Those dark blotches on the sun's surface hold the key to predicting band conditions weeks in advance. Sunspots mark regions of intense magnetic activity that boost the sun's radio energy output. For HF operators, they're pure gold. {{< link id="G3A01" >}}
 
-> **Key Information:** *Higher sunspot numbers generally indicate a greater probability of good propagation at higher frequencies.*
+> **Key Information:** Higher sunspot numbers generally indicate a greater probability of good propagation at higher frequencies.
 
 <img src="../images/sunspot-diagram.svg" alt="Sunspot Diagram" style="width: 350px; margin: 10px;">
 
@@ -33,7 +33,7 @@ The sun's activity swings like a pendulum on an 11-year schedule, though "roughl
 
 Solar minimum feels like operating with one hand tied behind your back. {{< link id="G3A04" >}}
 
-> **Key Information:** *The 15-meter, 12-meter, and 10-meter bands are the least reliable for long-distance communications during periods of low solar activity.*
+> **Key Information:** The 15-meter, 12-meter, and 10-meter bands are the least reliable for long-distance communications during periods of low solar activity.
 
 During these lean years, the upper bands might stay silent for weeks. Ten meters becomes a local-only band. Fifteen meters opens briefly and unpredictably. DXers migrate to 40 and 80 meters, fighting noise and limited daylight openings. But even solar minimum has its charm—low noise levels and stable conditions on the lower bands can yield surprising DX.
 
@@ -41,7 +41,7 @@ Solar maximum transforms HF into a different world. Ten meters explodes with sig
 
 Through it all, one band remains steadfast. {{< link id="G3A07" >}}
 
-> **Key Information:** *The 20-meter band can support worldwide propagation during daylight hours at any point in the solar cycle.*
+> **Key Information:** The 20-meter band can support worldwide propagation during daylight hours at any point in the solar cycle.
 
 This consistency makes 20 meters the Swiss Army knife of HF bands—always useful, rarely spectacular, never completely dead. When other bands fail, check 20 meters.
 
@@ -49,7 +49,7 @@ This consistency makes 20 meters the Swiss Army knife of HF bands—always usefu
 
 Counting sunspots works, but modern propagation prediction demands precision. Enter the solar flux index—a direct measurement of the sun's radio energy output that correlates beautifully with HF propagation conditions. {{< link id="G3A05" >}}
 
-> **Key Information:** *The solar flux index is a measure of solar radiation at a wavelength of 10.7 centimeters.*
+> **Key Information:** The solar flux index is a measure of solar radiation at a wavelength of 10.7 centimeters.
 
 Every day, radio telescopes measure this 10.7-cm radiation, producing a number that instantly tells you what to expect on the bands. Think of it as the sun's propagation report card:
 
@@ -69,13 +69,13 @@ The sun's steady radiation creates normal propagation, but its temper tantrums c
 
 Imagine the sun's surface suddenly exploding with the energy of a billion hydrogen bombs. That's a solar flare—nature's most violent electromagnetic event. The impact on radio propagation is swift and merciless. {{< link id="G3A03" >}}
 
-> **Key Information:** *The increased ultraviolet and X-ray radiation from a solar flare affects radio propagation on Earth 8 minutes after the flare erupts.*
+> **Key Information:** The increased ultraviolet and X-ray radiation from a solar flare affects radio propagation on Earth 8 minutes after the flare erupts.
 
 Eight minutes—the time it takes light to travel 93 million miles from sun to Earth. No warning, no preparation time. One moment you're working DX on 40 meters, the next moment the band goes silent. The X-ray burst supercharges the D region, creating what we call a Sudden Ionospheric Disturbance (SID).
 
 The lower bands take the hardest hit. {{< link id="G3A02" >}}
 
-> **Key Information:** *A sudden ionospheric disturbance disrupts signals on lower frequencies more than those on higher frequencies.*
+> **Key Information:** A sudden ionospheric disturbance disrupts signals on lower frequencies more than those on higher frequencies.
 
 During a major flare, the enhanced D region becomes an RF sponge. Eighty meters? Dead. Forty meters? Gone. Twenty meters might survive, weakened but usable. Ten meters, if it was open, might actually improve as the increased ionization raises the MUF. This frequency-selective effect explains why contesters keep one receiver on 10 meters even during SIDs—sometimes a solar flare creates brief spectacular openings on the highest bands while killing everything below.
 
@@ -83,7 +83,7 @@ During a major flare, the enhanced D region becomes an RF sponge. Eighty meters?
 
 Solar flares hit fast, but Coronal Mass Ejections (CMEs) are the slow-motion train wrecks of space weather. These billion-ton clouds of magnetized plasma blast from the sun's corona at millions of miles per hour—impressive until you consider the 93-million-mile journey to Earth. {{< link id="G3A11" >}}
 
-> **Key Information:** *A coronal mass ejection takes 15 hours to several days to affect radio propagation on Earth.*
+> **Key Information:** A coronal mass ejection takes 15 hours to several days to affect radio propagation on Earth.
 
 <img src="../images/cme-propagation.svg" alt="Coronal Mass Ejection Reaching Earth" style="width: 400px; margin: 10px;">
 
@@ -93,7 +93,7 @@ This delay creates an interesting dynamic. Space weather watchers spot the CME l
 
 Not all solar disturbances come from dramatic explosions. Coronal holes—dark regions where the sun's magnetic field opens to space—create their own brand of propagation problems. {{< link id="G3A14" >}}
 
-> **Key Information:** *HF communication is usually disturbed by the charged particles that reach Earth from solar coronal holes.*
+> **Key Information:** HF communication is usually disturbed by the charged particles that reach Earth from solar coronal holes.
 
 These holes act like fire hoses, spraying high-speed solar wind directly at Earth. The steady stream of charged particles rattles our magnetic field, degrading HF propagation with persistent, moderate disturbances rather than spectacular blackouts. Coronal holes can persist for months, rotating with the sun and battering Earth every 27 days. Smart operators learn to recognize these recurring patterns and plan accordingly.
 
@@ -105,17 +105,17 @@ When solar particles slam into Earth's magnetic field, our planet doesn't take i
 
 Geomagnetic storms occur when solar wind distorts Earth's protective magnetic field. {{< link id="G3A06" >}}
 
-> **Key Information:** *A geomagnetic storm is a temporary disturbance in Earth's geomagnetic field.*
+> **Key Information:** A geomagnetic storm is a temporary disturbance in Earth's geomagnetic field.
 
 These storms wreak havoc on HF propagation, with polar regions taking the worst beating. {{< link id="G3A08" >}}
 
-> **Key Information:** *A geomagnetic storm degrades high-latitude HF propagation.*
+> **Key Information:** A geomagnetic storm degrades high-latitude HF propagation.
 
 Polar paths shut down first. That reliable circuit to Scandinavia? Gone. The pipeline to Japan via the north? Closed. Signals that normally arc over the poles must find alternate routes at lower latitudes, if they can make it at all. Severe storms can push this "propagation blackout zone" down to mid-latitudes, silencing bands worldwide.
 
 But nature compensates with a spectacular consolation prize. {{< link id="G3A09" >}}
 
-> **Key Information:** *High geomagnetic activity can benefit radio communications by creating auroras that can reflect VHF signals.*
+> **Key Information:** High geomagnetic activity can benefit radio communications by creating auroras that can reflect VHF signals.
 
 When HF dies, VHF comes alive. Those same auroral curtains that absorb HF signals can reflect VHF and UHF signals over incredible distances. Six meters suddenly works like 20 meters. Two meters carries your signal 1,500 miles. The catch? Signals sound like they're underwater—voice becomes unintelligible, but CW cuts through with its distinctive auroral buzz.
 
@@ -125,7 +125,7 @@ Just as weather forecasters measure temperature and pressure, space weather expe
 
 The K-index provides a real-time snapshot, updated every three hours. {{< link id="G3A12" >}}
 
-> **Key Information:** *The K-index measures the short-term stability of Earth's geomagnetic field.*
+> **Key Information:** The K-index measures the short-term stability of Earth's geomagnetic field.
 
 Think of K-index as Earth's magnetic heartbeat:
 - **K = 0-1**: Calm and steady. HF propagation at its best.
@@ -135,7 +135,7 @@ Think of K-index as Earth's magnetic heartbeat:
 
 For the bigger picture, check the A-index. {{< link id="G3A13" >}}
 
-> **Key Information:** *The A-index measures the long-term stability of Earth's geomagnetic field.*
+> **Key Information:** The A-index measures the long-term stability of Earth's geomagnetic field.
 
 The A-index averages the entire day's magnetic activity into one number:
 - **A = 0-7**: Smooth sailing. Plan that DXpedition.
@@ -149,7 +149,7 @@ Smart operators check these indices before major operating sessions. Low numbers
 
 Here's a secret weapon for propagation prediction: the sun's rotation. As our star spins on its axis, the same active regions face Earth about every 27 days. {{< link id="G3A10" >}}
 
-> **Key Information:** *HF propagation conditions vary periodically in a 26- to 28-day cycle due to the rotation of the sun's surface layers around its axis.*
+> **Key Information:** HF propagation conditions vary periodically in a 26- to 28-day cycle due to the rotation of the sun's surface layers around its axis.
 
 This creates propagation déjà vu. That amazing 10-meter opening to Asia last month? Mark your calendar—it might return 27 days later. The geomagnetic storm that ruined Field Day? If a coronal hole caused it, expect similar conditions next rotation. Savvy operators keep propagation logs, noting exceptional conditions and watching for their return. It's not perfect—active regions evolve and decay—but the 27-day pattern provides a useful heads-up for planning important QSOs or contests.
 

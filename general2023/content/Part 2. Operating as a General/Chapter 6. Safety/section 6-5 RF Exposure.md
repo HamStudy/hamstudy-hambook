@@ -13,7 +13,7 @@ That new amplifier pushes a kilowatt of RF power into your antenna. Now what? Wh
 
 Unlike the ionizing radiation from X-rays that breaks molecular bonds, RF energy works more like your microwave oven—causing molecules to vibrate faster and generate heat. This heating effect becomes the primary concern for amateur radio safety.
 
-> **Key Information:** *RF energy can affect human body tissue by heating it.* {{< link id="G0A01" >}}
+> **Key Information:** RF energy can affect human body tissue by heating it. {{< link id="G0A01" >}}
 
 <img src="../images/rf-heating-effect.svg" alt="Diagram showing RF energy heating body tissue" style="width: 400px; margin: 10px;">
 
@@ -29,7 +29,7 @@ The heating effect depends on how much RF energy the tissue absorbs. At amateur 
 
 Three factors determine whether your RF exposure stays within safe limits:
 
-> **Key Information:** *RF exposure is determined by frequency, power density, and duty cycle.* {{< link id="G0A02" >}}
+> **Key Information:** RF exposure is determined by frequency, power density, and duty cycle. {{< link id="G0A02" >}}
 
 Think of it as an exposure triangle:
 1. **Frequency**: Determines how efficiently body tissues absorb RF energy
@@ -42,7 +42,7 @@ Each factor multiplies the others. Double any one, and you double the exposure. 
 
 The FCC requires you to ensure your station meets RF exposure limits, but how do you prove compliance? Three accepted methods exist, each with advantages:
 
-> **Key Information:** *You can determine that your station complies with FCC RF exposure regulations by calculation based on FCC OET Bulletin 65, by calculation based on computer modeling, or by measurement of field strength using calibrated equipment.* {{< link id="G0A03" >}}
+> **Key Information:** You can determine that your station complies with FCC RF exposure regulations by calculation based on FCC OET Bulletin 65, by calculation based on computer modeling, or by measurement of field strength using calibrated equipment. {{< link id="G0A03" >}}
 
 <img src="../images/rf-compliance-methods.svg" alt="Three methods for determining RF compliance" style="width: 450px; margin: 10px;">
 
@@ -64,7 +64,7 @@ The FCC requires you to ensure your station meets RF exposure limits, but how do
 - Requires specialized equipment
 - Most expensive but most accurate
 
-> **Key Information:** *A calibrated field strength meter with a calibrated antenna can be used to accurately measure an RF field strength.* {{< link id="G0A09" >}}
+> **Key Information:** A calibrated field strength meter with a calibrated antenna can be used to accurately measure an RF field strength. {{< link id="G0A09" >}}
 
 Professional RF surveys use broadband field strength meters costing thousands, but many clubs own or share these instruments. The investment makes sense when multiple members need evaluations or when calculations show marginal compliance.
 
@@ -72,7 +72,7 @@ Professional RF surveys use broadband field strength meters costing thousands, b
 
 Here's where amateur radio's intermittent nature helps. We don't transmit continuously like broadcast stations—we operate in bursts with listening periods between.
 
-> **Key Information:** *Time averaging means the total RF exposure averaged over a certain period when evaluating RF radiation exposure.* {{< link id="G0A04" >}}
+> **Key Information:** Time averaging means the total RF exposure averaged over a certain period when evaluating RF radiation exposure. {{< link id="G0A04" >}}
 
 <img src="../images/rf-time-averaging.svg" alt="Graph showing RF time averaging concept" style="width: 400px; margin: 10px;">
 
@@ -82,7 +82,7 @@ The averaging periods:
 
 This time averaging dramatically affects compliance calculations:
 
-> **Key Information:** *A lower duty cycle permits greater power levels to be transmitted, as the effect of modulation duty cycle is to reduce average exposure to radiation.* {{< link id="G0A07" >}}
+> **Key Information:** A lower duty cycle permits greater power levels to be transmitted, as the effect of modulation duty cycle is to reduce average exposure to radiation. {{< link id="G0A07" >}}
 
 Consider duty cycles for different modes:
 - **CW**: ~40% (key down vs. spaces between elements)
@@ -116,7 +116,7 @@ Draw an imaginary boundary around your property. Everything outside is uncontrol
 
 Your RF evaluation reveals bad news—you exceed MPE limits somewhere. Now what?
 
-> **Key Information:** *If an evaluation of your station shows that the RF energy radiated exceeds permissible limits for possible human absorption, you must take action to prevent human exposure to the excessive RF fields.* {{< link id="G0A05" >}}
+> **Key Information:** If an evaluation of your station shows that the RF energy radiated exceeds permissible limits for possible human absorption, you must take action to prevent human exposure to the excessive RF fields. {{< link id="G0A05" >}}
 
 The FCC doesn't accept "I know but can't fix it" as an answer. You must act:
 
@@ -144,7 +144,7 @@ The FCC doesn't accept "I know but can't fix it" as an answer. You must act:
 
 Remember: If your station doesn't qualify for categorical exemption based on low power:
 
-> **Key Information:** *If your station fails to meet the FCC RF exposure exemption criteria, you must perform an RF exposure evaluation in accordance with FCC OET Bulletin 65.* {{< link id="G0A06" >}}
+> **Key Information:** If your station fails to meet the FCC RF exposure exemption criteria, you must perform an RF exposure evaluation in accordance with FCC OET Bulletin 65. {{< link id="G0A06" >}}
 
 This evaluation isn't optional—it's legally required.
 
@@ -152,7 +152,7 @@ This evaluation isn't optional—it's legally required.
 
 Smart operators map their RF exposure zones like property surveys, identifying where extra caution applies:
 
-> **Key Information:** *An amateur operator must prevent access to any identified high exposure areas and perform a routine RF exposure evaluation to ensure compliance with RF safety regulations.* {{< link id="G0A08" >}}
+> **Key Information:** An amateur operator must prevent access to any identified high exposure areas and perform a routine RF exposure evaluation to ensure compliance with RF safety regulations. {{< link id="G0A08" >}}
 
 <img src="../images/rf-safety-zones.svg" alt="Diagram showing RF safety zones around an antenna" style="width: 450px; margin: 10px;">
 
@@ -173,7 +173,7 @@ Update this map whenever you:
 
 That new beam antenna points your signal—and RF exposure—in specific directions. When it aims at your neighbor's house:
 
-> **Key Information:** *If evaluation shows that a neighbor might experience more than the allowable limit of RF exposure from the main lobe of a directional antenna, you should take precautions to ensure that the antenna cannot be pointed in their direction when they are present.* {{< link id="G0A10" >}}
+> **Key Information:** If evaluation shows that a neighbor might experience more than the allowable limit of RF exposure from the main lobe of a directional antenna, you should take precautions to ensure that the antenna cannot be pointed in their direction when they are present. {{< link id="G0A10" >}}
 
 Practical solutions that maintain good relations:
 - **Mechanical stops**: Prevent rotation into problem areas
@@ -188,7 +188,7 @@ One creative solution: A ham with exposure issues toward one neighbor programmed
 
 Apartment dwellers and HOA-restricted hams often resort to indoor antennas, but these require special attention:
 
-> **Key Information:** *When installing an indoor transmitting antenna, make sure that MPE limits are not exceeded in occupied areas.* {{< link id="G0A11" >}}
+> **Key Information:** When installing an indoor transmitting antenna, make sure that MPE limits are not exceeded in occupied areas. {{< link id="G0A11" >}}
 
 <img src="../images/indoor-antenna-safety.svg" alt="Diagram showing safe placement of indoor antennas" style="width: 400px; margin: 10px;">
 
@@ -205,7 +205,7 @@ Indoor antenna safety strategies:
 
 Think your 5-watt QRP station is exempt from RF safety rules? Think again:
 
-> **Key Information:** *All stations with a time-averaged transmission of more than one milliwatt are subject to the FCC rules on RF exposure.* {{< link id="G0A12" >}}
+> **Key Information:** All stations with a time-averaged transmission of more than one milliwatt are subject to the FCC rules on RF exposure. {{< link id="G0A12" >}}
 
 One milliwatt is 0.001 watts—less than a typical LED! This means:
 - Every amateur station must consider RF exposure
@@ -219,7 +219,7 @@ The good news: QRP stations almost always comply with huge safety margins. But y
 
 Beyond antenna fields, RF currents inside your station create localized exposure risks. That tingle when you touch the microphone while transmitting? That's RF where it shouldn't be.
 
-> **Key Information:** *Bonding all equipment enclosures together helps to minimize RF "hot spots" in an amateur station.* {{< link id="G4C11" >}}
+> **Key Information:** Bonding all equipment enclosures together helps to minimize RF "hot spots" in an amateur station. {{< link id="G4C11" >}}
 
 <img src="../images/rf-hotspots.svg" alt="Diagram showing RF hot spots and bonding solution" style="width: 400px; margin: 10px;">
 

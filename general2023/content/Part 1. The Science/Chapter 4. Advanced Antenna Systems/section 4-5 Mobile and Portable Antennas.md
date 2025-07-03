@@ -15,7 +15,7 @@ Picture trying to mount a 33-foot whip antenna on your car for 40-meter operatio
 
 The two main tricks are capacitance hats and loading coils. {{< link id="G4E01" >}} These devices add electrical length without adding physical height, letting you fit effective HF antennas on vehicles.
 
-> **Key Information:** *A capacitance hat on a mobile antenna is used to electrically lengthen a physically short antenna.*
+> **Key Information:** A capacitance hat on a mobile antenna is used to electrically lengthen a physically short antenna. 
 
 <img src="../images/capacitance-hat.svg" alt="Mobile Antenna with Capacitance Hat" style="width: 300px; margin: 10px;">
 
@@ -25,7 +25,7 @@ Think of a capacitance hat as spreading out the antenna's electrical field at th
 
 Every engineering solution has trade-offs. {{< link id="G4E06" >}} When you shorten an antenna, you concentrate its resonance into a narrower frequency range.
 
-> **Key Information:** *One disadvantage of using a shortened mobile antenna as opposed to a full-size antenna is operating bandwidth may be very limited.*
+> **Key Information:** One disadvantage of using a shortened mobile antenna as opposed to a full-size antenna is operating bandwidth may be very limited. 
 
 This narrow bandwidth means you might need to retune when moving just a few kilohertz up or down the band. Many mobile operators solve this with automatic antenna tuners or motorized antennas that adjust on the fly.
 
@@ -33,7 +33,7 @@ This narrow bandwidth means you might need to retune when moving just a few kilo
 
 That innocent-looking ball at the tip of mobile HF antennas serves a critical purpose. When you key up with 100 watts into a shortened antenna, voltages at the tip can reach thousands of volts—enough to create visible sparks! {{< link id="G4E02" >}}
 
-> **Key Information:** *The purpose of a corona ball on an HF mobile antenna is to reduce RF voltage discharge from the tip of the antenna while transmitting.*
+> **Key Information:** The purpose of a corona ball on an HF mobile antenna is to reduce RF voltage discharge from the tip of the antenna while transmitting. 
 
 <img src="../images/corona-ball.svg" alt="Mobile Antenna with Corona Ball" style="width: 250px; margin: 10px;">
 
@@ -43,7 +43,7 @@ Corona discharge happens when high voltage ionizes the air, creating a bluish gl
 
 Here's the truth about mobile HF: your fancy radio and amplifier won't help if your antenna system is inefficient. {{< link id="G4E05" >}} The laws of physics are unforgiving when it comes to shortened antennas.
 
-> **Key Information:** *The efficiency of the electrically short antenna is what most limits an HF mobile installation.*
+> **Key Information:** The efficiency of the electrically short antenna is what most limits an HF mobile installation. 
 
 A full-size quarter-wave vertical might radiate 90% of your power. Shrink it to fit on a car, and efficiency can drop below 10%—meaning 90 watts of your 100-watt signal heats up the loading coil instead of radiating! Maximizing what efficiency you can get becomes critical: mount antennas as high as possible on the vehicle, use the fattest radiator that's practical (more surface area = less loss), ensure excellent ground connections to the vehicle body, and keep coax runs short with low-loss cable.
 
@@ -53,7 +53,7 @@ Imagine changing bands while cruising down the highway, never stopping to adjust
 
 The name comes from the electric screwdriver motors originally used to adjust them. {{< link id="G9D08" >}} But the real magic happens in how they achieve such wide frequency coverage.
 
-> **Key Information:** *A "screwdriver" mobile antenna adjusts its feed point impedance by varying the base loading inductance.*
+> **Key Information:** A "screwdriver" mobile antenna adjusts its feed point impedance by varying the base loading inductance. 
 
 <img src="../images/screwdriver-antenna.svg" alt="Screwdriver Mobile Antenna" style="width: 300px; margin: 10px;">
 
@@ -63,7 +63,7 @@ Inside that cylindrical base sits a motor-driven variometer—essentially an adj
 
 Whether mobile or portable, carrying separate antennas for each band quickly becomes impractical. Enter the trap antenna—a clever solution that packs multiple resonant antennas into one physical structure. {{< link id="G9D04" >}}
 
-> **Key Information:** *The primary function of antenna traps is to enable multiband operation.*
+> **Key Information:** The primary function of antenna traps is to enable multiband operation. 
 
 <img src="../images/trap-dipole.svg" alt="Trap Dipole Antenna" style="width: 400px; margin: 10px;">
 
@@ -71,7 +71,7 @@ Traps are frequency-selective switches made from parallel LC circuits. At their 
 
 But multiband convenience comes with a catch. {{< link id="G9D11" >}} These antennas can radiate on frequencies you didn't intend.
 
-> **Key Information:** *A disadvantage of multiband antennas is that they have poor harmonic rejection.*
+> **Key Information:** A disadvantage of multiband antennas is that they have poor harmonic rejection. 
 
 When your antenna resonates on multiple amateur bands, it might also resonate on harmonics of your operating frequency. Transmit on 7 MHz, and your second harmonic at 14 MHz might radiate efficiently too—potentially causing interference. Good transmitter filtering becomes essential with multiband antennas to keep harmonics from escaping your station.
 

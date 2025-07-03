@@ -17,7 +17,7 @@ Don't worry—you won't need to memorize every kilohertz boundary. What you need
 
 Your General license opens massive portions of the HF spectrum, but it's not a free-for-all. Four popular bands still hold back their choicest real estate for Extra class operators:
 
-> **Key Information:** *On HF and/or MF bands, General class licensees cannot transmit in portions of the 80, 40, 20, and 15 meter bands.* {{< link id="G1A01" >}}
+> **Key Information:** On HF and/or MF bands, General class licensees cannot transmit in portions of the 80, 40, 20, and 15 meter bands. {{< link id="G1A01" >}}
 
 ![Chart showing restricted band segments for General class operators](../images/restricted-band-segments.svg)
 
@@ -27,13 +27,13 @@ Think of it like real estate: Extra class operators get the beachfront property 
 
 Not every band welcomes every mode. The 30-meter band, in particular, plays by different rules:
 
-> **Key Information:** *Phone operation is prohibited on the 30 meter band.* {{< link id="G1A02" >}}
+> **Key Information:** Phone operation is prohibited on the 30 meter band. {{< link id="G1A02" >}}
 
 Why the restriction? The 30-meter band (10.1-10.15 MHz) is only 50 kHz wide—barely room to swing a cat, let alone accommodate phone signals. Plus, we share it as secondary users with fixed services worldwide. CW and data modes? Fine. Your dulcet voice? Save it for another band.
 
 The same logic applies to bandwidth-hungry image modes:
 
-> **Key Information:** *Image transmission is prohibited on the 30 meter band.* {{< link id="G1A03" >}}
+> **Key Information:** Image transmission is prohibited on the 30 meter band. {{< link id="G1A03" >}}
 
 SSTV and fax gobble bandwidth like teenagers at a buffet. On the narrow 30-meter band, that's a recipe for interference. Want to send pictures? Use literally any other HF band where you have privileges.
 
@@ -41,7 +41,7 @@ SSTV and fax gobble bandwidth like teenagers at a buffet. On the narrow 30-meter
 
 Forget everything you know about tuning across a band. The 60-meter band throws out the amateur radio playbook:
 
-> **Key Information:** *The 60 meter band is restricted to communication on specific channels, rather than frequency ranges.* {{< link id="G1A04" >}}
+> **Key Information:** The 60 meter band is restricted to communication on specific channels, rather than frequency ranges. {{< link id="G1A04" >}}
 
 ![Chart showing the five channels on 60 meters](../images/60m-channels.svg)
 
@@ -59,13 +59,13 @@ Notice the dial frequency is 1.5 kHz below the channel frequency? That's because
 
 Let's get specific about where you can't go. On 40 meters, there's a 50 kHz chunk that's off-limits:
 
-> **Key Information:** *General class licensees are prohibited from operating as control operators from 7.125 MHz to 7.175 MHz.* {{< link id="G1A05" >}}
+> **Key Information:** General class licensees are prohibited from operating as control operators from 7.125 MHz to 7.175 MHz. {{< link id="G1A05" >}}
 
 This Extra-only segment sits right in prime 40-meter phone territory. During evening hours when 40 meters comes alive with regional nets and ragchews, this restriction stings a bit. Consider it motivation for that Extra upgrade.
 
 But here's some good news—on 10 meters, CW operators get the royal treatment:
 
-> **Key Information:** *General class control operators may transmit CW emissions on the entire 10-meter band.* {{< link id="G1A07" >}}
+> **Key Information:** General class control operators may transmit CW emissions on the entire 10-meter band. {{< link id="G1A07" >}}
 
 From 28.000 to 29.700 MHz, if you're sending CW, you're golden. Phone privileges don't start until 28.300 MHz, but your key or keyer works everywhere. When 10 meters opens during solar peaks, this gives you maximum flexibility for working DX.
 
@@ -73,7 +73,7 @@ From 28.000 to 29.700 MHz, if you're sending CW, you're golden. Phone privileges
 
 Four bands reserve their bottom portions for Extra class operators. Memorize this list—it'll save you embarrassment:
 
-> **Key Information:** *HF bands with segments exclusively allocated to Amateur Extra licensees are 80 meters, 40 meters, 20 meters, and 15 meters.* {{< link id="G1A08" >}}
+> **Key Information:** HF bands with segments exclusively allocated to Amateur Extra licensees are 80 meters, 40 meters, 20 meters, and 15 meters. {{< link id="G1A08" >}}
 
 ![Chart showing Extra class exclusive segments on HF bands](../images/extra-exclusive-segments.svg)
 
@@ -85,7 +85,7 @@ The good news? You still get the vast majority of each band. The better news? Ba
 
 Quick quiz: Someone asks if you can operate on 21.300 MHz. Can you?
 
-> **Key Information:** *21.300 MHz is within the General class portion of the 15-meter band.* {{< link id="G1A09" >}}
+> **Key Information:** 21.300 MHz is within the General class portion of the 15-meter band. {{< link id="G1A09" >}}
 
 Yes! Here's how to figure it out: The 15-meter band runs from 21.000 to 21.450 MHz. General class operators get:
 - CW privileges: 21.025-21.200 MHz
@@ -97,7 +97,7 @@ Since 21.300 MHz sits comfortably in the phone segment, fire up that microphone.
 
 10 meters holds a surprise—it's the only HF band with a repeater segment:
 
-> **Key Information:** *The portion of the 10-meter band available for repeater use is above 29.5 MHz.* {{< link id="G1A10" >}}
+> **Key Information:** The portion of the 10-meter band available for repeater use is above 29.5 MHz. {{< link id="G1A10" >}}
 
 From 29.5 to 29.7 MHz, you'll find FM repeaters that spring to life during band openings. Picture this: You're mobile with a simple vertical antenna, and suddenly you're working stations 1,500 miles away through a repeater—with 10 watts. When propagation cooperates, 10-meter repeaters deliver magic.
 
@@ -107,7 +107,7 @@ Most use a 100 kHz negative offset (listen on 29.600, transmit on 29.500), just 
 
 Here's a pattern that makes band plans easier to remember:
 
-> **Key Information:** *When General class licensees are not permitted to use the entire voice portion of a band, they can use the upper frequency portion.* {{< link id="G1A11" >}}
+> **Key Information:** When General class licensees are not permitted to use the entire voice portion of a band, they can use the upper frequency portion. {{< link id="G1A11" >}}
 
 ![Diagram showing General class access to upper portions of voice segments](../images/general-voice-privileges.svg)
 
@@ -119,23 +119,23 @@ This arrangement actually works well—it keeps the bands from becoming a confus
 
 Not all bands are created equal when it comes to power limits. The 30-meter band keeps you on a shorter leash:
 
-> **Key Information:** *The maximum transmitter power an amateur station may use on 10.140 MHz is 200 watts PEP output.* {{< link id="G1C01" >}}
+> **Key Information:** The maximum transmitter power an amateur station may use on 10.140 MHz is 200 watts PEP output. {{< link id="G1C01" >}}
 
 Why only 200 watts on 30 meters? We're secondary users on a narrow band. Running a kilowatt would be like bringing a flamethrower to light birthday candles—excessive and likely to cause problems.
 
 Most other HF bands let you run full legal power:
 
-> **Key Information:** *The maximum transmitter power an amateur station may use on the 12-meter band is 1500 watts PEP output.* {{< link id="G1C02" >}}
+> **Key Information:** The maximum transmitter power an amateur station may use on the 12-meter band is 1500 watts PEP output. {{< link id="G1C02" >}}
 
-> **Key Information:** *The limit for transmitter power on the 28 MHz band for a General Class control operator is 1500 watts PEP output.* {{< link id="G1C05" >}}
+> **Key Information:** The limit for transmitter power on the 28 MHz band for a General Class control operator is 1500 watts PEP output. {{< link id="G1C05" >}}
 
-> **Key Information:** *The limit for transmitter power on the 1.8 MHz band is 1500 watts PEP output.* {{< link id="G1C06" >}}
+> **Key Information:** The limit for transmitter power on the 1.8 MHz band is 1500 watts PEP output. {{< link id="G1C06" >}}
 
 But here's the thing: Just because you can run 1500 watts doesn't mean you should. The rule says use the minimum power necessary to carry out your communications. Running a kilowatt to talk to the next state? That's like using a sledgehammer to hang a picture.
 
 How does the FCC measure power limits?
 
-> **Key Information:** *PEP output from the transmitter is the measurement specified by FCC rules that regulate maximum power.* {{< link id="G1C11" >}}
+> **Key Information:** PEP output from the transmitter is the measurement specified by FCC rules that regulate maximum power. {{< link id="G1C11" >}}
 
 PEP (Peak Envelope Power) measures average power during one RF cycle at the voice peak. It's the fairest way to compare different modes—CW, SSB, and FM all get measured by the same standard.
 
@@ -143,7 +143,7 @@ PEP (Peak Envelope Power) measures average power during one RF cycle at the voic
 
 60 meters isn't just channelized—it comes with a whole rulebook of special requirements. First, watch your bandwidth:
 
-> **Key Information:** *The maximum bandwidth permitted by FCC rules for amateur radio stations transmitting on USB frequencies in the 60-meter band is 2.8 kHz.* {{< link id="G1C03" >}}
+> **Key Information:** The maximum bandwidth permitted by FCC rules for amateur radio stations transmitting on USB frequencies in the 60-meter band is 2.8 kHz. {{< link id="G1C03" >}}
 
 ![Diagram showing 2.8 kHz maximum bandwidth on 60 meters](../images/60m-bandwidth.svg)
 
@@ -151,11 +151,11 @@ That 2.8 kHz limit means no hi-fi audio experiments here. Keep your transmit ban
 
 Using a beam or other gain antenna? Get your pencil ready:
 
-> **Key Information:** *When operating in the 60-meter band, if you are using an antenna other than a dipole, you must keep a record of the gain of your antenna.* {{< link id="G1C04" >}}
+> **Key Information:** When operating in the 60-meter band, if you are using an antenna other than a dipole, you must keep a record of the gain of your antenna. {{< link id="G1C04" >}}
 
 Why the paperwork? Because power limits on 60 meters work differently:
 
-> **Key Information:** *The maximum power limit on the 60-meter band is ERP of 100 watts PEP with respect to a dipole.* {{< link id="G1C09" >}}
+> **Key Information:** The maximum power limit on the 60-meter band is ERP of 100 watts PEP with respect to a dipole. {{< link id="G1C09" >}}
 
 Notice that's ERP (Effective Radiated Power), not transmitter output. Running 100 watts into a 3 dB gain antenna? You're over the limit—cut power to 50 watts. The antenna gain record keeping ensures you can prove compliance if anyone asks.
 

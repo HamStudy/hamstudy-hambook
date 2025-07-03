@@ -15,13 +15,13 @@ As a General class operator exploring the crowded HF bands, understanding how si
 
 Here's a fundamental challenge: How do you build a radio that can tune anywhere from 1.8 to 30 MHz with excellent selectivity? Building sharp filters that work across such a wide frequency range would be extremely difficult and expensive. The solution? Don't try to filter at the original frequency—convert everything to a standard intermediate frequency where excellent filtering is practical.
 
-> **Key Information:** *Heterodyning is another term for the mixing of two RF signals.* {{< link id="G8B03" >}}
+> **Key Information:** Heterodyning is another term for the mixing of two RF signals. {{< link id="G8B03" >}}
 
 Heterodyning (or mixing) solves this problem elegantly. Instead of trying to filter your 14.230 MHz SSB signal directly, your radio converts it to a standard intermediate frequency (like 9 MHz) where sophisticated crystal filters can provide excellent selectivity. Same great filtering performance across the entire HF spectrum!
 
 The heart of this process is the mixer, which combines your incoming signal with a locally generated frequency:
 
-> **Key Information:** *The sum and difference of a mixer's Local Oscillator (LO) and RF input frequencies are found in the output.* {{< link id="G8B11" >}}
+> **Key Information:** The sum and difference of a mixer's Local Oscillator (LO) and RF input frequencies are found in the output. {{< link id="G8B11" >}}
 
 When you mix two frequencies, you get four output components:
 - The original RF signal
@@ -41,7 +41,7 @@ By filtering out everything except the 9 MHz difference frequency, we've convert
 
 When you turn your radio's tuning knob (or click the frequency up/down buttons), you're actually adjusting the local oscillator frequency:
 
-> **Key Information:** *The local oscillator is the mixer input that is varied or tuned to convert signals of different frequencies to an intermediate frequency (IF).* {{< link id="G8B01" >}}
+> **Key Information:** The local oscillator is the mixer input that is varied or tuned to convert signals of different frequencies to an intermediate frequency (IF). {{< link id="G8B01" >}}
 
 Think about tuning from 14.230 MHz to 14.280 MHz:
 - To receive 14.230 MHz: LO = 5.230 MHz (14.230 - 5.230 = 9.000 MHz IF)
@@ -53,7 +53,7 @@ The local oscillator tracks with your tuning, maintaining a constant 9 MHz diffe
 
 Sometimes we need frequencies that are difficult to generate directly. VHF and UHF transmitters often start with a lower, more stable frequency and multiply it up:
 
-> **Key Information:** *A multiplier is the stage in a VHF FM transmitter that generates a harmonic of a lower frequency signal to reach the desired operating frequency.* {{< link id="G8B04" >}}
+> **Key Information:** A multiplier is the stage in a VHF FM transmitter that generates a harmonic of a lower frequency signal to reach the desired operating frequency. {{< link id="G8B04" >}}
 
 For example, generating a stable 146.520 MHz signal for 2-meter FM might work like this:
 1. Start with a precise 12.21 MHz crystal oscillator
@@ -66,7 +66,7 @@ This approach provides better frequency stability than trying to build an oscill
 
 Here's where heterodyning gets tricky. Since mixing produces both sum and difference frequencies, two different input frequencies can produce the same IF:
 
-> **Key Information:** *Image response is interference from a signal at twice the IF frequency from the desired signal.* {{< link id="G8B02" >}}
+> **Key Information:** Image response is interference from a signal at twice the IF frequency from the desired signal. {{< link id="G8B02" >}}
 
 Let's use a concrete example. Say you want to receive 14.230 MHz using a 9 MHz IF. Your local oscillator needs to be either:
 - 23.230 MHz (high-side injection: 23.230 - 14.230 = 9 MHz)
@@ -87,7 +87,7 @@ This is why receivers include preselector filters before the mixer—to block th
 
 Mixers aren't just intentional circuits in your radio—they can form accidentally whenever strong signals encounter non-linear junctions:
 
-> **Key Information:** *Intermodulation is the process that combines two signals in a non-linear circuit to produce unwanted spurious outputs.* {{< link id="G8B12" >}}
+> **Key Information:** Intermodulation is the process that combines two signals in a non-linear circuit to produce unwanted spurious outputs. {{< link id="G8B12" >}}
 
 This unwanted mixing can happen in:
 - Overdriven amplifier stages
@@ -122,7 +122,7 @@ When two strong signals (F1 and F2) interact in a non-linear device, they create
 
 The most troublesome are the odd-order products:
 
-> **Key Information:** *Odd-order intermodulation products are closest to the original signal frequencies.* {{< link id="G8B05" >}}
+> **Key Information:** Odd-order intermodulation products are closest to the original signal frequencies. {{< link id="G8B05" >}}
 
 Here's why odd-order products cause the most problems. Consider two strong signals at 14.200 MHz and 14.250 MHz:
 - Third-order product: 2(14.200) - 14.250 = 14.150 MHz
@@ -130,7 +130,7 @@ Here's why odd-order products cause the most problems. Consider two strong signa
 
 These products (14.150 and 14.300 MHz) fall right in the 20-meter band where they can interfere with other stations! Second-order products would be much farther away and easier to filter out.
 
-> **Key Information:** *An example of an odd-order intermodulation product of frequencies F1 and F2 is 2F1-F2.* {{< link id="G8B13" >}}
+> **Key Information:** An example of an odd-order intermodulation product of frequencies F1 and F2 is 2F1-F2. {{< link id="G8B13" >}}
 
 This is why contest stations work so hard to keep their signals clean—when you're running high power with multiple transmitters, intermodulation products can create interference across the entire band.
 
@@ -142,7 +142,7 @@ Every signal occupies a certain amount of spectrum, and understanding bandwidth 
 
 FM signals require more bandwidth than you might expect:
 
-> **Key Information:** *The total bandwidth of an FM phone transmission having 5 kHz deviation and 3 kHz modulating frequency is 16 kHz.* {{< link id="G8B06" >}}
+> **Key Information:** The total bandwidth of an FM phone transmission having 5 kHz deviation and 3 kHz modulating frequency is 16 kHz. {{< link id="G8B06" >}}
 
 This uses Carson's rule—a practical approximation for FM bandwidth:
 $BW = 2(\Delta f + f_m)$
@@ -159,7 +159,7 @@ This wide bandwidth is why FM is typically used on VHF/UHF where spectrum space 
 
 When building FM transmitters using frequency multiplication, the deviation multiplies along with the frequency:
 
-> **Key Information:** *The frequency deviation for a 12.21 MHz reactance modulated oscillator in a 5 kHz deviation, 146.52 MHz FM phone transmitter is 416.7 Hz.* {{< link id="G8B07" >}}
+> **Key Information:** The frequency deviation for a 12.21 MHz reactance modulated oscillator in a 5 kHz deviation, 146.52 MHz FM phone transmitter is 416.7 Hz. {{< link id="G8B07" >}}
 
 The deviation scales proportionally with frequency:
 
@@ -175,7 +175,7 @@ This proportional relationship means the initial frequency modulation can occur 
 
 Different modes place different demands on your transmitter:
 
-> **Key Information:** *It's important to know the duty cycle of your transmitting mode because some modes have high duty cycles that could exceed the transmitter's average power rating.* {{< link id="G8B08" >}}
+> **Key Information:** It's important to know the duty cycle of your transmitting mode because some modes have high duty cycles that could exceed the transmitter's average power rating. {{< link id="G8B08" >}}
 
 **High duty cycle modes** (continuous transmission):
 - RTTY, PSK31, FT8: Nearly 100% duty cycle
@@ -193,7 +193,7 @@ Many modern transceivers automatically reduce power for high duty cycle digital 
 
 Here's a key principle for good reception:
 
-> **Key Information:** *Matching receiver bandwidth to the bandwidth of the operating mode results in the best signal-to-noise ratio.* {{< link id="G8B09" >}}
+> **Key Information:** Matching receiver bandwidth to the bandwidth of the operating mode results in the best signal-to-noise ratio. {{< link id="G8B09" >}}
 
 Using the right bandwidth filter:
 - **Too wide**: Admits unnecessary noise, reducing signal-to-noise ratio
@@ -211,7 +211,7 @@ Typical filter selections:
 
 For digital communications, there's a fundamental relationship:
 
-> **Key Information:** *Higher symbol rates require wider bandwidth.* {{< link id="G8B10" >}}
+> **Key Information:** Higher symbol rates require wider bandwidth. {{< link id="G8B10" >}}
 
 This is why:
 - Slow modes like PSK31 (31.25 baud) use narrow bandwidth

@@ -25,7 +25,7 @@ Let's look at the tools that help us create matches between different impedances
 
 Transformers are elegant devices that transfer energy between circuits while changing voltage and current ratios—and consequently, impedance. They work through electromagnetic induction, requiring no direct electrical connection between circuits.
 
-> **Key Information:** *Mutual inductance causes a voltage to appear across the secondary winding of a transformer when an AC voltage source is connected across its primary winding.* {{< link id="G5C01" >}}
+> **Key Information:** Mutual inductance causes a voltage to appear across the secondary winding of a transformer when an AC voltage source is connected across its primary winding. {{< link id="G5C01" >}}
 
 A transformer consists of two or more windings (coils) wrapped around a common core. When alternating current flows through the primary winding, it creates a changing magnetic field that induces current in the secondary winding. The ratio of turns between these windings determines how voltage, current, and impedance transform.
 
@@ -69,7 +69,7 @@ This impedance transformation capability makes transformers invaluable in amateu
 
 What happens when you apply a signal to the secondary winding instead of the primary? The transformer still works, but the transformation ratios reverse:
 
-> **Key Information:** *When an input signal is applied to the secondary winding of a 4:1 voltage step-down transformer, the output voltage is multiplied by 4.* {{< link id="G5C02" >}}
+> **Key Information:** When an input signal is applied to the secondary winding of a 4:1 voltage step-down transformer, the output voltage is multiplied by 4. {{< link id="G5C02" >}}
 
 This property is useful when you need the opposite transformation without rewinding the transformer. A step-down transformer becomes a step-up transformer when connections are reversed.
 
@@ -77,7 +77,7 @@ This property is useful when you need the opposite transformation without rewind
 
 Transformer design involves important practical considerations beyond just turns ratio:
 
-> **Key Information:** *The primary winding wire of a voltage step-up transformer is usually larger than the secondary winding wire to accommodate the higher current in the primary.* {{< link id="G5C05" >}}
+> **Key Information:** The primary winding wire of a voltage step-up transformer is usually larger than the secondary winding wire to accommodate the higher current in the primary. {{< link id="G5C05" >}}
 
 Since power ($P = I \cdot E$) remains approximately constant (minus losses), a step-up transformer that increases voltage must decrease current proportionally. Therefore:
 
@@ -135,7 +135,7 @@ Transformers are just one approach to impedance matching. For antenna systems, s
 
 ##### Beta Match (Hairpin Match)
 
-> **Key Information:** *A beta or hairpin match is a shorted transmission line stub placed at the feed point of a Yagi antenna to provide impedance matching.* {{< link id="G9C11" >}}
+> **Key Information:** A beta or hairpin match is a shorted transmission line stub placed at the feed point of a Yagi antenna to provide impedance matching. {{< link id="G9C11" >}}
 
 The beta match uses a shorted section of transmission line (the "hairpin") placed in parallel with the feed point of an antenna element. This creates a parallel resonant circuit that transforms the antenna's impedance to match the feed line.
 
@@ -148,7 +148,7 @@ This matching system is popular for Yagi antennas because:
 
 The gamma match is another common approach for directive antennas:
 
-> **Key Information:** *A gamma match with a Yagi antenna does not require the driven element to be insulated from the boom.* {{< link id="G9C12" >}}
+> **Key Information:** A gamma match with a Yagi antenna does not require the driven element to be insulated from the boom. {{< link id="G9C12" >}}
 
 The gamma match offers several advantages:
 * Allows direct connection of the boom to the driven element without insulation

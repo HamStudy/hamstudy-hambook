@@ -17,7 +17,7 @@ Think of an RF amplifier as a signal magnifier. Your transceiver whispers at 100
 
 Not all amplifiers are created equal. Engineers classify them by how they handle the signal cycle, trading efficiency for fidelity:
 
-> **Key Information:** *Class C amplifiers have the highest efficiency* compared to other common amplifier classes. {{< link id="G7B02" >}}
+> **Key Information:** Class C amplifiers have the highest efficiency compared to other common amplifier classes. {{< link id="G7B02" >}}
 
 <img src="../images/amplifier-classes.svg" alt="Diagram comparing efficiency of different amplifier classes" style="width: 450px; margin: 10px;">
 
@@ -33,11 +33,11 @@ Picture these classes as different engines:
 
 Calculating efficiency reveals how much of your electric bill becomes RF versus expensive heat:
 
-> **Key Information:** *The efficiency of an RF power amplifier is determined by dividing the RF output power by the DC input power.* {{< link id="G7B08" >}}
+> **Key Information:** The efficiency of an RF power amplifier is determined by dividing the RF output power by the DC input power. {{< link id="G7B08" >}}
 
 Real-world example: Your amplifier pulls 2000 watts from the wall but delivers 1200 watts to the antenna. Efficiency = 1200 ÷ 2000 = 60%. That missing 800 watts? It's heating your shack. Higher efficiency means lower electric bills and quieter cooling fans, but here's the critical trade-off:
 
-> **Key Information:** *For amplifying a modulated signal, a Class C power stage is appropriate for FM, but NOT for SSB or AM.* {{< link id="G7B11" >}}
+> **Key Information:** For amplifying a modulated signal, a Class C power stage is appropriate for FM, but NOT for SSB or AM. {{< link id="G7B11" >}}
 
 Why? Class C mangles your signal's envelope—no problem for FM where only frequency matters, but catastrophic for SSB where amplitude carries your voice. Use Class C on SSB and you'll splatter across 20 kHz while sounding like a robot gargling marbles. That's why SSB amplifiers run Class AB—the Goldilocks zone between efficiency and clean signals.
 
@@ -45,7 +45,7 @@ Why? Class C mangles your signal's envelope—no problem for FM where only frequ
 
 Ever hear an amplifier suddenly start howling on its own? That's self-oscillation—your amplifier has become an expensive signal generator. Older tube designs especially need neutralization to prevent this embarrassing (and illegal) situation:
 
-> **Key Information:** *The purpose of neutralizing an amplifier is to eliminate self-oscillations.* {{< link id="G7B01" >}}
+> **Key Information:** The purpose of neutralizing an amplifier is to eliminate self-oscillations. {{< link id="G7B01" >}}
 
 <img src="../images/neutralization.svg" alt="Diagram showing neutralization circuit in amplifier" style="width: 400px; margin: 10px;">
 
@@ -55,7 +55,7 @@ Picture a microphone too close to a speaker—that ear-piercing squeal is audio 
 
 Tube amplifiers remain amateur radio favorites—they're forgiving of antenna mismatches, deliver that warm tube sound, and when you accidentally transmit into an open circuit, they grumble but survive. However, they demand a tuning ritual that separates operators from appliance users:
 
-> **Key Information:** *The correct setting of a vacuum-tube RF power amplifier's TUNE control results in a pronounced dip in plate current.* {{< link id="G4A04" >}}
+> **Key Information:** The correct setting of a vacuum-tube RF power amplifier's TUNE control results in a pronounced dip in plate current. {{< link id="G4A04" >}}
 
 <img src="../images/amplifier-tuning-dip.svg" alt="Graph showing plate current dip during proper tuning" style="width: 450px; margin: 10px;">
 
@@ -70,7 +70,7 @@ The sacred sequence (violate at your wallet's peril):
 3. Adjust LOAD for desired power without exceeding redline current
 4. Increase to full power and touch up settings
 
-> **Key Information:** *The correct adjustment for the LOAD or COUPLING control of a vacuum tube RF power amplifier is to achieve the desired power output without exceeding maximum allowable plate current.* {{< link id="G4A08" >}}
+> **Key Information:** The correct adjustment for the LOAD or COUPLING control of a vacuum tube RF power amplifier is to achieve the desired power output without exceeding maximum allowable plate current. {{< link id="G4A08" >}}
 
 Mess this up and watch the fireworks:
 - Cherry-red tube plates (expensive)
@@ -84,7 +84,7 @@ After a few tuning cycles, you'll develop the touch—smooth, confident adjustme
 
 Push too much signal into an amplifier and bad things happen—distortion, splatter, and expensive component failure. Enter ALC, the automatic system that saves you from yourself:
 
-> **Key Information:** *ALC is used with an RF power amplifier to prevent excessive drive.* {{< link id="G4A05" >}}
+> **Key Information:** ALC is used with an RF power amplifier to prevent excessive drive. {{< link id="G4A05" >}}
 
 <img src="../images/alc-system.svg" alt="Diagram showing ALC feedback loop" style="width: 450px; margin: 10px;">
 
@@ -107,7 +107,7 @@ Modern amplifiers pack more safety features than a luxury car, because RF mistak
 
 Ever wonder why your amp has that slight delay when you key up? It's not lag—it's protection:
 
-> **Key Information:** *The purpose of delaying RF output after activating a transmitter's keying line to an external amplifier is to allow time for the amplifier to switch the antenna between the transceiver and the amplifier output.* {{< link id="G4A09" >}}
+> **Key Information:** The purpose of delaying RF output after activating a transmitter's keying line to an external amplifier is to allow time for the amplifier to switch the antenna between the transceiver and the amplifier output. {{< link id="G4A09" >}}
 
 <img src="../images/tr-sequencing.svg" alt="Diagram showing proper T/R sequencing" style="width: 450px; margin: 10px;">
 

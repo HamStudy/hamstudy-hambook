@@ -21,7 +21,7 @@ The magic happens through refraction. As your radio signal encounters these free
 
 The ionosphere isn't one uniform blanket but rather distinct regions stacked like atmospheric pancakes, each with its own character and effect on your signals. {{< link id="G3C01" >}}
 
-> **Key Information:** *The D region is the ionospheric region closest to the surface of Earth.*
+> **Key Information:** The D region is the ionospheric region closest to the surface of Earth.
 
 Understanding these layers—D, E, and F—transforms you from someone who randomly tries bands to someone who predicts which will work and when.
 
@@ -45,7 +45,7 @@ During summer months, intense patches of ionization called "Sporadic E" can appe
 
 The F region reigns supreme for long-distance communication. Located 95-310 miles up, it splits into F1 and F2 layers during daylight, merging into a single layer at night. This is where DX magic happens. {{< link id="G3C03" >}}
 
-> **Key Information:** *Skip propagation via the F2 region is longer than that via the other ionospheric regions because it is the highest.*
+> **Key Information:** Skip propagation via the F2 region is longer than that via the other ionospheric regions because it is the highest.
 
 Height equals distance in the propagation game. The F2 region's lofty position allows signals to travel up to 2,500 miles in a single hop—enough to span continents. String a few hops together, and your 100-watt signal circles the globe. The F2 layer's stability and persistence make it the workhorse of HF communication, supporting reliable contacts day and night on the right frequencies.
 
@@ -57,7 +57,7 @@ Making contacts via the ionosphere requires hitting the sweet spot where physics
 
 Picture skipping stones across a pond—angle matters. Radio waves obey similar rules. {{< link id="G3C04" >}}
 
-> **Key Information:** *The critical angle, as applied to radio wave propagation, is the highest takeoff angle that will return a radio wave to Earth under specific ionospheric conditions.*
+> **Key Information:** The critical angle, as applied to radio wave propagation, is the highest takeoff angle that will return a radio wave to Earth under specific ionospheric conditions.
 
 <img src="../images/critical-angle.svg" alt="Critical Angle Diagram" style="width: 400px; margin: 10px;">
 
@@ -67,7 +67,7 @@ Signals leaving your antenna at angles lower than critical will return to Earth.
 
 Here's a thought experiment: Point an antenna straight up and transmit while gradually increasing frequency. At some point, your signal stops reflecting back and escapes to space. {{< link id="G3C02" >}}
 
-> **Key Information:** *The critical frequency is the highest frequency at a given incidence angle that is refracted back to Earth.*
+> **Key Information:** The critical frequency is the highest frequency at a given incidence angle that is refracted back to Earth.
 
 This critical frequency constantly changes based on ionospheric conditions. During high solar activity, it might reach 15 MHz. During solar minimum, it could drop to 5 MHz. Real-time ionosonde data shows current critical frequencies, helping you choose bands that will support propagation rather than letting your signals escape to space.
 
@@ -79,7 +79,7 @@ Every HF path has a sweet spot—a range of frequencies that will actually compl
 
 The MUF sets your upper boundary. {{< link id="G3B08" >}}
 
-> **Key Information:** *The Maximum Usable Frequency (MUF) is the maximum frequency for communications between two points.*
+> **Key Information:** The Maximum Usable Frequency (MUF) is the maximum frequency for communications between two points.
 
 Think of MUF as a ceiling that changes height throughout the day. Morning might find 20 meters dead to Europe (frequency above MUF), but by afternoon, the MUF rises and suddenly European stations boom in. The MUF depends on ionospheric conditions, path distance, and time—constantly shifting as Earth rotates and solar radiation changes.
 
@@ -97,7 +97,7 @@ The D region drives LUF during daylight, absorbing low-frequency signals before 
 
 Sometimes conditions conspire against you. {{< link id="G3B11" >}}
 
-> **Key Information:** *When the LUF exceeds the MUF, propagation via ordinary skywave communications is not possible over that path.*
+> **Key Information:** When the LUF exceeds the MUF, propagation via ordinary skywave communications is not possible over that path.
 
 This happens during severe ionospheric disturbances or at transition times between day and night. When LUF rises above MUF, no frequency will complete the path. Time to try a different band, a different path, or simply wait for conditions to improve.
 
@@ -105,7 +105,7 @@ This happens during severe ionospheric disturbances or at transition times betwe
 
 Understanding how the ionosphere treats different frequencies transforms band selection from guesswork to strategy. {{< link id="G3B05" >}}
 
-> **Key Information:** *Radio waves with frequencies below the MUF and above the LUF are refracted back to Earth by the ionosphere.*
+> **Key Information:** Radio waves with frequencies below the MUF and above the LUF are refracted back to Earth by the ionosphere.
 
 Each band has its personality:
 

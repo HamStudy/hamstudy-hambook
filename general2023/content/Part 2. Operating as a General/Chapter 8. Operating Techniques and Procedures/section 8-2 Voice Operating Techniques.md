@@ -15,7 +15,7 @@ Let's transform you from someone who operates a radio into someone who commands 
 
 While scanning the bands, you'll often find ongoing conversations (QSOs) that you might want to join. There's a proper way to do this:
 
-> **Key Information:** *When calling another station on a repeater or breaking into a conversation, the recommended way is to simply say your call sign once.* {{< link id="G2A08" >}}
+> **Key Information:** When calling another station on a repeater or breaking into a conversation, the recommended way is to simply say your call sign once. {{< link id="G2A08" >}}
 
 ![Diagram showing proper way to break into an ongoing conversation](../images/breaking-in.svg)
 
@@ -34,7 +34,7 @@ Several technologies can improve your voice operating experience:
 
 ##### VOX Operation
 
-> **Key Information:** *Voice Operated Transmission (VOX) allows "hands-free" operation compared to Push-To-Talk (PTT).* {{< link id="G2A10" >}}
+> **Key Information:** Voice Operated Transmission (VOX) allows "hands-free" operation compared to Push-To-Talk (PTT). {{< link id="G2A10" >}}
 
 ![Diagram showing how VOX circuitry functions](../images/vox-operation.svg)
 
@@ -57,7 +57,7 @@ Getting VOX right is like adjusting a microphone for a podcast. Too hot? Your do
 
 When you're specifically seeking long-distance international contacts:
 
-> **Key Information:** *Generally, stations outside the lower 48 states should respond when a station in the contiguous 48 states calls "CQ DX".* {{< link id="G2A11" >}}
+> **Key Information:** Generally, stations outside the lower 48 states should respond when a station in the contiguous 48 states calls "CQ DX". {{< link id="G2A11" >}}
 
 ![World map showing DX concept](../images/cq-dx.svg)
 
@@ -69,7 +69,7 @@ Hear someone calling CQ DX from your own state? Let it pass. They're fishing for
 
 Your transmitter's audio level significantly impacts signal quality:
 
-> **Key Information:** *Transmit audio or microphone gain is typically adjusted for proper ALC setting on a single sideband transceiver.* {{< link id="G2A12" >}}
+> **Key Information:** Transmit audio or microphone gain is typically adjusted for proper ALC setting on a single sideband transceiver. {{< link id="G2A12" >}}
 
 ![Diagram showing proper ALC meter reading](../images/alc-meter-settings.svg)
 
@@ -88,7 +88,7 @@ The sweet spot: Voice peaks tickle the ALC zone without camping there. Your audi
 
 Understanding band etiquette helps maintain harmony on the air:
 
-> **Key Information:** *Except during emergencies, no amateur station has priority access to any frequency.* {{< link id="G2B01" >}}
+> **Key Information:** Except during emergencies, no amateur station has priority access to any frequency. {{< link id="G2B01" >}}
 
 ![Diagram illustrating shared frequency access](../images/frequency-sharing.svg)
 
@@ -98,7 +98,7 @@ The only time someone gets priority? When lives are at stake. Otherwise, we shar
 
 When propagation changes during a contact, interference might suddenly develop from stations that weren't audible before:
 
-> **Key Information:** *If propagation changes during a contact causing interference from other stations on the frequency, you should attempt to resolve the interference problem with the other stations in a mutually acceptable manner.* {{< link id="G2B03" >}}
+> **Key Information:** If propagation changes during a contact causing interference from other stations on the frequency, you should attempt to resolve the interference problem with the other stations in a mutually acceptable manner. {{< link id="G2B03" >}}
 
 Smart solutions beat stubborn standoffs:
 - QSY up or down 3 kHz? Problem solved.
@@ -112,7 +112,7 @@ This cooperative approach works much better than assertions of "ownership" or pr
 
 Choosing appropriate spacing between stations helps minimize interference:
 
-> **Key Information:** *When selecting an SSB transmitting frequency, a minimum separation of 2 to 3 kHz from stations transmitting on adjacent frequencies should be used to minimize interference.* {{< link id="G2B05" >}}
+> **Key Information:** When selecting an SSB transmitting frequency, a minimum separation of 2 to 3 kHz from stations transmitting on adjacent frequencies should be used to minimize interference. {{< link id="G2B05" >}}
 
 ![Diagram showing proper SSB frequency spacing](../images/frequency-spacing.svg)
 
@@ -123,7 +123,7 @@ Think of SSB signals like personal space bubbles—each needs about 3 kHz to bre
 
 Before calling CQ or starting a conversation:
 
-> **Key Information:** *To avoid harmful interference on an apparently clear frequency before calling CQ on CW or phone, send "QRL?" on CW, followed by your call sign; or, if using phone, ask if the frequency is in use, followed by your call sign.* {{< link id="G2B06" >}}
+> **Key Information:** To avoid harmful interference on an apparently clear frequency before calling CQ on CW or phone, send "QRL?" on CW, followed by your call sign; or, if using phone, ask if the frequency is in use, followed by your call sign. {{< link id="G2B06" >}}
 
 Why bother? Because nothing's worse than transmitting over a rare DX station working split, just because you couldn't hear their listening frequency. That quick "QRL?" saves face and friendships.
 
@@ -131,17 +131,17 @@ Why bother? Because nothing's worse than transmitting over a rare DX station wor
 
 Signal reports provide meaningful feedback about your transmission:
 
-> **Key Information:** *A signal that reads 20 dB over S9 is 100 times more powerful than an S9 signal, assuming a properly calibrated S meter.* {{< link id="G4D05" >}}
+> **Key Information:** A signal that reads 20 dB over S9 is 100 times more powerful than an S9 signal, assuming a properly calibrated S meter. {{< link id="G4D05" >}}
 
 ![S-meter scale with dB values](../images/s-meter-scale.svg)
 
 The S-meter scale is logarithmic, with specific relationships between units:
 
-> **Key Information:** *One S unit represents approximately 6 dB change in signal strength.* {{< link id="G4D06" >}}
+> **Key Information:** One S unit represents approximately 6 dB change in signal strength. {{< link id="G4D06" >}}
 
 This means each S-unit increment represents roughly a 4x power difference:
 
-> **Key Information:** *To change the S meter reading on a distant receiver from S8 to S9, you would need to raise your power output by approximately 4 times.* {{< link id="G4D07" >}}
+> **Key Information:** To change the S meter reading on a distant receiver from S8 to S9, you would need to raise your power output by approximately 4 times. {{< link id="G4D07" >}}
 
 Here's what this means in the real world:
 - S7 to S8? That's quadrupling your power—from 100W to 400W

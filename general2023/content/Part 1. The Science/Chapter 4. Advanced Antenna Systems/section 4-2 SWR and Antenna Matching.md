@@ -17,13 +17,13 @@ The magic happens when your entire antenna system works in harmony. Your transmi
 
 #### The Physics Behind the Problem
 
-> **Key Information:** *Reflected power at an antenna's feed point is caused by a difference between feed line impedance and antenna feed point impedance.* {{< link id="G9A04" >}}
+> **Key Information:** Reflected power at an antenna's feed point is caused by a difference between feed line impedance and antenna feed point impedance. {{< link id="G9A04" >}}
 
 Think of it like connecting a garden hose to a fire hydrant—the sudden change in "pipe size" (impedance) causes turbulence and backpressure. In your antenna system, this impedance mismatch causes some of your signal to bounce back toward your radio instead of radiating from your antenna. These reflections create standing waves on your feed line—patterns of voltage and current that stand still rather than traveling smoothly to your antenna.
 
 Here's the kicker: those standing waves don't just represent wasted power. They actually make things worse:
 
-> **Key Information:** *High SWR increases loss in a lossy transmission line.* {{< link id="G9A02" >}}
+> **Key Information:** High SWR increases loss in a lossy transmission line. {{< link id="G9A02" >}}
 
 It's a double penalty! Not only does power reflect back, but the standing waves cause your feed line to dissipate even more energy as heat. On HF, where feed lines can be hundreds of feet long, this effect can be devastating to your signal.
 
@@ -34,18 +34,18 @@ So how do we quantify this mismatch? For purely resistive loads (no reactance), 
 $$\text{SWR} = \frac{Z_{\text{higher}}}{Z_{\text{lower}}}$$
 
 > **Key Information:** SWR calculations for resistive loads:
-> - *Connecting a 50-ohm feed line to a 200-ohm resistive load results in a 4:1 SWR* {{< link id="G9A09" >}}
-> - *Connecting a 50-ohm feed line to a 10-ohm resistive load results in a 5:1 SWR* {{< link id="G9A10" >}}
+> - Connecting a 50-ohm feed line to a 200-ohm resistive load results in a 4:1 SWR {{< link id="G9A09" >}}
+> - Connecting a 50-ohm feed line to a 10-ohm resistive load results in a 5:1 SWR {{< link id="G9A10" >}}
 
 Notice how the mismatch works both ways—whether your antenna impedance is too high (200 ohms) or too low (10 ohms), you still get significant SWR. The 200-ohm case gives you 4:1, while the 10-ohm case is even worse at 5:1.
 
 To measure SWR in your shack, you have several options. A directional wattmeter shows both forward and reflected power, letting you calculate SWR. But for serious antenna work, most hams prefer an antenna analyzer.
 
 > **Key Information:** SWR measurement tools and considerations:
-> - *Standing wave ratio can be determined with a directional wattmeter* {{< link id="G4B10" >}}
-> - *An antenna and feed line must be connected to an antenna analyzer when it is being used for SWR measurements* {{< link id="G4B11" >}}
-> - *An antenna analyzer can be used to measure the impedance of coaxial cable* {{< link id="G4B13" >}}
-> - *Received power from nearby transmitters that interferes with SWR readings can affect antenna analyzer measurements* {{< link id="G4B12" >}}
+> - Standing wave ratio can be determined with a directional wattmeter {{< link id="G4B10" >}}
+> - An antenna and feed line must be connected to an antenna analyzer when it is being used for SWR measurements {{< link id="G4B11" >}}
+> - An antenna analyzer can be used to measure the impedance of coaxial cable {{< link id="G4B13" >}}
+> - Received power from nearby transmitters that interferes with SWR readings can affect antenna analyzer measurements {{< link id="G4B12" >}}
 
 Modern analyzers do much more than just SWR—they can show complex impedance, find resonant frequencies, and even help troubleshoot feed line problems. Just pick a quiet time or frequency for your testing to avoid interference from nearby transmitters!
 
@@ -53,7 +53,7 @@ Modern analyzers do much more than just SWR—they can show complex impedance, f
 
 Here's something that trips up many hams: if your feed line has significant loss, your SWR meter might lie to you:
 
-> **Key Information:** *Higher line loss reduces the SWR measured at the input to the line.* {{< link id="G9A11" >}}
+> **Key Information:** Higher line loss reduces the SWR measured at the input to the line. {{< link id="G9A11" >}}
 
 Why? Because lossy coax absorbs some of the reflected power before it gets back to your meter. It's like having a leak in that garden hose—the pressure (SWR) looks better at the faucet, but you're still losing water (power)! This is why low-loss feed line becomes crucial for HF work.
 
@@ -62,9 +62,9 @@ Why? Because lossy coax absorbs some of the reflected power before it gets back 
 Now for one of ham radio's biggest misconceptions. You've probably heard that an antenna tuner "fixes" high SWR. Here's the reality:
 
 > **Key Information:** Understanding antenna tuners and impedance matching:
-> - *If the SWR on an antenna feed line is 5:1, and a matching network at the transmitter end is adjusted to present a 1:1 SWR to the transmitter, the resulting SWR on the feed line is still 5:1* {{< link id="G9A08" >}}
-> - *To prevent standing waves on a feed line, the antenna feed point impedance must be matched to the characteristic impedance of the feed line* {{< link id="G9A07" >}}
-> - *One reason to use an impedance matching transformer at a transmitter output is to present the desired impedance to the transmitter and feed line* {{< link id="G7C03" >}}
+> - If the SWR on an antenna feed line is 5:1, and a matching network at the transmitter end is adjusted to present a 1:1 SWR to the transmitter, the resulting SWR on the feed line is still 5:1 {{< link id="G9A08" >}}
+> - To prevent standing waves on a feed line, the antenna feed point impedance must be matched to the characteristic impedance of the feed line {{< link id="G9A07" >}}
+> - One reason to use an impedance matching transformer at a transmitter output is to present the desired impedance to the transmitter and feed line {{< link id="G7C03" >}}
 
 An antenna tuner at your radio is like putting a pressure regulator at the beginning of a leaky pipe—it protects your transmitter but doesn't fix the leak! The standing waves and associated losses remain on your feed line. 
 
@@ -75,8 +75,8 @@ So why use an antenna tuner at all? Your transmitter needs to see a reasonable l
 As you advance in amateur radio, you'll learn that communication success depends on more than just SWR. Engineers use systematic planning to ensure reliable communications:
 
 > **Key Information:** Link budget and margin concepts:
-> - *A link budget is the sum of transmit power and antenna gains minus system losses as seen at the receiver* {{< link id="G8A13" >}}
-> - *Link margin is the difference between received power level and minimum required signal level at the input to the receiver* {{< link id="G8A14" >}}
+> - A link budget is the sum of transmit power and antenna gains minus system losses as seen at the receiver {{< link id="G8A13" >}}
+> - Link margin is the difference between received power level and minimum required signal level at the input to the receiver {{< link id="G8A14" >}}
 
 Think of a link budget as balancing your signal "checkbook"—adding up all the gains (transmit power, antenna gain) and subtracting all the losses (feed line loss, path loss) to see what's left at the receiver. The link margin is your safety buffer, like bringing spare batteries on a camping trip—it ensures your communications remain solid even when conditions aren't perfect.
 

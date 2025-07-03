@@ -17,7 +17,7 @@ That 100-pound marine battery might seem primitive compared to modern lithium ce
 
 Every battery has a cliff—a voltage below which permanent damage occurs. For lead-acid batteries, that cliff sits at a specific voltage that every ham should memorize.
 
-> **Key Information:** *The minimum allowable discharge voltage for maximum life of a standard 12-volt lead-acid battery is 10.5 volts.* {{< link id="G6A01" >}}
+> **Key Information:** The minimum allowable discharge voltage for maximum life of a standard 12-volt lead-acid battery is 10.5 volts. {{< link id="G6A01" >}}
 
 <img src="../images/battery-discharge-curve.svg" alt="Lead-acid battery discharge curve showing voltage vs capacity with 10.5V minimum point highlighted" style="width: 450px; margin: 10px;">
 
@@ -35,7 +35,7 @@ Smart operators protect their investment:
 
 Two identical-looking batteries sit side by side. One powers a 100-watt transmission without breaking a sweat. The other causes your finals to fold back from voltage sag. The difference? Internal resistance—the invisible throttle on current delivery.
 
-> **Key Information:** *An advantage of batteries with low internal resistance is high discharge current.* {{< link id="G6A02" >}}
+> **Key Information:** An advantage of batteries with low internal resistance is high discharge current. {{< link id="G6A02" >}}
 
 Picture internal resistance as plaque in your battery's arteries. Low resistance means current flows freely when your transmitter demands 20+ amps. High resistance creates voltage drop under load, limiting power output and stressing components. That bargain battery might show 12.6 volts at rest but drop to 10 volts when you key up.
 
@@ -55,7 +55,7 @@ Your mobile HF station can work the world from anywhere—if you wire it right. 
 
 Forget fishing for power under the dashboard. For HF transceivers, only one connection delivers reliable performance.
 
-> **Key Information:** *The best direct, fused power connection for a 100-watt HF mobile installation is to the battery using heavy-gauge wire.* {{< link id="G4E03" >}}
+> **Key Information:** The best direct, fused power connection for a 100-watt HF mobile installation is to the battery using heavy-gauge wire. {{< link id="G4E03" >}}
 
 <img src="../images/mobile-power-connection.svg" alt="Diagram showing proper mobile power connection with heavy gauge wire direct to battery with fuses" style="width: 400px; margin: 10px;">
 
@@ -70,7 +70,7 @@ The path from battery to radio should be fortress-strong: 10 AWG minimum for 100
 
 That convenient power socket beckons, but resist the temptation.
 
-> **Key Information:** *DC power for a 100-watt HF transceiver should not be supplied by a vehicle's auxiliary power socket because the socket's wiring may be inadequate for the current drawn by the transceiver.* {{< link id="G4E04" >}}
+> **Key Information:** DC power for a 100-watt HF transceiver should not be supplied by a vehicle's auxiliary power socket because the socket's wiring may be inadequate for the current drawn by the transceiver. {{< link id="G4E04" >}}
 
 Vehicle manufacturers wire accessory sockets for phone chargers, not transmitters. That 10-amp fuse and 18-gauge wire becomes a fire hazard when your radio pulls 22 amps on voice peaks. Best case: blown fuses during that rare DX contact. Worst case: melted wiring behind your dashboard.
 
@@ -84,7 +84,7 @@ A solar panel turns your Field Day site into a power plant. No generator noise, 
 
 Solar panels are bi-directional devices. They generate power in sunlight but become resistive loads in darkness. Without protection, your carefully charged battery drains backward through the panels all night.
 
-> **Key Information:** *A series diode should be connected between a solar panel and a storage battery that is being charged by the panel to prevent discharge of the battery through the panel during times of low or no illumination.* {{< link id="G4E10" >}}
+> **Key Information:** A series diode should be connected between a solar panel and a storage battery that is being charged by the panel to prevent discharge of the battery through the panel during times of low or no illumination. {{< link id="G4E10" >}}
 
 <img src="../images/solar-battery-connection.svg" alt="Diagram showing proper connection of solar panel to battery with blocking diode" style="width: 400px; margin: 10px;">
 
@@ -94,7 +94,7 @@ This blocking diode acts like a check valve in plumbing—power flows toward the
 
 LiFePO4 batteries revolutionized portable operation—half the weight, twice the usable capacity, thousands of charge cycles. But they're prima donnas about charging voltage. Exceed their limits and best case you damage expensive batteries; worst case creates thermal runaway.
 
-> **Key Information:** *When connecting a solar panel to a lithium iron phosphate battery, the solar panel must have a charge controller.* {{< link id="G4E11" >}}
+> **Key Information:** When connecting a solar panel to a lithium iron phosphate battery, the solar panel must have a charge controller. {{< link id="G4E11" >}}
 
 Proper charge controllers aren't optional luxuries—they're mandatory safety equipment:
 - **Voltage regulation**: Prevents overcharging that damages cells
@@ -112,7 +112,7 @@ Generators save the day when batteries deplete and solar won't suffice. During i
 
 Carbon monoxide doesn't smell. It doesn't irritate. It simply replaces oxygen in your blood until you pass out and die. Generators produce massive amounts—enough to kill in minutes within enclosed spaces.
 
-> **Key Information:** *An emergency generator installation should operate in a well-ventilated area.* {{< link id="G0B09" >}}
+> **Key Information:** An emergency generator installation should operate in a well-ventilated area. {{< link id="G0B09" >}}
 
 <img src="../images/generator-safety.svg" alt="Diagram showing proper generator placement with ventilation and distance from structures" style="width: 400px; margin: 10px;">
 
@@ -136,7 +136,7 @@ Ventilation means OUTSIDE—period. Not in the garage with the door open. Not un
 
 That spool of solder builds antenna tuners and repairs transceivers, but it might also be slowly poisoning you. Traditional electronics solder contains lead—a neurotoxin that accumulates in your body over years. One careless habit—snacking while building—can turn your hobby into a health hazard.
 
-> **Key Information:** *Lead can contaminate food if hands are not washed carefully after handling the solder, which is a danger from lead-tin solder.* {{< link id="G0B10" >}}
+> **Key Information:** Lead can contaminate food if hands are not washed carefully after handling the solder, which is a danger from lead-tin solder. {{< link id="G0B10" >}}
 
 Lead doesn't wash off with casual rinsing. It requires soap, scrubbing, and attention to get rid of invisible contamination. That sandwich eaten with lead-dusted fingers delivers toxins directly to your bloodstream. Children are especially vulnerable—never let kids near your soldering area.
 

@@ -24,7 +24,7 @@ As power demands grow, so does danger. That 100-amp subpanel feeding your shack 
 
 Every circuit needs protection, but where you place that protection can mean the difference between safety and hidden danger. Get this wrong, and your "protected" equipment might still kill you.
 
-> **Key Information:** *In a 120-volt AC power circuit, fuses or circuit breakers should be installed in series with the hot conductor only.* {{< link id="G0B01" >}}
+> **Key Information:** In a 120-volt AC power circuit, fuses or circuit breakers should be installed in series with the hot conductor only. {{< link id="G0B01" >}}
 
 <img src="../images/ac-fusing-diagram.svg" alt="Diagram showing proper fuse placement in hot conductor" style="width: 400px; margin: 10px;">
 
@@ -36,11 +36,11 @@ For 240-volt circuits with two hot conductors, both must have protection. When e
 
 That roll of wire in your junk box might work great for antennas, but use it for AC power and you're building a fire starter. Current flowing through undersized wire creates heat—potentially enough to melt insulation and ignite surrounding materials. The National Electrical Code exists because too many buildings burned down before we standardized safe practices.
 
-> **Key Information:** *According to the National Electrical Code, the minimum wire size that may be used safely with a 20-ampere circuit breaker is AWG number 12.* {{< link id="G0B02" >}}
+> **Key Information:** According to the National Electrical Code, the minimum wire size that may be used safely with a 20-ampere circuit breaker is AWG number 12. {{< link id="G0B02" >}}
 
 Think of wire gauge like water pipes—too small and pressure builds until something bursts. With electricity, that "burst" means fire. Here's what the code requires:
 
-> **Key Information:** *A 15-ampere fuse or circuit breaker would be appropriate to use with a circuit that uses AWG number 14 wiring.* {{< link id="G0B03" >}}
+> **Key Information:** A 15-ampere fuse or circuit breaker would be appropriate to use with a circuit that uses AWG number 14 wiring. {{< link id="G0B03" >}}
 
 **Safe Wire and Breaker Combinations:**
 | Wire Size | Maximum Breaker | Typical Ham Use |
@@ -57,7 +57,7 @@ These ratings assume normal conditions. Long cable runs, high temperatures, or m
 
 That outlet with the test and reset buttons might save your life someday. Ground Fault Circuit Interrupters detect when electricity takes an unplanned detour—like through your body—and shut down the circuit in milliseconds. For ham operators working with antennas in wet conditions or adjusting equipment while powered, GFCIs provide critical protection.
 
-> **Key Information:** *A ground fault circuit interrupter (GFCI) will disconnect AC power if current flows from one or more of the hot wires directly to ground.* {{< link id="G0B05" >}}
+> **Key Information:** A ground fault circuit interrupter (GFCI) will disconnect AC power if current flows from one or more of the hot wires directly to ground. {{< link id="G0B05" >}}
 
 <img src="../images/gfci-operation.svg" alt="Diagram showing GFCI operation principles" style="width: 400px; margin: 10px;">
 
@@ -75,7 +75,7 @@ One saved life justifies every GFCI ever made.
 
 Those thick books electricians carry aren't just bureaucratic nonsense—they're lessons written in smoke and tragedy. The National Electrical Code represents over a century of hard-learned lessons about what kills people and burns buildings. For amateur radio operators pushing the boundaries of home electrical systems, the NEC provides crucial guidance.
 
-> **Key Information:** *The National Electrical Code covers electrical safety of the station.* {{< link id="G0B06" >}}
+> **Key Information:** The National Electrical Code covers electrical safety of the station. {{< link id="G0B06" >}}
 
 The NEC specifically addresses amateur radio installations:
 - Antenna grounding and bonding requirements
@@ -90,7 +90,7 @@ Local codes often exceed NEC requirements, and inspectors take violations seriou
 
 High-voltage equipment harbors a dirty secret—it can kill you even when unplugged. Capacitors store lethal charges long after power disappears. That's why serious equipment includes interlocks—mechanical switches that break connections when you open the cabinet. Think of them as automated safety supervisors that never take coffee breaks.
 
-> **Key Information:** *The purpose of a power supply interlock is to ensure that dangerous voltages are removed if the cabinet is opened.* {{< link id="G0B12" >}}
+> **Key Information:** The purpose of a power supply interlock is to ensure that dangerous voltages are removed if the cabinet is opened. {{< link id="G0B12" >}}
 
 <img src="../images/interlock-diagram.svg" alt="Diagram showing how an interlock switch works" style="width: 350px; margin: 10px;">
 

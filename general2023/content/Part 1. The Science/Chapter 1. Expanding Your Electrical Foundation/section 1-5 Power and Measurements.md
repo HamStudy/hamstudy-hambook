@@ -45,7 +45,7 @@ When dealing with alternating current, our power equations face a challenge: the
 
 The answer is Root Mean Square (RMS) values. RMS is a special mathematical method that gives us an effective value for AC that works in our DC-based equations:
 
-> **Key Information:** *The RMS value of an AC signal produces the same power dissipation in a resistor as a DC voltage of the same value.* {{< link id="G5B07" >}}
+> **Key Information:** The RMS value of an AC signal produces the same power dissipation in a resistor as a DC voltage of the same value. {{< link id="G5B07" >}}
 
 Why RMS and not just the average of the absolute values? It's because of how power works in resistive circuits. Power is proportional to voltage squared ($P = \frac{E^2}{R}$), not to voltage directly. The heating effect in a resistor—which is what actually matters in power calculations—depends on this squared relationship.
 
@@ -74,7 +74,7 @@ While we're discussing values which change over time, let's look at RF power: Wh
 
 PEP is like having your power meter's needle stick at the highest value during transmission. If we graphed the power output of your transmitter over time, PEP would be the highest point on that graph. This makes sense because we need to know the maximum power that components will have to handle—not just the average—to prevent damage and stay within legal limits.
 
-> **Key Information:** *For an unmodulated carrier, the ratio of PEP to average power is 1.00, meaning that the PEP and average power are the same.* {{< link id="G5B11" >}}
+> **Key Information:** For an unmodulated carrier, the ratio of PEP to average power is 1.00, meaning that the PEP and average power are the same. {{< link id="G5B11" >}}
 
 For a *continuous carrier with no modulation* (like a test tone or CW signal with the key down), *PEP equals the average power* because the power level remains constant. {{< link id="G5B13" >}} But with voice modulation, especially on SSB, the power output spikes during louder syllables. These momentary peaks might be several times higher than the average power level.
 
@@ -90,9 +90,9 @@ $$PEP = \frac{(\frac{E_{p-p}}{2})^2}{2R} = \frac{E_{p-p}^2}{8R}$$
 
 Radio science frequently uses decibels (dB) because they simplify how we express large changes in power. Instead of saying a signal is "100 times stronger," we can say it's "20 dB stronger." This makes calculations easier and allows us to add gains and losses instead of multiplying and dividing.
 
-> **Key Information:** *A change of approximately 3 dB represents a factor of two increase or decrease in power.* {{< link id="G5B01" >}}
+> **Key Information:** A change of approximately 3 dB represents a factor of two increase or decrease in power. {{< link id="G5B01" >}}
 
-> **Key Information:** *A loss of 1 dB represents a power loss of approximately 20.6 percent.* {{< link id="G5B10" >}}
+> **Key Information:** A loss of 1 dB represents a power loss of approximately 20.6 percent. {{< link id="G5B10" >}}
 
 Positive dB values represent power increases, while negative dB values represent decreases. Here are the most useful dB values to remember:
 
@@ -117,7 +117,7 @@ Positive dB values represent power increases, while negative dB values represent
 The decibel's flexibility makes it ideal for several specialized radio measurements:
 
 ##### Antenna Gain Measurements
-> **Key Information:** *Antenna gain expressed in dBi is 2.15 dB higher than the same gain expressed in dBd.* {{< link id="G9C04" >}}
+> **Key Information:** Antenna gain expressed in dBi is 2.15 dB higher than the same gain expressed in dBd. {{< link id="G9C04" >}}
 
 Two common reference points for antenna gain are:
 - **dBi**: Gain compared to an isotropic radiator (theoretical point source)
@@ -133,7 +133,7 @@ Every transmission line has some power loss—energy that doesn't make it from y
 
 These losses increase with frequency, which is why VHF/UHF operation often requires higher quality feed lines than HF.
 
-> **Key Information:** *RF feed line loss is usually expressed in decibels per 100 feet.* {{< link id="G9A06" >}}
+> **Key Information:** RF feed line loss is usually expressed in decibels per 100 feet. {{< link id="G9A06" >}}
 
 This standardized measurement helps you compare different cable types and calculate your system's total loss. For example, if RG-8X has a loss of 3.5 dB per 100 feet at 146 MHz, then a 50-foot run would have 1.75 dB loss—meaning about 33% of your power never reaches the antenna.
 

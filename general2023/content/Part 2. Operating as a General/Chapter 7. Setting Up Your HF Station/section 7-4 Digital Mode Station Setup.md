@@ -24,7 +24,7 @@ Master this trinity, and you'll decode signals buried in noise that voice operat
 
 That expensive transceiver designed for pristine SSB? It needs attitude adjustment for digital duty:
 
-> **Key Information:** *The ALC system should be inactive when transmitting AFSK data signals because the ALC action distorts the signal.* {{< link id="G4A11" >}}
+> **Key Information:** The ALC system should be inactive when transmitting AFSK data signals because the ALC action distorts the signal. {{< link id="G4A11" >}}
 
 <img src="../images/alc-distortion.svg" alt="Comparison of clean vs ALC-distorted digital signal" style="width: 450px; margin: 10px;">
 
@@ -51,7 +51,7 @@ These digital decoders handle the heavy lifting:
 - Key your transmitter at precisely the right moment
 - Log everything so you remember that rare one
 
-> **Key Information:** *When using FT8, computer time accurate to within approximately 1 second is required.* {{< link id="G2E07" >}}
+> **Key Information:** When using FT8, computer time accurate to within approximately 1 second is required. {{< link id="G2E07" >}}
 
 <img src="../images/time-synchronization.svg" alt="Diagram showing time synchronization importance for FT8" style="width: 400px; margin: 10px;">
 
@@ -78,7 +78,7 @@ The golden rules: Audio levels matter (too hot = splatter), PTT must be rock sol
 
 That beautiful waterfall shows a perfect RTTY signal, but your decoder produces gibberish. Welcome to digital troubleshooting, where one wrong setting ruins everything:
 
-> **Key Information:** *If you cannot decode an RTTY or other FSK signal even though it is apparently tuned in properly, all these choices are correct: the mark and space frequencies may be reversed, you may have selected the wrong baud rate, or you may be listening on the wrong sideband.* {{< link id="G2E14" >}}
+> **Key Information:** If you cannot decode an RTTY or other FSK signal even though it is apparently tuned in properly, all these choices are correct: the mark and space frequencies may be reversed, you may have selected the wrong baud rate, or you may be listening on the wrong sideband. {{< link id="G2E14" >}}
 
 <img src="../images/rtty-troubleshooting.svg" alt="Diagram showing RTTY troubleshooting steps" style="width: 450px; margin: 10px;">
 
@@ -105,7 +105,7 @@ Nobody's decoding you? Time for brutal honesty:
 
 Once you understand waterfall displays, you'll never want to operate without one:
 
-> **Key Information:** *A waterfall display shows frequency on the horizontal axis, signal strength as intensity, and time on the vertical axis.* {{< link id="G8C14" >}}
+> **Key Information:** A waterfall display shows frequency on the horizontal axis, signal strength as intensity, and time on the vertical axis. {{< link id="G8C14" >}}
 
 <img src="../images/waterfall-display.svg" alt="Annotated waterfall display showing axes and signal interpretation" style="width: 450px; margin: 10px;">
 
@@ -119,7 +119,7 @@ After a week of watching waterfalls, you'll diagnose signals faster than any S-m
 
 ##### Reading Signal Health at a Glance
 
-> **Key Information:** *One or more vertical lines on either side of a digital mode or RTTY signal on a waterfall display indicates overmodulation.* {{< link id="G8C13" >}}
+> **Key Information:** One or more vertical lines on either side of a digital mode or RTTY signal on a waterfall display indicates overmodulation. {{< link id="G8C13" >}}
 
 <img src="../images/waterfall-overmodulation.svg" alt="Waterfall display showing clean vs overmodulated digital signals" style="width: 400px; margin: 10px;">
 
@@ -133,7 +133,7 @@ With General privileges, the digital smorgasbord awaits. Each mode has its perso
 
 Born in the age of mechanical teleprinters, RTTY refuses to die—and for good reason:
 
-> **Key Information:** *The most common frequency shift for RTTY emissions in the amateur HF bands is 170 Hz.* {{< link id="G2E06" >}}
+> **Key Information:** The most common frequency shift for RTTY emissions in the amateur HF bands is 170 Hz. {{< link id="G2E06" >}}
 
 <img src="../images/rtty-signal.svg" alt="Diagram showing RTTY frequency shift" style="width: 400px; margin: 10px;">
 

@@ -22,7 +22,7 @@ This fundamental difference explains why digital signal processing can often ext
 
 The fundamental building blocks of digital circuits are logic gates—components that perform basic decision-making functions based on their inputs:
 
-> **Key Information:** *A two-input AND gate outputs a high signal (1) only when both inputs are high.* {{< link id="G7B03" >}}
+> **Key Information:** A two-input AND gate outputs a high signal (1) only when both inputs are high. {{< link id="G7B03" >}}
 
 <img src="../../../images/and-gate.svg" alt="AND Gate Symbol" style="width: 75px; margin: 10px; float: right;">
 
@@ -46,7 +46,7 @@ Most digital functions in modern equipment are implemented using integrated circ
 
 ##### MMICs: RF Processing in a Tiny Package
 
-> **Key Information:** *MMIC stands for Monolithic Microwave Integrated Circuit.* {{< link id="G6B02" >}}
+> **Key Information:** MMIC stands for Monolithic Microwave Integrated Circuit. {{< link id="G6B02" >}}
 
 These specialized ICs are designed specifically for radio frequency and microwave applications, integrating various RF functions into a single chip:
 - Amplifiers
@@ -60,7 +60,7 @@ MMICs have revolutionized RF design by enabling complex RF processing in extreme
 
 Digital ICs come in different "families" with distinct characteristics:
 
-> **Key Information:** *An advantage of CMOS integrated circuits compared to TTL integrated circuits is low power consumption.* {{< link id="G6B03" >}}
+> **Key Information:** An advantage of CMOS integrated circuits compared to TTL integrated circuits is low power consumption. {{< link id="G6B03" >}}
 
 **CMOS (Complementary Metal-Oxide-Semiconductor)** offers:
 - Very low power consumption (especially when not switching)
@@ -82,7 +82,7 @@ Modern amateur radio equipment predominantly uses CMOS technology due to its ene
 
 While we're focusing on digital circuits, it's important to understand how analog and digital worlds interface:
 
-> **Key Information:** *An integrated circuit operational amplifier is an analog device.* {{< link id="G6B06" >}}
+> **Key Information:** An integrated circuit operational amplifier is an analog device. {{< link id="G6B06" >}}
 
 ![Operational Amplifier Symbol](../../../images/op-amp.svg)
 {.float-right .img-sm caption="Figure 1: Operational Amplifier symbol"}
@@ -102,7 +102,7 @@ Digital circuits include specialized components for managing digital information
 
 ##### Shift Registers: Digital Data Movement
 
-> **Key Information:** *A shift register is a clocked array of circuits that passes data in steps along the array.* {{< link id="G7B06" >}}
+> **Key Information:** A shift register is a clocked array of circuits that passes data in steps along the array. {{< link id="G7B06" >}}
 
 ![Shift Register Operation](../../../images/shift-register.gif)
 {.img-centered caption="Figure 2: Shift register example animation"}
@@ -116,7 +116,7 @@ Shift registers are widely used in the digital signal processing capabilities of
 
 ##### Binary Counters: Tracking Digital States
 
-> **Key Information:** *A 3-bit binary counter has 8 states.* {{< link id="G7B05" >}}
+> **Key Information:** A 3-bit binary counter has 8 states. {{< link id="G7B05" >}}
 
 A binary counter is a digital circuit that advances through a sequence of binary states with each clock pulse. For a 3-bit counter:
 

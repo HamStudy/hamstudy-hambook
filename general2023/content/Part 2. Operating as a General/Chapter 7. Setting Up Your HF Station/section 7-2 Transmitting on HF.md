@@ -23,7 +23,7 @@ Your radio probably switches automatically, but verify—nothing marks you as a 
 
 Here's the scenario: A rare DX station appears on 14.195 MHz. Hundreds of stations call simultaneously, creating an impenetrable wall of sound. The DX operator's solution? "Listening 14.205 to 14.210." Welcome to split operation:
 
-> **Key Information:** *A common use of the dual-VFO feature on a transceiver is to transmit on one frequency and listen on another.* {{< link id="G4A12" >}}
+> **Key Information:** A common use of the dual-VFO feature on a transceiver is to transmit on one frequency and listen on another. {{< link id="G4A12" >}}
 
 <img src="../images/split-operation.svg" alt="Diagram showing split frequency operation" style="width: 450px; margin: 10px;">
 
@@ -41,19 +41,19 @@ Practice now, or fumble later while that rare one gets away.
 
 On FM, everyone sounds roughly the same. On SSB, audio quality separates the stations everyone can copy from those lost in the noise. Your secret weapon sits right in your radio's menu:
 
-> **Key Information:** *The purpose of a speech processor in a transceiver is to increase the apparent loudness of transmitted voice signals.* {{< link id="G4D01" >}}
+> **Key Information:** The purpose of a speech processor in a transceiver is to increase the apparent loudness of transmitted voice signals. {{< link id="G4D01" >}}
 
 <img src="../images/speech-processor-effect.svg" alt="Audio waveform showing effect of speech processing" style="width: 400px; margin: 10px;">
 
 Here's the magic: speech processing squeezes more average power from your transmitter without increasing peaks. Normal speech has a huge dynamic range—whispers to shouts. The processor compresses this range, bringing up the quiet parts that carry intelligibility:
 
-> **Key Information:** *A speech processor affects a single sideband phone signal by increasing its average power.* {{< link id="G4D02" >}}
+> **Key Information:** A speech processor affects a single sideband phone signal by increasing its average power. {{< link id="G4D02" >}}
 
 Your 100-watt peaks still hit 100 watts, but now your average power jumps from maybe 25 watts to 40 watts. That's like adding a 60% power boost for free.
 
 But here's where newcomers destroy their audio:
 
-> **Key Information:** *The effect of an incorrectly adjusted speech processor includes all these choices: distorted speech, excess intermodulation products, and excessive background noise.* {{< link id="G4D03" >}}
+> **Key Information:** The effect of an incorrectly adjusted speech processor includes all these choices: distorted speech, excess intermodulation products, and excessive background noise. {{< link id="G4D03" >}}
 
 <img src="../images/speech-processor-settings.svg" alt="Audio waveforms showing proper vs excessive speech processing" style="width: 450px; margin: 10px;">
 
@@ -82,13 +82,13 @@ When conditions deteriorate and SSB becomes unintelligible, CW punches through. 
 
 Here's a trick that separates CW operators who struggle from those who thrive in QRM:
 
-> **Key Information:** *The benefit of using the opposite or "reverse" sideband when receiving CW is that it may be possible to reduce or eliminate interference from other signals.* {{< link id="G4A02" >}}
+> **Key Information:** The benefit of using the opposite or "reverse" sideband when receiving CW is that it may be possible to reduce or eliminate interference from other signals. {{< link id="G4A02" >}}
 
 Switching sidebands flips the audio spectrum. That interfering signal 200 Hz below your desired CW note jumps to 200 Hz above when you switch sidebands. Your brain refocuses on the new pitch while the interference moves to a less bothersome frequency. It's like moving your chair when someone blocks your view—same signal, better perspective.
 
 For sending perfect CW, embrace the electronic keyer:
 
-> **Key Information:** *The function of an electronic keyer is automatic generation of dots and dashes for CW operation.* {{< link id="G4A10" >}}
+> **Key Information:** The function of an electronic keyer is automatic generation of dots and dashes for CW operation. {{< link id="G4A10" >}}
 
 <img src="../images/electronic-keyer.svg" alt="Diagram showing electronic keyer operation" style="width: 400px; margin: 10px;">
 

@@ -29,7 +29,7 @@ This phase relationship becomes crucial when we examine how components behave in
 
 #### Reactance: Opposition Beyond Resistance
 
-> **Key Information:** *Reactance is opposition to the flow of alternating current caused by capacitance or inductance.* {{< link id="G5A02" >}}
+> **Key Information:** Reactance is opposition to the flow of alternating current caused by capacitance or inductance. {{< link id="G5A02" >}}
 
 Unlike resistance, which simply converts electrical energy to heat, reactance temporarily stores energy and then returns it to the circuit. This energy storage creates a phase shift between voltage and current.
 
@@ -37,13 +37,13 @@ Reactance is measured in ohms (Ω) just like resistance and is represented by th
 
 ##### Inductive Reactance
 
-> **Key Information:** *Inductive reactance is opposition to the flow of alternating current in an inductor.* {{< link id="G5A03" >}}
+> **Key Information:** Inductive reactance is opposition to the flow of alternating current in an inductor. {{< link id="G5A03" >}}
 
 Inductors resist changes in current by generating a magnetic field. This creates a phase shift where current lags 90° behind voltage.
 
 An inductor's reactance depends on frequency:
 
-> **Key Information:** *As the frequency of applied AC increases, inductive reactance increases.* {{< link id="G5A05" >}}
+> **Key Information:** As the frequency of applied AC increases, inductive reactance increases. {{< link id="G5A05" >}}
 
 Think of an inductor as increasingly "stubborn" about changing current flow as frequency rises. This makes inductors useful as RF chokes that block high frequencies while passing DC and low frequencies.
 
@@ -60,13 +60,13 @@ Where:
 
 ##### Capacitive Reactance
 
-> **Key Information:** *Capacitive reactance is opposition to the flow of alternating current in a capacitor.* {{< link id="G5A04" >}}
+> **Key Information:** Capacitive reactance is opposition to the flow of alternating current in a capacitor. {{< link id="G5A04" >}}
 
 Capacitors store electrical charge, creating a phase shift where current leads voltage by 90°.
 
 A capacitor's reactance also depends on frequency, but in the opposite way:
 
-> **Key Information:** *As the frequency of applied AC increases, capacitive reactance decreases.* {{< link id="G5A06" >}}
+> **Key Information:** As the frequency of applied AC increases, capacitive reactance decreases. {{< link id="G5A06" >}}
 
 Capacitors become more "willing" to pass current as frequency rises. This makes them excellent as bypass capacitors that provide an easy path for RF signals while blocking DC.
 
@@ -89,7 +89,7 @@ Remember Ohm's law from your Technician studies? For DC circuits, we learned tha
 
 In AC circuits, we still have the same basic relationship between voltage and current, but now we call the total opposition "impedance" instead of just "resistance":
 
-> **Key Information:** *Impedance is the ratio of voltage to current in an AC circuit.* {{< link id="G5A08" >}}
+> **Key Information:** Impedance is the ratio of voltage to current in an AC circuit. {{< link id="G5A08" >}}
 
 Just like Ohm's law tells us that $Z = \frac{E}{I}$, impedance (Z) represents the total opposition to current flow and is measured in ohms (Ω). {{< link id="G5A09" >}} The key difference is that impedance includes both magnitude and phase relationships:
 
@@ -110,7 +110,7 @@ $$|Z| = \sqrt{R^2 + X^2}$$
 
 When analyzing parallel circuits, engineers often find it easier to work with the inverse of impedance:
 
-> **Key Information:** *Admittance is the inverse of impedance.* {{< link id="G5A07" >}}
+> **Key Information:** Admittance is the inverse of impedance. {{< link id="G5A07" >}}
 
 Just as conductance is the inverse of resistance, admittance (Y) is the inverse of impedance:
 
@@ -122,7 +122,7 @@ Admittance is measured in siemens (S) and is particularly useful when analyzing 
 
 The opposing behaviors of inductors and capacitors create a fascinating scenario when they're combined in a circuit:
 
-> **Key Information:** *At resonance, inductive reactance and capacitive reactance are equal and cancel each other.* {{< link id="G5A12" >}} {{< link id="G5A01" >}}
+> **Key Information:** At resonance, inductive reactance and capacitive reactance are equal and cancel each other. {{< link id="G5A12" >}} {{< link id="G5A01" >}}
 
 Since inductive reactance increases with frequency while capacitive reactance decreases, there's always exactly one frequency where they're equal—the resonant frequency.
 

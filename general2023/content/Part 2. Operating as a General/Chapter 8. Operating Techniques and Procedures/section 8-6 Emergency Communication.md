@@ -17,7 +17,7 @@ Understanding the rules governing emergency communications helps you respond eff
 
 During emergencies, you'll often need to relay messages for non-amateurs:
 
-> **Key Information:** *A third party would be disqualified from participating in sending a message via an amateur station if the third party's amateur license has been revoked and not reinstated.* {{< link id="G1E01" >}}
+> **Key Information:** A third party would be disqualified from participating in sending a message via an amateur station if the third party's amateur license has been revoked and not reinstated. {{< link id="G1E01" >}}
 
 ![Diagram showing permitted vs disqualified third-party communications](../images/third-party-communications.svg)
 
@@ -25,7 +25,7 @@ While anyone without an amateur license can participate as a third party under a
 
 When operating through repeaters, special considerations apply:
 
-> **Key Information:** *A 10-meter repeater can retransmit the 2-meter signal from a station with a Technician class control operator if the 10-meter repeater control operator holds at least a General class license.* {{< link id="G1E02" >}}
+> **Key Information:** A 10-meter repeater can retransmit the 2-meter signal from a station with a Technician class control operator if the 10-meter repeater control operator holds at least a General class license. {{< link id="G1E02" >}}
 
 This provision allows Technicians (who have limited HF privileges) to extend their emergency communications reach through repeaters controlled by higher-class licensees. This can be particularly valuable during widespread emergencies where HF communication might be necessary for reaching distant emergency management facilities.
 
@@ -33,7 +33,7 @@ This provision allows Technicians (who have limited HF privileges) to extend the
 
 Digital systems under automatic control play an increasingly important role in emergency communications:
 
-> **Key Information:** *To conduct communications with a digital station operating under automatic control outside the automatic control band segments, the station initiating the contact must be under local or remote control.* {{< link id="G1E03" >}}
+> **Key Information:** To conduct communications with a digital station operating under automatic control outside the automatic control band segments, the station initiating the contact must be under local or remote control. {{< link id="G1E03" >}}
 
 ![Illustration of automatic vs manually controlled station contacts](../images/automatic-control-contacts.svg)
 
@@ -43,7 +43,7 @@ This requirement ensures human oversight when communicating with automatically c
 
 Even during emergencies, certain operating restrictions remain in effect:
 
-> **Key Information:** *When operating within one mile of an FCC Monitoring Station, when using a band where the amateur service is secondary, or when a station is transmitting spread spectrum emissions, a licensed amateur radio operator must take specific steps to avoid harmful interference to other users or facilities.* {{< link id="G1E04" >}}
+> **Key Information:** When operating within one mile of an FCC Monitoring Station, when using a band where the amateur service is secondary, or when a station is transmitting spread spectrum emissions, a licensed amateur radio operator must take specific steps to avoid harmful interference to other users or facilities. {{< link id="G1E04" >}}
 
 This requirement highlights the importance of coordination and careful operation even during emergencies. When seconds count, avoiding interference that might disrupt critical communications becomes even more important than during routine operation.
 
@@ -53,7 +53,7 @@ Amateur radio's global nature makes it particularly valuable for international d
 
 ##### Third-Party Traffic with Other Countries
 
-> **Key Information:** *Messages to a third party in a country with which there is a third-party agreement must relate to amateur radio or remarks of a personal character, or messages relating to emergencies or disaster relief.* {{< link id="G1E05" >}}
+> **Key Information:** Messages to a third party in a country with which there is a third-party agreement must relate to amateur radio or remarks of a personal character, or messages relating to emergencies or disaster relief. {{< link id="G1E05" >}}
 
 ![Map showing countries with third-party agreements](../images/international-third-party-communications.svg)
 
@@ -63,7 +63,7 @@ These limitations ensure that amateur radio doesn't compete with commercial comm
 
 Understanding how frequency allocations work globally helps with international emergency coordination:
 
-> **Key Information:** *ITU Region 2 radio frequency allocations apply to amateur radio operators in North and South America.* {{< link id="G1E06" >}}
+> **Key Information:** ITU Region 2 radio frequency allocations apply to amateur radio operators in North and South America. {{< link id="G1E06" >}}
 
 ![World map showing the three ITU regions](../images/itu-regions-map.svg)
 
@@ -77,7 +77,7 @@ Several specialized systems enhance amateur radio's emergency capabilities:
 
 When conventional communication fails, creative solutions sometimes involve other technologies:
 
-> **Key Information:** *No part of the 2.4 GHz band permits an amateur station to communicate with non-licensed WiFi stations.* {{< link id="G1E07" >}}
+> **Key Information:** No part of the 2.4 GHz band permits an amateur station to communicate with non-licensed WiFi stations. {{< link id="G1E07" >}}
 
 While amateur radio and WiFi technologies both operate in the 2.4 GHz range, direct communication between amateur stations and non-amateur WiFi networks is prohibited. However, amateurs can create their own WiFi-like networks using amateur frequencies for emergency communication.
 
@@ -85,7 +85,7 @@ While amateur radio and WiFi technologies both operate in the 2.4 GHz range, dir
 
 Advanced modulation techniques offer unique capabilities for emergency communication:
 
-> **Key Information:** *The maximum PEP output allowed for spread spectrum transmissions is 10 watts.* {{< link id="G1E08" >}}
+> **Key Information:** The maximum PEP output allowed for spread spectrum transmissions is 10 watts. {{< link id="G1E08" >}}
 
 ![Chart comparing power limits for different modes](../images/spread-spectrum-power-limits.svg)
 
@@ -95,7 +95,7 @@ Spread spectrum techniques distribute a signal across a wide bandwidth, providin
 
 When assessing potential emergency communication paths, propagation beacons provide valuable information:
 
-> **Key Information:** *An amateur operator should normally avoid transmitting on 14.100, 18.110, 21.150, 24.930, and 28.200 MHz because a system of propagation beacon stations operates on those frequencies.* {{< link id="G1E10" >}}
+> **Key Information:** An amateur operator should normally avoid transmitting on 14.100, 18.110, 21.150, 24.930, and 28.200 MHz because a system of propagation beacon stations operates on those frequencies. {{< link id="G1E10" >}}
 
 ![Diagram showing international beacon network operation](../images/international-beacon-network.svg)
 
@@ -105,7 +105,7 @@ These internationally coordinated beacons transmit in sequence, allowing operato
 
 Digital systems continue operating without constant human supervision are particularly valuable during extended emergencies:
 
-> **Key Information:** *Automatically controlled stations transmitting RTTY or data emissions may communicate with other automatically controlled digital stations anywhere in the 6-meter or shorter wavelength bands, and in limited segments of some of the HF bands.* {{< link id="G1E11" >}}
+> **Key Information:** Automatically controlled stations transmitting RTTY or data emissions may communicate with other automatically controlled digital stations anywhere in the 6-meter or shorter wavelength bands, and in limited segments of some of the HF bands. {{< link id="G1E11" >}}
 
 ![Chart showing frequency allocations for automatically controlled digital stations](../images/auto-control-band-segments.svg)
 
@@ -115,7 +115,7 @@ These provisions allow digital networks to function with minimal human intervent
 
 Modern amateur stations increasingly incorporate remote control capabilities:
 
-> **Key Information:** *Under any circumstances in which third party messages are permitted by FCC rules, third-party messages may be transmitted via remote control.* {{< link id="G1E12" >}}
+> **Key Information:** Under any circumstances in which third party messages are permitted by FCC rules, third-party messages may be transmitted via remote control. {{< link id="G1E12" >}}
 
 ![Diagram showing remote control setup with third-party messages](../images/remote-control-third-party.svg)
 

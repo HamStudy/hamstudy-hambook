@@ -19,7 +19,7 @@ DX means distance, but in ham radio, it means magic. That scratchy signal from B
 
 When you're looking for any available distant station:
 
-> **Key Information:** *The way to indicate you are looking for an HF contact with any station is to repeat "CQ" a few times, followed by "this is," then your call sign a few times, then pause to listen.* {{< link id="G2D05" >}}
+> **Key Information:** The way to indicate you are looking for an HF contact with any station is to repeat "CQ" a few times, followed by "this is," then your call sign a few times, then pause to listen. {{< link id="G2D05" >}}
 
 ![Diagram showing proper CQ sequence for DX](../images/calling-for-dx.svg)
 
@@ -36,7 +36,7 @@ This universal format works across bands and modes. For best results:
 
 Sometimes, geography works against traditional propagation paths. When normal routes (called "short path") aren't working:
 
-> **Key Information:** *When making a "long-path" contact with another station, a directional antenna is pointed 180 degrees from the station's short-path heading.* {{< link id="G2D06" >}}
+> **Key Information:** When making a "long-path" contact with another station, a directional antenna is pointed 180 degrees from the station's short-path heading. {{< link id="G2D06" >}}
 
 ![World map showing short path vs long path propagation](../images/long-path-propagation.svg)
 
@@ -46,7 +46,7 @@ Long path is nature's magic trick. Can't reach Europe from California? Turn your
 
 When working DX, particularly stations where English isn't the primary language, clear communication becomes essential:
 
-> **Key Information:** *Alpha, Bravo, Charlie, Delta are examples of the NATO Phonetic Alphabet.* {{< link id="G2D07" >}}
+> **Key Information:** Alpha, Bravo, Charlie, Delta are examples of the NATO Phonetic Alphabet. {{< link id="G2D07" >}}
 
 ![Chart showing the complete NATO phonetic alphabet](../images/nato-phonetic-alphabet.svg)
 
@@ -79,7 +79,7 @@ Contests come in many varieties, from worldwide events lasting 48 hours to local
 3. **Scoring**: Contacts × multipliers, with variations depending on contest rules
 4. **Logging**: Record all contact information accurately
 
-> **Key Information:** *When participating in a contest on HF frequencies, you must identify your station according to normal FCC regulations.* {{< link id="G2D09" >}}
+> **Key Information:** When participating in a contest on HF frequencies, you must identify your station according to normal FCC regulations. {{< link id="G2D09" >}}
 
 ![Sample contest log showing proper format](../images/contest-logging.svg)
 
@@ -89,7 +89,7 @@ Contest myth: "Rules don't apply during contests." Wrong. That ten-minute ID rul
 
 Many contesters enjoy the challenge of QRP (low power) operation:
 
-> **Key Information:** *QRP operation refers to low-power transmit operation, typically 5 watts or less on CW and 10 watts or less on phone.* {{< link id="G2D10" >}}
+> **Key Information:** QRP operation refers to low-power transmit operation, typically 5 watts or less on CW and 10 watts or less on phone. {{< link id="G2D10" >}}
 
 ![Chart comparing standard vs QRP power levels](../images/qrp-power-levels.svg)
 
@@ -105,7 +105,7 @@ QRP proves the amateur radio truth: An excellent operator with 5 watts will outp
 
 Contest exchanges typically begin with signal reports:
 
-> **Key Information:** *Signal reports are typically exchanged at the beginning of an HF contact to allow each station to operate according to conditions.* {{< link id="G2D11" >}}
+> **Key Information:** Signal reports are typically exchanged at the beginning of an HF contact to allow each station to operate according to conditions. {{< link id="G2D11" >}}
 
 ![Diagram showing typical contest exchange sequence](../images/contest-exchange.svg)
 
@@ -123,17 +123,17 @@ Most contests use abbreviated reports (often just "59" regardless of actual cond
 
 Contests often concentrate activity near band edges to maximize available spectrum. This requires careful attention to your transmitted signal's bandwidth:
 
-> **Key Information:** *A 3 kHz LSB signal with the displayed carrier frequency set to 7.178 MHz occupies the frequency range from 7.175 MHz to 7.178 MHz.* {{< link id="G4D08" >}}
+> **Key Information:** A 3 kHz LSB signal with the displayed carrier frequency set to 7.178 MHz occupies the frequency range from 7.175 MHz to 7.178 MHz. {{< link id="G4D08" >}}
 
-> **Key Information:** *A 3 kHz USB signal with the displayed carrier frequency set to 14.347 MHz occupies the frequency range from 14.347 MHz to 14.350 MHz.* {{< link id="G4D09" >}}
+> **Key Information:** A 3 kHz USB signal with the displayed carrier frequency set to 14.347 MHz occupies the frequency range from 14.347 MHz to 14.350 MHz. {{< link id="G4D09" >}}
 
 ![Diagram showing USB and LSB signal bandwidth relative to carrier frequency](../images/ssb-bandwidth.svg)
 
 Understanding your signal's bandwidth is crucial for legal operation, especially near band edges and sub-band boundaries. Remember:
 
-> **Key Information:** *When using 3 kHz wide LSB, your displayed carrier frequency should be at least 3 kHz above the edge of the phone segment to ensure all your signal remains within the band.* {{< link id="G4D10" >}}
+> **Key Information:** When using 3 kHz wide LSB, your displayed carrier frequency should be at least 3 kHz above the edge of the phone segment to ensure all your signal remains within the band. {{< link id="G4D10" >}}
 
-> **Key Information:** *When using 3 kHz wide USB, your displayed carrier frequency should be at least 3 kHz below the edge of the band to avoid out-of-band transmission.* {{< link id="G4D11" >}}
+> **Key Information:** When using 3 kHz wide USB, your displayed carrier frequency should be at least 3 kHz below the edge of the band to avoid out-of-band transmission. {{< link id="G4D11" >}}
 
 ![Diagram illustrating proper band edge operation](../images/band-edge-operation.svg)
 

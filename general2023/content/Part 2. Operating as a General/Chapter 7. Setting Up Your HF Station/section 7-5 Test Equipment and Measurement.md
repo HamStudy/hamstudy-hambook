@@ -13,7 +13,7 @@ You've built the perfect station—or so you think. That new amplifier sounds gr
 
 Want to see what your signal really looks like? Meet the oscilloscope—the instrument that reveals what meters hide:
 
-> **Key Information:** *An oscilloscope contains horizontal and vertical channel amplifiers.* {{< link id="G4B01" >}}
+> **Key Information:** An oscilloscope contains horizontal and vertical channel amplifiers. {{< link id="G4B01" >}}
 
 <img src="../images/oscilloscope-block-diagram.svg" alt="Block diagram of basic oscilloscope components" style="width: 450px; margin: 10px;">
 
@@ -21,7 +21,7 @@ Think of a scope as a signal camera—instead of capturing a moment, it captures
 
 Modern digital scopes add superpowers—freeze that glitch, measure automatically, filter digitally. But even a vintage analog scope beats flying blind:
 
-> **Key Information:** *An advantage of an oscilloscope versus a digital voltmeter is that complex waveforms can be measured.* {{< link id="G4B02" >}}
+> **Key Information:** An advantage of an oscilloscope versus a digital voltmeter is that complex waveforms can be measured. {{< link id="G4B02" >}}
 
 Voltmeters show numbers; scopes show truth:
 - **Peak reality**: Not average, not RMS—actual peaks
@@ -31,7 +31,7 @@ Voltmeters show numbers; scopes show truth:
 
 For CW operators, the scope becomes essential:
 
-> **Key Information:** *An oscilloscope is the best instrument to use for checking the keying waveform of a CW transmitter.* {{< link id="G4B03" >}}
+> **Key Information:** An oscilloscope is the best instrument to use for checking the keying waveform of a CW transmitter. {{< link id="G4B03" >}}
 
 <img src="../images/cw-keying-waveforms.svg" alt="Oscilloscope displays showing good vs poor CW keying waveforms" style="width: 450px; margin: 10px;">
 
@@ -43,7 +43,7 @@ That innocent-looking CW signal might hide sins:
 
 Ready to see your actual RF output?
 
-> **Key Information:** *The attenuated RF output of the transmitter is connected to the vertical input of an oscilloscope when checking the RF envelope pattern of a transmitted signal.* {{< link id="G4B04" >}}
+> **Key Information:** The attenuated RF output of the transmitter is connected to the vertical input of an oscilloscope when checking the RF envelope pattern of a transmitted signal. {{< link id="G4B04" >}}
 
 Critical warning: Raw transmitter output kills scopes instantly. You need serious attenuation—think 40-60 dB minimum. Use proper RF samplers, attenuator chains, or pickup loops. That 100-watt signal becomes scope-friendly milliwatts, revealing your signal's true nature without expensive smoke.
 
@@ -51,7 +51,7 @@ Critical warning: Raw transmitter output kills scopes instantly. You need seriou
 
 In the great meter debate, the winner is... both. Each type excels where the other struggles:
 
-> **Key Information:** *Voltmeters have high input impedance because it decreases the loading on circuits being measured.* {{< link id="G4B05" >}}
+> **Key Information:** Voltmeters have high input impedance because it decreases the loading on circuits being measured. {{< link id="G4B05" >}}
 
 <img src="../images/voltmeter-circuit-loading.svg" alt="Diagram showing how high vs low impedance affects circuit measurements" style="width: 400px; margin: 10px;">
 
@@ -59,7 +59,7 @@ Picture measuring battery voltage with a meter that draws an amp—suddenly you'
 
 Digital meters bring the precision:
 
-> **Key Information:** *Higher precision is an advantage of a digital multimeter as compared to an analog multimeter.* {{< link id="G4B06" >}}
+> **Key Information:** Higher precision is an advantage of a digital multimeter as compared to an analog multimeter. {{< link id="G4B06" >}}
 
 DMM superpowers include:
 - **Precision overkill**: 3½ to 6½ digits (because 12.567 volts matters)
@@ -70,7 +70,7 @@ DMM superpowers include:
 
 But don't toss that analog meter:
 
-> **Key Information:** *An analog multimeter is preferred to a digital multimeter when adjusting circuits for maximum or minimum values.* {{< link id="G4B09" >}}
+> **Key Information:** An analog multimeter is preferred to a digital multimeter when adjusting circuits for maximum or minimum values. {{< link id="G4B09" >}}
 
 That swinging needle tells stories digits can't:
 - **Peak hunting**: Watch the needle climb as you tune
@@ -84,13 +84,13 @@ Smart hams keep both—digital for precision, analog for feel.
 
 Want to know if your SSB signal is clean or splattering across the band? Two-tone testing reveals all:
 
-> **Key Information:** *Two non-harmonically related audio signals are used to conduct a two-tone test.* {{< link id="G4B07" >}}
+> **Key Information:** Two non-harmonically related audio signals are used to conduct a two-tone test. {{< link id="G4B07" >}}
 
 <img src="../images/two-tone-test-setup.svg" alt="Diagram of two-tone test setup and resulting pattern" style="width: 450px; margin: 10px;">
 
 Feed your transmitter two pure tones—say 700 Hz and 1900 Hz—and watch the scope. These non-harmonic frequencies create a complex envelope pattern that exposes every flaw in your signal chain:
 
-> **Key Information:** *Linearity is the transmitter performance parameter that a two-tone test analyzes.* {{< link id="G4B08" >}}
+> **Key Information:** Linearity is the transmitter performance parameter that a two-tone test analyzes. {{< link id="G4B08" >}}
 
 Linear means "what goes in comes out, just bigger." Non-linear means "welcome to splatter town":
 - **Adjacent channel mayhem**: Your signal spreads like spilled coffee
@@ -111,7 +111,7 @@ SWR meters tell you something's wrong. Antenna analyzers tell you what, where, a
 
 ##### The Antenna Analyzer: Your RF Detective
 
-> **Key Information:** *When using an antenna analyzer for SWR measurements, the antenna and feed line must be connected.* {{< link id="G4B11" >}}
+> **Key Information:** When using an antenna analyzer for SWR measurements, the antenna and feed line must be connected. {{< link id="G4B11" >}}
 
 <img src="../images/antenna-analyzer-usage.svg" alt="Proper connection of antenna analyzer to antenna system" style="width: 400px; margin: 10px;">
 
@@ -124,7 +124,7 @@ One instrument, multiple revelations:
 
 Graphical analyzers transform numbers into understanding—see that resonance dip, watch impedance dance across frequency. But beware the measurement gotcha:
 
-> **Key Information:** *Strong signals from nearby transmitters can cause received power that interferes with SWR readings on an antenna analyzer.* {{< link id="G4B12" >}}
+> **Key Information:** Strong signals from nearby transmitters can cause received power that interferes with SWR readings on an antenna analyzer. {{< link id="G4B12" >}}
 
 That kilowatt station next door? Their signal floods your analyzer, creating phantom SWR readings. The fixes:
 - **Timing**: Measure during quiet hours
@@ -136,7 +136,7 @@ Remember: Analyzers generate tiny test signals—nearby QRO stations overwhelm t
 
 ##### Beyond SWR: Cable Forensics
 
-> **Key Information:** *Impedance of coaxial cable can be measured with an antenna analyzer.* {{< link id="G4B13" >}}
+> **Key Information:** Impedance of coaxial cable can be measured with an antenna analyzer. {{< link id="G4B13" >}}
 
 Your analyzer becomes a cable detective:
 - **Impedance verification**: Is that really 50-ohm cable?

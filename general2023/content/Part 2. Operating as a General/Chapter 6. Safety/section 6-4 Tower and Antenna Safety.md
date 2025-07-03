@@ -17,7 +17,7 @@ Every tower climber faces the same enemy: gravity pulling at 32 feet per second 
 
 Your climbing harness isn't just equipment—it's a life insurance policy that pays off in seconds instead of dollars. But like any insurance, it only works if it's valid when you need it.
 
-> **Key Information:** *When climbing a tower using a safety harness, confirm that the harness is rated for the weight of the climber and that it is within its allowable service life.* {{< link id="G0B07" >}}
+> **Key Information:** When climbing a tower using a safety harness, confirm that the harness is rated for the weight of the climber and that it is within its allowable service life. {{< link id="G0B07" >}}
 
 <img src="../images/tower-climbing-harness.svg" alt="Diagram of proper tower climbing harness inspection points" style="width: 400px; margin: 10px;">
 
@@ -64,7 +64,7 @@ Towers attract more than RF signals—they conduct electricity with fatal effici
 
 Tower-mounted equipment creates a deadly trap. That receive preamp runs on 12 volts—harmless, right? Wrong. The surprise of unexpected voltage causes reflexive jerking that leads to falls. Worse, some towers carry control voltages for rotators, switching systems, or lighting that can deliver lethal shocks.
 
-> **Key Information:** *Before climbing a tower that supports electrically powered devices, make sure all circuits that supply power to the tower are locked out and tagged.* {{< link id="G0B08" >}}
+> **Key Information:** Before climbing a tower that supports electrically powered devices, make sure all circuits that supply power to the tower are locked out and tagged. {{< link id="G0B08" >}}
 
 <img src="../images/lockout-tagout.svg" alt="Diagram showing proper lockout-tagout procedure for tower electrical safety" style="width: 400px; margin: 10px;">
 

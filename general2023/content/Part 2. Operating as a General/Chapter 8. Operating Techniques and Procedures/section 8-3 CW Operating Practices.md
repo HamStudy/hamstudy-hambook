@@ -26,7 +26,7 @@ Here's what hooks operators: CW is pure radio. No computers, no complex protocol
 
 One of the most sophisticated forms of CW operation is "full break-in" or QSK:
 
-> **Key Information:** *Full break-in CW operation (QSK) means transmitting stations can receive between code characters and elements.* {{< link id="G2C01" >}}
+> **Key Information:** Full break-in CW operation (QSK) means transmitting stations can receive between code characters and elements. {{< link id="G2C01" >}}
 
 ![Diagram showing full break-in CW timing](../images/qsk-operation.svg)
 
@@ -43,7 +43,7 @@ Successful CW operation depends on more than just knowing Morse code—it requir
 
 ##### Choosing the Right Speed
 
-> **Key Information:** *The best speed to use when answering a CQ in Morse code is the fastest speed at which you are comfortable copying, but no faster than the CQ.* {{< link id="G2C05" >}}
+> **Key Information:** The best speed to use when answering a CQ in Morse code is the fastest speed at which you are comfortable copying, but no faster than the CQ. {{< link id="G2C05" >}}
 
 ![Chart illustrating CW speed matching concept](../images/cw-speed-matching.svg)
 
@@ -55,7 +55,7 @@ As you gain experience, you'll develop a feel for appropriate speed adjustments.
 
 Precise frequency alignment is essential for CW communication:
 
-> **Key Information:** *In CW operation, "zero beat" means matching the transmit frequency to the frequency of a received signal.* {{< link id="G2C06" >}}
+> **Key Information:** In CW operation, "zero beat" means matching the transmit frequency to the frequency of a received signal. {{< link id="G2C06" >}}
 
 ![Diagram showing zero-beat tuning process](../images/zero-beat-tuning.svg)
 
@@ -70,7 +70,7 @@ Pro tip: Practice zero-beating even if your rig has auto-tune. When you can nail
 
 When providing signal reports in CW, a standardized system helps convey valuable information:
 
-> **Key Information:** *When sending CW, a "C" added to the RST report means the signal has a chirpy or unstable signal.* {{< link id="G2C07" >}}
+> **Key Information:** When sending CW, a "C" added to the RST report means the signal has a chirpy or unstable signal. {{< link id="G2C07" >}}
 
 The RST system (Readability, Strength, Tone) includes a third element specifically for CW:
 - **R**: Readability from 1 (unreadable) to 5 (perfect)
@@ -83,7 +83,7 @@ Hearing chirp? It's like someone singing slightly off-key—tolerable but annoyi
 
 Standardized prosigns (procedural signals) help structure CW communications:
 
-> **Key Information:** *The prosign AR is sent to indicate the end of a formal message when using CW.* {{< link id="G2C08" >}}
+> **Key Information:** The prosign AR is sent to indicate the end of a formal message when using CW. {{< link id="G2C08" >}}
 
 ![Table of common CW prosigns and their meanings](../images/cw-prosigns.svg)
 
@@ -99,7 +99,7 @@ These special character combinations (sent without the normal spacing between le
 
 To minimize interference with other stations:
 
-> **Key Information:** *When selecting a CW transmitting frequency, a minimum separation of 150 to 500 Hz from other stations should be used to minimize interference.* {{< link id="G2B04" >}}
+> **Key Information:** When selecting a CW transmitting frequency, a minimum separation of 150 to 500 Hz from other stations should be used to minimize interference. {{< link id="G2B04" >}}
 
 ![Diagram showing proper CW frequency spacing](../images/cw-frequency-spacing.svg)
 
@@ -114,21 +114,21 @@ Here's the magic: Where one SSB conversation fits, you can squeeze in 10 CW QSOs
 
 Q-signals originated as three-letter codes to overcome language barriers in international maritime communications. They remain invaluable in CW operation, conveying common questions and statements efficiently:
 
-> **Key Information:** *The Q signal "QRS" means send slower.* {{< link id="G2C02" >}}
+> **Key Information:** The Q signal "QRS" means send slower. {{< link id="G2C02" >}}
 
 "QRS" is the CW equivalent of "Whoa, slow down!" No shame in sending it—we've all been there. Better to copy solid at 10 WPM than miss half the message at 20.
 
 Other essential Q-signals for CW operation include:
 
-> **Key Information:** *When a CW operator sends "KN" at the end of a transmission, they are listening only for a specific station or stations.* {{< link id="G2C03" >}}
+> **Key Information:** When a CW operator sends "KN" at the end of a transmission, they are listening only for a specific station or stations. {{< link id="G2C03" >}}
 
-> **Key Information:** *The Q signal "QRL?" means "Are you busy?" or "Is this frequency in use?"* {{< link id="G2C04" >}}
+> **Key Information:** The Q signal "QRL?" means "Are you busy?" or "Is this frequency in use?" {{< link id="G2C04" >}}
 
-> **Key Information:** *The Q signal "QSL" means "I have received and understood."* {{< link id="G2C09" >}}
+> **Key Information:** The Q signal "QSL" means "I have received and understood." {{< link id="G2C09" >}}
 
-> **Key Information:** *The Q signal "QRN" means "I am troubled by static."* {{< link id="G2C10" >}}
+> **Key Information:** The Q signal "QRN" means "I am troubled by static." {{< link id="G2C10" >}}
 
-> **Key Information:** *The Q signal "QRV" means "I am ready to receive."* {{< link id="G2C11" >}}
+> **Key Information:** The Q signal "QRV" means "I am ready to receive." {{< link id="G2C11" >}}
 
 ![Table of essential Q-signals for CW operation](../images/essential-q-signals.svg)
 

@@ -21,9 +21,9 @@ Forward voltage is the minimum voltage needed to make a diode start conducting c
 
 Different diode types have different forward voltage thresholds:
 
-> **Key Information:** *The approximate forward threshold voltage of a germanium diode is 0.3 volts.* {{< link id="G6A03" >}}
+> **Key Information:** The approximate forward threshold voltage of a germanium diode is 0.3 volts. {{< link id="G6A03" >}}
 
-> **Key Information:** *The approximate forward threshold voltage of a silicon junction diode is 0.7 volts.* {{< link id="G6A05" >}}
+> **Key Information:** The approximate forward threshold voltage of a silicon junction diode is 0.7 volts. {{< link id="G6A05" >}}
 
 Why does this matter in RF applications? RF signals are often very weak when received—sometimes just microvolts or millivolts. A germanium diode with its lower forward voltage (0.3V) can detect and process much weaker signals than a silicon diode (0.7V). This is why early crystal radios used germanium diodes—they could convert weak RF signals to audio with no amplification. In modern receivers, specialized Schottky diodes with even lower forward voltages are used in mixer and detector circuits to handle the weakest signals possible.
 
@@ -31,9 +31,9 @@ Why does this matter in RF applications? RF signals are often very weak when rec
 
 You might remember from your Technician studies that capacitors store energy in electric fields and block DC while passing AC. At radio frequencies, the type of capacitor you use becomes critical.
 
-> **Key Information:** *Electrolytic capacitors are characterized by high capacitance for a given volume.* {{< link id="G6A04" >}}
+> **Key Information:** Electrolytic capacitors are characterized by high capacitance for a given volume. {{< link id="G6A04" >}}
 
-> **Key Information:** *Low voltage ceramic capacitors are characterized by comparatively low cost.* {{< link id="G6A08" >}}
+> **Key Information:** Low voltage ceramic capacitors are characterized by comparatively low cost. {{< link id="G6A08" >}}
 
 While electrolytic capacitors pack impressive capacitance into small spaces, they have significant limitations at radio frequencies. Most importantly, they're polarized—designed for current to flow in only one direction. This is a major problem with RF signals, which rapidly alternate direction many millions of times per second. When the voltage reverses during the negative half of the AC cycle, a polarized capacitor can actually start to conduct (rather than block) current, and in extreme cases may be damaged.
 
@@ -47,7 +47,7 @@ Inductors (coils) are essential in RF circuits, helping to filter signals, match
 
 ##### Ferrite Cores: Frequency-Selective Materials
 
-> **Key Information:** *The performance of a ferrite core at different frequencies is determined by the composition, or "mix," of materials used.* {{< link id="G6B01" >}}
+> **Key Information:** The performance of a ferrite core at different frequencies is determined by the composition, or "mix," of materials used. {{< link id="G6B01" >}}
 
 Ferrite cores aren't "one-size-fits-all"—they're specifically formulated for different frequency ranges. It's like having different grades of tires for different road conditions.
 
@@ -55,7 +55,7 @@ A ferrite core that works beautifully at 3.5 MHz might be terrible at 28 MHz bec
 
 ##### Toroidal Inductors: Donut-Shaped Wonders
 
-> **Key Information:** *Advantages of using a ferrite core toroidal inductor include: large values of inductance may be obtained, the magnetic properties of the core may be optimized for a specific range of frequencies, and most of the magnetic field is contained in the core.* {{< link id="G6B05" >}}
+> **Key Information:** Advantages of using a ferrite core toroidal inductor include: large values of inductance may be obtained, the magnetic properties of the core may be optimized for a specific range of frequencies, and most of the magnetic field is contained in the core. {{< link id="G6B05" >}}
 
 Those donut-shaped ferrite cores you see in filters and antenna tuners offer significant advantages for RF applications:
 
@@ -69,7 +69,7 @@ Toroidal inductors have largely replaced older "solenoid" type coils in modern e
 
 Have you ever noticed that many computer cables have a cylindrical bulge near one end? Those are ferrite beads! 
 
-> **Key Information:** *A ferrite bead or core reduces common-mode RF current on the shield of a coaxial cable by creating an impedance in the current's path.* {{< link id="G6B10" >}}
+> **Key Information:** A ferrite bead or core reduces common-mode RF current on the shield of a coaxial cable by creating an impedance in the current's path. {{< link id="G6B10" >}}
 
 Ferrites work by distinguishing between two types of current: balanced currents (equal and opposite on different conductors) and unbalanced "common-mode" currents (flowing in the same direction on multiple conductors). The ferrite creates high impedance that blocks the unwanted common-mode RF currents while allowing the desired balanced signals to pass through with minimal effect.
 
@@ -79,7 +79,7 @@ In amateur radio, we use ferrites to prevent RF interference in audio equipment,
 
 Resistors seem simple, but at RF frequencies, their construction becomes critical:
 
-> **Key Information:** *Wire-wound resistors should not be used in RF circuits because the resistor's inductance could make circuit performance unpredictable.* {{< link id="G6A06" >}}
+> **Key Information:** Wire-wound resistors should not be used in RF circuits because the resistor's inductance could make circuit performance unpredictable. {{< link id="G6A06" >}}
 
 Wire-wound resistors are exactly what they sound like—wire wound around a form to create resistance. This winding creates an inductor along with the resistor—a hidden component that can cause havoc in RF circuits. It's like having a water pipe that mysteriously changes its diameter depending on how fast the water flows.
 
@@ -87,7 +87,7 @@ For RF work, carbon composition, metal film, or specialized RF resistors are muc
 
 #### LEDs: Light-Emitting Diodes
 
-> **Key Information:** *An LED is forward biased when emitting light.* {{< link id="G6B08" >}}
+> **Key Information:** An LED is forward biased when emitting light. {{< link id="G6B08" >}}
 
 "Forward biased" means voltage is applied in the correct direction—positive to the anode (longer lead) and negative to the cathode (shorter lead). Unlike incandescent bulbs, LEDs only work when connected with the proper polarity. This isn't specific to RF, but it's on the exam and important when using LEDs in station accessories or projects.
 

@@ -22,7 +22,7 @@ As you can see in the waveform comparison:
 
 #### Half-Wave Rectification
 
-> **Key Information:** *A half-wave rectifier is characterized by using only one diode.* {{< link id="G7A04" >}}
+> **Key Information:** A half-wave rectifier is characterized by using only one diode. {{< link id="G7A04" >}}
 
 <img src="../../../images/half-wave-rectifier.svg" alt="Half-Wave Rectifier Circuit schematic showing an AC source, one diode, and a load in a circuit" style="width: 300px; margin: 5px; float: right; padding: 5px; background-color: white;">
 
@@ -43,7 +43,7 @@ Despite its inefficiency (using only half the available power), half-wave rectif
 
 Full-wave rectifiers utilize the entire AC cycle, making them more efficient and easier to filter.
 
-> **Key Information:** *An unfiltered full-wave rectifier connected to a resistive load produces a series of DC pulses at twice the frequency of the AC input.* {{< link id="G7A07" >}}
+> **Key Information:** An unfiltered full-wave rectifier connected to a resistive load produces a series of DC pulses at twice the frequency of the AC input. {{< link id="G7A07" >}}
 
 The main advantage of full-wave rectification is its efficiency:
 - It utilizes both positive and negative portions of the AC cycle, effectively doubling the energy captured compared to half-wave rectification
@@ -54,7 +54,7 @@ The exam covers two common full-wave rectifier designs: center-tapped transforme
 
 ##### **Center-Tapped Transformer Design**
 
-> **Key Information:** *A full-wave rectifier circuit using a center-tapped transformer uses two diodes.* {{< link id="G7A03" >}}
+> **Key Information:** A full-wave rectifier circuit using a center-tapped transformer uses two diodes. {{< link id="G7A03" >}}
 
 <img src="../../../images/center-tap-rectifier.svg" alt="Center-Tapped Full-Wave Rectifier" style="width: 350px; float: right; margin: 5px; padding: 5px; background-color: white;">
 
@@ -113,3 +113,33 @@ In practical circuits, the diode forward voltage drop affects the output. Each s
 For high-power applications, this voltage drop represents wasted power and heat generation in the diodes.
 
 Most amateur radio power supplies use full-wave rectification because of these advantages, with bridge rectifiers being the most common in modern designs due to their flexibility and the low cost of diodes.
+
+#### Filtering: Smoothing the Pulses
+
+Rectification alone produces pulsating DC—not the smooth, constant voltage our radio equipment needs. The next step is filtering, which smooths these pulses into steady DC.
+
+> **Key Information:** Capacitors and inductors are used in a power supply filter network. {{< link id="G7A02" >}}
+
+The most common filter configuration uses large electrolytic capacitors that charge during voltage peaks and discharge during valleys, filling in the gaps to create smoother DC. Inductors can also be used in filter circuits, resisting current changes and further smoothing the output.
+
+#### Safety: Bleeder Resistors
+
+When you turn off a power supply, those large filter capacitors can retain dangerous charges for minutes or even hours. This creates a serious shock hazard for anyone working on the equipment.
+
+> **Key Information:** A power supply bleeder resistor discharges the filter capacitors when power is removed. {{< link id="G7A01" >}}
+
+Bleeder resistors are high-value resistors connected across the filter capacitors. They provide a discharge path that safely drains stored energy when the power supply is turned off. While they do consume a small amount of power during operation, the safety benefit far outweighs this minor inefficiency.
+
+#### Modern Alternative: Switchmode Power Supplies
+
+Traditional linear power supplies work well but tend to be large and heavy due to their 60 Hz transformers and massive filter capacitors. Switchmode (switching) power supplies offer a more compact alternative.
+
+> **Key Information:** High-frequency operation allows switchmode power supplies to use smaller components compared to linear power supplies. {{< link id="G7A08" >}}
+
+Instead of transforming 60 Hz AC directly, switchmode supplies:
+1. Rectify the incoming AC to DC
+2. Use high-speed switching transistors to create high-frequency AC (typically 20-200 kHz)
+3. Transform this high-frequency AC to the desired voltage
+4. Rectify and filter the output
+
+Because transformers and filter components can be much smaller at higher frequencies, switchmode supplies achieve the same power output in a fraction of the size and weight. This is why modern transceivers use switchmode supplies despite their increased complexity.

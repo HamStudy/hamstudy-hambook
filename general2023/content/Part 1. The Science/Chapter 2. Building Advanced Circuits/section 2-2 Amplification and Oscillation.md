@@ -21,7 +21,7 @@ Transistors are semiconductor devices that form the foundation of modern electro
 
 Bipolar transistors consist of three semiconductor layers (collector, base, and emitter). A small current through the base controls a much larger current between collector and emitter.
 
-> **Key Information:** *A bipolar transistor used as a switch has two operating points: saturation and cutoff.* {{< link id="G6A07" >}}
+> **Key Information:** A bipolar transistor used as a switch has two operating points: saturation and cutoff. {{< link id="G6A07" >}}
 
 When used as a switch:
 - In **cutoff**, the transistor blocks current flow (like an open switch)
@@ -31,7 +31,7 @@ When used as a switch:
 
 FETs use an electric field, rather than current, to control the flow of current through a semiconductor channel.
 
-> **Key Information:** *In MOSFET construction, the gate is separated from the channel by a thin insulating layer.* {{< link id="G6A09" >}}
+> **Key Information:** In MOSFET construction, the gate is separated from the channel by a thin insulating layer. {{< link id="G6A09" >}}
 
 This insulating layer creates an extremely high input impedance, as virtually no current flows into the gate. The voltage at the gate creates an electric field that controls current flow between the source and drain.
 
@@ -43,11 +43,11 @@ Though largely replaced by solid-state devices in modern equipment, vacuum tubes
 
 Vacuum tubes work by controlling a stream of electrons flowing from a heated cathode to a plate (anode) through a vacuum.
 
-> **Key Information:** *The control grid in a vacuum tube regulates the flow of electrons between cathode and plate.* {{< link id="G6A10" >}}
+> **Key Information:** The control grid in a vacuum tube regulates the flow of electrons between cathode and plate. {{< link id="G6A10" >}}
 
 The control grid acts like a gate, varying electron flow based on its voltage. Small voltage changes on the grid cause large changes in plate current, providing amplification.
 
-> **Key Information:** *The primary purpose of a screen grid in a vacuum tube is to reduce grid-to-plate capacitance.* {{< link id="G6A12" >}}
+> **Key Information:** The primary purpose of a screen grid in a vacuum tube is to reduce grid-to-plate capacitance. {{< link id="G6A12" >}}
 
 The screen grid sits between the control grid and plate, reducing capacitance between them. This prevents unwanted oscillation in RF amplifiers and was a critical advancement in radio technology.
 
@@ -62,7 +62,7 @@ Amplifier "classes" (`A`, `B`, `AB`, `C`) describe when a transistor or tube con
 
 ##### Amplifier Efficiency
 
-> **Key Information:** *The efficiency of an RF power amplifier is determined by dividing the RF output power by the DC input power.* {{< link id="G7B08" >}}
+> **Key Information:** The efficiency of an RF power amplifier is determined by dividing the RF output power by the DC input power. {{< link id="G7B08" >}}
 >
 > $$\text{Efficiency} = \frac{RF_{output}}{DC_{input}} \cdot 100\%$$
 
@@ -76,7 +76,7 @@ Different amplifier classes have different typical efficiencies:
 
 ##### Amplifier Linearity
 
-> **Key Information:** *A linear amplifier preserves the input waveform in the output.* {{< link id="G7B10" >}}
+> **Key Information:** A linear amplifier preserves the input waveform in the output. {{< link id="G7B10" >}}
 
 Linearity refers to how faithfully an amplifier reproduces its input signal. In a perfectly linear amplifier, the output is an exact (but larger) copy of the input. This is crucial for modes where the signal's shape contains information, such as:
 - SSB voice operation
@@ -87,17 +87,17 @@ Now let's look at the main amplifier classes:
 
 ##### Class `A` Amplifiers: Maximum Fidelity
 
-> **Key Information:** *In a Class `A` amplifier, the amplifying device conducts current 100% of the time.* {{< link id="G7B04" >}}
+> **Key Information:** In a Class `A` amplifier, the amplifying device conducts current 100% of the time. {{< link id="G7B04" >}}
 
 Class `A` amplifiers provide excellent linearity but low efficiency (typically under 30%). Since the device conducts during the entire waveform cycle, the output faithfully reproduces the input. You'll find Class A amplification in receiver front ends and low-level stages where signal accuracy is crucial.
 
 ##### Class `C` Amplifiers: Maximum Efficiency
 
-> **Key Information:** *Class C amplifiers have the highest efficiency of these classes.* {{< link id="G7B02" >}}
+> **Key Information:** Class C amplifiers have the highest efficiency of these classes. {{< link id="G7B02" >}}
 
 Class C amplifiers conduct for less than 50% of the waveform cycle, achieving high efficiency (up to 80%) but significantly distorting the signal's amplitude.
 
-> **Key Information:** *A Class C power stage is appropriate for amplifying FM signals.* {{< link id="G7B11" >}}
+> **Key Information:** A Class C power stage is appropriate for amplifying FM signals. {{< link id="G7B11" >}}
 
 Since FM encodes information in frequency rather than amplitude, the distortion introduced by Class C doesn't affect the information content, making it ideal for FM transmitters.
 
@@ -109,7 +109,7 @@ Class B (50% conduction) and Class AB (50-100% conduction) offer a compromise be
 
 Oscillators generate the RF signals that get amplified in transmitters and used for frequency conversion in receivers:
 
-> **Key Information:** *The basic components of a sine wave oscillator are a filter and an amplifier operating in a feedback loop.* {{< link id="G7B07" >}}
+> **Key Information:** The basic components of a sine wave oscillator are a filter and an amplifier operating in a feedback loop. {{< link id="G7B07" >}}
 
 An oscillator needs three elements:
 1. Amplification to overcome losses
@@ -122,7 +122,7 @@ The frequency selection in many oscillators comes from an LC (inductor-capacitor
 
 Modern transceivers often use direct digital synthesis (DDS) for frequency generation:
 
-> **Key Information:** *A direct digital synthesizer (DDS) is characterized by variable output frequency with the stability of a crystal oscillator.* {{< link id="G7C05" >}}
+> **Key Information:** A direct digital synthesizer (DDS) is characterized by variable output frequency with the stability of a crystal oscillator. {{< link id="G7C05" >}}
 
 DDS systems use digital techniques to generate analog waveforms, providing fast frequency changes with excellent stability.
 
@@ -130,7 +130,7 @@ DDS systems use digital techniques to generate analog waveforms, providing fast 
 
 Preventing unwanted oscillation is critical in amplifier design:
 
-> **Key Information:** *The purpose of neutralizing an amplifier is to eliminate self-oscillations.* {{< link id="G7B01" >}}
+> **Key Information:** The purpose of neutralizing an amplifier is to eliminate self-oscillations. {{< link id="G7B01" >}}
 
 Self-oscillation occurs when some of an amplifier's output feeds back to its input in the right phase to create a feedback loop. Neutralization techniques cancel out this unwanted feedback, typically by feeding back an equal but opposite signal.
 
@@ -138,7 +138,7 @@ Self-oscillation occurs when some of an amplifier's output feeds back to its inp
 
 One last important concept for amplifier design is inductor self-resonance:
 
-> **Key Information:** *When an inductor is operated above its self-resonant frequency, it becomes capacitive.* {{< link id="G6A11" >}}
+> **Key Information:** When an inductor is operated above its self-resonant frequency, it becomes capacitive. {{< link id="G6A11" >}}
 
 Every inductor has some parasitic capacitance between its windings. At a certain frequency (the self-resonant frequency), this capacitance resonates with the inductance. Above this frequency, the component behaves more like a capacitor than an inductor—a critical consideration because this unexpected behavior can cause tank circuits to malfunction and amplifiers to become unstable at higher frequencies.
 

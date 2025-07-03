@@ -69,7 +69,7 @@ Notice the pattern: Resistors and inductors follow the same rules (direct sum in
 
 #### Resistors in Combination
 
-> **Key Information:** *When resistors are in series, their values add. When resistors are in parallel, the total resistance is always less than the smallest resistor in the group.*
+> **Key Information:** When resistors are in series, their values add. When resistors are in parallel, the total resistance is always less than the smallest resistor in the group.
 
 ##### **Resistors in Series (Direct Sum Method):**
 When resistors are connected end-to-end, their values simply add:
@@ -113,7 +113,7 @@ R_{\text{total}} &= \frac{R_1 \cdot R_2}{R_1 + R_2} \\[1.25em]
 
 Capacitors store energy in electric fields, typically between two parallel metal plates, and follow combination rules opposite to resistors. The capacitance of the capacitor is proportional to the surface area of the metal plates.
 
-> **Key Information:** *To increase the total capacitance in a circuit, add a capacitor in parallel.* {{< link id="G5C13" >}}
+> **Key Information:** To increase the total capacitance in a circuit, add a capacitor in parallel. {{< link id="G5C13" >}}
 
 ##### **Capacitors in Parallel (Direct Sum Method):**
 When capacitors are connected in parallel, their values add:
@@ -164,7 +164,7 @@ C_{\text{total}} &= \frac{C_1 \cdot C_2}{C_1 + C_2} \\[1.25em]
 
 Inductors store energy in magnetic fields and follow rules similar to resistors.
 
-> **Key Information:** *To increase the total inductance in a circuit, add an inductor in series.* {{< link id="G5C14" >}}
+> **Key Information:** To increase the total inductance in a circuit, add an inductor in series. {{< link id="G5C14" >}}
 
 ##### **Inductors in Series (Direct Sum Method):**
 When inductors are connected in series (and are not magnetically coupled), their values add:

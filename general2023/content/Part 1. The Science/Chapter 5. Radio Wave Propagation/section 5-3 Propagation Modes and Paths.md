@@ -37,7 +37,7 @@ Here's where propagation gets mind-bending: every DX station offers two possible
 
 When both paths are open simultaneously, nature provides an unmistakable clue. {{< link id="G3B01" >}}
 
-> **Key Information:** *A characteristic of skywave signals arriving at your location by both short-path and long-path propagation is a slightly delayed echo.*
+> **Key Information:** A characteristic of skywave signals arriving at your location by both short-path and long-path propagation is a slightly delayed echo.
 
 This echo results from the 8,000-mile difference in path lengths. The long path signal arrives milliseconds after the short path, creating a hollow, reverberant sound. Hearing your own echo on the air? Congratulations—your signal just circled the globe!
 
@@ -59,11 +59,11 @@ Instead of a clean reflection, scatter occurs when your signal hits irregulariti
 
 That distinctive flutter comes from multiple signal paths arriving with different delays and phases. It's unmistakable—like someone rapidly varying the volume while talking. The multiple paths create the distortion, but they also create opportunity. {{< link id="G3C09" >}}
 
-> **Key Information:** *Scatter propagation allows signals to be heard in the skip zone.*
+> **Key Information:** Scatter propagation allows signals to be heard in the skip zone.
 
 The catch? Scatter is inefficient. {{< link id="G3C08" >}}
 
-> **Key Information:** *HF scatter signals in the skip zone are usually weak because only a small part of the signal energy is scattered into the skip zone.*
+> **Key Information:** HF scatter signals in the skip zone are usually weak because only a small part of the signal energy is scattered into the skip zone.
 
 Working scatter requires patience and good ears. Signals barely rise above the noise. QSOs proceed slowly. But when you need to reach someone in that 500-mile dead zone, scatter might be your only option. Digital modes excel here—their ability to decode weak signals makes scatter contacts practical.
 
@@ -83,7 +83,7 @@ Summer afternoons bring prime Sporadic E season, particularly May through August
 
 Your emergency net covers three states. The disaster zone spans 200 miles. Skip propagation overshoots everyone you need to reach. This is where NVIS saves the day—a propagation mode designed for reliable regional coverage that fills the gap between ground wave and skip.
 
-> **Key Information:** *Near Vertical Incidence Skywave (NVIS) propagation is short distance MF or HF propagation at high elevation angles.* {{< link id="G3C10" >}}
+> **Key Information:** Near Vertical Incidence Skywave (NVIS) propagation is short distance MF or HF propagation at high elevation angles. {{< link id="G3C10" >}}
 
 <img src="../images/nvis-propagation.svg" alt="NVIS Propagation Diagram" style="width: 400px; margin: 10px;">
 
@@ -107,7 +107,7 @@ Gone are the days of calling CQ into dead bands hoping for magic. Today's tools 
 
 Want instant feedback on your actual signal? Modern technology delivers. {{< link id="G3B04" >}}
 
-> **Key Information:** *A way to determine if current propagation on a desired band from your station is by using a network of automated receiving stations on the internet to see where your transmissions are being received.*
+> **Key Information:** A way to determine if current propagation on a desired band from your station is by using a network of automated receiving stations on the internet to see where your transmissions are being received.
 
 The Reverse Beacon Network (RBN) revolutionized propagation assessment. Call CQ on CW, and within seconds, a worldwide network of automated receivers reports where you're being heard. Signal strength, exact frequency, even CW speed—all displayed on your screen in real time. PSK Reporter does the same for digital modes, painting a global map of your signal's reach.
 
@@ -121,13 +121,13 @@ These networks reveal propagation secrets:
 
 Success in HF means playing within nature's rules. {{< link id="G3B02" >}}
 
-> **Key Information:** *The MUF (Maximum Usable Frequency) is affected by path distance and location, time of day and season, and solar radiation and ionospheric disturbances.*
+> **Key Information:** The MUF (Maximum Usable Frequency) is affected by path distance and location, time of day and season, and solar radiation and ionospheric disturbances.
 
 MUF isn't one number—it's different for every path at every moment. New York to London might support 21 MHz while New York to Tokyo peaks at 14 MHz. Understanding these variations lets you choose bands that actually work rather than hoping for miracles.
 
 The winning strategy? {{< link id="G3B03" >}}
 
-> **Key Information:** *The frequency that will have the least attenuation for long-distance skip propagation is just below the MUF.*
+> **Key Information:** The frequency that will have the least attenuation for long-distance skip propagation is just below the MUF.
 
 Operating just below MUF hits the sweet spot:
 - High enough to minimize D-region absorption
@@ -145,7 +145,7 @@ The propagation calendar shapes your operating success as much as solar cycles. 
 
 Just when evening brings cooler temperatures perfect for radio time, summer delivers a frustrating surprise. {{< link id="G3B12" >}}
 
-> **Key Information:** *During the summer, the lower HF frequencies typically experience high levels of atmospheric noise or static.*
+> **Key Information:** During the summer, the lower HF frequencies typically experience high levels of atmospheric noise or static.
 
 That crackling, popping noise making 80 meters unbearable? Thank the thousands of thunderstorms raging across the tropics. Each lightning strike acts like a broadband transmitter, spraying radio noise across the spectrum. The lower bands—160, 80, and 40 meters—take the worst beating. Your S-meter sits at S7 from noise alone. Weak DX signals disappear in the static crashes.
 

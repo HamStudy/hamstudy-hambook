@@ -17,21 +17,21 @@ As a Technician, you likely focused on FM operation on VHF and UHF bands. On HF,
 
 ##### Sideband Selection: USB vs. LSB
 
-> **Key Information:** *Upper sideband (USB) is most commonly used for voice communications on frequencies of 14 MHz or higher.* {{< link id="G2A01" >}}
+> **Key Information:** Upper sideband (USB) is most commonly used for voice communications on frequencies of 14 MHz or higher. {{< link id="G2A01" >}}
 
 ![Diagram showing which sidebands are used on different bands](../images/sideband-selection.svg)
 
 The HF bands follow a convention for which sideband to use:
 
-> **Key Information:** *Lower sideband (LSB) is most commonly used for voice communications on the 160-, 75-, and 40-meter bands.* {{< link id="G2A02" >}}
+> **Key Information:** Lower sideband (LSB) is most commonly used for voice communications on the 160-, 75-, and 40-meter bands. {{< link id="G2A02" >}}
 
 This pattern continues into the VHF range:
 
-> **Key Information:** *Upper sideband (USB) is most commonly used for SSB voice communications in the VHF and UHF bands.* {{< link id="G2A03" >}}
+> **Key Information:** Upper sideband (USB) is most commonly used for SSB voice communications in the VHF and UHF bands. {{< link id="G2A03" >}}
 
 For the less commonly used bands:
 
-> **Key Information:** *Upper sideband (USB) is most commonly used for voice communications on the 17- and 12-meter bands.* {{< link id="G2A04" >}}
+> **Key Information:** Upper sideband (USB) is most commonly used for voice communications on the 17- and 12-meter bands. {{< link id="G2A04" >}}
 
 Why does this matter? Try listening to someone using the wrong sideband—they'll sound like they're speaking through a kazoo underwater. Following the convention ensures everyone can understand each other.
 
@@ -46,15 +46,15 @@ Why do we use LSB on lower bands and USB on higher bands? This is primarily a hi
 
 Your first SSB experience might surprise you. Where's the squelch? Why does everyone sound like Donald Duck until you tune precisely? Don't worry—your ears will quickly adapt, and you'll discover why SSB dominates HF:
 
-> **Key Information:** *Single sideband is the most commonly used voice mode on the HF amateur bands.* {{< link id="G2A05" >}}
+> **Key Information:** Single sideband is the most commonly used voice mode on the HF amateur bands. {{< link id="G2A05" >}}
 
-> **Key Information:** *Less bandwidth used and greater power efficiency are advantages of single sideband compared to other analog voice modes on the HF amateur bands.* {{< link id="G2A06" >}}
+> **Key Information:** Less bandwidth used and greater power efficiency are advantages of single sideband compared to other analog voice modes on the HF amateur bands. {{< link id="G2A06" >}}
 
 ![Diagram showing SSB efficiency compared to other voice modes](../images/ssb-bandwidth-efficiency.svg)
 
 SSB transmits only one sideband of the amplitude-modulated signal, eliminating the carrier and other sideband:
 
-> **Key Information:** *In single sideband, only one sideband is transmitted while the carrier and other sideband are suppressed.* {{< link id="G2A07" >}}
+> **Key Information:** In single sideband, only one sideband is transmitted while the carrier and other sideband are suppressed. {{< link id="G2A07" >}}
 
 This efficiency translates to:
 - Using approximately 1/3 the bandwidth of AM
@@ -68,7 +68,7 @@ Think of it this way: SSB is like a fuel-efficient car that can go three times f
 
 If you're wondering why there's this division between upper and lower bands:
 
-> **Key Information:** *Most amateur stations use lower sideband on the 160-, 75-, and 40-meter bands because it is commonly accepted practice, not due to technical advantages.* {{< link id="G2A09" >}}
+> **Key Information:** Most amateur stations use lower sideband on the 160-, 75-, and 40-meter bands because it is commonly accepted practice, not due to technical advantages. {{< link id="G2A09" >}}
 
 While the convention began partly due to early equipment designs, today it's simply standard practice. Using the opposite sideband will make your transmission sound unintelligible to others listening with the conventional sideband selected.
 
@@ -80,7 +80,7 @@ With numerous frequencies available across multiple bands, how do you decide whe
 
 Ever wonder how thousands of hams share the bands without chaos? Band plans are our gentleman's agreement—voluntary guidelines that keep CW operators from accidentally landing in the middle of a phone roundtable:
 
-> **Key Information:** *Following the voluntary band plan for the operating mode you are using is commonly accepted amateur practice when choosing a frequency on which to initiate a call.* {{< link id="G2B07" >}}
+> **Key Information:** Following the voluntary band plan for the operating mode you are using is commonly accepted amateur practice when choosing a frequency on which to initiate a call. {{< link id="G2B07" >}}
 
 ![Sample band plan showing different mode segments](../images/bandplan-example.svg)
 
@@ -95,7 +95,7 @@ Consulting a current band plan before operating helps maintain harmony on the ba
 
 Some frequency ranges have special purposes:
 
-> **Key Information:** *In the 50.1 MHz to 50.125 MHz band segment, stations within the 48 contiguous states should only contact stations not within the 48 contiguous states.* {{< link id="G2B08" >}}
+> **Key Information:** In the 50.1 MHz to 50.125 MHz band segment, stations within the 48 contiguous states should only contact stations not within the 48 contiguous states. {{< link id="G2B08" >}}
 
 This segment is reserved for DX (long distance) contacts. Stations in the continental US should use it only to contact stations outside the continental US, preserving this spectrum for intercontinental communication opportunities.
 

@@ -15,13 +15,13 @@ As a General class operator, DSP can be one of your most valuable tools for copy
 
 One of the most important DSP applications is advanced filtering:
 
-> **Key Information:** *An advantage of DSP filters compared to analog filters is that a wide range of filter bandwidths and shapes can be created.* {{< link id="G7C06" >}}
+> **Key Information:** An advantage of DSP filters compared to analog filters is that a wide range of filter bandwidths and shapes can be created. {{< link id="G7C06" >}}
 
 Traditional analog radios use fixed hardware filters—specific components that create unchangeable characteristics. Want a different filter? You need different hardware. DSP changes this by processing signals mathematically, allowing the same hardware to create a 200 Hz CW filter, a 2.8 kHz SSB filter, or anything in between—just by changing the software. While it would in theory be possible to do all the same things with hardware filters (and possibly they would be more efficient), it would require a lot more hardware to do it – at significantly higher cost. DSP opens up a world of possibilities for flexibility and performance both.
 
 #### Software-Defined Radio: The Ultimate DSP
 
-> **Key Information:** *Filtering, detection, and modulation are all functions performed by software in a software-defined radio.* {{< link id="G7C11" >}}
+> **Key Information:** Filtering, detection, and modulation are all functions performed by software in a software-defined radio. {{< link id="G7C11" >}}
 
 In Software-Defined Radio (SDR), nearly everything happens in software rather than hardware circuits. The radio becomes essentially a computer with an antenna input. This flexibility explains why SDR technology is rapidly becoming the foundation for new amateur radio equipment.
 
@@ -29,11 +29,11 @@ In Software-Defined Radio (SDR), nearly everything happens in software rather th
 
 Modern DSP radios use a special technique involving I and Q signals:
 
-> **Key Information:** *The phase difference between the I and Q RF signals that software-defined radio equipment uses for modulation and demodulation is 90 degrees.* {{< link id="G7C09" >}}
+> **Key Information:** The phase difference between the I and Q RF signals that software-defined radio equipment uses for modulation and demodulation is 90 degrees. {{< link id="G7C09" >}}
 
 The "I" (In-phase) and "Q" (Quadrature) signals are two copies of the same signal, but one is shifted exactly 90 degrees in phase. Remember our phase concepts from Section 1.2? This 90-degree relationship allows sophisticated signal processing.
 
-> **Key Information:** *An advantage of using I-Q modulation with software-defined radios is that all types of modulation can be created with appropriate processing.* {{< link id="G7C10" >}}
+> **Key Information:** An advantage of using I-Q modulation with software-defined radios is that all types of modulation can be created with appropriate processing. {{< link id="G7C10" >}}
 
 By mathematically manipulating the I and Q signals, the same hardware can generate AM, FM, SSB, PSK, FSK, or any other modulation type. This is why modern transceivers can switch between modes instantly and support new digital modes through firmware updates.
 
