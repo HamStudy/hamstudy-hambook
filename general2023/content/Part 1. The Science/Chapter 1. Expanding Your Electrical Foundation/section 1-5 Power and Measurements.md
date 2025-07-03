@@ -30,6 +30,10 @@ P &= I^2 \times R
 
 These equations allow us to calculate power in any circuit when we know at least two of the following: voltage, current, or resistance.
 
+For example:
+- With 12 volts and 0.2 amperes: {{< link id="G5B04" >}} $P = I \times E = 0.2A \times 12V = 2.4W$
+- With 7 milliamperes through 1,250 ohms: {{< link id="G5B05" >}} $P = I^2 \times R = (0.007A)^2 \times 1250\Omega = 0.061W = 61mW$
+
 Let's look at a basic power calculation example:
 
 If we apply 400 VDC to an 800-ohm load, we can calculate the power: {{< link id="G5B03" >}}
@@ -60,6 +64,13 @@ $E_{RMS} = E_{peak} \cdot \frac{1}{\sqrt{2}} \approx 0.707 \cdot E_{peak}$
 
 This mathematical relationship is why we can use Ohm's Law with AC circuits—when we use RMS values, the power calculations give the true power. When you hear that household electricity is 120 volts, that's the RMS value, not the 170-volt peak.
 
+Conversely:
+- If you have 17 volts peak AC, the RMS voltage is: {{< link id="G5B09" >}} $E_{RMS} = \frac{17V}{1.414} = 12V$
+- If you have 120 volts RMS AC, the peak-to-peak voltage is: {{< link id="G5B08" >}} $E_{p-p} = 120V \times 2.828 = 339.4V$
+
+We can also calculate RMS voltage from power measurements:
+- With 1200 watts dissipated across 50 ohms: {{< link id="G5B12" >}} $E_{RMS} = \sqrt{P \times R} = \sqrt{1200W \times 50\Omega} = \sqrt{60000} = 245V$
+
 The following table shows the relationships between different AC voltage measurements:
 
 | Measure        | Relationship to RMS |
@@ -85,6 +96,10 @@ $$PEP = \frac{E_{peak}^2}{2R}$$
 When working with peak-to-peak voltage measurements, this becomes:
 
 $$PEP = \frac{(\frac{E_{p-p}}{2})^2}{2R} = \frac{E_{p-p}^2}{8R}$$
+
+For example:
+- With 200 volts peak-to-peak across 50 ohms: {{< link id="G5B06" >}} $PEP = \frac{(200V)^2}{8 \times 50\Omega} = \frac{40000}{400} = 100W$
+- With 500 volts peak-to-peak across 50 ohms: {{< link id="G5B14" >}} $PEP = \frac{(500V)^2}{8 \times 50\Omega} = \frac{250000}{400} = 625W$
 
 #### Logarithmic Measurements: Decibels
 
