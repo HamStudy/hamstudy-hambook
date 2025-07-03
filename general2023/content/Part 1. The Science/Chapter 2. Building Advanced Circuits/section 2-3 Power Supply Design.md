@@ -1,9 +1,26 @@
 ---
 chapter: "2"
 section: "2.3"
-questions: ["G7A01", "G7A02", "G7A03", "G7A04", "G7A05", "G7A06", "G7A07", "G7A08"]
+questions: ["G7A05", "G7A06", "G7A04", "G7A07", "G7A03", "G7A02", "G7A01", "G7A08"]
 status: draft1
 ---
+
+### Section 2.3: Power Supply Fundamentals
+
+Now that we've explored how transistors and tubes amplify signals, let's turn our attention to what powers them. Every piece of electronic equipment in your shack needs clean, stable DC power to operate properly. Your household outlets provide AC power, so we need a way to convert that alternating current into the direct current our radios require.
+
+Understanding power supplies isn't just about passing your exam—it's about knowing how to troubleshoot problems, select the right power source for your equipment, and even build or repair your own supplies. Whether you're setting up a new station or trying to track down that annoying hum in your transmitted audio, these fundamentals will serve you well.
+
+#### The Power Supply Journey: From AC to DC
+
+Converting AC from your wall outlet to clean DC for your radio involves several stages. Think of it like refining crude oil into gasoline—each step removes unwanted components and brings us closer to the pure product we need. The basic stages are:
+
+1. **Transformation** - Changing the voltage level (if needed)
+2. **Rectification** - Converting AC to pulsating DC
+3. **Filtering** - Smoothing the pulses into steady DC
+4. **Regulation** - Maintaining constant voltage despite load changes
+
+Let's explore each of these stages in detail.
 
 #### Rectification: Converting AC to DC
 
@@ -79,7 +96,7 @@ The bridge rectifier uses four diodes arranged to:
 - Eliminate the need for a center-tapped transformer
 - Provide full-wave rectification with a standard transformer
 
-To illustrate the current path we'll use compass points – N, E, S, W (going clockwise starting at the top of the diagram on the right). We'll use the "positive to negative" convention of tracing current flow.
+To illustrate the current path we'll use compass points – N, E, S, W (going clockwise starting at the top of the diagram on the right). We'll use the "positive to negative" convention of tracing current flow.
 
 <div style="clear:both;"></div>
 
@@ -122,6 +139,8 @@ Rectification alone produces pulsating DC—not the smooth, constant voltage our
 
 The most common filter configuration uses large electrolytic capacitors that charge during voltage peaks and discharge during valleys, filling in the gaps to create smoother DC. Inductors can also be used in filter circuits, resisting current changes and further smoothing the output.
 
+Think of filter capacitors like water towers in a municipal water system. During periods of high flow (voltage peaks), they fill up. During periods of low flow (voltage valleys), they release their stored energy to maintain pressure (voltage). The larger the capacitor, the more energy it can store and the smoother the output becomes.
+
 #### Safety: Bleeder Resistors
 
 When you turn off a power supply, those large filter capacitors can retain dangerous charges for minutes or even hours. This creates a serious shock hazard for anyone working on the equipment.
@@ -129,6 +148,8 @@ When you turn off a power supply, those large filter capacitors can retain dange
 > **Key Information:** A power supply bleeder resistor discharges the filter capacitors when power is removed. {{< link id="G7A01" >}}
 
 Bleeder resistors are high-value resistors connected across the filter capacitors. They provide a discharge path that safely drains stored energy when the power supply is turned off. While they do consume a small amount of power during operation, the safety benefit far outweighs this minor inefficiency.
+
+Never assume a power supply is safe just because it's unplugged! Those capacitors can deliver a painful or even dangerous shock. Always wait for bleeder resistors to do their job, or manually discharge capacitors through an appropriate resistor before working on equipment.
 
 #### Modern Alternative: Switchmode Power Supplies
 
@@ -143,3 +164,9 @@ Instead of transforming 60 Hz AC directly, switchmode supplies:
 4. Rectify and filter the output
 
 Because transformers and filter components can be much smaller at higher frequencies, switchmode supplies achieve the same power output in a fraction of the size and weight. This is why modern transceivers use switchmode supplies despite their increased complexity.
+
+The tradeoff? Switchmode supplies can generate RF interference due to their high-frequency switching. Good design and shielding minimize this issue, but it's something to consider when choosing between linear and switching supplies for your station.
+
+---
+
+Understanding power supplies helps you make informed decisions about your station equipment. Whether you're selecting a new supply, troubleshooting voltage problems, or building your own, these fundamentals provide the foundation you need. Next, we'll explore digital circuits and see how modern radios use digital technology to enhance performance.
