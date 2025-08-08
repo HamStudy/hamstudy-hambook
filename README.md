@@ -63,7 +63,7 @@ The **ebook (PDF/EPUB) and paperback versions are NOT covered under the Creative
 
 By purchasing this book, you agree to these terms.
 
-**To obtain a legal copy, visit:** [insert store link]
+**To obtain a legal copy, visit:** https://signalstuff.com/products/hambook-tech2022/
 
 ## About HamStudy.org
 
