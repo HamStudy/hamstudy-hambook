@@ -1,21 +1,21 @@
 ---
 chapter: "1"
 section: "1.3"
-questions: ["G7B09", "G7C12", "G7C14", "G7C13", "G7C07", "G5A10"]
+questions: ["G7B09", "G7C12", "G7C14", "G7C07", "G7C13", "G5A10"]
 status: draft1
 ---
 
 ### Section 1.3: Resonance and Filters
 
-Once you've got your General license, you'll discover the HF bands are much more crowded than VHF/UHF frequencies. To successfully navigate this crowded spectrum, you'll need to understand how your radio separates desired signals from unwanted ones. This is where resonance and filters come into play.
+You've just learned that inductive reactance climbs with frequency while capacitive reactance falls—two opposite behaviors heading in different directions. But here's where it gets fascinating: at exactly one frequency, $X_L$ equals $X_C$, and these opposite reactances cancel each other completely, making the $j(X_L - X_C)$ term in your impedance equation become zero. This special frequency transforms ordinary LC circuits into powerful frequency selectors—the foundation of every filter you'll encounter in radio.
+
+As a General operator, you're about to discover why resonance isn't just another formula to memorize. It's the principle that lets your antenna "ring" at exactly the right frequency, enables your radio to ignore thousands of unwanted signals, and allows that narrow CW filter to slice through interference like a surgeon's scalpel. Master resonance, and you master the art of frequency selection.
 
 #### Why Resonance Matters in Amateur Radio
 
 We introduced the concept of resonance in Section 1.2—that special frequency where inductive reactance equals capacitive reactance ($X_L = X_C$). But why do we care about this electrical phenomenon? Because resonance is the foundation of frequency selection in radio circuits.
 
-> **Key Information:** At resonance in an LC circuit, inductive reactance and capacitive reactance are equal and cancel each other.
-
-When an LC circuit reaches resonance, it responds dramatically to signals at its resonant frequency while ignoring others. This selectivity is precisely what we need to:
+At resonance in an LC circuit, inductive reactance and capacitive reactance are equal and cancel each other. When an LC circuit reaches resonance, it responds dramatically to signals at its resonant frequency while ignoring others. This selectivity is precisely what we need to:
 
 - Tune into specific stations
 - Reject interference
@@ -30,6 +30,14 @@ Where:
 - $f_r$ is the resonant frequency in Hz
 - $L$ is inductance in henries
 - $C$ is capacitance in farads
+
+Note: The example here is to help with understanding; this is not on the test.
+
+**Example:** What's the resonant frequency of a circuit with a 2.5 μH inductor and 100 pF capacitor?
+
+$$f_r = \frac{1}{2\pi\sqrt{2.5 \times 10^{-6} \times 100 \times 10^{-12}}} ≈ 10.06 \text{ MHz}$$
+
+This frequency falls near the 30-meter band—typical for amateur radio tuned circuits. If you halved the capacitance to 50 pF, the resonant frequency would increase by $\sqrt{2}$ to about 14.2 MHz (20-meter band).
 
 Let's see how resonance works in practical circuit configurations.
 
@@ -94,6 +102,12 @@ Different operating modes require different bandwidths:
 - FM: 10-15 kHz
 
 **Operating Tip:** Using a wider filter than necessary reduces your signal-to-noise ratio, while using one that's too narrow can distort the received signal. Modern transceivers allow you to select appropriate filter bandwidths for different modes.
+
+##### Q Factor and Selectivity
+
+The sharpness of a resonant circuit's response is described by its Q factor (quality factor). Higher Q means narrower bandwidth and more selective filtering—exactly what you want when trying to pick out a weak signal from interference. Lower Q means broader bandwidth but less selectivity.
+
+In practical terms, Q represents the ratio of energy stored to energy lost per cycle. Circuits with lower resistance have higher Q and therefore sharper frequency response. When you adjust your radio's filter from "wide" to "narrow," you're effectively changing the Q of the filter circuit.
 
 ##### Insertion Loss
 
@@ -161,6 +175,10 @@ How will you use this knowledge of resonance and filters in your everyday operat
 
 5. **Equipment Selection**: Make informed choices when evaluating transceivers based on their filter specifications.
 
-While digital technology handles most filtering automatically in modern equipment, understanding these principles helps you make the most of your radio's capabilities.
+#### Your Filter Toolkit Is Ready
 
-In the next section, we'll explore transformers and advanced impedance matching techniques that ensure efficient power transfer throughout your station.
+You now understand how resonance transforms simple LC circuits into powerful frequency selectors. That roofing filter protecting your receiver's front end? It's a high-Q parallel resonant circuit rejecting everything outside your passband. The notch filter that kills an annoying carrier? A series resonant trap at exactly that frequency. Your antenna tuner? Multiple resonant circuits working together to transform impedances.
+
+Every time you turn your radio's filter knob from "wide" to "narrow," you're adjusting Q factor. When you engage that 500 Hz CW filter, you're switching in a multi-pole design with incredibly steep skirts. Even your antenna acts as a resonant filter, naturally favoring the frequencies it's cut for.
+
+But filtering and resonance are only part of the power transfer puzzle. Next, we'll explore how transformers work their magic—moving energy between circuits while providing isolation, impedance matching, and the ability to step voltages up or down. It's the technology that makes everything from QRP rigs to legal-limit amplifiers possible.
