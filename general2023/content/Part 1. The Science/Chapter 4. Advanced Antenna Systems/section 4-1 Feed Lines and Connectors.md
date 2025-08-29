@@ -7,7 +7,7 @@ status: reviewed1
 
 ### Section 4.1: Feed Lines and Connectors
 
-You've just worked your first transatlantic contact. The European station gives you a 5-3 report—readable, but weak. You're running 100 watts into what should be a decent antenna. Where did your power go?
+You've just worked your first transatlantic contact. The European station gives you a "five by three" report—perfectly readable, but your signal is weak. You're running 100 watts into what should be a decent antenna. Where did your power go?
 
 Chances are, a significant chunk never made it past your feed line.
 
