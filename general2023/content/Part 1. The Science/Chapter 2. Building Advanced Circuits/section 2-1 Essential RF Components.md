@@ -1,7 +1,7 @@
 ---
 chapter: "2"
 section: "2.1"
-questions: ["G6A03", "G6A04", "G6A05", "G6A06", "G6A08", "G6B01", "G6B05", "G6B08", "G6B10"]
+questions: ["G6A03", "G6A05", "G6A04", "G6A08", "G6B01", "G6B05", "G6B10", "G6A06", "G6B08"]
 status: draft1
 ---
 
@@ -31,11 +31,13 @@ Why does this matter in RF applications? RF signals are often very weak when rec
 
 You might remember from your Technician studies that capacitors store energy in electric fields and block DC while passing AC. At radio frequencies, the type of capacitor you use becomes critical.
 
-> **Key Information:** Electrolytic capacitors are characterized by high capacitance for a given volume. {{< link id="G6A04" >}}
+> **Key Information:**
+> - Electrolytic capacitors are characterized by high capacitance for a given volume (size). {{< link id="G6A04" >}}
+> - Low voltage ceramic capacitors are characterized by comparatively low cost. {{< link id="G6A08" >}}
 
-> **Key Information:** Low voltage ceramic capacitors are characterized by comparatively low cost. {{< link id="G6A08" >}}
+While electrolytic capacitors pack impressive capacitance into small spaces, they have significant limitations at radio frequencies. Most importantly, they're polarized—designed for current to flow in only one direction, like a one-way street. This is a major problem with RF signals, which rapidly alternate direction many millions of times per second.
 
-While electrolytic capacitors pack impressive capacitance into small spaces, they have significant limitations at radio frequencies. Most importantly, they're polarized—designed for current to flow in only one direction. This is a major problem with RF signals, which rapidly alternate direction many millions of times per second. When the voltage reverses during the negative half of the AC cycle, a polarized capacitor can actually start to conduct (rather than block) current, and in extreme cases may be damaged.
+When the voltage reverses during the negative half of the AC cycle, the capacitor becomes "reverse biased"—meaning voltage is applied in the wrong direction. Every electrolytic capacitor has a "breakdown voltage" (usually just 1-2 volts) that acts like a safety limit. When reverse voltage exceeds this limit, the capacitor stops acting like a capacitor and starts conducting current like a resistor. In extreme cases, this can damage or destroy the capacitor.
 
 Electrolytic capacitors also have high internal resistance and inductance, which further reduces their effectiveness at radio frequencies. Think of them like water towers—great for storing large amounts, but slow to respond to rapid changes. This is why your transceiver uses electrolytic capacitors mainly for power supply filtering, where they handle relatively slow changes in DC voltage.
 
