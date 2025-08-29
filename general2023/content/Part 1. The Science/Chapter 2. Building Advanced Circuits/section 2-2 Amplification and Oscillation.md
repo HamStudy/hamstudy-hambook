@@ -1,7 +1,7 @@
 ---
 chapter: "2"
 section: "2.2"
-questions: ["G6A07", "G6A09", "G6A10", "G6A11", "G6A12", "G7B01", "G7B02", "G7B04", "G7B07", "G7B08", "G7B10", "G7B11", "G7C05"]
+questions: ["G6A07", "G6A09", "G6A10", "G6A12", "G7B08", "G7B10", "G7B04", "G7B02", "G7B11", "G7B07", "G7C05", "G7B01", "G6A11"]
 status: draft1
 ---
 
@@ -9,13 +9,9 @@ status: draft1
 
 Remember when we talked about semiconductors in your Technician studies? Now it's time to take a deeper dive into these amazing components. As a General class operator, you'll want to understand how transistors and tubes amplify signals to help you communicate over longer distances with clearer signals.
 
-#### Transistors: Versatile Control Elements
-
-Transistors might be small, but they're incredibly versatile! These semiconductor devices serve as both switches and amplifiers in modern electronics, controlling signals with remarkable precision. Let's look at how they work in your radio equipment.
-
 #### Transistors: The Building Blocks of Amplification
 
-Transistors are semiconductor devices that form the foundation of modern electronics. They serve two primary functions in your radio equipment: switching signals on and off, and amplifying weak signals into stronger ones.
+Transistors might be small, but they're incredibly versatile! These semiconductor devices form the foundation of modern electronics, serving as both switches and amplifiers with remarkable precision. They perform two primary functions in your radio equipment: switching signals on and off, and amplifying weak signals into stronger ones. Let's look at how they work in your radio equipment.
 
 ##### Bipolar Junction Transistors (BJTs)
 
@@ -93,11 +89,11 @@ Class `A` amplifiers provide excellent linearity but low efficiency (typically u
 
 ##### Class `C` Amplifiers: Maximum Efficiency
 
-> **Key Information:** Class C amplifiers have the highest efficiency of these classes. {{< link id="G7B02" >}}
+> **Key Information:**
+> - Class C amplifiers have the highest efficiency of these classes. {{< link id="G7B02" >}}
+> - A Class C power stage is appropriate for amplifying FM signals. {{< link id="G7B11" >}}
 
 Class C amplifiers conduct for less than 50% of the waveform cycle, achieving high efficiency (up to 80%) but significantly distorting the signal's amplitude.
-
-> **Key Information:** A Class C power stage is appropriate for amplifying FM signals. {{< link id="G7B11" >}}
 
 Since FM encodes information in frequency rather than amplitude, the distortion introduced by Class C doesn't affect the information content, making it ideal for FM transmitters.
 
@@ -116,15 +112,11 @@ An oscillator needs three elements:
 2. Frequency selection (filtering)
 3. Positive feedback that reinforces the oscillation
 
-The frequency selection in many oscillators comes from an LC (inductor-capacitor) circuit:
+The frequency selection in many oscillators comes from an LC (inductor-capacitor) circuit, where the frequency is determined by the inductance and capacitance in the tank circuit (discussed in Section 1.3).
 
-> **Key Information:** As you may remember, *The frequency of an LC oscillator is determined by the inductance and capacitance in the tank circuit.*
-
-Modern transceivers often use direct digital synthesis (DDS) for frequency generation:
+Modern transceivers often use direct digital synthesis (DDS) for frequency generation. DDS systems use digital techniques to generate analog waveforms, providing fast frequency changes with excellent stability.
 
 > **Key Information:** A direct digital synthesizer (DDS) is characterized by variable output frequency with the stability of a crystal oscillator. {{< link id="G7C05" >}}
-
-DDS systems use digital techniques to generate analog waveforms, providing fast frequency changes with excellent stability.
 
 #### Amplifier Stability
 
