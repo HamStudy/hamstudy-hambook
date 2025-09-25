@@ -2,7 +2,7 @@
 chapter: "4"
 section: "4.3"
 questions: ["G9C02", "G9C03", "G9C05", "G9C01", "G9C08", "G9C07", "G9C10", "G9C09", "G9D05", "G9D06", "G9D07", "G9D03", "G9D10", "G9D09"]
-status: reviewed1
+status: draft1
 ---
 
 ### Section 4.3: Directional Antennas
@@ -39,7 +39,7 @@ When you're ready to put up a beam antenna, understanding what makes one Yagi pe
 
 > **Key Information:** Increasing boom length and adding directors to a Yagi antenna primarily increases its gain. {{< link id="G9C05" >}}
 
-Think of it like adding more lenses to a telescope—each one helps focus the image a bit more. A three-element Yagi might give you 7 dB of gain, while a five-element version on a longer boom could reach 10 dB. That extra 3 dB doubles your effective power!
+Think of it like adding more lenses to a telescope—each one helps focus the image a bit more. A three-element Yagi might give you 7 dBd of gain, while a five-element version on a longer boom could reach 10 dBd. That extra 3 dB doubles your effective power!
 
 **Element Diameter** affects how your antenna performs across a band. HF bands are wide—20 meters spans 350 kHz—and you want good SWR across the entire range.
 
