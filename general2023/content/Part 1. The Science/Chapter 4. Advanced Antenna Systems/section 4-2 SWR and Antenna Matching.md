@@ -7,11 +7,13 @@ status: draft1
 
 ### Section 4.2: SWR and Antenna Matching
 
-Your new General privileges open up worldwide communication possibilities, but only if your precious RF power actually makes it from transmitter to antenna and out into the ether. Remember from your Technician studies that SWR tells you about impedance matching? Now it's time to understand the deeper physics and practical implications that help you squeeze every decibel of performance from your station.
+In the previous section, we explored how your feed line's characteristic impedance is fixed by its construction, and how losses accumulate as your signal travels through cable and connectors. Now we tackle the next critical question: when RF arrives at your antenna feed point, does it get accepted and transferred efficiently, or does it reflect back down the line?
+
+This is where SWR—that mysterious number you learned about as a Technician—reveals its true meaning. Good impedance matching (low SWR) ensures efficient power transfer from feed line to antenna. It doesn't guarantee your antenna radiates efficiently—that depends on antenna design, height, and other factors we'll explore in upcoming sections—but it does tell you whether power is being accepted at the feed point rather than bouncing back. Understanding the deeper physics behind impedance matching and how to measure it properly helps you optimize this crucial link in your antenna system.
 
 #### The Real Problem: Impedance Mismatch
 
-Before diving into SWR measurements, let's understand what's actually happening in your antenna system. Your transmitter expects to see a specific impedance—typically 50 ohms in amateur radio. Your coaxial cable presents 50 ohms. Ideally, your antenna also presents 50 ohms at your operating frequency. When all these impedances match, maximum power transfers smoothly through the system.
+Before diving into SWR measurements, let's understand what's actually happening in your antenna system. Remember from the previous section that your feed line has a characteristic impedance—typically 50 ohms. Your transmitter also expects to see 50 ohms. When your antenna presents something different at its feed point, you've created an impedance discontinuity—a sudden change that causes reflections just like we discussed with feed line mismatches.
 
 > **Key Information:** Reflected power at an antenna's feed point is caused by a difference between feed line impedance and antenna feed point impedance. {{< link id="G9A04" >}}
 
@@ -25,7 +27,7 @@ Just like the resonant circuits we discussed in Chapter 1, antenna impedance isn
 
 Standing Wave Ratio (SWR) gives us a practical way to detect and quantify impedance mismatches. When forward and reflected waves travel on the same feed line, they create a standing wave pattern. SWR is the ratio of maximum to minimum voltages in this pattern.
 
-Why use SWR instead of directly measuring impedance? At HF frequencies, measuring complex impedance requires sophisticated equipment. But measuring voltage ratios is relatively simple, making SWR the standard diagnostic tool.
+Why use SWR instead of directly measuring impedance? At HF frequencies, measuring complex impedance requires sophisticated equipment. Measuring voltage ratios is relatively simple, making SWR the standard diagnostic tool.
 
 > **Key Information:** To prevent standing waves on a feed line connected to an antenna, the antenna feed point impedance must be matched to the characteristic impedance of the feed line. {{< link id="G9A07" >}}
 
@@ -36,6 +38,8 @@ For purely resistive loads, the math is straightforward:
 The formula: SWR equals the larger impedance divided by the smaller. So $\frac{200\Omega}{50\Omega} = 4:1$, and $\frac{50\Omega}{10\Omega} = 5:1$.
 
 #### The Hidden Cost of High SWR
+
+Here's where everything we discussed about feed line loss in the previous section becomes even more important:
 
 > **Key Information:** High SWR increases loss in a lossy transmission line. {{< link id="G9A02" >}}
 
@@ -51,7 +55,7 @@ Here's a critical concept that trips up many operators:
 
 > **Key Information:** If the SWR on an antenna feed line is 5:1, and a matching network at the transmitter end is adjusted to present a 1:1 SWR to the transmitter, the resulting SWR on the feed line remains 5:1. {{< link id="G9A08" >}}
 
-The matching network (antenna tuner) transforms the impedance seen by the transmitter, protecting it from high SWR. But between the tuner and antenna, that 5:1 SWR still exists with all its losses. The tuner doesn't change your antenna's resonant frequency—a 40-meter dipole remains resonant at 7.150 MHz whether you use a tuner or not.
+The matching network (antenna tuner) transforms the impedance seen by the transmitter, protecting it from high SWR. However, between the tuner and antenna, that 5:1 SWR still exists with all its losses. The tuner doesn't change your antenna's resonant frequency—a 40-meter dipole remains resonant at 7.150 MHz whether you use a tuner or not.
 
 > **Key Information:** An impedance matching transformer at a transmitter output is used to present the desired impedance to the transmitter and feed line. {{< link id="G7C03" >}}
 
@@ -79,13 +83,13 @@ That perfect SWR reading might be contaminated by your neighbor's signal. Always
 
 Beyond antennas, analyzers serve as sophisticated cable testers—finding breaks, verifying characteristic impedance, checking velocity factor, or detecting water intrusion.
 
-#### System Performance Metrics
+#### System Performance: The Complete Picture
 
-As you advance in amateur radio, you'll encounter professional concepts that quantify overall system performance:
+Understanding component-level matching—how your radio, feed line, and antenna impedances interact—is crucial. , you'll encounter professional concepts that quantify overall system performance:
 
 > **Key Information:** A link budget is the sum of transmit power and antenna gains minus system losses as seen at the receiver. {{< link id="G8A13" >}}
 
-Think of it as communication accounting that determines if a link will work:
+Think of a link budget in terms of communication accounting that determines if a link will work:
 - Start with transmitter power (+50 dBm for 100W)
 - Add antenna gains
 - Subtract all losses (including SWR losses)
@@ -94,6 +98,8 @@ Think of it as communication accounting that determines if a link will work:
 > **Key Information:** Link margin is the difference between received power level and minimum required signal level at the input to the receiver. {{< link id="G8A14" >}}
 
 This is your safety cushion against fading and interference. If your receiver needs -100 dBm minimum and receives -71 dBm, you have 29 dB of link margin.
+
+These system-level concepts tie everything together—your feed line losses discussed earlier, the impedance matching we've covered here, and the antenna radiation efficiency we'll explore in upcoming sections all contribute to whether your signal makes it through.
 
 #### The Complete Picture
 

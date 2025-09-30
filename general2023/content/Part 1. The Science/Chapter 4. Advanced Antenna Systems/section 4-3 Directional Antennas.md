@@ -47,8 +47,6 @@ Think of it like adding more lenses to a telescope—each one helps focus the im
 
 Thicker elements are like wider pipes—they're more forgiving of slight frequency changes. This is why commercial Yagis often use aluminum tubing rather than wire elements.
 
-**Element Spacing and Boom Length** work together to determine your antenna's personality. Wider spacing generally increases gain but narrows bandwidth. Closer spacing does the opposite. It's like adjusting the focus on binoculars—you can optimize for maximum sharpness or a wider field of view, but not both simultaneously.
-
 #### Understanding Antenna Specifications
 
 Shopping for a beam antenna can feel overwhelming with all the specifications thrown at you. Let's decode what really matters for your station.
@@ -71,16 +69,11 @@ Every Yagi design involves compromises. Want maximum gain? You might sacrifice b
 
 > **Key Information:** Forward gain, front-to-back ratio, and SWR bandwidth of a Yagi antenna can all be optimized by adjusting the physical length of the boom, the number of elements on the boom, and the spacing of each element along the boom. {{< link id="G9C10" >}}
 
-Computer modeling has revolutionized antenna design. Modern Yagis are optimized for specific goals:
-- **DX chasers** might choose maximum forward gain
-- **Contesters** often prefer wide bandwidth for frequency agility  
-- **Those fighting noise** might optimize for front-to-back ratio
-
-The good news? Even a basic three-element Yagi dramatically improves your signal compared to a dipole.
+Computer modeling has revolutionized antenna design. Modern Yagis are optimized for specific goals—DX chasers might choose maximum forward gain, contesters often prefer wide bandwidth for frequency agility, and those fighting noise might optimize for front-to-back ratio. The good news? Even a basic three-element Yagi dramatically improves your signal compared to a dipole.
 
 #### Stacking: When One Antenna Isn't Enough
 
-Here's an interesting trick when you want more gain from your antenna system: You can combine multiple antennas together using a method called "stacking." While stacking works best with beam antennas like Yagis, the principle is simple—two antennas capture twice the signal of one.
+Here's an interesting trick when you want more gain from your antenna system: You can combine multiple antennas together using a method called "stacking." While stacking works best with compact antennas such as Yagis or folded dipoles, the principle is simple—two antennas capture twice the signal of one.
 
 The catch? They need proper spacing (typically 1/2 wavelength apart) and must be fed in phase. Get it right and you gain 3 dB—like doubling your transmitter power. Get it wrong and your signals cancel rather than combine.
 
@@ -112,39 +105,25 @@ The tradeoff? An LPDA typically provides 2-3 dB less gain than a monoband Yagi. 
 
 #### Specialized Antennas for Specific Needs
 
-Beyond the familiar Yagi and log periodic designs, amateur radio has produced some fascinating specialized antennas. Each solves a particular challenge—whether that's operating mobile with horizontal polarization, fighting interference, or pulling weak signals from the noise floor. Let's explore three unique designs that showcase the creativity of antenna engineering.
+Beyond Yagis and log periodics, three specialized directional antennas solve unique challenges worth knowing about. Each answers a specific "how do I..." question that conventional antennas can't handle.
 
-**The Halo: Horizontal Polarization Without Rotation**
+**The Halo** solves the VHF mobile SSB problem—you need horizontal polarization but can't rotate an antenna while driving. {{< link id="G9D03" >}}
 
-When you're operating VHF SSB mobile or portable, you need horizontal polarization to match other SSB stations. But how do you use a horizontally polarized antenna without constantly rotating it?
+> **Key Information:** The maximum radiation from a VHF/UHF "halo" antenna is omnidirectional in the plane of the halo.
 
-> **Key Information:** The maximum radiation from a VHF/UHF "halo" antenna is omnidirectional in the plane of the halo. {{< link id="G9D03" >}}
+It's a dipole bent into a circle with a feed point gap. You get horizontal polarization for SSB work with 360-degree coverage—perfect for VHF contest rovers who need to work stations in any direction without stopping.
 
-![VHF/UHF Halo Antenna](../images/halo-antenna.svg)
+**Small Loops** (less than 1/10 wavelength circumference) excel at one thing: deep nulls for direction finding or interference rejection. {{< link id="G9D10" >}}
 
-The halo antenna solves this elegantly—it's essentially a dipole bent into a circle with a small gap at the feed point. You get the horizontal polarization needed for SSB work, but with coverage in all directions. It's popular for rovers in VHF contests who need to work stations in any direction without stopping to rotate an antenna.
+> **Key Information:** An electrically small loop (less than 1/10 wavelength in circumference) has nulls in its radiation pattern broadside to the loop.
 
-**Small Loops: Big Nulls in Tiny Packages**
+Rotate the loop until a signal disappears, and you know the source is perpendicular to the loop plane. That neighbor's plasma TV wreaking havoc on 40 meters? Orient a small receiving loop to null it out.
 
-Sometimes the most useful part of an antenna pattern isn't where it radiates, but where it doesn't.
+**The Beverage** is the ultimate low-band DX receiving antenna—a simple long wire (500-1000 feet) mounted low with a terminating resistor. {{< link id="G9D09" >}}
 
-> **Key Information:** An electrically small loop (less than 1/10 wavelength in circumference) has nulls in its radiation pattern broadside to the loop. {{< link id="G9D10" >}}
+> **Key Information:** The primary use of a Beverage antenna is directional receiving for MF and low HF bands.
 
-![Small Loop Antenna Pattern](../images/small-loop-pattern.svg)
-
-These deep nulls make small loops excellent for direction finding—rotate the loop until the signal disappears, and you know the station is perpendicular to the loop plane. They're also great for nulling out local interference. Imagine a neighbor's plasma TV wreaking havoc on 40 meters. Orient a small receiving loop to put that noise source in the null, and suddenly you can hear weak DX again.
-
-**The Beverage: The Ultimate DX Receiving Antenna**
-
-For serious low-band DXers chasing weak signals on 160 and 80 meters, nothing beats a Beverage antenna.
-
-> **Key Information:** The primary use of a Beverage antenna is directional receiving for MF and low HF bands. {{< link id="G9D09" >}}
-
-![Beverage Antenna](../images/beverage-antenna.svg)
-
-A Beverage is deceptively simple—just a long wire (typically 500-1000 feet) stretched a few feet above ground, terminated with a resistor that matches its characteristic impedance. This traveling wave antenna has terrible efficiency for transmitting, but that's not its job. Its superpower is an extremely low noise floor and excellent directivity for receiving.
-
-The Beverage works because it picks up the wave front traveling along the ground. Signals arriving from the terminated end are absorbed by the resistor, while signals from the fed end add up coherently along the wire's length. Top DXpeditions often deploy multiple Beverages in different directions, switching between them to pull weak signals out of the noise.
+Terrible efficiency for transmitting, but outstanding for pulling weak 160 and 80-meter DX from the noise with its extremely low noise floor and excellent directivity. Top DXpeditions often deploy multiple Beverages in different directions for optimal reception.
 
 #### Making Directional Antennas Work for You
 
@@ -166,16 +145,8 @@ Many hams wisely hire professionals for tower work. There's no shame in prioriti
 
 #### Your Path to Directional Success
 
-Even if you can't put up a beam antenna today, understanding how they work prepares you for future opportunities. Many hams operate successfully for years with wire antennas, then add a beam when circumstances allow. Others find creative solutions:
-
-**Start Small**: A 2-meter or 6-meter Yagi introduces you to directional concepts without huge towers. These bands often support sporadic-E propagation where a beam really shines.
-
-**Portable Operations**: Lightweight aluminum Yagis for 20-15-10 meters work great for Field Day or portable DXpeditions. Set up on a hillside with a small beam, and you'll work the world.
-
-**Fixed Direction Arrays**: Can't afford a rotator? Many hams build fixed Yagis aimed at their favorite DX paths. East Coast stations might fix a beam toward Europe, while West Coast operators could aim at Japan.
-
-**Shared Resources**: Some clubs maintain "beam teams" where members share the cost and use of a tower site. Others offer guest operating positions where you can experience big antennas firsthand.
+Even if you can't put up a beam antenna today, understanding how they work prepares you for future opportunities. Many hams operate successfully for years with wire antennas, then add a beam when circumstances allow. Others find creative solutions—starting small with VHF/UHF Yagis, trying portable operations with lightweight beams, building fixed direction arrays without rotators, or sharing resources through club stations.
 
 The journey from your first dipole to a tower full of aluminum is part of amateur radio's lifetime adventure. Each step teaches valuable lessons about propagation, construction, and the art of radio communication. Whether you eventually build that dream station or find joy in simpler approaches, understanding directional antennas helps you make informed choices about your station's evolution.
 
-As we continue exploring antenna systems, our next section examines specialized antennas that solve specific challenges—from operating in restricted spaces to maximizing performance in mobile installations. These creative solutions prove that effective operation doesn't always require massive towers and beams!
+As we move forward, our next section examines the workhorses of HF operation—dipoles and vertical antennas. These fundamental designs launch more DX contacts than all the exotic antennas combined, and mastering them gives you the foundation for successful operation regardless of your station's complexity.

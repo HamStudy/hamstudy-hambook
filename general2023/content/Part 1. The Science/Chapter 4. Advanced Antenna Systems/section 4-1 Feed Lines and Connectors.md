@@ -9,9 +9,9 @@ status: draft1
 
 You've just worked your first transatlantic contact. The European station gives you a "five by three" report—perfectly readable, but your signal is weak. You're running 100 watts into what should be a decent antenna. Where did your power go?
 
-Chances are, a significant chunk never made it past your feed line.
+As a Technician, you learned that impedance matching matters and that SWR tells you something about your antenna system. Now as a General operator working HF with higher power and longer feed line runs, you need to understand that "antenna system" isn't just the antenna—it's the complete chain from your radio through connectors, feed line, and finally to the antenna itself. Each link in this chain affects your signal, and understanding how they work together separates stations that barely get out from those that work the world.
 
-Feed lines are an easily overlooked but critical part of every amateur station. They're just wires, right? If only it were that simple. That innocent-looking coax snaking from your radio to the antenna can make or break your station's performance. Feed line loss is a double penalty—it weakens your transmitted signal AND attenuates incoming signals by the same amount. You lose coming and going. With good quality, properly chosen and installed coax your signal reaches the world. With damaged, lossy, or incorrect feed line, even a kilowatt won't save you.
+The challenge? Most operators focus exclusively on their antenna while overlooking the feed line and connectors that deliver power to it. You can have the world's best antenna, but if your feed line wastes half your signal before it arrives, you're still losing. Let's start by understanding these critical but often overlooked components. In the next section, we'll see how everything connects to the antenna itself to form a complete, efficient system.
 
 #### Understanding Characteristic Impedance
 
@@ -29,7 +29,7 @@ Common impedances you'll encounter:
 - **75 ohms**: TV cable—cheaper but wrong for ham gear
 - **450 ohms**: Ladder line—wide spacing for low loss
 
-When impedances don't match, some of your signal reflects back instead of moving forward—like water hitting a sudden pipe size change. These reflections waste power and can even damage your transmitter. Matching impedances throughout your system keeps power flowing in the right direction.
+This characteristic impedance is a fundamental property of the feed line itself. When you connect your radio (expecting 50 ohms) to 50-ohm coax and then to an antenna that also presents 50 ohms, power flows smoothly through the entire system. But any mismatch anywhere in this chain—whether at the radio, connectors, feed line, or antenna—creates reflections that waste power. We'll explore exactly how those antenna mismatches affect your system in the next section, but first you need to understand what determines feed line impedance and how to preserve the signal you're sending through it.
 
 > **Key Information:** The nominal characteristic impedance of "window line" transmission line is 450 ohms. {{< link id="G9A03" >}}
 
@@ -62,7 +62,7 @@ Let's put this in perspective with RG-8X (a popular "compromise" cable):
 - **146 MHz (2 meters)**: 4.5 dB/100 ft—ouch!
 - **440 MHz (70 cm)**: 8.6 dB/100 ft—yikes!
 
-That 4.5 dB loss on 2 meters? You're delivering 35 watts to your antenna from a 100-watt radio. The other 65 watts? Warming up your coax. Now you know why that distant station can't hear you.
+That 4.5 dB loss on 2 meters? You're delivering 35 watts to your antenna from a 100-watt radio. The other 65 watts? Warming up your coax. Now you know why that distant station can't hear you. And remember—this loss affects both transmit AND receive. Your signal weakens going out, and incoming signals weaken coming back in. It's a double penalty.
 
 #### Choosing Feed Line for Your Station
 
@@ -112,10 +112,10 @@ Beyond handhelds, you'll find these tiny threaded connectors on SDR equipment an
 
 Those RCA jacks behind your transceiver handle audio and control signals for digital modes, PTT keying, and external speakers—never RF.
 
-#### Do it right the first time
+#### Building Your Complete Antenna System
 
 Here's the bottom line: That exotic antenna you built won't compensate for lossy feed line. That expensive amplifier won't overcome bad connectors. Your feed line system is where the rubber meets the road—or more accurately, where your RF meets the real world.
 
 Choose your feed line based on physics, not price tags. Install connectors like your QSOs depend on it (they do). Route cables with respect for RF's quirks. Get these fundamentals right, and you've built the foundation for a station that performs.
 
-Still, we're not done yet. Getting power to your antenna efficiently is crucial, but there is still the matter of making sure your antenna will effectively *use* that power. That's where impedance matching and SWR come into play!
+Getting power to your antenna efficiently is only part of the story. What happens when that power arrives at the antenna? Does your antenna accept it and radiate it effectively, or does it reflect power back down the feed line, creating the standing waves you learned about as a Technician? That's where impedance matching and SWR come into play—the critical final link in your antenna system that we'll explore in the next section.
