@@ -78,13 +78,13 @@ Computer modeling has revolutionized antenna design. Modern Yagis are optimized 
 
 The good news? Even a basic three-element Yagi dramatically improves your signal compared to a dipole.
 
-#### Stacking: When One Beam Isn't Enough
+#### Stacking: When One Antenna Isn't Enough
 
-Here's a secret of the big gun DX stations: they rarely use just one antenna. Stacking multiple Yagis multiplies your effective power without touching the amplifier knob.
+Here's an interesting trick when you want more gain from your antenna system: You can combine multiple antennas together using a method called "stacking." While stacking works best with beam antennas like Yagis, the principle is simple—two antennas capture twice the signal of one.
+
+The catch? They need proper spacing (typically 1/2 wavelength apart) and must be fed in phase. Get it right and you gain 3 dB—like doubling your transmitter power. Get it wrong and your signals cancel rather than combine.
 
 > **Key Information:** In free space, the gain of two 3-element Yagi antennas spaced vertically 1/2 wavelength apart is approximately 3 dB higher than a single 3-element Yagi. {{< link id="G9C09" >}}
-
-![Stacked Yagi Antennas](../images/stacked-yagis.svg)
 
 That 3 dB improvement means your 100-watt signal now hits like 200 watts—without the expense and complexity of an amplifier. But the benefits go beyond raw gain.
 
