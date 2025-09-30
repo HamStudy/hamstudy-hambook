@@ -7,7 +7,7 @@ status: draft1
 
 ### Section 5.3: Propagation Modes and Paths
 
-Your signal leaves the antenna and heads skyward. Sometimes it bounces once and lands 2,000 miles away. Sometimes it scatters into unexpected places or takes paths that seem to defy logic. Understanding these propagation modes and paths helps you predict which bands will work and when contacts become possible. Each mode has its own characteristics and requirements that determine your communication success.
+Now that you understand the ionosphere's structure and the solar forces that control it, let's see how your signals actually navigate this dynamic system. Your signal leaves the antenna and heads skyward. Sometimes it bounces once and lands 2,000 miles away. Sometimes it scatters into unexpected places or takes paths that seem to defy logic. Understanding these propagation modes and paths helps you predict which bands will work and when contacts become possible. Each mode has its own characteristics and requirements that determine your communication success.
 
 #### Skip Propagation: How Signals Circle the Globe
 
@@ -51,7 +51,7 @@ Sometimes you need solid coverage of a 200-300 mile area without skip zones or d
 
 > **Key Information:** NVIS propagation is short distance MF or HF propagation using *high radiation angles*.
 
-Instead of using low angles for distance, NVIS uses high angles for area coverage. The ionosphere acts like an umbrella, reflecting your nearly vertical signal back down in a circular pattern around your station. This creates consistent coverage from 0 to about 300 miles with no skip zone.
+Instead of using low angles for distance, NVIS uses high angles for area coverage. The ionosphere acts like an umbrella, reflecting your nearly vertical signal back down in a circular pattern around your station. This creates consistent coverage from 0 to 300 miles with no skip zone.
 
 NVIS requires specific antenna configuration and frequency selection. Low horizontal antennas (0.1 to 0.25 wavelengths high) produce the high-angle radiation needed. Ground reflection reinforces upward radiation while canceling low-angle signals. Frequency must be below the critical frequency for vertical reflection but high enough to avoid excessive D-region absorption. During daylight, 40 and 60 meters work well. After dark, 80 and 160 meters become optimal as the MUF drops.
 
@@ -59,7 +59,7 @@ Emergency services rely on NVIS because it provides dependable regional coverage
 
 #### Understanding MUF and Path Selection
 
-Maximum Usable Frequency isn't a single number—it varies constantly based on multiple factors. {{< link id="G3B02" >}}
+The MUF (Maximum Usable Frequency) concept from Section 5.1 becomes more complex in practice—it's not a single number but varies constantly based on multiple factors. {{< link id="G3B02" >}}
 
 > **Key Information:** MUF is affected by path distance and location, time of day and season, and solar radiation and ionospheric disturbances.
 
@@ -95,4 +95,4 @@ You now understand how signals travel via multiple hops to circle the globe, why
 
 These propagation modes aren't just curiosities—they're tools that enable communication when conventional paths fail. Long path works when short path doesn't. Scatter fills skip zones. NVIS covers disaster areas. Each mode serves specific communication needs.
 
-Part 2 will show you how to apply this propagation knowledge in actual operation. You'll learn when to check for long path openings, how to set up antennas for different propagation modes, and which operating techniques work best for marginal conditions. The science you've mastered provides the foundation for making contacts others miss.
+You now have the complete propagation picture—from ionospheric layers through solar control to signal paths. Part 2 will show you how to apply this propagation knowledge in actual operation. You'll learn when to check for long path openings, how to set up antennas for different propagation modes, and which operating techniques work best for marginal conditions. The science you've mastered provides the foundation for making contacts others miss.

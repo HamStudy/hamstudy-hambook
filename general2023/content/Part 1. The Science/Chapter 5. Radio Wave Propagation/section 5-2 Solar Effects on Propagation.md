@@ -7,7 +7,7 @@ status: draft1
 
 ### Section 5.2: Solar Effects on Propagation
 
-Your reliable 40-meter net suddenly becomes unusable. The dead 10-meter band erupts with signals from around the world. These dramatic changes originate 93 million miles away at our sun. One of the craziest aspects to HF operation is just how inconsistent propagation can be from day to day—or even minute to minute! Understanding how solar activity drives propagation helps you predict when bands will open or close, transforming seemingly random conditions into recognizable patterns.
+The ionospheric layers we just explored don't exist in isolation—they're powered and controlled by our sun. Your reliable 40-meter net suddenly becomes unusable. The dead 10-meter band erupts with signals from around the world. These dramatic changes originate 93 million miles away, where our nearest star constantly bombards Earth with the radiation that creates and destroys propagation paths. One of the craziest aspects to HF operation is just how inconsistent propagation can be from day to day—or even minute to minute! Understanding how solar activity drives propagation helps you predict when bands will open or close, transforming seemingly random conditions into recognizable patterns.
 
 #### The Solar-Ionospheric Connection
 

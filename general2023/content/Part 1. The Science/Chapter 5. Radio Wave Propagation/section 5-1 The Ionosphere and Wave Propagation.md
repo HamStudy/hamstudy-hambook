@@ -35,7 +35,11 @@ Here's what happens: Your 80-meter signal that worked great for reaching distant
 
 ##### E Region: The Middle Layer
 
-Rising about 50 to 90 miles above Earth, the E region is present throughout the day and weakens at night. This layer typically provides moderate-distance propagation up to about 1,200 miles per hop. During summer months, patches of intense ionization called "Sporadic E" can appear without warning, enabling unexpected VHF propagation over similar distances.
+Rising about 50 to 90 miles above Earth, the E region forms from moderate solar ionization during daylight hours. Unlike the D region that completely vanishes at night, the E region maintains some weak ionization after dark. *While the exam focuses primarily on D and F region characteristics, understanding the E region completes your picture of ionospheric propagation.*
+
+The E region's electron density sits between the absorbing D region and the refracting F region. This moderate ionization level allows it to refract mid-range frequencies without the heavy absorption that plagues the D region. When F-layer ionization weakens or when D-region absorption blocks lower bands, the E region becomes your propagation path.
+
+During summer months, intense solar heating can create patches of super-ionization called "Sporadic E." These unpredictable clouds form when atmospheric conditions compress and concentrate the normally diffuse E-layer ions into dense sheets capable of refracting even VHF signals that would normally escape to space.
 
 ##### F Region: Your Gateway to the World
 
@@ -100,9 +104,7 @@ Sometimes the ionosphere just won't cooperate. Think of it like this: if the flo
 
 #### Working Within Nature's Window
 
-{{< link id="G3B05" >}}
-
-> **Key Information:** The ionosphere refracts radio waves with frequencies below the MUF and above the LUF back to Earth.
+> **Key Information:** {{< link id="G3B05" >}} The ionosphere refracts radio waves with frequencies below the MUF and above the LUF back to Earth.
 
 This creates a "window" of usable frequencies that shifts throughout the day. Lower bands (160m, 80m, 40m) suffer from D-region absorption during daylight but excel at night. Middle bands (30m, 20m, 17m) work reliably day and night with less absorption. Upper bands (15m, 12m, 10m) depend heavily on solar activity—dead during solar minimum but excellent during solar maximum.
 
