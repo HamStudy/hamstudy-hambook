@@ -1,20 +1,19 @@
 ---
 chapter: "5"
 section: "5.3"
-questions: [ "T6A09", "T0A04", "T0A05", "T0A08" ]
+questions: [ "T0A04", "T0A05", "T0A08" ]
+state: complete
 ---
 
 ### Section 5.3: Fuses and Circuit Breakers
 
 #### What Are Fuses and Circuit Breakers?
 
-> **Key Information:** Fuses and circuit breakers are electrical components used to protect other circuit components from current overloads {{< link id="T6A09" >}}
-
 Let's talk about the first line of defense in electrical safety: fuses and circuit breakers are devices designed to protect electrical circuits from overcurrent conditions. These little guardians might not look like much, but they're the difference between a minor inconvenience and a major disaster. Think of fuses and circuit breakers as the bodyguards of your electrical system. Their job? To interrupt overloads and short circuits before they can damage your equipment—or worse, start a fire.
 
 Fuses contain a metal wire that melts when overloaded—your friend, the lowly fuse, will die to protect your circuit from excess current! Circuit breakers, meanwhile, are switches that trip when detecting overcurrent and can be reset. 
 
-> **Key Information:** The purpose of a fuse in an electrical circuit is to remove power in case of overload {{< link id="T0A04" >}}
+> **Key Information:** The purpose of a fuse in an electrical circuit is to *remove power in case of an overload*. {{< link id="T0A04" >}}
 
 #### Fuses: The One-Time Heroes
 
@@ -28,11 +27,11 @@ Circuit breakers, on the other hand, are the reusable superheroes. They use eith
 
 Why should you care about these as a ham? Well, let's paint a picture:
 
-Imagine you've just scored a sweet deal on a used power supply for your shack. You plug it in, flip the switch, and... nothing. You notice the fuse is blown. "No biggie," you think, "I'll just replace it with a bigger one."
+Imagine you've just scored a sweet deal on a used power supply for your shack. You plug it in, flip the switch, and... nothing. You notice the fuse is blown. "That's annoying," you think, "I don't have time to troubleshoot, so let me just replace it with a bigger one."
 
-**Hold on!** That's a recipe for disaster. *Using a higher-rated fuse than specified allows excessive current to flow, which can cause wires and components to overheat, potentially leading to a fire*. Fuses and circuit breakers are sized specifically for the equipment they protect. Using a larger fuse is like telling the bouncer to let in anyone, no matter how rowdy they look. You're asking for trouble.
+**Hold on!** That's a recipe for disaster. *Using a higher-rated fuse than specified allows excessive current to flow, which can cause wires and components to overheat, potentially leading to a fire*. Fuses and circuit breakers are sized specifically for the equipment they protect.
 
-> **Key Information:** A 5-ampere fuse should never be replaced with a 20-ampere fuse because excessive current could cause a fire{{< link id="T0A05" >}}
+> **Key Information:** A 5-ampere fuse should never be replaced with a 20-ampere fuse because *excessive current could cause a fire*. {{< link id="T0A05" >}}
 
 #### Key Points about Fuses and Breakers
 
@@ -42,7 +41,7 @@ Here are some key points to keep in mind when dealing with fuses and circuit bre
 
 2. **Investigate Persistent Issues**: If a fuse keeps blowing, don't just keep replacing it. There's a problem that needs fixing.
 
-> **Key Information:** In a 120V AC power circuit, a fuse or circuit breaker should be installed in series with the hot conductor only{{< link id="T0A08" >}}
+> **Key Information:** In a 120V AC power circuit, a fuse or circuit breaker should be installed *in series with the hot conductor only*. {{< link id="T0A08" >}}
 
 3. **Know Your Circuit Breakers**: Know where your circuit breakers are and what they control. Label them if they're not already. *In 120V AC power circuits, the fuse or circuit breaker should always be in series with the "hot" (live) conductor*. This ensures that when the overcurrent device operates, it disconnects the live voltage source, keeping you safe from electric shock.
 
@@ -55,8 +54,6 @@ Here are some key points to keep in mind when dealing with fuses and circuit bre
 #### Safety First: Don't Bypass Protection
 
 It's tempting to bypass a fuse or stick a larger one in when you're in the middle of a QSO and a fuse blows. *Resist that urge!* *Never replace a blown fuse with one of a higher rating or modify a circuit to defeat overcurrent protection*. Defeating safety devices can lead to equipment damage or personal injury. Always use the correct fuse type and rating specified by the manufacturer.
-
-> **Important**: Never replace a 5-ampere fuse with a 20-ampere fuse! Doing so is like removing the brakes from your car because they slow you down—not a good idea!
  
 #### Real-World Example
 
