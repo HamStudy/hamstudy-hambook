@@ -1,7 +1,8 @@
 ---
 chapter: "4"
 section: "4.4"
-questions: [ "T9B07", "T9B06" ]
+questions: [ "T9B07", "T9B06", "T9B01" ]
+status: complete
 ---
 ### Section 4.4: Connectors  
 
@@ -81,6 +82,9 @@ If you’re working at **frequencies above 400 MHz**, **Type N** is your best be
 2. **Tighten, but don’t over-tighten** – Hand-tight is usually just right for handhelds.
 3. **Be gentle with SMA connectors** – They’re tough, but not indestructible.  
 4. **Stick to one connector type in your shack** – It’ll save you from adapter headaches down the road.  
+5. **Weatherproof outdoor connections** – When connectors are installed outside, moisture can cause corrosion and signal loss over time.
+
+> **Key Information:** All outdoor RF connectors (PL-259, BNC, Type N, and others) should be *carefully taped or sealed for weather protection*. {{< link id="T9B01" >}}
 
 Remember, while adapters can be lifesavers, they’re **not ideal for permanent setups**. Every connection is a potential point of **signal loss or failure**. When possible, **use antennas and gear that match your radio’s connector directly**.
 
@@ -90,4 +94,4 @@ Understanding connectors isn’t the most exciting part of ham radio, but it’s
 
 Getting the right connectors means **less hassle, fewer adapters, and better performance**. Whether you’re hooking up a new antenna, changing radios, or building your station, knowing your connectors will save you time, money, and frustration.  
 
-So before you hit "Buy Now" on that new antenna or coax, take a second to check the connector. A little knowledge here can save you a lot of headaches down the road!  
+So before you hit "Buy Now" on that new antenna or coax, take a second to check the connector. A little knowledge here can save you a lot of headaches down the road!
