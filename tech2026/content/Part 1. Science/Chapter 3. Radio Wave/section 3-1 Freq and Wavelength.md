@@ -1,7 +1,8 @@
 ---
 chapter: "3"
 section: "3.1"
-questions: [ "T5C06", "T3B03", "T3B01", "T3B04", "T3B11", "T3B02", "T3B05", "T3B06", "T3B07"]
+questions: [ "T3B03", "T3B01", "T3B04", "T3B11", "T3B12", "T3B02", "T3B05", "T3B06", "T3B07"]
+status: complete
 ---
 
 ### Section 3.1: Frequency and Wavelength
@@ -15,9 +16,7 @@ Imagine you're watching waves at the beach. Some waves come in quickly, one afte
 
 <div class="clear"></div>
 
-> **Key Information:** *RF* (Radio Frequency) refers to *radio signals of all types*.{{< link id="T5C06" >}}
-
-You've probably heard the term **RF** tossed around, but what does it actually mean? **RF stands for Radio Frequency** – basically, it's a fancy way of saying "radio signals." RF covers all types of radio signals, whether they're used for voice, data, or other forms of wireless communication.  
+You've probably heard the term **RF** tossed around, but what does it actually mean? **RF stands for Radio Frequency**—basically, it's a fancy way of saying "radio signals." RF covers all types of radio signals, whether they're used for voice, data, or other forms of wireless communication.  
 
 As we discussed in Chapter 1, **radio frequency energy (RF) is a form of alternating current (AC), but at much higher frequencies than household electricity**. Instead of moving electrons back and forth in a wire, like AC in your home, RF travels as electromagnetic waves through space, carrying signals across short and long distances.  
 
@@ -27,11 +26,14 @@ Whether you're tuning in to your favorite broadcast station, chatting on a repea
 
 > **Key Information:** 
 > - A radio wave has two components: *electric and magnetic fields* {{< link id="T3B03" >}}
-> - These fields are *at right angles* to each other{{< link id="T3B01" >}}
-> - Radio waves travel at the *speed of light* in free space (approximately *300,000,000 meters per second*){{< link id="T3B04" >}}{{< link id="T3B11" >}}
+> - These fields are *at right angles* to each other {{< link id="T3B01" >}}
+> - Radio waves travel at the *speed of light* in free space (approximately *300,000,000 meters per second*) {{< link id="T3B04" >}}{{< link id="T3B11" >}}
+> - *All radio frequencies travel at the same velocity* in free space—VHF, UHF, microwaves, and all other frequencies {{< link id="T3B12" >}}
 
 ![Electric vs Magnetic Fields - always at a right angle from each other](../../../images/electromagnetic-3d.gif)
 {.img-centered .img-large}
+
+While all radio frequencies travel at the same speed in the vacuum of free space, radio waves can be slowed down when passing through certain materials like glass, water, or coaxial cable. This is why we sometimes talk about the "velocity factor" of transmission lines—the signal travels slightly slower through the cable than it would through empty space. But in free space, whether it's a 3.5 MHz HF signal or a 10 GHz microwave signal, they all travel at exactly the same speed: the speed of light.
 
 #### Polarization
 
