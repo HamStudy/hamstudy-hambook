@@ -2,6 +2,7 @@
 chapter: "5"
 section: "5.1"
 questions: [ "T0A03", "T0A02", "T0A06" ]
+status: complete
 ---
 
 ### Section 5.1: AC Power
@@ -24,13 +25,13 @@ Let's break down the basics:
 
 - **Wiring Colors**: Understanding wire colors in AC wiring is important for safety. That said, never assume a wire is safe to touch just based on its color – always test with proper equipment!
 
-  > **Key Information:** In the United States, black wire insulation indicates the "hot" wire, white is neutral, and green or bare copper is the ground {{< link id="T0A03" >}}
+  > **Key Information:** In the United States, black wire insulation indicates the "hot" wire, white is neutral, and green or bare copper is the ground. {{< link id="T0A03" >}}
 
 - **Grounding**: This is super important. The third prong on your plugs? That's the ground. It's there to protect you by providing a safe path for current if something goes wrong inside the equipment.
 
 #### Electrical Hazards to the Human Body
 
-> **Key Information:** Electrical current through the body can cause tissue heating, disrupt cellular electrical function, and cause involuntary muscle contractions {{< link id="T0A02" >}}
+> **Key Information:** Electrical current through the body can cause tissue heating, disrupt cellular electrical function, and cause involuntary muscle contractions. {{< link id="T0A02" >}}
 
 Electrical current flowing through the body is dangerous in several ways:
 
@@ -44,7 +45,7 @@ Any one of these effects can be serious or fatal depending on the current path t
 
 #### AC Power Safety Tips
 
-> **Key Information:** Always use three-wire cords and plugs for all AC-powered equipment, connect to a common safety ground, and install mechanical interlocks in high-voltage circuits {{< link id="T0A06" >}}
+> **Key Information:** Always use three-wire cords and plugs for all AC-powered equipment, connect to a common safety ground, and ensure all high-voltage capacitors are fully discharged before working inside equipment. {{< link id="T0A06" >}}
 
 To guard against electrical shock at your station:
 
@@ -52,7 +53,7 @@ To guard against electrical shock at your station:
 
 - *Connect all AC-powered station equipment to a common safety ground*. This helps prevent voltage differences between equipment that could create shock hazards.
 
-- *Install mechanical interlocks in high-voltage circuits* to prevent accidental contact with dangerous voltages.
+- *Ensure all capacitors used for high-voltage DC are fully discharged before working inside equipment*. Capacitors can store dangerous charges long after equipment is unplugged.
 
 - **Keep It Dry**: Water and electricity don't mix. Keep your equipment dry, and never operate with wet hands.
 
