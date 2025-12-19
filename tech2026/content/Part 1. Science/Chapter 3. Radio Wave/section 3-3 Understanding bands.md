@@ -2,6 +2,7 @@
 chapter: "3"
 section: "3.3"
 questions: [ "T1A06" ]
+status: complete
 ---
 
 ### Section 3.3: Understanding Amateur Radio Bands
@@ -26,9 +27,11 @@ As a Technician, you'll only have limited access to HF, primarily on the 10-mete
 
 The most distinctive characteristic of HF bands is their ability to provide long-distance communications without infrastructure. This happens because HF waves can be refracted by the ionosphere, allowing them to return to Earth hundreds or thousands of miles away from the transmitter.
 
-> **Key Information:** A *beacon* is defined as *an amateur station transmitting communications for the purposes of observing propagation or related experimental activities*.{{< link id="T1A06" >}}
+Beacon stations are automated transmitters that help operators monitor propagation conditions. They transmit regularly on known frequencies, allowing amateurs around the world to determine if a band is "open" for long-distance communications.
 
-Beacon stations are particularly important on HF bands where conditions constantly change. These automated stations transmit regularly on known frequencies, allowing amateurs around the world to monitor propagation conditions. By listening for distant beacons, you can determine if a band is "open" for long-distance communications.
+> **Key Information:** On HF, *automatically controlled amateur propagation beacons* can be found on *10 meters, between 28.200 MHz and 28.300 MHz*. {{< link id="T1A06" >}}
+
+By tuning to this frequency range and listening for distant beacons, you can quickly assess whether conditions are favorable for long-distance 10-meter communications.
 
 #### VHF Bands (30-300 MHz)
 
