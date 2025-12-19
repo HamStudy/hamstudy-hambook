@@ -1,7 +1,8 @@
 ---
 chapter: "4"
 section: "4.5"
-questions: [ "T9B12", "T7C04", "T7C06", "T9B01", "T7C05", "T9B09", "T7C02", "T7C08" ]
+questions: [ "T9B12", "T7C04", "T7C06", "T7C05", "T9B09", "T7C02", "T7C08" ]
+status: complete
 ---
 
 ### Section 4.5: Standing Wave Ratio (SWR)
@@ -28,15 +29,15 @@ SWR is measured as a ratio - here's what different readings mean:
 
 #### Why Does SWR Matter?
 
-> **Key Information:** A benefit of low SWR is **reduced signal loss**. Most solid-state transmitters **reduce output power as SWR increases** to **protect the output amplifier transistors**. {{< link id="T9B01" >}} {{< link id="T7C05" >}}
-
 Why should you care about SWR? It's all about efficiency and equipment safety. The lower your SWR, the more of your radio's power actually makes it to your antenna and out into the world. High SWR means some of that power is bouncing back to your radio instead of being transmitted.
 
 This reflected power creates two significant problems:
 
 1. **Wasted Energy**: Power reflected back to your transmitter doesn't contribute to your signal, reducing your effective communication range.
 
-2. **Equipment Damage**: More seriously, reflected power can overheat and damage your transmitter's output amplifier components. This is why *most solid-state transmitters automatically reduce output power as SWR increases beyond a certain level*.
+2. **Equipment Damage**: More seriously, reflected power can overheat and damage your transmitter's RF output amplifier transistors.
+
+> **Key Information:** Most solid-state transmitters *reduce output power as SWR increases* to *protect the RF output amplifier transistors*. {{< link id="T7C05" >}}
 
 Modern radios have protection circuits that detect high SWR and reduce power or shut down if necessary, but it's best not to rely on them—especially with cheaper transmitters. Keeping your SWR low ensures your radio stays efficient and safe for years to come.
 
