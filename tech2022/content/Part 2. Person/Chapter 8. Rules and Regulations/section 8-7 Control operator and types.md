@@ -22,7 +22,7 @@ A control operator is an amateur radio operator designated by the station licens
 
 3. The privileges you can use are determined by your license class, not the station's capabilities:
 
-   > **Key Information:** *The class of operator license held by the control operator determines the transmitting frequency privileges of an amateur station.* {{< link id="T1E04" >}}
+   > **Key Information:** The class of operator license held by the control operator determines the transmitting frequency privileges of an amateur station. {{< link id="T1E04" >}}
 
 4. **There must *always* be a control operator**.  
 

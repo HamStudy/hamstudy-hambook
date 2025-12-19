@@ -31,7 +31,7 @@ It's like sending a puzzle through the air that reassembles itself perfectly on 
 
 #### PSK31
 
-> **Key Information:** *PSK stands for Phase Shift Keying* {{< link id="T8D06" >}}
+> **Key Information:** PSK stands for Phase Shift Keying {{< link id="T8D06" >}}
 
 *PSK* (*Phase Shift Keying*) is ideal for real-time, keyboard-to-keyboard conversations. PSK31 operates at a symbol rate of 31.25 baud, roughly matching typical typing speed. It's so narrow that contacts can be spaced just 100 Hz apart, allowing many signals to fit where a single voice transmission would.
 

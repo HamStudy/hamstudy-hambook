@@ -95,7 +95,7 @@ Be aware that some **non-amateur frequencies**—like cordless or cellular phone
 
 #### Operating Near Band Edges
 
-> **Key Information:** *You should not set your transmit frequency to be exactly at the edge of an amateur band or sub-band to allow for calibration error, modulation sidebands, and frequency drift*. {{< link id="T1B09" >}}
+> **Key Information:** You should not set your transmit frequency to be exactly at the edge of an amateur band or sub-band to allow for calibration error, modulation sidebands, and frequency drift. {{< link id="T1B09" >}}
 
 Here's a pro tip that might save you from an FCC warning: Be careful about operating right at the edge of a band or sub-band. It's like walking a tightrope over a pool of regulatory sharks - one small misstep and you could find yourself in dangerous waters. Here's why you should give yourself a little buffer:
 
