@@ -2,13 +2,14 @@
 chapter: "2"
 section: "2.4"
 questions: [ "T6C01", "T6C12", "T6D10", "T6C02", "T6C08", "T6C06", "T6C09", "T6C10", "T6C03", "T6C07", "T6C05", "T6C04", "T6C11" ]
+status: complete
 ---
 
 ### Section 2.4: Circuit Diagrams: Putting It All Together
 
 By now, you've gotten to know a lot of different components—resistors, capacitors, transistors, and more. You've seen their symbols sprinkled throughout earlier sections, and hopefully, they're starting to feel familiar. Now it's time to gather everything in one place and focus on how these symbols are used in circuit diagrams.
 
-> **Key Information:** A *schematic* is an electrical wiring diagram that uses standard component symbols. {{< link id="T6C01" >}} The most important thing to remember is that schematics show *component connections* accurately. {{< link id="T6C12" >}}
+> **Key Information:** A *schematic* is an electrical diagram that uses standard component symbols. {{< link id="T6C01" >}} The most important thing to remember is that schematics show *component connections* accurately. {{< link id="T6C12" >}}
 
 Think of a schematic as a map for electronics. Instead of using pictures of actual parts, it uses standard symbols to show how components connect. Once you know how to read them, circuit diagrams are your key to understanding any electronic device, no matter how complicated.
 

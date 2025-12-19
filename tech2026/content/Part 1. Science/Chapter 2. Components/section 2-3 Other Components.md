@@ -2,6 +2,7 @@
 chapter: "2"
 section: "2.3"
 questions: [ "T6D06", "T6D02", "T6D03" ]
+status: complete
 ---
 
 ### Section 2.3: Other Components
