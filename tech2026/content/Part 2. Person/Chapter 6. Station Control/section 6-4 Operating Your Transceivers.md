@@ -1,7 +1,8 @@
 ---
 chapter: "6"
 section: "6.4"
-questions: [ "T4B02", "T7A07", "T4B04", "T2B13", "T4B03", "T4B05", "T2B06", "T2B01", "T4B08", "T4B10", "T4B01", "T4B06", "T4A12" ]
+questions: [ "T4B02", "T7A07", "T2B13", "T4B03", "T4B05", "T2B06", "T2B01", "T4B08", "T4B10", "T4B01", "T4B06", "T4A12" ]
+status: complete
 ---
 
 ### Section 6.4: Operating Your Transceiver
@@ -19,8 +20,6 @@ Every radio, regardless of type, has these fundamental controls:
 - **PTT (Push-To-Talk)**: This button *switches the transceiver from receive to transmit when grounded (pushed)*. {{< link id="T7A07" >}}
 
 #### Memory Channels
-
-> **Key Information:** To enable quick access to a favorite frequency or channel on your transceiver, store it in a memory channel. {{< link id="T4B04" >}}
 
 Rather than entering frequencies manually each time, store them in your radio's memory:
 - Program your frequently used channels (repeaters, simplex frequencies)
@@ -58,7 +57,7 @@ Many repeaters require specific tones for access:
 
 We will discuss these in more detail in the next section.
 
-> **Key Information:** *DTMF (Dual-Tone Multi-Frequency) uses pairs of audio tones* for sending commands. While most commonly used with repeaters, these can be used in many ways. {{< link id="T2B06" >}}
+> **Key Information:** *DTMF (Dual-Tone Multi-Frequency) uses two simultaneous audio tones* for sending commands. While most commonly used with repeaters, these can be used in many ways. {{< link id="T2B06" >}}
 
 - **DTMF**: The same technology as touch-tone phones, used to control repeater functions or access internet-linked systems
 
