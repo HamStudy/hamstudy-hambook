@@ -1,7 +1,8 @@
 ---
 chapter: "2"
 section: "2.1"
-questions: [ "T6A01", "T6A04", "T6A05", "T6A06", "T6A07", "T6D08", "T5D13", "T5D14", "T6A03", "T6A02", "T6A08", "T6A12" ]
+questions: [ "T6A01", "T6A04", "T6A05", "T6A06", "T6A07", "T6D08", "T5D13", "T5D14", "T6A03", "T6A02", "T6A08", "T6A09" ]
+status: complete
 illustration_ideas:
 - component family portrait - A simple line drawing header for the section showing the basic components with friendly faces, positioned like a family photo.
 - capacitor internals, showing two conductive plates with an insulator
@@ -84,7 +85,7 @@ A *potentiometer* is a variable resistor. As you turn the knob or slide the cont
 
 > **Key Information:**
 > * For your exam, you need to know about an *SPDT (Single Pole, Double Throw) switch*. This type of switch allows *a single circuit to be switched between one of two other circuits*.{{< link id="T6A08" >}}
-> * You will also need to be able to *identify a SPST (Single Pole, Single Throw) switch on a circuit diagram*. {{< link id="T6A12" >}}
+> * You will also need to be able to *identify a SPST (Single Pole, Single Throw) switch on a circuit diagram*. {{< link id="T6A09" >}}
 
 ![Diagram of a SPST switch](../../../images/s2-1-spst-switch.svg)
 {.img-small .float-right .mb-1 .img-bw}

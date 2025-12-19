@@ -2,6 +2,7 @@
 chapter: "1"
 section: "1.1"
 questions: ["T5A07", "T5A08"]
+status: 'complete'
 ---
 
 ### Section 1.1: Electrical Basics

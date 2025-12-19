@@ -1,7 +1,8 @@
 ---
 chapter: "1"
 section: "1.2"
-questions: ["T5A05", "T5A01", "T5A03", "T5A04", "T5A12", "T5A06", "T5A10", "T5A02", "T5B09", "T5B11", "T5B10", "T5A09", "T5A11", "T5C12", "T5C05", "T5C01", "T5C02", "T5C03", "T5C04", "T6D11", "T5C13", "T5C07", "T5B01", "T5B02", "T5B03", "T5B04", "T5B05", "T5B06", "T5B07", "T5B08", "T5B12", "T5B13"]
+questions: ["T5A05", "T5A01", "T5A03", "T5A04", "T5A06", "T5A10", "T5A02", "T5B09", "T5B11", "T5B10", "T5A09", "T5A11", "T5C12", "T5C05", "T5C01", "T5C02", "T5C03", "T5C04", "T6D11", "T5C06", "T5C07", "T5B01", "T5B02", "T5B03", "T5B04", "T5B05", "T5B06", "T5B07", "T5B08", "T5B12", "T5B13"]
+status: complete
 ---
 
 ### Section 1.2: Electrical Units and Quantities
@@ -28,8 +29,7 @@ In amateur radio, you might deal with:
 - **A few amps** powering a mobile transceiver
 - **15-20 amps** for a high-power HF amplifier
 
-**Resistance** ($R$) is *how much a material opposes current flow by converting electrical energy into heat*, measured in **ohms ($\Omega$)**.  {{< link id="T5A04" >}}
-Think of resistance as a fundamental property that affects how electrical energy moves through a circuit:
+**Resistance** ($R$) is *how much a material opposes current flow by converting electrical energy into heat*, measured in **ohms ($\Omega$)**. Think of resistance as a fundamental property that affects how electrical energy moves through a circuit:
 - *Conductors* like copper wire have *very low resistance*, allowing current to flow easily
 - *Insulators* like rubber or glass have *very high resistance*, blocking current flow
 - *Resistors* are components with specific, controlled resistance values used to:
@@ -62,7 +62,7 @@ In amateur radio, we often deal with **alternating current (AC)**, which smoothl
 
 AC occurs naturally when a magnet rotates near a wire. As the magnet's north pole approaches the wire, current flows one way. When the south pole approaches, current flows the opposite way. This continuous rotation creates the smooth sine wave pattern shown in the diagram. This is the basic principle behind generators that produce the electricity powering our homes and the alternating currents in our radio circuits.
 
-The diagram shows two complete **cycles** of AC - each starting at zero, rising to a positive peak, falling through zero to a negative peak, then returning to zero. *The number of these cycles completed per second is called frequency, measured in Hertz (Hz)*. {{< link id="T5A12" >}} {{< link id="T5A06" >}}
+The diagram shows two complete **cycles** of AC - each starting at zero, rising to a positive peak, falling through zero to a negative peak, then returning to zero. *The number of these cycles completed per second is called frequency, measured in Hertz (Hz)*. {{< link id="T5A04" >}} {{< link id="T5A06" >}}
 
 Some examples:
 - Household power: **60 Hz** (60 cycles per second)
@@ -154,7 +154,7 @@ In amateur radio, we often deal with very large or very small numbers. Instead o
 | giga   | G      | $10^9$     | 1 GHz = 1,000,000,000 Hz |
 
 > **Key Information:**
-> * The abbreviation *kHz* stands for "kilohertz".{{< link id="T5C13" >}}
+> * The abbreviation *kHz* stands for "kilohertz".{{< link id="T5C06" >}}
 > * The abbreviation *MHz* stands for "megahertz".{{< link id="T5C07" >}}
 
 Note: The F (farad) and H (henry) units refer to capacitance and inductance as discussed above, which we'll explore in more detail in Section 2.1.
