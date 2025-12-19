@@ -98,7 +98,7 @@ Generally speaking we don't actually call "CQ" on a repeater – there isn't any
 
 Here are some other common phrases:
 - *"This is KD7BBC, mobile and monitoring"* – indicating both that you are moving around and that you are on the frequency, presumably happy to talk to someone if they want.
-- *"KF7KGR listening"* – shorter version of the same
+- *"K1BEN listening"* – shorter version of the same
 - *"This is AC7DM. Anyone around to chat while I drive?"* – more casual, but still fine
 - *"This is NV7V, could I get a signal report?"* – indicates that you aren't looking for a QSO, just to confirm how well you are getting into the repeater.
 

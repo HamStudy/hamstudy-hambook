@@ -98,7 +98,7 @@ En general, realmente no llamamos "CQ" en un repetidor – no hay ninguna razón
 
 Aquí hay algunas otras frases comunes:
 - *"Aquí KD7BBC, móvil y monitoreando"* – indicando tanto que te estás moviendo como que estás en la frecuencia, presumiblemente feliz de hablar con alguien si quieren.
-- *"KF7KGR a la escucha"* – versión más corta de lo mismo
+- *"K1BEN a la escucha"* – versión más corta de lo mismo
 - *"Aquí AC7DM. ¿Alguien disponible para charlar mientras conduzco?"* – más casual, pero aún bien
 - *"Aquí NV7V, ¿podría obtener un reporte de señal?"* – indica que no estás buscando un QSO, solo confirmar qué tan bien estás entrando al repetidor.
 
