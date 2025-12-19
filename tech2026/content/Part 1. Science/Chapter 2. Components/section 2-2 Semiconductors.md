@@ -1,7 +1,8 @@
 ---
 chapter: "2"
 section: "2.2"
-questions: [ "T6B02", "T6B06", "T6B01", "T6B09", "T6D01", "T6B07", "T6D07", "T6B03", "T6B10", "T6B04", "T6B08", "T6B12", "T6B05", "T6B11", "T6D09" ]
+questions: [ "T6B02", "T6B06", "T6B01", "T6B09", "T6D01", "T6B07", "T6D07", "T6B03", "T6B04", "T6B08", "T6B12", "T6B05", "T6B10", "T6B11", "T6D09" ]
+status: complete
 illustration_ideas:
 - picture of a diode with cathode stripe
 ---
@@ -41,7 +42,6 @@ LEDs are special diodes that light up when current flows through them. They're c
 
 > **Key Information:** 
 > - Transistors can be used as electronic switches {{< link id="T6B03" >}}
-> - Transistors can provide power gain (the ability to amplify signals) {{< link id="T6B10" >}}
 > - A transistor contains *three regions of semiconductor material* {{< link id="T6B04" >}}
 > - FET stands for *Field Effect Transistor* {{< link id="T6B08" >}}
 
@@ -55,7 +55,13 @@ There are two main types of transistors, and it's important to know the names of
    - Three parts: *Gate, Drain, and Source* {{< link id="T6B05" >}}
    - Often used as voltage-controlled switches
 
-**Understanding Gain**: When we talk about transistors providing "gain," we mean their *ability to amplify a signal* - making a small signal bigger. {{< link id="T6B11" >}} This is one of their most important functions in radio equipment.
+##### Transistors as Amplifiers
+
+This ability to amplify signals is what makes transistors so important in radio equipment. Before transistors, vacuum tubes performed this role, and you'll still find tube amplifiers in use today—particularly in high-power HF stations. But most modern amateur radio equipment relies on transistors for amplification, from the tiny preamp that boosts weak signals in your receiver to the power amplifier in your handheld or mobile transceiver.
+
+> **Key Information:** 
+> - Transistors can provide *power gain*—the ability to amplify signals {{< link id="T6B10" >}}
+> - *Gain* in amplifiers can refer to the ratio of output to input *voltage, current, or power*—all are valid ways to measure how much a signal is amplified {{< link id="T6B11" >}}
 
 #### Integrated Circuits (ICs): Many Components in One
 
