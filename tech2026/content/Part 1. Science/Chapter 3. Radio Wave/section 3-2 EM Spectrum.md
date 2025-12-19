@@ -2,6 +2,7 @@
 chapter: "3"
 section: "3.2"
 questions: [ "T3B10", "T3B08", "T3B09" ]
+status: complete
 ---
 
 ### Section 3.2: The Electromagnetic Spectrum  
