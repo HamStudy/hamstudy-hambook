@@ -2,6 +2,7 @@
 chapter: "3"
 section: "3.4"
 questions: [ "T3A11", "T3C11", "T3C02", "T3C01", "T3A01", "T3A06", "T3A05", "T3C05", "T3A08", "T3C09", "T3C10", "T3C03", "T3C04", "T3C08", "T3C06", "T3C07", "T3A07", "T3A12", "T3A02", "T3A10" ]
+status: complete
 ---
 
 ### Section 3.4: How Signals Travel
@@ -11,7 +12,7 @@ Now that we understand the different amateur radio bands, let's explore how sign
 When you transmit a signal, it doesn't simply travel in a straight line like a laser beam. Radio waves can bend, bounce, scatter, and penetrate obstacles in ways that sometimes seem almost magical. Understanding these propagation mechanisms is key to successful amateur radio communications.
 
 > **Key Information:** Basic Wave Behavior Across Amateur Bands
-> - The ionosphere can refract or bend HF and VHF radio waves {{< link id="T3A11" >}}
+> - The *ionosphere* can *reflect HF radio waves* {{< link id="T3A11" >}}
 > - The radio horizon is farther than the visual horizon because the *atmosphere refracts radio waves slightly* {{< link id="T3C11" >}}
 > - Long-distance ionospheric propagation is far more common on HF than on VHF/UHF {{< link id="T3C02" >}}
 > - *UHF signals* are rarely heard beyond their radio horizon because they're *usually not propagated by the ionosphere* {{< link id="T3C01" >}}
@@ -64,11 +65,11 @@ For simplicity, this bending effect is often called "bouncing" or "reflection", 
 - Multiple signal paths can cause fading as they combine in different ways
 
 **Auroral Effects**:
-Signals received via auroral reflection are *distorted and signal strength varies considerably* {{< link id="T3C03" >}}. This is because the aurora is like a shimmering, moving curtain that reflects signals unpredictably.
+Signals received via auroral reflection are *distorted, with a characteristic raspy sound* {{< link id="T3C03" >}}. This is because the aurora is like a shimmering, moving curtain that reflects signals unpredictably.
 
 #### Sporadic E Propagation
 
-> **Key Information:** *Sporadic E causes occasional strong signals on the 10, 6, and 2 meter bands* from beyond the radio horizon {{< link id="T3C04" >}}.
+> **Key Information:** *Sporadic E causes occasional strong signals on the 10-, 6-, and 2-meter bands* from beyond the radio horizon {{< link id="T3C04" >}}.
 
 Think of Sporadic E like catching a lucky bounce off a cloud - it happens occasionally and can give you unexpected long-distance contacts. While you can't predict exactly when it will occur, it's a regular feature of VHF propagation.
 
@@ -92,8 +93,8 @@ Different environmental factors affect different frequencies in various ways.
 
 > **Key Information:** 
 > - Precipitation can decrease range at microwave frequencies {{< link id="T3A07" >}}
-> - Fog and rain have little effect on signals in the 10 meter and 6 meter bands {{< link id="T3A12" >}}
-> - UHF and microwave signals are absorbed by vegetation {{< link id="T3A02" >}}
+> - Fog and rain have *little effect* on signals in the 10-meter and 6-meter bands {{< link id="T3A12" >}}
+> - Vegetation *absorbs* UHF and microwave signals, leading to poor reception of weak signals {{< link id="T3A02" >}}
 > - Multipath propagation can increase error rates in data transmissions {{< link id="T3A10" >}}
 
 Understanding these effects helps you:
