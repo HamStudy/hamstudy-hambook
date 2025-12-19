@@ -2,6 +2,7 @@
 chapter: "6"
 section: "6.5"
 questions: [ "T1F09", "T2A07", "T2A01", "T2A03", "T2B02", "T2B04", "T2A04", "T2A09", "T2B03", "T8C07", "T8C06", "T8C10", "T8C08", "T8C09", "T8C11" ]
+state: complete
 ---
 
 ### Section 6.5: Repeater Operation
@@ -56,9 +57,7 @@ Most repeaters require either a CTCSS (Continuous Tone-Coded Squelch System) ton
 
 Both serve the same purpose: they help prevent interference and unintended activations of the repeater. Your radio must be set to transmit the correct CTCSS tone or DCS code for the repeater to even recognize your signal. Check your local repeater directory or club information to find out which system a particular repeater uses.
 
-> **Key Information:** DTMF (Dual-Tone Multi-Frequency) uses *pairs of audio tones* for sending commands to repeaters and accessing systems like IRLP, but is different from CTCSS/DCS which are required for basic repeater access.
-
-You'll also encounter DTMF (Dual-Tone Multi-Frequency) in repeater operation. *DTMF uses pairs of audio tones* and is the same technology used in touch-tone phones. Unlike CTCSS or DCS, DTMF is not used for basic repeater access but instead for controlling repeater functions, activating links to other systems, or accessing internet-connected systems like IRLP (which we'll discuss later in this section).
+You'll also encounter DTMF in repeater operation. As we discussed in Section 6.4, DTMF uses two simultaneous audio tones—the same technology used in touch-tone phones. Unlike CTCSS or DCS, DTMF is not used for basic repeater access but instead for controlling repeater functions, activating links to other systems, or accessing internet-connected systems like IRLP (which we'll discuss later in this section).
 
 If you're having trouble accessing a repeater whose output you can hear, there could be several reasons:
 - *You're using the wrong offset*
@@ -92,15 +91,15 @@ Like any equipment, the owner of the repeater gets to set the rules for its use 
 
 #### Calling on a Repeater
 
-> **Key Information:** To indicate you're listening on a repeater and looking for a contact, *use your call sign followed by the word "monitoring"*. {{< link id="T2A09" >}}
+> **Key Information:** To indicate you're listening on a repeater and looking for a contact, *use your call sign followed by the word "listening"*. {{< link id="T2A09" >}}
 
-Generally speaking we don't actually call "CQ" on a repeater – there isn't any reason we couldn't, but it is generally frowned upon with varying levels of intensity by different members of the community. Instead, to indicate that you're listening on a repeater and looking for a contact, *use your call sign followed by the word "monitoring"*. For example: "K2XYZ monitoring."
+Generally speaking we don't actually call "CQ" on a repeater — there isn't any reason we couldn't, but it is generally frowned upon with varying levels of intensity by different members of the community. Instead, to indicate that you're listening on a repeater and looking for a contact, *use your call sign followed by the word "listening"*. For example: "K2XYZ listening."
 
 Here are some other common phrases:
-- *"This is KD7BBC, mobile and monitoring"* – indicating both that you are moving around and that you are on the frequency, presumably happy to talk to someone if they want.
-- *"KF7KGR listening"* – shorter version of the same
-- *"This is AC7DM. Anyone around to chat while I drive?"* – more casual, but still fine
-- *"This is NV7V, could I get a signal report?"* – indicates that you aren't looking for a QSO, just to confirm how well you are getting into the repeater.
+- *"This is KD7BBC, mobile and monitoring"* — indicating both that you are moving around and that you are on the frequency, presumably happy to talk to someone if they want.
+- *"K1BEN listening"* — shorter version of the same
+- *"This is AC7DM. Anyone around to chat while I drive?"* — more casual, but still fine
+- *"This is NV7V, could I get a signal report?"* — indicates that you aren't looking for a QSO, just to confirm how well you are getting into the repeater.
 
 The specifics don't matter, as long as it's easy to understand and not deceptive.
 
@@ -140,7 +139,7 @@ Two popular VoIP systems in amateur radio are IRLP and EchoLink:
 
 The Internet Radio Linking Project (IRLP) is *a technique to connect amateur radio systems, such as repeaters, via the internet using Voice Over Internet Protocol (VoIP)*. {{< link id="T8C08" >}}
 
-To use IRLP, *over-the-air access to IRLP nodes is accomplished by using DTMF signals* {{< link id="T8C06" >}} (those same tone pairs we mentioned earlier). You'll enter codes using your radio's keypad to connect to various IRLP nodes around the world.
+To use IRLP, *over-the-air access to IRLP nodes is accomplished by using DTMF signals* {{< link id="T8C06" >}}. You'll enter codes using your radio's keypad to connect to various IRLP nodes around the world.
 
 **EchoLink**
 
