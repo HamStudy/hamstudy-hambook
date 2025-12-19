@@ -1,0 +1,66 @@
+# baseURL: 'https://hambook.org/tech2026'
+title: 'The HamStudy Technician License HamBook (2026 - 2030)'
+
+relativeURLs: false
+canonifyURLs: false
+
+defaultContentLanguage: 'en'
+defaultContentLanguageInSubdir: false
+
+languages:
+  en:
+    languageName: "English"
+    contentDir: "content"
+    weight: 1
+  es:
+    languageName: "Español" 
+    contentDir: "content.es"
+    weight: 2
+
+module:
+  imports:
+    - path: hambook.org/hambook/common
+
+params:
+  BookPortableLinks: true
+  BookSubtitle: (2026 - 2030)
+  BookLogo: "figures/coverfornow.jpg"
+  hsBaseURL: "https://hamstudy.org/flashcard/E2_2026?bk=hambook-tech2026&def=q:"
+  qrBaseURL: "https://hamstudy.org/api/v1/qrcode"
+  figurePath: "figures/%s"
+  linktrim: ""
+
+markup:
+  tableOfContents:
+    endLevel: 5
+    ordered: false
+    startLevel: 2
+
+  goldmark:
+    renderer:
+      unsafe: true
+      xHTML: true
+      hardWraps: false
+    parser:
+      wrapStandAloneImageWithinParagraph: false
+      attribute:
+        block: true
+        title: true
+      autoHeadingID: true
+
+    extensions:
+      definitionList: true
+      footnote: true
+      table: true
+      strikethrough: true
+      taskList: true
+      typographer: true
+      passthrough:
+        enable: true
+        delimiters:
+          block:
+            - ['\[', '\]']
+            - ['$$', '$$']
+          inline:
+            - ['\(', '\)']
+            - ['$', '$']

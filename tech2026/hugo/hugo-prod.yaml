@@ -1,0 +1,4 @@
+baseURL: 'https://hambook.org/tech2026/'
+
+params:
+  BookServiceWorker: true
