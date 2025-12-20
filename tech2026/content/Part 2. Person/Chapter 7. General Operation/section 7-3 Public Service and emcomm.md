@@ -34,7 +34,7 @@ During a declared emergency, RACES stations can only communicate with other RACE
 > **Key Information:**
 > The difference between ARES and RACES:
 > - *ARES* is a volunteer organization of amateur operators providing public service communications
-> - *RACES* is an FCC-regulated service specifically for civil defense communications during national emergencies
+> - *RACES* is an FCC-regulated service specifically for civil defense communications during national emergencies.
 
 **Emergency Nets**:
 

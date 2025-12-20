@@ -15,7 +15,7 @@ When you transmit a signal, it doesn't simply travel in a straight line like a l
 > - The *ionosphere* can *reflect HF radio waves* {{< link id="T3A11" >}}
 > - The radio horizon is farther than the visual horizon because the *atmosphere refracts radio waves slightly* {{< link id="T3C11" >}}
 > - Long-distance ionospheric propagation is far more common on HF than on VHF/UHF {{< link id="T3C02" >}}
-> - *UHF signals* are rarely heard beyond their radio horizon because they're *usually not propagated by the ionosphere* {{< link id="T3C01" >}}
+> - *UHF signals* are rarely heard beyond their radio horizon because they're *usually not propagated by the ionosphere*. {{< link id="T3C01" >}}
 
 ![Propagation types at different frequency ranges](../../../images/propagation-types.svg)
 
@@ -29,7 +29,7 @@ Line-of-sight is like being able to see someone across a field - if you can see 
 
 > **Key Information - Multipath Effects**: 
 > - VHF signal strengths can vary greatly when moving just a few feet because *multipath propagation cancels or reinforces signals* {{< link id="T3A01" >}}
-> - **Picket fencing** is the *rapid flutter on mobile signals due to multipath propagation* {{< link id="T3A06" >}}
+> - **Picket fencing** is the *rapid flutter on mobile signals due to multipath propagation*. {{< link id="T3A06" >}}
 
 When radio signals travel from transmitter to receiver, they often take multiple paths:
 - Some signals go directly
@@ -43,7 +43,7 @@ This is why you might hear a mobile signal rapidly cutting in and out as you dri
 
 > **Key Information - Working Around Obstacles**:
 > - When buildings block a repeater signal, you can often *communicate by finding a path that reflects signals* to the repeater {{< link id="T3A05" >}}
-> - Knife-edge diffraction allows radio signals to travel beyond obstructions {{< link id="T3C05" >}}
+> - Knife-edge diffraction allows radio signals to travel beyond obstructions. {{< link id="T3C05" >}}
 
 Just because you can't see your target doesn't mean you can't reach it:
 - **Reflections**: Like bouncing a ball off a wall, your signal can bounce off buildings or other surfaces to reach a repeater
@@ -54,7 +54,7 @@ Just because you can't see your target doesn't mean you can't reach it:
 > **Key Information:**
 > - *Irregular fading of signals is caused by random combining of signals arriving via different paths* {{< link id="T3A08" >}}
 > - Best time for 10-meter band F region propagation: *from dawn to shortly after sunset during high sunspot activity* {{< link id="T3C09" >}}
-> - During peak sunspot cycle, *6 and 10 meters* can use F region propagation {{< link id="T3C10" >}}
+> - During peak sunspot cycle, *6 and 10 meters* can use F region propagation. {{< link id="T3C10" >}}
 
 Think of sky wave propagation like bouncing a ball off the ceiling to reach someone across the room. The ionosphere acts as our "ceiling" in the sky, but instead of a hard surface, it's a region of charged particles that bends (or refracts) radio waves back toward Earth. Because the ionosphere isn't uniform, signals may take different paths, causing variations in signal strength.
 
@@ -77,7 +77,7 @@ Think of Sporadic E like catching a lucky bounce off a cloud - it happens occasi
 
 > **Key Information:**
 > - *Caused by temperature inversions* in the atmosphere {{< link id="T3C08" >}}
-> - Allows *VHF and UHF communications to ranges of approximately 300 miles regularly* {{< link id="T3C06" >}}
+> - Allows *VHF and UHF communications to ranges of approximately 300 miles regularly*. {{< link id="T3C06" >}}
 
 Imagine a tunnel in the sky that can carry your signal much farther than usual. Temperature inversions create these "ducts" that can guide VHF and UHF signals far beyond their normal range, making long-distance contacts possible on bands that usually work only for local communication.
 
@@ -95,7 +95,7 @@ Different environmental factors affect different frequencies in various ways.
 > - Precipitation can decrease range at microwave frequencies {{< link id="T3A07" >}}
 > - Fog and rain have *little effect* on signals in the 10-meter and 6-meter bands {{< link id="T3A12" >}}
 > - Vegetation *absorbs* UHF and microwave signals, leading to poor reception of weak signals {{< link id="T3A02" >}}
-> - Multipath propagation can increase error rates in data transmissions {{< link id="T3A10" >}}
+> - Multipath propagation can increase error rates in data transmissions. {{< link id="T3A10" >}}
 
 Understanding these effects helps you:
 - Choose appropriate frequencies for different weather conditions

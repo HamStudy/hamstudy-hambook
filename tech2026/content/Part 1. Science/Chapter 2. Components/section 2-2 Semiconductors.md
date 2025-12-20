@@ -16,7 +16,7 @@ Semiconductors are special materials that make modern electronics possible. They
 > **Key Information:** 
 > - A diode allows current to flow *in only one direction* {{< link id="T6B02" >}}
 > - The *cathode lead (negative side)* is often *marked with a stripe* {{< link id="T6B06" >}}
-> - The forward voltage drop is lower in some diode types than others {{< link id="T6B01" >}}
+> - The forward voltage drop is lower in some diode types than others. {{< link id="T6B01" >}}
 
 ![Diode schematic diagram with anode / cathode labeled](../../../images/s2-2-diode.svg)
 {.img-small .float-right .img-bw}
@@ -43,7 +43,7 @@ LEDs are special diodes that light up when current flows through them. They're c
 > **Key Information:** 
 > - Transistors can be used as electronic switches {{< link id="T6B03" >}}
 > - A transistor contains *three regions of semiconductor material* {{< link id="T6B04" >}}
-> - FET stands for *Field Effect Transistor* {{< link id="T6B08" >}}
+> - FET stands for *Field Effect Transistor*. {{< link id="T6B08" >}}
 
 There are two main types of transistors, and it's important to know the names of their parts:
 
@@ -61,7 +61,7 @@ This ability to amplify signals is what makes transistors so important in radio 
 
 > **Key Information:** 
 > - Transistors can provide *power gain*—the ability to amplify signals {{< link id="T6B10" >}}
-> - *Gain* in amplifiers can refer to the ratio of output to input *voltage, current, or power*—all are valid ways to measure how much a signal is amplified {{< link id="T6B11" >}}
+> - *Gain* in amplifiers can refer to the ratio of output to input *voltage, current, or power*—all are valid ways to measure how much a signal is amplified. {{< link id="T6B11" >}}
 
 #### Integrated Circuits (ICs): Many Components in One
 

@@ -23,7 +23,7 @@ While AM isn't the most common mode in amateur radio, you'll still encounter it 
 
 > **Key Information:**
 > - *FM/PM are commonly used for VHF packet radio transmissions* {{< link id="T8A02" >}}
-> - *FM/PM are the primary modes for VHF and UHF voice repeaters* {{< link id="T8A04" >}}
+> - *FM/PM are the primary modes for VHF and UHF voice repeaters*. {{< link id="T8A04" >}}
 
 In Frequency Modulation (FM), we keep the amplitude (brightness) constant but vary the frequency (color) of the radio wave. It's like using a light that maintains the same brightness but shifts between different colors to send your message—a specific color shift represents a specific sound or piece of data.
 
@@ -63,7 +63,7 @@ Different modulation modes occupy different amounts of frequency space, much lik
 > - *CW (Morse Code)*: *Narrowest bandwidth, about 150 Hz* {{< link id="T8A05" >}} {{< link id="T8A11" >}}
 > - *SSB voice*: About 3 kHz
 > - *FM voice*: About 10-15 kHz
-> - *AM fast-scan television*: About 6 MHz {{< link id="T8A10" >}}
+> - *AM fast-scan television*: About 6 MHz. {{< link id="T8A10" >}}
 
 #### Bandwidth and Frequency Range
 

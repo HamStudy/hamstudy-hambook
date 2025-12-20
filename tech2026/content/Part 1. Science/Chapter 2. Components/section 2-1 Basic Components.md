@@ -51,7 +51,7 @@ In amateur radio, capacitors are used to:
 > **Key Information:**
 > - Inductors store energy in a magnetic field {{< link id="T6A06" >}}
 > - They are typically constructed as a *coil of wire* {{< link id="T6A07" >}}
-> - They are *used with capacitors* to make a *resonant circuit* {{< link id="T6D08" >}}
+> - They are *used with capacitors* to make a *resonant circuit*. {{< link id="T6D08" >}}
 
 While capacitors store energy in an electric field, *inductors* store energy in a magnetic field that forms around the coil when current flows through it. This complementary relationship makes them perfect partners in radio circuits.
 
@@ -66,7 +66,7 @@ Together, capacitors and inductors form the foundation of tuned circuits that se
 
 > **Key Information:** The fundamental differences between series and parallel circuits are:
 > - In *series circuits*, current is the same through all components {{< link id="T5D13" >}}
-> - In *parallel circuits*, voltage is the same across all components {{< link id="T5D14" >}}
+> - In *parallel circuits*, voltage is the same across all components. {{< link id="T5D14" >}}
 
 These two circuit types behave very differently:
 - **Series Circuits**: Components are connected end-to-end in a single path. If one component fails, the entire circuit stops functioning.

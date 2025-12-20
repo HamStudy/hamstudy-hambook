@@ -17,7 +17,7 @@ When it comes to towers, safety isn't just a good idea—it's essential. If you'
 > - Have sufficient training on safe tower climbing techniques
 > - Use appropriate tie-off to the tower at all times
 > - Always wear an approved climbing harness
-> - Have a helper or observer present
+> - Have a helper or observer present.
 
 1. **Never Climb Alone**: *It is never safe to climb a tower without a helper or observer*. {{< link id="T0B03" >}} Your ground crew isn't just there to hand you tools—they're your safety net. They can call for help in an emergency, guide you through difficult maneuvers, and keep an eye on changing conditions like approaching weather.
 
@@ -29,7 +29,7 @@ Here's a real-life scenario: A ham decided to make a "quick adjustment" to his a
 
 #### Overhead Power Lines and Placement
 
-> **Key Information:** Always look for and stay clear of overhead electrical wires when putting up an antenna tower {{< link id="T0B04" >}}
+> **Key Information:** Always look for and stay clear of overhead electrical wires when putting up an antenna tower. {{< link id="T0B04" >}}
 
 Power lines are the arch-nemesis of antenna safety. *When putting up an antenna tower, always look for and stay clear of any overhead electrical wires*. Here's a rule of thumb:
 
