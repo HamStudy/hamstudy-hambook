@@ -1,7 +1,8 @@
 ---
 chapter: "6"
 section: "6.7"
-questions: [ "T7B03", "T7B05", "T7B02", "T7B04", "T7B07", "T7B06", "T7B08", "T7B10", "T7B11", "T7B09" ]
+questions: [ "T7B03", "T7B05", "T7B02", "T7B11", "T7B07", "T7B06", "T7B08", "T7B10", "T7B09" ]
+state: complete
 ---
 
 ### Section 6.7: Interference and Troubleshooting
@@ -10,13 +11,13 @@ Welcome to the world of radio detective work! As a ham, you'll sometimes encount
 
 #### Radio Frequency Interference
 
-> **Key Information:** Radio frequency interference (RFI) can be caused by fundamental overload, harmonics, and spurious emissions. {{< link id="T7B03" >}} These are all potential sources of interference to other devices.
+> **Key Information:** Radio frequency interference (RFI) can be caused by fundamental overload, harmonics, and spurious emissions. {{< link id="T7B03" >}}
 
 Radio Frequency Interference (RFI) refers to unwanted radio energy interfering with your desired signals. It can come from various sources, including other radio transmitters, electronic devices, power lines, and motor-driven equipment.
 
 ##### Fundamental Overload
 
-> **Key Information:** Fundamental overload of a non-amateur radio or TV receiver by an amateur signal can be reduced or eliminated by blocking the amateur signal with a filter at the antenna input of the affected receiver. {{< link id="T7B05" >}}
+> **Key Information:** Interference by an amateur station to a non-amateur over-the-air radio receiver can be reduced by blocking the amateur signal with a filter at the antenna input of the affected receiver. {{< link id="T7B05" >}}
 
 Fundamental overload occurs when a strong nearby signal overwhelms a receiver, even if it's not on the frequency you're trying to receive. It's like trying to hear a whisper while someone's shouting nearby.
 
@@ -54,26 +55,19 @@ Understanding harmonics and spurious emissions is crucial for responsible amateu
 
 #### Common Causes and Solutions
 
-##### FM Deviation and Overmodulation
+Beyond the interference sources discussed above, here are some practical tools and techniques for addressing common problems.
 
-> **Key Information:** Talking too loudly into the microphone causes your FM transmission audio to be distorted on voice peaks. This is known as overdeviation.
+##### Ferrite Chokes and RF Feedback
 
-- Cause: Speaking too loudly into the microphone or having the mic gain set too high.
-- Solution: Adjust your mic gain and speak at a normal volume. If others report distorted audio, try backing off the mic a bit.
+> **Key Information:** Adding a clip-on ferrite choke to the microphone cable can eliminate distorted voice transmissions by preventing the transmitted signal from feeding back into the transmitter. {{< link id="T7B11" >}}
 
-##### Ferrite Chokes
-
-> **Key Information:** A ferrite choke can be used to cure distorted audio caused by RF current on the shield of a microphone cable. {{< link id="T7B04" >}}
-
-- Use: These are great for reducing RFI on cables.
-- How: Slip them over power cords, audio cables, or coax feedlines to suppress unwanted RF.
+RF feedback creates garbled or unintelligible transmissions when RF energy gets back into your audio circuits. Ferrite chokes suppress these unwanted RF currents—slip them over microphone cables, power cords, or audio cables. Multiple chokes may be needed on longer cables. Other solutions include improving station grounding and adjusting antenna placement.
 
 ##### Filters
 
-> **Key Information:** A band-reject filter can reduce overload of a VHF transceiver by a nearby commercial FM station. {{< link id="T7B07" >}}
+> **Key Information:** A band-reject filter can reduce interference to a 2-meter transceiver from a nearby commercial FM station. {{< link id="T7B07" >}}
 
-- Band-reject filters: These can block out a specific frequency range causing interference. For example, you could use one to block signals from a nearby commercial FM station.
-- Low-pass filters: Use these on your transmitter output to reduce harmonics that might interfere with TVs or other devices.
+Band-reject filters block a specific frequency range causing interference, while low-pass filters on your transmitter output reduce harmonics that might interfere with TVs or other devices.
 
 ##### Grounding
 
@@ -83,45 +77,22 @@ Proper grounding of your station can significantly reduce interference issues. E
 
 > **Key Information:** If a neighbor tells you that your station's transmissions are interfering with their radio or TV reception, *you should first make sure that your station is functioning properly and that it does not cause interference to your own radio or television when it is tuned to the same channel*. {{< link id="T7B06" >}}
 
-If a neighbor complains about interference:
-
-1. Take it seriously and be polite.
-2. *Verify your station is operating properly and not causing interference to your own devices.*
-3. *Work with your neighbor to identify the offending device.* {{< link id="T7B08" >}}
-4. Make sure your station meets the standards of good amateur practice.
-5. If it is your station, work on solutions like filters or adjusting operating times.
-
-Remember that both you and your neighbor share responsibility in resolving interference issues. While you need to ensure your station is operating properly, sometimes the issue may be with their equipment's susceptibility to strong signals rather than a problem with your transmissions.
+Take complaints seriously and be polite. After verifying your own equipment, *work with your neighbor to identify the offending device* {{< link id="T7B08" >}} and make sure your station meets the standards of good amateur practice. Sometimes the issue may be with their equipment's susceptibility to strong signals rather than a problem with your transmissions.
 
 #### Troubleshooting Audio Issues
 
-##### Distorted Audio through Repeaters
+Audio problems are among the most common issues you'll encounter. Whether it's distorted audio, unintelligible transmissions, or reports that you sound "off," these problems usually have straightforward causes and solutions.
 
-> **Key Information:** If you receive a report that your audio signal through an FM repeater is distorted or unintelligible, it might be because your transmitter is slightly off frequency, your batteries are running low, or you are in a bad location. {{< link id="T7B10" >}}
+> **Key Information:** If you receive a report that your audio signal through an FM repeater is distorted or unintelligible, it might be because your transmitter is slightly off frequency, you are speaking too loudly or too close to the microphone, or you are in a bad location. {{< link id="T7B10" >}}
 
-- Possible causes: Overdeviation, poor signal into the repeater, repeater issues, low batteries, being off-frequency.
-- Solutions: Check your transmit audio levels, try a different location, replace or charge batteries, ensure your radio is on frequency, or contact the repeater owner if the problem persists.
-
-##### RF Feedback
-
-> **Key Information:** A sign of RF feedback in a transmitter or transceiver is garbled, distorted, or unintelligible voice transmissions. {{< link id="T7B11" >}}
-
-- Signs: Garbled, distorted, or unintelligible transmissions.
-- Causes: RF energy from your transmitter is getting back into your microphone or audio circuits. This creates a feedback loop where your transmitted signal interferes with its own audio input.
-- Solutions: Improve station grounding, use ferrite chokes on cables, ensure proper shielding of audio equipment, and adjust antenna placement to reduce RF in the shack.
+Speaking too loudly or too close to the microphone causes *overdeviation*—your FM signal swings too far from the center frequency, resulting in distorted audio on voice peaks. Back off from the mic and speak at a normal volume. If you're in a poor location, your signal may be too weak for the repeater to process cleanly, so try moving to a spot with a better path to the repeater. And if your radio is slightly off frequency, the repeater may not decode your audio properly.
 
 #### TV Interference
 
 > **Key Information:** The first step to resolve cable TV interference caused by your amateur radio transmission is to be sure all TV feed line coaxial connectors are installed properly. {{< link id="T7B09" >}}
 
-Interference to cable TV can often be resolved by ensuring all connections are tight and properly shielded. Sometimes, a low-pass filter on your transmitter output or high-pass filters on affected TV equipment can help.
+Loose connectors, poorly shielded cables, damaged lines, or missing terminations on unused outlets can all allow your signal to leak in. After checking connections, a low-pass filter on your transmitter output or high-pass filters on affected TV equipment can help with persistent issues.
 
-Problems with cable TV interference are frequently caused by:
-- Loose connectors allowing your signal to leak in
-- Poorly shielded cables
-- Broken or damaged cable lines
-- Missing or damaged terminations on unused cable outlets
-
-Remember, patience is key when troubleshooting. Methodically check each part of your station, and don't be afraid to ask for help from more experienced hams. With practice, you'll become a pro at keeping your signals clean and your neighbors happy!
+Remember, patience is key when troubleshooting. Methodically check each part of your station, and don't be afraid to ask for help from more experienced hams.
 
 Pro Tip: Keep a log of any interference issues and the steps you take to resolve them. This can be invaluable if you encounter similar problems in the future or need to demonstrate your efforts to resolve interference.
