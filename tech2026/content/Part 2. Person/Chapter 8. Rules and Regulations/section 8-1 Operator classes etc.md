@@ -26,7 +26,7 @@ These purposes highlight the multifaceted nature of amateur radio - it's not jus
 
 #### Operator Classes and Privileges
 
-> **Key Information:** New licenses are currently available from the FCC for three classes: Technician, General, and Amateur Extra.
+> **Key Information:** The FCC currently issues three classes of amateur radio licenses: Technician, General, and Amateur Extra.
 
 The FCC currently issues three classes of amateur radio licenses: {{< link id="T1C01" >}}
 
@@ -48,27 +48,29 @@ The FCC currently issues three classes of amateur radio licenses: {{< link id="T
    - Access to exclusive Extra-only sections of bands
    - Can get accredited as a Volunteer Examiner to administer exams for new and upgrading operators of any license class
 
-You may come across other license classes besides these; that's because the rules have changed over the years and the Novice, Technician Plus, and Advanced licenses are no longer issued to new licensees. There are still people out there who hold Novice or Advanced licenses but that's a topic outside of the scope of this book.
+You may come across other license classes besides these; that's because the rules have changed over the years and the Novice, Technician Plus, and Advanced licenses are no longer issued to new licensees. There are still people out there who hold Novice or Advanced licenses but that's a topic outside of the scope of this book. Note that each person may hold only one operator/primary station license grant—you'll have just one call sign, even if you have multiple radios or operating locations.
 
-> **Key Information:** Each person may hold only one operator/primary station license grant. {{< link id="T1A04" >}} This means you'll have just one call sign, even if you have multiple radios or operating locations.
+#### Getting Your License
 
-#### License Verification
+After you pass your exam, your volunteer examiner (VE) team will send your test results and application to whichever VEC (Volunteer Examiner Coordinator) they work with. The VEC will submit your application to the FCC, and then the FCC will send you an email with information about how to pay the licensing fee. Once that is paid your license will be issued (usually the next business day) and *the FCC will send you an email with a link to download your license grant*. {{< link id="T1A04" >}}
 
-> **Key Information:** The appearance of a license in the FCC ULS database proves that the FCC has issued an operator/primary license grant.
+> **Key Information:** You receive official notification of your new license and call sign via email from the FCC with a link to download the license grant. The appearance of a license in the FCC ULS database proves that the FCC has issued an operator/primary license grant.
 
-How do you know if someone (including yourself) is officially licensed? The proof is in the database! *The appearance of your license grant in the FCC's Universal Licensing System (ULS) database is what officially proves you've been licensed* - not a paper certificate or an email confirmation. {{< link id="T1A05" >}}
+How do you know if someone (including yourself) is officially licensed? The proof is in the database! *The appearance of your license grant in the FCC's Universal Licensing System (ULS) database is what officially proves you've been licensed*—not a paper certificate or an email confirmation. {{< link id="T1A05" >}}
 
-#### Email Requirements
+#### Email Requirements and License Renewal
 
-> **Key Information:** If the FCC is unable to reach you by email, they may revoke your station license or suspend your operator license. Failure to provide and maintain a correct email address with the FCC can result in license revocation or suspension.
+> **Key Information:** If the FCC is unable to reach you by email, they may revoke your station license or suspend your operator license. You may request license renewal up to 90 days before the expiration date.
 
-Here's something critically important: *You must provide and maintain a correct email address with the FCC*. {{< link id="T1C04" >}} If they can't reach you by email, they can suspend or revoke your license. Make sure your email address stays current in the FCC database – it's a requirement, not just a suggestion! {{< link id="T1C07" >}}
+Here's something critically important: *You must provide and maintain a correct email address with the FCC*. {{< link id="T1C04" >}} If they can't reach you by email, they can suspend or revoke your license. Make sure your email address stays current in the FCC database—it's a requirement, not just a suggestion!
+
+Your amateur radio license is valid for ten years. When it's time to renew, *you may request renewal up to 90 days before the expiration date*. {{< link id="T1C07" >}} Don't wait until the last minute—renewing early ensures you won't have any gap in your operating privileges.
 
 #### Call Signs
 
 In the US, call signs are structured as follows: [Prefix][Number][Suffix]
 
-> **Key Information:** All Technician call signs will be either 2x3 or 1x3, from groups C or D (described below), such as KF1XXX or K1XXX. A Technician class operator cannot be assigned a 1x2 or 2x1 (such as W1XX or KA1X). {{< link id="T1C05" >}}
+> **Key Information:** A valid Group D call sign format for Technician class is a 2x3 format like KF1XXX. A Technician class operator can also be assigned a Group C call sign (1x3 format like K1XXX), but cannot be assigned a 1x2 or 2x1 call sign (such as W1XX or KA1X). {{< link id="T1C05" >}}
 
 There are four "groups" that call signs are assigned from. 
 
