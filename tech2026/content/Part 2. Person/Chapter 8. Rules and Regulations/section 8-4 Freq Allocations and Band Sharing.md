@@ -2,6 +2,7 @@
 chapter: "8"
 section: "8.4"
 questions: [ "T1B08", "T2A10", "T1A08", "T1A09", "T2B09", "T2B08" ]
+state: complete
 ---
 
 ### Section 8.4: Frequency Allocations and Band Sharing
@@ -38,7 +39,7 @@ Different modes of communication require different amounts of bandwidth - from n
 
 #### Frequency Coordinators
 
-> **Key Information:** A Volunteer Frequency Coordinator recognized by local amateurs recommends transmit/receive channels and other parameters for auxiliary and repeater stations. {{< link id="T1A08" >}}
+> **Key Information:** A Volunteer Frequency Coordinator recognized by local amateurs recommends transmit/receive channels for repeater and auxiliary stations. {{< link id="T1A08" >}}
 > 
 > Amateur operators in a local or regional area whose stations are eligible to be repeater or auxiliary stations select the Frequency Coordinator. {{< link id="T1A09" >}}
 
