@@ -1,7 +1,8 @@
 ---
 chapter: "8"
 section: "8.5"
-questions: [ "T1F03", "T2A06", "T1F04", "T1F05", "T1A03", "T1F06", "T1F02", "T1D11" ]
+questions: [ "T1F03", "T1D12", "T1F04", "T1F05", "T1A03", "T1F06", "T1F02", "T1D11" ]
+state: complete
 ---
 
 ### Section 8.5: Station Identification
@@ -21,7 +22,7 @@ The FCC requires you to identify your station in two key situations:
 
 Remember: "Ten and End" - identify at least every ten minutes and at the end.
 
-> **Key Information:** When making on-the-air test transmissions, you must identify the transmitting station. {{< link id="T2A06" >}}
+> **Key Information:** When making on-the-air test transmissions, you must identify the transmitting station. {{< link id="T1D12" >}}
 
 Even for short test transmissions, you must identify your station with your call sign. There's no "just testing" exception to the identification rules!
 
