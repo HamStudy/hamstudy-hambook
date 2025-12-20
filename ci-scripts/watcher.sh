@@ -11,7 +11,7 @@ SLEEP_DURATION="${SLEEP_DURATION:-60}"
 KEEP_BUILD_COUNT="${KEEP_BUILD_COUNT:-10}"
 
 # Project configuration - list all projects here
-PROJECTS="tech2022"
+PROJECTS="tech2022 tech2026 general2023"
 # Add more projects as needed, e.g.: PROJECTS="tech2022 general2023 extra2024"
 
 # Initialize script variables
