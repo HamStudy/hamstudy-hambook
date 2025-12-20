@@ -2,20 +2,23 @@
 chapter: "7"
 section: "7.5"
 questions: [ "T8C01", "T8C02", "T8C03", "T8C04", "T8C05" ]
+state: complete
 ---
 
 ### Section 7.5: Fun with Amateur Radio
 
 Alright, radio adventurers, buckle up! We're about to explore some of the coolest, quirkiest, and downright awesome things you can do with your ham radio license. Let's start with a few activities that you might encounter on the exam.
 
-> **Key Information:** Radio direction finding is used to locate sources of noise interference or jamming. {{< link id="T8C01" >}} It involves using directional antennas and receivers to determine the location of a radio signal.
-
 #### Fox Hunting and Direction Finding
 
 ![illustration showing a guy in a park with a directional antenna looking for something. A fox tail sticks out from behind a tree and onlookers gawk in confusion](../../../images/illus/foxhunt.svg)
 {.img-xlarge .img-centered}
 
-Ever fancy yourself as a radio detective? Then you'll love fox hunting! In ham radio, a "fox" is a hidden transmitter, and your job is to find it using your radio skills and some clever equipment. It's like a high-tech game of hide-and-seek. Here's how it works:
+Ever fancy yourself as a radio detective? Then you'll love fox hunting—a ham radio term for *radio direction finding*. This technique involves using directional antennas and receivers to determine the location of a radio signal. In a fox hunt, the "fox" is a hidden transmitter, and your job is to find it using your radio skills and some clever equipment. It's like a high-tech game of hide-and-seek.
+
+> **Key Information:** *Radio direction finding* is used to locate sources of noise interference or jamming. {{< link id="T8C01" >}}
+
+Here's how it works:
 
 1. Someone sets up a low-power transmitter (the "fox") in a secret location.
 2. *Hunters use directional antennas to track down the signal.*
@@ -37,13 +40,13 @@ Ever felt the thrill of a race? Well, ham radio has its own version of high-spee
 
 1. What's a contest? It's an event where hams compete to make the most contacts, often with specific goals like working different countries, states, or grid squares. Some last a few hours, others a full weekend. It's like a global radio party!
 
-2. How does it work? You'll exchange brief info with each station you contact - usually a signal report and some other data like your location or a serial number. *When contacting another station in a contest, good procedure is to send only the minimum information needed for proper identification and the contest exchange.* {{< link id="T8C04" >}} It's not the time for a lengthy chat.
+2. How does it work? You'll exchange brief info with each station you contact - usually a signal report and some other data like your location or a serial number. *When contacting another station in a contest, good practice is to send only the minimum information needed for proper identification and the contest exchange.* {{< link id="T8C04" >}} It's not the time for a lengthy chat.
 
 3. Why contest? It's a great way to improve your operating skills, test your station's performance, and maybe snag some rare locations for awards. Plus, the adrenaline rush is real!
 
 4. Get on the air! Many contests have sections for newcomers or low-power stations. It's a perfect way to dip your toes into the contesting waters.
 
-> **Key Information:** Contesting is a popular operating activity where operators try to contact as many stations as possible during a specified time period. Good contest procedure is to send only the minimum required information.
+> **Key Information:** Contesting is an operating activity where operators try to contact as many stations as possible during a specified time period. Good contest practice is to send only the minimum required information.
 
 #### Grid locators
 
