@@ -1,7 +1,7 @@
 ---
 chapter: "8"
 section: "8.3"
-questions: [ "T1B06", "T1B10", "T1B11", "T1B03", "T1B04", "T1B07", "T1B12", "T1B01", "T1B05", "T1B09" ]
+questions: [ "T1B06", "T1B01", "T1B10", "T1B11", "T1B03", "T1B04", "T1B07", "T1B12", "T1B05", "T1B09" ]
 ---
 
 ### Sección 8.3: Frecuencias Autorizadas
@@ -14,7 +14,7 @@ La mayor parte de esta sección implica memorización para el examen. No te preo
 
 Ahora, vamos a desglosarlo:
 
-> **Información Clave:** *Los operadores de clase Technician tienen privilegios de fonía en la banda de 10 metros solamente* {{< link id="T1B06" >}} (28.300-28.500 MHz) entre todas las bandas de HF. En las bandas VHF/UHF, *la fonía en SSB puede usarse en al menos algún segmento de todas las bandas de radioaficionados por encima de 50 MHz*. {{< link id="T1B10" >}}
+> **Información Clave:** *Los operadores de clase Technician tienen privilegios de fonía en la banda de 10 metros solamente* {{< link id="T1B06" >}}, específicamente *28.300 MHz a 28.500 MHz* {{< link id="T1B01" >}}, entre todas las bandas de HF. En las bandas VHF/UHF, *la fonía en SSB puede usarse en al menos algún segmento de todas las bandas de radioaficionados por encima de 50 MHz*. {{< link id="T1B10" >}}
 
 #### Privilegios en HF (Alta Frecuencia)
 
@@ -56,8 +56,6 @@ Recuerda, "CW" (abreviatura de "Continuous Wave" u Onda Continua) se refiere al 
 #### Designaciones de Bandas
 
 Las bandas de radioaficionado a menudo se denominan por su longitud de onda aproximada en lugar de su rango de frecuencia. Recuerda de la Sección 3.1 que la longitud de onda y la frecuencia están inversamente relacionadas - cuando la frecuencia aumenta, la longitud de onda disminuye.
-
-> **Información Clave:** *Las bandas de radioaficionado se identifican por su longitud de onda aproximada en metros* {{< link id="T1B01" >}}. Por ejemplo, 52.525 MHz está en la banda de radioaficionado de 6 metros* y 146.52 MHz está en la banda de radioaficionado de 2 metros*.
 
 Esta convención de nomenclatura es por lo que escucharás referencias a la "banda de 2 metros" (144-148 MHz), la "banda de 70 centímetros" (420-450 MHz), o la "banda de 10 metros" (28-29.7 MHz). Si necesitas repasar el cálculo de longitudes de onda, vuelve a la Sección 3.1 donde cubrimos la fórmula de longitud de onda y ejemplos en detalle.
 
