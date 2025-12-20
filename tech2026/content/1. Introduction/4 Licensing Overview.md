@@ -4,7 +4,7 @@ slug: licensing
 chapter: "I"
 section: "I-4"
 epubtype: introduction
-questions: [ "T1C09", "T1C11", "T1C08", "T1C01", "T1C10", "T1C07", "T1C04" ]
+questions: [ "T1C01", "T1C04", "T1C08", "T1C10", "T1C07", "T1C09", "T1C11" ]
 ---
 
 # Overview of the Licensing Process
@@ -37,7 +37,9 @@ Some applications are flagged for manual (human) review for various reasons; in 
 
 Your license becomes valid as soon as your operator/station license grant appears in the ULS (Universal Licensing System), the FCC's online license database. {{< link id="T1C10" >}}
 
-You can renew your license as early as ninety (90) days before it expires by signing in through the [FCC license manager website](https://hamstudy.org/l/licMgr). If you have any issues you can contact the FCC helpdesk using contact information from their website.
+> **Key Information:** You can renew your license as early as ninety (90) days before it expires.
+
+You can renew by signing in through the [FCC license manager website](https://hamstudy.org/l/licMgr). If you have any issues you can contact the FCC helpdesk using contact information from their website.
 
 > **Key Information:** If your license expires, you have a two-year grace period to renew it. {{< link id="T1C09" >}} During this grace period, you may not transmit until the renewal is processed. {{< link id="T1C11" >}}
 
