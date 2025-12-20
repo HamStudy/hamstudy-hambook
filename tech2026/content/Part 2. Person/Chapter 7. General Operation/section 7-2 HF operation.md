@@ -1,7 +1,8 @@
 ---
 chapter: "7"
 section: "7.2"
-questions: [ "T8D09", "T2A12", "T2C03", "T2A05" ]
+questions: [ "T8D09", "T2C03", "T2A06", "T2A05" ]
+state: complete
 ---
 
 ### Section 7.2: HF Operation
@@ -31,8 +32,6 @@ Though it might seem outdated to newcomers, CW remains popular on the HF bands d
 
 Now, let's talk about actually using that 10-meter privilege:
 
-> **Key Information:** Before calling CQ, you should always listen first and make sure that the frequency is not already in use. {{< link id="T2A12" >}}
-
 1. **Listen First**: Always listen before transmitting. HF bands can be crowded, and you don't want to interrupt ongoing conversations.
 
 2. **Sideband Selection**: For voice on 10 meters and most HF bands above 10 MHz, you'll use USB (Upper Sideband). However, on HF bands below 10 MHz (like 40, 80, and 160 meters), LSB (Lower Sideband) is the convention. Remember: "Ten and up, USB; below ten, LSB." It's like choosing the right lane on a highway - using the correct sideband ensures clear communication and follows ham radio etiquette.
@@ -56,6 +55,8 @@ Calling CQ (seeking a contact) and responding to CQ calls are fundamental skills
 4. End with "CQ and listening" or similar.
 
 Example: "CQ CQ CQ, this is KA1ABC, Kilo Alpha One Alpha Bravo Charlie calling CQ and listening."
+
+> **Key Information:** *An effective way to seek a call from any phone station when not using a repeater is to repeat "CQ" a few times, followed by "this is" and your call sign, then pause to listen.* {{< link id="T2A06" >}}
 
 When operating in most HF bands you are using a small amount of bandwidth for a large stretch of frequencies, so it's often a good idea to have a slightly longer "CQ" message so you are talking long enough for someone who is scanning through the band to hear you. Make sure to indicate in some way that you're done because with SSB there is no carrier to drop out – there is no audible difference between transmitting and not talking and actually being done.
 
