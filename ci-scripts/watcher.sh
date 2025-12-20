@@ -244,14 +244,14 @@ run_build() {
   # Create the output directory
   mkdir -pv "$BUILD_BASE_DIR/$output_dir"
   
-  # Check if common files changed
-  if [ "$CURRENT_HUGO_COMMON_HASH" != "$LAST_HUGO_COMMON_HASH" ]; then
+  # Check if common files changed (or force rebuild requested)
+  if $FORCE_REBUILD || [ "$CURRENT_HUGO_COMMON_HASH" != "$LAST_HUGO_COMMON_HASH" ]; then
     rebuild_common=true
-    echo " -- Common files changed, all projects will be rebuilt."
+    echo " -- Common files changed (or force rebuild), all projects will be rebuilt."
   fi
   
-  # Check if root changed
-  if [ "$CURRENT_HUGO_ROOT_HASH" != "$LAST_HUGO_ROOT_HASH" ]; then
+  # Check if root changed (or force rebuild requested)
+  if $FORCE_REBUILD || [ "$CURRENT_HUGO_ROOT_HASH" != "$LAST_HUGO_ROOT_HASH" ]; then
     echo " -- Rebuilding hugo-root..."
     run_or_error hugo -s hugo-root --minify --config hugo.yaml,hugo-prod.yaml --cleanDestinationDir
     # Compress root assets
@@ -358,10 +358,48 @@ for project in $PROJECTS; do
   declare -g "LAST_${project}_HASH"=""
 done
 
-# Calculate current hashes
+# Startup build: ensure all hugo/public directories exist
+echo "=== Startup: Building all projects to populate local directories ==="
+for project in $PROJECTS; do
+  echo " -- Running import for $project"
+  node src/import.js -f hugo $project -o $project/hugo
+done
+
+echo " -- Building hugo-root..."
+run_or_error hugo -s hugo-root --minify --config hugo.yaml,hugo-prod.yaml --cleanDestinationDir
+compress_static_assets "hugo-root/public"
+
+for project in $PROJECTS; do
+  echo " -- Building $project..."
+  run_or_error hugo -s "$project/hugo" --minify --config hugo.yaml,hugo-prod.yaml --cleanDestinationDir
+  compress_static_assets "$project/hugo/public"
+done
+
+# Calculate hashes after startup build
 calculate_project_hashes
 CURRENT_HUGO_COMMON_HASH=$(get_hugo_common_hash)
 CURRENT_HUGO_ROOT_HASH=$(get_hugo_root_hash)
+
+# Set LAST hashes to CURRENT so incremental builds work correctly
+for project in $PROJECTS; do
+  current_hash_var="CURRENT_${project}_HASH"
+  last_hash_var="LAST_${project}_HASH"
+  declare -g "$last_hash_var"="${!current_hash_var}"
+done
+LAST_HUGO_COMMON_HASH=$CURRENT_HUGO_COMMON_HASH
+LAST_HUGO_ROOT_HASH=$CURRENT_HUGO_ROOT_HASH
+
+# Check if startup build differs from deployed version
+DEPLOYED_HASH=$(s3_download "last_hash" || echo "")
+CURRENT_GIT_HASH=$(git rev-parse --short HEAD)
+if [ "$DEPLOYED_HASH" != "$CURRENT_GIT_HASH" ]; then
+  echo "=== Startup build differs from deployed version, will deploy ==="
+  FORCE_REBUILD=true
+else
+  echo "=== Startup build matches deployed version, no deployment needed ==="
+fi
+
+echo "=== Startup complete, entering main loop ==="
 
 while true; do
   CURRENT_TIME=$(date +%s)
