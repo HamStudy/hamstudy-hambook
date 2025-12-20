@@ -1,7 +1,7 @@
 ---
 chapter: "8"
 section: "8.3"
-questions: [ "T1B06", "T1B10", "T1B11", "T1B03", "T1B04", "T1B07", "T1B12", "T1B01", "T1B05", "T1B09" ]
+questions: [ "T1B06", "T1B01", "T1B10", "T1B11", "T1B03", "T1B04", "T1B07", "T1B12", "T1B05", "T1B09" ]
 ---
 
 ### Section 8.3: Authorized Frequencies
@@ -14,7 +14,7 @@ Most of this section involves memorization for the exam. Don't worry about commi
 
 Now, let's break it down:
 
-> **Key Information:** *Technician class operators have phone privileges on the 10 meter band only* {{< link id="T1B06" >}} (28.300-28.500 MHz) among all HF bands. On VHF/UHF bands, *SSB phone may be used in at least some segment of all amateur bands above 50 MHz*. {{< link id="T1B10" >}}
+> **Key Information:** *Technician class operators have phone privileges on the 10 meter band only* {{< link id="T1B06" >}}, specifically *28.300 MHz to 28.500 MHz* {{< link id="T1B01" >}}, among all HF bands. On VHF/UHF bands, *SSB phone may be used in at least some segment of all amateur bands above 50 MHz*. {{< link id="T1B10" >}}
 
 #### HF (High Frequency) Privileges
 
@@ -56,8 +56,6 @@ Remember, "CW" (short for "Continuous Wave") refers to Morse code, "Phone" means
 #### Band Designations
 
 Amateur radio bands are often referred to by their approximate wavelength rather than their frequency range. Remember from Section 3.1 that wavelength and frequency are inversely related - as frequency increases, wavelength decreases.
-
-> **Key Information:** *Amateur radio bands are identified by their approximate wavelength in meters* {{< link id="T1B01" >}}. For example, 52.525 MHz is in the 6 meter amateur band* and 146.52 MHz is in the 2 meter amateur band*.
 
 This naming convention is why you'll hear references to the "2-meter band" (144-148 MHz), the "70-centimeter band" (420-450 MHz), or the "10-meter band" (28-29.7 MHz). If you need a refresher on calculating wavelengths, refer back to Section 3.1 where we covered the wavelength formula and examples in detail.
 
