@@ -5,7 +5,7 @@ epubtype: introduction
 
 The exam questions come from publicly available question pools developed by the [National Conference of Volunteer Examiner Coordinators (NCVEC)](https://ncvec.org). These pools are updated on a regular schedule:
 
-- Technician Class pool: Updated every four years (last updated 2022)
+- Technician Class pool: Updated every four years (2026 pool has been released and will be active Jul 1, 2026)
 - General Class pool: Updated every four years (last updated 2023)
 - Amateur Extra Class pool: Updated every four years (last updated 2024)
 

@@ -1,5 +1,5 @@
 ---
-title: 2022-2026 Technician Class Question Pool
+title: 2026-2030 Technician Class Question Pool
 pagebreak: true
 ---
 {{< questionList >}}
