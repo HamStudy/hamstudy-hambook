@@ -1,7 +1,7 @@
 ---
 chapter: "8"
 section: "8.3"
-questions: [ "T1B06", "T1B10", "T1B11", "T1B03", "T1B04", "T1B07", "T1B12", "T1B01", "T1B05", "T1B09" ]
+questions: [ "T1B06", "T1B01", "T1B05", "T1B10", "T1B11", "T1B03", "T1B04", "T1B07", "T1B12", "T1B09" ]
 ---
 
 ### Section 8.3: Authorized Frequencies
@@ -14,7 +14,11 @@ Most of this section involves memorization for the exam. Don't worry about commi
 
 Now, let's break it down:
 
-> **Key Information:** *Technician class operators have phone privileges on the 10 meter band only* {{< link id="T1B06" >}} (28.300-28.500 MHz) among all HF bands. On VHF/UHF bands, *SSB phone may be used in at least some segment of all amateur bands above 50 MHz*. {{< link id="T1B10" >}}
+> **Key Information:**
+>
+> - Technician class operators have phone privileges on the *10-meter band only* among all HF bands, specifically *28.300 MHz to 28.500 MHz*. {{< link id="T1B06" >}} {{< link id="T1B01" >}}
+> - Technicians are authorized to use digital modes such as FT8 on the 10-meter, 6-meter, and 2-meter bands. {{< link id="T1B05" >}}
+> - SSB phone may be used in at least some segment of *all amateur bands above 50 MHz*. {{< link id="T1B10" >}}
 
 #### HF (High Frequency) Privileges
 
@@ -39,7 +43,7 @@ Now, let's break it down:
    - 219 - 220 MHz: Fixed digital message forwarding only
    - 222 - 225 MHz: All modes including voice
 
-> **Key Information:** 52.525 MHz is in the 6 meter amateur band {{< link id="T1B03" >}} and 146.52 MHz is in the 2 meter amateur band {{< link id="T1B04" >}}. 50.0 MHz to 50.1 MHz and 144.0 MHz to 144.1 MHz are limited to CW only. {{< link id="T1B07" >}}
+> **Key Information:** 52.525 MHz is in the 6-meter amateur band {{< link id="T1B03" >}} and 146.52 MHz is in the 2-meter amateur band. {{< link id="T1B04" >}} 50.0 MHz to 50.1 MHz and 144.0 MHz to 144.1 MHz are limited to CW only. {{< link id="T1B07" >}}
 
 #### UHF (Ultra High Frequency)
 
@@ -57,15 +61,13 @@ Remember, "CW" (short for "Continuous Wave") refers to Morse code, "Phone" means
 
 Amateur radio bands are often referred to by their approximate wavelength rather than their frequency range. Remember from Section 3.1 that wavelength and frequency are inversely related - as frequency increases, wavelength decreases.
 
-> **Key Information:** *Amateur radio bands are identified by their approximate wavelength in meters* {{< link id="T1B01" >}}. For example, 52.525 MHz is in the 6 meter amateur band* and 146.52 MHz is in the 2 meter amateur band*.
-
 This naming convention is why you'll hear references to the "2-meter band" (144-148 MHz), the "70-centimeter band" (420-450 MHz), or the "10-meter band" (28-29.7 MHz). If you need a refresher on calculating wavelengths, refer back to Section 3.1 where we covered the wavelength formula and examples in detail.
 
 This naming system gives us a quick way to approximate the size of antennas needed for these bands, since antenna elements are often designed as fractions (like 1/4 or 1/2) of the wavelength. It's also part of the rich tradition and language of amateur radio that connects us to generations of operators who came before us.
 
 #### Special Note on the 1.25 Meter Band
 
-The 1.25 meter band (220-225 MHz) has a unique allocation. *Amateurs may use the 219 to 220 MHz segment of the 1.25 meter band only for fixed digital message forwarding systems* {{< link id="T1B05" >}}. There's then a gap from 220-222 MHz that we aren't allowed to use (there was a time in the past when we could). The rest of the band, from 222-225 MHz, is available for general use. It's like a highway with a special lane for digital traffic and a wider lane for everything else!
+The 1.25 meter band (220-225 MHz) has a unique allocation. Amateurs may use the 219 to 220 MHz segment of the 1.25 meter band only for fixed digital message forwarding systems. There's then a gap from 220-222 MHz that we aren't allowed to use (there was a time in the past when we could). The rest of the band, from 222-225 MHz, is available for general use.
 
 #### Power Limits for Technician Class Operators
 
