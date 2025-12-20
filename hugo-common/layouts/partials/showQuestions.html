@@ -13,12 +13,29 @@
 {{- $shouldLink := .shouldLink | default true -}}
 {{- $lang := .lang | default .Site.Language.Lang -}}
 
-{{- /* Determine the data file based on language */ -}}
-{{- $qdataXlateKey := printf "questions-%s" $lang -}}
-
+{{- /* Determine the data file based on questionPool frontmatter or language */ -}}
 {{- $poolFile := .Site.Data.questions -}}
-{{- if (index .Site.Data $qdataXlateKey) }}
-  {{- $poolFile = index .Site.Data $qdataXlateKey -}}
+
+{{- $questionPool := "" -}}
+{{- $poolYear := "" -}}
+{{- if $page -}}
+  {{- $questionPool = $page.Params.questionPool | default "" -}}
+  {{- if $questionPool -}}
+    {{- $poolYear = substr $questionPool 3 4 -}}
+  {{- end -}}
+{{- end -}}
+
+{{- if $questionPool -}}
+  {{- $poolDataKey := printf "questions-%s" $questionPool -}}
+  {{- $overridePool := index .Site.Data $poolDataKey -}}
+  {{- if $overridePool -}}
+    {{- $poolFile = $overridePool -}}
+  {{- end -}}
+{{- else -}}
+  {{- $qdataXlateKey := printf "questions-%s" $lang -}}
+  {{- if (index .Site.Data $qdataXlateKey) }}
+    {{- $poolFile = index .Site.Data $qdataXlateKey -}}
+  {{- end -}}
 {{- end -}}
 
 {{- /* Site data */ -}}
@@ -50,12 +67,16 @@
       {{- end -}}
       <div class="question-item">
         <strong>
+          {{- $displayID := $questionID -}}
+          {{- if $poolYear -}}
+            {{- $displayID = printf "%s-%s" $poolYear $questionID -}}
+          {{- end -}}
           {{- if or $shouldLink (strings.Contains $page.RawContent (printf "\"%s\"" $questionID)) -}}
-            <span class="q-id"><a href="#link-{{ $questionID }}" class="question-link">{{ $questionID }}</a>:</span>
+            <span class="q-id"><a href="#link-{{ $questionID }}" class="question-link">{{ $displayID }}</a>:</span>
           {{- else if $shouldLink -}}
-            <span class="q-id">{{ $questionID }}:</span>
+            <span class="q-id">{{ $displayID }}:</span>
           {{- else -}}
-            <span class="q-id">{{ $questionID }}:</span>
+            <span class="q-id">{{ $displayID }}:</span>
           {{- end -}}
           <span class="q-text">{{ $question.text }}</span>
         </strong>

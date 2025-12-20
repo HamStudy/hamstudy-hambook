@@ -11,11 +11,26 @@
 {{- $groups := .groups -}}
 {{- $type := .type | default "section" -}}
 {{- $lang := .lang | default .Site.Language.Lang -}}
+{{- $page := .page -}}
 
 {{- /* Site parameters */ -}}
 {{- $images := .Site.Params.deskImages -}}
 {{- $hsBaseURL := .Site.Params.hsBaseURL -}}
 {{- $qrBaseURL := .Site.Params.qrBaseURL -}}
+
+{{- /* Override hsBaseURL if page has questionPool frontmatter */ -}}
+{{- if $page -}}
+  {{- $questionPool := $page.Params.questionPool | default "" -}}
+  {{- if $questionPool -}}
+    {{- $poolPrefixMap := dict "E2" "tech" "E3" "general" "E4" "extra" -}}
+    {{- $poolPrefix := substr $questionPool 0 2 -}}
+    {{- $poolYear := substr $questionPool 3 4 -}}
+    {{- $bookPrefix := index $poolPrefixMap $poolPrefix -}}
+    {{- if $bookPrefix -}}
+      {{- $hsBaseURL = printf "https://hamstudy.org/flashcard/%s?bk=hambook-%s%s&def=q:" $questionPool $bookPrefix $poolYear -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
 
 {{- /* Process arrays into comma-delimited strings */ -}}
 {{- $joinedIDs := delimit $questions "," -}}

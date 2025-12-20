@@ -2,6 +2,7 @@ const fs = require('fs/promises');
 const path = require('path');
 const yaml = require('yaml');
 const { toTitleCase } = require('./utils');
+const { fetchPool, buildQuestionMap } = require('./pool-fetcher');
 
 async function parseMarkdownFile(filePath, contentDir) {
     const fileContent = await fs.readFile(filePath, 'utf8');
@@ -75,6 +76,18 @@ async function processDirectory(dirPath, contentDir) {
     return [introSection, ...sections, ...chapters, conclusionSection].filter(Boolean);
 }
 
+function collectExternalPoolIds(sections, poolIds = new Set()) {
+    for (const section of sections) {
+        if (section.frontMatter?.questionPool) {
+            poolIds.add(section.frontMatter.questionPool);
+        }
+        if (section.sections) {
+            collectExternalPoolIds(section.sections, poolIds);
+        }
+    }
+    return poolIds;
+}
+
 async function loadBook(rootDir) {
     const contentDir = path.join(rootDir, 'content');
     const tocPath = path.join(contentDir, 'toc.md');
@@ -85,7 +98,13 @@ async function loadBook(rootDir) {
     const poolFileContent = await fs.readFile(poolFilePath, 'utf8');
     const pool = JSON.parse(poolFileContent);
 
-    return { toc, parts, pool };
+    const externalPoolIds = collectExternalPoolIds(parts);
+    const externalPools = {};
+    for (const poolId of externalPoolIds) {
+        externalPools[poolId] = await fetchPool(poolId);
+    }
+
+    return { toc, parts, pool, externalPools };
 }
 
 /**
@@ -147,6 +166,20 @@ async function loadMultilingualBook(rootDir) {
         if (lang === 'default') continue;
         compareParts(base.parts, book.parts);
     }
+
+    const externalPoolIds = collectExternalPoolIds(base.parts);
+    for (const [lang, book] of Object.entries(books)) {
+        if (lang === 'default') continue;
+        collectExternalPoolIds(book.parts, externalPoolIds);
+    }
+    const externalPools = {};
+    for (const poolId of externalPoolIds) {
+        externalPools[poolId] = await fetchPool(poolId);
+    }
+    for (const book of Object.values(books)) {
+        book.externalPools = externalPools;
+    }
+
     return books;
 }
 

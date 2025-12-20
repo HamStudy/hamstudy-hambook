@@ -6,6 +6,7 @@
     {{ partial "study-prompt" (dict 
       "questions" .Params.questions
       "groups" (slice .Params.section)
+      "page" .
       "Site" .Site
     ) }}
 

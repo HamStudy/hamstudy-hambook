@@ -44,6 +44,15 @@ async function writeHugoMultilingualBook(books, outputPath, sourcePath) {
         const formattedMainPool = formatPoolData(mainPoolDoc);
         await fs.writeFile(path.join(dataDir, 'questions.json'), JSON.stringify(formattedMainPool, null, 2));
     }
+
+    // Write external pools (from questionPool overrides) to data/questions-{poolId}.json
+    const defaultBook = books['default'] || Object.values(books)[0];
+    if (defaultBook.externalPools) {
+        for (const [poolId, poolData] of Object.entries(defaultBook.externalPools)) {
+            const formattedPool = formatPoolData(poolData);
+            await fs.writeFile(path.join(dataDir, `questions-${poolId}.json`), JSON.stringify(formattedPool, null, 2));
+        }
+    }
     for (const [lang, book] of Object.entries(books)) {
         const langDir = lang === 'default' ? 'content' : `content.${lang}`;
         const outContentPath = path.join(outputPath, langDir);
@@ -78,6 +87,13 @@ async function writeHugoBook(book, outputPath, sourcePath, customContentPath) {
             const mainPoolDoc = JSON.parse(mainPoolContent);
             const formattedMainPool = formatPoolData(mainPoolDoc);
             await fs.writeFile(path.join(dataDir, 'questions.json'), JSON.stringify(formattedMainPool, null, 2));
+        }
+        // Write external pools for single-language books
+        if (book.externalPools) {
+            for (const [poolId, poolData] of Object.entries(book.externalPools)) {
+                const formattedPool = formatPoolData(poolData);
+                await fs.writeFile(path.join(dataDir, `questions-${poolId}.json`), JSON.stringify(formattedPool, null, 2));
+            }
         }
     }
 
