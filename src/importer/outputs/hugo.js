@@ -68,6 +68,19 @@ async function writeHugoBook(book, outputPath, sourcePath, customContentPath) {
 
     const imagesDir = path.join(outputPath, 'static');
 
+    // Write pool.json to data/questions.json if not called from multilingual (which handles this itself)
+    if (!customContentPath) {
+        const mainPoolPath = path.join(sourcePath, 'pool.json');
+        const dataDir = path.join(outputPath, 'data');
+        await fs.mkdir(dataDir, { recursive: true });
+        if (await fs.stat(mainPoolPath).then(() => true, () => false)) {
+            const mainPoolContent = await fs.readFile(mainPoolPath, 'utf8');
+            const mainPoolDoc = JSON.parse(mainPoolContent);
+            const formattedMainPool = formatPoolData(mainPoolDoc);
+            await fs.writeFile(path.join(dataDir, 'questions.json'), JSON.stringify(formattedMainPool, null, 2));
+        }
+    }
+
     // Assign translationKey to parts and sections if not already assigned by multilingual process
     function assignKeys(parts) {
         for (const part of parts) {
