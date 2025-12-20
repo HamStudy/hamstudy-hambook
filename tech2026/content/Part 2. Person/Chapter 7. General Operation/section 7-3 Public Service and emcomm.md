@@ -1,7 +1,8 @@
 ---
 chapter: "7"
 section: "7.3"
-questions: [ "T2C05", "T2C06", "T2C04", "T1A10", "T2C02", "T2C07", "T2C08", "T2C01", "T2C09", "T2C10", "T2C11" ]
+questions: [ "T2C05", "T2C06", "T2C04", "T1A10", "T2C12", "T2C02", "T2C07", "T2C01", "T2C09", "T2C10", "T2C11", "T2C08" ]
+state: complete
 ---
 
 ### Section 7.3: Public Service and Emergency Operations
@@ -24,11 +25,11 @@ The main purpose of ARES is providing reliable communication during emergencies,
 
 **RACES (Radio Amateur Civil Emergency Service)**: 
 
-*RACES is an FCC Part 97 amateur radio service for civil defense communications during national emergencies.* {{< link id="T2C04" >}} {{< link id="T1A10" >}} Unlike the volunteer-focused ARES, RACES operates under the authority of government agencies during civil emergencies.
+*RACES is an FCC Part 97 amateur radio service for civil defense communications during national emergencies.* {{< link id="T2C04" >}} Unlike the volunteer-focused ARES, RACES operates under the authority of government agencies during civil emergencies.
 
-To participate in RACES, you need to be an FCC-licensed amateur radio operator who's also certified and enrolled with a civil defense organization. During a declared emergency, RACES stations can only communicate with other RACES stations, government stations, or authorized amateur stations.
+> **Key Information:** *To be the control operator of a RACES station, you need both an FCC-issued amateur operator license and certification of current enrollment by a civil defense organization.* {{< link id="T1A10" >}} {{< link id="T2C12" >}}
 
-RACES provides a structured, government-coordinated approach to emergency communications, handling everything from public safety alerts to coordinating disaster relief efforts.
+During a declared emergency, RACES stations can only communicate with other RACES stations, government stations, or authorized amateur stations. RACES provides a structured, government-coordinated approach to emergency communications.
 
 > **Key Information:**
 > The difference between ARES and RACES:
@@ -46,7 +47,7 @@ The NCS has several key duties:
 - Managing communications flow between participants
 - Facilitating message exchange (traffic) between stations
 
-Good traffic handling is essential – *passing messages exactly as received* {{< link id="T2C08" >}} without editing or deciding which messages are important enough to relay.
+Good traffic handling is essential – passing messages exactly as received without editing or deciding which messages are important enough to relay.
 
 > **Key Information:** FCC rules **_ALWAYS_** apply to the operation of amateur radio stations. {{< link id="T2C01" >}} However, amateur station control operators are permitted to operate outside their frequency privileges in situations involving the _**immediate safety of human life or protection of property**_. {{< link id="T2C09" >}}
 
@@ -66,7 +67,15 @@ When you're participating in emergency communications or public service events, 
 
 Radiograms are used in both routine communications and in emergency situations. Handling formal traffic using radiograms is a key skill for any ham involved in public service or emergency communications. By mastering radiograms, you help ensure that critical messages get through, even when other communication systems are down.
 
-> **Key Information:** When handling message traffic, focus on accuracy. Messages should be passed exactly as received without deciding whether they're worthy of relay or delivery.
+**Winlink**:
+
+While radiograms represent the traditional approach to message handling, modern emergency communications often use Winlink—a global radio email system. Winlink allows you to send and receive email when internet access is unavailable by connecting your radio to gateway stations that bridge to the internet. Each amateur gets an email address based on their callsign (like W1ABC@winlink.org).
+
+> **Key Information:** *Winlink relays messages using email addresses based on amateur callsigns.* {{< link id="T2C08" >}}
+
+During disasters when cell towers and internet infrastructure fail, Winlink has provided critical communication links for emergency responders and affected communities. Many ARES and RACES groups include Winlink capability as part of their emergency communications toolkit.
+
+When handling message traffic, focus on accuracy. Messages should be passed exactly as received without deciding whether they're worthy of relay or delivery.
 
 #### Non-emergency Public Service & Operating Guidelines
 
