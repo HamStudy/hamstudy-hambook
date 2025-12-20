@@ -1,55 +1,62 @@
 const fs = require('fs/promises');
 const path = require('path');
 
-const pathToQuestionsJson = path.resolve(__dirname, '../../../tech2022/hugo/data/questions.json');
-
 /**
- * 
- * @returns {Promise<{questions: Record<string, Question>}>}
- */
-async function loadQuestionsJson() {
-    const content = await fs.readFile(pathToQuestionsJson, 'utf-8');
-    return JSON.parse(content);
-}
-
-/**
- * @typedef {Object} Answer
- * @property {string} letter - The letter of the answer (e.g., "A").
- * @property {string} text - The text of the answer.
- */
-
-/**
- * @typedef {Object} Question
+ * @typedef {Object} PoolQuestion
  * @property {string} id - The unique identifier for the question (e.g., "T1A01").
  * @property {string} text - The question being asked.
  * @property {string} answer - The correct answer letter (e.g., "C").
- * @property {Answer[]} answers - An array of possible answer options, each with a letter and description.
+ * @property {Object<string, string>} answers - Answer options keyed by letter.
  */
 
 /**
- * 
- * @param {Question} question 
- * @returns 
+ * Builds a flat question map from the pool.json structure
+ * @param {Object} pool - The pool object from pool.json
+ * @returns {Record<string, PoolQuestion>}
+ */
+function buildQuestionMap(pool) {
+    const qMap = {};
+    if (pool && pool.pool) {
+        for (const subelement of pool.pool) {
+            if (subelement.sections) {
+                for (const section of subelement.sections) {
+                    if (section.questions) {
+                        for (const question of section.questions) {
+                            qMap[question.id] = question;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    return qMap;
+}
+
+/**
+ * @param {PoolQuestion} question 
+ * @param {string} qId
+ * @returns {string}
  */
 function formatQuestionMarkdown(question, qId) {
-    const correctAnswer = question.answers.find((answer) => answer.correct);
+    const correctAnswerLetter = question.answer;
+    const correctAnswerText = question.answers[correctAnswerLetter];
     let content = '\n';
-    if (correctAnswer.text.toLowerCase().includes('all of these')) {
+    if (correctAnswerText.toLowerCase().includes('all of these') || 
+        correctAnswerText.toLowerCase().includes('all these choices')) {
         content += `**${qId}**: (${question.answer}) ${question.text}\n\n`;
-        for (const answer of question.answers) {
-            content += `* **${answer.letter}.**: ${answer.text}\n`;
+        for (const [letter, text] of Object.entries(question.answers)) {
+            content += `* **${letter}.**: ${text}\n`;
         }
     } else {
         // We only show the text and correct answer
         content = `\n**${qId}**: ${question.text}\n\n`;
-        let correctAnswerText = question.answers.find((answer) => answer.correct).text;
         content += `* **Answer**: ${correctAnswerText}\n\n`;
     }
     return content + '\n';
 }
 
-async function writeSingleFileMarkdown(book, outputPath) {
-    const qMap = (await loadQuestionsJson()).questions;
+async function writeSingleFileMarkdown(book, outputPath, sourcePath) {
+    const qMap = buildQuestionMap(book.pool);
 
     await fs.writeFile(outputPath, '');
 
