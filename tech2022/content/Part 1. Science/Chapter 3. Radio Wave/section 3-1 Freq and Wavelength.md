@@ -26,9 +26,9 @@ Whether you're tuning in to your favorite broadcast station, chatting on a repea
 #### The Nature of Radio Waves
 
 > **Key Information:** 
-> - A radio wave has two components: *electric and magnetic fields* {{< link id="T3B03" >}}
-> - These fields are *at right angles* to each other{{< link id="T3B01" >}}
-> - Radio waves travel at the *speed of light* in free space (approximately *300,000,000 meters per second*){{< link id="T3B04" >}}{{< link id="T3B11" >}}
+> - A radio wave has two components: *electric and magnetic fields*. {{< link id="T3B03" >}}
+> - These fields are *at right angles* to each other. {{< link id="T3B01" >}}
+> - Radio waves travel at the *speed of light* in free space (approximately *300,000,000 meters per second*). {{< link id="T3B04" >}} {{< link id="T3B11" >}}
 
 ![Electric vs Magnetic Fields - always at a right angle from each other](../../../images/electromagnetic-3d.gif)
 {.img-centered .img-large}
@@ -46,9 +46,9 @@ This is crucial because your antenna needs to match this orientation for best re
 #### Wavelength and Frequency
 
 > **Key Information:** 
-> - Wavelength gets shorter as frequency increases {{< link id="T3B05" >}}
-> - To find wavelength in meters, use this formula: *300 divided by frequency in megahertz* {{< link id="T3B06" >}}
-> - Amateur radio bands are often identified by their *approximate wavelength in meters* {{< link id="T3B07" >}}
+> - Wavelength gets shorter as frequency increases. {{< link id="T3B05" >}}
+> - To find wavelength in meters, use this formula: *300 divided by frequency in megahertz*. {{< link id="T3B06" >}}
+> - Amateur radio bands are often identified by their *approximate wavelength in meters*. {{< link id="T3B07" >}}
 
 Radio waves come in all sorts of sizes. The size of a radio wave—its wavelength—is directly related to its frequency, and understanding this relationship is key to understanding amateur radio bands.
 

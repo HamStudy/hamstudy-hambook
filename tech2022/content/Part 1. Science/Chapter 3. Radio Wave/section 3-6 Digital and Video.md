@@ -11,11 +11,11 @@ questions: [ "T8D01", "T8D08", "T8D03", "T8D05", "T8D06", "T8D07", "T2B12", "T8D
 
 Welcome to the digital age of amateur radio! If voice modes are like having a conversation, digital modes are like sending text messages or emails through the airwaves. And video? You might be surprised to know that it's been possible to send pictures and even television via Amateur Radio for decades!
 
-> **Key Information:** Digital communications modes include packet radio, IEEE 802.11, and FT8, among others {{< link id="T8D01" >}}
+> **Key Information:** Digital communications modes include packet radio, IEEE 802.11, and FT8, among others. {{< link id="T8D01" >}}
 
 #### Packet Radio
 
-> **Key Information:** Packet radio includes error detection checksum, destination station call sign, and automatic repeat request {{< link id="T8D08" >}}
+> **Key Information:** Packet radio includes error detection checksum, destination station call sign, and automatic repeat request. {{< link id="T8D08" >}}
 
 Imagine sending an email through radio waves. That's essentially what packet radio does! It breaks your message into small "packets" of data, sends them over the air, and then reassembles them at the receiving end. Each packet includes a *checksum for error detection*, the *call sign of the destination station*, and an *automatic repeat request if errors are detected*.
 
@@ -24,14 +24,14 @@ It's like sending a puzzle through the air that reassembles itself perfectly on 
 #### APRS (Automatic Packet Reporting System)
 
 > **Key Information:**
-> - APRS can transmit GPS position data, weather data, and text messages {{< link id="T8D03" >}}
-> - APRS provides real-time tactical communications with station location mapping {{< link id="T8D05" >}}
+> - APRS can transmit GPS position data, weather data, and text messages. {{< link id="T8D03" >}}
+> - APRS provides real-time tactical communications with station location mapping. {{< link id="T8D05" >}}
 
 *APRS* lets you transmit *GPS position data*, *weather information*, and *short text messages* while providing *real-time tactical digital communications in conjunction with a map showing the locations of stations*. It's like Twitter meets Google Maps, but for radio!
 
 #### PSK31
 
-> **Key Information:** PSK stands for Phase Shift Keying {{< link id="T8D06" >}}
+> **Key Information:** PSK stands for Phase Shift Keying. {{< link id="T8D06" >}}
 
 *PSK* (*Phase Shift Keying*) is ideal for real-time, keyboard-to-keyboard conversations. PSK31 operates at a symbol rate of 31.25 baud, roughly matching typical typing speed. It's so narrow that contacts can be spaced just 100 Hz apart, allowing many signals to fit where a single voice transmission would.
 
@@ -46,11 +46,11 @@ PACTOR is a versatile digital mode that can automatically switch between speeds 
 #### Digital Mobile Radio (DMR)  
 
 > **Key Information:**
-> - DMR uses time-multiplexing to put two digital voice signals on a single 12.5 kHz repeater channel {{< link id="T8D07" >}}
-> - DMR color codes must match the repeater for access {{< link id="T2B12" >}}
-> - DMR talkgroups allow users to share a channel without hearing other users {{< link id="T8D02" >}}
-> - Join a DMR talkgroup by programming your radio with the group's ID or code {{< link id="T2B07" >}}
-> - A DMR "code plug" contains access information for repeaters and talkgroups {{< link id="T4B07" >}}
+> - DMR uses time-multiplexing to put two digital voice signals on a single 12.5 kHz repeater channel. {{< link id="T8D07" >}}
+> - DMR color codes must match the repeater for access. {{< link id="T2B12" >}}
+> - DMR talkgroups allow users to share a channel without hearing other users. {{< link id="T8D02" >}}
+> - Join a DMR talkgroup by programming your radio with the group's ID or code. {{< link id="T2B07" >}}
+> - A DMR "code plug" contains access information for repeaters and talkgroups. {{< link id="T4B07" >}}
 
 DMR is a powerful digital voice mode that *uses time-multiplexing to put two digital voice signals on a single 12.5 kHz repeater channel*. This effectively doubles the available channels without using more spectrum.
 
@@ -69,7 +69,7 @@ Fusion works with WIRES-X, Yaesu's internet linking system, for worldwide digita
 
 #### D-STAR (Digital Smart Technologies for Amateur Radio)  
 
-> **Key Information:** Before transmitting on D-STAR, you must program your call sign into the transceiver {{< link id="T4B11" >}}
+> **Key Information:** Before transmitting on D-STAR, you must program your call sign into the transceiver. {{< link id="T4B11" >}}
 
 D-STAR is a fully digital voice and data system developed by the Japan Amateur Radio League. Unlike System Fusion, D-STAR is entirely digital with no analog compatibility. Its key feature is call sign routing - you can enter the call sign of another ham, and the system will route your signal through linked repeaters to find them.
 
@@ -77,7 +77,7 @@ D-STAR is a fully digital voice and data system developed by the Japan Amateur R
 
 #### Digital Station Groups and Selection
 
-> **Key Information:** To select a specific group of stations on a digital voice transceiver, enter the group's identification code {{< link id="T4B09" >}}
+> **Key Information:** To select a specific group of stations on a digital voice transceiver, enter the group's identification code. {{< link id="T4B09" >}}
 
 Digital voice modes allow you to organize communication into different groups or channels. Whether you're using DMR talkgroups, D-STAR reflectors, or System Fusion rooms, you need to know how to join the right conversation. 
 
@@ -85,16 +85,16 @@ To *select a specific group of stations on a digital voice transceiver*, you typ
 
 #### Digital Mode Hot Spots
 
-> **Key Information:** Digital hot spots enable communication using digital voice or data systems via the internet {{< link id="T4A10" >}}
+> **Key Information:** Digital hot spots enable communication using digital voice or data systems via the internet. {{< link id="T4A10" >}}
 
 A *digital hot spot* allows *communication using digital voice or data systems via the internet*. It's almost like having your own personal repeater, providing a gateway to the world of digital radio, extending your reach far beyond your local area for modes like DMR, D-STAR, or System Fusion.
 
 #### Computer-Radio Interfaces
 
 > **Key Information:**
-> - Computer-radio interface needs: Receive audio, transmit audio, and transmitter keying {{< link id="T4A06" >}}
-> - For FT8: Connect radio to audio input and output of computer running WSJT-X software {{< link id="T4A04" >}}
-> - For digital modes: Connect computer "line in" to transceiver speaker {{< link id="T4A07" >}}
+> - Computer-radio interface needs: Receive audio, transmit audio, and transmitter keying. {{< link id="T4A06" >}}
+> - For FT8: Connect radio to audio input and output of computer running WSJT-X software. {{< link id="T4A04" >}}
+> - For digital modes: Connect computer "line in" to transceiver speaker. {{< link id="T4A07" >}}
 
 For digital modes, you need to connect your radio to your computer. This requires:
 - *Receive audio* (from radio to computer)
@@ -106,8 +106,8 @@ For *FT8*, connect to the *audio input and output of a computer running WSJT-X s
 #### WSJT-X and FT8
 
 > **Key Information:**
-> - FT8 is a digital mode capable of low signal-to-noise operation {{< link id="T8D13" >}}
-> - WSJT-X software supports Earth-Moon-Earth, weak signal propagation beacons, and meteor scatter {{< link id="T8D10" >}}
+> - FT8 is a digital mode capable of low signal-to-noise operation. {{< link id="T8D13" >}}
+> - WSJT-X software supports Earth-Moon-Earth, weak signal propagation beacons, and meteor scatter. {{< link id="T8D10" >}}
 
 *FT8* is a *digital mode capable of low signal-to-noise operation* that's part of the WSJT-X software suite. This software supports several key amateur radio activities:
 - Earth-Moon-Earth (moonbounce) communication
@@ -117,7 +117,7 @@ For *FT8*, connect to the *audio input and output of a computer running WSJT-X s
 
 #### Video Modes
 
-> **Key Information:** NTSC indicates an analog fast-scan color TV signal {{< link id="T8D04" >}}
+> **Key Information:** NTSC indicates an analog fast-scan color TV signal. {{< link id="T8D04" >}}
 
 Amateur radio operators have several options for sending images and video:
 
@@ -129,13 +129,13 @@ Think of SSTV as sending a postcard via radio. It transmits still images, taking
 
 #### Mesh Networks
 
-> **Key Information:** An amateur radio mesh network is an amateur-radio based data network using commercial Wi-Fi equipment with modified firmware {{< link id="T8D12" >}}
+> **Key Information:** An amateur radio mesh network is an amateur-radio based data network using commercial Wi-Fi equipment with modified firmware. {{< link id="T8D12" >}}
 
 An *amateur radio mesh network* is a *data network using commercial Wi-Fi equipment with modified firmware*. It creates a robust, decentralized network where each station can receive and relay data.
 
 #### ARQ (Automatic Repeat reQuest)
 
-> **Key Information:** ARQ is an error correction method where the receiving station detects errors and sends a request for retransmission {{< link id="T8D11" >}}
+> **Key Information:** ARQ is an error correction method where the receiving station detects errors and sends a request for retransmission. {{< link id="T8D11" >}}
 
 *ARQ* is an *error correction method where the receiving station detects errors and sends a request for retransmission*. It's like having a built-in "Could you repeat that?" function.
 

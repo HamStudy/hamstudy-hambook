@@ -35,7 +35,7 @@ Just as a battery stores energy chemically, capacitors and inductors also store 
 ##### Capacitors: Electric Field Energy Storage
 
 > **Key Information:**
-> - A capacitor stores energy in an *electric field*{{< link id="T6A04" >}}
+> - A capacitor stores energy in an *electric field*. {{< link id="T6A04" >}}
 > - A capacitor consists of *conductive surfaces (usually metal plates) separated by an insulator*. This physical structure is fundamental to how capacitors work and is frequently tested.{{< link id="T6A05" >}}
 
 *Capacitors* come in various shapes and sizes, from tiny ceramic discs to large cylindrical types. Their capacity to store charge is measured in farads (F), though most radio circuits use microfarads (µF) or picofarads (pF).
@@ -48,9 +48,9 @@ In amateur radio, capacitors are used to:
 ##### Inductors: Magnetic Field Energy Storage
 
 > **Key Information:**
-> - Inductors store energy in a magnetic field {{< link id="T6A06" >}}
-> - They are typically constructed as a *coil of wire* {{< link id="T6A07" >}}
-> - They are *used with capacitors* to make a *resonant circuit* {{< link id="T6D08" >}}
+> - Inductors store energy in a magnetic field. {{< link id="T6A06" >}}
+> - They are typically constructed as a *coil of wire*. {{< link id="T6A07" >}}
+> - They are *used with capacitors* to make a *resonant circuit*. {{< link id="T6D08" >}}
 
 While capacitors store energy in an electric field, *inductors* store energy in a magnetic field that forms around the coil when current flows through it. This complementary relationship makes them perfect partners in radio circuits.
 
@@ -64,8 +64,8 @@ Together, capacitors and inductors form the foundation of tuned circuits that se
 #### Understanding Circuit Configurations
 
 > **Key Information:** The fundamental differences between series and parallel circuits are:
-> - In *series circuits*, current is the same through all components {{< link id="T5D13" >}}
-> - In *parallel circuits*, voltage is the same across all components {{< link id="T5D14" >}}
+> - In *series circuits*, current is the same through all components. {{< link id="T5D13" >}}
+> - In *parallel circuits*, voltage is the same across all components. {{< link id="T5D14" >}}
 
 These two circuit types behave very differently:
 - **Series Circuits**: Components are connected end-to-end in a single path. If one component fails, the entire circuit stops functioning.

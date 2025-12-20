@@ -17,8 +17,8 @@ There are many different types of antennas, each with its own advantages and dis
 **We are going to cover a lot of information in this section which you don't strictly need to know to pass your license exam** – some readers may choose to skim and focus on the questions, then come back later when the information feels more relevant, and that's okay!
 
 > **Key Information:** 
-> - *Antenna gain* is the *increase in signal strength in a specified direction compared to a reference antenna* {{< link id="T9A11" >}}
-> - *Shortening an antenna increases its resonant frequency* {{< link id="T9A05" >}}
+> - *Antenna gain* is the *increase in signal strength in a specified direction compared to a reference antenna*. {{< link id="T9A11" >}}
+> - *Shortening an antenna increases its resonant frequency*. {{< link id="T9A05" >}}
 
 When we talk about antenna gain, think of it like changing from a regular light bulb to a spotlight - you get a brighter beam in one direction, but less light in others. Gain is typically measured in:
 - dBi (decibels relative to an isotropic radiator)

@@ -21,8 +21,8 @@ While AM isn't the most common mode in amateur radio, you'll still encounter it 
 #### Frequency Modulation (FM) and Phase Modulation (PM)
 
 > **Key Information:**
-> - *FM/PM are commonly used for VHF packet radio transmissions* {{< link id="T8A02" >}}
-> - *FM/PM are the primary modes for VHF and UHF voice repeaters* {{< link id="T8A04" >}}
+> - *FM/PM are commonly used for VHF packet radio transmissions*. {{< link id="T8A02" >}}
+> - *FM/PM are the primary modes for VHF and UHF voice repeaters*. {{< link id="T8A04" >}}
 
 In Frequency Modulation (FM), we keep the amplitude (brightness) constant but vary the frequency (color) of the radio wave. It's like using a light that maintains the same brightness but shifts between different colors to send your message—a specific color shift represents a specific sound or piece of data.
 
@@ -35,9 +35,9 @@ In Frequency Modulation (FM), we keep the amplitude (brightness) constant but va
 Now, let's talk about SSB, which is where amplitude modulation gets a cool upgrade. *SSB is the preferred mode for long-distance (weak signal) contacts on the VHF and UHF bands.* {{< link id="T8A03" >}}
 
 > **Key Information:**
-> - *Compared to FM, SSB signals have a narrower bandwidth* {{< link id="T8A07" >}}
-> - *Upper Sideband (USB)* is *normally used for 10-meter HF, VHF, and UHF single-sideband communications* {{< link id="T8A06" >}}
-> - A *typical single sideband voice signal has an approximate bandwidth of 3 kHz* {{< link id="T8A08" >}}
+> - *Compared to FM, SSB signals have a narrower bandwidth*. {{< link id="T8A07" >}}
+> - *Upper Sideband (USB)* is *normally used for 10-meter HF, VHF, and UHF single-sideband communications*. {{< link id="T8A06" >}}
+> - A *typical single sideband voice signal has an approximate bandwidth of 3 kHz*. {{< link id="T8A08" >}}
 > - Single Sideband (SSB) is a form of amplitude modulation. {{< link id="T8A01" >}}
 
 Remember how AM creates sidebands above and below the main frequency? In SSB, we eliminate the carrier wave and one of the sidebands. Using our laser pointer analogy, this would be like keeping the laser's color variations that represent your voice, but eliminating the constant background brightness of the beam when you're not speaking.
@@ -59,10 +59,10 @@ Since we only transmit the essential part of the signal, SSB uses about **half t
 Different modulation modes occupy different amounts of frequency space, much like how different colors of light take up different parts of the visual spectrum:
 
 > **Key Information:** Approximate bandwidths:
-> - *CW (Morse Code)*: *Narrowest bandwidth, about 150 Hz* {{< link id="T8A05" >}} {{< link id="T8A11" >}}
+> - *CW (Morse Code)*: *Narrowest bandwidth, about 150 Hz*. {{< link id="T8A05" >}} {{< link id="T8A11" >}}
 > - *SSB voice*: About 3 kHz
 > - *FM voice*: About 10-15 kHz
-> - *AM fast-scan television*: About 6 MHz {{< link id="T8A10" >}}
+> - *AM fast-scan television*: About 6 MHz. {{< link id="T8A10" >}}
 
 #### Bandwidth and Frequency Range
 

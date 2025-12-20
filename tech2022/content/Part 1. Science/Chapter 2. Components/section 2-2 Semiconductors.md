@@ -13,16 +13,16 @@ Semiconductors are special materials that make modern electronics possible. They
 #### Diodes: One-Way Electronic Streets
 
 > **Key Information:** 
-> - A diode allows current to flow *in only one direction* {{< link id="T6B02" >}}
-> - The *cathode lead (negative side)* is often *marked with a stripe* {{< link id="T6B06" >}}
-> - The forward voltage drop is lower in some diode types than others {{< link id="T6B01" >}}
+> - A diode allows current to flow *in only one direction*. {{< link id="T6B02" >}}
+> - The *cathode lead (negative side)* is often *marked with a stripe*. {{< link id="T6B06" >}}
+> - The forward voltage drop is lower in some diode types than others. {{< link id="T6B01" >}}
 
 ![Diode schematic diagram with anode / cathode labeled](../../../images/s2-2-diode.svg)
 {.img-small .float-right .img-bw}
 
 A diode has two electrodes:
 - *Anode*: The positive connection
-- *Cathode*: The negative connection, marked with a stripe {{< link id="T6B09" >}}
+- *Cathode*: The negative connection, marked with a stripe. {{< link id="T6B09" >}}
 
 Think of a diode like a one-way street—current can only flow in one direction. But even when it’s flowing the right way, a diode doesn’t conduct perfectly. It takes a small amount of voltage just to get current moving; this is called the forward voltage drop (you might remember the concept of voltage drop from Section 1.2). That lost voltage turns into heat as electrical energy becomes thermal energy. Different types of diodes drop different amounts—for example, Schottky diodes typically have a lower forward voltage drop than regular silicon diodes.
 
@@ -40,19 +40,19 @@ LEDs are special diodes that light up when current flows through them. They're c
 #### Transistors: The Heart of Modern Electronics
 
 > **Key Information:** 
-> - Transistors can be used as electronic switches {{< link id="T6B03" >}}
-> - Transistors can provide power gain (the ability to amplify signals) {{< link id="T6B10" >}}
-> - A transistor contains *three regions of semiconductor material* {{< link id="T6B04" >}}
-> - FET stands for *Field Effect Transistor* {{< link id="T6B08" >}}
+> - Transistors can be used as electronic switches. {{< link id="T6B03" >}}
+> - Transistors can provide power gain (the ability to amplify signals). {{< link id="T6B10" >}}
+> - A transistor contains *three regions of semiconductor material*. {{< link id="T6B04" >}}
+> - FET stands for *Field Effect Transistor*. {{< link id="T6B08" >}}
 
 There are two main types of transistors, and it's important to know the names of their parts:
 
 1. **Bipolar Junction Transistor (BJT)**
-   - Three parts: *Emitter, Base, and Collector* {{< link id="T6B12" >}}
+   - Three parts: *Emitter, Base, and Collector*. {{< link id="T6B12" >}}
    - Often used for amplifying signals
 
 2. **Field-Effect Transistor (FET)**
-   - Three parts: *Gate, Drain, and Source* {{< link id="T6B05" >}}
+   - Three parts: *Gate, Drain, and Source*. {{< link id="T6B05" >}}
    - Often used as voltage-controlled switches
 
 **Understanding Gain**: When we talk about transistors providing "gain," we mean their *ability to amplify a signal* - making a small signal bigger. {{< link id="T6B11" >}} This is one of their most important functions in radio equipment.
