@@ -2,6 +2,7 @@
 chapter: "8"
 section: "8.6"
 questions: [ "T1C03", "T1D08", "T1D09", "T1D01", "T1C06", "T1F08", "T1F07", "T1D02", "T1D10", "T1D05", "T1D03", "T1D04", "T1D06", "T1A11" ]
+state: complete
 ---
 
 ### Section 8.6: Authorized and Prohibited Transmissions
@@ -51,7 +52,7 @@ Welcome to the "do's and don'ts" of amateur radio! Understanding what you can an
 
    There are some countries that you are not allowed to communicate with: We won't be listing them here, because they could change over time, but any country can notify the ITU that they don't want ham radio operators to communicate with their citizens. If that happens? Forbidden.
 
-   > **Key Information:** From within any vessel or craft located in international waters and documented or registered in the United States, an FCC-licensed amateur station may transmit. {{< link id="T1C06" >}}
+   > **Key Information:** You may operate from a US-documented vessel in international waters with the master's permission. {{< link id="T1C06" >}}
 
    Here's a fun fact: You can transmit from a boat in international waters, as long as you stick to frequency bands allocated internationally in each of the three ITU regions. If you are in territorial waters of another country then you need to know and follow their rules.
 
@@ -69,7 +70,7 @@ Ever wanted to let your non-ham friend use your radio? That – as well as passi
 
 3. **International Third-Party Traffic**:
 
-   > **Key Information:** When a non-licensed person is allowed to speak to a foreign station using a station under the control of a licensed amateur operator, the foreign station must be in a country with which the U.S. has a third party agreement. {{< link id="T1F07" >}}
+   > **Key Information:** When a non-licensed person is allowed to speak to a foreign station using a station under the control of a licensed amateur operator, the foreign station must be in a country with which the U.S. has a third-party agreement. {{< link id="T1F07" >}}
 
    This is where it gets tricky. Both countries need to have a "handshake agreement" allowing it. It's like needing parental permission for an international field trip. No third-party agreement? No talking to that foreign station! (except for emergency or disaster relief communications)
 
@@ -153,7 +154,7 @@ Remember, these are exceptions to the general rule. The primary purpose of amate
 
 9.  **Play Nice**: 
 
-   > **Key Information:** Willful interference to other amateur radio stations is permitted at no time. {{< link id="T1A11" >}}
+   > **Key Information:** Willful or malicious interference is prohibited. {{< link id="T1A11" >}}
 
    Intentionally interfering with other stations is like stepping on someone's sandcastle. It's not cool, and it's definitely not allowed.
 
