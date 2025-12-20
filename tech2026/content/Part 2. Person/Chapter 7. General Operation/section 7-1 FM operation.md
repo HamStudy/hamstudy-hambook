@@ -1,14 +1,15 @@
 ---
 chapter: "7"
 section: "7.1"
-questions: [ "T4B12", "T8A12", "T2A02", "T2A11", "T7B01", "T2B05", "T2B11", "T2B10", "T2A08" ]
+questions: [ "T4B04", "T8A12", "T2A02", "T2A11", "T2B05", "T7B01", "T2B11", "T2B10", "T2A08" ]
+state: complete
 ---
 
 ### Section 7.1: FM Operation
 
-Alright, new hams, welcome to the world of FM (Frequency Modulation)—the go-to mode for many Technician class operators. FM offers clear, crisp, and relatively noise-free communication, which makes it ideal for everyday local contacts.
+Alright, new hams, welcome to the world of FM (Frequency Modulation)—the go-to mode for many Technician class operators. FM is the most common voice mode for VHF/UHF communications, providing clear audio with resistance to noise, which makes it ideal for everyday local contacts.
 
-> **Key Information:** FM is the most common voice mode for VHF/UHF communications. It provides clear audio with resistance to noise, but uses more bandwidth than other modes. *When tuning an FM receiver, you must be precisely on frequency or the audio will be distorted.* {{< link id="T4B12" >}}
+> **Key Information:** *When tuning an FM receiver, you must be precisely on frequency or the audio will be distorted.* {{< link id="T4B04" >}}
 
 #### Why FM?
 
@@ -17,7 +18,9 @@ Alright, new hams, welcome to the world of FM (Frequency Modulation)—the go-to
 
 FM is the default mode for most local communications, especially on VHF and UHF bands. While AM (Amplitude Modulation) gets jittery when there's electrical interference, FM keeps its cool, delivering clean audio even in noisy environments.
 
-*A disadvantage of FM compared to single sideband is that only one signal can be received at a time*, even when two signals are on the same frequency. {{< link id="T8A12" >}} This is due to the "capture effect" we'll discuss shortly.
+> **Key Information:** *A disadvantage of FM compared to single sideband is that only one signal can be received at a time*, even when two signals are on the same frequency. {{< link id="T8A12" >}}
+
+This is due to the "capture effect" we'll discuss shortly.
 
 #### How FM Works
 
@@ -31,13 +34,13 @@ Now, let's talk about using FM in the ham world:
 
 1. **Simplex Operation**: This is direct radio-to-radio communication. You and your buddy are on the same frequency, taking turns to transmit and receive. It's great for local chats or emergency communications when repeaters might be down.
    
-   Handy tip: {{< link id="T2A02" >}} *146.520 MHz is the national calling frequency for FM simplex operations in the 2 meter band.* It’s like the radio equivalent of a public square—used to make initial contact before moving to a different frequency, or just a good place to listen for activity while you're on the road.
+   > **Key Information:** *146.520 MHz is the national calling frequency for FM simplex operations in the 2 meter band.* {{< link id="T2A02" >}} It’s like the radio equivalent of a public square—used to make initial contact before moving to a different frequency.
 
 2. **Repeater Operation**: Remember those range-extending marvels we talked about earlier? Most VHF and UHF repeaters use FM. They listen on one frequency and transmit on another, vastly increasing your coverage area.
 
 3. **Narrow Band FM**: Many modern radios use Narrow Band FM to allow more channels in the same frequency space. Think of it like fitting more cars into a parking lot by shrinking the spaces just a little.
 
-> **Key Information:** Simplex means transmitting and receiving on the same frequency. {{< link id="T2A11" >}} The national FM simplex calling frequency for 2 meters is 146.520 MHz. When using a repeater, you're operating in duplex mode (transmitting and receiving on different frequencies).
+> **Key Information:** *Simplex means transmitting and receiving on the same frequency.* {{< link id="T2A11" >}}
 
 #### FM Operating Tips
 
@@ -47,7 +50,7 @@ When operating FM, keep these tips in mind:
 - Use simplex when possible. It keeps repeaters available for those who truly need the extended range.
 - **Tune accurately**: *If you tune an FM receiver above or below a signal’s frequency, the result will be distortion of the signal’s audio.* Other modes may sound off-pitch when you're slightly off frequency, but FM just sounds bad.
 
-> **Key Information:** Over-deviation in FM transmission happens when you talk too loudly into the microphone, causing distortion on voice peaks. *The solution is to talk farther away from the microphone, not louder.* {{< link id="T7B01" >}} {{< link id="T2B05" >}}
+> **Key Information:** As we discussed in Section 6.7, talking too loudly causes overdeviation, which can make your audio drop out on voice peaks. {{< link id="T2B05" >}} *If you're told your FM transceiver is over-deviating, the solution is to talk farther away from the microphone.* {{< link id="T7B01" >}}
 
 #### FM Quirks
 
@@ -70,8 +73,6 @@ Historically, operators using Morse code (CW) needed quick, standardized ways to
 * **CQ** – "Calling any station." {{< link id="T2A08" >}} Use this when you want someone—anyone—to come back to you.
 * **DX** – Refers to distance. "Working DX" means you're trying to make long-distance or foreign contacts.
 
-> **Key Information:** The procedural signal "CQ" means "calling any station"—it’s how you start a conversation. "QSY" means to change frequency, and "QRM" refers to interference from other stations.
-
-These codes and abbreviations are part of ham radio's unique language. They help streamline communication and are understood globally. Knowing them will make you sound like a pro—and they also show up on the test!
+These codes and abbreviations are part of ham radio's unique language.
 
 So there you have it—FM in a nutshell. It's beginner-friendly, reliable, and perfect for everyday conversations. Whether you’re checking into a net or chatting across town, FM is probably your go-to. Enjoy it!
