@@ -494,5 +494,87 @@ img.icon {
 
 }
 
+// Status banner for unpublished content
+.status-banner {
+  padding: 0.75rem 1rem;
+  margin-bottom: 1.5rem;
+  border-radius: 0.5rem;
+  border-left: 4px solid;
+  font-size: 0.9rem;
+  
+  // Default styling (for unknown statuses)
+  background-color: #fff3cd;
+  border-left-color: #ffc107;
+  color: #856404;
+  
+  // Generated content - orange/amber
+  &.status-generated {
+    background-color: #ffe4cc;
+    border-left-color: #ff8c00;
+    color: #8b4513;
+  }
+  
+  // Reviewed content - blue
+  &[class*="status-reviewed"] {
+    background-color: #cce5ff;
+    border-left-color: #007bff;
+    color: #004085;
+  }
+  
+  // Draft content - purple
+  &[class*="status-draft"] {
+    background-color: #e2d9f3;
+    border-left-color: #6f42c1;
+    color: #4a2c7a;
+  }
+  
+  // Complete but not published - green-ish
+  &.status-complete {
+    background-color: #d4edda;
+    border-left-color: #28a745;
+    color: #155724;
+  }
+}
+
+// Dark mode support
+@media (prefers-color-scheme: dark) {
+  .status-banner {
+    background-color: #3d3200;
+    border-left-color: #ffc107;
+    color: #ffeeba;
+    
+    &.status-generated {
+      background-color: #3d2600;
+      border-left-color: #ff8c00;
+      color: #ffd9b3;
+    }
+    
+    &[class*="status-reviewed"] {
+      background-color: #002752;
+      border-left-color: #4da3ff;
+      color: #b3d7ff;
+    }
+    
+    &[class*="status-draft"] {
+      background-color: #2d1f4a;
+      border-left-color: #9d7bd9;
+      color: #d4c4ed;
+    }
+    
+    &.status-complete {
+      background-color: #1a3d1f;
+      border-left-color: #48c764;
+      color: #b8e6c1;
+    }
+  }
+}
+
+// Hide status banner in print
+@media print {
+  .status-banner {
+    display: none !important;
+  }
+}
+
 @import "questionList";
 @import "poolCustom";

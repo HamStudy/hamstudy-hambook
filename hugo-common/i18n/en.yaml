@@ -8,3 +8,9 @@ toc: Table of Contents
 cover: Cover
 en: English
 es: Spanish
+statusLabel: Status
+statusGenerated: Initial AI-generated content, not yet reviewed.
+statusGeneratedN: AI-generated draft.
+statusReviewed: AI-reviewed under human direction, not yet finalized.
+statusDraft: Human-edited draft, may be missing images or figures.
+statusComplete: Content complete, pending final review.

@@ -8,3 +8,9 @@ toc: Tabla de contenido
 cover: Portada
 en: Inglés
 es: Español
+statusLabel: Estado
+statusGenerated: Contenido inicial generado por IA, aún no revisado.
+statusGeneratedN: Borrador generado por IA.
+statusReviewed: Revisado por IA bajo dirección humana, aún no finalizado.
+statusDraft: Borrador editado por humanos, puede faltar imágenes o figuras.
+statusComplete: Contenido completo, pendiente de revisión final.

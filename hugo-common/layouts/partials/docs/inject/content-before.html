@@ -1,3 +1,14 @@
+{{- if and .Params.status (not (hasPrefix .Params.status "publish")) -}}
+<div class="status-banner status-{{ .Params.status | urlize }}">
+  <strong>{{ i18n "statusLabel" | default "Status" }}:</strong> {{ .Params.status }}
+  {{- if eq .Params.status "generated" }} — {{ i18n "statusGenerated" | default "Initial AI-generated content, not yet reviewed." }}
+  {{- else if hasPrefix .Params.status "generated" }} — {{ i18n "statusGeneratedN" | default "AI-generated draft." }}
+  {{- else if hasPrefix .Params.status "reviewed" }} — {{ i18n "statusReviewed" | default "AI-reviewed under human direction, not yet finalized." }}
+  {{- else if hasPrefix .Params.status "draft" }} — {{ i18n "statusDraft" | default "Human-edited draft, may be missing images or figures." }}
+  {{- else if eq .Params.status "complete" }} — {{ i18n "statusComplete" | default "Content complete, pending final review." }}
+  {{- end -}}
+</div>
+{{- end -}}
 
 {{ partial "docs/prev-next" (dict "context" . "padding" "bottom") }}
 
