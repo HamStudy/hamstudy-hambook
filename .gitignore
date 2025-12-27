@@ -16,3 +16,4 @@ epubcheck.txt
 *.epub
 */hugo/data/questions*.json
 build
+.pool-cache
