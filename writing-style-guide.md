@@ -14,8 +14,8 @@ While the Set of question IDs in the front matter is the source of truth, the or
 
 The status field is to help me keep track of where in the writing process we are. Here are the levels:
 
-- generated: Initial content has been created by an AI following the layout and question list I specified
-- generated_n_: Used if additional "Generated" content is created later where a completely new generated draft without direction is created
+- generated: Initial content has been created by an AI following the layout and question list I specified.
+- generated_n_: Used if additional "Generated" content is created later where a completely new generated draft without direction is created.
 - reviewed1: Content has been reviewed and updated by the AI under direction from a human reviewer. Still all AI-generated, but with guided improvements. Additional "reviewed_n_" stages may be added for further revisions.
 - draft1: A final human review and edit stage has been completed, this is considered the "first draft" as it's the first stage that is fully copyrightable by humans. Likely missing images and figures. Still considered rough, but should be "content complete", covering all questions. Additional "draft_n_" stages may be added for further revisions.
 - publish1: The content has been finalized and is ready for publication; all images and figures have been added. Additional "publish_n_" stages may be added for further revisions in the future.
@@ -32,7 +32,7 @@ Each HamBook follows a deliberate two-part structure:
 - Builds foundational knowledge
 - Explains principles that underlie amateur radio
 
-**Part 2: Operating as a [Technician/General/Extra]** - Covers practical application
+**Part 2: Operating as a [license class]** - Covers practical application
 - Shows how to use the concepts from Part 1
 - Focuses on real-world operation
 - Connects theory to practice
@@ -53,15 +53,15 @@ When referencing earlier material, use clear, helpful pointers:
 - "Building on the frequency allocation principles from Chapter 1, let's see how they apply to DX operation..."
 
 **Avoid**:
-- Vague references like "as mentioned earlier"
 - Repeating full explanations of previously covered material
 - Assuming readers remember everything without any reminder
+- Treating a topic as new if it was discussed earlier in the book
 
 ### Practical Guidelines
-1. **Track Key Concepts**: Major topics that will be referenced multiple times should be noted during initial writing
-2. **Use Descriptive References**: Include both chapter/section numbers and topic descriptions
-3. **Brief Refreshers**: A single sentence reminder often suffices before applying a previously learned concept
-4. **Progressive Building**: Each part should clearly build on the previous, with Part 2 applying what Part 1 taught
+1. **Track Key Concepts**: Major topics that will be referenced multiple times should be noted during initial writing.
+2. **Use Descriptive References**: Include both chapter/section numbers and topic descriptions.
+3. **Brief Refreshers**: A single sentence reminder often suffices before applying a previously learned concept.
+4. **Progressive Building**: Each part should clearly build on the previous, with Part 2 applying what Part 1 taught.
 
 ## Core Writing Philosophy: Start with Why
 
@@ -74,7 +74,7 @@ We're writing the **HamStudy Technician License HamBook** or **HamStudy General 
 
 This creates emotional connection and context that makes technical information meaningful and memorable.
 
-## Core teaching philosophy: MVT, or Minimum Viable Teaching
+## Core Teaching Philosophy: MVT (Minimum Viable Teaching)
 
 Without being too extreme about this, we need to remember that we are primarily aiming to help a reader to pass the exam and be able to operate with the license. There are *many* topics we could spend a lot of time on, but we want to teach the minimum amount needed to give them enough grounding to be able to use things that are common or understand well enough to look for more information on things that are less universally applicable to all operators.
 
@@ -83,21 +83,23 @@ We want to be as brief as possible, but not more brief than is truly viable; it'
 ## Voice and Tone
 
 ### Conversational Teaching Style
-- Write as a friendly, experienced ham explaining to an eager newcomer
-- Use "you" to address the reader directly
-- Maintain enthusiasm without condescension
-- Build confidence while acknowledging complexity
-- Avoid being "over the top" and overusing metafors
+- Write as a friendly, experienced ham explaining to an eager newcomer.
+- Use "you" to address the reader directly.
+- Maintain enthusiasm without condescension.
+- Build confidence while acknowledging complexity.
+- Avoid being "over the top" and overusing metaphors.
+- Keep things "real"; don't use made-up examples, assuming that everyone is building a massively overengineered station, or lean too hard on niche situations.
+- If a story is told it needs to be an actual story that happened; we can't just make things up.
 
 **Good**: "When you key up your mic for the first time, you'll be joining a global community that spans generations."
 
 **Avoid**: "Students often struggle with this concept" or overly formal academic language.
 
 ### Real-World Connection
-- Connect every concept to actual amateur radio activities
-- Use concrete examples and scenarios
-- Include practical anecdotes (🔥 for dramatic stories)
-- Explain how concepts enable amateur radio magic
+- Connect every concept to actual amateur radio activities.
+- Use concrete examples and scenarios.
+- Include practical anecdotes (🔥 for dramatic stories), but never make things up! It should never be told as a true story if it isn't verified as one.
+- Explain how concepts enable awesome amateur radio activities or capabilities.
 
 ## Content Structure
 
@@ -106,24 +108,27 @@ When explaining any technical concept, regulation, or procedure, organize using 
 
 #### 1. Purpose Layer (Connect to Goals)
 **Lead with what this enables the reader to do or achieve:**
-- Connect to practical ham radio activities (DXing, emergency communication, experimentation)
-- Explain the problem this solves or opportunity it creates
-- Make it personal to their experience as an operator
-- Show how this expands their capabilities
+- When applicable, connect first to things that "ordinary" people would already understand.
+- Next connect to practical ham radio activities (DXing, emergency communication, experimentation).
+  - We want an emphasis on understanding what is possible with ham radio, but when teaching about concepts particularly it is often better to connect to things that the reader already understands, when applicable. E.g. teaching about power or AC circuits is easier starting with what they already see and know in their home, rather than presenting it as something new that only applies to their ham shack.
+- Explain the problem this solves or opportunity it creates.
+- Make it personal to their experience first from day to day and then as an operator.
+- Show how this expands their capabilities.
 
 #### 2. Method Layer (Explain the Principle)
 **Describe how or why this approach works in practice:**
-- Provide the reasoning that makes it effective
-- Explain the practical logic behind rules or procedures
-- Show how it fits into the bigger picture of amateur radio
-- Connect to established amateur radio practices
+- Provide the reasoning that makes it effective.
+- Explain the practical logic behind rules or procedures.
+- Show how it fits into the bigger picture of amateur radio.
+- Connect to established amateur radio practices.
 
 #### 3. Details Layer (Present Specifics)
 **Give the concrete facts, numbers, or procedures:**
-- State actual regulations, frequencies, formulas, or specifications
-- Provide precise technical details for exam preparation
-- Include memorization aids and key exam points
-- Reference specific question requirements
+- State actual regulations, frequencies, formulas, or specifications.
+- Provide precise technical details for exam preparation.
+- Include memorization aids and key exam points.
+- Reference specific question requirements.
+- Stick with the MVT method and don't overdo the details; teach only as much as needed, but no less.
 
 **Example Structure:**
 
@@ -132,11 +137,11 @@ When explaining any technical concept, regulation, or procedure, organize using 
 ✅ **Do write:** "Ham radio gives you access to communicate across the globe, but only if everyone follows the same roadmap *(Purpose)*. Frequency allocations are that roadmap—they ensure when you tune to 20 meters, you'll find other hams doing similar activities, and you won't accidentally interfere with emergency services *(Method)*. The amateur bands are divided into segments: 80 meters (3.5-4.0 MHz), 40 meters (7.0-7.3 MHz), 20 meters (14.0-14.35 MHz)... *(Details)*"
 
 **Key Guidelines:**
-- Start every major concept with purpose, not definition
-- Avoid chains of "why" questions—integrate purpose naturally
-- Avoid headers with "why" questions–headers should declare the purpose
-- Connect abstract rules to concrete amateur radio activities
-- Use active voice and direct language
+- Start every major concept with purpose, not definition.
+- Avoid chains of "why" questions—integrate purpose naturally.
+- Avoid headers with "why" questions—headers should declare the purpose.
+- Connect abstract rules to concrete amateur radio activities.
+- Use active voice and direct language.
 
 ### Key Information Blocks
 Use **only** for information that directly answers exam questions:
@@ -144,166 +149,111 @@ Use **only** for information that directly answers exam questions:
 > **Key Information:** The maximum power for Technician Class operators on HF is 200 watts PEP.
 
 **Strict criteria:**
-- Must relate to a specific exam question
-- Contains exact facts needed for test
-- Never for general concepts or background
-- Avoid duplicating other text exactly
-- Can introduce a topic, then continue with details in regular text
-- Use bullet lists only when multiple related exam facts belong together
-- _Never_ bold or italicize _entire_ Key Information blocks (only _small emphasized parts_)
-- While we prefer to have them spread throughout the text, they can be grouped together if it improves clarity or prevents lots of micro sections. For example, having multiple key information blocks separated only by a sentence or two of regular text can feel fragmented and it can be better to combine the key information blocks into a bulleted list which has several facts relevant to the surrounding flow of the document
+- Must relate to a specific exam question.
+- Contains exact facts needed for test.
+- Never for general concepts or background.
+- Avoid duplicating other text exactly.
+- Can introduce a topic, then continue with details in regular text.
+- Use bullet lists only when multiple related exam facts belong together.
+- _Never_ bold or italicize _entire_ Key Information blocks (only _small emphasized parts_).
+- While we prefer to have them spread throughout the text, they can be grouped together if it improves clarity or prevents lots of micro sections. For example, having multiple key information blocks separated only by a sentence or two of regular text can feel fragmented and it can be better to combine the key information blocks into a bulleted list which has several facts relevant to the surrounding flow of the document.
 
 Always remember that key information blocks are to focus attention on something that may be needed to pass the exam, but they should never impede understanding of the text.
 
 ### Formatting and Media
-- *Italicize* exam-specific information
-- **Bold** for important concepts and definitions
-- `Code formatting` for technical values and callsigns
-- Tables for organizing related data
-- Images in markdown format only (never HTML)
-- Use `![alt text](path)` for images
+- *Italicize* exam-specific information.
+- **Bold** for important concepts and definitions.
+- `Code formatting` for technical values and callsigns.
+- Tables for organizing related data.
+- Images in markdown format only (never HTML).
+- Use `![alt text](path)` for images.
 
 ### Mathematical Content
-- Inline math: `$P = I \times E# HamStudy HamBook Writing Style Guide
-
-## Core Philosophy: Start with Why
-
-We're writing the **HamStudy Technician License HamBook** or **HamStudy General Class License HamBook** (never call it a "license manual" or "handbook"). Following Simon Sinek's "Start with Why" principle, we begin every topic by establishing purpose and meaning before diving into details.
-
-**The Why Framework:**
-- **Why does this matter?** (Purpose/belief)
-- **How does it work?** (Process/method) 
-- **What are the specifics?** (Facts/details)
-
-This creates emotional connection and context that makes technical information meaningful and memorable.
-
-## Voice and Tone
-
-### Conversational Teaching Style
-- Write as a friendly, experienced ham explaining to an eager newcomer
-- Use "you" to address the reader directly
-- Maintain enthusiasm without condescension
-- Build confidence while acknowledging complexity
-
-**Good**: "When you key up your mic for the first time, you'll be joining a global community that spans generations."
-
-**Avoid**: "Students often struggle with this concept" or overly formal academic language.
-
-### Real-World Connection
-- Connect every concept to actual amateur radio activities
-- Use concrete examples and scenarios
-- Include practical anecdotes (🔥 for dramatic stories)
-- Explain how concepts enable amateur radio magic
-
-## Content Structure
-
-### Start with Why Pattern
-1. **Purpose**: Why this topic matters to amateur radio
-2. **Connection**: How it enables communication/community/service
-3. **Method**: How it works in practice
-4. **Details**: Specific facts and exam requirements
-
-### Key Information Blocks
-Use **only** for information that directly answers exam questions, and only ever italicize things that need particular emphasis:
-
-> **Key Information:** The maximum power for Technician Class operators on HF is 200 watts PEP.
-
-**Strict criteria:**
-- Must relate to a specific exam question
-- Contains exact facts needed for test
-- Never for general concepts or background
-- Never bold or italicize the entire block; parts are okay if emphasis is needed.
-
-### Emphasis and Formatting
-- *Italicize* exam-specific information
-- **Bold** for important concepts and definitions
-- `Code formatting` for technical values and callsigns
-- Tables for organizing related data
-
- (use "PIE" format for Power Law for memorability)
-- Display blocks: `$P = I^2 \times R$`
-- Multi-step calculations: `$\begin{align*}...\end{align*}$` surrounded by `$` on each side
-- Always explain variables and include units
-- Provide worked examples
-- Acknowledge limited math on exam with "escape hatches"
+- Inline math: `$P = I \times E$` (use "PIE" format for Power Law for memorability).
+- Display blocks: `$$P = I^2 \times R$$`
+- Multi-step calculations: use `$$\begin{align*}...\end{align*}$$` (two dollar signs on each side).
+- Always explain variables and include units.
+- Provide worked examples.
+- Acknowledge limited math on exam with "escape hatches".
 
 ## Language Conventions
 
 ### General
-- Never start a sentence with a conjunction (and, or, but...)
+- Never start a sentence with a conjunction (and, or, but...).
 
 ### Technical Terms
-- Define when first introduced
-- Build vocabulary gradually
-- Use consistent terminology
-- Prefer simpler terms when equivalent
+- Define when first introduced.
+- Build vocabulary gradually.
+- Use consistent terminology.
+- Prefer simpler terms when equivalent.
 
 ### Analogies and Metaphors
 Use relatable analogies that truly clarify:
-- Water flow for electrical concepts
-- Highway systems for frequency allocation
-- Mail slots for antenna polarization
+- Water flow for electrical concepts.
+- Highway systems for frequency allocation.
+- Mail slots for antenna polarization.
 
 **Quality test**: Does this analogy actually help understanding or just sound clever?
 
 ### Writing Variety and Flow
 - Avoid repetitive conclusions: "The bottom line," "In conclusion," etc.
-- Vary transitional phrases beyond "let's dive in"
-- Minimize overused metaphors like "swiss army knife of"
-- Keep language fresh and engaging throughout
-- Maintain conversational flow while covering technical content
+- Vary transitional phrases beyond "let's dive in".
+- Minimize overused metaphors like "swiss army knife of".
+- Keep language fresh and engaging throughout.
+- Maintain conversational flow while covering technical content.
 
 ### Numbers and Units
-- Spell out one through nine, numerals for 10+
-- Always include units: "146.52 MHz"
-- Use standard abbreviations consistently
+- Spell out one through nine, numerals for 10+.
+- Always include units: "146.52 MHz".
+- Use standard abbreviations consistently.
 
 ## Educational Approach
 
 ### Question Integration and Linking
-- Address exam questions through natural explanation
-- Never quote questions directly
-- Include question links like `{{< link id="G2D07" >}}` at the relevant point in text
-- Order questions in front matter to match their appearance in the text
-- Explain reasoning behind correct answers
-- Cover all question IDs in section metadata
-- Connect facts to broader understanding
-- Ignore question pool organization—group by content logic instead
+- Address exam questions through natural explanation.
+- Never quote questions directly.
+- Include question links like `{{< link id="G2D07" >}}` at the relevant point in text.
+- Order questions in front matter to match their appearance in the text.
+- Explain reasoning behind correct answers.
+- Cover all question IDs in section metadata.
+- Connect facts to broader understanding.
+- Ignore question pool organization—group by content logic instead.
 
 ### Building Understanding vs. Memorization
-- Explain the "why" behind rules and procedures
-- Connect new concepts to previous learning
-- Provide context that makes information stick
-- Acknowledge when memorization is appropriate
+- Explain the "why" behind rules and procedures.
+- Connect new concepts to previous learning.
+- Provide context that makes information stick.
+- Acknowledge when memorization is appropriate.
 
 ### Handling Complexity
 For challenging topics:
-1. Start with practical importance (why)
-2. Provide big picture context
-3. Break into digestible pieces
-4. Offer multiple explanation approaches
-5. Include "skip if needed" guidance for non-essential details
+1. Start with practical importance (why).
+2. Provide big picture context.
+3. Break into digestible pieces.
+4. Offer multiple explanation approaches.
+5. Include "skip if needed" guidance for non-essential details.
 
 ## Content Guidelines
 
 ### Include
-- Concepts needed for exam understanding
-- Practical operating information for new Technicians
-- Background that aids comprehension
-- Real-world applications and examples
-- Safety woven throughout
+- Concepts needed for exam understanding.
+- Practical operating information for new licensees.
+- Background that aids comprehension.
+- Real-world applications and examples.
+- Safety woven throughout.
 
 ### Question/Remove
-- Topics not relevant to Technician privileges
-- Complex math beyond basic applications
-- Advanced theory not needed for understanding
-- Content that confuses rather than clarifies
+- Topics not relevant to the license class privileges.
+- Complex math beyond basic applications.
+- Advanced theory not needed for understanding.
+- Content that confuses rather than clarifies.
+- Excessive explanation that becomes long winded instead of helpful
 
 ### Safety Integration
-- Emphasize safety within technical discussions
-- Use real examples to show importance
-- Connect safety to successful operation
-- Balance information with avoiding fear
+- Emphasize safety within technical discussions.
+- Use real examples to show importance.
+- Connect safety to successful operation.
+- Balance information with avoiding fear.
 
 ## Quality Checks
 
@@ -313,6 +263,7 @@ For challenging topics:
 - Is exam information clearly marked?
 - Are we building understanding or just cramming facts?
 - Does this connect to real amateur radio activities?
+- Are we "keeping it real"?
 
 ### Voice Check
 - Is the tone conversational and encouraging?
@@ -320,12 +271,12 @@ For challenging topics:
 - Is enthusiasm for amateur radio evident?
 - Would a beginner feel welcomed and capable?
 
-## Screen reader compatibility
+## Screen Reader Compatibility
 
-Some screen readers will not properly end sentences without punctuation, so all list items, blocks (including key information blocks), etc must end with punctuation, e.g. a period.
+Some screen readers will not properly end sentences without punctuation, so all list items, blocks (including key information blocks), etc. must end with punctuation, e.g. a period.
 
 ## Mission Statement
 
-We're not just preparing people for a test—we're introducing them to expanded amateur radio privileges and capabilities. Every section should help readers understand why General Class matters, how they can use new privileges, and what specific knowledge they need to operate safely and successfully at the next level.
+We're not just preparing people for a test—we're introducing them to expanded amateur radio privileges and capabilities. Every section should help readers understand why the license class matters, how they can use new privileges, and what specific knowledge they need to operate safely and successfully at the next level.
 
 Success means creating operators who pass with understanding, feel confident using new frequency privileges, appreciate expanded opportunities, and have a foundation for continued growth in amateur radio.
