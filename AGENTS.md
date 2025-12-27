@@ -42,13 +42,19 @@ npm ci
 node src/import.js -f hugo tech2022 -o tech2022/hugo
 hugo -s tech2022/hugo --config hugo.yaml
 
-# Import with watch mode
-node src/import.js -f hugo tech2022 -o tech2022/hugo --watch
+# Import only (one-time)
+npm run import:tech2022           # Preprocess tech2022 content for Hugo
 
-# Hugo content builder with watch
-npm run hugo:tech      # tech2022 on port 1313
-npm run hugo:tech2026  # tech2026 on port 1314
-npm run hugo:general   # general2023 on port 1315
+# Import with watch mode (rebuilds on source changes)
+npm run import:tech2022:watch     # Watch tech2022 source and rebuild
+
+# Hugo serve only (assumes import already run)
+npm run serve:tech2022            # Serve tech2022 on port 1313
+
+# Full development mode (import + watch + serve)
+npm run dev:tech2022          # tech2022 on port 1313
+npm run dev:tech2026          # tech2026 on port 1314
+npm run dev:general2023       # general2023 on port 1315
 
 # Production build (minified)
 hugo -s tech2022/hugo --minify --config hugo.yaml,hugo-prod.yaml --cleanDestinationDir

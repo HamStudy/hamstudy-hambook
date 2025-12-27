@@ -1,9 +1,22 @@
 {
   "scripts": {
-    "hugo:tech": "node src/import.js -f hugo tech2022 -o tech2022/hugo --watch",
-    "hugo:tech2026": "node src/import.js -f hugo tech2026 -o tech2026/hugo --watch",
-    "hugo:general": "node src/import.js -f hugo general2023 -o general2023/hugo --watch",
-    "build:hugo": "node src/import.js -f hugo tech2022 -o tech2022/hugo"
+    "import:tech2022": "node src/import.js -f hugo tech2022 -o tech2022/hugo",
+    "import:tech2022:watch": "node src/import.js -f hugo tech2022 -o tech2022/hugo --watch",
+    "serve:tech2022": "../hugo.sh serve -s tech2022/hugo --cleanDestinationDir -p 1313",
+    "dev:tech2022": "npm run import:tech2022 && concurrently \"npm:import:tech2022:watch\" \"npm:serve:tech2022\"",
+
+    "import:tech2026": "node src/import.js -f hugo tech2026 -o tech2026/hugo",
+    "import:tech2026:watch": "node src/import.js -f hugo tech2026 -o tech2026/hugo --watch",
+    "serve:tech2026": "../hugo.sh serve -s tech2026/hugo --cleanDestinationDir -p 1313",
+    "dev:tech2026": "npm run import:tech2026 && concurrently \"npm:import:tech2026:watch\" \"npm:serve:tech2026\"",
+
+    "import:general2023": "node src/import.js -f hugo general2023 -o general2023/hugo",
+    "import:general2023:watch": "node src/import.js -f hugo general2023 -o general2023/hugo --watch",
+    "serve:general2023": "../hugo.sh serve -s general2023/hugo --cleanDestinationDir -p 1313",
+    "dev:general2023": "npm run import:general2023 && concurrently \"npm:import:general2023:watch\" \"npm:serve:general2023\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
   },
   "dependencies": {
     "chokidar": "^3.6.0",
