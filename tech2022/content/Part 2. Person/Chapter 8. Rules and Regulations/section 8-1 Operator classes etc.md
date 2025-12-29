@@ -82,7 +82,7 @@ There are four "groups" that call signs are assigned from.
    **Special event call signs**: The 1x1 format call signs, like K1A, are only used for special event stations and are only assigned for a limited time. You may hear them, but one will never be assigned to an individual.
 
 * **Group B - Advanced Class**
-   - **Prnefix:** Two letters starting with K, N, or W
+   - **Prefix:** Two letters starting with K, N, or W
    - **Suffix:** 2 letters
    - **Examples:** KA1AA, WB2BB, NT3ST
 
