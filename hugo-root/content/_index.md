@@ -43,8 +43,6 @@ From $9.99 – choose your format:
   * [6" x 9" Paperback](https://amzn.to/4irwONy) – $19.99
   * [8.5" x 11" Large Print Paperback](https://amzn.to/4jIS6qX) – $29.99
 <!-- * [Audiobook](https://signalstuff.com/products/hambook-tech2022/?format=audiobook) — Coming soon -->
-<!-- * [EPUB](https://signalstuff.com/products/hambook-tech2022/?format=epub) — Coming soon  
-• [Audiobook](https://signalstuff.com/products/hambook-tech2022/?format=audiobook) — Coming soon -->
 
 Your purchase helps support the development and maintenance of these free resources.
 
