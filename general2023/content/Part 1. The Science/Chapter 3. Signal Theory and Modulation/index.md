@@ -13,4 +13,4 @@ In this chapter, we'll explore both analog and digital modulation techniques. We
 
 We'll also look at the technical aspects of signal bandwidth, frequency mixing, and how to avoid interference. These concepts aren't just theoretical—they directly impact your on-air operations every time you turn on your radio.
 
-Whether you're upgrading your station for your new General class privileges or making the most of equipment you already have, understanding signal theory and modulation will help you communicate more effectively across all the frequencies now available to you. Let's dive in!
+Whether you're upgrading your station for your new General class privileges or making the most of equipment you already have, understanding signal theory and modulation will help you communicate more effectively across all the frequencies now available to you. Let's get started!
