@@ -39,7 +39,7 @@ At DC and low frequencies, a wire is just a wire. But at radio frequencies, wire
 
 Touch the "grounded" equipment while transmitting and you'll discover this the hard way—RF burns are painful and slow to heal. Symptoms of RF grounding problems include equipment that's warm or tingly to the touch, shocks from the microphone, erratic equipment behavior, or RF feedback in your audio.
 
-For RF, the goal isn't necessarily a good connection to earth—it's keeping all your equipment at the same RF potential. When everything floats together, there are no voltage differences to cause problems. The solution is bonding all your equipment enclosures together using wide copper strap rather than round wire (strap has lower inductance at RF). Create a common bus behind your equipment and bond every metal chassis to it with short straps.
+For RF, the goal isn't a perfect connection to earth—it's keeping all equipment at the same RF potential. When everything is bonded together, there are no RF voltage differences to cause problems. Use wide copper strap rather than round wire (strap has lower inductance at RF), and connect all metal equipment enclosures to a common bonding bus with short straps.
 
 > **Key Information:**
 > - Bonding all equipment enclosures together helps to minimize RF "hot spots" in an amateur station. {{< link id="G4C11" >}}
