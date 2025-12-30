@@ -13,7 +13,7 @@ When you transmit, where does all that RF energy go? Most of it radiates into th
 
 You covered this in your Technician studies: unlike ionizing radiation from X-rays that damages molecules directly, RF energy works more like a microwave oven—it causes heating.
 
-> **Key Information:** RF energy can affect human body tissue by heating it. {{< link id="G0A01" >}}
+> **Key Information:** RF energy can affect human body tissue by *heating it*. {{< link id="G0A01" >}}
 
 At amateur power levels, this heating rarely causes immediate burns (except from touching energized components—don't do that). But prolonged exposure above safety limits can cause tissue damage before you feel anything. The eyes are particularly vulnerable since they don't dissipate heat well.
 
@@ -21,7 +21,7 @@ At amateur power levels, this heating rarely causes immediate burns (except from
 
 Three factors work together to determine how much RF exposure someone receives:
 
-> **Key Information:** RF exposure is determined by frequency, power density, and duty cycle. {{< link id="G0A02" >}}
+> **Key Information:** RF exposure is determined by *frequency*, *power density*, and *duty cycle*. {{< link id="G0A02" >}}
 
 **Frequency** determines how efficiently your body absorbs the energy. As you learned for the Technician exam, around 50 MHz is where the human body absorbs RF most efficiently—a quarter wavelength on 6 meters is about 1.5 meters, or around 5 feet. In other words, typical adult human height makes us decent antennas at that wavelength.
 
@@ -32,8 +32,8 @@ Three factors work together to determine how much RF exposure someone receives:
 The FCC uses "time averaging" to account for duty cycle when evaluating exposure:
 
 > **Key Information:**
-> - Time averaging means the total RF exposure averaged over a certain period when evaluating RF radiation exposure. {{< link id="G0A04" >}}
-> - A lower duty cycle permits greater power levels to be transmitted. {{< link id="G0A07" >}}
+> - Time averaging means the *total RF exposure averaged over a certain period* when evaluating RF radiation exposure. {{< link id="G0A04" >}}
+> - A *lower duty cycle* permits *greater power levels* to be transmitted. {{< link id="G0A07" >}}
 
 The averaging period is 6 minutes for controlled environments (like your shack, where you know about the RF) and 30 minutes for uncontrolled environments (public areas where people don't know they're being exposed).
 
@@ -71,8 +71,8 @@ Low-power stations often qualify for "categorical exemption"—the power is low 
 A few scenarios deserve extra attention:
 
 > **Key Information:**
-> - If evaluation shows that a neighbor might experience more than the allowable limit of RF exposure from the main lobe of a directional antenna, take precautions to ensure that the antenna cannot be pointed in their direction when they are present. {{< link id="G0A10" >}}
-> - When installing an indoor transmitting antenna, make sure that MPE limits are not exceeded in occupied areas. {{< link id="G0A11" >}}
+> - If evaluation shows that a neighbor might experience more than the allowable limit of RF exposure from the main lobe of a directional antenna, take precautions to ensure that the antenna *cannot be pointed in their direction when they are present*. {{< link id="G0A10" >}}
+> - When installing an indoor transmitting antenna, make sure that **MPE limits** are not exceeded in occupied areas. {{< link id="G0A11" >}}
 > - All stations with a time-averaged transmission of more than one milliwatt are subject to the FCC rules on RF exposure. {{< link id="G0A12" >}}
 
 **Directional antennas** focus your signal—and RF exposure—in specific directions. Great for working DX, but worth considering if your beam sweeps across the neighbor's yard. Options include mechanical stops that prevent rotation into problem directions, reduced power when pointing toward occupied areas, or coordinating operating times.
