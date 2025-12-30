@@ -1,19 +1,15 @@
 ---
 questions: []
 slug: chpt5
-status: reviewed1
+status: draft1
 ---
 
-# Chapter 5: Radio Wave Propagation
+# Chapter 5: Understanding RF Propagation
 
-The band is completely dead. You're about to shut off the radio when suddenly—a weak signal emerges from the noise. "CQ DX from VK4..." Australia! On 100 watts to a wire antenna! Thirty seconds later, it's gone, swallowed by the same mysterious force that delivered it. Welcome to HF propagation, where physics performs daily miracles and understanding the science separates the DX hunters from the wishful thinkers.
+The band is completely dead. You're about to shut off the radio when suddenly—a weak signal emerges from the noise. "CQ DX from VK4..." Australia! Thirty seconds later, it's gone, swallowed by the same force that delivered it. That signal traveled 10,000 miles by bouncing off invisible layers of charged particles floating 200 miles above Earth. The ionosphere—where solar radiation strips electrons from atoms—bent those radio waves back toward the planet's surface. For a brief moment, the angle was right, the frequency matched the ionization density, and the path opened. Then conditions shifted and it closed.
 
-Your General license grants access to this electromagnetic lottery, but knowledge determines whether you'll hit the jackpot or waste hours calling into dead air. The difference between working rare DX and hearing nothing? Often just knowing which band to use, when to listen, and where to point your antenna. Master propagation, and you'll make contacts others can only dream about.
+You can't control the ionosphere, and there's definitely luck involved in catching these openings. What you can control is understanding propagation patterns well enough to be on the right band at the right time. Radio waves travel through different paths depending on frequency, distance, time of day, and atmospheric conditions.
 
-This chapter transforms propagation from black magic to applied science. You'll discover how the ionosphere creates a natural satellite system 30-350 miles overhead, learn why solar weather matters more than terrestrial weather for radio success, and understand the propagation modes that can carry your signal to impossible places. Most importantly, you'll predict when conditions favor that dream contact.
+Solar radiation changes on an 11-year cycle, dramatically affecting which bands support long-distance contacts. Different frequencies refract at different heights. The Earth's magnetic field plays a role too, especially at high latitudes. This chapter explores the ionosphere's layers and how solar activity controls them, what determines Maximum Usable Frequency and Lowest Usable Frequency, and the various paths that carry signals across different distances.
 
-We begin with the ionosphere itself—Earth's radio mirror that makes long-distance communication possible. You'll meet the D, E, and F regions, each with distinct personalities that help or hinder your signals. Next, we explore how solar radiation powers this system, creating the 11-year boom-bust cycle that drives HF conditions. Finally, we'll master the various paths your signals can take, from straightforward skip propagation to mysterious scatter modes that defy logic.
-
-By chapter's end, you'll read band conditions like a weather forecast, predict openings before they happen, and understand why that VK4 station appeared precisely when it did. The bands will never sound random again—you'll hear the patterns, recognize the opportunities, and make the contacts others miss.
-
-Ready to decode nature's greatest communication system? Your journey into radio wave propagation starts now!
+Let's explore how radio waves travel.
