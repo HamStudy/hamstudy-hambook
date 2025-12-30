@@ -13,9 +13,9 @@ Ham shacks come in all shapes and sizes—from a corner of the kitchen table to 
 
 Before thinking about what your station needs, it helps to understand what's already available in your home. Standard US residential service is **split-phase 120/240V**—the utility delivers 240 volts center-tapped to provide two 120-volt legs. This gives you access to both voltages throughout your home:
 
-- **120-volt circuits**: Standard outlets powering most household items—lamps, televisions, computers, kitchen appliances, phone chargers
-- **240-volt circuits**: High-power appliances like electric dryers, ovens/ranges, central air conditioners, water heaters, and EV chargers
-- **120/240-volt circuits**: Appliances needing both—like a dryer that uses 240V for the heating element but 120V for the motor and timer, or a range that heats at 240V but runs its clock and lights at 120V
+- **120-volt circuits**: Standard outlets powering most household items—lamps, televisions, computers, kitchen appliances, phone chargers.
+- **240-volt circuits**: High-power appliances like electric dryers, ovens/ranges, central air conditioners, water heaters, and EV chargers.
+- **120/240-volt circuits**: Appliances needing both—like a dryer that uses 240V for the heating element but 120V for the motor and timer, or a range that heats at 240V but runs its clock and lights at 120V.
 
 Most ham stations run happily on standard 120-volt outlets. A typical 100-watt HF transceiver draws only 20-25 amps at 12 volts DC, which translates to just a couple of amps from your wall outlet through its power supply. Add a computer, monitor, and a few accessories, and you're still well within what a single 15 or 20-amp circuit can handle.
 
@@ -81,8 +81,6 @@ In normal operation, all the current flowing out on the hot wire returns on the 
 
 > **Key Information:** A ground fault circuit interrupter (GFCI) will disconnect AC power if current flows from one or more of the hot wires directly to ground. {{< link id="G0B05" >}}
 
-![Diagram showing GFCI operation principles](../images/gfci-operation.svg)
-
 Electrical codes require GFCI protection in areas where water and electricity might meet—bathrooms, kitchens, garages, outdoors, and unfinished basements. For your ham shack, they're worth considering anywhere you might be handling equipment in less-than-ideal conditions.
 
 #### Interlocks: Protection from Stored Energy
@@ -90,8 +88,6 @@ Electrical codes require GFCI protection in areas where water and electricity mi
 High-voltage equipment can be dangerous even when unplugged—capacitors store energy that takes time to dissipate. Many power supplies and amplifiers include interlocks: switches that automatically disconnect dangerous voltages when the cabinet is opened.
 
 > **Key Information:** The purpose of a power supply interlock is to ensure that dangerous voltages are removed if the cabinet is opened. {{< link id="G0B12" >}}
-
-![Diagram showing how an interlock switch works](../images/interlock-diagram.svg)
 
 The concept is simple—open the cover, break the circuit. When you open an amplifier cabinet, the interlock cuts high voltage before your fingers get near anything dangerous.
 
