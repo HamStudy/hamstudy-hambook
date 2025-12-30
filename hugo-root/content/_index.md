@@ -52,7 +52,7 @@ Your purchase helps support the development and maintenance of these free resour
 
 ---
 
-### General Class – **Coming Soon**
+### General Class – **Alpha Version Available**
 
 {{% columns class="book-details" ratio="1:2" %}}
 
@@ -68,7 +68,9 @@ Expand your privileges and capabilities.
 * Get started as a Volunteer Examiner (VE)
 * Ideal for those looking to upgrade from Technician
 
-[Coming Soon]()
+{{< button relref="/general2023" >}}Read online for Free!{{< /button >}}
+
+*This book is under active development. Purchase options will be available once complete. Please pay attention to the status notes at the top of each page, some pages have not been fully verified for accuracy yet.*
 
 {{% /columns %}}
 
