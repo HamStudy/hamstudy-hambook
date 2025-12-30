@@ -48,6 +48,8 @@ From $9.99 – choose your format:
 
 Your purchase helps support the development and maintenance of these free resources.
 
+*Planning ahead? The [2026-2030 Technician book]({{% relref "/tech2026" %}}) is available for preview. It takes effect July 1, 2026. The book will be finalized before the new question pool becomes effective.*
+
 {{% /columns %}}
 
 ---
