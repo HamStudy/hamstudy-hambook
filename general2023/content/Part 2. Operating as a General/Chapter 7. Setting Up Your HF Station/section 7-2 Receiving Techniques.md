@@ -7,9 +7,9 @@ status: draft1
 
 ### Section 7.2: Receiving Techniques
 
-We've talked a few times about the importance of keeping in mind both receive and transmit; that's because it does not matter how efficiently or powerfully you transmit your signal, communication cannot happen unless you hear the response.
+HF communication presents challenges that FM on VHF/UHF doesn't: weak signals, noise, interference, and fading. As an operator, you face these challenges from both sides. When receiving, you need tools and techniques to overcome them so you can hear the other station. When transmitting (which we'll cover next), your goal is to help the other station overcome those same challenges by giving them the cleanest, strongest signal possible.
 
-As a Technician class operator the most common mode is FM; with an FM signal you mostly either have a signal or you don't have a signal, and you can only have at most one clear signal on a given frequency—and it is generally *very* clear. Now on HF frequencies and operating as a General class operator we're probably going to use SSB (Single Side-Band) for most communication and suddenly there is a lot more that we can do to try to get a signal out of the noise. At the same time, there is also a much higher chance that we'll be trying to do so with a particularly weak signal.
+As a Technician class operator the most common mode is FM—you either have a clear signal or you don't. On HF using SSB there's a lot more gray area, and there's a lot more you can do to pull weak signals out of the noise. Let's start with the receiving side.
 
 Your HF transceiver includes several tools designed to improve what you can hear. Understanding when and how to use them can make all the difference in the world.
 

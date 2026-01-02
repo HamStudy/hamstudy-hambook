@@ -176,10 +176,57 @@ Always remember that key information blocks are to focus attention on something 
 - Provide worked examples.
 - Acknowledge limited math on exam with "escape hatches".
 
+## Section Narrative Development
+
+Before writing any section, identify its core narrative: What is the reader trying to accomplish? What problem are they solving? What capability are they gaining?
+
+### Finding Your Narrative
+
+Each section should answer a central question or teach toward a specific goal:
+- Section 7.1: "What do I need to set up an HF station?"
+- Section 7.2: "How do I overcome challenges when receiving?"
+- Section 7.3: "How do I give the other station the best signal possible?"
+- Section 7.4: "When and how do I safely add more power?"
+
+The narrative comes first; the exam questions get answered naturally along the way.
+
+### Bad Approach (Question-Driven)
+âŒ Starting with: "This section covers G4A01, G4A03, G4A07..."
+âŒ Structure: One subsection per question or small clusters
+âŒ Result: Feels like a list of disconnected facts
+
+### Good Approach (Narrative-Driven)
+âœ… Starting with: "What does it take to hear weak signals through noise?"
+âœ… Structure: Organized around solving that problem
+âœ… Result: Cohesive lesson where questions are answered naturally
+
+### Connecting Sections
+
+Sections should build on each other and reference the larger story:
+- Explicit connections: "Just as we focused on receiving in 7.2, now let's flip to transmitting..."
+- Thematic parallels: Receiving = overcoming challenges; Transmitting = preventing challenges for others
+- Progressive building: Each section adds capability or understanding
+
+### Red Flags You're Doing It Wrong
+
+- Subsection headers that are just question topics
+- Paragraphs that feel like separate mini-lessons
+- No clear "why does this section exist" answer
+- Transitions like "Next topic:" instead of natural flow
+- Could rearrange subsections without losing coherence
+
+### Process
+
+1. **Identify the goal**: What is the reader trying to accomplish?
+2. **Determine the flow**: What's the logical progression to achieve that goal?
+3. **Map questions to flow**: Where do exam questions naturally fit?
+4. **Write the narrative**: Teach toward the goal, letting questions get answered along the way
+5. **Check coherence**: Could you remove one part without breaking the story?
+
 ## Language Conventions
 
 ### General
-- Never start a sentence with a conjunction (and, or, but...).
+- IMPORTANT: Never start a sentence with a conjunction (and, or, but...). Seriously, we aren't in middle school, you should know better than to start sentences with "but".
 
 ### Technical Terms
 - Define when first introduced.
