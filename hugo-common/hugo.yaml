@@ -39,6 +39,7 @@ params:
   - svg/caleb-desk.svg
   - svg/ray-desk.svg
   - svg/grant-desk.svg
+  - svg/tracy-desk.svg
 
 markup:
   tableOfContents:
