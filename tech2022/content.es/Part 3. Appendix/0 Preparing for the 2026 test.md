@@ -8,7 +8,7 @@ status: complete
 
 Si estudiaste usando el HamBook de Técnico 2022-2026 pero esperas tomar el examen el 1 de julio de 2026 o después con el banco de preguntas de clase Técnico 2026-2030, ¡este suplemento es para ti! El nuevo banco introduce varias preguntas actualizadas y completamente nuevas que cubren temas que no se incluían antes. Este capítulo te guía a través de todo el material nuevo que necesitarás saber. Ten en cuenta que hay muchos cambios de redacción en otras preguntas que no se cubren aquí, pero no se consideraron lo suficientemente significativos como para necesitar enfoque adicional.
 
-No te preocupes—todo lo que aprendiste del libro 2022 sigue aplicando. Esta sección es solo un repaso con enfoque en la redacción específica y los temas cubiertos por las nuevas preguntas para aquellos que están nerviosos.
+No te preocupes — todo lo que aprendiste del libro 2022 sigue aplicando. Esta sección es solo un repaso con enfoque en la redacción específica y los temas cubiertos por las nuevas preguntas para aquellos que están nerviosos.
 
 ---
 
@@ -30,7 +30,7 @@ Después de pasar tu examen, tu equipo de examinadores voluntarios (VE) envía t
 
 > **Información Clave:** Puedes operar tu radio aficionado desde un *buque documentado en EE.UU. en aguas internacionales* con el *permiso del capitán*. {{< link id="T1C06" >}}
 
-Si estás a bordo de un buque documentado o registrado en los Estados Unidos y estás en aguas internacionales, puedes operar tu estación de aficionado—solo asegúrate de tener el permiso del capitán del barco.
+Si estás a bordo de un buque documentado o registrado en los Estados Unidos y estás en aguas internacionales, puedes operar tu estación de aficionado — solo asegúrate de tener el permiso del capitán del barco.
 
 ### La Interferencia Nunca Está Bien
 
@@ -46,7 +46,7 @@ La interferencia intencional viola tanto las reglas de la FCC como el espíritu 
 
 > **Información Clave:** Un *operador de control* es un operador aficionado *designado por el licenciatario de una estación para ser responsable de las transmisiones y el cumplimiento de las reglas de la FCC* en esa estación. {{< link id="T1E11" >}}
 
-Toda estación de aficionado necesita un operador de control—alguien que toma la responsabilidad de asegurar que todas las transmisiones cumplan con las reglas de la FCC.
+Toda estación de aficionado necesita un operador de control — alguien que toma la responsabilidad de asegurar que todas las transmisiones cumplan con las reglas de la FCC.
 
 ### Control Remoto
 
@@ -58,7 +58,7 @@ Toda estación de aficionado necesita un operador de control—alguien que toma 
 
 > **Información Clave:** Un ejemplo de una *estación auxiliar* es una que *envía transmisiones unidireccionales entre un receptor de repetidor remoto y el transmisor principal del repetidor*. {{< link id="T1D07" >}}
 
-Piensa en las estaciones auxiliares como estaciones de apoyo—enlaces en un sistema más grande, como un enlace de radio que conecta un sitio receptor remoto al transmisor principal de un repetidor.
+Piensa en las estaciones auxiliares como estaciones de apoyo — enlaces en un sistema más grande, como un enlace de radio que conecta un sitio receptor remoto al transmisor principal de un repetidor.
 
 ---
 
@@ -68,7 +68,7 @@ Piensa en las estaciones auxiliares como estaciones de apoyo—enlaces en un sis
 
 > **Información Clave:** La *ganancia* en amplificadores puede referirse a la relación de salida a entrada de *voltaje, corriente o potencia*—todas son formas válidas de medir cuánto se amplifica una señal. {{< link id="T6B11" >}}
 
-Cuando hablamos de la "ganancia" de un amplificador, estamos describiendo cuánto aumenta una señal. La ganancia puede medirse como ganancia de voltaje, ganancia de corriente o ganancia de potencia—las tres son formas legítimas de expresar la amplificación.
+Cuando hablamos de la "ganancia" de un amplificador, estamos describiendo cuánto aumenta una señal. La ganancia puede medirse como ganancia de voltaje, ganancia de corriente o ganancia de potencia — las tres son formas legítimas de expresar la amplificación.
 
 ---
 
@@ -76,9 +76,9 @@ Cuando hablamos de la "ganancia" de un amplificador, estamos describiendo cuánt
 
 ### Velocidad de las Ondas de Radio
 
-> **Información Clave:** *Todas las frecuencias de radio viajan a la misma velocidad* en el espacio libre—ya sea VHF, UHF, microondas o cualquier otra frecuencia. {{< link id="T3B12" >}}
+> **Información Clave:** *Todas las frecuencias de radio viajan a la misma velocidad* en el espacio libre — ya sea VHF, UHF, microondas o cualquier otra frecuencia. {{< link id="T3B12" >}}
 
-En el vacío del espacio, todas las ondas electromagnéticas viajan a la misma velocidad—la velocidad de la luz. Una señal VHF de 2 metros y una señal UHF de 23 cm viajan exactamente a la misma velocidad: aproximadamente 300 millones de metros por segundo.
+En el vacío del espacio, todas las ondas electromagnéticas viajan a la misma velocidad — la velocidad de la luz. Una señal VHF de 2 metros y una señal UHF de 23 cm viajan exactamente a la misma velocidad: aproximadamente 300 millones de metros por segundo.
 
 ### La Ionosfera
 
@@ -90,13 +90,13 @@ La ionosfera hace posible la comunicación HF de larga distancia al rebotar las 
 
 > **Información Clave:** Las señales VHF recibidas vía retrodispersión auroral están *distorsionadas, con un sonido áspero característico*. {{< link id="T3C03" >}}
 
-Cuando las señales VHF rebotan en la aurora, regresan sonando rugosas y ásperas—bastante diferentes de las señales claras normales. Este sonido distintivo es una señal reveladora de propagación auroral.
+Cuando las señales VHF rebotan en la aurora, regresan sonando rugosas y ásperas — bastante diferentes de las señales claras normales. Este sonido distintivo es una señal reveladora de propagación auroral.
 
 ### Balizas de Propagación HF
 
 > **Información Clave:** En HF, las *balizas de propagación de aficionados controladas automáticamente* se pueden encontrar en *10 metros, entre 28.200 MHz y 28.300 MHz*. {{< link id="T1A06" >}}
 
-Las balizas de propagación son estaciones automatizadas que transmiten señales para que los operadores puedan evaluar las condiciones de la banda. Sintonizando 28.200–28.300 MHz y escuchando balizas distantes, puedes saber rápidamente si 10 metros está "abierto" para comunicación de larga distancia.
+Las balizas de propagación son estaciones automatizadas que transmiten señales para que los operadores puedan evaluar las condiciones de la banda. Sintonizando 28.200 to 28.300 MHz y escuchando balizas distantes, puedes saber rápidamente si 10 metros está "abierto" para comunicación de larga distancia.
 
 ---
 
@@ -186,7 +186,7 @@ Cuando hablas demasiado fuerte en un transmisor FM, sobre-desvías la señal y e
 
 > **Información Clave:** Un *código de color* DMR es un *código de acceso que debe programarse en un transmisor DMR para acceder a un repetidor específico*. {{< link id="T2B12" >}}
 
-Piensa en un código de color como una llave que abre un repetidor DMR particular—la configuración del código de color de tu radio debe coincidir con el código del repetidor, o el repetidor no responderá a tus transmisiones.
+Piensa en un código de color como una llave que abre un repetidor DMR particular — la configuración del código de color de tu radio debe coincidir con el código del repetidor, o el repetidor no responderá a tus transmisiones.
 
 ### Code Plugs DMR
 
@@ -230,6 +230,6 @@ Winlink es un sistema global de correo electrónico por radio donde cada aficion
 
 ## Resumen
 
-Las actualizaciones del banco de preguntas 2026 reflejan el panorama evolutivo de la radioafición: mayor énfasis en modos y sistemas digitales, clarificación de procedimientos de licencia y control de estación, y enfoque continuo en conocimiento práctico de operación. Si ya estudiaste el material 2022, estás bien preparado—estas adiciones simplemente completan tu conocimiento con prácticas contemporáneas y detalles útiles.
+Las actualizaciones del banco de preguntas 2026 reflejan el panorama evolutivo de la radioafición: mayor énfasis en modos y sistemas digitales, clarificación de procedimientos de licencia y control de estación, y enfoque continuo en conocimiento práctico de operación. Si ya estudiaste el material 2022, estás bien preparado — estas adiciones simplemente completan tu conocimiento con prácticas contemporáneas y detalles útiles.
 
 ¡Buena suerte en tu examen, y esperamos escucharte en el aire!

@@ -25,7 +25,7 @@ A diode has two electrodes:
 - *Anode*: The positive connection
 - *Cathode*: The negative connection, marked with a stripe {{< link id="T6B09" >}}
 
-Think of a diode like a one-way street—current can only flow in one direction. But even when it’s flowing the right way, a diode doesn’t conduct perfectly. It takes a small amount of voltage just to get current moving; this is called the forward voltage drop (you might remember the concept of voltage drop from Section 1.2). That lost voltage turns into heat as electrical energy becomes thermal energy. Different types of diodes drop different amounts—for example, Schottky diodes typically have a lower forward voltage drop than regular silicon diodes.
+Think of a diode like a one-way street — current can only flow in one direction. But even when it’s flowing the right way, a diode doesn’t conduct perfectly. It takes a small amount of voltage just to get current moving; this is called the forward voltage drop (you might remember the concept of voltage drop from Section 1.2). That lost voltage turns into heat as electrical energy becomes thermal energy. Different types of diodes drop different amounts — for example, Schottky diodes typically have a lower forward voltage drop than regular silicon diodes.
 
 One common use of diodes is in a *rectifier*, which changes alternating current (AC) into a varying direct current (DC) signal. {{< link id="T6D01" >}}
 
@@ -57,7 +57,7 @@ There are two main types of transistors, and it's important to know the names of
 
 ##### Transistors as Amplifiers
 
-This ability to amplify signals is what makes transistors so important in radio equipment. Before transistors, vacuum tubes performed this role, and you'll still find tube amplifiers in use today—particularly in high-power HF stations. But most modern amateur radio equipment relies on transistors for amplification, from the tiny preamp that boosts weak signals in your receiver to the power amplifier in your handheld or mobile transceiver.
+This ability to amplify signals is what makes transistors so important in radio equipment. Before transistors, vacuum tubes performed this role, and you'll still find tube amplifiers in use today — particularly in high-power HF stations. But most modern amateur radio equipment relies on transistors for amplification, from the tiny preamp that boosts weak signals in your receiver to the power amplifier in your handheld or mobile transceiver.
 
 > **Key Information:** 
 > - Transistors can provide *power gain*—the ability to amplify signals {{< link id="T6B10" >}}

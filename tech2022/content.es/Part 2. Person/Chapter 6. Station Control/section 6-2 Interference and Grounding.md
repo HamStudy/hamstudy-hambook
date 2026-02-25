@@ -6,7 +6,7 @@ questions: [ "T4A11" ]
 
 ### Sección 6.2: Interferencia y Conexión a Tierra
 
-Bien, entremos en el mundo de la interferencia y la conexión a tierra—o en otras palabras, "El Arte de Mantener tus Señales Limpias y a tus Vecinos Felices".
+Bien, entremos en el mundo de la interferencia y la conexión a tierra — o en otras palabras, "El Arte de Mantener tus Señales Limpias y a tus Vecinos Felices".
 
 #### Interferencia: El Invitado No Deseado
 
@@ -35,7 +35,7 @@ Para combatir esto, es posible que necesites hacer un trabajo de detective. Inte
 
 #### Conexión a Tierra: La Base de una Buena Estación
 
-Ahora, vayamos a tierra—literalmente. La conexión a tierra es crucial tanto para la seguridad como para reducir la interferencia. Un buen sistema de tierra es como los cimientos de una casa—no los ves, pero todo depende de ellos.
+Ahora, vayamos a tierra — literalmente. La conexión a tierra es crucial tanto para la seguridad como para reducir la interferencia. Un buen sistema de tierra es como los cimientos de una casa — no los ves, pero todo depende de ellos.
 
 > **Información Clave:** Como ya se discutió en la Sección 5.5, ¡todas las varillas de tierra externas o conexiones a tierra deben estar *unidas entre sí con cable grueso o cinta conductora* para garantizar una correcta conexión a tierra y seguridad!
 
@@ -56,7 +56,7 @@ Al configurar un transceptor móvil en un vehículo, una conexión a tierra adec
 
 > **Información Clave:** El retorno de energía negativo de un transceptor móvil debe conectarse *en la tierra del chasis de la batería de 12 voltios*, no a partes metálicas aleatorias del vehículo. {{< link id="T4A11" >}}
 
-El retorno de energía negativo, o tierra, debe conectarse directamente a la batería de 12 voltios o a la tierra principal del chasis. Evita la tentación de conectar a tierra tu transceptor a cualquier parte metálica aleatoria del vehículo. Si bien puede parecer conveniente, esto puede llevar a una mala conexión a tierra, bucles de tierra o diferencias en el potencial de tierra—potencialmente causando problemas como el zumbido del alternador u otros ruidos. La práctica estándar en instalaciones de radio móviles es llevar tanto los cables de alimentación positivos como negativos directamente a la batería, con fusibles en ambas líneas. El fusible en el cable de tierra protege la radio en situaciones raras donde la energía podría alimentarse hacia atrás—como durante un arranque con cables mal hecho.
+El retorno de energía negativo, o tierra, debe conectarse directamente a la batería de 12 voltios o a la tierra principal del chasis. Evita la tentación de conectar a tierra tu transceptor a cualquier parte metálica aleatoria del vehículo. Si bien puede parecer conveniente, esto puede llevar a una mala conexión a tierra, bucles de tierra o diferencias en el potencial de tierra — potencialmente causando problemas como el zumbido del alternador u otros ruidos. La práctica estándar en instalaciones de radio móviles es llevar tanto los cables de alimentación positivos como negativos directamente a la batería, con fusibles en ambas líneas. El fusible en el cable de tierra protege la radio en situaciones raras donde la energía podría alimentarse hacia atrás — como durante un arranque con cables mal hecho.
 
 Siempre que sea posible, conecta tu tierra directamente a la batería o al mismo punto donde el terminal negativo de la batería está conectado a tierra al chasis del vehículo. Muchos vehículos tienen un punto común de conexión a tierra cerca de la batería con un cable de calibre grueso ya instalado para este propósito. Una instalación móvil bien conectada a tierra no solo mejora la calidad de tu señal sino que también protege tu equipo, asegurando que tu configuración móvil funcione sin problemas dondequiera que te lleven tus viajes.
 
@@ -66,4 +66,4 @@ Lidiar con interferencia y configurar una conexión a tierra adecuada puede no s
 
 Todo gran detective comienza con las pistas más cercanas a casa. Si tu televisor, altavoces o incluso tu tostadora (porque, ¿por qué no?) están actuando de manera extraña, resolver el misterio allí podría hacer que el problema de tu vecino también desaparezca. No se requiere gabardina—¡solo un poco de persistencia!
 
-Ahora que sabes cómo mantener tus señales limpias y a tus vecinos felices, ¡echemos un vistazo más de cerca al equipo que hace que todo sea posible—tu propio radio!
+Ahora que sabes cómo mantener tus señales limpias y a tus vecinos felices, ¡echemos un vistazo más de cerca al equipo que hace que todo sea posible — tu propio radio!

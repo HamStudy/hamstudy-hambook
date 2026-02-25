@@ -7,9 +7,9 @@ status: complete
 
 ### Section 3.5: Modulation Modes and Bandwidth
 
-Imagine you're trying to send a message to a friend across a dark field using a laser pointer. You might blink it on and off, vary its brightness, or switch between different colored lasers (red, green, blue) to communicate. That's exactly what we're doing in radio! Radio waves and visible light are both forms of electromagnetic (EM) waves—they're cousins in the same energy family, just at different frequencies.
+Imagine you're trying to send a message to a friend across a dark field using a laser pointer. You might blink it on and off, vary its brightness, or switch between different colored lasers (red, green, blue) to communicate. That's exactly what we're doing in radio! Radio waves and visible light are both forms of electromagnetic (EM) waves — they're cousins in the same energy family, just at different frequencies.
 
-The color of a laser is determined by its frequency—red has a lower frequency than green or blue. Similarly, in radio, we work with different frequencies that we can't see. When we talk about radio modulation, we're talking about how we manipulate these invisible waves to carry our voice or data. Let's explore these different ways of manipulating radio waves and how much radio spectrum space (bandwidth) each method needs.
+The color of a laser is determined by its frequency — red has a lower frequency than green or blue. Similarly, in radio, we work with different frequencies that we can't see. When we talk about radio modulation, we're talking about how we manipulate these invisible waves to carry our voice or data. Let's explore these different ways of manipulating radio waves and how much radio spectrum space (bandwidth) each method needs.
 
 ### Amplitude Modulation (AM)
 
@@ -25,7 +25,7 @@ While AM isn't the most common mode in amateur radio, you'll still encounter it 
 > - *FM/PM are commonly used for VHF packet radio transmissions* {{< link id="T8A02" >}}
 > - *FM/PM are the primary modes for VHF and UHF voice repeaters*. {{< link id="T8A04" >}}
 
-In Frequency Modulation (FM), we keep the amplitude (brightness) constant but vary the frequency (color) of the radio wave. It's like using a light that maintains the same brightness but shifts between different colors to send your message—a specific color shift represents a specific sound or piece of data.
+In Frequency Modulation (FM), we keep the amplitude (brightness) constant but vary the frequency (color) of the radio wave. It's like using a light that maintains the same brightness but shifts between different colors to send your message — a specific color shift represents a specific sound or piece of data.
 
 **Phase Modulation (PM)** is closely related to FM, but instead of directly changing the frequency, it shifts the **timing** of the wave. In practice, the effect is so similar that most amateur radio operators simply group PM and FM together as "FM." The specific differences are beyond the scope of this book, but for ham radio use, just remember that FM and PM both result in the same practical type of signal.  
 
@@ -53,7 +53,7 @@ There are two flavors of SSB:
 - **Upper Sideband (USB)**: Generally used on frequencies above 10 MHz. This includes the 30, 20, 17, 15, 12, and 10 meter bands.
 - **Lower Sideband (LSB)**: Used below 10 MHz, covering the 160, 80, and 40 meter bands.
 
-Since we only transmit the essential part of the signal, SSB uses about **half the bandwidth** of standard AM and requires much less power for the same range—making it a favorite for weak signal and long-distance communications.
+Since we only transmit the essential part of the signal, SSB uses about **half the bandwidth** of standard AM and requires much less power for the same range — making it a favorite for weak signal and long-distance communications.
 
 #### Bandwidth Comparison
 
@@ -69,7 +69,7 @@ Different modulation modes occupy different amounts of frequency space, much lik
 
 One fascinating aspect of amateur radio is how available bandwidth influences our choice of modulation. Think of radio bands like different-sized sections of the electromagnetic spectrum:
 
-- **Narrow Sections (Limited Bandwidth)**: Modes like CW (Morse code) work brilliantly because they use an incredibly narrow slice of spectrum—like using just a sliver of a specific color in the rainbow.
+- **Narrow Sections (Limited Bandwidth)**: Modes like CW (Morse code) work brilliantly because they use an incredibly narrow slice of spectrum — like using just a sliver of a specific color in the rainbow.
 
 - **Wider Sections (More Bandwidth)**: Bands with more available frequencies can support "wider" modes. For example:
   - The 10-meter band has enough room for both narrow CW and wider SSB

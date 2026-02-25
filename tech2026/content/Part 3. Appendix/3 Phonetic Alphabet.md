@@ -10,6 +10,7 @@ While it can be fun to make up your own Phonetics and many people do particularl
 
 There are others, but the most commonly used phonetic alphabet is the Radiotelephony Spelling Alphabet, commonly known as the **NATO phonetic alphabet**:
 
+{{% audiobook-never %}}
 | Letter | Phonetic | Letter | Phonetic |
 |:------:|:--------:|:------:|:--------:|
 | A      | Alpha    | N      | November |
@@ -25,3 +26,31 @@ There are others, but the most commonly used phonetic alphabet is the Radiotelep
 | K      | Kilo     | X      | X-ray    |
 | L      | Lima     | Y      | Yankee   |
 | M      | Mike     | Z      | Zulu     |
+{{% /audiobook-never %}}{{% audiobook-only %}}
+- A: Alpha
+- B: Bravo
+- C: Charlie
+- D: Delta
+- E: Echo
+- F: Foxtrot
+- G: Golf
+- H: Hotel
+- I: India
+- J: Juliett
+- K: Kilo
+- L: Lima
+- M: Mike
+- N: November
+- O: Oscar
+- P: Papa
+- Q: Quebec
+- R: Romeo
+- S: Sierra
+- T: Tango
+- U: Uniform
+- V: Victor
+- W: Whiskey
+- X: X-ray
+- Y: Yankee
+- Z: Zulu
+{{% /audiobook-only %}}

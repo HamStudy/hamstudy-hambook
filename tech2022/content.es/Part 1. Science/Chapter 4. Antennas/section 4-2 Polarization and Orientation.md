@@ -6,7 +6,7 @@ questions: [ "T9A03", "T3A09", "T3A04", "T3A03" ]
 
 ### Sección 4.2: Polarización y Orientación
 
-Imagina que estás tratando de deslizar una carta a través de una ranura de correo. Si la ranura es horizontal, girarás tu carta de lado. Si es vertical, orientarás tu carta de arriba a abajo. La polarización de la antena funciona de manera similar—se trata de hacer coincidir la orientación de tus ondas de radio para obtener los mejores resultados.
+Imagina que estás tratando de deslizar una carta a través de una ranura de correo. Si la ranura es horizontal, girarás tu carta de lado. Si es vertical, orientarás tu carta de arriba a abajo. La polarización de la antena funciona de manera similar — se trata de hacer coincidir la orientación de tus ondas de radio para obtener los mejores resultados.
 
 ![Ilustración; arriba: niño sosteniendo una radio portátil con la antena extendiéndose verticalmente. abajo: niño sosteniendo una radio portátil girada de lado con la antena extendiéndose horizontalmente.](../../../images/illus/polarization-es.svg)
 {.img-pgcap .float-right}

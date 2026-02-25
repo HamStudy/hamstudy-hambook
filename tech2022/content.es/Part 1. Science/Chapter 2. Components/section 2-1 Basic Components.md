@@ -30,7 +30,7 @@ Aplicaciones comunes en radioafición incluyen:
 ![Ilustración con un capacitor e inductor de caricatura, claramente gemelos fraternales](../../../images/illus/inducticap.svg)
 {.img-pgcap .float-right}
 
-Así como una batería almacena energía químicamente, los capacitores e inductores también almacenan energía—pero de formas completamente diferentes. Estos componentes son como hermanos: se complementan entre sí mientras tienen sus propias características únicas.
+Así como una batería almacena energía químicamente, los capacitores e inductores también almacenan energía — pero de formas completamente diferentes. Estos componentes son como hermanos: se complementan entre sí mientras tienen sus propias características únicas.
 
 ##### Capacitores: Almacenamiento de Energía en Campo Eléctrico
 
@@ -59,7 +59,7 @@ Los *inductores* juegan roles importantes en circuitos de radio, incluyendo:
 2. Adaptación de impedancia
 3. Almacenamiento de energía
 
-Juntos, capacitores e inductores forman la base de circuitos sintonizados que seleccionan frecuencias específicas—el corazón de la tecnología de radio.
+Juntos, capacitores e inductores forman la base de circuitos sintonizados que seleccionan frecuencias específicas — el corazón de la tecnología de radio.
 
 #### Entendiendo las Configuraciones de Circuitos
 

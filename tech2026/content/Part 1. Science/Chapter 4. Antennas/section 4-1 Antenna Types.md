@@ -33,7 +33,7 @@ When we talk about antenna gain, think of it like changing from a regular light 
   
    **Key Information:** A *beam antenna* is *an antenna that concentrates signals in one direction*. {{< link id="T9A01" >}} Picture it as a flashlight reflector focusing light. The *Yagi antenna offers the greatest gain* {{< link id="T9A06" >}} of common antenna types, using multiple elements to achieve high gain and directivity.  
 
-   It's important to remember that *gain* is just a redistribution of the signal—like a mirror or a lens that directs the signal toward your antenna. You get a stronger signal at that focal point, but anything outside that focus becomes much weaker.
+   It's important to remember that *gain* is just a redistribution of the signal — like a mirror or a lens that directs the signal toward your antenna. You get a stronger signal at that focal point, but anything outside that focus becomes much weaker.
 
 2. **Dipoles**
    
@@ -48,7 +48,7 @@ When we talk about antenna gain, think of it like changing from a regular light 
 
    > **Key Information:** A *19-inch vertical antenna* is often used on 2 meters because *it is a resonant quarter-wave* at that frequency. {{< link id="T9A08" >}}
 
-   These are like dipoles standing on end, with the ground (or your car, or your handheld radio) acting as the other half. The length of a quarter-wave antenna is determined by the frequency—for 2 meters (146 MHz), the math works out to approximately 19 inches.
+   These are like dipoles standing on end, with the ground (or your car, or your handheld radio) acting as the other half. The length of a quarter-wave antenna is determined by the frequency — for 2 meters (146 MHz), the math works out to approximately 19 inches.
 
 5. **5/8 Wave Verticals**
 

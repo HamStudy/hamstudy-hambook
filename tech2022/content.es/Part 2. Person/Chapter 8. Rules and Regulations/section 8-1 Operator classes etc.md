@@ -118,7 +118,7 @@ Las licencias de estaciones de club son un tipo especial de licencia de radioafi
 
 1. **Composición del Club**: Para calificar, *un club necesita al menos cuatro miembros*. {{< link id="T1F11" >}} ¡No es un espectáculo de una sola persona!
 
-2. **Identidad del Club**: El club debe tener un nombre, un documento de organización y administración. Piensa en ello como la carta constitutiva del club—establece quiénes son, cómo se manejan las cosas y hace que todo sea oficial.
+2. **Identidad del Club**: El club debe tener un nombre, un documento de organización y administración. Piensa en ello como la carta constitutiva del club — establece quiénes son, cómo se manejan las cosas y hace que todo sea oficial.
 
 3. **Propósito Principal**: El objetivo principal del club debería ser todo sobre actividades de radioafición. ¡No disfraces tu club de lectura como un club de radioaficionados!
 

@@ -47,7 +47,7 @@ With Doppler shift, as the satellite approaches, the frequency appears higher, a
 
 > **Key Information:**
 > * Satellite tracking programs provide maps showing the real-time position of satellites, pass timing information, and the apparent frequency including Doppler shift effects. {{< link id="T8B03" >}}
-> * These programs use *Keplerian elements* as inputs—a set of numbers that describe the satellite's orbit. {{< link id="T8B06" >}}
+> * These programs use *Keplerian elements* as inputs — a set of numbers that describe the satellite's orbit. {{< link id="T8B06" >}}
 > * Using excessive uplink power can block access to the satellite by other users. {{< link id="T8B02" >}}
 > * Your signal strength on the downlink should be about the same as the beacon to ensure your uplink power is appropriate. {{< link id="T8B12" >}}
 
@@ -59,7 +59,7 @@ Here's what you need to know to get started:
    
 3. **Antennas**: While you can make some contacts with a handheld and its stock antenna, directional antennas work much better for satellite communications.
 
-4. **Power**: Unlike terrestrial repeaters, you don't need much power. Always use just enough power to make contact. Too much power can actually cause problems for other users trying to access the satellite at the same time. Listen to your own signal as it's retransmitted by the satellite and compare it to the strength of the satellite's beacon signal—if your signal is much stronger than the beacon, reduce your power.
+4. **Power**: Unlike terrestrial repeaters, you don't need much power. Always use just enough power to make contact. Too much power can actually cause problems for other users trying to access the satellite at the same time. Listen to your own signal as it's retransmitted by the satellite and compare it to the strength of the satellite's beacon signal — if your signal is much stronger than the beacon, reduce your power.
 
 #### Types of Satellite Operations
 

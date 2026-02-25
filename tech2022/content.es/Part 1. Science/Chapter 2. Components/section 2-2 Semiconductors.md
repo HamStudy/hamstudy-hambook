@@ -24,7 +24,7 @@ Un diodo tiene dos electrodos:
 - *Ánodo*: La conexión positiva
 - *Cátodo*: La conexión negativa, marcada con una franja {{< link id="T6B09" >}}
 
-Piensa en un diodo como una calle de un solo sentido—la corriente solo puede fluir en una dirección. Pero incluso cuando fluye en la dirección correcta, un diodo no conduce perfectamente. Se requiere una pequeña cantidad de voltaje solo para que la corriente comience a moverse; esto se llama caída de voltaje directo (puede que recuerdes el concepto de caída de voltaje de la Sección 1.2). Ese voltaje perdido se convierte en calor a medida que la energía eléctrica se convierte en energía térmica. Diferentes tipos de diodos tienen diferentes cantidades de caída—por ejemplo, los diodos Schottky típicamente tienen una caída de voltaje directo menor que los diodos de silicio regulares.
+Piensa en un diodo como una calle de un solo sentido — la corriente solo puede fluir en una dirección. Pero incluso cuando fluye en la dirección correcta, un diodo no conduce perfectamente. Se requiere una pequeña cantidad de voltaje solo para que la corriente comience a moverse; esto se llama caída de voltaje directo (puede que recuerdes el concepto de caída de voltaje de la Sección 1.2). Ese voltaje perdido se convierte en calor a medida que la energía eléctrica se convierte en energía térmica. Diferentes tipos de diodos tienen diferentes cantidades de caída — por ejemplo, los diodos Schottky típicamente tienen una caída de voltaje directo menor que los diodos de silicio regulares.
 
 Un uso común de los diodos es en un *rectificador*, que cambia la corriente alterna (CA) en una señal de corriente continua (CC) variable. {{< link id="T6D01" >}}
 

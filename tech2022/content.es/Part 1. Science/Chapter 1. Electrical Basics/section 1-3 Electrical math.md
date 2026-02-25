@@ -6,11 +6,11 @@ questions: [ "T5D03", "T5D01", "T5D02", "T5D12", "T5D06", "T5C08", "T5C09", "T5C
 
 ### Sección 1.3: Leyes Eléctricas (y Matemáticas)
 
-Bien, vamos a ver algunas de las matemáticas básicas y leyes eléctricas que usarás todo el tiempo en radioafición. No te preocupes—esto no es ciencia espacial (¡aunque muchos científicos espaciales probablemente también usen esto!). Estamos hablando de la Ley de Ohm y la Ley de Potencia, que son principios fundamentales de la electrónica. Funcionan perfectamente juntas, y una vez que les tomes el ritmo, verás que no son tan difíciles de entender.
+Bien, vamos a ver algunas de las matemáticas básicas y leyes eléctricas que usarás todo el tiempo en radioafición. No te preocupes — esto no es ciencia espacial (¡aunque muchos científicos espaciales probablemente también usen esto!). Estamos hablando de la Ley de Ohm y la Ley de Potencia, que son principios fundamentales de la electrónica. Funcionan perfectamente juntas, y una vez que les tomes el ritmo, verás que no son tan difíciles de entender.
 
 #### Pero Primero... ¡No Te Asustes con las Matemáticas!
 
-Muchas personas ven preguntas matemáticas e inmediatamente comienzan a estresarse—pero **no hay razón para entrar en pánico**. Como **máximo**, verás **dos** preguntas relacionadas con matemáticas en tu examen: **una de {{< qid >}}T5C{{< /qid >}} (fórmulas de potencia) y una de {{< qid >}}T5D{{< /qid >}} (Ley de Ohm).** ¿Y adivina qué? ¡Puedes **equivocarte en hasta 9 preguntas y aun así aprobar**!
+Muchas personas ven preguntas matemáticas e inmediatamente comienzan a estresarse — pero **no hay razón para entrar en pánico**. Como **máximo**, verás **dos** preguntas relacionadas con matemáticas en tu examen: **una de {{< qid >}}T5C{{< /qid >}} (fórmulas de potencia) y una de {{< qid >}}T5D{{< /qid >}} (Ley de Ohm).** ¿Y adivina qué? ¡Puedes **equivocarte en hasta 9 preguntas y aun así aprobar**!
 
 Así que si esta sección simplemente no te está quedando clara, **no te preocupes**—sáltala y concéntrate en las partes que tengan más sentido para ti. Pero si te tomas un poco de tiempo para entender estas fórmulas, podrías descubrir que son **realmente bastante simples** y pueden ayudarte en la resolución de problemas de radio en el mundo real.
 

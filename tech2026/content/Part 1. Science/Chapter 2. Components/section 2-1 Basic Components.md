@@ -31,7 +31,7 @@ Common applications in amateur radio include:
 ![Illustration with a cartoon capacitor and inductor, clearly fraternal twins](../../../images/illus/inducticap.svg)
 {.img-pgcap .float-right}
 
-Just as a battery stores energy chemically, capacitors and inductors also store energy—but in completely different ways. These components are like siblings: they complement each other while having their own unique characteristics.
+Just as a battery stores energy chemically, capacitors and inductors also store energy — but in completely different ways. These components are like siblings: they complement each other while having their own unique characteristics.
 
 ##### Capacitors: Electric Field Energy Storage
 
@@ -60,7 +60,7 @@ While capacitors store energy in an electric field, *inductors* store energy in 
 2. Impedance matching
 3. Energy storage
 
-Together, capacitors and inductors form the foundation of tuned circuits that select specific frequencies—the heart of radio technology.
+Together, capacitors and inductors form the foundation of tuned circuits that select specific frequencies — the heart of radio technology.
 
 #### Understanding Circuit Configurations
 

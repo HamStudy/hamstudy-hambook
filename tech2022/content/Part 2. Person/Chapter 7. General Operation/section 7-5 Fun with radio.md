@@ -23,13 +23,13 @@ Ever fancy yourself as a radio detective? Then you'll love fox hunting! In ham r
 
 Fox hunting helps you develop valuable skills like understanding radio wave propagation, emergency communications practice, and hands-on experience with directional antennas. To get started, you just need a handheld radio, *a directional antenna (like a Yagi)* {{< link id="T8C02" >}}, and an attenuator. Many clubs organize regular fox hunts, making it a great way to meet other hams and have some outdoor radio fun.
 
-While this is often done as a fun activity, it's also a genuinely useful skill—especially when it comes to tracking down sources of interference or jamming.
+While this is often done as a fun activity, it's also a genuinely useful skill — especially when it comes to tracking down sources of interference or jamming.
 
-> 🔥 A few local hams heard complaints from neighbors that garage doors around the neighborhood had mysteriously stopped working. Curious, they decided to investigate with a spectrum analyzer—and discovered a strong signal sitting right on the frequency used by the garage door openers. Naturally, they grabbed their direction-finding gear to investigate.
+> 🔥 A few local hams heard complaints from neighbors that garage doors around the neighborhood had mysteriously stopped working. Curious, they decided to investigate with a spectrum analyzer — and discovered a strong signal sitting right on the frequency used by the garage door openers. Naturally, they grabbed their direction-finding gear to investigate.
 >
 > The signal led them straight to the garage of one of the hunters. A repeater setup inside had developed a loose connection, which allowed signals from the repeater and a nearby broadcast station to mix and produce unintended interference.
 >
-> The operator responsible—who may or may not have been a primary contributor to this very book—was mildly surprised and quietly mortified. But that's the value of direction-finding: it works, even when you're the problem.
+> The operator responsible — who may or may not have been a primary contributor to this very book — was mildly surprised and quietly mortified. But that's the value of direction-finding: it works, even when you're the problem.
 
 #### Contesting
 

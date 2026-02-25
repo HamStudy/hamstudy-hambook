@@ -6,11 +6,11 @@ questions: [ "T1E11", "T1E03", "T1E07", "T1E04", "T1E01", "T1F01", "T1E06", "T1F
 
 ### Section 8.7: Control Operator and Control Types
 
-Let’s take a closer look at control operators and control types—it’s all about who’s responsible for what goes out over the airwaves!  
+Let’s take a closer look at control operators and control types — it’s all about who’s responsible for what goes out over the airwaves!  
 
 #### Control Operator
 
-Every amateur station has two key roles: the **station licensee** and the **control operator**. The station licensee is the person who holds the license for that station—usually the owner or the person otherwise responsible for it. The control operator is the amateur operator designated by the licensee to be responsible for the transmissions from that station. These can be the same person, or different people, but any time a station is transmitting both roles exist.
+Every amateur station has two key roles: the **station licensee** and the **control operator**. The station licensee is the person who holds the license for that station — usually the owner or the person otherwise responsible for it. The control operator is the amateur operator designated by the licensee to be responsible for the transmissions from that station. These can be the same person, or different people, but any time a station is transmitting both roles exist.
 
 The privileges you can use are determined by the license class of the control operator, not the station's capabilities. Unless documentation specifies otherwise, the FCC assumes the station licensee is the control operator. Even in the case of automatic control such as a repeater where no control operator is present, there must still be a control operator designated (usually the repeater owner or trustee).
 
@@ -30,7 +30,7 @@ There are three types of control in amateur radio:
 
 ##### 1. Local Control
 
-Local control is the most common type—you're physically at the station operating the radio.
+Local control is the most common type — you're physically at the station operating the radio.
 
 > **Key Information:** The control point of an amateur station is the location at which the control operator function is performed. {{< link id="T1E05" >}}
 
@@ -46,7 +46,7 @@ The control operator must still be at the control point (even if that control po
 
 ##### 3. Automatic Control
 
-With automatic control, the station operates without a control operator physically present—though one must still be designated.
+With automatic control, the station operates without a control operator physically present — though one must still be designated.
 
 > **Key Information:** Repeater operation is an example of automatic control. {{< link id="T1E08" >}}
 
@@ -54,7 +54,7 @@ Automatic control is limited to specific operations like repeaters, beacons, and
 
 #### Automatic Retransmission
 
-Some types of amateur stations are permitted to automatically retransmit signals from other stations—specifically repeater, auxiliary, and space stations. This is a key aspect of automatic control that has specific rules.
+Some types of amateur stations are permitted to automatically retransmit signals from other stations — specifically repeater, auxiliary, and space stations. This is a key aspect of automatic control that has specific rules.
 
 **Repeater Stations** receive signals on one frequency and simultaneously retransmit them on another, extending the range of communications.
 

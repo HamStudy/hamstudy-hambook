@@ -10,7 +10,7 @@ Muy bien, entusiastas de las antenas, ¡hablemos sobre cómo mantenerse seguros 
 
 #### Seguridad en Torres y Escalada
 
-Cuando se trata de torres, la seguridad no es solo una buena idea—es esencial. Si estás planeando trabajar en una torre, esto es lo que necesitas saber:
+Cuando se trata de torres, la seguridad no es solo una buena idea — es esencial. Si estás planeando trabajar en una torre, esto es lo que necesitas saber:
 
 > **Información Clave:** Al escalar una torre de antena, debes: {{< link id="T0B02" >}}
 > - Tener suficiente capacitación en técnicas seguras de escalada de torres
@@ -18,7 +18,7 @@ Cuando se trata de torres, la seguridad no es solo una buena idea—es esencial.
 > - Siempre usar un arnés de escalada aprobado
 > - Tener un ayudante u observador presente
 
-1. **Nunca Escalar Solo**: *Nunca es seguro escalar una torre sin un ayudante u observador*. {{< link id="T0B03" >}} Tu equipo en tierra no está solo para pasarte herramientas—son tu red de seguridad. Pueden llamar por ayuda en caso de emergencia, guiarte a través de maniobras difíciles y estar atentos a condiciones cambiantes como el clima que se aproxima.
+1. **Nunca Escalar Solo**: *Nunca es seguro escalar una torre sin un ayudante u observador*. {{< link id="T0B03" >}} Tu equipo en tierra no está solo para pasarte herramientas — son tu red de seguridad. Pueden llamar por ayuda en caso de emergencia, guiarte a través de maniobras difíciles y estar atentos a condiciones cambiantes como el clima que se aproxima.
 
 2. **El Equipo Adecuado No Es Negociable**: Al escalar una torre, debes *tener suficiente capacitación en técnicas seguras de escalada de torres*, *usar sujeción apropiada* a la torre en todo momento y *siempre usar un arnés de escalada aprobado*. Este no es el lugar para recortar esquinas o improvisar.
 
@@ -42,7 +42,7 @@ Incluso si parece conveniente, simplemente no vale la pena el riesgo. Los postes
 
 #### Cables de Tensión y Soporte Estructural
 
-Las torres altas a menudo necesitan cables de tensión (vientos) para mantenerse firmes. Pero hay un detalle pequeño pero importante—si los tensores (los ajustadores metálicos que tensan los cables) se aflojan debido a la vibración, ¡toda la estructura podría estar en riesgo!
+Las torres altas a menudo necesitan cables de tensión (vientos) para mantenerse firmes. Pero hay un detalle pequeño pero importante — si los tensores (los ajustadores metálicos que tensan los cables) se aflojan debido a la vibración, ¡toda la estructura podría estar en riesgo!
 
 > **Información Clave:** El propósito de un alambre de seguridad a través de un tensor utilizado para tensar cables de viento es evitar que el tensor se afloje por la vibración {{< link id="T0B05" >}}
 
@@ -76,7 +76,7 @@ Los rayos siguen el camino de menor resistencia, y las curvas pronunciadas puede
 
 > **Información Clave:** Los códigos eléctricos locales establecen los requisitos de puesta a tierra para una torre o antena de radioaficionado {{< link id="T0B11" >}}
 
-Estos no son solo sugerencias—son estándares legalmente requeridos diseñados para mantenerte a ti y a tu propiedad seguros. Siempre consulta y sigue tu código eléctrico local cuando instales antenas y torres.
+Estos no son solo sugerencias — son estándares legalmente requeridos diseñados para mantenerte a ti y a tu propiedad seguros. Siempre consulta y sigue tu código eléctrico local cuando instales antenas y torres.
 
 #### ¡La seguridad es lo primero cuando se trabaja con antenas!
 

@@ -7,16 +7,16 @@ questions: []
 
 # About Amateur Radio
 
-Amateur radio, often called "ham radio," is more than just a hobby—it's a community of enthusiasts who connect with others, experiment with electronics, and provide vital communication during emergencies. Unlike the internet, cell towers, or the electrical grid, amateur radio can operate independently, keeping you connected no matter where you are or what’s happening around you. Whether you’re chatting with a neighbor, tinkering with a new antenna, or helping out in a crisis, amateur radio opens up a world of possibilities.
+Amateur radio, often called "ham radio," is more than just a hobby — it's a community of enthusiasts who connect with others, experiment with electronics, and provide vital communication during emergencies. Unlike the internet, cell towers, or the electrical grid, amateur radio can operate independently, keeping you connected no matter where you are or what’s happening around you. Whether you’re chatting with a neighbor, tinkering with a new antenna, or helping out in a crisis, amateur radio opens up a world of possibilities.
 
-> You might see "HAM" radio written in all caps, and that’s understandable—there’s been confusion over where the term comes from. Some think it’s an acronym, and while it has been used that way, "ham" actually started as a playful jab at clumsy operators. Over time, it evolved into the friendly term we use today. So, while "HAM" in all caps might irk some old-timers, don’t worry—we won’t give you too much grief. Just know that "ham" works perfectly fine, lowercase and all!
+> You might see "HAM" radio written in all caps, and that’s understandable — there’s been confusion over where the term comes from. Some think it’s an acronym, and while it has been used that way, "ham" actually started as a playful jab at clumsy operators. Over time, it evolved into the friendly term we use today. So, while "HAM" in all caps might irk some old-timers, don’t worry — we won’t give you too much grief. Just know that "ham" works perfectly fine, lowercase and all!
 
 ## A World of Possibilities
 
 ![Illustration showing many people with radios](../../images/illus/aboutradio-color.svg)
 {.img-xlarge .img-centered}
 
-Imagine staying in touch when everything else is down—no cell service, no internet, not even power. With amateur radio, you’re not just using someone else’s network; you’re creating your own. Whether you’re deep in the mountains or in the middle of a city blackout, your radio keeps you connected.
+Imagine staying in touch when everything else is down — no cell service, no internet, not even power. With amateur radio, you’re not just using someone else’s network; you’re creating your own. Whether you’re deep in the mountains or in the middle of a city blackout, your radio keeps you connected.
 
 Ham radio operators are known for making things work, even in the toughest conditions. On a remote hike where your phone has no signal, a simple, portable radio can still get you in touch with others. In emergencies, when other communication systems fail, amateur radio becomes a lifeline, linking people and communities.
 
@@ -64,4 +64,4 @@ These purposes highlight the multifaceted nature of amateur radio - it's not jus
 
 ---
 
-Understanding the passion and potential of amateur radio is exciting, but how do you actually get started? The journey begins with the Technician Class license exam—a gateway that might seem daunting but is actually your first real adventure in ham radio. Let's demystify the exam process and show you that with the right approach, you'll be on the airwaves before you know it.
+Understanding the passion and potential of amateur radio is exciting, but how do you actually get started? The journey begins with the Technician Class license exam — a gateway that might seem daunting but is actually your first real adventure in ham radio. Let's demystify the exam process and show you that with the right approach, you'll be on the airwaves before you know it.

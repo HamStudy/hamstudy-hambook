@@ -8,7 +8,7 @@ questions: []
 
 #### ¿Qué son las Regiones de la UIT?
 
-¡Bienvenido al mundo de las regulaciones internacionales de radio! Vamos a hablar sobre las Regiones de la UIT—el sistema global que ayuda a mantener nuestras ondas de radio organizadas.
+¡Bienvenido al mundo de las regulaciones internacionales de radio! Vamos a hablar sobre las Regiones de la UIT — el sistema global que ayuda a mantener nuestras ondas de radio organizadas.
 
 Imagina si cada país tuviera reglas completamente diferentes para el uso de la radio. ¡Sería un caos! Ahí es donde entra la Unión Internacional de Telecomunicaciones (UIT). La UIT es una agencia especializada de las Naciones Unidas que coordina las telecomunicaciones globales y el uso del espectro radioeléctrico.
 
@@ -41,6 +41,6 @@ Para el examen, recuerda:
 
 #### Esto es más que solo los Estados Unidos
 
-Entender las Regiones de la UIT es tu primer paso en el mundo de las regulaciones internacionales de radio. Es un recordatorio de que la radioafición es verdaderamente un pasatiempo global, conectándonos a través de fronteras y océanos. Así que la próxima vez que estés al aire, recuerda—no eres solo un radioaficionado de EE.UU., eres parte de una comunidad mundial de entusiastas de la radio, todos jugando con (mayormente) el mismo reglamento.
+Entender las Regiones de la UIT es tu primer paso en el mundo de las regulaciones internacionales de radio. Es un recordatorio de que la radioafición es verdaderamente un pasatiempo global, conectándonos a través de fronteras y océanos. Así que la próxima vez que estés al aire, recuerda — no eres solo un radioaficionado de EE.UU., eres parte de una comunidad mundial de entusiastas de la radio, todos jugando con (mayormente) el mismo reglamento.
 
 Mantén esta perspectiva internacional en mente mientras profundizamos en las reglas y regulaciones que gobiernan nuestro emocionante pasatiempo. A continuación, exploraremos las frecuencias específicas que estás autorizado a usar como operador de categoría Technician. ¡Sigue sintonizado!

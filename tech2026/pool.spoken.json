@@ -1,0 +1,43 @@
+{
+  "format": "hambook-spoken-overrides-v1",
+  "questions": {
+    "T5C06": {
+      "answerReadAs": {
+        "A": "Lowercase k, capital H, lowercase z.",
+        "B": "Lowercase k, lowercase h, lowercase z.",
+        "C": "Capital K, capital H, lowercase z.",
+        "D": "Capital K, capital H, capital Z."
+      }
+    },
+    "T5C07": {
+      "answerReadAs": {
+        "A": "Lowercase m, capital H, lowercase z.",
+        "B": "Lowercase m, capital H, capital Z.",
+        "C": "Capital M, lowercase h, lowercase z.",
+        "D": "Capital M, capital H, lowercase z."
+      }
+    },
+    "T1F06": {
+      "answerReadAs": {
+        "A": "K-L-7-C-C stroke W-3.",
+        "B": "K-L-7-C-C slant W-3.",
+        "C": "K-L-7-C-C slash W-3."
+      }
+    },
+    "T1C05": {
+      "answerReadAs": {
+        "A": "K-F-1-X-X-X.",
+        "B": "K-A-1-X.",
+        "C": "W-1-X-X."
+      }
+    },
+    "T8B08": {
+      "questionReadAs": "What does it mean if a satellite is operating in U slash V mode?"
+    },
+    "T9A06": {
+      "answerReadAs": {
+        "A": "Five eighths wave vertical."
+      }
+    }
+  }
+}

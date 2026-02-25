@@ -9,7 +9,7 @@ questions: [ "T5C06", "T3B03", "T3B01", "T3B04", "T3B11", "T3B02", "T3B05", "T3B
 ![caricatura que muestra a un niño en la playa observando olas; qué tan rápido llegan es la frecuencia y la distancia entre ellas es la longitud de onda](../../../images/illus/waves-es.svg)
 {.img-pgcap .float-right}
 
-Imagina que estás mirando olas en la playa. Algunas olas llegan rápidamente, una tras otra, mientras que otras vienen más lentamente con mayor distancia entre ellas. Esta diferencia está relacionada con la frecuencia—cuántas olas llegan en un tiempo determinado. Las ondas de radio funcionan de manera similar, pero en lugar de agua, son ondas electromagnéticas que viajan a través del espacio a la velocidad de la luz.
+Imagina que estás mirando olas en la playa. Algunas olas llegan rápidamente, una tras otra, mientras que otras vienen más lentamente con mayor distancia entre ellas. Esta diferencia está relacionada con la frecuencia — cuántas olas llegan en un tiempo determinado. Las ondas de radio funcionan de manera similar, pero en lugar de agua, son ondas electromagnéticas que viajan a través del espacio a la velocidad de la luz.
 
 #### ¿Qué es RF?
 
@@ -50,7 +50,7 @@ Esto es crucial porque tu antena necesita coincidir con esta orientación para u
 > - Para encontrar la longitud de onda en metros, usa esta fórmula: *300 dividido por la frecuencia en megahercios* {{< link id="T3B06" >}}
 > - Las bandas de radioafición a menudo se identifican por su *longitud de onda aproximada en metros* {{< link id="T3B07" >}}
 
-Las ondas de radio vienen en todo tipo de tamaños. El tamaño de una onda de radio—su longitud de onda—está directamente relacionado con su frecuencia, y entender esta relación es clave para comprender las bandas de radioafición.
+Las ondas de radio vienen en todo tipo de tamaños. El tamaño de una onda de radio — su longitud de onda — está directamente relacionado con su frecuencia, y entender esta relación es clave para comprender las bandas de radioafición.
 
 La longitud de onda es la distancia física que una onda de radio viaja mientras completa un ciclo completo. Cuando escuchas sobre la "banda de 2 metros" o la "banda de 70 centímetros", estás escuchando sobre la longitud de onda aproximada de las señales en esa banda.
 
@@ -99,7 +99,7 @@ $$
 
 #### Resonancia y Diseño de Antenas
 
-Cuando la longitud de una antena coincide con la longitud de onda—o ciertas fracciones específicas de ella, como un cuarto de longitud de onda—resuena como un diapasón. Esta coincidencia física crea condiciones óptimas para que la antena absorba o emita energía electromagnética a esa frecuencia específica, lo que resulta en una transmisión y recepción de señal mucho más eficiente.
+Cuando la longitud de una antena coincide con la longitud de onda — o ciertas fracciones específicas de ella, como un cuarto de longitud de onda — resuena como un diapasón. Esta coincidencia física crea condiciones óptimas para que la antena absorba o emita energía electromagnética a esa frecuencia específica, lo que resulta en una transmisión y recepción de señal mucho más eficiente.
 
 Por ejemplo, una antena dipolo de media onda para la banda de 2 metros tendría aproximadamente 1 metro de largo (la mitad de 2.08 metros). ¡Exploraremos esto más cuando discutamos las antenas!
 

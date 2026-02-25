@@ -5,7 +5,7 @@ fontsize: smaller
 ---
 ## Copyright, License, and Contributors
 
-This work is copyright 2024 HamStudy.org LLC.
+This work is copyright 2026 HamStudy.org LLC.
 
 ## License
 

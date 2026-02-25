@@ -11,7 +11,7 @@ Alright, antenna enthusiasts, let's talk about keeping safe while getting those 
 
 #### Tower Safety and Climbing
 
-When it comes to towers, safety isn't just a good idea—it's essential. If you're planning to work on a tower, here's what you need to know:
+When it comes to towers, safety isn't just a good idea — it's essential. If you're planning to work on a tower, here's what you need to know:
 
 > **Key Information:** When climbing an antenna tower, you must: {{< link id="T0B02" >}}
 > - Have sufficient training on safe tower climbing techniques
@@ -19,7 +19,7 @@ When it comes to towers, safety isn't just a good idea—it's essential. If you'
 > - Always wear an approved climbing harness
 > - Have a helper or observer present.
 
-1. **Never Climb Alone**: *It is never safe to climb a tower without a helper or observer*. {{< link id="T0B03" >}} Your ground crew isn't just there to hand you tools—they're your safety net. They can call for help in an emergency, guide you through difficult maneuvers, and keep an eye on changing conditions like approaching weather.
+1. **Never Climb Alone**: *It is never safe to climb a tower without a helper or observer*. {{< link id="T0B03" >}} Your ground crew isn't just there to hand you tools — they're your safety net. They can call for help in an emergency, guide you through difficult maneuvers, and keep an eye on changing conditions like approaching weather.
 
 2. **Proper Equipment is Non-Negotiable**: When climbing a tower, you must *have sufficient training on safe tower climbing techniques*, *use appropriate tie-off* to the tower at all times, and *always wear an approved climbing harness*. This isn't the place to cut corners or improvise.
 
@@ -43,7 +43,7 @@ Even if it seems convenient, it's just not worth the risk. Utility poles often c
 
 #### Guy Wires and Structural Support
 
-Tall towers often need guy wires to keep them standing strong. But there's a small but important detail—if the turnbuckles (the metal adjusters that tighten the guy wires) loosen due to vibration, the whole structure could be at risk!
+Tall towers often need guy wires to keep them standing strong. But there's a small but important detail — if the turnbuckles (the metal adjusters that tighten the guy wires) loosen due to vibration, the whole structure could be at risk!
 
 > **Key Information:** The purpose of a safety wire through a turnbuckle used to tension guy lines is to prevent loosening of the turnbuckle from vibration. {{< link id="T0B05" >}}
 
@@ -77,7 +77,7 @@ Lightning follows the path of least resistance, and sharp bends can create high 
 
 > **Key Information:** Local electrical codes establish grounding requirements for an amateur radio tower or antenna. {{< link id="T0B11" >}}
 
-These aren't just suggestions—they're legally required standards designed to keep you and your property safe. Always consult and follow your local electrical code when installing antennas and towers.
+These aren't just suggestions — they're legally required standards designed to keep you and your property safe. Always consult and follow your local electrical code when installing antennas and towers.
 
 #### Safety first when working on antennas!
 

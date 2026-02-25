@@ -8,7 +8,7 @@ questions: [ "T7A01", "T7A04", "T7A05", "T7A03", "T7A08", "T7A02", "T7A06", "T7A
 
 #### What is a Receiver?
 
-Alright, radio rookies, let's break down the building blocks of ham radio communication. First up, the receiver. Think of this as your radio's ears. It picks up those invisible waves floating through the air and turns them into something you can hear. A good receiver is like a skilled eavesdropper at a party—it can pick out the conversation you want to hear, even when there's a lot of noise around.
+Alright, radio rookies, let's break down the building blocks of ham radio communication. First up, the receiver. Think of this as your radio's ears. It picks up those invisible waves floating through the air and turns them into something you can hear. A good receiver is like a skilled eavesdropper at a party — it can pick out the conversation you want to hear, even when there's a lot of noise around.
 
 > **Key Information:** A receiver's *sensitivity* is its ability to detect the presence of a signal, while its *selectivity* is its ability to discriminate between multiple signals.
 
@@ -22,7 +22,7 @@ Inside the receiver, a key component called a *mixer* combines the incoming radi
 
 #### What is a Transmitter?
 
-Now, let's talk about the transmitter—your radio's "mouth." The transmitter takes your voice (or data) and combines it with a radio frequency (RF) carrier signal. This combination process is called *modulation*, which is *combining speech with an RF carrier signal* {{< link id="T7A08" >}}. Think of it as wrapping your voice in an electromagnetic wave instead of sound waves, allowing your radio to broadcast your thoughts far and wide.
+Now, let's talk about the transmitter — your radio's "mouth." The transmitter takes your voice (or data) and combines it with a radio frequency (RF) carrier signal. This combination process is called *modulation*, which is *combining speech with an RF carrier signal* {{< link id="T7A08" >}}. Think of it as wrapping your voice in an electromagnetic wave instead of sound waves, allowing your radio to broadcast your thoughts far and wide.
 
 #### What is a Transceiver?
 
@@ -32,11 +32,11 @@ Here's where it gets cool: most modern ham radio equipment combines both of thes
 
 For you Technician class operators, you're most likely going to be using a VHF/UHF transceiver. These come in two main flavors:
 
-- **Handheld Transceivers (HTs)**: These handy little radios fit right in your hand—hence the name "handheld!" In fact, since you can walk and talk with them, some people even call them "walkie-talkies!" They're portable, battery-powered, and perfect for local communications. Great for emergency prep or chatting while hiking!  
+- **Handheld Transceivers (HTs)**: These handy little radios fit right in your hand — hence the name "handheld!" In fact, since you can walk and talk with them, some people even call them "walkie-talkies!" They're portable, battery-powered, and perfect for local communications. Great for emergency prep or chatting while hiking!  
 
 - **Mobile Transceivers**: These pack more punch and are designed to be installed in your vehicle or as a base station at home. They usually have more power and features than HTs.
 
-Both types do essentially the same job—they receive and transmit. The main differences are in power output, features, and of course, size.
+Both types do essentially the same job — they receive and transmit. The main differences are in power output, features, and of course, size.
 
 #### Specialized Uses and Frequency Conversion
 
@@ -50,7 +50,7 @@ To enhance your station's capabilities, you might consider some additional acces
 
 > **Key Information:** An *RF power amplifier increases transmitted output power* from a transceiver, while an *RF preamplifier is installed between the antenna and receiver* to improve reception of weak signals.
 
-- **RF Power Amplifiers**: These *increase the transmitted output power from a transceiver* {{< link id="T7A10" >}}, helping your signal reach further. They're particularly useful for HF operations or when you need extra oomph on VHF/UHF. Remember that more power is usually not the best solution! Before you boost your power, check things like your antenna and feedline—that will almost always give you more bang for your buck.
+- **RF Power Amplifiers**: These *increase the transmitted output power from a transceiver* {{< link id="T7A10" >}}, helping your signal reach further. They're particularly useful for HF operations or when you need extra oomph on VHF/UHF. Remember that more power is usually not the best solution! Before you boost your power, check things like your antenna and feedline — that will almost always give you more bang for your buck.
 
    Some VHF/UHF power amplifiers have a *SSB/CW-FM switch that sets the amplifier for proper operation in the selected mode* {{< link id="T7A09" >}}. SSB (Single Sideband) and CW (Continuous Wave or Morse code) have different characteristics than FM (Frequency Modulation), so this switch helps the amplifier perform best for each mode.
 
@@ -69,7 +69,7 @@ For best performance, consider:
 - Holding the radio near a vehicle window / where metal obstructions are minimized
 - Using a properly installed mobile radio instead of a handheld
 
-> Pro tip: If you must operate inside the vehicle, keep your handheld as high up and as close to a window as possible to minimize signal loss. And remember, if you're driving, safety comes first—consider using hands-free options or waiting until you're stopped to operate your radio.
+> Pro tip: If you must operate inside the vehicle, keep your handheld as high up and as close to a window as possible to minimize signal loss. And remember, if you're driving, safety comes first — consider using hands-free options or waiting until you're stopped to operate your radio.
 
 ---
 

@@ -46,7 +46,7 @@ Remember, these are the most common offsets, but there can be exceptions:
 
 Most modern radios can automatically set the correct offset based on the frequency you input, but it's always good to double-check. When in doubt, consult a local repeater directory or ask a fellow ham in your area.
 
-Pro Tip: You can use a VHF/UHF transceiver's "reverse" function to *listen on a repeater's input frequency*. This helps you determine if you can hear a station directly without going through the repeater—useful for checking signal quality or troubleshooting.
+Pro Tip: You can use a VHF/UHF transceiver's "reverse" function to *listen on a repeater's input frequency*. This helps you determine if you can hear a station directly without going through the repeater — useful for checking signal quality or troubleshooting.
 
 #### Accessing Repeaters
 
@@ -130,7 +130,7 @@ Linked repeaters are particularly valuable for:
 
 > **Key Information:** Voice over Internet Protocol (VoIP) is a *method of delivering voice communications over the internet using digital techniques*. {{< link id="T8C07" >}}
 
-Some repeaters aren't just linked through traditional radio connections—they use the internet to connect with other repeaters across vast distances. This is done using Voice Over Internet Protocol (VoIP), which is a *method of delivering voice communications over the internet using digital techniques*.
+Some repeaters aren't just linked through traditional radio connections — they use the internet to connect with other repeaters across vast distances. This is done using Voice Over Internet Protocol (VoIP), which is a *method of delivering voice communications over the internet using digital techniques*.
 
 An amateur radio station that connects other amateur stations to the internet is called *a gateway*. {{< link id="T8C11" >}} These gateway stations are the bridges between the radio world and the internet, enabling global communication.
 

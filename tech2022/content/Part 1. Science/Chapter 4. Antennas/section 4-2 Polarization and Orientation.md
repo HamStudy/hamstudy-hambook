@@ -6,7 +6,7 @@ questions: [ "T9A03", "T3A09", "T3A04", "T3A03" ]
 
 ### Section 4.2: Polarization and Orientation
 
-Imagine you're trying to slip a letter through a mail slot. If the slot is horizontal, you'll turn your letter sideways. If it's vertical, you'll orient your letter up-and-down. Antenna polarization works in a similar way—it's all about matching the orientation of your radio waves to get the best results.
+Imagine you're trying to slip a letter through a mail slot. If the slot is horizontal, you'll turn your letter sideways. If it's vertical, you'll orient your letter up-and-down. Antenna polarization works in a similar way — it's all about matching the orientation of your radio waves to get the best results.
 
 ![Illustration; top: boy holding a handheld radio with the antenna extending vertically. bottom: boy holding a handheld radio turned on its side with the antenna extending horizontally.](../../../images/illus/polarization.svg)
 {.img-pgcap .float-right}

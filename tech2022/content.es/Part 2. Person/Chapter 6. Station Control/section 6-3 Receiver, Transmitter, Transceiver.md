@@ -8,7 +8,7 @@ questions: [ "T7A01", "T7A04", "T7A05", "T7A03", "T7A08", "T7A02", "T7A06", "T7A
 
 #### ¿Qué es un Receptor?
 
-Muy bien, novatos de la radio, vamos a desglosar los componentes básicos de la comunicación de radioafición. Primero, el receptor. Piensa en esto como los oídos de tu radio. Capta esas ondas invisibles que flotan en el aire y las convierte en algo que puedes oír. Un buen receptor es como un experto en escuchar conversaciones ajenas en una fiesta—puede distinguir la conversación que quieres oír, incluso cuando hay mucho ruido alrededor.
+Muy bien, novatos de la radio, vamos a desglosar los componentes básicos de la comunicación de radioafición. Primero, el receptor. Piensa en esto como los oídos de tu radio. Capta esas ondas invisibles que flotan en el aire y las convierte en algo que puedes oír. Un buen receptor es como un experto en escuchar conversaciones ajenas en una fiesta — puede distinguir la conversación que quieres oír, incluso cuando hay mucho ruido alrededor.
 
 > **Información Clave:** La *sensibilidad* de un receptor es su capacidad para detectar la presencia de una señal, mientras que su *selectividad* es su capacidad para discriminar entre múltiples señales.
 
@@ -22,7 +22,7 @@ Dentro del receptor, un componente clave llamado *mezclador* combina la señal d
 
 #### ¿Qué es un Transmisor?
 
-Ahora, hablemos del transmisor—la "boca" de tu radio. El transmisor toma tu voz (o datos) y la combina con una señal portadora de radiofrecuencia (RF). Este proceso de combinación se llama *modulación*, que es *combinar el habla con una señal portadora de RF* {{< link id="T7A08" >}}. Piensa en ello como envolver tu voz en una onda electromagnética en lugar de ondas sonoras, permitiendo que tu radio transmita tus pensamientos a lo lejos y ampliamente.
+Ahora, hablemos del transmisor — la "boca" de tu radio. El transmisor toma tu voz (o datos) y la combina con una señal portadora de radiofrecuencia (RF). Este proceso de combinación se llama *modulación*, que es *combinar el habla con una señal portadora de RF* {{< link id="T7A08" >}}. Piensa en ello como envolver tu voz en una onda electromagnética en lugar de ondas sonoras, permitiendo que tu radio transmita tus pensamientos a lo lejos y ampliamente.
 
 #### ¿Qué es un Transceptor?
 
@@ -36,7 +36,7 @@ Para los operadores de clase Technician, lo más probable es que estén utilizan
 
 - **Transceptores Móviles**: Estos tienen más potencia y están diseñados para ser instalados en tu vehículo o como una estación base en casa. Por lo general, tienen más potencia y características que los HTs.
 
-Ambos tipos hacen esencialmente el mismo trabajo—reciben y transmiten. Las principales diferencias están en la potencia de salida, las características y, por supuesto, el tamaño.
+Ambos tipos hacen esencialmente el mismo trabajo — reciben y transmiten. Las principales diferencias están en la potencia de salida, las características y, por supuesto, el tamaño.
 
 #### Usos Especializados y Conversión de Frecuencia
 
@@ -50,7 +50,7 @@ Para mejorar las capacidades de tu estación, podrías considerar algunos acceso
 
 > **Información Clave:** Un *amplificador de potencia RF aumenta la potencia de salida transmitida* desde un transceptor, mientras que un *preamplificador RF se instala entre la antena y el receptor* para mejorar la recepción de señales débiles.
 
-- **Amplificadores de Potencia RF**: Estos *aumentan la potencia de salida transmitida desde un transceptor* {{< link id="T7A10" >}}, ayudando a que tu señal llegue más lejos. Son particularmente útiles para operaciones en HF o cuando necesitas potencia extra en VHF/UHF. Recuerda que más potencia generalmente no es la mejor solución. Antes de aumentar tu potencia, verifica cosas como tu antena y línea de alimentación—eso casi siempre te dará más rendimiento por tu dinero.
+- **Amplificadores de Potencia RF**: Estos *aumentan la potencia de salida transmitida desde un transceptor* {{< link id="T7A10" >}}, ayudando a que tu señal llegue más lejos. Son particularmente útiles para operaciones en HF o cuando necesitas potencia extra en VHF/UHF. Recuerda que más potencia generalmente no es la mejor solución. Antes de aumentar tu potencia, verifica cosas como tu antena y línea de alimentación — eso casi siempre te dará más rendimiento por tu dinero.
 
    Algunos amplificadores de potencia VHF/UHF tienen un *interruptor SSB/CW-FM que configura el amplificador para una operación adecuada en el modo seleccionado* {{< link id="T7A09" >}}. SSB (Banda Lateral Única) y CW (Onda Continua o código Morse) tienen características diferentes a FM (Modulación de Frecuencia), por lo que este interruptor ayuda al amplificador a funcionar mejor para cada modo.
 
@@ -69,7 +69,7 @@ Para un mejor rendimiento, considera:
 - Sostener la radio cerca de una ventana del vehículo / donde las obstrucciones metálicas sean mínimas
 - Usar una radio móvil instalada correctamente en lugar de una portátil
 
-> Consejo profesional: Si debes operar dentro del vehículo, mantén tu portátil lo más alto posible y lo más cerca posible de una ventana para minimizar la pérdida de señal. Y recuerda, si estás conduciendo, la seguridad es lo primero—considera usar opciones manos libres o esperar hasta que estés detenido para operar tu radio.
+> Consejo profesional: Si debes operar dentro del vehículo, mantén tu portátil lo más alto posible y lo más cerca posible de una ventana para minimizar la pérdida de señal. Y recuerda, si estás conduciendo, la seguridad es lo primero — considera usar opciones manos libres o esperar hasta que estés detenido para operar tu radio.
 
 ---
 

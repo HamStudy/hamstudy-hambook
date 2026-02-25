@@ -21,7 +21,7 @@ FM es el modo predeterminado para la mayoría de las comunicaciones locales, esp
 
 #### Cómo Funciona FM
 
-Así es cómo funciona: en lugar de variar la intensidad de la señal (como lo hace AM), FM varía ligeramente la frecuencia. Es como cambiar el tono de tu voz en lugar del volumen. Por eso FM suena tan clara en la radio de tu coche—y por qué es perfecta para charlas locales entre radioaficionados.
+Así es cómo funciona: en lugar de variar la intensidad de la señal (como lo hace AM), FM varía ligeramente la frecuencia. Es como cambiar el tono de tu voz en lugar del volumen. Por eso FM suena tan clara en la radio de tu coche — y por qué es perfecta para charlas locales entre radioaficionados.
 
 Como discutimos en la Sección 3.5, también existe PM (Modulación de Fase), que es tan similar a FM en el uso práctico que la mayoría de los radioaficionados no conocen la diferencia. Por conveniencia, simplemente nos referimos a ella como FM ya que la principal diferencia radica en cómo el transmisor genera la señal.
 
@@ -31,7 +31,7 @@ Ahora, hablemos sobre el uso de FM en el mundo de la radioafición:
 
 1. **Operación Simplex**: Esta es la comunicación directa de radio a radio. Tú y tu amigo están en la misma frecuencia, turnándose para transmitir y recibir. Es excelente para charlas locales o comunicaciones de emergencia cuando los repetidores podrían estar fuera de servicio.
    
-   Consejo útil: {{< link id="T2A02" >}} *146.520 MHz es la frecuencia nacional de llamada para operaciones simplex de FM en la banda de 2 metros.* Es como el equivalente radiofónico de una plaza pública—se usa para hacer contacto inicial antes de moverse a una frecuencia diferente, o simplemente un buen lugar para escuchar actividad mientras estás en la carretera.
+   Consejo útil: {{< link id="T2A02" >}} *146.520 MHz es la frecuencia nacional de llamada para operaciones simplex de FM en la banda de 2 metros.* Es como el equivalente radiofónico de una plaza pública — se usa para hacer contacto inicial antes de moverse a una frecuencia diferente, o simplemente un buen lugar para escuchar actividad mientras estás en la carretera.
 
 2. **Operación con Repetidor**: ¿Recuerdas esas maravillas extensoras de alcance de las que hablamos antes? La mayoría de los repetidores VHF y UHF usan FM. Escuchan en una frecuencia y transmiten en otra, aumentando enormemente tu área de cobertura.
 
@@ -52,12 +52,12 @@ Cuando operes en FM, ten en cuenta estos consejos:
 #### Peculiaridades de FM
 
 FM tiene algunas peculiaridades que deberías conocer:
-- **Efecto de Captura**: La señal más fuerte gana. Si dos estaciones transmiten al mismo tiempo en la misma frecuencia, normalmente solo escucharás la más fuerte. Si están cerca en intensidad, puedes oír audio distorsionado—o nada en absoluto.
+- **Efecto de Captura**: La señal más fuerte gana. Si dos estaciones transmiten al mismo tiempo en la misma frecuencia, normalmente solo escucharás la más fuerte. Si están cerca en intensidad, puedes oír audio distorsionado — o nada en absoluto.
 - **Problema Cerca-Lejos**: Una estación cercana puede sobrepasar a un repetidor más distante, especialmente si su frecuencia está cerca. Intenta reposicionarte o usar una antena direccional para ayudar.
 
 #### Códigos de Radio Comunes
 
-Históricamente, los operadores que usaban código Morse (CW) necesitaban formas rápidas y estandarizadas para expresar mensajes comunes. Aunque estos atajos no son necesarios en comunicación de voz, se han convertido en una parte duradera de la cultura de la radioafición. No los cubriremos todos aquí, pero estos son algunos de los más comunes—incluyendo algunos que necesitarás reconocer para tu examen:
+Históricamente, los operadores que usaban código Morse (CW) necesitaban formas rápidas y estandarizadas para expresar mensajes comunes. Aunque estos atajos no son necesarios en comunicación de voz, se han convertido en una parte duradera de la cultura de la radioafición. No los cubriremos todos aquí, pero estos son algunos de los más comunes — incluyendo algunos que necesitarás reconocer para tu examen:
 
 * **QSY** – "Estoy cambiando de frecuencia" o "Cambia tu frecuencia a..." {{< link id="T2B11" >}}
 * **QTH** – "Mi ubicación es..." Se usa para decir a otros dónde estás.
@@ -67,11 +67,11 @@ Históricamente, los operadores que usaban código Morse (CW) necesitaban formas
 * **QRZ** – "¿Quién me llama?" Se usa cuando alguien está llamando pero no captaste el indicativo.
 * **73** – "Saludos cordiales" o "Adiós."
 * **88** – "Besos y abrazos." (A menudo usado por parejas radioaficionadas o amigos cercanos.)
-* **CQ** – "Llamando a cualquier estación." {{< link id="T2A08" >}} Usa esto cuando quieres que alguien—cualquiera—te responda.
+* **CQ** – "Llamando a cualquier estación." {{< link id="T2A08" >}} Usa esto cuando quieres que alguien — cualquiera — te responda.
 * **DX** – Se refiere a distancia. "Trabajar DX" significa que estás intentando hacer contactos de larga distancia o extranjeros.
 
 > **Información Clave:** La señal de procedimiento "CQ" significa "llamando a cualquier estación"—es cómo inicias una conversación. "QSY" significa cambiar de frecuencia, y "QRM" se refiere a interferencia de otras estaciones.
 
 Estos códigos y abreviaturas son parte del lenguaje único de la radioafición. Ayudan a agilizar la comunicación y son entendidos globalmente. Conocerlos te hará sonar como un profesional—¡y también aparecen en el examen!
 
-Así que ahí lo tienes—FM en pocas palabras. Es amigable para principiantes, confiable y perfecto para conversaciones cotidianas. Ya sea que estés registrándote en una red o charlando al otro lado de la ciudad, FM es probablemente tu opción predeterminada. ¡Disfrútala!
+Así que ahí lo tienes — FM en pocas palabras. Es amigable para principiantes, confiable y perfecto para conversaciones cotidianas. Ya sea que estés registrándote en una red o charlando al otro lado de la ciudad, FM es probablemente tu opción predeterminada. ¡Disfrútala!

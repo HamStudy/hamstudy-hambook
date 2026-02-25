@@ -7,7 +7,7 @@ keywords: [ham radio, amateur radio, technician license, general class, extra cl
 
 ## Your Path to Amateur Radio Success
 
-Welcome to HamBooks—free, comprehensive study guides designed to help you earn your amateur radio license or upgrade to the next level. Created by the team at HamStudy.org and funded by SignalStuff, these guides make complex radio concepts approachable for everyone.
+Welcome to HamBooks — free, comprehensive study guides designed to help you earn your amateur radio license or upgrade to the next level. Created by the team at HamStudy.org and funded by SignalStuff, these guides make complex radio concepts approachable for everyone.
 
 ---
 ## Begin your license journey today!

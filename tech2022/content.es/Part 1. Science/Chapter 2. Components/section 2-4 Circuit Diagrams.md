@@ -6,7 +6,7 @@ questions: [ "T6C01", "T6C12", "T6D10", "T6C02", "T6C08", "T6C06", "T6C09", "T6C
 
 ### Sección 2.4: Diagramas de Circuitos: Uniendo Todo
 
-Para este momento, ya has conocido muchos componentes diferentes—resistencias, capacitores, transistores y más. Has visto sus símbolos esparcidos a lo largo de las secciones anteriores y, con suerte, ya te empiezan a resultar familiares. Ahora es el momento de reunir todo en un solo lugar y enfocarnos en cómo se usan estos símbolos en los diagramas de circuitos.
+Para este momento, ya has conocido muchos componentes diferentes — resistencias, capacitores, transistores y más. Has visto sus símbolos esparcidos a lo largo de las secciones anteriores y, con suerte, ya te empiezan a resultar familiares. Ahora es el momento de reunir todo en un solo lugar y enfocarnos en cómo se usan estos símbolos en los diagramas de circuitos.
 
 > **Información Clave:** Un *esquemático* es un diagrama de cableado eléctrico que usa símbolos de componentes estándar. {{< link id="T6C01" >}} Lo más importante que debes recordar es que los esquemáticos muestran *las conexiones entre componentes* con precisión. {{< link id="T6C12" >}}
 

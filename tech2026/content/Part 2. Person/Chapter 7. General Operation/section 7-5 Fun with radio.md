@@ -14,7 +14,7 @@ Alright, radio adventurers, buckle up! We're about to explore some of the cooles
 ![illustration showing a guy in a park with a directional antenna looking for something. A fox tail sticks out from behind a tree and onlookers gawk in confusion](../../../images/illus/foxhunt.svg)
 {.img-xlarge .img-centered}
 
-Ever fancy yourself as a radio detective? Then you'll love fox hunting—a ham radio term for *radio direction finding*. This technique involves using directional antennas and receivers to determine the location of a radio signal. In a fox hunt, the "fox" is a hidden transmitter, and your job is to find it using your radio skills and some clever equipment. It's like a high-tech game of hide-and-seek.
+Ever fancy yourself as a radio detective? Then you'll love fox hunting — a ham radio term for *radio direction finding*. This technique involves using directional antennas and receivers to determine the location of a radio signal. In a fox hunt, the "fox" is a hidden transmitter, and your job is to find it using your radio skills and some clever equipment. It's like a high-tech game of hide-and-seek.
 
 > **Key Information:** *Radio direction finding* is used to locate sources of noise interference or jamming. {{< link id="T8C01" >}}
 
@@ -26,13 +26,13 @@ Here's how it works:
 
 Fox hunting helps you develop valuable skills like understanding radio wave propagation, emergency communications practice, and hands-on experience with directional antennas. To get started, you just need a handheld radio, *a directional antenna (like a Yagi)* {{< link id="T8C02" >}}, and an attenuator. Many clubs organize regular fox hunts, making it a great way to meet other hams and have some outdoor radio fun.
 
-While this is often done as a fun activity, it's also a genuinely useful skill—especially when it comes to tracking down sources of interference or jamming.
+While this is often done as a fun activity, it's also a genuinely useful skill — especially when it comes to tracking down sources of interference or jamming.
 
-> 🔥 A few local hams heard complaints from neighbors that garage doors around the neighborhood had mysteriously stopped working. Curious, they decided to investigate with a spectrum analyzer—and discovered a strong signal sitting right on the frequency used by the garage door openers. Naturally, they grabbed their direction-finding gear to investigate.
+> 🔥 A few local hams heard complaints from neighbors that garage doors around the neighborhood had mysteriously stopped working. Curious, they decided to investigate with a spectrum analyzer — and discovered a strong signal sitting right on the frequency used by the garage door openers. Naturally, they grabbed their direction-finding gear to investigate.
 >
 > The signal led them straight to the garage of one of the hunters. A repeater setup inside had developed a loose connection, which allowed signals from the repeater and a nearby broadcast station to mix and produce unintended interference.
 >
-> The operator responsible—who may or may not have been a primary contributor to this very book—was mildly surprised and quietly mortified. But that's the value of direction-finding: it works, even when you're the problem.
+> The operator responsible — who may or may not have been a primary contributor to this very book — was mildly surprised and quietly mortified. But that's the value of direction-finding: it works, even when you're the problem.
 
 #### Contesting
 

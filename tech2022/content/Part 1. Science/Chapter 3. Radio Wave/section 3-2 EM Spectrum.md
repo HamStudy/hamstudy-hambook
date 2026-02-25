@@ -26,7 +26,7 @@ Imagine you’re outside on a sunny day:
 
 While the exam focuses on the HF, VHF, and UHF bands, it helps to zoom out a bit.
 
-The electromagnetic spectrum includes all types of electromagnetic radiation, from the long waves used in radio to the short bursts of gamma rays. Radio waves are just one slice of this spectrum—one that happens to be useful for communication.
+The electromagnetic spectrum includes all types of electromagnetic radiation, from the long waves used in radio to the short bursts of gamma rays. Radio waves are just one slice of this spectrum — one that happens to be useful for communication.
 
 What’s fascinating is that waves we encounter in everyday life, like microwaves, infrared heat, and even visible light, are all fundamentally the same kind of energy: electromagnetic waves. They just differ in frequency and wavelength. The frequencies we use with ham radio live in the lower-frequency end of that spectrum, but they're all part of the same physical phenomenon.
 

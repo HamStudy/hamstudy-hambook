@@ -32,7 +32,7 @@ Cuando hablamos de ganancia de antena, piensa en ello como cambiar de una bombil
   
    **Información Clave:** Una *antena directiva* es *una antena que concentra las señales en una dirección* {{< link id="T9A01" >}}. Imagínala como el reflector de una linterna enfocando la luz. La *antena Yagi ofrece la mayor ganancia* {{< link id="T9A06" >}} de los tipos comunes de antena, utilizando múltiples elementos para lograr una alta ganancia y directividad.  
 
-   Es importante recordar que la *ganancia* es solo una redistribución de la señal—como un espejo o una lente que dirige la señal hacia tu antena. Obtienes una señal más fuerte en ese punto focal, pero cualquier cosa fuera de ese enfoque se vuelve mucho más débil.
+   Es importante recordar que la *ganancia* es solo una redistribución de la señal — como un espejo o una lente que dirige la señal hacia tu antena. Obtienes una señal más fuerte en ese punto focal, pero cualquier cosa fuera de ese enfoque se vuelve mucho más débil.
 
 2. **Dipolos**
    

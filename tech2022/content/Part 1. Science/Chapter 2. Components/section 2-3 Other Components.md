@@ -32,7 +32,7 @@ Fun fact: The largest transformer in the world weighs over 800 tons and can hand
 ![Relay schematic diagram](../../../images/s2-3-relay.svg)
 {.img-small .float-right .img-bw}
 
-Relays and transistors both act as switches, but relays do it the old-fashioned way—with moving parts. When current flows through a coil inside the relay, it generates a magnetic field that pulls contacts open or closed. It’s like a miniature drawbridge controlled by electricity, allowing one circuit to turn another on or off by physically making or breaking the connection. You can often even hear the _click_ when it switches!
+Relays and transistors both act as switches, but relays do it the old-fashioned way — with moving parts. When current flows through a coil inside the relay, it generates a magnetic field that pulls contacts open or closed. It’s like a miniature drawbridge controlled by electricity, allowing one circuit to turn another on or off by physically making or breaking the connection. You can often even hear the _click_ when it switches!
 
 In amateur radio, relays shine in several applications:
 

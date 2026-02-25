@@ -61,7 +61,7 @@ Beyond the interference sources discussed above, here are some practical tools a
 
 > **Key Information:** Adding a clip-on ferrite choke to the microphone cable can eliminate distorted voice transmissions by preventing the transmitted signal from feeding back into the transmitter. {{< link id="T7B11" >}}
 
-RF feedback creates garbled or unintelligible transmissions when RF energy gets back into your audio circuits. Ferrite chokes suppress these unwanted RF currents—slip them over microphone cables, power cords, or audio cables. Multiple chokes may be needed on longer cables. Other solutions include improving station grounding and adjusting antenna placement.
+RF feedback creates garbled or unintelligible transmissions when RF energy gets back into your audio circuits. Ferrite chokes suppress these unwanted RF currents — slip them over microphone cables, power cords, or audio cables. Multiple chokes may be needed on longer cables. Other solutions include improving station grounding and adjusting antenna placement.
 
 ##### Filters
 

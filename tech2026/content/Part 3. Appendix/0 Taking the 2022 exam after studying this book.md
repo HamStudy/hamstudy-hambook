@@ -8,7 +8,7 @@ status: complete
 
 If you studied using this 2026-2030 Technician HamBook but plan to take your exam before July 1, 2026, you'll be tested on the 2022-2026 question pool instead. The good news is that most of what you learned still applies! This supplement covers topics where the older exam asks different questions or emphasizes different details.
 
-Don't panic—you're well prepared. Think of this as a quick look at how certain topics were tested before the questions were updated. The underlying knowledge is the same; only the specific wording and focus differs.
+Don't panic — you're well prepared. Think of this as a quick look at how certain topics were tested before the questions were updated. The underlying knowledge is the same; only the specific wording and focus differs.
 
 ---
 
@@ -42,7 +42,7 @@ This question is framed as "when is it permitted?" and the answer is emphatic: n
 
 > **Key Information:** The 219 to 220 MHz segment of the 1.25 meter band may be used for *fixed digital message forwarding systems only*. {{< link id="T1B05" >}}
 
-This narrow slice of spectrum is reserved exclusively for fixed digital message forwarding—essentially packet radio infrastructure. You won't be using this for casual voice contacts!
+This narrow slice of spectrum is reserved exclusively for fixed digital message forwarding — essentially packet radio infrastructure. You won't be using this for casual voice contacts!
 
 ---
 
@@ -220,7 +220,7 @@ You'll need a comprehensive understanding of what RACES is, not just the require
 
 > **Key Information:** A LEO satellite is *a satellite in low earth orbit*. {{< link id="T8B10" >}}
 
-LEO stands for Low Earth Orbit—satellites that orbit relatively close to Earth. The newer pool adds detail about the ~100 minute orbital period.
+LEO stands for Low Earth Orbit — satellites that orbit relatively close to Earth. The newer pool adds detail about the ~100 minute orbital period.
 
 ---
 
@@ -228,4 +228,4 @@ LEO stands for Low Earth Orbit—satellites that orbit relatively close to Earth
 
 The differences between question pools reflect the evolving nature of amateur radio. If you've studied this book thoroughly, you already understand the underlying concepts. This supplement simply highlights where the older exam asks questions from a different angle or uses different wording for the same topics.
 
-Good luck on your exam—you've got this!
+Good luck on your exam — you've got this!

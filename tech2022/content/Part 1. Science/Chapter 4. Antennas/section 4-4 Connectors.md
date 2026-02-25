@@ -5,13 +5,13 @@ questions: [ "T9B07", "T9B06" ]
 ---
 ### Section 4.4: Connectors  
 
-Ever tried to plug your phone charger into a USB-C port, only to realize it's micro-USB? That's the world of connectors in a nutshell. In ham radio, getting the right connection is crucial—it's the handshake between your radio and antenna.  
+Ever tried to plug your phone charger into a USB-C port, only to realize it's micro-USB? That's the world of connectors in a nutshell. In ham radio, getting the right connection is crucial — it's the handshake between your radio and antenna.  
 
 Let’s take a look at the connectors you’re most likely to encounter as a new Technician, especially if you’re working with handheld radios.  
 
 #### SMA (SubMiniature version A)  
 
-This little connector is like the smartphone of radio connectors—small, sleek, and everywhere these days. Most modern handheld radios use them, but here’s where it can get a bit tricky:  
+This little connector is like the smartphone of radio connectors — small, sleek, and everywhere these days. Most modern handheld radios use them, but here’s where it can get a bit tricky:  
 
 - Major brands like **Icom, Yaesu, and Kenwood** typically put an **SMA-F (female)** connector on the radio, so you need an **SMA-M (male)** antenna.  
 - However, many newer brands, especially **Baofeng and other Chinese brands**, do the opposite. They use an **SMA-M** connector on the radio, so you’ll need an **SMA-F** antenna.  
@@ -26,14 +26,14 @@ An **SMA-M (male) connector** has **internal threads** and a **center pin**. Thi
 
 Confused yet? Don’t worry, you’ll get the hang of it. Just remember: whatever connector is on your radio, you need the *opposite* on your antenna.  
 
-#### BNC (Bayonet Neill–Concelman)  
+#### BNC (Bayonet Neill-Concelman)  
 
 ![BNC Male and Adapters](../../../images/bncadapters.jpg)
 {.img-large .float-right} 
 
 Think of BNC as the quick-change artist of connectors. Instead of screwing on like SMA, it has a **twist-and-lock** mechanism that makes connecting and disconnecting antennas a breeze. You'll see these on some handheld radios, a lot of test equipment, and even some HF accessories.
 
-**Since early 2021, there's been a significant shift in the handheld radio community** toward using BNC connectors. While most handhelds still come with SMA connectors, a growing number of operators—especially those who regularly swap antennas—are now **adding BNC adapters to their radios**. This trend has accelerated quickly, with BNC adapters becoming standard equipment for many hams.
+**Since early 2021, there's been a significant shift in the handheld radio community** toward using BNC connectors. While most handhelds still come with SMA connectors, a growing number of operators — especially those who regularly swap antennas — are now **adding BNC adapters to their radios**. This trend has accelerated quickly, with BNC adapters becoming standard equipment for many hams.
 
 **Why are so many hams making this switch?**
 - **Quick antenna changes**—twist-and-lock instead of multiple rotations with SMA threads

@@ -39,7 +39,7 @@ Entonces, ¿cómo nos mantenemos seguros?
 
 - **Regla de Una Mano**: Usa una sola mano cuando trabajes cerca de altos voltajes. Suena extraño, pero evita que la corriente fluya a través de tu pecho si recibes una descarga.
 
-- **Descarga los Condensadores Correctamente**: Los condensadores pueden mantener una carga peligrosa. Aprende formas seguras de descargarlos antes de hurgar—normalmente a través de una resistencia de valor apropiado, nunca cortocircuitándolos directamente.
+- **Descarga los Condensadores Correctamente**: Los condensadores pueden mantener una carga peligrosa. Aprende formas seguras de descargarlos antes de hurgar — normalmente a través de una resistencia de valor apropiado, nunca cortocircuitándolos directamente.
 
 - **Usa Herramientas Correctamente Aisladas**: Cuando trabajes con voltajes potencialmente peligrosos, usa herramientas con mangos aislados clasificados para el voltaje con el que estás trabajando. Busca herramientas marcadas con clasificaciones de voltaje (a menudo 1000V) y asegúrate de que el aislamiento no esté agrietado o dañado.
 

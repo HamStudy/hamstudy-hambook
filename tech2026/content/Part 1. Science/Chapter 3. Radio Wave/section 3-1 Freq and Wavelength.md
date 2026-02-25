@@ -10,7 +10,7 @@ status: complete
 ![cartoon showing a boy on the beach watching waves; how fast they come is frequency and the distance between them is wavelength](../../../images/illus/waves.svg)
 {.img-pgcap .float-right}
 
-Imagine you're watching waves at the beach. Some waves come in quickly, one after another, while others roll in more slowly with greater distance between them. This difference is all about frequency—how many waves arrive in a given time. Radio waves work in a similar way, but instead of water, they're electromagnetic waves traveling through space at the speed of light.
+Imagine you're watching waves at the beach. Some waves come in quickly, one after another, while others roll in more slowly with greater distance between them. This difference is all about frequency — how many waves arrive in a given time. Radio waves work in a similar way, but instead of water, they're electromagnetic waves traveling through space at the speed of light.
 
 #### What is RF?
 
@@ -28,12 +28,12 @@ Whether you're tuning in to your favorite broadcast station, chatting on a repea
 > - A radio wave has two components: *electric and magnetic fields* {{< link id="T3B03" >}}
 > - These fields are *at right angles* to each other {{< link id="T3B01" >}}
 > - Radio waves travel at the *speed of light* in free space (approximately *300,000,000 meters per second*) {{< link id="T3B04" >}}{{< link id="T3B11" >}}
-> - *All radio frequencies travel at the same velocity* in free space—VHF, UHF, microwaves, and all other frequencies. {{< link id="T3B12" >}}
+> - *All radio frequencies travel at the same velocity* in free space — VHF, UHF, microwaves, and all other frequencies. {{< link id="T3B12" >}}
 
 ![Electric vs Magnetic Fields - always at a right angle from each other](../../../images/electromagnetic-3d.gif)
 {.img-centered .img-large}
 
-While all radio frequencies travel at the same speed in the vacuum of free space, radio waves can be slowed down when passing through certain materials like glass, water, or coaxial cable. This is why we sometimes talk about the "velocity factor" of transmission lines—the signal travels slightly slower through the cable than it would through empty space. But in free space, whether it's a 3.5 MHz HF signal or a 10 GHz microwave signal, they all travel at exactly the same speed: the speed of light.
+While all radio frequencies travel at the same speed in the vacuum of free space, radio waves can be slowed down when passing through certain materials like glass, water, or coaxial cable. This is why we sometimes talk about the "velocity factor" of transmission lines — the signal travels slightly slower through the cable than it would through empty space. But in free space, whether it's a 3.5 MHz HF signal or a 10 GHz microwave signal, they all travel at exactly the same speed: the speed of light.
 
 #### Polarization
 
@@ -52,7 +52,7 @@ This is crucial because your antenna needs to match this orientation for best re
 > - To find wavelength in meters, use this formula: *300 divided by frequency in megahertz* {{< link id="T3B06" >}}
 > - Amateur radio bands are often identified by their *approximate wavelength in meters*. {{< link id="T3B07" >}}
 
-Radio waves come in all sorts of sizes. The size of a radio wave—its wavelength—is directly related to its frequency, and understanding this relationship is key to understanding amateur radio bands.
+Radio waves come in all sorts of sizes. The size of a radio wave — its wavelength — is directly related to its frequency, and understanding this relationship is key to understanding amateur radio bands.
 
 Wavelength is the physical distance a radio wave travels while completing one full cycle. When you hear about the "2-meter band" or the "70-centimeter band," you're hearing about the approximate wavelength of the signals in that band.
 
@@ -101,7 +101,7 @@ That's why we call it the 2-meter band!
 
 #### Resonance and Antenna Design
 
-When an antenna's length matches the wavelength—or certain specific fractions of it, like a quarter wavelength—it resonates like a tuning fork. This physical matching creates optimal conditions for the antenna to absorb or emit electromagnetic energy at that specific frequency, resulting in much more efficient signal transmission and reception.
+When an antenna's length matches the wavelength — or certain specific fractions of it, like a quarter wavelength — it resonates like a tuning fork. This physical matching creates optimal conditions for the antenna to absorb or emit electromagnetic energy at that specific frequency, resulting in much more efficient signal transmission and reception.
 
 For example, a half-wave dipole antenna for the 2-meter band would be about 1 meter long (half of 2.08 meters). We'll explore this more when we discuss antennas!
 

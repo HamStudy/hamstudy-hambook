@@ -39,7 +39,7 @@ So, how do we stay safe?
 
 - **One Hand Rule**: Use one hand when working around high voltages. It sounds weird, but it keeps current from flowing across your chest if you do get shocked.
 
-- **Discharge Capacitors Properly**: Capacitors can hold a dangerous charge. Learn safe ways to discharge them before poking around—usually through a resistor of appropriate value, never by shorting them directly.
+- **Discharge Capacitors Properly**: Capacitors can hold a dangerous charge. Learn safe ways to discharge them before poking around — usually through a resistor of appropriate value, never by shorting them directly.
 
 - **Use Properly Insulated Tools**: When working with potentially hazardous voltages, use tools with insulated handles rated for the voltage you're working with. Look for tools marked with voltage ratings (often 1000V) and make sure the insulation isn't cracked or damaged.
 

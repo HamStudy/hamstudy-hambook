@@ -10,7 +10,7 @@ questions: [ "T6A09", "T0A04", "T0A05", "T0A08" ]
 
 > **Información Clave:** Los fusibles e interruptores de circuito son componentes eléctricos utilizados para proteger otros componentes del circuito de sobrecargas de corriente {{< link id="T6A09" >}}
 
-Hablemos de la primera línea de defensa en seguridad eléctrica: los fusibles e interruptores de circuito son dispositivos diseñados para proteger los circuitos eléctricos de condiciones de sobrecorriente. Estos pequeños guardianes pueden no parecer mucho, pero son la diferencia entre un inconveniente menor y un desastre mayor. Piensa en los fusibles e interruptores de circuito como los guardaespaldas de tu sistema eléctrico. ¿Su trabajo? Interrumpir las sobrecargas y cortocircuitos antes de que puedan dañar tu equipo—o peor aún, iniciar un incendio.
+Hablemos de la primera línea de defensa en seguridad eléctrica: los fusibles e interruptores de circuito son dispositivos diseñados para proteger los circuitos eléctricos de condiciones de sobrecorriente. Estos pequeños guardianes pueden no parecer mucho, pero son la diferencia entre un inconveniente menor y un desastre mayor. Piensa en los fusibles e interruptores de circuito como los guardaespaldas de tu sistema eléctrico. ¿Su trabajo? Interrumpir las sobrecargas y cortocircuitos antes de que puedan dañar tu equipo — o peor aún, iniciar un incendio.
 
 Los fusibles contienen un alambre metálico que se funde cuando se sobrecarga—¡tu amigo, el humilde fusible, morirá para proteger tu circuito del exceso de corriente! Los interruptores de circuito, mientras tanto, son interruptores que se disparan cuando detectan sobrecorriente y pueden ser reiniciados.
 
@@ -70,6 +70,6 @@ Aunque a menudo pensamos en los interruptores de circuito en el contexto de la a
 
 Recuerda, los fusibles e interruptores de circuito están ahí para protegerte a ti y a tu equipo. No son una molestia para ser evitada, son tu primera línea de defensa contra incendios eléctricos y daños al equipo.
 
-Así que la próxima vez que estés configurando un nuevo equipo, tómate un momento para apreciar estos pequeños salvavidas. Podrían salvar tu estación—o tu vida—algún día.
+Así que la próxima vez que estés configurando un nuevo equipo, tómate un momento para apreciar estos pequeños salvavidas. Podrían salvar tu estación — o tu vida — algún día.
 
 Mantente seguro, ¡y que todos tus fusibles permanezcan sin fundirse!

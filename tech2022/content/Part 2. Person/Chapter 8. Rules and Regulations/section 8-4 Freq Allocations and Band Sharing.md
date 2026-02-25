@@ -22,9 +22,9 @@ Not all spectrum allocations are created equal! There are two main types of allo
 
 - **Secondary**: If you're on a secondary allocation, you're flying standby. You can use the frequency when it’s available, but if the primary users show up, you need to step aside. Even if their presence causes interference to your signal, they still have the right to be there — you're the one who has to work around them.
 
-As an amateur operator, you'll find yourself in both situations. For example, on the 70 cm band (420–450 MHz), amateur radio is secondary to government radiolocation services in some areas. That means if Uncle Sam needs the airwaves, we step aside.
+As an amateur operator, you'll find yourself in both situations. For example, on the 70 cm band (420 to 450 MHz), amateur radio is secondary to government radiolocation services in some areas. That means if Uncle Sam needs the airwaves, we step aside.
 
-On the other hand, there are bands where amateurs have primary status. A great example is the 2.4 GHz band, specifically around 2400–2450 MHz, which overlaps with Wi-Fi channel 1. In this portion of the spectrum, amateur radio has primary allocation, while Wi-Fi devices operate on a secondary basis. That means if there's interference between an amateur station and Wi-Fi devices on that frequency, the amateur station has legal priority – though it's quite likely your neighbor won't be aware of that, so the practical usefulness is questionable.
+On the other hand, there are bands where amateurs have primary status. A great example is the 2.4 GHz band, specifically around 2400 to 2450 MHz, which overlaps with Wi-Fi channel 1. In this portion of the spectrum, amateur radio has primary allocation, while Wi-Fi devices operate on a secondary basis. That means if there's interference between an amateur station and Wi-Fi devices on that frequency, the amateur station has legal priority – though it's quite likely your neighbor won't be aware of that, so the practical usefulness is questionable.
 
 #### Band Plans
 

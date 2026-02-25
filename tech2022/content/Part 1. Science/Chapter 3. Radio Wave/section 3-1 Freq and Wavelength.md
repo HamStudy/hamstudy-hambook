@@ -9,7 +9,7 @@ questions: [ "T5C06", "T3B03", "T3B01", "T3B04", "T3B11", "T3B02", "T3B05", "T3B
 ![cartoon showing a boy on the beach watching waves; how fast they come is frequency and the distance between them is wavelength](../../../images/illus/waves.svg)
 {.img-pgcap .float-right}
 
-Imagine you're watching waves at the beach. Some waves come in quickly, one after another, while others roll in more slowly with greater distance between them. This difference is all about frequency—how many waves arrive in a given time. Radio waves work in a similar way, but instead of water, they're electromagnetic waves traveling through space at the speed of light.
+Imagine you're watching waves at the beach. Some waves come in quickly, one after another, while others roll in more slowly with greater distance between them. This difference is all about frequency — how many waves arrive in a given time. Radio waves work in a similar way, but instead of water, they're electromagnetic waves traveling through space at the speed of light.
 
 #### What is RF?
 
@@ -50,7 +50,7 @@ This is crucial because your antenna needs to match this orientation for best re
 > - To find wavelength in meters, use this formula: *300 divided by frequency in megahertz*. {{< link id="T3B06" >}}
 > - Amateur radio bands are often identified by their *approximate wavelength in meters*. {{< link id="T3B07" >}}
 
-Radio waves come in all sorts of sizes. The size of a radio wave—its wavelength—is directly related to its frequency, and understanding this relationship is key to understanding amateur radio bands.
+Radio waves come in all sorts of sizes. The size of a radio wave — its wavelength — is directly related to its frequency, and understanding this relationship is key to understanding amateur radio bands.
 
 Wavelength is the physical distance a radio wave travels while completing one full cycle. When you hear about the "2-meter band" or the "70-centimeter band," you're hearing about the approximate wavelength of the signals in that band.
 
@@ -99,7 +99,7 @@ That's why we call it the 2-meter band!
 
 #### Resonance and Antenna Design
 
-When an antenna's length matches the wavelength—or certain specific fractions of it, like a quarter wavelength—it resonates like a tuning fork. This physical matching creates optimal conditions for the antenna to absorb or emit electromagnetic energy at that specific frequency, resulting in much more efficient signal transmission and reception.
+When an antenna's length matches the wavelength — or certain specific fractions of it, like a quarter wavelength — it resonates like a tuning fork. This physical matching creates optimal conditions for the antenna to absorb or emit electromagnetic energy at that specific frequency, resulting in much more efficient signal transmission and reception.
 
 For example, a half-wave dipole antenna for the 2-meter band would be about 1 meter long (half of 2.08 meters). We'll explore this more when we discuss antennas!
 

@@ -38,7 +38,7 @@ Esta potencia reflejada crea dos problemas significativos:
 
 2. **Daño al Equipo**: Más seriamente, la potencia reflejada puede sobrecalentar y dañar los componentes del amplificador de salida de tu transmisor. Esta es la razón por la que *la mayoría de los transmisores de estado sólido automáticamente reducen la potencia de salida a medida que la ROE aumenta más allá de cierto nivel*.
 
-Los radios modernos tienen circuitos de protección que detectan una ROE alta y reducen la potencia o se apagan si es necesario, pero es mejor no depender de ellos—especialmente con transmisores más económicos. Mantener tu ROE baja asegura que tu radio se mantenga eficiente y seguro durante años.
+Los radios modernos tienen circuitos de protección que detectan una ROE alta y reducen la potencia o se apagan si es necesario, pero es mejor no depender de ellos — especialmente con transmisores más económicos. Mantener tu ROE baja asegura que tu radio se mantenga eficiente y seguro durante años.
 
 #### Causas comunes de ROE alta
 
@@ -55,7 +55,7 @@ Los radios modernos tienen circuitos de protección que detectan una ROE alta y 
 
 > **Información Clave:** Un *analizador de antena* o un *vatímetro direccional* pueden ser utilizados para determinar si una *antena está en resonancia* en la frecuencia deseada y para *medir la ROE*. {{< link id="T7C02" >}} {{< link id="T7C08" >}}
 
-¿Cómo verificas tu ROE? Muchos radios modernos tienen medidores de ROE incorporados. Si el tuyo no lo tiene, puedes obtener un medidor de ROE externo o un analizador de antena. Estas herramientas son excelentes para tener en tu caja de herramientas de radioaficionado. Otra opción es usar un vatímetro direccional—mide cuánta potencia sale de tu radio (potencia directa) y cuánta potencia regresa de la antena (potencia reflejada), y puedes calcular tu ROE.
+¿Cómo verificas tu ROE? Muchos radios modernos tienen medidores de ROE incorporados. Si el tuyo no lo tiene, puedes obtener un medidor de ROE externo o un analizador de antena. Estas herramientas son excelentes para tener en tu caja de herramientas de radioaficionado. Otra opción es usar un vatímetro direccional — mide cuánta potencia sale de tu radio (potencia directa) y cuánta potencia regresa de la antena (potencia reflejada), y puedes calcular tu ROE.
 
 #### ROE y Radios Portátiles
 

@@ -39,7 +39,7 @@ This reflected power creates two significant problems:
 
 > **Key Information:** Most solid-state transmitters *reduce output power as SWR increases* to *protect the RF output amplifier transistors*. This means *high SWR* is a common cause of *low RF power output* from a solid-state transceiver. {{< link id="T7C05" >}} {{< link id="T7B04" >}}
 
-Modern radios have protection circuits that detect high SWR and reduce power or shut down if necessary, but it's best not to rely on them—especially with cheaper transmitters. Keeping your SWR low ensures your radio stays efficient and safe for years to come.
+Modern radios have protection circuits that detect high SWR and reduce power or shut down if necessary, but it's best not to rely on them — especially with cheaper transmitters. Keeping your SWR low ensures your radio stays efficient and safe for years to come.
 
 #### Common Causes of High SWR
 
@@ -56,7 +56,7 @@ What causes high SWR? Here are some common culprits:
 
 > **Key Information:** An *antenna analyzer* or a *directional wattmeter* can be used to determine if an *antenna is resonant* at the desired frequency and to *measure SWR*. {{< link id="T7C02" >}} {{< link id="T7C08" >}}
 
-How do you check your SWR? Many modern radios have built-in SWR meters. If yours doesn't, you can get an external SWR meter or an antenna analyzer. These tools are great to have in your ham radio toolbox. Another option is using a directional wattmeter—measure how much power is leaving your radio (forward power) and how much power is coming back from the antenna (reflected power), and you can calculate your SWR.
+How do you check your SWR? Many modern radios have built-in SWR meters. If yours doesn't, you can get an external SWR meter or an antenna analyzer. These tools are great to have in your ham radio toolbox. Another option is using a directional wattmeter — measure how much power is leaving your radio (forward power) and how much power is coming back from the antenna (reflected power), and you can calculate your SWR.
 
 #### SWR and Handheld Radios
 
@@ -71,7 +71,7 @@ If your SWR is high, don't panic! Here are some things you can try:
 1. **Check Your Connections**: A *loose connection in the antenna or feed line* is both a super easy fix and a super common issue, and it will shoot your SWR sky-high in no time flat!
 2. **Adjust the Length of Your Antenna**: Sometimes a little snip or stretch is all you need.
 3. **Use an Antenna Tuner**: It's like a matchmaker for your radio and antenna system.
-4. **Move Your Antenna**: Give it some space to breathe—away from metal objects!
+4. **Move Your Antenna**: Give it some space to breathe — away from metal objects!
 
 #### Final Thoughts on SWR
 

@@ -56,7 +56,7 @@ Para protegerte contra descargas eléctricas en tu estación:
 
 - **Mantenlo seco**: El agua y la electricidad no se mezclan. Mantén tu equipo seco y nunca operes con las manos mojadas.
 
-- **Desconecta antes de trabajar**: Si vas a trabajar en un equipo, desconéctalo primero. E incluso entonces, ten cuidado—algunos dispositivos (como los antiguos amplificadores de tubos) pueden almacenar carga en los condensadores mucho después de ser desenchufados.
+- **Desconecta antes de trabajar**: Si vas a trabajar en un equipo, desconéctalo primero. E incluso entonces, ten cuidado — algunos dispositivos (como los antiguos amplificadores de tubos) pueden almacenar carga en los condensadores mucho después de ser desenchufados.
 
 - **Revisa tus cables**: Ten cuidado con cables deshilachados o enchufes dañados. Son accidentes a punto de ocurrir.
 

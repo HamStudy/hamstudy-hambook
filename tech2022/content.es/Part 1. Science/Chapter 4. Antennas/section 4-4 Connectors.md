@@ -5,13 +5,13 @@ questions: [ "T9B07", "T9B06" ]
 ---
 ### Sección 4.4: Conectores  
 
-¿Alguna vez has intentado conectar el cargador de tu teléfono a un puerto USB-C, sólo para darte cuenta de que es micro-USB? Ese es el mundo de los conectores en pocas palabras. En radioafición, conseguir la conexión correcta es crucial—es el apretón de manos entre tu radio y la antena.  
+¿Alguna vez has intentado conectar el cargador de tu teléfono a un puerto USB-C, sólo para darte cuenta de que es micro-USB? Ese es el mundo de los conectores en pocas palabras. En radioafición, conseguir la conexión correcta es crucial — es el apretón de manos entre tu radio y la antena.  
 
 Veamos los conectores que es más probable que encuentres como nuevo Técnico, especialmente si estás trabajando con radios portátiles.  
 
 #### SMA (SubMiniatura versión A)  
 
-Este pequeño conector es como el smartphone de los conectores de radio—pequeño, elegante y se encuentra en todas partes hoy en día. La mayoría de los radios portátiles modernos los utilizan, pero aquí es donde puede complicarse un poco:  
+Este pequeño conector es como el smartphone de los conectores de radio — pequeño, elegante y se encuentra en todas partes hoy en día. La mayoría de los radios portátiles modernos los utilizan, pero aquí es donde puede complicarse un poco:  
 
 - Las marcas principales como **Icom, Yaesu y Kenwood** generalmente ponen un conector **SMA-F (hembra)** en el radio, por lo que necesitas una antena **SMA-M (macho)**.  
 - Sin embargo, muchas marcas más nuevas, especialmente **Baofeng y otras marcas chinas**, hacen lo contrario. Utilizan un conector **SMA-M** en el radio, por lo que necesitarás una antena **SMA-F**.  
@@ -26,14 +26,14 @@ Un **conector SMA-M (macho)** tiene **roscas internas** y un **pin central**. Es
 
 ¿Confundido? No te preocupes, le agarrarás el truco. Solo recuerda: cualquier conector que esté en tu radio, necesitas el *opuesto* en tu antena.  
 
-#### BNC (Bayoneta Neill–Concelman)  
+#### BNC (Bayoneta Neill-Concelman)  
 
 ![BNC Macho y Adaptadores](../../../images/bncadapters.jpg)
 {.img-large .float-right} 
 
 Piensa en el BNC como el artista del cambio rápido de los conectores. En lugar de atornillarse como el SMA, tiene un mecanismo de **giro y bloqueo** que hace que conectar y desconectar antenas sea muy fácil. Los verás en algunos radios portátiles, muchos equipos de prueba e incluso algunos accesorios de HF.
 
-**Desde principios de 2021, ha habido un cambio significativo en la comunidad de radios portátiles** hacia el uso de conectores BNC. Si bien la mayoría de los equipos portátiles todavía vienen con conectores SMA, un número creciente de operadores—especialmente aquellos que intercambian antenas regularmente—ahora están **agregando adaptadores BNC a sus radios**. Esta tendencia se ha acelerado rápidamente, con los adaptadores BNC convirtiéndose en equipo estándar para muchos radioaficionados.
+**Desde principios de 2021, ha habido un cambio significativo en la comunidad de radios portátiles** hacia el uso de conectores BNC. Si bien la mayoría de los equipos portátiles todavía vienen con conectores SMA, un número creciente de operadores — especialmente aquellos que intercambian antenas regularmente — ahora están **agregando adaptadores BNC a sus radios**. Esta tendencia se ha acelerado rápidamente, con los adaptadores BNC convirtiéndose en equipo estándar para muchos radioaficionados.
 
 **¿Por qué tantos radioaficionados están haciendo este cambio?**
 - **Cambios rápidos de antena**—giro y bloqueo en lugar de múltiples rotaciones con roscas SMA

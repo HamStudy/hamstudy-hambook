@@ -149,7 +149,7 @@ Recuerda, estas son excepciones a la regla general. El propósito principal de l
    Retransmitir otros servicios de radio (como tu estación local de FM o escáner policial) es un gran no-no. Quédate con contenido de radioafición.
 
 8. **Verifica la Lista de "No Llamar"**:  
-   Algunos países están fuera de límites para la comunicación de radioafición—no solo porque la FCC lo dice, sino porque esos países han notificado a la **Unión Internacional de Telecomunicaciones (UIT)** (Ver Sección 8.2) que no permiten a sus ciudadanos comunicarse con operadores de radioafición extranjeros.
+   Algunos países están fuera de límites para la comunicación de radioafición — no solo porque la FCC lo dice, sino porque esos países han notificado a la **Unión Internacional de Telecomunicaciones (UIT)** (Ver Sección 8.2) que no permiten a sus ciudadanos comunicarse con operadores de radioafición extranjeros.
 
 9.  **Juega Bien**: 
 

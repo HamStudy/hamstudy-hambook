@@ -32,7 +32,7 @@ When we talk about antenna gain, think of it like changing from a regular light 
   
    **Key Information:** A *beam antenna* is *an antenna that concentrates signals in one direction* {{< link id="T9A01" >}}. Picture it as a flashlight reflector focusing light. The *Yagi antenna offers the greatest gain* {{< link id="T9A06" >}} of common antenna types, using multiple elements to achieve high gain and directivity.  
 
-   It's important to remember that *gain* is just a redistribution of the signal—like a mirror or a lens that directs the signal toward your antenna. You get a stronger signal at that focal point, but anything outside that focus becomes much weaker.
+   It's important to remember that *gain* is just a redistribution of the signal — like a mirror or a lens that directs the signal toward your antenna. You get a stronger signal at that focal point, but anything outside that focus becomes much weaker.
 
 2. **Dipoles**
    

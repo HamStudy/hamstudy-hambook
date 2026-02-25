@@ -121,7 +121,7 @@ Gordon's books are supported by the [HamStudy mobile app](https://ham.study/apps
 
 #### Ham Radio School
 
-Another good resource supported by the [HamStudy mobile app](https://ham.study/appstore).  is Ham Radio School Technician License Course (2022–2026) by Stu Turner, W0STU. Like Gordon's books I was unable to run it through the AI so I can't provide a review for this. It's worth noting that they have their own web-based learning system as well! I have no personal experience with it so cannot say more – but feel free to look it up!
+Another good resource supported by the [HamStudy mobile app](https://ham.study/appstore) is Ham Radio School Technician License Course (2022 to 2026) by Stu Turner, W0STU. Like Gordon's books I was unable to run it through the AI so I can't provide a review for this. It's worth noting that they have their own web-based learning system as well! I have no personal experience with it so cannot say more – but feel free to look it up!
 
 #### Other options
 

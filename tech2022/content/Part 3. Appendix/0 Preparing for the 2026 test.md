@@ -8,7 +8,7 @@ status: complete
 
 If you studied using the 2022-2026 Technician HamBook but expect to test on or after July 1, 2026 with the 2026-2030 Technician class question pool, this supplement is for you! The new pool introduces several updated and brand-new questions covering topics that weren't included before. This chapter walks you through all the new material you'll need to know. Note that there are a lot of wording changes on other questions not covered here, but they weren't considered significant enough to need extra focus.
 
-Don't worry—everything you learned from the 2022 book still applies. This section is just a refresher with a focus on the specific wording and topics covered by the new questions for those who are nervous.
+Don't worry — everything you learned from the 2022 book still applies. This section is just a refresher with a focus on the specific wording and topics covered by the new questions for those who are nervous.
 
 ---
 
@@ -30,7 +30,7 @@ Planning ahead? The FCC lets you renew your license up to 90 days before the exp
 
 > **Key Information:** You may operate your amateur radio from a *US-documented vessel in international waters* with the *master's permission*. {{< link id="T1C06" >}}
 
-If you're aboard a vessel that's documented or registered in the United States and you're in international waters, you can operate your amateur station—just make sure you have the ship's captain on board with the idea.
+If you're aboard a vessel that's documented or registered in the United States and you're in international waters, you can operate your amateur station — just make sure you have the ship's captain on board with the idea.
 
 ### Interference is Never Okay
 
@@ -46,7 +46,7 @@ Intentional interference violates both FCC rules and the spirit of amateur radio
 
 > **Key Information:** A *control operator* is an amateur operator *designated by the licensee of a station to be responsible for transmissions and FCC rules compliance* at that station. {{< link id="T1E11" >}}
 
-Every amateur station needs a control operator—someone who takes responsibility for ensuring that all transmissions comply with FCC rules.
+Every amateur station needs a control operator — someone who takes responsibility for ensuring that all transmissions comply with FCC rules.
 
 ### Remote Control
 
@@ -58,7 +58,7 @@ You're not limited to sitting right next to your radio! Any amateur station can 
 
 > **Key Information:** An example of an *auxiliary station* is one *sending one-way transmissions between a remote repeater receiver and the main repeater transmitter*. {{< link id="T1D07" >}}
 
-Think of auxiliary stations as support stations—links in a larger system, like a radio link connecting a remote receiver site to a repeater's main transmitter.
+Think of auxiliary stations as support stations — links in a larger system, like a radio link connecting a remote receiver site to a repeater's main transmitter.
 
 ---
 
@@ -68,7 +68,7 @@ Think of auxiliary stations as support stations—links in a larger system, like
 
 > **Key Information:** *Gain* in amplifiers can refer to the ratio of output to input *voltage, current, or power*—all are valid ways to measure how much a signal is amplified. {{< link id="T6B11" >}}
 
-When we talk about an amplifier's "gain," we're describing how much it increases a signal. Gain can be measured as voltage gain, current gain, or power gain—all three are legitimate ways to express amplification.
+When we talk about an amplifier's "gain," we're describing how much it increases a signal. Gain can be measured as voltage gain, current gain, or power gain — all three are legitimate ways to express amplification.
 
 ---
 
@@ -76,27 +76,27 @@ When we talk about an amplifier's "gain," we're describing how much it increases
 
 ### Speed of Radio Waves
 
-> **Key Information:** *All radio frequencies travel at the same velocity* in free space—whether VHF, UHF, microwaves, or any other frequency. {{< link id="T3B12" >}}
+> **Key Information:** *All radio frequencies travel at the same velocity* in free space — whether VHF, UHF, microwaves, or any other frequency. {{< link id="T3B12" >}}
 
-In the vacuum of space, all electromagnetic waves travel at the same speed—the speed of light. A 2-meter VHF signal and a 23-cm UHF signal zip along at exactly the same velocity: about 300 million meters per second.
+In the vacuum of space, all electromagnetic waves travel at the same speed — the speed of light. A 2-meter VHF signal and a 23-cm UHF signal zip along at exactly the same velocity: about 300 million meters per second.
 
 ### The Ionosphere
 
 > **Key Information:** The *ionosphere* is the region of the atmosphere that can *reflect HF radio waves*. {{< link id="T3A11" >}}
 
-The ionosphere makes long-distance HF communication possible by bouncing signals back to Earth. Note that the exam uses the term "reflect" here—while some argue "refract" is more technically accurate for what the ionosphere does, the concept is the same: the ionosphere is what enables skywave propagation on HF.
+The ionosphere makes long-distance HF communication possible by bouncing signals back to Earth. Note that the exam uses the term "reflect" here — while some argue "refract" is more technically accurate for what the ionosphere does, the concept is the same: the ionosphere is what enables skywave propagation on HF.
 
 ### Auroral Backscatter
 
 > **Key Information:** VHF signals received via auroral backscatter are *distorted, with a characteristic raspy sound*. {{< link id="T3C03" >}}
 
-When VHF signals bounce off the aurora, they come back sounding rough and raspy—quite different from normal clear signals. This distinctive sound is a telltale sign of auroral propagation.
+When VHF signals bounce off the aurora, they come back sounding rough and raspy — quite different from normal clear signals. This distinctive sound is a telltale sign of auroral propagation.
 
 ### HF Propagation Beacons
 
 > **Key Information:** On HF, *automatically controlled amateur propagation beacons* can be found on *10 meters, between 28.200 MHz and 28.300 MHz*. {{< link id="T1A06" >}}
 
-Propagation beacons are automated stations that transmit signals so operators can assess band conditions. By tuning to 28.200–28.300 MHz and listening for distant beacons, you can quickly tell whether 10 meters is "open" for long-distance communication.
+Propagation beacons are automated stations that transmit signals so operators can assess band conditions. By tuning to 28.200 to 28.300 MHz and listening for distant beacons, you can quickly tell whether 10 meters is "open" for long-distance communication.
 
 ---
 
@@ -186,7 +186,7 @@ When you speak too loudly into an FM transmitter, you over-deviate the signal an
 
 > **Key Information:** A DMR *color code* is an *access code which must be programmed into a DMR transmitter to access a specific repeater*. {{< link id="T2B12" >}}
 
-Think of a color code as a key that unlocks a particular DMR repeater—your radio's color code setting must match the repeater's code, or the repeater won't respond to your transmissions.
+Think of a color code as a key that unlocks a particular DMR repeater — your radio's color code setting must match the repeater's code, or the repeater won't respond to your transmissions.
 
 ### DMR Code Plugs
 
@@ -208,7 +208,7 @@ A code plug is a configuration file containing all the information your DMR radi
 
 > **Key Information:** *LEO* stands for *Low Earth Orbit*—a satellite orbit with a *period of around 100 minutes*. {{< link id="T8B10" >}}
 
-Most amateur radio satellites are LEO satellites, zipping around Earth relatively close to the surface. Because they're moving fast, each pass typically only lasts 5 to 15 minutes—so you've got to be quick!
+Most amateur radio satellites are LEO satellites, zipping around Earth relatively close to the surface. Because they're moving fast, each pass typically only lasts 5 to 15 minutes — so you've got to be quick!
 
 ---
 
@@ -230,6 +230,6 @@ Winlink is a global radio email system where each amateur gets an email address 
 
 ## Summary
 
-The 2026 question pool updates reflect the evolving landscape of amateur radio: increased emphasis on digital modes and systems, clarification of licensing procedures and station control, and continued focus on practical operating knowledge. If you've already studied the 2022 material, you're well prepared—these additions simply round out your knowledge with contemporary practices and helpful details.
+The 2026 question pool updates reflect the evolving landscape of amateur radio: increased emphasis on digital modes and systems, clarification of licensing procedures and station control, and continued focus on practical operating knowledge. If you've already studied the 2022 material, you're well prepared — these additions simply round out your knowledge with contemporary practices and helpful details.
 
 Good luck on your exam, and we look forward to hearing you on the air!

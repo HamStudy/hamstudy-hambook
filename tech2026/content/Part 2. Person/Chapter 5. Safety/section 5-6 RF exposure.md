@@ -33,7 +33,7 @@ This makes sense when you think about it! $\frac{1}{4}$ wavelength on 6 meters i
 
 #### The Importance of Duty Cycle
 
-When evaluating RF exposure, we don't just consider the peak power but also how long you're transmitting—what we call the "duty cycle." *Duty cycle is the percentage of time that a transmitter is actually transmitting* during the averaging time for RF exposure calculations. {{< link id="T0C11" >}}
+When evaluating RF exposure, we don't just consider the peak power but also how long you're transmitting — what we call the "duty cycle." *Duty cycle is the percentage of time that a transmitter is actually transmitting* during the averaging time for RF exposure calculations. {{< link id="T0C11" >}}
 
 Why does this matter? Because *duty cycle directly affects the average exposure to radiation*. {{< link id="T0C10" >}} If you transmit only 50% of the time instead of continuously, your average RF output is cut in half.
 
@@ -45,7 +45,7 @@ Here's the practical part: *If you reduce your duty cycle from 100% to 50%, the 
 
 One direct hazard of RF energy that's often overlooked is what happens if you touch an antenna during transmission. Spoiler alert: it's not pleasant! *Touching an antenna during transmission can cause RF burns to your skin* due to the concentrated RF energy. {{< link id="T0C07" >}} These burns can occur even at relatively low power levels and may not be immediately noticeable.
 
-> **Key Information:** Never touch an antenna during transmission—it can cause RF burns to your skin.
+> **Key Information:** Never touch an antenna during transmission — it can cause RF burns to your skin.
 
 #### Staying in Compliance with RF Safety Regulations
 
@@ -88,7 +88,7 @@ If you find that your station might be causing excessive RF exposure, there are 
 
 #### Keeping Your Station Compliant Over Time
 
-Your station isn't a static entity—it evolves as you upgrade equipment, change antennas, or modify your operating habits. *To make sure your station stays in compliance with RF safety regulations, you should re-evaluate it whenever you make a change to your transmitter or antenna system*. {{< link id="T0C09" >}}
+Your station isn't a static entity — it evolves as you upgrade equipment, change antennas, or modify your operating habits. *To make sure your station stays in compliance with RF safety regulations, you should re-evaluate it whenever you make a change to your transmitter or antenna system*. {{< link id="T0C09" >}}
 
 What worked safely with your 100-watt transceiver might not be safe when you add that shiny new linear amplifier. Similarly, changing from a simple wire antenna to a high-gain directional antenna could significantly alter your RF exposure patterns.
 
@@ -100,4 +100,4 @@ RF safety is about awareness, not fear. With a little knowledge and some common-
 
 So go forth, make those contacts, experiment with antennas, but remember to keep a friendly distance from your radiating buddies. Your body will thank you, and hey, you'll probably get better signal reports too!
 
-Stay safe, stay compliant, and keep those RF fields where they belong—in the air, not in your body!
+Stay safe, stay compliant, and keep those RF fields where they belong — in the air, not in your body!

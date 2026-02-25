@@ -48,7 +48,7 @@ The FCC currently issues three classes of amateur radio licenses: {{< link id="T
    - Access to exclusive Extra-only sections of bands
    - Can get accredited as a Volunteer Examiner to administer exams for new and upgrading operators of any license class
 
-You may come across other license classes besides these; that's because the rules have changed over the years and the Novice, Technician Plus, and Advanced licenses are no longer issued to new licensees. There are still people out there who hold Novice or Advanced licenses but that's a topic outside of the scope of this book. Note that each person may hold only one operator/primary station license grant—you'll have just one call sign, even if you have multiple radios or operating locations.
+You may come across other license classes besides these; that's because the rules have changed over the years and the Novice, Technician Plus, and Advanced licenses are no longer issued to new licensees. There are still people out there who hold Novice or Advanced licenses but that's a topic outside of the scope of this book. Note that each person may hold only one operator/primary station license grant — you'll have just one call sign, even if you have multiple radios or operating locations.
 
 #### Getting Your License
 
@@ -62,9 +62,9 @@ How do you know if someone (including yourself) is officially licensed? The proo
 
 > **Key Information:** If the FCC is unable to reach you by email, they may revoke your station license or suspend your operator license. You may request license renewal up to 90 days before the expiration date.
 
-Here's something critically important: *You must provide and maintain a correct email address with the FCC*. {{< link id="T1C04" >}} If they can't reach you by email, they can suspend or revoke your license. Make sure your email address stays current in the FCC database—it's a requirement, not just a suggestion!
+Here's something critically important: *You must provide and maintain a correct email address with the FCC*. {{< link id="T1C04" >}} If they can't reach you by email, they can suspend or revoke your license. Make sure your email address stays current in the FCC database — it's a requirement, not just a suggestion!
 
-Your amateur radio license is valid for ten years. When it's time to renew, *you may request renewal up to 90 days before the expiration date*. {{< link id="T1C07" >}} Don't wait until the last minute—renewing early ensures you won't have any gap in your operating privileges.
+Your amateur radio license is valid for ten years. When it's time to renew, *you may request renewal up to 90 days before the expiration date*. {{< link id="T1C07" >}} Don't wait until the last minute — renewing early ensures you won't have any gap in your operating privileges.
 
 #### Call Signs
 
@@ -120,7 +120,7 @@ Club station licenses are a special type of amateur radio license granted to a c
 
 1. **Club Composition**: To qualify, *a club needs at least four members*. {{< link id="T1F11" >}} It's not a one-person show!
 
-2. **Club Identity**: The club must have a name, a document of organization, and management. Think of it as the club’s charter—it lays out who you are, how things are run, and makes everything official.
+2. **Club Identity**: The club must have a name, a document of organization, and management. Think of it as the club’s charter — it lays out who you are, how things are run, and makes everything official.
 
 3. **Primary Purpose**: The club's main goal should be all about amateur radio activities. No disguising your book club as a ham radio club!
 

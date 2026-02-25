@@ -27,11 +27,11 @@ En primer lugar, conozcamos a nuestros personajes:
    
 4. **Níquel-Metal Hidruro (NiMH)**: A menudo se encuentran en tamaños AA o AAA. Son la opción ecológica y fueron extremadamente comunes antes de que las baterías de ion-litio se popularizaran y se volvieran ubicuas. *Recargables y una buena alternativa a las desechables.*
 
-5. **Níquel-Cadmio (NiCd)**: La recargable clásica. Alguna vez fueron la opción preferida para teléfonos inalámbricos y radios portátiles más antiguas. Tienen un voltaje nominal de **1.2 voltios por celda**, al igual que las baterías NiMH. Sin embargo, pueden sufrir del "efecto memoria" si no se descargan completamente antes de recargarlas. *Debido a preocupaciones ambientales por el cadmio—un metal pesado tóxico—han sido reemplazadas en gran medida por baterías NiMH.* Es posible que aún te encuentres con ellas en dispositivos más antiguos, pero son cada vez menos comunes.
+5. **Níquel-Cadmio (NiCd)**: La recargable clásica. Alguna vez fueron la opción preferida para teléfonos inalámbricos y radios portátiles más antiguas. Tienen un voltaje nominal de **1.2 voltios por celda**, al igual que las baterías NiMH. Sin embargo, pueden sufrir del "efecto memoria" si no se descargan completamente antes de recargarlas. *Debido a preocupaciones ambientales por el cadmio — un metal pesado tóxico — han sido reemplazadas en gran medida por baterías NiMH.* Es posible que aún te encuentres con ellas en dispositivos más antiguos, pero son cada vez menos comunes.
 
 6. **Alcalinas**: Las maravillas de un solo uso. Excelentes para emergencias (¡puedes comprarlas en la tienda!), pero una vez que se agotan, se acabaron. **Estas baterías no recargables tienen un voltaje nominal de 1.5 voltios por celda**, proporcionando un poco más de energía que sus contrapartes recargables.
 
-7. **Baterías de Zinc-Carbono**: Las desechables de la vieja escuela. Estos son algunos de los primeros tipos de pilas secas. *No recargables con un voltaje nominal de 1.5 voltios por celda*, tienen una vida útil más corta y una capacidad menor en comparación con las baterías alcalinas. Piensa en ellas como el bisabuelo de las baterías modernas—importantes históricamente pero menos relevantes hoy.
+7. **Baterías de Zinc-Carbono**: Las desechables de la vieja escuela. Estos son algunos de los primeros tipos de pilas secas. *No recargables con un voltaje nominal de 1.5 voltios por celda*, tienen una vida útil más corta y una capacidad menor en comparación con las baterías alcalinas. Piensa en ellas como el bisabuelo de las baterías modernas — importantes históricamente pero menos relevantes hoy.
 
 #### Una Nota sobre Voltajes
 
@@ -45,7 +45,7 @@ Ahora, hablemos de seguridad. Cada uno de estos tipos de baterías tiene sus pro
 
 **Baterías de Plomo-Ácido**:
 - Estos pueden producir gas hidrógeno, especialmente durante la carga. Úsalos siempre en áreas bien ventiladas. ¡No quieres que tu estación se convierta en un dirigible!
-- Contienen ácido sulfúrico. Trátalos como tratarías a un gato gruñón—con respeto y equipo de protección.
+- Contienen ácido sulfúrico. Trátalos como tratarías a un gato gruñón — con respeto y equipo de protección.
 - Los terminales pueden entregar una cantidad enorme de corriente si se cortocircuitan. Quítate tus joyas y usa herramientas aisladas—¡definitivamente no quieres ser el fusible humano en este circuito! (Y no le preguntes a los autores de este libro el punto de fusión de joyas de plata esterlina. No tendrían absolutamente ningún motivo personal para saberlo. Ninguno en absoluto.)
 - Cada celda en una batería de plomo-ácido produce alrededor de 2.1 voltios. Por lo tanto, una batería "de 12 voltios" típica en realidad mide alrededor de 12.6 voltios cuando está completamente cargada y tiene un rango de voltaje de trabajo de 12.0-12.8V.
 
@@ -58,10 +58,10 @@ Ahora, hablemos de seguridad. Cada uno de estos tipos de baterías tiene sus pro
 **Baterías de Ion-Litio**:
 - La sobrecarga es un gran no-no. Puede llevar a sobrecalentamiento o incluso incendio. Mantente con el cargador que vino con tu radio.
 - Si se perforan o dañan, trátalas como una bomba de tiempo. Deséchelas adecuada y rápidamente.
-- No son fanáticas de las temperaturas extremas. Un poco como Ricitos de Oro—ni muy caliente, ni muy frío.
+- No son fanáticas de las temperaturas extremas. Un poco como Ricitos de Oro — ni muy caliente, ni muy frío.
 - Cada celda en una batería de ion-litio produce 3.7 voltios, así que si ves una batería de ion-litio "de 12 voltios", probablemente esté usando algunos componentes electrónicos para llevar el voltaje donde lo necesitas.
 
-> 🔥 Una historia de advertencia más: Un joven entusiasta de la radio (11 años) estaba experimentando una vez con celdas de batería de Ion-Litio 18650—en su cama, nada menos—mientras jugaba con un motor extraído de un scooter.
+> 🔥 Una historia de advertencia más: Un joven entusiasta de la radio (11 años) estaba experimentando una vez con celdas de batería de Ion-Litio 18650 — en su cama, nada menos — mientras jugaba con un motor extraído de un scooter.
 > 
 > ![Fotografía de una carcasa de batería de ion-litio 18650 que ya no está intacta](../../../images/18650.jpg)
 > {.float-right .img-pgcap}
@@ -103,7 +103,7 @@ Esto significa que tu batería podría alimentar tu equipo durante aproximadamen
 #### Sabiduría General sobre Baterías
 
 1. Usa el cargador correcto para cada tipo de batería. No es una situación de talla única.
-2. Ten cuidado al dejar las baterías cargándose sin supervisión—si tu cargador funciona mal, podrías terminar con una situación peligrosa.
+2. Ten cuidado al dejar las baterías cargándose sin supervisión — si tu cargador funciona mal, podrías terminar con una situación peligrosa.
 3. Almacena las baterías en un lugar fresco y seco. No son vino; no mejoran con la edad y el calor.
 4. Mantén los terminales de la batería cubiertos cuando no estén en uso. Los cortocircuitos accidentales no son una broma y pueden ser extremadamente peligrosos.
 5. No mezcles baterías viejas y nuevas. Es como emparejar a un corredor de maratones con un adicto al sofá en una carrera de tres piernas — las baterías nuevas pueden terminar sobrecompensando, lo que podría hacer que se sobrecalienten o goteen.

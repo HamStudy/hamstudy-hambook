@@ -130,7 +130,7 @@ Los repetidores enlazados son particularmente valiosos para:
 
 > **Información Clave:** Voz sobre Protocolo de Internet (VoIP) es un *método de entregar comunicaciones de voz a través de internet usando técnicas digitales*. {{< link id="T8C07" >}}
 
-Algunos repetidores no están enlazados solo a través de conexiones de radio tradicionales—usan internet para conectarse con otros repetidores a través de grandes distancias. Esto se hace usando Voz Sobre Protocolo de Internet (VoIP), que es un *método de entregar comunicaciones de voz a través de internet usando técnicas digitales*.
+Algunos repetidores no están enlazados solo a través de conexiones de radio tradicionales — usan internet para conectarse con otros repetidores a través de grandes distancias. Esto se hace usando Voz Sobre Protocolo de Internet (VoIP), que es un *método de entregar comunicaciones de voz a través de internet usando técnicas digitales*.
 
 Una estación de radioaficionado que conecta otras estaciones de radioaficionado a internet se llama *una puerta de enlace*. {{< link id="T8C11" >}} Estas estaciones de puerta de enlace son los puentes entre el mundo de la radio e internet, permitiendo comunicación global.
 

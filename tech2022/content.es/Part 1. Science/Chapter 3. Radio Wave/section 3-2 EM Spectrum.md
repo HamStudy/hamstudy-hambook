@@ -26,7 +26,7 @@ Imagínate que estás afuera en un día soleado:
 
 Aunque el examen se centra en las bandas HF, VHF y UHF, es útil alejarse un poco para ver el panorama completo.
 
-El espectro electromagnético incluye todos los tipos de radiación electromagnética, desde las ondas largas utilizadas en radio hasta las ráfagas cortas de rayos gamma. Las ondas de radio son solo una porción de este espectro—una que resulta útil para la comunicación.
+El espectro electromagnético incluye todos los tipos de radiación electromagnética, desde las ondas largas utilizadas en radio hasta las ráfagas cortas de rayos gamma. Las ondas de radio son solo una porción de este espectro — una que resulta útil para la comunicación.
 
 Lo fascinante es que las ondas que encontramos en la vida cotidiana, como las microondas, el calor infrarrojo e incluso la luz visible, son fundamentalmente el mismo tipo de energía: ondas electromagnéticas. Solo difieren en frecuencia y longitud de onda. Las frecuencias que usamos en radioafición están en el extremo de menor frecuencia de ese espectro, pero todas son parte del mismo fenómeno físico.
 

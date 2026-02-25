@@ -13,7 +13,7 @@ Ever wondered how the radio waves actually get from your transceiver to your ant
 
 > **Key Information:** Most amateur radio feed lines are **coaxial cables**, which consist of a center conductor, insulation, a shielding layer, and a protective jacket.
 
-Coaxial cable, or just *coax*, is the go-to feed line for hams. It's easy to use, doesn't require a lot of special handling, and does a great job of getting your signal where it needs to go—at least if you choose the right kind. {{< link id="T9B03" >}}
+Coaxial cable, or just *coax*, is the go-to feed line for hams. It's easy to use, doesn't require a lot of special handling, and does a great job of getting your signal where it needs to go — at least if you choose the right kind. {{< link id="T9B03" >}}
 
 #### Impedance: Why It Matters  
 
@@ -36,7 +36,7 @@ There are lots of different kinds of coax, and they each have their pros and con
 #### Understanding Loss in Feed Lines  
 > **Key Information:** The higher the frequency, the more **loss** you'll have in coax. A **3 dB loss** means you're losing **half** your power before it reaches the antenna. Power lost in feed lines is converted to heat.
 
-No coax is perfect—some of your power is always lost as heat before it even makes it to the antenna. The higher the frequency, the worse the loss. That's why satellite dishes often put the transmitter *right at the antenna* instead of running a long coax cable. {{< link id="T9B05" >}} {{< link id="T7C07" >}}
+No coax is perfect — some of your power is always lost as heat before it even makes it to the antenna. The higher the frequency, the worse the loss. That's why satellite dishes often put the transmitter *right at the antenna* instead of running a long coax cable. {{< link id="T9B05" >}} {{< link id="T7C07" >}}
 
 #### Potential Problems with Feed Lines  
 > **Key Information:** Water, UV damage, loose connectors, and too many adapters can all cause *signal loss* and mess up your feed line.
@@ -45,7 +45,7 @@ Even the best coax can run into problems. Here are some things to watch out for:
 
 - **Water intrusion** – Coax and water don't mix. If moisture gets in, performance tanks. *Always weatherproof outdoor connections!* {{< link id="T7C09" >}}
 - **Poor connections** – Loose or corroded connectors are like potholes in your signal's highway. *Keep them clean and tight!* {{< link id="T9B08" >}}
-- **High SWR** – We will talk more about SWR later in Section 4.5, but just remember—if the impedance match and thus your SWR is too high, you're losing power in your feed line instead of radiating it via the antenna.
+- **High SWR** – We will talk more about SWR later in Section 4.5, but just remember — if the impedance match and thus your SWR is too high, you're losing power in your feed line instead of radiating it via the antenna.
 - **Too many connectors** – Every extra adapter or connection means *more loss*. Keep it simple!  
 - **UV Damage** – The sun's **UV rays** can break down coax over time. If it's going outside, make sure it's **UV-resistant** or protect it with conduit or tape. {{< link id="T7C10" >}}
 
@@ -56,7 +56,7 @@ Even the best coax can run into problems. Here are some things to watch out for:
 ![illustration of coax and ladder line side by side; the coax is labeled "RG-58/U"](../../../images/illus/feedline.svg)
 {.img-xsmall .float-right}
 
-Ladder line is like the sports car of feed lines—super efficient, but kind of picky. It has *way* lower loss than coax, especially at HF, but it has one big catch: **you have to keep it away from metal** or it starts picking up noise and acting weird. It's a fantastic choice if you're using a balanced antenna and have room to route it properly.
+Ladder line is like the sports car of feed lines — super efficient, but kind of picky. It has *way* lower loss than coax, especially at HF, but it has one big catch: **you have to keep it away from metal** or it starts picking up noise and acting weird. It's a fantastic choice if you're using a balanced antenna and have room to route it properly.
 
 #### Special Types of Coax  
 > **Key Information:** Air-core coax has **low loss** but requires **special techniques** to keep moisture out.

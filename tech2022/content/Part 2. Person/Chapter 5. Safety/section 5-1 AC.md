@@ -56,7 +56,7 @@ To guard against electrical shock at your station:
 
 - **Keep It Dry**: Water and electricity don't mix. Keep your equipment dry, and never operate with wet hands.
 
-- **Unplug Before Working**: If you're going to work on equipment, unplug it first. And even then, be careful—some devices (like old tube amplifiers) can store charge in capacitors long after they're unplugged.
+- **Unplug Before Working**: If you're going to work on equipment, unplug it first. And even then, be careful — some devices (like old tube amplifiers) can store charge in capacitors long after they're unplugged.
 
 - **Check Your Cords**: Be cautious of frayed cords or damaged plugs. They're accidents waiting to happen.
 

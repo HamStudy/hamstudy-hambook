@@ -69,7 +69,7 @@ Radiograms are used in both routine communications and in emergency situations. 
 
 **Winlink**:
 
-While radiograms represent the traditional approach to message handling, modern emergency communications often use Winlink—a global radio email system. Winlink allows you to send and receive email when internet access is unavailable by connecting your radio to gateway stations that bridge to the internet. Each amateur gets an email address based on their callsign (like W1ABC@winlink.org).
+While radiograms represent the traditional approach to message handling, modern emergency communications often use Winlink — a global radio email system. Winlink allows you to send and receive email when internet access is unavailable by connecting your radio to gateway stations that bridge to the internet. Each amateur gets an email address based on their callsign (like W1ABC@winlink.org).
 
 > **Key Information:** *Winlink relays messages using email addresses based on amateur callsigns.* {{< link id="T2C08" >}}
 

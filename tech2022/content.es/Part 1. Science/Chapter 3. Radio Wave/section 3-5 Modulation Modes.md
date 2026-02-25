@@ -8,7 +8,7 @@ questions: [ "T8A02", "T8A04", "T8A09", "T8A03", "T8A07", "T8A06", "T8A08", "T8A
 
 Imagina que estás intentando enviar un mensaje a un amigo a través de un campo oscuro usando un puntero láser. Podrías encenderlo y apagarlo, variar su brillo, o cambiar entre diferentes láseres de colores (rojo, verde, azul) para comunicarte. ¡Eso es exactamente lo que hacemos en radio! Las ondas de radio y la luz visible son ambas formas de ondas electromagnéticas (EM)—son primas en la misma familia de energía, solo que a diferentes frecuencias.
 
-El color de un láser está determinado por su frecuencia—el rojo tiene una frecuencia más baja que el verde o el azul. De manera similar, en radio, trabajamos con diferentes frecuencias que no podemos ver. Cuando hablamos de modulación de radio, estamos hablando de cómo manipulamos estas ondas invisibles para transportar nuestra voz o datos. Exploremos estas diferentes formas de manipular las ondas de radio y cuánto espacio del espectro radioeléctrico (ancho de banda) necesita cada método.
+El color de un láser está determinado por su frecuencia — el rojo tiene una frecuencia más baja que el verde o el azul. De manera similar, en radio, trabajamos con diferentes frecuencias que no podemos ver. Cuando hablamos de modulación de radio, estamos hablando de cómo manipulamos estas ondas invisibles para transportar nuestra voz o datos. Exploremos estas diferentes formas de manipular las ondas de radio y cuánto espacio del espectro radioeléctrico (ancho de banda) necesita cada método.
 
 ### Modulación de Amplitud (AM)
 
@@ -24,7 +24,7 @@ Aunque AM no es el modo más común en radioafición, aún lo encontrarás en ra
 > - *FM/PM se usan comúnmente para transmisiones de radio por paquetes VHF* {{< link id="T8A02" >}}
 > - *FM/PM son los modos principales para repetidores de voz VHF y UHF* {{< link id="T8A04" >}}
 
-En la Modulación de Frecuencia (FM), mantenemos la amplitud (brillo) constante pero variamos la frecuencia (color) de la onda de radio. Es como usar una luz que mantiene el mismo brillo pero cambia entre diferentes colores para enviar tu mensaje—un cambio específico de color representa un sonido específico o pieza de datos.
+En la Modulación de Frecuencia (FM), mantenemos la amplitud (brillo) constante pero variamos la frecuencia (color) de la onda de radio. Es como usar una luz que mantiene el mismo brillo pero cambia entre diferentes colores para enviar tu mensaje — un cambio específico de color representa un sonido específico o pieza de datos.
 
 **La Modulación de Fase (PM)** está estrechamente relacionada con FM, pero en lugar de cambiar directamente la frecuencia, cambia el **tiempo** de la onda. En la práctica, el efecto es tan similar que la mayoría de los operadores de radioafición simplemente agrupan PM y FM juntos como "FM". Las diferencias específicas están más allá del alcance de este libro, pero para el uso de radioafición, solo recuerda que FM y PM resultan en el mismo tipo práctico de señal.  
 
@@ -52,7 +52,7 @@ Hay dos tipos de SSB:
 - **Banda Lateral Superior (USB)**: Generalmente usada en frecuencias por encima de 10 MHz. Esto incluye las bandas de 30, 20, 17, 15, 12 y 10 metros.
 - **Banda Lateral Inferior (LSB)**: Usada por debajo de 10 MHz, cubriendo las bandas de 160, 80 y 40 metros.
 
-Como solo transmitimos la parte esencial de la señal, SSB usa aproximadamente **la mitad del ancho de banda** de AM estándar y requiere mucha menos potencia para el mismo alcance—lo que la convierte en una favorita para comunicaciones de señales débiles y de larga distancia.
+Como solo transmitimos la parte esencial de la señal, SSB usa aproximadamente **la mitad del ancho de banda** de AM estándar y requiere mucha menos potencia para el mismo alcance — lo que la convierte en una favorita para comunicaciones de señales débiles y de larga distancia.
 
 #### Comparación de Ancho de Banda
 
@@ -68,7 +68,7 @@ Diferentes modos de modulación ocupan diferentes cantidades de espacio de frecu
 
 Un aspecto fascinante de la radioafición es cómo el ancho de banda disponible influye en nuestra elección de modulación. Piensa en las bandas de radio como diferentes secciones del espectro electromagnético:
 
-- **Secciones Estrechas (Ancho de Banda Limitado)**: Modos como CW (código Morse) funcionan brillantemente porque usan una porción increíblemente estrecha del espectro—como usar solo una astilla de un color específico en el arcoíris.
+- **Secciones Estrechas (Ancho de Banda Limitado)**: Modos como CW (código Morse) funcionan brillantemente porque usan una porción increíblemente estrecha del espectro — como usar solo una astilla de un color específico en el arcoíris.
 
 - **Secciones Más Amplias (Más Ancho de Banda)**: Las bandas con más frecuencias disponibles pueden soportar modos "más anchos". Por ejemplo:
   - La banda de 10 metros tiene suficiente espacio tanto para CW estrecho como para SSB más amplio

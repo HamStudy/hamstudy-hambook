@@ -89,7 +89,7 @@ Recuerda, como Technician, estás aprendiendo las cuerdas de la radioafición. C
 
 Mientras tu licencia gobierna dónde puedes **transmitir**, eres libre de **escuchar** en cualquier frecuencia de radioaficionado. De hecho, muchos radioaficionados disfrutan sintonizando y escuchando actividad en bandas en las que aún no pueden transmitir.
 
-Ten en cuenta que algunas **frecuencias no de radioaficionado**—como comunicaciones de teléfonos inalámbricos o celulares—pueden ser **ilegales de monitorear**, especialmente si están encriptadas o destinadas a ser privadas. En la práctica, la mayoría de esas señales son digitales o encriptadas y no pueden ser decodificadas de todos modos, pero es bueno saberlo.
+Ten en cuenta que algunas **frecuencias no de radioaficionado**—como comunicaciones de teléfonos inalámbricos o celulares — pueden ser **ilegales de monitorear**, especialmente si están encriptadas o destinadas a ser privadas. En la práctica, la mayoría de esas señales son digitales o encriptadas y no pueden ser decodificadas de todos modos, pero es bueno saberlo.
 
 #### Operando Cerca de los Límites de Banda
 

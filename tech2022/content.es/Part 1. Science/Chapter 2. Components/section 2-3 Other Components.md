@@ -32,7 +32,7 @@ Dato curioso: ¡El transformador más grande del mundo pesa más de 800 tonelada
 ![Diagrama esquemático de relé](../../../images/s2-3-relay-es.svg)
 {.img-small .float-right .img-bw}
 
-Los relés y los transistores actúan como interruptores, pero los relés lo hacen a la antigua usanza—con partes móviles. Cuando la corriente fluye a través de una bobina dentro del relé, genera un campo magnético que abre o cierra los contactos. Es como un pequeño puente levadizo controlado por electricidad, permitiendo que un circuito encienda o apague otro al hacer o romper físicamente la conexión. ¡A menudo incluso puedes escuchar el _clic_ cuando cambia!
+Los relés y los transistores actúan como interruptores, pero los relés lo hacen a la antigua usanza — con partes móviles. Cuando la corriente fluye a través de una bobina dentro del relé, genera un campo magnético que abre o cierra los contactos. Es como un pequeño puente levadizo controlado por electricidad, permitiendo que un circuito encienda o apague otro al hacer o romper físicamente la conexión. ¡A menudo incluso puedes escuchar el _clic_ cuando cambia!
 
 En radioafición, los relés destacan en varias aplicaciones:
 

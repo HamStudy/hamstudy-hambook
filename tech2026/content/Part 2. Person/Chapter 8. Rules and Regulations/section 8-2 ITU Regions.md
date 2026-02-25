@@ -8,7 +8,7 @@ questions: []
 
 #### What are ITU Regions?
 
-Welcome to the world of international radio regulations! Let's talk about ITU Regions—the global system that helps keep our airwaves organized.
+Welcome to the world of international radio regulations! Let's talk about ITU Regions — the global system that helps keep our airwaves organized.
 
 Imagine if every country had completely different rules for radio use. It would be chaos! That's where the International Telecommunication Union (ITU) comes in. The ITU is a specialized agency of the United Nations that coordinates global telecommunications and radio spectrum usage.
 
@@ -41,6 +41,6 @@ For the exam, remember:
 
 #### This is more than just the United States
 
-Understanding ITU Regions is your first step into the world of international radio regulations. It's a reminder that amateur radio is truly a global hobby, connecting us across borders and oceans. So next time you're on the air, remember—you're not just a U.S. ham, you're part of a worldwide community of radio enthusiasts, all playing by (mostly) the same rulebook!
+Understanding ITU Regions is your first step into the world of international radio regulations. It's a reminder that amateur radio is truly a global hobby, connecting us across borders and oceans. So next time you're on the air, remember — you're not just a U.S. ham, you're part of a worldwide community of radio enthusiasts, all playing by (mostly) the same rulebook!
 
 Keep this international perspective in mind as we get deeper into the rules and regulations that govern our exciting hobby. Up next, we'll explore the specific frequencies you're allowed to use as a Technician class operator. Stay tuned!

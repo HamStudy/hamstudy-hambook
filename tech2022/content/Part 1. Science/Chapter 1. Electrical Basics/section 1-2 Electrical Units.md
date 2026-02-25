@@ -144,14 +144,14 @@ In amateur radio, we often deal with very large or very small numbers. Instead o
 
 | Prefix | Symbol | Multiplier | Example |
 |:------:|:------:|:----------:|:-------:|
-| pico   | p      | $10^{-12}$ | 1 pF = 0.000000000001 F |
-| nano   | n      | $10^{-9}$  | 1 nF = 0.000000001 F |
-| micro  | μ      | $10^{-6}$  | 1 μF = 0.000001 F |
-| milli  | m      | $10^{-3}$  | 1 mV = 0.001 V |
+| pico   | p      | $10^{-12}$ | 1 pF = 0.000000000001 F {{< audiobook-only >}}or one trillionth of a farad{{< /audiobook-only >}} |
+| nano   | n      | $10^{-9}$  | 1 nF = 0.000000001 F {{< audiobook-only >}}or one billionth of a farad{{< /audiobook-only >}} |
+| micro  | μ      | $10^{-6}$  | 1 μF = 0.000001 F {{< audiobook-only >}}or one millionth of a farad{{< /audiobook-only >}} |
+| milli  | m      | $10^{-3}$  | 1 mV = 0.001 V {{< audiobook-only >}}or one thousandth of a volt{{< /audiobook-only >}} |
 | (none) | -      | $10^0$     | 1 A = 1 A |
-| kilo   | k      | $10^3$     | 1 kHz = 1,000 Hz |
-| mega   | M      | $10^6$     | 1 MHz = 1,000,000 Hz |
-| giga   | G      | $10^9$     | 1 GHz = 1,000,000,000 Hz |
+| kilo   | k      | $10^3$     | 1 kHz = 1,000 Hz {{< audiobook-only >}}or one thousand hertz{{< /audiobook-only >}} |
+| mega   | M      | $10^6$     | 1 MHz = 1,000,000 Hz {{< audiobook-only >}}or one million hertz{{< /audiobook-only >}} |
+| giga   | G      | $10^9$     | 1 GHz = 1,000,000,000 Hz {{< audiobook-only >}}or one billion hertz{{< /audiobook-only >}} |
 
 > **Key Information:**
 > * The abbreviation *kHz* stands for "kilohertz".{{< link id="T5C13" >}}
@@ -163,19 +163,19 @@ Here are some common conversions that may appear on the exam:
 
 {{< link id="T5B01" >}} {{< link id="T5B02" >}} {{< link id="T5B03" >}} {{< link id="T5B04" >}} {{< link id="T5B05" >}} {{< link id="T5B06" >}} {{< link id="T5B07" >}} {{< link id="T5B08" >}} {{< link id="T5B12" >}} {{< link id="T5B13" >}}
 
-| Original               | Equivalent             | Question ID |
-|------------------------|------------------------|:-----------:|
-| 1.5 amperes            | 1500 milliamperes      | {{< qid >}}T5B01{{< /qid >}}       |
-| 1500 kHz               | 1.5 MHz                | {{< qid >}}T5B02{{< /qid >}}       |
-| 1 kilovolt             | 1000 volts             | {{< qid >}}T5B03{{< /qid >}}       |
-| 1 microvolt            | 0.000001 volts         | {{< qid >}}T5B04{{< /qid >}}       |
-| 500 milliwatts         | 0.5 watts              | {{< qid >}}T5B05{{< /qid >}}       |
-| 3000 milliamperes      | 3 amperes              | {{< qid >}}T5B06{{< /qid >}}       |
-| 3.525 MHz              | 3525 kHz               | {{< qid >}}T5B07{{< /qid >}}       |
-| 1,000,000 picofarads   | 1 microfarad           | {{< qid >}}T5B08{{< /qid >}}       |
-| 28400 kHz              | 28.400 MHz             | {{< qid >}}T5B12{{< /qid >}}       |
-| 2425 MHz               | 2.425 GHz              | {{< qid >}}T5B13{{< /qid >}}       |
-| 
+|          Question ID         | Original               | Equivalent             |
+|:----------------------------:|------------------------|------------------------|
+| {{< qid >}}T5B01{{< /qid >}} | 1.5 amperes            | 1,500 milliamperes     |
+| {{< qid >}}T5B02{{< /qid >}} | 1,500 kHz              | 1.5 MHz                |
+| {{< qid >}}T5B03{{< /qid >}} | 1 kilovolt             | 1,000 volts            |
+| {{< qid >}}T5B04{{< /qid >}} | 1 microvolt            | 0.000001 volts         |
+| {{< qid >}}T5B05{{< /qid >}} | 500 milliwatts         | 0.5 watts              |
+| {{< qid >}}T5B06{{< /qid >}} | 3,000 milliamperes     | 3 amperes              |
+| {{< qid >}}T5B07{{< /qid >}} | 3.525 MHz              | 3,525 kHz              |
+| {{< qid >}}T5B08{{< /qid >}} | 1,000,000 picofarads   | 1 microfarad           |
+| {{< qid >}}T5B12{{< /qid >}} | 28,400 kHz             | 28.4 MHz               |
+| {{< qid >}}T5B13{{< /qid >}} | 2,425 MHz              | 2.425 GHz              |
+
 
 All of the conversions in this table are worth memorizing for the exam!
 

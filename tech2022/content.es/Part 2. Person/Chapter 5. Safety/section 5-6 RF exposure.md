@@ -32,7 +32,7 @@ Aquí hay algo interesante: los límites de exposición a RF varían con la frec
 
 #### La Importancia del Ciclo de Trabajo
 
-Al evaluar la exposición a RF, no solo consideramos la potencia máxima sino también cuánto tiempo estás transmitiendo—lo que llamamos el "ciclo de trabajo". *El ciclo de trabajo es el porcentaje de tiempo que un transmisor está realmente transmitiendo* durante el tiempo promedio para los cálculos de exposición a RF. {{< link id="T0C11" >}}
+Al evaluar la exposición a RF, no solo consideramos la potencia máxima sino también cuánto tiempo estás transmitiendo — lo que llamamos el "ciclo de trabajo". *El ciclo de trabajo es el porcentaje de tiempo que un transmisor está realmente transmitiendo* durante el tiempo promedio para los cálculos de exposición a RF. {{< link id="T0C11" >}}
 
 ¿Por qué importa esto? Porque *el ciclo de trabajo afecta directamente a la exposición promedio a la radiación*. {{< link id="T0C10" >}} Si transmites solo el 50% del tiempo en lugar de continuamente, tu salida RF promedio se reduce a la mitad.
 
@@ -44,7 +44,7 @@ Aquí está la parte práctica: *Si reduces tu ciclo de trabajo del 100% al 50%,
 
 Un peligro directo de la energía RF que a menudo se pasa por alto es lo que sucede si tocas una antena durante la transmisión. Alerta de spoiler: ¡no es agradable! *Tocar una antena durante la transmisión puede causar quemaduras RF en tu piel* debido a la energía RF concentrada. {{< link id="T0C07" >}} Estas quemaduras pueden ocurrir incluso a niveles de potencia relativamente bajos y pueden no ser inmediatamente perceptibles.
 
-> **Información Clave:** Nunca toques una antena durante la transmisión—puede causar quemaduras RF en tu piel.
+> **Información Clave:** Nunca toques una antena durante la transmisión — puede causar quemaduras RF en tu piel.
 
 #### Manteniéndose en Cumplimiento con las Regulaciones de Seguridad RF
 
@@ -87,7 +87,7 @@ Si descubres que tu estación podría estar causando exposición excesiva a RF, 
 
 #### Manteniendo Tu Estación en Cumplimiento Con el Tiempo
 
-Tu estación no es una entidad estática—evoluciona a medida que actualizas equipos, cambias antenas o modificas tus hábitos de operación. *Para asegurarte de que tu estación se mantenga en cumplimiento con las regulaciones de seguridad RF, debes reevaluarla cada vez que hagas un cambio en tu transmisor o sistema de antena*. {{< link id="T0C09" >}}
+Tu estación no es una entidad estática — evoluciona a medida que actualizas equipos, cambias antenas o modificas tus hábitos de operación. *Para asegurarte de que tu estación se mantenga en cumplimiento con las regulaciones de seguridad RF, debes reevaluarla cada vez que hagas un cambio en tu transmisor o sistema de antena*. {{< link id="T0C09" >}}
 
 Lo que funcionaba de manera segura con tu transceptor de 100 vatios podría no ser seguro cuando añades ese brillante amplificador lineal nuevo. De manera similar, cambiar de una antena de alambre simple a una antena direccional de alta ganancia podría alterar significativamente tus patrones de exposición RF.
 
@@ -99,4 +99,4 @@ La seguridad RF se trata de conciencia, no de miedo. Con un poco de conocimiento
 
 Así que adelante, haz esos contactos, experimenta con antenas, pero recuerda mantener una distancia amigable de tus compañeros radiantes. Tu cuerpo te lo agradecerá y, oye, ¡probablemente también obtendrás mejores reportes de señal!
 
-¡Mantente seguro, mantente en cumplimiento, y mantén esos campos RF donde pertenecen—en el aire, no en tu cuerpo!
+¡Mantente seguro, mantente en cumplimiento, y mantén esos campos RF donde pertenecen — en el aire, no en tu cuerpo!

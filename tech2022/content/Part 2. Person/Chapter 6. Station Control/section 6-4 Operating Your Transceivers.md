@@ -31,7 +31,7 @@ Rather than entering frequencies manually each time, store them in your radio's 
 
 > **Key Information:** The squelch function *mutes the receiver audio* when a signal is not present. {{< link id="T2B13" >}}
 
-The squelch control sets a threshold—signals below this level are muted:
+The squelch control sets a threshold — signals below this level are muted:
 - Too low: Constant background noise
 - Too high: Might miss weak signals
 - Just right: Silent until someone transmits
@@ -124,7 +124,7 @@ Start with a moderate setting and get on-air reports to adjust it properly. Clea
 
 > **Key Information:** The RIT or Clarifier control can be used if the voice pitch of a single-sideband signal seems too high or low. {{< link id="T4B06" >}}
 
-When operating SSB, you might notice that some stations sound too high-pitched or too low-pitched. The RIT (Receiver Incremental Tuning) control—sometimes called a Clarifier—allows you to adjust only your receive frequency without changing your transmit frequency, making the voice sound more natural.
+When operating SSB, you might notice that some stations sound too high-pitched or too low-pitched. The RIT (Receiver Incremental Tuning) control — sometimes called a Clarifier — allows you to adjust only your receive frequency without changing your transmit frequency, making the voice sound more natural.
 
 ##### Electronic Keyers for CW
 

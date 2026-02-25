@@ -31,7 +31,7 @@ En lugar de ingresar frecuencias manualmente cada vez, guárdalas en la memoria 
 
 > **Información Clave:** La función de silenciador *silencia el audio del receptor* cuando no hay una señal presente. {{< link id="T2B13" >}}
 
-El control de silenciador establece un umbral—las señales por debajo de este nivel se silencian:
+El control de silenciador establece un umbral — las señales por debajo de este nivel se silencian:
 - Demasiado bajo: Ruido de fondo constante
 - Demasiado alto: Podrías perder señales débiles
 - Perfecto: Silencio hasta que alguien transmite
@@ -124,7 +124,7 @@ Comienza con un ajuste moderado y obtén reportes al aire para ajustarlo adecuad
 
 > **Información Clave:** El control RIT o Clarificador puede usarse si el tono de voz de una señal de banda lateral única parece demasiado alto o bajo. {{< link id="T4B06" >}}
 
-Al operar en SSB, podrías notar que algunas estaciones suenan demasiado agudas o demasiado graves. El control RIT (Sintonización Incremental del Receptor)—a veces llamado Clarificador—te permite ajustar solo tu frecuencia de recepción sin cambiar tu frecuencia de transmisión, haciendo que la voz suene más natural.
+Al operar en SSB, podrías notar que algunas estaciones suenan demasiado agudas o demasiado graves. El control RIT (Sintonización Incremental del Receptor)—a veces llamado Clarificador — te permite ajustar solo tu frecuencia de recepción sin cambiar tu frecuencia de transmisión, haciendo que la voz suene más natural.
 
 ##### Manipuladores Electrónicos para CW
 

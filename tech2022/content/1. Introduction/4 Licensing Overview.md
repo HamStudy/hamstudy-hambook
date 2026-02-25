@@ -25,7 +25,7 @@ To progress to a higher class, you must pass the exam for that class as well as 
 
 ## License Issuance, Expiration, and Renewal
 
-Once you pass your exam and your license application is submitted, the FCC will email you instructions to pay the $35 application fee through their online payment portal. After payment is processed, your license typically appears in the FCC database within 1-2 business days, depending on when your payment is received relative to FCC processing schedules.
+Once you pass your exam and your license application is submitted, the FCC will email you instructions to pay the $35 application fee through their online payment portal. After payment is processed, your license typically appears in the FCC database within 1 to 2 business days, depending on when your payment is received relative to FCC processing schedules.
 
 > **Key Information:** It's important to maintain a valid email address with the FCC, as failure to do so could result in license suspension or revocation.
 
@@ -53,7 +53,7 @@ There are several ways to find local exam sessions:
 2. **ARRL Website**: The American Radio Relay League (ARRL) maintains a list of exam sessions that you can find [on their website at www.arrl.org](https://www.arrl.org/find-an-amateur-radio-license-exam-session).
 3. **Local Amateur Radio Clubs**: Many clubs host regular exam sessions. Check with clubs in your area for upcoming dates.
 
-Remember that even if you find the exam session through HamStudy or another website they are usually just listing exam sessions for a specific team of Volunteer Examiners -- you need to contact that team directly with any questions. If you register for the exam via HamStudy.org, for example, you should receive a registration email that you can reply to in order to contact the VE team.
+Remember that even if you find the exam session through HamStudy or another website they are usually just listing exam sessions for a specific team of Volunteer Examiners — you need to contact that team directly with any questions. If you register for the exam via HamStudy.org, for example, you should receive a registration email that you can reply to in order to contact the VE team.
 
 ## Remote Exams
 
