@@ -2,73 +2,86 @@
 chapter: "7"
 section: "7.3"
 questions: ["G4A12", "G4D01", "G4D02", "G4D03", "G4A02", "G4A10", "G4D08", "G4D09", "G4D10", "G4D11"]
-status: reviewed1
+status: draft1
 ---
 
 ### Section 7.3: Transmitting Techniques
 
-In the last section we focused on overcoming challenges when receiving—fighting noise, interference, and weak signals. Now let's flip that around: when you transmit, your goal is to give the receiving station the best possible signal so *they* don't have to fight those same battles. A clean, strong, properly positioned signal makes all the difference between a successful contact and a frustrating struggle.
+In the last section, we focused on overcoming challenges when receiving—fighting noise, interference, and weak signals. Now let's flip that around: when you transmit, your goal is to give the receiving station the best possible signal and help *them* deal with those same battles.
 
-#### Getting Your Signal Through
+If you're coming from VHF/UHF FM, HF is a different animal. On FM, your transmitter outputs constant power whether you're whispering or shouting. On HF (using SSB), **your transmitter output varies with your voice.**
 
-The first challenge in HF communication is simply getting heard. You might be running 100 watts, but if you're fighting poor propagation or the other station is surrounded by noise, every bit of signal strength matters. This is where understanding your voice signal becomes important.
+This is a critical distinction. If you speak softly, your RF output drops significantly. You aren't "wasting" energy in terms of efficiency—the radio isn't drawing more power from the wall—but you aren't making full use of your transmitter's capability to punch through noise. Conversely, shouting into the microphone doesn't help either; it causes distortion and splatter that interferes with other stations. The goal is a strong, clean signal at normal voice levels.
 
-When you speak normally, your power output varies wildly. You might hit 100 watts on "RADIO" but drop to 20 watts on quieter syllables. Most of the time you're transmitting well below your peak power. A speech processor changes this:
+#### Speaking into the Microphone: SSB and Speech Processing
+
+When using Single Sideband (SSB) voice, the power output you set on your transmitter is actually the "maximum" power it *can* use (Peak Envelope Power, or PEP). Your actual output power depends on how loudly you speak into the microphone.
+
+This is where a **speech processor** comes in. Think of it like a compressor on a music recording—it reduces the loud peaks and boosts the quiet valleys in order to give you a more consistent output.
 
 > **Key Information:**
 > - The purpose of a speech processor in a transceiver is to increase the apparent loudness of transmitted voice signals. {{< link id="G4D01" >}}
 > - A speech processor increases average power in a single sideband phone signal. {{< link id="G4D02" >}}
 
-Speech processing compresses your voice's dynamic range—it reduces the loud peaks and boosts the quiet valleys. The result is that you're transmitting closer to your maximum power more of the time, which means your *average* power goes up even though your *peak* power stays the same. To the receiving station, you sound louder and punch through noise better.
+By compressing your voice's dynamic range, you're transmitting closer to your maximum power more of the time. To the receiving station, you sound louder and punch through noise better without actually increasing your peak power rating.
 
-But—and this is important—more is not always better:
+**But be careful:** Too much processing makes you sound distorted and creates "splatter" that interferes with stations on adjacent frequencies. You'll have to experiment with your rig to find the right balance—enough processing to improve your signal without going overboard.
 
 > **Key Information:** The effect of an incorrectly adjusted speech processor includes distorted speech, excess intermodulation products, and excessive background noise. {{< link id="G4D03" >}}
 
-Too much processing makes you sound distorted and creates splatter that interferes with stations on adjacent frequencies. Start with processing off or minimal, increase it gradually, and ask for audio reports. If someone says you sound distorted, back it off. You want to be *readable*, not just loud.
+#### Frequency Discipline: Bandwidth and Band Edges
 
-#### Keeping Your Signal Clean
+Even though we refer to the "frequency" of a radio signal, it's important to remember that *all* signals actually extend over a range of frequencies. The amount of spectrum a signal uses is called its *bandwidth*.
 
-A strong signal doesn't help if it's full of distortion or bleeding onto other frequencies. Part of being an effective transmitter is staying within your allocated space and keeping your signal clean.
+Imagine driving on a highway. A motorcycle uses a very narrow part of the lane and a semi uses nearly all of the lane. Some vehicles or loads are even larger than the lane allows (an "oversized load") and extra care needs to be taken to avoid hitting other vehicles or running off the road. All of these vehicles try to stay centered on their lane, but the actual vehicle extends to either side of that center point.
 
-SSB signals occupy bandwidth—about 3 kHz for typical voice communication. This means when you set your displayed frequency, your signal actually extends beyond that point. The direction depends on which sideband you're using:
+SSB signals occupy bandwidth—about **3 kHz** for typical voice communication. This means when you set your displayed frequency, your signal actually extends beyond that point. The direction depends on which sideband you're using:
 
-> **Key Information:**
-> - A 3 kHz LSB signal when the displayed carrier frequency is set to 7.178 MHz occupies 7.175 MHz to 7.178 MHz. {{< link id="G4D08" >}}
-> - A 3 kHz USB signal with the displayed carrier frequency set to 14.347 MHz occupies 14.347 MHz to 14.350 MHz. {{< link id="G4D09" >}}
+*   **LSB (Lower Sideband):** Your signal extends *below* the displayed frequency.
+*   **USB (Upper Sideband):** Your signal extends *above* the displayed frequency.
 
-With LSB your signal extends *below* the displayed frequency; with USB it extends *above*. This matters tremendously when you're near band edges. If you set your LSB frequency right at the bottom of the phone band, part of your signal spills outside the band—illegal and rude to operators on adjacent bands.
+To use our highway analogy, LSB signals have the steering wheel on one side of the vehicle and USB on the other. If you try to drive on the left side of the lane but are confused as to which side the steering wheel is on then you're likely to hit a car in the other lane.
 
-The solution is straightforward:
+This matters tremendously when you're near band edges. If you set your LSB frequency right at the bottom of the phone band, part of your signal spills outside the band—illegal and rude to operators on adjacent bands.
 
 > **Key Information:**
 > - Your displayed carrier frequency should be at least 3 kHz above the lower edge of the band when using 3 kHz wide LSB. {{< link id="G4D10" >}}
+> - A 3 kHz LSB signal when the displayed carrier frequency is set to 7.178 MHz occupies 7.175 MHz to 7.178 MHz. {{< link id="G4D08" >}}
 > - Your displayed carrier frequency should be at least 3 kHz below the upper edge of the band when using 3 kHz wide USB. {{< link id="G4D11" >}}
+> - A 3 kHz USB signal with the displayed carrier frequency set to 14.347 MHz occupies 14.347 MHz to 14.350 MHz. {{< link id="G4D09" >}}
 
-For example, on 40 meters where the General class phone segment starts at 7.175 MHz, don't set your LSB frequency any lower than 7.178 MHz. You need to leave room for your entire signal, not just your carrier frequency. Most modern transceivers enforce this automatically, but understanding why keeps you legal and considerate even with older equipment.
+It is your responsibility to ensure your entire signal fits within the band limits. Additionally, you need to make sure you are far enough away from any other signals both to avoid interfering with them and to avoid having them interfere with you.
 
-#### When the Usual Approach Doesn't Work
+#### Managing Pileups: Split Operation
 
-Sometimes normal operation isn't enough. You might need to listen on one frequency while transmitting on another, or you might face interference that requires creative solutions.
+Rare DX stations can attract hundreds of callers creating massive pileups. Operating **split** manages this chaos: the DX station transmits on one frequency but listens on another range.
 
-**Split operation** is essential when rare DX stations create pileups. They transmit on 14.195 MHz but listen "up 5"—at 14.200 MHz. This keeps their receive frequency clear while everyone calls on a different frequency:
+For example, a station might transmit on 14.195 MHz but listen "up 5" starting at 14.200 MHz. This keeps their frequency clear so everyone hears the exchanges, while callers spread across several kilohertz to avoid stepping on each other.
 
 > **Key Information:** A common use of the dual-VFO feature on a transceiver is to transmit on one frequency and listen on another. {{< link id="G4A12" >}}
 
-You set one VFO to their transmit frequency (where you listen) and the other VFO to their listening frequency (where you transmit). Your radio handles the switching automatically. You'll also use this for satellite work where uplink and downlink are always on different frequencies.
+The DX operator works through callers systematically—perhaps calling a station every kilohertz moving up the band. Success comes from listening first to understand the pattern before jumping in. Split also enables contacts between stations with different band privileges—a station calling on 14.220 MHz (Extra only in the US) can listen at 14.230 MHz where General class operators can transmit.
 
-**CW operation** gives you additional flexibility. An electronic keyer makes sending code much easier:
+#### Morse Code (CW) Operation
+
+Believe it or not, Morse code remains popular on HF. CW cuts through noise that would make voice contacts impossible, works with very low power, and uses very little bandwidth. Many operators enjoy it as a challenging skill, while others appreciate the connection to radio's heritage.
+
+CW (short for Continuous Wave) works by turning a carrier on and off in patterns—short bursts (dots) and longer bursts (dashes) represent different letters. Operators traditionally used a straight key, the classic spring-loaded switch you might imagine.
+
+Modern CW operators often use **electronic keyers** with code paddles. The most common type of paddle has two levers—one for dots and one for dashes. The keyer generates the appropriate timing, allowing for faster and more consistent sending.
 
 > **Key Information:** The function of an electronic keyer is automatic generation of dots and dashes for CW operation. {{< link id="G4A10" >}}
 
-With just two paddles—one for dots, one for dashes—you can send perfect code at any speed. The keyer handles all the timing automatically. But there's also a receiving trick that's unique to CW:
+Since CW is just a series of on/off signals it sounds the same regardless of which sideband you use to transmit it. While you should still follow the convention of using LSB below 10 MHz and USB above 10 MHz, the choice doesn't affect the shape of the signal itself. However, you can sometimes switch sidebands when receiving to avoid interference, shifting the frequency up or down as a result.
 
-> **Key Information:** The benefit of using the opposite or "reverse" sideband when receiving CW is that it may be possible to reduce or eliminate interference from other signals. {{< link id="G4A02" >}}
+> **Key Information:** One benefit of using the opposite or "reverse" sideband when receiving CW is that it may be possible to reduce or eliminate interference from other signals. {{< link id="G4A02" >}}
 
-Since CW is just an on-off carrier, you can receive it on either sideband by adjusting your tuning slightly. If there's interference on one sideband, flip to the other—the interfering station moves to the opposite side of your desired signal, often making it much easier to copy.
+#### The Goal: A Clean Signal
 
-#### Putting It Together
+While there are a lot of things you can focus on when transmitting, you should always start with these fundamentals: make sure your equipment is working properly and your signal is as clean as you can make it.
 
-Effective HF transmission isn't complicated, but it requires attention to detail. Use speech processing judiciously to maximize your average power without creating distortion. Keep your entire signal within band limits by understanding how your sideband selection affects bandwidth. And when standard operation doesn't cut it, use split operation or CW techniques to work through the challenges.
+Many people make a hobby of transmitting with as little power as they can get away with to see how far they can go! Others take a more old fashioned approach: brute forcing it with MOAR POWER! We'll look at what that means next.
 
-The goal is always the same: give the receiving station the best possible signal. When you do that, you're not just following the rules—you're being the kind of operator others enjoy working. Next, let's look at what to do when 100 watts isn't quite enough.
+Regardless of power, remember: **A clean signal is a good neighbor.** If you're overdriving your mic, splattering across the band, or transmitting outside the band edges, you're not just hurting your own chances—you're making life harder for everyone else (and possibly violating FCC regulations).
+
+Next, we'll look at how to add power when you need it, and how to do so safely.
