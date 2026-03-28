@@ -1,0 +1,739 @@
+title: "YamBook"
+pool: Y1_2025
+total_questions: 315
+
+parts:
+  - part: 1
+    title: "The Science of the Yam"
+    subtitle: "Biology, chemistry, and the natural science of Dioscorea"
+
+    chapters:
+      - chapter: 1
+        title: "What Is a Yam?"
+        summary: >
+          Clears up the most common misconception first — the yam vs. sweet potato
+          confusion — then builds a foundation in plant anatomy and formal taxonomy.
+
+        sections:
+          - section: 1.1
+            title: "The Great Yam Identity Crisis"
+            summary: >
+              The North American marketing confusion, the two different botanical
+              families (Dioscoreaceae vs. Convolvulaceae), geographic origins on
+              separate continents, and why these plants aren't even close relatives.
+            questions:
+              - Y1A01  # Dioscoreaceae family
+              - Y1A02  # Convolvulaceae (sweet potato family)
+              - Y1A03  # Dioscorea rotundata scientific name
+              - Y1A06  # "yam" used to market orange-fleshed sweet potatoes
+              - Y1A08  # sweet potatoes higher in beta-carotene
+              - Y1A11  # separate origins — Africa/Asia vs Americas
+
+          - section: 1.2
+            title: "Telling Them Apart"
+            summary: >
+              The practical physical and growth-habit differences that distinguish
+              true yams from sweet potatoes: skin texture, tuber structure, internal
+              texture, growing season, and characteristic features.
+            questions:
+              - Y1A04  # rough bark-like skin vs smooth
+              - Y1A05  # single large tuber vs multiple storage roots
+              - Y1A07  # yams drier and starchier
+              - Y1A09  # underground tubers with annual vines (yams only)
+              - Y1A10  # yams require longer growing season
+
+          - section: 1.3
+            title: "Anatomy of the Yam Plant"
+            summary: >
+              How the plant is built from the ground up: climbing vines, the tuber
+              as storage organ, leaf structure and venation, starch-packed parenchyma
+              cells, fibrous root systems, bulbils, flower characteristics, polyploidy,
+              and the secondary metabolites found in wild species.
+            questions:
+              - Y7A01  # Dioscoreaceae family (botanical context)
+              - Y7A02  # climbing/trailing vines with underground tubers
+              - Y7A03  # tuber as primary storage organ
+              - Y7A04  # leaves contain chlorophyll for photosynthesis
+              - Y7A05  # bulbils (aerial tubers)
+              - Y7A06  # heart-shaped leaves with converging veins
+              - Y7A07  # parenchyma cells store starch
+              - Y7A08  # alkaloids and saponins in wild species
+              - Y7A09  # fibrous root system
+              - Y7A10  # flowers small, NOT brightly colored
+              - Y7A11  # polyploid (multiple chromosome sets)
+
+          - section: 1.4
+            title: "How We Name and Classify Yams"
+            summary: >
+              Botanical taxonomy by genus and species, traditional West African
+              classification by maturity and culinary properties, ethno-botanical
+              approaches, molecular genetic verification, IITA standards, the
+              challenge of inconsistent local names, and germplasm accession systems.
+            questions:
+              - Y1E01  # classified by genus/species in Dioscoreaceae
+              - Y1E02  # West African system: maturity, tuber shape, culinary use
+              - Y1E03  # DNA sequencing NOT a traditional farmer basis
+              - Y1E04  # molecular genetics verifies traditional systems
+              - Y1E05  # IITA international standards
+              - Y1E06  # species + agronomic traits + local names
+              - Y1E07  # same variety, different names in different regions
+              - Y1E08  # ethno-botanical classification
+              - Y1E09  # accession numbers with passport data
+
+      - chapter: 2
+        title: "The Dioscorea Family"
+        summary: >
+          A tour through the world's yam species, from the dominant West African
+          white yam to Pacific Island heirlooms, covering identification traits,
+          regional significance, and the genetic diversity that sustains them.
+
+        sections:
+          - section: 2.1
+            title: "Major Species and Where They Grow"
+            summary: >
+              The commercially important Dioscorea species — rotundata, alata,
+              bulbifera, trifida, esculenta, cayennensis, polystachya, dumetorum —
+              their common names, native regions, and the growth habits that
+              distinguish them from one another.
+            questions:
+              - Y1B01  # D. rotundata — White Guinea yam, West Africa
+              - Y1B02  # D. trifida — ñame, Caribbean/Latin America
+              - Y1B03  # D. alata — Asia, large, purple flesh varieties
+              - Y1B04  # D. bulbifera — air potato, aerial growth
+              - Y1B05  # D. dumetorum — bitter yam, requires detox
+              - Y1B06  # D. polystachya — Chinese yam / cinnamon vine
+              - Y1B07  # D. trifida — native to Amazon
+              - Y1B08  # D. cayennensis — Yellow Guinea yam
+              - Y1B09  # D. alata — winged yam
+              - Y1C04  # water yam (alata) — tubers over 1 meter long
+              - Y1C06  # D. esculenta — small clustered tubers
+
+          - section: 2.2
+            title: "Identifying Cultivars in the Field"
+            summary: >
+              How to tell cultivars apart using tuber shape, flesh color, skin
+              texture, leaf morphology, maturity timing, and moisture content —
+              from the Eboe yam's early oval shape to the Japanese mountain yam's
+              mucilaginous grate, ube's purple flesh, and cush-cush's fine texture.
+            questions:
+              - Y1C01  # ID by tuber shape, size, flesh color, skin
+              - Y1C02  # Purple/Okinawan yam — purple with white streaks
+              - Y1C03  # Yellow Guinea yam — yellow flesh deepens with age
+              - Y1C05  # Trifoliate yam — compound leaves, three leaflets
+              - Y1C07  # moisture content correlates with cooking time
+              - Y1C08  # bulbil-producing varieties (aerial tubers in leaf axils)
+              - Y1C09  # Eboe yam — early maturation, oval shape
+              - Y1C10  # Japanese mountain yam — mucilaginous when grated
+              - Y1D02  # yamaimo prized for slimy texture in Japanese cuisine
+              - Y1D03  # ube — purple yam used in Filipino desserts
+              - Y1D05  # cush-cush (D. trifida) — fine texture, exceptional flavor
+
+          - section: 2.3
+            title: "Heirloom Varieties, Diversity, and Conservation"
+            summary: >
+              What makes a variety "heirloom," the significant genetic diversity
+              across species and landraces, disease-resistant cultivars, the
+              difference between traditional and modern commercial varieties,
+              in-vitro conservation, germplasm banks, and on-farm conservation
+              by traditional farmers.
+            questions:
+              - Y1D01  # heirloom = grown multiple generations, passed through families
+              - Y1D04  # D. nummularia — Pacific Islands, cultural importance
+              - Y1D06  # certain D. rotundata cultivars resist yam mosaic virus
+              - Y1D07  # traditional varieties have more flavor/texture diversity
+              - Y1D08  # purple water yam — natural anthocyanins
+              - Y7C01  # significant genetic diversity across species and landraces
+              - Y7C03  # in-vitro conservation and germplasm banks
+              - Y7C08  # on-farm conservation by traditional farmers
+
+      - chapter: 3
+        title: "How Yams Grow and Reproduce"
+        summary: >
+          The yam life cycle from sprouting to senescence, vegetative propagation
+          and its dominance over sexual reproduction, dormancy biology, and the
+          challenges of breeding a polyploid perennial with irregular flowering.
+
+        sections:
+          - section: 3.1
+            title: "The Yam Life Cycle"
+            summary: >
+              The 8–11 month journey from sprouting through vine establishment,
+              photoperiod-triggered tuber initiation, the photoassimilate
+              partitioning shift from vine growth to tuber bulking, the climbing
+              habit that requires management, adventitious root development, and
+              eventual vine senescence.
+            questions:
+              - Y2C01  # 8–11 month growth cycle
+              - Y2C02  # sprouting and vine emergence first
+              - Y2C03  # tuber enlargement after vine establishment (2–3 months)
+              - Y2C04  # photoperiod (day length) triggers tuber initiation
+              - Y2C05  # vines senesce and die back
+              - Y2C06  # healthy vine growth before tuber bulking
+              - Y2C07  # climbing nature requires support
+              - Y2C08  # adventitious roots from sett and stem nodes
+              - Y2C09  # photoassimilate partitioning shift to tubers
+
+          - section: 3.2
+            title: "Propagation and Reproductive Biology"
+            summary: >
+              Why vegetative propagation dominates (irregular flowering, low seed
+              viability), the minisett system, tissue culture for disease-free
+              material, dormancy and how to break it, bulbil propagation in
+              D. bulbifera, and what determines sprouting success.
+            questions:
+              - Y7B01  # vegetative propagation using tuber pieces is primary
+              - Y7B02  # cultivated varieties rarely flower or produce viable seeds
+              - Y7B03  # minisett — cut tubers into small pieces with buds
+              - Y7B04  # tissue culture produces disease-free material
+              - Y7B05  # dormancy rest period varies by species
+              - Y7B06  # curing + proper temp/humidity breaks dormancy
+              - Y7B07  # D. bulbifera propagates from aerial bulbils
+              - Y7B08  # viable buds + proper moisture = sprouting success
+              - Y7B09  # dormant bud activation produces new shoots and roots
+
+          - section: 3.3
+            title: "Breeding and Genetic Improvement"
+            summary: >
+              Why yam breeding is harder than most crops — irregular flowering,
+              long growing cycles, low multiplication rates, and polyploidy — plus
+              modern tools like marker-assisted selection and the focus on disease
+              resistance.
+            questions:
+              - Y7C02  # irregular flowering and low seed production
+              - Y7C04  # disease resistance (esp. viruses) is primary breeding goal
+              - Y7C05  # marker-assisted selection accelerates breeding
+              - Y7C06  # long cycle + low multiplication rate = slow breeding
+              - Y7C07  # polyploidy complicates genetic improvement
+
+      - chapter: 4
+        title: "The Chemistry Inside the Tuber"
+        summary: >
+          What yams are made of at the molecular level — starch architecture,
+          enzymatic reactions, bioactive compounds like diosgenin and anthocyanins,
+          defensive chemistry, and the nutritional profile that makes yams a
+          globally important food.
+
+        sections:
+          - section: 4.1
+            title: "Starches, Enzymes, and Physical Properties"
+            summary: >
+              The amylose/amylopectin starch mixture, hydrolysis during cooking,
+              retrogradation (recrystallization) when refrigerated, polyphenol
+              oxidase and enzymatic browning, the glycoprotein mannan behind
+              mountain yam's slippery texture, and baseline moisture content.
+            questions:
+              - Y7D01  # starch is primary stored carbohydrate
+              - Y7D06  # polyphenol oxidase causes browning
+              - Y7D07  # amylose and amylopectin mixture
+              - Y7D08  # hydrolysis converts starch to sugars during cooking
+              - Y7D09  # glycoprotein mannan — slippery mountain yam texture
+              - Y7D10  # retrogradation (recrystallization) when refrigerated
+              - Y4A07  # 60–70% moisture content in fresh yams
+
+          - section: 4.2
+            title: "Bioactive Compounds and Defensive Chemistry"
+            summary: >
+              Diosgenin and its structural similarity to steroid hormones (and why
+              the HRT claims are overstated), anthocyanin pigments and their
+              antioxidant properties, dioscorin's anti-inflammatory potential,
+              the alkaloids and saponins that defend wild species, calcium oxalate
+              crystals, and the digestibility of yam starch.
+            questions:
+              - Y7D02  # diosgenin — pharmaceutical applications
+              - Y7D03  # anthocyanin pigments give ube its color
+              - Y7D04  # alkaloids and saponins — toxic, require processing
+              - Y7D05  # calcium oxalate crystals cause skin irritation
+              - Y4B01  # diosgenin similar to female hormones
+              - Y4B04  # anthocyanins as antioxidants in purple yams
+              - Y4B09  # wild yam as HRT substitute is NOT validated
+              - Y4B10  # dioscorin — anti-inflammatory properties
+              - Y4B11  # yam starch easily digested by sensitive individuals
+
+          - section: 4.3
+            title: "Nutritional Profile and Health Properties"
+            summary: >
+              Macronutrient breakdown (carbohydrate-dominant, low fat, modest
+              protein), key vitamins and minerals, caloric comparison to potatoes,
+              anthocyanins as a nutritional component, dietary fiber, and the
+              health mechanisms — potassium for blood pressure, fiber for digestion,
+              vitamin C for immunity, manganese for bones, lower glycemic index,
+              and nutrient density for weight management.
+            questions:
+              - Y4A01  # carbohydrate is primary macronutrient
+              - Y4A02  # protein 1.5–2.5g per 100g
+              - Y4A03  # vitamin C present in significant amounts
+              - Y4A04  # potassium notable mineral
+              - Y4A05  # slightly fewer calories than white potatoes
+              - Y4A06  # anthocyanins give ube its color (nutritional framing)
+              - Y4A08  # very low in all types of fat
+              - Y4A09  # amylose and amylopectin (nutritional framing)
+              - Y4A10  # dietary fiber for digestive health
+              - Y4B02  # potassium → blood pressure regulation
+              - Y4B03  # dietary fiber → digestive regularity
+              - Y4B05  # lower glycemic index than many starchy foods
+              - Y4B06  # vitamin C → immune system support
+              - Y4B07  # manganese → bone health and metabolism
+              - Y4B08  # nutrient density with relatively low calories
+
+  - part: 2
+    title: "The People Behind the Yam"
+    subtitle: >
+      Cultivation, safety, cuisine, and ten thousand years of yam culture
+
+    chapters:
+      - chapter: 5
+        title: "Growing Yams"
+        summary: >
+          The practical side of yam agriculture — choosing and preparing a site,
+          selecting and treating planting material, and defending the crop against
+          its most important pests and diseases.
+
+        sections:
+          - section: 5.1
+            title: "Soil, Site, and Field Preparation"
+            summary: >
+              Selecting well-drained loamy soil, optimal pH and organic matter
+              ranges, tillage depth, why compaction is the enemy, the role of
+              mounding for drainage and tuber expansion, crop rotation with
+              legumes, alley cropping, and avoiding waterlogged sites.
+            questions:
+              - Y2A01  # well-drained, fertile loamy soil
+              - Y2A02  # pH 5.5–6.5
+              - Y2A03  # mounding or yam heaps (West Africa)
+              - Y2A04  # till 25–30 cm deep or more
+              - Y2A05  # do NOT compact soil
+              - Y2A06  # mounds provide drainage + loose soil for expansion
+              - Y2A07  # organic matter 2–5%
+              - Y2A08  # crop rotation with legumes
+              - Y2A09  # alley cropping for soil conservation
+              - Y2A10  # avoid waterlogged, poorly drained areas
+
+          - section: 5.2
+            title: "Planting Materials and Techniques"
+            summary: >
+              Setts as the primary planting material, recommended sizing and
+              treatment, planting depth and spacing, the advantage of the
+              proximal bud end, pre-sprouting for uniform emergence, milking
+              for double harvest, tissue culture and minisett technology for
+              clean material, and trellis systems for maximizing yield.
+            questions:
+              - Y2B01  # tuber pieces (setts) as primary planting material
+              - Y2B02  # sett size 50–100 grams
+              - Y2B03  # fungicide dusting or dipping before planting
+              - Y2B04  # "milking" — harvest tubers, leave roots for second crop
+              - Y2B05  # plant 5–10 cm deep
+              - Y2B06  # tissue culture and minisett technology
+              - Y2B07  # spacing 1 m × 1 m
+              - Y2B08  # stake or trellis systems for vine support
+              - Y2B09  # head (proximal) portion with buds preferred
+              - Y2B10  # viable buds or sprouts indicate suitable setts
+              - Y2B11  # pre-sprouting identifies viable material, ensures uniformity
+
+          - section: 5.3
+            title: "Defending the Crop"
+            summary: >
+              The major pests (nematodes, yam beetles), diseases (anthracnose,
+              yam mosaic virus, internal brown spot, storage rots), cultural
+              controls, integrated pest management with resistant varieties,
+              why planting by the full moon doesn't help, and environmentally
+              sustainable approaches.
+            questions:
+              - Y2D01  # nematodes (Scutellonema bradys) — biggest yield loss
+              - Y2D02  # anthracnose — black leaf spots and dieback
+              - Y2D03  # yam mosaic virus — most damaging virus
+              - Y2D04  # crop rotation + field sanitation for beetles
+              - Y2D05  # yam beetles (Heteroligus) — storage pest
+              - Y2D06  # clean planting material + rotation for nematodes
+              - Y2D07  # internal brown spot — fungal (Botryodiplodia)
+              - Y2D08  # resistant varieties + cultural controls (IPM)
+              - Y2D09  # Penicillium, Fusarium, Aspergillus cause storage rot
+              - Y2D10  # planting during full moon is NOT effective
+              - Y2D11  # integrated disease management is most sustainable
+
+      - chapter: 6
+        title: "From Field to Storehouse"
+        summary: >
+          The complete post-harvest chain — reading field indicators for harvest
+          timing, extraction techniques that minimize damage, the critical curing
+          window, long-term storage conditions, and facility design from
+          traditional yam barns to commercial cold storage.
+
+        sections:
+          - section: 6.1
+            title: "Knowing When to Harvest"
+            summary: >
+              Vine senescence as the primary indicator, species-specific timing
+              (8–11 months for white yam, longer for water yam), seasonal
+              precipitation patterns, traditional field inspection, the milking
+              system's double harvest, and what happens if you wait too long.
+            questions:
+              - Y3A01  # vine senescence (yellowing/dying back) = primary indicator
+              - Y3A02  # white yam harvested 8–11 months after planting
+              - Y3A03  # exposing tuber top to check size
+              - Y3A04  # November–January in tropical West Africa
+              - Y3A05  # delayed harvest → fibrous or rotting tubers
+              - Y3A06  # seasonal precipitation most affects timing
+              - Y3A07  # water yams can have longer growing season
+              - Y3A08  # vine senescence + drying leaves as visual indicator
+              - Y3A09  # milking: early partial + final harvest at full maturity
+
+          - section: 6.2
+            title: "Getting Them Out of the Ground"
+            summary: >
+              Traditional digging sticks and hoes, careful soil removal before
+              lifting, the challenge of tubers growing a meter deep, working
+              heavy clay soils, why cuts and bruises invite infection, vine
+              disposal and reuse, mechanized approaches, and post-harvest
+              cover cropping.
+            questions:
+              - Y3B01  # wooden digging stick or hoe (traditional)
+              - Y3B02  # carefully remove soil before lifting
+              - Y3B03  # avoid cuts/bruises → prevent infection, reduce storage loss
+              - Y3B04  # some species grow >1 m deep — challenging
+              - Y3B05  # heavy clay: loosen carefully to avoid breaking tubers
+              - Y3B06  # vines → mulch or planting sticks
+              - Y3B07  # mechanized diggers lift and expose tubers
+              - Y3B08  # plant rotation crop or cover crop after harvest
+
+          - section: 6.3
+            title: "Curing"
+            summary: >
+              Why curing is essential (wound healing, protective corky layer),
+              the suberization process, optimal temperature and humidity windows
+              (77–86°F, 90–95% RH), duration (4–7 days), traditional West African
+              vine-covered beds, what to avoid (sun, rain), how curing extends
+              shelf life, visual indicators of completion, commercial controlled-
+              environment approaches, and ongoing respiration during the process.
+            questions:
+              - Y3C01  # purpose: heal wounds, form corky skin layer
+              - Y3C02  # optimal: 77–86°F (25–30°C), 90–95% humidity
+              - Y3C03  # 4–7 days duration
+              - Y3C04  # suberization of damaged skin cells
+              - Y3C05  # traditional: piles/beds covered with yam vines
+              - Y3C06  # avoid direct sunlight and rainfall
+              - Y3C07  # increases storage life, reduces water loss and decay
+              - Y3C08  # corky layer over cuts/wounds = properly cured
+              - Y3C09  # commercial: temperature/humidity controlled rooms
+              - Y3C10  # both temperature and humidity should be relatively high
+              - Y3C11  # respiration continues during curing
+
+          - section: 6.4
+            title: "Long-Term Storage"
+            summary: >
+              Optimal temperature range (57–61°F), why ethylene-producing fruits
+              are enemies, the humidity-ventilation balance, rodent prevention
+              with raised platforms and rat guards, light-induced greening,
+              maximum storage duration (4–6 months), species-specific dormancy
+              periods, respiration's ongoing toll, and commercial cold storage.
+            questions:
+              - Y3D01  # traditional yam barn (thatched roof, open sides)
+              - Y3D02  # optimal 57–61°F (14–16°C)
+              - Y3D03  # ethylene from fruit accelerates sprouting
+              - Y3D04  # max storage 4–6 months
+              - Y3D05  # avoid high humidity + poor ventilation
+              - Y3D06  # hanging tubers / raised platforms with rat guards
+              - Y3D07  # light exposure → chlorophyll → green discoloration
+              - Y3D08  # respiration and dormancy affect storage duration
+              - Y3D09  # commercial: temp-controlled with careful monitoring
+              - Y3D10  # dormancy period varies by species
+
+          - section: 6.5
+            title: "Storage Facility Design"
+            summary: >
+              Key design requirements — ventilation and rain protection, temperature
+              regulation with thatched roofs and slatted shelves, Southeast Asian
+              underground pit storage, single-layer arrangement for air circulation,
+              termite-resistant construction, commercial layout for inspection and
+              stock rotation, smoke-based pest management, and forced ventilation
+              for humid tropics.
+            questions:
+              - Y3E01  # ventilation + rain protection = most important feature
+              - Y3E02  # SE Asian underground pits lined with rice straw
+              - Y3E03  # thatched roof + raised slatted shelves regulate temperature
+              - Y3E04  # placed on shelves in single layers
+              - Y3E05  # termite-resistant materials or treated wood
+              - Y3E06  # commercial: accommodate inspection, sorting, rotation
+              - Y3E07  # smoke or pest-repellent plant materials
+              - Y3E08  # forced air ventilation in humid tropical regions
+              - Y3E09  # arrange to allow air circulation between tubers
+
+      - chapter: 7
+        title: "Safe Handling, Preparation, and Diet"
+        summary: >
+          The safety-first chapter — from calcium oxalate gloves and bitter-yam
+          detoxification to dietary guidance for specific health conditions and
+          the foundational cooking techniques every yam cook needs.
+
+        sections:
+          - section: 7.1
+            title: "Working Safely with Yams"
+            summary: >
+              Why some varieties require gloves (calcium oxalate crystals),
+              proper peeling and cleaning, preventing oxidation of cut surfaces,
+              detoxifying bitter varieties through extended boiling with water
+              changes, and cleaning skins when cooking unpeeled.
+            questions:
+              - Y5A01  # peeling and cleaning is first step
+              - Y5A02  # gloves — calcium oxalate causes skin irritation
+              - Y5A05  # cool water + lemon juice/vinegar prevents browning
+              - Y5A06  # bitter varieties: extended boiling, multiple water changes
+              - Y4C02  # bitter varieties require special processing (toxic compounds)
+              - Y4C05  # skins should be cleaned for soil contaminants
+
+          - section: 7.2
+            title: "Dietary Guidance"
+            summary: >
+              Yams in traditional dietary patterns, suitability for low-sodium,
+              gluten-free, vegetarian, and vegan diets, portion control and
+              carbohydrate accounting for diabetic meal plans, and incorporating
+              yams into weight management as a nutrient-dense complex carbohydrate.
+            questions:
+              - Y4C01  # West African and Caribbean traditional dietary patterns
+              - Y4C03  # naturally low sodium — suitable for low-sodium diets
+              - Y4C04  # naturally gluten-free — safe for celiac disease
+              - Y4C06  # plant-based — suitable for vegetarian and vegan diets
+              - Y4C07  # diabetic meal plan: portion control + carb accounting
+              - Y4C08  # weight management: moderate portions, complex carb
+
+          - section: 7.3
+            title: "Essential Cooking Techniques"
+            summary: >
+              Boiling (times, the universal method), steaming to preserve nutrition,
+              achieving crispy fried exteriors, making chips, preventing oxidation
+              during prep, preserving shape in stews, grating raw yam for Asian
+              textures, salt-water soaking for sliminess, roasting to develop
+              natural sweetness, and twice-cooked methods.
+            questions:
+              - Y5A03  # boiling — most common method worldwide
+              - Y5A07  # steaming best preserves nutritional content
+              - Y5A08  # thin slicing + deep frying or baking for chips
+              - Y5E01  # boiling time: 15–20 min for 1-inch cubes
+              - Y5E02  # immersion in water + acid prevents oxidation
+              - Y5E03  # pat dry + proper oil temp for crispy frying
+              - Y5E05  # add later in cooking to preserve shape in stews
+              - Y5E06  # grating raw yam for gluey/stretchy Asian texture
+              - Y5E07  # salt water soak reduces sliminess
+              - Y5E08  # roasting/baking develops natural sweetness
+              - Y5E09  # twice-cooked: cook, cool, cook again differently
+
+      - chapter: 8
+        title: "Yams in the Kitchen"
+        summary: >
+          A global culinary tour organized by cooking method — liquid-based dishes,
+          fried and formed preparations, and sweets and desserts — covering
+          signature dishes from West Africa, the Caribbean, Japan, Korea,
+          Southeast Asia, and beyond.
+
+        sections:
+          - section: 8.1
+            title: "Soups, Stews, and Porridges"
+            summary: >
+              Fufu (pounded yam paste with mortar and pestle), poi, asaro (Nigerian
+              yam porridge), oil down (Caribbean), mpotompoto (Ghanaian), ikokore
+              (grated water yam balls in soup), canh khoai mỡ (Vietnamese), caruru
+              (Brazilian with okra and palm oil), Caribbean yam chowder, and opor
+              (Indonesian in coconut-spice sauce).
+            questions:
+              - Y5A04  # fufu — pounded yam paste eaten with stews
+              - Y5A09  # poi — cooked, pounded, fermented paste (Pacific Islands)
+              - Y5B01  # asaro — Nigerian yam porridge with palm oil and peppers
+              - Y5B03  # oil down — Caribbean boiled yam + starchy veg + meat
+              - Y5B06  # mpotompoto — Ghanaian yam soup or porridge
+              - Y5B10  # canh khoai mỡ — Vietnamese, simmered in soup with pork
+              - Y5B11  # caruru — Brazilian, with okra, shrimp, palm oil
+              - Y5D01  # ikokore — grated water yam balls cooked in soup
+              - Y5D03  # yams in stews — cut into chunks, cook with stew
+              - Y5D05  # Caribbean chowder — yam in coconut milk
+              - Y5D06  # mpotompoto — yam as main ingredient in savory porridge
+              - Y5D07  # opor — Indonesian, simmered in coconut milk + spices
+              - Y5E04  # wooden mortar and pestle technique for fufu
+
+          - section: 8.2
+            title: "Fried, Baked, and Formed"
+            summary: >
+              Yam chips and fries, bammy (Jamaican flatbread from grated/pressed
+              yam), tostones de ñame (slice-fry-smash-fry), ojojo (Nigerian fried
+              water yam batter), tororo (Japanese grated mountain yam), Korean ma
+              (steamed and dried), senai kilangu varuval (Indian fried with spices),
+              and the taro cake distinction.
+            questions:
+              - Y5B02  # bammy — Jamaican flatbread, grated and pressed yam
+              - Y5B04  # tororo — Japanese grated mountain yam, slimy texture
+              - Y5B05  # Korean ma — steaming then drying slices
+              - Y5B08  # taro cake — taro root, related but distinct from yams
+              - Y5B09  # senai kilangu varuval — Indian, frying with spices
+              - Y5D02  # yam chips/fries — deep frying or baking
+              - Y5D04  # ojojo — Nigerian fried spiced water yam batter
+              - Y5D08  # tostones de ñame — slice, fry, smash, fry again
+
+          - section: 8.3
+            title: "Sweet and Dessert Creations"
+            summary: >
+              Ube halaya (Filipino purple yam pudding with coconut milk), Okinawan
+              koogoo, Thai yam in coconut syrup, candied yams, yam mochi and sweet
+              dumplings, yam as ice cream base, yam purée in baked goods, and why
+              certain varieties' natural sweetness and starch structure make them
+              ideal for desserts.
+            questions:
+              - Y5B07  # ube halaya — Filipino dessert with purple yam
+              - Y5C01  # ube popular for vibrant color and subtle sweetness
+              - Y5C02  # ube halaya — purple yam + coconut milk pudding
+              - Y5C03  # boiled and mashed/puréed for sweet pies
+              - Y5C04  # koogoo — Okinawan sweet purple yam dessert
+              - Y5C05  # mochi and sweet dumplings use yam flour
+              - Y5C06  # ice cream — cooked, puréed, used as flavoring base
+              - Y5C07  # candied yams — baking with sugar, butter, spices
+              - Y5C08  # Thai — boiled in syrup with coconut milk
+              - Y5C09  # natural sweetness + starch structure suit desserts
+              - Y5C10  # baked goods — cooked, puréed, added to batter
+
+      - chapter: 9
+        title: "The Yam Economy"
+        summary: >
+          How yams move from smallholder fields to global markets — industrial
+          processing, value-added products, production statistics, trade barriers,
+          food security, and the economic forces shaping yam agriculture.
+
+        sections:
+          - section: 9.1
+            title: "From Tuber to Product"
+            summary: >
+              Commercial flour production — peeling, washing, slicing, blanching
+              to inactivate browning enzymes, mechanical drying at controlled
+              temperatures, hammer and roller milling, moisture and microbial
+              quality control, instant flake production, starch extraction,
+              and automated process control for consistency.
+            questions:
+              - Y9A01  # first step: peeling, washing, slicing
+              - Y9A02  # mechanical dryers with controlled temp/airflow
+              - Y9A03  # monitoring moisture content and microbial safety
+              - Y9A04  # instant flakes: cooking, mashing, drum drying
+              - Y9A05  # moisture content + drying temperature most critical
+              - Y9A06  # starch extraction: washing, filtering, settling
+              - Y9A07  # raw material quality + process controls determine quality
+              - Y9A08  # blanching inactivates browning enzymes
+              - Y9A09  # automated process control + standardized equipment
+              - Y9A10  # hammer mills / roller mills with controlled particle size
+
+          - section: 9.2
+            title: "Value-Added Products and New Markets"
+            summary: >
+              Yam starch as food thickener and pharmaceutical excipient, elubo
+              (dried yam flour), precooked frozen products, ube powder and paste
+              for desserts and beverages, yam noodles, shelf-stable snack
+              challenges, health food market positioning (low GI, high fiber),
+              convenience product technology, and growing international trade
+              in processed yam products and ethnic cuisine markets.
+            questions:
+              - Y9B01  # starch — food thickener, pharmaceutical excipient
+              - Y9B02  # elubo — Nigerian dried yam flour
+              - Y9B03  # frozen: peel, cut, blanch, cook, blast freeze
+              - Y9B04  # ube powder/paste for desserts and beverages
+              - Y9B05  # shelf-stable: control moisture, prevent rancidity
+              - Y9B06  # yam noodles — mixing yam flour + starches, extruding
+              - Y9B07  # health food: low GI + high fiber
+              - Y9B08  # improved processing/packaging enables convenience products
+              - Y6A04  # yam flour greatest growth in international trade
+              - Y6A07  # health food and ethnic cuisine market demand growing
+
+          - section: 9.3
+            title: "Global Production and Food Security"
+            summary: >
+              Nigeria as the world's dominant producer, West Africa's 90%+ share,
+              the FAO as statistical authority, shelf life as the primary trade
+              barrier, 30–60% spoilage losses in developing countries, competition
+              from cassava and rice, weather-driven price volatility, yams as
+              currency and wealth indicators, subsistence farming constraints
+              (labor, planting material), intercropping to mitigate risk, storing
+              food for hunger periods, and climate disruption of traditional cycles.
+            questions:
+              - Y6A01  # Nigeria — world's largest producer
+              - Y6A02  # West Africa — over 90% of global production
+              - Y6A03  # short shelf life + storage challenges limit trade
+              - Y6A05  # FAO collects and publishes production statistics
+              - Y6A06  # competition from cassava and rice
+              - Y6A08  # weather and harvest yields affect market prices
+              - Y6A09  # 30–60% post-harvest spoilage in developing countries
+              - Y6A10  # staple food + currency / wealth indicator in West Africa
+              - Y6B01  # stored months without refrigeration → food security
+              - Y6B02  # farmers save small tubers/pieces as planting material
+              - Y6B03  # storable food during seasonal hunger periods
+              - Y6B05  # climate change disrupting traditional planting/harvest
+              - Y6B06  # labor + planting material availability constrain expansion
+              - Y6B07  # intercropping + multiple varieties mitigate risk
+
+      - chapter: 10
+        title: "Ten Thousand Years of Yams"
+        summary: >
+          The deep human story — independent domestication on multiple continents,
+          spread through trade and colonization, living cultural traditions from
+          yam festivals to wedding customs, and the myths and folklore that weave
+          yams into the spiritual fabric of societies worldwide.
+
+        sections:
+          - section: 10.1
+            title: "Origins and Spread"
+            summary: >
+              At least 10,000 years of cultivation, independent domestication in
+              West Africa and Southeast Asia, spread through migration and trade,
+              yams in the Columbian Exchange, their role during the transatlantic
+              slave trade, traditional yam barn storage, yams as a Pacific Island
+              staple and ceremonial crop, and the 20th century transition to
+              modern varieties and agricultural practices.
+            questions:
+              - Y8A01  # at least 10,000 years of cultivation
+              - Y8A02  # independent domestication in West Africa + SE Asia
+              - Y8A03  # staple food and cultural symbol in West Africa
+              - Y8A04  # spread through migration, trade, colonization
+              - Y8A05  # Columbian Exchange — species moved between continents
+              - Y8A06  # transatlantic slave trade — familiar food in new regions
+              - Y8A07  # 20th century: improved varieties + modern practices
+              - Y8A08  # traditionally stored in specially constructed yam barns
+              - Y8A09  # Pacific Islands: staple + ceremonial crop
+              - Y8A10  # independent domestication of different species on different continents
+
+          - section: 10.2
+            title: "Living Traditions"
+            summary: >
+              The New Yam Festival as harvest thanksgiving, first-yam rituals and
+              offerings to ancestors, the role of the "yam king," competitive yam
+              displays as demonstrations of wealth and prowess, gender-specific
+              roles in planting and preparation, yams in wedding customs and bride
+              wealth, consumption taboos, intergenerational knowledge transfer,
+              yam festivals as community celebrations reinforcing cultural identity,
+              and women's roles across the farming system.
+            questions:
+              - Y8B01  # New Yam Festival — harvest + thanksgiving to deities
+              - Y8B02  # offering first harvested yams to ancestors/deities
+              - Y8B03  # yam king supervises planting, harvesting, storage
+              - Y8B04  # wealth, prosperity, social status (Pacific Islands)
+              - Y8B05  # gender-specific roles in planting, harvesting, preparation
+              - Y8B06  # exchange of yams as gifts or bride wealth
+              - Y8B07  # taboos about who can eat certain varieties/preparations
+              - Y8B08  # competitive displays of wealth + agricultural prowess
+              - Y8B09  # cultivation, storage, preparation knowledge passed down
+              - Y8B10  # first yam receives special ritual treatment
+              - Y8B11  # community celebrations reinforcing cultural identity
+              - Y6B04  # yam festivals celebrate harvest + food security
+              - Y6B08  # women's significant roles in farming systems
+
+          - section: 10.3
+            title: "Yams in Story and Symbol"
+            summary: >
+              Fertility and agriculture deities associated with yams, yams as
+              ancestral gifts in Pacific Island creation myths, Chinua Achebe's
+              yam farmer in "Things Fall Apart," proverbs about hard work and
+              patience, folkloric taboos around cultivation, yams as symbols
+              of abundance and reproductive success, folktales reinforcing
+              community values, and the universal theme connecting agricultural
+              success with spiritual relationships.
+            questions:
+              - Y8C01  # deities of fertility and agriculture
+              - Y8C02  # yams as ancestral gifts in Pacific Island origin stories
+              - Y8C03  # proverbs illustrate hard work, patience, community
+              - Y8C04  # "Things Fall Apart" (Achebe) — yam farmer protagonist
+              - Y8C05  # folkloric taboos around planting and harvesting
+              - Y8C06  # yams as gifts from deities in creation myths
+              - Y8C07  # yams symbolize abundance and reproductive success
+              - Y8C08  # folktales use yams to reinforce proper behavior
+              - Y8C09  # agricultural success linked to spiritual relationships

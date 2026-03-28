@@ -1,0 +1,55 @@
+# baseURL: 'https://hambook.org/yam2026'
+title: 'The YamBook'
+
+relativeURLs: false
+canonifyURLs: false
+
+defaultContentLanguage: 'en'
+defaultContentLanguageInSubdir: false
+
+module:
+  imports:
+    - path: hambook.org/hambook/common
+
+params:
+  BookPortableLinks: true
+  BookSubtitle: "From the Creators of HamStudy"
+  BookLogo: "figures/coverfornow.jpg"
+  qrBaseURL: "https://hamstudy.org/api/v1/qrcode"
+  figurePath: "figures/%s"
+  linktrim: ""
+
+markup:
+  tableOfContents:
+    endLevel: 5
+    ordered: false
+    startLevel: 2
+
+  goldmark:
+    renderer:
+      unsafe: true
+      xHTML: true
+      hardWraps: false
+    parser:
+      wrapStandAloneImageWithinParagraph: false
+      attribute:
+        block: true
+        title: true
+      autoHeadingID: true
+
+    extensions:
+      definitionList: true
+      footnote: true
+      table: true
+      strikethrough: true
+      taskList: true
+      typographer: true
+      passthrough:
+        enable: true
+        delimiters:
+          block:
+            - ['\[', '\]']
+            - ['$$', '$$']
+          inline:
+            - ['\(', '\)']
+            - ['$', '$']
