@@ -1,43 +1,43 @@
 ---
-chapter: 7
-section: 2
-title: "Dietary Guidance"
+chapter: "7"
+section: "7.2"
 questions: ["Y4C01", "Y4C04", "Y4C06", "Y4C03", "Y4C08", "Y4C07"]
-status: generated
+illustration: "A serene cartoon yam doing yoga, with one vine stretched into a downward dog pose. Nutritional labels float around it like a halo: 'Vitamin C,' 'Potassium,' 'Fiber,' 'Complex Carbohydrates.' The yam looks deeply relaxed. Style: minimalist flat, zen-like, warm and peaceful."
 ---
 
-The dietary value of a yam depends less on the yam than on the eater. A yam is not uniformly beneficial—it meets different criteria for different dietary contexts, and in some contexts requires specific accounting. Without knowing *why* a dietary framework applies to you, the same yam can be misclassified as helpful, harmless, or problematic. This section treats yam nutrition as a suitability profile: what it provides, what it avoids, and what it requires caution about, across several common dietary frameworks.
+### Section 7.2: Dietary Guidance
+
+![Illustration concept: Serene yam doing yoga downward dog, nutrition labels floating as halos around it](../../../images/section7-2.svg)
+{.img-xlarge .img-centered}
+
+Yams fit into many dietary frameworks, providing complex carbohydrates, fiber, and essential vitamins.
 
 ### A Global Staple
 
-For many cultures, yams aren't just a side dish; they're the main event.
+In many regions, yams serve as a primary energy source and cultural cornerstone.
 
 > **Key Information:** West African and Caribbean diets traditionally incorporate yams as a staple food. {{< link id="Y4C01" >}}
 
-For most restrictive diets, yams present no categorical barriers—but that is not the same as saying they are beneficial.
+### Suitability for Restrictive Diets
 
-### Plant-Based and Gluten-Free
+Yams are naturally gluten-free and plant-based, making them safe for those with celiac disease or following vegetarian and vegan lifestyles.
 
-Baseline suitability criteria for restrictive diets are as follows: yams contain no gluten and meet no animal-product threshold, making them categorically compatible with plant-based and celiac-appropriate eating patterns.
+> **Key Information:**
+> - Yams are naturally gluten-free and safe for people with celiac disease. {{< link id="Y4C04" >}}
+> - As a plant-based food, yams are suitable for both vegetarian and vegan diets. {{< link id="Y4C06" >}}
 
-> **Key Information:** Yams are naturally gluten-free and safe for people with celiac disease. {{< link id="Y4C04" >}}
+### Salt and Weight Management
 
-> **Key Information:** As a plant-based food, yams are suitable for both vegetarian and vegan diets. {{< link id="Y4C06" >}}
-
-For low-sodium and weight-management contexts, yams present no special risks—but the reasons are specific to their composition.
-
-### Managing Salt and Weight
-
-If you're watching your sodium intake, yams are a safe choice.
+Yams are naturally low in sodium.
 
 > **Key Information:** Yams are naturally low in sodium and suitable for low-sodium diets. {{< link id="Y4C03" >}}
 
-When it comes to weight management, yams offer a sense of fullness that can help control appetite.
+The high fiber content provides a sense of satiety, which can assist in weight management.
 
 > **Key Information:** Yams can be included in moderate portions as a nutritious complex carbohydrate in a weight management diet. {{< link id="Y4C08" >}}
 
-### Special Considerations for Diabetics
+### Considerations for Diabetics
 
-Because yams are a starchy carbohydrate, people with diabetes need to be mindful of how they affect blood sugar levels. Yams meet no special anti-diabetic criterion; they must be accounted for like any other carbohydrate source. Portion control and total carbohydrate intake matter more than the source.
+As a starchy complex carbohydrate, yams impact blood sugar levels. For individuals managing diabetes, focus on portion control and overall carbohydrate counting.
 
 > **Key Information:** When incorporating yams into a diabetic meal plan, portion control and accounting for carbohydrate content is important. {{< link id="Y4C07" >}}

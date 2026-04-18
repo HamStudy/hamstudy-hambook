@@ -1,8 +1,7 @@
 ---
-title: "Chapter 2. The Dioscorea Family"
-slug: the-dioscorea-family
-chapter: 2
 epubtype: chapter
 ---
 
-The world of yams is far more diverse than the average grocery store aisle suggests. While most people are familiar with just one or two varieties, the genus *Dioscorea* contains hundreds of species, each adapted to specific climates and cultures. In this chapter, we'll explore the major cultivated species, how to identify them in the field, and why preserving heirloom varieties is critical for the future of the crop.
+## Chapter 2: The Dioscorea Family
+
+The genus *Dioscorea* is much broader than the handful of yams most readers are likely to recognize. This chapter looks at major species by region, the traits used to identify cultivars in the field, and the reasons that diversity is worth protecting.

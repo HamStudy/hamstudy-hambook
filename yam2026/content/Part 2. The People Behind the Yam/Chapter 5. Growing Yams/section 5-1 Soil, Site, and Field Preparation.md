@@ -1,52 +1,55 @@
 ---
-title: "Soil, Site, and Field Preparation"
-section: 1
+chapter: "5"
+section: "5.1"
 questions: [Y2A10, Y2A01, Y2A02, Y2A03, Y2A06, Y2A04, Y2A05, Y2A07, Y2A08, Y2A09]
-status: generated
+illustration: "A cross-section view of a perfectly prepared yam field: a mound with good drainage, correct soil depth, and nutrient-rich layers labeled. A farmer rabbit stands beside it with a shovel and clipboard, looking proud. Rain falls on one side but water drains quickly — no puddling. In the background, a poorly drained field is flooded and sad. Style: flat instructional illustration, engineering diagram meets farming life."
 ---
 
-A field that fails drainage, depth, fertility, or slope management has not earned a yam crop. The decisions made at this stage—site selection and soil preparation—are the point of no return for yam cultivation. Every later effort to manage pests, nutrient deficiency, or poor tuber development is constrained by what the field was allowed to become at the start. The field does not forgive carelessness—it compounds it. Correct soil preparation does not guarantee a good harvest, but incorrect preparation guarantees a worse one. The brutal truth of yam cultivation is that most failures at harvest are determined in the weeks before planting, when the decisions are easy to make and hard to feel the consequences of.
+### Section 5.1: Soil, Site, and Field Preparation
+
+![Illustration concept: Cross-section of a well-prepared yam field with drainage, mound depth, and fertile soil layers labeled while a poorly drained field floods in the background](../../../images/section5-1.svg)
+{.img-xlarge .img-centered}
+
+Successful yam cultivation starts with the field. While good preparation doesn't guarantee a perfect harvest, poor choices here create obstacles that are difficult to overcome later. Drainage, depth, and fertility are the foundational elements of a productive field.
 
 ### Finding the Right Home
 
-The first decision a yam farmer makes is not about planting—it is about geography. Yams are picky about where they live. They don't like to get their feet wet for too long, but they also need plenty of nutrients. The question is not "can yams grow here?"—it is "will this site let yams thrive, or merely survive?" The difference matters because yams grown under stress produce stressed tubers that store poorly and rot faster.
+The first step isn't planting, but choosing the right geography. Yams are sensitive to their environment; they require nutrient-rich soil but cannot tolerate standing water.
 
 > **Key Information:** Waterlogged areas with poor drainage should be avoided when selecting a site for yam cultivation. {{< link id="Y2A10" >}}
 
-The perfect home for a yam is **well-drained, fertile loamy soil**.
+The ideal environment is well-drained, fertile loamy soil with a specific acidity level.
 
-> **Key Information:** The most suitable soil type for yam cultivation is **well-drained, fertile loamy soil**. {{< link id="Y2A01" >}} This type of soil provides the right balance of moisture and space for the tubers to expand. You're also looking for a specific chemical balance in the soil—yams prefer it slightly acidic.
-
-> **Key Information:** The optimal soil pH range for yam cultivation is 5.5 to 6.5. {{< link id="Y2A02" >}}
+> **Key Information:**
+> - The most suitable soil type for yam cultivation is **well-drained, fertile loamy soil**. {{< link id="Y2A01" >}}
+> - The optimal soil pH range for yam cultivation is 5.5 to 6.5. {{< link id="Y2A02" >}}
 
 ### Shaping the Earth
 
-In West Africa, where yams are the lifeblood of many communities, farmers don't just plant in flat rows. They shape the earth into mounds or "heaps." This is not superstition dressed as agriculture—it is accumulated hydrological engineering refined across generations of failure and adaptation. The mound exists because water is the enemy of the yam, and the mound is the drainage solution.
+In West Africa, farmers traditionally shape the earth into mounds or "heaps." This practical engineering solution manages water and soil structure simultaneously.
 
 > **Key Information:** **Mounding or making yam heaps** is a traditional soil preparation technique used specifically for yam cultivation in West Africa. {{< link id="Y2A03" >}}
 
-These mounds serve a dual purpose. First, they ensure that the tuber isn't sitting in stagnant water after a heavy rain. Second, they provide loose, unpacked soil that doesn't fight back when the tuber tries to grow. The contrast is instructive: a flat field with heavy clay soil after weeks of rain produces a very different result than the same yam planted in a properly mounded bed. The engineering is not decorative—it is the drainage solution.
+These mounds provide loose soil that allows for unobstructed growth while preventing tubers from sitting in stagnant water.
 
 > **Key Information:** Mounds provide good drainage and loose soil for tuber expansion. {{< link id="Y2A06" >}}
 
 ### Deep Prep and Fertility
 
-A yam that emerges small, deformed, or underdeveloped was decided months earlier. Shallow tillage, compacted soil, remaining stones, and insufficient organic matter all manifest as irreversible consequences at harvest. The field remembers what the farmer thinks he got away with. Preparing the field is back-breaking work because yams need depth. If you only scratch the surface, your tubers will be stunted. You need to dig deep—at least 25 to 30 centimeters (10 to 12 inches) or more—to give the plant the runway it needs.
+Yams require significant depth to develop fully. Shallow tillage or compacted soil often results in stunted or deformed tubers. Giving the plant the space it needs requires digging deep—typically 25 to 30 centimeters (10 to 12 inches).
 
 > **Key Information:** Soil should be tilled to a depth of **25-30 cm (10-12 inches) or more** for optimal yam production. {{< link id="Y2A04" >}}
 
-During this preparation, you're looking for clean, healthy soil. This means breaking up any large clods of dirt and removing stones that might deform the growing tuber. However, you must be careful not to pack it down too much.
+During preparation, it's important to break up large clods and remove stones. However, the soil should remain loose rather than packed down.
 
 > **Key Information:** Compacting the soil firmly is NOT recommended in soil preparation for yams. {{< link id="Y2A05" >}}
 
-To keep the soil healthy for years to come, you have to feed it. Yams thrive when the soil has a good amount of organic matter—ideally between 2% and 5%.
+Maintaining soil health over time requires organic matter and strategic planning.
 
 > **Key Information:** The optimal soil organic matter content for yam production is **between 2% and 5%**. {{< link id="Y2A07" >}}
 
-You can maintain this fertility by rotating your crops. Instead of planting yams in the same spot year after year, try alternating with legumes like beans or cowpeas.
+Rotating yams with legumes helps replenish nutrients naturally, while conservation techniques on sloped fields prevent rain from washing away valuable topsoil.
 
 > **Key Information:** **Crop rotation with legumes** is a practice that helps maintain soil fertility in yam production systems. {{< link id="Y2A08" >}}
-
-Finally, if you're planting on a slope, you'll want to use a technique that keeps your soil from washing away during the rainy season.
 
 > **Key Information:** **Contour ridging** is a traditional soil conservation technique often paired with yam cultivation in tropical regions that prevents erosion by digging rows across the slope rather than up and down. {{< link id="Y2A09" >}}

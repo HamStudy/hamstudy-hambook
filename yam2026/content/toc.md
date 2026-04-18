@@ -60,3 +60,7 @@ title: "Table of Contents: YamBook (2026)"
 - Section 10-1: Origins and Spread
 - Section 10-2: Living Traditions
 - Section 10-3: Yams in Story and Symbol
+
+## Appendix
+- Glossary of Yam Terms
+- Y1_2025 Question Pool

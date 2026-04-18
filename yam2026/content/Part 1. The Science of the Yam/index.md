@@ -1,6 +1,5 @@
 ---
 slug: pt1
-questions: []
 pagebreak: true
 epubtype: part
 ---

@@ -1,4 +1,4 @@
-{{- /* 
+{{- /*
   study-prompt.html - A Hugo partial to create a study prompt with QR code
   
   Parameters:
@@ -17,6 +17,8 @@
 {{- $images := .Site.Params.deskImages -}}
 {{- $hsBaseURL := .Site.Params.hsBaseURL -}}
 {{- $qrBaseURL := .Site.Params.qrBaseURL -}}
+{{- $studyLinkText := .Site.Params.studyLinkText | default "HamStudy" -}}
+{{- $phoneIconFile := .Site.Params.phoneIconFile | default "/svg/phone2_hs_a.svg" -}}
 
 {{- /* Override hsBaseURL if page has questionPool frontmatter */ -}}
 {{- if $page -}}
@@ -72,10 +74,10 @@
     <img src="{{ $reviewImgPath | relURL }}" alt="Question Review" />
   </div>
   <div class="label" style="display: flex !important; flex-direction: row; justify-content: right; gap: 1rem; align-items: center;">
-    <img src="{{ "svg/phone2_hs_a.svg" | relURL }}" class="hsp" alt="HamStudy phone icon" />
+    <img src="{{ $phoneIconFile | relURL }}" class="hsp" alt="{{ $studyLinkText }} phone icon" />
     <div>
       <a href="{{ $hsShortUrl.Content }}">
-        {{- i18n "open" }} <br />HamStudy {{- /* remove whitespace */ -}}
+        {{- i18n "open" }} <br />{{ $studyLinkText }} {{- /* remove whitespace */ -}}
       </a>
     </div>
     <div class="img">

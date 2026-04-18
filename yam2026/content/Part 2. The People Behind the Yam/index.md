@@ -1,12 +1,12 @@
 ---
 title: "Part 2: The People Behind the Yam"
-slug: the-people-behind-the-yam
+slug: pt2
 epubtype: introduction
 ---
 
-In Part 1, we took a deep dive into the botanical, physical, and chemical reality of the yam. We examined how its starch is structured, how its enzymes respond to air, and the fascinating way it defends itself with chemistry. But a yam is not merely a biological specimen to be studied in a lab; it is one of the world's most culturally significant plants.
+### Part 2: The People Behind the Yam
 
-### From the Soil to the Table
+In Part 1, we took a deep dive into the botanical, physical, and chemical reality of the yam. We examined how its starch is structured, how its enzymes respond to air, and the fascinating way it defends itself with chemistry. But a yam is not merely a biological specimen to be studied in a lab; it is one of the world's most culturally significant plants.
 
 While science tells us *how* a yam grows, culture tells us *why* we grow it. For over ten thousand years, humans have been in a dance with this tuber, domesticating it, breeding it, and centering entire societies around its harvest.
 

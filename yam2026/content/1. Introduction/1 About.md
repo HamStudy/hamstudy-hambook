@@ -7,25 +7,19 @@ epubtype: introduction
 
 # About the YamBook
 
-The YamBook project is a comprehensive educational resource dedicated to the study of the true yam (*Dioscorea spp.*). Our mission is to provide accurate, high-quality, and accessible information about one of the world's most significant staple crops.
-
-## Our Approach
-
-Just as we've helped hundreds of thousands of amateur radio enthusiasts master the technicalities of electronics and radio propagation through HamStudy, the YamBook brings a structured and scientific approach to agricultural education. We believe that learning is most effective when complex topics are broken down into clear, manageable concepts.
+The YamBook is a HamStudy side quest devoted to the true yam. Normally we help people study amateur radio; here we aimed the same explainer-first instinct at a crop that deserves more precise attention than it usually gets.
 
 ## April Fool's Disclosure
 
-The YamBook was originally created as an April Fool's joke, but we take education seriously. While the project's origin is playful, the botanical and historical information presented in this book is accurate and based on real-world agricultural science. Our goal is to use this unique approach to teach you everything there is to know about true yams.
+**Important:** This project began as an April Fool's joke. We are not tropical agriculture specialists, and parts of the material were assembled with AI-assisted research tools that do not deserve blind trust. We made a real effort to sanity-check what went in, but this book is better treated as an entertaining starting point than as an authoritative agricultural reference.
 
-## How to Get Involved
+## Contributions
 
-We welcome contributions to help improve and expand the YamBook! If you have expertise in tropical agriculture, botany, or culinary arts, we'd love for you to help us make this guide even better.
+We welcome feedback and contributions to improve the YamBook. If this somehow becomes your favorite yam reference, we would genuinely like to hear about it.
 
-### Contribution Terms:
-- By contributing to this project, you grant full copyright of any material to HamStudy.org LLC.
-- Contributions should align with the existing serious and educational tone of the book.
-- All contributions will be reviewed before merging.
+### Terms:
+- All contributions grant full copyright to HamStudy.org LLC.
+- Content should fit the book's clear, educational tone.
+- Contributions will be reviewed before merging.
 
-Whether you're here for the joke or the science, we're glad you've joined us in our exploration of the fascinating world of yams.
-
-**Happy Studying from the HamStudy team.**
+Thanks for joining us in this unexpected study of the yam.

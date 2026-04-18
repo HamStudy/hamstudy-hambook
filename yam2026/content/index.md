@@ -23,3 +23,10 @@ m4bProfiles:
 
 ![YamBook Cover](./figures/coverfornow.jpg)
 { .img-med .img-centered }
+
+## Get the YamBook
+- <a href="/downloads/yambook.pdf">Download PDF</a>
+- <a href="/downloads/yambook.m4b">Download Audiobook</a>
+- <a href="https://amzn.to/4sM6SlS">Buy Paperback</a>
+
+---

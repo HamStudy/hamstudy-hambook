@@ -1,46 +1,45 @@
 ---
-chapter: 4
-section: 2
-title: "Bioactive Compounds and Defensive Chemistry"
-slug: bioactive-compounds-defensive-chemistry
+chapter: "4"
+section: "4.2"
 questions: [Y7D04, Y7D05, Y7D03, Y4B04, Y7D02, Y4B01, Y4B09, Y4B10, Y4B11]
-status: generated
+illustration: "A yam wearing a suit of golden armor made of bioactive compounds, standing guard. Small toxin molecules patrol the walls like little soldiers with spears. A friendly visitor (the human cook) approaches with a white flag labeled 'proper preparation.' The yam has a tiny smile, knowing it's protected. Style: flat character illustration, medieval-meets-chemistry, warm and slightly humorous."
 ---
 
-A yam is not merely stored starch—it is a chemical organism with its own survival agenda. The plant produces bioactive compounds for its own purposes: deterring herbivores, repelling pathogens, managing environmental stress, and signaling its presence through color. Those same compounds create direct consequences—sometimes beneficial, sometimes harmful—for humans who handle, prepare, or study the tuber. The chemistry that protects the yam does not care about human interests. Understanding whose interests are being served is the first step to working with the plant instead of against it.
+### Section 4.2: Bioactive Compounds and Defensive Chemistry
+
+![Illustration concept: A yam wearing golden chemical armor while toxin molecules guard it and a human cook approaches with a white flag labeled proper preparation](../../../images/section4-2.svg)
+{.img-xlarge .img-centered}
+
+Many of the most interesting chemicals in yams are defensive from the plant's point of view. For humans, those same compounds can mean irritation, toxicity, color, antioxidant activity, or pharmaceutical interest.
+
 ### Defensive Chemistry: Alkaloids and Saponins
 
-Some wild yam species are distinctly bitter and even toxic if eaten raw. These species contain **alkaloids and saponins**, which operate as a layered chemical security system: they make the tuber unpalatable and potentially harmful to organisms that attempt consumption. This is not accidental—it is the plant actively fighting back against being eaten. Alkaloids interfere with nervous systems; saponins disrupt cell membranes. Together they make the tuber a defended resource rather than easy prey. These compounds must be removed through special processing—like leaching in water or prolonged cooking—before the yams are safe for human consumption.
+Bitter wild yams use alkaloids and saponins as part of their chemical defense system. For people, that means some varieties are not safely edible until those compounds are removed.
 
 > **Key Information:** Toxic compounds such as **alkaloids and saponins** must be removed from certain wild yam species before consumption. {{< link id="Y7D04" >}}
 
-Another line of defense you might encounter is more immediate: skin irritation. Handling certain raw yams can cause an itchy, prickly sensation. This isn't an allergic reaction, but a mechanical one. The tubers contain **calcium oxalate crystals**, which are like microscopic needles that can irritate the skin.
+Not all defensive chemistry works through taste. Some raw yams irritate the skin mechanically through embedded crystals.
 
 > **Key Information:** The skin irritation experienced when handling certain yams is caused by **calcium oxalate crystals**. {{< link id="Y7D05" >}}
 
 ### Anthocyanins: The Color of Health
-Not all bioactive compounds are defensive. Some provide the vibrant colors we see in different yam varieties. The deep, rich purple of the purple yam (*ube*) is caused by **anthocyanin pigments**. These aren't just for show—they're powerful antioxidants that contribute to the yam's health benefits.
 
-> **Key Information:** **Anthocyanin pigments** give purple yam (ube) its distinctive color. {{< link id="Y7D03" >}}
+Some yam compounds are valued rather than feared. Purple yam is a good example, where plant pigment becomes both a visual trait and a nutritional talking point.
 
-> **Key Information:** **Anthocyanin pigments** in purple yams provide antioxidant benefits. {{< link id="Y4B04" >}}
+> **Key Information:** **Anthocyanin pigments** give purple yam (ube) its distinctive color and provide antioxidant benefits. {{< link id="Y7D03" >}} {{< link id="Y4B04" >}}
 
 ### Medicinal Potential: Diosgenin and Dioscorin
 
-Beyond their role as a food source, yams have a long history of medicinal use—but this is where the plant's interests and human interests most visibly diverge. One of the most famous compounds found in wild yams is **diosgenin**. This steroid-like molecule has been studied extensively for pharmaceutical applications, particularly because it is a precursor for synthesizing hormones. Here is what the diosgenin fact conceals: the compound exists in the yam to support the plant's own hormone regulation, not to serve human biochemistry. Humans cannot efficiently convert diosgenin into usable hormones through eating—the compound must be extracted and chemically modified in a laboratory. Traditional uses of wild yam as hormone replacement are based on a plausible-sounding mechanism that does not survive contact with human digestion. The yam is not a pharmacy; it is a plant protecting its own biological interests.
+Other compounds attract attention because they can be isolated and studied for industrial or medical use.
 
-> **Key Information:** **Diosgenin** is a compound found in wild yams that has been studied for pharmaceutical applications. {{< link id="Y7D02" >}}
+> **Key Information:** **Diosgenin** is a compound in wild yams studied for pharmaceutical applications, including its use as a hormone precursor. {{< link id="Y7D02" >}} {{< link id="Y4B01" >}}
 
-> **Key Information:** **Diosgenin** from wild yams is studied for its similarity to female hormones and use as a hormone precursor. {{< link id="Y4B01" >}}
+However, the body cannot efficiently digest diosgenin into hormones. Using wild yam as a complete substitute for medically prescribed hormone replacement therapy is not scientifically validated.
 
-While many traditional uses of wild yam for hormone replacement are based on this chemical fact, it's important to know that consuming the yam doesn't automatically mean your body can convert it into human hormones. Some traditional claims, like using wild yam as a complete substitute for medically prescribed hormone replacement therapy, have not been scientifically validated.
+> **Key Information:** Traditional use of wild yam as a **complete substitute for hormone replacement therapy** is not scientifically validated. {{< link id="Y4B09" >}}
 
-> **Key Information:** Traditional use of wild yam as a **complete substitute for hormone replacement therapy** should not be considered scientifically validated. {{< link id="Y4B09" >}}
+Yams also contain proteins like dioscorin, which may have useful bioactivity. At the same time, yam starch itself is often tolerated well by people with certain digestive sensitivities.
 
-In addition to diosgenin, yams contain proteins like **dioscorin**, which have shown anti-inflammatory properties in laboratory studies. These bioactive proteins, along with the unique structure of yam starch, can also make yams easier for some people with digestive sensitivities to process.
+> **Key Information:** **Dioscorin** and other yam proteins have been studied for their **anti-inflammatory** properties. {{< link id="Y4B10" >}} Yam starch is often **easily digested by people with certain digestive sensitivities**. {{< link id="Y4B11" >}}
 
-> **Key Information:** **Dioscorin** and other proteins found in yams have been studied for their **anti-inflammatory** properties. {{< link id="Y4B10" >}}
-
-> **Key Information:** Yam starch can be **easily digested by people with certain digestive sensitivities**. {{< link id="Y4B11" >}}
-
-Across all these compounds—from the alkaloids that defend against herbivores to the calcium oxalate crystals that discourage handling, from the anthocyanins that signal value to the compounds that attract pharmaceutical research—the same principle holds: the yam's chemistry serves the plant's survival, and each of those chemical defenses or signals produces a corresponding consequence for humans. The yam is not a food designed for humans. It is a survival system that humans learned to exploit. When those interests align—starch for energy, anthocyanins for antioxidants—the relationship works. When they conflict—alkaloids that poison, calcium oxalate that irritates—the cook must outmaneuver the plant. Understanding whose interests are being served is the first step to working with the yam instead of against it.
+Taken together, these compounds explain why yam chemistry can feel contradictory. The same tuber can resist pests, irritate skin, color a dessert, and supply molecules of medical interest depending on which compounds are under discussion.

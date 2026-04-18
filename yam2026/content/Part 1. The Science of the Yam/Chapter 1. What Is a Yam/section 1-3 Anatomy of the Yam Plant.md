@@ -1,50 +1,54 @@
 ---
 chapter: "1"
 section: "1.3"
-questions: ["Y7A02", "Y7A03", "Y7A07", "Y7A06", "Y7A04", "Y7A05", "Y7A09", "Y7A10", "Y7A11", "Y7A08"]
-status: generated
+questions: ["Y7A02", "Y7A03", "Y7A07", "Y7A09", "Y7A06", "Y7A04", "Y7A05", "Y7A10", "Y7A11", "Y7A08"]
+illustration: "An X-ray view of a whole yam plant: below ground the tuber hangs heavy with a '100% this way' arrow pointing to it; above ground, vines climb a pole with big heart-shaped leaves. Labels point to tuber body, root system, climbing vine, and leaves. The yam is doing a flexing arm pose like a bodybuilder. Style: flat anatomical diagram meets friendly mascot, clean and educational."
 ---
 
 ### Section 1.3: Anatomy of the Yam Plant
 
-A yam plant is a survival machine with multiple redundant systems. Every structure exists because it solves a specific problem—light competition, drought survival, reproduction under uncertainty, defense against herbivores. Understanding anatomy isn't abstract; it's learning to read the plant's survival strategy. A farmer who knows where tubers form can harvest without damaging them. A breeder studying leaf structure can select for higher-yielding plants. A cook who understands the difference between aerial bulbils and underground tubers can process them appropriately. The yam's structure exists for a reason, and grasping those reasons transforms identification from guesswork into informed observation.
+![Illustration concept: X-ray view of yam plant showing underground tuber and above-ground vine structure, bodybuilder pose](../../../images/section1-3.svg)
+{.img-xlarge .img-centered}
+
+Yam anatomy makes the most sense when you think in terms of function. Each major part of the plant handles a different job: climbing, storing energy, gathering light, reproducing, or defending the tuber.
 
 #### The Climbing Habit
 
-You would expect a plant whose main product is underground to stay close to the ground. Yams do the opposite—they climb aggressively. The reason: in tropical forests, light is the scarce resource, and the tuber is the battery that funds the climb.
+Yams do not stay low to the ground if they can avoid it. Their vines climb or trail so the leaves can reach better light.
 
 > **Key Information:** **Yam plants are climbing or trailing vines with underground tubers**, which allows them to reach for the sun while storing nutrients below the surface. {{< link id="Y7A02" >}}
 
 #### The Tuber: A Starchy Powerhouse
 
-> **Key Information:** The **tuber is the primary storage organ** of the yam plant, and it's where the plant stores its starchy energy reserves. {{< link id="Y7A03" >}}
+Below ground, the plant stores the season's energy in the tuber.
 
-> **Key Information:** These energy reserves are stored in **specialized parenchyma cells**, which are packed with starch granules. {{< link id="Y7A07" >}}
+> **Key Information:**
+> - The **tuber is the primary storage organ** of the yam plant, and it's where the plant stores its starchy energy reserves. {{< link id="Y7A03" >}}
+> - These energy reserves are stored in **specialized parenchyma cells**, which are packed with starch granules. {{< link id="Y7A07" >}}
+> - **Yams typically have a fibrous root system** that arises from the tuber, which helps them absorb water and nutrients from the soil. {{< link id="Y7A09" >}}
 
-#### Leaf Structure and Venation
+#### Leaf Structure and Photosynthesis
 
-> **Key Information:** Many species have **heart-shaped leaves with prominent veins that converge at the base**, which helps them maximize their surface area for photosynthesis. {{< link id="Y7A06" >}}
+Above ground, the leaves provide the photosynthetic surface that keeps the system running.
 
-> **Key Information:** Because **leaves contain chlorophyll**, they're responsible for the plant's photosynthetic activity. {{< link id="Y7A04" >}}
+> **Key Information:**
+> - Many species have **heart-shaped leaves with prominent veins that converge at the base**, which helps them maximize their surface area for photosynthesis. {{< link id="Y7A06" >}}
+> - Because **leaves contain chlorophyll**, they're responsible for the plant's photosynthetic activity. {{< link id="Y7A04" >}}
 
-#### Aerial Tubers: Bulbils
+#### Reproduction: Bulbils and Flowers
 
-> **Key Information:** In some *Dioscorea* species, you'll also find **bulbils**, which are aerial tubers that grow in the leaf axils. {{< link id="Y7A05" >}}
+Reproduction and persistence are not handled by one structure alone.
 
-#### Roots and Flowers
+> **Key Information:**
+> - In some *Dioscorea* species, you'll also find **bulbils**, which are aerial tubers that grow in the leaf axils. {{< link id="Y7A05" >}}
+> - **Yam flowers are often small** and many species have separate male and female plants. {{< link id="Y7A10" >}}
 
-> **Key Information:** **Yams typically have a fibrous root system** that arises from the tuber, which helps them absorb water and nutrients from the soil. {{< link id="Y7A09" >}}
+#### Genetic Diversity and Defense
 
-> **Key Information:** **Yam flowers are often small** and many species have separate male and female plants. {{< link id="Y7A10" >}}
+Not every yam is equally simple to eat or classify. Some wild species rely on defensive compounds, while many cultivated ones show the genetic complexity common in long-domesticated crops.
 
-#### Genetic Diversity and Secondary Metabolites
+> **Key Information:**
+> - **Many cultivated yam species are polyploid**, meaning they have multiple sets of chromosomes, which contributes to their genetic diversity. {{< link id="Y7A11" >}}
+> - In some wild species, you'll find **secondary metabolites like alkaloids and saponins**, which require special processing before the tubers can be eaten. {{< link id="Y7A08" >}}
 
-Why carry extra copies of your entire genome? Because each copy is a toolkit. Polyploid yams can express different gene variants in different tissues or environments—a flexibility that diploid plants cannot match. This is why breeders prize polyploid lines: they have more options to work with.
-
-Wild yams lace their tubers with alkaloids and saponins—compounds toxic enough to kill naïve herbivores. This isn't a defect; it's a lock. The plant invests months of photosynthesis into each tuber and protects that investment with chemistry. Human cultures that learned to process these compounds gained access to a calorie source their competitors couldn't touch.
-
-> **Key Information:** **Many cultivated yam species are polyploid**, meaning they have multiple sets of chromosomes, which contributes to their genetic diversity. {{< link id="Y7A11" >}}
-
-> **Key Information:** In some wild species, you'll find **secondary metabolites like alkaloids and saponins**, which require special processing before the tubers can be eaten. {{< link id="Y7A08" >}}
-
-Notice what the yam is doing: storing energy underground AND in aerial bulbils, gathering resources through roots AND through high-climbing photosynthetic leaves, reproducing sexually through flowers AND asexually through tuber division. Every critical function has a backup. This isn't elegance—it's the paranoia of an organism that evolved under constant threat of drought, herbivory, and competition. Understanding this redundancy is the key to understanding yam anatomy as a system, not a parts catalog. This systems view will serve you well as we move into how we name and classify yams.
+Taken together, these structures explain why yams are productive, resilient plants. They also set up the next question: how do we classify all that diversity with any precision?

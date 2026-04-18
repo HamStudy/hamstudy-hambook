@@ -1,37 +1,41 @@
 ---
-title: "Breeding and Genetic Improvement"
-slug: breeding-and-genetic-improvement
-section: 3-3
+chapter: "3"
+section: "3.3"
 questions: [Y7C06, Y7C07, Y7C02, Y7C05, Y7C04]
-status: generated
+illustration: "Two parent yam characters — one with a shield icon, one with a crown icon — being 'crossed' like ingredients in a potion. A scientist rabbit in a lab coat uses a giant pipette to combine their genetic traits. The result pops out as a super-yam seedling with a sparkly star. Punnett square patterns float in the background. Style: playful science lab illustration, warm and approachable."
 ---
 
-The pace at which yam farmers can access better varieties—higher yielding, disease resistant, better adapted—depends directly on how quickly breeders can work. Yam biology makes that work slow and complex in three distinct ways: a long generation cycle limits how fast progress can be measured, polyploidy makes trait inheritance hard to predict, and irregular flowering restricts the seed-based methods that drive most crop improvement programs. These are not independent constraints—they compound each other. Any one would slow breeding; together they multiply the delay. Understanding these constraints clarifies why yam breeding programs move cautiously and why modern molecular tools are valuable even though they do not eliminate the underlying obstacles.
+### Section 3.3: Breeding and Genetic Improvement
 
-### The Long Growing Cycle and Genetic Challenges
+![Illustration concept: Two parent yam characters — one with a shield icon, one with a crown icon — being crossed like ingredients in a potion while a scientist rabbit uses a giant pipette to create a sparkly super-yam seedling](../../../images/section3-3.svg)
+{.img-xlarge .img-centered}
 
-**Time bottleneck:** Traditional yam breeding is more challenging than breeding for many other crops for several reasons. For one, yams have a long growing cycle of 8 to 11 months, which limits the number of generations a researcher can observe in a given period.
+The pace at which farmers access better varieties—higher yielding and more disease resistant—depends on how quickly breeders can work. Yam biology makes this process slow and complex due to long growing cycles, polyploidy, and irregular flowering. These obstacles compound each other, explaining why yam breeding requires such significant time and precision.
+
+### The Growing Cycle and Genetic Challenges
+
+Traditional yam breeding is difficult due to the long growing cycle, which limits how many generations a researcher can observe.
 
 > **Key Information:** The long growing cycle and low multiplication rate make traditional yam breeding more challenging than breeding for other crops. {{< link id="Y7C06" >}}
 
-Furthermore, many cultivated varieties are polyploid, meaning they have multiple sets of chromosomes. **Genetic bottleneck:** This complexity makes it much more difficult for breeders to predict how specific traits will be inherited.
+Polyploidy (multiple sets of chromosomes) also complicates breeding by making trait inheritance harder to predict.
 
 > **Key Information:** Polyploidy (multiple sets of chromosomes) in many cultivated yam varieties complicates genetic improvement. {{< link id="Y7C07" >}}
 
-### Irregular Flowering and Seed Production
+### Flowering and Seed Production
 
-**Reproductive bottleneck:** Another major hurdle for breeders is that many cultivated varieties flower irregularly or produce very low quantities of viable seeds. 
+Another hurdle is that many cultivated varieties flower irregularly or produce few viable seeds, restricting the seed-based methods common in other crop programs.
 
 > **Key Information:** Irregular flowering and low seed production are common breeding challenges in yam improvement programs. {{< link id="Y7C02" >}}
 
 ### Modern Breeding Technologies
 
-Despite these challenges, modern technology is helping to speed up the process. Molecular technology like "marker-assisted selection" allows breeders to identify plants with desirable traits at the genetic level, even before they are fully grown.
+Modern technology is accelerating these efforts. Molecular tools like marker-assisted selection allow breeders to identify desirable traits at the genetic level early in development.
 
 > **Key Information:** Marker-assisted selection is a molecular technology that has accelerated yam breeding programs. {{< link id="Y7C05" >}}
 
-The primary goal of many of these programs is to develop varieties with increased disease resistance, particularly to the viruses that can significantly reduce crop yields.
+A primary goal is developing varieties with better disease resistance, particularly against viruses.
 
 > **Key Information:** Disease resistance, particularly to viruses, is a primary focus of yam breeding programs. {{< link id="Y7C04" >}}
 
-These constraints matter most in connection to viral diseases: the White Guinea yam is highly susceptible to yam mosaic virus, yet developing resistant varieties takes years precisely because of the time, genetic, and reproductive bottlenecks described above. While breeders navigate 8–11 month cycles and unpredictable inheritance, yam mosaic virus spreads every growing season—indifferent to the pace of research. Every delay in breeding progress is a period during which virus-infected plantings continue reducing yields. A yam breeder's entire career might span 30–35 breeding cycles; a maize breeder running 2–3 cycles per year gets 75–100. This is why the constraints are not merely academic—they directly determine how many harvests farmers must endure before reliable varieties arrive.
+These molecular advancements are vital because of the yam's long generation time. Faster breeding means farmers receive resistant varieties sooner, reducing the impact of diseases like yam mosaic virus.
