@@ -29,7 +29,7 @@ Once you pass your exam and your license application is submitted, the FCC will 
 
 > **Key Information:** It's important to maintain a valid email address with the FCC, as failure to do so could result in license suspension or revocation.
 
-If the FCC attempts to reach you by email and is unable to do so *even after you are licensed* they may choose to revoke or suspend your license, so make sure your contact information is always current.
+If the FCC attempts to reach you by email and is unable to do so *even after you are licensed*, they may choose to revoke or suspend your license, so make sure your contact information is always current.
 
 Some applications are flagged for manual (human) review for various reasons; in those cases there may be additional delays in the licensing process beyond what is described here. The VE (Volunteer Examiner) team you test with should be able to help you navigate any challenges!
 
@@ -41,7 +41,7 @@ Your license becomes valid as soon as your operator/station license grant appear
 
 You can renew by signing in through the [FCC license manager website](https://hamstudy.org/l/licMgr). If you have any issues you can contact the FCC helpdesk using contact information from their website.
 
-> **Key Information:** If your license expires, you have a two-year grace period to renew it. {{< link id="T1C09" >}} During this grace period, you may not transmit until the renewal is processed. {{< link id="T1C11" >}}
+> **Key Information:** If your license expires, you have a two-year grace period to renew it. {{< link id="T1C09" >}} During this grace period you may not transmit — you must wait until the renewal is processed before operating again. {{< link id="T1C11" >}}
 
 If you do not renew your license before the end of that grace period you will lose your license and call sign and will have to take the exam again to become licensed again.
 
@@ -55,7 +55,7 @@ There are several ways to find local exam sessions:
 2. **ARRL Website**: The American Radio Relay League (ARRL) maintains a list of exam sessions that you can find [on their website at www.arrl.org](https://www.arrl.org/find-an-amateur-radio-license-exam-session).
 3. **Local Amateur Radio Clubs**: Many clubs host regular exam sessions. Check with clubs in your area for upcoming dates.
 
-Remember that even if you find the exam session through HamStudy or another website they are usually just listing exam sessions for a specific team of Volunteer Examiners — you need to contact that team directly with any questions. If you register for the exam via HamStudy.org, for example, you should receive a registration email that you can reply to in order to contact the VE team.
+Remember that even if you find the exam session through HamStudy or another website they are simply listing exam sessions for a specific team of Volunteer Examiners — you need to contact that team directly with any questions. If you register for the exam via HamStudy.org, for example, you should receive a registration email that you can reply to in order to contact the VE team.
 
 ## Remote Exams
 

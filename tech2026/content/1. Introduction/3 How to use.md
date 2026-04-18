@@ -20,6 +20,7 @@ Each chapter breaks down topics into digestible segments, with key concepts high
 Everyone learns differently and has different goals. Here are some ways you can use this HamBook:
 
 ## Quick Path to Getting Licensed
+Not sure where to start? Here's a quick way to get licensed:
 - Skim each section first to get a general overview of the concepts
 - Focus particularly on anything *italicized* and any **"Key Information"**.
 - Pay special attention to topics that catch your interest or seem important

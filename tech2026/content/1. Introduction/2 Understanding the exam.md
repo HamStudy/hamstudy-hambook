@@ -18,7 +18,7 @@ Before diving into the study material, it's helpful to understand what you're pr
 Some key points about the exam:
 - All possible questions and their correct answers are publicly available.
 - Many of the questions simply test your knowledge of terminology or specific numbers you need to remember.
-- Though there is a lot to learn, some of the material is just common sense. Once you learn it you won't forget it easily!
+- Though there is a lot to learn, some of the material is just common sense. Once you learn it you won't forget it!
 - You don't need to be a technical expert to pass - many concepts are practical and straightforward.
 - Questions are grouped into subelements (major topics) which are in turn grouped into sections (minor topics). Each exam draws one question from each section, so if there is a section you just don't understand you can safely skip that one and still pass the exam!
 
@@ -39,7 +39,7 @@ Amateur radio operators pursue surprisingly different interests under the same l
 - Contesting.
 - Building and experimenting with equipment.
 - VHF/UHF local communications.
-- First Person View drones and/or model aircraft.
+- First-person view (FPV) drones and model aircraft.
 - Wide area Mesh networking.
 
 The question pool tries to ensure all new licensees have at least basic knowledge across these diverse areas, even if you initially only plan to use one aspect of the hobby.
@@ -64,4 +64,4 @@ Remember that you need to answer 26 out of 35 questions correctly, which gives y
 
 The beauty of amateur radio is that you can start with whatever interests you most, then explore other facets of the hobby at your own pace after getting licensed.
 
-The moral? This exam isn't as difficult as you might think, and with this book you can choose how deeply you want to learn the material while preparing for your license!
+This exam isn't as difficult as you might think, and with this book you can choose how deeply you want to learn the material while preparing for your license!

@@ -23,10 +23,10 @@ People come to amateur radio for many different reasons. You might be interested
 - Emergency communications and public service
 - Building and experimenting with radio equipment
 - Making friends over the airwaves
-- The technical challenge of bouncing signals off satellites
-- Or simply having a new way to chat with people while driving
+- Bouncing signals off satellites
+- Chatting with people while driving
 
-Whatever draws you to amateur radio, this HamBook is designed to help you get licensed and start exploring. You can choose how deeply you want to dig into each topic - some concepts are fascinating to explore in detail, while others you might just need to know enough to pass the exam.
+Whatever draws you to amateur radio, this HamBook is designed to help you get licensed and start exploring. You can choose how deeply you want to explore each topic — some concepts are fascinating to dive into, while others you might just need to know enough to pass the exam.
 
 Remember, getting your license is just the first step. Many hams find that their real learning and growth happens once they get on the air and start operating. Whether you choose to study intensively or take a more gradual approach, we're here to help you join the amateur radio community.
 
