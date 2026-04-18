@@ -3631,21 +3631,22 @@
                         },
                         {
                             "keywords": [
-                                "Simmered",
-                                "coconut",
-                                "milk",
-                                "spice",
-                                "sauce"
+                                "Pounded",
+                                "boiled",
+                                "smooth",
+                                "stretchy",
+                                "dough",
+                                "soup"
                             ],
                             "id": "Y5D07",
                             "fccpart": "",
                             "answer": "A",
-                            "text": "What is the main ingredient in the Brazilian dish \"caruru\"?",
+                            "text": "What describes the traditional West African preparation \"pounded yam\" (Iyan)?",
                             "answers": {
-                                "A": "Okra",
-                                "B": "Yam",
-                                "C": "Cassava",
-                                "D": "Plantain"
+                                "A": "Boiled yam mechanically pounded into a smooth, stretchy dough served with soup",
+                                "B": "Grated water yam formed into balls and cooked in pepper soup",
+                                "C": "Yam sliced thin, battered, and deep-fried until crisp",
+                                "D": "Yam cooked in coconut milk with seafood and vegetables"
                             }
                         },
                         {

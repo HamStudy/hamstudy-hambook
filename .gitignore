@@ -8,6 +8,7 @@ hugo-root/resources
 */hugo/public
 */hugo/resources
 */hugo/static/images
+logs/
 .codebuddy
 .vscode
 .hugo_build.lock

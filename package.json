@@ -13,7 +13,12 @@
     "import:general2023": "node src/import.js -f hugo general2023 -o general2023/hugo",
     "import:general2023:watch": "node src/import.js -f hugo general2023 -o general2023/hugo --watch",
     "serve:general2023": "../hugo.sh serve -s general2023/hugo --cleanDestinationDir -p 1313",
-    "dev:general2023": "npm run import:general2023 && concurrently \"npm:import:general2023:watch\" \"npm:serve:general2023\""
+    "dev:general2023": "npm run import:general2023 && concurrently \"npm:import:general2023:watch\" \"npm:serve:general2023\"",
+
+    "import:yam2026": "node src/import.js -f hugo yam2026 -o yam2026/hugo",
+    "import:yam2026:watch": "node src/import.js -f hugo yam2026 -o yam2026/hugo --watch",
+    "serve:yam2026": "../hugo.sh serve -s yam2026/hugo --cleanDestinationDir -p 1313",
+    "dev:yam2026": "npm run import:yam2026 && concurrently \"npm:import:yam2026:watch\" \"npm:serve:yam2026\""
   },
   "devDependencies": {
     "concurrently": "^9.2.1"

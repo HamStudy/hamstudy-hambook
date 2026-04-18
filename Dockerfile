@@ -19,6 +19,8 @@ RUN npm install
 
 COPY . .
 
+COPY ci_scripts/compress_files.sh /app/build/compress_files.sh
+
 RUN node src/import.js -f hugo tech2022 -o tech2022/hugo
 
 WORKDIR /app/tech2022/hugo

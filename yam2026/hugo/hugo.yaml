@@ -16,6 +16,11 @@ params:
   BookSubtitle: "From the Creators of HamStudy"
   BookLogo: "figures/coverfornow.jpg"
   qrBaseURL: "https://hamstudy.org/api/v1/qrcode"
+  studyBaseURL: "https://yamstudy.org"
+  hsBaseURL: "https://yamstudy.org/flashcard/Y1_2025?bk=yambook&def=q:"
+  phoneIconFile: "/svg/phone2_yam_a.svg"
+  studyLinkText: "YamStudy"
+  hideStudyPrompt: true
   figurePath: "figures/%s"
   linktrim: ""
 
