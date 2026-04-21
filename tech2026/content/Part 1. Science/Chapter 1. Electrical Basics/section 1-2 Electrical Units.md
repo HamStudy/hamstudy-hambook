@@ -14,15 +14,11 @@ To understand how our radios work, we need to familiarize ourselves with some ba
 ![Remake of a classic illustration showing three figures – voltage is pushing current, Resistance is squeezing a pipe to resist current flowing, current is being pushed through the narrow pipe](../../../images/illus/ohmslawpigs.svg)
 {.img-pgcap .float-right}
 
-While we often compare electricity to water flowing through pipes, this analogy isn't perfect. Let's look at what's really happening:
-
-**Voltage** ($E$ or $V$) is like electrical "pressure" - *it's the force that causes electron flow in a circuit*, and we measure it in **volts (V)**.  {{< link id="T5A05" >}}
+**Voltage** ($E$ or $V$) is like electrical "pressure" — *it's the force that causes electron flow in a circuit*, and we measure it in **volts (V)**. {{< link id="T5A05" >}}
 - Voltage is also sometimes called **electromotive force (EMF)**, because it creates the conditions that allow current to flow.
 - Voltage is always measured *between two points*. When we say a car battery is 12V, we mean there's a **12-volt difference** between its positive and negative terminals.
 
-**Current** ($I$) is *the flow of electrons in an electric circuit*, measured in **amperes (A)**. {{< link id="T5A01" >}} {{< link id="T5A03" >}} Here's what's interesting:
-
-While individual electrons move quite slowly through a conductor (about half an inch per minute!), the movement of electrical charges is nearly instantaneous - like a long tube filled with marbles. Push one in at one end, and one pops out the other end almost immediately.
+**Current** ($I$) is *the flow of electrons in an electric circuit*, measured in **amperes (A)**. {{< link id="T5A01" >}} {{< link id="T5A03" >}} Individual electrons actually move quite slowly through a conductor — about half an inch per minute — but the movement of electrical charge is nearly instantaneous, like a long tube filled with marbles: push one in at one end, and one pops out the other end almost immediately.
 
 In amateur radio, you might deal with:
 - **Milliamps (mA)** in low-power circuits
@@ -43,17 +39,17 @@ These three quantities are fundamentally linked as explained by **Ohm's Law**, w
 
 When current flows through a resistive component or wire, some voltage is "used up" in the process. This decrease in voltage is called **voltage drop**.
 
-It's similar to water pressure decreasing as water flows through a pipe - the longer or narrower the pipe, the more pressure is lost. In electrical terms, when current flows through resistance, voltage decreases along the path.
+It's similar to water pressure decreasing as water flows through a pipe — the longer or narrower the pipe, the more pressure is lost. In electrical terms, when current flows through resistance, voltage decreases along the path.
 
 This concept is important in amateur radio because:
 - Long power cables to your radio can result in lower voltage at the radio than at the power source
 - Higher current draw (like during transmission) increases voltage drop
 
-This is why most mobile ham installations use thick, short power cables - to minimize voltage drop when operating equipment that draws significant current. This is a direct application of how resistance affects current and voltage in real-world amateur radio setups.
+This is why most mobile ham installations use thick, short power cables — to minimize voltage drop when operating equipment that draws significant current.
 
 #### Frequency {#12frequency}
 
-Now that we understand these basic DC electrical concepts, let's look at alternating current and frequency.
+So far we've been talking about electricity in steady, unchanging terms. But in amateur radio, we spend a lot of time dealing with electricity that changes — often very rapidly.
 
 In amateur radio, we often deal with **alternating current (AC)**, which smoothly changes direction in a sine wave pattern, unlike DC which flows constantly in one direction.
 
@@ -62,7 +58,7 @@ In amateur radio, we often deal with **alternating current (AC)**, which smoothl
 
 AC occurs naturally when a magnet rotates near a wire. As the magnet's north pole approaches the wire, current flows one way. When the south pole approaches, current flows the opposite way. This continuous rotation creates the smooth sine wave pattern shown in the diagram. This is the basic principle behind generators that produce the electricity powering our homes and the alternating currents in our radio circuits.
 
-The diagram shows two complete **cycles** of AC - each starting at zero, rising to a positive peak, falling through zero to a negative peak, then returning to zero. *The number of these cycles completed per second is called frequency, measured in Hertz (Hz)*. {{< link id="T5A04" >}} {{< link id="T5A06" >}}
+The diagram shows two complete **cycles** of AC — each starting at zero, rising to a positive peak, falling through zero to a negative peak, then returning to zero. *The number of these cycles completed per second is called frequency, measured in Hertz (Hz)*. {{< link id="T5A04" >}} {{< link id="T5A06" >}}
 
 Some examples:
 - Household power: **60 Hz** (60 cycles per second)
@@ -73,7 +69,7 @@ Understanding *frequency* is crucial in amateur radio because it determines *whi
 
 #### Power
 
-Power is *the rate at which electrical energy is used or generated in a circuit*. {{< link id="T5A10" >}} It's measured in **watts (W)** {{< link id="T5A02" >}} and is calculated using the **Power Law**, which we'll cover in **Section 1.3**.
+Power is *the rate at which electrical energy is used or generated in a circuit*. {{< link id="T5A10" >}} It's measured in **watts (W)**. {{< link id="T5A02" >}}
 
 In amateur radio, power is important because:
 
@@ -107,7 +103,7 @@ Electricity comes in two types:
 - **Direct Current (DC)** flows *in one direction*, like from a **battery** or power supply. Most radios run on **12V DC**.
 - **Alternating Current (AC)** *constantly reverses direction, alternating between positive and negative directions*, like **household power**. {{< link id="T5A09" >}}
 
-Most ham gear runs on **DC power**, but **radio signals themselves are AC**—they alternate at **radio frequencies**. Radio frequency (RF) signals are simply AC signals at very high frequencies used for wireless communication.
+Most ham gear runs on **DC power**, but **radio signals themselves are AC** — they alternate at **radio frequencies**. Radio frequency (RF) signals are simply AC signals at very high frequencies used for wireless communication.
 
 *Resistance opposes all types of current flow*, including direct current, alternating current, and RF current. {{< link id="T5A11" >}}
 
@@ -180,6 +176,4 @@ All of the conversions in this table are worth memorizing for the exam!
 
 ---
 
-#### **Wrapping It All Up**
-
-Understanding these electrical quantities will help you make sense of your radio gear and pass the exam. As you continue your ham radio journey, these ideas will come up again and again, so keep this knowledge handy!
+That covers the vocabulary — voltage, current, resistance, power, and the units we use to measure them. In the next section, we'll look at how these quantities connect to each other through two simple formulas that anyone working with electricity should understand.

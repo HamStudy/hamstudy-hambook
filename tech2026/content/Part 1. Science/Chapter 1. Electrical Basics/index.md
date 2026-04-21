@@ -4,12 +4,10 @@ slug: chpt1
 pagebreak: false
 ---
 
-## Chapter 1: Electrical Principles  
+## Chapter 1: Electrical Principles
 
-Welcome to the foundation of amateur radio — electrical principles! In this chapter, we’ll unravel the fascinating world of electricity that powers all our radio adventures. Don’t worry if you’re not an electrical engineer; we’ll break these concepts down into bite-sized, easy-to-understand pieces.  
+Everything a radio does starts with electricity. You don't need to design your own circuits to get on the air, but a little understanding of the fundamentals makes plenty of everyday things easier — from picking the right battery to wiring up a mobile install.
 
-We'll start with the basics - what is electricity, and how does it behave? You'll learn about voltage, current, and resistance, the three musketeers of electrical circuits. We'll explore Ohm's Law, the fundamental relationship between these quantities, and see how it applies to real-world radio situations.
+Ever keyed up a mobile radio on high power and had it shut off mid-sentence, even though the car's battery was fine? This is just one of many types of real-world problems that can be easily answered with a little "grounding" in electronics. (See what we did there?)
 
-As we progress, we'll delve into the differences between AC and DC, understand power in electrical systems, and introduce you to the concepts of capacitance and inductance. These principles form the backbone of how radio waves are generated, transmitted, and received.
-
-By the end of this chapter, you'll have a decent grasp of electrical fundamentals that will serve you well throughout your amateur radio journey. So, let's flip the switch and energize our learning!
+Nothing here requires an engineering background, and you can pass the Technician exam without memorizing a single formula. But the concepts are worth understanding — they'll come up everywhere for the rest of the book, and for the rest of your time as a ham.

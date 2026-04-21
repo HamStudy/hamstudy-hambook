@@ -13,7 +13,7 @@ Okay, let's get into some of the basic math and electrical laws you'll use all t
 
 A lot of people see math questions and immediately start stressing — but there's **no reason to panic**. At **most**, you'll see **two** math-related questions on your exam: **one from {{< qid >}}T5C{{< /qid >}} (power formulas) and one from {{< qid >}}T5D{{< /qid >}} (Ohm's Law).** And guess what? You can **miss up to 9 questions and still pass**!  
 
-So if this section just isn't clicking for you, **don't worry about it**—skip it and focus on the parts that make more sense. But if you take a little time to understand these formulas, you might find that they're **actually pretty simple** and can help you in real-world radio troubleshooting.
+So if this section just isn't clicking for you, **don't worry about it** — skip it and focus on the parts that make more sense. But if you take a little time to understand these formulas, you might find that they're **actually pretty simple** and can help you in real-world radio troubleshooting.
 
 ![cartoon showing a triangle with ohm's law (E = I * R) wearing a superhero mask and cape](/images/illus/ohmslawhero.svg)
 {.img-small .float-right}
@@ -146,13 +146,11 @@ I &= 10 \text{ amperes}\\
 ![Illustration of a boy shrugging with a questioning look on his face, a question mark hovers above](../../../images/illus/boyquestion.svg)
 {.img-pgcap .float-right}
 
-You might be wondering, *"Why should I care about all this?"* Well, whenever you work with electronics, you will use these laws all the time. Whether you're **figuring out how much power your transmitter is using**, **picking the right resistor for a circuit**, or **troubleshooting why something isn't working**, Ohm's Law and the Power Law are your best friends.
+Whenever you work with electronics, you'll use these laws all the time. Whether you're **figuring out how much power your transmitter is using**, **picking the right resistor for a circuit**, or **troubleshooting why something isn't working**, Ohm's Law and the Power Law are your best friends.
 
-- **Voltage Drop**: Remember voltage drop from Section 1.2? Ohm's Law gives us the formula: $\text{Voltage Drop} = I \times R$. This explains why higher voltage systems (like 24V vs 12V) experience less impact from the same drop - the percentage of lost voltage is smaller. This is also why mobile installations use thick, short power cables - to minimize R and therefore minimize the drop.
+- **Voltage Drop**: Remember voltage drop from Section 1.2? Ohm's Law gives us the formula directly: $\text{Voltage Drop} = I \times R$. This is why mobile installations use thick, short power cables — larger-gauge wire has lower R, and shorter cables mean less total resistance, which minimizes the drop. It's also why power distribution systems use high voltages: for the same power delivered ($P = I \times E$), a higher voltage means less current, and less current through the same wire means less voltage drop and less power wasted as heat.
 - **Power Rating**: Every electrical component has a limit on how much power it can handle before it overheats. **The Power Law** helps you make sure your components stay within safe limits.
 - **Efficiency**: When setting up **power systems and antennas**, understanding **how voltage, current, and power interact** helps you design more efficient systems.
-
-The more you **practice using these**, the easier they become. Soon enough, you'll be solving electrical problems on the fly!
 
 ---
 
