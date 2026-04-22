@@ -6,15 +6,8 @@ pagebreak: true
 
 ## Chapter 2: Electrical Components
 
-Every radio is made up of basic building blocks - electrical components that work together to make communication possible. In this chapter, we'll introduce you to these components and help you understand their roles in amateur radio equipment.
+Chapter 1 was about the principles. This chapter is about the things those principles apply to.
 
-You don't need to be an electrical engineer to understand this stuff! We'll keep things simple and practical, focusing on what these components do rather than complex theory. It's just like getting to know the different tools in a toolbox - you don't need to know how to build them, just what they're used for.
+Open up any radio, or look at a schematic diagram, and you'll see dozens of small parts — resistors, capacitors, inductors, diodes, transistors, and so on — each doing a specific job. We're not going to teach you how to design circuits with them; that's a full electronics course, and it's not what you need for a Technician license. What we *are* going to do is give you a field guide: what these parts are, what they do at a high level, and how to recognize them when they show up in a schematic or a conversation.
 
-We'll look at:
-- Basic parts like resistors and capacitors
-- How components appear in circuit diagrams
-- What different components do in radio equipment
-
-The goal isn't to make you an electronics expert - it's to help you understand what's happening inside your radio equipment and to prepare you for your license exam. By the end of this chapter, you'll be familiar enough with these components to understand basic radio concepts and troubleshooting.
-
-Let's get started with these building blocks of amateur radio!
+That's enough to take some of the mystery out of the stuff inside your equipment, and enough to handle the component questions on the exam. If you want to go deeper after that, there's a whole world of hobbyist electronics waiting — but this chapter isn't trying to be the entire trip.

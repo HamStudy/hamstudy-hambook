@@ -1,27 +1,35 @@
 ---
 chapter: "2"
 section: "2.1"
-questions: [ "T6A01", "T6A04", "T6A05", "T6A06", "T6A07", "T6D08", "T5D13", "T5D14", "T6A03", "T6A02", "T6A08", "T6A09" ]
+questions: [ "T5D13", "T5D14", "T6A01", "T6A04", "T6A05", "T6A06", "T6A07", "T6D08", "T6A03", "T6A02", "T6A08", "T6A09" ]
 status: complete
-illustration_ideas:
-- component family portrait - A simple line drawing header for the section showing the basic components with friendly faces, positioned like a family photo.
-- capacitor internals, showing two conductive plates with an insulator
-- inductor and capacitor energy storage comparison (magnetic field vs electric field)
-- Railroad track SPDT switch diagram
-- Series vs parallel circuit diagrams
 ---
 
 ### Section 2.1: Basic Components
 
-When you peek inside any radio equipment, you'll find a fascinating array of electronic components working together in harmony. Let's start our exploration with passive components - the workhorses of electronic circuits that don't require an external power source to function.
+When you peek inside a piece of radio gear, you'll see a lot of small parts arranged on a circuit board. Before we look at the individual parts, it's worth understanding the two basic ways any of them can be connected.
 
-#### Resistors: The Traffic Cops of Electronics
+#### Circuit Configurations: Series and Parallel
 
-> **Key Information:** A resistor opposes the flow of current in any circuit (including a DC circuit).{{< link id="T6A01" >}}
+> **Key Information:**
+> - In *series circuits*, current is the same through all components. {{< link id="T5D13" >}}
+> - In *parallel circuits*, voltage is the same across all components. {{< link id="T5D14" >}}
 
-*Resistors* are small cylindrical components with colored bands that indicate their resistance value. These color codes help electronics enthusiasts determine the component's resistance. 
+Every circuit connects components in one of two arrangements (or some mix of both):
+
+- **Series** means the components are wired end-to-end, so there's only one path for current to follow. Since there's just one path, the same current flows through every component.
+- **Parallel** means the components are wired across the same two points, giving current multiple paths it can take. Each path sees the same voltage, but the current can split between them.
+
+For the Technician exam, those two facts are all you need. The deeper details — how resistors, capacitors, and inductors specifically behave when combined in series or parallel — are General class material, so we'll keep it surface level here. With that out of the way, let's meet the components themselves.
+
+#### Resistors
+
+> **Key Information:** A resistor opposes the flow of current in any circuit (including a DC circuit). {{< link id="T6A01" >}}
+
+*Resistors* are the most common component in electronic circuits, and the simplest: they resist current. The through-hole kind you see in older equipment and hobbyist projects are small cylindrical parts with colored bands around them; the bands encode the resistance value using a standard color code. (You can learn how to read it elsewhere, if you care — you don't need that for the exam.) Modern equipment more often uses tiny surface-mount resistors with their values printed as numbers, but the function is the same.
 
 Common applications in amateur radio include:
+
 1. Dividing voltages to protect delicate components
 2. Limiting current to sensitive parts
 3. Setting operating points in amplifier circuits
@@ -31,83 +39,69 @@ Common applications in amateur radio include:
 ![Illustration with a cartoon capacitor and inductor, clearly fraternal twins](../../../images/illus/inducticap.svg)
 {.img-pgcap .float-right}
 
-Just as a battery stores energy chemically, capacitors and inductors also store energy — but in completely different ways. These components are like siblings: they complement each other while having their own unique characteristics.
+A battery stores energy chemically. Capacitors and inductors also store energy, and they do it with fields rather than chemistry — and they each use a different kind of field. That's the one big thing to know about these two components, and it's most of what the exam asks.
 
-##### Capacitors: Electric Field Energy Storage
-
-> **Key Information:**
-> - A capacitor stores energy in an *electric field*{{< link id="T6A04" >}}
-> - A capacitor consists of *conductive surfaces (usually metal plates) separated by an insulator*. This physical structure is fundamental to how capacitors work and is frequently tested.{{< link id="T6A05" >}}
-
-*Capacitors* come in various shapes and sizes, from tiny ceramic discs to large cylindrical types. Their capacity to store charge is measured in farads (F), though most radio circuits use microfarads (µF) or picofarads (pF).
-
-In amateur radio, capacitors are used to:
-1. Smooth out fluctuations in power supplies (AC to DC converters)
-2. Block unwanted signals or noise, including keeping RF out of audio circuits
-3. Help select or tune specific frequencies in a circuit
-
-##### Inductors: Magnetic Field Energy Storage
+##### Capacitors
 
 > **Key Information:**
-> - Inductors store energy in a magnetic field {{< link id="T6A06" >}}
-> - They are typically constructed as a *coil of wire* {{< link id="T6A07" >}}
+> - A capacitor stores energy in an *electric field*. {{< link id="T6A04" >}}
+> - A capacitor consists of *conductive surfaces (usually metal plates) separated by an insulator*. {{< link id="T6A05" >}}
+
+The physical structure — two conductors with an insulator between them — is what gives a capacitor its ability to hold a charge. Put a voltage across the plates and charge builds up on them, creating an electric field between the plates that stores energy. Remove the voltage and the stored energy stays there until something gives it somewhere to go.
+
+Capacitors come in all sorts of shapes and sizes, from tiny ceramic discs to large cylindrical cans. Their storage capacity is measured in *farads (F)*, though most real-world radio circuits use much smaller values — microfarads (µF) or picofarads (pF).
+
+In amateur radio, capacitors show up in a lot of roles:
+
+1. Smoothing out fluctuations in power supplies (converting AC into clean DC)
+2. Blocking unwanted signals or noise, including keeping RF out of audio circuits
+3. Helping select or tune specific frequencies in a circuit
+
+WARNING: Capacitors often retain charge for a time after you disconnect power - we'll cover this more in Chapter 5, but messing around with recently-powered capacitors can be pretty dangerous!
+
+##### Inductors
+
+> **Key Information:**
+> - Inductors store energy in a *magnetic field*. {{< link id="T6A06" >}}
+> - They are typically constructed as a *coil of wire*. {{< link id="T6A07" >}}
 > - They are *used with capacitors* to make a *resonant circuit*. {{< link id="T6D08" >}}
 
-While capacitors store energy in an electric field, *inductors* store energy in a magnetic field that forms around the coil when current flows through it. This complementary relationship makes them perfect partners in radio circuits.
+Where a capacitor stores energy in an electric field between plates, an *inductor* stores it in a magnetic field that forms around a coil of wire when current flows through it. That's why nearly every inductor you'll see looks like a coil — the coil shape concentrates the magnetic field and makes the storage effect stronger.
 
-*Inductors* play important roles in radio circuits, including:
-1. Signal filtering
-2. Impedance matching
-3. Energy storage
+Inductors play a few important roles in radio circuits, including signal filtering, impedance matching, and (together with capacitors) forming the *resonant circuits* that let a radio select one specific frequency out of the many it's receiving. That last one is a big deal — it's how your radio picks a station out of the noise, and we'll come back to it in later chapters.
 
-Together, capacitors and inductors form the foundation of tuned circuits that select specific frequencies — the heart of radio technology.
+In terms of retaining charge, Inductors behave differently from Capacitors: they store energy only while current is flowing. Break the current path suddenly, though, and the collapsing field can produce a brief high-voltage spike — usually managed by the circuit, but worth knowing about.
 
-#### Understanding Circuit Configurations
-
-> **Key Information:** The fundamental differences between series and parallel circuits are:
-> - In *series circuits*, current is the same through all components {{< link id="T5D13" >}}
-> - In *parallel circuits*, voltage is the same across all components. {{< link id="T5D14" >}}
-
-These two circuit types behave very differently:
-- **Series Circuits**: Components are connected end-to-end in a single path. If one component fails, the entire circuit stops functioning.
-- **Parallel Circuits**: Components are connected across the same two points. If one path fails, current can still flow through the other paths.
-
-#### Potentiometers: The Adjustable Resistors
+#### Potentiometers
 
 > **Key Information:** A *potentiometer is used to control resistance* {{< link id="T6A03" >}} and is often used as a *volume control*. {{< link id="T6A02" >}}
 
-A *potentiometer* is a variable resistor. As you turn the knob or slide the control, the resistance changes. In amateur radio, they are commonly used for:
-1. Volume control
-2. Adjusting transmit power levels
-3. Adjusting the squelch control
+A *potentiometer* is a resistor you can adjust. As you turn the knob or slide the control, the resistance changes — which makes it useful anywhere you want a continuously-variable setting rather than a fixed value. In amateur radio, they commonly show up as:
 
-#### Switches: The Circuit Controllers
+1. Volume controls
+2. Squelch controls
+3. Transmit power adjustments
+
+#### Switches
 
 > **Key Information:**
-> * For your exam, you need to know about an *SPDT (Single Pole, Double Throw) switch*. This type of switch allows *a single circuit to be switched between one of two other circuits*.{{< link id="T6A08" >}}
-> * You will also need to be able to *identify a SPST (Single Pole, Single Throw) switch on a circuit diagram*. {{< link id="T6A09" >}}
+> * An *SPDT (Single Pole, Double Throw) switch* allows *a single circuit to be switched between one of two other circuits*. {{< link id="T6A08" >}}
+> * You'll also need to recognize an *SPST (Single Pole, Single Throw) switch* on a circuit diagram. {{< link id="T6A09" >}}
 
 ![Diagram of a SPST switch](../../../images/s2-1-spst-switch.svg)
 {.img-small .float-right .mb-1 .img-bw}
 ![Diagram of a SPDT switch](../../../images/s2-1-spdt-switch.svg)
 {.img-small .float-right .clear .img-bw}
 
-A SPST switch is a simple on/off switch that controls one input. A SPDT switch is similar, but instead of merely turning the input on or off it switches it between two outputs. Think of an SPDT switch like a railroad track switch with one input track (the pole) that can connect to either of two output tracks (the throws). When you flip the switch, you're choosing which output track the input will connect to.
+Switches are described using two terms:
 
-Switches are described using two key terms:
-- **Poles**: The number of separate circuits a switch can control
-- **Throws**: The number of positions each circuit can be connected to
+- **Poles**: how many separate circuits the switch controls
+- **Throws**: how many positions each circuit can be connected to
 
-For example, in an SPDT switch:
-- Single Pole: Controls one circuit
-- Double Throw: Can connect that circuit to either of two positions
+So an SPST (Single Pole, Single Throw) switch is your classic on/off switch — one circuit, one position (besides off). An SPDT (Single Pole, Double Throw) switch is similar, but instead of just on/off, it routes the one input between two possible outputs. Think of it like a railroad switch with one incoming track (the pole) that can connect to either of two outgoing tracks (the throws).
 
-In amateur radio, switches are crucial for:
-1. Turning equipment on and off
-2. Selecting between different antennas
-3. Changing bands or modes on a transceiver
-4. Activating or deactivating specific features of a radio
+In amateur radio, switches show up for things like turning equipment on and off, selecting between antennas, changing bands or modes on a transceiver, and activating features like noise blankers or attenuators.
 
-#### Putting it together
+---
 
-Understanding these passive components - resistors, capacitors, inductors, potentiometers, and switches - is crucial for grasping how electronic circuits work. They're the building blocks that allow your radio equipment to function, controlling and shaping electrical signals in precise ways. As you continue your journey in amateur radio, you'll encounter these components again and again, each time gaining a deeper appreciation for their roles in making radio communication possible.
+With components in hand, the next question is what else might be inside a radio — and that's where semiconductors come in.
