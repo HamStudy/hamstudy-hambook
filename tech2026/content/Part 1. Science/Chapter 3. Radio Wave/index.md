@@ -6,17 +6,6 @@ pagebreak: true
 
 ## Chapter 3: Radio Wave Principles
 
-Ever wondered how your voice can travel through thin air to reach another radio operator? In this chapter, we'll explore radio waves - the invisible carriers that make amateur radio possible. Don't worry, we'll keep it practical and straightforward!
+You press a button, talk into a mic, and someone miles away hears you clearly — no cell phone, no internet, no wires between you. That's the whole point of ham radio, and this chapter is about how it actually works: what a radio wave is, how it travels, and why some frequencies behave differently from others.
 
-We'll look at:
-- How wavelength and frequency work together
-- The different parts of the radio spectrum and how we use them
-- Why some radio signals travel farther than others
-- Different ways to send information over radio waves
-- How digital technology fits into the picture
-
-You'll learn enough about these topics to understand how your radio works and to make good operating decisions. We won't get lost in complex physics - instead, we'll focus on what you need to know to be an effective operator and pass your exam.
-
-By the end of this chapter, you'll understand why some bands work better for local chats while others can reach around the world, and you'll be ready to make the most of your radio privileges.
-
-Let's explore the fascinating world of radio waves!
+There's more physics in this chapter than the last two, but most of it boils down to a few ideas that cover a lot of ground (no pun intended). We'll focus on understanding the concepts rather than memorizing tables, and we'll come back to this material repeatedly throughout the rest of the book.

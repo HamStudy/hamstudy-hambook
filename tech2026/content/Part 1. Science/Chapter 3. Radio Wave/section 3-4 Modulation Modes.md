@@ -77,7 +77,7 @@ One fascinating aspect of amateur radio is how available bandwidth influences ou
   - VHF/UHF repeater bands can handle FM voice, which needs more bandwidth
   - Fast-scan television requires massive bandwidth (about 6 MHz!) That's more than the width of any of the amateur bands below 70cm, so it is only allowed on 70cm and above.
 
-As frequency ranges get wider, you can use more bandwidth-intensive modes. A 2-meter band voice contact might use wide FM (15kHz) or narrow FM (5kHz), or even narrower SSB (3kHz). There are digital modes which can be even narrower. One digital mode, PSK31 (which we'll discuss in the next section), is so narrow that it only takes up about 31 Hz of bandwidth — the name comes from that.
+As frequency ranges get wider, you can use more bandwidth-intensive modes. A 2-meter band voice contact might use wide FM (15kHz) or narrow FM (5kHz), or even narrower SSB (3kHz). There are digital modes that can be even narrower. One digital mode, PSK31 (which we'll discuss in the next section), fits in roughly 60 Hz in practical use — narrower than a typical CW signal.
 
 This flexibility is part of what makes amateur radio so dynamic and exciting.
 

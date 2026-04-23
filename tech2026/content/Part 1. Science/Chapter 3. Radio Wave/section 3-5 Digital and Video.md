@@ -10,52 +10,55 @@ status: complete
 !["Family" portrait with FT8 as a kid with headphones, DMR as a cool businessman, SSTV as a happy lady with a camera, and RTTY as a crusty old-timer with a typewriter](../../../images/illus/meet-dig-modes.svg)
 {.img-pgcap .float-right}
 
-Welcome to the digital age of amateur radio! If voice modes are like having a conversation, digital modes are like sending text messages or emails through the airwaves. And video? You might be surprised to know that it's been possible to send pictures and even television via Amateur Radio for decades!
+If voice modes are like making a phone call, digital modes are like sending text messages or emails through the airwaves. Some modes carry voice as digital data; some send text, position reports, or images; and a few can even send full-motion video. Digital modes have been a growing part of amateur radio for decades, and the number of them can feel overwhelming at first. We'll focus on the ones that show up on the exam and give you a sense of what each is useful for.
+
+One note before we get started: this section covers a lot of ground, and you don't need to memorize all of it. The only things you need to remember for the exam are highlighted in the Key Information blocks. Everything else is here to give you context — a sense of what's out there and how these modes fit together — so that when you encounter them on the air or in conversation, you'll know what people are talking about.
 
 > **Key Information:** Digital communications modes include packet radio, IEEE 802.11, and FT8, among others. {{< link id="T8D01" >}}
 
 #### Packet Radio
 
-> **Key Information:** Packet radio includes error detection checksum, destination station call sign, and automatic repeat request. {{< link id="T8D08" >}}
+> **Key Information:** Packet radio transmissions include a *checksum that permits error detection*, a *header that contains the call sign of the station to which the information is being sent*, and *automatic repeat request in case of error*. {{< link id="T8D08" >}}
 
-Imagine sending an email through radio waves. That's essentially what packet radio does! It breaks your message into small "packets" of data, sends them over the air, and then reassembles them at the receiving end. Each packet includes a *checksum for error detection*, the *call sign of the destination station*, and an *automatic repeat request if errors are detected*.
+Packet radio is the original digital mode for sending data over amateur radio. The core idea is straightforward: your message gets split into small chunks called packets, each with a destination address and error-checking information, and those packets are sent over the air. The receiving station reassembles them back into the original message.
 
-It's like sending a puzzle through the air that reassembles itself perfectly on the other side! Packet radio was a big deal in the 1980s and 1990s before the internet became widespread. Today, it's still used in some applications, especially in emergency communications.
+Packet radio was a big deal in the 1980s and 1990s before the internet became widespread. It's still used today in some applications, especially emergency communications.
 
 #### APRS (Automatic Packet Reporting System)
 
 > **Key Information:**
-> - APRS can transmit GPS position data, weather data, and text messages. {{< link id="T8D03" >}}
-> - APRS provides real-time tactical communications with station location mapping. {{< link id="T8D05" >}}
+> - APRS can transmit *GPS position data*, *weather data*, and *text messages*. {{< link id="T8D03" >}}
+> - APRS provides *real-time tactical digital communications* in conjunction with a map showing the locations of stations. {{< link id="T8D05" >}}
 
-*APRS* lets you transmit *GPS position data*, *weather information*, and *short text messages* while providing *real-time tactical digital communications in conjunction with a map showing the locations of stations*. It's like Twitter meets Google Maps, but for radio!
+APRS is a specialized form of packet radio built around location-aware messaging. Stations with GPS receivers beacon their positions periodically, and the whole network gets displayed on shared maps that anyone can tune into. It's like Twitter meets Google Maps, but for radio — extremely useful for event communications, public service work, and keeping track of mobile stations.
 
 #### PSK31
 
-> **Key Information:** PSK stands for Phase Shift Keying. {{< link id="T8D06" >}}
+> **Key Information:** PSK stands for *Phase Shift Keying*. {{< link id="T8D06" >}}
 
 *PSK* (*Phase Shift Keying*) is ideal for real-time, keyboard-to-keyboard conversations. PSK31 operates at a symbol rate of 31.25 baud, roughly matching typical typing speed. It's so narrow that contacts can be spaced just 100 Hz apart, allowing many signals to fit where a single voice transmission would.
 
 #### RTTY (RadioTeletype)
 
-RTTY is the granddaddy of digital modes, dating back to the 1930s. It's pretty much a radio-based typewriter. It's still popular in contests and among some news agencies.
+RTTY is the granddaddy of digital modes, dating back to the 1930s. It's essentially a radio-based typewriter. It's still popular in contests and among some news agencies.
 
 #### PACTOR
 
-PACTOR is a versatile digital mode that can automatically switch between speeds and encoding methods based on conditions. There are several versions, with PACTOR III offering robust performance for things like email over radio.
+PACTOR is a versatile digital mode that automatically switches between speeds and encoding methods based on conditions. There are several versions, with PACTOR III offering robust performance for applications like email over radio.
 
-#### Digital Mobile Radio (DMR)  
+#### Digital Mobile Radio (DMR)
 
 > **Key Information:**
-> - DMR uses time-multiplexing to put two digital voice signals on a single 12.5 kHz repeater channel. {{< link id="T8D07" >}}
+> - DMR uses *time-multiplexing to put two digital voice signals on a single 12.5 kHz repeater channel*. {{< link id="T8D07" >}}
 > - A DMR *color code* is an *access code which must be programmed into a DMR transmitter to access a specific repeater*. {{< link id="T2B12" >}}
 > - A *talkgroup* is an *identifier used by DMR to organize radio traffic* so that those who want to hear the group aren't bothered by other radio traffic. {{< link id="T2B14" >}}
-> - Join a DMR talkgroup by programming your radio with the group's ID or code. {{< link id="T2B07" >}}
+> - Join a DMR talkgroup by *programming your radio with the group's ID or code*. {{< link id="T2B07" >}}
+> - To select a specific group of stations on a DMR radio, *enter the group's identification code*. {{< link id="T4B09" >}}
 > - A DMR *"code plug"* is *configuration data loaded onto your radio to access repeaters and talkgroups*. {{< link id="T4B07" >}}
 
-DMR is a powerful digital voice mode that *uses time-multiplexing to put two digital voice signals on a single 12.5 kHz repeater channel*. This effectively doubles the available channels without using more spectrum.
+DMR is a powerful digital voice mode that effectively doubles a repeater's capacity by interleaving two conversations on the same channel — each one gets alternating time slots so fast the listeners don't notice they're sharing.
 
-What makes DMR unique:  
+What makes DMR unique is how it organizes its traffic:
 - **Talkgroups**: An identifier used to organize radio traffic so users who want to hear the group aren't bothered by other traffic. Join by programming your radio with the group's ID or code.
 - **Color Codes**: An access code that must be programmed into your radio to access a specific repeater.
 - **Code Plugs**: Configuration data loaded onto your radio containing access information for repeaters and talkgroups.
@@ -64,100 +67,58 @@ DMR networks are widely used for both local and worldwide communication through 
 
 #### System Fusion and C4FM
 
-System Fusion is Yaesu's digital voice system that uses C4FM (Continuous Four-Level Frequency Modulation). Its standout feature is seamless switching between digital and analog FM - a Fusion radio can automatically detect whether a signal is digital or analog and switch modes accordingly. This backward compatibility means you can communicate with both digital and analog stations without extra programming.
+System Fusion is Yaesu's digital voice system, using a modulation called C4FM (Continuous Four-Level Frequency Modulation). Its standout feature is seamless switching between digital and analog FM — a Fusion radio can automatically detect whether an incoming signal is digital or analog and switch modes accordingly. Fusion works with Yaesu's WIRES-X internet linking system for worldwide digital communication.
 
-Fusion works with WIRES-X, Yaesu's internet linking system, for worldwide digital communication.
+#### D-STAR (Digital Smart Technologies for Amateur Radio)
 
-#### D-STAR (Digital Smart Technologies for Amateur Radio)  
+> **Key Information:** Before transmitting on D-STAR, you must *program your call sign into the transceiver*. {{< link id="T4B11" >}}
 
-> **Key Information:** Before transmitting on D-STAR, you must program your call sign into the transceiver. {{< link id="T4B11" >}}
+D-STAR is a fully digital voice and data system developed by the Japan Amateur Radio League, and in contrast to System Fusion, it doesn't fall back to analog — it's digital all the way. Its distinctive feature is call-sign routing: you enter the call sign of another ham, and the D-STAR network figures out which linked repeater to route your signal through to reach them. That's why your own call sign has to be programmed into the radio — every D-STAR transmission carries it as part of the routing information.
 
-D-STAR is a fully digital voice and data system developed by the Japan Amateur Radio League. Unlike System Fusion, D-STAR is entirely digital with no analog compatibility. Its key feature is call sign routing - you can enter the call sign of another ham, and the system will route your signal through linked repeaters to find them.
+#### Digital Mode Hotspots
 
-*Before transmitting on D-STAR, you must program your call sign into the transceiver*. This is required because your call sign is included in every transmission, enabling call sign routing and repeater linking.
+> **Key Information:** A *digital mode hotspot enables communication with a digital voice or data network*. {{< link id="T4A10" >}}
 
-#### Digital Station Groups and Selection
-
-> **Key Information:** To select a specific group of stations on a DMR digital voice transceiver, enter the group's identification code. {{< link id="T4B09" >}}
-
-Digital voice modes allow you to organize communication into different groups or channels. Whether you're using DMR talkgroups, D-STAR reflectors, or System Fusion rooms, you need to know how to join the right conversation. 
-
-To *select a specific group of stations on a DMR digital voice transceiver*, you typically *enter the group's identification code* into your radio. This could be a DMR talkgroup ID, a D-STAR reflector number, or a similar identifier depending on the digital mode you're using. Properly configuring these settings ensures your transmissions reach your intended audience rather than being broadcast to everyone using that frequency.
-
-#### Digital Mode Hot Spots
-
-> **Key Information:** A digital hotspot enables communication with a digital voice or data network. {{< link id="T4A10" >}}
-
-A *digital hotspot* allows *communication with a digital voice or data network*. It's almost like having your own personal repeater, providing a gateway to the world of digital radio, extending your reach far beyond your local area for modes like DMR, D-STAR, or System Fusion.
+A hotspot is a small, low-power device that acts like your own personal repeater — it connects via the internet to digital voice or data networks, such as DMR, D-STAR, or System Fusion, so you can reach those networks from home without needing a local repeater in range. That makes hotspots especially useful for operators in areas without good digital repeater coverage, or for accessing talkgroups that aren't available on any nearby repeater.
 
 #### Computer-Radio Interfaces
 
 > **Key Information:**
-> - Computer-radio interface needs: Receive audio, transmit audio, and transmitter keying. {{< link id="T4A06" >}}
-> - For FT8: Connect radio's audio to the audio output and input of a computer running FT8 software. {{< link id="T4A04" >}}
-> - For digital modes: Connect computer "line in" to transceiver speaker. {{< link id="T4A07" >}}
+> - A computer-radio interface for digital modes needs *receive audio, transmit audio, and transmitter keying*. {{< link id="T4A06" >}}
+> - The audio input and output of a transceiver operating FT8 are connected *to the audio output and input of a computer running FT8 software*. {{< link id="T4A04" >}}
+> - One of the required computer-to-transceiver connections for digital modes is *computer "line in" to transceiver speaker connector*. {{< link id="T4A07" >}}
 
-For digital modes, you need to connect your radio to your computer. This requires:
-- *Receive audio* (from radio to computer)
-- *Transmit audio* (from computer to radio)
-- *Transmitter keying* (to control when the radio transmits)
-
-For *FT8*, connect the radio's audio to the *audio output and input of a computer running FT8 software* and connect the *computer "line in" to the transceiver speaker*.
+Most digital modes run on a computer connected to your radio, and the connection handles three jobs at once — audio going each direction and a signal to tell the radio when to transmit. The audio pairs are usually the radio's speaker connector feeding the computer, and the computer's audio output feeding the radio's mic or data input.
 
 #### WSJT-X and FT8
 
 > **Key Information:**
-> - FT8 is a digital mode capable of low signal-to-noise operation. {{< link id="T8D02" >}}
-> - WSJT-X software supports Earth-Moon-Earth, weak signal propagation beacons, and meteor scatter. {{< link id="T8D10" >}}
+> - FT8 is a *digital mode capable of low signal-to-noise operation*. {{< link id="T8D02" >}}
+> - WSJT-X software supports *Earth-Moon-Earth, weak signal propagation beacons, and meteor scatter*, along with other modes. {{< link id="T8D10" >}}
 
-*FT8* is a *digital mode capable of low signal-to-noise operation* that's part of the WSJT-X software suite. This software supports several key amateur radio activities:
-- Earth-Moon-Earth (moonbounce) communication
-- Weak signal propagation beacons
-- Meteor scatter
-- Various digital modes including FT8
+FT8 is one of the most popular amateur digital modes, designed to work in extremely weak-signal conditions — signals far below the noise level that would be unusable for voice. It's part of the WSJT-X software suite, which also supports Earth-Moon-Earth (moonbounce), meteor scatter, and weak-signal beacon modes.
 
 #### Video Modes
 
-> **Key Information:** NTSC refers to an analog fast-scan color TV signal. {{< link id="T8D04" >}}
+> **Key Information:** *NTSC* refers to an *analog fast-scan color TV signal*. {{< link id="T8D04" >}}
 
-Amateur radio operators have several options for sending images and video:
+There are two main options for sending images and video:
 
-**Fast-Scan Television (FSTV)**:
-*NTSC* refers to *an analog fast-scan color TV signal*, similar to what was used for broadcast TV but adapted for amateur use. FSTV requires significant bandwidth, so it's typically used on UHF and microwave frequencies.
-
-**Slow-Scan Television (SSTV)**:
-Think of SSTV as sending a postcard via radio. It transmits still images, taking anywhere from a few seconds to a couple of minutes per picture. SSTV works on HF bands, requires minimal equipment, and is even used to receive images from the International Space Station!
+- **Fast-Scan Television (FSTV)** uses *NTSC*, the same analog format that was used for broadcast TV in the US until the digital switch. FSTV requires significant bandwidth, so it's typically used on UHF and microwave frequencies.
+- **Slow-Scan Television (SSTV)** is more like sending a postcard — it transmits one still image over the course of anywhere from a few seconds to a couple of minutes. SSTV works on HF bands with minimal equipment, and hams have even used it to receive images from the International Space Station.
 
 #### Mesh Networks
 
-> **Key Information:** An amateur radio mesh network is an amateur-radio based data network using commercial Wi-Fi equipment with modified firmware. {{< link id="T8D12" >}}
+> **Key Information:** An amateur radio *mesh network* is an *amateur-radio data network using commercial Wi-Fi equipment with modified firmware*. {{< link id="T8D12" >}}
 
-An *amateur radio mesh network* is a *data network using commercial Wi-Fi equipment with modified firmware*. It creates a robust, decentralized network where each station can receive and relay data.
+Amateur mesh networks take commercial Wi-Fi hardware, load it with modified firmware, and use it to operate within amateur radio bands rather than the standard Wi-Fi ones. Mesh networks route around failures automatically — if one node goes down, traffic finds a different path — which makes them popular for emergency communications and community-built networks.
 
 #### ARQ (Automatic Repeat reQuest)
 
-> **Key Information:** ARQ is an error correction method where the receiving station detects errors and sends a request for retransmission. {{< link id="T8D11" >}}
+> **Key Information:** *ARQ* is an *error correction method in which the receiving station detects errors and sends a request for retransmission*. {{< link id="T8D11" >}}
 
-*ARQ* is an *error correction method where the receiving station detects errors and sends a request for retransmission*. It's like having a built-in "Could you repeat that?" function.
+You've already seen ARQ in action — it's the mechanism that makes packet radio reliable. The idea shows up across many digital modes: a transmission goes out, the receiver checks it for errors, and if something's broken, the receiver automatically asks for a retry.
 
-#### Getting Started with Digital Modes
+---
 
-1. **Start Simple**:
-   - Try receiving before transmitting
-   - Use built-in sound card interfaces
-   - Join local digital nets to practice with packet radio
-   - Learn to use *talkgroups* and *color codes* on *DMR*
-
-2. **Progress Gradually**:
-   - Try *APRS* for position reporting and messaging
-   - Experiment with keyboard-to-keyboard modes like *PSK*
-   - Set up *FT8* for weak signal contacts
-   - Explore digital voice modes
-
-3. **Expand Your Capabilities**:
-   - Build a *mesh network* node
-   - Set up a *digital hotspot*
-   - Try different interface methods
-   - Experiment with video modes
-
-Remember: Digital modes are constantly evolving. While you need to know certain concepts for the exam, the real excitement comes from using these modes to communicate in new and interesting ways.
+Digital modes will keep evolving — what's current today will look old-fashioned in ten years, and there'll be modes nobody's invented yet. For the exam, focus on the key terms and concepts above. For the hobby, try a few modes and see which ones you like.
