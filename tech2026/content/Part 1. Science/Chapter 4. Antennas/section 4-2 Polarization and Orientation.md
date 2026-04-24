@@ -15,57 +15,53 @@ Imagine you're trying to slip a letter through a mail slot. If the slot is horiz
 
 #### Types of Polarization
 
-Here's the deal with polarization - it's really just about which way your antenna is oriented and how that affects your radio waves. More specifically, when we talk about polarization, we're describing the orientation of the electric field component of the radio wave.
-
 > **Key Information:** The polarization of an antenna is described by the *orientation of the electric field*. {{< link id="T9A03" >}}
+
+Technically, polarization is about the orientation of the electric field component of the radio wave — but conveniently, the electric field usually lines up with the driven element of the antenna. So in practice, if your antenna is standing straight up, you're transmitting a vertically polarized signal; if it's lying sideways, you're transmitting a horizontally polarized signal.
 
 You've got three main flavors:
 
-**Vertical Polarization**: 
+**Vertical Polarization**:
 Picture an antenna standing straight up and down, like a flagpole. The radio waves it sends out have their electric field vibrating up and down as they travel. This is what you typically see on most mobile rigs and handheld radios.
 
-**Horizontal Polarization**: 
-Now imagine that flagpole laid down flat, parallel to the ground. You've got horizontal polarization - the electric field vibrates side to side as the wave moves. This is what you'll often use for those long-distance VHF/UHF contacts.
+**Horizontal Polarization**:
+Now imagine that flagpole laid down flat, parallel to the ground. You've got horizontal polarization — the electric field vibrates side to side as the wave moves. This is what you'll often use for those long-distance VHF/UHF contacts.
 
 <div class="clear"></div>
 
 **Elliptical and Circular Polarization**:
 Here's where things get interesting! When signals "reflect" off the ionosphere and return to Earth, their polarization can change, often becoming elliptically polarized. This means the wave's orientation traces an oval pattern as it moves through space. When this oval pattern becomes a perfect circle, we call it circular polarization.
 
-> **Key Information:** Because signals propagated by the ionosphere are *elliptically polarized*, either *vertically* or *horizontally polarized* antennas may be used for transmission or reception. {{< link id="T3A09" >}}
+> **Key Information:** Because signals propagated by the ionosphere are elliptically polarized, *either vertically or horizontally polarized antennas may be used for transmission or reception*. {{< link id="T3A09" >}}
 
-Circular polarization is super useful for satellite work because it works regardless of how the antenna is oriented - kind of like a round peg that fits no matter how you rotate the hole. That's why many satellite operators use circularly polarized antennas.
-
-The neat thing about ionospheric propagation is that it naturally induces elliptical polarization, which means either vertically or horizontally polarized antennas may be used for transmission or reception. Nature's doing the work of making your antenna choice more flexible!
+Circular polarization is super useful for satellite work because it works regardless of how the antenna is oriented — kind of like a round peg that fits no matter how you rotate the hole. That's why many satellite operators use circularly polarized antennas.
 
 #### Why Should You Care?
 
-Simple - if you want the best signal possible, you want your receiving antenna to match the polarization of the incoming signal. Think back to that mail slot - you'll have a much easier time if your letter matches the slot's orientation.
+Simple — if you want the best signal possible, you want your receiving antenna to match the polarization of the incoming signal. Think back to that mail slot — you'll have a much easier time if your letter matches the slot's orientation.
 
-> **Key Information:** *Cross-polarization* (when antennas at opposite ends of a line-of-sight link use different polarizations) causes *reduced received signal strength*. {{< link id="T3A04" >}}
+> **Key Information:** *Cross-polarization* (when antennas at opposite ends of a line-of-sight link use different polarizations) causes *received signal strength to be reduced*. {{< link id="T3A04" >}}
 
-If your polarization is mismatched with the station you want to communicate with, you could lose up to 20 dB of signal strength - that's like turning your 100-watt transmitter into a 1-watt transmitter. Ouch!
+If your polarization is mismatched with the station you want to communicate with, you could lose up to 20 dB of signal strength — that's like turning your 100-watt transmitter into a 1-watt transmitter. Ouch!
 
 #### What Works Where?
 
 Different types of operation tend to favor different polarizations. Here's the rundown:
 
-1. **VHF/UHF FM and Repeaters**: Most repeaters use vertical polarization - that's why pretty much every antenna you see on cars and HTs is standing straight up. It's all about playing nice with the repeaters!
+1. **VHF/UHF FM and Repeaters**: Most repeaters use vertical polarization — that's why pretty much every antenna you see on cars and HTs is standing straight up. It's all about playing nice with the repeaters!
 
-2. **VHF/UHF Weak Signal Work**: When making long-distance contacts without repeaters, horizontal polarization is typically best. Most weak-signal VHF/UHF operators use horizontal antennas because they reduce signal loss due to polarization mismatch and can take better advantage of atmospheric propagation effects.
+2. **VHF/UHF Weak Signal Work**: When making long-distance contacts without repeaters, *horizontal polarization* is *normally used for long-distance CW and SSB contacts on VHF and UHF bands*. {{< link id="T3A03" >}} This is more convention than physics — weak-signal operators standardized on horizontal decades ago, so using horizontal gives you a polarization match with everyone else doing the same thing. A side benefit is that horizontal antennas tend to pick up less man-made noise (which is often vertically polarized), so you get a better signal-to-noise ratio as a bonus.
 
-   > **Key Information:** *Horizontal polarization* is normally used for long-distance CW and SSB contacts on VHF and UHF bands. {{< link id="T3A03" >}}
+3. **HF Operation**: Here's a fun twist — because the ionosphere tends to mix things up anyway, you can use either vertical or horizontal antennas. Each has its advantages, and many hams end up using both!
 
-   It also tends to pick up less man-made noise, which is always a plus.
+4. **Satellite Work**: Satellites don't sit still relative to us, so their signals are constantly changing polarization. Many satellite enthusiasts use circularly polarized antennas to handle this. It's like being ready for a mail slot that's spinning!
 
-3. **HF Operation**: Here's a fun twist - because the ionosphere tends to mix things up anyway, you can use either vertical or horizontal antennas. Each has its advantages, and many hams end up using both!
+#### One More Tip
 
-4. **Satellite Work**: Now we're really having fun! Satellites don't sit still relative to us, so their signals are constantly changing polarization. Many satellite enthusiasts use circularly polarized antennas to handle this. It's like being ready for a mail slot that's spinning!
+Want to experiment with polarization? If you've got a dipole antenna on a rotatable mount, you can switch between horizontal and vertical polarization just by rotating it. Instant flexibility!
 
-#### Cool Tricks and Tips
+And keep in mind — while matching polarization is important, don't stress about it too much. In the real world, buildings, trees, and terrain all scatter signals and mess with polarization anyway. Understand the basics, use them when you can, and don't worry too much when reality doesn't cooperate.
 
-Want to experiment with polarization? Here's a neat trick: if you've got a dipole antenna on a rotatable mount, you can switch between horizontal and vertical polarization just by rotating it. Instant flexibility!
+---
 
-And here's something to keep in mind - while matching polarization is important, don't get too stressed about it. In the real world, buildings, trees, and terrain all mess with polarization anyway. The important thing is to understand the basics and use them to your advantage when you can.
-
-Remember, this stuff is fun to play with! Try different orientations, see what works best for your situation, and don't be afraid to experiment. That's what ham radio is all about - learning by doing and having a blast while you're at it.
+Now that we've covered how to orient your antenna, let's go over the various ways you can feed (connect to) it!
