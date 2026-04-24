@@ -6,61 +6,38 @@ questions: []
 
 ### Section 5.2: Hazardous Voltages
 
-> **Note:** While this section doesn't contain material directly tied to specific exam questions, the safety information presented here is essential knowledge for any ham radio operator working with electrical equipment.
-
 #### What Are Hazardous Voltages?
 
 ![Hazardous voltage symbol](../../../images/illus/hazardvolts.svg)
 {.img-pgcap .float-right}
 
-In the ham radio world, we generally consider anything above 30 volts to be potentially hazardous. That might seem low, but remember, it doesn't take much to give you a nasty shock or worse.
+A common rule of thumb in ham radio is to treat anything above 30 volts as potentially hazardous — though OSHA's formal threshold is 50 volts. Either number is a starting point, not a safety guarantee. What actually causes injury is current flowing through you, and how much current a given voltage can push depends on your skin resistance, how wet things are, and how much current the source can supply in the first place.
 
-#### Where Might You Encounter Hazardous Voltages?
+> 🔥 A real-world reminder from the primary author of this book (KD7BBC): while installing a circuit breaker on a 24V battery bank, his wrench contacted the silver ring on his finger, which touched the metal trailer wall. The wall was bonded to DC ground — so the battery was now shorted through the ring. The current melted the ring enough to partially fuse it to the wrench and caused near third-degree burns. Twenty-four volts isn't classed as "hazardous," yet he still has a circumference scar on that finger. Never assume a voltage is safe just because it isn't officially "hazardous."
 
-You might be surprised where hazardous voltages can pop up:
+#### Where Hazardous Voltages Show Up
 
-- **Test Leads**: Whenever you are *measuring* hazardous voltages don't forget that the probes you use to measure are then also subject to those dangerous voltages! It's an easy thing to overlook when testing.
+Hazardous voltages can show up in several places around a ham station:
 
-- **Power Supplies**: That 13.8V power supply for your radio? Inside, it's converting 120V AC to DC. One wrong move and you could be in for a shock.
-
-- **Antenna Systems**: Ever heard of "hot" antennas? Some antennas can develop high voltages at their feed points, especially when transmitting.
-
-- **Older Equipment**: If you're lucky enough to play with some vintage gear, be extra cautious. Old tube equipment can have voltages in the hundreds or even thousands of volts!
-
-- **Capacitors**: These little storage tanks can hold a charge long after equipment is unplugged. They're like electrical grudge-holders.
-
-> This is worth emphasizing; when capacitors are involved, just because it's unplugged and power is off does not mean it's safe! Many people have hurt themselves by opening equipment and touching the wrong thing before the capacitors were fully discharged.
+- **Power Supplies**: That 13.8V power supply for your radio converts 120V AC to DC internally. One wrong move inside the case and you could be in for a shock.
+- **Antenna Systems**: Some antennas develop high voltages at their feed points during transmission, especially at higher power levels. Never touch an antenna while it's transmitting.
+- **Older Equipment**: Vintage tube gear can have voltages in the hundreds or even thousands of volts. If you're lucky enough to be working with it, be extra cautious.
+- **Capacitors**: Capacitors don't care whether the equipment is unplugged. They can hold dangerous charges for hours or even days after power is removed.
+- **Test Leads**: When you're measuring hazardous voltages, the probes are at those voltages too — easy to overlook when focused on taking a reading.
 
 #### Staying Safe Around Hazardous Voltages
 
-So, how do we stay safe?
+- **Remove metal jewelry first**: Rings, watches, and bracelets are excellent conductors. A wedding ring across a high-current source can short a circuit through your finger before you even know what's happening (as the author can attest).
+- **Assume everything is "hot"**: Use a voltmeter to verify before you touch anything.
+- **One hand rule**: Keep one hand in your pocket when working around high voltages. If you do get shocked, this prevents current from flowing across your chest — and across your heart.
+- **Discharge capacitors properly**: Before opening equipment that might have charged capacitors, discharge them through a resistor of appropriate value. Never short them directly.
+- **Use properly insulated tools**: Tools with insulated handles rated for the voltage you're working with are marked with voltage ratings (often 1000V). Check that the insulation isn't cracked or damaged before using them.
+- **Keep your workspace dry**: Water and electricity don't mix. Make sure your work area is dry and you're not standing on a damp floor or concrete (which can be conductive).
+- **Never work alone**: When working on high-voltage equipment, have someone nearby who could help in an emergency.
+- **When in doubt, don't touch it**: There's no shame in asking for help or leaving it to the experts.
 
-- **Assume Everything is "Hot"**: Always assume equipment is live until proven otherwise. Use a voltmeter to check before you touch.
+If you're regularly working around high-voltage equipment, it's worth taking a first aid course that covers electrical shock response. This isn't the place for us to walk you through that procedure — shock first aid has real subtleties that deserve hands-on training.
 
-- **One Hand Rule**: Use one hand when working around high voltages. It sounds weird, but it keeps current from flowing across your chest if you do get shocked.
+---
 
-- **Discharge Capacitors Properly**: Capacitors can hold a dangerous charge. Learn safe ways to discharge them before poking around — usually through a resistor of appropriate value, never by shorting them directly.
-
-- **Use Properly Insulated Tools**: When working with potentially hazardous voltages, use tools with insulated handles rated for the voltage you're working with. Look for tools marked with voltage ratings (often 1000V) and make sure the insulation isn't cracked or damaged.
-
-- **Keep Your Workspace Dry**: Water and electricity don't mix. Make sure your work area is dry and you're not standing on a damp floor or concrete (which can be conductive).
-
-- **Look for Warning Labels**: Pay attention to any warning labels on equipment indicating hazardous voltages. If you're building or modifying equipment, consider adding your own warning labels where appropriate.
-
-- **Never Work Alone**: When working on high-voltage equipment, always have a buddy around who knows CPR, just in case.
-
-- **If You're Not Sure, Don't Touch It**: There's no shame in asking for help or leaving it to the experts.
-
-#### First Aid for Electrical Shock
-
-If someone does receive an electrical shock:
-
-1. Don't touch them if they're still in contact with the electrical source
-2. Cut power if possible before providing assistance
-3. Call for emergency medical help immediately
-4. Provide CPR if the person is unresponsive and not breathing normally
-5. Treat any burns after addressing life-threatening conditions
-
-Remember, the goal is to make contacts, not become one with your equipment. Electricity doesn't care how experienced you are or how careful you think you're being. It'll take any path to ground, including through you if you give it the chance.
-
-Stay safe, stay insulated, and may all your connections remain social and not electrical.
+Electrical shock is only one way equipment can hurt you. The next section covers the devices specifically designed to stop things from going wrong in the first place: fuses and circuit breakers.

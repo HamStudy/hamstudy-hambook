@@ -7,82 +7,68 @@ state: complete
 
 ### Section 5.5: Antennas and Tower Safety
 
-Alright, antenna enthusiasts, let's talk about keeping safe while getting those signals out! Even as Technician class operators, you might find yourself helping with antenna work, so it's crucial to know the basics.
+Antenna work covers an enormous range. It can be as simple as throwing a rope over a tree branch to hoist a roll-up J-pole, clamping an antenna onto a vehicle, or setting one on top of a camera tripod — or as involved as climbing a tower on a mountaintop to mount a repeater antenna. The hazards scale with the complexity. Even if you never install your own tower, you may find yourself helping someone else with theirs — and knowing the basics keeps you (and the people around you) safe.
 
 #### Tower Safety and Climbing
 
-When it comes to towers, safety isn't just a good idea — it's essential. If you're planning to work on a tower, here's what you need to know:
+When it comes to towers, safety isn't just a good idea — it's essential.
 
-> **Key Information:** When climbing an antenna tower, you must: {{< link id="T0B02" >}}
-> - Have sufficient training on safe tower climbing techniques
-> - Use appropriate tie-off to the tower at all times
-> - Always wear an approved climbing harness
-> - Have a helper or observer present.
+> **Key Information:**
+> - When climbing an antenna tower, you must have *sufficient training on safe tower climbing techniques*, *use appropriate tie-off to the tower at all times*, and *always wear an approved climbing harness*. {{< link id="T0B02" >}}
+> - It is *never* safe to climb a tower without a helper or observer. {{< link id="T0B03" >}}
 
-1. **Never Climb Alone**: *It is never safe to climb a tower without a helper or observer*. {{< link id="T0B03" >}} Your ground crew isn't just there to hand you tools — they're your safety net. They can call for help in an emergency, guide you through difficult maneuvers, and keep an eye on changing conditions like approaching weather.
+Your ground crew isn't just there to hand you tools — they're your safety net. They can call for help in an emergency, guide you through difficult maneuvers, and keep an eye on changing conditions like approaching weather. When climbing, proper equipment isn't optional and the list above isn't a menu to pick from. Tie-off, harness, and training all matter, and missing any one of them is how people get hurt.
 
-2. **Proper Equipment is Non-Negotiable**: When climbing a tower, you must *have sufficient training on safe tower climbing techniques*, *use appropriate tie-off* to the tower at all times, and *always wear an approved climbing harness*. This isn't the place to cut corners or improvise.
+> **Key Information:** A crank-up tower *must not be climbed unless it is retracted, or mechanical safety locking devices have been installed*. {{< link id="T0B07" >}}
 
-3. **Crank-Up Tower Special Rules**: A crank-up tower must not be climbed unless it is retracted, or mechanical safety locking devices have been installed. {{< link id="T0B07" >}} These towers aren't designed to be climbed when extended without proper locking mechanisms in place. The telescoping sections can collapse if improperly secured, leading to catastrophic results.
-
-Here's a real-life scenario: A ham decided to make a "quick adjustment" to his antenna on a crank-up tower without retracting it or using the safety locks. A sudden gust of wind caused the tower to shift slightly, and the unsecured sections began to telescope downward. Fortunately, he wasn't on the tower at the time, but his expensive antenna system wasn't so lucky!
+Crank-up towers are designed to telescope up and down, and the sections can collapse if improperly secured. If you climb one without retracting it or engaging its safety locks, a stuck cable, a failed winch, or even a strong gust of wind could cause the sections to telescope downward — with you on them. The consequences could range from expensive antenna damage at the bottom of the list to catastrophic injury at the top.
 
 #### Overhead Power Lines and Placement
 
-> **Key Information:** Always look for and stay clear of overhead electrical wires when putting up an antenna tower. {{< link id="T0B04" >}}
+Power lines are the arch-nemesis of antenna safety.
 
-Power lines are the arch-nemesis of antenna safety. *When putting up an antenna tower, always look for and stay clear of any overhead electrical wires*. Here's a rule of thumb:
+> **Key Information:** An important safety precaution when putting up an antenna tower is to *look for and stay clear of any overhead electrical wires*. {{< link id="T0B04" >}}
 
-> **Key Information:** The minimum safe distance from a power line to allow when installing an antenna is enough so that if the antenna falls, no part of it can come within 10 feet of the power wires. {{< link id="T0B06" >}}
+> **Key Information:** The minimum safe distance from a power line when installing an antenna is *enough so that if the antenna falls, no part of it can come within 10 feet of the power wires*. {{< link id="T0B06" >}}
 
-So if you're putting up a 20-foot vertical, that's 30 feet minimum from any power lines.
+So if you're putting up a 20-foot vertical, that means 30 feet minimum from any power lines — enough so that if it falls, it can't come within 10 feet of the wires.
 
-> **Key Information:** You should avoid attaching an antenna to a utility pole because the antenna could contact high-voltage power lines. {{< link id="T0B09" >}}
+> **Key Information:** You should avoid attaching an antenna to a utility pole because *the antenna could contact high-voltage power lines*. {{< link id="T0B09" >}}
 
 Even if it seems convenient, it's just not worth the risk. Utility poles often carry multiple electrical lines, some carrying thousands of volts. An antenna that touches these lines can energize your entire system, creating a deadly hazard.
 
 #### Guy Wires and Structural Support
 
-Tall towers often need guy wires to keep them standing strong. But there's a small but important detail — if the turnbuckles (the metal adjusters that tighten the guy wires) loosen due to vibration, the whole structure could be at risk!
+Tall towers often need guy wires to keep them standing. The turnbuckles that tension those wires can work themselves loose over time if they aren't secured.
 
-> **Key Information:** The purpose of a safety wire through a turnbuckle used to tension guy lines is to prevent loosening of the turnbuckle from vibration. {{< link id="T0B05" >}}
+> **Key Information:** The purpose of a safety wire through a turnbuckle used to tension guy lines is to *prevent loosening of the turnbuckle from vibration*. {{< link id="T0B05" >}}
 
-The fix is simple: after adjusting the turnbuckle, thread a thin safety wire through its holes and twist the ends together. This keeps it from spinning loose over time. Just a little wire can make the difference between a steady tower and a dangerous collapse!
+The fix is simple: after adjusting the turnbuckle, thread a thin safety wire through its holes and twist the ends together so it can't spin loose.
 
 #### Grounding Systems and Lightning Protection
 
-Proper grounding is essential for both safety and equipment protection. Here's what you need to know:
+Proper grounding is essential for both safety and equipment protection.
 
-> **Key Information:** When installing ground wires on a tower for lightning protection, ensure that connections are short and direct. {{< link id="T0B01" >}}
+> **Key Information:**
+> - When installing grounding conductors for lightning protection, *connections should be short and direct* {{< link id="T0B01" >}} and *sharp bends must be avoided*. {{< link id="T0B10" >}}
+> - A lightning arrester should be installed *on a grounded panel near where feed lines enter the building*. {{< link id="T0A07" >}}
 
-> **Key Information:** A lightning arrester should be installed on a grounded panel near where feed lines enter the building. {{< link id="T0A07" >}}
+The reason for short, direct connections with no sharp bends is how lightning behaves: lightning takes the path of least impedance, not just least resistance. Long runs and sharp bends create inductive impedance that the lightning energy would rather avoid — so it looks for an alternative route, which could be through your equipment or through you. Placing the arrester where feed lines enter the building gives lightning a controlled path to ground before it reaches anything inside.
 
-This placement allows it to intercept lightning energy before it can enter your home or shack. While no system can fully protect against a direct lightning strike, a properly installed arrester can significantly reduce the risk to your equipment and home.
+> **Key Information:**
+> - All external ground rods or earth connections should be *bonded together with heavy wire or conductive strap*. {{< link id="T0A09" >}}
+> - A proper grounding method for a tower is *separate eight-foot ground rods for each tower leg, bonded to the tower and each other*. {{< link id="T0B08" >}}
 
-> **Key Information:** All external ground rods or earth connections should be bonded together with heavy wire or conductive strap. {{< link id="T0A09" >}}
+Multiple ground rods provide multiple low-impedance paths to earth, reducing overall ground resistance and improving lightning protection. Bonding them together ensures that lightning energy doesn't develop a voltage difference between "ground" at one point and "ground" at another — which would be an invitation for it to arc through whatever conducts between them, like your equipment or the building wiring.
 
-This ensures that lightning energy finds a direct path to ground instead of traveling through your equipment looking for an alternative route.
+> **Key Information:** *Flat copper strap* is the preferred conductor for bonding at RF. {{< link id="T4A08" >}}
 
-> **Key Information:** A proper ground method for a tower is separate eight-foot ground rods for each tower leg, bonded to the tower and each other. {{< link id="T0B08" >}}
+Because of the skin effect (where RF currents travel on the surface of conductors), a flat strap provides more surface area and lower impedance than a round wire of the same cross-sectional area.
 
-This provides multiple paths to earth ground, reducing ground resistance and improving lightning protection — it also reduces the chance of lightning seeking other paths to ground, such as the mounting hardware holding the tower in place!
+> **Key Information:** Grounding requirements for an amateur radio tower or antenna are established by *local electrical codes*. {{< link id="T0B11" >}}
 
-> **Key Information:** Flat copper strap is the preferred conductor for RF bonding. {{< link id="T4A08" >}}
+These aren't just suggestions — they're legally required standards. Always consult and follow your local electrical code when installing antennas and towers.
 
-Due to the skin effect (where RF currents travel on the surface of conductors), a flat strap provides more surface area and lower impedance than a round wire of the same cross-sectional area.
+---
 
-> **Key Information:** When installing grounding conductors used for lightning protection, sharp bends must be avoided. {{< link id="T0B10" >}}
-
-Lightning follows the path of least resistance, and sharp bends can create high impedance points that may cause the energy to arc or find an alternative path.
-
-> **Key Information:** Local electrical codes establish grounding requirements for an amateur radio tower or antenna. {{< link id="T0B11" >}}
-
-These aren't just suggestions — they're legally required standards designed to keep you and your property safe. Always consult and follow your local electrical code when installing antennas and towers.
-
-#### Safety first when working on antennas!
-
-Remember, the goal is to make contacts and have fun, not to star in the next "What Not to Do" video at your local ham club. Antenna work can be exciting and rewarding, but it needs to be done with a healthy dose of respect and caution.
-
-So, before you start raising that antenna for your first VHF/UHF adventures, take a moment to think safety. Your fellow hams, your radio gear, and most importantly, you, will be better off for it.
-
-Stay safe, keep those antennas high (but not too close to power lines), and happy operating on those VHF and UHF bands!
+Keeping antennas up and intact is one concern. What they radiate once they're up — and how that energy affects people nearby — is another. The last section of this chapter covers RF exposure.
