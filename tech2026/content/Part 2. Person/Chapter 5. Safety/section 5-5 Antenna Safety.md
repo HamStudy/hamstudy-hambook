@@ -19,6 +19,8 @@ When it comes to towers, safety isn't just a good idea — it's essential.
 
 Your ground crew isn't just there to hand you tools — they're your safety net. They can call for help in an emergency, guide you through difficult maneuvers, and keep an eye on changing conditions like approaching weather. When climbing, proper equipment isn't optional and the list above isn't a menu to pick from. Tie-off, harness, and training all matter, and missing any one of them is how people get hurt.
 
+![Two cartoon ham radio operators wearing hard hats and safety harnesses stand in front of an antenna tower, both giving a thumbs-up; a coiled rope lies on the ground between them](../../../images/illus/tower_illus.svg)
+
 > **Key Information:** A crank-up tower *must not be climbed unless it is retracted, or mechanical safety locking devices have been installed*. {{< link id="T0B07" >}}
 
 Crank-up towers are designed to telescope up and down, and the sections can collapse if improperly secured. If you climb one without retracting it or engaging its safety locks, a stuck cable, a failed winch, or even a strong gust of wind could cause the sections to telescope downward — with you on them. The consequences could range from expensive antenna damage at the bottom of the list to catastrophic injury at the top.
