@@ -7,71 +7,91 @@ status: complete
 
 ### Section 6.3: Receiver, Transmitter, Transceiver
 
+A ham radio does two things: it picks up signals from the air and turns them into sound, and it takes your voice and sends it out as a signal. Most modern gear does both in one box, but the two functions are worth understanding separately — they're different jobs with different parts.
+
 #### What is a Receiver?
 
-Alright, radio rookies, let's break down the building blocks of ham radio communication. First up, the receiver. Think of this as your radio's ears. It picks up those invisible waves floating through the air and turns them into something you can hear. A good receiver is like a skilled eavesdropper at a party — it can pick out the conversation you want to hear, even when there's a lot of noise around.
+The receiver is your radio's ears. It picks up those invisible waves floating through the air and turns them into something you can hear. A good receiver is like a skilled eavesdropper at a party — it can pick out the conversation you want to hear even when there's a lot of noise around.
 
-> **Key Information:** A receiver's *sensitivity* is its ability to detect the presence of a signal, while its *selectivity* is its ability to discriminate between multiple signals.
+> **Key Information:**
+> - A receiver's *ability to detect the presence of a signal* is its sensitivity. {{< link id="T7A01" >}}
+> - A receiver's *ability to discriminate between multiple signals* is its selectivity. {{< link id="T7A04" >}}
 
-Two key characteristics of receivers are:
+A more sensitive receiver can pick up fainter signals, letting you hear distant or low-power stations more clearly. Good selectivity helps you focus on the station you want without interference from nearby frequencies. You can think of sensitivity as "how soft a whisper you can hear" and selectivity as "how well you can pick one voice out of a crowd."
 
-- **Sensitivity**: This is the receiver's *ability to detect the presence of a signal*. {{< link id="T7A01" >}} A more sensitive receiver can pick up fainter signals, letting you hear distant or low-power stations more clearly.
+Inside the receiver, a key component called a mixer combines the incoming radio frequency (RF) signal with a signal from a local oscillator.
 
-- **Selectivity**: This refers to the receiver's *ability to discriminate between multiple signals* that are close together in frequency. {{< link id="T7A04" >}} Good selectivity helps you focus on the station you want without interference from nearby frequencies.
+> **Key Information:**
+> - A circuit that *generates a signal at a specific frequency* is an oscillator. {{< link id="T7A05" >}}
+> - A mixer is used to *convert a signal from one frequency to another*. {{< link id="T7A03" >}}
 
-Inside the receiver, a key component called a *mixer* combines the incoming radio frequency (RF) signal with a signal from the local oscillator. This *oscillator generates a signal at a specific frequency* {{< link id="T7A05" >}}, and when mixed with the RF signal, it *converts a signal from one frequency to another* {{< link id="T7A03" >}}. This process is essential for tuning into different frequencies.
+When the oscillator's signal is mixed with the RF signal, the output contains frequencies equal to the sum and difference of the two — which is how a receiver tunes different incoming frequencies down to a fixed intermediate frequency that it can filter and amplify efficiently.
 
-The *Variable Frequency Oscillator (VFO)* is another important feature of your radio. The name comes from early radio days when most oscillators used crystals that were fixed to a single frequency — if you wanted to change frequencies, you had to swap crystals! The VFO was the breakthrough that made the frequency *variable*, and the name stuck even though modern radios handle this digitally. When you turn the tuning knob on your transceiver, you're adjusting the VFO.
+The oscillator you're actually adjusting when you turn the tuning knob is a special one called the Variable Frequency Oscillator (VFO). The name comes from early radio days when most oscillators used crystals that were fixed to a single frequency — if you wanted to change frequencies, you had to swap crystals. The VFO was the breakthrough that made the frequency *variable*, and the name stuck even though modern radios handle this digitally.
 
 > **Key Information:** The function of the VFO is to *set the receive and transmit frequency*. {{< link id="T7A11" >}}
 
 #### What is a Transmitter?
 
-Now, let's talk about the transmitter — your radio's "mouth." The transmitter takes your voice (or data) and combines it with a radio frequency (RF) carrier signal. This combination process is called *modulation*, which is *combining speech with an RF carrier signal* {{< link id="T7A08" >}}. Think of it as wrapping your voice in an electromagnetic wave instead of sound waves, allowing your radio to broadcast your thoughts far and wide.
+A transmitter is your radio's mouth. It takes your voice (or data) and combines it with an RF carrier signal so it can travel through the air as radio waves. That combination process has a name:
+
+> **Key Information:** *Combining speech with an RF carrier signal* is called modulation. {{< link id="T7A08" >}}
+
+Think of it as wrapping your voice in an electromagnetic wave instead of a sound wave, so your radio can broadcast it far and wide.
 
 #### What is a Transceiver?
 
-> **Key Information:** A *transceiver combines a receiver and transmitter* into one device, which is what most modern amateur radio operators use.
+Most modern ham radio equipment combines the receiver and transmitter into one neat package called a transceiver.
 
-Here's where it gets cool: most modern ham radio equipment combines both of these into one neat package called a *transceiver*. A transceiver is *a device that combines a receiver and transmitter* {{< link id="T7A02" >}}. One moment it's listening, the next it's talking. Flip a switch (or press a button), and you go from receiving to transmitting.
+> **Key Information:** A transceiver is *a device that combines a receiver and transmitter*. {{< link id="T7A02" >}}
 
-For you Technician class operators, you're most likely going to be using a VHF/UHF transceiver. These come in two main flavors:
+One moment it's listening, the next it's talking. Flip a switch (or press a button) and you go from receiving to transmitting.
 
-- **Handheld Transceivers (HTs)**: These handy little radios fit right in your hand — hence the name "handheld!" In fact, since you can walk and talk with them, some people even call them "walkie-talkies!" They're portable, battery-powered, and perfect for local communications. Great for emergency prep or chatting while hiking!  
+For Technician class operators, you're most likely going to be using a VHF/UHF transceiver. These come in two main flavors:
 
-- **Mobile Transceivers**: These pack more punch and are designed to be installed in your vehicle or as a base station at home. They usually have more power and features than HTs.
+- **Handheld Transceivers (HTs)**: These handy little radios fit right in your hand — hence the name. Since you can walk around and talk with them, some people call them "walkie-talkies." They're portable, battery-powered, and perfect for local communications. Great for emergency prep or chatting while hiking.
+- **Mobile Transceivers**: These pack more punch and are designed to be installed in a vehicle or used as a base station at home. They usually have more power and features than HTs.
 
 Both types do essentially the same job — they receive and transmit. The main differences are in power output, features, and of course, size.
 
 #### Extending Your Reach
 
-> **Key Information:** A *transverter converts a transceiver's operating frequency to another band*, allowing operation on bands not covered by your radio.
+There are two common types of accessory devices referenced on the test that hams use to extend their operating capabilities: **transverters** and **amplifiers**. They solve different problems.
 
-Here's a neat trick: some hams use specialized devices for extending their operating capabilities. A *transverter* is a device that *converts the RF input and output of a transceiver to another band* {{< link id="T7A06" >}}. For example, it might allow you to use your HF rig to operate on VHF or UHF frequencies by converting the signals between bands. This can be particularly useful for accessing bands that your primary radio doesn't cover.
+##### Transverters
 
-> **Key Information:** An *RF power amplifier increases transmitted output power* from a transceiver.
+A transverter shifts the frequencies a transceiver works on, letting you operate on bands the radio wasn't designed for.
 
-If you need more power to reach distant stations, an *RF power amplifier* can *increase the transmitted output power from a transceiver* {{< link id="T7A10" >}}, helping your signal reach further. They're particularly useful for HF operations or when you need extra oomph on VHF/UHF. Remember that more power is usually not the best solution! Before you boost your power, check things like your antenna and feedline — that will almost always give you more bang for your buck.
+> **Key Information:** A device that *converts the RF input and output of a transceiver to another band* is a transverter. {{< link id="T7A06" >}}
 
-Some VHF/UHF power amplifiers have a *SSB/CW-FM switch that sets the amplifier for proper operation in the selected mode* {{< link id="T7A09" >}}. SSB (Single Sideband) and CW (Continuous Wave or Morse code) have different characteristics than FM (Frequency Modulation), so this switch helps the amplifier perform best for each mode.
+For example, you might use a transverter to operate on a VHF or UHF band using an HF transceiver — useful for accessing bands your primary radio doesn't cover.
 
-#### Handheld and Mobile Antenna Considerations
+##### Power Amplifiers
 
-> **Key Information:** Using a handheld transceiver inside a vehicle without an external antenna results in *reduced signal strength due to the shielding effect of the vehicle*.
+A power amplifier increases the strength of the signal coming out of a transceiver, helping it reach further.
 
-When using a handheld radio inside a vehicle, the metal body of the car can actually significantly reduce your signal strength. VHF and UHF signals (like those at 146 MHz and 440 MHz) are easily attenuated by metal structures. 
+> **Key Information:**
+> - *An RF power amplifier* can be added to the output of a transceiver to increase the transmitted output power. {{< link id="T7A10" >}}
+> - The SSB or CW-FM switch on a VHF power amplifier *sets the amplifier for proper operation in the selected mode*. {{< link id="T7A09" >}}
 
-The vehicle's metal body acts as an RF shield, blocking or substantially reducing radio wave propagation. This means that operating a handheld inside a vehicle without an external antenna will have *dramatically reduced signal strength due to the shielding effect of the vehicle* {{< link id="T9A07" >}}. The metal surfaces reflect and absorb VHF and UHF signals, creating a "signal shadow" that limits your radio's effective range.
+More power isn't usually the best solution — before reaching for an amplifier, check your antenna and feed line, since improvements there will almost always give you more bang for your buck than brute force.
 
-For best performance, consider:
-- Using an external magnetic mount antenna
-- Holding the radio near a vehicle window / where metal obstructions are minimized
-- Using a properly installed mobile radio instead of a handheld
+Some VHF/UHF power amplifiers have an SSB/CW-FM switch because SSB, CW (Continuous Wave, or Morse code), and FM have different signal characteristics, and the amplifier needs to handle each appropriately.
 
-> Pro tip: If you must operate inside the vehicle, keep your handheld as high up and as close to a window as possible to minimize signal loss. And remember, if you're driving, safety comes first — consider using hands-free options or waiting until you're stopped to operate your radio.
+#### Using a Handheld Inside a Vehicle
+
+> **Key Information:** A drawback of using a handheld VHF transceiver inside a vehicle without an external antenna is *reduced signal strength due to the shielding effect of the vehicle*. {{< link id="T9A07" >}}
+
+The metal body of a vehicle reflects and absorbs VHF and UHF signals, blocking or substantially reducing the radio waves an HT's rubber duck is trying to send out or receive. The result is dramatically reduced range from inside the vehicle, and your signal reports will suffer accordingly. In addition, depending on the length of your antenna it might just be really difficult to use without turning it on its side, which would alter the polarization of your signal!
+
+For better performance consider one or more of these suggestions:
+
+- Use an external antenna, mounted on the outside of the vehicle
+- Hold the radio near a window where metal obstructions are minimized
+- Use a properly installed mobile radio instead of a handheld
+
+> Reminder: Any time you are driving, safety comes first — use hands-free options or wait until you're stopped to operate your radio. Also be aware of the laws in your area, it may be illegal to operate a radio while driving!
 
 ---
 
-Remember, whether you're using a simple handheld or a fancy base station, the principles are the same. Your radio is constantly switching between listening and talking.
-
-So next time you key up that mic, take a moment to appreciate the magic happening inside your radio. It's turning your words into waves and back again, letting you be heard across town or around the world. Now that's pretty cool, isn't it?
+Knowing what's inside your radio is one thing; knowing which knob does what is another. The next section walks through the controls you'll actually use.
