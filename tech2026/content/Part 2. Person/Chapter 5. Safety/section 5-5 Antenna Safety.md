@@ -13,13 +13,14 @@ Antenna work covers an enormous range. It can be as simple as throwing a rope ov
 
 When it comes to towers, safety isn't just a good idea — it's essential.
 
+![Two cartoon ham radio operators wearing hard hats and safety harnesses stand in front of an antenna tower, both giving a thumbs-up; a coiled rope lies on the ground between them](../../../images/illus/tower_illus.svg)
+{.img-pgcap .float-right}
+
 > **Key Information:**
 > - When climbing an antenna tower, you must have *sufficient training on safe tower climbing techniques*, *use appropriate tie-off to the tower at all times*, and *always wear an approved climbing harness*. {{< link id="T0B02" >}}
 > - It is *never* safe to climb a tower without a helper or observer. {{< link id="T0B03" >}}
 
 Your ground crew isn't just there to hand you tools — they're your safety net. They can call for help in an emergency, guide you through difficult maneuvers, and keep an eye on changing conditions like approaching weather. When climbing, proper equipment isn't optional and the list above isn't a menu to pick from. Tie-off, harness, and training all matter, and missing any one of them is how people get hurt.
-
-![Two cartoon ham radio operators wearing hard hats and safety harnesses stand in front of an antenna tower, both giving a thumbs-up; a coiled rope lies on the ground between them](../../../images/illus/tower_illus.svg)
 
 > **Key Information:** A crank-up tower *must not be climbed unless it is retracted, or mechanical safety locking devices have been installed*. {{< link id="T0B07" >}}
 

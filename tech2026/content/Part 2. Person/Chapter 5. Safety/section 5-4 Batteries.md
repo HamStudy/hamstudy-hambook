@@ -50,7 +50,7 @@ Each chemistry has its own quirks, but a few hazards apply broadly.
 - They contain sulfuric acid. Treat them like you would a grumpy cat — with respect and protective gear.
 - The terminals can dump hundreds of amps into a short circuit. Remove jewelry and use insulated tools (and do not ask the primary author the melting point of sterling silver jewelry — he has no personal reason to know that. None at all).
 
-***Warning***: Never create sparks near a charging lead-acid battery. For this reason, many people prefer to keep lead-acid batteries outside of living spaces.
+⚠️ **Warning**: Never create sparks near a charging lead-acid battery. For this reason, many people prefer to keep lead-acid batteries outside of living spaces.
 
 > 🔥 A real-world cautionary tale: while attempting to connect lead-acid batteries in parallel to build a battery bank, an operator reversed the wiring. The result? A smoking cable hot enough to melt rubber. Fortunately the damage was limited — but it's a vivid reminder to double-check your connections and use proper fusing.
 >
