@@ -60,12 +60,12 @@ Just remember, your indicator can't clash with any FCC-specified indicators or c
 
 As much as we all love our call signs (if you don't, you will!) there are times when it's not super convenient to keep track of them when working with a group. Imagine you're helping with a large event — perhaps a parade in a mid-sized city. You might need someone at each of these stations:
 
-* Parade headquarters — someone to coordinate with the officials in charge of the parade and relay information as needed
-* 1st Street
-* 2nd Street
+* Parade headquarters — someone to coordinate with the officials in charge of the parade and relay information as needed.
+* 1st Street.
+* 2nd Street.
 * ...
-* Staging — the beginning of the parade where floats prepare to start
-* Net Control — the person coordinating all the operators so they don't all talk over each other
+* Staging — the beginning of the parade where floats prepare to start.
+* Net Control — the person coordinating all the operators so they don't all talk over each other.
 
 Now, imagine that for some reason the parade is going to last for a long time and so you have people changing out in shifts; when you need to know what's going on at 3rd Street you don't really care who the operator there is, you just need to talk to someone at that location.
 
@@ -74,13 +74,13 @@ Fortunately, Part 97 doesn't require that you identify the person you're calling
 **What are tactical call signs?**
 Tactical call signs are short, descriptive names used to identify a station's function or location during an event. You might then have a conversation like this one:
 
-* "1st Street, this is Net Control"
-* "Net Control from 1st Street, go ahead!"
-* "Can you see the parade float with the giant bologna sandwich?"
-* "Affirmative Net Control, they are passing my location now"
-* "Thank you. I'll send someone to return their cooler of pastrami — it fell off a block back and they didn't notice"
-* "Copy that. 1st Street, KF1AZT clear"
-* "Net Control, NT3ST clear"
+* "1st Street, this is Net Control".
+* "Net Control from 1st Street, go ahead!".
+* "Can you see the parade float with the giant bologna sandwich?".
+* "Affirmative Net Control, they are passing my location now".
+* "Thank you. I'll send someone to return their cooler of pastrami — it fell off a block back and they didn't notice".
+* "Copy that. 1st Street, KF1AZT clear".
+* "Net Control, NT3ST clear".
 
 A few things to notice:
 

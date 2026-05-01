@@ -33,8 +33,8 @@ This naming convention is why you'll hear references to the "2-meter band" (144-
 2. 40 meters: CW only on 7.025 - 7.125 MHz
 3. 15 meters: CW only on 21.025 - 21.200 MHz
 4. 10 meters:
-   - CW, RTTY, and Data: 28.000 - 28.300 MHz
-   - Phone (SSB) and CW: 28.300 - 28.500 MHz
+   - CW, RTTY, and Data: 28.000 - 28.300 MHz.
+   - Phone (SSB) and CW: 28.300 - 28.500 MHz.
 
 The 10-meter band is the only HF band where Technicians can transmit voice. Below 30 MHz on the 80, 40, and 15 meter bands, your only option is CW (Morse code).
 
@@ -48,15 +48,15 @@ The 10-meter band is the only HF band where Technicians can transmit voice. Belo
 Technicians have full privileges on four bands across VHF and UHF:
 
 1. **6 meters: 50 - 54 MHz**
-   - 50.0 - 50.1 MHz: CW only
-   - 50.1 - 54 MHz: All modes including voice
+   - 50.0 - 50.1 MHz: CW only.
+   - 50.1 - 54 MHz: All modes including voice.
 2. **2 meters: 144 - 148 MHz**
-   - 144.0 - 144.1 MHz: CW only
-   - 144.1 - 148 MHz: All modes including voice
+   - 144.0 - 144.1 MHz: CW only.
+   - 144.1 - 148 MHz: All modes including voice.
 3. **1.25 meters**:
-   - 219 - 220 MHz: Fixed digital message forwarding only
-   - 220 - 222 MHz: Not allocated to amateur radio (was in the past, no longer)
-   - 222 - 225 MHz: All modes including voice
+   - 219 - 220 MHz: Fixed digital message forwarding only.
+   - 220 - 222 MHz: Not allocated to amateur radio (was in the past, no longer).
+   - 222 - 225 MHz: All modes including voice.
 4. **70 centimeters: 420 - 450 MHz** — full Technician privileges across the entire band.
 
 Note the consistent pattern at the bottom of the 6 m and 2 m bands: the first 100 kHz is CW only.

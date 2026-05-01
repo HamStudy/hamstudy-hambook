@@ -14,9 +14,9 @@ Imagine if every country had completely different rules for radio use. It would 
 
 To manage the radio spectrum effectively, the ITU has divided the world into three regions:
 
-- **Region 1**: Europe, Africa, the Middle East west of the Persian Gulf, the former Soviet Union, and Mongolia
-- **Region 2**: The Americas, Greenland, and some eastern Pacific Islands
-- **Region 3**: Most of Asia, Australia, New Zealand, and most of the Pacific
+- **Region 1**: Europe, Africa, the Middle East west of the Persian Gulf, the former Soviet Union, and Mongolia.
+- **Region 2**: The Americas, Greenland, and some eastern Pacific Islands.
+- **Region 3**: Most of Asia, Australia, New Zealand, and most of the Pacific.
 
 #### Why It Matters
 

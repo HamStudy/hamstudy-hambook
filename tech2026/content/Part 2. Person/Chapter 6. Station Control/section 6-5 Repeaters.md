@@ -65,10 +65,10 @@ You'll also encounter DTMF in repeater operation. As we discussed in Section 6.4
 
 If you're having trouble accessing a repeater whose output you can hear, there could be several reasons:
 
-- You're using the *wrong offset*
-- You're either missing or using the *wrong CTCSS tone* or *wrong DCS code*
-- You're too far away or in a poor location for your signal to reach the repeater
-- Your radio lacks the power to reach the repeater
+- You're using the *wrong offset*.
+- You're either missing or using the *wrong CTCSS tone* or *wrong DCS code*.
+- You're too far away or in a poor location for your signal to reach the repeater.
+- Your radio lacks the power to reach the repeater.
 
 Always double-check all settings when programming a new repeater into your radio.
 
@@ -105,8 +105,8 @@ Generally speaking we don't actually call "CQ" on a repeater — there isn't any
 Here are some other common phrases:
 
 - "This is KD7BBC, mobile and monitoring" — indicating both that you are moving around and that you are on the frequency, presumably happy to talk to someone if they want.
-- "K1BEN listening" — shorter version of the same
-- "This is AC7DM. Anyone around to chat while I drive?" — more casual, but still fine
+- "K1BEN listening" — shorter version of the same.
+- "This is AC7DM. Anyone around to chat while I drive?" — more casual, but still fine.
 - "This is NV7V, could I get a signal report?" — indicates that you aren't looking for a QSO, just to confirm how well you are getting into the repeater.
 
 The specifics don't matter, as long as it's easy to understand and not deceptive.
@@ -129,10 +129,10 @@ It's like having a group text message — when one person sends a message, every
 
 Linked repeaters are particularly valuable for:
 
-- Emergency communications across wide areas
-- Club nets that span multiple cities or counties
-- Special events where coordination is needed across a large region
-- Allowing mobile operators to stay connected while traveling long distances
+- Emergency communications across wide areas.
+- Club nets that span multiple cities or counties.
+- Special events where coordination is needed across a large region.
+- Allowing mobile operators to stay connected while traveling long distances.
 
 #### Internet-Linked Repeaters and VoIP Systems
 

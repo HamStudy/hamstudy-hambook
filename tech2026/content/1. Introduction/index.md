@@ -14,7 +14,7 @@ This work is copyright 2026 HamStudy.org LLC.
 The **web version** of this book is licensed under a [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](https://creativecommons.org/licenses/by-nc-nd/4.0/).
 
 You are free to:
-- **Share** — copy and redistribute the web version in any medium or format
+- **Share** — copy and redistribute the web version in any medium or format.
 
 Under the following terms:
 - **Attribution** — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
@@ -45,13 +45,13 @@ By purchasing this book, you agree to these terms.
 ## Contributors
 
 The following entities have contributed in major ways to this book:
-* Richard Bateman, KD7BBC — Primary author, content architect, and project lead; directed, revised, and refined all material, including content generated or edited with the aid of AI tools
-* Ben Loveridge, K1BEN — Publishing consultant and Chief of Keeping Richard On Task (CKROT)
-* Norm Goodkin, K6YXH — Content review and editor
-* Mitch Berger, N2YIC — Technical reviewer and editor
-* Noji Ratzlaff, KN0JI — Creator of the fantastic organizational layout we used
-* Claude AI — Assisted with drafting and revision under human direction
-* ChatGPT — Helped with brainstorming and minor text refinements
+* Richard Bateman, KD7BBC — Primary author, content architect, and project lead; directed, revised, and refined all material, including content generated or edited with the aid of AI tools.
+* Ben Loveridge, K1BEN — Publishing consultant and Chief of Keeping Richard On Task (CKROT).
+* Norm Goodkin, K6YXH — Content review and editor.
+* Mitch Berger, N2YIC — Technical reviewer and editor.
+* Noji Ratzlaff, KN0JI — Creator of the fantastic organizational layout we used.
+* Claude AI — Assisted with drafting and revision under human direction.
+* ChatGPT — Helped with brainstorming and minor text refinements.
 
 Also huge thanks to all who have emailed us about corrections or typos!
 

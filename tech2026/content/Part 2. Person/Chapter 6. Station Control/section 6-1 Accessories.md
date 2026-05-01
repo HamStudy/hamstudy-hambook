@@ -45,10 +45,10 @@ An antenna analyzer lets you sweep frequency and watch SWR change across a range
 
 For mobile operation, the main choice is how the antenna attaches to the vehicle:
 
-- **Mag mounts**: quick to install, no drilling, less-than-ideal ground plane
-- **Lip mounts**: clamp to the edge of a hood or trunk, semi-permanent, no holes
-- **Drill mounts**: permanent, best performance, but you're putting a hole in your vehicle
-- **Glass mounts**: attach to a window, no metal surface needed, trade-offs in performance
+- **Mag mounts**: quick to install, no drilling, less-than-ideal ground plane.
+- **Lip mounts**: clamp to the edge of a hood or trunk, semi-permanent, no holes.
+- **Drill mounts**: permanent, best performance, but you're putting a hole in your vehicle.
+- **Glass mounts**: attach to a window, no metal surface needed, trade-offs in performance.
 
 You can even get mounts that let you use the antenna from your handheld on the vehicle roof — useful for quickly upgrading an HT for a road trip.
 
@@ -58,17 +58,17 @@ A few accessories make portable and mobile operation dramatically more comfortab
 
 For handheld operation:
 
-- **Speaker-microphones** let you keep the radio on your belt while talking
-- **Earpieces or headsets** are invaluable during public service events or in noisy environments
-- **Tactical PTT buttons** can be attached to handlebars or clothing for easier operation when mobile
-- **Extended battery packs** keep you on the air during long operating sessions
+- **Speaker-microphones** let you keep the radio on your belt while talking.
+- **Earpieces or headsets** are invaluable during public service events or in noisy environments.
+- **Tactical PTT buttons** can be attached to handlebars or clothing for easier operation when mobile.
+- **Extended battery packs** keep you on the air during long operating sessions.
 
 For mobile installations:
 
-- **External speakers** cut through road and engine noise
-- **Microphone extension cables** give you flexibility in microphone placement
-- **Mounting brackets** keep your radio secure and within reach while driving
-- **Headsets** reduce distraction — though always exercise caution when operating while driving
+- **External speakers** cut through road and engine noise.
+- **Microphone extension cables** give you flexibility in microphone placement.
+- **Mounting brackets** keep your radio secure and within reach while driving.
+- **Headsets** reduce distraction — though always exercise caution when operating while driving.
 
 These can be the difference between hearing a critical transmission during an emergency net and missing it in the ambient noise.
 

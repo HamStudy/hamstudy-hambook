@@ -28,20 +28,20 @@ $$E = I \times R$$
 {.float-right .img-small}
 
 Where:
-- **$E$** is the *voltage (electromotive force)* in **volts (V)**  
-- **$I$** is the *current* in **amperes (A)**  
-- **$R$** is the *resistance* in **ohms (Ω)**  
+- **$E$** is the *voltage (electromotive force)* in **volts (V)**.  
+- **$I$** is the *current* in **amperes (A)**.  
+- **$R$** is the *resistance* in **ohms (Ω)**.  
 
 Since it's a simple formula, you can **rearrange it** to solve for any of the three values using the circle diagram on the right! {{< link id="T5D03" >}}{{< link id="T5D01" >}} To use this helper:
 
 1. Cover up the value you want to find
 2. The remaining values show you how to calculate it (side by side means multiply, above / below means divide)
 
-   - Cover E: multiply $I \times R$
+   - Cover E: multiply $I \times R$.
 
-   - Cover I: divide $\frac{E}{R}$
+   - Cover I: divide $\frac{E}{R}$.
 
-   - Cover R: divide $\frac{E}{I}$
+   - Cover R: divide $\frac{E}{I}$.
 
 > Voltage is sometimes written with $V$ (voltage) instead of $E$ (electromotive force or EMF). **Electromotive force is another term for voltage** and is measured in **volts (V)**. Many prefer to use **$E$** because **$V$ is also used for velocity** in many engineering formulas.
 
@@ -85,9 +85,9 @@ $$P = I \times E$$
 {.float-right .img-small}
 
 Where:
-- **$P$** is the *power* in **watts (W)**  
-- **$I$** is the *current* in **amperes (A)**  
-- **$E$** is the *voltage* in **volts (V)**  
+- **$P$** is the *power* in **watts (W)**.  
+- **$I$** is the *current* in **amperes (A)**.  
+- **$E$** is the *voltage* in **volts (V)**.  
 
 Easy as PIE! Just like with Ohm's Law, there's a helpful circle diagram for power calculations.
 
@@ -95,11 +95,11 @@ The same principle applies:
 1. Cover what you want to calculate
 2. The remaining values show you the formula
 
-   - Cover P: multiply $I \times E$
+   - Cover P: multiply $I \times E$.
 
-   - Cover I: divide $\frac{P}{E}$
+   - Cover I: divide $\frac{P}{E}$.
 
-   - Cover E: divide $\frac{P}{I}$
+   - Cover E: divide $\frac{P}{I}$.
 
 <div class="clear"></div>
 

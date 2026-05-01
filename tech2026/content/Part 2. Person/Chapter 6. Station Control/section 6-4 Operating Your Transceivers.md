@@ -17,9 +17,9 @@ Now that you understand what transceivers are and how they work, let's explore h
 
 Every radio, regardless of type, has these fundamental controls:
 
-- **Power/Volume**: Turns the radio on/off and adjusts audio level
-- **Frequency Entry**: Use the keypad to type in a frequency directly, or turn the VFO knob to tune up or down the band
-- **PTT (Push-To-Talk)**: The button on the microphone (or radio body) that switches you from listening to transmitting
+- **Power/Volume**: Turns the radio on/off and adjusts audio level.
+- **Frequency Entry**: Use the keypad to type in a frequency directly, or turn the VFO knob to tune up or down the band.
+- **PTT (Push-To-Talk)**: The button on the microphone (or radio body) that switches you from listening to transmitting.
 
 #### Memory Channels
 
@@ -33,9 +33,9 @@ Most radios let you save frequencies (along with their associated settings — o
 
 A receiver amplifies whatever's coming in. When no signal is present, that amplification turns background noise into a loud hiss. The squelch control sets a threshold — signals below the threshold get muted, signals above it are passed through to the speaker:
 
-- Too low: constant background noise
-- Too high: you'll miss weak signals
-- Just right: silent until someone transmits
+- Too low: constant background noise.
+- Too high: you'll miss weak signals.
+- Just right: silent until someone transmits.
 
 To pull in a weak signal, lower the squelch until you can just barely hear the noise floor.
 
@@ -45,9 +45,9 @@ To pull in a weak signal, lower the squelch until you can just barely hear the n
 
 This feature automatically searches for active channels:
 
-- When the radio detects a signal, it pauses so you can listen
-- Once the transmission ends, scanning resumes
-- Useful for finding active repeaters or monitoring multiple channels at once
+- When the radio detects a signal, it pauses so you can listen.
+- Once the transmission ends, scanning resumes.
+- Useful for finding active repeaters or monitoring multiple channels at once.
 
 #### FM-Specific Controls
 
@@ -70,8 +70,8 @@ DTMF is the same technology as touch-tone phones — each "digit" is sent as two
 
 Many FM transceivers offer selectable power levels:
 
-- Handhelds: typically Low (0.5–1 W) and High (5 W)
-- Mobile rigs: often Low, Medium, and High (5–50 W and beyond)
+- Handhelds: typically Low (0.5–1 W) and High (5 W).
+- Mobile rigs: often Low, Medium, and High (5–50 W and beyond).
 
 Always use the minimum power necessary for reliable communication. Lower power conserves battery life in handhelds and reduces the chance of interfering with other stations. As mentioned in the previous section, improving your antenna system will often yield better results than simply increasing power.
 
@@ -83,11 +83,11 @@ While most Technician operators start with FM, transceivers that operate in mult
 
 Select the appropriate mode for your operation using the MODE control:
 
-- **SSB** (USB — Upper Sideband, and LSB — Lower Sideband)
-- **CW** (Continuous Wave for Morse code)
-- **AM** (Amplitude Modulation)
-- **FM** (Frequency Modulation)
-- **Digital** (sometimes labeled DATA or RTTY)
+- **SSB** (USB — Upper Sideband, and LSB — Lower Sideband).
+- **CW** (Continuous Wave for Morse code).
+- **AM** (Amplitude Modulation).
+- **FM** (Frequency Modulation).
+- **Digital** (sometimes labeled DATA or RTTY).
 
 For VHF/UHF SSB operation, *upper sideband* is normally used.
 
@@ -99,11 +99,11 @@ For VHF/UHF SSB operation, *upper sideband* is normally used.
 
 As explained in Section 6.3, bandwidth controls let you adjust how "wide" a slice of the radio spectrum your receiver processes:
 
-- **SSB**: typically 2400 Hz (best signal-to-noise ratio)
-- **CW**: typically 250–500 Hz
-- **AM**: typically 6 kHz
-- **FM**: typically 10–15 kHz
-- **Digital**: varies by mode
+- **SSB**: typically 2400 Hz (best signal-to-noise ratio).
+- **CW**: typically 250–500 Hz.
+- **AM**: typically 6 kHz.
+- **FM**: typically 10–15 kHz.
+- **Digital**: varies by mode.
 
 Narrower bandwidths reduce noise and interference but might cut off parts of a wider signal. Wider bandwidths provide better fidelity but let in more noise.
 
@@ -113,8 +113,8 @@ Narrower bandwidths reduce noise and interference but might cut off parts of a w
 
 Unlike FM, where your microphone gain rarely needs adjustment, proper mic gain setting is critical for SSB:
 
-- Too high: distorted audio that's difficult to understand
-- Too low: weak signal that others will struggle to hear
+- Too high: distorted audio that's difficult to understand.
+- Too low: weak signal that others will struggle to hear.
 
 Start with a moderate setting and get on-air reports to fine-tune. Clear, undistorted audio is the goal.
 
@@ -134,9 +134,9 @@ If you're interested in Morse code, all-mode transceivers typically include an e
 
 All-mode transceivers often include noise reduction systems:
 
-- **Noise Blanker**: helps reduce impulse noise like ignition noise
-- **Digital Noise Reduction**: uses DSP to identify and reduce random noise
-- **Notch Filter**: eliminates steady tones that can make reception difficult, and can help reduce interference from an adjacent signal
+- **Noise Blanker**: helps reduce impulse noise like ignition noise.
+- **Digital Noise Reduction**: uses DSP to identify and reduce random noise.
+- **Notch Filter**: eliminates steady tones that can make reception difficult, and can help reduce interference from an adjacent signal.
 
 These features enhance your receiver's ability to pick out desired signals by filtering out unwanted ones.
 

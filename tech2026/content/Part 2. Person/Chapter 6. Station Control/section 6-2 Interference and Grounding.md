@@ -27,10 +27,10 @@ In non-amateur receivers (like TVs, radios, or cell phones), fundamental overloa
 
 To address fundamental overload:
 
-- Reduce transmitter power if possible
-- Increase the distance between your antenna and affected devices
-- Install a filter at the input of the affected receiver to block the offending signals
-- Use a better-designed antenna that minimizes radiation in unwanted directions
+- Reduce transmitter power if possible.
+- Increase the distance between your antenna and affected devices.
+- Install a filter at the input of the affected receiver to block the offending signals.
+- Use a better-designed antenna that minimizes radiation in unwanted directions.
 
 Just because a neighbor can hear your transmissions on their device doesn't necessarily mean you're transmitting illegally or on the wrong frequency. It could be a case of fundamental overload, which is often a receiver problem rather than a transmitter problem.
 
@@ -42,15 +42,15 @@ Spurious emissions are unwanted radio frequency outputs on frequencies other tha
 
 Both harmonics and spurious emissions can cause interference to other services or devices operating on those frequencies. Causes can include:
 
-- Overdriven amplifiers
-- Poor filtering in the transmitter
-- Faulty or poorly designed equipment
+- Overdriven amplifiers.
+- Poor filtering in the transmitter.
+- Faulty or poorly designed equipment.
 
 To minimize harmonics and spurious emissions:
 
-- Ensure your transmitter is properly tuned and not overdriven
-- Use appropriate low-pass filters on your transmitter output
-- Maintain your equipment and replace any faulty components
+- Ensure your transmitter is properly tuned and not overdriven.
+- Use appropriate low-pass filters on your transmitter output.
+- Maintain your equipment and replace any faulty components.
 
 Understanding harmonics and spurious emissions is crucial for responsible amateur radio operation. These unwanted signals can cause interference far outside your intended transmission frequency, potentially affecting a wide range of devices and services.
 
@@ -69,11 +69,11 @@ To avoid being a pest:
 
 On the receiving end, interference might sound like buzzing, clicking, or that annoying "brrrap" that drowns out the signal you're trying to hear. Common culprits include:
 
-- Power lines
-- Electric motors (a fridge, a nearby AC unit)
-- LED lights (yes, even those eco-friendly bulbs can be radio unfriendly)
-- Poorly-made solar charge controllers
-- Computers and other electronic devices
+- Power lines.
+- Electric motors (a fridge, a nearby AC unit).
+- LED lights (yes, even those eco-friendly bulbs can be radio unfriendly).
+- Poorly-made solar charge controllers.
+- Computers and other electronic devices.
 
 Tracking it down is detective work: turn off devices one by one until the noise goes away. Ferrite beads or chokes on power cords can often help tame the noisy ones you can't turn off.
 

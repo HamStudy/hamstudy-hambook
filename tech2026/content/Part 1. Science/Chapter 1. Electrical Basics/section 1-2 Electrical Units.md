@@ -21,17 +21,17 @@ To understand how our radios work, we need to familiarize ourselves with some ba
 **Current** ($I$) is *the flow of electrons in an electric circuit*, measured in **amperes (A)**. {{< link id="T5A01" >}} {{< link id="T5A03" >}} Individual electrons actually move quite slowly through a conductor — about half an inch per minute — but the movement of electrical charge is nearly instantaneous, like a long tube filled with marbles: push one in at one end, and one pops out the other end almost immediately.
 
 In amateur radio, you might deal with:
-- **Milliamps (mA)** in low-power circuits
-- **A few amps** powering a mobile transceiver
-- **15-20 amps** for a high-power HF amplifier
+- **Milliamps (mA)** in low-power circuits.
+- **A few amps** powering a mobile transceiver.
+- **15-20 amps** for a high-power HF amplifier.
 
 **Resistance** ($R$) is *how much a material opposes current flow by converting electrical energy into heat*, measured in **ohms ($\Omega$)**. Think of resistance as a fundamental property that affects how electrical energy moves through a circuit:
-- *Conductors* like copper wire have *very low resistance*, allowing current to flow easily
-- *Insulators* like rubber or glass have *very high resistance*, blocking current flow
+- *Conductors* like copper wire have *very low resistance*, allowing current to flow easily.
+- *Insulators* like rubber or glass have *very high resistance*, blocking current flow.
 - *Resistors* are components with specific, controlled resistance values used to:
-  - Limit current in LED circuits to prevent burnout
-  - Divide voltage in measurement circuits
-  - Convert electrical energy to heat in applications like dummy loads
+  - Limit current in LED circuits to prevent burnout.
+  - Divide voltage in measurement circuits.
+  - Convert electrical energy to heat in applications like dummy loads.
 
 These three quantities are fundamentally linked as explained by **Ohm's Law**, which we'll cover in **Section 1.3**.
 
@@ -42,8 +42,8 @@ When current flows through a resistive component or wire, some voltage is "used 
 It's similar to water pressure decreasing as water flows through a pipe — the longer or narrower the pipe, the more pressure is lost. In electrical terms, when current flows through resistance, voltage decreases along the path.
 
 This concept is important in amateur radio because:
-- Long power cables to your radio can result in lower voltage at the radio than at the power source
-- Higher current draw (like during transmission) increases voltage drop
+- Long power cables to your radio can result in lower voltage at the radio than at the power source.
+- Higher current draw (like during transmission) increases voltage drop.
 
 This is why most mobile ham installations use thick, short power cables — to minimize voltage drop when operating equipment that draws significant current.
 
@@ -61,9 +61,9 @@ AC occurs naturally when a magnet rotates near a wire. As the magnet's north pol
 The diagram shows two complete **cycles** of AC — each starting at zero, rising to a positive peak, falling through zero to a negative peak, then returning to zero. *The number of these cycles completed per second is called frequency, measured in Hertz (Hz)*. {{< link id="T5A04" >}} {{< link id="T5A06" >}}
 
 Some examples:
-- Household power: **60 Hz** (60 cycles per second)
-- AM radio stations: around **1000 kHz** (1,000,000 cycles per second)
-- FM radio and many ham bands: **MHz range** (millions of cycles per second)
+- Household power: **60 Hz** (60 cycles per second).
+- AM radio stations: around **1000 kHz** (1,000,000 cycles per second).
+- FM radio and many ham bands: **MHz range** (millions of cycles per second).
 
 Understanding *frequency* is crucial in amateur radio because it determines *which bands you can use* and *how far your signals can travel*.
 
@@ -119,8 +119,8 @@ In a **DC circuit**, resistance simply opposes the flow of electricity. But in a
 
 In electrical circuits that include capacitors and/or inductors, the effect these components have on alternating current will vary with frequency. This frequency-dependent opposition to current flow is called **reactance**.
 
-- **Inductive reactance** increases as frequency increases
-- **Capacitive reactance** decreases as frequency increases
+- **Inductive reactance** increases as frequency increases.
+- **Capacitive reactance** decreases as frequency increases.
 
 **Impedance** combines both resistance and reactance, giving us the total opposition to AC current flow in a circuit.
 
@@ -128,9 +128,9 @@ A *resonant circuit consists of an inductor and a capacitor connected either in 
 
 Amateur radio equipment is typically designed to work with specific impedance values. For example, most transceivers are designed to connect to a **50-ohm** system. When impedances aren't properly matched:
 
-- Power transfer becomes less efficient
-- Some energy may be reflected back toward the source
-- Equipment may need to reduce power output to protect itself
+- Power transfer becomes less efficient.
+- Some energy may be reflected back toward the source.
+- Equipment may need to reduce power output to protect itself.
 
 These principles apply to many parts of your radio system, including antennas, which exhibit properties of resistance, capacitance, and inductance.
 

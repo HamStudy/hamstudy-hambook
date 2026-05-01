@@ -29,22 +29,22 @@ Together with the technical-and-communication-skills purpose in the KI above, th
 > **Key Information:** The FCC currently issues three classes of amateur radio licenses: Technician, General, and Amateur Extra. {{< link id="T1C01" >}}
 
 1. **Technician Class**:
-   - Entry-level license
-   - Full privileges on all amateur bands above 50 MHz
-   - Limited HF privileges (as discussed later in Section 8.3)
-   - Great for local communications and experimentation with VHF/UHF
+   - Entry-level license.
+   - Full privileges on all amateur bands above 50 MHz.
+   - Limited HF privileges (as discussed later in Section 8.3).
+   - Great for local communications and experimentation with VHF/UHF.
 
 2. **General Class**:
-   - Second level of licensing
-   - All Technician privileges, plus extensive phone, digital, and CW privileges on HF bands
-   - Opens up the world of global communication
-   - Can get accredited as a Volunteer Examiner to administer exams to new Technician class operators
+   - Second level of licensing.
+   - All Technician privileges, plus extensive phone, digital, and CW privileges on HF bands.
+   - Opens up the world of global communication.
+   - Can get accredited as a Volunteer Examiner to administer exams to new Technician class operators.
 
 3. **Amateur Extra Class**:
-   - Highest level of licensing
-   - All amateur privileges on all bands
-   - Access to exclusive Extra-only sections of bands
-   - Can get accredited as a Volunteer Examiner to administer exams for new and upgrading operators of any license class
+   - Highest level of licensing.
+   - All amateur privileges on all bands.
+   - Access to exclusive Extra-only sections of bands.
+   - Can get accredited as a Volunteer Examiner to administer exams for new and upgrading operators of any license class.
 
 You may come across other license classes besides these; that's because the rules have changed over the years and the Novice, Technician Plus, and Advanced licenses are no longer issued to new licensees. There are still people out there who hold Novice or Advanced licenses but that's a topic outside of the scope of this book. Note that each person may hold only one operator/primary station license grant — you'll have just one call sign, even if you have multiple radios or operating locations.
 
@@ -78,27 +78,27 @@ There are four "groups" that call signs are assigned from.
 
 **Call Sign Groups**:
 
-* **Group A — Amateur Extra Class**
-   - **Prefix:** K, N, W, or AA-AL
-   - **Suffix:** 1 or 2 letters
-   - **Examples:** K1A, N1AA, W1A, AA4BC, AL9BB
+* **Group A — Amateur Extra Class**.
+   - **Prefix:** K, N, W, or AA-AL.
+   - **Suffix:** 1 or 2 letters.
+   - **Examples:** K1A, N1AA, W1A, AA4BC, AL9BB.
 
    **Special event call signs**: The 1x1 format call signs, like K1A, are only used for special event stations and are only assigned for a limited time. You may hear them, but one will never be assigned to an individual.
 
-* **Group B — Advanced Class**
-   - **Prefix:** Two letters starting with K, N, or W
-   - **Suffix:** 2 letters
-   - **Examples:** KA1AA, WB2BB, NT3ST
+* **Group B — Advanced Class**.
+   - **Prefix:** Two letters starting with K, N, or W.
+   - **Suffix:** 2 letters.
+   - **Examples:** KA1AA, WB2BB, NT3ST.
 
-* **Group C — General, Technician, and Technician Plus Classes**
-   - **Prefix:** K, N, or W
-   - **Suffix:** 3 letters
-   - **Examples:** K1AAA, N1XYZ, W3ABC
+* **Group C — General, Technician, and Technician Plus Classes**.
+   - **Prefix:** K, N, or W.
+   - **Suffix:** 3 letters.
+   - **Examples:** K1AAA, N1XYZ, W3ABC.
 
-* **Group D — Novice, Club, and Military Recreation Stations**
-   - **Prefix:** Two letters starting with K or W
-   - **Suffix:** 3 letters
-   - **Examples:** KA2XYZ, WB2ZZZ
+* **Group D — Novice, Club, and Military Recreation Stations**.
+   - **Prefix:** Two letters starting with K or W.
+   - **Suffix:** 3 letters.
+   - **Examples:** KA2XYZ, WB2ZZZ.
 
 You may notice that some of these groups don't line up with the operator classes mentioned above: that's because the rules have changed over the years.
 

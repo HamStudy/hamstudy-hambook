@@ -46,12 +46,10 @@ LEDs are special diodes that light up when current flows through them. They're c
 There are two main types of transistors, and you'll need to know the names of the three electrodes on each:
 
 1. **Bipolar Junction Transistor (BJT)**
-   - Three parts: *Emitter, Base, and Collector* {{< link id="T6B12" >}}
-   - Often used for amplifying signals
-
-2. **Field-Effect Transistor (FET)**
-   - Three parts: *Gate, Drain, and Source* {{< link id="T6B05" >}}
-   - Often used as voltage-controlled switches
+- Three parts: *Emitter, Base, and Collector*. {{< link id="T6B12" >}}
+- Often used for amplifying signals.
+- Three parts: *Gate, Drain, and Source*. {{< link id="T6B05" >}}
+- Often used as voltage-controlled switches.
 
 In either type, the idea is the same: a small signal on one of the three electrodes controls a much larger current between the other two. That's what lets a transistor amplify — turning a small input signal into a big output — or switch, using a small control signal to turn a big current on or off.
 

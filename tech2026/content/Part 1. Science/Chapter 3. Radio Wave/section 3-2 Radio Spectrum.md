@@ -11,9 +11,9 @@ Think about how light behaves: a sunset casts long, soft shadows, a flashlight b
 
 As amateur radio operators, we get to use specific sections of the electromagnetic spectrum, each with its own properties. The key ranges you need to know are:
 
-- **HF (High Frequency): 3 to 30 MHz** {{< link id="T3B10" >}}
-- **VHF (Very High Frequency): 30 to 300 MHz** {{< link id="T3B08" >}}
-- **UHF (Ultra High Frequency): 300 to 3000 MHz** {{< link id="T3B09" >}}
+- **HF (High Frequency): 3 to 30 MHz**. {{< link id="T3B10" >}}
+- **VHF (Very High Frequency): 30 to 300 MHz**. {{< link id="T3B08" >}}
+- **UHF (Ultra High Frequency): 300 to 3000 MHz**. {{< link id="T3B09" >}}
 
 Each of these ranges behaves differently, and the light analogy is a useful way to think about why:
 

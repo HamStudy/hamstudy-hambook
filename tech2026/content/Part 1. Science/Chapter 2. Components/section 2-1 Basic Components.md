@@ -30,9 +30,9 @@ For the Technician exam, those two facts are all you need. The deeper details �
 
 Common applications in amateur radio include:
 
-1. Dividing voltages to protect delicate components
-2. Limiting current to sensitive parts
-3. Setting operating points in amplifier circuits
+1. Dividing voltages to protect delicate components.
+2. Limiting current to sensitive parts.
+3. Setting operating points in amplifier circuits.
 
 #### Capacitors and Inductors: The Energy Storage Twins
 
@@ -53,9 +53,9 @@ Capacitors come in all sorts of shapes and sizes, from tiny ceramic discs to lar
 
 In amateur radio, capacitors show up in a lot of roles:
 
-1. Smoothing out fluctuations in power supplies (converting AC into clean DC)
-2. Blocking unwanted signals or noise, including keeping RF out of audio circuits
-3. Helping select or tune specific frequencies in a circuit
+1. Smoothing out fluctuations in power supplies (converting AC into clean DC).
+2. Blocking unwanted signals or noise, including keeping RF out of audio circuits.
+3. Helping select or tune specific frequencies in a circuit.
 
 WARNING: Capacitors often retain charge for a time after you disconnect power - we'll cover this more in Chapter 5, but messing around with recently-powered capacitors can be pretty dangerous!
 
@@ -78,9 +78,9 @@ In terms of retaining charge, Inductors behave differently from Capacitors: they
 
 A *potentiometer* is a resistor you can adjust. As you turn the knob or slide the control, the resistance changes — which makes it useful anywhere you want a continuously-variable setting rather than a fixed value. In amateur radio, they commonly show up as:
 
-1. Volume controls
-2. Squelch controls
-3. Transmit power adjustments
+1. Volume controls.
+2. Squelch controls.
+3. Transmit power adjustments.
 
 #### Switches
 
@@ -95,8 +95,8 @@ A *potentiometer* is a resistor you can adjust. As you turn the knob or slide th
 
 Switches are described using two terms:
 
-- **Poles**: how many separate circuits the switch controls
-- **Throws**: how many positions each circuit can be connected to
+- **Poles**: how many separate circuits the switch controls.
+- **Throws**: how many positions each circuit can be connected to.
 
 So an SPST (Single Pole, Single Throw) switch is your classic on/off switch — one circuit, one position (besides off). An SPDT (Single Pole, Double Throw) switch is similar, but instead of just on/off, it routes the one input between two possible outputs. Think of it like a railroad switch with one incoming track (the pole) that can connect to either of two outgoing tracks (the throws).
 

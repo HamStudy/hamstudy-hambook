@@ -79,14 +79,14 @@ Part 97 specifies for international transmissions:
 
 While amateur radio is primarily designed for two-way communications, several specific kinds of one-way transmissions are permitted:
 
-- **Brief station adjustments and equipment tests**
-- **Establishing two-way communication** (calling CQ, for instance)
-- **Telecommand** (controlling model aircraft, satellites, etc.)
-- **Emergency communications** (when no two-way conversation is possible)
-- **Morse code practice**
-- **Information bulletins** (like ARRL's W1AW broadcasts to the amateur community)
-- **Telemetry** (data from satellites, beacons, etc.)
-- **Beacon stations** (continuous one-way transmissions for propagation studies)
+- **Brief station adjustments and equipment tests**.
+- **Establishing two-way communication** (calling CQ, for instance).
+- **Telecommand** (controlling model aircraft, satellites, etc.).
+- **Emergency communications** (when no two-way conversation is possible).
+- **Morse code practice**.
+- **Information bulletins** (like ARRL's W1AW broadcasts to the amateur community).
+- **Telemetry** (data from satellites, beacons, etc.).
+- **Beacon stations** (continuous one-way transmissions for propagation studies).
 
 Note that these are exceptions, not the rule. The general principle remains that amateur radio is for two-way communications. The forbidden category — broadcasting — is specifically transmissions intended for the general public, not for other amateurs. An information bulletin to the amateur community is fine; a transmission intended to entertain or inform the general public is not.
 

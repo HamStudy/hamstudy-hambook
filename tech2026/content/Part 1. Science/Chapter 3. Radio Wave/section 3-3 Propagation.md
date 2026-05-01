@@ -34,12 +34,12 @@ Line-of-sight is like being able to see someone across a field — if you can se
 
 When radio signals travel from transmitter to receiver, they often take multiple paths:
 
-- Some signals go directly
-- Others bounce off buildings, mountains, or other objects
+- Some signals go directly.
+- Others bounce off buildings, mountains, or other objects.
 - These different paths can combine at your antenna:
-  - When the signals arrive in phase, they strengthen each other
-  - When they arrive out of phase, they can cancel each other
-  - Moving your antenna even slightly can change this relationship
+  - When the signals arrive in phase, they strengthen each other.
+  - When they arrive out of phase, they can cancel each other.
+  - Moving your antenna even slightly can change this relationship.
 
 For digital modes, multipath can be especially troublesome — signals arriving via different paths can interfere with each other and increase error rates, which is why most digital modes include error detection and correction.
 
@@ -61,9 +61,9 @@ Just because you can't see your target doesn't mean you can't reach it:
 
 Think of sky wave propagation like bouncing a ball off the ceiling to reach someone across the room. The ionosphere acts as our "ceiling" in the sky, but instead of a hard surface, it's a region of charged particles that bends (or refracts) radio waves back toward Earth. For simplicity, this bending is often called "bouncing" or "reflection," though it's really a gradual refraction through layers of the ionosphere.
 
-- Different layers of the ionosphere affect different frequencies
-- Time of day and solar activity change how well it reflects signals
-- Multiple signal paths can cause fading as they combine in different ways
+- Different layers of the ionosphere affect different frequencies.
+- Time of day and solar activity change how well it reflects signals.
+- Multiple signal paths can cause fading as they combine in different ways.
 
 ##### Auroral Propagation
 

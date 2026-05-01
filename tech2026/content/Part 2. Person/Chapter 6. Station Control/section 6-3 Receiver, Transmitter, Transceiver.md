@@ -86,9 +86,9 @@ The metal body of a vehicle reflects and absorbs VHF and UHF signals, blocking o
 
 For better performance consider one or more of these suggestions:
 
-- Use an external antenna, mounted on the outside of the vehicle
-- Hold the radio near a window where metal obstructions are minimized
-- Use a properly installed mobile radio instead of a handheld
+- Use an external antenna, mounted on the outside of the vehicle.
+- Hold the radio near a window where metal obstructions are minimized.
+- Use a properly installed mobile radio instead of a handheld.
 
 > Reminder: Any time you are driving, safety comes first — use hands-free options or wait until you're stopped to operate your radio. Also be aware of the laws in your area, it may be illegal to operate a radio while driving!
 

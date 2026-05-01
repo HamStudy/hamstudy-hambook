@@ -42,9 +42,9 @@ Nets are organized groups of stations that meet on a specific frequency to excha
 
 The NCS has several key duties:
 
-- Starting the net with announcements and inviting check-ins
-- Managing communications flow between participants
-- Facilitating message exchange (traffic) between stations
+- Starting the net with announcements and inviting check-ins.
+- Managing communications flow between participants.
+- Facilitating message exchange (traffic) between stations.
 
 > **Key Information:** In net operation, the term "traffic" refers to formal messages exchanged by net stations. {{< link id="T2C05" >}}
 
@@ -85,14 +85,14 @@ During disasters when cell towers and internet infrastructure fail, Winlink has 
 
 Ham radio operators also provide valuable communication support for non-emergency community events like marathons, parades, and weather spotting networks. When participating in any public service activity:
 
-- Follow the Net Control Station's instructions
-- Keep transmissions brief and focused
-- Use plain language and *spell unusual words using a standard phonetic alphabet* for clarity
+- Follow the Net Control Station's instructions.
+- Keep transmissions brief and focused.
+- Use plain language and *spell unusual words using a standard phonetic alphabet* for clarity.
 
 Remember these key regulations:
 
-- *FCC rules always apply* to the operation of amateur stations, even during emergencies
-- Amateur operators cannot accept compensation for providing communications (more in Section 8.6)
+- *FCC rules always apply* to the operation of amateur stations, even during emergencies.
+- Amateur operators cannot accept compensation for providing communications (more in Section 8.6).
 
 Participating in these activities builds skills that are valuable during actual emergencies while helping your community.
 

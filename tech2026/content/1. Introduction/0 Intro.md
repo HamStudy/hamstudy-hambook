@@ -13,18 +13,18 @@ Welcome to the HamStudy Technician License HamBook! Whether you're aiming to get
 
 This HamBook contains everything you need to get your Technician Class license:
 
-- Clear explanations of technical concepts, from basic electronics to radio wave propagation
-- Practical information about setting up and operating your first station
-- Important safety guidelines to keep you and your equipment protected
-- A straightforward overview of FCC rules and regulations
-- Practice questions from the actual exam pool
+- Clear explanations of technical concepts, from basic electronics to radio wave propagation.
+- Practical information about setting up and operating your first station.
+- Important safety guidelines to keep you and your equipment protected.
+- A straightforward overview of FCC rules and regulations.
+- Practice questions from the actual exam pool.
 
 People come to amateur radio for many different reasons. You might be interested in:
-- Emergency communications and public service
-- Building and experimenting with radio equipment
-- Making friends over the airwaves
-- Bouncing signals off satellites
-- Chatting with people during your commute
+- Emergency communications and public service.
+- Building and experimenting with radio equipment.
+- Making friends over the airwaves.
+- Bouncing signals off satellites.
+- Chatting with people during your commute.
 
 Whatever draws you to amateur radio, this HamBook is designed to help you get licensed and start exploring. You can choose how deeply you want to explore each topic — some concepts are fascinating to dive into, while others you might just need to know enough to pass the exam.
 

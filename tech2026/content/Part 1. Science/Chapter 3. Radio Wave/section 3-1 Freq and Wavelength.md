@@ -71,9 +71,9 @@ To use this helper:
 1. Cover up the variable you want to find
 2. The remaining pieces show you how to calculate it
 
-   - Cover λ (wavelength): divide $\frac{300}{frequency}$
+   - Cover λ (wavelength): divide $\frac{300}{frequency}$.
 
-   - Cover ƒ (frequency): divide $\frac{300}{wavelength}$
+   - Cover ƒ (frequency): divide $\frac{300}{wavelength}$.
 
 For example, let's calculate the wavelength for the 2-meter band (144 MHz):
 
