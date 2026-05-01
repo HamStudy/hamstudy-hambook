@@ -5,9 +5,9 @@ epubtype: introduction
 
 The exam questions come from publicly available question pools developed by the [National Conference of Volunteer Examiner Coordinators (NCVEC)](https://ncvec.org). Each pool is updated on a four-year cycle, with the three pools updated in different years so they don't all change at once:
 
-- Technician Class pool: July 1, 2026 – June 30, 2030 (current pool, this book's focus)
-- General Class pool: July 1, 2023 – June 30, 2027
-- Amateur Extra Class pool: July 1, 2024 – June 30, 2028
+- Technician Class pool: July 1, 2026 – June 30, 2030 (current pool, this book's focus).
+- General Class pool: July 1, 2023 – June 30, 2027.
+- Amateur Extra Class pool: July 1, 2024 – June 30, 2028.
 
 The staggered schedule keeps study materials and exams current with evolving technology and regulations without forcing every license class to update at the same time.
 

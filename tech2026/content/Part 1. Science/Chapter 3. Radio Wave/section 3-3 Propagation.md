@@ -49,7 +49,7 @@ For digital modes, multipath can be especially troublesome — signals arriving 
 
 Just because you can't see your target doesn't mean you can't reach it:
 
-- **Reflections**: Like bouncing a ball off a wall, your signal can bounce off buildings or other surfaces to reach a repeater
+- **Reflections**: Like bouncing a ball off a wall, your signal can bounce off buildings or other surfaces to reach a repeater.
 - **Knife-edge diffraction**: Radio waves can bend slightly around sharp edges — the way a shadow's edge is always a little soft because light bends around whatever's casting it. This lets signals reach a bit into the "shadow zone" behind mountains or tall buildings.
 
 #### Sky Wave Propagation

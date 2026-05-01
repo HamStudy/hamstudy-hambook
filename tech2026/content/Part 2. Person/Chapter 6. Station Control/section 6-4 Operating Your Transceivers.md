@@ -55,8 +55,8 @@ This feature automatically searches for active channels:
 
 Many repeaters and other systems require specific tones for access:
 
-- **CTCSS (Continuous Tone-Coded Squelch System)**: a sub-audible continuous tone sent along with your voice
-- **DCS (Digital-Coded Squelch)**: a digital alternative to CTCSS
+- **CTCSS (Continuous Tone-Coded Squelch System)**: a sub-audible continuous tone sent along with your voice.
+- **DCS (Digital-Coded Squelch)**: a digital alternative to CTCSS.
 
 We'll discuss how these are used to access repeaters in the next section.
 

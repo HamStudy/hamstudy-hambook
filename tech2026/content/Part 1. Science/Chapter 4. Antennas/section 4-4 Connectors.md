@@ -70,10 +70,10 @@ In recent years there's been a significant shift in the handheld radio community
 
 **Why are so many hams making this switch?**
 
-- **Quick antenna changes** — twist-and-lock instead of multiple rotations with SMA threads
-- **Reduced wear on radio connectors** — the adapter takes the strain instead of your radio's built-in connector
-- **Flexibility for different situations** — swap between rubber duck, whip, and mobile antennas in seconds
-- **Less risk of cross-threading** — a common issue with SMA connectors
+- **Quick antenna changes** — twist-and-lock instead of multiple rotations with SMA threads.
+- **Reduced wear on radio connectors** — the adapter takes the strain instead of your radio's built-in connector.
+- **Flexibility for different situations** — swap between rubber duck, whip, and mobile antennas in seconds.
+- **Less risk of cross-threading** — a common issue with SMA connectors.
 
 However, adapters aren't for everyone. They add bulk and a tiny amount of signal loss. If you don't switch antennas often, sticking with what fits your radio directly is totally fine.
 

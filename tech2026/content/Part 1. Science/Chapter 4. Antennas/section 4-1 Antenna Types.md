@@ -26,8 +26,8 @@ A few ideas apply to almost every antenna you'll encounter, so it's worth gettin
 Think of antenna gain like changing from a regular light bulb to a spotlight — you get a brighter beam in one direction, but less light in others. The key idea is that gain is *redistribution*, not free energy: an antenna with gain focuses the signal you already have into a narrower area rather than creating more signal. That shows up in both directional antennas (beams) and in some verticals designed to push signal toward the horizon.
 
 Gain is typically measured in:
-- dBi (decibels relative to an isotropic radiator)
-- dBd (decibels relative to a dipole)
+- dBi (decibels relative to an isotropic radiator).
+- dBd (decibels relative to a dipole).
 
 An isotropic radiator is a theoretical "perfect" antenna that radiates equally in all directions, used as a reference point for comparing real antennas. The "i" in "dBi" refers to this isotropic radiator. dBd uses a half-wave dipole as the reference instead. The dipole itself has some gain over an isotropic radiator (about 2.15 dB), so a figure in dBi will always be a little higher than the same antenna's gain expressed in dBd.
 
