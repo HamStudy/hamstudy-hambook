@@ -10,85 +10,85 @@ state: complete
 ![Illustation of an ID badge with the call sign NT3ST and picture of an HT](../../../images/idbadge.svg)
 {.img-xsmall .float-right}
 
-Alright, fellow hams, let's talk about one of the most fundamental rules in amateur radio: station identification. It's like signing your name, but over the airwaves!
+Station identification is one of the most fundamental rules in amateur radio. It's like signing your name, but over the airwaves — and the FCC is specific about when and how it has to happen.
 
 #### When to Identify
 
-> **Key Information:** You are required to transmit your assigned call sign at least every 10 minutes during and at the end of a communication. {{< link id="T1F03" >}}
+> **Key Information:** You are required to transmit your assigned call sign at least every 10 minutes during a communication, and at the end of each communication. {{< link id="T1F03" >}}
 
-The FCC requires you to identify your station in two key situations:
-1. At least every 10 minutes during a contact
-2. At the end of each communication
-
-Remember: "Ten and End" - identify at least every ten minutes and at the end.
+A useful mnemonic: **"Ten and End"** — every ten minutes, and at the end. That's it. You don't have to identify at the *start* of a contact (though many hams do as a courtesy).
 
 > **Key Information:** When making on-the-air test transmissions, you must identify the transmitting station. {{< link id="T1D12" >}}
 
-Even for short test transmissions, you must identify your station with your call sign. There's no "just testing" exception to the identification rules!
+There's no "just testing" exception to the identification rules. Even short test transmissions need your call sign. A typical test might sound like: "KD1CBA testing, testing, testing."
 
 #### How to Identify
 
-> **Key Information:** English is the required language for identification when operating phone in the Amateur Radio Service. {{< link id="T1F04" >}}
->
-> *The method of call sign identification for a phone transmission is to use a CW or phone emission.* {{< link id="T1F05" >}}
+> **Key Information:**
+> - When operating phone (voice), you must identify in English. {{< link id="T1F04" >}}
+> - The required method for identifying on phone is to send the call sign using either CW or phone emission. {{< link id="T1F05" >}}
 
-Your station identification must include your FCC-assigned call sign. Here are some key points:
+Your station identification must include your FCC-assigned call sign. You can carry on the rest of your conversation in any language, but the call sign itself has to be in English. The "CW or phone" method just means: speak it, or send it in Morse code — both count. (Repeaters often identify in CW even though they carry phone traffic, which is why CW counts as a valid ID method on phone.)
 
-1. **Language**: *You must identify in English.* However, you can also add identifications in other languages if you wish.
+For digital and CW modes, transmit your call sign in the mode you're operating in.
 
-2. **Voice Identification**: *You can identify using either CW or phone emission when operating on phone.* For example: "This is KA1ABC" or "KA1ABC clear."
+##### Phonetics
 
-3. **CW and Digital Modes**: Transmit your call sign using the mode you're operating in.
+> **Key Information:** The FCC encourages the use of a standard phonetic alphabet when identifying on phone emissions. {{< link id="T1A03" >}}
 
-4. **Phonetics**: While not required, the FCC *encourages the use of a phonetic alphabet* for station identification when operating phone modes. {{< link id="T1A03" >}} This practice helps ensure clear and accurate communication of call signs, especially in challenging conditions. For example: "Kilo Alpha One Alpha Bravo Charlie." instead of "KA1ABC". It's best to use a standard alphabet rather than making one up so as to prevent confusion.
+Phonetics aren't required, but they're strongly encouraged because spoken letters can be hard to distinguish — especially in noisy conditions or across languages and accents. "B," "D," "P," "T," and "V" all sound similar over a marginal signal, but "Bravo," "Delta," "Papa," "Tango," and "Victor" don't. Use a standard alphabet (the NATO/ICAO phonetic alphabet is the universal choice) rather than making up your own; "Kickstart Doggy One Chapstick Banana Apple" might confuse rather than clarify.
 
-5. **Self-Assigned Indicators**: 
+For example: "Kilo Delta One Charlie Bravo Alpha" instead of "KD1CBA."
 
-> **Key Information:** All of these choices are acceptable when using a phone transmission: KL7CC stroke W3, KL7CC slant W3, or KL7CC slash W3. {{< link id="T1F06" >}}
+##### Self-Assigned Indicators
 
-Want to add a little flair to your call sign? You can use self-assigned indicators! These are like radio bumper stickers that tell others something special about your operation. Add them before or after your call sign (or both!), separated by a slash (/), the word "stroke," "slant," or "slash." For example, "KA1ABC/MOB" might be used to let folks know you're on the move. "W1AW/70" might indicate you're celebrating a 70th anniversary. Just remember, your indicator can't clash with any FCC-specified indicators or country prefixes.
+> **Key Information:** When using a phone transmission, you can use stroke, slant, or slash interchangeably to indicate the separator in a self-assigned indicator. {{< link id="T1F06" >}}
+
+Want to add a little flair to your call sign? You can use self-assigned indicators — a suffix tagged on with a slash to tell others something about your operation. "KD1CBA/MOB" might indicate you're mobile; "W1AW/70" might celebrate a 70th anniversary. On phone, you say "stroke," "slant," or "slash" for the slash itself — all three are equally acceptable.
+
+Just remember, your indicator can't clash with any FCC-specified indicators or country prefixes.
 
 #### Special Situations
 
-1. **Club Stations**: Use the club's call sign, not your personal one.
-2. **Special Event Stations**: Use the special event call sign if one has been issued.
-3. **Remote Operation**: Additional identification rules may apply. Check current FCC regulations.
+- **Club Stations**: Use the club's call sign, not your personal one (covered in Section 8.1).
+- **Special Event Stations**: Use the special event call sign if one has been issued.
+- **Remote Operation**: Additional identification rules may apply — check current FCC regulations if you're operating remotely.
 
-#### Using Tactical Call Signs
+#### Tactical Call Signs
 
-> **Key Information:** When using tactical call signs such as "Race Headquarters," you must identify with your FCC-assigned call sign at the end of each communication and every ten minutes during a communication. {{< link id="T1F02" >}}
+> **Key Information:** Tactical call signs do not replace your FCC call sign — you must still identify with your assigned call sign at least every 10 minutes during, and at the end of, a communication. {{< link id="T1F02" >}}
 
-As much as we all love our call signs (if you don't, you will!) there are times when it's not super convenient to keep track of them when working with a group. Imagine you are helping with a large event – perhaps a parade in a mid-sized city. Let's say we need someone at each of these stations:
+As much as we all love our call signs (if you don't, you will!) there are times when it's not super convenient to keep track of them when working with a group. Imagine you're helping with a large event — perhaps a parade in a mid-sized city. You might need someone at each of these stations:
 
-* Parade headquarters – someone to coordinate with the officials in charge of the parade and relay information as needed
+* Parade headquarters — someone to coordinate with the officials in charge of the parade and relay information as needed
 * 1st Street
 * 2nd Street
 * ...
-* Staging – the beginning of the parade where floats prepare to start the parade
-* Net Control – the person coordinating all the operators so they don't all talk over each other
+* Staging — the beginning of the parade where floats prepare to start
+* Net Control — the person coordinating all the operators so they don't all talk over each other
 
-Now, imagine that for some reason the parade is going to last for a long time and so you have people changing out in shifts; when you need to know what is going on at 3rd street you don't really care who the operator there is, you just need to talk to someone at that location.
+Now, imagine that for some reason the parade is going to last for a long time and so you have people changing out in shifts; when you need to know what's going on at 3rd Street you don't really care who the operator there is, you just need to talk to someone at that location.
 
-Fortunately, Part 97 doesn't require that you identify the person you are calling by their real call sign! It only requires that you identify *yourself* – and thus the purpose of a tactical call sign!
+Fortunately, Part 97 doesn't require that you identify the person you're calling by their real call sign! It only requires that you identify *yourself* — and thus the purpose of a tactical call sign.
 
 **What are tactical call signs?**
 Tactical call signs are short, descriptive names used to identify a station's function or location during an event. You might then have a conversation like this one:
 
-* "1st street, this is Net Control"
-* "Net control from 1st street, go ahead!"
+* "1st Street, this is Net Control"
+* "Net Control from 1st Street, go ahead!"
 * "Can you see the parade float with the giant bologna sandwich?"
-* "Affirmative net control, they are passing my location now"
-* "Thank you. I'll send someone to return their cooler of pastrami – it fell off a block back and they didn't notice"
-* "Copy that. 1st street, KF1AZT clear"
-* "Net control, NT3ST clear"
+* "Affirmative Net Control, they are passing my location now"
+* "Thank you. I'll send someone to return their cooler of pastrami — it fell off a block back and they didn't notice"
+* "Copy that. 1st Street, KF1AZT clear"
+* "Net Control, NT3ST clear"
 
-Notice a few things in this contrived example:
+A few things to notice:
 
-* It is easy for everyone to follow who is talking and what is going on – even if they don't know where KF1AZT is. If they had used call signs instead it would have been much harder to keep track of that.
-* The rules don't require that you identify yourself every transmission, just once every 10 minutes and at the end – so you need to sign off with your call sign but you can respond with the tactical call sign.
+* It's easy for everyone to follow who is talking and what is going on — even if they don't know where KF1AZT is. If they had used call signs instead it would have been much harder to keep track of.
+* The rules don't require that you identify yourself every transmission, just once every 10 minutes and at the end — so you need to sign off with your call sign but you can respond with the tactical call sign.
 * The specifics of when and how you identify with your real call sign don't matter as long as you follow those two rules.
 
-Remember, tactical call signs are the cherry on top of your communication sundae, not a replacement for your official FCC call sign. Use them wisely, and you'll be the communication superhero your event needs!
+Tactical call signs are a complement to your official FCC call sign, not a replacement. Use them wisely, and they'll make event coordination dramatically smoother.
 
 #### Exceptions to Identification Requirements
 
@@ -96,22 +96,19 @@ Remember, tactical call signs are the cherry on top of your communication sundae
 
 While station identification is generally required, there are a few specific situations where an amateur station may transmit without identifying on the air:
 
-1. **Transmissions to control model craft**: When using radio control for telecommand you are not required to identify in the regular ways. 
-   > **telecommand**: A one‐way transmission to initiate, modify, or terminate functions of a device at a 
-distance.
+1. **Transmissions to control model craft**: When using radio control for telecommand you are not required to identify in the regular ways.
+   > **telecommand**: A one-way transmission to initiate, modify, or terminate functions of a device at a distance.
 
-2. **Transmissions from a space station**: Space stations operating under automatic control may have different identification requirements. There are special licensing requirements for putting up a space station. You mostly just need to know that it's on the list of exceptions!
+2. **Transmissions from a space station**: Space stations operating under automatic control may have different identification requirements. There are special licensing requirements for putting up a space station; you mostly just need to know that it's on the list of exceptions.
 
-Remember, these exceptions are limited. In most cases, proper identification is still required.
+These exceptions are limited. In most cases, proper identification is still required.
 
 #### Tips and Tricks
 
-1. Set a 10-minute timer during long QSOs to remind you to identify.
-2. While not required, many hams choose to identify at the beginning of a contact as a courtesy. This is perfectly fine and usually a good idea, just not mandated by FCC rules.
-3. Whenever you call someone on the air always say their call sign first – and possibly more than once. That's because not everyone is listening all the time, but most of us get used to listening for our call sign. We'll start listening when we notice our call sign but may not have noticed what you said before. If you identify yourself *after* the person you are calling then they are more likely to know who they should respond to.
+- Set a 10-minute timer during long QSOs to remind you to identify.
+- While not required, many hams identify at the beginning of a contact as a courtesy. This is perfectly fine, just not mandated by FCC rules.
+- When calling someone on the air, always say their call sign first — and possibly more than once. Not everyone is listening all the time, but most of us are tuned in to listening for our own call sign. Identifying yourself *after* the person you're calling makes it more obvious who should respond.
 
-#### Pro Tip
+---
 
-Practice saying your call sign clearly and confidently. It's your radio identity, wear it with pride!
-
-Remember, proper identification is not just a legal requirement; it's a courtesy to other operators. It helps everyone know who they're talking to and avoids confusion on the bands. By following these identification rules, you're not just complying with FCC regulations; you're participating in the long-standing traditions of amateur radio. So get out there, key up that mic, and let the world know who you are - every 10 minutes and at the end of your QSO!
+Proper identification is the most visible courtesy on the bands — and it's the rule that ensures everyone listening can always tell who's transmitting. The next section covers the broader question of what you can and can't transmit in the first place.

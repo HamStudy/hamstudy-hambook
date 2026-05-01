@@ -2,33 +2,31 @@
 chapter: "8"
 section: "8.1"
 questions: [ "T1A02", "T1A01", "T1C01", "T1A04", "T1A05", "T1C04", "T1C07", "T1C05", "T1C02", "T1F11" ]
+state: complete
 ---
 
 ### Section 8.1: Operator Classes, Privileges, and Call Signs
 
-Welcome to the world of ham radio hierarchy! Let's break down the different operator classes, what they can do, and how to recognize them by their call signs.
+Amateur radio in the US is structured around a few license classes, each granting different privileges, and a call sign system that signals which class you hold. This section covers how that structure works and how you fit into it.
 
 #### The Purpose of Amateur Radio
 
-As we discussed in "About Amateur Radio" at the beginning of the book, amateur radio was established with specific purposes that guide our activities and privileges.
+> **Key Information:**
+> - *The FCC* regulates and enforces the rules for the Amateur Radio Service in the United States. {{< link id="T1A02" >}}
+> - The Basis and Purpose of the Amateur Radio Service includes *advancing skills in the technical and communication phases of the radio art*. {{< link id="T1A01" >}}
 
-> **Key Information:** The FCC regulates and enforces the rules for the Amateur Radio Service in the United States. The basis and purpose of the Amateur Radio Service includes advancing skills in both the technical and communication phases of radio.
+As we discussed in "About Amateur Radio" at the beginning of the book, advancing radio skills isn't the only purpose of the service. The full list as defined by the FCC also includes:
 
-The Federal Communications Commission (FCC) {{< link id="T1A02" >}} regulates and enforces the rules for the Amateur Radio service in the United States. Amateur radio was established with specific purposes {{< link id="T1A01" >}} that form the basis of our hobby and service:
+1. Expanding the pool of trained operators, technicians, and electronic experts
+2. Enhancing international goodwill through global communications
+3. Providing a voluntary noncommercial communication service to the public, especially in times of emergency
+4. Contributing to the advancement of the radio art
 
-1. Advancing skills in both the technical and communication aspects of radio.
-2. Expanding the pool of trained operators, technicians, and electronic experts.
-3. Enhancing international goodwill through global communications.
-4. Providing a voluntary noncommercial communication service to the public, especially in times of emergency.
-5. Contributing to the advancement of the radio art.
-
-These purposes highlight the multifaceted nature of amateur radio - it's not just a hobby, but a service with important technical, social, and public safety roles. As you progress in amateur radio, you'll find opportunities to fulfill each of these purposes. To support these purposes, the FCC grants different levels of licenses, each with increasing privileges.
+Together with the technical-and-communication-skills purpose in the KI above, these reasons drive everything else about how the service is organized — from the licensing structure that follows to the rules in later sections. To support this varied set of purposes, the FCC grants different levels of licenses, each with increasing privileges.
 
 #### Operator Classes and Privileges
 
-> **Key Information:** The FCC currently issues three classes of amateur radio licenses: Technician, General, and Amateur Extra.
-
-The FCC currently issues three classes of amateur radio licenses: {{< link id="T1C01" >}}
+> **Key Information:** The FCC currently issues three classes of amateur radio licenses: *Technician, General, and Amateur Extra*. {{< link id="T1C01" >}}
 
 1. **Technician Class**:
    - Entry-level license
@@ -52,86 +50,88 @@ You may come across other license classes besides these; that's because the rule
 
 #### Getting Your License
 
-After you pass your exam, your volunteer examiner (VE) team will send your test results and application to whichever VEC (Volunteer Examiner Coordinator) they work with. The VEC will submit your application to the FCC, and then the FCC will send you an email with information about how to pay the licensing fee. Once that is paid your license will be issued (usually the next business day) and *the FCC will send you an email with a link to download your license grant*. {{< link id="T1A04" >}}
+> **Key Information:**
+> - You receive official notification of your new license and call sign via *email from the FCC with a link to download the license grant*. {{< link id="T1A04" >}}
+> - The fact that *the license appears in the FCC ULS database* is what proves the FCC has issued an operator/primary license grant. {{< link id="T1A05" >}}
 
-> **Key Information:** You receive official notification of your new license and call sign via email from the FCC with a link to download the license grant. The appearance of a license in the FCC ULS database proves that the FCC has issued an operator/primary license grant.
+After you pass your exam, your volunteer examiner (VE) team sends your test results and application to whichever VEC (Volunteer Examiner Coordinator) they work with. The VEC submits your application to the FCC, which sends you an email about paying the licensing fee. Once that's paid, your license is typically issued the next business day.
 
-How do you know if someone (including yourself) is officially licensed? The proof is in the database! *The appearance of your license grant in the FCC's Universal Licensing System (ULS) database is what officially proves you've been licensed*—not a paper certificate or an email confirmation. {{< link id="T1A05" >}}
+The ULS database is publicly searchable, and it's the authoritative record of whether a license is currently active, expired, suspended, or revoked. Some online amateur radio services use the ability to download your license grant as a form of identity verification — they assume that if you can produce it, the license is really yours.
 
 #### Email Requirements and License Renewal
 
-> **Key Information:** If the FCC is unable to reach you by email, they may revoke your station license or suspend your operator license. You may request license renewal up to 90 days before the expiration date.
+> **Key Information:**
+> - If the FCC is unable to reach you by email, the result may be *revocation of the station license or suspension of the operator license*. {{< link id="T1C04" >}}
+> - An amateur radio license renewal may be requested up to *90 days* before the expiration date. {{< link id="T1C07" >}}
 
-Here's something critically important: *You must provide and maintain a correct email address with the FCC*. {{< link id="T1C04" >}} If they can't reach you by email, they can suspend or revoke your license. Make sure your email address stays current in the FCC database — it's a requirement, not just a suggestion!
+The FCC no longer sends physical mail, so a working email address is a regulatory requirement, not a suggestion. Update your contact info promptly if you change email providers or move.
 
-Your amateur radio license is valid for ten years. When it's time to renew, *you may request renewal up to 90 days before the expiration date*. {{< link id="T1C07" >}} Don't wait until the last minute — renewing early ensures you won't have any gap in your operating privileges.
+Your license is valid for ten years. When it's time to renew, you can do so through the FCC License Manager portal. If your license expires, you'll lose your operating privileges until you complete renewal — and after a two-year grace period you'd lose your call sign entirely and have to start over with a new exam.
 
 #### Call Signs
 
 In the US, call signs are structured as follows: [Prefix][Number][Suffix]
 
-> **Key Information:** A valid Group D call sign format for Technician class is a 2x3 format like KF1XXX. A Technician class operator can also be assigned a Group C call sign (1x3 format like K1XXX), but cannot be assigned a 1x2 or 2x1 call sign (such as W1XX or KA1X). {{< link id="T1C05" >}}
+> **Key Information:** A valid Group D call sign format for Technician class is the 2x3 format like *KF1XXX*. {{< link id="T1C05" >}}
 
-There are four "groups" that call signs are assigned from. 
+There are four "groups" that call signs are assigned from.
 
 **Call Sign Groups**:
 
-* **Group A - Amateur Extra Class**
+* **Group A — Amateur Extra Class**
    - **Prefix:** K, N, W, or AA-AL
    - **Suffix:** 1 or 2 letters
    - **Examples:** K1A, N1AA, W1A, AA4BC, AL9BB
 
    **Special event call signs**: The 1x1 format call signs, like K1A, are only used for special event stations and are only assigned for a limited time. You may hear them, but one will never be assigned to an individual.
 
-* **Group B - Advanced Class**
+* **Group B — Advanced Class**
    - **Prefix:** Two letters starting with K, N, or W
    - **Suffix:** 2 letters
    - **Examples:** KA1AA, WB2BB, NT3ST
 
-* **Group C - General, Technician, and Technician Plus Classes**
+* **Group C — General, Technician, and Technician Plus Classes**
    - **Prefix:** K, N, or W
    - **Suffix:** 3 letters
    - **Examples:** K1AAA, N1XYZ, W3ABC
 
-* **Group D - Novice, Club, and Military Recreation Stations**
+* **Group D — Novice, Club, and Military Recreation Stations**
    - **Prefix:** Two letters starting with K or W
    - **Suffix:** 3 letters
    - **Examples:** KA2XYZ, WB2ZZZ
 
-You may notice that some of these groups don't line up with the operator classes mentioned above: That's because the rules have changed over the years.
+You may notice that some of these groups don't line up with the operator classes mentioned above: that's because the rules have changed over the years.
 
-When you earn your first ham radio license you will be issued a sequential call sign based on the region of your mailing address and the group matching your license class. If there are no call signs remaining in that group then you will be assigned a call sign from a later group. For example, if you earn a General license and there are no available group C call signs in your region, you will get a group D call sign.
+When you earn your first ham radio license, you'll be issued a sequential call sign based on the region of your mailing address and the group matching your license class. If there are no call signs remaining in that group, you'll be assigned a call sign from a later group instead. In practice, Group C call signs are essentially exhausted in most regions, so new Technicians today are typically issued a Group D format like KF1XXX — which is what makes that the valid Technician format you'll see on the exam.
 
 #### Vanity Call Signs
 
-> **Key Information:** Any licensed amateur may select a desired call sign under the vanity call sign rules.
+> **Key Information:** *Any licensed amateur* may select a desired call sign under the vanity call sign rules. {{< link id="T1C02" >}}
 
-Don't like your assigned call sign? Good news! *Any licensed amateur can select a desired call sign under the vanity call sign rules*. {{< link id="T1C02" >}} You can apply for a vanity call sign from your group or a lower group (representing a lower class license). There are also some prefixes which are assigned to and reserved for specific geographical regions.
+Don't like your assigned call sign? You can apply for a vanity call sign from your group or a lower group (representing a lower license class). There are also some prefixes which are assigned to and reserved for specific geographical regions.
 
 #### Call Sign Regions
 
-The number in a call sign typically indicates the call sign region. The region you are assigned and whether or not you can be issued a region-restricted vanity call sign depends on the mailing address on your license.
+The number in a call sign typically indicates the call sign region. The region you're assigned, and whether you can be issued a region-restricted vanity call sign, depends on the mailing address on your license.
 
 #### Club Station Licenses
 
-> **Key Information:** A requirement for the issuance of a club station license grant is that the club must have at least four members.
+> **Key Information:** A requirement for a club station license grant is that the club must have *at least four members*. {{< link id="T1F11" >}}
 
-Club station licenses are a special type of amateur radio license granted to a club rather than an individual. Here's what you need to know:
+Club station licenses are a special type of amateur radio license granted to a club rather than an individual. The requirements:
 
-1. **Club Composition**: To qualify, *a club needs at least four members*. {{< link id="T1F11" >}} It's not a one-person show!
+1. **Club Composition**: At least four members — it's not a one-person show!
 
-2. **Club Identity**: The club must have a name, a document of organization, and management. Think of it as the club’s charter — it lays out who you are, how things are run, and makes everything official.
+2. **Club Identity**: The club must have a name, a document of organization, and management. Think of it as the club's charter — it lays out who you are, how things are run, and makes everything official.
 
-3. **Primary Purpose**: The club's main goal should be all about amateur radio activities. No disguising your book club as a ham radio club!
+3. **Primary Purpose**: The club's main goal should be amateur radio activities. No disguising your book club as a ham radio club!
 
-4. **Trustee**: The club must designate one person as the license trustee. This trustee needs to hold an operator/primary station license grant. They're like the team captain for your radio club.
+4. **Trustee**: The club must designate one person as the license trustee, who needs to hold an operator/primary station license grant. They're like the team captain for your radio club.
 
-5. **Callsign**: The club gets its own unique callsign, separate from any individual member's callsign.
+5. **Call sign**: The club gets its own unique call sign, separate from any individual member's call sign.
 
-Remember, when operating a club station, you use the club's callsign, not your personal one. It's all about team spirit in the radio waves!
+When operating a club station, you use the club's call sign rather than your personal one — but the operating privileges are still limited to your individual license class.
 
-#### Your Radio Identity
+---
 
-Your call sign is your on-air identity. Use it proudly and clearly, following proper identification procedures we'll discuss in later sections.
-
-As you progress through the license classes, you'll gain more privileges and potentially shorter call signs. But remember, every ham, regardless of class, is an important part of our community. Whether you're a newly minted Technician or a seasoned Extra, there's always something new to learn and explore in amateur radio!
+That covers the structure of the licensing system here in the US. The next section steps back even further to look at how amateur radio fits into the global picture — the ITU regions that organize spectrum use across the world.

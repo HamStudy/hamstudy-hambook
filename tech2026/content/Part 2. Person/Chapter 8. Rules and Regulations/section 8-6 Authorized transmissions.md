@@ -7,157 +7,129 @@ state: complete
 
 ### Section 8.6: Authorized and Prohibited Transmissions
 
-Welcome to the "do's and don'ts" of amateur radio! Understanding what you can and can't transmit is crucial for operating legally and ethically. Let's break it down:
+The "do's and don'ts" of amateur radio. Understanding what you can and can't transmit is part of operating legally and ethically — this section breaks it down.
 
 #### Authorized Transmissions
 
-> **Key Information:** Transmissions to a different country are limited to communications incidental to the purposes of the Amateur Radio Service and to remarks of a personal character. {{< link id="T1C03" >}}
+Amateur radio is for personal use and self-training, not for business. Authorized transmissions cover the things the service exists for: technical experimentation, personal communications, emergency support, and education about the hobby itself.
 
-1. **Non-Commercial Communication**: Amateur radio is for personal use and self-training, not for business.
+##### Compensation: When You Can Get Paid
 
-   > **Key Information:** The control operator of an amateur station may receive compensation for operating that station when the communication is incidental to classroom instruction at an educational institution. {{< link id="T1D08" >}}
+> **Key Information:** A control operator may receive compensation for operating an amateur station when the communication is part of classroom instruction at an educational institution. {{< link id="T1D08" >}}
 
-   * Here's a tricky one: Can you ever get paid for being a ham? The short answer is usually 'no' - after all, we're in this for the love of radio, not the money. But there's one situation where the FCC says it's okay to get compensated. If you're helping out during an emergency or an emergency drill, and it's related to your day job, you can get paid for your time. Just remember, the radio part needs to be a small piece of what you're doing, not the main event.
+Generally, you can't get paid for operating an amateur station — we're in this for the love of radio, not the paycheck. The classroom-instruction exception covers cases like a science teacher who operates the school's amateur station as part of teaching about radio: the teacher is compensated for teaching, not for providing a paid radio service.
 
-2. **Emergency Communications**: 
-   
-   > **Key Information:** Amateur stations may transmit information in support of broadcasting, program production, or news gathering when such communications are directly related to the **immediate safety of human life or protection of property**. {{< link id="T1D09" >}}
-   
-   In a real emergency, the usual rules take a backseat — you’re allowed to use any communication method necessary to get help! It's 
-   like having a "break glass in case of emergency" option for the rulebook, but remember that you may be called on to justify your decision, so make sure it was an actual emergency and that was the only way to solve it!
+Part 97 includes a few other narrow compensation exceptions, which we'll cover in the Prohibited Transmissions discussion below.
 
-   Part 97.403 Specifies:
-      > No provision of these rules prevents the use by an amateur station of any means of radiocommunication at its disposal to provide essential communication needs in connection with the immediate safety of human life and immediate protection of property when normal communication systems are not available.
+##### Emergency Communications
 
-3. **Ham Radio Show-and-Tell**:
-   - Spread the word about cool ham radio stuff
-   - Practice for when the zombies come (aka disaster prep)
-   - Take your station for a test drive
-   - Warm up for public service events
+> **Key Information:** Amateur stations may transmit information in support of broadcasting, program production, or news gathering when such communications are directly related to the ***immediate safety of human life or protection of property***. {{< link id="T1D09" >}}
 
-4. **One-Way Traffic (Sometimes)**:
-   - Morse code practice
-   - Beacon stations for propagation studies
-   - Control signals for amateur radio satellites
+In a real emergency, the usual rules take a back seat — you're allowed to use any communication method necessary to get help. Section 97.403 specifies:
 
-5. **Quick "Hello, Can You Hear Me?" Tests**:
-   - Signal reports (aka "You sound like you're transmitting from inside a tin can")
-   - Equipment tests (make sure your fancy new radio actually works)
+> No provision of these rules prevents the use by an amateur station of any means of radiocommunication at its disposal to provide essential communication needs in connection with the immediate safety of human life and immediate protection of property when normal communication systems are not available.
 
-6. **Going International**:
-   
-   > **Key Information:** FCC-licensed amateur radio stations are prohibited from exchanging communications with any country whose administration has notified the International Telecommunication Union (ITU) that it objects to such communications. {{< link id="T1D01" >}}
+You may be called on to justify your decision afterward, so make sure it really was an emergency and that this really was the only way to address it.
 
-   Time to flex those language skills! You can chat with hams worldwide, but keep it personal or radio-related. It's like having pen pals, but cooler.
+##### Other Authorized Activities
 
-   There are some countries that you are not allowed to communicate with: We won't be listing them here, because they could change over time, but any country can notify the ITU that they don't want ham radio operators to communicate with their citizens. If that happens? Forbidden.
+Several other categories of transmissions are explicitly authorized:
 
-   > **Key Information:** You may operate from a US-documented vessel in international waters with the master's permission. {{< link id="T1C06" >}}
+- **Promoting the hobby**: Discussing ham radio activities, demonstrations, public outreach.
+- **Disaster preparedness**: Practice, drills, and simulated emergency exercises.
+- **Equipment testing**: Brief on-the-air tests, signal reports, and station adjustments.
+- **One-way transmissions** (in specific cases): Morse code practice, beacons, telecommand, telemetry — covered in more detail below.
 
-   Here's a fun fact: You can transmit from a boat in international waters, as long as you stick to frequency bands allocated internationally in each of the three ITU regions. If you are in territorial waters of another country then you need to know and follow their rules.
+##### International Communications
 
-#### Third-Party Communications: Playing Telephone (Literally)
+> **Key Information:**
+> - Permitted international communications are those incidental to the purposes of the Amateur Radio Service and remarks of a personal character. {{< link id="T1C03" >}}
+> - You may operate from a US-documented vessel in international waters with the master's (captain's) permission. {{< link id="T1C06" >}}
+> - FCC-licensed amateurs are prohibited from exchanging communications with any country whose administration has notified the ITU that it objects to such communications. {{< link id="T1D01" >}}
 
-> **Key Information:** Third party communications are messages from a control operator (first party) of an amateur station to another amateur station control operator (second party) on behalf of another person (third party). {{< link id="T1F08" >}}
+You can chat with hams worldwide, but the conversation has to remain personal or radio-related — no business communications crossing international borders any more than they're allowed domestically.
 
-Ever wanted to let your non-ham friend use your radio? That – as well as passing messages on their behalf – counts as a third-party communication, and it comes with some rules:
+There are some countries you're not allowed to communicate with. The list isn't fixed (countries can change their stance), so we won't list them here, but the mechanism is clear: any country can notify the ITU that they object to amateur radio communication with their citizens, and if they do, US amateurs must not exchange communications with that country.
 
-1. **What's the Deal?**:
-   Third-party communication is when you're the middleman, passing a message from a non-ham to another station. It's like being a radio relay for your friends. Additionally Part 97 allows that person to participate, as long as the control operator is at the control point.
+If you're operating from international waters on a US-documented vessel, you can use your US amateur license — provided the captain has approved it. ("Captain's ship, captain's rules," basically.) You'd still need to know and follow the rules of any country whose territorial waters you might enter.
 
-2. **Domestic Third-Party Traffic**:
-   Within the U.S., it's generally a free-for-all. Let your friends and family experience the magic of ham radio! (subject to the restrictions mentioned below)
+#### Third-Party Communications
 
-3. **International Third-Party Traffic**:
+> **Key Information:**
+> - Third-party communications are messages from a control operator (first party) of an amateur station to another amateur station's control operator (second party) on behalf of another person (third party). {{< link id="T1F08" >}}
+> - When a non-licensed person speaks to a foreign amateur station via a station under the control of an FCC-licensed operator, the foreign station must be in a country with which the U.S. has a third-party agreement. {{< link id="T1F07" >}}
 
-   > **Key Information:** When a non-licensed person is allowed to speak to a foreign station using a station under the control of a licensed amateur operator, the foreign station must be in a country with which the U.S. has a third-party agreement. {{< link id="T1F07" >}}
+Ever wanted to let your non-ham friend use your radio? That — as well as passing messages on their behalf — counts as a third-party communication, and it comes with rules:
 
-   This is where it gets tricky. Both countries need to have a "handshake agreement" allowing it. It's like needing parental permission for an international field trip. No third-party agreement? No talking to that foreign station! (except for emergency or disaster relief communications)
+1. **What's the deal?** Third-party communication is when you're the middleman, passing a message from a non-ham to another station. Part 97 also allows that person to participate directly (speaking on the radio themselves), as long as the control operator is at the control point.
 
-   Part 97 specifies that:
-   > Transmissions to a different country, where permitted, shall be limited to communications incidental to the purposes of the amateur service and to remarks of a personal character.
+2. **Domestic third-party traffic**: Within the U.S., it's generally a free-for-all. Let your friends and family experience the magic of ham radio — subject to the usual rules about content and identification, and as long as a licensed amateur is at the control point.
 
-4. **You're the Boss**:
-   When letting a non-ham use your station, you need to be the responsible adult in the room. Stay present and keep an ear on what's happening.
+3. **International third-party traffic**: This is where it gets tricky. Both countries need to have a third-party agreement on the books for it to be allowed. No agreement, no third-party comms with that foreign station — except in the case of emergency or disaster relief, which is always allowed.
 
-5. **Not for Everyone**:
-   Some folks aren't allowed to join the third-party party, like those who've had their ham licenses revoked. It's like a "no entry" list for a fancy club.
+4. **You're the boss**: When letting a non-ham use your station, you're responsible. Stay present and keep an ear on what's happening.
+
+Part 97 specifies for international transmissions:
+
+> Transmissions to a different country, where permitted, shall be limited to communications incidental to the purposes of the amateur service and to remarks of a personal character.
 
 #### One-Way Transmissions
 
-> **Key Information:**
-> * One-way transmissions by an amateur station are prohibited when they constitute broadcasting. {{< link id="T1D02" >}}
-> * Broadcasting for the Amateur Radio Service is defined as transmissions intended for reception by the general public. {{< link id="T1D10" >}}
+> **Key Information:** Broadcasting is the prohibited form of one-way transmission. The FCC defines broadcasting as transmissions intended for reception by the general public. {{< link id="T1D02" >}} {{< link id="T1D10" >}}
 
-While amateur radio is primarily designed for two-way communications, there are specific situations where one-way transmissions are permitted:
+While amateur radio is primarily designed for two-way communications, several specific kinds of one-way transmissions are permitted:
 
-1. Morse Code Practice: Stations may transmit one-way signals for brief periods to provide practice in receiving Morse code.
+- **Brief station adjustments and equipment tests**
+- **Establishing two-way communication** (calling CQ, for instance)
+- **Telecommand** (controlling model aircraft, satellites, etc.)
+- **Emergency communications** (when no two-way conversation is possible)
+- **Morse code practice**
+- **Information bulletins** (like ARRL's W1AW broadcasts to the amateur community)
+- **Telemetry** (data from satellites, beacons, etc.)
+- **Beacon stations** (continuous one-way transmissions for propagation studies)
 
-2. Beacon Stations: These stations transmit one-way signals to study propagation or for other experimental purposes.
+Note that these are exceptions, not the rule. The general principle remains that amateur radio is for two-way communications. The forbidden category — broadcasting — is specifically transmissions intended for the general public, not for other amateurs. An information bulletin to the amateur community is fine; a transmission intended to entertain or inform the general public is not.
 
-3. Remote Control: One-way transmissions are allowed for remote control of model craft, such as drones or boats.
+#### Prohibited Transmissions
 
-4. Space Telemetry: One-way transmissions from space stations (like satellites) for telemetry purposes are permitted.
+##### Commercial Communications
 
-5. Brief Transmissions: Short, one-way transmissions are allowed for station identification, testing equipment, or making adjustments to the station.
+You generally can't use ham radio to conduct business or make money. Part 97 phrases this as prohibiting communications "in which the station licensee or control operator has a pecuniary interest, including communications on behalf of an employer."
 
-6. Emergency Communications: In cases of immediate safety of life or protection of property, one-way transmissions of any kind may be necessary and allowed. For example, Amateur Radio may be used when no other means is available in support of broadcasting, program production, or news gathering when the safety of human life or protection of property is on the line.
+There are a few specific exceptions in 97.113(a)(3):
 
-Remember, these are exceptions to the general rule. The primary purpose of amateur radio remains two-way communications. Always ensure your transmissions comply with FCC regulations and the spirit of amateur radio.
+> **Key Information:** Amateur radio operators may use their stations to notify other amateurs of equipment for sale or trade when selling amateur radio equipment and not on a regular basis. {{< link id="T1D05" >}}
 
-#### Prohibited Transmissions:
+In addition: 
 
-1. **Commercial Communications**: No using ham radio to conduct business or make money.
+- You can be paid when using the radio if you are participating on behalf of an employer in an emergency/disaster preparedness drill or testing in preparation for those drills (with some time limits — read up on it before doing so).
+- You can be paid when using a radio as an incidental part of teaching a class (as discussed above under Compensation).
+- A control operator for a club station can be paid for running the station when doing information bulletins or telegraphy — this has a bunch of weird requirements; look it up if you actually need it.
 
-   > **Key Information:** Amateur radio operators may use their stations to notify other amateurs of the availability of equipment for sale or trade when selling amateur radio equipment and not on a regular basis. {{< link id="T1D05" >}}
+##### Encrypted Messages
 
-   * The language used in Part 97 to refer to these prohibited transmissions is:
-      >Communications in which the station licensee or control operator has a pecuniary interest, including communications on behalf of an employer"
+> **Key Information:** Messages encoded to obscure their meaning may only be transmitted when sending control commands to space stations or radio control craft. {{< link id="T1D03" >}}
 
-   * There are a few exceptions made in Part 97(a)(3):
-     1. You can notify other operators that you have ham radio equipment for sale or trade, so long as it isn't something you do "on a regular basis".
-     2. You can be paid when using the radio if you are participating on behalf of an employer in a emergency/disaster preparedness drill and/or testing in preparation for those drills. There are some time limits, so read up on it before you do so.
-     3. You can be paid when using a radio as an incidental part of teaching a class
-     4. A control operator for a club station can be paid for running the station when doing information bulletins or telegraphy – there are a bunch of weird requirements for this and who does that anyway? But know that it's a Thing and look it up if you need!
-   
+Generally, ham radio messages need to be in the open — anyone listening should be able to understand what's being said. The exception is for control: you can encrypt the commands you send to a satellite or to a radio-controlled aircraft or drone, because there's a real safety concern if someone else could take control of those systems.
 
-2. **Broadcasting**: One-way transmissions intended for the general public are not allowed, other than the exceptions mentioned above.
+##### Music
 
-3. **Encrypted Messages**: 
+> **Key Information:** An amateur station may transmit music using a phone emission only when incidental to an authorized retransmission of manned spacecraft communications. {{< link id="T1D04" >}}
 
-   > **Key Information:** Messages encoded to obscure their meaning may be transmitted when transmitting control commands to space stations or radio control craft. {{< link id="T1D03" >}}
+Playing music over the air isn't allowed — except in the very narrow case where you're retransmitting authorized communications from manned spacecraft (like the ISS), and there happens to be music in the audio. The astronauts get to play music; you don't.
 
-   Transmissions intended to obscure the meaning of the communication are generally prohibited. 
+##### Indecent or Obscene Language
 
-   Now, you might think that all ham radio messages need to be out in the open for anyone to understand. And generally, you'd be right! But there's a cool exception: You're allowed to send encoded messages when you're controlling space stations or radio-controlled devices such as a plane or FPV drone.
+> **Key Information:** Any language considered indecent or obscene is prohibited. {{< link id="T1D06" >}}
 
-4. **Music Transmission**: 
+There's no FCC- or ITU-published list of forbidden words. The interpretation falls to the operator and the broader community, with the practical understanding that amateur transmissions can be heard by anyone — including children. Imagine your grandma is listening with your 4-year-old niece sitting on her lap and speak appropriately! Use good judgment.
 
-   > **Key Information:** An amateur station is authorized to transmit music using a phone emission only when incidental to an authorized retransmission of manned spacecraft communications. {{< link id="T1D04" >}}
+##### Willful Interference
 
-   Playing music over the air is generally not allowed, except for incidental music rebroadcast from space shuttle communications.
+> **Key Information:** Willful or malicious interference is prohibited. {{< link id="T1A11" >}}
 
-5. **Keep It Family-Friendly**: 
+Intentionally disrupting another station — jamming a frequency, transmitting noise to drown out a contact, deliberately keying over someone — is prohibited and can result in serious FCC penalties. This is one of the few amateur radio rules that comes with real enforcement bite.
 
-   > **Key Information:** Any language that may be considered indecent or obscene is prohibited in amateur radio communications. {{< link id="T1D06" >}}
+---
 
-   Imagine your grandma is listening - because she might be! No obscene or indecent language allowed. Let's keep it clean, folks.
-
-6. **No False or Fraudulent Signals**: 
-   False distress calls or pretending to be another station? That's not just against the rules, it's potentially dangerous. Don't do it!
-
-7. **Stay in Your Lane**: 
-   Retransmitting other radio services (like your local FM station or police scanner) is a big no-no. Stick to amateur radio content.
-
-8. **Check the "Do Not Call" List**:  
-   Some countries are off-limits for ham communication — not just because the FCC says so, but because those countries have notified the **International Telecommunication Union (ITU)** (See Section 8.2) that they don’t allow their citizens to communicate with foreign amateur radio operators.
-
-9.  **Play Nice**: 
-
-   > **Key Information:** Willful or malicious interference is prohibited. {{< link id="T1A11" >}}
-
-   Intentionally interfering with other stations is like stepping on someone's sandcastle. It's not cool, and it's definitely not allowed.
-
-Remember: The essence of ham radio is two-way communication and experimentation. If what you're doing doesn't fall into these categories, it's probably not allowed.
-
-So there you have it, folks - your guide to staying on the right side of the FCC while having a blast on the ham bands. Now go forth and communicate responsibly!
+The essence of ham radio is two-way communication and experimentation. If what you're doing doesn't fit those purposes, it's probably not allowed. The next section covers the role that ties the rules to actual operation: the control operator.

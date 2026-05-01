@@ -7,64 +7,65 @@ state: complete
 
 ### Section 8.4: Frequency Allocations and Band Sharing
 
-Now that we've covered the specific frequencies available to Technician class operators, let's zoom out and look at the bigger picture of how the radio spectrum is allocated and shared. It's like figuring out where your favorite hangout spots are in a big, busy city – and how to share them with others!
+Now that you know what frequencies you can use, here's a question worth thinking about: how do hams actually find each other? Just having a license isn't enough — if you don't know what frequency other people are using, you can't talk to them. This is a more practical issue than it sounds. Many people get a radio "for emergencies" and never actually use it, then in an actual emergency have no idea where to tune.
+
+The answer involves a layered system of allocations, voluntary band plans, and frequency coordinators that organize how the spectrum gets used. This section covers each layer.
 
 #### Spectrum Management
 
-The radio spectrum is a finite resource, and just like seating in a packed theater, it needs to be managed carefully. In the U.S., the Federal Communications Commission (FCC) plays the role of the usher, deciding who sits where. They divide up the spectrum among various services – not just amateur radio, but also broadcasting, cellular communications, and many other services that use the airwaves.
+The radio spectrum is a finite resource shared among many services — broadcasting, cellular, military, aviation, satellite operators, and amateur radio, among others. In the US, the Federal Communications Commission (FCC) decides which slices go to which service, dividing the spectrum into allocations.
 
 #### Primary vs. Secondary Allocations
 
-> **Key Information:** In segments of bands where the Amateur Radio Service is secondary, U.S. amateurs may find non-amateur stations in those segments, and must avoid interfering with them. {{< link id="T1B08" >}}
+> **Key Information:** In segments of bands where the Amateur Radio Service is secondary, U.S. amateurs may find non-amateur stations in those segments, and *must avoid interfering with them*. {{< link id="T1B08" >}}
 
-Not all spectrum allocations are created equal! There are two main types of allocations:
- 
-- **Primary**: If you're on a primary allocation, you've got a reserved seat — like having a confirmed airline ticket. You have priority, and others are expected not to interfere with your operations.
+Not all spectrum allocations are created equal. Each service in a given band is either:
 
-- **Secondary**: If you're on a secondary allocation, you're flying standby. You can use the frequency when it’s available, but if the primary users show up, you need to step aside. Even if their presence causes interference to your signal, they still have the right to be there — you're the one who has to work around them.
+- **Primary**: has priority on that frequency. Other services must not interfere with primary users, and primary users do not have to accommodate interference from secondary users.
+- **Secondary**: allowed to use the frequency but must not cause interference to primary users — and must accept any interference primary users cause to them.
 
-As an amateur operator, you'll find yourself in both situations. For example, on the 70 cm band (420 to 450 MHz), amateur radio is secondary to government radiolocation services in some areas. That means if Uncle Sam needs the airwaves, we step aside.
+As an amateur operator, you'll find yourself in both situations. For example, on the 70 cm band (420–450 MHz), amateur radio is secondary to government radiolocation services in some areas. If federal users need the airwaves, we step aside.
 
-On the other hand, there are bands where amateurs have primary status. A great example is the 2.4 GHz band, specifically around 2400 to 2450 MHz, which overlaps with Wi-Fi channel 1. In this portion of the spectrum, amateur radio has primary allocation, while Wi-Fi devices operate on a secondary basis. That means if there's interference between an amateur station and Wi-Fi devices on that frequency, the amateur station has legal priority – though it's quite likely your neighbor won't be aware of that, so the practical usefulness is questionable.
+On the other hand, there are bands where amateurs have primary status. The 2390–2417 MHz portion of the 2.4 GHz band is one example — amateur radio is primary there, while Wi-Fi devices (Wi-Fi channel 1 falls in this range) operate on a secondary basis. That means if there's interference between an amateur station and Wi-Fi devices on those frequencies, the amateur station has legal priority — though it's quite likely your neighbor won't be aware of that, so the practical usefulness is questionable.
 
 #### Band Plans
 
-> **Key Information:** A band plan, beyond the privileges established by the FCC, is a voluntary guideline for using different modes or activities within an amateur band. {{< link id="T2A10" >}}
+> **Key Information:** A band plan, beyond the privileges established by the FCC, is *a voluntary guideline for using different modes or activities within an amateur band*. {{< link id="T2A10" >}}
 
-Within our own little slice of the spectrum pie, the amateur communities develop voluntary band plans. Think of these like neighborhood guidelines – they're not laws, but everyone tries to follow them because it makes things run smoother for everyone. 
+Within our slice of the spectrum, the amateur community further organizes things through voluntary band plans. These designate which segments of a band are typically used for what — voice in one part, digital modes in another, repeaters at certain frequencies, calling frequencies for making initial contacts, and so on. They're not laws, but they're widely followed because they make sharing the band practical.
 
-These band plans suggest which types of operations should happen in different parts of our bands. For example, they might designate certain segments for digital modes, others for SSB voice, and still others for CW. They also identify calling frequencies where operators gather to make initial contacts, and specify common repeater frequency pairs.
+This is also the layer that solves the "how do I find anyone?" problem mentioned at the top of the section. If you know which segment of a band hams in your area use for FM voice, where the local repeaters live, and what calling frequency to monitor, you have a starting point. Without the band plan, you'd be turning the dial blind.
 
-Different modes of communication require different amounts of bandwidth - from narrow CW signals (around 150 Hz) to wider FM voice transmissions (about 16 kHz). Band plans help accommodate these different needs and help prevent signals from accidentally extending beyond band edges.
+Different modes also need different amounts of bandwidth — from narrow CW signals (around 150 Hz) to wider FM voice transmissions (about 16 kHz). Band plans help accommodate these different needs and help prevent signals from accidentally extending beyond band edges.
 
 #### Frequency Coordinators
 
-> **Key Information:** A Volunteer Frequency Coordinator recognized by local amateurs recommends transmit/receive channels for repeater and auxiliary stations. {{< link id="T1A08" >}}
-> 
-> Amateur operators in a local or regional area whose stations are eligible to be repeater or auxiliary stations select the Frequency Coordinator. {{< link id="T1A09" >}}
+> **Key Information:**
+> - A *Volunteer Frequency Coordinator recognized by local amateurs* recommends transmit/receive channels for repeater and auxiliary stations. {{< link id="T1A08" >}}
+> - Frequency Coordinators are selected by *amateur operators in a local or regional area whose stations are eligible to be repeater or auxiliary stations*. {{< link id="T1A09" >}}
 
-Speaking of sharing, when it comes to repeaters, Frequency Coordinators are the heroes that keep everything in order. These volunteers are like the neighborhood watch of the airwaves. They help manage the use of repeater frequencies to minimize interference and make the most out of the spectrum.
+Repeaters in particular need careful coordination — two repeaters trying to use the same input/output frequencies in overlapping coverage areas can interfere with each other badly. Frequency coordinators are volunteers who manage this for a region, recommending which frequency pairs new repeaters should use and helping resolve conflicts. They're not appointed by any government agency; they're chosen by the local repeater operators they serve.
 
-Frequency Coordinators aren't appointed by the FCC or any government agency. Instead, *they're selected by amateur operators in a local or regional area whose stations are eligible to be repeater or auxiliary stations*. This grassroots approach ensures that coordinators understand local needs and conditions.
+Their recommendations aren't legally binding, but following them is considered good amateur practice. Most repeater operators work with their local coordinator to ensure their station fits well into the existing repeater network.
 
-The recommendations from frequency coordinators aren't legally binding, but following them is considered good amateur practice. Most repeater operators work with their local coordinator to ensure their station fits well into the existing repeater network.
+Frequency allocations and conventions also vary between ITU regions, so always check local regulations if operating internationally.
 
-Remember that frequency allocations can vary between ITU regions, so always check local regulations if operating internationally.
+#### Designated Simplex Channels
 
-#### Simplex Channels in the VHF/UHF Band Plans
+> **Key Information:** Simplex channels are designated in the VHF/UHF band plans *so stations within range of each other can communicate without tying up a repeater*. {{< link id="T2B09" >}}
 
-> **Key Information:** Simplex channels are designated in the VHF/UHF band plans so stations within range of each other can communicate without tying up a repeater. {{< link id="T2B09" >}}
+Repeaters are valuable shared resources, and there's no reason to occupy one when you can talk to someone directly. The VHF/UHF band plans set aside specific simplex channels for exactly this purpose — local events, casual contacts between nearby stations, or any situation where the repeater isn't needed.
 
-Ever wondered why there are designated simplex channels in the VHF and UHF band plans? Simplex channels are like the direct communication lanes in our radio world. They allow stations within range of each other to communicate without tying up a repeater. This is super useful during local events or in situations where repeaters are busy or unavailable. So, next time you want to chat with a nearby ham without hogging the repeater, give a simplex channel a try!
-
-On a related note, it's tempting to just pick an arbitrary frequency and start operating, but always check the local band plan first – you might be on the input to a repeater and not know it, resulting in everyone else listening to your traffic (and likely angry that you are tying up the repeater).
+It's tempting to just pick an arbitrary frequency and start operating, but always check the local band plan first — you might be on the input to a repeater and not know it, resulting in everyone else listening to your traffic (and likely angry that you are tying up the repeater).
 
 #### Interference and Resolution
 
-> **Key Information:** When two stations transmitting on the same frequency interfere with each other, the stations should negotiate continued use of the frequency. {{< link id="T2B08" >}}
+> **Key Information:** When two stations transmitting on the same frequency interfere with each other, *the stations should negotiate continued use of the frequency*. {{< link id="T2B08" >}}
 
-Sometimes, two amateur radio stations might end up transmitting on the same frequency, leading to interference. It's like when two people start talking at the same time in a crowded room. So, what's the right move?
+Sometimes two stations end up on the same frequency despite everyone's best intentions. The rule is mutual courtesy: both stations have equal rights, no one has preemptive claim by being there first or by having the stronger signal, and the right approach is to talk to each other and figure out who'll move or how to share.
 
-According to the FCC's rules (and a good dose of common courtesy), both stations have equal rights to the frequency. This means that rather than one station automatically backing off, the best approach is for the two stations to *negotiate continued use of the frequency*. Communication is key – discuss who will stay on the frequency or if one of you will move to another spot on the band.
+Willful interference — deliberately disrupting another station — is a different matter entirely. It's prohibited and can result in penalties from the FCC. If you encounter it, document it and report it through proper channels rather than engaging with the interfering station.
 
-On a more serious note, willful interference (deliberately causing interference to another station) is prohibited and can result in penalties from the FCC. If you encounter this situation, document it and report it through proper channels rather than engaging with the interfering station. Our goal as amateur operators is to keep the airwaves friendly, cooperative, and enjoyable for everyone.
+---
+
+That covers how the spectrum gets divided up and shared. The next section gets into one of the most fundamental rules of operating within it: how and when to identify your station.
