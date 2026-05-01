@@ -5,7 +5,7 @@ questions: [ "T1A02", "T1A01", "T1C01", "T1A04", "T1A05", "T1C04", "T1C07", "T1C
 state: complete
 ---
 
-### Section 8.1: Operator Classes, Privileges, and Call Signs
+### Section 8.1: Operator Classes, Privileges, and Callsigns
 
 Amateur radio in the US is structured around a few license classes, each granting different privileges, and a callsign system that signals which class you hold. This section covers how that structure works and how you fit into it.
 
@@ -68,7 +68,7 @@ The FCC no longer sends physical mail, so a working email address is a regulator
 
 Your license is valid for ten years. When it's time to renew, you can do so through the FCC License Manager portal. If your license expires, you'll lose your operating privileges until you complete renewal — and after a two-year grace period you'd lose your callsign entirely and have to start over with a new exam.
 
-#### Call Signs
+#### Callsigns
 
 In the US, callsigns are structured as follows: [Prefix][Number][Suffix]
 
@@ -76,7 +76,7 @@ In the US, callsigns are structured as follows: [Prefix][Number][Suffix]
 
 There are four "groups" that callsigns are assigned from.
 
-**Call Sign Groups**:
+**Callsign Groups**:
 
 * **Group A — Amateur Extra Class**.
    - **Prefix:** K, N, W, or AA-AL.
@@ -104,13 +104,13 @@ You may notice that some of these groups don't line up with the operator classes
 
 When you earn your first ham radio license, you'll be issued a sequential callsign based on the region of your mailing address and the group matching your license class. If there are no callsigns remaining in that group, you'll be assigned a callsign from a later group instead. In practice, Group C callsigns are essentially exhausted in most regions, so new Technicians today are typically issued a Group D format like KF1XXX — which is what makes that the valid Technician format you'll see on the exam.
 
-#### Vanity Call Signs
+#### Vanity Callsigns
 
 > **Key Information:** Any licensed amateur may select a desired callsign under the vanity callsign rules. {{< link id="T1C02" >}}
 
 Don't like your assigned callsign? You can apply for a vanity callsign from your group or a lower group (representing a lower license class). There are also some prefixes which are assigned to and reserved for specific geographical regions.
 
-#### Call Sign Regions
+#### Callsign Regions
 
 The number in a callsign typically indicates the callsign region. The region you're assigned, and whether you can be issued a region-restricted vanity callsign, depends on the mailing address on your license.
 
@@ -128,7 +128,7 @@ Club station licenses are a special type of amateur radio license granted to a c
 
 4. **Trustee**: The club must designate one person as the license trustee, who needs to hold an operator/primary station license grant. They're like the team captain for your radio club.
 
-5. **Call sign**: The club gets its own unique callsign, separate from any individual member's callsign.
+5. **Callsign**: The club gets its own unique callsign, separate from any individual member's callsign.
 
 When operating a club station, you use the club's callsign rather than your personal one — but the operating privileges are still limited to your individual license class.
 

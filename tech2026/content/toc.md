@@ -65,7 +65,7 @@ title: "Table of Contents: Technician Class HamBook (2026-2030)"
 - Section 7.5: Fun with Amateur Radio.
 
 ### Chapter 8: Rules and Regulations
-- Section 8.1: Operator Classes, Privileges, and Call Signs.
+- Section 8.1: Operator Classes, Privileges, and Callsigns.
 - Section 8.2: ITU Regions.
 - Section 8.3: Authorized Frequencies.
 - Section 8.4: Frequency Allocations and Band Sharing.

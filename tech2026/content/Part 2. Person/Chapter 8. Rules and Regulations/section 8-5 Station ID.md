@@ -54,7 +54,7 @@ Just remember, your indicator can't clash with any FCC-specified indicators or c
 - **Special Event Stations**: Use the special event callsign if one has been issued.
 - **Remote Operation**: Additional identification rules may apply — check current FCC regulations if you're operating remotely.
 
-#### Tactical Call Signs
+#### Tactical Callsigns
 
 > **Key Information:** Tactical callsigns do not replace your FCC callsign — you must still identify with your assigned callsign at least every 10 minutes during, and at the end of, a communication. {{< link id="T1F02" >}}
 
