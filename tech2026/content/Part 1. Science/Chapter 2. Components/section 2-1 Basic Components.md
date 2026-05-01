@@ -12,8 +12,8 @@ When you peek inside a piece of radio gear, you'll see a lot of small parts arra
 #### Circuit Configurations: Series and Parallel
 
 > **Key Information:**
-> - In *series circuits*, current is the same through all components. {{< link id="T5D13" >}}
-> - In *parallel circuits*, voltage is the same across all components. {{< link id="T5D14" >}}
+> - In series circuits, current is the same through all components. {{< link id="T5D13" >}}
+> - In parallel circuits, voltage is the same across all components. {{< link id="T5D14" >}}
 
 Every circuit connects components in one of two arrangements (or some mix of both):
 
@@ -44,8 +44,8 @@ A battery stores energy chemically. Capacitors and inductors also store energy, 
 ##### Capacitors
 
 > **Key Information:**
-> - A capacitor stores energy in an *electric field*. {{< link id="T6A04" >}}
-> - A capacitor consists of *conductive surfaces (usually metal plates) separated by an insulator*. {{< link id="T6A05" >}}
+> - A capacitor stores energy in an electric field. {{< link id="T6A04" >}}
+> - A capacitor consists of conductive surfaces (usually metal plates) separated by an insulator. {{< link id="T6A05" >}}
 
 The physical structure — two conductors with an insulator between them — is what gives a capacitor its ability to hold a charge. Put a voltage across the plates and charge builds up on them, creating an electric field between the plates that stores energy. Remove the voltage and the stored energy stays there until something gives it somewhere to go.
 
@@ -62,9 +62,9 @@ WARNING: Capacitors often retain charge for a time after you disconnect power - 
 ##### Inductors
 
 > **Key Information:**
-> - Inductors store energy in a *magnetic field*. {{< link id="T6A06" >}}
-> - They are typically constructed as a *coil of wire*. {{< link id="T6A07" >}}
-> - They are *used with capacitors* to make a *resonant circuit*. {{< link id="T6D08" >}}
+> - Inductors store energy in a magnetic field. {{< link id="T6A06" >}}
+> - They are typically constructed as a coil of wire. {{< link id="T6A07" >}}
+> - They are used with capacitors to make a resonant circuit. {{< link id="T6D08" >}}
 
 Where a capacitor stores energy in an electric field between plates, an *inductor* stores it in a magnetic field that forms around a coil of wire when current flows through it. That's why nearly every inductor you'll see looks like a coil — the coil shape concentrates the magnetic field and makes the storage effect stronger.
 
@@ -74,7 +74,7 @@ In terms of retaining charge, Inductors behave differently from Capacitors: they
 
 #### Potentiometers
 
-> **Key Information:** A *potentiometer is used to control resistance* {{< link id="T6A03" >}} and is often used as a *volume control*. {{< link id="T6A02" >}}
+> **Key Information:** A potentiometer is used to control resistance {{< link id="T6A03" >}} and is often used as a volume control. {{< link id="T6A02" >}}
 
 A *potentiometer* is a resistor you can adjust. As you turn the knob or slide the control, the resistance changes — which makes it useful anywhere you want a continuously-variable setting rather than a fixed value. In amateur radio, they commonly show up as:
 
@@ -85,8 +85,8 @@ A *potentiometer* is a resistor you can adjust. As you turn the knob or slide th
 #### Switches
 
 > **Key Information:**
-> * An *SPDT (Single Pole, Double Throw) switch* allows *a single circuit to be switched between one of two other circuits*. {{< link id="T6A08" >}}
-> * You'll also need to recognize an *SPST (Single Pole, Single Throw) switch* on a circuit diagram. {{< link id="T6A09" >}}
+> * An SPDT (Single Pole, Double Throw) switch allows a single circuit to be switched between one of two other circuits. {{< link id="T6A08" >}}
+> * You'll also need to recognize an SPST (Single Pole, Single Throw) switch on a circuit diagram. {{< link id="T6A09" >}}
 
 ![Diagram of a SPST switch](../../../images/s2-1-spst-switch.svg)
 {.img-small .float-right .mb-1 .img-bw}

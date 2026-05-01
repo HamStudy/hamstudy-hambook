@@ -19,13 +19,13 @@ Unless you're running everything off batteries (and kudos if you are!), AC is wh
 
 - **Wiring Colors**: 
 
-  > **Key Information:** In the United States, in a three-wire 120 V AC cable, *black* wire insulation indicates the *hot* wire, white is neutral, and green or bare copper is the ground. {{< link id="T0A03" >}}
+  > **Key Information:** In the United States, in a three-wire 120 V AC cable, black wire insulation indicates the hot wire, white is neutral, and green or bare copper is the ground. {{< link id="T0A03" >}}
 
   That's the standard — but it's only a starting point. Never assume a wire is safe to touch based on its color alone. Previous owners, unlicensed handywork, or old wiring predating modern codes can all produce wiring that doesn't follow the convention. Always test with proper equipment before working on any AC circuit.
 
 #### Electrical Hazards to the Human Body
 
-> **Key Information:** Electrical current through the body can cause injury by *heating body tissue*, *disrupting the electrical functions of cells*, and *causing involuntary muscle contractions*. {{< link id="T0A02" >}}
+> **Key Information:** Electrical current through the body can cause injury by heating body tissue, disrupting the electrical functions of cells, and causing involuntary muscle contractions. {{< link id="T0A02" >}}
 
 Each of these effects is its own kind of problem:
 
@@ -38,9 +38,9 @@ Any one of these effects can be serious, and in some circumstances fatal, depend
 #### AC Power Safety Tips
 
 > **Key Information:** To guard against electrical shock at your station:
-> - *Use three-wire cords and plugs for all AC powered equipment* {{< link id="T0A06" >}}
-> - *Connect all AC powered station equipment to a common safety ground*
-> - *Ensure all capacitors used for high-voltage DC are fully discharged before working inside equipment*
+> - Use three-wire cords and plugs for all AC powered equipment. {{< link id="T0A06" >}}
+> - Connect all AC powered station equipment to a common safety ground.
+> - Ensure all capacitors used for high-voltage DC are fully discharged before working inside equipment.
 
 The three-wire requirement is the basic electrical-code answer: the third conductor (green or bare copper) provides a safe path to ground if insulation fails inside a piece of equipment, rather than that failure energizing the metal chassis and waiting for you to touch it. The common safety ground extends that protection across your whole station — if every piece of gear shares a ground, there's no voltage difference between them that could shock you. And the capacitor point matters because high-voltage capacitors can hold a dangerous charge for a long time after equipment is unplugged; power amplifiers and tube-era gear are especially notorious for this.
 

@@ -14,9 +14,9 @@ Welcome to the toy store of ham radio! A radio alone is rarely a complete statio
 Unless you're running on batteries, you'll need a power supply to convert AC from the wall into the DC voltage your radio needs.
 
 > **Key Information:**
-> - An appropriate power supply rating for a typical 50-watt output mobile FM transceiver is *13.8 volts at 12 amperes*. {{< link id="T4A01" >}}
-> - A *regulator* is the type of circuit that *controls the amount of voltage from a power supply*. {{< link id="T6D05" >}}
-> - Short, heavy-gauge wires should be used for a transceiver's DC power connection to *minimize voltage drop when transmitting*. {{< link id="T4A03" >}}
+> - An appropriate power supply rating for a typical 50-watt output mobile FM transceiver is 13.8 volts at 12 amperes. {{< link id="T4A01" >}}
+> - A regulator is the type of circuit that controls the amount of voltage from a power supply. {{< link id="T6D05" >}}
+> - Short, heavy-gauge wires should be used for a transceiver's DC power connection to minimize voltage drop when transmitting. {{< link id="T4A03" >}}
 
 13.8 volts is the standard ham-radio supply voltage because that's roughly what a car's electrical system provides with the engine running — and most mobile transceivers were originally designed for automotive use. The 12 amps is more than the radio typically draws on receive but gives you enough headroom for full-power transmit without the supply voltage sagging.
 
@@ -36,8 +36,8 @@ For digital modes (which we covered in Section 3.6), you'll want a way to connec
 These are the tools for seeing what your antenna system is actually doing.
 
 > **Key Information:**
-> - When selecting an accessory SWR meter, consider the *frequency and power level at which the measurements will be made*. {{< link id="T4A02" >}}
-> - An RF power meter should be installed *in the feed line, between the transmitter and antenna*. {{< link id="T4A05" >}}
+> - When selecting an accessory SWR meter, consider the frequency and power level at which the measurements will be made. {{< link id="T4A02" >}}
+> - An RF power meter should be installed in the feed line, between the transmitter and antenna. {{< link id="T4A05" >}}
 
 An antenna analyzer lets you sweep frequency and watch SWR change across a range, which is how you tune an antenna to resonance. SWR meters and power meters are simpler — they connect inline between your transmitter and antenna (they have to be in the RF path to measure what's on it) and show you how much forward and reflected power is moving through. When picking any of these, check that the meter handles the frequencies and power levels you actually operate at — a meter designed for HF can give nonsense readings at VHF, and one rated for 100 W can be damaged by a 1.5 kW transmitter.
 

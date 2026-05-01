@@ -17,8 +17,8 @@ Let's start with the most basic question: what does electricity flow through, wh
 Materials fall into two main categories when it comes to electricity: conductors and insulators.
 
 > **Key Information:**
-> * Metals are good conductors because they have *many free electrons*.
-> * *Glass* (along with plastic and rubber) is a good electrical insulator.
+> * Metals are good conductors because they have many free electrons.
+> * Glass (along with plastic and rubber) is a good electrical insulator.
 
 **Conductors** are materials that allow electrical charges to flow through them easily. {{< link id="T5A07" >}} Most metals are good conductors because they have *many free electrons* — charges that can move around freely when a voltage is applied. This is why we use metals like copper in antennas, power cables, and the wiring inside our radios: those free electrons make it easy for electrical current to flow. A fun fact: silver is actually a better conductor than copper, but its high price makes it impractical for most applications!
 

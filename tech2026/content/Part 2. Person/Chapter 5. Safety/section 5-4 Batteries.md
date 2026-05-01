@@ -12,8 +12,8 @@ Batteries are the lifeblood of portable ham radio. Whether you're operating from
 #### Types of Batteries
 
 > **Key Information:**
-> - Rechargeable battery chemistries include *nickel-metal hydride*, *lithium-ion*, and *lead-acid*. {{< link id="T6A10" >}}
-> - *Carbon-zinc* batteries are *not rechargeable*. {{< link id="T6A11" >}}
+> - Rechargeable battery chemistries include nickel-metal hydride, lithium-ion, and lead-acid. {{< link id="T6A10" >}}
+> - Carbon-zinc batteries are not rechargeable. {{< link id="T6A11" >}}
 
 ![Illustration of several different kinds of batteries sitting side by side](../../../images/illus/batteries.svg)
 {.img-full .img-centered}
@@ -40,9 +40,9 @@ Worth noting: batteries of different chemistries may have different voltages per
 
 Each chemistry has its own quirks, but a few hazards apply broadly.
 
-> **Key Information:** Shorting the terminals of a 12-volt storage battery that lacks internal protection circuitry can cause *burns, fire, or an explosion*. {{< link id="T0A01" >}}
+> **Key Information:** Shorting the terminals of a 12-volt storage battery that lacks internal protection circuitry can cause burns, fire, or an explosion. {{< link id="T0A01" >}}
 
-> **Key Information:** Rapidly charging or discharging an unprotected battery can cause *overheating or out-gassing*. {{< link id="T0A10" >}}
+> **Key Information:** Rapidly charging or discharging an unprotected battery can cause overheating or out-gassing. {{< link id="T0A10" >}}
 
 ##### Lead-Acid
 
@@ -80,7 +80,7 @@ Each chemistry has its own quirks, but a few hazards apply broadly.
 
 When you're out in the field or during a power outage, knowing how long your equipment can run on a battery is crucial. This comes down to your battery's ampere-hour (Ah) rating and your equipment's current draw.
 
-> **Key Information:** To determine how long equipment can run from a battery, *divide the battery ampere-hour rating by the average current draw of the equipment*. {{< link id="T4A09" >}}
+> **Key Information:** To determine how long equipment can run from a battery, divide the battery ampere-hour rating by the average current draw of the equipment. {{< link id="T4A09" >}}
 
 For example, if you have a 12 Ah battery and your radio draws an average of 2 A:
 

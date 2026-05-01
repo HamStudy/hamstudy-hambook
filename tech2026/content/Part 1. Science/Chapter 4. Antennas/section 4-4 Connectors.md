@@ -79,7 +79,7 @@ However, adapters aren't for everyone. They add bulk and a tiny amount of signal
 
 ##### PL-259/SO-239 (UHF Connector)
 
-> **Key Information:** PL-259 connectors are *commonly used at HF and VHF frequencies*. {{< link id="T9B07" >}}
+> **Key Information:** PL-259 connectors are commonly used at HF and VHF frequencies. {{< link id="T9B07" >}}
 
 Despite its name, the "UHF connector" is a bit of a misnomer. It's widely used for HF and VHF radios, but it's not the best choice for UHF. The name originates from a time when the UHF spectrum was defined as a different (lower) range of frequencies but the connector name stuck.
 
@@ -97,7 +97,7 @@ These connectors work well up to about 150 MHz, but if you're working above that
 
 ##### Type N
 
-> **Key Information:** Type N connectors are the *most suitable connector type for frequencies above 400 MHz* due to their low loss and excellent shielding. {{< link id="T9B06" >}}
+> **Key Information:** Type N connectors are the most suitable connector type for frequencies above 400 MHz due to their low loss and excellent shielding. {{< link id="T9B06" >}}
 
 ![Type N Male Connector](../../../images/typen.jpg)
 {.img-med .float-right}
@@ -110,7 +110,7 @@ If you're working at frequencies above 400 MHz, Type N is your best bet for maxi
 
 #### Weatherproofing Outdoor Connections
 
-> **Key Information:** Outdoor RF connectors (PL-259, BNC, Type N, and others) should be *carefully taped for weather protection*. {{< link id="T9B01" >}}
+> **Key Information:** Outdoor RF connectors (PL-259, BNC, Type N, and others) should be carefully taped for weather protection. {{< link id="T9B01" >}}
 
 No connector is immune to weather. Moisture that gets into an outdoor connection corrodes the metal, degrades the signal, and can eventually work its way down the coax jacket — the same water-intrusion problem we talked about in the feed-line section. The fix is straightforward: wrap outdoor connections in weatherproofing tape (coax-sealing putty, self-amalgamating rubber tape, or a combination of the two are common choices).
 

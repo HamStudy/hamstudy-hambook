@@ -25,7 +25,7 @@ Here's what makes HF special:
 
 3. **Different Modes**: While you're mostly limited to voice as a Technician, you'll hear all sorts of modes on HF — SSB (Single Sideband), CW, and various digital modes.
 
-> **Key Information:** CW is *another name for a Morse code transmission*. {{< link id="T8D09" >}}
+> **Key Information:** CW is another name for a Morse code transmission. {{< link id="T8D09" >}}
 
 The name comes from "Continuous Wave" — historically distinguishing a keyed unmodulated carrier from other emissions — but in practice CW just means Morse code. Though it might seem outdated to newcomers, CW remains popular on the HF bands due to its efficiency and ability to get through when voice signals can't.
 
@@ -39,7 +39,7 @@ Now, let's talk about actually using that 10-meter privilege:
 
 3. **Speak Clearly**: HF can be noisy. Enunciate your words and use the standard phonetic alphabet for your callsign to ensure your transmission is received correctly.
 
-   > **Key Information:** When voice messages contain unusual words, the standard technique to ensure they are received correctly is to *spell the words using a standard phonetic alphabet*. {{< link id="T2C03" >}}
+   > **Key Information:** When voice messages contain unusual words, the standard technique to ensure they are received correctly is to spell the words using a standard phonetic alphabet. {{< link id="T2C03" >}}
 
 4. **Be Patient**: HF contacts often involve more back-and-forth than VHF/UHF. Signal reports and location exchanges are common.
 
@@ -58,11 +58,11 @@ Calling CQ (seeking a contact) and responding to CQ calls are fundamental skills
 
 Example: "CQ CQ CQ, this is KA1ABC, Kilo Alpha One Alpha Bravo Charlie calling CQ and listening."
 
-> **Key Information:** An effective way to seek a call from any phone station when not using a repeater is to *repeat "CQ" a few times, followed by "this is" and your call sign, then pause to listen*. {{< link id="T2A06" >}}
+> **Key Information:** An effective way to seek a call from any phone station when not using a repeater is to repeat "CQ" a few times, followed by "this is" and your call sign, then pause to listen. {{< link id="T2A06" >}}
 
 On HF you're typically using just a few kilohertz out of hundreds available on the band, so it's a good idea to make your CQ a little longer — that gives someone tuning across the band time to hear you and stop. Make sure to clearly indicate when you're done, since SSB has no carrier to drop out — there's no audible difference between transmitting silently and being finished.
 
-> **Key Information:** When responding to a station calling CQ, *transmit the other station's call sign followed by your own call sign*. {{< link id="T2A05" >}}
+> **Key Information:** When responding to a station calling CQ, transmit the other station's call sign followed by your own call sign. {{< link id="T2A05" >}}
 
 **Responding to a CQ**:
 

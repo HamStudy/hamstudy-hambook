@@ -15,21 +15,21 @@ Keeping a ham shack running smoothly comes down to two practical skills: using t
 {.img-small .float-right}
 
 > **Key Information:**
-> - A multimeter measures *voltage and resistance*, and usually current as well. {{< link id="T7D07" >}}
-> - A *meter* is a device that displays an electrical quantity *as a numeric value*. {{< link id="T6D04" >}}
-> - A *voltmeter* is used to measure *electric potential* (voltage). {{< link id="T7D01" >}}
-> - An *ammeter* is used to measure *electric current*. {{< link id="T7D04" >}}
+> - A multimeter measures voltage and resistance, and usually current as well. {{< link id="T7D07" >}}
+> - A meter is a device that displays an electrical quantity as a numeric value. {{< link id="T6D04" >}}
+> - A voltmeter is used to measure electric potential (voltage). {{< link id="T7D01" >}}
+> - An ammeter is used to measure electric current. {{< link id="T7D04" >}}
 
 A multimeter combines several measurement instruments into one device — typically a voltmeter, an ohmmeter (for resistance), and on most models, an ammeter. When troubleshooting equipment issues, your first step should often be checking power supplies and connections with your multimeter.
 
 ##### Using a Multimeter Safely
 
 > **Key Information:**
-> - A voltmeter is connected *in parallel* with a component to measure voltage. {{< link id="T7D02" >}}
-> - When configured to measure current, a multimeter is connected *in series* with a component. {{< link id="T7D03" >}}
-> - An ohmmeter measures resistance *by applying a small current and measuring the resulting voltage*. {{< link id="T7D05" >}}
-> - When measuring in-circuit resistance with an ohmmeter, *ensure that the circuit is not powered*. {{< link id="T7D11" >}}
-> - *Attempting to measure voltage when using the resistance setting* can damage a multimeter. {{< link id="T7D06" >}}
+> - A voltmeter is connected in parallel with a component to measure voltage. {{< link id="T7D02" >}}
+> - When configured to measure current, a multimeter is connected in series with a component. {{< link id="T7D03" >}}
+> - An ohmmeter measures resistance by applying a small current and measuring the resulting voltage. {{< link id="T7D05" >}}
+> - When measuring in-circuit resistance with an ohmmeter, ensure that the circuit is not powered. {{< link id="T7D11" >}}
+> - Attempting to measure voltage when using the resistance setting can damage a multimeter. {{< link id="T7D06" >}}
 
 When measuring voltage, set your multimeter to the appropriate range (DC or AC) and connect it across the component you're measuring — red probe to the positive point and black to negative or ground.
 
@@ -40,8 +40,8 @@ For current measurements, you have to break the circuit and put the meter in lin
 #### Working with Capacitors
 
 > **Key Information:**
-> - An *increasing resistance reading with time* on an ohmmeter indicates a discharged capacitor that is charging. {{< link id="T7D10" >}}
-> - The hazard in a power supply immediately after turning it off is *charge stored in filter capacitors*. {{< link id="T0A11" >}}
+> - An increasing resistance reading with time on an ohmmeter indicates a discharged capacitor that is charging. {{< link id="T7D10" >}}
+> - The hazard in a power supply immediately after turning it off is charge stored in filter capacitors. {{< link id="T0A11" >}}
 
 When you measure a capacitor with an ohmmeter, the reading typically starts low and rises over time. That's normal — the ohmmeter applies a small current to make its measurement, and that current charges the capacitor. As the capacitor charges, the current drops, which the meter interprets as rising resistance.
 
@@ -49,15 +49,15 @@ The same charge-storing behavior is what makes capacitors a real hazard inside p
 
 #### Measuring High Voltages
 
-> **Key Information:** When measuring high voltages with a voltmeter, *ensure that the voltmeter and its leads are rated for use at the voltages being measured*. {{< link id="T0A12" >}}
+> **Key Information:** When measuring high voltages with a voltmeter, ensure that the voltmeter and its leads are rated for use at the voltages being measured. {{< link id="T0A12" >}}
 
 Safety is paramount when measuring high voltages. Using a voltmeter rated for 50 volts to measure 1000 volts could damage the meter, allow the high voltage to arc through the leads, or cause serious injury. Some ham radio equipment — especially tube-based gear — can have dangerously high voltages, and the filter capacitors discussed above can keep that hazard around long after the equipment is unplugged.
 
 #### Other Essential Test Equipment
 
 > **Key Information:**
-> - The primary purpose of a dummy load is *to prevent transmitting signals over the air when making tests*. {{< link id="T7C01" >}}
-> - A typical RF dummy load consists of a *50-ohm non-inductive resistor mounted on a heat sink*. {{< link id="T7C03" >}}
+> - The primary purpose of a dummy load is to prevent transmitting signals over the air when making tests. {{< link id="T7C01" >}}
+> - A typical RF dummy load consists of a 50-ohm non-inductive resistor mounted on a heat sink. {{< link id="T7C03" >}}
 
 A few other instruments earn space in any ham's toolkit:
 
@@ -69,8 +69,8 @@ A few other instruments earn space in any ham's toolkit:
 #### The Art of Soldering
 
 > **Key Information:**
-> - *Acid-core solder* should not be used for radio and electronic applications. {{< link id="T7D08" >}}
-> - The characteristic appearance of a cold tin-lead solder joint is *a rough or lumpy surface*. {{< link id="T7D09" >}}
+> - Acid-core solder should not be used for radio and electronic applications. {{< link id="T7D08" >}}
+> - The characteristic appearance of a cold tin-lead solder joint is a rough or lumpy surface. {{< link id="T7D09" >}}
 
 Soldering is a skill that pays for itself many times over in repaired cables, fixed connectors, and homebrew projects. The basics:
 

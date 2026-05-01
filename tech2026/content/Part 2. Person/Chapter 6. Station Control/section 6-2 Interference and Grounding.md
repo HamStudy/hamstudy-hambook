@@ -11,7 +11,7 @@ Interference is any unwanted signal or noise that gets in the way of the one you
 
 #### What Causes Interference?
 
-> **Key Information:** Radio frequency interference (RFI) can be caused by *fundamental overload, harmonics, and spurious emissions*. {{< link id="T7B03" >}}
+> **Key Information:** Radio frequency interference (RFI) can be caused by fundamental overload, harmonics, and spurious emissions. {{< link id="T7B03" >}}
 
 RFI refers to unwanted radio energy interfering with your desired signals. It can come from various sources, including other radio transmitters, electronic devices, power lines, and motor-driven equipment.
 
@@ -22,8 +22,8 @@ Fundamental overload occurs when a strong nearby signal overwhelms a receiver, e
 In non-amateur receivers (like TVs, radios, or cell phones), fundamental overload can happen when a nearby amateur transmitter is so strong that it overloads the receiver's front-end circuitry. This can cause interference even if the amateur signal isn't on a frequency close to what the device is trying to receive.
 
 > **Key Information:**
-> - A broadcast AM or FM radio can receive an amateur radio transmission unintentionally because *the receiver is unable to reject strong signals outside the AM or FM band*. {{< link id="T7B02" >}}
-> - To reduce interference by an amateur station to a non-amateur over-the-air radio receiver, *block the amateur signal with a filter at the antenna input of the affected receiver*. {{< link id="T7B05" >}}
+> - A broadcast AM or FM radio can receive an amateur radio transmission unintentionally because the receiver is unable to reject strong signals outside the AM or FM band. {{< link id="T7B02" >}}
+> - To reduce interference by an amateur station to a non-amateur over-the-air radio receiver, block the amateur signal with a filter at the antenna input of the affected receiver. {{< link id="T7B05" >}}
 
 To address fundamental overload:
 
@@ -79,7 +79,7 @@ Tracking it down is detective work: turn off devices one by one until the noise 
 
 #### Filters
 
-> **Key Information:** Interference to a 2-meter band transceiver from a nearby commercial FM station can be reduced by *installing a band-reject filter*. {{< link id="T7B07" >}}
+> **Key Information:** Interference to a 2-meter band transceiver from a nearby commercial FM station can be reduced by installing a band-reject filter. {{< link id="T7B07" >}}
 
 A band-reject filter blocks a specific frequency range causing interference, keeping a strong nearby signal from reaching your receiver.
 
@@ -103,7 +103,7 @@ Grounding isn't just about performance; it's also a safety issue. A good ground 
 
 Grounding a mobile transceiver has a subtlety that's easy to get wrong.
 
-> **Key Information:** The negative power return of a mobile transceiver should be connected *at the 12-volt battery chassis ground*. {{< link id="T4A11" >}}
+> **Key Information:** The negative power return of a mobile transceiver should be connected at the 12-volt battery chassis ground. {{< link id="T4A11" >}}
 
 It's tempting to assume that because a vehicle's chassis is one big piece of bonded metal, any metal point on it is equally good as a ground — just attach the radio's negative lead to whatever's convenient. That might appear to work, but it's definitely not ideal. The correct connection is at the same point where the 12-volt battery's negative terminal bonds to the chassis (or directly to the battery's negative terminal itself). Most vehicles have a designated heavy-gauge bond wire running from the battery negative to a specific chassis point, and that's the spot.
 
@@ -111,4 +111,4 @@ Why does it matter? A transmitting radio can draw a lot of current, and every co
 
 ---
 
-Even a well-set-up station runs into specific problems eventually. The next section covers the most common ones and what to do about them.
+Even a well-set-up station benefits from understanding the equipment that makes it work. The next section takes a closer look at the heart of any station — the receiver, transmitter, and transceiver — and the concepts behind how they handle signals.

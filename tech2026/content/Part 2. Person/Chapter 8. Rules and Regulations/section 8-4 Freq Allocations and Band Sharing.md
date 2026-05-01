@@ -17,7 +17,7 @@ The radio spectrum is a finite resource shared among many services — broadcast
 
 #### Primary vs. Secondary Allocations
 
-> **Key Information:** In segments of bands where the Amateur Radio Service is secondary, U.S. amateurs may find non-amateur stations in those segments, and *must avoid interfering with them*. {{< link id="T1B08" >}}
+> **Key Information:** In segments of bands where the Amateur Radio Service is secondary, U.S. amateurs may find non-amateur stations in those segments, and must avoid interfering with them. {{< link id="T1B08" >}}
 
 Not all spectrum allocations are created equal. Each service in a given band is either:
 
@@ -30,7 +30,7 @@ On the other hand, there are bands where amateurs have primary status. The 2390�
 
 #### Band Plans
 
-> **Key Information:** A band plan, beyond the privileges established by the FCC, is *a voluntary guideline for using different modes or activities within an amateur band*. {{< link id="T2A10" >}}
+> **Key Information:** A band plan, beyond the privileges established by the FCC, is a voluntary guideline for using different modes or activities within an amateur band. {{< link id="T2A10" >}}
 
 Within our slice of the spectrum, the amateur community further organizes things through voluntary band plans. These designate which segments of a band are typically used for what — voice in one part, digital modes in another, repeaters at certain frequencies, calling frequencies for making initial contacts, and so on. They're not laws, but they're widely followed because they make sharing the band practical.
 
@@ -41,8 +41,8 @@ Different modes also need different amounts of bandwidth — from narrow CW sign
 #### Frequency Coordinators
 
 > **Key Information:**
-> - A *Volunteer Frequency Coordinator recognized by local amateurs* recommends transmit/receive channels for repeater and auxiliary stations. {{< link id="T1A08" >}}
-> - Frequency Coordinators are selected by *amateur operators in a local or regional area whose stations are eligible to be repeater or auxiliary stations*. {{< link id="T1A09" >}}
+> - A Volunteer Frequency Coordinator recognized by local amateurs recommends transmit/receive channels for repeater and auxiliary stations. {{< link id="T1A08" >}}
+> - Frequency Coordinators are selected by amateur operators in a local or regional area whose stations are eligible to be repeater or auxiliary stations. {{< link id="T1A09" >}}
 
 Repeaters in particular need careful coordination — two repeaters trying to use the same input/output frequencies in overlapping coverage areas can interfere with each other badly. Frequency coordinators are volunteers who manage this for a region, recommending which frequency pairs new repeaters should use and helping resolve conflicts. They're not appointed by any government agency; they're chosen by the local repeater operators they serve.
 
@@ -52,7 +52,7 @@ Frequency allocations and conventions also vary between ITU regions, so always c
 
 #### Designated Simplex Channels
 
-> **Key Information:** Simplex channels are designated in the VHF/UHF band plans *so stations within range of each other can communicate without tying up a repeater*. {{< link id="T2B09" >}}
+> **Key Information:** Simplex channels are designated in the VHF/UHF band plans so stations within range of each other can communicate without tying up a repeater. {{< link id="T2B09" >}}
 
 Repeaters are valuable shared resources, and there's no reason to occupy one when you can talk to someone directly. The VHF/UHF band plans set aside specific simplex channels for exactly this purpose — local events, casual contacts between nearby stations, or any situation where the repeater isn't needed.
 
@@ -60,7 +60,7 @@ It's tempting to just pick an arbitrary frequency and start operating, but alway
 
 #### Interference and Resolution
 
-> **Key Information:** When two stations transmitting on the same frequency interfere with each other, *the stations should negotiate continued use of the frequency*. {{< link id="T2B08" >}}
+> **Key Information:** When two stations transmitting on the same frequency interfere with each other, the stations should negotiate continued use of the frequency. {{< link id="T2B08" >}}
 
 Sometimes two stations end up on the same frequency despite everyone's best intentions. The rule is mutual courtesy: both stations have equal rights, no one has preemptive claim by being there first or by having the stronger signal, and the right approach is to talk to each other and figure out who'll move or how to share.
 

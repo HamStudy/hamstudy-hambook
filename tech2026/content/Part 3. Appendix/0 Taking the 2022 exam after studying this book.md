@@ -50,13 +50,13 @@ When your dipole is horizontal (parallel to the ground), it produces horizontall
 
 ### Quarter-Wave Antenna Length for 2 Meters
 
-> **Key Information:** The approximate length of a quarter-wavelength vertical antenna for 146 MHz is *19 inches*. {{< link id="T9A08" >}}
+> **Key Information:** The approximate length of a quarter-wavelength vertical antenna for 146 MHz is 19 inches. {{< link id="T9A08" >}}
 
 At 146 MHz, a quarter wavelength works out to approximately 19 inches.
 
 ### Half-Wave Dipole Length for 6 Meters
 
-> **Key Information:** The approximate length of a half-wavelength 6 meter dipole antenna is *112 inches*. {{< link id="T9A09" >}}
+> **Key Information:** The approximate length of a half-wavelength 6 meter dipole antenna is 112 inches. {{< link id="T9A09" >}}
 
 For a half-wave dipole on the 6-meter band (around 50 MHz), you'll need about 112 inches of total wire length.
 
@@ -170,7 +170,7 @@ You'll want to know this formal Part 97 definition. Beacon stations help the ama
 
 ### Interference Rules
 
-> **Key Information:** Willful interference to other amateur radio stations is permitted at *no time* — never, under any circumstances. {{< link id="T1A11" >}}
+> **Key Information:** Willful interference to other amateur radio stations is permitted at no time — never, under any circumstances. {{< link id="T1A11" >}}
 
 The older question is framed as "when is it permitted?" and the answer is emphatic: never. The newer pool reframes this as "Which of the following is prohibited?" with willful interference as the correct answer.
 

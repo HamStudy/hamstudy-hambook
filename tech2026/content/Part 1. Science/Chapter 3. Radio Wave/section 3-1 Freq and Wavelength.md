@@ -25,10 +25,10 @@ Whether you're tuning in to your favorite broadcast station, chatting on a repea
 #### The Nature of Radio Waves
 
 > **Key Information:**
-> - A radio wave has two components: *electric and magnetic fields* {{< link id="T3B03" >}}
-> - These fields are *at right angles* to each other {{< link id="T3B01" >}}
-> - Radio waves travel at the *speed of light* in free space (approximately *300,000,000 meters per second*) {{< link id="T3B04" >}}{{< link id="T3B11" >}}
-> - *All radio frequencies travel at the same velocity* in free space — VHF, UHF, microwaves, and all other frequencies. {{< link id="T3B12" >}}
+> - A radio wave has two components: electric and magnetic fields. {{< link id="T3B03" >}}
+> - These fields are at right angles to each other. {{< link id="T3B01" >}}
+> - Radio waves travel at the speed of light in free space (approximately *300,000,000 meters per second*). {{< link id="T3B04" >}}{{< link id="T3B11" >}}
+> - All radio frequencies travel at the same velocity in free space — VHF, UHF, microwaves, and all other frequencies. {{< link id="T3B12" >}}
 
 ![Electric vs Magnetic Fields - always at a right angle from each other](../../../images/electromagnetic-3d.gif)
 {.img-centered .img-large}
@@ -39,7 +39,7 @@ While all radio frequencies travel at the same speed in the vacuum of free space
 
 #### Polarization
 
-> **Key Information:** The *orientation of the electric field* defines a radio wave's polarization. {{< link id="T3B02" >}}
+> **Key Information:** The orientation of the electric field defines a radio wave's polarization. {{< link id="T3B02" >}}
 
 Picture holding one end of a rope and shaking it up and down to send a wave along its length — the wave's motion is vertical, so we'd call that a vertically polarized wave. Shake the rope side to side instead, and the wave is horizontally polarized. A radio wave works similarly: the "direction of shake" is the direction its electric field points.
 
@@ -48,8 +48,8 @@ This is crucial because your antenna needs to match this orientation for best re
 #### Wavelength and Frequency
 
 > **Key Information:**
-> - Wavelength gets shorter as frequency increases {{< link id="T3B05" >}}
-> - To find wavelength in meters, use this formula: *300 divided by frequency in megahertz* {{< link id="T3B06" >}}
+> - Wavelength gets shorter as frequency increases. {{< link id="T3B05" >}}
+> - To find wavelength in meters, use this formula: 300 divided by frequency in megahertz. {{< link id="T3B06" >}}
 > - Amateur radio bands are often identified by their *approximate wavelength in meters*. {{< link id="T3B07" >}}
 
 Radio waves come in all sorts of sizes. The size of a radio wave — its wavelength — is directly related to its frequency, and understanding this relationship is key to understanding amateur radio bands.

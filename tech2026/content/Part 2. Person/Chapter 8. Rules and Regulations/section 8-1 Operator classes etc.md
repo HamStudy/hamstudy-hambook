@@ -12,7 +12,7 @@ Amateur radio in the US is structured around a few license classes, each grantin
 #### The Purpose of Amateur Radio
 
 > **Key Information:**
-> - *The FCC* regulates and enforces the rules for the Amateur Radio Service in the United States. {{< link id="T1A02" >}}
+> - The FCC regulates and enforces the rules for the Amateur Radio Service in the United States. {{< link id="T1A02" >}}
 > - The Basis and Purpose of the Amateur Radio Service includes *advancing skills in the technical and communication phases of the radio art*. {{< link id="T1A01" >}}
 
 As we discussed in "About Amateur Radio" at the beginning of the book, advancing radio skills isn't the only purpose of the service. The full list as defined by the FCC also includes:
@@ -26,7 +26,7 @@ Together with the technical-and-communication-skills purpose in the KI above, th
 
 #### Operator Classes and Privileges
 
-> **Key Information:** The FCC currently issues three classes of amateur radio licenses: *Technician, General, and Amateur Extra*. {{< link id="T1C01" >}}
+> **Key Information:** The FCC currently issues three classes of amateur radio licenses: Technician, General, and Amateur Extra. {{< link id="T1C01" >}}
 
 1. **Technician Class**:
    - Entry-level license
@@ -51,8 +51,8 @@ You may come across other license classes besides these; that's because the rule
 #### Getting Your License
 
 > **Key Information:**
-> - You receive official notification of your new license and call sign via *email from the FCC with a link to download the license grant*. {{< link id="T1A04" >}}
-> - The fact that *the license appears in the FCC ULS database* is what proves the FCC has issued an operator/primary license grant. {{< link id="T1A05" >}}
+> - You receive official notification of your new license and call sign via email from the FCC with a link to download the license grant. {{< link id="T1A04" >}}
+> - The fact that the license appears in the FCC ULS database is what proves the FCC has issued an operator/primary license grant. {{< link id="T1A05" >}}
 
 After you pass your exam, your volunteer examiner (VE) team sends your test results and application to whichever VEC (Volunteer Examiner Coordinator) they work with. The VEC submits your application to the FCC, which sends you an email about paying the licensing fee. Once that's paid, your license is typically issued the next business day.
 
@@ -61,8 +61,8 @@ The ULS database is publicly searchable, and it's the authoritative record of wh
 #### Email Requirements and License Renewal
 
 > **Key Information:**
-> - If the FCC is unable to reach you by email, the result may be *revocation of the station license or suspension of the operator license*. {{< link id="T1C04" >}}
-> - An amateur radio license renewal may be requested up to *90 days* before the expiration date. {{< link id="T1C07" >}}
+> - If the FCC is unable to reach you by email, the result may be revocation of the station license or suspension of the operator license. {{< link id="T1C04" >}}
+> - An amateur radio license renewal may be requested up to 90 days before the expiration date. {{< link id="T1C07" >}}
 
 The FCC no longer sends physical mail, so a working email address is a regulatory requirement, not a suggestion. Update your contact info promptly if you change email providers or move.
 
@@ -72,7 +72,7 @@ Your license is valid for ten years. When it's time to renew, you can do so thro
 
 In the US, call signs are structured as follows: [Prefix][Number][Suffix]
 
-> **Key Information:** A valid Group D call sign format for Technician class is the 2x3 format like *KF1XXX*. {{< link id="T1C05" >}}
+> **Key Information:** A valid Group D call sign format for Technician class is the 2x3 format like KF1XXX. {{< link id="T1C05" >}}
 
 There are four "groups" that call signs are assigned from.
 
@@ -106,7 +106,7 @@ When you earn your first ham radio license, you'll be issued a sequential call s
 
 #### Vanity Call Signs
 
-> **Key Information:** *Any licensed amateur* may select a desired call sign under the vanity call sign rules. {{< link id="T1C02" >}}
+> **Key Information:** Any licensed amateur may select a desired call sign under the vanity call sign rules. {{< link id="T1C02" >}}
 
 Don't like your assigned call sign? You can apply for a vanity call sign from your group or a lower group (representing a lower license class). There are also some prefixes which are assigned to and reserved for specific geographical regions.
 
@@ -116,7 +116,7 @@ The number in a call sign typically indicates the call sign region. The region y
 
 #### Club Station Licenses
 
-> **Key Information:** A requirement for a club station license grant is that the club must have *at least four members*. {{< link id="T1F11" >}}
+> **Key Information:** A requirement for a club station license grant is that the club must have at least four members. {{< link id="T1F11" >}}
 
 Club station licenses are a special type of amateur radio license granted to a club rather than an individual. The requirements:
 

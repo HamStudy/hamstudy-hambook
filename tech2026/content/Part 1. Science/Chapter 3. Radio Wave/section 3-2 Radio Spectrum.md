@@ -40,7 +40,7 @@ As a Technician, you'll have limited HF access, primarily on the 10-meter band (
 
 Beacon stations are automated transmitters that help operators monitor these conditions. They transmit regularly on known frequencies, letting amateurs around the world determine if a band is "open" for long-distance communications.
 
-> **Key Information:** On HF, *automatically controlled amateur propagation beacons* can be found on *10 meters, between 28.200 MHz and 28.300 MHz*. {{< link id="T1A06" >}}
+> **Key Information:** On HF, automatically controlled amateur propagation beacons can be found on 10 meters, between 28.200 MHz and 28.300 MHz. {{< link id="T1A06" >}}
 
 By tuning to that range and listening for distant beacons, you can quickly assess whether conditions are favorable for long-distance 10-meter communications.
 

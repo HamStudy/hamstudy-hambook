@@ -46,7 +46,7 @@ Relay revelation: the first practical relay was invented by Joseph Henry in 1835
 
 #### Types of Wire
 
-> **Key Information:** *Shielded wire* is used to *prevent coupling of unwanted signals* to or from the wire. {{< link id="T6D03" >}}
+> **Key Information:** Shielded wire is used to prevent coupling of unwanted signals to or from the wire. {{< link id="T6D03" >}}
 
 You'll encounter several types of wire when setting up a shack or building equipment. A few worth knowing:
 

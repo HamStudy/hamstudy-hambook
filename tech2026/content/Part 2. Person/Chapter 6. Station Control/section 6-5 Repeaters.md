@@ -11,7 +11,7 @@ A repeater is a station that listens on one frequency and rebroadcasts what it h
 
 #### What's a Repeater?
 
-> **Key Information:** A *repeater station* simultaneously retransmits the signal of another amateur station *on a different channel or channels*. {{< link id="T1F09" >}}
+> **Key Information:** A repeater station simultaneously retransmits the signal of another amateur station on a different channel or channels. {{< link id="T1F09" >}}
 
 ![Illustration showing two operators on either side of a mountain talking via a repeater on the mountaintop](../../../images/repeater-illustration.svg)
 {.img-med .float-right}
@@ -24,7 +24,7 @@ Now, only one signal can usefully exist on a given frequency at once, so the rep
 
 #### Repeater Offsets
 
-> **Key Information:** *Repeater offset* is *the difference between a repeater's transmit and receive frequencies*. Common offsets are *plus or minus 600 kHz* on 2 meters and *plus or minus 5 MHz* on 70 cm. {{< link id="T2A07" >}} {{< link id="T2A01" >}} {{< link id="T2A03" >}}
+> **Key Information:** Repeater offset is the difference between a repeater's transmit and receive frequencies. Common offsets are plus or minus 600 kHz on 2 meters and plus or minus 5 MHz on 70 cm. {{< link id="T2A07" >}} {{< link id="T2A01" >}} {{< link id="T2A03" >}}
 
 When using repeaters, you need to know about offsets. An offset is the difference between a repeater's transmit and receive frequencies. Your radio needs to be set to the correct offset to communicate through a repeater effectively.
 
@@ -49,13 +49,13 @@ Many modern radios can automatically set the correct offset based on the frequen
 
 #### The Reverse Function
 
-> **Key Information:** The reverse function on a VHF/UHF transceiver lets you *listen on a repeater's input frequency*. {{< link id="T2B01" >}}
+> **Key Information:** The reverse function on a VHF/UHF transceiver lets you listen on a repeater's input frequency. {{< link id="T2B01" >}}
 
 When you're using a repeater normally, you listen on its output frequency. The reverse function temporarily swaps your transmit and receive frequencies so you're listening on the *input* frequency instead — i.e., listening directly to whoever is transmitting to the repeater. This is useful for determining whether you can hear the other station directly without the repeater (which means you could potentially talk to them simplex), or for troubleshooting whether a repeater is working properly. In some cases it may also let you talk to the other station without the repeater, though this should only be done with care to avoid interfering with the repeater.
 
 #### Accessing Repeaters
 
-> **Key Information:** Most repeaters use *CTCSS tones or DCS codes* for access. CTCSS (Continuous Tone-Coded Squelch System) is a *sub-audible tone* transmitted along with normal voice audio to *open the squelch of a receiver*. Difficulties accessing a repeater could be caused by *improper offset, wrong CTCSS tone, or wrong DCS code*. {{< link id="T2B02" >}} {{< link id="T2B04" >}}
+> **Key Information:** Most repeaters use CTCSS tones or DCS codes for access. CTCSS (Continuous Tone-Coded Squelch System) is a sub-audible tone transmitted along with normal voice audio to open the squelch of a receiver. Difficulties accessing a repeater could be caused by improper offset, wrong CTCSS tone, or wrong DCS code. {{< link id="T2B02" >}} {{< link id="T2B04" >}}
 
 Many repeaters require either a CTCSS (Continuous Tone-Coded Squelch System) tone, often called a PL (Private Line) tone, or a DCS (Digital Coded Squelch) code to access them. CTCSS is a sub-audible (low frequency) tone transmitted along with normal voice audio to open the squelch of a receiver. DCS, on the other hand, is a continuous stream of low-speed digital data.
 
@@ -74,7 +74,7 @@ Always double-check all settings when programming a new repeater into your radio
 
 #### How Repeater Conversations Work
 
-> **Key Information:** When calling another station on a repeater, *say the station's call sign, then identify with your call sign*. {{< link id="T2A04" >}}
+> **Key Information:** When calling another station on a repeater, say the station's call sign, then identify with your call sign. {{< link id="T2A04" >}}
 
 Here's how a typical repeater conversation flows:
 
@@ -98,7 +98,7 @@ Like any equipment, the owner of the repeater gets to set the rules for its use 
 
 #### Calling on a Repeater
 
-> **Key Information:** To indicate you're listening on a repeater and looking for a contact, *use your call sign followed by the word "listening"*. {{< link id="T2A09" >}}
+> **Key Information:** To indicate you're listening on a repeater and looking for a contact, use your call sign followed by the word "listening." {{< link id="T2A09" >}}
 
 Generally speaking we don't actually call "CQ" on a repeater — there isn't any reason we couldn't, but it is generally frowned upon with varying levels of intensity by different members of the community. Instead, to indicate that you're listening on a repeater and looking for a contact, use your call sign followed by the word "listening." For example: "K2XYZ listening."
 
@@ -115,13 +115,13 @@ The specifics don't matter, as long as it's easy to understand and not deceptive
 
 When communicating through a repeater, you're using two different frequencies: the repeater's input and output. This is different from direct station-to-station communication on a single frequency.
 
-> **Key Information:** *Simplex* describes an amateur station that is transmitting and receiving on the same frequency. {{< link id="T2A11" >}}
+> **Key Information:** Simplex describes an amateur station that is transmitting and receiving on the same frequency. {{< link id="T2A11" >}}
 
 Sometimes, designated frequencies are specifically set aside for simplex contacts so that hams who can reach each other directly aren't tying up a repeater unnecessarily. We'll cover simplex operation and these designated frequencies more thoroughly later in the book.
 
 #### Linked Repeater Systems
 
-> **Key Information:** A linked repeater network is one in which *signals received by one repeater are transmitted by all the repeaters in the network*. {{< link id="T2B03" >}}
+> **Key Information:** A linked repeater network is one in which signals received by one repeater are transmitted by all the repeaters in the network. {{< link id="T2B03" >}}
 
 Imagine a network of radio stations set up on different hilltops across a region. In a traditional setup, each repeater would serve only its local area. But in a linked repeater network, signals received by one repeater are transmitted by all the repeaters in the network.
 
@@ -136,11 +136,11 @@ Linked repeaters are particularly valuable for:
 
 #### Internet-Linked Repeaters and VoIP Systems
 
-> **Key Information:** Voice over Internet Protocol (VoIP) is *a method of delivering voice communications over the internet using digital techniques*. {{< link id="T8C07" >}}
+> **Key Information:** Voice over Internet Protocol (VoIP) is a method of delivering voice communications over the internet using digital techniques. {{< link id="T8C07" >}}
 
 Some repeaters aren't just linked through traditional radio connections — they use the internet to connect with other repeaters across vast distances. This is done using Voice Over Internet Protocol (VoIP).
 
-> **Key Information:** An amateur radio station that connects other amateur stations to the internet is called *a gateway*. {{< link id="T8C11" >}}
+> **Key Information:** An amateur radio station that connects other amateur stations to the internet is called a gateway. {{< link id="T8C11" >}}
 
 Gateway stations are the bridges between the radio world and the internet, enabling global communication.
 
@@ -149,16 +149,16 @@ Two popular VoIP systems mentioned in the question pool are IRLP and EchoLink:
 **IRLP (Internet Radio Linking Project)**
 
 > **Key Information:**
-> - The Internet Radio Linking Project (IRLP) is *a technique to connect amateur radio systems, such as repeaters, via the internet*. {{< link id="T8C08" >}}
-> - Over-the-air access to IRLP nodes is accomplished *by using DTMF signals*. {{< link id="T8C06" >}}
+> - The Internet Radio Linking Project (IRLP) is a technique to connect amateur radio systems, such as repeaters, via the internet. {{< link id="T8C08" >}}
+> - Over-the-air access to IRLP nodes is accomplished by using DTMF signals. {{< link id="T8C06" >}}
 
 You'll enter codes using your radio's keypad to connect to various IRLP nodes around the world.
 
 **EchoLink**
 
 > **Key Information:**
-> - EchoLink is a protocol that enables an *amateur station to transmit through a repeater without using a radio to initiate the transmission*. {{< link id="T8C09" >}}
-> - Before using the EchoLink system, you must *register your call sign and provide proof of license*. {{< link id="T8C10" >}}
+> - EchoLink is a protocol that enables an amateur station to transmit through a repeater without using a radio to initiate the transmission. {{< link id="T8C09" >}}
+> - Before using the EchoLink system, you must register your call sign and provide proof of license. {{< link id="T8C10" >}}
 
 You can use software on your computer or smartphone to connect directly to the system. The license-verification step ensures only licensed amateurs can access it.
 

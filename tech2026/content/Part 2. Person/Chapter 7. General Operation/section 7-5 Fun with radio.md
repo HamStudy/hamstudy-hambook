@@ -13,7 +13,7 @@ Now for some of the more colorful corners of the hobby. We'll start with a few a
 
 Ever fancy yourself as a radio detective? Then you'll love fox hunting — a ham radio term for *radio direction finding*. This technique involves using directional antennas and receivers to determine the location of a radio signal. In a fox hunt, the "fox" is a hidden transmitter, and your job is to find it using your radio skills and some clever equipment. It's like a high-tech game of hide-and-seek.
 
-> **Key Information:** *Radio direction finding* is used to locate sources of noise interference or jamming. {{< link id="T8C01" >}}
+> **Key Information:** Radio direction finding is used to locate sources of noise interference or jamming. {{< link id="T8C01" >}}
 
 Here's how it works:
 
@@ -34,8 +34,8 @@ While this is often done as a fun activity, it's also a genuinely useful skill �
 #### Contesting
 
 > **Key Information:**
-> - *Contesting* is an operating activity that involves *contacting as many stations as possible during a specified period*. {{< link id="T8C03" >}}
-> - Good practice when contacting another station in a contest is *sending only the minimum information needed for proper identification and the contest exchange*. {{< link id="T8C04" >}}
+> - Contesting is an operating activity that involves contacting as many stations as possible during a specified period. {{< link id="T8C03" >}}
+> - Good practice when contacting another station in a contest is sending only the minimum information needed for proper identification and the contest exchange. {{< link id="T8C04" >}}
 
 Ever felt the thrill of a race? Ham radio has its own version of high-speed competition. Contests are events where hams compete to make the most contacts, often with specific goals like working different countries, states, or grid squares. Some last a few hours, others a full weekend. It's like a global radio party!
 
@@ -48,7 +48,7 @@ Why contest? It's a great way to improve your operating skills, test your statio
 
 #### Grid locators
 
-Now, let's talk about a cool tool used in many contests: grid locators. A grid locator is *a letter-number designator assigned to a geographic location* on Earth. {{< link id="T8C05" >}} For example, "FM18" covers the Washington D.C. area. In contests, you might exchange grid squares instead of states or countries. It's like a global game of battleship!
+Now, let's talk about a cool tool used in many contests: grid locators. A grid locator is a letter-number designator assigned to a geographic location on Earth. {{< link id="T8C05" >}} For example, "FM18" covers the Washington D.C. area. In contests, you might exchange grid squares instead of states or countries. It's like a global game of battleship!
 
 Grid locators aren't just for contests — they're useful for satellite operations, VHF/UHF work, and even general ragchewing when you want to share your location.
 
@@ -76,7 +76,7 @@ Imagine creating your own mini-internet using radio waves. That's what mesh netw
 
 ##### APRS (Automatic Packet Reporting System) {#aprs-section75}
 
-We talked about this a bit in Section 3.6 — think of APRS as social media for your radio! It lets you transmit your position, weather data, and short messages over ham radio. Imagine a real-time map showing where hams are operating, complete with status updates and local information. It's especially useful during public service events or emergencies, allowing coordinators to see where their operators are at a glance.
+We talked about this a bit in Section 3.5 — think of APRS as social media for your radio! It lets you transmit your position, weather data, and short messages over ham radio. Imagine a real-time map showing where hams are operating, complete with status updates and local information. It's especially useful during public service events or emergencies, allowing coordinators to see where their operators are at a glance.
 
 ##### SOTA (Summits On The Air) and POTA (Parks On The Air)
 

@@ -12,8 +12,8 @@ Now that you understand what transceivers are and how they work, let's explore h
 #### Basic Controls for All Transceivers
 
 > **Key Information:**
-> - A transceiver's operating frequency can be entered using *the keypad or VFO knob*. {{< link id="T4B02" >}}
-> - The PTT (Push-To-Talk) input *switches the transceiver from receive to transmit when grounded*. {{< link id="T7A07" >}}
+> - A transceiver's operating frequency can be entered using the keypad or VFO knob. {{< link id="T4B02" >}}
+> - The PTT (Push-To-Talk) input switches the transceiver from receive to transmit when grounded. {{< link id="T7A07" >}}
 
 Every radio, regardless of type, has these fundamental controls:
 
@@ -28,8 +28,8 @@ Most radios let you save frequencies (along with their associated settings — o
 #### Squelch Control
 
 > **Key Information:**
-> - The squelch function *mutes the receiver audio when a signal is not present*. {{< link id="T2B13" >}}
-> - To hear a weak FM signal, *set the squelch threshold so that receiver output audio is on all the time*. {{< link id="T4B03" >}}
+> - The squelch function mutes the receiver audio when a signal is not present. {{< link id="T2B13" >}}
+> - To hear a weak FM signal, set the squelch threshold so that receiver output audio is on all the time. {{< link id="T4B03" >}}
 
 A receiver amplifies whatever's coming in. When no signal is present, that amplification turns background noise into a loud hiss. The squelch control sets a threshold — signals below the threshold get muted, signals above it are passed through to the speaker:
 
@@ -41,7 +41,7 @@ To pull in a weak signal, lower the squelch until you can just barely hear the n
 
 #### Scanning Function
 
-> **Key Information:** The scanning function *tunes through a range of frequencies to check for activity*. {{< link id="T4B05" >}}
+> **Key Information:** The scanning function tunes through a range of frequencies to check for activity. {{< link id="T4B05" >}}
 
 This feature automatically searches for active channels:
 
@@ -62,7 +62,7 @@ We'll discuss how these are used to access repeaters in the next section.
 
 ##### DTMF
 
-> **Key Information:** DTMF (Dual-Tone Multi-Frequency) signaling *uses two simultaneous audio tones*. {{< link id="T2B06" >}}
+> **Key Information:** DTMF (Dual-Tone Multi-Frequency) signaling uses two simultaneous audio tones. {{< link id="T2B06" >}}
 
 DTMF is the same technology as touch-tone phones — each "digit" is sent as two simultaneous audio tones. While most commonly used with repeaters, DTMF can be used in many ways: controlling repeater functions, accessing internet-linked systems like IRLP, or other automated services. Unlike CTCSS or DCS, DTMF isn't typically used for basic repeater access.
 
@@ -94,8 +94,8 @@ For VHF/UHF SSB operation, *upper sideband* is normally used.
 ##### Receiver Bandwidth Controls
 
 > **Key Information:**
-> - Multiple receiver filter bandwidth choices on a multimode transceiver permit *noise or interference reduction by selecting a bandwidth matching the mode*. {{< link id="T4B08" >}}
-> - For SSB reception, a *2400 Hz* filter bandwidth provides the best signal-to-noise ratio. {{< link id="T4B10" >}}
+> - Multiple receiver filter bandwidth choices on a multimode transceiver permit noise or interference reduction by selecting a bandwidth matching the mode. {{< link id="T4B08" >}}
+> - For SSB reception, a 2400 Hz filter bandwidth provides the best signal-to-noise ratio. {{< link id="T4B10" >}}
 
 As explained in Section 6.3, bandwidth controls let you adjust how "wide" a slice of the radio spectrum your receiver processes:
 
@@ -109,7 +109,7 @@ Narrower bandwidths reduce noise and interference but might cut off parts of a w
 
 ##### Microphone Gain
 
-> **Key Information:** Excessive microphone gain on SSB transmissions causes *distorted transmitted audio*. {{< link id="T4B01" >}}
+> **Key Information:** Excessive microphone gain on SSB transmissions causes distorted transmitted audio. {{< link id="T4B01" >}}
 
 Unlike FM, where your microphone gain rarely needs adjustment, proper mic gain setting is critical for SSB:
 
@@ -120,13 +120,13 @@ Start with a moderate setting and get on-air reports to fine-tune. Clear, undist
 
 ##### RIT/Clarifier
 
-> **Key Information:** If the voice pitch of an SSB signal seems too high or low, *the RIT or Clarifier* can be used to correct it. {{< link id="T4B06" >}}
+> **Key Information:** If the voice pitch of an SSB signal seems too high or low, the RIT or Clarifier can be used to correct it. {{< link id="T4B06" >}}
 
 When operating SSB, you might notice that some stations sound too high-pitched or too low-pitched. The RIT (Receiver Incremental Tuning) control — sometimes called a Clarifier — adjusts only your receive frequency without changing your transmit frequency, which lets you "clarify" the voice without ending up off-frequency to the other station.
 
 ##### Electronic Keyers for CW
 
-> **Key Information:** An electronic keyer is *a device that assists in manual sending of Morse code*. {{< link id="T4A12" >}}
+> **Key Information:** An electronic keyer is a device that assists in manual sending of Morse code. {{< link id="T4A12" >}}
 
 If you're interested in Morse code, all-mode transceivers typically include an electronic keyer for use with a paddle-type Morse key. This feature helps generate properly timed dots and dashes, making your CW transmissions cleaner and more consistent.
 

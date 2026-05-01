@@ -109,7 +109,7 @@ Most ham gear runs on **DC power**, but **radio signals themselves are AC** — 
 
 #### Impedance
 
-> **Key Information:** *Impedance is the opposition to AC current flow* {{< link id="T5C12" >}} and, like resistance, it's measured in *ohms ($\Omega$)*. {{< link id="T5C05" >}}
+> **Key Information:** Impedance is the opposition to AC current flow. {{< link id="T5C12" >}} Like resistance, it's measured in ohms ($\Omega$). {{< link id="T5C05" >}}
 
 In a **DC circuit**, resistance simply opposes the flow of electricity. But in an **AC circuit**, the story gets more complex.
 
@@ -150,8 +150,8 @@ In amateur radio, we often deal with very large or very small numbers. Instead o
 | giga   | G      | $10^9$     | 1 GHz = 1,000,000,000 Hz {{< audiobook-only >}}or one billion hertz{{< /audiobook-only >}} |
 
 > **Key Information:**
-> * The abbreviation *kHz* stands for "kilohertz".{{< link id="T5C06" >}}
-> * The abbreviation *MHz* stands for "megahertz".{{< link id="T5C07" >}}
+> * The abbreviation kHz stands for "kilohertz". {{< link id="T5C06" >}}
+> * The abbreviation MHz stands for "megahertz". {{< link id="T5C07" >}}
 
 Note: The F (farad) and H (henry) units refer to capacitance and inductance as discussed above, which we'll explore in more detail in Section 2.1.
 

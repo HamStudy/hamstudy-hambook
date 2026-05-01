@@ -7,25 +7,23 @@ status: complete
 
 ### Section 4.3: Feed Lines
 
-#### Introduction to Feed Lines
-
 Ever wondered how the radio waves actually get from your transceiver to your antenna? That's where *feed lines* come in. Think of them as the highways for your radio signals, carrying power from your radio to your antenna as efficiently as possible. Some feed lines are smooth, fast expressways. Others are bumpy backroads that waste your signal before it ever gets to where it needs to go.
 
 #### Coaxial Cable: The Ham Radio Standard
 
-> **Key Information:** Coaxial cable is the most common feed line for amateur radio because *it is easy to use and requires few special installation considerations*. {{< link id="T9B03" >}}
+> **Key Information:** Coaxial cable is the most common feed line for amateur radio because it is easy to use and requires few special installation considerations. {{< link id="T9B03" >}}
 
 Coaxial cable — or just *coax* — consists of a center conductor, insulation (the dielectric), a shielding layer, and a protective jacket. It's the go-to feed line for hams because it doesn't require a lot of special handling and does a great job of getting your signal where it needs to go, at least if you choose the right kind.
 
 ##### Impedance: Why It Matters
 
-> **Key Information:** The most common impedance of coaxial cable used in amateur radio is *50 ohms*. {{< link id="T9B02" >}}
+> **Key Information:** The most common impedance of coaxial cable used in amateur radio is 50 ohms. {{< link id="T9B02" >}}
 
 If you've ever looked behind your TV, you might have seen 75-ohm coax for cable or satellite. Can you use it for ham radio? Technically, yes. Should you? Not really. Ham gear is designed around 50-ohm coax, so that's what you want to use to keep your setup running smoothly.
 
 ##### Types of Coaxial Cable
 
-> **Key Information:** The electrical difference between RG-58 and RG-213 coaxial cable is that *RG-213 cable has less loss at a given frequency*. {{< link id="T9B10" >}}
+> **Key Information:** The electrical difference between RG-58 and RG-213 coaxial cable is that RG-213 cable has less loss at a given frequency. {{< link id="T9B10" >}}
 
 Thicker coax usually means lower loss. Here are some common types you'll encounter:
 
@@ -37,7 +35,7 @@ Thicker coax usually means lower loss. Here are some common types you'll encount
 
 ##### Coax Dielectric Types
 
-> **Key Information:** Foam-dielectric coaxial cable *has less loss per foot* than solid-dielectric cable. {{< link id="T7C11" >}}
+> **Key Information:** Foam-dielectric coaxial cable has less loss per foot than solid-dielectric cable. {{< link id="T7C11" >}}
 
 The insulation between the center conductor and shield is called the *dielectric*. Different dielectric materials affect how well the cable performs.
 
@@ -48,18 +46,18 @@ The insulation between the center conductor and shield is called the *dielectric
 #### Understanding Loss in Feed Lines
 
 > **Key Information:**
-> - Of common feed line types, *air-insulated hardline* has the *lowest loss*. {{< link id="T9B11" >}}
-> - As the frequency of a signal in coaxial cable is increased, *the loss increases*. {{< link id="T9B05" >}}
-> - Power lost in a feed line *is converted into heat*. {{< link id="T7C07" >}}
+> - Of common feed line types, air-insulated hardline has the lowest loss. {{< link id="T9B11" >}}
+> - As the frequency of a signal in coaxial cable is increased, the loss increases. {{< link id="T9B05" >}}
+> - Power lost in a feed line is converted into heat. {{< link id="T7C07" >}}
 
 No coax is perfect — some of your power is always lost as heat before it even makes it to the antenna. A 3 dB loss means you're losing half your power before it reaches the antenna. The higher the frequency, the worse the loss gets — which is why satellite dishes often put the transmitter *right at the antenna* instead of running a long coax cable.
 
 #### Potential Problems with Feed Lines
 
 > **Key Information:**
-> - *Moisture contamination* causes failure of coaxial cables. {{< link id="T7C09" >}}
-> - Sources of loss in coaxial feed line include *water intrusion into coaxial connectors*, *high SWR*, and *multiple connectors in the line*. {{< link id="T9B08" >}}
-> - The outer jacket of coaxial cable should be resistant to ultraviolet light because *ultraviolet light can damage the jacket and allow water to enter the cable*. {{< link id="T7C10" >}}
+> - Moisture contamination causes failure of coaxial cables. {{< link id="T7C09" >}}
+> - Sources of loss in coaxial feed line include water intrusion into coaxial connectors, high SWR, and multiple connectors in the line. {{< link id="T9B08" >}}
+> - The outer jacket of coaxial cable should be resistant to ultraviolet light because ultraviolet light can damage the jacket and allow water to enter the cable. {{< link id="T7C10" >}}
 
 The common thread running through those facts is water: it causes failure, it causes loss, and it's what the UV-resistant jacket is protecting against. Water is by far the biggest enemy of coax, so always weatherproof outdoor connections and replace cable with a cracked or damaged jacket before moisture finds its way in.
 
@@ -87,4 +85,4 @@ Consider these factors when choosing coax:
 
 ---
 
-Feed lines aren't much good until they provide a connection between two points, of course - and that means we need to discuss connectors!
+Feed lines aren't much good until they provide a connection between two points, of course — and that means we need to discuss connectors!

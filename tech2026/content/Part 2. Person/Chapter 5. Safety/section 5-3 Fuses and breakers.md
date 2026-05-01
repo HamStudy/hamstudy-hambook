@@ -11,7 +11,7 @@ status: complete
 
 Fuses and circuit breakers are the first line of defense in electrical safety. Their job is to interrupt overloads and short circuits before they can damage equipment — or start a fire.
 
-> **Key Information:** The purpose of a fuse in an electrical circuit is to *remove power in case of an overload*. {{< link id="T0A04" >}}
+> **Key Information:** The purpose of a fuse in an electrical circuit is to remove power in case of an overload. {{< link id="T0A04" >}}
 
 #### Fuses: The One-Time Heroes
 
@@ -28,7 +28,7 @@ Circuit breakers accomplish the same goal without destroying themselves. They us
 
 Fuses are rated for specific current levels, and using the right one matters more than most people realize. Imagine you've just set up a mobile rig in your car. You've got a 50W VHF/UHF transceiver that draws about 10A at full power, and you're about to pick a fuse for the power line. The manufacturer recommends a 15A fuse. You have a 30A fuse in the glove compartment. It's tempting to use the 30A — but that's a mistake.
 
-> **Key Information:** A 5-ampere fuse should never be replaced with a 20-ampere fuse because *excessive current could cause a fire*. {{< link id="T0A05" >}}
+> **Key Information:** A 5-ampere fuse should never be replaced with a 20-ampere fuse because excessive current could cause a fire. {{< link id="T0A05" >}}
 
 A fuse rated higher than its circuit was designed for will let through enough current to overheat the wiring long before it trips. The smaller wires behind your dash weren't built to carry 30 amps, and if something goes wrong — a short, a stuck transmit, a pinched cable — the wiring itself becomes the fuse. Melting insulation and smoke in an enclosed vehicle cabin is not the failure mode you want.
 
@@ -36,7 +36,7 @@ A fuse rated higher than its circuit was designed for will let through enough cu
 
 #### Where to Install Fuses and Breakers
 
-> **Key Information:** In a 120V AC power circuit, a fuse or circuit breaker should be installed *in series with the hot conductor only*. {{< link id="T0A08" >}}
+> **Key Information:** In a 120V AC power circuit, a fuse or circuit breaker should be installed in series with the hot conductor only. {{< link id="T0A08" >}}
 
 Placing the fuse in series with the hot conductor ensures that when it trips, it disconnects the circuit from the live voltage source. A fuse in the neutral line would stop current flow, but the hot wire would still be live — so touching an exposed conductor in the supposedly-dead circuit could still shock you.
 

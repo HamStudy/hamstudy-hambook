@@ -26,7 +26,7 @@ Now, let's talk about using FM in the ham world:
 
 1. **Simplex Operation**: This is direct radio-to-radio communication — as introduced in Section 6.5, you and your contact are on the same frequency, taking turns to transmit and receive. It's great for local chats or emergency communications when repeaters might be down.
 
-   > **Key Information:** The national calling frequency for FM simplex operations in the 2-meter band is *146.520 MHz*. {{< link id="T2A02" >}}
+   > **Key Information:** The national calling frequency for FM simplex operations in the 2-meter band is 146.520 MHz. {{< link id="T2A02" >}}
 
    It's like the radio equivalent of a public square — used to make initial contact before moving to a different frequency.
 
@@ -45,9 +45,9 @@ When operating FM, keep these tips in mind:
 A couple of FM-specific issues to watch for: tuning has to be precise (other modes may sound off-pitch when you're slightly off frequency, but FM just sounds bad), and as we discussed in Section 6.7, microphone volume matters too — talking too loudly can cause overdeviation, which results in audio dropouts on voice peaks.
 
 > **Key Information:**
-> - When an FM signal is received slightly off frequency, *the audio becomes distorted*. {{< link id="T4B04" >}}
-> - Audio drops out on voice peaks because *you are talking too loudly*. {{< link id="T2B05" >}}
-> - If you're told your FM transceiver is over-deviating, *talk farther away from the microphone*. {{< link id="T7B01" >}}
+> - When an FM signal is received slightly off frequency, the audio becomes distorted. {{< link id="T4B04" >}}
+> - Audio drops out on voice peaks because you are talking too loudly. {{< link id="T2B05" >}}
+> - If you're told your FM transceiver is over-deviating, talk farther away from the microphone. {{< link id="T7B01" >}}
 
 #### FM Quirks
 
@@ -56,13 +56,13 @@ FM has some quirks you should be aware of:
 - **Capture Effect**: The strongest signal wins. If two stations transmit at the same time on the same frequency, you'll usually only hear the stronger one. If they're close in strength, you may hear garbled audio — or nothing at all.
 - **Near-Far Problem**: A nearby station can overpower a more distant repeater, especially if their frequency is close. Try repositioning or using a directional antenna to help.
 
-> **Key Information:** A disadvantage of FM compared to single sideband is that *only one signal can be received at a time* — a direct consequence of the capture effect. {{< link id="T8A12" >}}
+> **Key Information:** A disadvantage of FM compared to single sideband is that only one signal can be received at a time — a direct consequence of the capture effect. {{< link id="T8A12" >}}
 
 #### Q-Codes and Common Abbreviations
 
 Historically, operators using Morse code (CW) needed quick, standardized ways to express common messages. While these shortcuts aren't necessary in voice communication, they've become a lasting part of ham radio culture.
 
-> **Key Information:** All of these are worth recognizing — hams use them constantly as colloquial slang — but the ones that may show up on your exam are *QSY* (changing frequency), *QRM* (receiving interference from other stations), and the procedural signal *CQ* (calling any station). {{< link id="T2B11" >}} {{< link id="T2B10" >}} {{< link id="T2A08" >}}
+> **Key Information:** All of these are worth recognizing — hams use them constantly as colloquial slang — but the ones that may show up on your exam are QSY (changing frequency), QRM (receiving interference from other stations), and the procedural signal CQ (calling any station). {{< link id="T2B11" >}} {{< link id="T2B10" >}} {{< link id="T2A08" >}}
 
 We won't cover all of them here, but these are some of the most common:
 

@@ -9,7 +9,7 @@ status: complete
 
 By now, you've gotten to know a lot of different components — resistors, capacitors, transistors, and more. You've seen their symbols sprinkled throughout earlier sections, and hopefully, they're starting to feel familiar. Now it's time to gather everything in one place and focus on how these symbols are used in circuit diagrams.
 
-> **Key Information:** A *schematic* is an electrical diagram that uses standard component symbols. {{< link id="T6C01" >}} The most important thing to remember is that schematics show *component connections* accurately. {{< link id="T6C12" >}}
+> **Key Information:** A schematic is an electrical diagram that uses standard component symbols. {{< link id="T6C01" >}} The most important thing to remember is that schematics show component connections accurately. {{< link id="T6C12" >}}
 
 Think of a schematic as a map for electronics. Instead of using pictures of actual parts, it uses standard symbols to show how components connect. Once you know how to read them, circuit diagrams are your key to understanding any electronic device, no matter how complicated.
 

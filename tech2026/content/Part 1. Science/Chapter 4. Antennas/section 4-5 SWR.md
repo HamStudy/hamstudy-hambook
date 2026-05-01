@@ -12,9 +12,9 @@ Standing Wave Ratio, or SWR, is a critical concept in ensuring your antenna syst
 #### What is SWR?
 
 > **Key Information:**
-> - SWR is a *measure of how well a load is matched to a transmission line*. {{< link id="T9B12" >}}
-> - A *1:1* reading on an SWR meter indicates a *perfect impedance match* between the antenna and feed line. {{< link id="T7C04" >}}
-> - An SWR reading of 4:1 indicates an *impedance mismatch*. {{< link id="T7C06" >}}
+> - SWR is a measure of how well a load is matched to a transmission line. {{< link id="T9B12" >}}
+> - A 1:1 reading on an SWR meter indicates a perfect impedance match between the antenna and feed line. {{< link id="T7C04" >}}
+> - An SWR reading of 4:1 indicates an impedance mismatch. {{< link id="T7C06" >}}
 
 SWR is essentially a report card for the impedance match in your antenna system. It tells you how well the impedance of your transmitter matches the impedance of your feed line and antenna combined. When these impedances match (typically at 50 ohms in amateur radio), maximum power transfers from your transmitter to your antenna system.
 
@@ -43,13 +43,13 @@ This reflected power creates two significant problems:
 
 2. **Equipment Damage**: More seriously, reflected power can overheat and damage your transmitter's RF output amplifier transistors. The higher the power output and the longer the transmissions the greater the danger.
 
-> **Key Information:** Most solid-state transmitters reduce output power as SWR increases to *protect the RF output amplifier transistors*. This means *high SWR* is a common cause of *low RF power output* from a solid-state transceiver. {{< link id="T7C05" >}} {{< link id="T7B04" >}}
+> **Key Information:** Most solid-state transmitters reduce output power as SWR increases to protect the RF output amplifier transistors. This means high SWR is a common cause of low RF power output from a solid-state transceiver. {{< link id="T7C05" >}} {{< link id="T7B04" >}}
 
 Modern radios have protection circuits that detect high SWR and reduce power or shut down if necessary, but it's best not to rely on them — especially with cheaper transmitters. Keeping your SWR low ensures your radio stays efficient and safe for years to come.
 
 #### Common Causes of High SWR
 
-> **Key Information:** A *loose connection in the antenna or feed line* can cause erratic changes in SWR. {{< link id="T9B09" >}}
+> **Key Information:** A loose connection in the antenna or feed line can cause erratic changes in SWR. {{< link id="T9B09" >}}
 
 What causes high SWR? Here are some common culprits:
 
@@ -63,8 +63,8 @@ If you're seeing high SWR, start with the easy stuff: check every connector is c
 #### Measuring SWR
 
 > **Key Information:**
-> - An *antenna analyzer* can be used to determine if an antenna is resonant at the desired operating frequency. {{< link id="T7C02" >}}
-> - A *directional wattmeter* can be used to determine SWR. {{< link id="T7C08" >}}
+> - An antenna analyzer can be used to determine if an antenna is resonant at the desired operating frequency. {{< link id="T7C02" >}}
+> - A directional wattmeter can be used to determine SWR. {{< link id="T7C08" >}}
 
 How do you check your SWR? Many modern radios have built-in SWR meters. If yours doesn't, you can get an external SWR meter or an antenna analyzer. These tools are great to have in your ham radio toolbox. Another option is a directional wattmeter — measure how much power is leaving your radio (forward power) and how much is coming back from the antenna (reflected power), and you can calculate your SWR.
 

@@ -23,9 +23,9 @@ This naming convention is why you'll hear references to the "2-meter band" (144-
 #### Technician Privileges Overview
 
 > **Key Information:**
-> - Technician class operators have phone privileges on the *10-meter band only* among all HF bands, specifically *28.300 MHz to 28.500 MHz*. {{< link id="T1B06" >}} {{< link id="T1B01" >}}
-> - Technicians are authorized to use *digital modes such as FT8* on the 10-meter, 6-meter, and 2-meter bands. {{< link id="T1B05" >}}
-> - SSB phone may be used in *at least some segment of all amateur bands above 50 MHz*. {{< link id="T1B10" >}}
+> - Technician class operators have phone privileges on the 10-meter band only among all HF bands, specifically 28.300 MHz to 28.500 MHz. {{< link id="T1B06" >}} {{< link id="T1B01" >}}
+> - Technicians are authorized to use digital modes such as FT8 on the 10-meter, 6-meter, and 2-meter bands. {{< link id="T1B05" >}}
+> - SSB phone may be used in at least some segment of all amateur bands above 50 MHz. {{< link id="T1B10" >}}
 
 #### HF (High Frequency) Privileges
 
@@ -41,9 +41,9 @@ The 10-meter band is the only HF band where Technicians can transmit voice. Belo
 #### VHF and UHF
 
 > **Key Information:**
-> - *52.525 MHz* is in the 6-meter amateur band. {{< link id="T1B03" >}}
-> - *146.52 MHz* is in the 2-meter amateur band. {{< link id="T1B04" >}}
-> - *50.0 MHz to 50.1 MHz and 144.0 MHz to 144.1 MHz* are limited to CW only. {{< link id="T1B07" >}}
+> - 52.525 MHz is in the 6-meter amateur band. {{< link id="T1B03" >}}
+> - 146.52 MHz is in the 2-meter amateur band. {{< link id="T1B04" >}}
+> - 50.0 MHz to 50.1 MHz and 144.0 MHz to 144.1 MHz are limited to CW only. {{< link id="T1B07" >}}
 
 Technicians have full privileges on four bands across VHF and UHF:
 
@@ -70,8 +70,8 @@ Various bands above 902 MHz are available with full Technician privileges. These
 #### Power Limits for Technician Class Operators
 
 > **Key Information:**
-> - The maximum peak envelope power output for Technician class operators in their HF band segments is *200 watts*. {{< link id="T1B11" >}}
-> - Except for some specific restrictions, the maximum peak envelope power output for Technician class operators using frequencies above 30 MHz is *1500 watts*. {{< link id="T1B12" >}}
+> - The maximum peak envelope power output for Technician class operators in their HF band segments is 200 watts. {{< link id="T1B11" >}}
+> - Except for some specific restrictions, the maximum peak envelope power output for Technician class operators using frequencies above 30 MHz is 1500 watts. {{< link id="T1B12" >}}
 
 If 200 watts on HF doesn't seem like a lot, consider that most typical HF radios have a maximum output power of 100 watts or less. And 1500 watts on VHF/UHF is excessive for most purposes — the typical VHF/UHF radio has a max output of 50 watts and that's usually plenty.
 
@@ -92,7 +92,7 @@ Be aware that some **non-amateur frequencies** — like cordless or cellular pho
 
 #### Operating Near Band Edges
 
-> **Key Information:** You should not set your transmit frequency exactly at the edge of an amateur band or sub-band. *Calibration error in the transmitter frequency display*, *modulation sidebands extending beyond the band edge*, and *transmitter frequency drift* could all push part of your signal out of band. {{< link id="T1B09" >}}
+> **Key Information:** You should not set your transmit frequency exactly at the edge of an amateur band or sub-band. Calibration error in the transmitter frequency display, modulation sidebands extending beyond the band edge, and transmitter frequency drift could all push part of your signal out of band. {{< link id="T1B09" >}}
 
 It's good practice to stay a few kHz inside the band when you transmit, giving yourself a safety margin. Most experienced hams do this without thinking about it, just to be on the safe side. It's always better to err on the side of caution and keep your signals well within the authorized limits.
 
