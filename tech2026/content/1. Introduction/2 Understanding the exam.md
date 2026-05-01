@@ -3,23 +3,24 @@ epubtype: introduction
 ---
 # Understanding the Technician License Exam
 
-The exam questions come from publicly available question pools developed by the [National Conference of Volunteer Examiner Coordinators (NCVEC)](https://ncvec.org). These pools are updated on a regular schedule:
+The exam questions come from publicly available question pools developed by the [National Conference of Volunteer Examiner Coordinators (NCVEC)](https://ncvec.org). Each pool is updated on a four-year cycle, with the three pools updated in different years so they don't all change at once:
 
-- Technician Class pool: Updated every four years (2026 pool has been released and will be active Jul 1, 2026)
-- General Class pool: Updated every four years (last updated 2023)
-- Amateur Extra Class pool: Updated every four years (last updated 2024)
+- Technician Class pool: July 1, 2026 – June 30, 2030 (current pool, this book's focus)
+- General Class pool: July 1, 2023 – June 30, 2027
+- Amateur Extra Class pool: July 1, 2024 – June 30, 2028
 
-The updates are staggered, so only one pool changes each year. This ensures that study materials and exams remain current with evolving technology and regulations.
+The staggered schedule keeps study materials and exams current with evolving technology and regulations without forcing every license class to update at the same time.
 
 ## The Technician Class Question Pool
 
 Before diving into the study material, it's helpful to understand what you're preparing for. The Technician license exam consists of 35 multiple-choice questions chosen from a pool of about 400 possible questions. To pass, you need to answer 26 questions correctly (74%).
 
 Some key points about the exam:
+
 - All possible questions and their correct answers are publicly available.
 - Many of the questions simply test your knowledge of terminology or specific numbers you need to remember.
 - Though there is a lot to learn, some of the material is just common sense. Once you learn it you won't forget it!
-- You don't need to be a technical expert to pass - many concepts are practical and straightforward.
+- You don't need to be a technical expert to pass — many concepts are practical and straightforward.
 - Questions are grouped into subelements (major topics) which are in turn grouped into sections (minor topics). Each exam draws one question from each section, so if there is a section you just don't understand you can safely skip that one and still pass the exam!
 
 The exam format means that with focused study, most people can prepare for and pass the test much more quickly than one might expect. While some students have passed entirely by memorizing the questions and answers, understanding the material will make you a more confident and capable operator once licensed.
@@ -47,10 +48,11 @@ The question pool tries to ensure all new licensees have at least basic knowledg
 ### Historical Evolution
 
 The question pool has evolved over decades and is managed by committee. This creates some interesting dynamics:
-- Changes tend to happen slowly and conservatively
-- Content may reflect both cutting-edge technology and legacy practices
-- Removing topics requires convincing evidence it's no longer relevant
-- The committee strives for consensus across many different perspectives
+
+- Changes tend to happen slowly and conservatively.
+- Content may reflect both cutting-edge technology and legacy practices.
+- Removing topics requires convincing evidence it's no longer relevant.
+- The committee strives for consensus across many different perspectives.
 
 ## Focus on What Matters For You
 
@@ -60,8 +62,12 @@ The important takeaway is this: don't get discouraged if parts of the question p
 2. Understand which topics might be relevant to your specific interests.
 3. Know where to find more information about other topics if your interests expand.
 
-Remember that you need to answer 26 out of 35 questions correctly, which gives you some flexibility. Even the most experienced hams specialize in certain areas of the hobby - nobody expects you to be an expert in everything!
+Remember that you need to answer 26 out of 35 questions correctly, which gives you some flexibility. Even the most experienced hams specialize in certain areas of the hobby — nobody expects you to be an expert in everything!
 
 The beauty of amateur radio is that you can start with whatever interests you most, then explore other facets of the hobby at your own pace after getting licensed.
 
 This exam isn't as difficult as you might think, and with this book you can choose how deeply you want to learn the material while preparing for your license!
+
+---
+
+The next chapter walks through how to use this book most effectively — whether you're aiming to get licensed quickly, understand the concepts deeply, or use the book as a reference after passing.

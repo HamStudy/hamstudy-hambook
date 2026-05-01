@@ -37,7 +37,7 @@ But it's not just about emergencies. Amateur radio is a community of tinkerers a
 
 Ham radio has a long history of innovation. Many of the technologies we take for granted today were developed or refined by amateur radio enthusiasts. Hams have always been at the forefront of what's possible with wireless technology.
 
-In 2014, a group of hams made headlines by repurposing an old NASA satellite for amateur use. The ISEE-3 satellite, launched in 1978 and long forgotten, was brought back to life by these innovative hams, showcasing the ingenuity that defines the amateur radio community.
+In 2014, a crowdfunded team contacted the long-dormant ISEE-3 satellite, originally launched in 1978, and successfully reactivated parts of its systems — a project that drew heavily on amateur radio expertise and showcased the ingenuity that defines the community.
 
 ## A Hobby for Everyone
 
@@ -60,8 +60,8 @@ The Federal Communications Commission (FCC) regulates and enforces the Amateur R
 4. Providing a voluntary noncommercial communication service to the public, especially in times of emergency.
 5. Contributing to the advancement of the radio art.
 
-These purposes highlight the many sides of amateur radio - it's not just a hobby, but a service with important technical, social, and public safety roles. As you progress in amateur radio, you'll find opportunities to fulfill each of these purposes, whether you're experimenting with new technologies, making friends across the globe, or helping your community during emergencies.
+These purposes highlight the many sides of amateur radio — it's not just a hobby, but a service with important technical, social, and public safety roles. As you progress in amateur radio, you'll find opportunities to fulfill each of these purposes, whether you're experimenting with new technologies, making friends across the globe, or helping your community during emergencies.
 
 ---
 
-Understanding the passion and potential of amateur radio is exciting, but how do you actually get started? The journey begins with the Technician Class license exam — a gateway that might seem daunting but is actually your first real adventure in ham radio. Let's demystify the exam process and show you that with the right approach, you'll be on the airwaves before you know it.
+Knowing what amateur radio is and why it matters is one thing; getting started is another. The next chapter looks at the Technician Class license exam itself — what's on it, what's not, and what to expect from the process.

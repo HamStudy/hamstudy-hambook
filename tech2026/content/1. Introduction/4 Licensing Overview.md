@@ -45,7 +45,7 @@ You can renew by signing in through the [FCC license manager website](https://ha
 
 If you do not renew your license before the end of that grace period you will lose your license and call sign and will have to take the exam again to become licensed again.
 
-If you were once licensed and had a General or Amateur Extra class license you can regain your previous privileges after just passing the Technician class license exam – talk with your VE team for more information!
+If you were once licensed and had a General or Amateur Extra class license you can regain your previous privileges after just passing the Technician class license exam — talk with your VE team for more information!
 
 ## Finding Exam Sessions
 
@@ -67,5 +67,9 @@ Since 2020, remote exam sessions have become widely available. These allow you t
 4. Visit https://hamstudy.org/sessions/online to find available remote sessions.
 
 When registering for a remote exam, carefully read all instructions provided by the exam team. Pay attention to any specific software requirements or pre-exam procedures they may have.
+
+---
+
+That covers what to expect from the licensing process itself. With that context in place, the next chapter starts Part 1 — the science behind amateur radio, beginning with electrical principles.
 
 <div class="footer-text"></div>

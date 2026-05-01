@@ -19,8 +19,10 @@ Each chapter breaks down topics into digestible segments, with key concepts high
 
 Everyone learns differently and has different goals. Here are some ways you can use this HamBook:
 
-## Quick Path to Getting Licensed
+### Quick Path to Getting Licensed
+
 Not sure where to start? Here's a quick way to get licensed:
+
 - Skim each section first to get a general overview of the concepts
 - Focus particularly on anything *italicized* and any **"Key Information"**.
 - Pay special attention to topics that catch your interest or seem important
@@ -29,7 +31,8 @@ Not sure where to start? Here's a quick way to get licensed:
 - Use the HamStudy app alongside the book to track your progress and review the questions efficiently
 - Keep the book as a reference to explore topics more thoroughly after getting licensed
 
-## Final Exam Preparation
+### Final Exam Preparation
+
 Once you've covered the material and are getting close to exam day, here's an effective strategy using the HamStudy app:
 
 - First, use Study Mode until you've seen 100% of the questions at least once
@@ -41,13 +44,15 @@ Once you've covered the material and are getting close to exam day, here's an ef
 - You're likely ready for the exam when you're consistently scoring 85% or better on practice tests (remember, you only need 74% to pass)
 - Strategic tip: Since each exam question comes from a different section of the question pool, you could theoretically skip up to 9 sections entirely as long as you master the other 26
 
-## Deep Learning Approach
+### Deep Learning Approach
+
 - Read each chapter thoroughly before attempting practice questions
 - Take notes and highlight key concepts, particularly Key Information and anything in *italics*
 - Try to relate new concepts to things you already know
 - Engage with local ham radio clubs to discuss what you're learning
 
-## Reference Guide
+### Reference Guide
+
 - Keep the book handy after getting licensed
 - Use the detailed table of contents to quickly find specific topics
 - Refer back to sections as you encounter them in your ham radio activities
@@ -57,7 +62,7 @@ Once you've covered the material and are getting close to exam day, here's an ef
 ![HamStudy A Logo](../../images/hamstudy_a.svg)
 { .float-right .ma-1 .w-4r .hide-audio }
 
-HamStudy.org and the HamStudy mobile app work seamlessly with this HamBook, providing dynamic practice tailored to what you’re reading and what you struggle with the most.
+HamStudy.org and the HamStudy mobile app work seamlessly with this HamBook, providing dynamic practice tailored to what you're reading and what you struggle with the most.
 
 1. **Study Resources**: HamStudy.org provides all the study materials you need for your license exam completely free.
 
@@ -65,12 +70,12 @@ HamStudy.org and the HamStudy mobile app work seamlessly with this HamBook, prov
 
 3. **Study Mode**: Intelligent flash card study reinforces what you're learning.
 
-4. {{< web-only tag="span" >}}**Study Buttons**: At the end of each section in this HamBook, you'll find a "Study this section with HamStudy" button that links to those section-specific questions in HamStudy.{{< /web-only >}}
+4. {{< web-only tag="span" >}}**Study Buttons**: At the end of each section in this HamBook, you'll find a "Open in HamStudy" link that takes you to those section-specific questions in HamStudy.{{< /web-only >}}
    {{< print-only >}}**QR Codes to Study**: Throughout this book, you'll find QR codes at the end of each section and chapter. Scanning these codes will open a customized Study session in HamStudy with the relevant questions for what you've just read.{{< /print-only >}}
 
 5. **Mobile Option**: The HamStudy mobile app offers additional features including:
    - **Enhanced Tracking**: Additional insights and tools to optimize your study
-   - **Book-Aligned Study**: Focus on specific chapters or sections based on this book’s organization
+   - **Book-Aligned Study**: Focus on specific chapters or sections based on this book's organization
    - **Offline Study**: Practice questions anywhere, even without an internet connection
    - **Sharing**: Share progress with a mentor or assist others in learning
 
@@ -89,3 +94,7 @@ HamStudy.org and the HamStudy mobile app work seamlessly with this HamBook, prov
 Remember, there's no single "right way" to become a ham radio operator. Some people prefer to get their license first and then learn through hands-on experience, while others enjoy understanding every concept before taking the exam. Both approaches are valid! This HamBook is designed to support you regardless of your chosen path.
 
 Whether you're preparing for your exam or using this as a post-license reference, we're glad you're here and look forward to having you join the amateur radio community!
+
+---
+
+The next chapter covers the practical side of getting licensed — license classes, exam sessions, fees, renewal, and what happens after you pass.
