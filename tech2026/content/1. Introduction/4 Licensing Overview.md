@@ -43,7 +43,7 @@ You can renew by signing in through the [FCC license manager website](https://ha
 
 > **Key Information:** If your license expires, you have a two-year grace period to renew it. {{< link id="T1C09" >}} During this grace period you may not transmit — you must wait until the renewal is processed before operating again. {{< link id="T1C11" >}}
 
-If you do not renew your license before the end of that grace period you will lose your license and call sign and will have to take the exam again to become licensed again.
+If you do not renew your license before the end of that grace period you will lose your license and callsign and will have to take the exam again to become licensed again.
 
 If you were once licensed and had a General or Amateur Extra class license you can regain your previous privileges after just passing the Technician class license exam — talk with your VE team for more information!
 

@@ -69,8 +69,7 @@ Some types of amateur stations are permitted to automatically retransmit signals
 
 > **Key Information:** An example of an auxiliary station is one sending one-way transmissions between a remote repeater receiver and the main repeater transmitter. {{< link id="T1D07" >}}
 
-**Auxiliary stations** can automatically retransmit signals as part of a local network of amateur stations. Part 97 defines an auxiliary station as:
-> An amateur station, other than in a message forwarding system, that is transmitting communications point-to-point within a system of cooperating amateur stations.
+**Auxiliary stations** can automatically retransmit signals as part of a local network of amateur stations.
 
 **Space stations** (satellites and other space-based amateur radio stations) can automatically retransmit signals from Earth stations.
 

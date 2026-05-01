@@ -7,11 +7,10 @@ status: complete
 
 ### Section 4.2: Polarization and Orientation
 
-Imagine you're trying to slip a letter through a mail slot. If the slot is horizontal, you'll turn your letter sideways. If it's vertical, you'll orient your letter up-and-down. Antenna polarization works in a similar way — it's all about matching the orientation of your radio waves to get the best results.
+Slipping a letter through a mail slot is easier when you turn the letter to match the slot's orientation. If the slot is horizontal, you'll turn your letter sideways. If it's vertical, you'll orient your letter up-and-down. Antenna polarization works in a similar way — it's all about matching the orientation of your radio waves to get the best results.
 
 ![Illustration; top: boy holding a handheld radio with the antenna extending vertically. bottom: boy holding a handheld radio turned on its side with the antenna extending horizontally.](../../../images/illus/polarization.svg)
 {.img-pgcap .float-right}
-
 
 #### Types of Polarization
 
@@ -19,18 +18,12 @@ Imagine you're trying to slip a letter through a mail slot. If the slot is horiz
 
 Technically, polarization is about the orientation of the electric field component of the radio wave — but conveniently, the electric field usually lines up with the driven element of the antenna. So in practice, if your antenna is standing straight up, you're transmitting a vertically polarized signal; if it's lying sideways, you're transmitting a horizontally polarized signal.
 
-You've got three main flavors:
+We describe polarization in three primary ways: vertical, horizontal, and either elliptical or circular (which are mostly the same thing).
 
-**Vertical Polarization**:
-Picture an antenna standing straight up and down, like a flagpole. The radio waves it sends out have their electric field vibrating up and down as they travel. This is what you typically see on most mobile rigs and handheld radios.
-
-**Horizontal Polarization**:
-Now imagine that flagpole laid down flat, parallel to the ground. You've got horizontal polarization — the electric field vibrates side to side as the wave moves. This is what you'll often use for those long-distance VHF/UHF contacts.
-
+**Vertical and Horizontal** are pretty straightforward: an antenna standing straight up — like a flagpole — radiates with the electric field oriented vertically; the same antenna laid horizontally gives you horizontal polarization.
 <div class="clear"></div>
 
-**Elliptical and Circular Polarization**:
-Here's where things get interesting! When signals "reflect" off the ionosphere and return to Earth, their polarization can change, often becoming elliptically polarized. This means the wave's orientation traces an oval pattern as it moves through space. When this oval pattern becomes a perfect circle, we call it circular polarization.
+**Elliptical polarization** is more interesting. When signals "reflect" off the ionosphere and return to Earth, their polarization can change, often becoming elliptically polarized. This means the wave's orientation traces an oval pattern as it moves through space. When this oval pattern becomes a perfect circle, we call it circular polarization.
 
 > **Key Information:** Because signals propagated by the ionosphere are elliptically polarized, either vertically or horizontally polarized antennas may be used for transmission or reception. {{< link id="T3A09" >}}
 

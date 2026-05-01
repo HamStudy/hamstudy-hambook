@@ -16,7 +16,7 @@ A repeater is a station that listens on one frequency and rebroadcasts what it h
 ![Illustration showing two operators on either side of a mountain talking via a repeater on the mountaintop](../../../images/repeater-illustration.svg)
 {.img-med .float-right}
 
-Imagine a radio relay station perched high up on a hill or tall building. It listens on one frequency and simultaneously retransmits what it hears on another. This extends your range way beyond what your little handheld or mobile rig could do on its own.
+Think of a radio relay station perched high up on a hill or tall building. It listens on one frequency and simultaneously retransmits what it hears on another. This extends your range way beyond what your little handheld or mobile rig could do on its own.
 
 Now, only one signal can usefully exist on a given frequency at once, so the repeater can't talk on the same frequency you are talking on. Instead, when you transmit to a repeater, you're actually sending on one frequency (the input), and listening on another (the output). Don't worry, your radio will handle this automatically if you've set it up correctly.
 
@@ -74,7 +74,7 @@ Always double-check all settings when programming a new repeater into your radio
 
 #### How Repeater Conversations Work
 
-> **Key Information:** When calling another station on a repeater, say the station's call sign, then identify with your call sign. {{< link id="T2A04" >}}
+> **Key Information:** When calling another station on a repeater, say the station's callsign, then identify with your callsign. {{< link id="T2A04" >}}
 
 Here's how a typical repeater conversation flows:
 
@@ -83,7 +83,7 @@ Here's how a typical repeater conversation flows:
 3. Other hams in the area hear you on the repeater's output frequency.
 4. When they respond, they transmit on the input frequency, and the repeater retransmits their signal on the output frequency, completing the communication cycle.
 
-Calling someone on a repeater is simple: just say the call sign of the station you want to talk to, then identify with your call sign. For example: "W1ABC, this is K2XYZ." This is more of a convention than a rule, but it's an appropriate way to get someone's attention on a repeater.
+Calling someone on a repeater is simple: just say the callsign of the station you want to talk to, then identify with your callsign. For example: "W1ABC, this is K2XYZ." This is more of a convention than a rule, but it's an appropriate way to get someone's attention on a repeater.
 
 #### Repeater Etiquette
 
@@ -91,16 +91,16 @@ Repeater etiquette is important since these are shared resources:
 
 - Listen before you transmit to avoid interrupting ongoing conversations.
 - Keep transmissions reasonably short and leave pauses for others to join.
-- Identify yourself using your call sign as required by FCC rules.
-- If you want to join an ongoing conversation, wait for a pause and say your call sign.
+- Identify yourself using your callsign as required by FCC rules.
+- If you want to join an ongoing conversation, wait for a pause and say your callsign.
 
 Like any equipment, the owner of the repeater gets to set the rules for its use (subject to FCC regulations). Keep in mind that each repeater may be a bit different in the conventions that people follow.
 
 #### Calling on a Repeater
 
-> **Key Information:** To indicate you're listening on a repeater and looking for a contact, use your call sign followed by the word "listening." {{< link id="T2A09" >}}
+> **Key Information:** To indicate you're listening on a repeater and looking for a contact, use your callsign followed by the word "listening." {{< link id="T2A09" >}}
 
-Generally speaking we don't actually call "CQ" on a repeater — there isn't any reason we couldn't, but it is generally frowned upon with varying levels of intensity by different members of the community. Instead, to indicate that you're listening on a repeater and looking for a contact, use your call sign followed by the word "listening." For example: "K2XYZ listening."
+Generally speaking we don't actually call "CQ" on a repeater — there isn't any reason we couldn't, but it is generally frowned upon with varying levels of intensity by different members of the community. Instead, to indicate that you're listening on a repeater and looking for a contact, use your callsign followed by the word "listening." For example: "K2XYZ listening."
 
 Here are some other common phrases:
 
@@ -123,7 +123,7 @@ Sometimes, designated frequencies are specifically set aside for simplex contact
 
 > **Key Information:** A linked repeater network is one in which signals received by one repeater are transmitted by all the repeaters in the network. {{< link id="T2B03" >}}
 
-Imagine a network of radio stations set up on different hilltops across a region. In a traditional setup, each repeater would serve only its local area. But in a linked repeater network, signals received by one repeater are transmitted by all the repeaters in the network.
+Earlier we thought about a single radio relay station located in a high place and discussed how helpful that could be. Just think, though, of what we could do with a network of radio stations set up on different hilltops across a wide region! In a traditional setup, each repeater would serve only its local area. But in a linked repeater network, signals received by one repeater are transmitted by all the repeaters in the network.
 
 It's like having a group text message — when one person sends a message, everyone in the group receives it regardless of their location. Similarly, when you transmit to one repeater in a linked network, your transmission gets relayed through the entire network of connected repeaters, greatly extending your communication range.
 
@@ -158,7 +158,7 @@ You'll enter codes using your radio's keypad to connect to various IRLP nodes ar
 
 > **Key Information:**
 > - EchoLink is a protocol that enables an amateur station to transmit through a repeater without using a radio to initiate the transmission. {{< link id="T8C09" >}}
-> - Before using the EchoLink system, you must register your call sign and provide proof of license. {{< link id="T8C10" >}}
+> - Before using the EchoLink system, you must register your callsign and provide proof of license. {{< link id="T8C10" >}}
 
 You can use software on your computer or smartphone to connect directly to the system. The license-verification step ensures only licensed amateurs can access it.
 

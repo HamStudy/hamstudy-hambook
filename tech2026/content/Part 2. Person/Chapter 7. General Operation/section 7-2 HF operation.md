@@ -58,11 +58,11 @@ Calling CQ (seeking a contact) and responding to CQ calls are fundamental skills
 
 Example: "CQ CQ CQ, this is KA1ABC, Kilo Alpha One Alpha Bravo Charlie calling CQ and listening."
 
-> **Key Information:** An effective way to seek a call from any phone station when not using a repeater is to repeat "CQ" a few times, followed by "this is" and your call sign, then pause to listen. {{< link id="T2A06" >}}
+> **Key Information:** An effective way to seek a call from any phone station when not using a repeater is to repeat "CQ" a few times, followed by "this is" and your callsign, then pause to listen. {{< link id="T2A06" >}}
 
 On HF you're typically using just a few kilohertz out of hundreds available on the band, so it's a good idea to make your CQ a little longer — that gives someone tuning across the band time to hear you and stop. Make sure to clearly indicate when you're done, since SSB has no carrier to drop out — there's no audible difference between transmitting silently and being finished.
 
-> **Key Information:** When responding to a station calling CQ, transmit the other station's call sign followed by your own call sign. {{< link id="T2A05" >}}
+> **Key Information:** When responding to a station calling CQ, transmit the other station's callsign followed by your own callsign. {{< link id="T2A05" >}}
 
 **Responding to a CQ**:
 

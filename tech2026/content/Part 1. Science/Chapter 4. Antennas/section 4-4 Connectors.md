@@ -9,7 +9,7 @@ status: complete
 
 Ever tried to plug your phone charger into a USB-C port, only to realize it's micro-USB? That's the world of connectors in a nutshell. In ham radio, getting the right connection is crucial — it's the handshake between your radio and antenna.
 
-Before we look at the specific connectors you'll encounter, it's worth getting a few universal rules straight. Connectors — and specifically connector gender — are one of the most easily misunderstood topics for new hams, particularly for those planning to use handheld radios (walkie-talkies) for local communications. A little extra time now can save a lot of confusion later.
+Before we look at the specific connectors you'll encounter, it's worth getting a few universal rules straight. Connector gender is one of the topics that most reliably trips up not only new hams but experienced ones as well — especially anyone planning to use a handheld radio for local communications. A little extra time now can save a lot of confusion later.
 
 #### Understanding Connector Gender
 

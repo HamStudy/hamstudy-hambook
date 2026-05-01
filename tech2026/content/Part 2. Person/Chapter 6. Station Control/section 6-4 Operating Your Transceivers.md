@@ -97,7 +97,7 @@ For VHF/UHF SSB operation, *upper sideband* is normally used.
 > - Multiple receiver filter bandwidth choices on a multimode transceiver permit noise or interference reduction by selecting a bandwidth matching the mode. {{< link id="T4B08" >}}
 > - For SSB reception, a 2400 Hz filter bandwidth provides the best signal-to-noise ratio. {{< link id="T4B10" >}}
 
-As explained in Section 6.3, bandwidth controls let you adjust how "wide" a slice of the radio spectrum your receiver processes:
+Bandwidth controls let you adjust how "wide" a slice of the radio spectrum your receiver processes:
 
 - **SSB**: typically 2400 Hz (best signal-to-noise ratio).
 - **CW**: typically 250–500 Hz.

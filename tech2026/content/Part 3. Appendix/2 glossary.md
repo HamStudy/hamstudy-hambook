@@ -135,7 +135,7 @@ The radio frequency band between 300 MHz and 3 GHz. Commonly used for local comm
 #### V
 
 ##### Vanity Call Sign
-A custom call sign chosen by a licensed operator. See Section 8.1.
+A custom callsign chosen by a licensed operator. See Section 8.1.
 
 ##### VHF (Very High Frequency) {#glossary-vhf}
 The radio frequency band between 30 and 300 MHz.

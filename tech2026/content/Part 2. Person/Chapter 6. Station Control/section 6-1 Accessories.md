@@ -26,7 +26,7 @@ You may also want a surge protector between your supply and the wall outlet to g
 
 #### Digital Interfaces
 
-For digital modes (which we covered in Section 3.6), you'll want a way to connect your radio to your computer. The three main signals you need to connect are *receive audio, transmit audio, and transmitter keying* — everything else is plumbing around those three. Many modern radios include USB ports that handle all three over a single cable; older or simpler setups use separate audio cables with a small interface box that handles the keying.
+For digital modes (which we covered in Section 3.5), you'll want a way to connect your radio to your computer. The three main signals you need to connect are *receive audio, transmit audio, and transmitter keying* — everything else is plumbing around those three. Many modern radios include USB ports that handle all three over a single cable; older or simpler setups use separate audio cables with a small interface box that handles the keying.
 
 #### Antenna Analyzers, SWR Meters, and Power Meters
 

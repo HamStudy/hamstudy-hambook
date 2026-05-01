@@ -7,7 +7,7 @@ status: complete
 
 ### Section 3.4: Modulation Modes and Bandwidth
 
-Imagine you're trying to send a message to a friend across a dark field using a laser pointer. You might blink it on and off, vary its brightness, or switch between different colored lasers (red, green, blue) to communicate. That's exactly what we're doing in radio! Radio waves and visible light are both forms of electromagnetic (EM) waves — they're cousins in the same energy family, just at different frequencies.
+Suppose you're sending a message to a friend across a dark field with a laser pointer. You might blink it on and off, vary its brightness, or switch between different colored lasers (red, green, blue) to communicate. That's exactly what we're doing in radio! Radio waves and visible light are both forms of electromagnetic (EM) waves — they're cousins in the same energy family, just at different frequencies.
 
 The color of a laser is determined by its frequency — red has a lower frequency than green or blue. Similarly, in radio, we work with different frequencies that we can't see. When we talk about radio modulation, we're talking about how we manipulate these invisible waves to carry our voice or data. Let's explore these different ways of manipulating radio waves and how much radio spectrum space (bandwidth) each method needs.
 
@@ -43,7 +43,7 @@ Now, let's talk about SSB, which is where amplitude modulation gets a cool upgra
 
 Remember how AM creates sidebands above and below the main frequency? In SSB, we eliminate the carrier wave and one of the sidebands. Using our laser pointer analogy, this would be like keeping the laser's color variations that represent your voice, but eliminating the constant background brightness of the beam when you're not speaking.
 
-If you could filter out just the color variations above the laser pointer's main frequency, the colors that represent your voice, you'd be left with just the colors in the sideband below the pointer's main color. These colors can be referred to as a "single sideband" or SSB. Your laser would only emit light when you're actually speaking, and it would use exactly the minimum amount of light needed to represent your voice — no wasted energy on a constant beam or redundant information from the upper sideband.
+If you could filter out the color variations above the main color — the ones that carry your voice — that would leave just the variations below: a single sideband, or SSB. Your laser would only emit light when you're actually speaking, and it would use exactly the minimum amount of light needed to represent your voice — no wasted energy on a constant beam or redundant information from the upper sideband.
 
 If you removed the laser pointer's main frequency and the colors below (the colors in the lower sideband), you'd be left with Upper Sideband (USB).
 

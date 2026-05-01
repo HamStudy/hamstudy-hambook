@@ -26,7 +26,7 @@ Circuit breakers accomplish the same goal without destroying themselves. They us
 
 #### Matching Fuses to Circuits
 
-Fuses are rated for specific current levels, and using the right one matters more than most people realize. Imagine you've just set up a mobile rig in your car. You've got a 50W VHF/UHF transceiver that draws about 10A at full power, and you're about to pick a fuse for the power line. The manufacturer recommends a 15A fuse. You have a 30A fuse in the glove compartment. It's tempting to use the 30A — but that's a mistake.
+Fuses are rated for specific current levels, and using the right one matters more than most people realize. Let's say you've just set up a mobile rig in your car. You've got a 50W VHF/UHF transceiver that draws about 10A at full power, and you're about to pick a fuse for the power line. The manufacturer recommends a 15A fuse. You have a 30A fuse in the glove compartment. It's tempting to use the 30A — but that's a mistake.
 
 > **Key Information:** A 5-ampere fuse should never be replaced with a 20-ampere fuse because excessive current could cause a fire. {{< link id="T0A05" >}}
 

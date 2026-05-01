@@ -17,7 +17,7 @@ Amateur radio is for personal use and self-training, not for business. Authorize
 
 > **Key Information:** A control operator may receive compensation for operating an amateur station when the communication is part of classroom instruction at an educational institution. {{< link id="T1D08" >}}
 
-Generally, you can't get paid for operating an amateur station — we're in this for the love of radio, not the paycheck. The classroom-instruction exception covers cases like a science teacher who operates the school's amateur station as part of teaching about radio: the teacher is compensated for teaching, not for providing a paid radio service.
+Generally, you can't get paid for operating an amateur station — we're in this for the love of radio, not the paycheck. The classroom exception covers a teacher who operates the school's amateur station as part of teaching about radio. They're being paid to teach, not to operate the station.
 
 Part 97 includes a few other narrow compensation exceptions, which we'll cover in the Prohibited Transmissions discussion below.
 
@@ -49,7 +49,7 @@ Several other categories of transmissions are explicitly authorized:
 
 You can chat with hams worldwide, but the conversation has to remain personal or radio-related — no business communications crossing international borders any more than they're allowed domestically.
 
-There are some countries you're not allowed to communicate with. The list isn't fixed (countries can change their stance), so we won't list them here, but the mechanism is clear: any country can notify the ITU that they object to amateur radio communication with their citizens, and if they do, US amateurs must not exchange communications with that country.
+There are some countries you're not allowed to communicate with. The list isn't fixed (countries can change their stance), so we won't list them here. The mechanism is simple: a country tells the ITU it objects to amateur communication with its citizens, and US amateurs must not exchange communications with that country.
 
 If you're operating from international waters on a US-documented vessel, you can use your US amateur license — provided the captain has approved it. ("Captain's ship, captain's rules," basically.) You'd still need to know and follow the rules of any country whose territorial waters you might enter.
 
@@ -122,7 +122,7 @@ Playing music over the air isn't allowed — except in the very narrow case wher
 
 > **Key Information:** Any language considered indecent or obscene is prohibited. {{< link id="T1D06" >}}
 
-There's no FCC- or ITU-published list of forbidden words. The interpretation falls to the operator and the broader community, with the practical understanding that amateur transmissions can be heard by anyone — including children. Imagine your grandma is listening with your 4-year-old niece sitting on her lap and speak appropriately! Use good judgment.
+There's no FCC- or ITU-published list of forbidden words. The interpretation falls to the operator and the broader community, with the practical understanding that amateur transmissions can be heard by anyone — including children. Pretend your grandma is listening with your 4-year-old niece sitting on her lap and speak appropriately! Use good judgment.
 
 ##### Willful Interference
 

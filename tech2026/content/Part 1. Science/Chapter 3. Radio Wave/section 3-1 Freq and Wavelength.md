@@ -10,7 +10,7 @@ status: complete
 ![cartoon showing a boy on the beach watching waves; how fast they come is frequency and the distance between them is wavelength](../../../images/illus/waves.svg)
 {.img-pgcap .float-right}
 
-Imagine you're watching waves at the beach. Some waves come in quickly, one after another, while others roll in more slowly with greater distance between them. Those are two different things: how often waves arrive (frequency) and the distance between them (wavelength). As we'll see, both describe the same wave, and they're linked. Radio waves work in a similar way, but instead of water, they're electromagnetic waves traveling through space at the speed of light.
+Watch waves at the beach. Some waves come in quickly, one after another, while others roll in more slowly with greater distance between them. Those are two different things: how often waves arrive (frequency) and the distance between them (wavelength). As we'll see, both describe the same wave, and they're linked. Radio waves work in a similar way, but instead of water, they're electromagnetic waves traveling through space at the speed of light.
 
 #### What is RF?
 
@@ -33,7 +33,7 @@ Whether you're tuning in to your favorite broadcast station, chatting on a repea
 ![Electric vs Magnetic Fields - always at a right angle from each other](../../../images/electromagnetic-3d.gif)
 {.img-centered .img-large}
 
-What are these fields, exactly? A *field* is a region of space where a force can act on things. You've felt the most familiar one your whole life — gravity is a field around the Earth. Electric fields act on electrical charges (like the static tug of a balloon rubbed on your hair), and magnetic fields act on magnetic materials (like a magnet on your fridge). A radio wave is a coupled oscillation of these two fields — as one changes, it creates the other, and the whole pattern propagates (travels) outward from the antenna at the speed of light.
+What are these fields, exactly? A *field* is a region of space where a force can act on things. You've felt the most familiar one your whole life — gravity is a field around the Earth. Electric fields act on electrical charges (like the static tug of a balloon rubbed on your hair), and magnetic fields act on magnetic materials (like a magnet on your fridge). A radio wave is the two fields oscillating together — as one changes, it creates the other, and the whole pattern travels outward from the antenna at the speed of light.
 
 While all radio frequencies travel at the same speed in the vacuum of free space, radio waves can be slowed down when passing through certain materials — glass, water, or the inside of coaxial cable — so a signal travels slightly slower through a cable than it would through empty space. But in free space, whether it's a 3.5 MHz HF signal or a 10 GHz microwave signal, they all travel at exactly the same speed: the speed of light.
 

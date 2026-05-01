@@ -81,7 +81,7 @@ Sporadic E happens when random patches of the ionosphere's E layer get temporari
 > - Caused by temperature inversions in the atmosphere. {{< link id="T3C08" >}}
 > - Allows VHF and UHF communications to ranges of approximately 300 miles regularly. {{< link id="T3C06" >}}
 
-Imagine a tunnel in the sky that can carry your signal much farther than usual. Temperature inversions create these "ducts" that can guide VHF and UHF signals far beyond their normal range, making long-distance contacts possible on bands that usually work only for local communication.
+A temperature inversion can form what amounts to a tunnel in the sky, guiding VHF and UHF signals far beyond their normal range. Temperature inversions create these "ducts" that can guide VHF and UHF signals far beyond their normal range, making long-distance contacts possible on bands that usually work only for local communication.
 
 #### Meteor Scatter
 

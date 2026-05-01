@@ -66,7 +66,7 @@ Radiograms are standardized message formats used in amateur radio to relay infor
 > - The preamble of a formal traffic message contains information needed to track the message. {{< link id="T2C10" >}}
 > - The "check" in a radiogram header is the number of words or word equivalents in the text portion of the message. {{< link id="T2C11" >}}
 
-- **Preamble**: Contains the information needed to track the message — including message number, precedence (priority), origin date/time, and originating station's call sign.
+- **Preamble**: Contains the information needed to track the message — including message number, precedence (priority), origin date/time, and originating station's callsign.
 - **Check**: The number of words or word equivalents in the text portion of the message. Operators use this to verify that the message was received completely and correctly.
 - **Text**: The actual message content, typically kept concise for accurate transmission.
 - **Address and Signature**: Identifies the recipient and sender of the message.

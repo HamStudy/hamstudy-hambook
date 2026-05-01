@@ -117,16 +117,16 @@ In a **DC circuit**, resistance simply opposes the flow of electricity. But in a
 
 *Inductance describes the ability to store energy in a magnetic field* {{< link id="T5C03" >}} and is measured in *henrys (H)*. {{< link id="T5C04" >}}
 
-In electrical circuits that include capacitors and/or inductors, the effect these components have on alternating current will vary with frequency. This frequency-dependent opposition to current flow is called **reactance**.
+When capacitors or inductors are in an AC circuit, they oppose current differently at different frequencies. This kind of frequency-dependent opposition is called **reactance**.
 
 - **Inductive reactance** increases as frequency increases.
 - **Capacitive reactance** decreases as frequency increases.
 
 **Impedance** combines both resistance and reactance, giving us the total opposition to AC current flow in a circuit.
 
-A *resonant circuit consists of an inductor and a capacitor connected either in series (one after another) or parallel (side by side)*. {{< link id="T6D11" >}} At a specific frequency, the inductive and capacitive reactances are equal in magnitude but opposite in effect, effectively canceling each other out. This creates an electrical balance that allows signals at that frequency to pass easily (in series) or be blocked (in parallel). That frequency is called the **resonant frequency**, and this phenomenon is known as **resonance**.
+A *resonant circuit consists of an inductor and a capacitor connected either in series (one after another) or parallel (side by side)*. {{< link id="T6D11" >}} At one specific frequency, the two reactances are equal but pull in opposite directions, so they exactly cancel each other out. This creates an electrical balance that allows signals at that frequency to pass easily (in series) or be blocked (in parallel). That frequency is called the **resonant frequency**, and this phenomenon is known as **resonance**.
 
-Amateur radio equipment is typically designed to work with specific impedance values. For example, most transceivers are designed to connect to a **50-ohm** system. When impedances aren't properly matched:
+Most ham gear is built around a 50-ohm system. When impedances aren't properly matched:
 
 - Power transfer becomes less efficient.
 - Some energy may be reflected back toward the source.

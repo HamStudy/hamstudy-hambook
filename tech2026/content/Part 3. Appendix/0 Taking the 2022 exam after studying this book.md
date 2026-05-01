@@ -160,7 +160,7 @@ LEO stands for Low Earth Orbit — satellites that orbit relatively close to Ear
 
 > **Key Information:** Each person may hold only one operator/primary station license grant. {{< link id="T1A04" >}}
 
-This fundamental rule means you get one license and one call sign. Even if you have multiple radios scattered across different locations, they all operate under your single license grant.
+This fundamental rule means you get one license and one callsign. Even if you have multiple radios scattered across different locations, they all operate under your single license grant.
 
 ### The Definition of a Beacon
 

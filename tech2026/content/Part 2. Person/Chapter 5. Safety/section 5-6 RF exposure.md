@@ -44,7 +44,7 @@ When evaluating RF exposure, we don't just consider the peak power but how long 
 
 > **Key Information:** Touching an antenna during transmission can cause RF burns to skin. {{< link id="T0C07" >}}
 
-This is one direct hazard that's often overlooked. Concentrated RF energy at the antenna can burn you even at relatively low power levels, and the burns may not be immediately noticeable. This is a separate concern from the average-exposure issue the duty-cycle discussion above was about — it's why transmitting antennas are kept out of reach, not just out of sight.
+This is one direct hazard that's often overlooked. Concentrated RF energy at the antenna can burn you even at relatively low power levels, and the burns may not be immediately noticeable. RF burns are a different problem from the average-exposure limits we just covered. That's why transmitting antennas are kept out of reach, not just out of sight.
 
 #### Staying in Compliance with RF Safety Regulations
 

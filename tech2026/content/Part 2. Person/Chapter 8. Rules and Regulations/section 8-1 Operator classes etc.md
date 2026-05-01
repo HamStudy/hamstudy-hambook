@@ -7,7 +7,7 @@ state: complete
 
 ### Section 8.1: Operator Classes, Privileges, and Call Signs
 
-Amateur radio in the US is structured around a few license classes, each granting different privileges, and a call sign system that signals which class you hold. This section covers how that structure works and how you fit into it.
+Amateur radio in the US is structured around a few license classes, each granting different privileges, and a callsign system that signals which class you hold. This section covers how that structure works and how you fit into it.
 
 #### The Purpose of Amateur Radio
 
@@ -46,12 +46,12 @@ Together with the technical-and-communication-skills purpose in the KI above, th
    - Access to exclusive Extra-only sections of bands.
    - Can get accredited as a Volunteer Examiner to administer exams for new and upgrading operators of any license class.
 
-You may come across other license classes besides these; that's because the rules have changed over the years and the Novice, Technician Plus, and Advanced licenses are no longer issued to new licensees. There are still people out there who hold Novice or Advanced licenses but that's a topic outside of the scope of this book. Note that each person may hold only one operator/primary station license grant — you'll have just one call sign, even if you have multiple radios or operating locations.
+You may come across other license classes besides these; that's because the rules have changed over the years and the Novice, Technician Plus, and Advanced licenses are no longer issued to new licensees. There are still people out there who hold Novice or Advanced licenses but that's a topic outside of the scope of this book. Note that each person may hold only one operator/primary station license grant — you'll have just one callsign, even if you have multiple radios or operating locations.
 
 #### Getting Your License
 
 > **Key Information:**
-> - You receive official notification of your new license and call sign via email from the FCC with a link to download the license grant. {{< link id="T1A04" >}}
+> - You receive official notification of your new license and callsign via email from the FCC with a link to download the license grant. {{< link id="T1A04" >}}
 > - The fact that the license appears in the FCC ULS database is what proves the FCC has issued an operator/primary license grant. {{< link id="T1A05" >}}
 
 After you pass your exam, your volunteer examiner (VE) team sends your test results and application to whichever VEC (Volunteer Examiner Coordinator) they work with. The VEC submits your application to the FCC, which sends you an email about paying the licensing fee. Once that's paid, your license is typically issued the next business day.
@@ -66,15 +66,15 @@ The ULS database is publicly searchable, and it's the authoritative record of wh
 
 The FCC no longer sends physical mail, so a working email address is a regulatory requirement, not a suggestion. Update your contact info promptly if you change email providers or move.
 
-Your license is valid for ten years. When it's time to renew, you can do so through the FCC License Manager portal. If your license expires, you'll lose your operating privileges until you complete renewal — and after a two-year grace period you'd lose your call sign entirely and have to start over with a new exam.
+Your license is valid for ten years. When it's time to renew, you can do so through the FCC License Manager portal. If your license expires, you'll lose your operating privileges until you complete renewal — and after a two-year grace period you'd lose your callsign entirely and have to start over with a new exam.
 
 #### Call Signs
 
-In the US, call signs are structured as follows: [Prefix][Number][Suffix]
+In the US, callsigns are structured as follows: [Prefix][Number][Suffix]
 
-> **Key Information:** A valid Group D call sign format for Technician class is the 2x3 format like KF1XXX. {{< link id="T1C05" >}}
+> **Key Information:** A valid Group D callsign format for Technician class is the 2x3 format like KF1XXX. {{< link id="T1C05" >}}
 
-There are four "groups" that call signs are assigned from.
+There are four "groups" that callsigns are assigned from.
 
 **Call Sign Groups**:
 
@@ -83,7 +83,7 @@ There are four "groups" that call signs are assigned from.
    - **Suffix:** 1 or 2 letters.
    - **Examples:** K1A, N1AA, W1A, AA4BC, AL9BB.
 
-   **Special event call signs**: The 1x1 format call signs, like K1A, are only used for special event stations and are only assigned for a limited time. You may hear them, but one will never be assigned to an individual.
+   **Special event callsigns**: The 1x1 format callsigns, like K1A, are only used for special event stations and are only assigned for a limited time. You may hear them, but one will never be assigned to an individual.
 
 * **Group B — Advanced Class**.
    - **Prefix:** Two letters starting with K, N, or W.
@@ -102,17 +102,17 @@ There are four "groups" that call signs are assigned from.
 
 You may notice that some of these groups don't line up with the operator classes mentioned above: that's because the rules have changed over the years.
 
-When you earn your first ham radio license, you'll be issued a sequential call sign based on the region of your mailing address and the group matching your license class. If there are no call signs remaining in that group, you'll be assigned a call sign from a later group instead. In practice, Group C call signs are essentially exhausted in most regions, so new Technicians today are typically issued a Group D format like KF1XXX — which is what makes that the valid Technician format you'll see on the exam.
+When you earn your first ham radio license, you'll be issued a sequential callsign based on the region of your mailing address and the group matching your license class. If there are no callsigns remaining in that group, you'll be assigned a callsign from a later group instead. In practice, Group C callsigns are essentially exhausted in most regions, so new Technicians today are typically issued a Group D format like KF1XXX — which is what makes that the valid Technician format you'll see on the exam.
 
 #### Vanity Call Signs
 
-> **Key Information:** Any licensed amateur may select a desired call sign under the vanity call sign rules. {{< link id="T1C02" >}}
+> **Key Information:** Any licensed amateur may select a desired callsign under the vanity callsign rules. {{< link id="T1C02" >}}
 
-Don't like your assigned call sign? You can apply for a vanity call sign from your group or a lower group (representing a lower license class). There are also some prefixes which are assigned to and reserved for specific geographical regions.
+Don't like your assigned callsign? You can apply for a vanity callsign from your group or a lower group (representing a lower license class). There are also some prefixes which are assigned to and reserved for specific geographical regions.
 
 #### Call Sign Regions
 
-The number in a call sign typically indicates the call sign region. The region you're assigned, and whether you can be issued a region-restricted vanity call sign, depends on the mailing address on your license.
+The number in a callsign typically indicates the callsign region. The region you're assigned, and whether you can be issued a region-restricted vanity callsign, depends on the mailing address on your license.
 
 #### Club Station Licenses
 
@@ -128,9 +128,9 @@ Club station licenses are a special type of amateur radio license granted to a c
 
 4. **Trustee**: The club must designate one person as the license trustee, who needs to hold an operator/primary station license grant. They're like the team captain for your radio club.
 
-5. **Call sign**: The club gets its own unique call sign, separate from any individual member's call sign.
+5. **Call sign**: The club gets its own unique callsign, separate from any individual member's callsign.
 
-When operating a club station, you use the club's call sign rather than your personal one — but the operating privileges are still limited to your individual license class.
+When operating a club station, you use the club's callsign rather than your personal one — but the operating privileges are still limited to your individual license class.
 
 ---
 

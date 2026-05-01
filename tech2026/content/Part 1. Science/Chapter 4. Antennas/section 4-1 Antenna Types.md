@@ -7,7 +7,7 @@ status: complete
 
 ### Section 4.1: Antenna Types
 
-Imagine you're at a party, trying to talk to a friend across a noisy room. You might cup your hands around your mouth to direct your voice, or turn your ear toward your friend to hear better. The best antennas work similarly — they help direct radio energy where you want it to go and pick up signals you want to hear.
+Pretend you're at a party, trying to talk to a friend across a noisy room — how might you do it? Perhaps you might cup your hands around your mouth to direct your voice, or turn an ear toward the friend friend to hear better? The best antennas work similarly — they help direct radio energy where you want it to go and pick up signals you want to hear.
 
 There are many different types of antennas, each with its own advantages and disadvantages. Some take more or less space, some are directional, some have more gain. The trick is to find the antenna that works best for your situation — and most hams end up with several different antennas for various purposes.
 

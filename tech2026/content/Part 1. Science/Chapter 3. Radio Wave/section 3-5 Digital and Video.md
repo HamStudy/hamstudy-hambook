@@ -18,7 +18,7 @@ One note before we get started: this section covers a lot of ground, and you don
 
 #### Packet Radio
 
-> **Key Information:** Packet radio transmissions include a checksum that permits error detection, a header that contains the call sign of the station to which the information is being sent, and automatic repeat request in case of error. {{< link id="T8D08" >}}
+> **Key Information:** Packet radio transmissions include a checksum that permits error detection, a header that contains the callsign of the station to which the information is being sent, and automatic repeat request in case of error. {{< link id="T8D08" >}}
 
 Packet radio is the original digital mode for sending data over amateur radio. The core idea is straightforward: your message gets split into small chunks called packets, each with a destination address and error-checking information, and those packets are sent over the air. The receiving station reassembles them back into the original message.
 
@@ -71,9 +71,9 @@ System Fusion is Yaesu's digital voice system, using a modulation called C4FM (C
 
 #### D-STAR (Digital Smart Technologies for Amateur Radio)
 
-> **Key Information:** Before transmitting on D-STAR, you must program your call sign into the transceiver. {{< link id="T4B11" >}}
+> **Key Information:** Before transmitting on D-STAR, you must program your callsign into the transceiver. {{< link id="T4B11" >}}
 
-D-STAR is a fully digital voice and data system developed by the Japan Amateur Radio League, and in contrast to System Fusion, it doesn't fall back to analog — it's digital all the way. Its distinctive feature is call-sign routing: you enter the call sign of another ham, and the D-STAR network figures out which linked repeater to route your signal through to reach them. That's why your own call sign has to be programmed into the radio — every D-STAR transmission carries it as part of the routing information.
+D-STAR is a fully digital voice and data system developed by the Japan Amateur Radio League, and in contrast to System Fusion, it doesn't fall back to analog — it's digital all the way. Its distinctive feature is callsign routing: you enter the callsign of another ham, and the D-STAR network figures out which linked repeater to route your signal through to reach them. That's why your own callsign has to be programmed into the radio — every D-STAR transmission carries it as part of the routing information.
 
 #### Digital Mode Hotspots
 
