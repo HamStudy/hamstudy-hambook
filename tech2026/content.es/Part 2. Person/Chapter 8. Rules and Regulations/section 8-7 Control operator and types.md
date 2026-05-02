@@ -12,25 +12,25 @@ El operador de control es la persona responsable de lo que sale al aire. Toda es
 #### ¿Qué es un Operador de Control?
 
 > **Información Clave:**
-> - Un operador de control es un operador de radioafición designado por el licenciatario de una estación para ser responsable de las transmisiones y del cumplimiento de las reglas de la FCC en esa estación. {{< link id="T1E11" >}}
-> - El operador de control de la estación debe ser designado por el licenciatario de la estación. {{< link id="T1E03" >}}
-> - Cuando el operador de control no es el licenciatario de la estación, tanto el operador de control como el licenciatario de la estación son responsables de la operación adecuada de la estación. {{< link id="T1E07" >}}
+> - Un operador de control es un operador de radioafición designado por el titular de la licencia de una estación para ser responsable de las transmisiones y del cumplimiento de las reglas de la FCC en esa estación. {{< link id="T1E11" >}}
+> - El operador de control de la estación debe ser designado por el titular de la licencia de la estación. {{< link id="T1E03" >}}
+> - Cuando el operador de control no es el titular de la licencia de la estación, tanto el operador de control como el titular de la licencia de la estación son responsables de la operación correcta de la estación. {{< link id="T1E07" >}}
 
-Toda estación de aficionado tiene dos roles clave: el **licenciatario de la estación** y el **operador de control**. El licenciatario de la estación es la persona que posee la licencia de esa estación, normalmente el propietario. El operador de control es el radioaficionado designado por el licenciatario para ser responsable de las transmisiones reales. Pueden ser la misma persona o personas distintas, pero ambos roles siempre existen mientras una estación está al aire.
+Toda estación de aficionado tiene dos roles clave: el **titular de la licencia de la estación** y el **operador de control**. El titular de la licencia de la estación es la persona que posee la licencia de esa estación, normalmente el propietario. El operador de control es el radioaficionado designado por el titular de la licencia para ser responsable de las transmisiones reales. Pueden ser la misma persona o personas distintas, pero ambos roles siempre existen mientras una estación está al aire.
 
-Cuando son personas distintas —por ejemplo, si dejas que un amigo con licencia opere tu estación— ambos comparten responsabilidad. El operador de control es responsable de lo que se transmite mientras está en los controles; el licenciatario es responsable de la estación misma y de designar quién puede operarla.
+Cuando son personas distintas —por ejemplo, si dejas que un amigo con licencia opere tu estación— ambos comparten responsabilidad. El operador de control es responsable de lo que se transmite mientras está en los controles; el titular de la licencia es responsable de la estación misma y de designar quién puede operarla.
 
 #### Privilegios y el Operador de Control
 
 > **Información Clave:**
-> - Los privilegios de frecuencia de transmisión de una estación de aficionado están determinados por la clase de licencia de operador que posee el operador de control. {{< link id="T1E04" >}}
+> - Los privilegios de frecuencia de transmisión de una estación de aficionado están determinados por la categoría de licencia del operador que esté actuando como operador de control. {{< link id="T1E04" >}}
 > - Una estación de aficionado nunca puede transmitir sin un operador de control. {{< link id="T1E01" >}}
 
-Este es un punto importante: los privilegios en uso están ligados al *operador de control*, no al hardware de la estación ni a quién más esté en la habitación. Un operador de clase General podría ser el operador de control en una estación propiedad de un licenciatario Technician, y aplicarían los privilegios General. Lo inverso también funciona: un Técnico actuando como operador de control en la estación de un Extra solo puede operar dentro de los privilegios Technician.
+Este es un punto importante: los privilegios en uso están ligados al *operador de control*, no al hardware de la estación ni a quién más esté en la habitación. Un operador de categoría General podría ser el operador de control en una estación propiedad de un titular de la licencia Technician, y aplicarían los privilegios General. Lo inverso también funciona: un Técnico actuando como operador de control en la estación de un Extra solo puede operar dentro de los privilegios Technician.
 
 Una estación nunca puede transmitir sin un operador de control, incluso cuando no hay nadie físicamente presente junto al radio. Para una estación controlada remotamente, el operador de control está en el punto de control (más sobre esto abajo). Para una estación controlada automáticamente —como un repetidor— todavía debe designarse un operador de control con licencia, aunque no esté monitoreando activamente cada transmisión.
 
-> **Información Clave:** Salvo durante una emergencia, un licenciatario de clase Technician nunca puede ser el operador de control de una estación que opere en un segmento de banda de clase Amateur Extra. {{< link id="T1E06" >}}
+> **Información Clave:** Salvo durante una emergencia, una persona con licencia de categoría Technician nunca puede ser el operador de control de una estación que opere en un segmento de banda de categoría Amateur Extra. {{< link id="T1E06" >}}
 
 Un Técnico puede transmitir en frecuencias para las que tiene licencia mientras un operador de clase superior es el operador de control (por ejemplo, en una estación de club durante un concurso), pero un Técnico nunca es el operador de control en segmentos solo para Extra. El límite por clase de operador es estricto.
 
@@ -38,7 +38,7 @@ Un Técnico puede transmitir en frecuencias para las que tiene licencia mientras
 
 > **Información Clave:** El punto de control de una estación de aficionado es la ubicación en la que se realiza la función de operador de control. {{< link id="T1E05" >}}
 
-El punto de control no es donde está la antena, ni donde está el transmisor, ni donde está la dirección postal del licenciatario. Es donde está sentado el operador de control (o de pie, o conduciendo, o dondequiera que esté operando). Para la mayoría de las estaciones, el punto de control es el mismo lugar que el radio, pero no tiene por qué serlo.
+El punto de control no es donde está la antena, ni donde está el transmisor, ni donde está la dirección postal del titular de la licencia. Es donde está sentado el operador de control (o de pie, o conduciendo, o dondequiera que esté operando). Para la mayoría de las estaciones, el punto de control es el mismo lugar que el radio, pero no tiene por qué serlo.
 
 #### Tipos de Control
 
@@ -51,7 +51,7 @@ El control local es el tipo más común: estás físicamente en la estación, se
 ##### Control Remoto
 
 > **Información Clave:**
-> - Operar la estación por internet es un ejemplo de control remoto según se define en la Parte 97. {{< link id="T1E10" >}}
+> - La operación de la estación a través de Internet es un ejemplo de control remoto según se define en la Parte 97. {{< link id="T1E10" >}}
 > - Cualquier estación de aficionado puede ser controlada remotamente. {{< link id="T1E09" >}}
 
 Con control remoto, el operador de control manipula los controles de la estación mediante algún tipo de enlace, más comúnmente internet. El operador de control aún debe estar en el punto de control (que ahora es dondequiera que esté operando remotamente), y se requiere un operador de control en todo momento. No hay restricción sobre qué tipo de estación puede controlarse remotamente: cualquier estación puede.

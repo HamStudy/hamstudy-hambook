@@ -10,8 +10,8 @@ status: publish1
 Abróchense los cinturones, cadetes espaciales: como Técnico, puedes comunicarte a través de satélites que orbitan a cientos de millas sobre la Tierra, extendiendo el alcance de tu radio más allá del horizonte y potencialmente alrededor del globo. Sí, de verdad.
 
 > **Información Clave:**
-> - Según la Parte 97 de la FCC, una estación espacial es una estación de aficionado ubicada a más de 50 km sobre la superficie de la Tierra. {{< link id="T1A07" >}}
-> - El operador de control de una estación que se comunica a través de un satélite de aficionados o una estación espacial puede ser cualquier radioaficionado autorizado a transmitir en la frecuencia de enlace ascendente del satélite. {{< link id="T1E02" >}} En la práctica, esto significa cualquier operador de clase Técnico o superior, ya que las bandas normalmente usadas para enlaces ascendentes de satélite están dentro de los privilegios Technician.
+> - Según la Parte 97 de la FCC, una estación espacial es una estación de radioaficionado situada a más de 50 km sobre la superficie de la Tierra. {{< link id="T1A07" >}}
+> - El operador de control de una estación que se comunica a través de un satélite de radioaficionado o una estación espacial puede ser cualquier radioaficionado autorizado a transmitir en la frecuencia de enlace ascendente del satélite. {{< link id="T1E02" >}} En la práctica, esto significa cualquier operador de clase Técnico o superior, ya que las bandas normalmente usadas para enlaces ascendentes de satélite están dentro de los privilegios Technician.
 > - Cualquier radioaficionado con licencia de clase Técnico o superior puede contactar con la Estación Espacial Internacional (ISS) en bandas VHF. {{< link id="T1B02" >}}
 
 #### ¿Qué son los Satélites de Radioaficionados?
@@ -28,34 +28,34 @@ Estos velocistas espaciales dan vueltas alrededor de la Tierra y pasan sobre nue
 #### Balizas y Telemetría de Satélites
 
 > **Información Clave:**
-> - Una baliza de satélite es una transmisión desde un satélite que contiene información de estado; normalmente reporta la salud y el estado del satélite. {{< link id="T8B05" >}} {{< link id="T8B01" >}}
+> - Un radiofaro ("beacon") de satélite es una transmisión desde un satélite que contiene información de estado; normalmente reporta Condición y estado del satélite. {{< link id="T8B05" >}} {{< link id="T8B01" >}}
 > - Cualquier persona puede recibir telemetría de un satélite de radioaficionados. {{< link id="T8B11" >}}
 
-Las balizas de satélite son transmisiones especiales que los satélites envían regularmente, como un faro en el espacio. Estas balizas normalmente transmiten datos de telemetría que pueden incluir niveles de voltaje de la batería, lecturas de temperatura, modo de operación y orientación de la nave espacial. Estas transmisiones no están cifradas y están destinadas a ser monitoreadas por operadores aficionados de todo el mundo.
+Los radiofaros ("beacons") de satélite son transmisiones especiales que los satélites envían regularmente, como un faro en el espacio. Estos radiofaros ("beacons") normalmente transmiten datos de telemetría que pueden incluir niveles de voltaje de la batería, lecturas de temperatura, modo de operación y orientación de la nave espacial. Estas transmisiones no están cifradas y están destinadas a ser monitoreadas por operadores aficionados de todo el mundo.
 
 #### Características de las Señales de Satélite
 
 > **Información Clave:**
-> - El desvanecimiento por rotación de las señales de satélite es causado por la rotación del satélite y sus antenas. {{< link id="T8B09" >}}
+> - El desvanecimiento por giro ("spin fading") de las señales de satélite es causado por la rotación del satélite y sus antenas. {{< link id="T8B09" >}}
 > - El desplazamiento Doppler en comunicaciones por satélite es un cambio observado en la frecuencia de la señal causado por el movimiento relativo entre el satélite y la estación terrestre. {{< link id="T8B07" >}}
 
-A medida que un satélite rota en el espacio, sus antenas cambian de orientación con respecto a la Tierra, haciendo que la intensidad de la señal varíe periódicamente, casi como un efecto de faro cósmico. Este fenómeno, llamado desvanecimiento por rotación, es la razón por la que los operadores de satélites deben estar atentos a las características de rotación del satélite.
+A medida que un satélite rota en el espacio, sus antenas cambian de orientación con respecto a la Tierra, haciendo que la intensidad de la señal varíe periódicamente, casi como un efecto de faro cósmico. Este fenómeno, llamado desvanecimiento por giro ("spin fading"), es la razón por la que los operadores de satélites deben estar atentos a las características de rotación del satélite.
 
 Con el desplazamiento Doppler, a medida que el satélite se acerca, la frecuencia parece más alta, y cuando se aleja, parece más baja, igual que el cambio de tono del silbato de un tren al pasar. Esto significa que tendrás que ajustar tu frecuencia durante el pase para compensar este efecto.
 
 #### Seguimiento y Operación de Satélites
 
 > **Información Clave:**
-> - Los programas de seguimiento de satélites proporcionan mapas de posición del satélite en tiempo real, horarios de pases y frecuencia aparente incluyendo el desplazamiento Doppler. {{< link id="T8B03" >}}
+> - Los programas de rastreo satelital proporcionan mapas de posición del satélite en tiempo real, horarios de pases y frecuencia aparente incluyendo el desplazamiento Doppler. {{< link id="T8B03" >}}
 > - La entrada principal para un programa de seguimiento de satélites son los elementos keplerianos: un conjunto de números que describen la órbita del satélite. {{< link id="T8B06" >}}
-> - Usar potencia radiada efectiva excesiva en el enlace ascendente de un satélite puede bloquear el acceso a otros usuarios. {{< link id="T8B02" >}}
-> - Para comprobar si tu potencia de enlace ascendente hacia un satélite con transpondedor lineal es apropiada, la intensidad de tu señal en el enlace descendente debe ser aproximadamente la misma que la de la baliza. {{< link id="T8B12" >}}
+> - Usar demasiada potencia radiada aparente en el enlace ascendente de un satélite puede bloquear el acceso a otros usuarios. {{< link id="T8B02" >}}
+> - Para comprobar si tu potencia de enlace ascendente hacia un satélite con transpondedor lineal es apropiada, la intensidad de tu señal en el enlace descendente debe ser aproximadamente la misma que la del radiofaro ("beacon"). {{< link id="T8B12" >}}
 
 Esto es lo que necesitas saber para empezar:
 
 1. **Frecuencias**: La mayoría de los satélites de radioaficionados operan en bandas VHF y UHF, justo dentro de tus posibilidades como Técnico. A menudo usarás una banda para el enlace ascendente y otra para el descendente.
 
-2. **Seguimiento**: ¡Los satélites se mueven rápido! Necesitarás programas de seguimiento para saber cuándo pasan sobre tu ubicación. Estos programas usan fórmulas matemáticas para predecir dónde estará un satélite en un momento dado.
+2. **Seguimiento**: ¡Los satélites se mueven rápido! Necesitarás programas de rastreo satelital para saber cuándo pasan sobre tu ubicación. Estos programas usan fórmulas matemáticas para predecir dónde estará un satélite en un momento dado.
 
 3. **Antenas**: Aunque puedes hacer algunos contactos con un equipo portátil y su antena de fábrica, las antenas direccionales funcionan mucho mejor para comunicaciones por satélite.
 

@@ -22,7 +22,7 @@ Cuando se trata de torres, la seguridad no es solo una buena idea: es esencial.
 
 Tu equipo en tierra no está ahí solo para pasarte herramientas: es tu red de seguridad. Puede pedir ayuda en una emergencia, guiarte en maniobras difíciles y vigilar condiciones cambiantes como el clima que se aproxima. Al escalar, el equipo adecuado no es opcional y la lista anterior no es un menú para escoger. La sujeción, el arnés y la capacitación importan, y que falte cualquiera de ellos es la forma en que la gente se lastima.
 
-> **Información clave:** Una torre telescópica no debe escalarse a menos que esté retraída o se hayan instalado dispositivos mecánicos de bloqueo de seguridad. {{< link id="T0B07" >}}
+> **Información clave:** Una torre telescópica de manivela (crank-up) no debe escalarse a menos que esté retraída o se hayan instalado dispositivos mecánicos de bloqueo de seguridad. {{< link id="T0B07" >}}
 
 Las torres telescópicas están diseñadas para subir y bajar por secciones, y esas secciones pueden colapsar si no están correctamente aseguradas. Si escalas una sin retraerla o activar sus bloqueos de seguridad, un cable atascado, un malacate fallido o incluso una ráfaga fuerte de viento podría hacer que las secciones se telescopen hacia abajo contigo encima. Las consecuencias podrían ir desde daños costosos a la antena, en el extremo inferior, hasta lesiones catastróficas en el extremo superior.
 
@@ -40,31 +40,31 @@ Así que si estás instalando una vertical de 20 pies, eso significa un mínimo 
 
 Aunque parezca conveniente, simplemente no vale la pena el riesgo. Los postes de servicios públicos a menudo llevan múltiples líneas eléctricas, algunas con miles de voltios. Una antena que toque esas líneas puede energizar todo tu sistema y crear un peligro mortal.
 
-#### Cables de retenida y soporte estructural
+#### Tirantes ("guy lines") y soporte estructural
 
-Las torres altas a menudo necesitan cables de retenida para mantenerse en pie. Los tensores que ajustan esos cables pueden aflojarse con el tiempo si no están asegurados.
+Las torres altas a menudo necesitan tirantes ("guy lines") para mantenerse en pie. Los tensores que ajustan esos cables pueden aflojarse con el tiempo si no están asegurados.
 
-> **Información clave:** El propósito de un alambre de seguridad a través de un tensor usado para tensar cables de retenida es evitar que el tensor se afloje por vibración. {{< link id="T0B05" >}}
+> **Información clave:** El propósito de un cable de seguridad a través de un tensor usado para tensar los tirantes ("guy lines") es prevenir que se afloje el tensor por vibraciones. {{< link id="T0B05" >}}
 
-La solución es simple: después de ajustar el tensor, pasa un alambre de seguridad delgado por sus orificios y retuerce los extremos para que no pueda girar y aflojarse.
+La solución es simple: después de ajustar el tensor, pasa un cable de seguridad delgado por sus orificios y retuerce los extremos para que no pueda girar y aflojarse.
 
 #### Sistemas de puesta a tierra y protección contra rayos
 
 Una puesta a tierra adecuada es esencial tanto para la seguridad como para la protección del equipo.
 
 > **Información clave:**
-> - Al instalar conductores de puesta a tierra para protección contra rayos, las conexiones deben ser cortas y directas {{< link id="T0B01" >}} y deben evitarse las curvas pronunciadas. {{< link id="T0B10" >}}
+> - Al instalar conductores de puesta a tierra para protección contra rayos, las conexiones deben ser cortas y directas {{< link id="T0B01" >}} y deben evitarse las curvas cerradas. {{< link id="T0B10" >}}
 > - Un descargador de rayos debe instalarse en un panel conectado a tierra cerca de donde las líneas de alimentación entran al edificio. {{< link id="T0A07" >}}
 
-La razón de usar conexiones cortas y directas sin curvas pronunciadas es cómo se comporta el rayo: el rayo toma el camino de menor impedancia, no solo de menor resistencia. Los tramos largos y las curvas cerradas crean impedancia inductiva que la energía del rayo preferirá evitar, así que buscará una ruta alternativa, que podría ser a través de tu equipo o de ti. Colocar el descargador donde las líneas de alimentación entran al edificio le da al rayo un camino controlado a tierra antes de que alcance cualquier cosa en el interior.
+La razón de usar conexiones cortas y directas sin curvas cerradas es cómo se comporta el rayo: el rayo toma el camino de menor impedancia, no solo de menor resistencia. Los tramos largos y las curvas cerradas crean impedancia inductiva que la energía del rayo preferirá evitar, así que buscará una ruta alternativa, que podría ser a través de tu equipo o de ti. Colocar el descargador donde las líneas de alimentación entran al edificio le da al rayo un camino controlado a tierra antes de que alcance cualquier cosa en el interior.
 
 > **Información clave:**
-> - Todas las varillas de tierra externas o conexiones a tierra deben unirse entre sí con alambre grueso o cinta conductora. {{< link id="T0A09" >}}
+> - Todas las varillas de tierra externas o conexiones a tierra deben enlazarse (bonding) con alambre grueso o cinta conductora. {{< link id="T0A09" >}}
 > - Un método adecuado de puesta a tierra para una torre es usar varillas de tierra separadas de ocho pies para cada pata de la torre, unidas a la torre y entre sí. {{< link id="T0B08" >}}
 
 Múltiples varillas de tierra proporcionan múltiples caminos de baja impedancia hacia la tierra, reduciendo la resistencia total de tierra y mejorando la protección contra rayos. Unirlas entre sí asegura que la energía del rayo no desarrolle una diferencia de voltaje entre la “tierra” de un punto y la “tierra” de otro, lo cual sería una invitación para que forme un arco a través de lo que conduzca entre ellas, como tu equipo o el cableado del edificio.
 
-> **Información clave:** La cinta plana de cobre es el conductor preferido para la unión a RF. {{< link id="T4A08" >}}
+> **Información clave:** La cinta plana de cobre es el conductor preferido para la vinculación equipotencial (bonding) en RF. {{< link id="T4A08" >}}
 
 Debido al efecto pelicular (donde las corrientes de RF viajan por la superficie de los conductores), una cinta plana proporciona más área de superficie y menor impedancia que un cable redondo con la misma área de sección transversal.
 

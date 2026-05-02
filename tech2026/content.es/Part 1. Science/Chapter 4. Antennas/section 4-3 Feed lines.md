@@ -23,7 +23,7 @@ Si alguna vez has mirado detrás de tu televisor, quizá hayas visto coaxial de 
 
 ##### Tipos de cable coaxial
 
-> **Información clave:** La diferencia eléctrica entre el cable coaxial RG-58 y RG-213 es que el RG-213 tiene menos pérdida a una frecuencia determinada. {{< link id="T9B10" >}}
+> **Información clave:** La diferencia eléctrica entre el cable coaxial RG-58 y RG-213 es que, para una frecuencia dada, el cable RG-213 tiene menos pérdidas. {{< link id="T9B10" >}}
 
 Un coaxial más grueso normalmente significa menor pérdida. Estos son algunos tipos comunes que encontrarás:
 
@@ -31,7 +31,7 @@ Un coaxial más grueso normalmente significa menor pérdida. Estos son algunos t
 - **RG-8X** — Un poco mejor que RG-58, todavía flexible pero con menos pérdida de señal.
 - **RG-8 / RG-213 / LMR-400** — Coaxial más grueso y de baja pérdida, excelente para tramos más largos y frecuencias más altas.
 - **RG-59 / RG-6** — El material de TV de 75 ohmios. *Técnicamente* funciona, pero no es una gran elección para radioafición.
-- **Hardline / Heliax** — Coaxial de uso pesado y pérdida extremadamente baja, usado para repetidores e instalaciones comerciales donde cada poco de señal importa.
+- **Línea rígida / Heliax** — Coaxial de uso pesado y pérdida extremadamente baja, usado para repetidores e instalaciones comerciales donde cada poco de señal importa.
 
 ##### Tipos de dieléctrico coaxial
 
@@ -41,12 +41,12 @@ El aislamiento entre el conductor central y el blindaje se llama *dieléctrico*.
 
 - **Dieléctrico sólido** — Usa plástico sólido (normalmente polietileno) como aislamiento. Es duradero y maneja bien la humedad, pero tiene más pérdida de señal.
 - **Dieléctrico de espuma** — Usa plástico espumado con diminutas bolsas de aire. El aire reduce la pérdida, haciéndolo más eficiente, aunque puede ser un poco más susceptible a la humedad si se daña.
-- **Hardline con aislamiento de aire** — Lleva este concepto más lejos usando principalmente aire con separadores plásticos para mantener el conductor central en su lugar. Por eso la hardline tiene tan baja pérdida (más sobre esto abajo), pero requiere técnicas especiales para mantener fuera la humedad, a veces incluso presurizando la línea con aire seco o nitrógeno.
+- **Línea rígida con aislamiento de aire** — Lleva este concepto más lejos usando principalmente aire con separadores plásticos para mantener el conductor central en su lugar. Por eso la línea rígida tiene tan baja pérdida (más sobre esto abajo), pero requiere técnicas especiales para mantener fuera la humedad, a veces incluso presurizando la línea con aire seco o nitrógeno.
 
 #### Comprender la pérdida en líneas de alimentación
 
 > **Información clave:**
-> - De los tipos comunes de línea de alimentación, la hardline con aislamiento de aire tiene la menor pérdida. {{< link id="T9B11" >}}
+> - De los tipos comunes de línea de alimentación, la línea rígida con aislamiento de aire tiene la menor pérdida. {{< link id="T9B11" >}}
 > - A medida que aumenta la frecuencia de una señal en cable coaxial, aumenta la pérdida. {{< link id="T9B05" >}}
 > - La potencia perdida en una línea de alimentación se convierte en calor. {{< link id="T7C07" >}}
 
@@ -56,8 +56,8 @@ Ningún coaxial es perfecto: parte de tu potencia siempre se pierde como calor a
 
 > **Información clave:**
 > - La contaminación por humedad causa fallas en los cables coaxiales. {{< link id="T7C09" >}}
-> - Las fuentes de pérdida en una línea de alimentación coaxial incluyen entrada de agua en conectores coaxiales, ROE alta y múltiples conectores en la línea. {{< link id="T9B08" >}}
-> - La cubierta exterior del cable coaxial debe ser resistente a la luz ultravioleta porque la luz ultravioleta puede dañar la cubierta y permitir que entre agua al cable. {{< link id="T7C10" >}}
+> - Las fuentes de pérdidas en una línea de alimentación coaxial incluyen entrada de agua en los conectores coaxiales, ROE ("SWR") elevada y múltiples conectores en la línea. {{< link id="T9B08" >}}
+> - La cubierta exterior del cable coaxial debe ser resistente a la luz ultravioleta porque la luz ultravioleta puede dañar la cubierta y permitir que el agua entre en el cable. {{< link id="T7C10" >}}
 
 El hilo conductor de esos hechos es el agua: causa fallas, causa pérdida, y es lo que la cubierta resistente a los UV está tratando de evitar. El agua es, con mucho, el mayor enemigo del coaxial, así que siempre impermeabiliza las conexiones exteriores y reemplaza cualquier cable con la cubierta agrietada o dañada antes de que la humedad encuentre la forma de entrar.
 

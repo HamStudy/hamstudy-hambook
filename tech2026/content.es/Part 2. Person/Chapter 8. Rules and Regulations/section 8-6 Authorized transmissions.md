@@ -15,7 +15,7 @@ La radioafición es para uso personal y autoformación, no para negocios. Las tr
 
 ##### Compensación: Cuándo Te Pueden Pagar
 
-> **Información Clave:** Un operador de control puede recibir compensación por operar una estación de aficionado cuando la comunicación forma parte de instrucción en el aula en una institución educativa. {{< link id="T1D08" >}}
+> **Información Clave:** Un operador de control puede recibir compensación por operar una estación de aficionado cuando la comunicación forma parte de instrucción en el salón de clases en una institución educativa. {{< link id="T1D08" >}}
 
 En general, no puedes recibir pago por operar una estación de aficionado: estamos en esto por amor a la radio, no por el cheque. La excepción del aula cubre a un profesor que opera la estación de aficionado de la escuela como parte de la enseñanza sobre radio. Le pagan por enseñar, no por operar la estación.
 
@@ -23,7 +23,7 @@ La Parte 97 incluye algunas otras excepciones estrechas de compensación, que cu
 
 ##### Comunicaciones de Emergencia
 
-> **Información Clave:** Las estaciones de aficionados pueden transmitir información en apoyo de radiodifusión, producción de programas o recopilación de noticias cuando dichas comunicaciones están directamente relacionadas con la ***seguridad inmediata de la vida humana o la protección de la propiedad***. {{< link id="T1D09" >}}
+> **Información Clave:** Las estaciones de aficionados pueden transmitir información en apoyo de radiodifusión, producción de programas o recopilación de noticias cuando dichas comunicaciones están directamente relacionadas con la ***seguridad inmediata de la vida humana o la protección de bienes***. {{< link id="T1D09" >}}
 
 En una emergencia real, las reglas habituales pasan a segundo plano: se te permite usar cualquier método de comunicación necesario para obtener ayuda. La Sección 97.403 especifica:
 
@@ -43,15 +43,15 @@ Varias otras categorías de transmisiones están explícitamente autorizadas:
 ##### Comunicaciones Internacionales
 
 > **Información Clave:**
-> - Las comunicaciones internacionales permitidas son aquellas incidentales a los propósitos del Servicio de Radioaficionados y comentarios de carácter personal. {{< link id="T1C03" >}}
-> - Puedes operar desde una embarcación documentada en los EE. UU. en aguas internacionales con permiso del patrón (capitán). {{< link id="T1C06" >}}
+> - Las comunicaciones internacionales permitidas son aquellas incidentales a los fines del Servicio de Radioaficionados y observaciones de carácter personal. {{< link id="T1C03" >}}
+> - Puedes operar desde un buque documentado en los EE. UU. en aguas internacionales con permiso del patrón (capitán). {{< link id="T1C06" >}}
 > - Los radioaficionados con licencia de la FCC tienen prohibido intercambiar comunicaciones con cualquier país cuya administración haya notificado a la UIT que se opone a dichas comunicaciones. {{< link id="T1D01" >}}
 
 Puedes charlar con radioaficionados de todo el mundo, pero la conversación debe seguir siendo personal o relacionada con la radio: nada de comunicaciones comerciales que crucen fronteras internacionales, igual que no se permiten dentro del país.
 
 Hay algunos países con los que no se permite comunicarse. La lista no es fija (los países pueden cambiar de postura), así que no la enumeraremos aquí. El mecanismo es simple: un país le dice a la UIT que se opone a la comunicación de aficionados con sus ciudadanos, y los radioaficionados estadounidenses no deben intercambiar comunicaciones con ese país.
 
-Si operas desde aguas internacionales en una embarcación documentada en los EE. UU., puedes usar tu licencia estadounidense de radioaficionado, siempre que el capitán lo haya aprobado. (Básicamente: "barco del capitán, reglas del capitán".) Aún tendrías que conocer y seguir las reglas de cualquier país cuyas aguas territoriales pudieras entrar.
+Si operas desde aguas internacionales en un buque documentado en los EE. UU., puedes usar tu licencia estadounidense de radioaficionado, siempre que el capitán lo haya aprobado. (Básicamente: "barco del capitán, reglas del capitán".) Aún tendrías que conocer y seguir las reglas de cualquier país cuyas aguas territoriales pudieras entrar.
 
 #### Comunicaciones de Terceros
 
@@ -71,7 +71,7 @@ Si operas desde aguas internacionales en una embarcación documentada en los EE.
 
 La Parte 97 especifica para transmisiones internacionales:
 
-> Las transmisiones a un país diferente, cuando estén permitidas, se limitarán a comunicaciones incidentales a los propósitos del servicio de aficionados y a comentarios de carácter personal.
+> Las transmisiones a un país diferente, cuando estén permitidas, se limitarán a comunicaciones incidentales a los fines del Servicio de Radioaficionados y a observaciones de carácter personal.
 
 #### Transmisiones Unidireccionales
 
@@ -108,7 +108,7 @@ Además:
 
 ##### Mensajes Cifrados
 
-> **Información Clave:** Los mensajes codificados para ocultar su significado solo pueden transmitirse al enviar comandos de control a estaciones espaciales o dispositivos de radiocontrol. {{< link id="T1D03" >}}
+> **Información Clave:** Los mensajes codificados para ocultar su significado solo pueden transmitirse al enviar comandos de control a estaciones espaciales o modelos teledirigidos. {{< link id="T1D03" >}}
 
 En general, los mensajes de radioafición deben estar abiertos: cualquiera que escuche debería poder entender lo que se dice. La excepción es para control: puedes cifrar los comandos que envías a un satélite o a un avión o dron radiocontrolado, porque existe una preocupación real de seguridad si alguien más pudiera tomar control de esos sistemas.
 
@@ -126,7 +126,7 @@ No hay una lista de palabras prohibidas publicada por la FCC o la UIT. La interp
 
 ##### Interferencia Deliberada
 
-> **Información Clave:** La interferencia deliberada o maliciosa está prohibida. {{< link id="T1A11" >}}
+> **Información Clave:** La Interferencia intencional o maliciosa está prohibida. {{< link id="T1A11" >}}
 
 Interrumpir intencionalmente a otra estación —atascar una frecuencia, transmitir ruido para tapar un contacto, activar deliberadamente tu transmisor encima de alguien— está prohibido y puede resultar en sanciones serias de la FCC. Esta es una de las pocas reglas de radioafición que trae consecuencias reales de aplicación.
 

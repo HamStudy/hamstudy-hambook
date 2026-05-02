@@ -22,8 +22,8 @@ La sobrecarga fundamental ocurre cuando una señal fuerte cercana abruma un rece
 En receptores no aficionados (como televisores, radios o teléfonos celulares), la sobrecarga fundamental puede ocurrir cuando un transmisor de radioaficionado cercano es tan fuerte que sobrecarga los circuitos de entrada del receptor. Esto puede causar interferencia aunque la señal de radioaficionado no esté en una frecuencia cercana a la que el dispositivo intenta recibir.
 
 > **Información clave:**
-> - Una radio comercial AM o FM puede recibir involuntariamente una transmisión de radioaficionado porque el receptor no puede rechazar señales fuertes fuera de la banda AM o FM. {{< link id="T7B02" >}}
-> - Para reducir la interferencia de una estación de radioaficionado a un receptor de radio por aire no amateur, bloquea la señal de radioaficionado con un filtro en la entrada de antena del receptor afectado. {{< link id="T7B05" >}}
+> - Una radio comercial AM o FM puede recibir involuntariamente una transmisión de radioaficionado porque el receptor no puede rechazar señales fuertes fuera de las bandas de AM o FM. {{< link id="T7B02" >}}
+> - Para reducir la interferencia de una estación de radioaficionado a un receptor de radio no radioaficionado que recibe señales por aire, bloquea la señal de radioaficionado con un filtro en la entrada de antena del receptor afectado. {{< link id="T7B05" >}}
 
 Para abordar la sobrecarga fundamental:
 
@@ -103,7 +103,7 @@ La puesta a tierra no se trata solo de rendimiento; también es un tema de segur
 
 La puesta a tierra de un transceptor móvil tiene una sutileza fácil de hacer mal.
 
-> **Información clave:** El retorno negativo de alimentación de un transceptor móvil debe conectarse a la tierra del chasis de la batería de 12 voltios. {{< link id="T4A11" >}}
+> **Información clave:** El retorno negativo de alimentación de un transceptor móvil debe conectarse al punto de tierra (chasis) de la batería de 12 voltios. {{< link id="T4A11" >}}
 
 Es tentador suponer que, como el chasis de un vehículo es una gran pieza de metal unida eléctricamente, cualquier punto metálico es igual de bueno como tierra: simplemente conecta el cable negativo del radio donde sea conveniente. Eso podría parecer que funciona, pero definitivamente no es ideal. La conexión correcta es en el mismo punto donde el terminal negativo de la batería de 12 voltios se une al chasis (o directamente al terminal negativo de la batería). La mayoría de los vehículos tienen un cable de unión de calibre grueso que va del negativo de la batería a un punto específico del chasis, y ese es el lugar.
 

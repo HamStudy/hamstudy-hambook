@@ -58,7 +58,7 @@ Llamar CQ (buscar un contacto) y responder a llamadas CQ son habilidades fundame
 
 Ejemplo: "CQ CQ CQ, aquí KA1ABC, Kilo Alpha Uno Alpha Bravo Charlie llamando CQ y a la escucha".
 
-> **Información Clave:** Una forma eficaz de buscar una llamada de cualquier estación de fonía cuando no se usa un repetidor es repetir "CQ" algunas veces, seguido de "aquí" y tu indicativo, y luego hacer una pausa para escuchar. {{< link id="T2A06" >}}
+> **Información Clave:** Una forma eficaz de buscar una llamada de cualquier estación de fonía cuando no se usa un repetidor es repetir "CQ" algunas veces, seguido de "esta es" y su indicativo, y luego hacer una pausa para escuchar. {{< link id="T2A06" >}}
 
 En HF normalmente estás usando apenas unos pocos kilohercios de los cientos disponibles en la banda, así que es buena idea hacer tu CQ un poco más largo: eso le da tiempo a alguien que está recorriendo la banda para oírte y detenerse. Asegúrate de indicar claramente cuándo terminaste, porque en SSB no hay una portadora que desaparezca; no hay diferencia audible entre transmitir en silencio y haber terminado.
 

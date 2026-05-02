@@ -15,7 +15,7 @@ Cuando fallan los teléfonos celulares y se va la electricidad, ¿adivina quién
 
 ##### ARES (Amateur Radio Emergency Service)
 
-> **Información Clave:** ARES es un grupo de radioaficionados con licencia que han registrado voluntariamente sus calificaciones y equipos para tareas de comunicación en el servicio público. {{< link id="T2C06" >}}
+> **Información Clave:** ARES es un grupo de radioaficionados con licencia que han registrado voluntariamente sus cualificaciones y equipo para el servicio público de comunicaciones. {{< link id="T2C06" >}}
 
 Dirigidos por la ARRL (American Radio Relay League), estos voluntarios proporcionan apoyo de comunicaciones de emergencia cuando otros sistemas fallan. Los grupos locales de ARES operan en todo el país, listos para ayudar durante desastres o eventos públicos. Los miembros entrenan juntos, participan en simulacros y permanecen disponibles para ayudar a sus comunidades. No necesitas ser miembro de la ARRL para unirte a ARES.
 
@@ -25,7 +25,7 @@ El propósito principal de ARES es proporcionar comunicación confiable durante 
 
 > **Información Clave:**
 > - RACES es un servicio de radioaficionados de la Parte 97 de la FCC para comunicaciones de defensa civil durante emergencias nacionales. {{< link id="T2C04" >}}
-> - Para ser operador de control de una estación RACES, se requiere una licencia de radioaficionado de la FCC más certificación de inscripción actual por parte de una organización de defensa civil; y ese requisito de certificación de la agencia de defensa civil es lo que distingue a RACES de ARES, MARS y SKYWARN. {{< link id="T1A10" >}} {{< link id="T2C12" >}}
+> - Para ser operador de control de una estación RACES, se requiere una licencia de radioaficionado de la FCC más Certificación de inscripción vigente por parte de una organización de defensa civil; y ese requisito de certificación de la agencia de defensa civil es lo que distingue a RACES de ARES, MARS y SKYWARN. {{< link id="T1A10" >}} {{< link id="T2C12" >}}
 
 A diferencia de ARES, que se centra en voluntarios, RACES opera bajo la autoridad de agencias gubernamentales durante emergencias civiles. Durante una emergencia declarada, las estaciones RACES solo pueden comunicarse con otras estaciones RACES, estaciones gubernamentales o estaciones de aficionados autorizadas. RACES proporciona un enfoque estructurado y coordinado por el gobierno para las comunicaciones de emergencia.
 
@@ -37,7 +37,7 @@ A diferencia de ARES, que se centra en voluntarios, RACES opera bajo la autorida
 Las redes son grupos organizados de estaciones que se reúnen en una frecuencia específica para intercambiar información. Pueden ser rutinarias (como los registros semanales de un club) o activarse para emergencias y eventos especiales.
 
 > **Información Clave:**
-> - La Estación de Control de Red (NCS) es responsable de llamar al orden la red y dirigir las comunicaciones entre las estaciones que se registran. {{< link id="T2C02" >}}
+> - La Estación de Control de Red (NCS) es responsable de Abrir formalmente la red y dirigir las comunicaciones entre las estaciones que se registran. {{< link id="T2C02" >}}
 > - La práctica estándar al participar en una red es transmitir solo cuando lo indique la estación de control de la red, salvo que se esté reportando una emergencia. {{< link id="T2C07" >}}
 
 La NCS tiene varias responsabilidades clave:
@@ -52,7 +52,7 @@ El buen manejo del tráfico es esencial: pasar los mensajes exactamente como se 
 
 ##### Reglas de Operación en Emergencias
 
-> **Información Clave:** Las reglas de la Parte 97 de la FCC siempre se aplican a la operación de estaciones de aficionados, incluso durante operaciones RACES, ARES o FEMA. La propia Parte 97 incluye una disposición que permite a los operadores de control operar fuera de los privilegios de frecuencia de su clase de licencia solo en situaciones que involucren la seguridad inmediata de la vida humana o la protección de la propiedad. {{< link id="T2C01" >}} {{< link id="T2C09" >}}
+> **Información Clave:** Las reglas de la Parte 97 de la FCC siempre se aplican a la operación de estaciones de aficionados, incluso durante operaciones RACES, ARES o FEMA. La propia Parte 97 incluye una disposición que permite a los operadores de control operar fuera de los privilegios de frecuencia de su clase de licencia solo en situaciones que involucren la seguridad inmediata de la vida humana o la protección de bienes. {{< link id="T2C01" >}} {{< link id="T2C09" >}}
 
 Esta es una distinción importante: los planes de emergencia nunca autorizan una operación rutinaria fuera de banda, porque si puedes planificar, puedes planificar quedarte dentro de la banda. La disposición está reservada para amenazas genuinas e inmediatas a la vida o la propiedad. Salvar a alguien tiene prioridad, pero aun así debes tener cuidado de no crear un peligro mayor al interferir con otras comunicaciones críticas.
 

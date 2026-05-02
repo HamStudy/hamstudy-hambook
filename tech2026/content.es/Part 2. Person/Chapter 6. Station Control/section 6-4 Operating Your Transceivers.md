@@ -12,13 +12,13 @@ Ahora que entiendes qué son los transceptores y cómo funcionan, exploremos có
 #### Controles básicos para todos los transceptores
 
 > **Información clave:**
-> - La frecuencia de operación de un transceptor puede ingresarse usando el teclado o la perilla VFO. {{< link id="T4B02" >}}
+> - La frecuencia de operación de un transceptor puede ingresarse usando el teclado ("keypad") o la perilla del VFO. {{< link id="T4B02" >}}
 > - La entrada PTT (Push-To-Talk) cambia el transceptor de recepción a transmisión cuando se conecta a tierra. {{< link id="T7A07" >}}
 
 Todo radio, sin importar el tipo, tiene estos controles fundamentales:
 
 - **Encendido/Volumen**: Enciende y apaga el radio y ajusta el nivel de audio.
-- **Entrada de frecuencia**: Usa el teclado para escribir una frecuencia directamente, o gira la perilla VFO para sintonizar hacia arriba o abajo de la banda.
+- **Entrada de frecuencia**: Usa el teclado ("keypad") para escribir una frecuencia directamente, o gira la perilla del VFO para sintonizar hacia arriba o abajo de la banda.
 - **PTT (Push-To-Talk)**: El botón del micrófono (o del cuerpo del radio) que te cambia de escuchar a transmitir.
 
 #### Canales de memoria
@@ -62,9 +62,9 @@ Discutiremos cómo se usan estos para acceder a repetidores en la siguiente secc
 
 ##### DTMF
 
-> **Información clave:** La señalización DTMF (Dual-Tone Multi-Frequency) usa dos tonos de audio simultáneos. {{< link id="T2B06" >}}
+> **Información clave:** La señalización de Doble Tono Multi-Frecuencia (DTMF) usa dos tonos de audio simultáneos. {{< link id="T2B06" >}}
 
-DTMF es la misma tecnología que los teléfonos de tonos: cada “dígito” se envía como dos tonos de audio simultáneos. Aunque se usa más comúnmente con repetidores, DTMF puede usarse de muchas formas: controlar funciones de repetidores, acceder a sistemas enlazados por internet como IRLP, u otros servicios automatizados. A diferencia de CTCSS o DCS, DTMF normalmente no se usa para el acceso básico a repetidores.
+DTMF es la misma tecnología que los teléfonos de tonos: cada “dígito” se envía como dos tonos de audio simultáneos. Aunque se usa más comúnmente con repetidores, DTMF puede usarse de muchas formas: controlar funciones de repetidores, acceder a sistemas enlazados por Internet como IRLP, u otros servicios automatizados. A diferencia de CTCSS o DCS, DTMF normalmente no se usa para el acceso básico a repetidores.
 
 ##### Selección del nivel de potencia
 
@@ -120,9 +120,9 @@ Empieza con una configuración moderada y pide reportes al aire para afinarla. E
 
 ##### RIT/Clarificador
 
-> **Información clave:** Si el tono de voz de una señal SSB parece demasiado alto o bajo, se puede usar el RIT o Clarifier para corregirlo. {{< link id="T4B06" >}}
+> **Información clave:** Si el tono de voz de una señal SSB parece demasiado alto o bajo, se puede usar “RIT” o clarificador para corregirlo. {{< link id="T4B06" >}}
 
-Al operar SSB, podrías notar que algunas estaciones suenan demasiado agudas o demasiado graves. El control RIT (Receiver Incremental Tuning), a veces llamado Clarifier, ajusta solo tu frecuencia de recepción sin cambiar tu frecuencia de transmisión, lo que te permite “clarificar” la voz sin quedar fuera de frecuencia para la otra estación.
+Al operar SSB, podrías notar que algunas estaciones suenan demasiado agudas o demasiado graves. El control “RIT” (Receiver Incremental Tuning), a veces llamado clarificador, ajusta solo tu frecuencia de recepción sin cambiar tu frecuencia de transmisión, lo que te permite “clarificar” la voz sin quedar fuera de frecuencia para la otra estación.
 
 ##### Manipuladores electrónicos para CW
 

@@ -15,8 +15,8 @@ Mantener una estación de radioaficionado funcionando sin problemas se reduce a 
 {.img-small .float-right}
 
 > **Información clave:**
-> - Un multímetro mide voltaje y resistencia, y por lo general también corriente. {{< link id="T7D07" >}}
-> - Un medidor es un dispositivo que muestra una cantidad eléctrica como valor numérico. {{< link id="T6D04" >}}
+> - Un multímetro mide voltaje y resistencia. {{< link id="T7D07" >}}
+> - Un medidor es un dispositivo que muestra una magnitud eléctrica como valor numérico. {{< link id="T6D04" >}}
 > - Un voltímetro se usa para medir potencial eléctrico (voltaje). {{< link id="T7D01" >}}
 > - Un amperímetro se usa para medir corriente eléctrica. {{< link id="T7D04" >}}
 
@@ -28,8 +28,8 @@ Un multímetro combina varios instrumentos de medición en un solo dispositivo: 
 > - Un voltímetro se conecta en paralelo con un componente para medir voltaje. {{< link id="T7D02" >}}
 > - Cuando está configurado para medir corriente, un multímetro se conecta en serie con un componente. {{< link id="T7D03" >}}
 > - Un ohmímetro mide resistencia aplicando una pequeña corriente y midiendo el voltaje resultante. {{< link id="T7D05" >}}
-> - Al medir resistencia dentro de un circuito con un ohmímetro, asegúrate de que el circuito no esté energizado. {{< link id="T7D11" >}}
-> - Intentar medir voltaje usando la configuración de resistencia puede dañar un multímetro. {{< link id="T7D06" >}}
+> - Al medir resistencia dentro de un circuito con un ohmímetro, asegúrate de que el circuito no esté alimentado. {{< link id="T7D11" >}}
+> - Intentar medir voltaje usando la escala de resistencia puede dañar un multímetro. {{< link id="T7D06" >}}
 
 Al medir voltaje, configura tu multímetro en el rango apropiado (CC o CA) y conéctalo a través del componente que estás midiendo: sonda roja al punto positivo y negra al negativo o tierra.
 
@@ -49,21 +49,21 @@ Ese mismo comportamiento de almacenamiento de carga es lo que hace que los conde
 
 #### Medir altos voltajes
 
-> **Información clave:** Al medir altos voltajes con un voltímetro, asegúrate de que el voltímetro y sus puntas estén clasificados para uso con los voltajes que se están midiendo. {{< link id="T0A12" >}}
+> **Información clave:** Al medir altos voltajes con un voltímetro, asegúrate de que el voltímetro y sus cables estén clasificados para los voltajes que se van a medir. {{< link id="T0A12" >}}
 
-La seguridad es primordial al medir altos voltajes. Usar un voltímetro clasificado para 50 voltios para medir 1000 voltios podría dañar el medidor, permitir que el alto voltaje forme un arco a través de las puntas o causar lesiones graves. Algunos equipos de radioafición —especialmente los basados en tubos— pueden tener voltajes peligrosamente altos, y los condensadores de filtro discutidos arriba pueden mantener ese peligro mucho después de desenchufar el equipo.
+La seguridad es primordial al medir altos voltajes. Usar un voltímetro clasificado para 50 voltios para medir 1000 voltios podría dañar el medidor, permitir que el alto voltaje forme un arco a través de los cables o causar lesiones graves. Algunos equipos de radioafición —especialmente los basados en tubos— pueden tener voltajes peligrosamente altos, y los condensadores de filtro discutidos arriba pueden mantener ese peligro mucho después de desenchufar el equipo.
 
 #### Otro equipo de prueba esencial
 
 > **Información clave:**
-> - El propósito principal de una carga ficticia es evitar transmitir señales al aire al hacer pruebas. {{< link id="T7C01" >}}
-> - Una carga ficticia típica de RF consiste en una resistencia no inductiva de 50 ohmios montada en un disipador de calor. {{< link id="T7C03" >}}
+> - El propósito principal de una carga fantasma ("dummy load") es evitar transmitir señales al aire al hacer pruebas. {{< link id="T7C01" >}}
+> - Una carga fantasma ("dummy load") típica de RF consiste en una resistencia no inductiva de 50 ohmios montada en un disipador de calor. {{< link id="T7C03" >}}
 
 Algunos otros instrumentos merecen espacio en la caja de herramientas de cualquier radioaficionado:
 
 1. **Medidor de ROE**: mide la relación de onda estacionaria para que puedas saber qué tan bien está adaptada tu antena a tu transmisor. Cubrimos la ROE en detalle en la Sección 4.5.
 2. **Vatímetro**: mide la potencia de salida de tu transmisor, lo que te ayuda a mantenerte dentro de los límites legales y confirmar operación correcta.
-3. **Carga ficticia**: te permite probar transmisores sin poner una señal en el aire. Se ve como una antena correctamente adaptada para tu transmisor, pero convierte toda la energía de RF en calor en lugar de radiarla.
+3. **Carga fantasma ("dummy load")**: te permite probar transmisores sin poner una señal en el aire. Se ve como una antena correctamente adaptada para tu transmisor, pero convierte toda la energía de RF en calor en lugar de radiarla.
 4. **Osciloscopio**: visualiza señales eléctricas a lo largo del tiempo. Es más avanzado, pero útil para diagnosticar problemas de modulación o calidad de señal.
 
 #### El arte de soldar

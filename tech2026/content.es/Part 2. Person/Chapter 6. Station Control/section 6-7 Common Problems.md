@@ -23,7 +23,7 @@ A veces el problema puede estar en la susceptibilidad de su equipo a señales fu
 
 #### Retroalimentación de RF y voz distorsionada
 
-> **Información clave:** Las transmisiones de voz distorsionadas pueden eliminarse agregando un “choque” de ferrita de clip al cable del micrófono para evitar que la señal transmitida se realimente hacia el transmisor. {{< link id="T7B11" >}}
+> **Información clave:** Las transmisiones de voz distorsionadas pueden eliminarse al colocar una pinza de ferrita tipo clip ("choke") en el cable del micrófono para evitar que la señal transmitida se realimente hacia el transmisor. {{< link id="T7B11" >}}
 
 La retroalimentación de RF crea transmisiones confusas o ininteligibles cuando la energía de RF regresa a tus circuitos de audio. Los choques de ferrita suprimen estas corrientes de RF no deseadas: colócalos sobre cables de micrófono, cables de alimentación o cables de audio. Puede que se necesiten varios choques en cables más largos. Otras soluciones incluyen mejorar la puesta a tierra de la estación y ajustar la ubicación de la antena.
 
@@ -35,7 +35,7 @@ Hablar demasiado fuerte o demasiado cerca del micrófono causa sobredesviación:
 
 #### Interferencia de TV
 
-> **Información clave:** El primer paso para resolver interferencia de TV por cable que no sea de fibra óptica causada por tu transmisión de radioaficionado es asegurarte de que todos los conectores coaxiales de la línea de alimentación de TV estén instalados correctamente. {{< link id="T7B09" >}}
+> **Información clave:** El primer paso para resolver interferencia de TV por cable que no sea de fibra óptica causada por tu transmisión de radioaficionado es asegurarte de que todos los conectores coaxiales de las líneas de TV estén instalados correctamente. {{< link id="T7B09" >}}
 
 Conectores flojos, cables con blindaje deficiente, líneas dañadas o terminaciones faltantes en salidas no usadas pueden permitir que tu señal se filtre. Después de revisar las conexiones, un filtro pasa bajos en la salida de tu transmisor o filtros pasa altos en el equipo de TV afectado pueden ayudar con problemas persistentes.
 

@@ -55,7 +55,7 @@ A medida que explores la radioafición, encontrarás una comunidad lista para ay
 
 La Comisión Federal de Comunicaciones (FCC) regula y hace cumplir el Servicio de Radioaficionados en los Estados Unidos. Fue establecido con propósitos específicos *que quizás necesites conocer para el examen*. Estos forman la base y el propósito de nuestro pasatiempo y servicio:
 
-1. Avanzar en las destrezas tanto en los aspectos técnicos como de comunicación de la radio.
+1. Mejorar las destrezas en los aspectos técnicos y de comunicación del arte de la radio.
 2. Ampliar el grupo de operadores capacitados, técnicos y expertos en electrónica.
 3. Mejorar la buena voluntad internacional a través de comunicaciones globales.
 4. Proporcionar al público un servicio de comunicación voluntario no comercial, especialmente en tiempos de emergencia.

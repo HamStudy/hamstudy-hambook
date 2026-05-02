@@ -36,7 +36,7 @@ title: "Índice: Manual HamBook de Clase Technician (2026-2030)"
 - Sección 4.2: Polarización y orientación.
 - Sección 4.3: Líneas de alimentación.
 - Sección 4.4: Conectores.
-- Sección 4.5: Relación de ondas estacionarias (ROE/SWR).
+- Sección 4.5: Relación de ondas estacionarias (ROE ("SWR")).
 
 ## Parte 2: La persona detrás de la radioafición
 

@@ -9,7 +9,7 @@ status: publish1
 
 A estas alturas ya conoces muchos componentes diferentes: resistencias, capacitores, transistores y más. Has visto sus símbolos repartidos por secciones anteriores y, con suerte, empiezan a resultarte familiares. Ahora es momento de reunir todo en un solo lugar y concentrarnos en cómo se usan esos símbolos en los diagramas de circuitos.
 
-> **Información Clave:** Un esquemático es un diagrama eléctrico que usa símbolos estándar de componentes. {{< link id="T6C01" >}} Lo más importante que debes recordar es que los esquemáticos muestran con precisión las conexiones entre componentes. {{< link id="T6C12" >}}
+> **Información Clave:** Esquema es un diagrama eléctrico que usa símbolos estándar de componentes. {{< link id="T6C01" >}} Lo más importante que debes recordar es que los esquemáticos muestran con precisión las conexiones entre componentes. {{< link id="T6C12" >}}
 
 Piensa en un esquemático como un mapa para la electrónica. En lugar de usar dibujos de las piezas reales, usa símbolos estándar para mostrar cómo se conectan los componentes. Una vez que sabes leerlos, los diagramas de circuitos son tu clave para entender cualquier dispositivo electrónico, sin importar cuán complicado sea.
 
@@ -23,9 +23,9 @@ Estos son los componentes pasivos que vimos en la Sección 2.1: los que no neces
 
 | **Componente** | **Descripción** | **Símbolo**  |
 |---------------|------------------|---|
-| **Resistencia** | Esa conocida línea en zigzag representa un componente que controla el flujo de corriente. Las verás por todas partes en los circuitos. {{< link id="T6C02" >}} | ![Diagrama esquemático de resistencia](../../../images/s2-1-resistor.svg) |
+| **Resistor** | Esa conocida línea en zigzag representa un componente que controla el flujo de corriente. Las verás por todas partes en los circuitos. {{< link id="T6C02" >}} | ![Diagrama esquemático de resistencia](../../../images/s2-1-resistor.svg) |
 | **Resistencia variable (potenciómetro)** | Como una resistencia normal, pero con una flecha que muestra que puedes ajustar su valor. {{< link id="T6C08" >}} | ![Símbolo esquemático de potenciómetro](../../../images/schem-potentiometer.svg) |
-| **Capacitor** | Dos líneas paralelas que almacenan energía eléctrica. Verás versiones polarizadas (con una línea recta y una línea curva) y no polarizadas; ambas siguen siendo capacitores. {{< link id="T6C06" >}} | ![Diagrama esquemático de capacitor](../../../images/s2-1-capacitor.svg) |
+| **Condensador** | Dos líneas paralelas que almacenan energía eléctrica. Verás versiones polarizadas (con una línea recta y una línea curva) y no polarizadas; ambas siguen siendo condensadores. {{< link id="T6C06" >}} | ![Diagrama esquemático de capacitor](../../../images/s2-1-capacitor.svg) |
 | **Inductor** | Una bobina de alambre que almacena energía en un campo magnético | ![Símbolo esquemático de inductor](../../../images/s2-1-inductor.svg) |
 | **Transformador** | Dos bobinas lado a lado muestran transferencia de energía entre circuitos. {{< link id="T6C09" >}} | ![Símbolo esquemático de transformador](../../../images/schem-transformer.svg) |
 | **Inductor variable** | Una bobina con una flecha que muestra que puedes ajustar su valor. {{< link id="T6C10" >}} | ![Símbolo esquemático de inductor variable](../../../images/schem-varinductor.svg) |

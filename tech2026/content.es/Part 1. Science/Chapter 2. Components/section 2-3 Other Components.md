@@ -11,7 +11,7 @@ Junto a las resistencias, capacitores y semiconductores, algunos otros component
 
 #### Transformadores: los malabaristas del voltaje
 
-> **Información Clave:** Un transformador puede usarse para cambiar energía de 120V CA a un voltaje de CA más alto o más bajo para otros usos. {{< link id="T6D06" >}}
+> **Información Clave:** Un transformador puede usarse para cambiar energía de 120V CA a un voltaje de CA más bajo para otros usos. {{< link id="T6D06" >}}
 
 ![Diagrama esquemático de transformador](../../../images/s2-3-transformer.svg)
 {.img-small .float-right .img-bw}

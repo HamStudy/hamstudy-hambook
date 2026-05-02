@@ -29,13 +29,13 @@ Cuando la señal del oscilador se mezcla con la señal de RF, la salida contiene
 
 El oscilador que en realidad ajustas cuando giras la perilla de sintonía es uno especial llamado oscilador de frecuencia variable (VFO). El nombre viene de los primeros días de la radio, cuando la mayoría de los osciladores usaban cristales fijos a una sola frecuencia: si querías cambiar de frecuencia, tenías que cambiar cristales. El VFO fue el avance que hizo la frecuencia *variable*, y el nombre se quedó aunque los radios modernos lo manejen digitalmente.
 
-> **Información clave:** La función del VFO es establecer la frecuencia de recepción y transmisión. {{< link id="T7A11" >}}
+> **Información clave:** La función del VFO es ajustar la frecuencia de recepción y transmisión. {{< link id="T7A11" >}}
 
 #### ¿Qué es un transmisor?
 
 Un transmisor es la boca de tu radio. Toma tu voz (o datos) y la combina con una señal portadora de RF para que pueda viajar por el aire como ondas de radio. Ese proceso de combinación tiene un nombre:
 
-> **Información clave:** Combinar el habla con una señal portadora de RF se llama modulación. {{< link id="T7A08" >}}
+> **Información clave:** Combinar voz con una señal portadora de RF se llama modulación. {{< link id="T7A08" >}}
 
 Piensa en ello como envolver tu voz en una onda electromagnética en lugar de una onda sonora, para que tu radio pueda transmitirla lejos y ampliamente.
 
@@ -62,7 +62,7 @@ Hay dos tipos comunes de dispositivos accesorios mencionados en el examen que lo
 
 Un transverter desplaza las frecuencias en las que trabaja un transceptor, permitiéndote operar en bandas para las que el radio no fue diseñado.
 
-> **Información clave:** Un dispositivo que convierte la entrada y salida de RF de un transceptor a otra banda es un transverter. {{< link id="T7A06" >}}
+> **Información clave:** Un dispositivo que convierte la entrada y salida de RF de un transceptor a otra banda es un transverter (convertidor de frecuencia). {{< link id="T7A06" >}}
 
 Por ejemplo, podrías usar un transverter para operar en una banda VHF o UHF usando un transceptor HF, útil para acceder a bandas que tu radio principal no cubre.
 
@@ -72,15 +72,15 @@ Un amplificador de potencia aumenta la fuerza de la señal que sale de un transc
 
 > **Información clave:**
 > - Se puede agregar un amplificador de potencia de RF a la salida de un transceptor para aumentar la potencia de salida transmitida. {{< link id="T7A10" >}}
-> - El interruptor SSB o CW-FM en un amplificador de potencia VHF configura el amplificador para operar correctamente en el modo seleccionado. {{< link id="T7A09" >}}
+> - El conmutador SSB o CW-FM en un amplificador de potencia VHF configura el amplificador para operar correctamente en el modo seleccionado. {{< link id="T7A09" >}}
 
 Más potencia no suele ser la mejor solución: antes de recurrir a un amplificador, revisa tu antena y línea de alimentación, ya que las mejoras allí casi siempre te darán más rendimiento por tu dinero que la fuerza bruta.
 
-Algunos amplificadores de potencia VHF/UHF tienen un interruptor SSB/CW-FM porque SSB, CW (onda continua, o código Morse) y FM tienen características de señal distintas, y el amplificador debe manejar cada una de forma adecuada.
+Algunos amplificadores de potencia VHF/UHF tienen un conmutador SSB/CW-FM porque SSB, CW (onda continua, o código Morse) y FM tienen características de señal distintas, y el amplificador debe manejar cada una de forma adecuada.
 
 #### Usar un portátil dentro de un vehículo
 
-> **Información clave:** Una desventaja de usar un transceptor portátil VHF dentro de un vehículo sin antena externa es la reducción de intensidad de señal debido al efecto de blindaje del vehículo. {{< link id="T9A07" >}}
+> **Información clave:** Una desventaja de usar un transceptor portátil VHF dentro de un vehículo sin antena externa es la reducción de intensidad de señal debido al efecto de apantallamiento del vehículo. {{< link id="T9A07" >}}
 
 La carrocería metálica de un vehículo refleja y absorbe señales VHF y UHF, bloqueando o reduciendo sustancialmente las ondas de radio que la antena flexible del HT intenta enviar o recibir. El resultado es un alcance drásticamente reducido desde dentro del vehículo, y tus reportes de señal sufrirán en consecuencia. Además, dependiendo de la longitud de tu antena, quizá sea realmente difícil usarla sin ponerla de lado, ¡lo que alteraría la polarización de tu señal!
 

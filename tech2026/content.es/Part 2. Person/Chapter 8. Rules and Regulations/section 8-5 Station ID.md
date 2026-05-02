@@ -25,16 +25,16 @@ No hay una excepción de "solo probando" a las reglas de identificación. Inclus
 #### Cómo Identificarse
 
 > **Información Clave:**
-> - Al operar en phone (voz), debes identificarte en inglés. {{< link id="T1F04" >}}
-> - El método requerido para identificarse en phone es enviar el indicativo usando emisión de CW o de voz. {{< link id="T1F05" >}}
+> - Al operar en fonía (voz), debes identificarte en inglés. {{< link id="T1F04" >}}
+> - El método requerido para identificarse cuando se transmiten señales de voz es enviar el indicativo usando una emisión CW o de voz. {{< link id="T1F05" >}}
 
-La identificación de tu estación debe incluir el indicativo que te asignó la FCC. Puedes llevar el resto de la conversación en cualquier idioma, pero el indicativo mismo debe ser en inglés. El método "CW o phone" simplemente significa: decirlo con la voz, o enviarlo en código Morse; ambos cuentan. (Los repetidores a menudo se identifican en CW aunque transporten tráfico de voz, y por eso CW cuenta como un método válido de identificación en phone.)
+La identificación de tu estación debe incluir el indicativo que te asignó la FCC. Puedes llevar el resto de la conversación en cualquier idioma, pero el indicativo mismo debe ser en inglés. El método "CW o voz" simplemente significa: decirlo con la voz, o enviarlo en código Morse; ambos cuentan. (Los repetidores a menudo se identifican en CW aunque transporten tráfico de voz, y por eso CW cuenta como un método válido de identificación cuando se transmiten señales de voz.)
 
 Para modos digitales y CW, transmite tu indicativo en el modo en el que estás operando.
 
 ##### Fonética
 
-> **Información Clave:** La FCC fomenta el uso de un alfabeto fonético estándar al identificarse en emisiones de voz. {{< link id="T1A03" >}}
+> **Información Clave:** Se alienta el uso de un alfabeto fonético estándar al identificarse en emisiones de fonía. {{< link id="T1A03" >}}
 
 La fonética no es obligatoria, pero se recomienda firmemente porque las letras habladas pueden ser difíciles de distinguir, especialmente en condiciones ruidosas o entre idiomas y acentos. "B", "D", "P", "T" y "V" suenan parecidas con una señal marginal, pero "Bravo", "Delta", "Papa", "Tango" y "Victor" no. Usa un alfabeto estándar (el alfabeto fonético OTAN/OACI es la opción universal) en lugar de inventar el tuyo; "Kickstart Doggy One Chapstick Banana Apple" podría confundir más que aclarar.
 
@@ -56,7 +56,7 @@ Solo recuerda que tu indicador no puede entrar en conflicto con ningún indicado
 
 #### Indicativos Tácticos
 
-> **Información Clave:** Los indicativos tácticos no reemplazan tu indicativo de la FCC: aún debes identificarte con tu indicativo asignado al menos cada 10 minutos durante una comunicación y al final de ella. {{< link id="T1F02" >}}
+> **Información Clave:** Los identificadores tácticos no reemplazan tu indicativo de la FCC: aún debes identificarte con tu indicativo asignado al menos cada 10 minutos durante una comunicación y al final de ella. {{< link id="T1F02" >}}
 
 Por mucho que todos amemos nuestros indicativos (si no, ¡lo harás!), hay momentos en los que no es muy conveniente llevarles la pista cuando se trabaja con un grupo. Imagina que estás ayudando en un evento grande, quizá un desfile en una ciudad mediana. Podrías necesitar a alguien en cada una de estas estaciones:
 
@@ -71,8 +71,8 @@ Ahora imagina que, por alguna razón, el desfile va a durar mucho tiempo y hay p
 
 Afortunadamente, la Parte 97 no exige que identifiques a la persona a la que llamas por su indicativo real. Solo exige que te identifiques *a ti mismo*, y ese es el propósito de un indicativo táctico.
 
-**¿Qué son los indicativos tácticos?**
-Los indicativos tácticos son nombres cortos y descriptivos usados para identificar la función o ubicación de una estación durante un evento. Entonces podrías tener una conversación como esta:
+**¿Qué son los identificadores tácticos?**
+Los identificadores tácticos son nombres cortos y descriptivos usados para identificar la función o ubicación de una estación durante un evento. Entonces podrías tener una conversación como esta:
 
 * "Calle 1, aquí Control de Red".
 * "Control de Red de Calle 1, ¡adelante!".
@@ -84,19 +84,19 @@ Los indicativos tácticos son nombres cortos y descriptivos usados para identifi
 
 Algunas cosas a notar:
 
-* Es fácil para todos seguir quién está hablando y qué está pasando, incluso si no saben dónde está KF1AZT. Si hubieran usado indicativos en lugar de indicativos tácticos, habría sido mucho más difícil seguirlo.
-* Las reglas no requieren que te identifiques en cada transmisión, solo una vez cada 10 minutos y al final; así que debes cerrar con tu indicativo, pero puedes responder con el indicativo táctico.
+* Es fácil para todos seguir quién está hablando y qué está pasando, incluso si no saben dónde está KF1AZT. Si hubieran usado indicativos en lugar de identificadores tácticos, habría sido mucho más difícil seguirlo.
+* Las reglas no requieren que te identifiques en cada transmisión, solo una vez cada 10 minutos y al final; así que debes cerrar con tu indicativo, pero puedes responder con el identificador táctico.
 * Los detalles específicos de cuándo y cómo te identificas con tu indicativo real no importan siempre que sigas esas dos reglas.
 
-Los indicativos tácticos son un complemento a tu indicativo oficial de la FCC, no un reemplazo. Úsalos con criterio, y harán que la coordinación de eventos sea muchísimo más fluida.
+Los identificadores tácticos son un complemento a tu indicativo oficial de la FCC, no un reemplazo. Úsalos con criterio, y harán que la coordinación de eventos sea muchísimo más fluida.
 
 #### Excepciones a los Requisitos de Identificación
 
-> **Información Clave:** Cuando transmiten señales para controlar modelos, las estaciones de aficionados no están obligadas a identificarse al aire. {{< link id="T1D11" >}}
+> **Información Clave:** Cuando transmiten señales para controlar modelos teledirigidos, las estaciones de aficionados no están obligadas a identificarse al aire. {{< link id="T1D11" >}}
 
 Aunque la identificación de estación generalmente es obligatoria, hay algunas situaciones específicas en las que una estación de aficionado puede transmitir sin identificarse al aire:
 
-1. **Transmisiones para controlar modelos**: Cuando usas radiocontrol para telecomando, no estás obligado a identificarte de las formas habituales.
+1. **Transmisiones para controlar modelos teledirigidos**: Cuando usas radiocontrol para telecomando, no estás obligado a identificarte de las formas habituales.
    > **telecomando**: Una transmisión unidireccional para iniciar, modificar o terminar funciones de un dispositivo a distancia.
 
 2. **Transmisiones desde una estación espacial**: Las estaciones espaciales que operan bajo control automático pueden tener requisitos de identificación diferentes. Hay requisitos especiales de licencia para poner en órbita una estación espacial; principalmente necesitas saber que está en la lista de excepciones.

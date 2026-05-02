@@ -22,8 +22,8 @@ Aunque AM no es el modo más común en radioafición, todavía lo encontrarás e
 #### Modulación de frecuencia (FM) y modulación de fase (PM)
 
 > **Información clave:**
-> - FM/PM se usan comúnmente para transmisiones de radio por paquetes en VHF. {{< link id="T8A02" >}}
-> - FM/PM son los modos principales para repetidores de voz en VHF y UHF. {{< link id="T8A04" >}}
+> - FM o PM se utiliza comúnmente para transmisiones de radiopaquete en VHF. {{< link id="T8A02" >}}
+> - FM o PM son los modos principales para repetidores de voz en VHF y UHF. {{< link id="T8A04" >}}
 
 En la Modulación de Frecuencia (FM), mantenemos constante la amplitud (brillo), pero variamos la frecuencia (color) de la onda de radio. Es como usar una luz que mantiene el mismo brillo pero cambia entre distintos colores para enviar tu mensaje: un cambio de color específico representa un sonido o una porción de datos específica.
 
@@ -64,7 +64,7 @@ Los diferentes modos de modulación ocupan distintas cantidades de espacio de fr
 > - CW (Código Morse): el ancho de banda más estrecho, alrededor de 150 Hz. {{< link id="T8A05" >}} {{< link id="T8A11" >}}
 > - Voz SSB: alrededor de 3 kHz.
 > - Voz FM: alrededor de 10-15 kHz.
-> - Televisión AM de barrido rápido: alrededor de 6 MHz. {{< link id="T8A10" >}}
+> - Televisión AM de barrido rápido: Aproximadamente 6 MHz. {{< link id="T8A10" >}}
 
 #### Ancho de banda y rango de frecuencia
 
@@ -75,7 +75,7 @@ Un aspecto fascinante de la radioafición es cómo el ancho de banda disponible 
 - **Secciones más amplias (más ancho de banda)**: Las bandas con más frecuencias disponibles pueden soportar modos "más anchos". Por ejemplo:
   - La banda de 10 metros tiene espacio suficiente tanto para CW estrecho como para SSB más ancho.
   - Las bandas de repetidores VHF/UHF pueden manejar voz FM, que necesita más ancho de banda.
-  - La televisión de barrido rápido requiere un ancho de banda enorme (¡alrededor de 6 MHz!). Eso es más ancho que cualquiera de las bandas de aficionados por debajo de 70 cm, así que solo se permite en 70 cm y superiores.
+  - La televisión de barrido rápido requiere un ancho de banda enorme (¡Aproximadamente 6 MHz!). Eso es más ancho que cualquiera de las bandas de aficionados por debajo de 70 cm, así que solo se permite en 70 cm y superiores.
 
 A medida que los rangos de frecuencia se hacen más anchos, puedes usar modos que requieren más ancho de banda. Un contacto de voz en la banda de 2 metros podría usar FM ancho (15 kHz), FM estrecho (5 kHz) o incluso SSB más estrecho (3 kHz). Hay modos digitales que pueden ser aún más estrechos. Un modo digital, PSK31 (que veremos en la siguiente sección), cabe en aproximadamente 60 Hz en uso práctico: más estrecho que una señal CW típica.
 

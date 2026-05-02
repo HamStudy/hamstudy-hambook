@@ -13,7 +13,7 @@ Ahora veamos algunos de los rincones más coloridos de la afición. Empezaremos 
 
 ¿Alguna vez te has imaginado como detective de radio? Entonces te encantará la caza del zorro, un término de radioafición para la *radiogoniometría*. Esta técnica consiste en usar antenas direccionales y receptores para determinar la ubicación de una señal de radio. En una caza del zorro, el "zorro" es un transmisor oculto, y tu trabajo es encontrarlo usando tus habilidades de radio y algo de equipo ingenioso. Es como un juego de escondite de alta tecnología.
 
-> **Información Clave:** La radiogoniometría se usa para localizar fuentes de interferencia por ruido o interferencia intencional. {{< link id="T8C01" >}}
+> **Información Clave:** La radiogoniometría se usa para localizar fuentes de interferencia de ruido o de interferencia intencional (jamming). {{< link id="T8C01" >}}
 
 Así funciona:
 
@@ -35,7 +35,7 @@ Aunque a menudo se hace como una actividad divertida, también es una habilidad 
 
 > **Información Clave:**
 > - Los concursos son una actividad operativa que consiste en contactar con tantas estaciones como sea posible durante un período específico. {{< link id="T8C03" >}}
-> - Una buena práctica al contactar con otra estación en un concurso es enviar solo la información mínima necesaria para una identificación adecuada y el intercambio del concurso. {{< link id="T8C04" >}}
+> - Una buena práctica al contactar con otra estación en un concurso es enviar solo la información mínima necesaria para la correcta identificación y el intercambio del concurso. {{< link id="T8C04" >}}
 
 ¿Alguna vez has sentido la emoción de una carrera? La radioafición tiene su propia versión de competencia a alta velocidad. Los concursos son eventos en los que los radioaficionados compiten por hacer la mayor cantidad de contactos, a menudo con metas específicas como trabajar distintos países, estados o cuadrículas. Algunos duran unas horas; otros, un fin de semana completo. ¡Es como una fiesta global por radio!
 
@@ -48,7 +48,7 @@ En cada contacto intercambiarás información breve, normalmente un reporte de s
 
 #### Localizadores de cuadrícula
 
-Ahora hablemos de una herramienta genial usada en muchos concursos: los localizadores de cuadrícula. Un localizador de cuadrícula es un designador de letras y números asignado a una ubicación geográfica en la Tierra. {{< link id="T8C05" >}} Por ejemplo, "FM18" cubre el área de Washington D.C. En los concursos, podrías intercambiar cuadrículas en lugar de estados o países. ¡Es como un juego global de batalla naval!
+Ahora hablemos de una herramienta genial usada en muchos concursos: los localizadores de cuadrícula. Un localizador de cuadrícula es un indicador con letras y números asignado a una ubicación geográfica en la Tierra. {{< link id="T8C05" >}} Por ejemplo, "FM18" cubre el área de Washington D.C. En los concursos, podrías intercambiar cuadrículas en lugar de estados o países. ¡Es como un juego global de batalla naval!
 
 Los localizadores de cuadrícula no son solo para concursos: son útiles para operaciones satelitales, trabajo en VHF/UHF e incluso charlas generales cuando quieres compartir tu ubicación.
 

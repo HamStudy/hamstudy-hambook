@@ -5,31 +5,31 @@ questions: [ "T9B12", "T7C04", "T7C06", "T7B04", "T7C05", "T9B09", "T7C02", "T7C
 status: publish1
 ---
 
-### Sección 4.5: Relación de Onda Estacionaria (ROE o SWR)
+### Sección 4.5: Relación de Onda Estacionaria (ROE ("SWR"))
 
-La Relación de Onda Estacionaria, o ROE (SWR por sus siglas en inglés), es un concepto crítico para asegurar que tu sistema de antena funcione de manera eficiente. Vamos a desglosarlo en partes manejables:
+La Relación de Onda Estacionaria, o ROE ("SWR"), es un concepto crítico para asegurar que tu sistema de antena funcione de manera eficiente. Vamos a desglosarlo en partes manejables:
 
 #### ¿Qué es la ROE?
 
 > **Información clave:**
-> - La ROE es una medida de qué tan bien una carga está adaptada a una línea de transmisión. {{< link id="T9B12" >}}
-> - Una lectura de 1:1 en un medidor de ROE indica una adaptación perfecta de impedancia entre la antena y la línea de alimentación. {{< link id="T7C04" >}}
-> - Una lectura de ROE de 4:1 indica una desadaptación de impedancia. {{< link id="T7C06" >}}
+> - La ROE ("SWR") es una medida del grado de adaptación de una carga a una línea de transmisión. {{< link id="T9B12" >}}
+> - Una lectura de 1:1 en un medidor de ROE ("SWR") indica un ajuste de impedancia perfecto entre la antena y la línea de alimentación. {{< link id="T7C04" >}}
+> - Una lectura de ROE ("SWR") de 4:1 indica un desajuste de impedancia. {{< link id="T7C06" >}}
 
-La ROE es esencialmente una calificación para la adaptación de impedancia en tu sistema de antena. Te dice qué tan bien la impedancia de tu transmisor coincide con la impedancia combinada de tu línea de alimentación y tu antena. Cuando estas impedancias coinciden (típicamente a 50 ohmios en radioafición), se transfiere la máxima potencia desde tu transmisor a tu sistema de antena.
+La ROE es esencialmente una calificación para la adaptación de impedancia en tu sistema de antena. Te dice el grado de adaptación entre la impedancia de tu transmisor y la impedancia combinada de tu línea de alimentación y tu antena. Cuando estas impedancias coinciden (típicamente a 50 ohmios en radioafición), se transfiere la máxima potencia desde tu transmisor a tu sistema de antena.
 
 ![Ilustración que muestra agua fluyendo por tuberías que cambian de diámetro, causando contrapresión](../../../images/illus/backpressure-es.svg)
 {.img-pgcap .float-right}
 
-Piensa en tu sistema de radio como agua fluyendo por tuberías. Tu transmisor empuja la señal (agua) por tu línea de alimentación (tubería) hacia tu antena. Cuando las tuberías tienen el tamaño correcto (buena adaptación de impedancia), el agua fluye suavemente. Pero si hay una desadaptación, parte del agua es empujada hacia atrás, creando contrapresión, igual que la energía RF reflejada de vuelta hacia tu transmisor. Esa energía reflejada es lo que realmente te indica la ROE: es la consecuencia práctica de la desadaptación de impedancia.
+Piensa en tu sistema de radio como agua fluyendo por tuberías. Tu transmisor empuja la señal (agua) por tu línea de alimentación (tubería) hacia tu antena. Cuando las tuberías tienen el tamaño correcto (buena adaptación de impedancia), el agua fluye suavemente. Pero si hay un desajuste, parte del agua es empujada hacia atrás, creando contrapresión, igual que la energía RF reflejada de vuelta hacia tu transmisor. Esa energía reflejada es lo que realmente te indica la ROE: es la consecuencia práctica del desajuste de impedancia.
 
 La ROE se mide como una relación; esto es lo que significan diferentes lecturas en la práctica:
 
-- **ROE 1:1**: Adaptación perfecta. Toda la potencia está siendo aceptada por tu línea de alimentación y antena.
+- **ROE 1:1**: Ajuste de impedancia perfecto. Toda la potencia está siendo aceptada por tu línea de alimentación y antena.
 - **Hasta ROE 1.5:1**: Excelente. La mayor parte de tu potencia está pasando.
 - **ROE 2:1**: Aceptable, pero no ideal. Parte de la potencia se está reflejando.
 - **ROE 3:1 o mayor**: Una cantidad significativa de potencia se está reflejando.
-- **ROE 4:1**: Una clara desadaptación de impedancia; vale la pena investigarla antes de seguir transmitiendo.
+- **ROE 4:1**: Un claro desajuste de impedancia; vale la pena investigarlo antes de seguir transmitiendo.
 
 Ten en cuenta que estos umbrales son guías aproximadas, no reglas estrictas.
 

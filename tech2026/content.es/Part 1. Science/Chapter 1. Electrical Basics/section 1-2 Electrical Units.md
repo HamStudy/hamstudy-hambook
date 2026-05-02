@@ -58,7 +58,7 @@ En radioafición trabajamos con frecuencia con **corriente alterna (CA)**, que c
 
 La CA ocurre de forma natural cuando un imán gira cerca de un cable. Cuando el polo norte del imán se acerca al cable, la corriente fluye en una dirección. Cuando se acerca el polo sur, la corriente fluye en la dirección opuesta. Esa rotación continua crea el patrón suave de onda sinusoidal que se muestra en el diagrama. Este es el principio básico de los generadores que producen la electricidad que alimenta nuestros hogares y de las corrientes alternas en nuestros circuitos de radio.
 
-El diagrama muestra dos **ciclos** completos de CA: cada uno empieza en cero, sube hasta un pico positivo, baja pasando por cero hasta un pico negativo y luego vuelve a cero. *El número de estos ciclos completados por segundo se llama frecuencia, medida en Hertz (Hz)*. {{< link id="T5A04" >}} {{< link id="T5A06" >}}
+El diagrama muestra dos **ciclos** completos de CA: cada uno empieza en cero, sube hasta un pico positivo, baja pasando por cero hasta un pico negativo y luego vuelve a cero. *El número de estos ciclos completados por segundo se llama frecuencia, medida en Hercio*. {{< link id="T5A04" >}} {{< link id="T5A06" >}}
 
 Algunos ejemplos:
 - Energía doméstica: **60 Hz** (60 ciclos por segundo).
@@ -69,7 +69,7 @@ Entender la *frecuencia* es crucial en radioafición porque determina *qué band
 
 #### Potencia
 
-La potencia es *la rapidez con la que se usa o se genera energía eléctrica en un circuito*. {{< link id="T5A10" >}} Se mide en **vatios (W)**. {{< link id="T5A02" >}}
+La potencia es *la tasa a la que se usa la energía eléctrica en un circuito*. {{< link id="T5A10" >}} Se mide en **vatios (W)**. {{< link id="T5A02" >}}
 
 En radioafición, la potencia es importante porque:
 
@@ -126,7 +126,7 @@ Cuando los capacitores o inductores están en un circuito de CA, se oponen a la 
 
 **La impedancia** combina tanto resistencia como reactancia, dándonos la oposición total al flujo de corriente de CA en un circuito.
 
-Un *circuito resonante consiste en un inductor y un capacitor conectados ya sea en serie (uno tras otro) o en paralelo (lado a lado)*. {{< link id="T6D11" >}} A una frecuencia específica, las dos reactancias son iguales pero actúan en direcciones opuestas, de modo que se cancelan exactamente. Esto crea un equilibrio eléctrico que permite que las señales de esa frecuencia pasen con facilidad (en serie) o queden bloqueadas (en paralelo). Esa frecuencia se llama **frecuencia resonante**, y este fenómeno se conoce como **resonancia**.
+Un *circuito resonante consiste en Un inductor y un condensador conectados ya sea en serie (uno tras otro) o en paralelo (lado a lado)*. {{< link id="T6D11" >}} A una frecuencia específica, las dos reactancias son iguales pero actúan en direcciones opuestas, de modo que se cancelan exactamente. Esto crea un equilibrio eléctrico que permite que las señales de esa frecuencia pasen con facilidad (en serie) o queden bloqueadas (en paralelo). Esa frecuencia se llama **frecuencia resonante**, y este fenómeno se conoce como **resonancia**.
 
 La mayoría de los equipos de radioafición están construidos alrededor de un sistema de 50 ohmios. Cuando las impedancias no están correctamente adaptadas:
 
@@ -152,8 +152,8 @@ En radioafición, a menudo manejamos números muy grandes o muy pequeños. En lu
 | giga   | G      | $10^9$     | 1 GHz = 1.000.000.000 Hz {{< audiobook-only >}}o mil millones de hertz{{< /audiobook-only >}} |
 
 > **Información Clave:**
-> * La abreviatura kHz significa “kilohertz”. {{< link id="T5C06" >}}
-> * La abreviatura MHz significa “megahertz”. {{< link id="T5C07" >}}
+> * La abreviatura kHz significa “kilohercio”. {{< link id="T5C06" >}}
+> * La abreviatura MHz significa “megahercio”. {{< link id="T5C07" >}}
 
 Nota: Las unidades F (faradio) y H (henrio) se refieren a la capacitancia y la inductancia mencionadas arriba, que exploraremos con más detalle en la Sección 2.1.
 
@@ -164,14 +164,14 @@ Aquí hay algunas conversiones comunes que pueden aparecer en el examen:
 |          ID de pregunta         | Original               | Equivalente             |
 |:----------------------------:|------------------------|------------------------|
 | {{< qid >}}T5B01{{< /qid >}} | 1,5 amperios           | 1500 miliamperios      |
-| {{< qid >}}T5B02{{< /qid >}} | 1500 kHz               | 1,5 MHz                |
+| {{< qid >}}T5B02{{< /qid >}} | 1,500,000 hercios      | 1500 kHz               |
 | {{< qid >}}T5B03{{< /qid >}} | 1 kilovoltio           | 1000 voltios           |
-| {{< qid >}}T5B04{{< /qid >}} | 1 microvoltio          | 0,000001 voltios       |
+| {{< qid >}}T5B04{{< /qid >}} | 1 microvoltio          | Una millonésima parte de un voltio |
 | {{< qid >}}T5B05{{< /qid >}} | 500 milivatios         | 0,5 vatios             |
 | {{< qid >}}T5B06{{< /qid >}} | 3000 miliamperios      | 3 amperios             |
 | {{< qid >}}T5B07{{< /qid >}} | 3,525 MHz              | 3525 kHz               |
 | {{< qid >}}T5B08{{< /qid >}} | 1.000.000 picofaradios | 1 microfaradio         |
-| {{< qid >}}T5B12{{< /qid >}} | 28.400 kHz             | 28,4 MHz               |
+| {{< qid >}}T5B12{{< /qid >}} | 28400 kHz              | 28.400 MHz             |
 | {{< qid >}}T5B13{{< /qid >}} | 2425 MHz               | 2,425 GHz              |
 
 ¡Vale la pena memorizar todas las conversiones de esta tabla para el examen!

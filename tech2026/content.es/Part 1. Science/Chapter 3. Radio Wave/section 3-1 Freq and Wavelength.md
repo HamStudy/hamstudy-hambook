@@ -27,7 +27,7 @@ Ya sea que estés sintonizando tu estación de radiodifusión favorita, conversa
 > **Información clave:**
 > - Una onda de radio tiene dos componentes: campos eléctricos y magnéticos. {{< link id="T3B03" >}}
 > - Estos campos están en ángulo recto entre sí. {{< link id="T3B01" >}}
-> - Las ondas de radio viajan a la velocidad de la luz en el espacio libre (aproximadamente *300.000.000 metros por segundo*). {{< link id="T3B04" >}}{{< link id="T3B11" >}}
+> - Las ondas de radio viajan a la velocidad de la luz en el espacio libre (aproximadamente *300,000,000 metros por segundo*). {{< link id="T3B04" >}}{{< link id="T3B11" >}}
 > - Todas las frecuencias de radio viajan a la misma velocidad en el espacio libre: VHF, UHF, microondas y todas las demás frecuencias. {{< link id="T3B12" >}}
 
 ![Campos eléctricos vs. magnéticos - siempre en ángulo recto entre sí](../../../images/electromagnetic-3d.gif)
@@ -48,8 +48,8 @@ Esto es crucial porque tu antena necesita coincidir con esa orientación para lo
 #### Longitud de onda y frecuencia
 
 > **Información clave:**
-> - La longitud de onda se acorta a medida que aumenta la frecuencia. {{< link id="T3B05" >}}
-> - Para encontrar la longitud de onda en metros, usa esta fórmula: 300 dividido entre la frecuencia en megahercios. {{< link id="T3B06" >}}
+> - La longitud de onda se acorta según aumenta la frecuencia. {{< link id="T3B05" >}}
+> - Para encontrar la longitud de onda en metros, usa esta fórmula: 300 dividido por la frecuencia en megahercios. {{< link id="T3B06" >}}
 > - Las bandas de radioafición a menudo se identifican por su *longitud de onda aproximada en metros*. {{< link id="T3B07" >}}
 
 Las ondas de radio vienen en todo tipo de tamaños. El tamaño de una onda de radio — su longitud de onda — está directamente relacionado con su frecuencia, y entender esta relación es clave para comprender las bandas de radioafición.

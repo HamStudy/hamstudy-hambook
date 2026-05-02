@@ -17,7 +17,7 @@ El espectro radioeléctrico es un recurso finito compartido entre muchos servici
 
 #### Asignaciones Primarias vs. Secundarias
 
-> **Información Clave:** En segmentos de bandas donde el Servicio de Radioaficionados es secundario, los radioaficionados estadounidenses pueden encontrar estaciones no aficionadas en esos segmentos y deben evitar interferir con ellas. {{< link id="T1B08" >}}
+> **Información Clave:** En segmentos de bandas donde el Servicio de Radioaficionados es secundario, los radioaficionados estadounidenses pueden encontrar estaciones no radioaficionadas en esos segmentos y deben evitar interferir con ellas. {{< link id="T1B08" >}}
 
 No todas las asignaciones de espectro son iguales. Cada servicio en una banda determinada es:
 
@@ -41,8 +41,8 @@ Diferentes modos también necesitan distintas cantidades de ancho de banda: desd
 #### Coordinadores de Frecuencia
 
 > **Información Clave:**
-> - Un Coordinador de Frecuencia Voluntario reconocido por los radioaficionados locales recomienda canales de transmisión/recepción para estaciones repetidoras y auxiliares. {{< link id="T1A08" >}}
-> - Los Coordinadores de Frecuencia son seleccionados por operadores aficionados de un área local o regional cuyas estaciones son elegibles para ser estaciones repetidoras o auxiliares. {{< link id="T1A09" >}}
+> - Un Coordinador de Frecuencias Voluntario reconocido por los radioaficionados locales recomienda canales de transmisión/recepción para estaciones repetidoras y auxiliares. {{< link id="T1A08" >}}
+> - Los Coordinadores de Frecuencia son seleccionados por operadores radioaficionados de un área local o regional cuyas estaciones son elegibles para ser estaciones repetidoras o auxiliares. {{< link id="T1A09" >}}
 
 Los repetidores en particular necesitan coordinación cuidadosa: dos repetidores que intentan usar las mismas frecuencias de entrada/salida en áreas de cobertura superpuestas pueden interferirse gravemente. Los coordinadores de frecuencia son voluntarios que gestionan esto para una región, recomendando qué pares de frecuencias deben usar los nuevos repetidores y ayudando a resolver conflictos. No son nombrados por ninguna agencia gubernamental; son elegidos por los operadores locales de repetidores a quienes sirven.
 
@@ -60,7 +60,7 @@ Es tentador escoger una frecuencia arbitraria y empezar a operar, pero siempre r
 
 #### Interferencia y Resolución
 
-> **Información Clave:** Cuando dos estaciones que transmiten en la misma frecuencia interfieren entre sí, las estaciones deben negociar el uso continuado de la frecuencia. {{< link id="T2B08" >}}
+> **Información Clave:** Cuando dos estaciones que transmiten en la misma frecuencia interfieren entre sí, las estaciones deben negociar el uso continuo de la frecuencia. {{< link id="T2B08" >}}
 
 A veces dos estaciones terminan en la misma frecuencia pese a las mejores intenciones de todos. La regla es cortesía mutua: ambas estaciones tienen iguales derechos, nadie tiene un reclamo preferente por haber llegado primero o por tener la señal más fuerte, y el enfoque correcto es hablar entre ustedes y decidir quién se moverá o cómo compartir.
 

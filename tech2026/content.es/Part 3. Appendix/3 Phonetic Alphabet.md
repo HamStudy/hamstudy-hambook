@@ -5,11 +5,11 @@ status: publish1
 
 ## Alfabeto Fonético
 
-Aunque puede ser divertido inventar tu propia fonética —y muchas personas lo hacen, especialmente para su indicativo— usarla para algo importante puede causar una cantidad sorprendente de confusión. Por esa razón, es mejor aprender el alfabeto fonético oficial para que todos usen los mismos términos y se maximice la claridad en las comunicaciones.
+Aunque puede ser divertido inventar tu propia fonética —y muchas personas lo hacen, especialmente para su indicativo— usarla para algo importante puede causar una cantidad sorprendente de confusión. Por esa razón, es mejor aprender el alfabeto fonético estándar para que todos usen los mismos términos y se maximice la claridad en las comunicaciones.
 
-### Alfabeto fonético de la OTAN
+### Alfabeto fonético estándar
 
-Hay otros, pero el alfabeto fonético más usado es el Alfabeto de Deletreo para Radiotelefonía, conocido comúnmente como el **alfabeto fonético de la OTAN**:
+Hay otros, pero el alfabeto fonético más usado es el Alfabeto de Deletreo para Radiotelefonía, conocido comúnmente como el **alfabeto fonético estándar**:
 
 {{% audiobook-never %}}
 | Letra | Fonético | Letra | Fonético |

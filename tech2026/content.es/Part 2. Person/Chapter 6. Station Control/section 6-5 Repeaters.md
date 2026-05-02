@@ -61,7 +61,7 @@ Muchos repetidores requieren un tono CTCSS (Continuous Tone-Coded Squelch System
 
 Ambos tienen el mismo propósito: ayudan a prevenir interferencias y activaciones no intencionadas del repetidor. Tu radio debe estar configurado para transmitir el tono CTCSS o código DCS correcto para que el repetidor siquiera reconozca tu señal. Consulta un directorio local de repetidores o la información del club para saber qué sistema usa un repetidor específico.
 
-También encontrarás DTMF en la operación con repetidores. Como discutimos en la Sección 6.4, DTMF usa dos tonos de audio simultáneos, la misma tecnología usada en teléfonos de tonos. A diferencia de CTCSS o DCS, DTMF no se usa para el acceso básico al repetidor, sino para controlar funciones del repetidor, activar enlaces a otros sistemas o acceder a sistemas conectados a internet como IRLP (que discutiremos más adelante en esta sección).
+También encontrarás DTMF en la operación con repetidores. Como discutimos en la Sección 6.4, DTMF usa dos tonos de audio simultáneos, la misma tecnología usada en teléfonos de tonos. A diferencia de CTCSS o DCS, DTMF no se usa para el acceso básico al repetidor, sino para controlar funciones del repetidor, activar enlaces a otros sistemas o acceder a sistemas conectados a Internet como IRLP (que discutiremos más adelante en esta sección).
 
 Si tienes problemas para acceder a un repetidor cuya salida sí puedes escuchar, podría haber varias razones:
 
@@ -134,23 +134,23 @@ Los repetidores enlazados son especialmente valiosos para:
 - Eventos especiales donde se necesita coordinación en una región grande.
 - Permitir que operadores móviles permanezcan conectados mientras viajan largas distancias.
 
-#### Repetidores enlazados a internet y sistemas VoIP
+#### Repetidores enlazados a Internet y sistemas VoIP
 
-> **Información clave:** Voz sobre Protocolo de Internet (VoIP) es un método de entregar comunicaciones de voz por internet usando técnicas digitales. {{< link id="T8C07" >}}
+> **Información clave:** El Protocolo de Voz por Internet (VoIP) es un método para proporcionar comunicaciones de voz a través de Internet usando técnicas digitales. {{< link id="T8C07" >}}
 
-Algunos repetidores no solo están enlazados por conexiones de radio tradicionales: usan internet para conectarse con otros repetidores a enormes distancias. Esto se hace usando Voz sobre Protocolo de Internet (VoIP).
+Algunos repetidores no solo están enlazados por conexiones de radio tradicionales: usan Internet para conectarse con otros repetidores a enormes distancias. Esto se hace usando Protocolo de Voz por Internet (VoIP).
 
-> **Información clave:** Una estación de radioaficionado que conecta otras estaciones de radioaficionado a internet se llama puerta de enlace. {{< link id="T8C11" >}}
+> **Información clave:** Una estación de radioaficionado que conecta otras estaciones de radioaficionado a Internet se llama pasarela ("gateway"). {{< link id="T8C11" >}}
 
-Las estaciones de puerta de enlace son los puentes entre el mundo de la radio y el internet, permitiendo comunicación global.
+Las estaciones de pasarela ("gateway") son los puentes entre el mundo de la radio e Internet, permitiendo comunicación global.
 
 Dos sistemas VoIP populares mencionados en el banco de preguntas son IRLP y EchoLink:
 
-**IRLP (Internet Radio Linking Project)**
+**Proyecto de Enlace de Radio por Internet (IRLP)**
 
 > **Información clave:**
-> - El Internet Radio Linking Project (IRLP) es una técnica para conectar sistemas de radioafición, como repetidores, por medio de internet. {{< link id="T8C08" >}}
-> - El acceso por radio a nodos IRLP se logra usando señales DTMF. {{< link id="T8C06" >}}
+> - El Proyecto de Enlace de Radio por Internet (IRLP) es una técnica para conectar sistemas de radioaficionados, como repetidores, a través de Internet. {{< link id="T8C08" >}}
+> - El acceso por el aire a los nodos del Proyecto de Enlace de Radio por Internet (IRLP) se logra usando señales de Doble Tono Multi-Frecuencia (DTMF). {{< link id="T8C06" >}}
 
 Ingresarás códigos usando el teclado de tu radio para conectarte a varios nodos IRLP alrededor del mundo.
 
@@ -158,7 +158,7 @@ Ingresarás códigos usando el teclado de tu radio para conectarte a varios nodo
 
 > **Información clave:**
 > - EchoLink es un protocolo que permite a una estación de radioaficionado transmitir a través de un repetidor sin usar un radio para iniciar la transmisión. {{< link id="T8C09" >}}
-> - Antes de usar el sistema EchoLink, debes registrar tu indicativo y proporcionar prueba de licencia. {{< link id="T8C10" >}}
+> - Antes de usar el sistema EchoLink, debes registrar tu indicativo ("call sign") y proporcionar prueba de licencia. {{< link id="T8C10" >}}
 
 Puedes usar software en tu computadora o teléfono inteligente para conectarte directamente al sistema. El paso de verificación de licencia asegura que solo radioaficionados con licencia puedan acceder.
 

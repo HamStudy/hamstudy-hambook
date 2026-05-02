@@ -19,7 +19,7 @@ A menos que estés alimentando todo con baterías (¡y felicitaciones si es así
 
 - **Colores del cableado**: 
 
-  > **Información clave:** En Estados Unidos, en un cable de CA de 120 V de tres conductores, el aislamiento negro indica el conductor vivo, el blanco es el neutro, y el verde o cobre desnudo es la tierra. {{< link id="T0A03" >}}
+  > **Información clave:** En Estados Unidos, en un cable de 120 V CA ("AC") de tres hilos, el aislamiento negro indica el conductor vivo, el blanco es el neutro, y el verde o cobre desnudo es la tierra. {{< link id="T0A03" >}}
 
   Ese es el estándar, pero solo es un punto de partida. Nunca supongas que un cable es seguro de tocar basándote únicamente en su color. Dueños anteriores, trabajos caseros sin licencia o cableado antiguo anterior a los códigos modernos pueden producir instalaciones que no sigan la convención. Siempre prueba con equipo adecuado antes de trabajar en cualquier circuito de CA.
 
@@ -38,11 +38,11 @@ Cualquiera de estos efectos puede ser grave, y en algunas circunstancias fatal, 
 #### Consejos de seguridad para la alimentación de CA
 
 > **Información clave:** Para protegerte contra descargas eléctricas en tu estación:
-> - Usa cables y enchufes de tres conductores para todo equipo alimentado por CA. {{< link id="T0A06" >}}
+> - Usa cables y enchufes de tres hilos para todo equipo alimentado por CA. {{< link id="T0A06" >}}
 > - Conecta todo el equipo de la estación alimentado por CA a una tierra de seguridad común.
 > - Asegúrate de que todos los condensadores usados para CC de alto voltaje estén completamente descargados antes de trabajar dentro del equipo.
 
-El requisito de tres conductores es la respuesta básica del código eléctrico: el tercer conductor (verde o cobre desnudo) proporciona un camino seguro a tierra si falla el aislamiento dentro de un equipo, en lugar de que esa falla energice el chasis metálico y espere a que lo toques. La tierra de seguridad común extiende esa protección a toda tu estación: si cada equipo comparte una tierra, no hay diferencia de voltaje entre ellos que pueda darte una descarga. Y el punto sobre los condensadores importa porque los condensadores de alto voltaje pueden retener una carga peligrosa durante mucho tiempo después de desenchufar el equipo; los amplificadores de potencia y los equipos de la era de los tubos son especialmente conocidos por esto.
+El requisito de tres hilos es la respuesta básica del código eléctrico: el tercer conductor (verde o cobre desnudo) proporciona un camino seguro a tierra si falla el aislamiento dentro de un equipo, en lugar de que esa falla energice el chasis metálico y espere a que lo toques. La tierra de seguridad común extiende esa protección a toda tu estación: si cada equipo comparte una tierra, no hay diferencia de voltaje entre ellos que pueda darte una descarga. Y el punto sobre los condensadores importa porque los condensadores de alto voltaje pueden retener una carga peligrosa durante mucho tiempo después de desenchufar el equipo; los amplificadores de potencia y los equipos de la era de los tubos son especialmente conocidos por esto.
 
 Además de los puntos de la Información clave anterior, vale la pena seguir algunas prácticas generales:
 

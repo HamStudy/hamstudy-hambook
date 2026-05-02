@@ -42,12 +42,12 @@ Cuando operes en FM, ten presentes estos consejos:
 - Deja una pausa entre transmisiones. Esto da a otros la oportunidad de entrar o pedir ayuda.
 - Usa simplex cuando sea posible. Mantiene los repetidores disponibles para quienes realmente necesitan el alcance extendido.
 
-Hay un par de problemas específicos de FM a los que debes prestar atención: la sintonía debe ser precisa (otros modos pueden sonar desafinados cuando estás ligeramente fuera de frecuencia, pero FM simplemente suena mal), y como discutimos en la Sección 6.7, el volumen del micrófono también importa: hablar demasiado fuerte puede causar sobredesviación, lo que produce cortes de audio en los picos de voz.
+Hay un par de problemas específicos de FM a los que debes prestar atención: la sintonía debe ser precisa (otros modos pueden sonar desafinados cuando estás ligeramente fuera de frecuencia, pero FM simplemente suena mal), y como discutimos en la Sección 6.7, el volumen del micrófono también importa: hablar demasiado alto puede causar que estés desviando demasiado, lo que produce cortes de audio en los picos de voz.
 
 > **Información Clave:**
 > - Cuando se recibe una señal FM ligeramente fuera de frecuencia, el audio se distorsiona. {{< link id="T4B04" >}}
-> - El audio se corta en los picos de voz porque estás hablando demasiado fuerte. {{< link id="T2B05" >}}
-> - Si te dicen que tu transceptor FM está sobredesviando, habla más lejos del micrófono. {{< link id="T7B01" >}}
+> - El audio se corta en los picos de voz; la causa es: Habla demasiado alto. {{< link id="T2B05" >}}
+> - Si te dicen que tu transceptor FM está desviando demasiado, habla más lejos del micrófono. {{< link id="T7B01" >}}
 
 #### Peculiaridades de FM
 

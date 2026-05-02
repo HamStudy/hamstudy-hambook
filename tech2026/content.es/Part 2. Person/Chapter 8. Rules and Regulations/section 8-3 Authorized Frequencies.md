@@ -44,7 +44,7 @@ La banda de 10 metros es la única banda HF donde los Técnicos pueden transmiti
 > **Información Clave:**
 > - 52.525 MHz está en la banda de radioaficionados de 6 metros. {{< link id="T1B03" >}}
 > - 146.52 MHz está en la banda de radioaficionados de 2 metros. {{< link id="T1B04" >}}
-> - 50.0 MHz a 50.1 MHz y 144.0 MHz a 144.1 MHz están limitados solo a CW. {{< link id="T1B07" >}}
+> - 50.0 MHz a 50.1 MHz y 144.0 MHz a 144.1 MHz están limitados solo a CW (telegrafía). {{< link id="T1B07" >}}
 
 Los Técnicos tienen privilegios completos en cuatro bandas a través de VHF y UHF:
 
@@ -71,8 +71,8 @@ Hay varias bandas por encima de 902 MHz disponibles con privilegios Technician c
 #### Límites de Potencia para Operadores de Clase Technician
 
 > **Información Clave:**
-> - La potencia máxima de salida de pico de la envolvente para operadores de clase Technician en sus segmentos de banda HF es de 200 vatios. {{< link id="T1B11" >}}
-> - Excepto por algunas restricciones específicas, la potencia máxima de salida de pico de la envolvente para operadores de clase Technician que usan frecuencias por encima de 30 MHz es de 1500 vatios. {{< link id="T1B12" >}}
+> - La potencia pico de la envolvente (PEP) máxima para operadores de clase Technician en sus segmentos de banda HF es de 200 vatios. {{< link id="T1B11" >}}
+> - Excepto por algunas restricciones específicas, la potencia pico de la envolvente (PEP) máxima para operadores de clase Technician que usan frecuencias por encima de 30 MHz es de 1500 vatios. {{< link id="T1B12" >}}
 
 Si 200 vatios en HF no parece mucho, considera que la mayoría de los radios HF típicos tienen una potencia máxima de salida de 100 vatios o menos. Y 1500 vatios en VHF/UHF es excesivo para la mayoría de los propósitos: el radio VHF/UHF típico tiene una salida máxima de 50 vatios, y eso normalmente es suficiente.
 
@@ -93,7 +93,7 @@ Ten en cuenta que algunas **frecuencias no de radioaficionados** —como comunic
 
 #### Operar Cerca de los Bordes de Banda
 
-> **Información Clave:** No debes ajustar tu frecuencia de transmisión exactamente en el borde de una banda o sub-banda de aficionados. El error de calibración en la pantalla de frecuencia del transmisor, las bandas laterales de modulación que se extienden más allá del borde de la banda y la deriva de frecuencia del transmisor podrían empujar parte de tu señal fuera de banda. {{< link id="T1B09" >}}
+> **Información Clave:** No debes ajustar tu frecuencia de transmisión exactamente en el borde de una banda o subbanda de radioaficionado. El error de calibración en la pantalla de frecuencia del transmisor, las bandas laterales de modulación que se extienden más allá del borde de la banda y el corrimiento ("drift") de frecuencia del transmisor podrían empujar parte de tu señal fuera de banda. {{< link id="T1B09" >}}
 
 Es buena práctica quedarse unos kHz dentro de la banda cuando transmites, dándote un margen de seguridad. La mayoría de los radioaficionados experimentados lo hacen sin pensarlo, simplemente para estar del lado seguro. Siempre es mejor pecar de cauteloso y mantener tus señales bien dentro de los límites autorizados.
 

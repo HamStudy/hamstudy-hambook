@@ -27,7 +27,7 @@ Una organización voluntaria para comunicaciones de emergencia. Se discute en la
 
 #### B
 
-##### Beacon (Baliza)
+##### Beacon (Radiofaros)
 Una estación de aficionado que transmite comunicaciones con el propósito de observar la propagación o actividades experimentales relacionadas. Estas estaciones normalmente envían señales periódicas para ayudar a los operadores a entender las características de propagación de las ondas de radio.
 
 ##### Band Plan (Plan de Banda)
@@ -73,8 +73,8 @@ Se refiere a contactos distantes o de larga distancia, normalmente con estacione
 ##### Field Day
 Un evento anual de radioafición, realizado el cuarto fin de semana de junio, en el que los radioaficionados montan estaciones en el campo —a menudo usando energía de emergencia y antenas temporales— e intentan hacer tantos contactos como sea posible. Es parte concurso, parte ejercicio de preparación para emergencias y parte reunión social.
 
-##### Frequency Coordinator (Coordinador de Frecuencia)
-Un voluntario o grupo de voluntarios reconocido por operadores aficionados locales que recomienda canales de transmisión/recepción y otros parámetros para estaciones auxiliares y repetidoras.
+##### Frequency Coordinator (Coordinador de Frecuencias Voluntario)
+Un Coordinador de Frecuencias Voluntario reconocido por los radioaficionados locales que recomienda canales de transmisión/recepción para estaciones repetidoras y auxiliares.
 
 #### G
 
@@ -163,7 +163,7 @@ Las frecuencias por encima y por debajo de una onda portadora que contienen la i
 Un modo de comunicación en el que las estaciones transmiten y reciben en la misma frecuencia.
 
 ##### Space Station (Estación Espacial)
-Una estación de radioaficionado ubicada a más de 50 km sobre la superficie de la Tierra, normalmente un satélite.
+Una estación de radioaficionado situada a más de 50 km de la superficie de la Tierra, normalmente un satélite.
 
 ##### Squelch (Silenciador)
 Una función del receptor que silencia el audio cuando no hay señal presente, eliminando el siseo constante del ruido de fondo. El umbral del silenciador determina qué tan fuerte debe ser una señal para "abrir" el silenciador y dejar pasar el audio.
@@ -183,7 +183,7 @@ Una transmisión unidireccional para iniciar, modificar o terminar funciones de 
 Una transmisión unidireccional para reportar mediciones recolectadas a distancia.
 
 ##### Third Party Communications (Comunicaciones de Terceros)
-Un mensaje transmitido por un operador de control de una estación de aficionado al operador de control de otra estación de aficionado en nombre de otra persona.
+Un mensaje de un operador de control a otro operador de una estación de radioaficionado en nombre de otra persona.
 
 #### U
 

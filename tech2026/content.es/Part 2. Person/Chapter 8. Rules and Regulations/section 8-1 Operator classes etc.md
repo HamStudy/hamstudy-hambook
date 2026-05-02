@@ -13,9 +13,9 @@ La radioafición en los EE. UU. está estructurada alrededor de unas pocas categ
 
 > **Información Clave:**
 > - La FCC regula y hace cumplir las reglas del Servicio de Radioaficionados en los Estados Unidos. {{< link id="T1A02" >}}
-> - La Base y Propósito del Servicio de Radioaficionados incluye *mejorar las habilidades en las fases técnica y de comunicación del arte de la radio*. {{< link id="T1A01" >}}
+> - Los Fundamentos y Finalidad del Servicio de Radioaficionados incluyen *Mejorar las destrezas en los aspectos técnicos y de comunicación del arte de la radio*. {{< link id="T1A01" >}}
 
-Como discutimos en "Acerca de la Radioafición" al comienzo del libro, mejorar las habilidades de radio no es el único propósito del servicio. La lista completa, tal como la define la FCC, también incluye:
+Como discutimos en "Acerca de la Radioafición" al comienzo del libro, Mejorar las destrezas de radio no es el único propósito del servicio. La lista completa, tal como la define la FCC, también incluye:
 
 1. Ampliar el grupo de operadores capacitados, técnicos y expertos en electrónica.
 2. Mejorar la buena voluntad internacional mediante comunicaciones globales.
@@ -116,11 +116,11 @@ El número en un indicativo normalmente indica la región del indicativo. La reg
 
 #### Licencias de Estaciones de Club
 
-> **Información Clave:** Un requisito para la concesión de una licencia de estación de club es que el club tenga al menos cuatro miembros. {{< link id="T1F11" >}}
+> **Información Clave:** Un requisito para la concesión de una licencia de estación de club es que el club tenga por lo menos cuatro socios. {{< link id="T1F11" >}}
 
 Las licencias de estaciones de club son un tipo especial de licencia de radioaficionado otorgada a un club en lugar de a una persona. Los requisitos:
 
-1. **Composición del Club**: Al menos cuatro miembros: ¡no es un espectáculo de una sola persona!
+1. **Composición del Club**: Por lo menos cuatro socios: ¡no es un espectáculo de una sola persona!
 
 2. **Identidad del Club**: El club debe tener un nombre, un documento de organización y administración. Piensa en ello como la carta constitutiva del club: establece quiénes son, cómo se manejan las cosas y lo hace todo oficial.
 

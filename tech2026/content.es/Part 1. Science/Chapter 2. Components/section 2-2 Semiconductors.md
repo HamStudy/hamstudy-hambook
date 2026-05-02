@@ -13,7 +13,7 @@ Los semiconductores son materiales que pueden actuar como conductores o como ais
 
 > **Información Clave:** 
 > - Un diodo permite que la corriente fluya en una sola dirección. {{< link id="T6B02" >}}
-> - El terminal del cátodo a menudo está marcado con una franja. {{< link id="T6B06" >}}
+> - El terminal del cátodo a menudo está marcado con una raya. {{< link id="T6B06" >}}
 > - La caída de voltaje directo es menor en algunos tipos de diodos que en otros. {{< link id="T6B01" >}}
 
 Los diodos probablemente son el tipo más simple de semiconductor y por lo general se imaginan como compuertas de un solo sentido para la corriente, aunque eso no es del todo exacto porque hay tipos de diodos que pueden usarse intencionalmente al revés (lo que se llama *polarización inversa*).
@@ -29,7 +29,7 @@ Un uso común de los diodos es en un *rectificador*, que cambia la corriente alt
 
 #### Diodos emisores de luz (LED): diodos que brillan
 
-> **Información Clave:** Un LED produce luz cuando fluye corriente directa a través de él. {{< link id="T6B07" >}}
+> **Información Clave:** Un LED produce luz cuando fluye Corriente de polarización directa a través de él. {{< link id="T6B07" >}}
 
 ![Diagrama esquemático de LED con ánodo / cátodo etiquetados](../../../images/s2-2-led.svg)
 {.img-small .float-right .img-bw}
@@ -41,7 +41,7 @@ Los LED son diodos especiales que se iluminan cuando fluye corriente a través d
 > **Información Clave:** 
 > - Los transistores pueden usarse como interruptores electrónicos. {{< link id="T6B03" >}}
 > - Un transistor contiene tres regiones de material semiconductor. {{< link id="T6B04" >}}
-> - FET significa Field Effect Transistor (transistor de efecto de campo). {{< link id="T6B08" >}}
+> - FET significa Transistor de efecto de campo. {{< link id="T6B08" >}}
 
 Hay dos tipos principales de transistores, y necesitarás conocer los nombres de los tres electrodos de cada uno:
 
@@ -49,7 +49,7 @@ Hay dos tipos principales de transistores, y necesitarás conocer los nombres de
 - Tres partes: *emisor, base y colector*. {{< link id="T6B12" >}}
 - A menudo se usa para amplificar señales.
 2. **Transistor de efecto de campo (FET)**
-- Tres partes: *compuerta, drenaje y fuente*. {{< link id="T6B05" >}}
+- Tres partes: *puerta ("gate"), drenador ("drain") y fuente ("source")*. {{< link id="T6B05" >}}
 - A menudo se usa como interruptor controlado por voltaje.
 
 En cualquiera de los dos tipos, la idea es la misma: una señal pequeña en uno de los tres electrodos controla una corriente mucho mayor entre los otros dos. Eso es lo que permite que un transistor amplifique — convirtiendo una señal de entrada pequeña en una salida grande — o conmute, usando una señal pequeña de control para encender o apagar una corriente grande.

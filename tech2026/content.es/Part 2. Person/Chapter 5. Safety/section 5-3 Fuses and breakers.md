@@ -11,7 +11,7 @@ status: publish1
 
 Los fusibles y los interruptores automáticos son la primera línea de defensa en la seguridad eléctrica. Su trabajo es interrumpir sobrecargas y cortocircuitos antes de que puedan dañar equipos o iniciar un incendio.
 
-> **Información clave:** El propósito de un fusible en un circuito eléctrico es quitar la energía en caso de una sobrecarga. {{< link id="T0A04" >}}
+> **Información clave:** El propósito de un fusible en un circuito eléctrico es interrumpir la alimentación en caso de sobrecarga. {{< link id="T0A04" >}}
 
 #### Fusibles: los héroes de un solo uso
 

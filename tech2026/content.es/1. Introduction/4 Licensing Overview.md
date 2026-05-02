@@ -28,7 +28,7 @@ Para progresar a una clase superior, debes aprobar el examen para esa clase así
 
 Una vez que apruebas tu examen y se envía tu solicitud de licencia, la FCC te enviará por correo electrónico instrucciones para pagar la tarifa de solicitud de $35 a través de su portal de pago en línea. Después de que se procese el pago, tu licencia generalmente aparece en la base de datos de la FCC dentro de 1 a 2 días hábiles, dependiendo de cuándo se reciba tu pago en relación con los horarios de procesamiento de la FCC.
 
-> **Información Clave:** Es importante mantener una dirección de correo electrónico válida con la FCC, ya que no hacerlo podría resultar en la suspensión o revocación de la licencia.
+> **Información Clave:** Es importante mantener una dirección de correo electrónico válida con la FCC, ya que no hacerlo podría resultar en la Revocación de la licencia de la estación o suspensión de la licencia de operador.
 
 Si la FCC intenta comunicarse contigo por correo electrónico y no puede hacerlo *incluso después de que obtengas la licencia*, puede optar por revocar o suspender tu licencia, así que asegúrate de que tu información de contacto esté siempre actualizada.
 
@@ -36,13 +36,13 @@ Algunas solicitudes son marcadas para revisión manual (humana) por diversos mot
 
 > **Información Clave:** Una licencia de radioaficionado es válida por diez años desde la fecha de emisión. {{< link id="T1C08" >}}
 
-Tu licencia se vuelve válida tan pronto como tu concesión de licencia de operador/estación aparece en el ULS (Sistema Universal de Licencias), la base de datos de licencias en línea de la FCC. {{< link id="T1C10" >}}
+Tu licencia se vuelve válida tan pronto como la concesión de su licencia de estación/operador aparezca en la base de datos de licencias de la FCC. {{< link id="T1C10" >}}
 
 > **Información Clave:** Puedes renovar tu licencia hasta noventa (90) días antes de que expire.
 
 Puedes renovar iniciando sesión a través del [sitio web del administrador de licencias de la FCC](https://hamstudy.org/l/licMgr). Si tienes algún problema, puedes contactar al servicio de ayuda de la FCC utilizando la información de contacto de su sitio web.
 
-> **Información Clave:** Si tu licencia expira, tienes un período de gracia de dos años para renovarla. {{< link id="T1C09" >}} Durante este período de gracia no puedes transmitir — debes esperar hasta que se procese la renovación antes de operar de nuevo. {{< link id="T1C11" >}}
+> **Información Clave:** Si tu licencia expira, tienes un período de gracia de dos años para renovarla. {{< link id="T1C09" >}} Durante este período de gracia no puedes transmitir — No, debe esperar a que la licencia sea renovada. {{< link id="T1C11" >}}
 
 Si no renuevas tu licencia antes del final de ese período de gracia, perderás tu licencia e indicativo y tendrás que volver a tomar el examen para obtener la licencia nuevamente.
 

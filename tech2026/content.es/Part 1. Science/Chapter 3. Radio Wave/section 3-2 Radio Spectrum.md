@@ -12,7 +12,7 @@ Piensa en cómo se comporta la luz: una puesta de sol proyecta sombras largas y 
 Como operadores de radioafición, podemos usar secciones específicas del espectro electromagnético, cada una con sus propias propiedades. Los rangos clave que necesitas conocer son:
 
 - **HF (Alta Frecuencia): 3 a 30 MHz**. {{< link id="T3B10" >}}
-- **VHF (Muy Alta Frecuencia): 30 a 300 MHz**. {{< link id="T3B08" >}}
+- **VHF (Muy Alta Frecuencia): 30 MHz a 300 MHz**. {{< link id="T3B08" >}}
 - **UHF (Ultra Alta Frecuencia): 300 a 3000 MHz**. {{< link id="T3B09" >}}
 
 Cada uno de estos rangos se comporta de manera diferente, y la analogía con la luz es una forma útil de pensar en por qué:
@@ -38,11 +38,11 @@ Las frecuencias de radioafición se organizan en "bandas" según sus longitudes 
 
 Como Técnico, tendrás acceso limitado a HF, principalmente en la banda de 10 metros (28 MHz), pero entender cómo se comportan estas frecuencias sigue siendo importante porque la propagación ionosférica que hace especial a HF es una gran parte de lo que hace divertida esta afición. Cuando las condiciones son adecuadas, una señal modesta en 10 metros puede llegar a operadores a miles de kilómetros de distancia.
 
-Las estaciones baliza son transmisores automatizados que ayudan a los operadores a monitorear estas condiciones. Transmiten regularmente en frecuencias conocidas, lo que permite a los aficionados de todo el mundo determinar si una banda está "abierta" para comunicaciones de larga distancia.
+Las estaciones radiofaro son transmisores automatizados que ayudan a los operadores a monitorear estas condiciones. Transmiten regularmente en frecuencias conocidas, lo que permite a los aficionados de todo el mundo determinar si una banda está "abierta" para comunicaciones de larga distancia.
 
-> **Información clave:** En HF, las balizas de propagación de radioaficionados controladas automáticamente se pueden encontrar en 10 metros, entre 28.200 MHz y 28.300 MHz. {{< link id="T1A06" >}}
+> **Información clave:** En HF, los radiofaros de propagación de radioaficionados controlados automáticamente se pueden encontrar en 10 metros, entre 28.200 MHz y 28.300 MHz. {{< link id="T1A06" >}}
 
-Al sintonizar ese rango y escuchar balizas distantes, puedes evaluar rápidamente si las condiciones son favorables para comunicaciones de larga distancia en 10 metros.
+Al sintonizar ese rango y escuchar radiofaros distantes, puedes evaluar rápidamente si las condiciones son favorables para comunicaciones de larga distancia en 10 metros.
 
 #### Bandas VHF
 

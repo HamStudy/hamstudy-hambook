@@ -11,7 +11,7 @@ Imagina que estás en una fiesta, tratando de hablar con un amigo al otro lado d
 
 Hay muchos tipos diferentes de antenas, cada una con sus propias ventajas y desventajas. Algunas ocupan más o menos espacio, algunas son direccionales, algunas tienen más ganancia. El truco está en encontrar la antena que funcione mejor para tu situación, y la mayoría de los radioaficionados terminan con varias antenas diferentes para diversos propósitos.
 
-> **Definamos un término**: En este libro usaremos ocasionalmente el término "sistema de antena". El sistema de antena incluye todo lo conectado al puerto de antena de tu transceptor: la línea de alimentación, cualquier sintonizador o red de adaptación, y la antena misma. Esta es una distinción útil: conceptos como la ROE (SWR) y la adaptación de impedancia se aplican al sistema completo, no solo a la antena.
+> **Definamos un término**: En este libro usaremos ocasionalmente el término "sistema de antena". El sistema de antena incluye todo lo conectado al puerto de antena de tu transceptor: la línea de alimentación, cualquier sintonizador o red de adaptación, y la antena misma. Esta es una distinción útil: conceptos como la ROE ("SWR") y la adaptación de impedancia se aplican al sistema completo, no solo a la antena.
 
 #### Conceptos esenciales de antenas
 
@@ -55,17 +55,17 @@ A continuación se muestran longitudes comunes para diferentes bandas. Puedes ap
 
 #### Tipos comunes de antenas
 
-1. **Antenas directivas (beam)**
+1. **Antenas direccionales ("beam antenna")**
 
-   > **Información clave:** Una antena directiva es una antena que concentra las señales en una dirección. {{< link id="T9A01" >}} De los tipos comunes de antena, la antena Yagi ofrece la mayor ganancia. {{< link id="T9A06" >}}
+   > **Información clave:** Una antena direccional ("beam antenna") es una antena que concentra las señales en una dirección. {{< link id="T9A01" >}} De los tipos comunes de antena, la antena Yagi ofrece la mayor ganancia. {{< link id="T9A06" >}}
 
-   Imagina una antena directiva como el reflector de una linterna enfocando la luz. La Yagi usa varios elementos — un elemento excitado más directores parásitos y un reflector — para lograr alta ganancia y directividad. Como toda ganancia, esto es una redistribución de la señal: obtienes una señal más fuerte en la dirección hacia la que apunta la antena, pero una señal mucho más débil en otros lugares.
+   Imagina una antena direccional como el reflector de una linterna enfocando la luz. La Yagi usa varios elementos — un elemento excitado más directores parásitos y un reflector — para lograr alta ganancia y directividad. Como toda ganancia, esto es una redistribución de la señal: obtienes una señal más fuerte en la dirección hacia la que apunta la antena, pero una señal mucho más débil en otros lugares.
 
 2. **Dipolos**
 
-   > **Información clave:** Una antena dipolo de media onda radia la señal más fuerte perpendicular (broadside) a la antena. {{< link id="T9A10" >}}
+   > **Información clave:** Una antena dipolo de media onda radia la señal más fuerte por el costado de la antena. {{< link id="T9A10" >}}
 
-   El dipolo es el tipo de antena más básico y fundamental: dos conductores de igual longitud, alimentados en el centro. La mayoría de las demás antenas son en realidad variaciones ingeniosas de este diseño básico. Un dipolo de media longitud de onda puede orientarse en cualquier dirección, y su señal siempre es más fuerte *perpendicular (broadside) al cable*. Entender los dipolos te ayuda a entender cómo funciona casi cualquier otra antena.
+   El dipolo es el tipo de antena más básico y fundamental: dos conductores de igual longitud, alimentados en el centro. La mayoría de las demás antenas son en realidad variaciones ingeniosas de este diseño básico. Un dipolo de media longitud de onda puede orientarse en cualquier dirección, y su señal siempre es más fuerte *por el costado de la antena*. Entender los dipolos te ayuda a entender cómo funciona casi cualquier otra antena.
 
 3. **Monopolos y verticales de cuarto de onda**
 
@@ -79,7 +79,7 @@ A continuación se muestran longitudes comunes para diferentes bandas. Puedes ap
 
    > **Información clave:** Una antena látigo de 5/8 de longitud de onda tiene más ganancia que una antena de 1/4 de onda. {{< link id="T9A09" >}}
 
-   Una antena látigo de 5/8 de onda concentra más señal hacia el horizonte en lugar de hacia el cielo, por eso son populares para operaciones móviles en VHF y UHF sobre terreno plano. Igual que con una antena directiva, esta "ganancia" es una redistribución de la señal. En áreas montañosas o cañones donde tu repetidor podría estar por encima de ti, una antena de 1/4 de onda puede funcionar mejor porque radia más señal hacia arriba.
+   Una antena látigo de 5/8 de onda concentra más señal hacia el horizonte en lugar de hacia el cielo, por eso son populares para operaciones móviles en VHF y UHF sobre terreno plano. Igual que con una antena direccional, esta "ganancia" es una redistribución de la señal. En áreas montañosas o cañones donde tu repetidor podría estar por encima de ti, una antena de 1/4 de onda puede funcionar mejor porque radia más señal hacia arriba.
 
 5. **J-poles**
 
@@ -91,7 +91,7 @@ A veces necesitamos modificar las antenas para que funcionen mejor o quepan en u
 
 1. **Carga de antena**
 
-   > **Información clave:** La carga de antena significa alargarla eléctricamente insertando inductores en los elementos radiantes. {{< link id="T9A02" >}}
+   > **Información clave:** La carga de antena significa alargamiento eléctrico por inserción de inductores en los elementos radiantes. {{< link id="T9A02" >}}
 
    Cuando el espacio es limitado, podemos hacer que una antena sea eléctricamente más larga de lo que es físicamente agregando inductancia, normalmente con una bobina en algún lugar del elemento radiante. Así es como una antena látigo móvil de 19 pulgadas puede funcionar en bandas HF donde una antena de tamaño completo mediría muchos pies. La carga nos permite usar antenas más cortas cuando es necesario, aunque no es tan eficiente como una antena de tamaño completo.
 
@@ -103,7 +103,7 @@ A veces necesitamos modificar las antenas para que funcionen mejor o quepan en u
 
 3. **Sintonizadores de antena**
 
-   > **Información clave:** La función principal de un sintonizador de antena es adaptar la impedancia del sistema de antena a la impedancia de salida del transceptor. {{< link id="T9B04" >}}
+   > **Información clave:** La función principal de un sintonizador de antena es ajustar la impedancia del sistema de antena a la impedancia de salida del transceptor. {{< link id="T9B04" >}}
 
    Un sintonizador es como una caja de cambios, ajustando la conexión para que tu transmisor y tu antena trabajen juntos con la mayor eficiencia posible. Es importante entender que un sintonizador en realidad no "sintoniza" la antena: solo adapta impedancias para que el transmisor vea una carga con la que esté contento. No mejora la eficiencia de radiación de una antena.
 
@@ -117,7 +117,7 @@ Algunas antenas están diseñadas para funcionar en un amplio rango de frecuenci
 
 2. **Dipolos multibanda**
 
-   Estos dipolos están diseñados para funcionar en múltiples bandas, pero a menudo no son perfectamente resonantes en todas ellas. Un sintonizador puede ayudar a adaptar la impedancia en las bandas no resonantes.
+   Estos dipolos están diseñados para funcionar en múltiples bandas, pero a menudo no son perfectamente resonantes en todas ellas. Un sintonizador puede ayudar a ajustar la impedancia en las bandas no resonantes.
 
 3. **Antenas de lazo magnético**
 

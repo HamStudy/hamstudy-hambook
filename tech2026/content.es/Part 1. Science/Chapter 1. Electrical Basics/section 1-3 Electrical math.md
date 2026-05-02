@@ -65,15 +65,15 @@ E &= 20V
 Entonces necesitarías **20 voltios** para empujar **2 amperios** a través de esa **resistencia de 10 ohmios**.
 
 ##### **Ejemplo 2**  
-Tienes una **batería de 12 voltios** conectada a un circuito con una **resistencia total de 4 ohmios**. Para calcular la corriente que fluye por el circuito:{{< link id="T5D06" >}}
+Tienes un circuito que consume **4 amperios** de una **fuente de 12 voltios**. Para calcular la resistencia del circuito:{{< link id="T5D06" >}}
 
 $$\begin{align*}
-I &= \frac{E}{R}\\
-I &= \frac{12V}{4\Omega}\\
-I &= 3A
+R &= \frac{E}{I}\\
+R &= \frac{12V}{4A}\\
+R &= 3\Omega
 \end{align*}$$
 
-Eso significa que fluyen **3 amperios** de corriente por el circuito.
+Eso significa que la resistencia del circuito es de **3 ohmios**.
 
 #### La Ley de Potencia
 

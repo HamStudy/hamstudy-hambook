@@ -11,7 +11,7 @@ status: publish1
 
 > **Información clave:**
 > - Las señales de radio son radiación no ionizante. {{< link id="T0C01" >}}
-> - La radiación de RF difiere de la radiación ionizante (radioactividad) porque la radiación de RF no tiene suficiente energía para causar cambios químicos en las células ni dañar el ADN. {{< link id="T0C12" >}}
+> - La radiación de RF difiere de la radiación ionizante (radiactividad) porque la radiación de RF no tiene suficiente energía para causar cambios químicos en las células ni dañar el ADN. {{< link id="T0C12" >}}
 
 La energía de RF pertenece a la misma categoría general de energía electromagnética que usa tu horno de microondas para calentar comida, solo que a diferentes frecuencias y niveles de potencia. A diferencia de la radiación ionizante (rayos X, rayos gamma), no tiene suficiente energía para arrancar electrones de los átomos ni dañar el ADN. En otras palabras, no te convertirá en un superhéroe de cómic, pero eso no significa que sea inofensiva.
 
@@ -19,7 +19,7 @@ La energía de RF pertenece a la misma categoría general de energía electromag
 
 Aunque la energía de RF no alterará tu ADN, todavía puede causar daño mediante otro mecanismo: el calor. Igual que el horno de microondas, niveles altos de RF pueden calentar tejidos del cuerpo. Y créeme, no quieres cocinarte por dentro mientras haces ese increíble contacto DX.
 
-> **Información clave:** El titular de la licencia de la estación es responsable de asegurar que ninguna persona esté expuesta a energía de RF por encima de los límites de exposición de la FCC. {{< link id="T0C13" >}}
+> **Información clave:** El licenciatario de la estación es responsable de asegurar que ninguna persona esté expuesta a energía de RF por encima de los límites de exposición de la FCC. {{< link id="T0C13" >}}
 
 Esto significa que tú, como licenciatario, eres responsable por ti mismo, tu familia, tus vecinos e incluso los transeúntes si tu antena está cerca de áreas públicas.
 
@@ -48,9 +48,9 @@ Este es un peligro directo que a menudo se pasa por alto. La energía de RF conc
 
 #### Mantenerse en cumplimiento con las regulaciones de seguridad de RF
 
-> **Información clave:** Puedes determinar si tu estación cumple con las regulaciones de exposición a RF de la FCC mediante cálculo basado en el Boletín OET 65 de la FCC, mediante cálculo basado en modelado por computadora o mediante medición de intensidad de campo usando equipo calibrado. {{< link id="T0C06" >}}
+> **Información clave:** Puedes determinar si tu estación cumple con las regulaciones de exposición a RF de la FCC mediante cálculo basado en el Boletín FCC OET 65, mediante cálculo basado en modelos informáticos o mediante medición de intensidad de campo usando equipo calibrado. {{< link id="T0C06" >}}
 
-> **Información clave:** Los factores que afectan la exposición a RF de personas cerca de una antena de estación de radioaficionado incluyen la frecuencia y el nivel de potencia del campo de RF, la distancia desde la antena hasta una persona y el patrón de radiación de la antena. {{< link id="T0C04" >}}
+> **Información clave:** Los factores que afectan la exposición a RF de personas cerca de una antena de estación de radioaficionado incluyen la frecuencia y el nivel de potencia del campo de RF, la distancia desde la antena hasta una persona y el diagrama de radiación de la antena. {{< link id="T0C04" >}}
 
 Mantenerse en cumplimiento es más fácil de lo que puede sonar:
 

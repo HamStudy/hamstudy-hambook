@@ -12,8 +12,8 @@ Las baterías son el alma de la radioafición portátil. Ya sea que estés opera
 #### Tipos de baterías
 
 > **Información clave:**
-> - Las químicas de baterías recargables incluyen níquel-metal hidruro, ion-litio y plomo-ácido. {{< link id="T6A10" >}}
-> - Las baterías de zinc-carbono no son recargables. {{< link id="T6A11" >}}
+> - Las químicas de baterías recargables incluyen hidruro metálico de níquel, ion-litio y plomo-ácido. {{< link id="T6A10" >}}
+> - Las baterías de carbón-zinc no son recargables. {{< link id="T6A11" >}}
 
 ![Ilustración de varios tipos diferentes de baterías sentadas una junto a otra](../../../images/illus/batteries.svg)
 {.img-full .img-centered}
@@ -26,13 +26,13 @@ Un recorrido rápido por lo que probablemente encontrarás:
 
 3. **Fosfato de hierro y litio (LiFePO4)**: Una química más nueva, más segura y estable que la ion-litio estándar, con una vida de ciclos excepcionalmente larga. Recargable. Cada celda produce alrededor de 3.2 voltios, así que un paquete de “12 voltios” en realidad es de 12.8 V y se carga hasta alrededor de 14.6 V.
 
-4. **Níquel-metal hidruro (NiMH)**: A menudo se encuentran en tamaños AA o AAA. La opción ecológica, y extremadamente común antes de que Li-ion tomara el relevo. Recargables, una buena alternativa a las desechables. Cada celda produce 1.2 voltios.
+4. **Hidruro metálico de níquel (NiMH)**: A menudo se encuentran en tamaños AA o AAA. La opción ecológica, y extremadamente común antes de que Li-ion tomara el relevo. Recargables, una buena alternativa a las desechables. Cada celda produce 1.2 voltios.
 
 5. **Níquel-cadmio (NiCd)**: La recargable clásica, antes la opción habitual para teléfonos inalámbricos y portátiles antiguos. Cada celda es de 1.2 voltios, igual que NiMH. Debido a preocupaciones ambientales por el cadmio (un metal pesado tóxico), han sido reemplazadas en gran medida por NiMH, pero todavía las verás en equipos antiguos.
 
 6. **Alcalinas**: Las maravillas de un solo uso. Excelentes para emergencias (puedes comprarlas en cualquier lugar), pero una vez que se agotan, se acabaron. Cada celda es de 1.5 voltios, un poco más que las opciones recargables.
 
-7. **Zinc-carbono**: Desechables de la vieja escuela y algunas de las primeras pilas secas. No recargables, 1.5 voltios por celda. Vida útil más corta y menor capacidad que las alcalinas: piensa en ellas como el bisabuelo de las baterías modernas.
+7. **Carbón-zinc**: Desechables de la vieja escuela y algunas de las primeras pilas secas. No recargables, 1.5 voltios por celda. Vida útil más corta y menor capacidad que las alcalinas: piensa en ellas como el bisabuelo de las baterías modernas.
 
 Vale la pena notar que las baterías de diferentes químicas pueden tener diferentes voltajes por celda incluso con el mismo tamaño físico. Siempre revisa las especificaciones antes de conectar cosas.
 
@@ -40,13 +40,13 @@ Vale la pena notar que las baterías de diferentes químicas pueden tener difere
 
 Cada química tiene sus propias peculiaridades, pero algunos peligros se aplican de forma amplia.
 
-> **Información clave:** Cortocircuitar los terminales de una batería de almacenamiento de 12 voltios que carece de circuitos internos de protección puede causar quemaduras, incendio o una explosión. {{< link id="T0A01" >}}
+> **Información clave:** Cortocircuitar los terminales de una batería de almacenamiento de 12 voltios que carece de circuitería de protección interna puede causar quemaduras, fuego o una explosión. {{< link id="T0A01" >}}
 
-> **Información clave:** Cargar o descargar rápidamente una batería sin protección puede causar sobrecalentamiento o liberación de gases. {{< link id="T0A10" >}}
+> **Información clave:** Cargar o descargar rápidamente una batería sin protección puede causar sobrecalentamiento o desgasificación. {{< link id="T0A10" >}}
 
 ##### Plomo-ácido
 
-- Producen gas hidrógeno, especialmente al cargarse. Siempre cárgalas en áreas bien ventiladas: el hidrógeno es extremadamente inflamable, y una acumulación está pidiendo un incendio o una explosión.
+- Producen gas hidrógeno, especialmente al cargarse. Siempre cárgalas en áreas bien ventiladas: el hidrógeno es extremadamente inflamable, y una acumulación está pidiendo fuego o una explosión.
 - Contienen ácido sulfúrico. Trátalas como tratarías a un gato gruñón: con respeto y equipo de protección.
 - Los terminales pueden descargar cientos de amperios en un cortocircuito. Quítate las joyas y usa herramientas aisladas (y no le preguntes al autor principal el punto de fusión de las joyas de plata esterlina; no tiene ningún motivo personal para saberlo. Ninguno en absoluto).
 
@@ -58,7 +58,7 @@ Cada química tiene sus propias peculiaridades, pero algunos peligros se aplican
 
 ##### Ion-litio
 
-- La sobrecarga puede provocar sobrecalentamiento o incendio. Usa el cargador que vino con tu radio.
+- La sobrecarga puede provocar sobrecalentamiento o fuego. Usa el cargador que vino con tu radio.
 - Si se perforan o dañan, trátalas como una bomba de tiempo. Deséchalas de forma adecuada y rápida.
 - No les gustan las temperaturas extremas: ni demasiado calor ni demasiado frío.
 

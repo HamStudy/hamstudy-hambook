@@ -25,7 +25,7 @@ Describimos la polarización de tres maneras principales: vertical, horizontal, 
 
 **La polarización elíptica** es más interesante. Cuando las señales se "reflejan" en la ionosfera y regresan a la Tierra, su polarización puede cambiar, a menudo volviéndose elíptica. Esto significa que la orientación de la onda traza un patrón ovalado mientras se mueve por el espacio. Cuando ese patrón ovalado se convierte en un círculo perfecto, lo llamamos polarización circular.
 
-> **Información clave:** Debido a que las señales propagadas por la ionosfera están polarizadas elípticamente, se pueden usar antenas polarizadas vertical u horizontalmente para transmisión o recepción. {{< link id="T3A09" >}}
+> **Información clave:** Debido a que las señales propagadas por la ionosfera están polarizadas elípticamente, se pueden utilizar antenas polarizadas vertical u horizontalmente para transmisión o recepción. {{< link id="T3A09" >}}
 
 La polarización circular es muy útil para trabajo satelital porque funciona sin importar cómo esté orientada la antena, algo así como una clavija redonda que encaja sin importar cómo gires el agujero. Por eso muchos operadores de satélites usan antenas polarizadas circularmente.
 
@@ -33,7 +33,7 @@ La polarización circular es muy útil para trabajo satelital porque funciona si
 
 Simple: si quieres la mejor señal posible, quieres que tu antena receptora coincida con la polarización de la señal entrante. Piensa otra vez en la ranura de correo: tendrás mucho más éxito si tu carta coincide con la orientación de la ranura.
 
-> **Información clave:** La polarización cruzada (cuando las antenas en extremos opuestos de un enlace en línea de vista usan polarizaciones diferentes) causa una reducción en la intensidad de señal recibida. {{< link id="T3A04" >}}
+> **Información clave:** La polarización cruzada (cuando las antenas en extremos opuestos de un enlace en línea de visión usan polarizaciones diferentes) causa que la intensidad de la señal recibida se reduzca. {{< link id="T3A04" >}}
 
 Si tu polarización no coincide con la de la estación con la que quieres comunicarte, podrías perder hasta 20 dB de intensidad de señal: eso es como convertir tu transmisor de 100 vatios en uno de 1 vatio. ¡Ay!
 
@@ -43,7 +43,7 @@ Diferentes tipos de operación tienden a favorecer diferentes polarizaciones. Aq
 
 1. **FM en VHF/UHF y repetidores**: La mayoría de los repetidores usan polarización vertical; por eso prácticamente todas las antenas que ves en autos y HTs están derechas hacia arriba. ¡Se trata de llevarse bien con los repetidores!
 
-2. **Trabajo de señal débil en VHF/UHF**: Al hacer contactos de larga distancia sin repetidores, normalmente se usa polarización horizontal para contactos CW y SSB de larga distancia en bandas VHF y UHF. {{< link id="T3A03" >}} Esto es más convención que física: los operadores de señal débil se estandarizaron en horizontal hace décadas, así que usar horizontal te da coincidencia de polarización con todos los demás que hacen lo mismo. Un beneficio adicional es que las antenas horizontales tienden a captar menos ruido generado por el ser humano (que a menudo está polarizado verticalmente), así que obtienes una mejor relación señal-ruido como bono.
+2. **Trabajo de señal débil en VHF/UHF**: Al hacer contactos a larga distancia sin repetidores, normalmente se usa polarización horizontal para contactos CW y SSB a larga distancia en bandas VHF y UHF. {{< link id="T3A03" >}} Esto es más convención que física: los operadores de señal débil se estandarizaron en horizontal hace décadas, así que usar horizontal te da coincidencia de polarización con todos los demás que hacen lo mismo. Un beneficio adicional es que las antenas horizontales tienden a captar menos ruido generado por el ser humano (que a menudo está polarizado verticalmente), así que obtienes una mejor relación señal/ruido como bono.
 
 3. **Operación en HF**: Aquí hay un giro interesante: como la ionosfera tiende a mezclar las cosas de todos modos, puedes usar antenas verticales u horizontales. Cada una tiene sus ventajas, ¡y muchos radioaficionados terminan usando ambas!
 

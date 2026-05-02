@@ -79,7 +79,7 @@ Sin embargo, los adaptadores no son para todos. Agregan volumen y una cantidad d
 
 ##### PL-259/SO-239 (conector UHF)
 
-> **Información clave:** Los conectores PL-259 se usan comúnmente en frecuencias HF y VHF. {{< link id="T9B07" >}}
+> **Información clave:** Los conectores PL-259 se utilizan habitualmente en frecuencias HF y VHF. {{< link id="T9B07" >}}
 
 A pesar de su nombre, el "conector UHF" es un poco engañoso. Se usa ampliamente en radios HF y VHF, pero no es la mejor opción para UHF. El nombre se originó en una época en que el espectro UHF se definía como un rango diferente (más bajo) de frecuencias, pero el nombre del conector se quedó.
 
@@ -110,7 +110,7 @@ Si estás trabajando en frecuencias superiores a 400 MHz, Tipo N es tu mejor apu
 
 #### Impermeabilización de conexiones exteriores
 
-> **Información clave:** Los conectores RF exteriores (PL-259, BNC, Tipo N y otros) deben encintarse cuidadosamente para protegerlos del clima. {{< link id="T9B01" >}}
+> **Información clave:** Los conectores PL259, BNC, Tipo N y otros deben ser cuidadosamente envueltos con cinta para protegerlos de la intemperie cuando se usan al aire libre. {{< link id="T9B01" >}}
 
 Ningún conector es inmune al clima. La humedad que entra en una conexión exterior corroe el metal, degrada la señal y eventualmente puede avanzar por la cubierta del coaxial: el mismo problema de intrusión de agua del que hablamos en la sección de líneas de alimentación. La solución es sencilla: envuelve las conexiones exteriores con cinta de impermeabilización (masilla selladora para coaxial, cinta de goma autoamalgamante o una combinación de ambas son opciones comunes).
 
@@ -164,4 +164,4 @@ Si sigues la cadena y te aseguras de que se unan géneros opuestos en cada punto
 
 ---
 
-Con antenas, polarización, líneas de alimentación y conectores cubiertos, queda una pieza más del rompecabezas del sistema de antena que vale la pena entender: qué tan bien está funcionando todo junto. Eso es lo que te dice la ROE (SWR).
+Con antenas, polarización, líneas de alimentación y conectores cubiertos, queda una pieza más del rompecabezas del sistema de antena que vale la pena entender: el grado de adaptación de todo el sistema. Eso es lo que te dice la ROE ("SWR").

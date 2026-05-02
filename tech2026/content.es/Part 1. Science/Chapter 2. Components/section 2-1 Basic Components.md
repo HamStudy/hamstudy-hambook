@@ -24,7 +24,7 @@ Para el examen de Técnico, esos dos datos son todo lo que necesitas. Los detall
 
 #### Resistencias
 
-> **Información Clave:** Una resistencia se opone al flujo de corriente en cualquier circuito (incluido un circuito de CC). {{< link id="T6A01" >}}
+> **Información Clave:** Un resistor se opone al flujo de corriente en cualquier circuito (incluido un circuito de CC). {{< link id="T6A01" >}}
 
 Las *resistencias* son el componente más común en los circuitos electrónicos, y también el más simple: resisten la corriente. Las de orificio pasante que ves en equipos antiguos y proyectos de aficionado son piezas cilíndricas pequeñas con bandas de colores alrededor; esas bandas codifican el valor de resistencia mediante un código de colores estándar. (Puedes aprender a leerlo en otro lugar si te interesa; no lo necesitas para el examen). Los equipos modernos usan con más frecuencia resistencias diminutas de montaje superficial con sus valores impresos como números, pero la función es la misma.
 
@@ -44,8 +44,8 @@ Una batería almacena energía químicamente. Los capacitores e inductores tambi
 ##### Capacitores
 
 > **Información Clave:**
-> - Un capacitor almacena energía en un campo eléctrico. {{< link id="T6A04" >}}
-> - Un capacitor consiste en superficies conductoras (generalmente placas metálicas) separadas por un aislante. {{< link id="T6A05" >}}
+> - Un condensador almacena energía en un campo eléctrico. {{< link id="T6A04" >}}
+> - Un condensador consiste en superficies conductoras (generalmente placas metálicas) separadas por un aislante. {{< link id="T6A05" >}}
 
 La estructura física — dos conductores con un aislante entre ellos — es lo que da a un capacitor su capacidad de almacenar carga. Aplica un voltaje entre las placas y se acumula carga en ellas, creando un campo eléctrico entre las placas que almacena energía. Quita el voltaje y la energía almacenada se queda allí hasta que algo le da un lugar a donde ir.
 
@@ -64,7 +64,7 @@ ADVERTENCIA: Los capacitores a menudo retienen carga durante un tiempo después 
 > **Información Clave:**
 > - Los inductores almacenan energía en un campo magnético. {{< link id="T6A06" >}}
 > - Normalmente están construidos como una bobina de alambre. {{< link id="T6A07" >}}
-> - Se usan con capacitores para formar un circuito resonante. {{< link id="T6D08" >}}
+> - Se usan con condensadores para formar un circuito resonante. {{< link id="T6D08" >}}
 
 Mientras un capacitor almacena energía en un campo eléctrico entre placas, un *inductor* la almacena en un campo magnético que se forma alrededor de una bobina de alambre cuando la corriente fluye por ella. Por eso casi todos los inductores que verás parecen bobinas: la forma de bobina concentra el campo magnético y hace más fuerte el efecto de almacenamiento.
 
@@ -85,7 +85,7 @@ Un *potenciómetro* es una resistencia que puedes ajustar. Al girar la perilla o
 #### Interruptores
 
 > **Información Clave:**
-> * Un interruptor SPDT (Single Pole, Double Throw; un polo, doble tiro) permite que un solo circuito se conmute entre uno de otros dos circuitos. {{< link id="T6A08" >}}
+> * Un interruptor SPDT (Single Pole, Double Throw; un polo, doble tiro) permite que un solo circuito se conmute entre uno de dos circuitos. {{< link id="T6A08" >}}
 > * También necesitarás reconocer un interruptor SPST (Single Pole, Single Throw; un polo, un tiro) en un diagrama de circuito. {{< link id="T6A09" >}}
 
 ![Diagrama de un interruptor SPST](../../../images/s2-1-spst-switch.svg)
