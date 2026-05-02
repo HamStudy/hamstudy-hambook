@@ -2,7 +2,7 @@
 chapter: "8"
 section: "8.5"
 questions: [ "T1F03", "T1D12", "T1F04", "T1F05", "T1A03", "T1F06", "T1F02", "T1D11" ]
-state: complete
+status: publish1
 ---
 
 ### Section 8.5: Station Identification

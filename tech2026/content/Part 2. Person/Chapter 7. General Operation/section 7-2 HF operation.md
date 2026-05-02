@@ -2,7 +2,7 @@
 chapter: "7"
 section: "7.2"
 questions: [ "T8D09", "T2C03", "T2A06", "T2A05" ]
-state: complete
+status: publish1
 ---
 
 ### Section 7.2: HF Operation

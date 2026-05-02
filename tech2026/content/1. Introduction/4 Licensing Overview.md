@@ -5,6 +5,7 @@ chapter: "I"
 section: "I-4"
 epubtype: introduction
 questions: [ "T1C01", "T1C04", "T1C08", "T1C10", "T1C07", "T1C09", "T1C11" ]
+status: publish1
 ---
 
 # Overview of the Licensing Process

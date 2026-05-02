@@ -1,5 +1,6 @@
 ---
 slug: phonetics
+status: publish1
 ---
 
 ## Phonetic Alphabet

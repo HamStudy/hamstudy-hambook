@@ -2,7 +2,7 @@
 chapter: "6"
 section: "6.2"
 questions: [ "T7B03", "T7B02", "T7B05", "T7B07", "T4A11" ]
-state: complete
+status: publish1
 ---
 
 ### Section 6.2: Interference and Grounding

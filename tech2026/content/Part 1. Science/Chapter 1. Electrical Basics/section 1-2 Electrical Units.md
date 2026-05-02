@@ -2,7 +2,7 @@
 chapter: "1"
 section: "1.2"
 questions: ["T5A05", "T5A01", "T5A03", "T5A04", "T5A06", "T5A10", "T5A02", "T5B09", "T5B11", "T5B10", "T5A09", "T5A11", "T5C12", "T5C05", "T5C01", "T5C02", "T5C03", "T5C04", "T6D11", "T5C06", "T5C07", "T5B01", "T5B02", "T5B03", "T5B04", "T5B05", "T5B06", "T5B07", "T5B08", "T5B12", "T5B13"]
-status: complete
+status: publish1
 ---
 
 ### Section 1.2: Electrical Units and Quantities
@@ -85,7 +85,7 @@ Here's what decibels mean in practice:
 
 - **+3 dB** means power *doubles*. {{< link id="T5B09" >}}
 - **-3 dB** means power *is cut in half*.
-- **-6 dB** means power *is cut in half twice (divided by four)*. 
+- **-6 dB** means power *is cut in half twice (divided by four)*.
 - **+10 dB** means power *increases by ten times*. {{< link id="T5B11" >}}
 - **+20 dB** means power increases by one hundred times.
 
@@ -116,6 +116,8 @@ In a **DC circuit**, resistance simply opposes the flow of electricity. But in a
 *Capacitance describes the ability to store energy in an electric field* {{< link id="T5C01" >}} and is measured in *farads (F)*. {{< link id="T5C02" >}}
 
 *Inductance describes the ability to store energy in a magnetic field* {{< link id="T5C03" >}} and is measured in *henrys (H)*. {{< link id="T5C04" >}}
+
+The physical components that exhibit these properties are called **capacitors** and **inductors**; we'll cover them in Section 2.1. For now, the focus is on how they behave in a circuit.
 
 When capacitors or inductors are in an AC circuit, they oppose current differently at different frequencies. This kind of frequency-dependent opposition is called **reactance**.
 

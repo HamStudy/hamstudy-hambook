@@ -1,6 +1,7 @@
 ---
 slug: conclusion
 pagebreak: true
+status: publish1
 ---
 
 ## Conclusion: Your Journey into Amateur Radio

@@ -2,7 +2,7 @@
 chapter: "3"
 section: "3.5"
 questions: [ "T8D01", "T8D08", "T8D03", "T8D05", "T8D06", "T8D07", "T2B12", "T2B14", "T2B07", "T4B07", "T4B11", "T4B09", "T4A10", "T4A06", "T4A04", "T4A07", "T8D02", "T8D10", "T8D04", "T8D12", "T8D11" ]
-status: complete
+status: publish1
 ---
 
 ### Section 3.5: Digital and Video Modes

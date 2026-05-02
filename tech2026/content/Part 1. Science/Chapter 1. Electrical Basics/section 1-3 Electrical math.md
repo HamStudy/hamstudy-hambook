@@ -2,7 +2,7 @@
 chapter: "1"
 section: "1.3"
 questions: [ "T5D03", "T5D01", "T5D02", "T5D12", "T5D06", "T5C08", "T5C09", "T5C10", "T5C11", "T5D04", "T5D05", "T5D07", "T5D08", "T5D09", "T5D10", "T5D11" ]
-status: complete
+status: publish1
 ---
 
 ### Section 1.3: Electrical Laws (and Math)
@@ -28,9 +28,9 @@ $$E = I \times R$$
 {.float-right .img-small}
 
 Where:
-- **$E$** is the *voltage (electromotive force)* in **volts (V)**.  
-- **$I$** is the *current* in **amperes (A)**.  
-- **$R$** is the *resistance* in **ohms (Ω)**.  
+- **$E$** is the *voltage (electromotive force)* in **volts (V)**.
+- **$I$** is the *current* in **amperes (A)**.
+- **$R$** is the *resistance* in **ohms (Ω)**.
 
 Since it's a simple formula, you can **rearrange it** to solve for any of the three values using the circle diagram on the right! {{< link id="T5D03" >}}{{< link id="T5D01" >}} To use this helper:
 
@@ -85,9 +85,9 @@ $$P = I \times E$$
 {.float-right .img-small}
 
 Where:
-- **$P$** is the *power* in **watts (W)**.  
-- **$I$** is the *current* in **amperes (A)**.  
-- **$E$** is the *voltage* in **volts (V)**.  
+- **$P$** is the *power* in **watts (W)**.
+- **$I$** is the *current* in **amperes (A)**.
+- **$E$** is the *voltage* in **volts (V)**.
 
 Easy as PIE! Just like with Ohm's Law, there's a helpful circle diagram for power calculations.
 

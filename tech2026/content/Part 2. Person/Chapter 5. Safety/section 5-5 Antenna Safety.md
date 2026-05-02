@@ -2,7 +2,7 @@
 chapter: "5"
 section: "5.5"
 questions: [ "T0B02", "T0B03", "T0B07", "T0B04", "T0B06", "T0B09", "T0B05", "T0B01", "T0A07", "T0A09", "T0B08", "T4A08", "T0B10", "T0B11" ]
-state: complete
+status: publish1
 ---
 
 ### Section 5.5: Antennas and Tower Safety

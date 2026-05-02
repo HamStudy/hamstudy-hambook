@@ -2,7 +2,7 @@
 chapter: "6"
 section: "6.7"
 questions: [ "T7B06", "T7B08", "T7B11", "T7B10", "T7B09" ]
-state: complete
+status: publish1
 ---
 
 ### Section 6.7: Common Problems

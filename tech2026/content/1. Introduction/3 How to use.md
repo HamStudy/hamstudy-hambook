@@ -1,5 +1,6 @@
 ---
 epubtype: introduction
+status: publish1
 ---
 # How to Use This HamBook
 
@@ -37,10 +38,10 @@ Once you've covered the material and are getting close to exam day, here's an ef
 
 - First, use Study Mode until you've seen 100% of the questions at least once.
 - Then follow this proven method to efficiently prepare for the exam:
-  1. Take a practice exam to identify knowledge gaps
-  2. Select "Study Weakest Areas" (in the app) or focus on the categories where you missed the most questions (on the website)
-  3. Study those areas for a set amount of time until you feel more confident
-  4. Take another practice exam and repeat the process
+  1. Take a practice exam to identify knowledge gaps.
+  2. Select "Study Weakest Areas" (in the app) or focus on the categories where you missed the most questions (on the website).
+  3. Study those areas for a set amount of time until you feel more confident.
+  4. Take another practice exam and repeat the process.
 - You're likely ready for the exam when you're consistently scoring 85% or better on practice tests (remember, you only need 74% to pass).
 - Strategic tip: Since each exam question comes from a different section of the question pool, you could theoretically skip up to 9 sections entirely as long as you master the other 26.
 

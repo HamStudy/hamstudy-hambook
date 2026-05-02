@@ -2,7 +2,7 @@
 chapter: "6"
 section: "6.6"
 questions: [ "T7D07", "T6D04", "T7D01", "T7D04", "T7D02", "T7D03", "T7D05", "T7D11", "T7D06", "T7D10", "T0A11", "T0A12", "T7C01", "T7C03", "T7D08", "T7D09" ]
-state: complete
+status: publish1
 ---
 
 ### Section 6.6: Basic Repair and Testing

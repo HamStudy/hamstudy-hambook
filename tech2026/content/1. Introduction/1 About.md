@@ -3,6 +3,7 @@ title: About Amateur Radio
 slug: about
 epubtype: introduction
 questions: []
+status: publish1
 ---
 
 # About Amateur Radio

@@ -2,7 +2,7 @@
 chapter: "8"
 section: "8.1"
 questions: [ "T1A02", "T1A01", "T1C01", "T1A04", "T1A05", "T1C04", "T1C07", "T1C05", "T1C02", "T1F11" ]
-state: complete
+status: publish1
 ---
 
 ### Section 8.1: Operator Classes, Privileges, and Callsigns

@@ -2,7 +2,7 @@
 chapter: "6"
 section: "6.5"
 questions: [ "T1F09", "T2A07", "T2A01", "T2A03", "T2B01", "T2B02", "T2B04", "T2A04", "T2A09", "T2A11", "T2B03", "T8C07", "T8C06", "T8C10", "T8C08", "T8C09", "T8C11" ]
-state: complete
+status: publish1
 ---
 
 ### Section 6.5: Repeater Operation

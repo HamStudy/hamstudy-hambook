@@ -2,6 +2,7 @@
 slug: copyright
 epubtype: introduction
 fontsize: smaller
+status: publish1
 ---
 ## Copyright, License, and Contributors
 

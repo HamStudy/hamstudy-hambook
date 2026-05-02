@@ -2,7 +2,7 @@
 chapter: "3"
 section: "3.1"
 questions: [ "T3B03", "T3B01", "T3B04", "T3B11", "T3B12", "T3B02", "T3B05", "T3B06", "T3B07"]
-status: complete
+status: publish1
 ---
 
 ### Section 3.1: Frequency and Wavelength

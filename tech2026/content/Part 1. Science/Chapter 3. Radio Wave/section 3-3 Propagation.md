@@ -2,7 +2,7 @@
 chapter: "3"
 section: "3.3"
 questions: [ "T3A11", "T3C11", "T3C02", "T3C01", "T3A01", "T3A06", "T3A10", "T3A05", "T3C05", "T3A08", "T3C09", "T3C10", "T3C03", "T3C04", "T3C08", "T3C06", "T3C07", "T3A07", "T3A12", "T3A02" ]
-status: complete
+status: publish1
 ---
 
 ### Section 3.3: How Signals Travel

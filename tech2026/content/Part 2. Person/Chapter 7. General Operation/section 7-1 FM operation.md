@@ -2,7 +2,7 @@
 chapter: "7"
 section: "7.1"
 questions: [ "T2A02", "T4B04", "T2B05", "T7B01", "T8A12", "T2B11", "T2B10", "T2A08" ]
-state: complete
+status: publish1
 ---
 
 ### Section 7.1: FM Operation
@@ -68,12 +68,12 @@ We won't cover all of them here, but these are some of the most common:
 
 - **QSY** – "I'm changing frequency" or "Change your frequency to...".
 - **QTH** – "My location is..." Used to tell others where you are.
-- **QRM** – "I'm getting interference from other stations.".
+- **QRM** – "I'm getting interference from other stations."
 - **QRN** – "I'm getting interference from atmospheric noise." Think thunderstorm static.
-- **QSL** – "I confirm" or "I understand." Like saying "roger" or "copy.".
+- **QSL** – "I confirm" or "I understand." Like saying "roger" or "copy."
 - **QRZ** – "Who is calling me?" Used when someone is calling but you didn't catch the callsign.
-- **73** – "Best regards" or "Goodbye.".
-- **88** – "Love and kisses." (Often used by ham couples or close friends.).
+- **73** – "Best regards" or "Goodbye."
+- **88** – "Love and kisses" (often used by ham couples or close friends).
 - **CQ** – "Calling any station." Use this when you want someone — anyone — to come back to you.
 - **DX** – Refers to distance. "Working DX" means you're trying to make long-distance or foreign contacts.
 

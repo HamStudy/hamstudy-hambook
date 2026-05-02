@@ -2,6 +2,7 @@
 chapter: "5"
 section: "5.2"
 questions: []
+status: publish1
 ---
 
 ### Section 5.2: Hazardous Voltages

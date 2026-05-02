@@ -2,7 +2,7 @@
 chapter: "6"
 section: "6.4"
 questions: [ "T4B02", "T7A07", "T2B13", "T4B03", "T4B05", "T2B06", "T4B08", "T4B10", "T4B01", "T4B06", "T4A12" ]
-status: complete
+status: publish1
 ---
 
 ### Section 6.4: Operating Your Transceiver

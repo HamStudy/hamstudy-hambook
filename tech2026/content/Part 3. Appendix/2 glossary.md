@@ -4,6 +4,7 @@ slug: glossary
 questions: []
 pagebreak: false
 fontsize: smaller
+status: publish1
 ---
 
 ## Glossary of Amateur Radio Terms
@@ -15,8 +16,11 @@ Welcome to the amateur radio glossary! Here you'll find definitions for common t
 ##### Amateur Radio
 A radio communication service used by licensed operators for personal communication, technical exploration, emergency communication, and public service. Governed by the FCC in the United States, amateur radio operators (hams) use various frequency bands and modes to communicate locally and globally.
 
+##### Antenna Tuner
+A device that matches the impedance of an antenna system to the transceiver's output impedance. Sometimes called an antenna coupler. A tuner doesn't actually "tune" the antenna — it just makes the transmitter see a load it's happy with. See Section 4.1.
+
 ##### APRS (Automatic Packet Reporting System) {#glossary-aprs}
-A digital communication system that allows amateur radio operators to transmit position data, weather information, and short text messages. It provides real-time tactical communications with mapping capabilities. Discussed in Section 3.6.
+A digital communication system that allows amateur radio operators to transmit position data, weather information, and short text messages. It provides real-time tactical communications with mapping capabilities. Discussed in Section 3.5.
 
 ##### ARES (Amateur Radio Emergency Service)
 A volunteer organization for emergency communications. Discussed in Section 7.3.
@@ -31,6 +35,9 @@ A voluntary guideline for using different modes or activities within an amateur 
 
 #### C
 
+##### Coax / Coaxial Cable
+The most common type of feed line in amateur radio. Coax has a center conductor surrounded by insulation (the dielectric), a shielding layer, and a protective outer jacket. Most amateur coax has an impedance of 50 ohms. See Section 4.3.
+
 ##### CTCSS (Continuous Tone-Coded Squelch System)
 A sub-audible tone transmitted along with voice audio to open the squelch of a receiver. Often called "PL" (Private Line), it helps prevent interference and unwanted repeater activations.
 
@@ -44,6 +51,9 @@ It was originally called Continuous Wave to differentiate it from the raspy squa
 ##### Digital Mobile Radio (DMR) {#glossary-dmr}
 A digital voice and data radio technology that uses time-division multiple access (TDMA) to allow two voice channels in a single 12.5 kHz channel bandwidth.
 
+##### Dipole
+The most basic antenna type — two conductors of equal length, fed at the center. A half-wave dipole radiates strongest broadside to the wire. Most other antenna types are variations on the dipole. See Section 4.1.
+
 ##### Doppler Shift
 An observed change in signal frequency caused by relative motion between a satellite and an Earth station. As a satellite approaches, the frequency appears higher; as it moves away, it seems lower.
 
@@ -52,17 +62,43 @@ A method of signaling that uses pairs of audio tones to send commands, often use
 
 When first used, Western Electric called it TouchTone (TM), but since other manufacturers couldn't call it by its trade-marked name, they referred to it as DTMF.
 
+##### Dummy Load
+A device, typically a 50-ohm non-inductive resistor mounted on a heat sink, that absorbs RF energy as heat instead of radiating it. Used for testing transmitters without putting a signal on the air.
+
+##### DX / DXing
+Refers to distant or long-distance contacts, typically with foreign stations. "Working DX" means trying to make long-distance contacts. DXing is a popular pursuit on the HF bands.
+
 #### F
+
+##### Field Day
+An annual amateur radio event, held the fourth weekend of June, where hams set up stations in the field — often using emergency power and temporary antennas — and try to make as many contacts as possible. It's part contest, part emergency-preparedness exercise, and part social gathering.
 
 ##### Frequency Coordinator
 A volunteer or volunteer group recognized by local amateur operators who recommends transmit/receive channels and other parameters for auxiliary and repeater stations.
 
+#### G
+
+##### Ground Plane
+A conductive surface that acts as the "other half" of certain antennas like quarter-wave verticals. The ground plane can be the Earth itself, a vehicle's metal body, the body of a handheld radio (or even your hand and arm), or a set of radial wires extending from the antenna base.
+
 #### H
+
+##### Handheld Transceiver (HT)
+A small, portable, battery-powered radio that fits in your hand. Sometimes called a "walkie-talkie." HTs are the most common starting point for new Technicians. See Section 6.3.
+
+##### Harmonics
+Multiples of a fundamental transmit frequency. For example, a transmitter on 146 MHz can produce harmonics at 292 MHz, 438 MHz, and so on. Harmonics are a common cause of interference and are minimized through proper transmitter design and filtering.
+
+##### Hertz (Hz)
+The unit of frequency, equal to one cycle per second. Common multiples include kilohertz (kHz, thousands of cycles per second), megahertz (MHz, millions), and gigahertz (GHz, billions).
 
 ##### HF (High Frequency)
 The radio frequency band between 3 and 30 MHz, known for long-distance communication through ionospheric propagation.
 
 #### I
+
+##### Ionosphere
+A region of the upper atmosphere containing charged particles (ions) that can refract HF radio waves back toward Earth, enabling long-distance communication. Conditions in the ionosphere change with time of day, season, and solar activity. See Section 3.3.
 
 ##### IRLP (Internet Radio Linking Project)
 A system that connects amateur radio systems via the internet using Voice Over Internet Protocol (VoIP), allowing worldwide communication through linked repeaters.
@@ -77,6 +113,11 @@ A satellite orbit relatively close to Earth's surface, typically between 100 and
 ##### Modulation
 The process of combining speech or data with a radio frequency carrier signal. Different types include AM (Amplitude Modulation), FM (Frequency Modulation), and SSB (Single Sideband).
 
+#### O
+
+##### OSCAR (Orbiting Satellite Carrying Amateur Radio)
+A naming convention for amateur radio satellites. Most amateur satellites are designated OSCAR-something (for example, AO-91 is "AMSAT OSCAR 91"). See Section 7.4.
+
 #### P
 
 ##### Packet Radio {#glossary-packet-radio}
@@ -88,24 +129,44 @@ Shorthand for the [Code of Federal Regulations, Title 47, Chapter I, Part 97](ht
 ##### Propagation
 The way radio waves travel from a transmitting antenna to a receiving antenna. Different bands and frequencies have different propagation characteristics.
 
+#### Q
+
+##### QRP
+Low-power operation, typically 5 watts or less for CW or 10 watts or less for SSB. QRP is a popular niche of amateur radio — operators challenge themselves to make contacts using minimal power.
+
+##### QSO
+A two-way contact or conversation between two amateur stations. The term comes from the Q-code "QSO" (originally meaning "I can communicate with..."). "Having a QSO" is what hams do on the air.
+
 #### R
 
 ##### RACES (Radio Amateur Civil Emergency Service)
 An amateur radio service specifically for civil defense communications during national emergencies, operating under governmental authority.
 
+##### Ragchewing
+Casual, extended conversation on the air — the radio equivalent of hanging out and shooting the breeze. The opposite of contest-style brief exchanges.
+
 ##### Repeater
 An amateur radio station that receives signals on one frequency and simultaneously retransmits them on another frequency, extending communication range.
+
+##### Resonance / Resonant Frequency
+The frequency at which an antenna or tuned circuit operates most efficiently. At resonance, inductive and capacitive reactances cancel out, allowing energy to flow most readily. Antennas are typically designed to be resonant at their operating frequency. See Sections 1.2 and 3.1.
 
 ##### RF (Radio Frequency)
 Electromagnetic waves used for wireless communication, typically ranging from 3 kHz to 300 GHz.
 
 #### S
 
+##### Sideband
+The frequencies above and below a carrier wave that contain the actual modulated information. AM signals have both upper and lower sidebands; SSB transmits only one. See Section 3.4.
+
 ##### Simplex
 A communication mode where stations transmit and receive on the same frequency.
 
 ##### Space Station
 An amateur radio station located more than 50 km above Earth's surface, typically a satellite.
+
+##### Squelch
+A receiver function that mutes audio when no signal is present, eliminating the constant hiss of background noise. The squelch threshold determines how strong a signal must be to "open" the squelch and let audio through.
 
 ##### SSB (Single Sideband)
 A type of amplitude modulation that carries information on a single sideband of the carrier frequency, allowing more efficient use of radio spectrum.
@@ -137,11 +198,22 @@ The radio frequency band between 300 MHz and 3 GHz. Commonly used for local comm
 ##### Vanity Callsign
 A custom callsign chosen by a licensed operator. See Section 8.1.
 
+##### VEC (Volunteer Examiner Coordinator)
+An organization that coordinates volunteer examiners and submits exam results to the FCC. The ARRL and W5YI are two well-known VECs in the United States.
+
 ##### VHF (Very High Frequency) {#glossary-vhf}
 The radio frequency band between 30 and 300 MHz.
 
 ##### VoIP (Voice Over Internet Protocol)
 A method of delivering voice communications over the internet using digital techniques.
+
+##### Volunteer Examiner (VE)
+A licensed amateur radio operator (General class or higher) who is accredited by a VEC to administer license exams. New Technicians take their exams in front of a team of three VEs.
+
+#### Y
+
+##### Yagi
+A directional beam antenna using a driven element plus parasitic directors and a reflector. Yagis offer high gain in a specific direction and are commonly used for VHF/UHF weak-signal work, satellite operation, and HF DX.
 
 #### Special Codes and Abbreviations
 
@@ -170,4 +242,4 @@ Acknowledgment of receipt or understanding.
 Changing to a different frequency.
 
 ##### QTH
-The location of a station. For example, “My QTH is Salt Lake City” means “My location is Salt Lake City.”
+The location of a station. For example, "My QTH is Salt Lake City" means "My location is Salt Lake City."

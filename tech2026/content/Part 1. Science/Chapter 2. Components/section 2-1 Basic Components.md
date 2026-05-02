@@ -2,7 +2,7 @@
 chapter: "2"
 section: "2.1"
 questions: [ "T5D13", "T5D14", "T6A01", "T6A04", "T6A05", "T6A06", "T6A07", "T6D08", "T6A03", "T6A02", "T6A08", "T6A09" ]
-status: complete
+status: publish1
 ---
 
 ### Section 2.1: Basic Components

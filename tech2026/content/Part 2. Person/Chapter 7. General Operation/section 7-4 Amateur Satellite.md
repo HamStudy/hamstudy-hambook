@@ -2,7 +2,7 @@
 chapter: "7"
 section: "7.4"
 questions: [ "T1A07", "T1E02", "T1B02", "T8B10", "T8B08", "T8B04", "T8B01", "T8B05", "T8B11", "T8B09", "T8B07", "T8B03", "T8B06", "T8B02", "T8B12" ]
-state: complete
+status: publish1
 ---
 
 ### Section 7.4: Amateur Satellite Operation
@@ -46,7 +46,7 @@ With Doppler shift, as the satellite approaches, the frequency appears higher, a
 #### Tracking and Operating Satellites
 
 > **Key Information:**
-> - Satellite tracking programs provide real-time satellite position maps, pass timing, and apparent frequency including Doppler shift. {{< link id="T8B03" >}}.
+> - Satellite tracking programs provide real-time satellite position maps, pass timing, and apparent frequency including Doppler shift. {{< link id="T8B03" >}}
 > - The primary input to a satellite tracking program is the Keplerian elements — a set of numbers that describe the satellite's orbit. {{< link id="T8B06" >}}
 > - Using excessive effective radiated power on a satellite uplink can cause blocking access by other users. {{< link id="T8B02" >}}
 > - To check whether your uplink power into a linear transponder satellite is appropriate, your signal strength on the downlink should be about the same as the beacon. {{< link id="T8B12" >}}

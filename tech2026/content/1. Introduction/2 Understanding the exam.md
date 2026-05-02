@@ -1,5 +1,6 @@
 ---
 epubtype: introduction
+status: publish1
 ---
 # Understanding the Technician License Exam
 

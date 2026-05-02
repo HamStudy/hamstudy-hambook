@@ -2,6 +2,7 @@
 chapter: "8"
 section: "8.2"
 questions: []
+status: publish1
 ---
 
 ### Section 8.2: ITU Regions

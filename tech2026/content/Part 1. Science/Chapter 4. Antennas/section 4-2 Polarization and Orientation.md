@@ -2,7 +2,7 @@
 chapter: "4"
 section: "4.2"
 questions: [ "T9A03", "T3A09", "T3A04", "T3A03" ]
-status: complete
+status: publish1
 ---
 
 ### Section 4.2: Polarization and Orientation

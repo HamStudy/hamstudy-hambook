@@ -2,6 +2,7 @@
 chapter: "8"
 section: "8.3"
 questions: [ "T1B06", "T1B01", "T1B05", "T1B10", "T1B03", "T1B04", "T1B07", "T1B11", "T1B12", "T1B09" ]
+status: publish1
 ---
 
 ### Section 8.3: Authorized Frequencies

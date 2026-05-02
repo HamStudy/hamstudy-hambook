@@ -2,7 +2,7 @@
 chapter: "3"
 section: "3.4"
 questions: [ "T8A02", "T8A04", "T8A09", "T8A03", "T8A07", "T8A06", "T8A08", "T8A01", "T8A05", "T8A11", "T8A10" ]
-status: complete
+status: publish1
 ---
 
 ### Section 3.4: Modulation Modes and Bandwidth
@@ -73,8 +73,8 @@ One fascinating aspect of amateur radio is how available bandwidth influences ou
 - **Narrow Sections (Limited Bandwidth)**: Modes like CW (Morse code) work brilliantly because they use an incredibly narrow slice of spectrum — like using just a sliver of a specific color in the rainbow.
 
 - **Wider Sections (More Bandwidth)**: Bands with more available frequencies can support "wider" modes. For example:
-  - The 10-meter band has enough room for both narrow CW and wider SSB
-  - VHF/UHF repeater bands can handle FM voice, which needs more bandwidth
+  - The 10-meter band has enough room for both narrow CW and wider SSB.
+  - VHF/UHF repeater bands can handle FM voice, which needs more bandwidth.
   - Fast-scan television requires massive bandwidth (about 6 MHz!) That's more than the width of any of the amateur bands below 70cm, so it is only allowed on 70cm and above.
 
 As frequency ranges get wider, you can use more bandwidth-intensive modes. A 2-meter band voice contact might use wide FM (15kHz) or narrow FM (5kHz), or even narrower SSB (3kHz). There are digital modes that can be even narrower. One digital mode, PSK31 (which we'll discuss in the next section), fits in roughly 60 Hz in practical use — narrower than a typical CW signal.

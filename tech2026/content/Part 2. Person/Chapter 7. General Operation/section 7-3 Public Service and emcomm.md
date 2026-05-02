@@ -2,7 +2,7 @@
 chapter: "7"
 section: "7.3"
 questions: [ "T2C06", "T2C04", "T1A10", "T2C12", "T2C02", "T2C07", "T2C05", "T2C01", "T2C09", "T2C10", "T2C11", "T2C08" ]
-state: complete
+status: publish1
 ---
 
 ### Section 7.3: Public Service and Emergency Operations
