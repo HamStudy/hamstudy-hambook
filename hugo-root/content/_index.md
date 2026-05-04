@@ -38,11 +38,12 @@ New operators start here!
 
 From $9.99 – choose your format:
 
-* [PDF](https://signalstuff.com/products/hambook-tech2026/?format=pdf) – Multiple page sizes available!
-* [E-Book (EPUB3)](https://signalstuff.com/products/hambook-tech2026/?format=epub)
+<!-- * [PDF](https://signalstuff.com/products/hambook-tech2026/?format=pdf) – Multiple page sizes available!
+* [E-Book (EPUB3)](https://signalstuff.com/products/hambook-tech2026/?format=epub) -->
 * Paperback books from Amazon:
   * [6" x 9" Paperback](https://amzn.to/4cLrKUM) – $19.99
   * [8.5" x 11" Large Print Paperback](https://amzn.to/4d47755) – $27.99
+* PDF, Epub, and Audiobooks should be coming very very soon!
 <!-- * [Audiobook](https://signalstuff.com/products/hambook-tech2026/?format=audiobook) — Coming soon -->
 
 Your purchase helps support the development and maintenance of these free resources.
