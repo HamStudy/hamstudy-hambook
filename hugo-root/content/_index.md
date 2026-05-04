@@ -19,17 +19,18 @@ Welcome to HamBooks — free, comprehensive study guides designed to help you ea
 
 {{% columns class="book-details" ratio="1:2" %}}
 
-![Technician HamBook](/tech2022.jpg)
+![Technician HamBook](/tech2026.jpg)
 {.hb-cover}
 
 <---> <!-- magic separator, between columns -->
 
 New operators start here!
-* Complete coverage of the 2022-2026 Technician Class question pool
+* Complete coverage of the 2026-2030 Technician Class question pool
 * Practical guidance for beginners
 * Perfect for anyone new to amateur radio
+* Includes an appendix with questions from the previous pool for those taking the exam before July 1, 2026
 
-{{< button relref="/tech2022" >}}Read online for Free!{{< /button >}}
+{{< button relref="/tech2026" >}}Read online for Free!{{< /button >}}
 
 **Download and Purchase**:
 
@@ -37,16 +38,16 @@ New operators start here!
 
 From $9.99 – choose your format:
 
-* [PDF](https://signalstuff.com/products/hambook-tech2022/?format=pdf) – Multiple page sizes available!
-* [E-Book (EPUB3)](https://signalstuff.com/products/hambook-tech2022/?format=epub)
+* [PDF](https://signalstuff.com/products/hambook-tech2026/?format=pdf) – Multiple page sizes available!
+* [E-Book (EPUB3)](https://signalstuff.com/products/hambook-tech2026/?format=epub)
 * Paperback books from Amazon:
-  * [6" x 9" Paperback](https://amzn.to/4irwONy) – $19.99
-  * [8.5" x 11" Large Print Paperback](https://amzn.to/4jIS6qX) – $29.99
-<!-- * [Audiobook](https://signalstuff.com/products/hambook-tech2022/?format=audiobook) — Coming soon -->
+  * [6" x 9" Paperback](https://amzn.to/4cLrKUM) – $19.99
+  * [8.5" x 11" Large Print Paperback](https://amzn.to/4d47755) – $27.99
+<!-- * [Audiobook](https://signalstuff.com/products/hambook-tech2026/?format=audiobook) — Coming soon -->
 
 Your purchase helps support the development and maintenance of these free resources.
 
-*Planning ahead? The [2026-2030 Technician book]({{% relref "/tech2026" %}}) is available for preview. It takes effect July 1, 2026. The book will be finalized before the new question pool becomes effective.*
+*Taking the exam before July 1, 2026? The current HamBook has an appendix covering the difference, but you can still find the [2022-2026 Technician book here]({{% relref "/tech2022" %}}).*
 
 {{% /columns %}}
 

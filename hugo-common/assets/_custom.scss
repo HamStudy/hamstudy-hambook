@@ -163,7 +163,9 @@ figure {
 }
 
 .print-only { display: none; }
+.web-skip { display: none; }
 @media print {
+  .web-skip { display: block; }
   .web-only { display: none; }
   .print-only {
     display: block;
@@ -191,6 +193,10 @@ figure {
     > img.float-left + p {
       text-indent: var(--paragraph-indent);
     }
+  }
+
+  div.vpad {
+    min-height: 5rem;
   }
 
   hr.section-break {

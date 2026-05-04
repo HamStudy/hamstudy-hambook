@@ -72,7 +72,7 @@
             {{- $displayID = printf "%s-%s" $poolYear $questionID -}}
           {{- end -}}
           {{- if or $shouldLink (strings.Contains $page.RawContent (printf "\"%s\"" $questionID)) -}}
-            <span class="q-id"><a href="#link-{{ $questionID }}" class="question-link">{{ $displayID }}</a>:</span>
+            <span class="q-id"><a href="#link-{{ if $questionPool }}{{ $questionPool }}-{{ end }}{{ $questionID }}" class="question-link">{{ $displayID }}</a>:</span>
           {{- else if $shouldLink -}}
             <span class="q-id">{{ $displayID }}:</span>
           {{- else -}}

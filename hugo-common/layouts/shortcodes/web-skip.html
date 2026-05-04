@@ -1,2 +1,5 @@
-<!-- Not used in the web version -->
-{{- $content := .Inner -}}
+{{ if .Inner }}
+<div class="web-skip">
+{{ .Inner | markdownify }}
+</div>
+{{ end }}

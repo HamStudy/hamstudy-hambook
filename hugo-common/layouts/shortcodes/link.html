@@ -1,2 +1,7 @@
 {{ $id := .Get "id" }}
+{{ $pool := .Get "pool" }}
+{{ if $pool }}
+<span id="link-{{ $pool }}-{{ $id }}" class="question-anchor"></span>
+{{ else }}
 <span id="link-{{ $id }}" class="question-anchor"></span>
+{{ end }}

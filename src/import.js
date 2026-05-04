@@ -124,7 +124,7 @@ function watchAndProcess(rootDir, outputFormat, outputPath) {
 }
 
 (async () => {
-    const argv = yargs
+    const argv = yargs(process.argv.slice(2))
         .positional('root-dir', {
             description: 'The root directory of the source content',
             type: 'string'

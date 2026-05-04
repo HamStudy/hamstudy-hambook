@@ -34,12 +34,11 @@ Under the following terms:
 - ❌ You **may not** share, distribute, or upload the ebook or audiobook to any public or private platform.
 - ❌ You **may not** scan, copy, or digitize the paperback version for redistribution.
 - ❌ You **may not** sell or profit from any unauthorized copies of this book.
-- ✅ You **may sell your personal paperback copy** as a used book.
-{{</ web-skip >}}
+- ✅ You **may sell your personal paperback copy** as a used book.{{</ web-skip >}}
 
 By purchasing this book, you agree to these terms.
 
-** You can find all versions of the book for online viewing or purchase at https://hambook.org **
+#### You can find all versions of the book for online viewing or purchase at https://hambook.org
 
 ---
 
@@ -55,5 +54,3 @@ The following entities have contributed in major ways to this book:
 * ChatGPT — Helped with brainstorming and minor text refinements.
 
 Also huge thanks to all who have emailed us about corrections or typos!
-
----

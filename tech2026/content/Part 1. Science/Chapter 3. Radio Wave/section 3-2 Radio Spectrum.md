@@ -33,10 +33,10 @@ Amateur radio frequencies are organized into "bands" based on their wavelengths.
 
 #### HF Bands
 
+As a Technician, you'll have limited HF access, primarily on the 10-meter band (28 MHz) — but understanding how these frequencies behave is still important because the ionospheric propagation that makes HF special is a big part of why the hobby is fun. When conditions are right, a modest signal on 10 meters can reach operators thousands of miles away.
+
 ![HF illustration showing ionospheric propagation](../../../images/illus/hf-illus.svg)
 {.img-pgcap .float-right}
-
-As a Technician, you'll have limited HF access, primarily on the 10-meter band (28 MHz) — but understanding how these frequencies behave is still important because the ionospheric propagation that makes HF special is a big part of why the hobby is fun. When conditions are right, a modest signal on 10 meters can reach operators thousands of miles away.
 
 Beacon stations are automated transmitters that help operators monitor these conditions. They transmit regularly on known frequencies, letting amateurs around the world determine if a band is "open" for long-distance communications.
 
@@ -44,19 +44,19 @@ Beacon stations are automated transmitters that help operators monitor these con
 
 By tuning to that range and listening for distant beacons, you can quickly assess whether conditions are favorable for long-distance 10-meter communications.
 
-#### VHF Bands
-
 ![VHF illustration showing line of sight propagation](../../../images/illus/vhf-illus.svg)
 {.img-pgcap .float-right}
+
+#### VHF Bands
 
 VHF sits between the globally-reaching HF bands and the strictly local UHF bands. The 6-meter band (50-54 MHz) occasionally experiences enhanced propagation that can provide surprising long-distance contacts, while the popular 2-meter band (144-148 MHz) provides reliable regional communications within roughly 50-100 miles depending on terrain and antenna height.
 
 For most new Technician operators, 2 meters will become your primary band. Its reliable characteristics, abundance of repeaters, and wide availability of affordable equipment make it the perfect entry point for new hams — this band forms the backbone of local amateur radio activity in most areas. We'll cover operating on 2 meters in more detail in Chapter 7.
 
-#### UHF Bands
-
 ![UHF illustration showing short range line of sight propagation between two HT radios with 446.000 on the displays](../../../images/illus/uhf-illus.svg)
 {.img-pgcap .float-right}
+
+#### UHF Bands
 
 UHF's inability to use ionospheric propagation might look like a disadvantage, but it comes with some upsides — more predictable coverage, less interference from distant stations, stable day-to-day performance, and more available bandwidth. These characteristics make UHF bands excellent for local networks, digital modes, and urban communications where reliability matters more than distance.
 
