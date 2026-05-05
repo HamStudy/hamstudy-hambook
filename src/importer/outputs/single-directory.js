@@ -39,16 +39,17 @@ async function writeSingleDirectoryBook(book, outputPath, sourcePath, lang = und
     const sourceDir = path.resolve(sourcePath);
 
     const poolData = formatPoolData(book.pool, sourceDir);
-    // Write language-specific questions file
-    const poolFilePath = lang && lang !== 'default'
-        ? path.join(dataDir, `questions-${lang}.json`)
-        : path.join(dataDir, 'questions.json');
-    await fs.writeFile(poolFilePath, JSON.stringify(poolData, null, 2));
 
     // Create the necessary directories
     await fs.mkdir(contentDir, { recursive: true });
     await fs.mkdir(imagesOutputDir, { recursive: true });
     await fs.mkdir(dataDir, { recursive: true });
+
+    // Write language-specific questions file
+    const poolFilePath = lang && lang !== 'default'
+        ? path.join(dataDir, `questions-${lang}.json`)
+        : path.join(dataDir, 'questions.json');
+    await fs.writeFile(poolFilePath, JSON.stringify(poolData, null, 2));
 
     // Keep track of processed images
     const processedImages = [];
