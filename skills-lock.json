@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "skills": {
+    "accessible-technical-writing": {
+      "source": "HamStudy/documentation-skills",
+      "sourceType": "github",
+      "computedHash": "13b628cba5ee43938b94cb209fb30ef1c1d0547a4e6737b7b5ad0f38fdfb0454"
+    }
+  }
+}

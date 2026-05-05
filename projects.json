@@ -1,0 +1,29 @@
+{
+  "projects": [
+    {
+      "name": "tech2022",
+      "path": "tech2022",
+      "port": 1314,
+      "active": true
+    },
+    {
+      "name": "tech2026",
+      "path": "tech2026",
+      "port": 1315,
+      "active": true
+    },
+    {
+      "name": "general2023",
+      "path": "general2023",
+      "port": 1316,
+      "active": true
+    }
+  ],
+  "root": {
+    "path": "hugo-root",
+    "port": 1310
+  },
+  "proxy": {
+    "port": 1313
+  }
+}
