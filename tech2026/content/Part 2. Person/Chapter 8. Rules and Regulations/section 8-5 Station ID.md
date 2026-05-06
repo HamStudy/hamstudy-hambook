@@ -63,7 +63,6 @@ As much as we all love our callsigns (if you don't, you will!) there are times w
 * Parade headquarters — someone to coordinate with the officials in charge of the parade and relay information as needed.
 * 1st Street.
 * 2nd Street.
-* ...
 * Staging — the beginning of the parade where floats prepare to start.
 * Net Control — the person coordinating all the operators so they don't all talk over each other.
 
