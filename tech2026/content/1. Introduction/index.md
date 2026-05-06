@@ -27,8 +27,11 @@ Under the following terms:
 ### **Ebook (PDF/EPUB), Paperback, and Audiobook License**
 
 {{< print-only >}}The **ebook (PDF/EPUB), Audiobook, and paperback versions are NOT covered under the Creative Commons license of the web version!**{{< /print-only >}}
-{{< web-only tag="span">}}The **ebook (PDF/EPUB) and paperback versions are NOT covered under the Creative Commons license above.**{{< /web-only >}}
+
+{{< web-only >}}The **ebook (PDF/EPUB) and paperback versions are NOT covered under the Creative Commons license above.**{{< /web-only >}}
+
 {{< audiobook-only >}}This Audiobook was created with the assistance of AI-generated Text-to-speech under the creative direction of HamStudy.org LLC. The ebook (both PDF and epub), Audiobook, and paperback versions of this book are NOT covered under the Creative Commons license of the web version!{{< /audiobook-only >}}
+
 {{< web-skip >}}
 - These versions are licensed for **personal and immediate family use only**.
 - ❌ You **may not** share, distribute, or upload the ebook or audiobook to any public or private platform.
