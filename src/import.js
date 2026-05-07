@@ -169,8 +169,8 @@ function watchAndProcess(rootDir, outputFormat, outputPath) {
             } else {
                 book = await loadBook(rootDir);
             }
-        } else if (argv['output-format'] === formatTypes.singleDirectoryBook) {
-            // Detect multilingual content for single-directory output
+        } else if (argv['output-format'] === formatTypes.singleDirectoryBook || argv['output-format'] === formatTypes.audiobookDirectoryBook) {
+            // Detect multilingual content for single-directory or audiobook output
             const dirEntries = await fs.readdir(rootDir, { withFileTypes: true });
             const contentDirs = dirEntries.filter(e => e.isDirectory() && /^content(\.[a-z]{2})?$/.test(e.name));
             if (contentDirs.length > 1) {
