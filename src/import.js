@@ -90,7 +90,8 @@ function watchAndProcess(rootDir, outputFormat, outputPath) {
                 if (contentDirs.length > 1) {
                     const books = await loadMultilingualBook(rootDir);
                     for (const [lang, bookObj] of Object.entries(books)) {
-                        await processBook(bookObj, outputFormat, outputPath, rootDir, true, lang === 'default' ? undefined : lang);
+                        const langSuffix = lang === 'default' ? '' : `-${lang}`;
+                        await processBook(bookObj, outputFormat, outputPath + langSuffix, rootDir, false, lang === 'default' ? undefined : lang);
                     }
                     console.log(`Output regenerated at ${outputPath}`);
                     return;
@@ -178,7 +179,8 @@ function watchAndProcess(rootDir, outputFormat, outputPath) {
                 const books = await loadMultilingualBook(rootDir);
                 for (const [lang, bookObj] of Object.entries(books)) {
                     // lang === 'default' for the main language
-                    await processBook(bookObj, argv['output-format'], argv['output-path'], rootDir, true, lang === 'default' ? undefined : lang);
+                    const langSuffix = lang === 'default' ? '' : `-${lang}`;
+                    await processBook(bookObj, argv['output-format'], argv['output-path'] + langSuffix, rootDir, false, lang === 'default' ? undefined : lang);
                 }
                 console.log(`Initial multilingual output generated at ${argv['output-path']}`);
                 if (argv.watch) {
