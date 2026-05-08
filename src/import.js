@@ -143,6 +143,11 @@ function watchAndProcess(rootDir, outputFormat, outputPath) {
             type: 'string',
             demandOption: true,
         })
+        .option('lang', {
+            alias: 'l',
+            description: 'Language code for multilingual books (e.g., es)',
+            type: 'string'
+        })
         .option('watch', {
             alias: 'w',
             description: 'Watch for changes and reprocess',
@@ -160,6 +165,8 @@ function watchAndProcess(rootDir, outputFormat, outputPath) {
 
         let book, isMultilingual = false;
 
+        const requestedLang = argv.lang;
+
         if (argv['output-format'] === formatTypes.hugo) {
             // Detect multilingual content
             const dirEntries = await fs.readdir(rootDir, { withFileTypes: true });
@@ -175,14 +182,24 @@ function watchAndProcess(rootDir, outputFormat, outputPath) {
             const dirEntries = await fs.readdir(rootDir, { withFileTypes: true });
             const contentDirs = dirEntries.filter(e => e.isDirectory() && /^content(\.[a-z]{2})?$/.test(e.name));
             if (contentDirs.length > 1) {
-                // Multilingual: load each language and output with lang extension
                 const books = await loadMultilingualBook(rootDir);
-                for (const [lang, bookObj] of Object.entries(books)) {
-                    // lang === 'default' for the main language
-                    const langSuffix = lang === 'default' ? '' : `-${lang}`;
-                    await processBook(bookObj, argv['output-format'], argv['output-path'] + langSuffix, rootDir, false, lang === 'default' ? undefined : lang);
+                if (requestedLang && books[requestedLang]) {
+                    // Output only the requested language
+                    await processBook(books[requestedLang], argv['output-format'], argv['output-path'], rootDir, false, requestedLang);
+                    console.log(`Initial ${requestedLang} output generated at ${argv['output-path']}`);
+                } else if (requestedLang && books['default']) {
+                    // Requested 'default' language
+                    await processBook(books['default'], argv['output-format'], argv['output-path'], rootDir, false, undefined);
+                    console.log(`Initial default output generated at ${argv['output-path']}`);
+                } else {
+                    // Multilingual: load each language and output with lang extension
+                    for (const [lang, bookObj] of Object.entries(books)) {
+                        // lang === 'default' for the main language
+                        const langSuffix = lang === 'default' ? '' : `-${lang}`;
+                        await processBook(bookObj, argv['output-format'], argv['output-path'] + langSuffix, rootDir, false, lang === 'default' ? undefined : lang);
+                    }
+                    console.log(`Initial multilingual output generated at ${argv['output-path']}`);
                 }
-                console.log(`Initial multilingual output generated at ${argv['output-path']}`);
                 if (argv.watch) {
                     watchAndProcess(rootDir, argv['output-format'], argv['output-path']);
                 }
