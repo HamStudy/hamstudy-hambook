@@ -48,6 +48,8 @@ There are two main types of transistors, and you'll need to know the names of th
 1. **Bipolar Junction Transistor (BJT)**
 - Three parts: *Emitter, Base, and Collector*. {{< link id="T6B12" >}}
 - Often used for amplifying signals.
+
+2. **Field Effect Transistor (FET)**
 - Three parts: *Gate, Drain, and Source*. {{< link id="T6B05" >}}
 - Often used as voltage-controlled switches.
 

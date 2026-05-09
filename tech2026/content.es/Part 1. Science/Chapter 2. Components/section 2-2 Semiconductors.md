@@ -48,6 +48,7 @@ Hay dos tipos principales de transistores, y necesitarás conocer los nombres de
 1. **Transistor de unión bipolar (BJT)**
 - Tres partes: *emisor, base y colector*. {{< link id="T6B12" >}}
 - A menudo se usa para amplificar señales.
+
 2. **Transistor de efecto de campo (FET)**
 - Tres partes: *puerta ("gate"), drenador ("drain") y fuente ("source")*. {{< link id="T6B05" >}}
 - A menudo se usa como interruptor controlado por voltaje.
