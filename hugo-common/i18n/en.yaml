@@ -14,3 +14,5 @@ statusGeneratedN: AI-generated draft.
 statusReviewed: AI-reviewed under human direction, but inaccuracies and/or halicinations may remain.
 statusDraft: Human-edited draft, may be missing images or figures.
 statusComplete: Content complete, pending final review.
+outdatedBanner: This book references an outdated question pool. For the latest HamBook, visit
+outdatedBannerLink: hambook.org

@@ -29,6 +29,8 @@ params:
   qrBaseURL: "https://hamstudy.org/api/v1/qrcode"
   figurePath: "figures/%s"
   linktrim: ""
+  outdatedBanner:
+    enabled: true
 
 markup:
   tableOfContents:

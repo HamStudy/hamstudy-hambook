@@ -1,3 +1,9 @@
+{{- if and .Site.Params.outdatedBanner .Site.Params.outdatedBanner.enabled -}}
+<div class="outdated-banner">
+  {{ i18n "outdatedBanner" }} <a href="https://hambook.org/">{{ i18n "outdatedBannerLink" }}</a>.
+</div>
+{{- end -}}
+
 {{- if and .Params.status (not (hasPrefix .Params.status "publish")) -}}
 <div class="status-banner status-{{ .Params.status | urlize }}">
   <strong>{{ i18n "statusLabel" | default "Status" }}:</strong> {{ .Params.status }}

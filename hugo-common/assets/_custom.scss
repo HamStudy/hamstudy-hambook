@@ -582,5 +582,40 @@ img.icon {
   }
 }
 
+// Out-of-date banner for books referencing retired question pools
+.outdated-banner {
+  padding: 0.75rem 1rem;
+  margin: 0 -1rem 1.5rem;
+  text-align: center;
+  font-size: 0.95rem;
+  background-color: #fff3cd;
+  border-bottom: 4px solid #ff8c00;
+  color: #856404;
+
+  a {
+    color: #004085;
+    text-decoration: underline;
+    font-weight: 700;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .outdated-banner {
+    background-color: #3d2600;
+    border-bottom-color: #ff8c00;
+    color: #ffd9b3;
+
+    a {
+      color: #b3d7ff;
+    }
+  }
+}
+
+@media print {
+  .outdated-banner {
+    display: none !important;
+  }
+}
+
 @import "questionList";
 @import "poolCustom";
