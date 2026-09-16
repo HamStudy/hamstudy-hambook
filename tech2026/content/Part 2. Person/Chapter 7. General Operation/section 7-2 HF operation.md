@@ -13,7 +13,7 @@ Technicians don't get full HF privileges, but they do get a useful slice of the 
 
 As a Technician, you have voice privileges on a small slice of the 10-meter band (28.300 to 28.500 MHz), which allows for long-distance communication through skywave propagation when conditions are right. Think of this as your foot in the door to HF — it's a whole different world compared to VHF/UHF!
 
-But wait, there's more! If you're feeling adventurous, as a Technician, you can also use up to 200 watts for CW (Morse code) on the 15, 40, and 80-meter bands. So, while your voice privileges are limited, you still have plenty of opportunities to explore HF!
+But wait, there's more! If you're feeling adventurous, as a Technician, you can also use up to 200 watts for CW (Morse code) on the 10, 15, 40, and 80-meter bands. So, while your voice privileges are limited, you still have plenty of opportunities to explore HF!
 
 #### What Makes HF Special
 
