@@ -1,7 +1,7 @@
 ---
 chapter: "1"
 section: "1.5"
-questions: ["G5B03", "G5B07", "G5B11", "G5B13", "G5B01", "G5B10", "G9C04", "G9A06", "G5B04", "G5B05", "G5B06", "G5B08", "G5B09", "G5B12", "G5B14"]
+questions: ["G5B04", "G5B05", "G5B03", "G5B07", "G5B09", "G5B08", "G5B12", "G5B11", "G5B13", "G5B06", "G5B14", "G5B01", "G5B10", "G9C04"]
 status: draft1
 ---
 
@@ -28,7 +28,7 @@ P &= \frac{E^2}{R}\\[1.25em]
 P &= I^2 \times R
 \end{align*}$$
 
-These equations allow us to calculate power in any circuit when we know at least two of the following: voltage, current, or resistance.
+These equations let us calculate power in a resistive load when we know at least two of the following: voltage, current, or resistance. AC circuits containing reactance also require attention to the phase relationship between voltage and current.
 
 For example:
 - With 12 volts and 0.2 amperes: {{< link id="G5B04" >}} $P = I \times E = 0.2A \times 12V = 2.4W$
@@ -62,7 +62,7 @@ For a sine wave, this works out to:
 
 $E_{RMS} = E_{peak} \cdot \frac{1}{\sqrt{2}} \approx 0.707 \cdot E_{peak}$
 
-This mathematical relationship is why we can use Ohm's Law with AC circuits—when we use RMS values, the power calculations give the true power. When you hear that household electricity is 120 volts, that's the RMS value, not the 170-volt peak.
+For a resistor, using RMS voltage in $P = E^2/R$ gives the average power dissipated as heat. When you hear that household electricity is 120 volts, that's the RMS value, not the roughly 170-volt peak of its sine wave.
 
 Conversely:
 - If you have 17 volts peak AC, the RMS voltage is: {{< link id="G5B09" >}} $E_{RMS} = \frac{17V}{1.414} = 12V$
@@ -83,13 +83,13 @@ The following table shows the relationships between different AC voltage measure
 
 While we're discussing values which change over time, let's look at RF power: When transmitting voice or other complex signals, the power output varies moment by moment, depending on what is being sent! This means we need a standard way to measure power for the purpose of ensuring compliance with rules and not damaging equipment. This is where Peak Envelope Power (PEP) comes in.
 
-PEP is like having your power meter's needle stick at the highest value during transmission. If we graphed the power output of your transmitter over time, PEP would be the highest point on that graph. This makes sense because we need to know the maximum power that components will have to handle—not just the average—to prevent damage and stay within legal limits.
+PEP is the average power over one RF cycle at the crest of the modulation envelope. The envelope follows the slower changes in the RF signal's amplitude, such as the peaks of speech. PEP describes those envelope peaks, not the highest instantaneous power within a single RF cycle. That distinction lets us compare changing signals using a consistent power measurement.
 
 > **Key Information:** For an unmodulated carrier, the ratio of PEP to average power is 1.00, meaning that the PEP and average power are the same. {{< link id="G5B11" >}}
 
 For a *continuous carrier with no modulation* (like a test tone or CW signal with the key down), *PEP equals the average power* because the power level remains constant. {{< link id="G5B13" >}} But with voice modulation, especially on SSB, the power output spikes during louder syllables. These momentary peaks might be several times higher than the average power level.
 
-The mathematical relationship between RMS voltage and PEP for a sinusoidal RF waveform across a resistive load is:
+For a sinusoidal RF waveform across a resistive load, using the peak RF voltage at the envelope crest gives:
 
 $$PEP = \frac{E_{peak}^2}{2R}$$
 
@@ -138,21 +138,11 @@ Two common reference points for antenna gain are:
 - **dBi**: Gain compared to an isotropic radiator (theoretical point source)
 - **dBd**: Gain compared to a half-wave dipole
 
-##### Feed Line Loss Measurements
+##### Accounting for Losses
 
-Every transmission line has some power loss—energy that doesn't make it from your transmitter to your antenna (or vice versa). This loss occurs because:
+Decibels also describe power that fails to reach its destination. Suppose your transmitter delivers 100 watts and the feed line loses 3 dB before the antenna. About half the power, or 50 watts, reaches the antenna. If another component introduces another 3 dB loss, about 25 watts remain. The losses add to 6 dB, while the power is halved twice.
 
-1. Conductor resistance converts some energy to heat
-2. Dielectric material (insulation) absorbs some energy
-3. Some energy radiates from the line itself
-
-These losses increase with frequency, which is why VHF/UHF operation often requires higher quality feed lines than HF.
-
-> **Key Information:** RF feed line loss is usually expressed in decibels per 100 feet. {{< link id="G9A06" >}}
-
-This standardized measurement helps you compare different cable types and calculate your system's total loss. For example, if RG-8X has a loss of 3.5 dB per 100 feet at 146 MHz, then a 50-foot run would have 1.75 dB loss—meaning about 33% of your power never reaches the antenna.
-
-Feed line loss relates to the impedance concepts we discussed in Section 1.4. Higher-impedance feed lines typically have lower loss because they use less current for the same power level (recall that loss from conductor resistance increases with current squared). However, there are trade-offs between impedance matching considerations and practical installation factors.
+That is why a power increase at the transmitter does not necessarily produce the same power at the antenna. Section 4.1 applies this accounting to actual feed lines and their loss specifications. For now, the useful tool is the relationship between a dB change and the corresponding power ratio.
 
 #### Exam Questions
 

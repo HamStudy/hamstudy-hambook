@@ -1,7 +1,7 @@
 ---
 chapter: "9"
 section: "9.5"
-questions: ["G1B08", "G1B11", "G1E01", "G1E05", "G1E06", "G1E12", "G1D05", "G1D12"]
+questions: ["G1B08", "G1E01", "G1E05", "G1E06", "G1E12", "G1D05", "G1D12"]
 status: reviewed1
 ---
 
@@ -25,17 +25,7 @@ Most countries welcome international amateur communication. The few that don't h
 
 The beauty? No special permits, no applications, no fees. Just proper identification and you're ready to work the world.
 
-#### Good Practice Goes Global
-
-When your signal crosses borders, this principle becomes even more important:
-
-> *Key Information:* *The FCC determines "good engineering and good amateur practice" as applied to the operation of an amateur station in all respects not covered by the Part 97 rules.* {{< link id="G1B11" >}}
-
-What's "good practice" when working DX?
-- **Listen First**: Every country has its operating style. Japanese stations are polite to a fault. Italian stations might seem chaotic but follow their own rhythm. Learn the dance before you join it.
-- **Standard Phonetics**: "Kilowatt" might sound cooler than "Kilo," but when you're fighting QRM to work that Pacific island, standard phonetics win every time.
-- **Respect the DX**: If a rare station says "North America only," don't call from Florida. They have reasons—usually trying to give everyone a fair shot.
-- **Power Discipline**: Just because you can run legal limit doesn't mean you should. If 100 watts makes the contact, why heat the ionosphere with a kilowatt?
+The station responsibilities from Section 9.4 still apply when your contact crosses a border. So do the listening and clear exchanges from Chapter 8. International operation adds another distinction, however: permission to contact another amateur does not necessarily mean permission to pass messages for someone else.
 
 #### Third-Party Traffic: Not So Simple Internationally
 

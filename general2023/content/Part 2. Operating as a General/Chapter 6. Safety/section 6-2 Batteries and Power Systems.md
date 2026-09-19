@@ -1,7 +1,7 @@
 ---
 chapter: "6"
 section: "6.2"
-questions: ["G6A01", "G6A02", "G4E03", "G4E04", "G4E10", "G4E11", "G0B09", "G0B10"]
+questions: ["G6A01", "G6A02", "G4E03", "G4E04", "G4E09", "G4E08", "G4E10", "G4E11", "G0B09"]
 status: draft1
 ---
 
@@ -47,7 +47,9 @@ For serious mobile power, there's really only one right answer.
 
 > **Key Information:** The best direct, fused power connection for a 100-watt HF mobile installation is to the battery using heavy-gauge wire. {{< link id="G4E03" >}}
 
-Direct battery connections bypass all the electrical noise from your vehicle's computers, fuel injection, and other electronics. For best results, use at least 12 AWG wire (10 AWG would be better) with a fuses on both leads to the battery. Yes, it's more work than tapping into an existing circuit, but the existing circuits weren't designed to handle the load or noise sensitivity of HF operation.
+Size the power wiring for both the radio's current draw and the length of the run: longer runs need heavier wire to limit voltage drop. Place a fuse in the positive lead close to the battery, rated to protect the wire as well as supply the radio. That fuse protects against a short along the cable, not only a fault inside the radio. Keep wiring away from hot or moving parts, and protect it with a grommet wherever it passes through a metal panel so vibration cannot wear through the insulation.
+
+A dedicated battery connection avoids relying on accessory wiring shared with other loads, but it does not eliminate every source of electrical noise. Noise can still reach the radio through its power leads or antenna. Yes, a dedicated power run is more work than tapping into an existing circuit, but that circuit may not be designed to handle the load.
 
 ##### That Tempting Cigarette Lighter Socket
 
@@ -59,7 +61,15 @@ Vehicle manufacturers wire these sockets for phone chargers, not transceivers. T
 
 #### Solar Charging
 
-Solar panels and ham radio go together beautifully—silent power for Field Day, keeping batteries topped up at a remote site, or just reducing your dependence on the grid. But a few details matter.
+Away from your vehicle or an outlet, sunlight gives you another way to replenish a station battery. A solar panel converts light to electrical energy using photovoltaic cells, but a single cell cannot provide enough voltage to charge a 12-volt battery.
+
+> **Key Information:** A fully illuminated silicon photovoltaic cell has an approximate open-circuit voltage of 0.5 VDC. {{< link id="G4E09" >}}
+
+*Open-circuit* means measured with no load connected. It is not a promise that the cell will maintain that voltage while supplying any amount of current you ask for. To make a useful panel, manufacturers combine cells, using the series and parallel relationships from Chapter 1.
+
+> **Key Information:** The individual cells in a solar panel are connected in a series-parallel configuration. {{< link id="G4E08" >}}
+
+Cells in series add their voltages; parallel strings increase the available current. For example, a string of 36 cells at roughly 0.5 volt each would provide about 18 volts open-circuit, rather than the half volt from one cell. Actual voltage and current depend on illumination, temperature, and the load. The panel must supply enough voltage for charging under load, and charging equipment must keep the battery within its limits. That introduces two concerns: controlling current toward the battery and preventing current from flowing back out of it.
 
 ##### When Darkness Falls
 
@@ -89,16 +99,8 @@ Generator exhaust contains carbon monoxide—colorless, odorless, and deadly. Yo
 
 > **Key Information:** An emergency generator installation should operate in a well-ventilated area. {{< link id="G0B09" >}}
 
-"Well-ventilated" means *outdoors*. Not in the garage with the door cracked. Not under the carport. Outside, at least 20 feet from buildings, with exhaust pointed away from any doors, windows, or air intakes. Carbon monoxide is heavier than air and loves to pool in low spots and seep through cracks. Don't give it the chance.
+For a portable fuel-powered generator, "well-ventilated" means *outdoors*, never inside a home or garage, even with doors or windows open. Exhaust can still enter a building from an outdoor generator, so being outside alone does not guarantee safe placement.
 
-While we're on generator safety: let the engine cool before refueling (hot exhaust plus gasoline vapors is a bad combination), and never backfeed house circuits without a proper transfer switch—you could electrocute utility workers trying to restore power to your neighborhood, which is what we in the hobby usually refer to as a Bad Thing™.
-
-#### Soldering Safety
-
-Building and repairing equipment is part of the fun, and that usually means soldering. Traditional electronics solder contains lead, which requires a few simple precautions.
-
-> **Key Information:** Lead can contaminate food if hands are not washed carefully after handling the solder, which is a danger from lead-tin solder. {{< link id="G0B10" >}}
-
-Lead accumulates in your body over time, so the issue isn't one soldering session—it's years of careless habits. The fix is simple: wash your hands thoroughly after soldering, and don't snack at your workbench. Keep your soldering area ventilated to avoid breathing flux fumes. Lead-free solder works well for most projects if you'd rather avoid the concern entirely.
+Ventilation is only one part of generator safety. Before using one, research safe placement, fueling, and electrical connections using the generator's safety instructions and guidance from public-safety authorities. This section is not a generator installation guide.
 
 Whether you're running on batteries, solar, generator, or wall power, all that energy needs somewhere safe to go when things go wrong. That's where grounding comes in—and as we'll see in the next section, "grounding" means several different things depending on whether you're worried about lightning, RF, or electrical safety.

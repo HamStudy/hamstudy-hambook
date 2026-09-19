@@ -1,202 +1,90 @@
 ---
 chapter: "2"
 section: "2.5"
-questions: ["G7A09", "G7A10", "G7A11", "G7A12", "G7A13", "G4B01", "G4B02", "G4B03", "G4B04", "G4B05", "G4B06", "G4B07", "G4B08", "G4B09", "G4B10", "G4B11", "G4B12", "G4B13"]
-status: draft1
+slug: section-25-test-equipment-and-schematic-reading
+questions: ["G7A09", "G7A11", "G7A10", "G7A12", "G7A13", "G4B01", "G4B02", "G4B05"]
+status: draft2
 ---
 
-### Section 2.5: Test Equipment and Schematic Reading
+### Section 2.5: Schematic Reading and Measurement Principles
 
-Now that you're venturing into the world of General class privileges, you'll likely find yourself getting more hands-on with your equipment. Whether you're setting up a new HF station, troubleshooting an antenna system, or perhaps even building some of your own gear, two essential skills will serve you well: reading schematic diagrams and using test equipment.
+You have met the components that amplify signals, turn AC into DC, and process digital information. Inside a radio, those components work together. A schematic shows how they are connected; measurements let you compare what the circuit actually does with what you expect it to do. Learning to connect those two views is more useful than recognizing a collection of parts in isolation.
 
-These skills provide a window into what's actually happening inside your radio and throughout your station. When something isn't working right or you want to optimize performance, these tools and skills let you see beyond the front panel controls and really understand what's going on.
+#### Reading the Connections
 
-#### Reading Schematic Symbols
+A schematic describes electrical connections, not the physical arrangement of parts on a circuit board. Two components drawn far apart may sit beside each other in the equipment. Lines represent conductors, and junction dots identify connected branches. A crossing without a junction dot generally means the wires are not connected; check the drawing's conventions when in doubt.
 
-Schematics are the universal language of electronics—a standardized way to describe circuits using symbols instead of pictures. They function as detailed maps showing how current flows through a device. Learning to read these maps gives you the ability to understand your equipment at a deeper level and communicate effectively with other hams when discussing circuits or troubleshooting issues.
-
-For the General class exam, you need to recognize several important schematic symbols. Let's look at Figure G7-1, which shows some of the most common symbols used in radio circuits:
+The symbols tell you what those connections join. A resistor limits current, a capacitor stores charge, and a transistor can control a larger current with a smaller input signal. Recognizing the symbols lets you follow the ideas from earlier sections into an actual circuit diagram.
 
 ![Figure G7-1: Common electronic schematic symbols from the official question pool](../../../images/G7-1.svg)
-{.img-full .img-centered caption="Figure G7: Electronic schematic symbols from the official question pool"}
+{.img-full .img-centered caption="Figure G7-1: Electronic schematic symbols from the official question pool"}
 
-##### Essential Symbols for General Class
+#### Recognizing the Components
 
-When you look at a modern transceiver schematic, you'll see dozens (or even hundreds) of different components. Here are the key symbols you need to recognize from Figure G7-1:
+Only symbols 1, 2, 5, 6, and 7 are referenced by questions which could appear on the exam; the others help you understand the complete diagram.
 
-**Symbol 1: Field Effect Transistor (FET)** {{< link id="G7A09" >}} - FETs control current flow through an electric field rather than a current, and appear frequently in RF circuits because they offer high input impedance and excellent performance at radio frequencies. In your transceiver, you'll find FETs handling everything from weak signal amplification to signal mixing and frequency generation.
+The two transistor symbols in Figure G7-1 represent different ways of controlling current:
 
-**Symbol 2: NPN Junction Transistor** {{< link id="G7A11" >}} - The arrow pointing outward from the base identifies this bipolar transistor as NPN (rather than PNP, where the arrow would point inward). These transistors handle everything from audio amplification to switching functions throughout your radio equipment.
+> **Key Information:**
+> - Symbol 1 represents a field effect transistor (FET). {{< link id="G7A09" >}}
+> - Symbol 2 represents an NPN junction transistor. {{< link id="G7A11" >}}
 
-**Symbol 5: Zener Diode** {{< link id="G7A10" >}} - Unlike standard diodes that conduct in only one direction, Zener diodes have a specific reverse breakdown voltage where they begin to conduct. This property makes them excellent for voltage regulation in power supplies and reference circuits.
+Recall from Section 2.2 that a FET's gate voltage controls conduction through its channel. In a bipolar transistor, base current controls the larger collector current. On the NPN symbol, the arrow is on the **emitter** lead and points outward; on a PNP symbol, it points inward. That small difference identifies the transistor type.
 
-**Symbol 6: Solid Core Transformer** {{< link id="G7A12" >}} - Shows two coils with parallel lines between them, representing a magnetic core material. As we saw in Section 1.4, transformers are crucial for impedance matching, voltage conversion, and isolation between circuits. This symbol specifically indicates a solid core (usually ferrite or iron) rather than an air core transformer.
+The three diode symbols show how small changes to a symbol distinguish different functions:
 
-**Symbol 7: Tapped Inductor** {{< link id="G7A13" >}} - An inductor with an additional connection point somewhere along its length. This "tap" allows access to just a portion of the total inductance, which is useful for creating precise impedance matching networks or resonant circuits without needing separate components.
+- **Symbol 3 is an ordinary diode.** It conducts readily when forward biased and normally blocks current in the reverse direction. The bar identifies its cathode.
+- **Symbol 4 is a varactor diode**, also called a varicap. The capacitor-like addition to the diode symbol points to its purpose: when reverse biased, its capacitance changes with the applied voltage. This lets a voltage adjust a tuned circuit instead of mechanically turning a variable capacitor.
+- **Symbol 5 is a Zener diode.** Its cathode bar has bent ends. Unlike an ordinary diode, it is designed to operate in reverse breakdown at a specified voltage, making it useful for establishing a voltage reference.
 
-While you don't need to know these for the exam, the other symbols shown are also common in radio circuits: Symbol 3 (regular diode), Symbol 4 (varactor diode), Symbol 8 (electrolytic capacitor), and Symbol 9 (resistor).
+> **Key Information:** Symbol 5 represents a Zener diode. {{< link id="G7A10" >}}
 
-> **Key Information:** For the exam, memorize these five symbols and their functions: FET (Symbol 1), NPN transistor (Symbol 2), Zener diode (Symbol 5), solid core transformer (Symbol 6), and tapped inductor (Symbol 7).
+The two coil symbols connect back to the inductors and transformers from Chapter 1:
 
-##### Practical Applications of Schematic Reading
+> **Key Information:**
+> - Symbol 6 represents a solid core transformer. {{< link id="G7A12" >}}
+> - Symbol 7 represents a tapped inductor. {{< link id="G7A13" >}}
 
-While knowing these symbols is important for the exam, the real value comes in applying this knowledge. Schematic reading helps General class operators:
+The transformer has two windings, with lines between them indicating its magnetic core. The tapped inductor has an extra connection partway along one winding. That connection gives access to a portion of the winding rather than requiring a separate inductor. Look for these distinguishing features, not only the general coil shape.
 
-1. Troubleshoot equipment problems by following signal paths and identifying likely failure points
-2. Perform equipment modifications safely and effectively
-3. Build kits and homebrew projects from published designs
-4. Select appropriate replacement parts when repairing equipment
+The remaining numbered components are familiar capacitors and resistors, used in different places in the circuit:
 
-The more comfortable you become with reading schematics, the more self-sufficient you'll be if you need to do any troubleshooting or modifications to your station.
+- **Symbols 8 and 10 are capacitors.** Each shows two separated plates, one drawn curved. At 8, the capacitor connects the supply line to circuit ground, providing a bypass path for AC variations on the supply. At 10, the capacitor couples a changing signal between circuit stages while blocking DC. The connections show these different jobs; the basic component is the same. This drawing does not explicitly mark either capacitor's polarity.
+- **Symbol 9 is a fixed resistor.** Its zigzag represents resistance. Here it connects the NPN transistor's emitter circuit to ground; elsewhere in the drawing, the same symbol appears without a number.
+- **Symbol 11 is a potentiometer.** It adds a movable contact, shown by an arrow, to a resistor. Moving that contact selects a different fraction of the voltage across the resistor. In this circuit, the contact connects to the varactor, providing an adjustable control voltage.
 
-#### Essential Test Equipment
+The repeated ground marks identify the circuit's common reference connection, so those points need not be joined by lines across the page. The labels **+DC** and **OUT** identify the DC supply connection and signal output. Together, the symbols and connections describe the circuit; the numbered labels help you identify particular components within it.
 
-As a General class operator, having access to good test equipment dramatically expands what you can accomplish with your station. The right test equipment transforms invisible electrical problems into visible, measurable issues you can solve. Let's explore the tools that help you see what's happening in your circuits.
+#### From a Diagram to a Measurement
 
-##### The Oscilloscope
+Once you can identify the parts and follow their connections, a measurement has a purpose. Suppose a low-voltage power supply contains a rectifier and a filter capacitor, like those in Section 2.3. The diagram tells you where the rectified voltage reaches the capacitor. You would expect the capacitor to smooth the pulses, leaving a relatively steady DC output.
 
-Imagine trying to understand a musical performance by only knowing the average volume level. You'd miss the rhythm, the melody, and all the subtle variations that make music interesting. That's the difference between a voltmeter and an oscilloscope when measuring electrical signals.
+A voltmeter can tell you whether that output is near the expected DC voltage. But the number alone may not tell you how much the output varies between charging pulses. For that, you need to see voltage changing with time: a *waveform*.
 
-An oscilloscope displays electrical signals as they change over time, creating a graph where the horizontal axis represents time and the vertical axis represents voltage. Think of it as creating a moving picture of your electrical signals, letting you see exactly what your circuits are doing moment by moment.
+#### Seeing a Waveform
 
-But here's the key insight: to create this display, the oscilloscope needs two separate amplifier systems working together. The oscilloscope contains horizontal and vertical channel amplifiers that work together to display signals on screen. {{< link id="G4B01" >}} 
+In its usual display mode, an oscilloscope plots voltage vertically and time horizontally. A steady DC voltage appears as a horizontal line; a changing voltage moves above and below its previous level as the trace progresses across the screen.
 
-The **vertical amplifier** takes your input signal and amplifies it appropriately for the screen's voltage range. If you're measuring a 1-volt signal but need it to fill the screen for easy viewing, the vertical amplifier boosts it up. If you're measuring a 100-volt signal that would otherwise blow up the display, the vertical amplifier scales it down to a safe level.
+> **Key Information:** An oscilloscope contains horizontal and vertical channel amplifiers. {{< link id="G4B01" >}}
 
-The **horizontal amplifier** creates the time base—it generates the sweep that moves the electron beam (or digital equivalent) across the screen at a controlled rate. Want to see a fast-changing signal? Speed up the horizontal sweep. Want to capture a slow change? Slow down the horizontal sweep. This amplifier essentially controls how much time each horizontal division on the screen represents.
+In a traditional analog oscilloscope, the vertical amplifier moves the trace up and down in response to the measured signal. A separate time-base circuit generates a sweep signal, which the horizontal amplifier uses to move the trace across the screen. Digital oscilloscopes sample the input and construct the display electronically, but the familiar voltage-versus-time view remains.
 
-> **Key Information:** An oscilloscope contains horizontal and vertical channel amplifiers.
+The scales matter. At 1 volt per vertical division, a change of two divisions represents 2 volts. At 1 millisecond per horizontal division, a pattern that repeats every four divisions has a period of 4 milliseconds. The display gives you both the size of a change and how quickly it happens.
 
-![Basic Oscilloscope](../images/oscilloscope.svg)
+> **Key Information:** An advantage of an oscilloscope over a digital voltmeter is that complex waveforms can be measured. {{< link id="G4B02" >}}
 
-An oscilloscope offers a significant advantage over a digital voltmeter because complex waveforms can be measured. {{< link id="G4B02" >}} While a voltmeter gives you a single number (like "12.3 volts"), an oscilloscope shows you the entire shape of a signal—revealing details about how it changes over time. This capability allows you to:
+Return to the power supply example. Two supplies could show similar DC readings on a meter, yet one could have much larger ripple riding on its output. A scope can reveal those repeated rises and falls. Later, the same ability to see shape and timing will help you evaluate transmitted signals. Section 7.6 covers those practical tests; here the important distinction is between a numerical reading and a picture of the changing signal.
 
-- See distortion that might cause interference
-- Measure signal timing and frequency
-- Observe modulation quality
-- Detect unwanted oscillations or noise
+#### Measuring Without Changing the Circuit Too Much
 
-For CW operation, the oscilloscope is particularly valuable. The best instrument to use for checking the keying waveform of a CW transmitter is an oscilloscope. {{< link id="G4B03" >}} By examining the shape of the keying waveform, you can identify problems that affect your signal quality. Too sharp a transition creates key clicks that interfere with nearby stations; too slow a transition makes your code sound mushy and difficult to copy.
+There is a complication with every measurement: the instrument becomes part of the circuit. Connect a voltmeter across a resistor and you add another path for current, in parallel with that resistor. If the meter draws enough current, it changes the voltage you intended to measure. This is called *loading*.
 
-> **Key Information:** Use an oscilloscope to check CW keying waveforms.
+> **Key Information:** Voltmeters have high input impedance to decrease loading on the circuits being measured. {{< link id="G4B05" >}}
 
-![CW Keying Waveform on Oscilloscope](../images/cw-keying-waveform.svg)
+Consider two 10-kilohm resistors in series across a 10-volt source. Before connecting a meter, each resistor has 5 volts across it. A meter with only 10 kilohms of input resistance placed across the lower resistor makes that parallel combination 5 kilohms. The divider is now 10 kilohms above and 5 kilohms below, so the measured voltage becomes $10 \times 5/(10+5)$, or about 3.3 volts. The meter has changed the circuit.
 
-When checking your transmitter's signal envelope, the attenuated RF output of the transmitter is connected to the vertical input of an oscilloscope. {{< link id="G4B04" >}} This setup requires caution—your transmitter might produce 100 watts, but the oscilloscope can only handle a few volts. Always use an appropriate attenuator to reduce the signal to a safe level.
+A much higher input resistance draws less current and leaves the reading much closer to the original 5 volts. High input impedance reduces the disturbance; it does not mean the instrument has no effect under all conditions. Oscilloscope probes also load circuits, particularly at high frequencies.
 
-> **Key Information:** Connect the attenuated RF output to the oscilloscope's vertical input when checking transmitter signals.
+These examples explain what measurements mean, not how to work safely inside energized equipment. Instrument ratings, probe connections, and the circuit's hazards must be understood before making a physical measurement. For now, you can use a schematic to predict behavior and ask what kind of observation would test that prediction.
 
-##### Digital and Analog Multimeters
-
-While the oscilloscope might be the most versatile instrument, the multimeter is likely to be your most frequently used tool. Both digital and analog multimeters have their unique advantages.
-
-An advantage of a digital multimeter compared to an analog multimeter is higher precision. {{< link id="G4B06" >}} Digital multimeters typically offer:
-- Precise numerical readings
-- Greater accuracy (often ±0.5% or better)
-- Multiple measurement functions
-- Higher input impedance
-- Easy-to-read displays
-
-> **Key Information:** Digital multimeters have higher precision than analog multimeters.
-
-Despite the advantages of digital instruments, analog meters still have their place in the ham shack. An analog multimeter is preferred to a digital multimeter when adjusting circuits for maximum or minimum values. {{< link id="G4B09" >}} The moving needle of an analog meter provides immediate visual feedback about which way values are changing and how quickly. This continuous display makes it much easier to find peaks or nulls than watching changing digits on a digital display.
-
-> **Key Information:** Use analog multimeters when adjusting for maximum or minimum values.
-
-When measuring high-impedance circuits, meter selection becomes especially important. Voltmeters have high input impedance to decrease the loading on circuits being measured. {{< link id="G4B05" >}} If your meter draws significant current from the circuit you're measuring, it changes the circuit's behavior—giving you inaccurate readings or possibly even damaging sensitive components. This is why modern DMMs typically have 10 megohm or higher input impedance.
-
-> **Key Information:** Voltmeters need high input impedance to avoid loading the circuit being measured.
-
-![Voltmeter Loading Effect](../images/voltmeter-loading.svg)
-
-##### Transmitter Testing
-
-For SSB transmitters, linearity is crucial to prevent splatter and interference. To conduct a two-tone test, two non-harmonically related audio signals are used. {{< link id="G4B07" >}} This test involves feeding two pure audio tones (typically 700 Hz and 1900 Hz) into your transmitter instead of voice. The resulting pattern on an oscilloscope reveals any distortion that might cause interference.
-
-> **Key Information:** Use two non-harmonically related audio signals for a two-tone test.
-
-![Two-Tone Test Setup](../images/two-tone-test.svg)
-
-A two-tone test analyzes transmitter linearity. {{< link id="G4B08" >}} Looking at the resulting patterns tells you a lot about your transmitter's performance:
-- Flattened peaks indicate compression or clipping
-- Asymmetry suggests bias problems
-- Jagged patterns reveal unwanted distortion products
-
-> **Key Information:** A two-tone test analyzes transmitter linearity.
-
-![Two-Tone Test Patterns](../images/two-tone-patterns.svg)
-
-Non-linear operation creates spurious emissions that can cause interference to other stations, make your signal sound distorted, and waste power in unwanted frequencies.
-
-##### RF Measurement Tools
-
-For antenna system measurements, specialized tools provide critical insights. Standing wave ratio (SWR) can be determined with a directional wattmeter. {{< link id="G4B10" >}} This instrument contains sensors that distinguish between forward power (going to your antenna) and reflected power (coming back from the antenna). By comparing these values, you can calculate SWR—a critical indicator of how well your antenna system is matched to your transmitter.
-
-> **Key Information:** A directional wattmeter can determine SWR.
-
-![Directional Wattmeter](../images/directional-wattmeter.svg)
-
-Modern antenna analyzers take these measurements to the next level. When using an antenna analyzer for SWR measurements, the antenna and feed line must be connected. {{< link id="G4B11" >}} These sophisticated instruments not only measure SWR but also display complex impedance (resistance and reactance), helping you identify resonant frequencies and optimize antenna performance.
-
-> **Key Information:** Connect the antenna and feed line when using an antenna analyzer for SWR measurements.
-
-However, antenna analyzers can be affected by external signals. Strong signals from nearby transmitters can interfere with an antenna analyzer by generating received power that interferes with SWR readings. {{< link id="G4B12" >}} This happens because the analyzer can't distinguish between its own test signal and external RF from nearby transmitters. For accurate measurements, try to conduct antenna tests when local RF activity is minimal.
-
-> **Key Information:** Strong nearby transmitters can interfere with antenna analyzer readings.
-
-Beyond antenna measurements, an antenna analyzer can be used to measure the impedance of coaxial cable. {{< link id="G4B13" >}} This capability helps you:
-- Find faults in coaxial cables
-- Measure cable loss
-- Determine the electrical length of a cable
-- Create matching sections for antenna systems
-
-> **Key Information:** Antenna analyzers can measure coaxial cable impedance.
-
-#### Building Your Test Bench
-
-As you upgrade to General class, consider assembling a basic test bench to support your new operating privileges. You don't need to invest thousands of dollars—start with the essentials and add equipment as your interests and projects demand.
-
-##### Essential Equipment
-- **Digital multimeter** for basic voltage, current, and resistance measurements
-- **SWR meter or antenna analyzer** for antenna system measurements
-- **Dummy load** for testing transmitters without radiating a signal
-
-##### Next-Level Additions
-- **Oscilloscope** (new or used—even older analog models are useful)
-- **RF power meter** for accurate transmitter output measurements
-- **Frequency counter** for calibration and frequency measurements
-- **Signal generator** for receiver testing and alignment
-
-##### Safety First
-When setting up test equipment:
-- Ensure proper grounding of all instruments
-- Use appropriate fusing and circuit protection
-- Follow proper procedures when measuring high voltages
-- Protect equipment from RF exposure
-- Turn off transmitters when connecting or disconnecting test equipment
-
-#### Practical Applications
-
-Here are some everyday scenarios where your test equipment proves invaluable:
-
-##### Troubleshooting a Power Supply
-1. Use a multimeter to check AC input voltage
-2. Measure DC output voltage under load
-3. Look for ripple with an oscilloscope
-4. Test regulation by varying the load
-
-##### Optimizing an Antenna System
-1. Use an antenna analyzer to sweep across your bands of interest
-2. Find the frequency of lowest SWR
-3. Make adjustments to center the resonance where you want it
-4. Verify improvement with before/after measurements
-
-##### Testing Transmitter Performance
-1. Measure power output into a dummy load
-2. Check modulation quality with a two-tone test
-3. Verify that keying waveforms have appropriate shape
-4. Monitor for spurious emissions or harmonics
-
-The ability to read schematics and use test equipment opens up new dimensions in your amateur radio experience. These skills help you understand how your equipment works, troubleshoot problems effectively, optimize performance, and even build and modify your own gear.
-
-In the next chapter, we'll explore how radio waves propagate through space—knowledge that, combined with your growing technical understanding, will help you make the most of those exciting new HF privileges!
+The components in this chapter provide ways to generate, amplify, and measure changing voltages. Those changes become radio signals when we use them to carry information. Chapter 3 connects the circuit behavior to modulation, bandwidth, and the signals you hear on the air.

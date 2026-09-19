@@ -1,7 +1,7 @@
 ---
 chapter: "8"
 section: "8.2"
-questions: ["G2A08", "G2A10", "G2A11", "G2A12", "G2B01", "G2B03", "G2B05", "G2B06", "G4D05", "G4D06", "G4D07"]
+questions: ["G2A08", "G2A10", "G2A11", "G2A12", "G2B01", "G2B03", "G2B05", "G2B06"]
 status: reviewed1
 ---
 
@@ -127,32 +127,13 @@ Before calling CQ or starting a conversation:
 
 Why bother? Because nothing's worse than transmitting over a rare DX station working split, just because you couldn't hear their listening frequency. That quick "QRL?" saves face and friendships.
 
-#### Understanding Signal Reports
+#### Giving a Useful Signal Report
 
-Signal reports provide meaningful feedback about your transmission:
+Section 7.2 explained the S-meter scale and its limits. During a contact, the useful question is not only how far the needle moves, but how well you can understand the other station. A strong signal can be distorted or covered by interference; a weak one can be perfectly readable in a quiet band.
 
-> **Key Information:** A signal that reads 20 dB over S9 is 100 times more powerful than an S9 signal, assuming a properly calibrated S meter. {{< link id="G4D05" >}}
+On voice, the familiar two-number report describes readability first and signal strength second. Readability runs from 1 (unreadable) to 5 (perfectly readable), while strength runs from 1 to 9. A "five and two" report means fully readable but weak, not difficult to understand merely because the second number is low.
 
-![S-meter scale with dB values](../images/s-meter-scale.svg)
-
-The S-meter scale is logarithmic, with specific relationships between units:
-
-> **Key Information:** One S unit represents approximately 6 dB change in signal strength. {{< link id="G4D06" >}}
-
-This means each S-unit increment represents roughly a 4x power difference:
-
-> **Key Information:** To change the S meter reading on a distant receiver from S8 to S9, you would need to raise your power output by approximately 4 times. {{< link id="G4D07" >}}
-
-Here's what this means in the real world:
-- S7 to S8? That's quadrupling your power—from 100W to 400W
-- S9 to S9+20dB? You'd need to go from 100W to 10,000W!
-- Better plan: Fix your antenna and gain 6-10 dB without burning electricity
-
-Real-world example: Your buddy reports you at S7 with 100 watts. You could:
-- Fire up that amplifier to 400W for one S-unit gain
-- Replace that saggy dipole with a beam for 2 S-units and cleaner signals
-
-Guess which one makes you more friends on the band?
+Add a short description when it helps: "You're fully readable, but fading," or "Your signal is strong, but the audio is distorted." That gives the other operator something useful to respond to. If you need a callsign or location repeated, say which part you missed instead of guessing. Signal reports should help the contact proceed, not turn every exchange into a contest for the highest meter reading.
 
 #### Practical Operating Tips for Challenging Conditions
 

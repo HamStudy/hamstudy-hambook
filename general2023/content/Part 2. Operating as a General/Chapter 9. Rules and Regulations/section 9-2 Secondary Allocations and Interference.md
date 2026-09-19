@@ -1,7 +1,7 @@
 ---
 chapter: "9"
 section: "9.2"
-questions: ["G1A06", "G1E04", "G1E10", "G1E11"]
+questions: ["G1A06", "G1E04", "G1E10", "G1E11", "G2D01", "G2D02", "G2D03"]
 status: reviewed1
 ---
 
@@ -116,6 +116,22 @@ If another ham is involved, a polite conversation often resolves the issue. Most
 
 **Step 5: Know When to Fold**
 If you're secondary and causing interference to a primary user, there's no debate—you must cease operation on that frequency.
+
+#### Volunteer Monitors and Self-Regulation
+
+Checking your own station and documenting interference are individual responsibilities, but amateurs also cooperate in supporting rules compliance. The Volunteer Monitor Program gives that cooperation an organized form.
+
+> **Key Information:** The Volunteer Monitor Program consists of amateur volunteers formally enlisted to monitor the airwaves for rules violations. {{< link id="G2D01" >}}
+
+These are not Volunteer Examiners administering license tests, nor are they an emergency communications net. Their work centers on observing on-air operation and encouraging responsible use of the bands.
+
+> **Key Information:** An objective of the Volunteer Monitor Program is to encourage amateur radio operators to self-regulate and comply with the rules. {{< link id="G2D02" >}}
+
+Sometimes cooperation also helps locate an interfering signal. Suppose a continuous carrier is holding a repeater on. Listening to the repeater's output tells you that the carrier is present, but pointing an antenna toward that output leads you to the repeater, not the original source.
+
+> **Key Information:** Volunteer Monitors can localize such a station by comparing beam headings on the repeater input from their home locations with those of other Volunteer Monitors. {{< link id="G2D03" >}}
+
+Each heading provides a direction from one receiving location. Comparing bearings from several locations helps narrow the search to the area where they meet. Reflections can make bearings imperfect, so they are evidence to compare rather than a reason to confront someone. The useful distinction is between locating a signal and deciding whether a rules violation occurred.
 
 #### Beyond Your Shack: Neighborhood Interference
 

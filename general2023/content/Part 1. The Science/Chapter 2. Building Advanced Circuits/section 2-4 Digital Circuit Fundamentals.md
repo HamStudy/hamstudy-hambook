@@ -1,7 +1,7 @@
 ---
 chapter: "2"
 section: "2.4"
-questions: ["G6B02", "G6B03", "G6B06", "G7B03", "G7B05", "G7B06"]
+questions: ["G7B03", "G6B02", "G6B03", "G6B06", "G7B06", "G7B05"]
 status: draft1
 ---
 
@@ -158,4 +158,4 @@ The digital concepts we've explored form the foundation for many advanced amateu
 - Understanding and using DSP features in modern transceivers
 - Setting up interfaces between computers and radios
 
-Now that we've examined the components that make up both analog and digital circuits, let's look at how we can test and measure their performance. In the next section, we'll explore test equipment and troubleshooting techniques that will help you maintain your station and verify that these circuits are working correctly.
+Analog and digital circuits both need a way to describe their connections and check their behavior. A schematic shows how the components fit together; a meter or waveform display lets you compare the working circuit with that description. Those are the two views we will connect in the next section.

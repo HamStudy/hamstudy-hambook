@@ -1,7 +1,7 @@
 ---
 chapter: "6"
 section: "6.5"
-questions: ["G0A01", "G0A02", "G0A04", "G0A07", "G0A03", "G0A09", "G0A06", "G0A08", "G0A05", "G0A10", "G0A11", "G0A12", "G4C11"]
+questions: ["G0A01", "G0A02", "G0A04", "G0A07", "G0A03", "G0A09", "G0A06", "G0A08", "G0A05", "G0A10", "G0A11", "G0A12"]
 status: draft1
 ---
 
@@ -81,13 +81,9 @@ A few scenarios deserve extra attention:
 
 **Low-power stations** aren't automatically exempt from the rules. One milliwatt is 0.001 watts—your station definitely exceeds that. The good news: low-power stations almost always comply with huge safety margins, but you verify rather than assume.
 
-#### RF in the Shack
+#### Exposure and Contact Burns Are Different Problems
 
-Beyond antenna fields, stray RF inside your station can create localized exposure. If your microphone case tingles when you transmit, that's RF where it shouldn't be—and your lips are awfully close to that microphone.
-
-> **Key Information:** Bonding all equipment enclosures together helps to minimize RF "hot spots" in an amateur station. {{< link id="G4C11" >}}
-
-We covered bonding in the grounding section—connecting all your equipment chassis together with wide copper strap keeps everything at the same RF potential. This eliminates hot spots while also solving many RFI problems.
+The radiated-field evaluation in this section does not replace the grounding and bonding precautions in Section 6.3. RF voltage on a microphone case or other equipment can cause a contact burn; bonding helps reduce those voltage differences. Passing an exposure evaluation does not prove that equipment is safe to touch, and bonding the equipment does not establish compliance with radiated-exposure limits. Both problems need attention.
 
 #### Staying Compliant
 

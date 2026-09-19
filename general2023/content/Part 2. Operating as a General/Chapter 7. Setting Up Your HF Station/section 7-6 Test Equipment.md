@@ -1,100 +1,70 @@
 ---
 chapter: "7"
 section: "7.6"
-questions: ["G4B01", "G4B02", "G4B03", "G4B04", "G4B05", "G4B06", "G4B07", "G4B08", "G4B09", "G4B12", "G4B13"]
 status: reviewed1
+questions: ["G4B06", "G4B09", "G4B03", "G4B04", "G4B07", "G4B08", "G4B13", "G4B12"]
 ---
 
 ### Section 7.6: Test Equipment and Measurement
 
-Your transceiver has built-in meters showing forward power, reflected power, and SWR. These tell you the basics—are you getting power out, is your antenna matched reasonably well? But sometimes you need to dig deeper. Is your CW keying clean or does it have clicks? Is your SSB signal linear or are you generating distortion products? What's actually happening with your antenna system at different frequencies?
+A power or SWR reading can confirm that your station is transmitting into a reasonable load. It cannot tell you everything about the signal. Your CW might have abrupt keying edges, your SSB might be distorted, or your supply voltage might fall when you transmit. Each problem calls for a different observation. The measurement principles from Section 2.5 help you choose a tool that answers the question you actually have.
 
-This is where test equipment comes in. You don't need a bench full of expensive gear for everyday operation, but understanding what different instruments do—and when you might need them—helps you troubleshoot problems and verify your station is working properly.
+#### Choosing a Meter for the Job
 
-#### Beyond Basic Meters
+A multimeter is often the first instrument you reach for. For example, comparing a low-voltage power supply's output while receiving and while transmitting can reveal a voltage drop that you would miss with the radio idle. A digital meter makes small differences easier to read:
 
-Your transceiver's power meter measures one thing: how much RF you're putting out. That's useful but incomplete. Power doesn't tell you if the signal is clean, if the keying waveform is smooth, or if you're creating harmonics and spurious emissions. For those questions, you need instruments that can measure voltage, view waveforms, or analyze signal quality.
+> **Key Information:** An advantage of a digital multimeter compared to an analog multimeter is higher precision. {{< link id="G4B06" >}}
 
-#### Measuring DC and Low-Frequency AC
+A numerical display avoids estimating a needle's position between scale markings. More digits do not guarantee a perfectly accurate measurement, however; the meter's specifications and selected range still matter. Remember the loading effect from Section 2.5 as well: connecting an instrument can change the circuit, particularly at a high-impedance point.
 
-The most basic test instrument is the multimeter, which measures voltage, current, and resistance. You'll use it for checking power supply voltages, measuring antenna system DC resistance, or verifying relay operations.
+Sometimes a precise number is less useful than seeing which way the reading is moving. Suppose you are adjusting a circuit for a peak. As you turn past the best setting, you want to see the reading rise, stop, and fall.
 
-Modern digital multimeters offer a significant advantage:
+> **Key Information:** An analog multimeter is preferred when adjusting circuits for maximum or minimum values. {{< link id="G4B09" >}}
 
-> **Key Information:** An advantage of a digital multimeter as compared to an analog multimeter is higher precision. {{< link id="G4B06" >}}
+A moving needle makes that trend visible without requiring you to compare a succession of changing numbers. This is also why the dip in plate current discussed in Section 7.4 is convenient to observe on an analog meter. Choose the display for the task: a value you need to record, or a change you need to follow.
 
-Digital meters display exact values—12.47 volts, not "about 12.5" based on reading a needle against a scale. For most amateur radio work, this precision helps you verify specifications and troubleshoot with confidence.
+#### Checking the Shape of a Transmission
 
-But analog meters have their place:
+When the problem concerns timing or shape, use the voltage-versus-time view introduced in Section 2.5. CW is a useful example. Its carrier is switched on and off, but the transitions should not be unnecessarily abrupt. Sharp edges can spread energy into nearby frequencies, heard by other operators as key clicks.
 
-> **Key Information:** An analog multimeter is preferred to a digital multimeter when adjusting circuits for maximum or minimum values. {{< link id="G4B09" >}}
+> **Key Information:** An oscilloscope is the best instrument for checking a CW transmitter's keying waveform. {{< link id="G4B03" >}}
 
-When you're tuning a circuit and watching for a peak or dip, a smoothly moving needle is easier to follow than a rapidly changing digital display. The needle's motion gives you immediate feedback about which direction to turn the adjustment. This is why many amplifiers still use analog meters for tuning—you're watching for that dip in plate current, and a needle makes it obvious.
+The waveform lets you examine the rise and fall of each transmitted element. You are looking at the shaping of the RF envelope, not merely the speed at which dots and dashes are sent. Slowing down your Morse code does not by itself correct poorly shaped edges.
 
-One critical design feature of all voltmeters:
+The same instrument can show how the RF envelope varies during a modulated transmission, but transmitter output is far too powerful to connect indiscriminately to an instrument input.
 
-> **Key Information:** Voltmeters have high input impedance because it decreases the loading on circuits being measured. {{< link id="G4B05" >}}
+> **Key Information:** When checking a transmitted signal's RF envelope pattern, the attenuated RF output of the transmitter is connected to the oscilloscope's vertical input. {{< link id="G4B04" >}}
 
-When you connect a meter to a circuit, you're adding a parallel path for current. If the meter has low impedance, it draws significant current and changes what you're trying to measure. High input impedance (typically many megohms) means the meter barely affects the circuit—you're measuring the voltage as it actually exists, not the voltage with a heavy load added.
+*Attenuated* means reduced to a suitable level. A properly designed sampling or attenuation arrangement lets the instrument observe the signal without receiving the transmitter's full output power. This is a measurement principle, not a wiring recipe: the transmitter load, sampler, attenuation, instrument ratings, and grounding must all suit the test. Learn the appropriate setup before making connections.
 
-#### Viewing Waveforms
+#### Testing Linearity with Two Tones
 
-Sometimes you need to see the actual shape of a signal, not just measure its voltage. This is where oscilloscopes become essential:
+Section 2.2 explained that a linear amplifier preserves the waveform, while Section 3.3 showed how nonlinearity creates unwanted mixing products. Speech is constantly changing, which makes it a poor test signal when you want to compare one adjustment with another. Two steady audio tones provide a repeatable input instead.
 
-> **Key Information:** An oscilloscope contains horizontal and vertical channel amplifiers. {{< link id="G4B01" >}}
-
-The vertical amplifier drives the display up and down (showing voltage), while the horizontal amplifier sweeps time from left to right. You see voltage versus time—the actual waveform of whatever signal you're measuring.
-
-Compared to a voltmeter:
-
-> **Key Information:** An advantage of an oscilloscope versus a digital voltmeter is that complex waveforms can be measured. {{< link id="G4B02" >}}
-
-A voltmeter shows you the RMS or peak voltage. An oscilloscope shows you the shape: Is it a clean sine wave? Square wave? Does it have overshoot, ringing, or distortion? You can see problems that voltage measurements alone would miss.
-
-For example, checking CW keying quality:
-
-> **Key Information:** The best instrument to use for checking the keying waveform of a CW transmitter is an oscilloscope. {{< link id="G4B03" >}}
-
-Connect the oscilloscope to your transmitter's output (through a proper attenuator to protect the scope), send some CW, and watch the waveform. Clean keying shows smooth rise and fall times without clicks or overshoot. Harsh keying shows sharp transitions or ringing—these create key clicks that interfere with adjacent frequencies. You can see the problem directly and adjust your keying speed or waveform shaping to fix it.
-
-For viewing your transmitter's modulated RF:
-
-> **Key Information:** The attenuated RF output of the transmitter is connected to the vertical input of an oscilloscope when checking the RF envelope pattern of a transmitted signal. {{< link id="G4B04" >}}
-
-The oscilloscope can't handle your full transmitter power (typically 100 watts or more), so you use an attenuator or directional coupler to reduce it to milliwatt levels. Then you can see the modulation envelope—the shape of your voice signal imposed on the RF carrier. This reveals overmodulation, distortion, or asymmetry that audio monitoring alone might miss.
-
-#### Verifying Transmitter Quality
-
-For SSB transmitters, the gold standard test is the two-tone test:
-
-> **Key Information:** 
+> **Key Information:**
 > - A two-tone test uses two non-harmonically related audio signals. {{< link id="G4B07" >}}
 > - A two-tone test analyzes transmitter linearity. {{< link id="G4B08" >}}
 
-You feed your transmitter two pure audio tones—typically something like 700 Hz and 1900 Hz (deliberately not harmonically related). A perfectly linear transmitter produces only those two frequencies in its RF output. A non-linear transmitter creates intermodulation products—new frequencies that are mathematical combinations of the input tones. These IMD products cause interference to adjacent channels.
+For example, 700 Hz and 1900 Hz are not integer multiples of one another. Applied to an SSB transmitter, they ideally produce two corresponding RF tones in the selected sideband. Nonlinear operation creates additional intermodulation products. Those unwanted signals can interfere with stations outside the bandwidth you intended to occupy.
 
-You view the result on a spectrum analyzer or oscilloscope, looking for unwanted products between and around the two main tones. The cleaner your transmitter, the fewer IMD products you'll see. This test reveals problems that normal voice operation might hide, letting you adjust drive levels or bias to improve linearity.
+An oscilloscope shows the combined signal's envelope and can reveal deformation such as flattened peaks. A spectrum analyzer instead separates the output by frequency, showing the wanted tones and unwanted products. Those are different views of the same test; an ordinary time-domain scope display does not directly show individual spectral lines. Use the test to assess distortion, not only to seek the largest power reading.
 
-#### Antenna System Analysis
+#### Investigating the Antenna System
 
-Beyond the basic SWR meter, antenna analyzers provide detailed information about your antenna system:
+Section 7.1 introduced the directional wattmeter and antenna analyzer for checking the station's match. An analyzer becomes especially useful when a single SWR reading does not explain the problem: you can observe how impedance changes across a range of frequencies and compare measurements at different points in the system.
 
 > **Key Information:** An antenna analyzer can measure the impedance of coaxial cable. {{< link id="G4B13" >}}
 
-When using an analyzer for SWR measurements:
+The impedance seen at one end depends on the cable and what is connected to its other end. For example, comparing a measurement through the feed line with a measurement at the antenna can help separate feed-line effects from antenna behavior. Follow the analyzer's measurement method for the property you want to determine; one reading through an arbitrary length of cable is not automatically its nominal characteristic impedance.
 
-> **Key Information:** The antenna and feed line must be connected to an antenna analyzer when it is being used for SWR measurements. {{< link id="G4B11" >}}
+An analyzer supplies its own small test signal. That makes testing possible without using your transmitter, but also means outside RF can compete with the signal being measured.
 
-The analyzer sends a signal into your system and measures what comes back. From this it calculates SWR, impedance (both resistive and reactive components), and resonant frequency. You can sweep across a band and see exactly where your antenna is resonant, how bandwidth changes, and whether you have feedline problems.
+> **Key Information:** Strong signals from nearby transmitters can produce received power that interferes with an antenna analyzer's SWR readings. {{< link id="G4B12" >}}
 
-One caution when using analyzers:
+If a reading changes erratically while another station transmits, do not immediately conclude that the antenna changed. Check the measurement conditions. Strong RF can also exceed an instrument's safe input limits, so protect the analyzer as well as questioning the reading.
 
-> **Key Information:** Strong signals from nearby transmitters can interfere with SWR readings when using an antenna analyzer, because received power interferes with the analyzer's measurements. {{< link id="G4B12" >}}
+#### Verify Without Buying Everything
 
-Analyzers use very low power (often just milliwatts). A nearby transmitter radiating kilowatts can overload the analyzer or add to the signal it's trying to measure. If your readings seem erratic or wrong, check whether someone else is transmitting nearby. Move to a quieter location or wait until the band clears.
+Most routine operation does not require a full test bench. A multimeter, a suitable SWR or power indication, and access to more specialized equipment when needed can answer many station questions. A club member's instrument and experience may be more useful than buying equipment you have not learned to use.
 
-#### When Do You Need Test Equipment?
-
-Most day-to-day operation doesn't require anything beyond your transceiver's built-in meters. But when you're troubleshooting intermittent problems, setting up a new antenna, optimizing a transmitter, or verifying compliance with regulations, proper test equipment moves you from guessing to knowing. You don't need to own everything—many clubs have equipment available for members, and sometimes borrowing or renting makes more sense than buying. But understanding what these instruments do helps you know when to reach for them.
-
-With your station set up, optimized, and verified, you're ready to get on the air. The next chapter covers the operating procedures and techniques that turn your technical knowledge into successful contacts.
+Begin with the symptom, decide what measurement would distinguish its possible causes, and change one thing at a time. Respect the electrical and RF hazards from Chapter 6; knowing what a test measures is not the same as being prepared to perform it safely. With a station whose behavior you can check rather than guess at, the next step is using it to make clear, considerate contacts. That is the focus of Chapter 8.

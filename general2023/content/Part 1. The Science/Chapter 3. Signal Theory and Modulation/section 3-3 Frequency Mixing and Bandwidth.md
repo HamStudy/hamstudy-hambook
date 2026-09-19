@@ -1,7 +1,7 @@
 ---
 chapter: "3"
 section: "3.3"
-questions: ["G8B03", "G8B11", "G8B01", "G8B04", "G8B02", "G8B12", "G8B05", "G8B13", "G8B06", "G8B07", "G8B08", "G8B09", "G8B10"]
+questions: ["G8B03", "G8B11", "G8B01", "G8B04", "G8B02", "G8B12", "G8B05", "G8B13", "G8B06", "G8B07", "G8B08", "G8B09", "G7C08", "G8B10"]
 status: draft1
 ---
 
@@ -206,6 +206,14 @@ Typical filter selections:
 - PSK31: 500 Hz
 - SSB: 2.4-2.8 kHz
 - AM: 6 kHz
+
+Bandwidth also helps determine how weak a signal your receiver can usefully detect: its *sensitivity*. Noise arrives with the signal, but the receiver's own circuits add noise too. A weak signal must remain distinguishable from that combined noise to be useful.
+
+> **Key Information:** Input amplifier gain, demodulator stage bandwidth, and input amplifier noise figure all affect receiver sensitivity. {{< link id="G7C08" >}}
+
+The input amplifier boosts the signal before later stages process it. Enough gain can keep noise added by those later stages from dominating, but amplification does not separate a signal from noise already mixed with it. The amplifier's *noise figure* measures how much it degrades the signal-to-noise ratio; a lower noise figure means less degradation. Finally, the bandwidth used when recovering the information determines how much noise accompanies it.
+
+For example, a narrow CW signal does not need the broad passband used for voice. Narrowing that passband can exclude noise while retaining the CW signal. Narrow it too far for a voice signal, however, and you lose parts of the speech along with the noise. Sensitivity depends on the whole receiving chain, not just how much you turn up the gain. Section 7.2 applies these ideas to the controls and interference you encounter while listening.
 
 ##### Digital Mode Considerations
 

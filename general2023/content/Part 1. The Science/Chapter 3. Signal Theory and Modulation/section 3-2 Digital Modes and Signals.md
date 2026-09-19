@@ -1,23 +1,17 @@
 ---
 chapter: "3"
 section: "3.2"
-questions: ["G8A01", "G8C11", "G8A09", "G8A12", "G8A06", "G8C04", "G8C12", "G8C08", "G8C02", "G8C07", "G8C15", "G8C14", "G8C13", "G8C10", "G8C05", "G8C06", "G8C03", "G8C09", "G8C16"]
+questions: ["G8A01", "G8C11", "G8A09", "G8A12", "G8A06", "G8C04", "G8C12", "G8C08", "G8C02", "G8C07", "G8C15", "G8C10", "G8C05", "G8C06", "G8C03", "G8C09", "G8C16"]
 status: draft1
 ---
 
 ### Section 3.2: Digital Modes and Signals
 
-Your General class license opens up a fascinating world of digital communications—and honestly, it's some of the most fun you can have in amateur radio! From classic teletype modes that let you chat across continents using the same technology that once sent telegrams, to cutting-edge weak signal modes that can pull readable text out of conditions where you can't even hear a whisper of voice—digital modes open up entirely new ways to make contacts and explore radio.
+In an analog voice signal, changes in the RF wave follow the sound you want to send. A digital mode instead represents information with discrete choices: one frequency or another, for example, or one of several phase positions. The receiver must recognize those choices and turn them back into data.
 
-If you're like many hams, you might find digital modes surprisingly approachable. There's something liberating about not having to worry whether your voice sounds clear, whether you stumbled over a word, or whether propagation is just good enough for conversation. Digital modes either work perfectly or they don't work at all—no more "could you repeat that?" or straining to understand weak, fading signals. Plus, many of these modes can establish solid communications with tiny amounts of power under conditions where SSB voice would be completely impossible.
+That opens up several kinds of communication. RTTY can carry a typed conversation, FT8 exchanges short structured messages at low signal levels, and packet systems can pass addressed messages through a network. They do not all provide the same speed, flexibility, or protection against errors. A noisy RTTY contact can produce garbled characters; other protocols add checks, correction, or retransmission to improve reliability.
 
-#### Why Digital Modes Are So Much Fun
-
-While analog modes like SSB work well for real-time conversation, digital modes offer a completely different experience. Instead of needing perfect conditions for a chat, you can send and receive perfect text messages under challenging conditions. Your message gets through completely intact or not at all—no more "did you copy my call sign?" or repeating information multiple times.
-
-Digital modes also level the playing field in many ways. Whether you're naturally shy on the air, have a speech impediment, or speak English as a second language, digital modes let you communicate clearly and effectively. Many operators find them less stressful than voice contacts—you can take your time composing responses, and there's no pressure to fill dead air.
-
-But perhaps the most exciting aspect is the detective work involved. Watching signals appear on your waterfall display, tweaking settings to pull that weak station out of the noise, and successfully completing a contact using just milliwatts of power—it's genuinely thrilling when it all comes together!
+The useful foundation is how information becomes a signal, how bits represent characters, and what happens when some of those bits arrive incorrectly. Station setup and on-air procedures build on these ideas in Sections 7.5 and 8.5.
 
 #### Basic Digital Modulation Techniques
 
@@ -113,35 +107,9 @@ FT8 can receive signals with very low signal-to-noise ratios—it's among the mo
 
 FT8 signal reports use a standardized measurement system. {{< link id="G8C15" >}} An FT8 signal report of +3 means the signal-to-noise ratio is equivalent to +3dB in a 2.5 kHz bandwidth. This precise measurement system lets operators share accurate signal quality information across different stations and software packages.
 
-#### Visualizing Digital Signals
-
-Digital operation relies heavily on visual displays that show signals in ways impossible with analog modes.
-
-##### The Waterfall Display
-
-One of the coolest innovations in amateur radio has been the waterfall display—it's like having X-ray vision for radio signals!
-
-> **Key Information:** A waterfall display shows frequency horizontally, signal strength as intensity, and time vertically.
-
-A waterfall display shows frequency horizontally, signal strength as intensity, and time vertically. {{< link id="G8C14" >}} Think of it as a continuously scrolling spectrogram where strong signals appear bright and weak signals appear dim. The horizontal axis shows the frequency spectrum, while the vertical axis represents time flowing downward like a waterfall.
-
-![Screenshot-style illustration of a waterfall display showing a frequency spectrum from 500 Hz to 3000 Hz horizontally, with time flowing downward vertically, displaying various digital signals as colored traces of different intensities, with a bright PSK31 signal at 1000 Hz and weaker RTTY signals at 2210 Hz](../images/waterfall-display.svg)
-
-Watching signals appear and disappear on a waterfall display is genuinely entertaining—you can see exactly when stations start transmitting, watch the patterns different modes make, and spot even the weakest signals.
-
-##### Identifying Signal Problems
-
-Waterfall displays also serve as diagnostic tools. Here's a neat trick:
-
-> **Key Information:** Vertical lines on either side of a data mode signal on a waterfall display indicate overmodulation.
-
-One or more vertical lines on either side of a data mode or RTTY signal on a waterfall display indicates overmodulation. {{< link id="G8C13" >}} These "splatter lines" show that the signal is spreading beyond its intended bandwidth. It's like seeing someone shouting too loudly at a party—you can visually spot the problem!
-
-![Waterfall display showing a properly modulated PSK31 signal as a clean narrow trace, contrasted with an overmodulated signal displaying characteristic vertical splatter lines extending above and below the main signal frequency](../images/digital-overmodulation.svg)
-
 #### Error Detection and Correction
 
-Digital modes provide sophisticated methods to ensure accurate data transfer, far beyond what's possible with analog voice.
+A computer may detect a weak signal, but that does not guarantee it recovers every bit correctly. Noise or interference can change a received symbol. Digital protocols address that problem by adding information that helps detect or correct errors, or by arranging to send damaged information again.
 
 ##### Forward Error Correction (FEC)
 
@@ -153,7 +121,7 @@ Forward error correction (FEC) allows the receiver to correct data errors by tra
 
 ##### ARQ: When Perfect Accuracy Matters
 
-For applications requiring guaranteed accuracy, Automatic Repeat reQuest (ARQ) protocols provide a different approach:
+When a receiving station can request another transmission, Automatic Repeat reQuest (ARQ) provides a different approach:
 
 > **Key Information:** In an ARQ mode, a NAK response means request retransmission of the packet.
 
@@ -219,7 +187,7 @@ As a General class operator, digital modes give you several practical advantages
 
 - **Extended Range**: Digital modes often work with signals too weak for analog voice
 - **Automated Operation**: Many digital modes can operate without constant attention
-- **Perfect Copy**: Digital modes provide error-free text or fail completely—no garbled messages
+- **Error Control**: Depending on the protocol, error detection, correction, or retransmission can improve message reliability
 - **Objective Measurements**: Digital signal reports provide precise, quantifiable information
 - **Network Capabilities**: Digital modes can connect through networks and gateways
 - **Emergency Communication**: Digital modes work well in challenging conditions

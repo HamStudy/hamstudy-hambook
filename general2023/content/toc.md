@@ -56,21 +56,20 @@ status: generated
   - G9C11 - What is a beta or hairpin match?
   - G9C12 - Which of the following is a characteristic of using a gamma match with a Yagi antenna?
 
-- Section 1.5: Power and Measurements - ["G5B01", "G5B03", "G5B04", "G5B05", "G5B06", "G5B07", "G5B08", "G5B09", "G5B10", "G5B11", "G5B12", "G5B13", "G5B14", "G9A06", "G9C04"]
-  - G5B01 - What dB change represents a factor of two increase or decrease in power?
-  - G5B03 - How many watts of electrical power are consumed if 400 VDC is supplied to an 800-ohm load?
+- Section 1.5: Power and Measurements - ["G5B04", "G5B05", "G5B03", "G5B07", "G5B09", "G5B08", "G5B12", "G5B11", "G5B13", "G5B06", "G5B14", "G5B01", "G5B10", "G9C04"]
   - G5B04 - How many watts of electrical power are consumed by a 12 VDC light bulb that draws 0.2 amperes?
   - G5B05 - How many watts are consumed when a current of 7.0 milliamperes flows through a 1,250-ohm resistance?
-  - G5B06 - What is the PEP produced by 200 volts peak-to-peak across a 50-ohm dummy load?
+  - G5B03 - How many watts of electrical power are consumed if 400 VDC is supplied to an 800-ohm load?
   - G5B07 - What value of an AC signal produces the same power dissipation in a resistor as a DC voltage of the same value?
-  - G5B08 - What is the peak-to-peak voltage of a sine wave with an RMS voltage of 120 volts?
   - G5B09 - What is the RMS voltage of a sine wave with a value of 17 volts peak?
-  - G5B10 - What percentage of power loss is equivalent to a loss of 1 dB?
-  - G5B11 - What is the ratio of PEP to average power for an unmodulated carrier?
+  - G5B08 - What is the peak-to-peak voltage of a sine wave with an RMS voltage of 120 volts?
   - G5B12 - What is the RMS voltage across a 50-ohm dummy load dissipating 1200 watts?
+  - G5B11 - What is the ratio of PEP to average power for an unmodulated carrier?
   - G5B13 - What is the output PEP of an unmodulated carrier if the average power is 1060 watts?
+  - G5B06 - What is the PEP produced by 200 volts peak-to-peak across a 50-ohm dummy load?
   - G5B14 - What is the output PEP of 500 volts peak-to-peak across a 50-ohm load?
-  - G9A06 - In what units is RF feed line loss usually expressed?
+  - G5B01 - What dB change represents a factor of two increase or decrease in power?
+  - G5B10 - What percentage of power loss is equivalent to a loss of 1 dB?
   - G9C04 - How does antenna gain in dBi compare to gain stated in dBd for the same antenna?
 
 ### Chapter 2: Components for Advanced Circuits
@@ -86,20 +85,20 @@ status: generated
   - G6B08 - How is an LED biased when emitting light?
   - G6B10 - How does a ferrite bead or core reduce common-mode RF current on the shield of a coaxial cable?
 
-- Section 2.2: Transistors and Amplification - ["G6A07", "G6A09", "G6A10", "G6A11", "G6A12", "G7B01", "G7B02", "G7B04", "G7B07", "G7B08", "G7B10", "G7B11", "G7C05"]
+- Section 2.2: Transistors and Amplification - ["G6A07", "G6A09", "G6A10", "G6A12", "G7B08", "G7B10", "G7B04", "G7B02", "G7B11", "G7B07", "G7C05", "G7B01", "G6A11"]
   - G6A07 - What are the operating points for a bipolar transistor used as a switch?
   - G6A09 - Which of the following describes MOSFET construction?
   - G6A10 - Which element of a vacuum tube regulates the flow of electrons between cathode and plate?
-  - G6A11 - What happens when an inductor is operated above its self-resonant frequency?
   - G6A12 - What is the primary purpose of a screen grid in a vacuum tube?
-  - G7B01 - What is the purpose of neutralizing an amplifier?
-  - G7B02 - Which of these classes of amplifiers has the highest efficiency?
-  - G7B04 - In a Class A amplifier, what percentage of the time does the amplifying device conduct?
-  - G7B07 - Which of the following are basic components of a sine wave oscillator?
   - G7B08 - How is the efficiency of an RF power amplifier determined?
   - G7B10 - Which of the following describes a linear amplifier?
+  - G7B04 - In a Class A amplifier, what percentage of the time does the amplifying device conduct?
+  - G7B02 - Which of these classes of amplifiers has the highest efficiency?
   - G7B11 - For which of the following modes is a Class C power stage appropriate for amplifying a modulated signal?
+  - G7B07 - Which of the following are basic components of a sine wave oscillator?
   - G7C05 - Which of the following is characteristic of a direct digital synthesizer (DDS)?
+  - G7B01 - What is the purpose of neutralizing an amplifier?
+  - G6A11 - What happens when an inductor is operated above its self-resonant frequency?
 
 - Section 2.3: Power Supply Fundamentals - ["G7A01", "G7A02", "G7A03", "G7A04", "G7A05", "G7A06", "G7A07", "G7A08"]
   - G7A01 - What is the function of a power supply bleeder resistor?
@@ -111,27 +110,23 @@ status: generated
   - G7A07 - What is the output waveform of an unfiltered full-wave rectifier connected to a resistive load?
   - G7A08 - Which of the following is characteristic of a switchmode power supply as compared to a linear power supply?
 
-- Section 2.4: Digital Circuit Basics - ["G6B02", "G6B03", "G6B06", "G7B03", "G7B05", "G7B06"]
+- Section 2.4: Digital Circuit Fundamentals - ["G7B03", "G6B02", "G6B03", "G6B06", "G7B06", "G7B05"]
+  - G7B03 - Which of the following describes the function of a two-input AND gate?
   - G6B02 - What is meant by the term MMIC?
   - G6B03 - Which of the following is an advantage of CMOS integrated circuits compared to TTL integrated circuits?
   - G6B06 - What kind of device is an integrated circuit operational amplifier?
-  - G7B03 - Which of the following describes the function of a two-input AND gate?
-  - G7B05 - How many states does a 3-bit binary counter have?
   - G7B06 - What is a shift register?
+  - G7B05 - How many states does a 3-bit binary counter have?
 
-- Section 2.5: Test Equipment and Troubleshooting - ["G7A09", "G7A10", "G7A11", "G7A12", "G7A13", "G4B01", "G4B02", "G4B05", "G4B06", "G4B07", "G4B08", "G4B09"]
+- Section 2.5: Schematic Reading and Measurement Principles - ["G7A09", "G7A11", "G7A10", "G7A12", "G7A13", "G4B01", "G4B02", "G4B05"]
   - G7A09 - Which symbol in figure G7-1 represents a field effect transistor?
-  - G7A10 - Which symbol in figure G7-1 represents a Zener diode?
   - G7A11 - Which symbol in figure G7-1 represents an NPN junction transistor?
+  - G7A10 - Which symbol in figure G7-1 represents a Zener diode?
   - G7A12 - Which symbol in Figure G7-1 represents a solid core transformer?
   - G7A13 - Which symbol in Figure G7-1 represents a tapped inductor?
   - G4B01 - What item of test equipment contains horizontal and vertical channel amplifiers?
   - G4B02 - Which of the following is an advantage of an oscilloscope versus a digital voltmeter?
   - G4B05 - Why do voltmeters have high input impedance?
-  - G4B06 - What is an advantage of a digital multimeter as compared to an analog multimeter?
-  - G4B07 - What signals are used to conduct a two-tone test?
-  - G4B08 - What transmitter performance parameter does a two-tone test analyze?
-  - G4B09 - When is an analog multimeter preferred to a digital multimeter?
 
 ### Chapter 3: Signal Theory and Modulation
 - Section 3.1: Analog Modulation Methods - ["G8A02", "G8A03", "G8A04", "G8A05", "G8A07", "G8A08", "G8A10", "G8A11", "G7C01", "G7C02", "G7C04"]
@@ -147,27 +142,26 @@ status: generated
   - G7C02 - What output is produced by a balanced modulator?
   - G7C04 - How is a product detector used?
 
-- Section 3.2: Digital Modes and Signals - ["G8A01", "G8A06", "G8A09", "G8A12", "G8C02", "G8C03", "G8C04", "G8C05", "G8C06", "G8C07", "G8C08", "G8C10", "G8C11", "G8C12", "G8C13", "G8C14", "G8C15", "G8C16"]
+- Section 3.2: Digital Modes and Signals - ["G8A01", "G8C11", "G8A09", "G8A12", "G8A06", "G8C04", "G8C12", "G8C08", "G8C02", "G8C07", "G8C15", "G8C10", "G8C05", "G8C06", "G8C03", "G8C09", "G8C16"]
   - G8A01 - How is direct binary FSK modulation generated?
-  - G8A06 - Which of the following is characteristic of QPSK31?
+  - G8C11 - How are the two separate frequencies of a Frequency Shift Keyed (FSK) signal identified?
   - G8A09 - What type of modulation is used by FT8?
   - G8A12 - What is QPSK modulation?
-  - G8C02 - Which digital mode is used as a low-power beacon for assessing HF propagation?
-  - G8C03 - What part of a packet radio frame contains the routing and handling information?
+  - G8A06 - Which of the following is characteristic of QPSK31?
   - G8C04 - Which of the following describes Baudot code?
+  - G8C12 - Which type of code is used for sending characters in a PSK31 signal?
+  - G8C08 - Which of the following statements is true about PSK31?
+  - G8C02 - Which digital mode is used as a low-power beacon for assessing HF propagation?
+  - G8C07 - Which of the following narrow-band digital modes can receive signals with very low signal-to-noise ratios?
+  - G8C15 - What does an FT8 signal report of +3 mean?
+  - G8C10 - How does forward error correction (FEC) allow the receiver to correct data errors?
   - G8C05 - In an ARQ mode, what is meant by a NAK response to a transmitted packet?
   - G8C06 - What action results from a failure to exchange information due to excessive transmission attempts when using an ARQ mode?
-  - G8C07 - Which of the following narrow-band digital modes can receive signals with very low signal-to-noise ratios?
-  - G8C08 - Which of the following statements is true about PSK31?
-  - G8C10 - How does forward error correction (FEC) allow the receiver to correct data errors?
-  - G8C11 - How are the two separate frequencies of a Frequency Shift Keyed (FSK) signal identified?
-  - G8C12 - Which type of code is used for sending characters in a PSK31 signal?
-  - G8C13 - What is indicated on a waterfall display by one or more vertical lines on either side of a data mode or RTTY signal?
-  - G8C14 - Which of the following describes a waterfall display?
-  - G8C15 - What does an FT8 signal report of +3 mean?
+  - G8C03 - What part of a packet radio frame contains the routing and handling information?
+  - G8C09 - Which is true of mesh network microwave nodes?
   - G8C16 - Which of the following provide digital voice modes?
 
-- Section 3.3: Frequency Mixing and Bandwidth - ["G8B01", "G8B02", "G8B03", "G8B04", "G8B05", "G8B06", "G8B07", "G8B08", "G8B09", "G8B10", "G8B11", "G8B12", "G8B13"]
+- Section 3.3: Frequency Mixing and Bandwidth - ["G8B03", "G8B11", "G8B01", "G8B04", "G8B02", "G8B12", "G8B05", "G8B13", "G8B06", "G8B07", "G8B08", "G8B09", "G7C08", "G8B10"]
   - G8B01 - Which mixer input is varied or tuned to convert signals of different frequencies to an intermediate frequency (IF)?
   - G8B02 - What is the term for interference from a signal at twice the IF frequency from the desired signal?
   - G8B03 - What is another term for the mixing of two RF signals?
@@ -177,6 +171,7 @@ status: generated
   - G8B07 - What is the frequency deviation for a 12.21 MHz reactance modulated oscillator in a 5 kHz deviation, 146.52 MHz FM phone transmitter?
   - G8B08 - Why is it important to know the duty cycle of the mode you are using when transmitting?
   - G8B09 - Why is it good to match receiver bandwidth to the bandwidth of the operating mode?
+  - G7C08 - Which parameter affects receiver sensitivity?
   - G8B10 - What is the relationship between transmitted symbol rate and bandwidth?
   - G8B11 - What combination of a mixer's Local Oscillator (LO) and RF input frequencies is found in the output?
   - G8B12 - What process combines two signals in a non-linear circuit to produce unwanted spurious outputs?
@@ -200,19 +195,15 @@ status: generated
   - G6B11 - What is an SMA connector?
   - G6B12 - Which of these connector types is commonly used for low frequency or dc signal connections to a transceiver?
 
-- Section 4.2: SWR and Antenna Matching - ["G9A02", "G9A04", "G9A07", "G9A08", "G9A09", "G9A10", "G9A11", "G7C03", "G4B10", "G4B11", "G4B12", "G4B13", "G8A13", "G8A14"]
-  - G9A02 - What is the relationship between high standing wave ratio (SWR) and transmission line loss?
+- Section 4.2: SWR and Antenna Matching - ["G9A04", "G9A07", "G9A09", "G9A10", "G9A02", "G9A11", "G9A08", "G7C03", "G8A13", "G8A14"]
   - G9A04 - What causes reflected power at an antenna's feed point?
   - G9A07 - What must be done to prevent standing waves on a feed line connected to an antenna?
-  - G9A08 - If the SWR on an antenna feed line is 5:1, and a matching network at the transmitter end of the feed line is adjusted to present a 1:1 SWR to the transmitter, what is the resulting SWR on the feed line?
   - G9A09 - What standing wave ratio results from connecting a 50-ohm feed line to a 200-ohm resistive load?
   - G9A10 - What standing wave ratio results from connecting a 50-ohm feed line to a 10-ohm resistive load?
+  - G9A02 - What is the relationship between high standing wave ratio (SWR) and transmission line loss?
   - G9A11 - What is the effect of transmission line loss on SWR measured at the input to the line?
+  - G9A08 - If the SWR on an antenna feed line is 5:1, and a matching network at the transmitter end of the feed line is adjusted to present a 1:1 SWR to the transmitter, what is the resulting SWR on the feed line?
   - G7C03 - What is one reason to use an impedance matching transformer at a transmitter output?
-  - G4B10 - Which of the following can be determined with a directional wattmeter?
-  - G4B11 - Which of the following must be connected to an antenna analyzer when it is being used for SWR measurements?
-  - G4B12 - What effect can strong signals from nearby transmitters have on an antenna analyzer?
-  - G4B13 - Which of the following can be measured with an antenna analyzer?
   - G8A13 - What is a link budget?
   - G8A14 - What is link margin?
 
@@ -315,96 +306,107 @@ status: generated
   - G0B06 - Which of the following is covered by the National Electrical Code?
   - G0B12 - What is the purpose of a power supply interlock?
 
-- Section 6.2: Batteries and Power Systems - ["G6A01", "G6A02", "G0B10", "G4E03", "G4E04", "G4E10", "G4E11", "G0B09"]
+- Section 6.2: Batteries and Power Systems - ["G6A01", "G6A02", "G4E03", "G4E04", "G4E09", "G4E08", "G4E10", "G4E11", "G0B09"]
   - G6A01 - What is the minimum allowable discharge voltage for maximum life of a standard 12-volt lead-acid battery?
   - G6A02 - What is an advantage of batteries with low internal resistance?
-  - G0B10 - Which of the following is a danger from lead-tin solder?
   - G4E03 - Which of the following direct, fused power connections would be the best for a 100-watt HF mobile installation?
   - G4E04 - Why should DC power for a 100-watt HF transceiver not be supplied by a vehicle's auxiliary power socket?
+  - G4E09 - What is the approximate open-circuit voltage from a fully illuminated silicon photovoltaic cell?
+  - G4E08 - In what configuration are the individual cells in a solar panel connected together?
   - G4E10 - Why should a series diode be connected between a solar panel and a storage battery that is being charged by the panel?
   - G4E11 - What precaution should be taken when connecting a solar panel to a lithium iron phosphate battery?
   - G0B09 - Which of the following is true of an emergency generator installation?
 
-- Section 6.3: Grounding and Lightning Protection - ["G0B04", "G0B11", "G0B13", "G4C05", "G4C06", "G4C07", "G4C09", "G4C12"]
+- Section 6.3: Grounding and Lightning Protection - ["G0B04", "G0B11", "G0B13", "G4C05", "G4C06", "G4C11", "G4C10", "G4C09", "G4C12", "G4C07", "G0B10"]
   - G0B04 - Where should the station's lightning protection ground system be located?
   - G0B11 - Which of the following is required for lightning protection ground rods?
   - G0B13 - Where should lightning arrestors be located?
   - G4C05 - What is a possible cause of high voltages that produce RF burns?
   - G4C06 - What is a possible effect of a resonant ground connection?
-  - G4C07 - Why should soldered joints not be used in lightning protection ground connections?
+  - G4C11 - What technique helps to minimize RF "hot spots" in an amateur station?
+  - G4C10 - What could be a symptom caused by a ground loop in your station's audio connections?
   - G4C09 - How can the effects of ground loops be minimized?
   - G4C12 - Why must all metal enclosures of station equipment be grounded?
+  - G4C07 - Why should soldered joints not be used in lightning protection ground connections?
+  - G0B10 - Which of the following is a danger from lead-tin solder?
 
 - Section 6.4: Tower and Antenna Safety - ["G0B07", "G0B08"]
   - G0B07 - Which of these choices should be observed when climbing a tower using a safety harness?
   - G0B08 - What should be done before climbing a tower that supports electrically powered devices?
 
-- Section 6.5: RF Exposure - ["G0A01", "G0A02", "G0A03", "G0A04", "G0A05", "G0A06", "G0A07", "G0A08", "G0A09", "G0A10", "G0A11", "G0A12", "G4C11"]
+- Section 6.5: RF Exposure - ["G0A01", "G0A02", "G0A04", "G0A07", "G0A03", "G0A09", "G0A06", "G0A08", "G0A05", "G0A10", "G0A11", "G0A12"]
   - G0A01 - What is one way that RF energy can affect human body tissue?
   - G0A02 - Which of the following is used to determine RF exposure from a transmitted signal?
-  - G0A03 - How can you determine that your station complies with FCC RF exposure regulations?
   - G0A04 - What does "time averaging" mean when evaluating RF radiation exposure?
-  - G0A05 - What must you do if an evaluation of your station shows that the RF energy radiated by your station exceeds permissible limits for possible human absorption?
-  - G0A06 - What must you do if your station fails to meet the FCC RF exposure exemption criteria?
   - G0A07 - What is the effect of modulation duty cycle on RF exposure?
-  - G0A08 - Which of the following steps must an amateur operator take to ensure compliance with RF safety regulations?
+  - G0A03 - How can you determine that your station complies with FCC RF exposure regulations?
   - G0A09 - What type of instrument can be used to accurately measure an RF field strength?
+  - G0A06 - What must you do if your station fails to meet the FCC RF exposure exemption criteria?
+  - G0A08 - Which of the following steps must an amateur operator take to ensure compliance with RF safety regulations?
+  - G0A05 - What must you do if an evaluation of your station shows that the RF energy radiated by your station exceeds permissible limits for possible human absorption?
   - G0A10 - What should be done if evaluation shows that a neighbor might experience more than the allowable limit of RF exposure from the main lobe of a directional antenna?
   - G0A11 - What precaution should be taken if you install an indoor transmitting antenna?
   - G0A12 - What stations are subject to the FCC rules on RF exposure?
-  - G4C11 - What technique helps to minimize RF "hot spots" in an amateur station?
 
 
 ### Chapter 7: Setting Up Your HF Station
 
-- Section 7.1: Getting Started with HF Reception - ["G4A06", "G4A13", "G4A01", "G4A03", "G4A07", "G4D04", "G4B10", "G4B11"]
+- Section 7.1: Station Fundamentals - ["G4A06", "G4B10", "G4B11"]
   - G4A06: What is the purpose of an antenna tuner?
-  - G4A13 - What is the purpose of using a receive attenuator?
-  - G4A01 - What is the purpose of the notch filter found on many HF transceivers?
-  - G4A03 - How does a noise blanker work?
-  - G4A07 - What happens as a receiver's noise reduction control level is increased?
-  - G4D04 - What does an S meter measure?
   - G4B10 - Which of the following can be determined with a directional wattmeter?
   - G4B11 - Which of the following must be connected to an antenna analyzer when it is being used for SWR measurements?
 
-- Section 7.2: Transmitting on HF - ["G4A12", "G4D01", "G4D02", "G4D03", "G4A02", "G4A10"]
-  - G4A12 - Which of the following is a common use of the dual-VFO feature on a transceiver?
+- Section 7.2: Receiving Techniques - ["G4A13", "G4A01", "G4C02", "G4E07", "G4A03", "G4A07", "G4C03", "G4C04", "G4C01", "G4C08", "G4D04", "G4D06", "G4D05", "G4D07"]
+  - G4A13 - What is the purpose of using a receive attenuator?
+  - G4A01 - What is the purpose of the notch filter found on many HF transceivers?
+  - G4C02 - Which of the following could be a cause of interference covering a wide range of frequencies?
+  - G4E07 - Which of the following may cause receive interference to an HF transceiver installed in a vehicle?
+  - G4A03 - How does a noise blanker work?
+  - G4A07 - What happens as a receiver's noise reduction control level is increased?
+  - G4C03 - What sound is heard from an audio device experiencing RF interference from a single sideband phone transmitter?
+  - G4C04 - What sound is heard from an audio device experiencing RF interference from a CW transmitter?
+  - G4C01 - Which of the following might be useful in reducing RF interference to audio frequency circuits?
+  - G4C08 - Which of the following would reduce RF interference caused by common-mode current on an audio cable?
+  - G4D04 - What does an S meter measure?
+  - G4D06 - How much change in signal strength is typically represented by one S unit?
+  - G4D05 - How does a signal that reads 20 dB over S9 compare to one that reads S9 on a receiver, assuming a properly calibrated S meter?
+  - G4D07 - How much must the power output of a transmitter be raised to change the S meter reading on a distant receiver from S8 to S9?
+
+- Section 7.3: Transmitting Techniques - ["G4D01", "G4D02", "G4D03", "G4D08", "G4D10", "G4D09", "G4D11", "G4A12", "G4A10", "G4A02"]
   - G4D01 - What is the purpose of a speech processor in a transceiver?
   - G4D02 - How does a speech processor affect a single sideband phone signal?
   - G4D03 - What is the effect of an incorrectly adjusted speech processor?
-  - G4A02 - What is the benefit of using the opposite or "reverse" sideband when receiving CW?
+  - G4D08 - What frequency range is occupied by a 3 kHz LSB signal when the displayed carrier frequency is set to 7.178 MHz?
+  - G4D10 - How close to the lower edge of a band's phone segment should your displayed carrier frequency be when using 3 kHz wide LSB?
+  - G4D09 - What frequency range is occupied by a 3 kHz USB signal with the displayed carrier frequency set to 14.347 MHz?
+  - G4D11 - How close to the upper edge of a band's phone segment should your displayed carrier frequency be when using 3 kHz wide USB?
+  - G4A12 - Which of the following is a common use of the dual-VFO feature on a transceiver?
   - G4A10 - What is the function of an electronic keyer?
+  - G4A02 - What is the benefit of using the opposite or "reverse" sideband when receiving CW?
 
-- Section 7.3: Power Amplifiers and Measurement - ["G4A04", "G4A08", "G4A05", "G4A09", "G7B08", "G7B02", "G7B01", "G7B11"]
-  - G4A04 - What is the effect on plate current of the correct setting of a vacuum-tube RF power amplifier's TUNE control?
-  - G4A08 - What is the correct adjustment for the LOAD or COUPLING control of a vacuum tube RF power amplifier?
+- Section 7.4: Power Amplifiers - ["G4A05", "G4A09", "G4A04", "G4A08"]
   - G4A05 - Why is automatic level control (ALC) used with an RF power amplifier?
   - G4A09 - What is the purpose of delaying RF output after activating a transmitter's keying line to an external amplifier?
-  - G7B08 - How is the efficiency of an RF power amplifier determined?
-  - G7B02 - Which of these classes of amplifiers has the highest efficiency?
-  - G7B01 - What is the purpose of neutralizing an amplifier?
-  - G7B11 - For which of the following modes is a Class C power stage appropriate for amplifying a modulated signal?
+  - G4A04 - What is the effect on plate current of the correct setting of a vacuum-tube RF power amplifier's TUNE control?
+  - G4A08 - What is the correct adjustment for the LOAD or COUPLING control of a vacuum tube RF power amplifier?
 
-- Section 7.4: Digital Mode Station Setup - ["G4A11", "G2E07", "G2E14", "G8C14", "G8C13", "G2E06"]
+- Section 7.5: Digital Mode Station Setup - ["G2E06", "G4A11", "G8C14", "G8C13", "G2E07", "G2E14"]
+  - G2E06 - What is the most common frequency shift for RTTY emissions in the amateur HF bands?
   - G4A11 - Why should the ALC system be inactive when transmitting AFSK data signals?
-  - G2E07 - Which of the following is required when using FT8?
-  - G2E14 - What could be wrong if you cannot decode an RTTY or other FSK signal even though it is apparently tuned in properly?
   - G8C14 - Which of the following describes a waterfall display?
   - G8C13 - What is indicated on a waterfall display by one or more vertical lines on either side of a data mode or RTTY signal?
-  - G2E06 - What is the most common frequency shift for RTTY emissions in the amateur HF bands?
+  - G2E07 - Which of the following is required when using FT8?
+  - G2E14 - What could be wrong if you cannot decode an RTTY or other FSK signal even though it is apparently tuned in properly?
 
-- Section 7.5: Test Equipment and Measurement - ["G4B01", "G4B02", "G4B03", "G4B04", "G4B05", "G4B06", "G4B07", "G4B08", "G4B09", "G4B12", "G4B13"]
-  - G4B01 - What item of test equipment contains horizontal and vertical channel amplifiers?
-  - G4B02 - Which of the following is an advantage of an oscilloscope versus a digital voltmeter?
+- Section 7.6: Test Equipment and Measurement - ["G4B06", "G4B09", "G4B03", "G4B04", "G4B07", "G4B08", "G4B13", "G4B12"]
+  - G4B06 - What is an advantage of a digital multimeter as compared to an analog multimeter?
+  - G4B09 - When is an analog multimeter preferred to a digital multimeter?
   - G4B03 - Which of the following is the best instrument to use for checking the keying waveform of a CW transmitter?
   - G4B04 - What signal source is connected to the vertical input of an oscilloscope when checking the RF envelope pattern of a transmitted signal?
-  - G4B05 - Why do voltmeters have high input impedance?
-  - G4B06 - What is an advantage of a digital multimeter as compared to an analog multimeter?
   - G4B07 - What signals are used to conduct a two-tone test?
   - G4B08 - What transmitter performance parameter does a two-tone test analyze?
-  - G4B09 - When is an analog multimeter preferred to a digital multimeter?
-  - G4B12 - What effect can strong signals from nearby transmitters have on an antenna analyzer?
   - G4B13 - Which of the following can be measured with an antenna analyzer?
+  - G4B12 - What effect can strong signals from nearby transmitters have on an antenna analyzer?
 
 ### Chapter 8: Operating Techniques and Procedures
 
@@ -420,7 +422,7 @@ status: generated
   - G2B07 - Which of the following complies with commonly accepted amateur practice when choosing a frequency on which to initiate a call?
   - G2B08 - What is the voluntary band plan restriction for US stations transmitting within the 48 contiguous states in the 50.1 MHz to 50.125 MHz band segment?
 
-- Section 8.2: Voice Operating Techniques - ["G2A08", "G2A10", "G2A11", "G2A12", "G2B01", "G2B03", "G2B05", "G2B06", "G4D05", "G4D06", "G4D07"]
+- Section 8.2: Voice Operating Techniques - ["G2A08", "G2A10", "G2A11", "G2A12", "G2B01", "G2B03", "G2B05", "G2B06"]
   - G2A08 - What is the recommended way to break into a phone contact?
   - G2A10 - Which of the following statements is true of VOX operation versus PTT operation?
   - G2A11 - Generally, who should respond to a station in the contiguous 48 states calling "CQ DX"?
@@ -429,9 +431,6 @@ status: generated
   - G2B03 - What is good amateur practice if propagation changes during a contact creating interference from other stations using the frequency?
   - G2B05 - When selecting an SSB transmitting frequency, what minimum separation should be used to minimize interference to stations on adjacent frequencies?
   - G2B06 - How can you avoid harmful interference on an apparently clear frequency before calling CQ on CW or phone?
-  - G4D05 - How does a signal that reads 20 dB over S9 compare to one that reads S9 on a receiver, assuming a properly calibrated S meter?
-  - G4D06 - How much change in signal strength is typically represented by one S unit?
-  - G4D07 - How much must the power output of a transmitter be raised to change the S meter reading on a distant receiver from S8 to S9?
 
 - Section 8.3: CW Operating Practices - ["G2C01", "G2C05", "G2C06", "G2C07", "G2C08", "G2B04", "G2C02", "G2C03", "G2C04", "G2C09", "G2C10", "G2C11"]
   - G2C01 - Which of the following describes full break-in CW operation (QSK)?
@@ -447,43 +446,35 @@ status: generated
   - G2C10 - What does the Q signal "QRN" mean?
   - G2C11 - What does the Q signal "QRV" mean?
 
-- Section 8.4: DX and Contest Operating - ["G2D05", "G2D06", "G2D07", "G2D09", "G2D10", "G2D11", "G4D08", "G4D09", "G4D10", "G4D11"]
+- Section 8.4: DX and Contest Operating - ["G2D05", "G2D04", "G2D06", "G2D07", "G2D08", "G2D09", "G2D10", "G2D11"]
   - G2D05 - Which of the following indicates that you are looking for an HF contact with any station?
+  - G2D04 - Which of the following describes an azimuthal projection map?
   - G2D06 - How is a directional antenna pointed when making a "long-path" contact with another station?
   - G2D07 - Which of the following are examples of the NATO Phonetic Alphabet?
+  - G2D08 - Why do many amateurs keep a station log?
   - G2D09 - Which of the following is required when participating in a contest on HF frequencies?
   - G2D10 - What is QRP operation?
   - G2D11 - Why are signal reports typically exchanged at the beginning of an HF contact?
-  - G4D08 - What frequency range is occupied by a 3 kHz LSB signal when the displayed carrier frequency is set to 7.178 MHz?
-  - G4D09 - What frequency range is occupied by a 3 kHz USB signal with the displayed carrier frequency set to 14.347 MHz?
-  - G4D10 - How close to the lower edge of a band's phone segment should your displayed carrier frequency be when using 3 kHz wide LSB?
-  - G4D11 - How close to the upper edge of a band's phone segment should your displayed carrier frequency be when using 3 kHz wide USB?
 
-- Section 8.5: Digital Mode Procedures - ["G2E01", "G2E02", "G2E03", "G2E04", "G2E05", "G2E08", "G2E09", "G2E10", "G2E15", "G8C15"]
+- Section 8.5: Digital Mode Operating Procedures - ["G2E01", "G2E12", "G2E13", "G2E02", "G2E03", "G2E04", "G2E05", "G2E08", "G2E15", "G2E09", "G2E10", "G2E11"]
   - G2E01 - Which mode is normally used when sending RTTY signals via AFSK with an SSB transmitter?
+  - G2E12 - Which of the following describes Winlink?
+  - G2E13 - What is another name for a Winlink Remote Message Server?
   - G2E02 - What is VARA?
   - G2E03 - What symptoms may result from other signals interfering with a PACTOR or VARA transmission?
   - G2E04 - Which of the following is good practice when choosing a transmitting frequency to answer a station calling CQ using FT8?
   - G2E05 - What is the standard sideband for JT65, JT9, FT4, or FT8 digital signal when using AFSK?
   - G2E08 - In what segment of the 20-meter band are most digital mode operations commonly found?
+  - G2E15 - Which of the following is a common location for FT8?
   - G2E09 - How do you join a contact between two stations using the PACTOR protocol?
   - G2E10 - Which of the following is a way to establish contact with a digital messaging system gateway station?
-  - G2E15 - Which of the following is a common location for FT8?
-  - G8C15 - What does an FT8 signal report of +3 mean?
-
-- Section 8.6: Emergency Communication - ["G2B02", "G2B09", "G2B10", "G2B11", "G2D01", "G2D02", "G2D03", "G2D04", "G2D08", "G2E11", "G2E12", "G2E13"]
-  - G2B02 - What is the first thing you should do if you are communicating with another amateur station and hear a station in distress break in?
-  - G2B09 - Who may be the control operator of an amateur station transmitting in RACES to assist relief operations during a disaster?
-  - G2B10 - Which of the following is good amateur practice for net management?
-  - G2B11 - How often may RACES training drills and tests be routinely conducted without special authorization?
-  - G2D01 - What is the Volunteer Monitor Program?
-  - G2D02 - Which of the following are objectives of the Volunteer Monitor Program?
-  - G2D03 - What procedure may be used by Volunteer Monitors to localize a station whose continuous carrier is holding a repeater on in their area?
-  - G2D04 - Which of the following describes an azimuthal projection map?
-  - G2D08 - Why do many amateurs keep a station log?
   - G2E11 - What is the primary purpose of an Amateur Radio Emergency Data Network (AREDN) mesh network?
-  - G2E12 - Which of the following describes Winlink?
-  - G2E13 - What is another name for a Winlink Remote Message Server?
+
+- Section 8.6: Emergency Communication - ["G2B02", "G2B10", "G2B09", "G2B11"]
+  - G2B02 - What is the first thing you should do if you are communicating with another amateur station and hear a station in distress break in?
+  - G2B10 - Which of the following is good amateur practice for net management?
+  - G2B09 - Who may be the control operator of an amateur station transmitting in RACES to assist relief operations during a disaster?
+  - G2B11 - How often may RACES training drills and tests be routinely conducted without special authorization?
 
 ### Chapter 9: Rules and Regulations
 
@@ -507,11 +498,14 @@ status: generated
   - G1C04 - Which of the following is required by the FCC rules when operating in the 60-meter band?
   - G1C09 - What is the maximum power limit on the 60-meter band?
 
-- Section 9.2: Secondary Allocations and Interference - ["G1A06", "G1E04", "G1E10", "G1E11"]
+- Section 9.2: Secondary Allocations and Interference - ["G1A06", "G1E04", "G1E10", "G1E11", "G2D01", "G2D02", "G2D03"]
   - G1A06 - Which of the following applies when the FCC rules designate the amateur service as a secondary user on a band?
   - G1E04 - Which of the following conditions require a licensed amateur radio operator to take specific steps to avoid harmful interference to other users or facilities?
   - G1E10 - Why should an amateur operator normally avoid transmitting on 14.100, 18.110, 21.150, 24.930 and 28.200 MHz?
   - G1E11 - On what bands may automatically controlled stations transmitting RTTY or data emissions communicate with other automatically controlled digital stations?
+  - G2D01 - What is the Volunteer Monitor Program?
+  - G2D02 - Which of the following are objectives of the Volunteer Monitor Program?
+  - G2D03 - What procedure may be used by Volunteer Monitors to localize a station whose continuous carrier is holding a repeater on in their area?
 
 - Section 9.3: Digital Communications Rules - ["G1C07", "G1B04", "G1B05", "G1B07", "G1E03", "G1E07", "G1E08"]
   - G1C07 - What must be done before using a new digital protocol on the air?
@@ -522,17 +516,20 @@ status: generated
   - G1E07 - In what part of the 2.4 GHz band may an amateur station communicate with non-licensed Wi-Fi stations?
   - G1E08 - What is the maximum PEP output allowed for spread spectrum transmissions?
 
-- Section 9.4: Antenna and Station Regulations - ["G1B01", "G1B06", "G1B09", "G1B10"]
+- Section 9.4: Antenna and Station Regulations - ["G1B01", "G1B06", "G1B09", "G1B10", "G1B02", "G1B03", "G1B11"]
   - G1B01 - What is the maximum height above ground for an antenna structure not near a public use airport without requiring notification to the FAA and registration with the FCC?
   - G1B06 - Under what conditions are state and local governments permitted to regulate amateur radio antenna structures?
   - G1B09 - On what HF frequencies are automatically controlled beacons permitted?
   - G1B10 - What is the power limit for beacon stations?
-
-- Section 9.5: International Operations - ["G1B08", "G1B11", "G1E01", "G1E05", "G1E12", "G1D05", "G1D12"]
-  - G1B08 - When is it permissible to communicate with amateur stations in countries outside the areas administered by the Federal Communications Commission?
+  - G1B02 - With which of the following conditions must beacon stations comply?
+  - G1B03 - Which of the following is a purpose of a beacon station as identified in the FCC rules?
   - G1B11 - Who or what determines "good engineering and good amateur practice," as applied to the operation of an amateur station in all respects not covered by the Part 97 rules?
+
+- Section 9.5: International Operations - ["G1B08", "G1E01", "G1E05", "G1E06", "G1E12", "G1D05", "G1D12"]
+  - G1B08 - When is it permissible to communicate with amateur stations in countries outside the areas administered by the Federal Communications Commission?
   - G1E01 - Which of the following would disqualify a third party from participating in sending a message via an amateur station?
   - G1E05 - What are the restrictions on messages sent to a third party in a country with which there is a Third-Party Agreement?
+  - G1E06 - The frequency allocations of which ITU region apply to radio amateurs operating in North and South America?
   - G1E12 - When may third-party messages be transmitted via remote control?
   - G1D05 - When operating a US station by remote control from outside the country, what license is required of the control operator?
   - G1D12 - When operating a station in South America by remote control over the internet from the US, what regulations apply?

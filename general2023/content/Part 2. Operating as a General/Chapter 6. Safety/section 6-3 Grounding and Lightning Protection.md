@@ -1,7 +1,7 @@
 ---
 chapter: "6"
 section: "6.3"
-questions: ["G0B04", "G0B11", "G0B13", "G4C05", "G4C06", "G4C11", "G4C09", "G4C12", "G4C07", "G0B10"]
+questions: ["G0B04", "G0B11", "G0B13", "G4C05", "G4C06", "G4C11", "G4C10", "G4C09", "G4C12", "G4C07", "G0B10"]
 status: draft1
 ---
 
@@ -19,7 +19,7 @@ Lightning carries enormous energy and will find a path to ground one way or anot
 
 Think of your house as a protected zone. Lightning grounds, arrestors, and the connections between them all belong outside. When lightning hits your antenna system, you want that energy to flow directly to earth without ever entering your walls. But having multiple separate ground systems can actually be more dangerous than having none at all—during a strike, different ground points can momentarily sit at very different voltages. If your tower ground is at one potential and your electrical service ground is at another, that difference will try to equalize, potentially through your equipment or through you.
 
-Use heavy copper conductors (#6 AWG or larger) to connect every ground system: tower, electrical service, telephone, cable TV. When everything is bonded, the whole system rises and falls in voltage together during a strike, eliminating dangerous differences. Use mechanical connections—clamps, compression fittings, or exothermic welding—rather than solder for all lightning protection work.
+Bonding helps limit voltage differences between grounding systems during a strike; it does not guarantee that every point stays at exactly the same voltage. The conductor sizes, connections, and routing must be appropriate to the installation. The principle here is to coordinate the grounding systems rather than treat each ground rod as an isolated solution.
 
 Ground rods handle the energy, but lightning arrestors determine *where* that energy goes. They work like pressure relief valves—invisible to your signals under normal conditions, but providing an instant short to ground when voltage spikes.
 
@@ -39,13 +39,20 @@ At DC and low frequencies, a wire is just a wire. But at radio frequencies, wire
 
 Touch the "grounded" equipment while transmitting and you'll discover this the hard way—RF burns are painful and slow to heal. Symptoms of RF grounding problems include equipment that's warm or tingly to the touch, shocks from the microphone, erratic equipment behavior, or RF feedback in your audio.
 
-For RF, the goal isn't a perfect connection to earth—it's keeping all equipment at the same RF potential. When everything is bonded together, there are no RF voltage differences to cause problems. Use wide copper strap rather than round wire (strap has lower inductance at RF), and connect all metal equipment enclosures to a common bonding bus with short straps.
+For RF, a connection to earth is not enough by itself. Bonding equipment enclosures together helps reduce the RF voltage differences between them. The connections have impedance too, so their length and arrangement matter; bonding reduces a problem rather than guaranteeing that all unwanted RF disappears.
 
 > **Key Information:**
 > - Bonding all equipment enclosures together helps to minimize RF "hot spots" in an amateur station. {{< link id="G4C11" >}}
-> - Ground loops can be minimized by bonding equipment enclosures together. {{< link id="G4C09" >}}
 
-This same bonding approach solves the common headache of ground loops—that mysterious hum or buzz in your audio that you can't track down. Ground loops form when equipment connects to ground through multiple paths, and tiny voltage differences between those paths drive currents that induce noise in your audio. Bond everything together at a common point so there's only one ground path. Sometimes moving equipment to the same power strip or outlet solves problems that filters and chokes couldn't fix.
+Bonding also helps with a different problem: unwanted currents in your audio connections. Equipment may be connected through both its grounding conductors and the shields of audio cables. Small voltage differences can drive current around those multiple paths, creating a *ground loop*. If that current adds hum to your microphone or computer audio, the transmitter sends the hum along with your intended signal.
+
+> **Key Information:** Reports of hum on your station's transmitted signal can be a symptom of a ground loop in the station's audio connections. {{< link id="G4C10" >}}
+
+That report is a clue, not proof that every hum comes from a ground loop. Check the audio connections and equipment bonding rather than assuming that more microphone gain will help.
+
+> **Key Information:** Ground loops can be minimized by bonding equipment enclosures together. {{< link id="G4C09" >}}
+
+A common bonding point helps reduce voltage differences between enclosures. Sometimes powering interconnected equipment from the same suitable outlet or power strip also helps. Do not disconnect an electrical safety ground to interrupt a loop; solving an audio problem must not create a shock hazard.
 
 #### Electrical Safety Grounding
 
@@ -53,25 +60,29 @@ Beyond lightning and RF, there's basic electrical safety. Every piece of equipme
 
 > **Key Information:** All metal enclosures of station equipment must be grounded to ensure that hazardous voltages cannot appear on the chassis. {{< link id="G4C12" >}}
 
-When insulation fails or a component shorts inside your equipment, the chassis could become energized at line voltage. A proper safety ground provides a low-resistance path that trips the breaker immediately, before you touch the case.
+When insulation fails or a component shorts inside your equipment, the chassis could become energized at line voltage. A proper safety ground provides a low-impedance fault-current path that allows the fuse or circuit breaker to disconnect power. It reduces the hazard; it is not permission to touch equipment suspected of having a fault.
 
 Never defeat safety grounds by cutting off ground pins, using two-prong adapters, or "floating" grounds to fix hum problems. If you have vintage equipment with a two-prong plug, it's worth having it professionally retrofitted with a proper three-wire cord.
 
-#### A Note About Soldering
+#### Soldering: Two Different Safety Concerns
 
-Building and repairing equipment usually means soldering. Two things worth knowing:
+A soldered joint that works well inside an electronic circuit is not necessarily suitable for a lightning protection connection. The difference is the enormous heating a lightning current can produce.
 
-> **Key Information:**
-> - Soldered joints should not be used in lightning protection ground connections because a soldered joint will likely be destroyed by the heat of a lightning strike. {{< link id="G4C07" >}}
-> - Lead can contaminate food if hands are not washed carefully after handling the solder. {{< link id="G0B10" >}}
+> **Key Information:** Soldered joints should not be used in lightning protection ground connections because a soldered joint will likely be destroyed by the heat of a lightning strike. {{< link id="G4C07" >}}
 
-For lightning protection, use mechanical connections—bronze ground clamps, compression fittings, or exothermic welding. For your regular electronics work with lead solder, just wash your hands before eating and keep the area ventilated. Lead-free solder is also an option if you'd rather not think about it.
+Lightning protection requires connection methods suitable for that purpose, rather than relying on electronics solder. Designing those connections is beyond this section; use applicable electrical and lightning-protection guidance for the actual installation.
+
+Ordinary electronics soldering has a separate safety concern. Lead-tin solder can leave lead contamination on your hands, which can then transfer to food.
+
+> **Key Information:** Lead can contaminate food if hands are not washed carefully after handling lead-tin solder. {{< link id="G0B10" >}}
+
+Keep food away from the work area and wash your hands carefully after handling the solder, especially before eating. That hygiene precaution addresses lead ingestion; ventilation addresses the different problem of breathing soldering fumes. Choosing lead-free solder does not remove the need to manage heat and fumes while working.
 
 #### Bringing It All Together
 
 Three different grounding needs—lightning protection, RF management, and electrical safety—sometimes seem to pull in different directions. But they all benefit from the same basic approach: bonding everything together.
 
-Your lightning grounds stay outside but connect to your electrical service ground. Your RF bonding bus inside the shack connects to a single point that ties to the outdoor system. Every piece of equipment uses its safety ground through the power cord *and* bonds to the RF bus. The result is a unified system where everything shares a common ground reference. Lightning energy has a clear path to earth that bypasses your equipment. RF has no voltage differences to create hot spots. And electrical faults trip breakers before anyone gets hurt.
+The common goal is to manage currents and voltage differences rather than leave separate pieces of equipment at unrelated potentials. Lightning protection, RF bonding, and electrical safety grounding each address a different hazard, so none replaces the others. A station can need attention to all three even if one appears to be working well.
 
 No ground system is perfect, and a direct lightning strike can overwhelm any protection. But a well-designed system gives you the best possible odds of your equipment—and you—surviving to operate another day.
 

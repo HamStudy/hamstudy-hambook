@@ -1,19 +1,17 @@
 ---
 chapter: "8"
 section: "8.5"
-questions: ["G2E01", "G2E06", "G2E14", "G2E12", "G2E13", "G2E02", "G2E03", "G2E07", "G2E04", "G2E05", "G2E08", "G2E15", "G2E09", "G2E10", "G2E11"]
+questions: ["G2E01", "G2E12", "G2E13", "G2E02", "G2E03", "G2E04", "G2E05", "G2E08", "G2E15", "G2E09", "G2E10", "G2E11"]
 status: reviewed1
 ---
 
 ### Section 8.5: Digital Mode Operating Procedures
 
-Remember your first packet connection? That satisfying "CONNECTED" message? That was just the beginning. Today's digital modes can decode signals you can't even hear, send perfect text through apocalyptic band conditions, and connect you to a global data network that works when the internet doesn't.
-
-Welcome to digital amateur radio, where your computer and radio unite to push the boundaries of what's possible.
+Once the computer and radio are working together, operating a digital mode involves more than pressing Transmit. You need to find suitable activity, use the expected sideband, and follow the exchange or connection procedure for that mode. Section 7.5 covered audio levels, display interpretation, timing, and decoding checks. Here we use that prepared station to make contacts and pass messages.
 
 #### Getting Started with RTTY
 
-RTTY is the grandfather of digital modes—invented when "computer" meant a room full of tubes. But don't let its age fool you. When newer modes fail, RTTY keeps grinding through the noise like a diesel engine. It's not pretty, but it works.
+RTTY provides a direct keyboard-to-keyboard exchange. Before calling, listen and decode enough of the activity to identify the stations and determine whether a contact is already in progress.
 
 ##### RTTY Fundamentals
 
@@ -21,32 +19,9 @@ RTTY is the grandfather of digital modes—invented when "computer" meant a room
 
 ![Diagram showing RTTY signal generation via AFSK](../images/rtty-afsk-generation.svg)
 
-Why LSB for RTTY when everything else uses USB? Blame history. Early RTTY ops discovered LSB put the mark and space tones in the right order. Decades later, we're still doing it that way. Fighting convention means nobody can decode you—follow the crowd on this one.
+The sideband convention works together with the tone settings discussed in Section 7.5. Changing sidebands reverses the relationship between audio frequencies and transmitted RF frequencies, so confirm your configuration before answering. If the display shows a signal but the text is unreadable, use that section's decoding checks rather than guessing at the message.
 
-RTTY uses frequency shift keying with two specific tones:
-
-> **Key Information:** The most common frequency shift for RTTY emissions in the amateur HF bands is 170 Hz. {{< link id="G2E06" >}}
-
-![Illustration of 170 Hz RTTY frequency shift](../images/rtty-frequency-shift.svg)
-
-That 170 Hz shift isn't random—it's narrow enough to save bandwidth but wide enough that your filters can tell mark from space. Some old-timers use 850 Hz shift, but unless you're working vintage gear, stick with 170.
-
-##### RTTY Troubleshooting
-
-If you're having difficulty decoding RTTY signals:
-
-> **Key Information:** If you cannot decode an RTTY or other FSK signal even though it is apparently tuned in properly, the mark and space frequencies may be reversed, you may have selected the wrong baud rate, or you may be listening on the wrong sideband. {{< link id="G2E14" >}}
-
-![Flowchart for RTTY troubleshooting](../images/rtty-troubleshooting.svg)
-
-RTTY troubleshooting in order:
-1. **Gibberish?** Hit the reverse button—mark and space are flipped
-2. **Still garbage?** Check your baud rate—45.45, not 50 or 75
-3. **Nothing but noise?** Wrong sideband—use LSB
-4. **Close but not quite?** Shift setting—170 Hz, not 850
-5. **All else fails?** You're off frequency—center those marks on the waterfall
-
-RTTY operation requires more precise tuning than some other digital modes, but offers excellent reliability once properly configured.
+Once you can copy the station, keep your first exchange clear: identify whom you are calling, give your own call, and leave time for a reply. RTTY can support an ordinary conversation, while a contest exchange may require only a few specified pieces of information. Follow the activity you are joining rather than assuming all digital contacts use the same format.
 
 #### Modern Digital Modes
 
@@ -58,7 +33,7 @@ While RTTY has a long history, newer digital modes offer superior performance fo
 
 ![Diagram showing Winlink system components and operation](../images/winlink-system-overview.svg)
 
-Winlink is email's apocalypse-proof cousin. Internet down? Cell towers dead? Fire up Winlink and your emails still flow—just via radio waves instead of fiber optics. Emergency responders love it, sailors depend on it, and after your first hurricane, you'll appreciate it.
+Winlink can let a station without local internet access reach an email gateway over radio. That does not guarantee delivery under every outage: you still need a usable radio path and a gateway or other network arrangement capable of handling the message. Confirm the available path before relying on it.
 
 Winlink has become especially valuable for emergency communications, maritime operation, and remote exploration. The system's flexibility allows access via various digital protocols across multiple bands.
 
@@ -90,15 +65,7 @@ Digital modes might be robust, but they're not magic. When someone fires up thei
 
 ##### FT8 and Related Modes: Weak Signal Champions
 
-In recent years, FT8 has revolutionized digital communication on the HF bands:
-
-> **Key Information:** When using FT8, computer time accurate to within approximately 1 second is required. {{< link id="G2E07" >}}
-
-![Diagram showing importance of time synchronization for FT8](../images/ft8-time-synchronization.svg)
-
-FT8 is like a synchronized swimming routine—everyone must move in perfect time. Miss by even two seconds and you're that person jumping in the pool while everyone else is climbing out. Internet time sync isn't optional—it's mandatory.
-
-When operating FT8, proper frequency selection is crucial:
+FT8 uses timed exchanges rather than a free-form typed conversation. With the computer clock checked as described in Section 7.5, watch which transmit period the calling station uses and where signals appear during the opposite period. Your reply must arrive while that station is receiving, and you also need room for it among the other signals:
 
 > **Key Information:** When responding to a station calling CQ using FT8, you should find a clear frequency during the alternate time slot to the calling station. {{< link id="G2E04" >}}
 
@@ -120,12 +87,7 @@ Digital modes cluster in specific segments of each band:
 
 ![Chart showing digital mode frequency allocations](../images/digital-mode-band-segments.svg)
 
-The digital playground has unwritten rules:
-- 14.074-14.077: FT8 territory (don't even think about RTTY here)
-- 14.080-14.100: RTTY country (where keyboards have clacked since 1950)
-- In between: Digital mode demilitarized zone
-
-Similar clustering occurs on other bands, generally in the lower portion of General class privileges. A particularly common FT8 frequency:
+These are shared operating areas, not exclusive reservations for one mode. Consult current band plans and listen before transmitting; activity changes, and a published calling frequency does not guarantee an empty channel. Within that broader digital segment, one common place to find FT8 is:
 
 > **Key Information:** FT8 is commonly found between approximately 14.074 MHz and 14.077 MHz. {{< link id="G2E15" >}}
 
@@ -161,52 +123,10 @@ AREDN turns amateur radio into amateur internet. When the real internet fails, A
 
 These sophisticated systems represent the cutting edge of amateur radio's emergency communication capabilities, combining modern networking technology with amateur radio's independence from commercial infrastructure.
 
-#### Practical Digital Operating Tips
+#### Completing the Exchange
 
-Successful digital operation relies on proper setup and operating practices:
+The mode determines what a successful contact looks like. A keyboard conversation may continue as long as both operators wish; an FT8 contact follows a short structured sequence. A gateway session has a different goal again: transferring the intended messages. Watch for the reply or acknowledgment that shows the exchange has actually progressed, rather than assuming that pressing Transmit completed it.
 
-##### Signal Levels and ALC
+Give existing contacts room, leave space for the bandwidth your signal occupies, and avoid repeatedly calling over a station that is answering someone else. If decoding fails or another operator reports distortion, return to the setup checks in Section 7.5 before increasing power. The cause may be a setting or an overdriven audio path, not insufficient signal strength.
 
-For most digital modes, proper audio drive levels are critical:
-- Set audio drive so ALC action is minimal or non-existent
-- Use dedicated "DATA" modes on your transceiver when available
-- Monitor your signal width on a waterfall display
-- Avoid excessive power that might create splatter
-
-![Diagram showing proper vs improper digital signal levels](../images/digital-signal-levels.svg)
-
-Your digital signal on a waterfall should look like a single clean line, not a hairy caterpillar. Those fuzzy shoulders? That's distortion—you're splattering across three frequencies instead of one. Back off the audio until it's clean. Your neighbors will thank you.
-
-##### Computer Interface Considerations
-
-Digital success depends heavily on proper computer-to-radio interfacing:
-- Use high-quality USB or audio cables with appropriate shielding
-- Install ferrite chokes on cables to reduce RF interference
-- Ensure solid ground connections between equipment
-- Consider dedicated interface devices with built-in isolation
-- Configure your software with the correct COM ports and audio devices
-
-##### Operating Etiquette
-
-Digital mode etiquette:
-- **Keep it short**: This isn't a ragchew mode
-- **Keep it clean**: More power doesn't help when you're splattering
-- **Keep it smart**: See an open frequency? Use it. Don't CQ on top of others
-- **Keep it spaced**: Leave room between signals—we're not playing Tetris
-
-#### The Evolution of Digital Communications
-
-Digital modes continue to evolve rapidly, with new protocols emerging regularly. As a General class licensee, you're positioned to explore both established and cutting-edge digital communications.
-
-These modes offer different advantages that complement traditional voice and CW operation:
-- Reliable text communication under marginal conditions
-- Automatic logging and contact verification
-- Operation with modest antennas and power levels
-- Global communication despite language barriers
-- Structured data exchange for emergency response
-
-Digital modes are where amateur radio's past meets its future. We're still sending signals through the ether, just like Marconi. But now those signals carry emails, images, and data streams he never dreamed of. Pretty cool for a hobby that started with sparks and dots.
-
-Your General license unlocks digital mode playgrounds across the HF spectrum. Whether you're drawn to FT8's weak signal magic, Winlink's emergency capabilities, or RTTY's nostalgic charm, there's a digital mode waiting for you. Boot up that computer, fire up the rig, and join the digital revolution.
-
-Just remember to sync your clock first.
+These habits become especially useful when the message matters more than the contact itself. The next section applies careful listening, accurate copying, and confirmation to emergency communication, where a voice exchange or a digital message may be the link to needed assistance.

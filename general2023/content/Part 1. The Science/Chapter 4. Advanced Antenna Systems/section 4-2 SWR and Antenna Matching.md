@@ -1,7 +1,7 @@
 ---
 chapter: "4"
 section: "4.2"
-questions: ["G9A04", "G9A07", "G9A09", "G9A10", "G9A02", "G9A11", "G9A08", "G7C03", "G4B10", "G4B11", "G4B12", "G4B13", "G8A13", "G8A14"]
+questions: ["G9A04", "G9A07", "G9A09", "G9A10", "G9A02", "G9A11", "G9A08", "G7C03", "G8A13", "G8A14"]
 status: draft1
 ---
 
@@ -61,31 +61,15 @@ The matching network (antenna tuner) transforms the impedance seen by the transm
 
 Think of it as a pressure regulator on mismatched pipes—it protects the pump but doesn't fix the plumbing problem. The transformer optimizes power transfer even when there's a mismatch downstream.
 
-#### Measuring Tools: Your Diagnostic Arsenal
+#### Connecting the Model to a Reading
 
-> **Key Information:** A directional wattmeter can determine standing wave ratio. {{< link id="G4B10" >}}
+These relationships explain why an SWR reading needs context. A reading taken between the radio and tuner describes the match at that point, not necessarily the match at the antenna. Likewise, a reading taken through a lossy feed line can hide a larger mismatch at its far end. Record the frequency and where the measurement was made before comparing two readings.
 
-A directional wattmeter measures forward and reflected power separately. Since SWR is based on the ratio between these, the meter can display your SWR. This is what's inside most "SWR meters"—they're essentially directional wattmeters with an SWR scale. Many modern transceivers have this built in, showing SWR while you transmit.
-
-> **Key Information:** When using an antenna analyzer for SWR measurements, the antenna and feed line must be connected. {{< link id="G4B11" >}}
-
-Unlike an SWR meter that requires transmitting, an analyzer generates its own low-power test signal. This lets you sweep across frequencies without transmitting, showing:
-- SWR curves across frequency ranges
-- Complex impedance (resistance and reactance)
-- Resonant frequency identification (where reactance = 0)
-- Smith chart displays
-
-> **Key Information:** Strong signals from nearby transmitters can cause received power that interferes with SWR readings on an antenna analyzer. {{< link id="G4B12" >}}
-
-That perfect SWR reading might be contaminated by your neighbor's signal. Always verify unusual readings by testing at different times.
-
-> **Key Information:** An antenna analyzer can measure impedance of coaxial cable. {{< link id="G4B13" >}}
-
-Beyond antennas, analyzers serve as sophisticated cable testers—finding breaks, verifying characteristic impedance, checking velocity factor, or detecting water intrusion.
+Sections 7.1 and 7.6 introduce the instruments used to make those measurements and the checks that help you trust them. The principle here is independent of the instrument: a good match at one point does not tell you how efficiently the whole station delivers a signal to another receiver.
 
 #### System Performance: The Complete Picture
 
-Understanding component-level matching—how your radio, feed line, and antenna impedances interact—is crucial. , you'll encounter professional concepts that quantify overall system performance:
+To move from the match at one connection to the performance of an entire radio link, we account for power gains and losses along the whole path:
 
 > **Key Information:** A link budget is the sum of transmit power and antenna gains minus system losses as seen at the receiver. {{< link id="G8A13" >}}
 

@@ -1,7 +1,7 @@
 ---
 chapter: "8"
 section: "8.4"
-questions: ["G2D05", "G2D06", "G2D07", "G2D09", "G2D10", "G2D11", "G4D08", "G4D09", "G4D10", "G4D11"]
+questions: ["G2D05", "G2D04", "G2D06", "G2D07", "G2D08", "G2D09", "G2D10", "G2D11"]
 status: reviewed1
 ---
 
@@ -34,7 +34,13 @@ This universal format works across bands and modes. For best results:
 - Pause long enough for distant stations to respond
 - Repeat the sequence if no response
 
-Sometimes, geography works against traditional propagation paths. When normal routes (called "short path") aren't working:
+With a directional antenna, you also need to know which way to point it. A rectangular world map can be misleading: the shortest route over a globe does not necessarily follow the direction you would guess from the page.
+
+> **Key Information:** An azimuthal projection map shows true bearings and distances from a specific location. {{< link id="G2D04" >}}
+
+Use one centered on your station. You can read a destination's bearing from the center and aim your antenna along that short path. The location matters: a map centered on another operator's station will not give your bearings. These are bearings relative to true north, not necessarily the reading on an uncorrected magnetic compass.
+
+Sometimes the short path does not support a contact, but the longer route around Earth does:
 
 > **Key Information:** When making a "long-path" contact with another station, a directional antenna is pointed 180 degrees from the station's short-path heading. {{< link id="G2D06" >}}
 
@@ -79,6 +85,12 @@ Contests come in many varieties, from worldwide events lasting 48 hours to local
 3. **Scoring**: Contacts × multipliers, with variations depending on contest rules
 4. **Logging**: Record all contact information accurately
 
+A log is useful beyond the contest score. Recording the time in UTC, frequency or band, mode, and the station contacted gives you a record to consult later, rather than relying on memory.
+
+> **Key Information:** Many amateurs keep a station log to help with a reply if the FCC requests information about their station. {{< link id="G2D08" >}}
+
+There is no general FCC requirement to log every amateur contact, but a record can help establish what you were doing at a particular time. Contest organizers may also require a submitted log for scoring. Keeping that record does not replace your on-air obligations:
+
 > **Key Information:** When participating in a contest on HF frequencies, you must identify your station according to normal FCC regulations. {{< link id="G2D09" >}}
 
 ![Sample contest log showing proper format](../images/contest-logging.svg)
@@ -119,31 +131,11 @@ Don't be the station everyone works once and avoids thereafter.
 
 Most contests use abbreviated reports (often just "59" regardless of actual conditions) to speed exchanges, but genuine reports can help both stations optimize their operation.
 
-#### Band Edge Operation
+#### Check Before Joining the Pileup
 
-Contests often concentrate activity near band edges to maximize available spectrum. This requires careful attention to your transmitted signal's bandwidth:
+An interesting station may appear on your receiver or a DX spotting service at a frequency where you cannot legally transmit. Other operators may have different license privileges or be operating under another country's rules. Hearing a contact does not establish that you can join it on the same frequency.
 
-> **Key Information:** A 3 kHz LSB signal with the displayed carrier frequency set to 7.178 MHz occupies the frequency range from 7.175 MHz to 7.178 MHz. {{< link id="G4D08" >}}
-
-> **Key Information:** A 3 kHz USB signal with the displayed carrier frequency set to 14.347 MHz occupies the frequency range from 14.347 MHz to 14.350 MHz. {{< link id="G4D09" >}}
-
-![Diagram showing USB and LSB signal bandwidth relative to carrier frequency](../images/ssb-bandwidth.svg)
-
-Understanding your signal's bandwidth is crucial for legal operation, especially near band edges and sub-band boundaries. Remember:
-
-> **Key Information:** When using 3 kHz wide LSB, your displayed carrier frequency should be at least 3 kHz above the edge of the phone segment to ensure all your signal remains within the band. {{< link id="G4D10" >}}
-
-> **Key Information:** When using 3 kHz wide USB, your displayed carrier frequency should be at least 3 kHz below the edge of the band to avoid out-of-band transmission. {{< link id="G4D11" >}}
-
-![Diagram illustrating proper band edge operation](../images/band-edge-operation.svg)
-
-Band edge reality check: Your displayed frequency isn't where your signal ends. Mess this up and you'll be:
-- That lid splattering into the CW band
-- The star of an FCC enforcement action
-- Featured on the DX cluster's "hall of shame"
-- Wondering why everyone suddenly stopped working you
-
-Modern transceivers typically prevent out-of-band transmission, but it's your responsibility to understand your signal's characteristics and ensure compliance.
+Apply the bandwidth relationship from Section 7.3: the whole transmitted signal must fit within your authorized segment, not only the frequency shown on the display. When working split, check the transmit VFO as carefully as the receive VFO. For example, "up 5" tells you where the DX station is listening; it does not establish that the resulting transmit frequency and occupied bandwidth are available to your license class. That check belongs before the call, even when the pileup is moving quickly.
 
 #### Practical Strategies for Contest Success
 
