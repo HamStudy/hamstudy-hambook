@@ -74,7 +74,7 @@ It's worth noting that checking SWR on a monopole (such as most antennas on a Ha
 
 For HTs and similar portable setups, it's usually more practical to evaluate antenna performance through actual signal tests rather than relying solely on SWR measurements. If you do want to check SWR there are various ways to do it, but none of them are perfect.
 
-The good news is that high SWR is usually less risky on an HT than on a higher-power base station. Manufacturers know HTs get used with their antennas right next to hands, bodies, and whatever else happens to be nearby — all of which affect the antenna system — so they're designed with more tolerance for mismatched loads than a typical desktop rig. And because *most* HTs have relatively low power output (5–8 W is typical, though some put out 25 W or more), even with significant reflected power, the total energy going into the final amplifier usually stays well below what would cause damage in a 100-watt radio.
+The good news is that high SWR is usually less risky on an HT than on a higher-power base station. Manufacturers know HTs get used with their antennas right next to hands, bodies, and whatever else happens to be nearby — all of which affect the antenna system — so they're designed with more tolerance for mismatched loads than a typical desktop rig. And because *most* HTs have relatively low power output (5–8 W is typical, though some put out 25 W or more), even with significant reflected power, the total energy going into the final amplifier usually stays well within the radio's operating limits.
 
 #### Final Thoughts on SWR
 
