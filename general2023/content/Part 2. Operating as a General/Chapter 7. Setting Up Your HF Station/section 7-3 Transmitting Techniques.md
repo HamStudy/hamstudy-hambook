@@ -64,7 +64,7 @@ Split can also bridge different frequency privileges. A foreign station, followi
 
 #### Morse Code (CW) Operation
 
-Voice isn't the only mode you'll operate from the front panel. Morse code—CW—remains popular on HF: it cuts through noise that would sink a voice contact, works well at low power, and uses very little bandwidth.
+Voice isn't the only mode you can operate from the front panel. Morse code—CW—remains popular on HF: it cuts through noise that would sink a voice contact, works well at low power, and uses very little bandwidth.
 
 CW (short for Continuous Wave) works by switching a carrier on and off in patterns of dots and dashes that represent letters. The classic instrument is the straight key, a simple spring-loaded switch; many operators now use an electronic keyer with a paddle instead—two levers, one for dots and one for dashes—with the keyer timing each element automatically:
 

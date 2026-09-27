@@ -61,9 +61,9 @@ Analyzers let you test antennas before installation, troubleshoot by measuring a
 
 ##### Amplifier
 
-Your General license authorizes up to 1500 watts PEP on most frequencies. The guiding rule for power in amateur radio is to use only as much as you need to make the contact—particularly because if the other station is running less power, you might not hear their response—but having more power available gives you more options.
+Your General license authorizes up to 1500 watts PEP on most frequencies. The guiding rule in amateur radio is to use only as much power as needed. More power can help the other station hear you, but it cannot improve your reception. If you hear them well but they cannot hear you, an amplifier may help.
 
-Amplifiers help with marginal propagation, local noise, contests, or compromise antennas. They also demand careful operation: proper cooling, high voltages, careful tuning, and RF exposure calculations. Keep in mind that every accessory in the RF path—power meter, SWR meter, antenna tuner—must be rated for the power you're running through it, and the more power you output, the more critical proper impedance matching becomes. Amplifiers get their own full discussion later in this chapter.
+Amplifiers can also help with marginal propagation or limited antennas, but they require proper cooling, high-voltage precautions, tuning, and RF exposure calculations. Every accessory in the RF path must be rated for the power used, and impedance matching becomes more critical at higher power. Amplifiers are discussed later in this chapter.
 
 #### Building Your Station
 
