@@ -1,174 +1,82 @@
 ---
 chapter: "8"
 section: "8.1"
-questions: ["G2A01", "G2A02", "G2A03", "G2A04", "G2A05", "G2A06", "G2A07", "G2A09", "G2B07", "G2B08"]
-status: reviewed1
+questions: ["G2A05", "G2A07", "G2A06", "G2A02", "G2A09", "G2A01", "G2A04", "G2A03", "G2B07", "G2E08"]
+status: draft1
 ---
 
 ### Section 8.1: Getting Started on HF
 
-Picture this: It's 3 AM, and you're wide awake in your shack. The house is quiet, but your radio is alive with voices from halfway around the world. A station in Japan is calling CQ, their signal bouncing off the ionosphere and landing crystal clear in your receiver. With your new General class privileges, this isn't just a dream—it's Tuesday night.
+With your station connected and adjusted, you can begin looking for a contact. The choice of band depends partly on propagation, but the activity you want to join matters too. A voice conversation, a CW contact, and a digital message may use different parts of the same band.
 
-Welcome to HF, where the ionosphere becomes your personal worldwide repeater system. Unlike the predictable coverage of VHF/UHF, HF offers adventure. One moment the band seems dead, the next you're chatting with Antarctica. Let's unlock the secrets of successful HF operation.
+Start with a band your station supports and a mode you want to try. Your license tells you where you may transmit. Operating conventions help you find other stations using that mode and select settings they will recognize.
 
-#### Understanding HF Voice Modes
+#### Choosing a Voice Mode
 
-As a Technician, you likely focused on FM operation on VHF and UHF bands. On HF, single sideband (SSB) is the primary voice mode, and it works quite differently from FM. Here's what you need to know:
+For most HF voice contacts, the starting point is single sideband:
 
-##### Sideband Selection: USB vs. LSB
+> **Key Information:** Single sideband (SSB) is the most commonly used voice mode on the HF amateur bands. {{< link id="G2A05" >}}
 
-> **Key Information:** Upper sideband (USB) is most commonly used for voice communications on frequencies of 14 MHz or higher. {{< link id="G2A01" >}}
+The SSB transmitter described in Chapter 7 sends the part of an AM signal needed to carry the voice without transmitting both copies of that information:
 
-![Diagram showing which sidebands are used on different bands](../images/sideband-selection.svg)
+> **Key Information:** In SSB, only one sideband is transmitted; the other sideband and the carrier are suppressed. {{< link id="G2A07" >}}
 
-The HF bands follow a convention for which sideband to use:
+For the same audio-frequency range, one sideband occupies about half the bandwidth of a conventional AM signal with two sidebands. Suppressing the carrier also avoids spending transmitter power on a component that does not itself carry the changing voice information.
+
+> **Key Information:** Less bandwidth used and greater power efficiency are advantages of SSB compared to other analog voice modes on the HF amateur bands. {{< link id="G2A06" >}}
+
+Those advantages help explain SSB’s widespread use. The receiver controls and audio adjustments from Chapter 7 help you make use of them when noise or interference makes a contact difficult.
+
+<!-- Illustration held for review: ../images/ssb-bandwidth-efficiency.svg. Check that it shows approximately half the AM bandwidth for the same audio range, not one-third or a fixed range advantage. -->
+
+#### Selecting the Sideband
+
+Both stations need compatible sideband settings. A voice that sounds badly distorted may be on the opposite sideband, or it may need more careful tuning. Before changing filters or gain, check USB or LSB and tune until the voice sounds natural.
+
+The lower-frequency voice bands share a familiar convention:
 
 > **Key Information:** Lower sideband (LSB) is most commonly used for voice communications on the 160-, 75-, and 40-meter bands. {{< link id="G2A02" >}}
 
-This pattern continues into the VHF range:
+The name *75 meters* refers to the phone portion of the 80-meter band. Choosing LSB there is an operating convention, not a special efficiency advantage:
 
-> **Key Information:** Upper sideband (USB) is most commonly used for SSB voice communications in the VHF and UHF bands. {{< link id="G2A03" >}}
+> **Key Information:** Most amateur stations use LSB on the 160-, 75-, and 40-meter bands because it is commonly accepted amateur practice. {{< link id="G2A09" >}}
 
-For the less commonly used bands:
+Higher-frequency HF voice operation normally uses USB:
 
-> **Key Information:** Upper sideband (USB) is most commonly used for voice communications on the 17- and 12-meter bands. {{< link id="G2A04" >}}
+> **Key Information:**
+> - Upper sideband (USB) is most commonly used for voice communications on frequencies of 14 MHz or higher. {{< link id="G2A01" >}}
+> - USB is most commonly used for voice communications on the 17- and 12-meter bands. {{< link id="G2A04" >}}
 
-Why does this matter? Try listening to someone using the wrong sideband—they'll sound like they're speaking through a kazoo underwater. Following the convention ensures everyone can understand each other.
+For example, an ordinary voice contact on 40 meters calls for LSB, while one on 20 or 17 meters calls for USB. The main lower-frequency exception is 60-meter voice operation, which uses USB. These are voice conventions; digital modes have their own settings, covered in Section 8.5.
 
-The simple rule of thumb is: 
-- **LSB**: Use on 160, 75, and 40 meters (below 10 MHz)
-- **USB**: Use on 20, 17, 15, 12, 10 meters and all VHF/UHF bands (10 MHz and above)
-- **Exception**: 60 meters uses USB despite being below 10 MHz
+The USB convention also extends beyond HF when using SSB:
 
-Why do we use LSB on lower bands and USB on higher bands? This is primarily a historical convention that began with equipment limitations of early SSB transceivers, but it's now firmly established as operating practice.
+> **Key Information:** USB is most commonly used for SSB voice communications in the VHF and UHF bands. {{< link id="G2A03" >}}
 
-##### Advantages of SSB
+The choice here is for SSB operation; an FM repeater still uses FM.
 
-Your first SSB experience might surprise you. Where's the squelch? Why does everyone sound like Donald Duck until you tune precisely? Don't worry—your ears will quickly adapt, and you'll discover why SSB dominates HF:
+![Sideband conventions for amateur voice operation](../images/sideband-selection.svg)
 
-> **Key Information:** Single sideband is the most commonly used voice mode on the HF amateur bands. {{< link id="G2A05" >}}
+#### Finding the Right Part of the Band
 
-> **Key Information:** Less bandwidth used and greater power efficiency are advantages of single sideband compared to other analog voice modes on the HF amateur bands. {{< link id="G2A06" >}}
+Selecting the correct sideband does not make every frequency available for voice. First check the frequencies and emission types allowed by your license. Then consult the voluntary band plan for the activity you intend to use:
 
-![Diagram showing SSB efficiency compared to other voice modes](../images/ssb-bandwidth-efficiency.svg)
+> **Key Information:** Following the voluntary band plan is commonly accepted amateur practice when choosing a frequency on which to initiate a call. {{< link id="G2B07" >}}
 
-SSB transmits only one sideband of the amplitude-modulated signal, eliminating the carrier and other sideband:
+A band plan helps operators find one another and gives different activities room to operate. Use it within your legal privileges, and check for existing activity before transmitting. A suggested calling frequency may already be in use.
 
-> **Key Information:** In single sideband, only one sideband is transmitted while the carrier and other sideband are suppressed. {{< link id="G2A07" >}}
+![Example of a voluntary band plan](../images/bandplan-example.svg)
 
-This efficiency translates to:
-- Using approximately 1/3 the bandwidth of AM
-- Concentrating power in the information-carrying part of the signal
-- Better performance under marginal conditions
-- More efficient use of limited spectrum space
+On 20 meters, for instance, a US General operator looking for an SSB conversation uses the phone segment from 14.225 to 14.350 MHz. As Section 7.3 explained, the entire transmitted signal must fit within that segment, not only the frequency on the display. Digital activity is generally found farther down the band:
 
-Think of it this way: SSB is like a fuel-efficient car that can go three times farther on the same tank. When every watt counts for reaching distant stations, efficiency wins.
+> **Key Information:** Most digital mode operations on the 20-meter band are commonly found between 14.070 MHz and 14.100 MHz. {{< link id="G2E08" >}}
 
-##### Why Most Amateur Stations Use LSB on Lower Bands
+That range is an operating area, not one wide channel or a reservation for a single mode. Section 8.5 explains how to find and answer particular digital signals within it. On 30 meters, US amateurs may use CW and permitted data emissions, but not phone, so it is not a choice for the voice contacts that follow.
 
-If you're wondering why there's this division between upper and lower bands:
+![Common digital operating areas within the amateur bands](../images/digital-mode-band-segments.svg)
 
-> **Key Information:** Most amateur stations use lower sideband on the 160-, 75-, and 40-meter bands because it is commonly accepted practice, not due to technical advantages. {{< link id="G2A09" >}}
+#### Let the Activity Guide You
 
-While the convention began partly due to early equipment designs, today it's simply standard practice. Using the opposite sideband will make your transmission sound unintelligible to others listening with the conventional sideband selected.
+Propagation gives you possible paths, not a promise that a particular band will be useful at a particular hour. Listen for stations you can copy, and notice which bands are active with your antenna. The propagation principles from earlier chapters help explain what you hear without requiring you to predict every opening.
 
-#### Choosing Frequencies and Making Contacts
-
-With numerous frequencies available across multiple bands, how do you decide where to operate?
-
-##### Following Band Plans
-
-Ever wonder how thousands of hams share the bands without chaos? Band plans are our gentleman's agreement—voluntary guidelines that keep CW operators from accidentally landing in the middle of a phone roundtable:
-
-> **Key Information:** Following the voluntary band plan for the operating mode you are using is commonly accepted amateur practice when choosing a frequency on which to initiate a call. {{< link id="G2B07" >}}
-
-![Sample band plan showing different mode segments](../images/bandplan-example.svg)
-
-Band plans typically divide each band into segments for different modes and activities:
-- CW/digital modes at the lower end
-- SSB phone in the middle portions
-- Special interest modes or activities in designated segments
-
-Consulting a current band plan before operating helps maintain harmony on the bands and ensures you're operating where others expect to find your mode.
-
-##### Special Operating Segments
-
-Some frequency ranges have special purposes:
-
-> **Key Information:** In the 50.1 MHz to 50.125 MHz band segment, stations within the 48 contiguous states should only contact stations not within the 48 contiguous states. {{< link id="G2B08" >}}
-
-This segment is reserved for DX (long distance) contacts. Stations in the continental US should use it only to contact stations outside the continental US, preserving this spectrum for intercontinental communication opportunities.
-
-Similar special-purpose segments exist on other bands, including:
-- DX windows
-- Contest-preferred frequencies
-- Digital mode clusters
-- QRP (low power) calling frequencies
-
-Pro tip: Print out current band plans and keep them at your operating position. Even experienced operators reference them regularly.
-
-#### Practical Tips for Getting Started on HF
-
-Now that you understand the basics, here are some practical suggestions for your first HF adventures:
-
-##### Listening First
-
-Before transmitting, spend time listening to different bands. This helps you:
-- Learn the rhythm and etiquette of HF contacts
-- Identify active frequencies and band openings
-- Understand typical signal reports and exchanges
-- Get comfortable with SSB reception
-- Identify where the DX (distant) stations are operating
-
-Here's a secret: The best HF operators have "golden ears" developed through hours of listening. They know when 20 meters opens to Europe, recognize the sound of long-path propagation, and can tell you which DX station has the best operating skills—all from listening.
-
-##### Making Your First HF Contacts
-
-When you're ready to transmit:
-
-1. **Choose an appropriate band** based on time of day and current conditions:
-   - Daytime: 20, 17, 15, 12, 10 meters often work best
-   - Nighttime: 80, 60, 40 meters typically offer better propagation
-   - 30 meters can work throughout day and night
-
-2. **Find a clear frequency** by listening carefully for at least 30 seconds, then asking "Is this frequency in use?" followed by your callsign.
-
-3. **Call CQ** using this format:
-   "CQ CQ CQ, this is [your callsign], [phonetically spell callsign], calling CQ and standing by."
-   
-   For example: "CQ CQ CQ, this is W1ABC, Whiskey One Alpha Bravo Charlie, calling CQ and standing by."
-
-4. **Responding to a CQ** requires a different approach:
-   - Wait for the station to finish calling
-   - Give the other station's callsign once, followed by your callsign phonetically
-   
-   For example: "W1XYZ, this is W1ABC, Whiskey One Alpha Bravo Charlie."
-
-5. **Exchange information** typically including:
-   - Signal report (using the RS system: Readability 1-5, Strength 1-9)
-   - Your location (city and state or country)
-   - Your name
-   - Brief description of your equipment (optional)
-
-6. **End the contact** with a courteous sign-off:
-   "Thanks for the contact, [callsign]. This is W1ABC, clear."
-
-##### Recommended First HF Bands
-
-For your first HF experiences:
-
-- **20 meters (14.0-14.350 MHz)** is often called the "workhorse band" because it frequently offers good propagation throughout the day and across seasons. The General class phone segment starts at 14.225 MHz.
-
-- **40 meters (7.0-7.3 MHz)** provides reliable medium-distance communications during daylight and excellent long-distance potential at night. The General class phone segment starts at 7.175 MHz.
-
-- **10 meters (28.0-29.7 MHz)** can offer exceptional worldwide propagation when open (mostly during solar cycle peaks) and uses equipment and antennas similar to VHF. The General class phone segment starts at 28.3 MHz.
-
-#### Developing Your HF Approach
-
-HF isn't instant gratification like hitting a repeater. Some nights you'll work the world with 5 watts; others, 100 watts won't get you past the state line. That unpredictability? That's not a bug—it's the feature that keeps us coming back.
-
-Don't be discouraged if your first attempts at HF contacts aren't immediately successful. Even experienced operators sometimes spend hours calling without a response when conditions are poor. With time, you'll develop an intuitive feel for when and where to operate for the best results.
-
-Think about your next QSO differently: Your voice will leave your antenna, rise hundreds of miles into space, reflect off an ionized layer of atmosphere heated by the sun, and descend to earth on another continent. If that doesn't give you goosebumps, check your pulse.
-
-In the next section, we'll explore more advanced voice operating techniques that will help you make the most of challenging band conditions and special operating situations.
+Your first contact need not be with a distant or unusually weak station. A readable CQ gives you an opportunity to answer, and listening to a few exchanges helps you recognize what comes next. Once you have chosen an appropriate mode and part of the band, the remaining decision is how to make your call without interrupting someone else.

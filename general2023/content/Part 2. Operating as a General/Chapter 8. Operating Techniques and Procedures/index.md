@@ -1,17 +1,15 @@
 ---
 slug: chpt8
 questions: []
-status: generated
+status: draft1
 ---
 
 ## Chapter 8: Operating Techniques and Procedures
 
-Your General class license opens up a world of new operating opportunities across the HF bands. This chapter equips you with the essential techniques and procedures you'll need to make the most of these expanded privileges, from basic voice contacts to specialized digital modes and emergency communications.
+A station you can hear may be calling for a new contact, speaking with someone else, or waiting for a digital reply. Knowing which is happening tells you whether to answer, how to respond, and when to leave the frequency clear. Chapter 7 prepared the station. Operating procedures help you use it to exchange information.
 
-We'll begin by exploring the fundamentals of HF operation—understanding which sideband to use on different bands, how to properly call CQ, and the established conventions that keep HF operation smooth and efficient. You'll learn the critical differences between HF SSB and the FM operation you're familiar with from VHF/UHF bands.
+We’ll begin with the choice of mode and frequency, then follow a voice contact from the first call to the final identification. CW uses many of the same habits, with short codes to guide the exchange. DX and contests add situations where several stations want to answer at once, while digital modes range from typed conversations to automated message transfers.
 
-Building on these basics, we'll delve into specialized operating techniques including CW procedures with their unique Q-signals and prosigns, DX and contest operating strategies, and the exciting world of digital modes from traditional RTTY to modern weak-signal protocols like FT8. Each mode offers unique advantages and challenges that expand your communication toolkit.
+These activities offer different ways to enjoy the equipment you have. A brief exchange can be a complete contact; a longer conversation may follow when both operators have time and conditions allow.
 
-The chapter concludes with emergency communication procedures, where your General class privileges can make a life-saving difference. You'll learn how amateur radio serves communities during disasters and how to effectively participate in emergency networks.
-
-Throughout this chapter, you'll find not just the exam material you need to pass your test, but practical operating wisdom that will serve you well as you explore the expanded world of HF communication that awaits with your General class license.
+The final section applies those skills to emergency communication. Whether you are exchanging names or relaying a request for help, listen carefully, send information clearly, and confirm what was received.

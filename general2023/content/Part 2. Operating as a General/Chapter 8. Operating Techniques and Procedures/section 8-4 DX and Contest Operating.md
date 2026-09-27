@@ -1,197 +1,94 @@
 ---
 chapter: "8"
 section: "8.4"
-questions: ["G2D05", "G2D04", "G2D06", "G2D07", "G2D08", "G2D09", "G2D10", "G2D11"]
-status: reviewed1
+questions: ["G2A11", "G2B08", "G2D04", "G2D06", "G2B03", "G2D09", "G2D10", "G2D08"]
+status: draft1
 ---
 
 ### Section 8.4: DX and Contest Operating
 
-5:59 AM. Coffee steaming. Radio warming up. You tune across 20 meters and hear it: "CQ contest, CQ contest, 9A1A." Your pulse quickens. Croatia! A new country for your log. But wait—there are fifty stations calling. How do you break through?
+A distant station may attract several callers at once, leaving each operator only a brief opportunity to complete an exchange. DX operating focuses on reaching distant stations; a contest gives contacts a defined format and a score. They often overlap, but neither requires you to spend an entire weekend at the radio.
 
-Welcome to the addictive worlds of DX chasing and contesting, where skill beats power, timing beats luck, and one contact can make your whole weekend.
+The procedures from the previous sections still apply. The new challenge is recognizing which calls the station wants, when it is listening, and what information it expects.
 
-#### DX Operating: Reaching Across the Globe
+#### Recognizing a Call for DX
 
-DX means distance, but in ham radio, it means magic. That scratchy signal from Botswana. The 3 AM contact with a scientific station in Antarctica. The pileup when a rare island goes on the air. For DXers, the world becomes a collection of 340 entities to work, confirm, and cherish.
+An ordinary CQ welcomes any station. CQ DX narrows that invitation:
 
-##### Calling for DX Contacts
+> **Key Information:** Generally, stations outside the lower 48 states should respond when a station in the contiguous 48 states calls “CQ DX.” {{< link id="G2A11" >}}
 
-When you're looking for any available distant station:
+For that call, a station in Canada or Alaska qualifies even though neither contact crosses an ocean. Listen for any further restriction, such as a call for a particular region, and answer only when your station fits the request. If it does not, leave the opportunity for the stations being called.
 
-> **Key Information:** The way to indicate you are looking for an HF contact with any station is to repeat "CQ" a few times, followed by "this is," then your call sign a few times, then pause to listen. {{< link id="G2D05" >}}
+![How CQ DX differs from a general CQ](../images/cq-dx.svg)
 
-![Diagram showing proper CQ sequence for DX](../images/calling-for-dx.svg)
+Voluntary band plans sometimes provide operating windows for DX as well. One example is on 6 meters, beyond the HF bands:
 
-A typical sequence:
-"CQ CQ CQ, this is Whiskey Seven Alpha Bravo Charlie, Whiskey Seven Alpha Bravo Charlie, calling CQ and standing by."
+> **Key Information:** Under the voluntary band plan, US stations within the 48 contiguous states operating from 50.1 to 50.125 MHz should make only contacts with stations outside the 48 contiguous states. {{< link id="G2B08" >}}
 
-Notice the rhythm? Three CQs, your call three times. It's like a beacon that says "I'm here, I'm listening, let's talk."
+The restriction concerns location, not whether the path crosses an ocean. Use the window for those contacts and conduct other conversations elsewhere, while still checking for existing activity.
 
-This universal format works across bands and modes. For best results:
-- Be concise but complete
-- Include phonetics on voice modes
-- Pause long enough for distant stations to respond
-- Repeat the sequence if no response
+#### Finding an Antenna Heading
 
-With a directional antenna, you also need to know which way to point it. A rectangular world map can be misleading: the shortest route over a globe does not necessarily follow the direction you would guess from the page.
+If you use a directional antenna, an ordinary rectangular world map may not show the heading you need. The shortest path over Earth’s surface can point in a different direction from the line you would draw on that map.
 
 > **Key Information:** An azimuthal projection map shows true bearings and distances from a specific location. {{< link id="G2D04" >}}
 
-Use one centered on your station. You can read a destination's bearing from the center and aim your antenna along that short path. The location matters: a map centered on another operator's station will not give your bearings. These are bearings relative to true north, not necessarily the reading on an uncorrected magnetic compass.
+The station-centered map used for this purpose is an *azimuthal equidistant* map. Choose one centered on your location, then read the bearing from its center to the destination. A map centered elsewhere will not provide your station’s bearings. The heading refers to true north, so account for magnetic declination if you use a magnetic compass to align the antenna.
 
-Sometimes the short path does not support a contact, but the longer route around Earth does:
+Sometimes propagation supports the longer route around Earth instead:
 
-> **Key Information:** When making a "long-path" contact with another station, a directional antenna is pointed 180 degrees from the station's short-path heading. {{< link id="G2D06" >}}
+> **Key Information:** For a long-path contact, point a directional antenna 180 degrees from the station’s short-path heading. {{< link id="G2D06" >}}
 
-![World map showing short path vs long path propagation](../images/long-path-propagation.svg)
+If the short-path heading is 70 degrees, the long-path heading is 250 degrees. Compare reception in the two directions to find which path, if either, supports the contact.
 
-Long path is nature's magic trick. Can't reach Europe from California? Turn your beam toward Australia and work them the wrong way 'round—22,000 miles instead of 6,000. It sounds crazy until you hear that telltale echo on their signal, proof your words just traveled 3/4 of the way around the planet.
+![Short-path and long-path antenna headings](../images/long-path-propagation.svg)
 
-##### Clear Communication in DX Contacts
+#### Calling Among Other Stations
 
-When working DX, particularly stations where English isn't the primary language, clear communication becomes essential:
+Before answering a station with a pileup, listen through several exchanges. Identify its call sign, determine whether it is working split, and note any instructions. Apply Section 7.3’s split-operation checks to the transmit VFO: a station you may legally receive is not necessarily on a frequency where you may transmit.
 
-> **Key Information:** Alpha, Bravo, Charlie, Delta are examples of the NATO Phonetic Alphabet. {{< link id="G2D07" >}}
+Call during the listening period, then listen for the reply. If the operator answers a different callsign or asks for a partial call that does not match yours, leave the exchange clear. Repeated calls during someone else’s reply make it harder for both stations to finish.
 
-![Chart showing the complete NATO phonetic alphabet](../images/nato-phonetic-alphabet.svg)
+An unsuccessful call is not a reason to keep raising power. Another caller may have been selected, or the station may be listening elsewhere. You can try again at a suitable pause or return later. Use only the power needed for the communication, within your equipment and license limits.
 
-Why NATO phonetics matter: That JA station doesn't speak English. The HA station is fighting S9 noise. But when you say "Whiskey Seven Alpha Bravo Charlie," they copy perfectly. "America Boston Canada" might sound clever, but it marks you as an amateur (lowercase 'a'). Use the standard—it works from Albania to Zimbabwe.
+Conditions can also bring previously separate contacts into one another’s receivers. Neither group may have heard the other when it began:
 
-##### DX Operating Tips
+> **Key Information:** If propagation changes during a contact and creates interference from other stations on the frequency, attempt to resolve the problem with them in a mutually acceptable manner. {{< link id="G2B03" >}}
 
-DX Success Secrets:
+One group may move to another clear frequency, or the operators may arrange to take turns. Agree on the change and check the new frequency before using it. A scheduled net, DX operation, or contest does not grant exclusive access to a frequency.
 
-**Listen First**: That rare DX has a rhythm. "Up 5" means they're listening 5 kHz higher. Miss that detail? You're calling on their transmit frequency with 200 other lids.
+#### Completing a Contest Exchange
 
-**Timing Beats Power**: Watch when they're listening. Drop your call in the gap. One perfectly timed "W7ABC" beats ten guys screaming their calls continuously.
+A contest specifies which contacts count and what information must be exchanged. Before calling, read its rules for bands, modes, operating times, and entry categories. The exchange might include a signal report plus a state, zone, or serial number; the details depend on the event.
 
-**Less Is More**: Just your call, once, clearly. Not "9A1A 9A1A 9A1A from W7ABC W7ABC please copy." They know their own call. They know you want a contact. Just "W7ABC."
+Suppose a voice contest requires a report and a serial number. After exchanging callsigns, the other operator sends “five nine, one four two.” You record report 59 and their serial number 142. If this is your seventh contact, your reply might be “five nine, zero zero seven.” Your number records your own sequence, not a copy of theirs.
 
-**Patience Pays**: That pileup sounds impossible? Wait 20 minutes. Half the callers will give up. Your odds just doubled.
+You will often hear standard 59 or 599 reports in contests. Do not treat those brief exchanges as detailed evaluations of your signal. If you miss a callsign or number, request a repeat before the contact ends. Copying the required information accurately matters more than avoiding an extra transmission.
 
-Remember that DX operators often work under challenging conditions, sometimes with limited English proficiency. Simple, clear exchanges work best.
+![The required information in a contest exchange](../images/contest-exchange.svg)
 
-#### Contest Operating: The Sport of Amateur Radio
+A faster exchange does not change the station-identification requirements:
 
-Think contests are just for competitive types? Think again. Contests are amateur radio's gym—a place to build your radio muscles fast. Work 100 stations in a weekend contest and you'll learn more about propagation, operating, and your station's capabilities than in six months of casual operating.
+> **Key Information:** When participating in a contest on HF frequencies, identify your station according to normal FCC regulations. {{< link id="G2D09" >}}
 
-##### Contest Fundamentals
+Identify at least every ten minutes during a communication and at its end. Do not assume that the pace of the contest or another station’s use of your call satisfies your own obligation. Contest rules may impose additional operating requirements.
 
-Contests come in many varieties, from worldwide events lasting 48 hours to local "sprints" of just a few hours. All share common elements:
+Power categories are another event-specific choice:
 
-1. **Objective**: Make contacts, often with multipliers for different regions, bands, or modes
-2. **Exchange**: Trade specific information (signal report plus another element like zone or state)
-3. **Scoring**: Contacts × multipliers, with variations depending on contest rules
-4. **Logging**: Record all contact information accurately
+> **Key Information:** QRP operation means low-power transmit operation. {{< link id="G2D10" >}}
 
-A log is useful beyond the contest score. Recording the time in UTC, frequency or band, mode, and the station contacted gives you a record to consult later, rather than relying on memory.
+Some contest QRP categories have a 5-watt limit, but definitions and categories vary. Check the rules for the event you are entering. Low power may also suit portable operation, though it can make some contacts harder to complete. Choose an activity and operating goal that fit the station you have.
+
+<!-- Illustration held for review: ../images/qrp-power-levels.svg. Numerical category limits must be qualified rather than presented as a universal definition of QRP. -->
+
+#### Keep an Accurate Record
+
+A contest log records the date and time in UTC, band or frequency, mode, callsign, and required exchange. The same basic record can be useful for ordinary contacts:
 
 > **Key Information:** Many amateurs keep a station log to help with a reply if the FCC requests information about their station. {{< link id="G2D08" >}}
 
-There is no general FCC requirement to log every amateur contact, but a record can help establish what you were doing at a particular time. Contest organizers may also require a submitted log for scoring. Keeping that record does not replace your on-air obligations:
+There is no general requirement to log every amateur contact, but specific activities may have recordkeeping requirements. For a contest, use its required format and submission procedure. Record what you actually copied rather than filling gaps from an online listing, and follow the event’s rules about corrections and outside assistance.
 
-> **Key Information:** When participating in a contest on HF frequencies, you must identify your station according to normal FCC regulations. {{< link id="G2D09" >}}
+![Example of a contest log](../images/contest-logging.svg)
 
-![Sample contest log showing proper format](../images/contest-logging.svg)
-
-Contest myth: "Rules don't apply during contests." Wrong. That ten-minute ID rule? Still applies. The good news? Every contest exchange includes your call, so you're covered. But don't get so caught up in rate that you forget you're still bound by Part 97.
-
-##### QRP Operation: Doing More with Less
-
-Many contesters enjoy the challenge of QRP (low power) operation:
-
-> **Key Information:** QRP operation refers to low-power transmit operation, typically 5 watts or less on CW and 10 watts or less on phone. {{< link id="G2D10" >}}
-
-![Chart comparing standard vs QRP power levels](../images/qrp-power-levels.svg)
-
-QRP operation offers:
-- Greater challenge and satisfaction
-- Lower power consumption for portable/emergency setups
-- Reduced potential for causing interference
-- Emphasis on operator skill over raw power
-
-QRP proves the amateur radio truth: An excellent operator with 5 watts will outperform a poor operator with 1,500 watts every time. When you work Japan with 5 watts and a wire antenna, you've earned serious bragging rights.
-
-##### Exchange Format and Signal Reports
-
-Contest exchanges typically begin with signal reports:
-
-> **Key Information:** Signal reports are typically exchanged at the beginning of an HF contact to allow each station to operate according to conditions. {{< link id="G2D11" >}}
-
-![Diagram showing typical contest exchange sequence](../images/contest-exchange.svg)
-
-Real signal reports matter, even in contests. Getting lots of "59?" (question mark) reports? You're not really 59. Time to:
-- Check your audio levels
-- Slow down your speech  
-- Try a different band
-- Fix that RF in the shack
-
-Don't be the station everyone works once and avoids thereafter.
-
-Most contests use abbreviated reports (often just "59" regardless of actual conditions) to speed exchanges, but genuine reports can help both stations optimize their operation.
-
-#### Check Before Joining the Pileup
-
-An interesting station may appear on your receiver or a DX spotting service at a frequency where you cannot legally transmit. Other operators may have different license privileges or be operating under another country's rules. Hearing a contact does not establish that you can join it on the same frequency.
-
-Apply the bandwidth relationship from Section 7.3: the whole transmitted signal must fit within your authorized segment, not only the frequency shown on the display. When working split, check the transmit VFO as carefully as the receive VFO. For example, "up 5" tells you where the DX station is listening; it does not establish that the resulting transmit frequency and occupied bandwidth are available to your license class. That check belongs before the call, even when the pileup is moving quickly.
-
-#### Practical Strategies for Contest Success
-
-Regardless of your ambition level, these practices will enhance your contest experience:
-
-##### Preparation Before the Contest
-
-1. **Study the Rules**: Understand exchange requirements, multipliers, and scoring
-2. **Prepare Your Station**: Test equipment, update software, arrange logging
-3. **Plan Your Strategy**: Determine operating times, band changes, and rest periods
-4. **Create Resources**: Have reference lists for needed multipliers
-5. **Practice Exchanges**: Become comfortable with the contest's specific format
-
-##### Effective Operating During the Contest
-
-1. **Use Standard Phonetics**: Clear communication saves time
-2. **Develop Rhythm**: Consistent exchange patterns increase efficiency
-3. **Listen Effectively**: Often more important than calling
-4. **Maintain Accurate Logging**: Prevent duplicate contacts and scoring errors
-5. **Pace Yourself**: Contests are marathons, not sprints
-
-##### After the Contest
-
-1. **Review Your Log**: Check for errors before submission
-2. **Analyze Performance**: Identify strengths and improvement areas
-3. **Compare Results**: Learn from more successful stations
-4. **Plan Improvements**: Target specific enhancements for next time
-
-#### DX and Contest Resources
-
-Take advantage of these valuable tools:
-
-1. **DX Clusters**: Online networks that spot active DX stations
-2. **Propagation Forecasts**: Prediction tools like VOAProp or DX Toolkit
-3. **Contest Calendars**: WA7BNM contest calendar lists events worldwide
-4. **Logging Software**: Programs like N1MM+, N3FJP, or Log4OM streamline contest operation
-5. **Club Membership**: Local contest clubs offer mentoring and multi-operator opportunities
-
-#### Balancing Competition and Courtesy
-
-The best contesters and DXers share a secret: Being a good operator beats being a loud operator. They:
-
-**Work Clean**: Stay in your authorized spectrum. Period.
-
-**Run Smart Power**: If 100W works, why run 1,500W? Save it for when you need it.
-
-**Help Newcomers**: Today's lid is tomorrow's great operator. We all started somewhere.
-
-**Take Breaks**: Tired operators make mistakes. Mistakes cause problems.
-
-**Remember Why We're Here**: That rare DX station? They're a person too. That contest competitor? Could be your next best friend.
-
-The scoreboard forgets, but the bands remember.
-
-Contest and DX operation represent amateur radio at its most challenging and rewarding. These activities push your skills to new levels while connecting you with a worldwide community of like-minded enthusiasts. Whether you participate casually or competitively, the techniques and knowledge gained enhance all aspects of your amateur radio experience.
-
-Here's the truth about DX and contesting: They're not about the awards on your wall or your contest ranking. They're about that moment when propagation, skill, and timing align perfectly. When you break through a pileup to work a new country. When you run a frequency and work the world. When amateur radio transforms from hobby to magic.
-
-Your General ticket is your passport. Start exploring.
+A contest calendar or local club can help you find an event to try. Listen to a few exchanges and prepare the information you will send. You can make a handful of contacts without aiming for a competitive score. In digital operation, software takes on more of the exchange, but the operator still needs to recognize what is happening.

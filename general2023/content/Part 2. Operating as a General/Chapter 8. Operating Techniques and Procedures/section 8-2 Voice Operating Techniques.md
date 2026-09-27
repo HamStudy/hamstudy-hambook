@@ -1,199 +1,94 @@
 ---
 chapter: "8"
 section: "8.2"
-questions: ["G2A08", "G2A10", "G2A11", "G2A12", "G2B01", "G2B03", "G2B05", "G2B06"]
-status: reviewed1
+questions: ["G2A12", "G2A10", "G2B05", "G2B06", "G2D07", "G2D05", "G2A08", "G2D11"]
+status: draft1
 ---
 
 ### Section 8.2: Voice Operating Techniques
 
-You've made your first HF contacts. Now what? The difference between an operator who makes contacts and one who makes friends on the air comes down to technique. It's not about having a $10,000 station—it's about knowing how to use what you have with skill and courtesy.
+An ordinary HF voice contact begins in one of three ways: you answer a call, invite someone to answer yours, or join a conversation already in progress. Each requires a different opening, but all depend on making yourself understood and leaving time for a reply.
 
-Let's transform you from someone who operates a radio into someone who commands respect on the airwaves.
+#### Make Your Voice Ready to Transmit
 
-#### Breaking Into Conversations
+Before calling, check the speech settings established in Section 7.3. Speak at a normal level and use the manufacturer’s recommended ALC indication to guide microphone-gain adjustment:
 
-While scanning the bands, you'll often find ongoing conversations (QSOs) that you might want to join. There's a proper way to do this:
+> **Key Information:** Transmit audio or microphone gain is typically adjusted for the proper ALC setting on an SSB transceiver. {{< link id="G2A12" >}}
 
-> **Key Information:** When calling another station on a repeater or breaking into a conversation, the recommended way is to simply say your call sign once. {{< link id="G2A08" >}}
+Adjust microphone gain while speaking normally, keeping the RF power setting at the level you intend to use. Follow the radio’s voice-mode procedure; its recommended ALC indication may differ from the digital-mode guidance in Section 7.5.
 
-![Diagram showing proper way to break into an ongoing conversation](../images/breaking-in.svg)
+<!-- Illustration held for review: ../images/alc-meter-settings.svg. Any acceptable meter range must be tied to a particular radio or its instructions, not presented as universal. -->
 
-This approach applies to both repeater and HF operation. A simple, brief callsign transmission during a pause indicates your desire to join without interrupting the flow of conversation. The current participants can then acknowledge you and bring you into the discussion.
+You can switch between transmit and receive with PTT or let your voice operate the switch:
 
-What NOT to do:
-- "Break break!" (That's for emergencies, not casual chats)
-- "This is W1ABC standing by for the group" (Too wordy)
-- "CQ" (Wrong tool for the job—that's for starting new contacts)
+> **Key Information:** Voice Operated Transmission (VOX) allows hands-free operation compared to Push-To-Talk (PTT). {{< link id="G2A10" >}}
 
-Didn't work? Try once more at the next pause. Still nothing? They might be deep in conversation or dealing with marginal conditions. Move on—plenty of QSOs in the sea.
+VOX sensitivity determines what audio level starts transmission, and its delay determines how long the radio waits after you stop speaking before returning to receive. Anti-VOX reduces the chance that audio from the radio’s speaker will trigger transmission.
 
-#### Voice Operating Enhancements
+Set VOX so that normal speech starts the transmitter without room noise keeping it active. Check that the beginning of a word is not cut off and that the radio returns to receive between turns. PTT is often the better choice in a noisy room or whenever you prefer direct control.
 
-Several technologies can improve your voice operating experience:
+![How VOX switches between transmit and receive](../images/vox-operation.svg)
 
-##### VOX Operation
+#### Check Before Starting a Contact
 
-> **Key Information:** Voice Operated Transmission (VOX) allows "hands-free" operation compared to Push-To-Talk (PTT). {{< link id="G2A10" >}}
+An apparently quiet frequency may be in use. You might hear only one side of a contact, or the participants may be between transmissions. Listen before calling, and leave room for nearby signals as well:
 
-![Diagram showing how VOX circuitry functions](../images/vox-operation.svg)
+> **Key Information:** When selecting an SSB transmitting frequency, a minimum separation of 2 to 3 kHz from stations on adjacent frequencies should be used to minimize interference. {{< link id="G2B05" >}}
 
-VOX is like having a third hand. Your voice triggers the transmitter, leaving both hands free for:
-- Logging contacts (especially during contests)
-- Taking notes during technical discussions
-- Operating mobile without fumbling for the PTT
-- Enjoying your coffee during a morning ragchew
+Allow more separation when signals are wider or a strong nearby station still causes interference. Account for the sideband and bandwidth you will transmit, as discussed in Section 7.3.
 
-Most modern transceivers include adjustable VOX settings for:
-- Sensitivity (how loud your voice must be to trigger transmission)
-- Delay (how long it waits after you stop speaking before returning to receive)
-- Anti-VOX (prevents speaker audio from triggering the transmitter)
+![Frequency spacing between nearby SSB signals](../images/frequency-spacing.svg)
 
-Getting VOX right is like adjusting a microphone for a podcast. Too hot? Your dog's bark goes out over the air. Too cold? You'll sound like you're constantly saying "–ello" instead of "Hello."
+After listening, check whether another station is using the frequency:
 
-#### Special Calling Situations
+> **Key Information:** Before calling CQ on an apparently clear frequency, send “QRL?” on CW followed by your call sign, or ask if the frequency is in use on phone, followed by your call sign. {{< link id="G2B06" >}}
 
-##### CQ DX
+For voice, “Is this frequency in use? This is W1ABC” is enough. Pause for an answer, and repeat the check if needed. If someone replies that a contact is underway, choose another frequency. A fixed listening time does not establish that a frequency is clear.
 
-When you're specifically seeking long-distance international contacts:
+#### Calling and Answering
 
-> **Key Information:** Generally, stations outside the lower 48 states should respond when a station in the contiguous 48 states calls "CQ DX". {{< link id="G2A11" >}}
+Callsigns contain letters that can sound alike through noise. Standard phonetic words help separate them:
 
-![World map showing DX concept](../images/cq-dx.svg)
+> **Key Information:** Alfa, Bravo, Charlie, and Delta are examples of the NATO Phonetic Alphabet. {{< link id="G2D07" >}}
 
-"CQ DX" is amateur radio speak for "I'm hunting for distant lands." When a stateside operator calls CQ DX at sunrise, they're not interested in working their neighbor—they're chasing that elusive contact with Mauritius or Mongolia.
+The A word is also commonly written *Alpha*. Using the standard words gives the listener a familiar set of sounds to recognize. W1ABC becomes “Whiskey One Alfa Bravo Charlie.” Speak clearly at a steady pace; repeat the part the other operator missed rather than changing every phonetic word.
 
-Hear someone calling CQ DX from your own state? Let it pass. They're fishing for bigger game, and jumping in would be like photobombing someone else's summit photo.
+![The NATO Phonetic Alphabet](../images/nato-phonetic-alphabet.svg)
 
-##### Proper ALC Setting
+To invite a contact with any available station, call CQ:
 
-Your transmitter's audio level significantly impacts signal quality:
+> **Key Information:** To indicate that you are looking for an HF contact with any station, repeat “CQ” a few times, followed by “this is” and your call sign a few times, then pause to listen. Repeat as necessary. {{< link id="G2D05" >}}
 
-> **Key Information:** Transmit audio or microphone gain is typically adjusted for proper ALC setting on a single sideband transceiver. {{< link id="G2A12" >}}
+For example:
 
-![Diagram showing proper ALC meter reading](../images/alc-meter-settings.svg)
+> “CQ CQ CQ, this is W1ABC, Whiskey One Alfa Bravo Charlie, calling CQ and standing by.”
 
-Automatic Level Control (ALC) prevents overdriving your transmitter's final amplifier stage. Proper adjustment means:
-- Voice peaks cause ALC meter movement into the recommended range
-- The meter doesn't continuously pin at maximum
-- Audio sounds natural, not distorted
+The listening pause is part of the call. A station cannot answer while you are still transmitting. When answering someone else’s CQ, wait for that pause and give their call followed by yours: “W2XYZ, this is W1ABC, Whiskey One Alfa Bravo Charlie.”
 
-Too much gain? You become the guy everyone avoids—splattering across 10 kHz like an audio paintball explosion. Your signal report: "59+40 and unreadable."
+![A CQ call followed by a listening period](../images/calling-for-dx.svg)
 
-Too little gain? You're whispering in a hurricane. "Sorry OM, you're down in the noise."
+Joining a conversation already in progress is different from starting one:
 
-The sweet spot: Voice peaks tickle the ALC zone without camping there. Your audio stays clean, punchy, and professional.
+> **Key Information:** The recommended way to break into a phone contact is to say your call sign once. {{< link id="G2A08" >}}
 
-#### Frequency Access and Courtesy
+Wait for a pause and give your call. Let the participants acknowledge you before adding to the conversation. If they do not answer, they may not have heard you; avoid repeatedly calling over their exchange. CQ invites a new contact, so it is not the right opening here.
 
-Understanding band etiquette helps maintain harmony on the air:
+![Joining a voice contact during a pause](../images/breaking-in.svg)
 
-> **Key Information:** Except during emergencies, no amateur station has priority access to any frequency. {{< link id="G2B01" >}}
+#### Exchange What the Other Operator Needs
 
-![Diagram illustrating shared frequency access](../images/frequency-sharing.svg)
+Once the stations have identified each other, a signal report helps establish how much information the path can support:
 
-Amateur radio isn't like reserved parking spaces. That net that meets "every Tuesday at 7 PM on 3.920" doesn't own 3.920. The DX window isn't a VIP lounge. We're all equals here.
+> **Key Information:** Signal reports are typically exchanged at the beginning of an HF contact to allow each station to operate according to conditions. {{< link id="G2D11" >}}
 
-The only time someone gets priority? When lives are at stake. Otherwise, we share like adults at a busy playground.
+Section 7.2 distinguished readability from signal strength. Apply that distinction here: “You’re five and two, fully readable but weak” gives different information from “Your signal is strong, but the audio is distorted.” A description of fading or interference can be more useful than a higher strength number.
 
-When propagation changes during a contact, interference might suddenly develop from stations that weren't audible before:
+In a short first contact, you might say:
 
-> **Key Information:** If propagation changes during a contact causing interference from other stations on the frequency, you should attempt to resolve the interference problem with the other stations in a mutually acceptable manner. {{< link id="G2B03" >}}
+> “W2XYZ, you’re five and seven. My name is Alex, and I’m in Denver, Colorado. How do you copy? W1ABC.”
 
-Smart solutions beat stubborn standoffs:
-- QSY up or down 3 kHz? Problem solved.
-- Finish your QSO and let them have a turn? Classy move.
-- Band's getting crowded? 40 meters is huge—explore!
-- Can't work it out? Sometimes walking away wins.
+The other station can return a report, name, and location. The exchange can end there or continue with equipment and other topics. If you miss something, identify the part you need: “Please repeat your city” tells the other operator exactly what to send again.
 
-This cooperative approach works much better than assertions of "ownership" or priority.
+When signals fade, shorten your turns and confirm important details before continuing. Leave a pause between transmissions so another participant can speak or a station with urgent traffic can be heard. Identify at least every ten minutes during a communication and at its end. A closing “Thanks for the contact. W1ABC, clear” lets the other operator know you are finished.
 
-#### Managing Interference Through Proper Frequency Selection
-
-Choosing appropriate spacing between stations helps minimize interference:
-
-> **Key Information:** When selecting an SSB transmitting frequency, a minimum separation of 2 to 3 kHz from stations transmitting on adjacent frequencies should be used to minimize interference. {{< link id="G2B05" >}}
-
-![Diagram showing proper SSB frequency spacing](../images/frequency-spacing.svg)
-
-Think of SSB signals like personal space bubbles—each needs about 3 kHz to breathe. Get too close and you create:
-- That annoying Donald Duck sound bleeding into QSOs
-- Heterodynes that whistle like a tea kettle
-- The audio equivalent of two people talking over each other
-
-Before calling CQ or starting a conversation:
-
-> **Key Information:** To avoid harmful interference on an apparently clear frequency before calling CQ on CW or phone, send "QRL?" on CW, followed by your call sign; or, if using phone, ask if the frequency is in use, followed by your call sign. {{< link id="G2B06" >}}
-
-Why bother? Because nothing's worse than transmitting over a rare DX station working split, just because you couldn't hear their listening frequency. That quick "QRL?" saves face and friendships.
-
-#### Giving a Useful Signal Report
-
-Section 7.2 explained the S-meter scale and its limits. During a contact, the useful question is not only how far the needle moves, but how well you can understand the other station. A strong signal can be distorted or covered by interference; a weak one can be perfectly readable in a quiet band.
-
-On voice, the familiar two-number report describes readability first and signal strength second. Readability runs from 1 (unreadable) to 5 (perfectly readable), while strength runs from 1 to 9. A "five and two" report means fully readable but weak, not difficult to understand merely because the second number is low.
-
-Add a short description when it helps: "You're fully readable, but fading," or "Your signal is strong, but the audio is distorted." That gives the other operator something useful to respond to. If you need a callsign or location repeated, say which part you missed instead of guessing. Signal reports should help the contact proceed, not turn every exchange into a contest for the highest meter reading.
-
-#### Practical Operating Tips for Challenging Conditions
-
-HF bands often present challenging conditions that require specialized techniques:
-
-##### Working Weak Signals
-
-When signals are barely there:
-- Narrow that filter—squeeze out every bit of noise
-- Headphones on, world off
-- "Please repeat your call sign" beats guessing wrong
-- "America Mexico One America Boston Charlie" when "AM1ABC" won't cut it
-- Short transmissions with confirmations beat long speeches into static
-
-##### Handling Crowded Band Conditions
-
-During contests, DXpeditions, or band openings:
-- Be extremely brief and efficient in your transmissions
-- Listen carefully before transmitting to avoid covering other stations
-- Consider using slightly off-peak times to make your calls
-- Try calling stations working simplex rather than those with large pileups
-- Consider using CW or digital modes which often get through better in crowded conditions
-
-##### Operating During Marginal Conditions
-
-When propagation is poor:
-- Focus on calling strong stations who are likely to hear you
-- Use upper bands during daylight, lower bands at night
-- Try gray-line periods (dawn/dusk) for enhanced propagation
-- Consider scheduling contacts when conditions are predicted to improve
-- Be patient and persistent
-
-#### The Art of the Exchange
-
-A smooth, efficient information exchange is the hallmark of a skilled operator. Here's how to structure a typical HF voice contact:
-
-1. **Initial Exchange**:
-   - Signal report (RS: Readability 1-5, Strength 1-9)
-   - Name and location
-   - Brief station description
-
-2. **Further Information** (optional):
-   - Weather conditions
-   - Antenna system details
-   - Personal background
-   - Current operating conditions
-
-3. **Final Exchange**:
-   - Expression of thanks
-   - Clear indication of ending the contact
-   - Final identification
-
-Keep your transmissions concise but friendly. The ideal balance avoids both terse, impersonal exchanges and excessively long monologues that prevent others from participating.
-
-#### Crafting Your Operating Style
-
-Great operators aren't born—they're made through practice and attention to detail. Master these techniques and you'll find your signal reports improving, your QSO count climbing, and best of all, operators actually seeking you out for contacts.
-
-Remember: In amateur radio, your signal might fade, but your reputation lasts forever.
-
-As you gain experience, you'll develop your own personal approach while maintaining these core principles of courtesy, efficiency, and technical precision. With practice, the techniques in this section will become second nature, allowing you to focus on the enjoyment of making connections across town or around the world.
-
-In the next section, we'll explore CW operating procedures and techniques that open up additional opportunities on the HF bands, even for operators who aren't yet proficient in Morse code.
+With voice, you can ask for a repeat or invite a reply in ordinary words. CW operators need those same options, but use short codes to avoid spelling out each request.

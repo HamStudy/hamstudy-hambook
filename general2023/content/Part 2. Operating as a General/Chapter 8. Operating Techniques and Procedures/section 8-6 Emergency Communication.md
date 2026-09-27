@@ -1,64 +1,92 @@
 ---
 chapter: "8"
 section: "8.6"
-status: generated
-questions: ["G2B02", "G2B10", "G2B09", "G2B11"]
+questions: ["G2B01", "G2B02", "G2B10", "G2C11", "G2C08", "G2E11", "G2B09", "G2B11"]
+status: draft1
 ---
 
 ### Section 8.6: Emergency Communication
 
-The operating skills in this chapter serve more than casual contacts. When a station needs help, listening carefully, copying accurately, and leaving room for a reply become the means of getting assistance to the right place. HF can carry a message beyond a damaged local communications system, but reaching someone is only the beginning. You also need to learn what is needed and pass that information without adding confusion.
+A call for help can interrupt an ordinary contact. The operating skills you have practiced—listening, asking for a repeat, and confirming important details—now help connect someone with assistance. Reaching a station is only the first step; you also need to learn what is needed and pass that information accurately.
 
-#### When Someone Calls for Help
+#### Responding to a Call for Help
 
-A distress call may arrive in the middle of an ordinary conversation. Your first task is not to choose an organization to notify or to stop transmitting indefinitely. It is to establish contact with the person asking for help.
+Amateur frequencies are shared. A scheduled net or recurring conversation does not own its usual frequency, but emergency communication has a specific priority:
 
-> **Key Information:** If a station in distress breaks into your contact, first acknowledge the station and determine what assistance may be needed. {{< link id="G2B02" >}}
+> **Key Information:** Except during emergencies, no amateur station has priority access to any frequency. {{< link id="G2B01" >}}
 
-For example, you might respond, "Station calling for help, I hear you. What is your location, and what assistance do you need?" Keep your transmissions short and give the station time to answer. Confirm essential details, especially a location or information you will relay to someone else. Do not assume that a weak or interrupted transmission means the situation has been resolved.
+The absence of exclusive access does not permit interfering with an existing contact. When emergency traffic appears, give it room and listen. If you hear a station in distress break into your own contact, respond to the request rather than assuming another listener will handle it:
 
-Once you know what is needed, help connect the caller with appropriate assistance. That might mean contacting emergency services through a working telephone connection or relaying the message to another station that can do so. Tell the caller what action you are taking. Other stations should avoid covering the exchange with unnecessary transmissions, but a station that can provide needed help may have a useful role.
+> **Key Information:** First acknowledge the station in distress and determine what assistance may be needed. {{< link id="G2B02" >}}
 
-#### Coordinating More Than Two Stations
+For example: “Station calling for help, I hear you. What is your location, and what assistance do you need?” Keep transmissions short and give the caller time to answer. Confirm essential details, especially a location or information you will relay. A weak or interrupted reply does not mean the problem has been resolved.
 
-A single contact can become difficult to follow when several people have reports or requests. A *net* organizes those exchanges. In a directed net, a net control station coordinates who transmits and helps route messages, so several stations do not all try to talk at once.
+Once you know what is needed, help connect the caller with appropriate assistance. That may mean using a working telephone to contact emergency services or relaying through another station that can do so. Tell the caller what action you are taking. Other stations should avoid unnecessary transmissions, while a station able to provide needed help may have a useful role.
 
-Listen for instructions before checking in. When called, give the information requested, then leave room for the next station. Urgent traffic needs prompt attention; routine updates should not occupy the channel while someone is waiting to pass a time-critical message. Clear, concise language helps everyone, particularly when participants do not know one another.
+#### Coordinating Several Stations
 
-That organization is useful only while the stations can hear each other. Propagation can change during a response, or interference can make a previously usable frequency unreadable.
+When several operators have reports or requests, a net helps organize the exchange. In a directed net, net control coordinates who transmits and helps route messages. Listen for instructions, give the information requested when called, and allow urgent traffic to receive attention before routine updates.
+
+A net still depends on a usable radio path. Propagation or interference can make a working frequency unusable:
 
 > **Key Information:** Good amateur practice for net management includes having a backup frequency in case of interference or poor conditions. {{< link id="G2B10" >}}
 
-Agree on the backup frequency and how to move to it before the primary frequency fails. Otherwise, the very interference that forces a move may prevent net control from announcing where to go. A shared plan lets separated stations find one another again rather than searching the band independently. Choose frequencies and modes that the participating control operators are authorized to use.
+Agree on both the backup frequency and the conditions for moving before the primary frequency fails. Otherwise, the interference that forces the change may also prevent anyone from announcing where to go. The backup must use frequencies and modes available to the participating control operators, and it should be checked for other activity before use.
+
+#### Passing a Message Accurately
+
+A request relayed through several operators should retain the sender’s meaning. Record who originated it, whom it is for, and what it says. Preserve uncertainty too: “The road may be blocked” must not become “The road is blocked” when you pass it along.
+
+Before sending, make sure the receiving operator is ready to copy. On voice, that can be a direct question. CW has an established Q-signal for readiness:
+
+> **Key Information:** The Q signal “QRV” means “I am ready to receive.” {{< link id="G2C11" >}}
+
+QRV? asks “Are you ready?” The reply QRV means “I am ready.” Wait for that reply so you do not send the message while the receiving operator is still finding a form or writing the previous transmission.
+
+Formal messages also need a clear ending, distinct from the end of the entire contact:
+
+> **Key Information:** The prosign AR indicates the end of a formal message when using CW. {{< link id="G2C08" >}}
+
+Send AR as one continuous prosign, as described in Section 8.3. It marks the message’s end; the operators may still need to resolve a missed word or acknowledge receipt. This differs from SK, which ends the contact. Use the acknowledgment QSL only after the information has been received and understood.
+
+These procedures are useful in message-handling practice as well as emergencies. Follow the net’s message format, and request clarification instead of silently repairing something that seems wrong. In an exercise, for example, a receiver who missed part of “Send twenty blankets to the north shelter” should confirm both the quantity and destination before relaying the request.
+
+Keep a record of when the message was passed and any acknowledgment. Being ready to receive, completing a transmission, and confirming receipt are separate steps; none should be assumed from the others.
+
+#### Choosing a Method Both Ends Can Use
+
+Voice is useful for a short request, but a long list of supplies or addresses can be easier to handle as text. The Winlink procedures in Section 8.5 offer one way to pass a written message. If that path is not working, a voice exchange with critical details read back may be more useful than repeated attempts at a failed connection.
+
+Several local sites may need to share forms, files, or phone connections at the same time. That calls for a data network rather than a single HF contact:
+
+> **Key Information:** The primary purpose of an Amateur Radio Emergency Data Network (AREDN) mesh network is to provide high-speed data services during an emergency or community event. {{< link id="G2E11" >}}
+
+AREDN links stations using compatible network radios, rather than the HF audio setup used for modes such as FT8. Applications on the network can provide services such as file sharing, messaging, or voice over IP. The radio links and the services must be deployed and working at the locations that need them.
+
+![An AREDN mesh linking stations and data services](../images/aredn-mesh-network.svg)
+
+An AREDN network can operate without public internet access, but it does not automatically restore access to internet services. Choose applications available within the working network, and confirm that the intended recipient can use them. Choose a method that both ends can support, then check that the message was received.
 
 #### Preparing with ARES and RACES
 
-Working with an established group lets you practice those procedures before an emergency. ARES, the *Amateur Radio Emergency Service*, organizes amateur volunteers for public-service communications. Local training helps you learn the needs of the organizations you may support, the equipment they use, and how they want messages handled.
+An established group gives you a way to practice message handling and learn what equipment a supported organization actually needs. ARES, the Amateur Radio Emergency Service, organizes licensed amateur volunteers for public-service communication. Local training helps volunteers practice the tasks they may be assigned.
 
-RACES, the *Radio Amateur Civil Emergency Service*, is a civil-defense radio service governed by specific FCC rules. It is not a blanket permission for anyone involved in disaster response to operate an amateur station as its control operator.
+RACES, the Radio Amateur Civil Emergency Service, is governed by specific FCC rules for civil-defense communication:
 
 > **Key Information:** Only a person holding an FCC-issued amateur operator license may be the control operator of an amateur station transmitting in RACES to assist disaster relief operations. {{< link id="G2B09" >}}
 
-A government role does not substitute for that license. The control operator remains responsible for the station's operation; working alongside public officials does not transfer that responsibility to them. Learn your local organization's activation and participation procedures in advance rather than arriving unrequested at an incident.
+A government position does not replace that license. The RACES rules also require the operator to be enrolled and the station to be registered with the responsible civil-defense organization, with the required certification and authorization. An amateur license alone does not make an operator or station a RACES participant.
 
-Practice matters because an unfamiliar radio, an unclear message, or a missed instruction is easier to sort out during an exercise than during an actual response. RACES practice also has a specific routine limit:
+Routine RACES practice has a specific limit:
 
 > **Key Information:** Without special authorization, routine RACES training drills and tests may be conducted for no more than one hour per week. {{< link id="G2B11" >}}
 
-That limit is specific to routine RACES drills and tests, not a one-hour limit on all amateur practice or all emergency operation. Coordinate exercises with the responsible organization and check the applicable rules before planning activity beyond the routine allowance.
+The rules provide for longer exercises with the specified approval. The ordinary one-hour limit does not apply to all amateur practice or to all emergency operation. Coordinate RACES exercises with the responsible organization rather than treating them as any other scheduled net.
 
-#### Choosing a Useful Way to Pass the Message
+#### Prepare the Station and the Operator
 
-Voice is useful for a quick exchange, but a long list of names, addresses, or supplies can be difficult to copy accurately by ear. The digital systems from Section 8.5 offer other ways to move information. Winlink can carry written messages, while an AREDN mesh can support local high-speed data services. Their usefulness depends on the equipment and paths available, not just on knowing the name of the mode.
+Before an assignment, practice with the equipment you expect to use, including its portable antenna and power source. Check the complete arrangement: a working radio is not enough if an adapter is missing, the battery voltage drops during transmission, or the destination cannot be reached. Apply the power, grounding, and RF exposure precautions from Chapter 6 in temporary locations too.
 
-For example, if a receiving station already has a working Winlink setup, sending a written supply list can avoid repeatedly spelling each item over voice. If that path is unavailable, a short voice message with critical details read back may be the better choice. Use a method both ends can actually support, and confirm receipt rather than assuming a transmission reached its destination.
+Learn how your group activates, who gives assignments, and what information the supported organization needs. Do not arrive unrequested at an incident. A practice net or exercise lets you test the equipment and the message-handling process before either is urgently needed.
 
-Keep a record of the message, its destination, when it was passed, and any acknowledgment. Relay the sender's information accurately; do not silently turn an uncertain report into a confirmed fact. Chapter 9 covers the rules for third-party messages, international contacts, and automatically controlled stations. Those topics matter here, but the immediate operating skill is choosing a usable path and preserving the message along it.
-
-#### Being Ready to Operate
-
-Prepare a station you have actually used away from your usual desk. A go-kit might include a radio, suitable antenna and feed line, battery, power cables, headphones, and a way to write or log messages. Add a computer and interface only if your intended role needs them. A smaller setup you can assemble and operate reliably is more useful than a collection of unfamiliar equipment.
-
-Test the whole arrangement, not just the radio. Can you make the intended contact with the portable antenna? Does the battery voltage hold up while transmitting? Are the necessary cables, adapters, and frequency plans in the kit? Chapter 6's power, grounding, and RF exposure precautions still matter in a temporary station. A rushed deployment is not a reason to operate a generator indoors or put people next to an unsafe antenna.
-
-Finally, preparation includes people. Learn how to contact your group, who coordinates assignments, and what information a supported organization needs. Practice receiving a message, reading back its important details, and passing it to the next person. The purpose is not to fill airtime: it is to deliver information someone can use. The listening, signal control, and operating discipline developed throughout this book make that possible.
+The immediate goal is information someone can act on, received accurately and in time. Chapter 9 adds the rules for third-party messages, international contacts, and automatically controlled stations. Those rules build on the habits used throughout this chapter: know whom you are addressing, preserve what was said, and confirm the result.
