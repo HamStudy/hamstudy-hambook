@@ -1,70 +1,70 @@
 ---
 chapter: "7"
 section: "7.6"
-status: reviewed1
+status: draft3
 questions: ["G4B06", "G4B09", "G4B03", "G4B04", "G4B07", "G4B08", "G4B13", "G4B12"]
 ---
 
 ### Section 7.6: Test Equipment and Measurement
 
-Section 2.5 introduced multimeters and oscilloscopes and showed how different instruments reveal different things about a circuit. The same principle applies to troubleshooting a station: begin with what you are trying to learn, then choose an instrument that can show it.
+A normal power reading does not show whether a transmission is distorted. Nor does it explain a supply voltage drop or a changing antenna match. The measurement principles from Section 2.5 help you choose a test that answers the question you have.
 
 #### Choosing a Meter for the Job
 
-Digital and analog multimeters measure many of the same things, but their displays make them better suited to different jobs.
-
-A digital meter is useful when you want a precise numerical value, such as checking whether a power supply voltage drops when you transmit:
+Comparing a power supply's DC voltage while receiving and transmitting can reveal a drop that is not present while the radio is idle. A digital multimeter is useful when you need to read and compare small differences:
 
 > **Key Information:** An advantage of a digital multimeter compared to an analog multimeter is higher precision. {{< link id="G4B06" >}}
 
-When making an adjustment, however, the exact number may matter less than seeing whether the reading is rising or falling. A moving needle makes it easy to follow a peak or dip as you turn a control:
+A numerical display avoids estimating a needle's position between scale markings. The meter's accuracy specifications still matter, however; more displayed digits do not guarantee a more accurate result.
+
+When adjusting a circuit for a peak or dip, the direction of change matters more than the exact value. A moving needle lets you follow the reading as it rises, reaches a turning point, and falls:
 
 > **Key Information:** An analog multimeter is preferred when adjusting circuits for maximum or minimum values. {{< link id="G4B09" >}}
 
-Choose the display that best matches the job: digital when you need a value, analog when you need to follow a trend.
+This is also why an analog plate-current meter is useful for observing the tuning dip described in Section 7.4.
 
 #### Looking at a Transmitted Signal
 
-An oscilloscope becomes useful when you care about the shape of a transmitted signal rather than only its power.
-
-CW is a good example. The transmitter switches its carrier on and off to form dots and dashes, but those transitions must be shaped properly. If they are too abrupt, they can produce key clicks and spread energy onto nearby frequencies.
+CW illustrates why signal shape matters. Each dot or dash turns the RF carrier on and off, but its rise and fall should be controlled. Abrupt transitions spread energy into nearby frequencies, where other operators may hear key clicks:
 
 > **Key Information:** An oscilloscope is the best instrument for checking a CW transmitter's keying waveform. {{< link id="G4B03" >}}
 
-The same instrument can display the RF envelope of a modulated transmission. You do not connect a transmitter's full RF output directly to an ordinary oscilloscope input; instead, you observe a suitably reduced sample:
+The scope shows how the RF envelope rises and falls, letting you inspect the shape of each element rather than only its length.
+
+For either CW or a modulated signal, the sample comes from the transmitter's RF output. It must be reduced to a level the scope can safely accept:
 
 > **Key Information:** When checking a transmitted signal's RF envelope pattern, the attenuated RF output of the transmitter is connected to the oscilloscope's vertical input. {{< link id="G4B04" >}}
 
-The attenuation brings the sample within the instrument's safe input range while preserving the waveform you want to examine.
+Use a sampling or attenuation arrangement rated for the frequency and power involved. The transmitter still needs a suitable load, such as a properly rated dummy load; the oscilloscope input is not a substitute. Follow the equipment's measurement instructions before making connections.
 
 #### Testing Transmitter Linearity
 
-For SSB, one important question is whether the transmitter amplifies a changing signal without introducing excessive distortion. Ordinary speech is not convenient for comparing adjustments because it is constantly changing, so a two-tone test provides a repeatable signal.
+For SSB, one important question is whether the transmitting system preserves the signal without adding unwanted distortion. Speech changes constantly, so two steady audio tones provide a repeatable test:
 
 > **Key Information:**
 > - A two-tone test uses two non-harmonically related audio signals. {{< link id="G4B07" >}}
 > - A two-tone test analyzes transmitter linearity. {{< link id="G4B08" >}}
 
-The two audio tones produce corresponding RF signals in the transmitted sideband. If the transmitter is nonlinear, it also creates unwanted intermodulation products. An oscilloscope can reveal distortion in the RF envelope, while a spectrum analyzer can separate the wanted and unwanted signals by frequency.
+For example, 700 Hz and 1900 Hz are not harmonically related because neither frequency is a whole-number multiple of the other. Applied together to an SSB transmitter, they produce two corresponding RF tones. Nonlinear operation creates additional intermodulation products that may extend beyond the intended bandwidth.
 
-The goal of the test is not maximum power, but clean amplification without excessive distortion.
+An oscilloscope can reveal obvious distortion in the combined RF envelope, such as flattened peaks. A spectrum analyzer separates the output by frequency so you can compare the wanted tones with unwanted products. Use the test to check for distortion at the intended output power.
 
 #### Checking the Antenna System
 
-An antenna analyzer generates its own small test signal and measures how an antenna or feed line responds. Besides checking SWR and antenna impedance, it can also make measurements involving feed line:
+Section 7.1 introduced the antenna analyzer for checking SWR. It can also help investigate the feed line itself:
 
 > **Key Information:** An antenna analyzer can measure the impedance of coaxial cable. {{< link id="G4B13" >}}
 
-The result depends on the cable, its length, and what is connected to the other end, so follow the analyzer's procedure for the particular measurement you are making.
+A cable's nominal impedance, such as 50 ohms, is its characteristic impedance. This is not necessarily the impedance measured at one end of the cable. That input impedance also depends on frequency, cable length, and the load at the far end. Follow the analyzer's cable-testing procedure to determine characteristic impedance rather than treating a single input reading as the cable's rating.
 
-Because an analyzer works with a very small signal, strong RF from a nearby transmitter can interfere with its measurements:
+An analyzer uses its own small test signal. RF received by the antenna under test can interfere with that measurement:
 
 > **Key Information:** Strong signals from nearby transmitters can produce received power that interferes with an antenna analyzer's SWR readings. {{< link id="G4B12" >}}
 
-If an analyzer's readings become erratic while another station transmits nearby, the antenna may not have changed at all—the analyzer may simply be receiving unwanted RF.
+If readings change when a nearby station transmits, incoming RF may be affecting the measurement. Strong RF can also damage the analyzer, so follow the manufacturer's precautions around active transmitters and disconnect it when not in use.
 
-#### Measure the Problem
+#### Choosing the Right Test
 
-No single instrument tells you everything about a station. A multimeter can show a voltage problem, an oscilloscope can reveal waveform problems, and an antenna analyzer can investigate the antenna system. More specialized equipment, such as a spectrum analyzer, provides another view when necessary.
+You do not need every instrument to operate an HF station. Start with the symptom, decide what measurement would help identify its cause, and use equipment suited to that test. A club member may be able to provide both an instrument and guidance in using it safely.
 
-Start with the symptom and ask what measurement would help distinguish its possible causes. Choosing the right observation is more useful than simply collecting numbers. With the station working as expected, the next step is using it to make clear, considerate contacts. That is the focus of Chapter 8.
+With the station working as expected, you can focus on making clear, considerate contacts. Chapter 8 covers those operating skills.

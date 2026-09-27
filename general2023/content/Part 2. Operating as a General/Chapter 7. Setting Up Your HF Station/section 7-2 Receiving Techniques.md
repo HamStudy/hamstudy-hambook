@@ -7,98 +7,96 @@ status: draft3
 
 ### Section 7.2: Receiving Techniques
 
-Most of your operating as a Technician was probably on FM, where the strongest signal usually captures the receiver and you hear one station at a time. Single sideband—the voice mode you'll use most on HF—works differently. Your receiver may pick up the station you want along with atmospheric static, distant thunderstorms, electrical noise from nearby electronics, and other stations close to the same frequency. A weak signal may not be gone; it may simply be buried, and the right tools can often bring it out.
+An HF receiver may deliver the station you want along with static, noise from nearby electronics, and other stations close to the same frequency. If most of your experience is with FM, hearing these sounds together may be unfamiliar. On SSB, a strong signal does not capture the receiver in the same way. The right adjustment depends on whether the problem is an overloaded receiver, a steady tone, or another kind of interference.
 
-#### When You Have Too Much Signal
+#### When Signals Overload the Receiver
 
-Ever try looking into a shaded area on a bright, sunny day? The glare hides the subtle differences between light and dark. Put on sunglasses and you can suddenly see into the shadows—cutting the overwhelming brightness lets your eyes work properly again.
-
-An attenuator does much the same thing for your receiver:
+A strong signal can overload the receiver, causing distortion or making weaker signals difficult to hear. Increasing gain will not solve that problem; reducing the signal level reaching the receiver may help instead.
 
 > **Key Information:** The purpose of using a receive attenuator is to prevent receiver overload from strong incoming signals. {{< link id="G4A13" >}}
 
-A very strong nearby station can overload your receiver, causing distortion or hiding weaker signals. The attenuator reduces everything coming in, including the station you want—but if that is enough to get the receiver working properly again, the weak station becomes readable. It earns its keep on crowded contest weekends, at Field Day with several transmitters running nearby, or any time unusually strong signals are swamping everything else.
+An attenuator reduces all incoming signals, including the station you want. If it brings an overloaded receiver back into its normal operating range, the wanted signal may become easier to understand even though it is weaker. This can be useful at Field Day, where several transmitters may operate nearby, or whenever unusually strong signals interfere with reception.
 
-#### Cleaning Up What You Hear
+#### Reducing Noise and Interference
 
-Even at comfortable signal levels, SSB never gives you the quiet background FM does. With no continuous carrier there is no "full quieting"—the noise stays underneath, and a clear signal is simply one that stands well above it. Most receivers include three tools for the job, each aimed at a different kind of noise.
+Overload is only one source of poor reception. A receiver operating normally can still pass an unwanted tone, repeated noise pulses, or background hiss. Notch filters, noise blankers, and noise reduction controls address these different problems.
 
-The first handles a steady whistle parked on top of the conversation you're trying to follow—often another station's carrier, or something radiated by nearby electronics.
+Suppose a steady whistle overlaps the voice you are trying to hear. It may come from another station's carrier or from nearby electronics. A notch filter reduces a narrow range of frequencies around that tone:
 
 > **Key Information:** The notch filter found on many HF transceivers reduces interference from carriers in the receiver passband. {{< link id="G4A01" >}}
 
-A notch filter cuts out a very narrow slice of frequencies, removing the offending tone with little effect on the rest of the audio—though anything you wanted to hear inside that slice goes with it. Manual versions let you tune the notch to where the interference sits; automatic ones hunt it down for you.
+The notch also reduces any wanted signal within that narrow range. A manual notch lets you choose the frequency; an automatic notch finds and follows an interfering tone.
 
-A narrow notch only fixes narrow problems. Plenty of interference is smeared across a wide stretch of the dial, and the culprit is often not radio equipment at all—it may be ordinary electrical hardware with a connection that has corroded or worked loose.
+Not all interference is confined to a narrow range of frequencies. A loose or corroded electrical connection can arc, creating noise across much of the band:
 
 > **Key Information:** Arcing at a poor electrical connection can cause interference covering a wide range of frequencies. {{< link id="G4C02" >}}
 
-Each tiny spark is an abrupt burst of current, and an abrupt burst carries energy across many frequencies at once, so you hear popping or buzzing rather than a tone. Those sparks do have something useful in common: they arrive as brief pulses with quiet gaps in between, which is exactly what the second tool exploits.
+The rapid change in current during each spark produces a brief pulse of energy spread across many frequencies. A noise blanker reduces the effect of these pulses:
 
 > **Key Information:** A noise blanker works by reducing receiver gain during a noise pulse. {{< link id="G4A03" >}}
 
-A noise blanker watches for sharp impulses and drops the receiver's gain for the instant one arrives, punching the pop out of the audio before restoring normal gain. Ignition systems, sparking power lines, and electric fences all produce this kind of *impulse noise*. Steady noise gives the blanker nothing to work with.
+The receiver returns to normal gain between pulses. This can reduce impulse noise from ignition systems, sparking power lines, or electric fences, but it is not intended for a continuous tone or steady hiss.
 
-A vehicle shows both halves of the problem at once. Ignition noise is the famous one, but it has company:
+Ignition systems are not the only sources of noise in a vehicle:
 
 > **Key Information:** A vehicle's battery charging system, fuel delivery system, and control computers can all cause receive interference to an installed HF transceiver. {{< link id="G4E07" >}}
 
-A modern car is full of switching electronics, so treat those as examples rather than a complete list. Some of it pops, which the blanker handles nicely; some of it is a steady whine that rises and falls with engine speed, which the blanker ignores. Noticing when noise starts or changes as equipment switches on is the quickest way to tell local electrical noise from something arriving on the antenna. Suspected power-line faults are worth reporting to the utility rather than investigating yourself.
+Some of this interference consists of pulses; other sources produce a steady buzz or whine. Changes that follow engine speed or the switching of nearby equipment can help identify the source. Local electrical noise may reach the radio through its antenna, so "local" describes the source, not necessarily how the noise enters. Report suspected power-line faults to the utility rather than inspecting or repairing the hardware yourself.
 
-For steady noise—the whine, the hash, the ever-present hiss—the third tool works differently. A noise reduction control analyzes the incoming audio, tries to sort speech from noise, and suppresses whatever it decides is noise. That sorting is done digitally, which is why the control is often labeled DSP or NR. Light settings can lift a weak voice out of the hiss wonderfully. There is a catch:
+Steadier background noise calls for a different approach. Noise reduction, often labeled **NR**, uses digital processing to reduce noise in the received audio. It attempts to preserve speech while suppressing noise, but stronger processing can also alter the wanted signal:
 
 > **Key Information:** As a receiver's noise reduction control level is increased, received signals may become distorted. {{< link id="G4A07" >}}
 
-Crank it too high and voices turn watery and robotic as the processing starts guessing wrong about what is noise. Start low and work up until the signal sounds clearer, backing off if it starts to sound strange.
-
-Use what helps and turn off what doesn't; every one of these controls changes the audio in some way.
+Start with a low setting and increase it only while the voice becomes easier to understand. Compare with the control off; a quieter background is not an improvement if the words are harder to follow.
 
 #### When RF Gets into Audio Equipment
 
-Those controls act on signals passing through your receiver. Sometimes an unwanted sound arrives by another route entirely: a cable connected to powered speakers picks up RF, and components in the speakers' amplifier detect it, turning some of that RF into sound. The transmitter might be yours or a neighbor's; the audio device was never meant to be a radio receiver.
+Receiver controls cannot correct every sound coming from the station's speakers. RF may enter a separate audio device, such as powered computer speakers, and be unintentionally detected by its amplifier. That creates sound without passing through your receiver's filters. The interfering transmitter may be yours or another nearby station.
 
-What you hear hints at what is being picked up:
+What you hear can help identify the type of transmission:
 
 > **Key Information:**
 > - RF interference from a single sideband phone transmitter can produce distorted speech in an audio device. {{< link id="G4C03" >}}
 > - RF interference from a CW transmitter can produce on-and-off humming or clicking in an audio device. {{< link id="G4C04" >}}
 
-Computer speakers might make broken, speech-like sounds while a nearby operator talks on SSB; with CW, the disturbance follows the carrier switching on and off. This is unintended detection, not the controlled process a receiver uses to recover speech or a clean CW tone—which is why your notch filter can do nothing about RF getting into a separate speaker amplifier.
+The sound follows the transmitter's activity, but the audio circuitry is not properly recovering the signal. Computer speakers may produce broken, speech-like sounds during SSB transmissions or clicks that follow the dots and dashes of CW, rather than the clear audio a radio receiver would produce.
 
-The remedy depends on where the RF gets in. A capacitor offers less reactance at higher frequencies, so a well-chosen bypass capacitor can divert RF away from a susceptible point in an audio circuit while leaving the wanted audio substantially unaffected.
+The solution depends on where the RF enters or is detected. A suitably chosen bypass capacitor can divert RF away from a sensitive point in the audio circuit. Its lower reactance at RF than at audio frequencies allows it to reduce the interference while leaving the wanted audio largely unaffected.
 
 > **Key Information:** A bypass capacitor can be useful in reducing RF interference to audio-frequency circuits. {{< link id="G4C01" >}}
 
-If the RF instead arrives as common-mode current riding on an audio cable, a ferrite choke around that cable adds impedance to the unwanted current without touching the circuit inside the equipment.
+When RF reaches the equipment as common-mode current on an audio cable, a ferrite choke can add impedance to that current without changing the circuit inside the equipment:
 
 > **Key Information:** Placing a ferrite choke on an audio cable can reduce RF interference caused by common-mode current on that cable. {{< link id="G4C08" >}}
 
-Neither is a cure-all: placement matters for a capacitor, a ferrite has to be effective at the interfering frequency, and work inside someone's equipment is a job for someone familiar with it. Finding the path the RF takes beats trying every filter in the drawer.
+Capacitor value and placement matter, and a choke must be effective at the interfering frequency. Leave internal modifications to someone familiar with the circuit and its hazards. Identifying the path of the interference helps you choose a remedy rather than adding filters at random.
 
-#### Understanding What the S-Meter Tells You
+#### Understanding S-Meter Readings
 
-When you start tuning around HF, one of the first things you'll want to know about a station is how strong it is. The S-meter answers that.
+Listening tells you whether a signal is understandable. The S-meter provides a different piece of information: its received strength.
 
 > **Key Information:**
 > - An S meter measures received signal strength. {{< link id="G4D04" >}}
-> - One S unit typically represents 6 dB change in signal strength. {{< link id="G4D06" >}}
+> - One S unit typically represents a 6 dB change in signal strength. {{< link id="G4D06" >}}
 
-The scale runs from S1 (barely detectable) through S9 (strong), then continues as "dB over S9" for the really loud ones—you'll hear reports like "20 over S9." Since 6 dB is roughly a factor of four in power, an S9 signal is about four times as powerful as S8, and sixteen times S7.
+The scale runs from S1 through S9, followed by readings in decibels above S9, such as "20 over S9." With 6 dB per S unit, an S9 signal represents about four times the received power of S8 and sixteen times that of S7.
 
-That compression hides some big numbers:
+Small changes on this scale can therefore represent large changes in power:
 
 > **Key Information:**
-> - A signal that reads 20 dB over S9 is 100 times more powerful than one that reads S9. {{< link id="G4D05" >}}
+> - A signal that reads 20 dB over S9 is 100 times more powerful than one that reads S9, assuming a properly calibrated S meter. {{< link id="G4D05" >}}
 > - Power output must be raised approximately 4 times to change the S meter reading on a distant receiver from S8 to S9. {{< link id="G4D07" >}}
 
-10 dB is a factor of ten in power, so 20 dB is $10 \times 10 = 100$ times. The practical consequence: moving a distant station's meter up a single S-unit takes *four times* your current power—100 watts becomes 400 for one unit! Antenna improvements, which can add 3–6 dB or more, are usually the better investment.
+Each 10 dB increase multiplies power by ten, so 20 dB corresponds to $10 \times 10 = 100$ times the power. Similarly, increasing transmitter output from 100 to 400 watts is approximately a 6 dB change. With other conditions unchanged, that is about one additional S unit at the distant receiver.
 
-S-meters are not precision instruments, though. One radio's S9 might be another's S7. Treat the reading as relative: it's great for comparing two antennas, watching propagation shift, or tracking a signal over time. When someone gives you a "59" they mean "I can hear you fine"; a "52" means "weak but readable." Nobody is measuring to the decibel.
+These comparisons assume a meter that follows the stated calibration. Actual S-meters vary, so readings are most useful for comparing signals on the same receiver with its settings unchanged. They can help you compare antennas or observe fading, but do not assume that different radios will give the same reading for the same signal.
+
+Signal strength is also separate from readability. In a phone report of "52," the 5 means perfectly readable and the 2 means very weak. You may be able to complete a contact without increasing power, even when the signal-strength number is low.
 
 #### Listen First
 
-All of these tools serve one habit that will do more for you than any accessory: listening. You don't have to wait for your General license to start, either—receiving requires no privileges at all. Spend time tuning around now, learning what the bands sound like, how signals fade, and what the noise floor does at different times of day. By the time you're ready to transmit, the bands will already feel familiar.
+Time spent listening helps you recognize how signals fade, how noise changes, and which adjustments improve reception. You can begin before earning your General license by listening to amateur HF signals. Try one control at a time and judge the result by how well you can follow the signal.
 
-Listening is also basic courtesy once you're on the air. Plenty of frustration comes from someone keying up in the five-second gap another operator left while taking a quick drink mid-QSO!
+Listening also helps you avoid interrupting a contact. A pause does not mean that a frequency is clear, especially if you can hear only one side of a conversation. Listen long enough to establish what is happening before transmitting.
 
-Every challenge you've just learned to fight is being fought by the station trying to copy *you*. Transmitting well means making their job as easy as possible, and that's where we go next.
+The operator receiving your transmission faces many of these same problems. Your choice of audio level, bandwidth, and frequency can make their job easier or harder.

@@ -2,7 +2,7 @@
 chapter: "7"
 section: "7.1"
 questions: ["G4A06", "G4B10", "G4B11"]
-status: draft2
+status: draft3
 ---
 
 ### Section 7.1: Station Fundamentals
@@ -57,7 +57,7 @@ An SWR meter is great for keeping an eye on things while you operate, but it has
 
 > **Key Information:** When using an antenna analyzer for SWR measurements, the antenna and feed line must be connected. {{< link id="G4B11" >}}
 
-Analyzers let you test antennas before installation, troubleshoot by measuring at different points in the system, identify damaged feed line, and map antenna performance across entire bands. Measure your antenna on the ground, adjust it to resonance, then install it—which beats making adjustments at the top of a tower. Basic models display SWR, while more advanced models add troubleshooting and visualization tools that make it easier to pinpoint problems. We'll dig deeper into what analyzers can measure later in this chapter.
+Analyzers let you test antennas before installation, troubleshoot by measuring at different points in the system, identify damaged feed line, and plot SWR and impedance across a band. An analyzer can help with early checks, but make the final measurements with the antenna in its intended position. Its height and nearby objects can change the result. Basic models display SWR, while more advanced models add troubleshooting and visualization tools that make it easier to pinpoint problems. We'll dig deeper into what analyzers can measure later in this chapter.
 
 ##### Amplifier
 

@@ -2,82 +2,86 @@
 chapter: "7"
 section: "7.3"
 questions: ["G4D01", "G4D02", "G4D03", "G4D08", "G4D10", "G4D09", "G4D11", "G4A12", "G4A10", "G4A02"]
-status: draft2
+status: draft3
 ---
 
 ### Section 7.3: Transmitting Techniques
 
-Everything you just learned about receiving has a mirror image. When you transmit, the operator on the other end is the one digging your signal out of the noise, and every choice you make—your audio levels, your frequency, your bandwidth—either helps them or makes their job harder. Transmitting well on SSB starts with a fact that surprises many operators coming from FM: *the amount of power you transmit varies with the loudness of your voice.*
+On SSB, your RF output power changes with the audio level reaching the transmitter. An FM transmitter produces nearly constant power while you speak or pause, but an SSB transmitter produces little power during a pause unless the microphone picks up background sound.
 
-On FM, your transmitter puts out constant power whether you are whispering or shouting. On SSB there is no constant carrier—your voice is the signal—so speaking softly produces low output, and pausing produces almost none at all. The power number you set on the radio is the maximum it can reach on voice peaks (its Peak Envelope Power, or PEP), not a steady output level.
+The radio's power setting limits peak envelope power (PEP), not a steady output throughout the transmission. With a 100-watt setting, your voice peaks may reach that level while quieter sounds produce less power. Good audio adjustment makes effective use of the available power without distorting the signal.
 
-#### Getting the Most from Your Voice
+#### Setting Microphone Gain and Processing
 
-Normal speech is a mix of brief loud peaks and many quieter sounds, so its average power stays well below your transmitter's maximum. Shouting doesn't help; too much microphone gain causes distortion and interference on nearby frequencies.
+Normal speech contains brief loud peaks and many quieter sounds, so its average power is well below its peak power. Begin with speech processing off and set microphone gain for a normal speaking voice, following the radio manufacturer's instructions. Shouting or using excessive gain can cause distortion rather than improve readability.
 
-This is the problem a speech processor solves. It compresses the difference between the loud and quiet parts of your voice, raising the average power without increasing the peaks—much like the compressor used on music recordings. Most modern HF transceivers have one built in; look for a control labeled **PROC**, **COMP**, or something similar.
+Once microphone gain is set correctly, a speech processor can make the quieter parts of your voice stronger relative to the peaks. This raises average transmitted power without raising peak power. The control may be labeled **PROC**, **COMP**, or something similar:
 
 > **Key Information:**
 > - The purpose of a speech processor in a transceiver is to increase the apparent loudness of transmitted voice signals. {{< link id="G4D01" >}}
 > - A speech processor increases average power in a single sideband phone signal. {{< link id="G4D02" >}}
 
-To the receiving station, your voice sounds stronger and may be easier to understand through noise. Too much processing, however, can make things worse instead:
+That higher average level can help the receiving operator understand you through noise. Excessive processing can also amplify background sounds or distort your voice:
 
 > **Key Information:** The effects of an incorrectly adjusted speech processor include distorted speech, excess intermodulation products, and excessive background noise. {{< link id="G4D03" >}}
 
-Start with a modest setting and increase it only as needed—enough processing to strengthen your signal without making your voice distorted or unpleasant to hear.
+Start with a modest processing level. The goal is easier-to-understand speech, not the highest possible average-power reading.
 
-#### Staying Inside the Lines
+#### Keeping Your Signal Within the Band
 
-Remember that every signal occupies a range of frequencies, not a single point—its bandwidth. A typical SSB voice signal is about 3 kHz wide, and here is the part that catches many new HF operators: *the frequency on your display marks the edge of your signal, not the center.* Which side of the display frequency your signal occupies depends on the sideband:
+Your signal occupies a range of frequencies, not only the number on the display. In SSB mode, that number normally identifies the suppressed carrier frequency. The voice sideband lies above or below it:
 
-* **LSB (Lower Sideband):** your signal extends *below* the displayed frequency.
-* **USB (Upper Sideband):** your signal extends *above* the displayed frequency.
+* **LSB (Lower Sideband):** The signal extends below the displayed frequency.
+* **USB (Upper Sideband):** The signal extends above the displayed frequency.
 
-This matters most near the edges of a band segment. Your display can show a perfectly legal frequency while part of your signal spills outside the segment—out-of-band transmission, even though the number on the screen looks fine.
+A signal about 3 kHz wide therefore needs about 3 kHz of room on the appropriate side of the displayed frequency. Near a band or license-privilege boundary, a legal display reading does not guarantee that the entire transmission is within your authorized segment.
 
-Suppose you're using LSB near the bottom of a phone segment:
+With LSB near a segment's lower edge, the signal extends downward:
 
 > **Key Information:**
 > - A 3 kHz LSB signal when the displayed carrier frequency is set to 7.178 MHz occupies 7.175 MHz to 7.178 MHz. {{< link id="G4D08" >}}
 > - Your displayed carrier frequency should be at least 3 kHz above the edge of the segment when using 3 kHz wide LSB. {{< link id="G4D10" >}}
 
-The signal occupies everything from the display frequency down to 3 kHz below it, so the display must sit at least 3 kHz above the segment's lower edge to keep the whole signal legal.
+Subtracting 0.003 MHz from 7.178 MHz gives 7.175 MHz, the lower edge of the General phone segment on 40 meters. Setting the display at that lower edge instead would put the sideband below it.
 
-The same logic applies in mirror image with USB near the top of a segment:
+With USB near the upper edge, allow the same room above the displayed frequency:
 
 > **Key Information:**
 > - A 3 kHz USB signal with the displayed carrier frequency set to 14.347 MHz occupies 14.347 MHz to 14.350 MHz. {{< link id="G4D09" >}}
 > - Your displayed carrier frequency should be at least 3 kHz below the edge of the band when using 3 kHz wide USB. {{< link id="G4D11" >}}
 
-Keeping your entire signal inside the band is your responsibility. The same awareness applies between stations: leave enough room that your bandwidth and theirs don't overlap.
+These examples assume a 3 kHz signal. Leave more room if your transmitter is set for a wider bandwidth, and account for nearby stations as well as band edges.
 
 #### Working Split
 
-Most transceivers have two VFOs—**VFO A** and **VFO B**—each holding its own frequency. Normally you transmit and receive on the same one, but you can also receive on one and transmit on the other: *split operation*.
+Many HF transceivers provide **VFO A** and **VFO B**, each with its own frequency setting. Normally you use the same frequency for transmit and receive. In *split operation*, the radio receives using one VFO and transmits using the other:
 
 > **Key Information:** A common use of the dual-VFO feature on a transceiver is to transmit on one frequency and listen on another. {{< link id="G4A12" >}}
 
-One common use for split is managing a crowd. When a station from a rarely heard country or a special event station comes on the air, many operators may call at once—a *pileup*. Taking calls on its own transmit frequency would let the callers cover up the very exchanges everyone needs to hear, so the station might transmit on 14.195 MHz while listening "up 5," near 14.200 MHz—keeping its transmit frequency clear while callers spread out.
+When many operators call the same station at once—a *pileup*—their transmissions can cover up its replies. Split operation lets callers listen on the station's transmit frequency and answer elsewhere.
 
-Split can also bridge different frequency privileges. A foreign station, following its own country's rules, may legally transmit where a US General class operator cannot—but rather than moving and asking everyone calling to follow, it can simply listen nearby where those operators can transmit. Whatever the reason for the split, confirm both frequencies before transmitting—calling on the station's transmit frequency while everyone else listens is a mistake you only want to make once.
+For example, a station using USB on 14.250 MHz may announce "up 5." It is listening 5 kHz higher, so you receive on 14.250 MHz and transmit on 14.255 MHz. Both frequency settings are within US General 20-meter phone privileges.
+
+Split can also allow a contact when operators have different transmit privileges. A station may transmit where you are allowed to listen but not transmit, then listen for your reply within a segment you can use. Before calling, check which VFO controls transmit and confirm that your whole signal will be within your privileges.
 
 #### Morse Code (CW) Operation
 
-Voice isn't the only mode you can operate from the front panel. Morse code—CW—remains popular on HF: it cuts through noise that would sink a voice contact, works well at low power, and uses very little bandwidth.
+CW provides another way to send a readable signal when SSB is difficult to copy. It uses much less bandwidth than voice and can be effective at low power. Instead of transmitting speech, the transmitter switches a carrier on and off to form dots and dashes.
 
-CW (short for Continuous Wave) works by switching a carrier on and off in patterns of dots and dashes that represent letters. The classic instrument is the straight key, a simple spring-loaded switch; many operators now use an electronic keyer with a paddle instead—two levers, one for dots and one for dashes—with the keyer timing each element automatically:
+A straight key lets you control the length and spacing of every element. With a paddle and electronic keyer, you choose dots or dashes and the keyer generates their timing automatically:
 
 > **Key Information:** The function of an electronic keyer is automatic generation of dots and dashes for CW operation. {{< link id="G4A10" >}}
 
-Because CW is just a carrier switching on and off, it sounds the same on either sideband. That gives you a trick voice operators don't have: switching your receiver to the opposite—"reverse"—sideband changes where nearby signals land in your passband, sometimes moving interference away entirely:
+When sending with a paddle, you still form the characters and leave the spaces between letters and words. The keyer keeps the individual elements consistent at the speed you select.
+
+CW reception also offers another way to handle nearby interference. CW remains readable using either receive sideband. The **CW-R** setting selects the opposite sideband, which can change where nearby interfering signals fall in the receiver's passband:
 
 > **Key Information:** One benefit of using the opposite or "reverse" sideband when receiving CW is that it may be possible to reduce or eliminate interference from other signals. {{< link id="G4A02" >}}
 
-#### A Clean Signal Is a Good Neighbor
+#### Avoiding Unwanted Interference
 
-Whichever mode you use, the fundamentals stay the same: keep your equipment working properly and your signal as clean as you can make it. Overdriven audio, splatter, or a signal hanging over a band edge doesn't just hurt your own chances—it makes the band worse for everyone around you, and it may violate FCC rules.
+Good transmitting technique includes both readable modulation and control of unwanted emissions. Overdriven audio can produce splatter on adjacent frequencies, and the bandwidth occupied by your transmission must remain within your authorized band segment.
 
-Even a clean transmission can get into susceptible audio equipment nearby. If your transmissions cause distorted speech or clicking in speakers, recall Section 7.2's distinction between interference entering a receiver and RF entering an audio circuit directly. Check the cause before assuming either that your transmitter is faulty or that the affected equipment needs a receiver filter.
+Interference does not always mean the transmitted signal is faulty. A clean transmission can still be detected by susceptible audio equipment, as described in Section 7.2. If speakers produce distorted speech or clicks during your transmissions, investigate how RF is entering the equipment rather than assuming that a receiver filter will solve the problem.
 
-Sometimes, though, even a clean, well-adjusted 100 watts isn't enough to make the contact. Adding power is a legitimate tool when conditions call for it—if you do it right. That's where we go next.
+More power may help when a clean signal is still too weak at the other station. An amplifier needs its own adjustments and safeguards to increase that power without creating new problems.

@@ -1,60 +1,54 @@
 ---
 chapter: "7"
 section: "7.4"
-status: reviewed1
+status: draft3
 questions: ["G4A05", "G4A09", "G4A04", "G4A08"]
 ---
 
 ### Section 7.4: Power Amplifiers
 
-Many HF transceivers put out around 100 watts, which is enough for most contacts. Sometimes, though, you can hear another station well enough while your signal is not reaching them reliably. Marginal propagation or a compromise antenna can make this more likely. In those situations, an external power amplifier can provide additional transmit power.
-
-An amplifier is not simply another accessory to place in the RF path. It must work together with the transceiver, and using one correctly means understanding drive power, switching, tuning, and the additional safety concerns that come with higher power.
+An external amplifier increases the power of the RF signal from your transceiver. The transceiver still creates the signal, but now its output drives the amplifier rather than feeding the antenna system directly. That changes the required power settings and transmit timing; some amplifiers also need manual tuning.
 
 #### Integrating the Amplifier
 
-An amplifier takes the RF signal from your transceiver and increases its power. It often needs much less drive than the transceiver is capable of producing, so the radio's output must be set appropriately. Too much drive can distort the transmitted signal and may damage the amplifier.
+An amplifier often reaches its rated output with less drive than the transceiver can supply. Set the radio's output according to the amplifier manufacturer's instructions. Too much drive can distort the transmitted signal or damage the amplifier.
 
-If both devices support it, Automatic Level Control (ALC) provides an additional way to limit excessive drive:
+If both devices support a compatible external Automatic Level Control (ALC) connection, the amplifier can signal the transceiver to reduce power:
 
 > **Key Information:** ALC is used with an RF power amplifier to prevent excessive drive. {{< link id="G4A05" >}}
 
-The amplifier's ALC output can signal a compatible transceiver to reduce its output when necessary. ALC should be treated as a safeguard, though—not as a substitute for setting the correct drive level in the first place.
+Treat ALC as a safeguard, not as the normal way to set output power. Set the correct drive first, then configure ALC according to the equipment instructions. Relying on ALC to continually reduce excessive drive can itself introduce distortion.
 
-The amplifier must also be ready before the transceiver begins producing RF. When you transmit, the amplifier needs time to switch its antenna path from receive to transmit. Sending RF before that switching is complete can cause the amplifier to switch while power is already present, which can damage its switching components.
-
-For this reason, the transceiver activates the amplifier's keying line first and delays its RF output briefly:
+The amplifier must also complete its receive-to-transmit switching before RF arrives. The radio therefore activates the amplifier's keying line first, then waits briefly before sending RF. Switching while RF is already present can damage the switching components:
 
 > **Key Information:** The purpose of delaying RF output after activating a transmitter's keying line to an external amplifier is to allow time for the amplifier to switch the antenna between the transceiver and the amplifier output. {{< link id="G4A09" >}}
 
-Some radio and amplifier combinations handle this sequencing automatically. Others require you to connect the keying line and configure an appropriate transmit delay.
+Some radio and amplifier combinations coordinate this timing automatically. Others require a separate keying connection and an appropriate transmit-delay setting. Follow both manufacturers' instructions for the connections and timing.
 
 #### Operating a Tube Amplifier
 
-Modern solid-state amplifiers generally do not require manual tuning. Many tube amplifiers, especially older models, use TUNE and LOAD or COUPLING controls that must be adjusted when changing bands or moving significantly within a band.
+Solid-state amplifiers generally do not require manual output tuning. Many tube amplifiers use TUNE and LOAD or COUPLING controls that need adjustment when changing bands or moving significantly within a band.
 
-The TUNE control adjusts the amplifier's output circuit for resonance. One indication that it has reached the correct setting is a dip in plate current:
+The TUNE control brings the output circuit to resonance. A dip in the plate-current reading indicates the correct setting:
 
 > **Key Information:** The correct setting of a vacuum-tube RF power amplifier's TUNE control produces a pronounced dip in plate current. {{< link id="G4A04" >}}
 
-The LOAD or COUPLING control determines how the amplifier transfers power into the load. It is adjusted for the desired output while keeping the tube within its safe operating limits:
+The LOAD or COUPLING control adjusts the load that the output circuit presents to the tube. Its setting affects both output power and plate current:
 
 > **Key Information:** The correct adjustment for the LOAD or COUPLING control of a vacuum tube RF power amplifier is to achieve the desired power output without exceeding maximum allowable plate current. {{< link id="G4A08" >}}
 
-TUNE and LOAD affect each other, so tuning usually involves moving back and forth between them until both are correct. Always follow the manufacturer's procedure and stay within the amplifier's current, power, and tuning-time limits.
+TUNE and LOAD interact, so adjusting one may require readjusting the other. Follow the manufacturer's tuning procedure and observe its limits on drive, current, output power, and tuning time.
 
 #### Using an Amplifier Well
 
-The efficiency and linearity concepts from Section 2.2 become important when choosing and operating an amplifier. The amplifier must be suitable for the type of signal being transmitted. An amplifier intended only for constant-amplitude modes such as FM may not be linear enough for SSB, where changes in amplitude carry part of the information.
+The linearity concepts from Section 2.2 apply to the entire transmitting system. An amplifier intended only for constant-amplitude modes such as FM may distort SSB, whose changing amplitude carries information. Use equipment intended for the mode, and remember that even a suitable amplifier can distort when overdriven.
 
-Even a suitable amplifier can produce a poor signal if it is overdriven. More indicated power does not necessarily mean a better transmitted signal; pushing an amplifier beyond its intended operating range can create distortion and unwanted emissions.
-
-Higher power also produces more heat. Longer transmissions, especially sustained digital transmissions, give the amplifier less time to cool than intermittent voice operation. Keep airflow unobstructed and respect the manufacturer's duty-cycle limits.
+Average power also matters for cooling. As Section 7.3 explained, voice reaches its peak power only briefly. A sustained digital signal may remain near its set output throughout a transmission, placing a greater heat load on the amplifier than voice at the same peak power. Keep airflow clear and follow the manufacturer's duty-cycle and continuous-output limits; a rating for SSB does not necessarily apply to sustained data transmissions.
 
 #### Operating Safely
 
-Higher RF power means greater voltages and currents throughout the transmitting system. Feed lines, switches, meters, tuners, and other accessories must all be rated for the power being used. High SWR can make RF voltages and currents even greater, and operating an amplifier may require you to reevaluate your station's RF exposure.
+Higher RF output also increases the voltages and currents that the antenna system must handle. Feed lines, switches, meters, tuners, and other accessories after the amplifier must all be rated for the power used. High SWR can create still higher voltage and current peaks, so stay within the equipment's matching limits as well. Check that your station's RF exposure assessment covers the higher power level.
 
-Tube amplifiers introduce another serious hazard: potentially lethal internal voltages. These voltages may remain after the amplifier has been turned off and unplugged. Never remove the cover or attempt internal repairs unless you are trained to do so and follow the manufacturer's safety procedures.
+Tube amplifiers contain potentially lethal internal voltages that can remain after the amplifier is turned off and unplugged. Never remove the cover or attempt internal repairs unless you are trained to do so and follow the manufacturer's safety procedures.
 
-Used properly, an amplifier can provide useful transmit margin when your signal is not quite reaching the other station. More power is not the only way to make a contact, though. Some digital modes use narrow signals and computer processing to communicate successfully at much lower signal levels—and that is where we go next.
+More power is not the only way to make a weak signal usable. Some digital modes can decode signals too weak for a voice contact, but they require careful coordination between the computer and radio.
