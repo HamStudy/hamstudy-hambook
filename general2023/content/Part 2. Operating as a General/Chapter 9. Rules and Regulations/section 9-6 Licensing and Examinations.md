@@ -1,198 +1,107 @@
 ---
 chapter: "9"
 section: "9.6"
-questions: ["G1D01", "G1D02", "G1D03", "G1D04", "G1D06", "G1D07", "G1D08", "G1D09", "G1D10", "G1D11", "G1E02"]
-status: reviewed1
+questions: ["G1D03", "G1D06", "G1D09", "G1D01", "G1D11", "G1D07", "G1D02", "G1D10", "G1D08", "G1D04"]
+status: draft1
 ---
 
 ### Section 9.6: Licensing and Examinations
 
-Remember that nervous feeling when you sat for your General exam? The sweaty palms, the second-guessing, the relief when you passed? Well, congratulations—you're now qualified to inflict that same experience on others.
+Passing an exam, receiving an FCC license grant, and keeping that grant valid are related but separate steps. An existing licensee can sometimes use an upgrade before the FCC database changes. A person applying for a first license cannot use that same provision to begin transmitting immediately.
 
-That's right. As a General class operator, you can join the ranks of Volunteer Examiners and help shepherd new hams into our hobby. But first, let's understand how this whole licensing machine works.
+Understanding the difference helps you know when the privileges in this book become available—and how to keep them available as your interests develop.
 
-#### Welcome Back: Credit for Expired Licenses
+#### Using a Newly Earned Upgrade
 
-Life happens. Maybe someone let their license expire during a military deployment, a family crisis, or just plain forgetfulness. The FCC understands:
+After you pass an examination element, the examining team issues a Certificate of Successful Completion of Examination, or CSCE. For a currently licensed Technician who has completed the General upgrade requirements and properly submitted the application through the VEs, it supports temporary upgraded privileges:
 
-> *Key Information:* *Partial credit for the elements represented by an expired amateur radio license may be given to any person who can demonstrate that they once held an FCC-issued General, Advanced, or Amateur Extra class license that was not revoked by the FCC.* {{< link id="G1D01" >}}
+> **Key Information:** A Technician with an unexpired CSCE for General privileges may operate on General or Technician band segments. {{< link id="G1D03" >}}
 
-![Flowchart showing license credit process](../images/license-credit-process.svg)
+You do not have to wait for the database to display General before using that properly completed upgrade. Keep your CSCE and application records, and check that the FCC record is updated. A first-time applicant, however, must wait for the FCC license grant before transmitting as a control operator.
 
-Note the key words: "not revoked." If the FCC took your license away for bad behavior, no credit for you. But if it simply expired? Welcome back to the family.
+While using the new privileges before the upgrade appears, identification needs an added indicator:
 
-Here's how it works:
-- Held General or higher? You get credit for Element 2 (Technician written)
-- Just need to pass Element 3 to get General privileges back
-- No time limit—expired 20 years ago? Still counts
+> **Key Information:** A Technician using newly earned General privileges must add AG after the callsign until the General upgrade appears in the FCC database. {{< link id="G1D06" >}}
 
-This isn't charity—it's recognition that radio knowledge doesn't completely evaporate. Sure, you might be rusty on the latest digital modes, but you still remember what SWR means.
+For example, W1ABC using the temporary General privileges identifies as “W1ABC slash AG” on voice, or W1ABC/AG in CW or an appropriate text mode. The indicator supplements the assigned callsign; it does not replace it. Once the General upgrade appears in the database, AG is no longer needed for that upgrade.
 
-#### Your New Superpower: Administering Exams
+The certificate also records credit for the passed examination element:
 
-With your shiny General ticket comes a new privilege:
+> **Key Information:** A CSCE is valid for examination-element credit for 365 days. {{< link id="G1D09" >}}
 
-> *Key Information:* *A General class licensee who has been accredited as a Volunteer Examiner may administer Technician examinations only.* {{< link id="G1D02" >}}
+Under the temporary-upgrade provision, the authority lasts until final disposition of the application or 365 days after passing the examination, whichever comes first. That is not an extra year to ignore an application problem. Follow up with the examining team if the application does not progress as expected.
 
-![Chart showing VE privileges by license class](../images/ve-privileges-by-class.svg)
+<!-- Illustration held for review: ../images/csce-privileges.svg. Separate existing-license upgrades from a first license, include AG where applicable, and distinguish temporary authority from element credit. -->
 
-The VE hierarchy is simple:
-- **Technician VEs**: Don't exist (can't examine anyone)
-- **General VEs**: Can administer Technician exams
-- **Extra VEs**: Can administer all exam levels
+#### Keeping a License Current
 
-Why can't you give General exams? Same reason students don't grade their own tests—you need to be at least one level above what you're testing.
+An ordinary amateur license grant has a ten-year term. Renewal is normally filed within the 90 days before expiration. Check the expiration date and your FCC contact information rather than depending on a reminder to reach you.
 
-#### The Magic Paper: Operating with a CSCE
+If the license expires, a two-year renewal grace period allows renewal without retesting, but it does not authorize transmitting while the expired grant awaits renewal. A timely, properly filed renewal submitted before expiration has a separate provision allowing continued operation while the FCC acts on it.
 
-Pass an exam today, but the FCC database won't show your upgrade for days or weeks. Enter the CSCE—your temporary hall pass to expanded privileges:
+After the grace period, the former license cannot be renewed through the ordinary renewal process. Past qualifications may still provide examination credit:
 
-> *Key Information:* *A Technician class operator who has an unexpired Certificate of Successful Completion of Examination (CSCE) for General class privileges may operate on any General or Technician class band segment.* {{< link id="G1D03" >}}
+> **Key Information:** A person who can demonstrate a former FCC-issued General, Advanced, or Amateur Extra license that was not revoked may receive partial credit for the examination elements represented by that license. {{< link id="G1D01" >}}
 
-![Diagram showing CSCE certificate and associated privileges](../images/csce-privileges.svg)
+For a former General or Advanced license beyond the grace period, the credit is for **Element 3**, the General examination. It is not credit for Element 2. The returning applicant therefore takes the current Technician examination to obtain a new General grant:
 
-That piece of paper signed by three VEs is your golden ticket. Guard it like your firstborn—it's your only proof of privileges until the FCC updates their database.
+> **Key Information:** After a General license has expired beyond the two-year grace period, obtaining a new General license requires proof of the appropriate expired grant and passing the current Element 2 examination. {{< link id="G1D11" >}}
 
-But there's a catch. When using CSCE privileges, you need special identification:
+For example, someone whose General license expired many years ago can present acceptable proof to the examining team. Element 3 is credited, and a passing Element 2 result completes the required examination credit for General. Someone with no current license must still wait for the new FCC grant before transmitting as a control operator.
 
-> *Key Information:* *Until an upgrade to General class is shown in the FCC database, a Technician must identify with "AG" after their call sign when operating using General class frequency privileges.* {{< link id="G1D06" >}}
+A former Amateur Extra grant provides credit for Elements 3 and 4. Other historical-license provisions also exist, so contact the examining team before the session to establish what proof and examinations are needed for the particular case. Proof of an old license and a recent CSCE are different sources of credit; the CSCE’s 365-day limit does not make qualifying historical-license credit expire after one year.
 
-So if you're W1ABC with a fresh CSCE, you identify as "W1ABC AG" (AG = Awaiting General). It tells everyone you're legal, just waiting for the paperwork to catch up.
+<!-- Illustration held for review: ../images/license-credit-process.svg. Correct the reversed credit: former General/Advanced beyond grace receives Element 3 credit and takes Element 2. -->
+<!-- Illustration held for review: ../images/license-renewal-process.svg. Show the 90-day ordinary renewal window, two-year grace period without transmit authority, and the new-grant path after grace. -->
 
-How long is that CSCE good for?
+#### How Volunteer Examiners Fit into the Process
 
-> *Key Information:* *A Certificate of Successful Completion of Examination (CSCE) is valid for exam element credit for 365 days.* {{< link id="G1D09" >}}
+The people administering amateur examinations are Volunteer Examiners, or VEs. They work through a Volunteer Examiner Coordinator, or VEC, which coordinates examination sessions and the associated application process:
 
-One full year. If your upgrade hasn't processed in 365 days, something went seriously wrong. Check if you forgot to pay the fee, spelled your name wrong, or accidentally applied for a fishing license instead.
+> **Key Information:** Volunteer Examiners are accredited by a Volunteer Examiner Coordinator. {{< link id="G1D07" >}}
 
-#### The Three-VE Rule
+The FCC issues the license grant; the examining team administers and certifies the examination. A General license alone does not make someone a VE. Accreditation and the other eligibility requirements must be met before serving on a team.
 
-Amateur radio testing isn't a solo act:
+A VE’s license class limits which examinations that person may administer:
 
-> *Key Information:* *At least three Volunteer Examiners of General class or higher must observe the administration of a Technician class license examination.* {{< link id="G1D04" >}}
+> **Key Information:** An accredited VE holding a General class license may administer Technician examinations only. {{< link id="G1D02" >}}
 
-![Diagram showing VE session requirements](../images/ve-session-requirements.svg)
+| VE’s license class | Examinations the VE may administer |
+|---|---|
+| General | Technician |
+| Advanced | Technician and General |
+| Amateur Extra | Technician, General, and Amateur Extra |
 
-Why three? Because two could conspire, but three makes conspiracy complicated. It's the same reason we use three-judge panels—collective oversight prevents individual shenanigans.
+<!-- Illustration held for review: ../images/ve-privileges-by-class.svg. Include Advanced, General, and Extra correctly; accreditation and other eligibility requirements remain separate. -->
 
-All three must:
-- Be present for the entire exam
-- Check the candidate's identification
-- Grade the exam
-- Sign the paperwork
+#### Qualifying and Serving as a VE
 
-No stepping out for coffee while your buddies handle things. You're creating federal licenses here, not running a bake sale.
+Examiners must meet an age requirement:
 
-#### Who's the Boss? VE Accreditation
+> **Key Information:** The minimum age for an accredited Volunteer Examiner is 18. {{< link id="G1D10" >}}
 
-VEs don't just volunteer—they're accredited:
+That minimum applies to examining, not to obtaining an amateur license. Citizenship is a separate matter:
 
-> *Key Information:* *Volunteer Examiners are accredited by a Volunteer Examiner Coordinator.* {{< link id="G1D07" >}}
+> **Key Information:** A non-US citizen seeking VE accreditation must hold an FCC-granted General, Advanced, or Amateur Extra license. {{< link id="G1D08" >}}
 
-VECs are the middlemen between individual VEs and the FCC. Major VECs include:
-- ARRL VEC (the 800-pound gorilla)
-- W5YI VEC 
-- Laurel VEC (famous for free testing)
-- Several others
+The same age, accreditation, and other eligibility requirements apply. A foreign amateur license by itself does not satisfy the FCC-license requirement for this role.
 
-Each VEC has its own procedures, but all must follow FCC rules. It's like different franchises of the same restaurant—the menu might vary, but the health code doesn't.
+Examinations are administered by a team rather than by one examiner acting alone:
 
-#### International VEs Welcome
+> **Key Information:** At least three VEs holding General class or higher licenses must observe the administration of a Technician examination. {{< link id="G1D04" >}}
 
-You don't need to be a US citizen to be a VE:
+Each administering VE must be qualified for the examination being given and accredited by the coordinating VEC. Follow that VEC’s procedures for observation, examination security, grading, records, and certification. The team’s responsibility is to verify the result, not to coach the applicant toward particular answers during the test.
 
-> *Key Information:* *To be an accredited Volunteer Examiner, a non-US citizen must hold an FCC granted amateur radio license of General class or above.* {{< link id="G1D08" >}}
+![A qualified VE team administering an examination](../images/ve-session-requirements.svg)
 
-Makes sense—if you're qualified to use the privileges, you're qualified to test others for them. The FCC cares about your radio knowledge, not your passport.
+A local team or VEC can explain the accreditation process and how to take part. Helping an applicant understand the instructions, arrange an appropriate accommodation, or complete the paperwork can make a session more welcoming without changing the examination standard. Becoming a VE is one possible use of your license, not an obligation that comes with upgrading.
 
-But there is an age requirement:
+#### From Study to Operating
 
-> *Key Information:* *The minimum age that one must be to qualify as an accredited Volunteer Examiner is 18 years.* {{< link id="G1D10" >}}
+This book has connected the behavior of circuits and radio waves to the choices you make at a station: selecting an antenna, recognizing a signal problem, choosing a mode, and conducting a contact within your privileges. You do not need every type of equipment or an interest in every activity to begin using those ideas.
 
-Eighteen—old enough to vote, serve in the military, and apparently, administer federal examinations. It's about legal responsibility as much as maturity.
+As you prepare for the exam, use the linked questions to find topics that still need review. When an answer is unclear, return to the explanation and work through the example rather than relying only on the answer’s wording. After the exam, keep current frequency and operating references available while experience makes the familiar choices easier.
 
-#### The Dreaded Expiration
+Choose an activity that interests you and start with a contact your station can support. Listen, make the needed checks, and give the other operator time to reply. A short exchange is a useful beginning; the next question, adjustment, or conversation gives you somewhere to continue.
 
-Licenses expire. It happens. Here's what it takes to get back on the air:
-
-> *Key Information:* *To obtain a new General class license after a previously held license has expired and the two-year grace period has passed, the applicant must show proof of the appropriate expired license grant and pass the current Element 2 exam.* {{< link id="G1D11" >}}
-
-![Flowchart showing license renewal process](../images/license-renewal-process.svg)
-
-The timeline matters:
-- **Within 10 years**: Renew online, no questions asked
-- **10 years to 12 years (grace period)**: Still renewable, but can't transmit
-- **After 12 years**: Show proof of old license, retake Technician exam
-
-Why make expired licensees retake Element 2? Because regulations change, new bands appear, and old timers might think 2 meters is still just for local ragchewing.
-
-#### Cross-Band Repeater Rules
-
-Here's a quirky scenario that tests the limits of license privileges:
-
-> *Key Information:* *When may a 10-meter repeater retransmit the 2-meter signal from a station that has a Technician class control operator? Only if the 10-meter repeater control operator holds at least a General class license.* {{< link id="G1E02" >}}
-
-![Diagram showing cross-band repeater operation requirements](../images/cross-band-repeater-operation.svg)
-
-This seems weird until you think it through:
-- Technician talks on 2 meters (where they have privileges)
-- Signal goes through a cross-band repeater
-- Comes out on 10 meters (where Technicians have limited privileges)
-- Repeater control op needs General privileges for 10-meter operation
-
-The repeater's control operator must have privileges for all bands the repeater uses. It's their license on the line if something goes wrong.
-
-#### Becoming a VE: Your Path to Give Back
-
-Ready to join the VE ranks? Here's your roadmap:
-
-**Step 1: Choose Your VEC**
-Each has different philosophies:
-- Some charge test fees, some don't
-- Some focus on in-person, others embrace remote testing
-- Some are regional, others national
-
-**Step 2: Study Up**
-It's open book, but you still need to know:
-- Part 97 rules (especially the testing parts)
-- VEC procedures
-- How to spot fake IDs (seriously)
-- Basic session administration
-
-**Step 3: Get Accredited**
-Take the VEC's exam. Yes, another test—but this one's about giving tests, not taking them.
-
-**Step 4: Find Your Team**
-Connect with local VEs. Most teams welcome new blood, especially younger VEs who understand online testing.
-
-#### Why Bother Being a VE?
-
-Beyond the warm fuzzies of helping others:
-
-**You Stay Current**: Nothing keeps you sharp like explaining rules to new hams. You'll know Part 97 better than ever.
-
-**You Shape the Future**: Every new ham you test is someone you helped bring into the hobby. Your encouragement during their test might make the difference.
-
-**You Give Back**: Someone volunteered their Saturday to test you. Time to return the favor.
-
-**You Learn Patience**: Nothing tests your zen like explaining for the 47th time why calculator memories must be cleared.
-
-#### The Modern Testing Landscape
-
-The VE system has evolved dramatically:
-- **Remote Testing**: Pandemic necessity became permanent option
-- **Electronic Filing**: Results to FCC in hours, not weeks  
-- **Diverse Locations**: Libraries, churches, hamfests, even parking lots
-- **Accommodation**: Extra time, large print, readers for those who need them
-
-We've come a long way from driving to the FCC office for a code test.
-
-#### Your Role in Amateur Radio's Future
-
-That General license in your wallet represents more than personal achievement—it's your membership card in a self-regulating community. Whether you become a VE, mentor new operators, or simply operate responsibly, you're part of the system that keeps amateur radio alive.
-
-The FCC trusts us to test ourselves, police ourselves, and teach ourselves. That trust, earned over decades, is what makes our service unique. Every properly administered exam, every accurately completed form, every patient explanation to a nervous candidate maintains that trust.
-
-Your General journey continues. Maybe Extra class is next. Maybe you'll become the VE team leader everyone depends on. Maybe you'll be the one who encourages a nervous teenager through their first exam.
-
-Whatever path you choose, remember: regulations aren't the destination—they're the framework that lets millions of hams worldwide say those magic words: "CQ, CQ, CQ..."
+<!-- Editorial sources, checked 2026-09-26: 47 CFR 97.5, 97.9(b), 97.21, 97.25, 97.119(f), 97.505, 97.509, 97.511, 97.519, and 1.949; current questions G1D01–G1D04 and G1D06–G1D11. Full URLs are in chapter9-revision-notes.md. -->
