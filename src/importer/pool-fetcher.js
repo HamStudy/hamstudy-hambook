@@ -31,6 +31,16 @@ function poolIdToLocalPath(poolId) {
     return path.join(__dirname, '../../', `${dirPrefix}${year}`, filename);
 }
 
+// Always fetches the pool from the HamStudy API; never uses cache or local files.
+async function fetchPoolRemote(poolId) {
+    const url = `${HAMSTUDY_API}/${encodeURIComponent(poolId)}`;
+    const response = await fetch(url, { signal: AbortSignal.timeout(15000) });
+    if (!response.ok) {
+        throw new Error(`Failed to fetch pool ${poolId}: ${response.status} ${response.statusText}`);
+    }
+    return response.json();
+}
+
 async function fetchPool(poolId) {
     await ensureCacheDir();
     
@@ -52,15 +62,9 @@ async function fetchPool(poolId) {
         }
     }
     
-    const url = `${HAMSTUDY_API}/${poolId}`;
-    console.log(`Fetching pool ${poolId} from ${url}...`);
+    console.log(`Fetching pool ${poolId} from ${HAMSTUDY_API}/${poolId}...`);
     
-    const response = await fetch(url);
-    if (!response.ok) {
-        throw new Error(`Failed to fetch pool ${poolId}: ${response.status} ${response.statusText}`);
-    }
-    
-    const pool = await response.json();
+    const pool = await fetchPoolRemote(poolId);
     
     await fs.writeFile(cachePath, JSON.stringify(pool, null, 2));
     console.log(`Cached pool ${poolId} to ${cachePath}`);
@@ -88,6 +92,7 @@ function buildQuestionMap(pool) {
 
 module.exports = {
     fetchPool,
+    fetchPoolRemote,
     buildQuestionMap,
     CACHE_DIR
 };

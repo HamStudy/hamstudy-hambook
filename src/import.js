@@ -4,7 +4,8 @@ const yargs = require('yargs');
 const chokidar = require('chokidar');
 const _ = require('lodash');
 
-const { loadBook: loadBookUnchecked, loadMultilingualBook: loadMultilingualBookUnchecked } = require('./importer/parser');
+const { loadBook: loadBookUnchecked, loadMultilingualBook: loadMultilingualBookUnchecked, parseMarkdownFile } = require('./importer/parser');
+const { fetchPoolRemote } = require('./importer/pool-fetcher');
 const { writeSingleFileMarkdown } = require('./importer/outputs/single-file');
 const { writeSingleDirectoryBook } = require('./importer/outputs/single-directory');
 const { writeAudiobookDirectoryBook } = require('./importer/outputs/audiobook-directory');
@@ -33,6 +34,66 @@ async function loadAndCheckMultilingualBook(rootDir) {
         sanityCheckBook(books.default);
     }
     return books;
+}
+
+async function readPoolId(contentDir) {
+    const indexPath = path.join(contentDir, 'index.md');
+    const exists = await fs.access(indexPath).then(() => true, () => false);
+    if (!exists) return null;
+    const { frontMatter } = await parseMarkdownFile(indexPath, contentDir);
+    const poolId = frontMatter?.poolid;
+    return typeof poolId === 'string' && poolId.trim() ? poolId.trim() : null;
+}
+
+async function syncPoolFile(poolId, poolPath) {
+    let remotePool;
+    try {
+        remotePool = await fetchPoolRemote(poolId);
+    } catch (error) {
+        const existing = await fs.readFile(poolPath, 'utf8').catch(() => null);
+        if (existing === null) {
+            throw new Error(`Could not fetch pool ${poolId} and no local pool file exists at ${poolPath}: ${error.message}`);
+        }
+        console.warn(`WARNING: could not refresh pool ${poolId} (${error.message}); keeping existing ${poolPath}`);
+        return;
+    }
+
+    const existing = await fs.readFile(poolPath, 'utf8').catch(() => null);
+    if (existing !== null) {
+        try {
+            if (_.isEqual(JSON.parse(existing), remotePool)) {
+                console.log(`Pool ${poolId} is up to date (${poolPath})`);
+                return;
+            }
+        } catch (error) {
+            console.warn(`WARNING: could not parse existing ${poolPath} (${error.message}); rewriting it`);
+        }
+    }
+
+    const indentMatch = existing !== null ? /\n([ \t]+)\S/.exec(existing) : null;
+    const indent = indentMatch ? indentMatch[1] : '  ';
+    const trailingNewline = existing === null || existing.endsWith('\n');
+    await fs.writeFile(poolPath, JSON.stringify(remotePool, null, indent) + (trailingNewline ? '\n' : ''));
+    console.log(`Updated ${poolPath} from pool ${poolId}`);
+}
+
+// Refreshes each book's pool files from the HamStudy API before the book is
+// loaded, based on the `poolid` frontmatter of each content root index.md
+// (content/index.md -> pool.json, content.es/index.md -> pool.es.json, ...).
+async function syncQuestionPools(rootDir) {
+    const dirEntries = await fs.readdir(rootDir, { withFileTypes: true });
+    const contentDirs = dirEntries
+        .filter(e => e.isDirectory() && /^content(\.[a-z]{2})?$/.test(e.name))
+        .map(e => e.name)
+        .sort((a, b) => (a === 'content' ? -1 : b === 'content' ? 1 : a.localeCompare(b)));
+
+    for (const dirName of contentDirs) {
+        const lang = dirName === 'content' ? null : dirName.slice('content.'.length);
+        const poolId = await readPoolId(path.join(rootDir, dirName));
+        if (!poolId) continue;
+        const poolFile = lang ? `pool.${lang}.json` : 'pool.json';
+        await syncPoolFile(poolId, path.join(rootDir, poolFile));
+    }
 }
 
 async function processBook(book, outputFormat, outputPath, sourcePath, isMultilingual = false, lang = undefined) {
@@ -179,6 +240,8 @@ function watchAndProcess(rootDir, outputFormat, outputPath) {
             throw new Error('Please provide the root directory as a command line argument.');
         }
 
+        await syncQuestionPools(rootDir);
+
         let book, isMultilingual = false;
 
         const requestedLang = argv.lang;
@@ -235,7 +298,9 @@ function watchAndProcess(rootDir, outputFormat, outputPath) {
         }
     } catch (error) {
         console.error('Error:', error);
+        process.exitCode = 1;
     }
 })().catch(error => {
     console.error('Error:', error);
+    process.exitCode = 1;
 });
