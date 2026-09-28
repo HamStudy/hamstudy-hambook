@@ -3,6 +3,7 @@ title: Technician Class HamBook
 subtitle: 2026-2030
 author: HamStudy.org, Richard Bateman
 cover: images/audiobook.png
+poolid: E2_2026
 epub: false
 print: false
 m4bProfiles:

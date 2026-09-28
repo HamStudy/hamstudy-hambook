@@ -1,5 +1,6 @@
 ---
 title: Manual HamBook de Clase Technician
+poolid: E2_2026_es
 epub: false
 print: false
 ---

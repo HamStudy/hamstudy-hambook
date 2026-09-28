@@ -48,6 +48,19 @@ If you do not renew your license before the end of that grace period you will lo
 
 If you were once licensed and had a General or Amateur Extra class license you can regain your previous privileges after just passing the Technician class license exam — talk with your VE team for more information!
 
+## Your FCC Registration Number
+
+Before registering for an exam, you'll need an **FCC Registration Number (FRN)**. This free, 10-digit number identifies you in the FCC's records. The exam team uses it on your license application. It is separate from your callsign.
+
+If you already have an FRN, reuse it. Most who are studying for their amateur radio license will not have one yet, but you may have one already if you already hold an individual FCC license of another type, such as a GMRS license in your own name. Use an individual FRN registered in your own name, not a business FRN. Each applicant needs their own FRN, including family members.
+
+To get an FRN, use the [FCC's Commission Registration System (CORES)](https://apps.fcc.gov/cores/):
+
+1. Create an FCC username account using your email address, then follow the email verification instructions.
+2. Sign in to CORES and choose **Register New FRN**. Register as an individual, select **CORES FRN Registration**, and complete the form with your identifying and contact information.
+3. Save the FRN shown on the confirmation page and provide it when you register for your exam.
+
+
 ## Finding Exam Sessions
 
 There are several ways to find local exam sessions:

@@ -20,7 +20,7 @@
   "appears": "2026-02-01T06:00:00.000Z",
   "class": "Technician",
   "official_name": "Element 2",
-  "subtext": "2026 - 2030",
+  "subtext": "2026 – 2030",
   "tagline": "The first and most basic Ham Radio license. Beginners start here!",
   "mat_icon": "description",
   "valid_from": "2026-07-01T00:00:00.000Z",
@@ -430,7 +430,7 @@
               "id": "T1C01",
               "fccpart": "97.9(a), 97.17(a)",
               "answer": "D",
-              "text": "Which amateur license classes are currently issued by the FCC?",
+              "text": "For which classes of amateur radio licenses does the FCC currently issue new licenses?",
               "answers": {
                 "A": "Novice, Technician, General, Amateur Extra",
                 "B": "Technician, Technician Plus, General, Amateur Extra",
@@ -801,7 +801,7 @@
                 "station"
               ],
               "id": "T1D12",
-              "fccpart": "97.119(a)",
+              "fccpart": "",
               "answer": "A",
               "text": "Which of the following is required when making on-the-air test transmissions?",
               "answers": {
@@ -1256,7 +1256,7 @@
               "answers": {
                 "A": "Sign your call sign once, followed by the words “listening for a call;” if there is no answer, change the frequency and repeat",
                 "B": "Say “QTC,” followed by “this is” and your call sign; if there is no answer, change the frequency and repeat",
-                "C": "Transmit an unmodulated carried for approximately 10 seconds, followed by “this is” and your call sign, and pause to listen; repeat as necessary",
+                "C": "Transmit an unmodulated carrier for approximately 10 seconds, followed by “this is” and your call sign, and pause to listen; repeat as necessary",
                 "D": "Repeat “CQ” a few times, followed by “this is,” and your call sign, then pause to listen; repeat as necessary"
               }
             },
@@ -2839,7 +2839,7 @@
               "id": "T5A05",
               "fccpart": "",
               "answer": "A",
-              "text": "What is the electrical term for the force that causes electron flow?",
+              "text": "A difference in which of the following causes electron flow?",
               "answers": {
                 "A": "Voltage",
                 "B": "Ampere-hours",
@@ -3653,13 +3653,13 @@
               "fccpart": "",
               "answer": "A",
               "text": "What type of switch is represented by component 3 in figure T-2?",
-              "image": "T2.png",
               "answers": {
                 "A": "Single-pole single-throw",
                 "B": "Single-pole double-throw",
                 "C": "Double-pole single-throw",
                 "D": "Double-pole double-throw"
-              }
+              },
+              "image": "T2.png"
             },
             {
               "keywords": [
@@ -3913,13 +3913,13 @@
               "fccpart": "",
               "answer": "A",
               "text": "What is component 1 in figure T-1?",
-              "image": "T1.png",
               "answers": {
                 "A": "Resistor",
                 "B": "Transistor",
                 "C": "Battery",
                 "D": "Connector"
-              }
+              },
+              "image": "T1.png"
             },
             {
               "keywords": [
@@ -3929,13 +3929,13 @@
               "fccpart": "",
               "answer": "B",
               "text": "What is component 2 in figure T-1?",
-              "image": "T1.png",
               "answers": {
                 "A": "Resistor",
                 "B": "Transistor",
                 "C": "Indicator lamp",
                 "D": "Connector"
-              }
+              },
+              "image": "T1.png"
             },
             {
               "keywords": [
@@ -3945,13 +3945,13 @@
               "fccpart": "",
               "answer": "C",
               "text": "What is component 3 in figure T-1?",
-              "image": "T1.png",
               "answers": {
                 "A": "Resistor",
                 "B": "Transistor",
                 "C": "Lamp",
                 "D": "Ground symbol"
-              }
+              },
+              "image": "T1.png"
             },
             {
               "keywords": [
@@ -3961,13 +3961,13 @@
               "fccpart": "",
               "answer": "D",
               "text": "What is component 4 in figure T-1?",
-              "image": "T1.png",
               "answers": {
                 "A": "Resistor",
                 "B": "Transistor",
                 "C": "Ground symbol",
                 "D": "Battery"
-              }
+              },
+              "image": "T1.png"
             },
             {
               "keywords": [
@@ -3977,13 +3977,13 @@
               "fccpart": "",
               "answer": "B",
               "text": "What is component 6 in figure T-2?",
-              "image": "T2.png",
               "answers": {
                 "A": "Resistor",
                 "B": "Capacitor",
                 "C": "Regulator IC",
                 "D": "Transistor"
-              }
+              },
+              "image": "T2.png"
             },
             {
               "keywords": [
@@ -3995,13 +3995,13 @@
               "fccpart": "",
               "answer": "D",
               "text": "What is component 8 in figure T-2?",
-              "image": "T2.png",
               "answers": {
                 "A": "Resistor",
                 "B": "Inductor",
                 "C": "Regulator IC",
                 "D": "Light emitting diode"
-              }
+              },
+              "image": "T2.png"
             },
             {
               "keywords": [
@@ -4011,13 +4011,13 @@
               "fccpart": "",
               "answer": "C",
               "text": "What is component 9 in figure T-2?",
-              "image": "T2.png",
               "answers": {
                 "A": "Variable capacitor",
                 "B": "Variable inductor",
                 "C": "Variable resistor",
                 "D": "Variable transformer"
-              }
+              },
+              "image": "T2.png"
             },
             {
               "keywords": [
@@ -4027,13 +4027,13 @@
               "fccpart": "",
               "answer": "D",
               "text": "What is component 4 in figure T-2?",
-              "image": "T2.png",
               "answers": {
                 "A": "Variable inductor",
                 "B": "Double-pole switch",
                 "C": "Potentiometer",
                 "D": "Transformer"
-              }
+              },
+              "image": "T2.png"
             },
             {
               "keywords": [
@@ -4043,13 +4043,13 @@
               "fccpart": "",
               "answer": "D",
               "text": "What is component 3 in figure T-3?",
-              "image": "T3.png",
               "answers": {
                 "A": "Connector",
                 "B": "Meter",
                 "C": "Variable capacitor",
                 "D": "Variable inductor"
-              }
+              },
+              "image": "T3.png"
             },
             {
               "keywords": [
@@ -4059,13 +4059,13 @@
               "fccpart": "",
               "answer": "A",
               "text": "What is component 4 in figure T-3?",
-              "image": "T3.png",
               "answers": {
                 "A": "Antenna",
                 "B": "Transmitter",
                 "C": "Dummy load",
                 "D": "Ground"
-              }
+              },
+              "image": "T3.png"
             },
             {
               "keywords": [
@@ -4236,13 +4236,13 @@
               "fccpart": "",
               "answer": "C",
               "text": "What is the function of component 2 in figure T-1?",
-              "image": "T1.png",
               "answers": {
                 "A": "Give off light when current flows through it",
                 "B": "Supply electrical energy",
                 "C": "Control the flow of current",
                 "D": "Convert electrical energy into radio waves"
-              }
+              },
+              "image": "T1.png"
             },
             {
               "keywords": [
@@ -4405,7 +4405,7 @@
               "id": "T7A09",
               "fccpart": "",
               "answer": "B",
-              "text": "What is the function of the switch which selects either SSB or CW-FM on a VHF power amplifier?",
+              "text": "What is the function of the switch which selects either SSB or CW-FM on some VHF power amplifiers?",
               "answers": {
                 "A": "Change the mode of the transmitted signal",
                 "B": "Set the amplifier for proper operation in the selected mode",
@@ -6359,7 +6359,7 @@
               "id": "T0A10",
               "fccpart": "",
               "answer": "A",
-              "text": "What hazard occurs when rapidly charging or discharging an unprotected battery?",
+              "text": "What hazard exists when rapidly charging or discharging an unprotected battery?",
               "answers": {
                 "A": "Overheating or out-gassing",
                 "B": "Excess output ripple",
@@ -6808,6 +6808,6 @@
   ],
   "slug": "tech2026",
   "year": "2026",
-  "updated": "2025-12-18T19:47:49.320Z",
-  "__v": 0
+  "updated": "2026-07-22T16:13:53.987Z",
+  "__v": 5
 }
