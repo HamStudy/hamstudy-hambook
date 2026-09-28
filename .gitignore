@@ -1,5 +1,6 @@
 .DS_Store
 .agents/
+.omo/
 node_modules
 book.md
 hugo-root/public
