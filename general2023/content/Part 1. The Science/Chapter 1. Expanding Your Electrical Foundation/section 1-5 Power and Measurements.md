@@ -7,7 +7,7 @@ status: draft1
 
 ### Section 1.5: Power and Measurements
 
-Having explored how impedance matching ensures efficient power transfer between components, we now need to understand how to measure and quantify this power. In radio systems, we need precise ways to express power levels, signal strengths, and the relationships between voltage, current, and impedance across different frequencies.
+Having explored how impedance matching helps transfer power between components, we now need to understand how to measure and quantify this power. In radio systems, we need precise ways to express power levels, signal strengths, and the relationships between voltage, current, and impedance across different frequencies.
 
 #### Power Fundamentals
 
@@ -45,7 +45,7 @@ P &= I \times E = 0.5A \times 400V = 200W
 
 #### AC Power and RMS Measurements
 
-When dealing with alternating current, our power equations face a challenge: the voltage and current constantly change. If we simply used the average voltage in our calculations, we'd get zero since AC swings equally positive and negative. So how do we apply Ohm's Law and power formulas to AC circuits?
+When dealing with alternating current, our power equations face a challenge: the voltage and current constantly change. For a sine wave centered on zero, the average voltage is zero because its positive and negative halves cancel. So how do we apply Ohm's Law and power formulas to AC circuits?
 
 The answer is Root Mean Square (RMS) values. RMS is a special mathematical method that gives us an effective value for AC that works in our DC-based equations:
 
@@ -71,13 +71,16 @@ Conversely:
 We can also calculate RMS voltage from power measurements:
 - With 1200 watts dissipated across 50 ohms: {{< link id="G5B12" >}} $E_{RMS} = \sqrt{P \times R} = \sqrt{1200W \times 50\Omega} = \sqrt{60000} = 245V$
 
-The following table shows the relationships between different AC voltage measurements:
+The following table shows the relationships between voltage measurements for a **sine wave**:
 
 | Measure        | Relationship to RMS |
 |:-------------:|:--------------------:|
 | RMS           | $E_{RMS}$  (reference) |
 | Peak          | $$\begin{align*} E_{peak} &= E_{RMS} \times \sqrt{2} \\ &\approx E_{RMS} \times 1.414 \end{align*}$$ |
 | Peak-to-Peak  | $$\begin{align*} E_{p-p} &= 2 \times E_{peak} \\ &= 2 \times E_{RMS} \times \sqrt{2} \\ &\approx E_{RMS} \times 2.828 \end{align*}$$ |
+
+![Sine-wave voltage levels and the slower envelope of a changing RF signal](../../../images/s1-5-power-waveforms.svg)
+{caption="Peak, peak-to-peak and RMS describe sine-wave voltage. PEP uses the RF-cycle average power at the crest of the slower modulation envelope."}
 
 #### RF Power Measurements: PEP
 
@@ -105,11 +108,11 @@ For example:
 
 Radio science frequently uses decibels (dB) because they simplify how we express large changes in power. Instead of saying a signal is "100 times stronger," we can say it's "20 dB stronger." This makes calculations easier and allows us to add gains and losses instead of multiplying and dividing.
 
-> **Key Information:** A change of approximately 3 dB represents a factor of two increase or decrease in power. {{< link id="G5B01" >}}
+> **Key Information:** An increase of about 3 dB doubles power; a decrease of about 3 dB halves power. {{< link id="G5B01" >}}
 
 > **Key Information:** A loss of 1 dB represents a power loss of approximately 20.6 percent. {{< link id="G5B10" >}}
 
-Positive dB values represent power increases, while negative dB values represent decreases. Here are the most useful dB values to remember:
+Positive dB values represent power increases, while negative dB values represent decreases. Here are useful approximate power ratios to remember:
 
 | dB | Power Ratio | Description |
 |:--:|:-----------:|:-----------:|
@@ -123,7 +126,7 @@ Positive dB values represent power increases, while negative dB values represent
 | 20 dB | 100 | 100x power |
 | 30 dB | 1000 | 1000x power |
 
-**Note:** For power decreases (negative dB), use the reciprocal ($1 \over x$) of the ratio. To calculate percentage loss you'd use $(1 - \frac{1}{\text{Power Ratio}})$ For example:
+**Note:** For a power decrease, take the reciprocal of the corresponding **positive-dB** ratio. For a 3 dB loss, start with the +3 dB ratio of 2: half the power remains. If that positive-dB ratio is $r$, the fraction lost is $1-1/r$; multiply by 100 to express the loss as a percentage. For example:
 * -3 dB: $(1 - \frac{1}{2}) = (1 - 0.5) = 0.5 = 50\%$
 * -1 dB: $(1 - \frac{1}{1.26}) \approx (1 - 0.794) \approx 0.206 = 20.6\%$
 
@@ -135,8 +138,10 @@ The decibel's flexibility makes it ideal for several specialized radio measureme
 > **Key Information:** Antenna gain expressed in dBi is 2.15 dB higher than the same gain expressed in dBd. {{< link id="G9C04" >}}
 
 Two common reference points for antenna gain are:
-- **dBi**: Gain compared to an isotropic radiator (theoretical point source)
-- **dBd**: Gain compared to a half-wave dipole
+- **dBi**: Gain compared to an isotropic radiator, an ideal source that radiates equally in every direction
+- **dBd**: Gain compared to a half-wave dipole in free space
+
+That reference dipole has about 2.15 dBi gain. An antenna rated at 6 dBd therefore has the same gain when described as 8.15 dBi. The antenna has not changed—only the reference has.
 
 ##### Accounting for Losses
 

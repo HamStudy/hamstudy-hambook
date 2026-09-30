@@ -14,20 +14,20 @@ These two arrangements determine how every circuit behaves. Parallel capacitors 
 #### Understanding Current and Voltage in Series and Parallel Circuits
 
 {{< captioned caption="Figure 1 – Series and Parallel Circuit Diagrams" >}}
-![figure: Series circuit on the left, parallel circuit on the right. Both show three resistors R1, R2, R3. The series circuit has a single I_total arrow, the parallel circuit has I_total and individual I_1, I_2, and I_3 arrows.](../../../images/s1-1-parallel-series.svg)
+![Series circuit on the left: the same current, I_total, flows through R1, R2, and R3 in one path. Parallel circuit on the right: the battery current splits into branch currents I_1, I_2, and I_3, then recombines; the branch currents add up to I_total. Each parallel branch has the full battery voltage across it. Arrows indicate conventional current leaving the positive battery terminal.](../../../images/s1-1-parallel-series.svg)
 {{< /captioned >}}
 
 We can visualize electricity like water flowing through pipes. Let's take a look:
 
 ##### Series Circuits:
 
-In series circuits, imagine garden hoses connected end-to-end: every drop must flow through each section in sequence. Every bit of current that goes in one end has to pass through every part of the hose (circuit), so current stays the same everywhere. The pressure (voltage) will be the highest at the source, decreasing slightly as it travels through the hose and dropping more abruptly at each connection or joint.
+In series circuits, imagine garden hoses connected end-to-end: every drop must flow through each section in sequence. Every bit of current that goes in one end has to pass through every part of the hose (circuit), so current stays the same everywhere. The pressure (voltage) drops across restrictions in the path. In our circuit, the resistors provide those restrictions. We treat the wires and connections as having negligible resistance, so almost all the voltage drop is across the resistors.
 
 * **One Path:** Components connected end-to-end in a single loop—current must flow through each in turn.
 * **Same Current Everywhere:** Like our garden hose example, the same current flows through every component.
 * **Voltage Divides:** Total voltage splits among components. Each creates a voltage drop; all drops sum to source voltage.
 * **Ohm's Law:** Since current is constant, voltage drop depends on resistance: $E = I \times R$. Higher resistance = larger voltage drop.
-* **Failure Modes:** Open component (burned bulb) = circuit dead. Shorted component = bypassed, more current flows through remaining parts.
+* **Failure Modes:** Open component (burned bulb) = circuit dead. Shorted component = bypassed; with the same source voltage, more current flows through the remaining resistors.
 
 ##### Parallel Circuits:
 
@@ -41,7 +41,7 @@ With a parallel circuit it's more like your home's plumbing, where the main line
 > **Key Information:** In a circuit of parallel resistors, the total current equals the sum of the currents through each branch. {{< link id="G5B02" >}}
 
 * **Ohm's Law:** Since voltage is constant, current through each branch depends on its resistance: $I = \frac{E}{R}$. Lower resistance = more current.
-* **Independent Operation:** One branch fails, others continue—like your home outlets working independently.
+* **Independent Operation:** One branch opens, others continue—like your home outlets working independently. A shorted branch is different: it can overload the shared supply or trip its protection.
 
 #### How Different Components Combine
 
@@ -69,13 +69,11 @@ $$ R_\text{total} = R_1 + R_2 + R_3 + \ldots $$
 Think of it like adding garden hose sections—more length means more resistance.
 
 ##### **Resistors in Parallel (Reciprocal Method):**
-When resistors provide multiple paths for current, the calculation is:
-
-For just two resistors, we can simplify to:
+When resistors provide multiple paths for current, use the reciprocal rule from the table above. For just two resistors, we can simplify to:
 
 $$R_{\text{total}} = \frac{R_1 \cdot R_2}{R_1 + R_2}$$
 
-Let's look at some problem you could encounter on your exam:
+Let's look at some problems you could encounter on your exam:
 
 What is the total resistance of a 10-ohm, a 20-ohm, and a 50-ohm resistor connected in parallel? {{< link id="G5C03" >}}
 
@@ -101,7 +99,7 @@ R_{\text{total}} &= \frac{R_1 \cdot R_2}{R_1 + R_2} \\[1.25em]
 
 #### Capacitors in Combination
 
-Remember, a capacitor is just two conductors (usually metal plates) separated by an insulator (the dielectric). The capacitance depends on plate area—bigger plates can store more charge. When you connect capacitors in parallel, you're essentially combining their plate areas into one larger capacitor. In series, you're increasing the separation between the outermost plates. This physical reality explains why capacitors combine opposite to resistors—it's all about that plate area!
+Remember, a capacitor is just two conductors (usually metal plates) separated by an insulator (the dielectric). The capacitance depends on plate area—bigger plates can store more charge. When you connect capacitors in parallel, you're essentially combining their plate areas into one larger capacitor. In series, each capacitor stores the same amount of charge, but their voltage drops add. More total voltage is needed to store that charge, so the combined capacitance is lower. That explains why capacitors combine opposite to resistors.
 
 > **Key Information:** To increase the total capacitance in a circuit, add a capacitor in parallel. {{< link id="G5C13" >}}
 
@@ -121,7 +119,7 @@ For two capacitors, we can simplify to:
 
 $$C_{\text{total}} = \frac{C_1 \cdot C_2}{C_1 + C_2}$$
 
-Series capacitors are like increasing the distance between plates—that's why total capacitance goes down.
+The result is less than the smallest individual capacitance—another useful way to check your work.
 
 What is the equivalent capacitance of two 5.0-nanofarad capacitors and one 750-picofarad capacitor connected in parallel? {{< link id="G5C08" >}}
 
@@ -138,7 +136,7 @@ $$\begin{align*}
 \frac{1}{C_{\text{total}}} &= \frac{1}{100} + \frac{1}{100} + \frac{1}{100} \\[1.25em]
 &= \frac{3}{100} \\[1.25em]
 C_{\text{total}} &= \frac{100}{3}\\[1.25em]
-&\approx 33.33 \text{ μF}
+&\approx 33.33 \,\mu\mathrm{F}
 \end{align*}$$
 
 Another common example:
@@ -149,7 +147,7 @@ $$\begin{align*}
 C_{\text{total}} &= \frac{C_1 \cdot C_2}{C_1 + C_2} \\[1.25em]
 &= \frac{20 \cdot 50}{20 + 50} \\[1.25em]
 &= \frac{1000}{70} \\[1.25em]
-&= 14.3 \text{ μF}
+&= 14.3 \,\mu\mathrm{F}
 \end{align*}$$
 
 #### Inductors in Combination
@@ -190,12 +188,12 @@ L_{\text{total}} &= \frac{10}{3} = 3.33 \text{ mH} \approx 3.3 \text{ mH}
 These calculations aren't just exam prep—they're tools that help you understand what your equipment is doing. Here are a few examples of where you'll see these principles in action:
 
 1. **Resonant Circuits**: Variable capacitors parallel with inductors tune to specific frequencies
-2. **Impedance Matching**: Antenna tuners combine series L and parallel C to match 50Ω
-3. **Filtering**: Low-pass filters use series L (blocks highs) and parallel C (bypasses highs)
-4. **Power Distribution**: Series divides power by resistance ($P = I^2R$); parallel draws independently ($P = E^2/R$)
+2. **Impedance Matching**: Antenna tuners can combine inductors and capacitors in series and parallel arrangements to present a 50Ω load to the transmitter
+3. **Filtering**: One low-pass filter design uses series L to oppose higher frequencies and parallel C to bypass them
+4. **Power Distribution**: For resistive DC loads, series resistors share current ($P = I^2R$); parallel resistors share voltage ($P = E^2/R$)
 
 #### Your Foundation Is Set
 
 You've built a solid foundation! Series and parallel combinations are the backbone of every circuit you'll encounter. You can predict how current divides in parallel branches and how voltage divides across series components. You know why parallel resistors always give you less resistance than the smallest one in the group.
 
-But here's the plot twist: we've been assuming your components have fixed values. In reality, when we add alternating current and changing frequencies, capacitors and inductors transform. They develop a special kind of opposition that changes with frequency—opening new possibilities for filtering, tuning, and matching. Let's unlock these frequency-dependent superpowers!
+But here's the plot twist: even when capacitance and inductance stay the same, their opposition to current changes with AC frequency. This special kind of opposition opens new possibilities for filtering, tuning, and matching. Let's unlock these frequency-dependent superpowers!
