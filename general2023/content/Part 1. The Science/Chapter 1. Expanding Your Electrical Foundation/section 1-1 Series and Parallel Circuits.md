@@ -15,6 +15,7 @@ These two arrangements determine how every circuit behaves. Parallel capacitors 
 
 {{< captioned caption="Figure 1 – Series and Parallel Circuit Diagrams" >}}
 ![Series circuit on the left: the same current, I_total, flows through R1, R2, and R3 in one path. Parallel circuit on the right: the battery current splits into branch currents I_1, I_2, and I_3, then recombines; the branch currents add up to I_total. Each parallel branch has the full battery voltage across it. Arrows indicate conventional current leaving the positive battery terminal.](../../../images/s1-1-parallel-series.svg)
+{.img-full .img-centered}
 {{< /captioned >}}
 
 We can visualize electricity like water flowing through pipes. Let's take a look:
@@ -166,7 +167,7 @@ For inductors in parallel (assuming no magnetic coupling), we use:
 
 $$\frac{1}{L_{total}} = \frac{1}{L_1} + \frac{1}{L_2} + \frac{1}{L_3} + \ldots$$
 
-Note: These formulas assume the inductors are physically separated so their magnetic fields don't interact. When inductors do couple magnetically (like in transformers), different principles apply—you'll see this concept in action in Section 1.4.
+Note: These formulas assume the inductors are physically separated so their magnetic fields don't interact. When inductors do couple magnetically (like in transformers), different principles apply—you'll see this concept in action later in this chapter.
 
 What is the inductance of a circuit with a 20-mH inductor connected in series with a 50-mH inductor? {{< link id="G5C11" >}}
 

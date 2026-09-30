@@ -13,9 +13,7 @@ As you prepare for General operation, you're about to discover why resonance isn
 
 #### Why Resonance Matters in Amateur Radio
 
-We introduced the concept of resonance in Section 1.2—that special frequency where inductive reactance equals capacitive reactance ($X_L = X_C$). But why do we care about this electrical phenomenon? Because resonance is the foundation of frequency selection in radio circuits.
-
-At resonance in an LC circuit, inductive reactance and capacitive reactance are equal and cancel each other. When an LC circuit reaches resonance, its impedance can be much lower or higher than at nearby frequencies, depending on the connection. This selectivity is precisely what we need to:
+At resonance in an LC circuit, inductive reactance and capacitive reactance are equal ($X_L = X_C$) and cancel each other. When an LC circuit reaches resonance, its impedance can be much lower or higher than at nearby frequencies, depending on the connection. This selectivity is precisely what we need to:
 
 - Tune into specific stations
 - Reject interference
@@ -46,7 +44,7 @@ Let's see how resonance works in practical circuit configurations.
 There are two fundamental ways to connect inductors and capacitors in resonant circuits, and they behave quite differently:
 
 ![Series and parallel LC circuits with opposite impedance responses at resonance](../../../images/s1-3-resonance-comparison.svg)
-{caption="Series resonance gives minimum impedance; parallel resonance gives maximum impedance in these simple circuits. Real components limit both responses."}
+{.img-centered caption="Series resonance gives minimum impedance; parallel resonance gives maximum impedance in these simple circuits. Real components limit both responses."}
 
 1. **Series Resonant Circuit**: When L and C are in series, their reactances cancel at resonance, leaving only the resistance to limit current flow. This creates minimum impedance at the resonant frequency, allowing maximum current flow.
    
@@ -65,7 +63,7 @@ There are two fundamental ways to connect inductors and capacitors in resonant c
 Filters are circuits designed to pass some frequencies while rejecting others. As you move into General class operating, you'll encounter several types:
 
 ![Low-pass, high-pass, band-pass and notch response curves](../../../images/s1-3-filter-responses.svg)
-{caption="The curves show which frequencies each filter passes or reduces."}
+{.img-centered caption="The curves show which frequencies each filter passes or reduces."}
 
 1. **Low-Pass Filters**: Pass frequencies below a cutoff point
    - *Application*: Reduce harmonics from your transmitter output
@@ -135,7 +133,7 @@ Many filter circuits serve double duty—they not only select frequencies but al
 
 A matching network changes the voltage-to-current relationship seen at its input, so a different load can look like the impedance the equipment needs. Common examples include:
 
-- **Transformers**: Change voltage and current in opposite ratios; Section 1.4 follows this in detail.
+- **Transformers**: Change voltage and current in opposite ratios; the next section follows this in detail.
 
 - **Pi-networks**: Named for their resemblance to the Greek letter π in schematic form (capacitor-inductor-capacitor), these are often found in antenna tuners and amplifier output circuits.
 

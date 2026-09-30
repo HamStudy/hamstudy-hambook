@@ -37,7 +37,7 @@ One of the most commonly known uses for a transformer is to convert between diff
 For an ideal transformer, the turns ratio determines how voltage, current, and impedance change:
 
 ![Separate primary and secondary circuits with a two-to-one turns ratio](../../../images/s1-4-transformer-ratios.svg)
-{caption="Twice as many secondary turns doubles voltage and halves load current for the same ideal transferred power."}
+{.img-centered caption="Twice as many secondary turns doubles voltage and halves load current for the same ideal transferred power."}
 
 * **Turns Ratio**: The ratio of turns on the secondary side to turns on the primary side
   
@@ -164,7 +164,7 @@ The gamma match offers several advantages:
 This practical benefit makes it popular for many Yagi designs, as it simplifies construction while maintaining good performance.
 
 ![Hairpin and gamma feed arrangements with the driven element and boom labeled](../../../images/s1-4-yagi-matching-basics.svg)
-{caption="A hairpin bridges a split feed point. A gamma match can use a continuous driven element attached to the boom. These are schematic views, not construction drawings."}
+{.img-centered caption="A hairpin bridges a split feed point. A gamma match can use a continuous driven element attached to the boom. These are schematic views, not construction drawings."}
 
 #### Specialized RF Transformers
 

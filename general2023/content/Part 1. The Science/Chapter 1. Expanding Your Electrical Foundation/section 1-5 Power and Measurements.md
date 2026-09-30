@@ -20,7 +20,7 @@ Where:
 - $I$ is current in amperes (A)
 - $E$ is voltage (**E**lectromotive force) in volts (V)
 
-Building on Ohm's Law from Section 1.1, we can express power in three equivalent ways:
+Building on Ohm's Law from earlier in this chapter, we can express power in three equivalent ways:
 
 $$\begin{align*}
 P &= I \times E\\[1.25em]
@@ -80,7 +80,7 @@ The following table shows the relationships between voltage measurements for a *
 | Peak-to-Peak  | $$\begin{align*} E_{p-p} &= 2 \times E_{peak} \\ &= 2 \times E_{RMS} \times \sqrt{2} \\ &\approx E_{RMS} \times 2.828 \end{align*}$$ |
 
 ![Sine-wave voltage levels and the slower envelope of a changing RF signal](../../../images/s1-5-power-waveforms.svg)
-{caption="Peak, peak-to-peak and RMS describe sine-wave voltage. PEP uses the RF-cycle average power at the crest of the slower modulation envelope."}
+{.img-centered caption="Peak, peak-to-peak and RMS describe sine-wave voltage. PEP uses the RF-cycle average power at the crest of the slower modulation envelope."}
 
 #### RF Power Measurements: PEP
 

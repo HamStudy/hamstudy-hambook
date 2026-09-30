@@ -7,9 +7,7 @@ status: draft1
 
 ### Section 1.2: Reactance and Impedance
 
-When you learned about capacitors and inductors, you probably focused on their basic properties: capacitors store energy in an electric field, inductors store energy in a magnetic field. After the initial charging or current buildup under steady DC, these components settle into predictable behaviors. But here's where AC circuits get a little more interesting—these same components behave differently at different frequencies of alternating current.
-
-In our previous section, we learned how components combine using straightforward math. With a steady DC source and a fixed resistive load, the current stays constant. But as soon as we introduce *alternating* current, everything changes! Capacitors and inductors suddenly develop frequency-dependent opposition called reactance. Combined with the familiar resistance we discussed before, we now have impedance—the complete, frequency-dependent opposition to current flow in AC circuits.
+In the previous section, we combined capacitors and inductors to find their total values. Those values can stay the same while their opposition to AC changes with frequency. This frequency-dependent opposition is called *reactance*. Resistance and reactance together determine *impedance*, the total opposition to current in an AC circuit. Reactance also affects the timing between voltage and current, which brings us to phase.
 
 #### Why AC Circuits Are Different: The Phase Concept
 
@@ -19,12 +17,12 @@ Imagine a spinning wheel. As the wheel turns, a point on its edge moves in a cir
 
 {{< web-only >}}
 ![Animation: Relationship between a circle and a sine wave, illustrating phase](../../../images/circle_sine_animated.gif)
-{caption="Figure 2: As a point moves at constant speed around a circle, its vertical position traces a sine wave over time."}
+{.img-centered caption="Figure 2: As a point moves at constant speed around a circle, its vertical position traces a sine wave over time."}
 {{< /web-only >}}
 
 {{< print-only >}}
 ![A sine wave marked at quarter-cycle intervals, with voltage and current traces showing a 90-degree lead or lag](../../../images/s1-2-phase-and-reactance.svg)
-{caption="Figure 2: One cycle is 360 degrees. A quarter-cycle difference between voltage and current is 90 degrees."}
+{.img-centered caption="Figure 2: One cycle is 360 degrees. A quarter-cycle difference between voltage and current is 90 degrees."}
 {{< /print-only >}}
 
 * **Phase** tells us where a point is in its rotation, measured in degrees (a full circle is 360°).
@@ -66,7 +64,7 @@ Where:
 
 For example, a 10 μH inductor at 7 MHz has reactance of about 440 Ω, but at 14 MHz it doubles to about 880 Ω—higher frequency means more opposition.
 
-**Practical Application:** When you see an RF choke in an antenna feed line or a ferrite bead on a computer cable, you're seeing impedance at work—opposing unwanted RF currents while allowing desired currents to pass. Ferrites can provide both reactance and loss; Section 2.1 explains how those help suppress interference.
+**Practical Application:** When you see an RF choke in an antenna feed line or a ferrite bead on a computer cable, you're seeing impedance at work—opposing unwanted RF currents while allowing desired currents to pass. Ferrites can provide both reactance and loss; the next chapter’s discussion of RF components explains how those help suppress interference.
 
 ##### Capacitive Reactance
 
@@ -118,7 +116,7 @@ $$|Z| = \sqrt{R^2 + X^2}$$
 
 For example, 30Ω resistance and 40Ω reactance give a magnitude of $\sqrt{30^2+40^2}=50\ \Omega$, not 70Ω. You do not need complex-number calculations for the General questions here; the point is that resistance and reactance do not add like ordinary numbers.
 
-**Why Impedance Matters:** Impedance is crucial because it determines how efficiently power transfers between components. Matching accounts for both resistance and reactance—a principle central to antenna systems, feed lines, and amplifier design. Section 1.4 explains the matching conditions and the usual 50-ohm equipment requirement.
+**Why Impedance Matters:** Impedance is crucial because it determines how efficiently power transfers between components. Matching accounts for both resistance and reactance—a principle central to antenna systems, feed lines, and amplifier design. Later in this chapter, we'll examine the matching conditions and the usual 50-ohm equipment requirement.
 
 #### Admittance: The Inverse Perspective
 
