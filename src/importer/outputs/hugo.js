@@ -7,6 +7,15 @@ const { formatPoolData } = require('../pool-utils');
 
 const hugoRelImgPath = '/images';
 
+// Shorten navigation labels only; keep source titles for stable URLs and headings.
+function getDisplayTitle(section) {
+    const intro = section.sections?.find(s => s.intro);
+    const title = intro?.title || section.title;
+    return title
+        .replace(/^Chapter\s+(\d+):\s+(\S.*)$/i, '$1. $2')
+        .replace(/^Section\s+(\d+(?:\.\d+)*):\s+(\S.*)$/i, '$1 $2');
+}
+
 /**
  * Writes all multilingual book versions to the correct Hugo content subdirectories.
  * @param {Object} books - { [lang]: { toc, parts, pool } }
@@ -120,9 +129,9 @@ async function writeHugoBook(book, outputPath, sourcePath, customContentPath) {
         if (chapter.sections?.length) {
             const intro = chapter.sections.find(s => s.intro);
             let introContent = writeFrontMatter({
-                title: intro?.title || chapter.title,
                 weight: index,
                 ...intro?.frontMatter || {},
+                title: getDisplayTitle(chapter),
             }) + (intro?.content || '');
 
             introContent = await processImages(introContent, sourceDir, imagesDir, hugoRelImgPath);
@@ -141,9 +150,9 @@ async function writeHugoBook(book, outputPath, sourcePath, customContentPath) {
                 const sectionSlug = getTitleSlug(section);
                 const sectionFileName = `${sectionSlug}`;
                 let sectionContent = writeFrontMatter({
-                    title: section.title,
                     weight: sectionIndex,
                     ...section.frontMatter || {},
+                    title: getDisplayTitle(section),
                 }) + section.content;
 
                 sectionContent = await processImages(sectionContent, sourceDir, imagesDir, hugoRelImgPath);
@@ -161,9 +170,9 @@ async function writeHugoBook(book, outputPath, sourcePath, customContentPath) {
     for (const part of book.parts.filter(part => !part.intro)) {
         if (part.conclusion) {
             let conclusionContent = writeFrontMatter({
-                title: part.title,
                 weight: partIndex,
                 ...part.frontMatter || {},
+                title: getDisplayTitle(part),
             }) + part.content;
 
             conclusionContent = await processImages(conclusionContent, sourceDir, imagesDir, hugoRelImgPath);
@@ -201,7 +210,7 @@ function generateTableOfContents(book) {
             toc += `- [Conclusion]({{< relref "${getLinkSlug(part)}" >}})\n`;
             continue;
         }
-        toc += `- [${part.title}](${partSlug}/)\n`;
+        toc += `- [${getDisplayTitle(part)}](${partSlug}/)\n`;
 
         if ('sections' in part) {
             for (const chapter of part.sections) {
@@ -210,17 +219,17 @@ function generateTableOfContents(book) {
                 }
                 if ('sections' in chapter) {
                     const chapterSlug = `${partSlug}/${getLinkSlug(chapter)}`;
-                    toc += `  - [${chapter.title}]({{% relref "${chapterSlug}" %}})\n`;
+                    toc += `  - [${getDisplayTitle(chapter)}]({{% relref "${chapterSlug}" %}})\n`;
 
                     for (const section of chapter.sections) {
                         if (!section.intro) {
                             const sectionSlug = `${chapterSlug}/${getLinkSlug(section)}`;
-                            toc += `    - [${section.title}]({{% relref "${sectionSlug}" %}})\n`;
+                            toc += `    - [${getDisplayTitle(section)}]({{% relref "${sectionSlug}" %}})\n`;
                         }
                     }
                 } else {
                     const sectionSlug = `${partSlug}/${getLinkSlug(chapter)}`;
-                    toc += `  - [${chapter.title}]({{% relref "${sectionSlug}" %}})\n`;
+                    toc += `  - [${getDisplayTitle(chapter)}]({{% relref "${sectionSlug}" %}})\n`;
                 }
             }
         } else {

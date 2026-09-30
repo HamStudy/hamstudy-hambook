@@ -139,6 +139,7 @@ async function processImages(content, sourceDir, outputDir, relativePath = '/ima
     // Matches markdown images or HTML <img> tags.
     const imageRegex = /!\[([^\]]*)\]\(([^)]+)\)|<img\b[^>]*src=["']([^"']+)["'][^>]*>/g;
     const imageDir = path.join(sourceDir, 'images');
+    const sharedImageDir = path.resolve(__dirname, '../../hugo-common/static/images');
     const imagesOutputDir = path.join(outputDir, options.imagesDir || 'images');
     
     // Use provided processor or default.
@@ -170,7 +171,8 @@ async function processImages(content, sourceDir, outputDir, relativePath = '/ima
             styleAttr = ` style="${styleMatch[1]}"`;
         }
 
-        const imagePath = await findImage(imageDir, imageName);
+        // Shared publisher artwork is also copied when exporting EPUB or other formats.
+        const imagePath = await findImage(imageDir, imageName) || await findImage(sharedImageDir, imageName);
 
         if (imagePath && imgCache[imagePath]) {
             // Use cached result.
