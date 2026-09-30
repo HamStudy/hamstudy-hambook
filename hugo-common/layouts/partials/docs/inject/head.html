@@ -10,5 +10,9 @@
 
 <meta name="author" content="Richard Bateman, HamStudy.org">
 <meta name="generator" content="Hugo / WeasyPrint">
-<meta name="keywords" content="Amateur Radio, Ham Radio, Technician Class, Hambook, Study Manual">
-<meta name="description" content="This HamBook covers everything you need to know to pass your Technician exam and start your exciting adventure in ham radio. From the basics of electricity and radio waves to operating procedures and FCC regulations, we've got you covered.">
+<meta name="keywords" content="{{ .Site.Params.keywords | default "Amateur Radio, Ham Radio, HamBook, Study Manual" }}">
+<meta name="description" content="{{ .Site.Params.description | default .Site.Title }}">
+
+{{ with .Site.Params.printStylesheet }}
+<link rel="stylesheet" href="{{ . | relURL }}" media="print">
+{{ end }}
