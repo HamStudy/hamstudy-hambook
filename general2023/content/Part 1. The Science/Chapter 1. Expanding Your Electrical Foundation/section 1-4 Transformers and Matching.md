@@ -36,7 +36,7 @@ One of the most commonly known uses for a transformer is to convert between diff
 
 For an ideal transformer, the turns ratio determines how voltage, current, and impedance change:
 
-![Separate primary and secondary circuits with a two-to-one turns ratio](../../../images/s1-4-transformer-ratios.svg)
+![A transformer links two separate circuits through a magnetic core. An AC source drives the primary winding on the left; the secondary winding on the right supplies a load. There is no direct wire connection between the windings. The secondary has twice as many turns as the primary. For this ideal transformer, that gives twice the primary voltage across the secondary and half the primary current through its load, with the same power transferred. Arrows identify current in each circuit.](../../../images/s1-4-transformer-ratios.svg)
 {.img-centered caption="Twice as many secondary turns doubles voltage and halves load current for the same ideal transferred power."}
 
 * **Turns Ratio**: The ratio of turns on the secondary side to turns on the primary side
@@ -163,7 +163,7 @@ The gamma match offers several advantages:
 
 This practical benefit makes it popular for many Yagi designs, as it simplifies construction while maintaining good performance.
 
-![Hairpin and gamma feed arrangements with the driven element and boom labeled](../../../images/s1-4-yagi-matching-basics.svg)
+![Two schematic feed arrangements show different ways to match a Yagi’s driven element. The hairpin, or beta, match uses an element split at its center. The feed-line wires connect to the two halves, and a short U-shaped conductor bridges the gap as a shorted stub. The gamma match uses a continuous driven element attached at its center to the boom. A gamma rod runs beside part of that element and connects to it away from the center. The coax feed connects through a series capacitor to the rod, with its other conductor connected at the element’s center.](../../../images/s1-4-yagi-matching-basics.svg)
 {.img-centered caption="A hairpin bridges a split feed point. A gamma match can use a continuous driven element attached to the boom. These are schematic views, not construction drawings."}
 
 #### Specialized RF Transformers

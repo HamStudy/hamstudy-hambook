@@ -79,7 +79,7 @@ The following table shows the relationships between voltage measurements for a *
 | Peak          | $$\begin{align*} E_{peak} &= E_{RMS} \times \sqrt{2} \\ &\approx E_{RMS} \times 1.414 \end{align*}$$ |
 | Peak-to-Peak  | $$\begin{align*} E_{p-p} &= 2 \times E_{peak} \\ &= 2 \times E_{RMS} \times \sqrt{2} \\ &\approx E_{RMS} \times 2.828 \end{align*}$$ |
 
-![Sine-wave voltage levels and the slower envelope of a changing RF signal](../../../images/s1-5-power-waveforms.svg)
+![The upper graph shows a sine-wave voltage crossing zero between positive and negative peaks. Peak voltage is measured from zero to a crest; peak-to-peak voltage spans the full distance from the negative peak to the positive peak, twice the peak voltage. The RMS level is about 0.707 times the peak voltage. The lower graph shows many rapid radio-frequency cycles inside a more slowly changing envelope. At the envelope’s crest, the RF cycles have their greatest amplitude. Peak envelope power uses the average power during one RF cycle at that crest.](../../../images/s1-5-power-waveforms.svg)
 {.img-centered caption="Peak, peak-to-peak and RMS describe sine-wave voltage. PEP uses the RF-cycle average power at the crest of the slower modulation envelope."}
 
 #### RF Power Measurements: PEP

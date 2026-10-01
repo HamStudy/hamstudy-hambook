@@ -13,10 +13,8 @@ These two arrangements determine how every circuit behaves. Parallel capacitors 
 
 #### Understanding Current and Voltage in Series and Parallel Circuits
 
-{{< captioned caption="Figure 1 – Series and Parallel Circuit Diagrams" >}}
-![Series circuit on the left: the same current, I_total, flows through R1, R2, and R3 in one path. Parallel circuit on the right: the battery current splits into branch currents I_1, I_2, and I_3, then recombines; the branch currents add up to I_total. Each parallel branch has the full battery voltage across it. Arrows indicate conventional current leaving the positive battery terminal.](../../../images/s1-1-parallel-series.svg)
-{.img-full .img-centered}
-{{< /captioned >}}
+![Two battery circuits compare series and parallel connections. On the left, the same total current passes through resistors R1, R2, and R3 in one loop. On the right, total current from the battery splits into three branches, one through each resistor, then rejoins on the return path. The three branch currents add up to the total, and every parallel branch has the full battery voltage across it. Arrows show conventional current leaving the positive battery terminal. The formulas show that series resistances add; for parallel resistors, add the reciprocals of the individual resistances, then take the reciprocal of that sum.](../../../images/s1-1-parallel-series.svg)
+{.img-full .img-centered caption="Figure 1 – Series and Parallel Circuit Diagrams"}
 
 We can visualize electricity like water flowing through pipes. Let's take a look:
 

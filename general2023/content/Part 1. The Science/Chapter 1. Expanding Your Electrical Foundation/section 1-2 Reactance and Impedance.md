@@ -15,15 +15,8 @@ Before diving into reactance, let's understand phase—a concept central to AC c
 
 Imagine a spinning wheel. As the wheel turns, a point on its edge moves in a circle, completing a full rotation. Each rotation is a "cycle."
 
-{{< web-only >}}
-![Animation: Relationship between a circle and a sine wave, illustrating phase](../../../images/circle_sine_animated.gif)
+![Two linked plots connect circular motion to a sine wave. A point moves at constant speed around a circle, while a matching point follows the wave. The wave graph shows angle around the circle horizontally and the moving point’s height above or below the circle’s center vertically. Starting at center height, a quarter-turn reaches the positive peak. A half-turn returns to zero, three-quarters of a turn reaches the negative peak, and one full turn returns to the starting height. The repeated rise and fall forms a sine wave.](../../../images/circle_sine_animated.gif)
 {.img-centered caption="Figure 2: As a point moves at constant speed around a circle, its vertical position traces a sine wave over time."}
-{{< /web-only >}}
-
-{{< print-only >}}
-![A sine wave marked at quarter-cycle intervals, with voltage and current traces showing a 90-degree lead or lag](../../../images/s1-2-phase-and-reactance.svg)
-{.img-centered caption="Figure 2: One cycle is 360 degrees. A quarter-cycle difference between voltage and current is 90 degrees."}
-{{< /print-only >}}
 
 * **Phase** tells us where a point is in its rotation, measured in degrees (a full circle is 360°).
 * For this discussion, we use sine-wave AC and ideal components. Real signals can have other shapes.
@@ -73,6 +66,9 @@ For example, a 10 μH inductor at 7 MHz has reactance of about 440 Ω, but at 14
 > - As the frequency of applied AC increases, capacitive reactance decreases. {{< link id="G5A06" >}}
 
 Capacitors resist changes in voltage by storing energy in an electric field. In an ideal capacitor, current leads voltage by 90°.
+
+![Three plots show phase relationships. A sine wave starts at zero, reaches its positive peak at 90 degrees, crosses zero at 180 degrees, reaches its negative peak at 270 degrees, and completes one cycle at 360 degrees. In the inductor plot, current reaches each peak and zero crossing one quarter-cycle, or 90 degrees, after voltage: current lags. In the capacitor plot, current reaches those points one quarter-cycle before voltage: current leads. The solid line represents voltage and the dashed line represents current.](../../../images/s1-2-phase-and-reactance.svg)
+{.img-centered caption="Figure 3: In an ideal inductor, current lags voltage by a quarter-cycle (90 degrees). In an ideal capacitor, current leads by the same amount."}
 
 A capacitor's reactance also depends on frequency, but in the opposite way from inductors. Capacitors become more "willing" to pass current as frequency rises. This makes them excellent as bypass capacitors that provide an easy path for RF signals while blocking DC.
 
