@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 355" width="640" height="355" role="img"><title>Original signals and nearby third-order products</title><rect width="640" height="355" fill="white"/><defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#111"/></marker>
+<!-- Math glyphs from the KaTeX fonts already used by this book.
+The MIT License (MIT)
+
+Copyright (c) 2013-2020 Khan Academy and other contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+-->
+<path id="figure-math-math-70" d="M185 2Q157 2 112.5 1.5Q68 1 48 1Q36 1 33 6Q31 9 34 25Q38 41 42.0 43.5Q46 46 65 46Q92 46 125 49Q139 52 144 61Q146 66 215.5 342.0Q285 618 285 622Q285 629 281 629Q273 632 228 634H197Q191 640 190.5 642.5Q190 645 193 659Q197 677 203 680H742Q749 673 749 669Q749 664 736.0 556.5Q723 449 722 447Q720 440 702 440H690Q683 446 683 450Q683 452 683.5 454.5Q684 457 684.5 462.0Q685 467 685 472Q689 501 689 530Q689 602 643 621Q622 630 594.0 632.0Q566 634 480 634Q400 633 396 632Q388 629 386 623Q385 622 352 492L320 363H375Q435 364 441 365Q474 371 489 386Q510 404 524 458Q525 461 526.0 465.0Q527 469 527.0 470.5Q527 472 528.0 474.5Q529 477 530.5 477.5Q532 478 534.5 479.0Q537 480 540.0 480.0Q543 480 548 480H560Q567 475 567 470Q567 467 535.5 339.0Q504 211 502 207Q500 200 482 200H470Q464 205 463.0 208.5Q462 212 466 226Q473 254 473 274Q473 304 448 311Q430 317 364 317H309L277 190Q245 66 245.0 60.0Q245 54 251 52Q263 46 334 46H359Q365 40 365.5 37.5Q366 35 363 19Q359 6 353 0H336Q295 2 185 2Z"/>
+<path id="figure-math-main-49" d="M416 0Q399 3 257 3Q117 3 100 0H88V46H114Q172 46 189 49Q197 50 213 61V578Q211 578 205 575Q159 557 102 556H83V602H102Q186 605 242 640Q260 650 273 663Q275 666 285.0 666.0Q295 666 302 660V361L303 61Q318 46 368 46H401H427V0Z"/>
+<path id="figure-math-main-50" d="M110 429Q82 429 66.0 447.0Q50 465 50 491Q50 563 104.5 614.5Q159 666 235 666Q321 666 377.5 619.5Q434 573 447 498Q449 480 449 465Q449 407 414 356Q386 314 301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q389 98 395 118Q399 129 409 186V189H449V186L421 3V0H50V19Q50 39 52 42Q53 44 136 137Q245 258 276 297Q343 388 343 464Q343 530 308.5 574.5Q274 619 212 619Q154 619 118 567Q116 563 112 556Q109 551 109.0 550.0Q109 549 114 549Q139 549 154.5 531.0Q170 513 170 489Q170 464 153.5 446.5Q137 429 110 429Z"/>
+<path id="figure-math-main-8722" d="M98 270H679Q694 262 694.0 250.0Q694 238 679 230H98Q84 237 84.0 250.0Q84 263 98 270Z"/>
+</defs><g fill="none" stroke="#111" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"><line x1="35" y1="225" x2="612" y2="225" stroke-width="1.6" marker-end="url(#arrow)"/><line x1="85" y1="225" x2="85" y2="155" stroke-width="2.6" marker-end="url(#arrow)" stroke="#b4233b"/><g fill="#b4233b" stroke="none" data-tex="2F_1 - F_2" transform="translate(39.2987 135.0000)"><use href="#figure-math-main-50" transform="translate(0.0000 0.0000) scale(0.024000 -0.024000)"/><g transform="translate(12.0000 0.0000)"><use href="#figure-math-math-70" transform="translate(0.0000 0.0000) scale(0.024000 -0.024000)"/><use href="#figure-math-main-49" transform="translate(15.4320 3.6000) scale(0.016800 -0.016800)"/></g><use href="#figure-math-main-8722" transform="translate(42.3653 0.0000) scale(0.024000 -0.024000)"/><g transform="translate(66.3707 0.0000)"><use href="#figure-math-math-70" transform="translate(0.0000 0.0000) scale(0.024000 -0.024000)"/><use href="#figure-math-main-50" transform="translate(15.4320 3.6000) scale(0.016800 -0.016800)"/></g></g><text x="85" y="262" fill="#111" stroke="none" font-family="Arial, sans-serif" font-size="22" text-anchor="middle">14.150</text><line x1="242" y1="225" x2="242" y2="95" stroke-width="2.6" marker-end="url(#arrow)" stroke="#0068a8"/><g fill="#0068a8" stroke="none" data-tex="F_1" transform="translate(229.4840 75.0000)"><use href="#figure-math-math-70" transform="translate(0.0000 0.0000) scale(0.024000 -0.024000)"/><use href="#figure-math-main-49" transform="translate(15.4320 3.6000) scale(0.016800 -0.016800)"/></g><text x="242" y="262" fill="#111" stroke="none" font-family="Arial, sans-serif" font-size="22" text-anchor="middle">14.200</text><line x1="398" y1="225" x2="398" y2="95" stroke-width="2.6" marker-end="url(#arrow)" stroke="#0068a8"/><g fill="#0068a8" stroke="none" data-tex="F_2" transform="translate(385.4840 75.0000)"><use href="#figure-math-math-70" transform="translate(0.0000 0.0000) scale(0.024000 -0.024000)"/><use href="#figure-math-main-50" transform="translate(15.4320 3.6000) scale(0.016800 -0.016800)"/></g><text x="398" y="262" fill="#111" stroke="none" font-family="Arial, sans-serif" font-size="22" text-anchor="middle">14.250</text><line x1="555" y1="225" x2="555" y2="155" stroke-width="2.6" marker-end="url(#arrow)" stroke="#b4233b"/><g fill="#b4233b" stroke="none" data-tex="2F_2 - F_1" transform="translate(509.2987 135.0000)"><use href="#figure-math-main-50" transform="translate(0.0000 0.0000) scale(0.024000 -0.024000)"/><g transform="translate(12.0000 0.0000)"><use href="#figure-math-math-70" transform="translate(0.0000 0.0000) scale(0.024000 -0.024000)"/><use href="#figure-math-main-50" transform="translate(15.4320 3.6000) scale(0.016800 -0.016800)"/></g><use href="#figure-math-main-8722" transform="translate(42.3653 0.0000) scale(0.024000 -0.024000)"/><g transform="translate(66.3707 0.0000)"><use href="#figure-math-math-70" transform="translate(0.0000 0.0000) scale(0.024000 -0.024000)"/><use href="#figure-math-main-49" transform="translate(15.4320 3.6000) scale(0.016800 -0.016800)"/></g></g><text x="555" y="262" fill="#111" stroke="none" font-family="Arial, sans-serif" font-size="22" text-anchor="middle">14.300</text><text x="320" y="310" fill="#111" stroke="none" font-family="Arial, sans-serif" font-size="24" text-anchor="middle">Frequency (MHz)</text><text x="320" y="35" fill="#111" stroke="none" font-family="Arial, sans-serif" font-size="27" text-anchor="middle" font-weight="bold">Third-order products</text></g>
+<!-- Keep the light palette for print and SVG readers without theme support. -->
+<style id="figure-theme">
+  @media screen and (prefers-color-scheme: dark) {
+    [fill="white"] { fill: #111820; }
+    [fill="#111"] { fill: #e9eef4; }
+    [fill="#0068a8"] { fill: #79c6ff; }
+    [fill="#b4233b"] { fill: #ff91a3; }
+    [stroke="#111"] { stroke: #e9eef4; }
+    [stroke="#0068a8"] { stroke: #79c6ff; }
+    [stroke="#b4233b"] { stroke: #ff91a3; }
+  }
+</style>
+</svg>

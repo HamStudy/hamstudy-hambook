@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 450" width="640" height="450" role="img"><title>I and Q component values combine into a signal vector</title><rect width="640" height="450" fill="white"/><defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#111"/></marker></defs><g fill="none" stroke="#111" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"><line x1="85" y1="345" x2="585" y2="345" stroke-width="2.6" marker-end="url(#arrow)"/><line x1="145" y1="400" x2="145" y2="50" stroke-width="2.6" marker-end="url(#arrow)"/><text x="575" y="382" fill="#0068a8" stroke="none" font-family="Arial, sans-serif" font-size="27" text-anchor="middle" font-weight="bold">I</text><text x="110" y="66" fill="#b45309" stroke="none" font-family="Arial, sans-serif" font-size="27" text-anchor="middle" font-weight="bold">Q</text><line x1="145" y1="345" x2="460" y2="345" stroke-width="4" marker-end="url(#arrow)" stroke="#0068a8"/><line x1="460" y1="345" x2="460" y2="115" stroke-width="4" marker-end="url(#arrow)" stroke="#b45309"/><line x1="145" y1="345" x2="460" y2="115" stroke-width="3" marker-end="url(#arrow)" stroke="#00776f"/><line x1="145" y1="115" x2="460" y2="115" stroke-width="1.4" stroke-dasharray="8 6"/><text x="290" y="90" fill="#00776f" stroke="none" font-family="Arial, sans-serif" font-size="24" text-anchor="middle">Combined signal</text><text x="295" y="386" fill="#0068a8" stroke="none" font-family="Arial, sans-serif" font-size="23" text-anchor="middle">I component</text><text x="545" y="228" fill="#b45309" stroke="none" font-family="Arial, sans-serif" font-size="23" text-anchor="middle">Q value</text><rect x="145" y="320" width="25" height="25" fill="none"/><text x="320" y="436" fill="#111" stroke="none" font-family="Arial, sans-serif" font-size="23" text-anchor="middle">Two reference directions, 90° apart</text></g>
+<!-- Keep the light palette for print and SVG readers without theme support. -->
+<style id="figure-theme">
+  @media screen and (prefers-color-scheme: dark) {
+    [fill="white"] { fill: #111820; }
+    [fill="#111"] { fill: #e9eef4; }
+    [fill="#0068a8"] { fill: #79c6ff; }
+    [fill="#b45309"] { fill: #ffc078; }
+    [fill="#00776f"] { fill: #70d5c6; }
+    [stroke="#111"] { stroke: #e9eef4; }
+    [stroke="#0068a8"] { stroke: #79c6ff; }
+    [stroke="#b45309"] { stroke: #ffc078; }
+    [stroke="#00776f"] { stroke: #70d5c6; }
+  }
+</style>
+</svg>
