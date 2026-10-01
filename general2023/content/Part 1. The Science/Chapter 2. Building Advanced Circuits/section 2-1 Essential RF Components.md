@@ -1,7 +1,7 @@
 ---
 chapter: "2"
 section: "2.1"
-questions: ["G6A03", "G6A05", "G6A04", "G6A08", "G6B01", "G6B05", "G6B10", "G6A06", "G6B08"]
+questions: ["G6A03", "G6A05", "G6A04", "G6A08", "G6B01", "G6B05", "G6B10", "G6A06", "G6B08", "G6A11"]
 status: draft1
 ---
 
@@ -15,17 +15,19 @@ Understanding these RF behaviors helps explain why antennas work better on some 
 
 In your Technician studies, you learned that diodes act like one-way streets for current. At RF frequencies, they perform even more interesting tricks!
 
-##### Forward Voltage: The Activation Threshold
+##### Forward Threshold Voltage
 
-Forward voltage is the minimum voltage needed to make a diode start conducting current in its forward direction—think of it as the minimum energy needed to open the one-way gate. Below this threshold, almost no current flows; above it, current flows freely.
+A diode is like a one-way gate, with voltage providing the push to open it. A small forward voltage opens the gate only a crack, letting a tiny trickle of current through. Near the diode's **forward threshold voltage**, the gate effectively swings wide open. The rest of the circuit then limits how much current flows.
 
-Different diode types have different forward voltage thresholds:
+Different diode types have different approximate forward thresholds:
 
 > **Key Information:** The approximate forward threshold voltage of a germanium diode is 0.3 volts. {{< link id="G6A03" >}}
 
 > **Key Information:** The approximate forward threshold voltage of a silicon junction diode is 0.7 volts. {{< link id="G6A05" >}}
 
-Why does this matter in RF applications? RF signals are often very weak when received—sometimes just microvolts or millivolts. A germanium diode with its lower forward voltage (0.3V) can detect and process much weaker signals than a silicon diode (0.7V). This is why early crystal radios used germanium diodes—they could convert weak RF signals to audio with no amplification. In modern receivers, specialized Schottky diodes with even lower forward voltages are used in mixer and detector circuits to handle the weakest signals possible.
+Signals from an antenna can be tiny. Germanium diodes and suitable Schottky diodes conduct at low forward voltages, making them useful in **detectors** that recover speech or music from AM signals. Detection can happen even below the usual threshold, where the gate is open only a crack.
+
+With a good antenna and a sensitive earphone, a crystal radio can let you hear a strong local AM station without a battery or amplifier. The received signal itself supplies the energy.
 
 #### Capacitors: Choosing the Right Type for RF
 
@@ -35,13 +37,13 @@ You might remember from your Technician studies that capacitors store energy in 
 > - Electrolytic capacitors are characterized by high capacitance for a given volume (size). {{< link id="G6A04" >}}
 > - Low voltage ceramic capacitors are characterized by comparatively low cost. {{< link id="G6A08" >}}
 
-While electrolytic capacitors pack impressive capacitance into small spaces, they have significant limitations at radio frequencies. Most importantly, they're polarized—designed for current to flow in only one direction, like a one-way street. This is a major problem with RF signals, which rapidly alternate direction many millions of times per second.
+While electrolytic capacitors pack impressive capacitance into small spaces, they have significant limitations at radio frequencies. Most are polarized, which means the voltage across them must have the marked polarity. That is different from requiring current to flow in only one direction! A power-supply capacitor charges and discharges, so its current reverses while its positive terminal can remain at the higher voltage.
 
-When the voltage reverses during the negative half of the AC cycle, the capacitor becomes "reverse biased"—meaning voltage is applied in the wrong direction. Every electrolytic capacitor has a "breakdown voltage" (usually just 1-2 volts) that acts like a safety limit. When reverse voltage exceeds this limit, the capacitor stops acting like a capacitor and starts conducting current like a resistor. In extreme cases, this can damage or destroy the capacitor.
+If the voltage itself reverses, it is applied in the wrong direction and can damage the capacitor. There is no general 1–2 V reverse-voltage allowance to treat as safe. Follow the manufacturer's voltage and ripple-current ratings; the ripple-current rating tells you how much charging and discharging current the capacitor can handle.
 
-Electrolytic capacitors also have high internal resistance and inductance, which further reduces their effectiveness at radio frequencies. Think of them like water towers—great for storing large amounts, but slow to respond to rapid changes. This is why your transceiver uses electrolytic capacitors mainly for power supply filtering, where they handle relatively slow changes in DC voltage.
+Electrolytic capacitors also have internal resistance and inductance, which can limit their effectiveness at radio frequencies. Think of them like water towers—great for storing large amounts, but slow to respond to rapid changes. This is why your transceiver uses electrolytic capacitors mainly for power supply filtering, where they handle relatively slow changes in DC voltage.
 
-For most RF applications, ceramic capacitors are the better choice. They're non-polarized (work equally well regardless of current direction), smaller, and respond well to the rapid changes of RF signals. This is why your transceiver contains so many ceramic capacitors in its RF circuits for filtering, tuning, and coupling signals between stages.
+For most RF applications, ceramic capacitors are the better choice. They're non-polarized (either voltage polarity is allowed), smaller, and suitable types respond well to the rapid changes of RF signals. This is why your transceiver contains so many ceramic capacitors in its RF circuits for filtering, tuning, and coupling signals between stages.
 
 #### Inductors and Ferrites: Magnetic Field Masters
 
@@ -61,11 +63,20 @@ A ferrite core that works beautifully at 3.5 MHz might be terrible at 28 MHz bec
 
 Those donut-shaped ferrite cores you see in filters and antenna tuners offer significant advantages for RF applications:
 
-1. **Self-shielding**: Keeping most of the magnetic field within the core prevents unwanted coupling with nearby components
-2. **Efficiency**: Higher inductance values in smaller spaces
+1. **Self-shielding**: Keeping most of the magnetic field within the core reduces unwanted coupling with nearby components
+2. **Compactness**: Higher inductance values in smaller spaces
 3. **Customization**: Different mixes for different frequency ranges
 
-Toroidal inductors have largely replaced older "solenoid" type coils in modern equipment because of these advantages.
+##### A Coil's Self-Resonant Frequency
+
+There is another RF behavior to watch for: adjacent turns of a coil have a small capacitance between them. Even though you did not install a separate capacitor, this stray capacitance and the coil's inductance form a resonant circuit.
+
+> **Key Information:** Above its self-resonant frequency, an inductor becomes capacitive. {{< link id="G6A11" >}}
+
+![The upper diagram shows an ideal inductor as a coil between two terminals. The lower diagram models a real coil as the same inductor with a capacitor connected in parallel across it. This capacitor represents the small, unwanted capacitance between the coil’s turns, not a separate part added to the circuit. The coil therefore has both inductance and capacitance, which can resonate together instead of behaving like an ideal inductor at every frequency.](../../../images/s2-1-inductor-self-resonance.svg)
+{.img-centered caption="A real coil has capacitance between its turns. Near and above self-resonance, the ideal-inductor model is no longer enough."}
+
+For example, an RF choke with self-resonance below your operating frequency may not provide the increasing inductive reactance you expect from $X_L=2\pi fL$. Check its behavior at the frequency you need, not just the inductance marked on the part.
 
 ##### Ferrite Beads: RF Interference Fighters
 
@@ -73,7 +84,7 @@ Have you ever noticed that many computer cables have a cylindrical bulge near on
 
 > **Key Information:** A ferrite bead or core reduces common-mode RF current on the shield of a coaxial cable by creating an impedance in the current's path. {{< link id="G6B10" >}}
 
-Ferrites work by distinguishing between two types of current: balanced currents (equal and opposite on different conductors) and unbalanced "common-mode" currents (flowing in the same direction on multiple conductors). The ferrite creates high impedance that blocks the unwanted common-mode RF currents while allowing the desired balanced signals to pass through with minimal effect.
+On coax, the desired signal current travels along the center conductor and returns along the inside of the shield. Those equal and opposite currents largely cancel their magnetic effects in a ferrite around the whole cable. Unwanted common-mode current on the outside of the shield does not have that cancellation. It encounters the ferrite’s impedance, which can include both reactance and loss, while the desired signal is affected much less.
 
 In amateur radio, we use ferrites to prevent RF interference in audio equipment, computer connections, and antenna feed lines. Different ferrite "mixes" are formulated to work best at specific frequency ranges.
 
@@ -83,18 +94,18 @@ Resistors seem simple, but at RF frequencies, their construction becomes critica
 
 > **Key Information:** Wire-wound resistors should not be used in RF circuits because the resistor's inductance could make circuit performance unpredictable. {{< link id="G6A06" >}}
 
-Wire-wound resistors are exactly what they sound like—wire wound around a form to create resistance. This winding creates an inductor along with the resistor—a hidden component that can cause havoc in RF circuits. It's like having a water pipe that mysteriously changes its diameter depending on how fast the water flows.
+Wire-wound resistors are exactly what they sound like—wire wound around a form to create resistance. This winding creates an inductor along with the resistor—a hidden component that can cause havoc in RF circuits.
 
-For RF work, carbon composition, metal film, or specialized RF resistors are much better choices because they minimize unwanted inductance.
+For RF work, suitable carbon composition, metal film, or specialized RF resistors are better choices because they minimize unwanted inductance. Check the part’s RF specifications.
 
 #### LEDs: Light-Emitting Diodes
 
 > **Key Information:** An LED is forward biased when emitting light. {{< link id="G6B08" >}}
 
-"Forward biased" means voltage is applied in the correct direction—positive to the anode (longer lead) and negative to the cathode (shorter lead). Unlike incandescent bulbs, LEDs only work when connected with the proper polarity. This isn't specific to RF, but it's on the exam and important when using LEDs in station accessories or projects.
+"Forward biased" means voltage is applied in the correct direction—positive to the anode and negative to the cathode. On many through-hole LEDs, the anode has the longer lead, but trimmed leads and other packages require checking the markings or specifications. Unlike incandescent bulbs, LEDs only work when connected with the proper polarity. They also need current limiting, often a series resistor. This isn't specific to RF, but it's on the exam and important when using LEDs in station accessories or projects.
 
 #### RF Components in Action
 
 The differences in how components behave at RF frequencies explain many everyday amateur radio experiences. When your antenna matches well on 40 meters but not on 15 meters, you're seeing frequency-dependent reactance in action. When ferrites on a cable eliminate the RF noise in your speaker, you're witnessing the selective blocking of common-mode currents.
 
-These basic components don't work alone, though. They're assembled into more complex devices like transistors and amplifiers—the active components that boost weak signals to usable levels. In the next section, we'll explore these building blocks that give your radio its ability to amplify tiny antenna signals into room-filling audio.
+These components can direct current, filter signals, and store energy. Making a signal more powerful takes an additional source of energy, such as a battery or power supply. An amplifier uses that energy to strengthen the signal.

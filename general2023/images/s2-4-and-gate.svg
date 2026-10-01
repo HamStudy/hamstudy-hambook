@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 210" width="640" height="210" role="img"><title>Two-input AND gate</title><rect width="640" height="210" fill="white"/><defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#111"/></marker></defs><g fill="none" stroke="#111" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"><path d="M 240 55 L 335 55 A 55 55 0 0 1 335 165 L 240 165 Z" stroke-width="2.6" fill="#e4f1fa" stroke="#0068a8"/><line x1="110" y1="82" x2="240" y2="82" stroke-width="2.6" stroke="#0068a8"/><line x1="110" y1="138" x2="240" y2="138" stroke-width="2.6" stroke="#0068a8"/><line x1="390" y1="110" x2="545" y2="110" stroke-width="2.6" stroke="#0068a8"/><text x="85" y="89" fill="#111" stroke="none" font-family="Arial, sans-serif" font-size="26" text-anchor="middle">A</text><text x="85" y="145" fill="#111" stroke="none" font-family="Arial, sans-serif" font-size="26" text-anchor="middle">B</text><text x="516" y="80" fill="#111" stroke="none" font-family="Arial, sans-serif" font-size="24" text-anchor="middle">Output</text></g>
+<!-- Keep the light palette for print and SVG readers without theme support. -->
+<style id="figure-theme">
+  @media screen and (prefers-color-scheme: dark) {
+    [fill="white"] { fill: #111820; }
+    [fill="#111"] { fill: #e9eef4; }
+    [fill="#e4f1fa"] { fill: #15344b; }
+    [stroke="#111"] { stroke: #e9eef4; }
+    [stroke="#0068a8"] { stroke: #79c6ff; }
+  }
+</style>
+</svg>

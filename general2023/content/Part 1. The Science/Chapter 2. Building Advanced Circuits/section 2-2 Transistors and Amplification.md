@@ -1,27 +1,25 @@
 ---
 chapter: "2"
 section: "2.2"
-questions: ["G6A07", "G6A09", "G6A10", "G6A12", "G7B08", "G7B10", "G7B04", "G7B02", "G7B11", "G7B07", "G7C05", "G7B01", "G6A11"]
+questions: ["G6A09", "G6A10", "G6A12", "G7B08", "G7B10", "G7B04", "G7B02", "G7B11", "G7B07", "G7C05", "G7B01"]
 status: draft1
 ---
 
 ### Section 2.2: Transistors and Amplification
 
-Remember when we talked about semiconductors in your Technician studies? Now it's time to take a deeper dive into these amazing components. As a General class operator, you'll want to understand how transistors and tubes amplify signals to help you communicate over longer distances with clearer signals.
+A typical transmitter starts with a low-power RF signal. Before that signal reaches the antenna, amplifiers raise it to the desired output power. This happens inside a handheld or HF radio; adding a separate power amplifier gives the signal another boost. Receivers also use amplifiers to strengthen weak signals and produce sound from a speaker.
+
+To do that, an amplifier uses a small input signal to control a larger current from a battery or power supply. Transistors and vacuum tubes provide that control.
 
 #### Transistors: The Building Blocks of Amplification
 
-Transistors might be small, but they're incredibly versatile! These semiconductor devices form the foundation of modern electronics, serving as both switches and amplifiers with remarkable precision. They perform two primary functions in your radio equipment: switching signals on and off, and amplifying weak signals into stronger ones. Let's look at how they work in your radio equipment.
+Transistors are semiconductor devices that can amplify signals or switch current on and off. The two main types are bipolar junction transistors and field-effect transistors. They differ in how they control current.
 
 ##### Bipolar Junction Transistors (BJTs)
 
 Bipolar transistors consist of three semiconductor layers (collector, base, and emitter). A small current through the base controls a much larger current between collector and emitter.
 
-> **Key Information:** A bipolar transistor used as a switch has two operating points: saturation and cutoff. {{< link id="G6A07" >}}
-
-When used as a switch:
-- In **cutoff**, the transistor blocks current flow (like an open switch)
-- In **saturation**, the transistor allows maximum current flow (like a closed switch)
+Later in this chapter, we'll use that same control for digital switching, where the transistor operates at cutoff and saturation.
 
 ##### Field-Effect Transistors (FETs)
 
@@ -29,13 +27,13 @@ FETs use an electric field, rather than current, to control the flow of current 
 
 > **Key Information:** In MOSFET construction, the gate is separated from the channel by a thin insulating layer. {{< link id="G6A09" >}}
 
-This insulating layer creates an extremely high input impedance, as virtually no current flows into the gate. The voltage at the gate creates an electric field that controls current flow between the source and drain.
+This insulating layer creates an extremely high input impedance, as virtually no steady DC current flows into the gate. Charging and discharging the gate’s capacitance still requires current when its voltage changes. The voltage at the gate creates an electric field that controls current flow between the source and drain.
 
 Both transistor types have important roles in your radio. Bipolar transistors are often used in audio and low-level RF stages, while MOSFETs excel in RF power amplifiers and receiver front ends where their high-frequency performance and high input impedance are advantageous.
 
 #### Vacuum Tubes: Understanding Legacy Technology
 
-Though largely replaced by solid-state devices in modern equipment, vacuum tubes remain important to understand for several reasons: they appear on your exam, they're found in older equipment still in use, and they're still manufactured for specific applications like high-power RF amplifiers. They perform much the same function that we now usually use transistors for, but they can handle much higher voltages and power levels. They are also less "fragile", being more resistant to things like radiation and EMPs.
+Though largely replaced by solid-state devices in modern equipment, vacuum tubes remain important to understand for several reasons: they appear on your exam, they're found in older equipment still in use, and they're still manufactured for specific applications like high-power RF amplifiers. They perform much the same function that we now usually use transistors for, and suitable tube designs can handle high voltages and power levels.
 
 Vacuum tubes work by controlling a stream of electrons flowing from a heated cathode to a plate (anode) through a vacuum.
 
@@ -45,7 +43,7 @@ The control grid acts like a gate, varying electron flow based on its voltage. S
 
 > **Key Information:** The primary purpose of a screen grid in a vacuum tube is to reduce grid-to-plate capacitance. {{< link id="G6A12" >}}
 
-The screen grid sits between the control grid and plate, reducing capacitance between them. This prevents unwanted oscillation in RF amplifiers and was a critical advancement in radio technology.
+The screen grid sits between the control grid and plate, reducing capacitance between them. This reduces feedback from output to input, helping prevent unwanted oscillation in RF amplifiers.
 
 While most new amateur radio equipment uses solid-state technology (transistors), tubes are still found in:
 - Some commercial and amateur high-power amplifiers
@@ -64,11 +62,10 @@ Amplifier "classes" (`A`, `B`, `AB`, `C`) describe when a transistor or tube con
 
 For example, if an amplifier draws 200 watts from your power supply but produces only 100 watts of RF output, its efficiency is ($\frac{100}{200} = 50\%$). The remaining power is converted to heat, which explains why some amplifiers need cooling fans.
 
-Different amplifier classes have different typical efficiencies:
-- Class `A`: 25-30%
-- Class `AB`: 40-60%
-- Class `B`: 60-70%
-- Class `C`: 70-80%
+Efficiency varies with the circuit, signal and output level; a class name does not specify one fixed percentage. The classes below describe how much of each cycle the device conducts.
+
+![Four equal-length bars each represent one complete signal cycle. The shaded part shows when an amplifying device conducts current. Class A conducts for the whole cycle, or 360 degrees. Class B conducts for half the cycle, or 180 degrees. Class AB conducts for more than half but less than the full cycle. Class C conducts for less than half. The unshaded parts show when the device is not conducting; the bars compare conducting time, not output power.](../../../images/s2-2-amplifier-conduction.svg)
+{.img-centered caption="The shaded part is the conducting interval. AB lies between half and a full cycle; C is less than half."}
 
 ##### Amplifier Linearity
 
@@ -85,7 +82,7 @@ Now let's look at the main amplifier classes:
 
 > **Key Information:** In a Class `A` amplifier, the amplifying device conducts current 100% of the time. {{< link id="G7B04" >}}
 
-Class `A` amplifiers provide excellent linearity but low efficiency (typically under 30%). Since the device conducts during the entire waveform cycle, the output faithfully reproduces the input. You'll find Class A amplification in receiver front ends and low-level stages where signal accuracy is crucial.
+Class `A` amplifiers can provide excellent linearity, but their efficiency is relatively low. The device conducts during the entire waveform cycle and, within its operating limits, can faithfully reproduce the input. You'll find Class A amplification in receiver front ends and low-level stages where signal accuracy is crucial.
 
 ##### Class `C` Amplifiers: Maximum Efficiency
 
@@ -93,17 +90,17 @@ Class `A` amplifiers provide excellent linearity but low efficiency (typically u
 > - Class C amplifiers have the highest efficiency of these classes. {{< link id="G7B02" >}}
 > - A Class C power stage is appropriate for amplifying FM signals. {{< link id="G7B11" >}}
 
-Class C amplifiers conduct for less than 50% of the waveform cycle, achieving high efficiency (up to 80%) but significantly distorting the signal's amplitude.
+Class C amplifiers conduct for less than 50% of the waveform cycle, achieving high efficiency but not preserving a changing amplitude envelope. A tuned output circuit turns the device’s current pulses into a sinusoidal RF output.
 
 Since FM encodes information in frequency rather than amplitude, the distortion introduced by Class C doesn't affect the information content, making it ideal for FM transmitters.
 
 ##### Class `B` and `AB`: The Middle Ground
 
-Class B (50% conduction) and Class AB (50-100% conduction) offer a compromise between efficiency and linearity. Most SSB transmitters use Class AB in their final stages to balance reasonable efficiency with acceptable linearity.
+Class B (50% conduction) and Class AB (more than 50% but less than 100% conduction) offer a compromise between efficiency and linearity. Most SSB transmitters use Class AB in their final stages to balance reasonable efficiency with acceptable linearity.
 
 #### Oscillators: Signal Generators
 
-Oscillators generate the RF signals that get amplified in transmitters and used for frequency conversion in receivers:
+An amplifier can also help generate a signal. With the right feedback and frequency selection, it becomes part of an oscillator. Oscillators provide the RF signals used in transmitters and for frequency conversion in receivers:
 
 > **Key Information:** The basic components of a sine wave oscillator are a filter and an amplifier operating in a feedback loop. {{< link id="G7B07" >}}
 
@@ -112,27 +109,25 @@ An oscillator needs three elements:
 2. Frequency selection (filtering)
 3. Positive feedback that reinforces the oscillation
 
-The frequency selection in many oscillators comes from an LC (inductor-capacitor) circuit, where the frequency is determined by the inductance and capacitance in the tank circuit (discussed in Section 1.3).
+![An amplifier sends a signal toward the output. Before the output, a branch takes part of that signal through a frequency-selective network and back to the amplifier’s input, forming a loop. The returning signal reinforces oscillation at the selected frequency, while the amplifier replaces energy lost in the circuit.](../../../images/s2-2-oscillator-feedback.svg)
+{.img-centered caption="The amplifier replaces lost energy; feedback reinforces the selected frequency."}
+
+The frequency selection in many oscillators comes from an LC (inductor-capacitor) circuit, where the frequency is determined by the inductance and capacitance in the tank circuit (discussed in the previous chapter).
 
 Modern transceivers often use direct digital synthesis (DDS) for frequency generation. DDS systems use digital techniques to generate analog waveforms, providing fast frequency changes with excellent stability.
 
 > **Key Information:** A direct digital synthesizer (DDS) is characterized by variable output frequency with the stability of a crystal oscillator. {{< link id="G7C05" >}}
 
+A crystal-controlled reference clock times the digital sequence. Changing that sequence selects a different output frequency while retaining the clock’s stable time reference.
+
 #### Amplifier Stability
 
-Preventing unwanted oscillation is critical in amplifier design:
+The feedback that makes an oscillator work can cause trouble in an ordinary amplifier:
 
 > **Key Information:** The purpose of neutralizing an amplifier is to eliminate self-oscillations. {{< link id="G7B01" >}}
 
 Self-oscillation occurs when some of an amplifier's output feeds back to its input in the right phase to create a feedback loop. Neutralization techniques cancel out this unwanted feedback, typically by feeding back an equal but opposite signal.
 
-#### Inductor Self-Resonance
-
-One last important concept for amplifier design is inductor self-resonance:
-
-> **Key Information:** When an inductor is operated above its self-resonant frequency, it becomes capacitive. {{< link id="G6A11" >}}
-
-Every inductor has some parasitic capacitance between its windings. At a certain frequency (the self-resonant frequency), this capacitance resonates with the inductance. Above this frequency, the component behaves more like a capacitor than an inductor—a critical consideration because this unexpected behavior can cause tank circuits to malfunction and amplifiers to become unstable at higher frequencies.
 
 ---
 

@@ -1,22 +1,30 @@
 ---
 chapter: "2"
 section: "2.4"
-questions: ["G7B03", "G6B02", "G6B03", "G6B06", "G7B06", "G7B05"]
+questions: ["G6A07", "G7B03", "G6B02", "G6B03", "G6B06", "G7B06", "G7B05"]
 status: draft1
 ---
 
 ### Section 2.4: Digital Circuit Fundamentals
 
-Modern amateur radio equipment relies heavily on digital technology to process signals, control functions, and enhance performance. As a General class operator exploring HF bands and digital modes, understanding these digital building blocks helps explain how your equipment processes signals and why certain features work the way they do. Since our goal is to help you understand the basics of digital circuits for your exam, we'll focus on the key concepts you need to know rather than diving into the complexities of digital design.
+The switching power supplies in the previous section use transistors to turn current on and off. Digital circuits also use switching, but their purpose is to represent and process information. Inside your radio, these circuits handle tasks such as controlling settings and processing signals. To understand how they work, we'll begin with two states: low and high.
 
 #### The Digital Difference: Binary States
 
-Unlike analog circuits that work with continuously varying voltages and currents, digital circuits operate with just two states: on or off (usually represented as 1 or 0). This binary approach creates circuits that are:
+Unlike analog circuits that work with continuously varying voltages and currents, digital logic represents information with two states: low or high (usually represented as 0 or 1). Each state allows a range of voltages; small noise changes within that range need not change the value. This binary approach creates circuits that are:
 - More resistant to noise and interference
 - Capable of precise, repeatable operations
 - Able to perform complex logical functions
 
-This fundamental difference explains why digital signal processing can often extract weak signals from noise more effectively than analog circuits alone—a capability you'll appreciate on the crowded HF bands.
+These reliable states let digital circuits carry out calculations on signal samples. That is the basis of digital signal processing, which we will explore in the next chapter.
+
+#### Transistors as Switches
+
+Earlier in this chapter, we saw how a small base current controls a larger current in a bipolar transistor. Digital switching uses two operating conditions:
+
+> **Key Information:** A bipolar transistor used as a switch operates at cutoff and saturation. {{< link id="G6A07" >}}
+
+In **cutoff**, very little collector current flows, like an open (off position) switch. In **saturation**, the collector-to-emitter voltage is small, like a closed (on position) switch. The load still limits the current. For example, a transistor can turn an indicator off in cutoff and on in saturation.
 
 #### Logic Gates: Digital Decision Makers
 
@@ -24,7 +32,8 @@ The fundamental building blocks of digital circuits are logic gates—components
 
 > **Key Information:** A two-input AND gate outputs a high signal (1) only when both inputs are high. {{< link id="G7B03" >}}
 
-<img src="../../../images/and-gate.svg" alt="AND Gate Symbol" style="width: 75px; margin: 10px; float: right;">
+![The AND gate symbol has a flat left edge and a curved right edge, like a capital D. Two input lines, A and B, enter on the left; one output line leaves on the right. The output is high only when both inputs are high. If either input, or both inputs, are low, the output is low.](../../../images/s2-4-and-gate.svg)
+{.img-centered}
 
  A | B | Output
 :-:|:-:|:------:
@@ -42,19 +51,19 @@ There are many other types of gates which provide similar but different function
 
 #### Integrated Circuits: Technology in a Package
 
-Most digital functions in modern equipment are implemented using integrated circuits (ICs)—silicon chips containing thousands or millions of transistors in a single package.
+Most digital functions in modern equipment are implemented using integrated circuits (ICs)—chips that combine many circuit elements in one package, from small logic blocks to processors with millions of transistors.
 
 ##### MMICs: RF Processing in a Tiny Package
 
 > **Key Information:** MMIC stands for Monolithic Microwave Integrated Circuit. {{< link id="G6B02" >}}
 
-These specialized ICs are designed specifically for radio frequency and microwave applications, integrating various RF functions into a single chip:
+“Monolithic” means the circuit is formed together on one semiconductor chip. An MMIC can handle analog RF signals; being an IC does not make it digital. These specialized ICs are designed for radio frequency and microwave applications, integrating various RF functions into a single chip:
 - Amplifiers
 - Mixers
 - Oscillators
 - Filters
 
-MMICs have revolutionized RF design by enabling complex RF processing in extremely small packages. They're a key reason why modern handhelds and mobile radios can offer sophisticated features in compact sizes. As you explore microwave bands and satellite communications with your General privileges, you'll benefit from equipment using these efficient components.
+MMICs have revolutionized RF design by enabling complex RF processing in extremely small packages. They're a key reason why modern handhelds and mobile radios can offer sophisticated features in compact sizes. As you explore microwave bands and satellite communications as your interests grow, you'll benefit from equipment using these efficient components.
 
 ##### CMOS vs. TTL: Digital Logic Families
 
@@ -62,21 +71,21 @@ Digital ICs come in different "families" with distinct characteristics:
 
 > **Key Information:** An advantage of CMOS integrated circuits compared to TTL integrated circuits is low power consumption. {{< link id="G6B03" >}}
 
-**CMOS (Complementary Metal-Oxide-Semiconductor)** offers:
+**CMOS (Complementary Metal-Oxide-Semiconductor)** varies by family. Some conventional CMOS families offer:
 - Very low power consumption (especially when not switching)
-- Wide range of operating voltages (typically 3V to 15V)
+- A range of operating voltages, specified for the particular family
 - High noise immunity
 - Recognizes 70% of supply voltage or higher as logical "1" 
 - Recognizes 30% of supply voltage or lower as logical "0"
 
-**TTL (Transistor-Transistor Logic)** provides:
-- Faster switching speeds (in traditional versions)
-- Higher current drive capability
+**Traditional 5 V TTL (Transistor-Transistor Logic)** provides:
+- Faster switching than some early CMOS families
+- Output-current limits that depend on the part
 - More standardized voltage levels (fixed 5V supply)
 - Recognizes 2.0V to 5.0V as logical "1"
 - Recognizes 0V to 0.8V as logical "0"
 
-Modern amateur radio equipment predominantly uses CMOS technology due to its energy efficiency—particularly important for portable and battery-powered devices. This technology choice directly impacts your radio's battery life and heat generation.
+Check a device’s actual supply and input ratings before connecting logic families. CMOS switching still consumes energy, so faster and more complex chips can use substantial power. Modern amateur radio equipment widely uses CMOS technology due to its energy efficiency—particularly important for portable and battery-powered devices. This technology choice directly impacts your radio's battery life and heat generation.
 
 #### Operational Amplifiers: The Analog-Digital Bridge
 
@@ -84,15 +93,15 @@ While we're focusing on digital circuits, it's important to understand how analo
 
 > **Key Information:** An integrated circuit operational amplifier is an analog device. {{< link id="G6B06" >}}
 
-![Operational Amplifier Symbol](../../../images/op-amp.svg)
-{.float-right .img-sm caption="Figure 1: Operational Amplifier symbol"}
+![An operational amplifier is drawn as a triangle pointing to the right. Two inputs enter its flat left side: the upper input is marked minus and the lower input is marked plus. The output leaves the triangle’s right-hand point. The minus sign identifies the inverting input, and the plus sign identifies the non-inverting input; these are signal inputs, not the amplifier’s power-supply connections.](../../../images/s2-4-op-amp.svg)
+{.float-right .img-small caption="Figure 1: Operational Amplifier symbol"}
 
 Operational amplifiers (op-amps) are versatile analog ICs that:
 - Amplify and condition signals
 - Create active filters
 - Buffer between circuit stages
 
-Op-amps often form the critical interface between analog signals (from antennas or microphones) and the digital processing systems within modern transceivers. They prepare signals for analog-to-digital conversion and restore processed digital signals to analog form for transmission or audio output.
+Op-amps often form the critical interface between analog signals (from antennas or microphones) and the digital processing systems within modern transceivers. They can prepare signals for an analog-to-digital converter and filter or buffer the output of a digital-to-analog converter. The converters perform the conversion; the op-amp remains an analog device.
 
 Passing the exam requires that you know that op-amps are analog devices, but the practical applications of op-amps in digital systems are beyond the scope of this book and the exam.
 
@@ -104,8 +113,10 @@ Digital circuits include specialized components for managing digital information
 
 > **Key Information:** A shift register is a clocked array of circuits that passes data in steps along the array. {{< link id="G7B06" >}}
 
-![Shift Register Operation](../../../images/shift-register.gif)
-{.img-centered caption="Figure 2: Shift register example animation"}
+A **bit** is one binary digit, 0 or 1. A **clock** provides the timing steps.
+
+![Five rows show four register stages connected in a chain, with data moving from left to right. All four stages start at zero. A one enters on the first clock step, followed by zeros on later steps. On the next three clock steps, the one moves to the second, third, and fourth stages. All other stages hold zero. Each clock step moves the stored bit one stage toward the output at the right.](../../../images/s2-4-shift-register-static.svg)
+{.img-centered caption="Figure 2: A 1 followed by zeros moves one stage per clock step."}
 
 A shift register functions like a bucket brigade for digital data—each pulse of a clock signal moves the data one position down the line. This sequential movement is important for:
 - Converting between serial and parallel data forms
@@ -132,7 +143,7 @@ A binary counter is a digital circuit that advances through a sequence of binary
 | 7       | 111    |
 {.w-50}
 
-That's $2^3 = 8$ different states.
+That's $2^3 = 8$ different states: two possibilities for each of three bits. The largest value is seven because counting starts at zero.
 
 Binary counters are fundamental to:
 - Frequency synthesis in modern transceivers
@@ -146,7 +157,7 @@ The number of bits in a counter determines how many states it can represent: an 
 While we've focused on the fundamental components, these digital building blocks combine to create the sophisticated capabilities in modern equipment:
 
 - **Digital Signal Processing (DSP)** uses these elements at high speeds to filter signals and reduce noise
-- **Software Defined Radio (SDR)** leverages digital processing to implement radio functions in software rather than hardware
+- **Software Defined Radio (SDR)** leverages digital processing to implement radio functions in software running on processing hardware, rather than fixed analog circuits
 - **Digital Mode Operation** relies on these components to encode and decode signals
 
 When you use features like noise reduction, notch filters, or digital mode interfaces, you're benefiting from these digital fundamentals working together.
