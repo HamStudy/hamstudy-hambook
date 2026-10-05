@@ -58,7 +58,7 @@ Now that we understand current and voltage behavior, let's see how components co
 
 #### Resistors in Combination
 
-> **Key Information:** When resistors are in series, their values add. When resistors are in parallel, the total resistance is always less than the smallest resistor in the group.
+When resistors are in series, their values add. When resistors are in parallel, the total resistance is always less than the smallest resistor in the group.
 
 ##### **Resistors in Series (Direct Sum Method):**
 When resistors are connected end-to-end, their values simply add:
