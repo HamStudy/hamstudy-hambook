@@ -9,39 +9,44 @@ status: draft1
 
 You've just worked your first transatlantic contact. The European station gives you a "five by three" report—perfectly readable, but your signal is weak. You're running 100 watts into what should be a decent antenna. Where did your power go?
 
-As a Technician, you learned that impedance matching matters and that SWR tells you something about your antenna system. Now as a General operator working HF with higher power and longer feed line runs, you need to understand that "antenna system" isn't just the antenna—it's the complete chain from your radio through connectors, feed line, and finally to the antenna itself. Each link in this chain affects your signal, and understanding how they work together separates stations that barely get out from those that work the world.
+As a Technician, you learned that impedance matching matters and that SWR tells you something about your antenna system. As you prepare to use more HF bands and perhaps longer feed line runs, you need to understand that "antenna system" isn't just the antenna—it's the complete chain from your radio through connectors, feed line, and finally to the antenna itself. Each link in this chain affects your signal, and understanding how they work together separates stations that barely get out from those that work the world.
 
-The challenge? Most operators focus exclusively on their antenna while overlooking the feed line and connectors that deliver power to it. You can have the world's best antenna, but if your feed line wastes half your signal before it arrives, you're still losing. Let's start by understanding these critical but often overlooked components. In the next section, we'll see how everything connects to the antenna itself to form a complete, efficient system.
+The challenge? It is easy to focus on the antenna while overlooking the feed line and connectors that deliver power to it. You can have the world's best antenna, but if your feed line wastes half your signal before it arrives, you're still losing. Let's start by understanding these critical but often overlooked components. In the next section, we'll see how everything connects to the antenna itself to form a complete, efficient system.
 
 #### Understanding Characteristic Impedance
 
-Every feed line has a characteristic impedance—a fixed property determined by its physical construction:
+Every feed line has a characteristic impedance determined by its physical construction. For ordinary low-loss RF cable, its rated impedance is nearly constant over its intended frequency range:
 
 > **Key Information:** The characteristic impedance of a parallel conductor feed line is determined by the distance between the centers of the conductors and the radius of the conductors. {{< link id="G9A01" >}}
 
 The physics is beautifully simple:
 - Spread conductors farther apart? Impedance goes up.
 - Use fatter wires? Impedance goes down.
-- What you connect to either end? Doesn't change the cable's impedance.
+- What you connect to either end? Doesn't change the cable's characteristic impedance.
+
+Those comparisons assume the same insulating material, or *dielectric*, between the conductors. The dielectric also affects impedance.
 
 Common impedances you'll encounter:
-- **50 ohms**: The amateur radio standard—your radio expects it, most antennas are designed for it
-- **75 ohms**: TV cable—cheaper but wrong for ham gear
-- **450 ohms**: Ladder line—wide spacing for low loss
+- **50 ohms**: The usual amateur radio standard—most transceivers expect it
+- **75 ohms**: Common in TV cable, but useful in some amateur installations too
+- **450 ohms**: Window line—spaced conductors and air gaps for low loss
 
-This characteristic impedance is a fundamental property of the feed line itself. When you connect your radio (expecting 50 ohms) to 50-ohm coax and then to an antenna that also presents 50 ohms, power flows smoothly through the entire system. But any mismatch anywhere in this chain—whether at the radio, connectors, feed line, or antenna—creates reflections that waste power. We'll explore exactly how those antenna mismatches affect your system in the next section, but first you need to understand what determines feed line impedance and how to preserve the signal you're sending through it.
+This characteristic impedance is a fundamental property of the feed line itself. When you connect your radio (expecting 50 ohms) to 50-ohm coax and then to an antenna that also presents 50 ohms, power flows smoothly through the entire system. But any mismatch anywhere in this chain—whether at the radio, connectors, feed line, or antenna—creates reflections. In a real feed line, the resulting standing waves can increase heat loss. We'll explore those antenna mismatches in the next section. First, let's compare the practical tradeoffs between feed-line types.
 
 > **Key Information:** The nominal characteristic impedance of "window line" transmission line is 450 ohms. {{< link id="G9A03" >}}
 
 Window line (ladder line with rectangular cutouts) achieves remarkable efficiency by using air as its primary dielectric. Those windows aren't decorative—they remove lossy plastic while maintaining conductor spacing.
 
+![Coax has a central conductor surrounded by insulation, with a conducting shield wrapped around that insulation. Window line instead has two parallel wires held apart by insulating material. Rectangular openings remove much of the material between the wires while keeping their spacing fixed. The key difference is one conductor surrounding the other in coax, compared with two side-by-side conductors in window line.](../../../images/s4-1-feed-lines.svg)
+{.img-centered}
+
 The tradeoff? Window line demands respect:
 - Keep it away from metal objects
 - Avoid sharp bends
 - Protect it from ice buildup
-- Don't run it parallel to other cables
+- Keep sufficient clearance from other cables
 
-Coax is the easygoing alternative—its shield contains RF and blocks interference. Window line trades convenience for efficiency—worthwhile when you need every watt to count such as for QRP (weak signal) operation.
+Coax is the easygoing alternative—its shield confines the wanted signal and helps block outside interference. Unwanted current can still flow on the outside of that shield; Section 1.4 explains how a choke helps control it. Window line trades convenience for efficiency—worthwhile when you need every watt to count such as for QRP (low-power) operation.
 
 #### Feed Line Loss: Where Your Power Goes
 
@@ -52,53 +57,56 @@ Here's a sobering thought: You might be losing more power in your feed line than
 Three culprits steal your signal:
 1. **Skin effect**: At RF, current crowds onto the conductor's surface. Higher frequency = thinner skin = more resistance.
 2. **Dielectric heating**: The insulation absorbs energy, especially as frequency climbs.
-3. **Radiation**: All feed lines leak a little RF. In good coax this is tiny, but damage or poor shielding can make it worse. Open-wire or window line can also radiate more if it's unbalanced or routed near metal.
+3. **Unwanted radiation**: Damage or poor shielding can let coax leak RF. Open-wire or window line can also radiate if its currents become unbalanced, for example when it is routed too close to metal.
 
 > **Key Information:** RF feed line loss is usually expressed in decibels per 100 feet. {{< link id="G9A06" >}}
 
-Let's put this in perspective with RG-8X (a popular "compromise" cable):
-- **10 MHz (30 meters)**: 1.0 dB/100 ft—barely noticeable
-- **50 MHz (6 meters)**: 2.3 dB/100 ft—starting to hurt
-- **146 MHz (2 meters)**: 4.5 dB/100 ft—ouch!
-- **440 MHz (70 cm)**: 8.6 dB/100 ft—yikes!
+Let's put this in perspective with RG-8X (a popular "compromise" cable). The [Davis RF attenuation chart](https://www.davisrf.com/attenuation.php) gives these figures:
+- **10 MHz (30 meters)**: 0.78 dB/100 ft—barely noticeable
+- **50 MHz (6 meters)**: 2.0 dB/100 ft—starting to hurt
+- **200 MHz (VHF)**: 4.5 dB/100 ft—ouch!
+- **400 MHz (UHF)**: 6.0 dB/100 ft—yikes!
 
-That 4.5 dB loss on 2 meters? You're delivering 35 watts to your antenna from a 100-watt radio. The other 65 watts? Warming up your coax. Now you know why that distant station can't hear you. And remember—this loss affects both transmit AND receive. Your signal weakens going out, and incoming signals weaken coming back in. It's a double penalty.
+These are specifications for one cable choice, not every product sold as RG-8X. Check the actual cable's data at your operating frequency.
+
+What does a 4.5 dB loss mean for your signal? You're delivering 35 watts to your antenna from a 100-watt radio. The other 65 watts? Warming up your coax. That could be part of why that distant station can't hear you. And remember—this loss affects both transmit AND receive. Your signal weakens going out, and incoming signals weaken coming back in. It's a double penalty. How much the receive loss hurts signal-to-noise ratio depends on the receiver and the external noise arriving with the signal.
 
 #### Choosing Feed Line for Your Station
 
 Selecting feed line is like choosing tires for your car—snow tires for winter, all-terrains for off-road, high-performance for the track. Your choice depends on frequency, distance, power level, and installation constraints.
 
 **The Distance Factor:**
-Running 10 feet to an attic antenna? Almost any coax will work fine—the losses are minimal. Running 200 feet to that tower? Now feed line choice becomes critical. At HF, even mediocre coax might work for short runs, but those same losses multiply with distance until they dominate your signal budget.
+Running 10 feet to an attic antenna? For a short HF run, most sound 50-ohm coax will have little loss. Running 200 feet to that tower? Now feed line choice becomes critical. At HF, even mediocre coax might work for short runs, but those same losses multiply with distance until they dominate your signal budget.
 
-**HF Operations (160-10 meters):**
-Both window line and coax have their place. Window line offers extremely low loss—ideal for long runs or when you need maximum efficiency. But it requires careful installation away from metal (including other cables, tower legs, raingutters, etc), needs an antenna tuner, and doesn't tolerate ice or water well.
+**HF and 160-Meter Operations:**
+160 meters is an MF band, though it is often grouped with HF in station discussions.
+Both window line and coax have their place. Window line offers extremely low loss—ideal for long runs or when you need maximum efficiency. But it requires careful installation away from metal (including other cables, tower legs, raingutters, etc), often uses a suitable antenna tuner, and can be affected by ice or water.
 
-Quality coax trades some efficiency for convenience—it's mostly weatherproof, doesn't care about nearby metal, and connects directly to your radio. For most HF stations, good coax is the practical choice.
+Quality coax trades some efficiency for convenience—it's weather-resistant with properly sealed outdoor connections, is less affected by nearby metal, and connects directly to your radio. For most HF stations, good coax is the practical choice.
 
 **VHF/UHF Operations:**
-Higher frequencies mean higher losses. Coax that works adequately at HF might lose half your power at 2 meters over a long run. At UHF you could see significant losses even with good coax. Short runs? Use what you have. For longer runs? Invest in better quality cable.
+Higher frequencies mean higher losses. Coax that works adequately at HF might lose half your power at 2 meters over a long run. At UHF you could see significant losses even with good coax. Short runs? Your existing cable may be fine if its ratings suit the job. For longer runs? Invest in better quality cable.
 
 **Power Considerations:**
-QRP operators can use lighter coax—when you're running 5 watts, power handling isn't a concern. But push 1500 watts through undersized coax and you risk damage from heating, especially at impedance mismatch points.
+QRP operators can use lighter coax—when you're running 5 watts, power handling usually isn't the main concern. But push 1500 watts through undersized coax and you risk damage from heating, especially with high SWR.
 
 #### RF Connectors: Moving Beyond Handheld Adapters
 
-As a Technician, you learned about SMA and BNC connectors on your handheld, maybe even added that BNC adapter everyone's talking about. Now as a General operator working HF with higher power and demanding applications, connector choice becomes even more critical. The best radio and antenna in the world become expensive decorations if a poorly installed connector blocks your signal. A damaged PL-259, corroded connection, or wrong connector type can waste just as much power as having the wrong antenna.
+Once you've chosen the cable, you need suitable connectors at each end. For an HF station or a more demanding installation, connector choice becomes even more critical. The best radio and antenna in the world become expensive decorations if a poorly installed connector blocks your signal. A damaged PL-259, corroded connection, or wrong connector type can waste just as much power as having the wrong antenna.
 
 ##### Quick Review: The Connector Lineup
 
-You already know the basics—SMA for handhelds, UHF connectors (PL-259/SO-239) for mobile and base gear, BNC for quick connections. As a General operator, you'll use these same connectors but in more demanding situations where details really matter.
+You already know the basics—SMA for handhelds, UHF connectors (PL-259/SO-239) for mobile and base gear, BNC for quick connections. On HF, you'll use these same connectors but sometimes in more demanding situations where details really matter.
 
 ##### BNC at HF Frequencies
 > **Key Information:** A typical upper frequency limit for low SWR operation of 50-ohm BNC connectors is *4 GHz*. {{< link id="G6B04" >}}
 
-BNC handles 100 watts and works fine through HF frequencies. You'll see it on test equipment like antenna analyzers and oscilloscopes where the quick twist-lock connection is handy. But HF transceivers and antennas come with UHF connectors, and installing BNC on thick coax is challenging, so BNC remains rare in HF stations despite being technically capable.
+A suitable BNC connector can handle a 100-watt HF station; check the ratings of the actual connector and cable. You'll see it on test equipment like antenna analyzers and oscilloscopes where the quick twist-lock connection is handy. Many HF transceivers and antennas come with UHF connectors, and BNC options for thick coax are more limited. Still, BNC is a useful choice on portable and test equipment.
 
 ##### Type N: An Underappreciated Option
 > **Key Information:** A type N connector is a *moisture-resistant RF connector useful to 10 GHz*. {{< link id="G6B07" >}}
 
-Type N is the connector that does everything right—highly weather-resistant, handles legal limit power, maintains constant impedance, works into microwave frequencies. It's technically superior to UHF connectors for almost everything we do.
+Type N has a lot going for it—highly weather-resistant, maintains a controlled impedance, and works into microwave frequencies. Many versions handle substantial HF power, but check the actual connector's rating at your frequency before connecting an amplifier.
 
 So why don't we all use Type N? Simple: most amateur radio transceivers come with UHF connectors, so that's what we use. Switching to Type N means adapters or replacing connectors, which adds hassle and potentially negates some benefits. Still, for permanent outdoor installations or VHF/UHF weak signal work, Type N is worth considering.
 
@@ -110,7 +118,7 @@ Beyond handhelds, you'll find these tiny threaded connectors on SDR equipment an
 ##### Audio and Control Connections
 > **Key Information:** *RCA Phono* connectors are commonly used for *low frequency or DC signal connections* to a transceiver. {{< link id="G6B12" >}}
 
-Those RCA jacks behind your transceiver handle audio and control signals for digital modes, PTT keying, and external speakers—never RF.
+Those RCA jacks behind your transceiver handle audio and control signals for digital modes, PTT keying, and external speakers. RCA connectors can also carry RF in some equipment, so check the labels.
 
 #### Building Your Complete Antenna System
 

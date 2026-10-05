@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="385" viewBox="0 0 640 385" role="img" aria-labelledby="title desc">
+<title id="title">Loading a short whip</title><desc id="desc">One short whip has a series loading coil. Another uses both a top capacitance hat and a coil. Both use a return path through the installation. Drawings show concepts, not measured dimensions.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#111"/></marker></defs>
+<style>text{font-family:Arial,Helvetica,sans-serif;font-size:24px;fill:#111} .small{font-size:22px} .head{font-weight:bold} .wire{fill:none;stroke:#111;stroke-width:4;stroke-linecap:round;stroke-linejoin:round} .thin{fill:none;stroke:#555;stroke-width:2.5} .dash{stroke-dasharray:8 6} .arrow{fill:none;stroke:#111;stroke-width:3;marker-end:url(#arrow)} .box{fill:#fff;stroke:#111;stroke-width:2.5} .light{fill:#eee;stroke:#555;stroke-width:2} </style>
+<rect width="640" height="385" fill="white"/>
+<text x="185" y="34" class="head" text-anchor="middle">Coil loading</text><text x="455" y="34" class="head" text-anchor="middle">Hat and coil</text><line x1="185" y1="67" x2="185" y2="132" class="wire"/><path d="M 185.0,132.0 L 190.3,133.0 L 195.0,134.0 L 198.8,135.0 L 201.2,136.0 L 202.0,137.0 L 201.2,138.0 L 198.8,139.0 L 195.0,140.0 L 190.3,141.0 L 185.0,142.0 L 179.7,143.0 L 175.0,144.0 L 171.2,145.0 L 168.8,146.0 L 168.0,147.0 L 168.8,148.0 L 171.2,149.0 L 175.0,150.0 L 179.7,151.0 L 185.0,152.0 L 190.3,153.0 L 195.0,154.0 L 198.8,155.0 L 201.2,156.0 L 202.0,157.0 L 201.2,158.0 L 198.8,159.0 L 195.0,160.0 L 190.3,161.0 L 185.0,162.0 L 179.7,163.0 L 175.0,164.0 L 171.2,165.0 L 168.8,166.0 L 168.0,167.0 L 168.8,168.0 L 171.2,169.0 L 175.0,170.0 L 179.7,171.0 L 185.0,172.0 L 190.3,173.0 L 195.0,174.0 L 198.8,175.0 L 201.2,176.0 L 202.0,177.0 L 201.2,178.0 L 198.8,179.0 L 195.0,180.0 L 190.3,181.0 L 185.0,182.0 L 179.7,183.0 L 175.0,184.0 L 171.2,185.0 L 168.8,186.0 L 168.0,187.0 L 168.8,188.0 L 171.2,189.0 L 175.0,190.0 L 179.7,191.0 L 185.0,192.0" class="wire c-primary-stroke"/><line x1="185" y1="192" x2="185" y2="263" class="wire"/><line x1="82" y1="270" x2="288" y2="270" class="wire"/><line x1="455" y1="92" x2="455" y2="156" class="wire"/><path d="M 455.0,156.0 L 460.3,157.0 L 465.0,158.0 L 468.8,159.0 L 471.2,160.0 L 472.0,161.0 L 471.2,162.0 L 468.8,163.0 L 465.0,164.0 L 460.3,165.0 L 455.0,166.0 L 449.7,167.0 L 445.0,168.0 L 441.2,169.0 L 438.8,170.0 L 438.0,171.0 L 438.8,172.0 L 441.2,173.0 L 445.0,174.0 L 449.7,175.0 L 455.0,176.0 L 460.3,177.0 L 465.0,178.0 L 468.8,179.0 L 471.2,180.0 L 472.0,181.0 L 471.2,182.0 L 468.8,183.0 L 465.0,184.0 L 460.3,185.0 L 455.0,186.0 L 449.7,187.0 L 445.0,188.0 L 441.2,189.0 L 438.8,190.0 L 438.0,191.0 L 438.8,192.0 L 441.2,193.0 L 445.0,194.0 L 449.7,195.0 L 455.0,196.0" class="wire c-primary-stroke"/><line x1="455" y1="197" x2="455" y2="263" class="wire"/><line x1="352" y1="270" x2="558" y2="270" class="wire"/><line x1="395" y1="92" x2="515" y2="92" class="wire c-secondary-stroke"/><line x1="412" y1="76" x2="498" y2="108" class="wire c-secondary-stroke"/><line x1="412" y1="108" x2="498" y2="76" class="wire c-secondary-stroke"/><text x="548" y="147" class="small" text-anchor="middle">Hat</text><line x1="533" y1="126" x2="503" y2="98" class="thin"/><text x="320" y="206" class="small" text-anchor="middle">Coils</text><line x1="284" y1="198" x2="203" y2="166" class="thin"/><line x1="355" y1="199" x2="435" y2="177" class="thin"/><text x="320" y="315" class="small" text-anchor="middle">Mount and RF return path</text><text x="320" y="360" class="small" text-anchor="middle">Parts shown; sizes depend on the design.</text>
+<style id="semantic-color">.c-primary-stroke{stroke:#0068a8}.c-secondary-stroke{stroke:#b45309}</style>
+
+<!-- Keep the light palette for print and SVG readers without theme support. -->
+<style id="figure-theme">
+  @media screen and (prefers-color-scheme: dark) {
+    [fill="white"] { fill: #111820; }
+    [fill="#111"] { fill: #e9eef4; }
+    text { fill: #e9eef4; }
+    .wire { stroke: #e9eef4; }
+    .thin { stroke: #b8c5d4; }
+    .arrow { stroke: #e9eef4; }
+    .box { fill: #111820; stroke: #e9eef4; }
+    .light { fill: #24313f; stroke: #b8c5d4; }
+    .c-primary-stroke { stroke: #79c6ff; }
+    .c-secondary-stroke { stroke: #ffc078; }
+  }
+</style>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+<title id="title">Two feed-line structures</title><desc id="desc">Coax cross-section has an inner conductor surrounded by dielectric and a shield. Window line has two parallel wires spaced by insulating material with openings.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#111"/></marker></defs>
+<style>text{font-family:Arial,Helvetica,sans-serif;font-size:24px;fill:#111} .small{font-size:22px} .head{font-weight:bold} .wire{fill:none;stroke:#111;stroke-width:4;stroke-linecap:round;stroke-linejoin:round} .thin{fill:none;stroke:#555;stroke-width:2.5} .dash{stroke-dasharray:8 6} .arrow{fill:none;stroke:#111;stroke-width:3;marker-end:url(#arrow)} .box{fill:#fff;stroke:#111;stroke-width:2.5} .light{fill:#eee;stroke:#555;stroke-width:2} </style>
+<rect width="640" height="360" fill="white"/>
+<text x="165" y="35" class="head" text-anchor="middle">Coax</text><text x="470" y="35" class="head" text-anchor="middle">Window line</text><circle cx="165" cy="145" r="80" fill="#555" class="c-primary-fill"/><circle cx="165" cy="145" r="64" fill="#eee" stroke="#111" stroke-width="2"/><circle cx="165" cy="145" r="10" fill="#111" class="c-primary-fill"/><line x1="171" y1="145" x2="275" y2="145" class="thin"/><text x="270" y="260" class="small" text-anchor="middle">Inner conductor</text><line x1="275" y1="145" x2="275" y2="234" class="thin"/><line x1="175" y1="105" x2="40" y2="85" class="thin"/><text x="22" y="65" class="small" text-anchor="start">Insulation</text><line x1="116" y1="209" x2="80" y2="285" class="thin"/><text x="80" y="318" class="small" text-anchor="middle">Shield</text><rect x="405" y="77" width="130" height="160" fill="#eee" stroke="#777" stroke-width="2"/><rect x="430" y="90" width="80" height="30" fill="white" stroke="#777" stroke-width="1"/><rect x="430" y="140" width="80" height="30" fill="white" stroke="#777" stroke-width="1"/><rect x="430" y="190" width="80" height="30" fill="white" stroke="#777" stroke-width="1"/><line x1="410" y1="62" x2="410" y2="245" class="wire c-primary-stroke"/><line x1="530" y1="62" x2="530" y2="245" class="wire c-primary-stroke"/><line x1="415" y1="273" x2="525" y2="273" class="thin"/><text x="470" y="312" class="small" text-anchor="middle">Two spaced wires</text>
+<style id="semantic-color">.c-primary-fill{fill:#0068a8}.c-primary-stroke{stroke:#0068a8}</style>
+
+<!-- Keep the light palette for print and SVG readers without theme support. -->
+<style id="figure-theme">
+  @media screen and (prefers-color-scheme: dark) {
+    [fill="white"] { fill: #111820; }
+    [fill="#111"] { fill: #e9eef4; }
+    [fill="#555"] { fill: #b8c5d4; }
+    [fill="#eee"] { fill: #24313f; }
+    [stroke="#111"] { stroke: #e9eef4; }
+    [stroke="#777"] { stroke: #a3b1c2; }
+    text { fill: #e9eef4; }
+    .wire { stroke: #e9eef4; }
+    .thin { stroke: #b8c5d4; }
+    .arrow { stroke: #e9eef4; }
+    .box { fill: #111820; stroke: #e9eef4; }
+    .light { fill: #24313f; stroke: #b8c5d4; }
+    .c-primary-fill { fill: #79c6ff; }
+    .c-primary-stroke { stroke: #79c6ff; }
+  }
+</style>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="380" viewBox="0 0 640 380" role="img" aria-labelledby="title desc">
+<title id="title">Three-element Yagi</title><desc id="desc">Reflector is longer than the driven element; director is shorter. Forward radiation is toward the director. The boom holds the elements in place; only the driven element has a feed-point connection.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#111"/></marker></defs>
+<style>text{font-family:Arial,Helvetica,sans-serif;font-size:24px;fill:#111} .small{font-size:22px} .head{font-weight:bold} .wire{fill:none;stroke:#111;stroke-width:4;stroke-linecap:round;stroke-linejoin:round} .thin{fill:none;stroke:#555;stroke-width:2.5} .dash{stroke-dasharray:8 6} .arrow{fill:none;stroke:#111;stroke-width:3;marker-end:url(#arrow)} .box{fill:#fff;stroke:#111;stroke-width:2.5} .light{fill:#eee;stroke:#555;stroke-width:2} </style>
+<rect width="640" height="380" fill="white"/>
+<text x="100" y="35" class="head" text-anchor="middle">Reflector</text><text x="320" y="35" class="head" text-anchor="middle">Driven</text><text x="540" y="35" class="head" text-anchor="middle">Director</text><line x1="75" y1="174" x2="565" y2="174" class="thin dash"/><line x1="100" y1="70" x2="100" y2="275" class="wire"/><line x1="320" y1="93" x2="320" y2="165" class="wire c-primary-stroke"/><line x1="320" y1="182" x2="320" y2="255" class="wire c-primary-stroke"/><line x1="540" y1="111" x2="540" y2="237" class="wire"/><circle cx="320" cy="165" r="4" fill="#111" class="c-primary-fill"/><circle cx="320" cy="182" r="4" fill="#111" class="c-primary-fill"/><line x1="310" y1="175" x2="230" y2="310" class="thin"/><text x="230" y="340" class="small" text-anchor="middle">Feed point</text><text x="445" y="307" class="small" text-anchor="middle">Boom</text><line x1="445" y1="282" x2="445" y2="179" class="thin"/><line x1="367" y1="76" x2="578" y2="76" class="arrow c-passband-stroke"/><text x="470" y="60" class="small" text-anchor="middle">Forward</text><text x="320" y="375" class="small" text-anchor="middle">Relative lengths shown; not a construction plan.</text>
+<style id="semantic-color">.c-passband-stroke{stroke:#00776f}.c-primary-fill{fill:#0068a8}.c-primary-stroke{stroke:#0068a8}</style>
+
+<!-- Keep the light palette for print and SVG readers without theme support. -->
+<style id="figure-theme">
+  @media screen and (prefers-color-scheme: dark) {
+    [fill="white"] { fill: #111820; }
+    [fill="#111"] { fill: #e9eef4; }
+    text { fill: #e9eef4; }
+    .wire { stroke: #e9eef4; }
+    .thin { stroke: #b8c5d4; }
+    .arrow { stroke: #e9eef4; }
+    .box { fill: #111820; stroke: #e9eef4; }
+    .light { fill: #24313f; stroke: #b8c5d4; }
+    .c-passband-stroke { stroke: #70d5c6; }
+    .c-primary-fill { fill: #79c6ff; }
+    .c-primary-stroke { stroke: #79c6ff; }
+  }
+</style>
+</svg>
