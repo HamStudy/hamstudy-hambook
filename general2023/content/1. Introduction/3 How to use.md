@@ -7,7 +7,7 @@ slug: how-to-use
 
 ## Structure of the HamBook
 
-The General Class License HamBook is structured to support your existing study habits while addressing the specific content of the General exam. It is divided into two main parts:
+This HamBook is divided into two main parts:
 
 ### Part 1: Expanding on Radio Science {#how-to-use-part-1}
 
@@ -60,7 +60,7 @@ Once you've covered the material, use this study cycle:
 3. Use "Study Weakest Areas" in the app, or select the categories where you missed questions on the website. Read the related explanations here when you need them.
 4. Study those areas, then take another practice exam.
 
-Consistently scoring 85% or better gives you a useful margin above the 26-out-of-35 passing score. It is a study goal, not a guarantee of your result on exam day.
+Consistently scoring 85% or better gives you a useful margin above the 26-out-of-35 passing score.
 
 You can also keep this book as a reference after passing. Use the contents to return to a topic when it becomes useful in your station. You don't have to become an expert in every part of the hobby before getting started.
 

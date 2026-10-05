@@ -13,8 +13,6 @@ While the Technician license offers many ways to communicate through VHF and UHF
 
 ## The World Awaits
 
-Upgrading to General Class is a major milestone. It grants you much broader HF privileges on bands like 80, 40, 20, and 15 meters. This is where "ionospheric skip" can carry your signal back toward Earth and beyond the horizon to reach distant stations.
-
 With a General Class License, you can:
 
 - Communicate directly with hams in other countries and continents.
@@ -34,8 +32,6 @@ This HamBook covers the US General Class (Element 3) exam pool valid from 2023 t
 - **Practice Questions**: Questions from the actual exam pool, grouped with the topics that explain them.
 
 ## Preparing for the Next Step
-
-If you've passed the Technician exam, you already know the format: 35 questions, with 26 correct answers needed to pass. The General exam uses that same format. While the material is a step up in technical depth, the principles of study and preparation remain the same.
 
 Whether you're looking to upgrade for emergency preparedness, the thrill of talking to a station in Antarctica, or the technical challenge of building a transceiver, this book is your guide.
 

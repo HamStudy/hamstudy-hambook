@@ -6,7 +6,7 @@ epubtype: introduction
 
 # The General Class License
 
-The Technician license is the usual starting point, getting you on the air and introducing you to the fundamentals of amateur radio. For many, however, the General Class License is the goal that originally drew them to the hobby. While Technician privileges are excellent for local communication and offer a taste of HF, the General Class License unlocks the vast potential of the High Frequency (HF) bands for worldwide communication.
+The Technician license is the usual starting point, getting you on the air and introducing you to the fundamentals of amateur radio. For many, however, the General Class License is the goal that originally drew them to the hobby.
 
 ## Why Upgrade?
 

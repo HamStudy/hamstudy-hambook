@@ -22,26 +22,7 @@ Each license builds on the previous one, and requires that you have passed the p
 
 If you already hold a Technician license, you need only **Element 3**, the General exam, to upgrade.
 
-The General exam consists of 35 multiple-choice questions drawn from a pool maintained by the National Conference of Volunteer Examiner Coordinators (NCVEC). The topics include:
-
--   Commission's Rules
--   Operating Procedures
--   Radio Wave Propagation
--   Amateur Radio Practices
--   Electrical Principles
--   Circuit Components
--   Practical Circuits
--   Signals and Emissions
--   Antennas and Feedlines
--   Electrical and RF Safety
-
-## Incentive Licensing
-
-The US system uses "incentive licensing" to encourage hams to learn more and upgrade. As you progress:
-
--   **More Frequencies**: You gain access to additional bands and portions of bands. More choices can help you find an opening, though no license class guarantees a clear frequency.
--   **More Power**: General Class operators can use up to 1,500 watts peak envelope power (PEP) on most HF bands, while Technician HF privileges have a 200-watt PEP limit. Some bands have lower limits; Section 9.2 explains them.
--   **More Modes**: Access to phone (voice) segments on 80, 40, 20, and 15 meters, plus data/CW privileges on 30, 17, and 12 meters.
+The question pool is maintained by the National Conference of Volunteer Examiner Coordinators (NCVEC).
 
 ## Your FCC Registration Number
 
