@@ -19,19 +19,22 @@ The distance each hop covers depends on which ionospheric layer does the refract
 > - F2 region: approximately *2,500 miles*
 > - E region: approximately *1,200 miles*
 
-A single F2 hop can span the Atlantic Ocean. String three hops together and you're communicating 7,500 miles away. The higher layer provides longer hops because geometry favors distance—like throwing a ball against a higher ceiling lets it travel farther before landing.
+A single F2 hop can cross a narrow part of the Atlantic. Under suitable conditions, three hops can cover up to roughly 7,500 miles; real hop lengths vary. The higher layer provides longer hops because geometry favors distance—like throwing a ball against a higher ceiling lets it travel farther before landing.
 
 #### Short Path vs. Long Path
 
-Every distant station offers two possible paths around our spherical Earth. Short path takes the direct route—the shortest distance between two points on the globe. From New York to Japan, you'd aim northwest across Alaska, roughly 7,000 miles.
+Every distant station offers two possible paths around our spherical Earth. Short path takes the direct route—the shortest distance between two points on the globe. From New York to Tokyo, the short great-circle route heads roughly north-northwest and covers about 6,700 miles.
 
-Long path goes the opposite direction completely around the world. That same New York to Japan contact would point southeast toward Africa, traveling about 15,000 miles. This longer journey sometimes encounters better propagation conditions than the direct route.
+Long path goes the opposite direction completely around the world. That same New York-to-Tokyo contact would point south-southeast, traveling about 18,100 miles along the other arc of that great circle. This longer journey sometimes encounters better propagation conditions than the direct route.
 
-When both paths open simultaneously, physics provides an unmistakable indicator. {{< link id="G3B01" >}}
+![Stations A and B lie on one great circle around Earth. The short path follows the smaller arc between them. The long path leaves A in the opposite direction and follows the rest of that same circle to B. These are two routes to the same station, so their initial antenna headings are opposite. The curves mark routes around Earth's surface, not the height of ionospheric hops.](../../../images/s5-3-long-short-path.svg)
+{.img-centered}
+
+When both paths open simultaneously, you may hear a useful clue. {{< link id="G3B01" >}}
 
 > **Key Information:** A characteristic of skywave signals arriving by both short-path and long-path propagation is a *slightly delayed echo*.
 
-The echo results from the 8,000-mile difference in path lengths. The long-path signal arrives milliseconds after the short-path signal, creating a distinctive hollow sound. This echo confirms your signal has successfully traveled around the world in both directions.
+In our example, the surface routes differ by about 11,400 miles—roughly 60 milliseconds of travel time at the speed of light. The actual ionospheric paths are somewhat longer. The later arrival can create a distinctive hollow sound. It is a clue to check the opposite beam heading, though other multiple paths can also cause echoes.
 
 #### Scatter Propagation: Signals from the Impossible Zone
 
@@ -47,19 +50,22 @@ The multiple scattered signals arrive with slightly different timing and phase, 
 
 #### NVIS: Reliable Regional Coverage
 
-Sometimes you need solid coverage of a 200-300 mile area without skip zones or dead spots. Near Vertical Incidence Skywave propagation fills this need by launching signals nearly straight up. {{< link id="G3C10" >}}
+Sometimes you need coverage across a region a few hundred miles wide, including places inside the usual skip zone. Near Vertical Incidence Skywave propagation fills this need by launching signals nearly straight up. {{< link id="G3C10" >}}
 
 > **Key Information:** NVIS propagation is short distance MF or HF propagation using *high radiation angles*.
 
-Instead of using low angles for distance, NVIS uses high angles for area coverage. The ionosphere acts like an umbrella, reflecting your nearly vertical signal back down in a circular pattern around your station. This creates consistent coverage from 0 to 300 miles with no skip zone.
+Instead of using low angles for distance, NVIS uses high angles for area coverage. The ionosphere acts like an umbrella, reflecting your nearly vertical signal back down in a circular pattern around your station. With suitable frequencies and ionospheric conditions, this can fill in the usual skip zone and reach stations out to a few hundred miles away.
 
-NVIS requires specific antenna configuration and frequency selection. Low horizontal antennas (0.1 to 0.25 wavelengths high) produce the high-angle radiation needed. Ground reflection reinforces upward radiation while canceling low-angle signals. Frequency must be below the critical frequency for vertical reflection but high enough to avoid excessive D-region absorption. During daylight, 40 and 60 meters work well. After dark, 80 and 160 meters become optimal as the MUF drops.
+NVIS requires specific antenna configuration and frequency selection. Low horizontal antennas (0.1 to 0.25 wavelengths high) produce the high-angle radiation needed. As we saw in the previous chapter, this height favors a high-angle pattern; the details depend on height and ground conditions. Frequency must be below the critical frequency for vertical reflection but high enough to avoid excessive D-region absorption. During daylight, 40 or 60 meters may be useful choices. After dark, 80 or 160 meters may work better as ionization falls. Check the current path: none of these bands is always suitable.
 
 Emergency services rely on NVIS because it provides dependable regional coverage when infrastructure fails. The mode excels for disaster communications, nets covering mountainous terrain, and any application requiring solid coverage within a few hundred miles.
 
+![Two rays leave the same transmitter and curve back toward Earth through the ionosphere. The steeply rising ray returns nearby; the shallower ray travels much farther before returning. This is the principle behind near vertical incidence skywave: a high-angle path can reach nearby stations that a lower-angle path skips over. Both rays assume a frequency the ionosphere can return. Angles, distances, and heights are not drawn to scale.](../../../images/s5-3-nvis.svg)
+{.img-centered}
+
 #### Understanding MUF and Path Selection
 
-The MUF (Maximum Usable Frequency) concept from Section 5.1 becomes more complex in practice—it's not a single number but varies constantly based on multiple factors. {{< link id="G3B02" >}}
+Choosing among these paths also means choosing a frequency. Earlier in this chapter, we introduced MUF (Maximum Usable Frequency) for a particular path; now let's compare how it can differ between paths. {{< link id="G3B02" >}}
 
 > **Key Information:** MUF is affected by path distance and location, time of day and season, and solar radiation and ionospheric disturbances.
 
@@ -69,30 +75,30 @@ Choosing the right frequency relative to the MUF determines propagation success.
 
 > **Key Information:** For long-distance skip propagation, the least attenuation occurs at frequencies *just below the MUF*.
 
-Operating just below the MUF provides optimal propagation. The frequency is high enough to minimize D-region absorption but low enough for reliable ionospheric refraction. This sweet spot delivers maximum signal strength with minimum fading.
+Operating just below the MUF reduces absorption while the ionosphere can still return the signal. That explains the exam’s least-attenuation answer. The MUF changes, though: a little more room below it may keep a link working when conditions shift. Least attenuation does not necessarily mean minimum fading or greatest reliability.
 
 #### Monitoring Real Propagation
 
-Modern technology eliminates guesswork about band conditions. {{< link id="G3B04" >}}
+Modern technology gives you another way to check band conditions. {{< link id="G3B04" >}}
 
 > **Key Information:** Current propagation can be determined by using a network of automated receiving stations on the internet to see where your transmissions are being received.
 
-Networks like the Reverse Beacon Network and PSK Reporter show exactly where signals propagate in real-time. Transmit a CQ or beacon signal, and within seconds you'll see reports from automated receivers worldwide. This actual propagation data proves more valuable than any prediction.
+Networks like the Reverse Beacon Network and PSK Reporter show where participating receivers have heard signals. Send a CQ in a mode the network monitors, and reports may appear within seconds. That is direct evidence of a working path. No report does not prove the path is closed: a receiver may be absent, busy or unable to decode your signal.
 
 #### Seasonal Propagation Patterns
 
-Summer brings particular challenges to HF operation. {{< link id="G3B12" >}}
+Finding an open path is only part of the job; your signal also has to compete with noise. Summer brings particular challenges to HF operation. {{< link id="G3B12" >}}
 
 > **Key Information:** Lower HF frequencies typically experience high levels of atmospheric noise or static during *summer*.
 
-Thunderstorms across the tropics and temperate regions generate radio noise that plagues 160, 80, and 40 meters from late spring through early fall. Each lightning strike acts as a broadband transmitter, raising noise levels that can bury weak signals. The lower the frequency, the worse the noise. This atmospheric QRN (natural noise) differs from man-made QRM (interference) and can't be filtered out.
+Thunderstorms across the tropics and temperate regions generate radio noise that plagues 160, 80, and 40 meters from late spring through early fall. Each lightning strike acts as a broadband transmitter, raising noise levels that can bury weak signals. The lower the frequency, the worse the noise. Operators often call this static QRN and interference from other signals QRM; the distinction is noise versus interfering signals, not simply natural versus man-made. Filters and noise controls can help, but they cannot always separate noise from a wanted signal in the same passband.
 
-Winter provides the opposite conditions. Minimal thunderstorm activity means low atmospheric noise on all bands. The longer darkness hours favor low-band propagation. Spring and fall equinoxes often bring enhanced propagation as Earth's tilt creates balanced day/night conditions worldwide.
+Winter often brings less local thunderstorm noise, though distant storms can still be heard. The longer darkness hours favor low-band propagation. Spring and fall can also offer useful DX openings; seasonal ionospheric changes and the daylight along each path matter.
 
 #### From Propagation Science to Practical Operation
 
 You now understand how signals travel via multiple hops to circle the globe, why scatter creates weak signals in the skip zone, and how NVIS provides regional coverage. You know that operating just below the MUF minimizes losses and that summer static affects lower frequencies most.
 
-These propagation modes aren't just curiosities—they're tools that enable communication when conventional paths fail. Long path works when short path doesn't. Scatter fills skip zones. NVIS covers disaster areas. Each mode serves specific communication needs.
+These propagation modes aren't just curiosities—they're tools that enable communication when conventional paths fail. Long path may work when short path doesn't. Scatter fills skip zones. NVIS covers disaster areas. Each mode serves specific communication needs.
 
-You now have the complete propagation picture—from ionospheric layers through solar control to signal paths. Part 2 will show you how to apply this propagation knowledge in actual operation. You'll learn when to check for long path openings, how to set up antennas for different propagation modes, and which operating techniques work best for marginal conditions. The science you've mastered provides the foundation for making contacts others miss.
+Band choice and timing are only part of getting on the air. The next part turns to the station you operate, starting with safety before moving into equipment setup and operating procedures.

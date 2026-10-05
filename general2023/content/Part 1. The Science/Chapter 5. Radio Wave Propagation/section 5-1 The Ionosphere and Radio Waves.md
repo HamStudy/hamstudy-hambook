@@ -13,7 +13,7 @@ As a Technician, you learned that the ionosphere can bend radio waves back to Ea
 
 #### How the Ionosphere Works
 
-While we often say radio waves "bounce" off the ionosphere, they actually refract or bend gradually. The sun's ultraviolet radiation strips electrons from atoms in the upper atmosphere, creating layers of charged particles from about 30 miles to over 350 miles up. When your radio signal enters these charged layers at the right frequency and angle, it curves back toward Earth, landing thousands of miles away.
+While we often say radio waves "bounce" off the ionosphere, they actually refract or bend gradually. The sun's ultraviolet radiation and X-rays strip electrons from atoms in the upper atmosphere, creating layers of charged particles from about 30 miles to over 350 miles up. When your radio signal enters these charged layers at the right frequency and angle, it curves back toward Earth, landing thousands of miles away.
 
 #### The Ionosphere's Multiple Personalities
 
@@ -23,23 +23,28 @@ The ionosphere isn't one uniform blanket—think of it more like a layer cake wh
 
 Understanding these layers—D, E, and F—transforms you from someone who randomly tries bands to someone who can predict which frequencies will work and when. Let's explore each layer from bottom to top.
 
+![Moving upward from Earth's surface, the daytime regions are D, E, F one, and F two. D is lowest, and F two is highest. At night the D region becomes much weaker, the E region weakens, and a single F region remains instead of separate F one and F two regions. The blocks show their order, not exact heights, thicknesses, or sharp boundaries.](../../../images/s5-1-ionosphere.svg)
+{.img-centered}
+
 ##### D Region: The Daytime Signal Absorber
 
-Located 30-55 miles up, the D region appears with sunrise and vanishes at sunset. Think of it as a wet blanket that the sun throws over your lower-frequency signals during the day. {{< link id="G3C11" >}} {{< link id="G3C05" >}}
+Located 30-55 miles up, the D region becomes much more strongly ionized in daylight and weakens greatly after dark. Think of it as a wet blanket that the sun throws over your lower-frequency signals during the day. {{< link id="G3C11" >}} {{< link id="G3C05" >}}
 
 > **Key Information:** 
 > - *The D region is the most absorbent of signals below 10 MHz during daylight hours*
 > - *Long-distance communication on the 40-, 60-, 80-, and 160-meter bands is more difficult during the day* because the D region absorbs these lower-frequency signals
 
-Here's what happens: Your 80-meter signal that worked great for reaching distant stations at sunrise gets absorbed by the D region before it can reach the higher, reflective layers. When darkness falls and the D region disappears, those same bands suddenly come alive with signals from around the world. This daily transformation is why experienced operators schedule their low-band operations around sunrise and sunset—they're working with nature, not against it.
+Here's what happens: Your 80-meter signal that worked great for reaching distant stations at sunrise gets absorbed by the D region before it can reach the higher, reflective layers. When darkness falls and D-region ionization drops, those same bands suddenly come alive with signals from around the world. This daily transformation is why experienced operators schedule their low-band operations around sunrise and sunset—they're working with nature, not against it.
+
+The absorption comes from collisions: the wave gives energy to electrons, which collide with other particles and turn some of that energy into heat.
 
 ##### E Region: The Middle Layer
 
-Rising about 50 to 90 miles above Earth, the E region forms from moderate solar ionization during daylight hours. Unlike the D region that completely vanishes at night, the E region maintains some weak ionization after dark. *While the exam focuses primarily on D and F region characteristics, understanding the E region completes your picture of ionospheric propagation.*
+Rising about 50 to 90 miles above Earth, the E region forms from moderate solar ionization during daylight hours. Like the greatly weakened D region at night, the E region maintains some weak ionization after dark.
 
-The E region's electron density sits between the absorbing D region and the refracting F region. This moderate ionization level allows it to refract mid-range frequencies without the heavy absorption that plagues the D region. When F-layer ionization weakens or when D-region absorption blocks lower bands, the E region becomes your propagation path.
+The E region's electron density sits between the absorbing D region and the refracting F region. This moderate ionization level allows it to refract mid-range frequencies without the heavy absorption that plagues the D region. An E-region path still passes through the D region, so it does not bypass daytime absorption. Under suitable conditions it can return signals over shorter skywave paths than the higher F region.
 
-During summer months, intense solar heating can create patches of super-ionization called "Sporadic E." These unpredictable clouds form when atmospheric conditions compress and concentrate the normally diffuse E-layer ions into dense sheets capable of refracting even VHF signals that would normally escape to space.
+During summer months, patches of unusually dense ionization called "Sporadic E" can open surprising paths. Atmospheric winds can concentrate long-lived metallic ions into thin sheets capable of returning even VHF signals that would normally escape to space.
 
 ##### F Region: Your Gateway to the World
 
@@ -47,7 +52,7 @@ The F region is where DX happens. Located around 90 to 300 miles up, it splits i
 
 > **Key Information:** Skip propagation via the F2 region is longer than that via the other ionospheric regions because it is the highest.
 
-The F2 region's height allows signals to travel 1,500 to 2,500 miles in a single hop—enough to reach from the East Coast to Europe. The F2 layer is the workhorse of HF communication, enabling long-distance contacts on the right frequencies.
+The F2 region's height allows a single hop of up to roughly 2,500 miles under suitable conditions. Several hops can carry a signal across an ocean, as we'll see later in this chapter. The F2 layer is the workhorse of HF communication, enabling long-distance contacts on the right frequencies.
 
 #### The Physics of Skip: Angles and Frequencies
 
@@ -59,21 +64,23 @@ Making contacts via the ionosphere requires understanding two critical concepts 
 
 > **Key Information:** The critical angle is the highest takeoff angle that will return a radio wave to Earth under specific ionospheric conditions.
 
-Signals leaving your antenna at angles lower than the critical angle return to Earth. Steeper angles punch through to space. This creates the "skip zone"—a donut-shaped area around your station where your signal can't be heard. You're audible 50 miles away (ground wave) and 500 miles away (sky wave), but stations at 200 miles hear nothing.
+For the frequency and conditions being considered, rays below the critical angle can return while steeper rays pass through. This can create a "skip zone" between useful ground-wave coverage and the first ordinary skywave return. For a hypothetical example, you might be heard 50 miles away by ground wave and 500 miles away by skywave, while stations at 200 miles hear nothing. It is not a fixed ring: direction, frequency and other propagation paths can change it.
 
-Understanding critical angle helps you choose antennas for your target areas. Low dipoles have high takeoff angles (good for closer skip), while beam antennas have lower angles (better for DX).
+Understanding critical angle helps you choose antennas for your target areas. Low dipoles have high takeoff angles (good for closer skip), while an antenna with a useful low-angle lobe can favor DX. Height and surroundings matter as well as antenna type.
 
-##### Critical Frequency: The Escape Velocity of Radio
+##### Critical Frequency: When Waves Escape
 
-Here's a thought experiment: Point an antenna straight up (90-degree angle) and transmit while gradually increasing frequency. At some point, your signal stops reflecting back and escapes to space. {{< link id="G3C02" >}}
+Here's a thought experiment: Imagine sending a ray straight up (90 degrees above the horizon) while gradually increasing frequency. At some point, your signal stops reflecting back and escapes to space. {{< link id="G3C02" >}}
 
 > **Key Information:** The critical frequency at a given incidence angle is the highest frequency that is refracted back to Earth.
+
+The exam specifies a given angle. A critical frequency quoted in an ionosonde report normally means **vertical incidence**. Slanting paths may return at higher frequencies than that vertical value.
 
 This critical frequency constantly changes based on ionospheric conditions. Think of it like the ionosphere's "strength" at any given moment. During high solar activity, the critical frequency might reach 12 MHz or higher. During solar minimum, it could drop to 5 MHz or lower. Real-time ionosonde data (think of it as ionospheric radar) shows current critical frequencies, helping you choose bands that will work rather than letting your signals escape to space.
 
 #### Maximum and Lowest Usable Frequencies: Your Operating Window
 
-Every path between you and another station has a sweet spot—a range of frequencies that will actually complete the journey. Understanding Maximum Usable Frequency (MUF) and Lowest Usable Frequency (LUF) is like knowing the speed limits on a highway: too fast or too slow, and you won't reach your destination.
+Every path between you and another station has a sweet spot—a range of frequencies that will actually complete the journey. Maximum Usable Frequency (MUF) sets the upper edge of that window, and Lowest Usable Frequency (LUF) sets the lower edge.
 
 ##### Maximum Usable Frequency: The Ceiling
 
@@ -98,15 +105,20 @@ While MUF sets the ceiling, LUF sets the floor below which your signals get abso
 > - *Radio waves with frequencies below the LUF are attenuated (weakened) before reaching the destination*
 > - *When the LUF exceeds the MUF, propagation via ordinary skywave communications is not possible over that path*
 
-The D region is the main culprit here. During daylight, it absorbs low-frequency signals before they can reach the reflective F layers. At night, when the D region vanishes, the LUF drops dramatically. This is why 80 meters works poorly for DX at noon but comes alive after sunset—the absorption floor has dropped.
+The D region is the main culprit here. During daylight, it absorbs low-frequency signals before they can reach the reflective F layers. At night, as D-region absorption weakens, the LUF often drops. Noise, transmitter power, antennas and the required signal quality also affect it. This is why 80 meters works poorly for DX at noon but comes alive after sunset—the absorption floor has dropped.
 
-Sometimes the ionosphere just won't cooperate. Think of it like this: if the floor rises above the ceiling, there's no room to operate! This happens during severe ionospheric disturbances or at transition times between day and night. When LUF rises above MUF, no frequency will complete the path. Time to try a different band, a different direction, or grab a cup of coffee and wait for conditions to improve.
+Sometimes the ionosphere just won't cooperate. Think of it like this: if the floor rises above the ceiling, there's no room to operate! This happens during severe ionospheric disturbances or at transition times between day and night. When LUF rises above MUF, no frequency will complete the path. Time to try a different direction or propagation method, or grab a cup of coffee and wait for conditions to improve. Merely changing bands cannot restore ordinary skywave on that same path while no usable interval exists.
 
 #### Working Within Nature's Window
 
 > **Key Information:** {{< link id="G3B05" >}} The ionosphere refracts radio waves with frequencies below the MUF and above the LUF back to Earth.
 
-This creates a "window" of usable frequencies that shifts throughout the day. Lower bands (160m, 80m, 40m) suffer from D-region absorption during daylight but excel at night. Middle bands (30m, 20m, 17m) work reliably day and night with less absorption. Upper bands (15m, 12m, 10m) depend heavily on solar activity—dead during solar minimum but excellent during solar maximum.
+This creates a "window" of usable frequencies that shifts throughout the day.
+
+![Frequency increases upward in this comparison. For one radio path, the lowest usable frequency, or LUF, lies below the maximum usable frequency, or MUF. Frequencies between the two limits form a usable skywave range. In the second case, LUF is higher than MUF. No frequency can then be both above LUF and below MUF, so ordinary skywave has no usable interval on that path.](../../../images/s5-1-frequency-window.svg)
+{.img-centered}
+
+Lower bands (160m, 80m, 40m) suffer from D-region absorption during daylight but excel at night. Middle bands (30m, 20m, 17m) often offer useful openings with less absorption, but their day/night availability depends on the path and ionization. Upper bands (15m, 12m, 10m) depend heavily on solar activity—less reliable during solar minimum, with more frequent openings during solar maximum.
 
 The ionosphere transforms amateur radio from a local communication tool into a worldwide adventure. You now understand how layers of charged particles bend your signals back to Earth, creating windows of usable frequencies between the MUF and LUF that shift throughout the day.
 
