@@ -47,7 +47,7 @@ Think of an AND gate as similar to a series circuit with two switches—both mus
 - If Input A = 1 AND Input B = 1, then Output = 1
 - For any other combination, Output = 0
 
-There are many other types of gates which provide similar but different functions which make up the building blocks of digital logic. These include OR, NOT, NOR, NAND, and XOR gates, just to name a few of the basics; if you are interested in digital circuits they are worth reading up on, but since you only need the basics for the license exam we'll leave it here for the purpose of this book.
+Other basic gates include OR, NOT, NOR, NAND, and XOR.
 
 #### Integrated Circuits: Technology in a Package
 
@@ -63,7 +63,7 @@ Most digital functions in modern equipment are implemented using integrated circ
 - Oscillators
 - Filters
 
-MMICs have revolutionized RF design by enabling complex RF processing in extremely small packages. They're a key reason why modern handhelds and mobile radios can offer sophisticated features in compact sizes. As you explore microwave bands and satellite communications as your interests grow, you'll benefit from equipment using these efficient components.
+MMICs are a key reason why modern handhelds and mobile radios can offer sophisticated features in compact sizes.
 
 ##### CMOS vs. TTL: Digital Logic Families
 
@@ -71,19 +71,7 @@ Digital ICs come in different "families" with distinct characteristics:
 
 > **Key Information:** An advantage of CMOS integrated circuits compared to TTL integrated circuits is low power consumption. {{< link id="G6B03" >}}
 
-**CMOS (Complementary Metal-Oxide-Semiconductor)** varies by family. Some conventional CMOS families offer:
-- Very low power consumption (especially when not switching)
-- A range of operating voltages, specified for the particular family
-- High noise immunity
-- Recognizes 70% of supply voltage or higher as logical "1" 
-- Recognizes 30% of supply voltage or lower as logical "0"
-
-**Traditional 5 V TTL (Transistor-Transistor Logic)** provides:
-- Faster switching than some early CMOS families
-- Output-current limits that depend on the part
-- More standardized voltage levels (fixed 5V supply)
-- Recognizes 2.0V to 5.0V as logical "1"
-- Recognizes 0V to 0.8V as logical "0"
+**CMOS (Complementary Metal-Oxide-Semiconductor)** can use very little power, especially when not switching. **TTL** stands for **Transistor-Transistor Logic**.
 
 Check a device’s actual supply and input ratings before connecting logic families. CMOS switching still consumes energy, so faster and more complex chips can use substantial power. Modern amateur radio equipment widely uses CMOS technology due to its energy efficiency—particularly important for portable and battery-powered devices. This technology choice directly impacts your radio's battery life and heat generation.
 
@@ -102,8 +90,6 @@ Operational amplifiers (op-amps) are versatile analog ICs that:
 - Buffer between circuit stages
 
 Op-amps often form the critical interface between analog signals (from antennas or microphones) and the digital processing systems within modern transceivers. They can prepare signals for an analog-to-digital converter and filter or buffer the output of a digital-to-analog converter. The converters perform the conversion; the op-amp remains an analog device.
-
-Passing the exam requires that you know that op-amps are analog devices, but the practical applications of op-amps in digital systems are beyond the scope of this book and the exam.
 
 #### Digital Storage and Processing Elements
 
@@ -163,10 +149,5 @@ While we've focused on the fundamental components, these digital building blocks
 When you use features like noise reduction, notch filters, or digital mode interfaces, you're benefiting from these digital fundamentals working together.
 
 #### Looking Ahead
-
-The digital concepts we've explored form the foundation for many advanced amateur radio techniques. In later sections, we'll see how these digital capabilities translate into practical applications for General class operation, including:
-- Operating digital modes on HF bands
-- Understanding and using DSP features in modern transceivers
-- Setting up interfaces between computers and radios
 
 Analog and digital circuits both need a way to describe their connections and check their behavior. A schematic shows how the components fit together; a meter or waveform display lets you compare the working circuit with that description. Those are the two views we will connect in the next section.

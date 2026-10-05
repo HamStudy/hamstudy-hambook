@@ -9,11 +9,11 @@ status: draft1
 
 Now that we've explored how transistors and tubes amplify signals, let's turn our attention to what powers them. The active circuits in your radio need clean, stable DC power to operate properly. Your household outlets provide AC power, so we need a way to convert that alternating current into the direct current our radios require.
 
-Understanding power supplies isn't just about passing your exam—it's about knowing how to troubleshoot problems, select the right power source for your equipment, and even build or repair your own supplies. Whether you're setting up a new station or trying to track down that annoying hum in your transmitted audio, these fundamentals will serve you well.
+Whether you're setting up a new station or trying to track down that annoying hum in your transmitted audio, these fundamentals will serve you well.
 
 #### The Power Supply Journey: From AC to DC
 
-Converting AC from your wall outlet to clean DC for your radio involves several stages. Think of it like refining crude oil into gasoline—each step has a different job and brings us closer to the pure product we need. The basic stages are:
+Converting AC from your wall outlet to clean DC for your radio involves several stages. The basic stages are:
 
 1. **Transformation** - Changing the voltage level (if needed)
 2. **Rectification** - Converting AC to pulsating DC
@@ -98,7 +98,6 @@ During operation:
 The bridge rectifier uses four diodes arranged to:
 - Direct current through the load in the same direction regardless of input polarity
 - Eliminate the need for a center-tapped transformer
-- Provide full-wave rectification with a standard transformer
 
 To illustrate the current path we'll use compass points – N, E, S, W (going clockwise starting at the top of the diagram above). We'll use the "positive to negative" convention of tracing current flow.
 
@@ -178,4 +177,4 @@ The tradeoff? Switchmode supplies can generate RF interference due to their high
 
 ---
 
-Understanding power supplies helps you make informed decisions about your station equipment. Whether you're selecting a new supply, troubleshooting voltage problems, or building your own, these fundamentals provide the foundation you need. Next, we'll explore digital circuits and see how modern radios use digital technology to enhance performance.
+Next, we'll explore digital circuits and see how modern radios use digital technology to enhance performance.

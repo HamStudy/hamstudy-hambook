@@ -9,7 +9,7 @@ status: draft1
 
 Remember those basic electronic components from your Technician studies? At radio frequencies, especially on HF bands, they behave in surprising ways! That capacitor working perfectly in an audio circuit might be useless in an RF filter. A simple resistor could suddenly act like an unwanted inductor.
 
-Understanding these RF behaviors helps explain why antennas work better on some bands than others and how your transceiver separates one signal from thousands. This knowledge improves your operating decisions and troubleshooting skills—and helps you pass the exam! Let's discover how your familiar components behave at radio frequencies.
+Understanding these RF behaviors helps explain why antennas work better on some bands than others and how your transceiver separates one signal from thousands.
 
 #### Diodes: More Than Just One-Way Streets
 
@@ -76,7 +76,7 @@ There is another RF behavior to watch for: adjacent turns of a coil have a small
 ![The upper diagram shows an ideal inductor as a coil between two terminals. The lower diagram models a real coil as the same inductor with a capacitor connected in parallel across it. This capacitor represents the small, unwanted capacitance between the coil’s turns, not a separate part added to the circuit. The coil therefore has both inductance and capacitance, which can resonate together instead of behaving like an ideal inductor at every frequency.](../../../images/s2-1-inductor-self-resonance.svg)
 {.img-centered caption="A real coil has capacitance between its turns. Near and above self-resonance, the ideal-inductor model is no longer enough."}
 
-For example, an RF choke with self-resonance below your operating frequency may not provide the increasing inductive reactance you expect from $X_L=2\pi fL$. Check its behavior at the frequency you need, not just the inductance marked on the part.
+For example, an RF choke with self-resonance below your operating frequency may not provide the increasing inductive reactance you expect. Check its behavior at the frequency you need, not just the inductance marked on the part.
 
 ##### Ferrite Beads: RF Interference Fighters
 

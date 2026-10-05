@@ -131,6 +131,6 @@ Self-oscillation occurs when some of an amplifier's output feeds back to its inp
 
 ---
 
-These amplification principles help you understand how your equipment processes signals. Whether you're selecting a linear amplifier for SSB operation, troubleshooting an oscillation problem, or simply wondering why your radio performs the way it does, these concepts provide valuable insights.
+Whether you're selecting a linear amplifier for SSB operation or troubleshooting an oscillation problem, these concepts provide valuable insights.
 
 Next, we'll explore how power supplies convert household electricity into the steady DC voltages your radio equipment requires.

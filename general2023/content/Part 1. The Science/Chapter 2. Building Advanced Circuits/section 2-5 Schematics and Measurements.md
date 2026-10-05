@@ -53,7 +53,7 @@ The remaining numbered components are familiar capacitors and resistors, used in
 - **Symbol 9 is a fixed resistor.** Its zigzag represents resistance. Here it connects the NPN transistor's emitter circuit to ground; elsewhere in the drawing, the same symbol appears without a number.
 - **Symbol 11 is a potentiometer.** It adds a movable contact, shown by an arrow, to a resistor. Moving that contact selects a different fraction of the voltage across the resistor. In this circuit, the contact connects to the varactor, providing an adjustable control voltage.
 
-The repeated ground marks identify the circuit's common reference connection, so those points need not be joined by lines across the page. The labels **+DC** and **OUT** identify the DC supply connection and signal output. Together, the symbols and connections describe the circuit; the numbered labels help you identify particular components within it.
+The repeated ground marks identify the circuit's common reference connection, so those points need not be joined by lines across the page. The labels **+DC** and **OUT** identify the DC supply connection and signal output.
 
 #### From a Diagram to a Measurement
 
