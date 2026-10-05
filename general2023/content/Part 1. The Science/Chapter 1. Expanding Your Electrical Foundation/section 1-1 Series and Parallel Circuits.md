@@ -9,7 +9,7 @@ status: draft1
 
 Did you ever use those old Christmas lights where one burned-out bulb killed the whole string? That's an example of a series circuit—components connected end-to-end in a single path. Now think about the outlets in your home: unplug the lamp and your radio keeps playing. That's a parallel circuit—each device has its own path to power.
 
-These two arrangements determine how every circuit behaves. Parallel capacitors add together for more filtering, but series capacitors actually decrease in total value. Understanding why components combine differently in series versus parallel unlocks every circuit in your station, from filters to antenna matching networks.
+Parallel capacitors add together for more filtering, but series capacitors actually decrease in total value. Understanding why components combine differently in series versus parallel unlocks every circuit in your station, from filters to antenna matching networks.
 
 #### Understanding Current and Voltage in Series and Parallel Circuits
 
@@ -44,7 +44,7 @@ With a parallel circuit it's more like your home's plumbing, where the main line
 
 #### How Different Components Combine
 
-Now that we understand current and voltage behavior, let's see how components combine. Each type follows patterns that actually make sense once you know their physical properties. We'll cover this in more detail below, but here is the short version:
+Now that we understand current and voltage behavior, let's see how components combine. We'll cover this in more detail below, but here is the short version:
 
 {{< captioned caption="Table 1 – Summary of governing equations for series and parallel circuits" >}}
 | Component | Series Connection | Parallel Connection |
@@ -193,6 +193,6 @@ These calculations aren't just exam prep—they're tools that help you understan
 
 #### Your Foundation Is Set
 
-You've built a solid foundation! Series and parallel combinations are the backbone of every circuit you'll encounter. You can predict how current divides in parallel branches and how voltage divides across series components. You know why parallel resistors always give you less resistance than the smallest one in the group.
+You can predict how current divides in parallel branches and how voltage divides across series components. You know why parallel resistors always give you less resistance than the smallest one in the group.
 
-But here's the plot twist: even when capacitance and inductance stay the same, their opposition to current changes with AC frequency. This special kind of opposition opens new possibilities for filtering, tuning, and matching. Let's unlock these frequency-dependent superpowers!
+But here's the plot twist: even when capacitance and inductance stay the same, their opposition to current changes with AC frequency. This special kind of opposition opens new possibilities for filtering, tuning, and matching.

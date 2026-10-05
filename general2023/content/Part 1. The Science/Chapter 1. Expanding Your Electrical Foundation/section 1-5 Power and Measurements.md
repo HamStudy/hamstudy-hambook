@@ -7,7 +7,7 @@ status: draft1
 
 ### Section 1.5: Power and Measurements
 
-Having explored how impedance matching helps transfer power between components, we now need to understand how to measure and quantify this power. In radio systems, we need precise ways to express power levels, signal strengths, and the relationships between voltage, current, and impedance across different frequencies.
+Having explored how impedance matching helps transfer power between components, we now need to understand how to measure and quantify this power.
 
 #### Power Fundamentals
 
@@ -34,8 +34,6 @@ For example:
 - With 12 volts and 0.2 amperes: {{< link id="G5B04" >}} $P = I \times E = 0.2A \times 12V = 2.4W$
 - With 7 milliamperes through 1,250 ohms: {{< link id="G5B05" >}} $P = I^2 \times R = (0.007A)^2 \times 1250\Omega = 0.061W = 61mW$
 
-Let's look at a basic power calculation example:
-
 If we apply 400 VDC to an 800-ohm load, we can calculate the power: {{< link id="G5B03" >}}
 
 $$\begin{align*}
@@ -53,7 +51,7 @@ The answer is Root Mean Square (RMS) values. RMS is a special mathematical metho
 
 Why RMS and not just the average of the absolute values? It's because of how power works in resistive circuits. Power is proportional to voltage squared ($P = \frac{E^2}{R}$), not to voltage directly. The heating effect in a resistor—which is what actually matters in power calculations—depends on this squared relationship.
 
-If we used the average of absolute values (which is about $0.637 \times E_{peak}$ for a sine wave), our power calculations would be incorrect. The RMS calculation precisely accounts for the non-linear relationship between voltage and power by:
+If we used the average of absolute values, our power calculations would be incorrect. The RMS calculation precisely accounts for the non-linear relationship between voltage and power by:
 1. Taking the square of each instantaneous value (the "Square" in RMS)
 2. Finding the average (Mean) of those squared values
 3. Taking the square Root of that average
@@ -172,4 +170,4 @@ While it is ideal to learn the equations and relationships, there are few enough
 
 #### Moving Forward
 
-With these power and measurement concepts, you now have the tools to quantify and analyze the behavior of radio circuits. These principles will serve as the foundation for evaluating transmitter performance, understanding receiver sensitivity, and optimizing antenna systems as we continue through the book. In the next chapter, we'll build on this knowledge as we explore the components that make up amateur radio circuits.
+These principles will serve as the foundation for evaluating transmitter performance, understanding receiver sensitivity, and optimizing antenna systems as we continue through the book. In the next chapter, we'll build on this knowledge as we explore the components that make up amateur radio circuits.

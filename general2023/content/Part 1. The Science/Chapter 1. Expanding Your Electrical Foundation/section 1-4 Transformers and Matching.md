@@ -90,8 +90,6 @@ Since power ($P = I \cdot E$) remains approximately constant (minus losses), a s
 * The primary winding handles higher current and needs thicker wire
 * The secondary winding carries less current and can use thinner wire
 
-This design principle optimizes material usage while ensuring each winding can safely handle its current.
-
 ##### Calculating Transformer Voltage
 
 Let's work through a practical example that might appear on your exam:
@@ -161,8 +159,6 @@ The gamma match offers several advantages:
 * Provides adjustable impedance matching; a separate common-mode choke may still be useful
 * Can be adjusted via the gamma rod length and capacitor setting
 
-This practical benefit makes it popular for many Yagi designs, as it simplifies construction while maintaining good performance.
-
 ![Two schematic feed arrangements show different ways to match a Yagi’s driven element. The hairpin, or beta, match uses an element split at its center. The feed-line wires connect to the two halves, and a short U-shaped conductor bridges the gap as a shorted stub. The gamma match uses a continuous driven element attached at its center to the boom. A gamma rod runs beside part of that element and connects to it away from the center. The coax feed connects through a series capacitor to the rod, with its other conductor connected at the element’s center.](../../../images/s1-4-yagi-matching-basics.svg)
 {.img-centered caption="A hairpin bridges a split feed point. A gamma match can use a continuous driven element attached to the boom. These are schematic views, not construction drawings."}
 
@@ -174,7 +170,7 @@ In RF systems, the balun (Balanced-to-Unbalanced) is particularly important. It 
 
 * **Unbalanced Line**: One conductor serves as the signal reference and surrounds the other, as in coax. The desired current travels on the center conductor and returns along the inside of the shield.
 
-Connecting coax to a balanced antenna can also allow unwanted common-mode current on the shield’s outside, which can distort the pattern or bring RF into the station. A suitable current balun opposes that current. A 1:1 balun can do this without changing the impedance ratio. Other specialized transformers like ununs (Unbalanced-to-Unbalanced) and transmission line transformers also exist for specific matching applications, but baluns are what you'll encounter most frequently.
+Connecting coax to a balanced antenna can also allow unwanted common-mode current on the shield’s outside, which can distort the pattern or bring RF into the station. A suitable current balun opposes that current. A 1:1 balun can do this without changing the impedance ratio.
 
 #### LC Matching Networks
 
