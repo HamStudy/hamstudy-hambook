@@ -9,11 +9,11 @@ status: draft1
 
 In the previous section, we explored how your feed line's characteristic impedance is fixed by its construction, and how losses accumulate as your signal travels through cable and connectors. Now we tackle the next critical question: when RF arrives at your antenna feed point, does it get accepted and transferred efficiently, or does it reflect back down the line?
 
-This is where SWR—that mysterious number you learned about as a Technician—reveals its true meaning. Good impedance matching (low SWR) ensures efficient power transfer from feed line to antenna. It doesn't guarantee your antenna radiates efficiently—that depends on antenna design, height, and other factors we'll explore in upcoming sections—but it does tell you whether power is being accepted at the feed point rather than bouncing back. Understanding the deeper physics behind impedance matching and how to measure it properly helps you optimize this crucial link in your antenna system.
+This is where SWR—that mysterious number you learned about as a Technician—reveals its true meaning. Good impedance matching (low SWR) ensures efficient power transfer from feed line to antenna. It doesn't guarantee your antenna radiates efficiently—that depends on antenna design, height, and other factors we'll explore in upcoming sections—but it does tell you whether power is being accepted at the feed point rather than bouncing back.
 
 #### The Real Problem: Impedance Mismatch
 
-Before diving into SWR measurements, let's understand what's actually happening in your antenna system. Remember from the previous section that your feed line has a characteristic impedance—typically 50 ohms. Your transmitter also expects to see 50 ohms. When your antenna presents something different at its feed point, you've created an impedance discontinuity—a sudden change that causes reflections just like we discussed with feed line mismatches.
+Remember from the previous section that your feed line has a characteristic impedance—typically 50 ohms. Your transmitter also expects to see 50 ohms. When your antenna presents something different at its feed point, you've created an impedance discontinuity—a sudden change that causes reflections just like we discussed with feed line mismatches.
 
 > **Key Information:** Reflected power at an antenna's feed point is caused by a difference between feed line impedance and antenna feed point impedance. {{< link id="G9A04" >}}
 
@@ -102,7 +102,7 @@ These system-level concepts tie everything together—your feed line losses disc
 
 #### The Complete Picture
 
-Remember: perfect SWR doesn't guarantee good performance. A dummy load has 1:1 SWR but makes zero contacts! SWR tells you about power transfer efficiency, not radiation effectiveness. A beam antenna at 2:1 SWR vastly outperforms a perfectly matched dummy load.
+Remember: perfect SWR doesn't guarantee good performance. A dummy load has 1:1 SWR but makes zero contacts! SWR tells you about power transfer efficiency, not radiation effectiveness.
 
 Focus on the complete system:
 - Reasonable impedance match (SWR under 2:1)
@@ -110,6 +110,4 @@ Focus on the complete system:
 - Quality feed line appropriate for frequency
 - Regular measurements to catch problems early
 
-Don't chase perfect SWR at the expense of getting on the air. That attic dipole with 1:1 SWR may perform worse than a well-placed outdoor antenna at 2:1. The goal isn't impressing your SWR meter—it's making contacts. Always remember that regardless of any other factor, the best antenna is the one that works!
-
-Studying for General builds your understanding of these relationships. Mastering both power transfer (reasonable SWR) and radiation principles (effective antennas) will go a long ways in helping you get the most out of your equipment!
+Don't chase perfect SWR at the expense of getting on the air. That attic dipole with 1:1 SWR may perform worse than a well-placed outdoor antenna at 2:1. The goal isn't impressing your SWR meter—it's making contacts.

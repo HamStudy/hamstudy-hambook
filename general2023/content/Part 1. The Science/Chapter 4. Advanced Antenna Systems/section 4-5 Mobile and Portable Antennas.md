@@ -7,7 +7,7 @@ status: draft1
 
 ### Section 4.5: Mobile and Portable Antennas
 
-Freedom to roam with radio—that's the promise of mobile and portable operation. The General privileges you’re studying for can transform any road trip into a potential DXpedition, every park visit into a Parks On The Air (POTA) event, and every emergency into a chance to provide vital communications. The challenge? Creating effective antennas that can travel with you while still getting your signal out to the world. Understanding how to optimize these compact antenna systems opens up amateur radio adventures limited only by your imagination.
+Freedom to roam with radio—that's the promise of mobile and portable operation. The General privileges you’re studying for can transform any road trip into a potential DXpedition, every park visit into a Parks On The Air (POTA) event, and every emergency into a chance to provide vital communications. The challenge? Creating effective antennas that can travel with you while still getting your signal out to the world.
 
 #### Engineering Magic: Making Big Antennas Small
 
@@ -56,7 +56,7 @@ Maximizing what efficiency you can get becomes critical: mount antennas as high 
 
 Imagine changing bands while cruising down the highway, never stopping to adjust your antenna. That's the promise of the "screwdriver" antenna—one of amateur radio's most ingenious mobile solutions. Many models cover a wide range of HF bands with the push of a button; check the particular antenna and whip’s range, and make adjustments without distracting the driver.
 
-The name refers to the motorized loading adjustment. {{< link id="G9D08" >}} The real magic happens in how they achieve such wide frequency coverage.
+The name refers to the motorized loading adjustment. {{< link id="G9D08" >}}
 
 > **Key Information:** A "screwdriver" mobile antenna adjusts its feed point impedance by *varying the base loading inductance*. 
 
@@ -88,7 +88,7 @@ It's roughly a half-wave element bent into a loop shape, with its ends close but
 
 #### From Antennas to Propagation
 
-Mobile and portable antennas showcase how resonant circuit principles overcome physical constraints. With shortened antennas, the same physics applies whether you are using a screwdriver on a vehicle or a loaded vertical in the field—adding reactance to achieve resonance despite size limitations.
+With shortened antennas, the same physics applies whether you are using a screwdriver on a vehicle or a loaded vertical in the field—adding reactance to achieve resonance despite size limitations.
 
 Portable operation need not mean a shortened antenna. If there’s room for a full-size wire dipole, you can use the same design as at home and avoid losses added just to make it smaller.
 

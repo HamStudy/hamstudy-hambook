@@ -9,9 +9,7 @@ status: draft1
 
 You've just worked your first transatlantic contact. The European station gives you a "five by three" report—perfectly readable, but your signal is weak. You're running 100 watts into what should be a decent antenna. Where did your power go?
 
-As a Technician, you learned that impedance matching matters and that SWR tells you something about your antenna system. As you prepare to use more HF bands and perhaps longer feed line runs, you need to understand that "antenna system" isn't just the antenna—it's the complete chain from your radio through connectors, feed line, and finally to the antenna itself. Each link in this chain affects your signal, and understanding how they work together separates stations that barely get out from those that work the world.
-
-The challenge? It is easy to focus on the antenna while overlooking the feed line and connectors that deliver power to it. You can have the world's best antenna, but if your feed line wastes half your signal before it arrives, you're still losing. Let's start by understanding these critical but often overlooked components. In the next section, we'll see how everything connects to the antenna itself to form a complete, efficient system.
+As a Technician, you learned that impedance matching matters and that SWR tells you something about your antenna system. As you prepare to use more HF bands and perhaps longer feed line runs, you need to understand that "antenna system" isn't just the antenna—it's the complete chain from your radio through connectors, feed line, and finally to the antenna itself.
 
 #### Understanding Characteristic Impedance
 
@@ -73,7 +71,7 @@ What does a 4.5 dB loss mean for your signal? You're delivering 35 watts to your
 
 #### Choosing Feed Line for Your Station
 
-Selecting feed line is like choosing tires for your car—snow tires for winter, all-terrains for off-road, high-performance for the track. Your choice depends on frequency, distance, power level, and installation constraints.
+Your choice depends on frequency, distance, power level, and installation constraints.
 
 **The Distance Factor:**
 Running 10 feet to an attic antenna? For a short HF run, most sound 50-ohm coax will have little loss. Running 200 feet to that tower? Now feed line choice becomes critical. At HF, even mediocre coax might work for short runs, but those same losses multiply with distance until they dominate your signal budget.
@@ -121,9 +119,5 @@ Beyond handhelds, you'll find these tiny threaded connectors on SDR equipment an
 Those RCA jacks behind your transceiver handle audio and control signals for digital modes, PTT keying, and external speakers. RCA connectors can also carry RF in some equipment, so check the labels.
 
 #### Building Your Complete Antenna System
-
-Here's the bottom line: That exotic antenna you built won't compensate for lossy feed line. That expensive amplifier won't overcome bad connectors. Your feed line system is where the rubber meets the road—or more accurately, where your RF meets the real world.
-
-Choose your feed line based on physics, not price tags. Install connectors like your QSOs depend on it (they do). Route cables with respect for RF's quirks. Get these fundamentals right, and you've built the foundation for a station that performs.
 
 Getting power to your antenna efficiently is only part of the story. What happens when that power arrives at the antenna? Does your antenna accept it and radiate it effectively, or does it reflect power back down the feed line, creating the standing waves you learned about as a Technician? That's where impedance matching and SWR come into play—the critical final link in your antenna system that we'll explore in the next section.

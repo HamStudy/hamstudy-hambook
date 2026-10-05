@@ -52,8 +52,6 @@ Here, “more forgiving” means the feed-point impedance tends to change less r
 
 #### Understanding Antenna Specifications
 
-Shopping for a beam antenna can feel overwhelming with all the specifications thrown at you. Let's decode what really matters for your station.
-
 **The Main Lobe** is where your antenna concentrates its power—the primary direction of radiation.
 
 > **Key Information:** The main lobe of a directive antenna is the direction of maximum radiated field strength from the antenna. {{< link id="G9C08" >}}
@@ -72,7 +70,7 @@ Every Yagi design involves compromises. Want maximum gain? You might sacrifice b
 
 > **Key Information:** Forward gain, front-to-back ratio, and SWR bandwidth of a Yagi antenna can all be optimized by adjusting the physical length of the boom, the number of elements on the boom, and the spacing of each element along the boom. {{< link id="G9C10" >}}
 
-Computer modeling has revolutionized antenna design. Modern Yagis are optimized for specific goals—DX chasers might choose maximum forward gain, contesters often prefer wide bandwidth for frequency agility, and those fighting noise might optimize for front-to-back ratio. The good news? Even a basic three-element Yagi dramatically improves your signal compared to a dipole.
+Computer modeling has revolutionized antenna design. Modern Yagis are optimized for specific goals—DX chasers might choose maximum forward gain, contesters often prefer wide bandwidth for frequency agility, and those fighting noise might optimize for front-to-back ratio.
 
 #### Stacking: When One Antenna Isn't Enough
 
@@ -106,11 +104,11 @@ Picture a Yagi where each element is scaled down from the one before it by a con
 
 Unlike the Yagi’s parasitic elements, LPDA elements connect to a feed structure. Check the model’s frequency range; a 14–30 MHz design does not cover all nine HF bands.
 
-The tradeoff? An LPDA may provide less gain than a monoband Yagi of comparable size; the difference depends on the designs. But for many operators, the convenience of instant band changes without retuning or switching antennas is worth the modest gain sacrifice. It's perfect for casual DXing, emergency communications, or exploring your new band privileges.
+The tradeoff? An LPDA may provide less gain than a monoband Yagi of comparable size; the difference depends on the designs. But for many operators, the convenience of instant band changes without retuning or switching antennas is worth the modest gain sacrifice.
 
 #### Specialized Antennas for Specific Needs
 
-Beyond Yagis and log periodics, two specialized directional receiving antennas solve unique challenges worth knowing about. Each answers a specific "how do I..." question that conventional antennas can't handle.
+Beyond Yagis and log periodics, two specialized directional receiving antennas solve unique challenges worth knowing about.
 
 **Small Loops** (less than 1/10 wavelength circumference) excel at one thing: deep nulls for direction finding or interference rejection. {{< link id="G9D10" >}}
 
@@ -133,7 +131,7 @@ Terrible efficiency for transmitting, but outstanding for pulling weak 160 and 8
 
 #### Making Directional Antennas Work for You
 
-Before you start shopping for that dream beam antenna, let's talk about the realities of putting one up. Understanding these practical considerations helps you make smart choices that match your situation.
+Before you start shopping for that dream beam antenna, let's talk about the realities of putting one up.
 
 **Physical Size** becomes a real consideration on HF. A full-size three-element Yagi for 20 meters can be over 35 feet wide, with a boom tens of feet long. Scale a similar design to 40 meters and those dimensions roughly double! Many hams start with a beam for 15 or 10 meters where the antennas are manageable, then work up to larger antennas as they gain experience.
 
@@ -151,8 +149,6 @@ Many hams wisely hire professionals for tower work. There's no shame in prioriti
 
 #### Your Path to Directional Success
 
-Even if you can't put up a beam antenna today, understanding how they work prepares you for future opportunities. Many hams operate successfully for years with wire antennas, then add a beam when circumstances allow. Others find creative solutions—starting small with VHF/UHF Yagis, trying portable operations with lightweight beams, building fixed direction arrays without rotators, or sharing resources through club stations.
-
-The journey from your first dipole to a tower full of aluminum is part of amateur radio's lifetime adventure. Each step teaches valuable lessons about propagation, construction, and the art of radio communication. Whether you eventually build that dream station or find joy in simpler approaches, understanding directional antennas helps you make informed choices about your station's evolution.
+Some hams find creative solutions—starting small with VHF/UHF Yagis, trying portable operations with lightweight beams, building fixed direction arrays without rotators, or sharing resources through club stations.
 
 As we move forward, our next section examines the workhorses of HF operation—dipoles and vertical antennas. These fundamental designs launch countless DX contacts, and mastering them gives you the foundation for successful operation regardless of your station's complexity.

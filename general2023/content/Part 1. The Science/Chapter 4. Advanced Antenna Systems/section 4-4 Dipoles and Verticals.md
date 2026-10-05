@@ -109,9 +109,7 @@ Here, omnidirectional means coverage all the way around the horizon; signal stre
 
 The upright part of a quarter-wave vertical needs a conducting return system at its base. This is its **ground plane**. A set of radial wires can serve that purpose, providing the other part of the antenna system.
 
-For a ground-mounted vertical, those wires spread outward over the soil. {{< link id="G9B06" >}}
-
-> **Key Information:** The radial wires of a ground-mounted vertical antenna system should be placed on the surface or buried a few inches below the ground.
+> **Key Information:** The radial wires of a ground-mounted vertical antenna system should be placed on the surface or buried a few inches below the ground. {{< link id="G9B06" >}}
 
 ![A ground-mounted vertical has radial wires extending outward along the soil surface at the base of its upright element. An elevated vertical has its feed point above the soil, with radial wires sloping downward while remaining above ground. These are side views: additional radials can extend in other directions around the antenna. The drawing does not mean that each antenna uses only two radials.](../../../images/s4-4-radials.svg)
 {.img-centered}
@@ -122,11 +120,9 @@ Radials give RF current a lower-loss path than the soil alone. More radials gene
 
 A quarter-wave vertical over an ideal ground plane has about 36 ohms of **radiation resistance**. This resistance represents power leaving as radio waves. At resonance, a low-loss vertical has a feed-point resistance close to that value—slightly below the 50 ohms most radios expect.
 
-You can bring the impedance closer to 50 ohms by changing the angle of the elevated radials. {{< link id="G9B02" >}}
+> **Key Information:** To adjust the feed point impedance of an elevated quarter-wave ground-plane vertical antenna to be approximately 50 ohms, slope the radials downward. {{< link id="G9B02" >}}
 
-> **Key Information:** To adjust the feed point impedance of an elevated quarter-wave ground-plane vertical antenna to be approximately 50 ohms, slope the radials downward.
-
-Around 45 degrees downward is a common starting angle. Measure the match with the antenna in its intended position, then adjust as needed. This is a useful way to improve the match by changing the antenna's shape.
+Around 45 degrees downward is a common starting angle. Measure the match with the antenna in its intended position, then adjust as needed.
 
 #### Sizing Your Vertical for Success
 
@@ -134,9 +130,7 @@ A quarter-wave vertical is half the length of a half-wave dipole, so its startin
 
 $$Length (feet) = \frac{234}{f_{MHz}}$$
 
-Let's calculate a practical example for 10 meters. {{< link id="G9B12" >}}
-
-> **Key Information:** The approximate length for a 1/4 wave monopole antenna cut for 28.5 MHz is 8 feet.
+> **Key Information:** The approximate length for a 1/4 wave monopole antenna cut for 28.5 MHz is 8 feet. {{< link id="G9B12" >}}
 
 Here the calculation is $234/28.5=8.21$ feet, a starting length to adjust for the installed antenna. An 8-foot vertical for 10 meters is much easier to fit into a small space than a full-size antenna for 80 meters. Higher bands can be a good place to start when space is limited.
 
@@ -154,9 +148,7 @@ This unwanted RF can make a microphone give you an RF burn or interfere with nea
 
 Earlier, we saw how a low dipole can favor nearby stations. That becomes useful during emergency nets or when you want to cover your state rather than work distant DX. Near Vertical Incidence Skywave (NVIS) uses signals sent nearly straight up and returned by the ionosphere to the surrounding region.
 
-For this job, you deliberately keep a horizontal dipole low to favor high-angle radiation. {{< link id="G9D01" >}}
-
-> **Key Information:** A horizontal dipole antenna most effective as a Near Vertical Incidence Skywave (NVIS) antenna for short-skip communications on 40 meters during the day is one placed between 1/10 and 1/4 wavelength above the ground.
+> **Key Information:** A horizontal dipole antenna most effective as a Near Vertical Incidence Skywave (NVIS) antenna for short-skip communications on 40 meters during the day is one placed between 1/10 and 1/4 wavelength above the ground. {{< link id="G9D01" >}}
 
 On 40 meters, that means mounting the dipole about 13–33 feet high. Think of an umbrella over the region: high-angle signals can return nearby when the ionosphere supports the frequency. This can help you reach stations beyond intervening hills, often within a few hundred miles. The next chapter explains how the frequency and ionosphere determine whether that path is available.
 
@@ -169,9 +161,5 @@ Limited space? Antennas shrink as frequency rises. A half-wave dipole that needs
 Choose the height for the contacts you want: a high antenna for DX and a low NVIS antenna serve different paths. Use a suitable balun or choke where the design calls for one, check the SWR after installation, and weatherproof outdoor connections.
 
 Remember, even modest antennas work DX when conditions cooperate. Focus on getting something in the air, then improve it over time. Your first antenna won't be your last, but it will be the one that gets you started.
-
-#### Your Antenna Journey Begins
-
-The same basic antenna can serve different needs as you change its height, shape, and feed arrangement. Understanding those choices helps you build a station around the supports, space, and materials you have.
 
 Taking the radio on the road adds another challenge: fitting an effective HF antenna on a vehicle or carrying one to a temporary site. In the next section, we'll look at the designs and tradeoffs that make mobile and portable antennas practical.
