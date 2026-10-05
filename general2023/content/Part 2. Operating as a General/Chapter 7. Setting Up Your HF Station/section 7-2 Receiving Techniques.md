@@ -95,7 +95,7 @@ Signal strength is also separate from readability. In a phone report of "52," th
 
 #### Listen First
 
-Time spent listening helps you recognize how signals fade, how noise changes, and which adjustments improve reception. You can begin before earning your General license by listening to amateur HF signals. Try one control at a time and judge the result by how well you can follow the signal.
+Time spent listening helps you recognize how signals fade, how noise changes, and which adjustments improve reception. You can begin before earning your General Class License by listening to amateur HF signals. Try one control at a time and judge the result by how well you can follow the signal.
 
 Listening also helps you avoid interrupting a contact. A pause does not mean that a frequency is clear, especially if you can hear only one side of a conversation. Listen long enough to establish what is happening before transmitting.
 

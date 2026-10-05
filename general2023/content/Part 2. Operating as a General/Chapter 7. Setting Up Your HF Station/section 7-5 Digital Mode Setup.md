@@ -11,7 +11,7 @@ A computer can generate and decode digital signals, control the radio, or do bot
 
 #### Getting the Audio Right
 
-In audio-based setups, the computer sends tones to the transmitter in place of microphone audio. On receive, the software decodes the audio coming from the radio.
+In audio-based setups, the computer sends tones to the transmitter in place of microphone audio. On receive, the software decodes the audio coming from the radio. Some radios carry this audio through a built-in USB sound interface; others need an external sound interface and audio cables. Here, USB means the computer connection, not upper sideband.
 
 RTTY sent using AFSK shifts between two audio frequencies called *mark* and *space*. The difference between them is called the *shift*:
 
@@ -19,13 +19,13 @@ RTTY sent using AFSK shifts between two audio frequencies called *mark* and *spa
 
 The receiving software follows the changes between mark and space and converts them into text.
 
-The drive-level lesson from Section 7.4 also applies here: set the audio correctly rather than relying on ALC to reduce an excessive input. The transceiver has its own ALC system, which can act even without an external amplifier:
+The drive-level lesson from the previous section also applies here: set the audio correctly rather than relying on ALC to reduce an excessive input. The transceiver has its own ALC system, which can act even without an external amplifier:
 
 > **Key Information:** The ALC system should be inactive when transmitting AFSK data signals because the ALC action distorts the signal. {{< link id="G4A11" >}}
 
 Start with low audio drive and follow the radio manufacturer's digital-mode setup procedure. The aim is to prevent distortion by setting the input correctly, not by disabling ALC protection. Recommended ALC meter indications vary between radios.
 
-Turn off speech processing and other voice effects as well. The processing that raises average speech power in Section 7.3 can distort data tones.
+Turn off speech processing and other voice effects as well. The processing that raises average speech power, discussed earlier in this chapter, can distort data tones.
 
 #### Reading the Waterfall
 
@@ -41,11 +41,12 @@ Extra lines outside that normal pattern can reveal an overdriven transmitter:
 
 If another operator reports extra lines around your signal—or you see them with a separate receiver—reduce audio drive and check that speech processing is off. A display of the computer's outgoing audio cannot show distortion added later by the transmitter.
 
-![A waterfall display](waterfall.png)
+![Two radio teletype waterfall displays compare a clean signal with a distorted one. Audio frequency increases from left to right. New activity appears at the top, and older activity moves downward. Both examples have two main tone traces, 170 hertz apart. The distorted example also has weaker traces outside that pair, indicating overmodulation. Brighter marks represent stronger signals.](../../../images/s7-5-digital-waterfall.svg)
+{.img-full .img-centered}
 
 #### Keeping Accurate Time
 
-FT8 stations take turns transmitting and receiving in 15-second periods timed to UTC. Their clocks must agree closely enough for one station's transmission to arrive during the other's receive period:
+FT8 stations take turns transmitting and receiving in 15-second periods timed to UTC; each actual RF transmission is shorter than its period. Their clocks must agree closely enough for one station's transmission to arrive during the other's receive period:
 
 > **Key Information:** FT8 requires computer time accurate to within approximately 1 second. {{< link id="G2E07" >}}
 
@@ -63,6 +64,6 @@ Check the sideband or Reverse setting, then confirm the baud rate and shift. Cha
 
 #### Checking Your Setup
 
-Receiving a digital signal does not by itself confirm that your transmitter is set correctly. Check the transmit side separately, and keep sustained transmissions within the radio and amplifier's duty-cycle limits discussed in Section 7.4.
+Receiving a digital signal does not by itself confirm that your transmitter is set correctly. Check the transmit side separately, and keep sustained transmissions within the radio and amplifier's duty-cycle limits discussed in the previous section.
 
 The radio's meters and the waterfall provide useful checks. Test equipment can show more about the transmitted waveform and antenna system.

@@ -50,11 +50,14 @@ With USB near the upper edge, allow the same room above the displayed frequency:
 > - A 3 kHz USB signal with the displayed carrier frequency set to 14.347 MHz occupies 14.347 MHz to 14.350 MHz. {{< link id="G4D09" >}}
 > - Your displayed carrier frequency should be at least 3 kHz below the edge of the band when using 3 kHz wide USB. {{< link id="G4D11" >}}
 
-These examples assume a 3 kHz signal. Leave more room if your transmitter is set for a wider bandwidth, and account for nearby stations as well as band edges.
+These examples assume a 3 kHz signal. Leave more room if your transmitter is set for a wider bandwidth, allow a margin for frequency error, and account for nearby stations as well as band edges.
+
+![Two frequency bars increase from left to right. For lower sideband, a dial setting of 7.178 megahertz places the three-kilohertz signal below the dial frequency, down to the segment edge at 7.175 megahertz. For upper sideband, a dial setting of 14.347 megahertz places the signal above the dial frequency, up to the segment edge at 14.350 megahertz. Each whole sideband fits inside the permitted segment; placing an LSB dial at the lower edge, or a USB dial at the upper edge, would push part of the signal outside it.](../../../images/s7-3-ssb-frequency-edges.svg)
+{.img-full .img-centered}
 
 #### Working Split
 
-Many HF transceivers provide **VFO A** and **VFO B**, each with its own frequency setting. Normally you use the same frequency for transmit and receive. In *split operation*, the radio receives using one VFO and transmits using the other:
+Many HF transceivers provide **VFO A** and **VFO B**, each with its own frequency setting. VFO stands for *variable frequency oscillator*; on the radio, these labels identify the two tuning settings. Normally you use the same frequency for transmit and receive. In *split operation*, the radio receives using one VFO and transmits using the other:
 
 > **Key Information:** A common use of the dual-VFO feature on a transceiver is to transmit on one frequency and listen on another. {{< link id="G4A12" >}}
 
@@ -82,6 +85,6 @@ CW reception also offers another way to handle nearby interference. CW remains r
 
 Good transmitting technique includes both readable modulation and control of unwanted emissions. Overdriven audio can produce splatter on adjacent frequencies, and the bandwidth occupied by your transmission must remain within your authorized band segment.
 
-Interference does not always mean the transmitted signal is faulty. A clean transmission can still be detected by susceptible audio equipment, as described in Section 7.2. If speakers produce distorted speech or clicks during your transmissions, investigate how RF is entering the equipment rather than assuming that a receiver filter will solve the problem.
+Interference does not always mean the transmitted signal is faulty. A clean transmission can still be detected by susceptible audio equipment, as described in the previous section. If speakers produce distorted speech or clicks during your transmissions, investigate how RF is entering the equipment rather than assuming that a receiver filter will solve the problem.
 
 More power may help when a clean signal is still too weak at the other station. An amplifier needs its own adjustments and safeguards to increase that power without creating new problems.

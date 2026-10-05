@@ -43,11 +43,11 @@ TUNE and LOAD interact, so adjusting one may require readjusting the other. Foll
 
 The linearity concepts from Section 2.2 apply to the entire transmitting system. An amplifier intended only for constant-amplitude modes such as FM may distort SSB, whose changing amplitude carries information. Use equipment intended for the mode, and remember that even a suitable amplifier can distort when overdriven.
 
-Average power also matters for cooling. As Section 7.3 explained, voice reaches its peak power only briefly. A sustained digital signal may remain near its set output throughout a transmission, placing a greater heat load on the amplifier than voice at the same peak power. Keep airflow clear and follow the manufacturer's duty-cycle and continuous-output limits; a rating for SSB does not necessarily apply to sustained data transmissions.
+Average power also matters for cooling. As the previous section explained, voice reaches its peak power only briefly. A sustained digital signal may remain near its set output throughout a transmission, placing a greater heat load on the amplifier than voice at the same peak power. Keep airflow clear and follow the manufacturer's duty-cycle and continuous-output limits; a rating for SSB does not necessarily apply to sustained data transmissions.
 
 #### Operating Safely
 
-Higher RF output also increases the voltages and currents that the antenna system must handle. Feed lines, switches, meters, tuners, and other accessories after the amplifier must all be rated for the power used. High SWR can create still higher voltage and current peaks, so stay within the equipment's matching limits as well. Check that your station's RF exposure assessment covers the higher power level.
+Higher RF output also increases the voltages and currents that the antenna system must handle. Feed lines, switches, meters, tuners, and other accessories after the amplifier must all be rated for the power used. High SWR can create still higher voltage and current peaks, so stay within the equipment's matching limits as well. Check that your station's RF exposure assessment from the previous chapter covers the higher power level.
 
 Tube amplifiers contain potentially lethal internal voltages that can remain after the amplifier is turned off and unplugged. Never remove the cover or attempt internal repairs unless you are trained to do so and follow the manufacturer's safety procedures.
 

@@ -21,7 +21,7 @@ When adjusting a circuit for a peak or dip, the direction of change matters more
 
 > **Key Information:** An analog multimeter is preferred when adjusting circuits for maximum or minimum values. {{< link id="G4B09" >}}
 
-This is also why an analog plate-current meter is useful for observing the tuning dip described in Section 7.4.
+This is also why an analog plate-current meter is useful for observing the tuning dip described earlier in this chapter.
 
 #### Looking at a Transmitted Signal
 
@@ -35,7 +35,10 @@ For either CW or a modulated signal, the sample comes from the transmitter's RF 
 
 > **Key Information:** When checking a transmitted signal's RF envelope pattern, the attenuated RF output of the transmitter is connected to the oscilloscope's vertical input. {{< link id="G4B04" >}}
 
-Use a sampling or attenuation arrangement rated for the frequency and power involved. The transmitter still needs a suitable load, such as a properly rated dummy load; the oscilloscope input is not a substitute. Follow the equipment's measurement instructions before making connections.
+Use a sampling or attenuation arrangement rated for the frequency and power involved. The transmitter still needs a suitable load, such as a properly rated dummy load; the oscilloscope input is not a substitute. Follow the equipment's measurement instructions before making connections, and make sure the scope and probe have enough bandwidth for the RF frequency being measured.
+
+![The transmitter sends its main radio-frequency output through a rated sampler to a rated dummy load. A branch from the sampler sends an attenuated, lower-level signal to the oscilloscope's vertical input. The scope measures only that sample; it does not take the place of the load or receive the transmitter's full output.](../../../images/s7-6-rf-sampling-path.svg)
+{.img-centered}
 
 #### Testing Transmitter Linearity
 
@@ -51,7 +54,7 @@ An oscilloscope can reveal obvious distortion in the combined RF envelope, such 
 
 #### Checking the Antenna System
 
-Section 7.1 introduced the antenna analyzer for checking SWR. It can also help investigate the feed line itself:
+Earlier in this chapter, we introduced the antenna analyzer for checking SWR. It can also help investigate the feed line itself:
 
 > **Key Information:** An antenna analyzer can measure the impedance of coaxial cable. {{< link id="G4B13" >}}
 
@@ -67,4 +70,4 @@ If readings change when a nearby station transmits, incoming RF may be affecting
 
 You do not need every instrument to operate an HF station. Start with the symptom, decide what measurement would help identify its cause, and use equipment suited to that test. A club member may be able to provide both an instrument and guidance in using it safely.
 
-With the station working as expected, you can focus on making clear, considerate contacts. Chapter 8 covers those operating skills.
+With the station working as expected, you can focus on making clear, considerate contacts. The next chapter covers those operating skills.
