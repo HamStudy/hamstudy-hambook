@@ -5,7 +5,7 @@ questions: ["G1A06", "G1E04", "G1E10", "G2D01", "G2D02", "G2D03", "G1B11"]
 status: draft1
 ---
 
-### Section 9.3: Sharing Spectrum and Preventing Interference
+### Section 9.3: Spectrum and Interference
 
 An amateur allocation does not always mean that amateurs are the only users of those frequencies. Some bands are shared with government stations or other radio services. Along with your own frequency and power limits, you need to know what responsibility your station has toward those other users.
 
@@ -19,9 +19,7 @@ On 30 meters, for example, amateurs must protect the fixed services specified in
 
 Accepting interference means that a secondary station cannot demand protection from a primary service’s operation. It does not mean that every strong or unfamiliar signal is automatically a primary user. Avoid interfering while you establish what is happening, and consult the sharing requirements for the particular band.
 
-The 60-meter channels and continuous segment have secondary status too. The bandwidth and power limits from Sections 9.1 and 9.2 do not replace the requirement to protect primary users.
-
-![The obligations of primary and secondary services](../images/primary-secondary-allocations.svg)
+The 60-meter channels and continuous segment have secondary status too. The bandwidth and power limits from the previous two sections do not replace the requirement to protect primary users.
 
 #### Situations Requiring Additional Precautions
 
@@ -29,7 +27,7 @@ Some conditions create an extra obligation to protect other operations:
 
 > **Key Information:** Specific steps to avoid harmful interference are required when operating within one mile of an FCC monitoring station, on a band where the amateur service is secondary, or with spread spectrum emissions. {{< link id="G1E04" >}}
 
-Near an FCC monitoring facility, even an otherwise compliant signal may interfere with its work. The FCC may impose operating restrictions to protect that facility. Secondary operation has the sharing duties described above. Spread spectrum operation must protect other authorized modulation types and accept interference from them; Section 9.4 covers its power limit.
+Near an FCC monitoring facility, even an otherwise compliant signal may interfere with its work. The FCC may impose operating restrictions to protect that facility. Secondary operation has the sharing duties described above. Spread spectrum operation must protect other authorized modulation types and accept interference from them; the next section covers its power limit.
 
 The appropriate precaution depends on the situation. Lower power, a different frequency, or a change in the antenna arrangement may help, but none is a universal exemption. If the rules require you to eliminate harmful interference, continuing unchanged while discussing possible remedies is not enough.
 
@@ -41,9 +39,7 @@ Some interference can be avoided by recognizing an established use before you tr
 
 The beacons transmit identified signals in a repeating schedule. Listening to a beacon from a known location helps you assess that radio path. A gap in the sequence is not necessarily an unused frequency; a beacon may be transmitting that you cannot hear.
 
-Give the beacon frequency and its signal bandwidth room rather than checking only whether your dial displays one of those exact numbers. This is an application of the band-plan and occupied-bandwidth lessons from Chapters 7 and 8, not ownership of the frequency by an individual operator.
-
-![Frequencies used by the international propagation beacon network](../images/beacon-frequencies.svg)
+Give the beacon frequency and its signal bandwidth room rather than checking only whether your dial displays one of those exact numbers. This is an application of the band-plan and occupied-bandwidth lessons from the previous two chapters, not ownership of the frequency by an individual operator.
 
 #### Investigating an Interference Report
 
@@ -81,4 +77,4 @@ Established operating methods and technical guidance help you make a sound choic
 
 That distinction becomes particularly useful when a station transmits without an immediate human reply. Beacons, code practice, and automatically controlled digital stations have specific permissions rather than one general exemption from the rules.
 
-<!-- Editorial sources, checked 2026-09-26: 47 CFR 97.101, 97.13(b), 97.303, 97.307, and 97.311; ARRL Volunteer Monitor Program; NCDXF/IARU International Beacon Project; current questions G2D01–G2D03. Full URLs are in chapter9-revision-notes.md. -->
+<!-- Editorial sources, checked 2026-09-26: 47 CFR 97.101, 97.13(b), 97.303, 97.307, and 97.311; ARRL Volunteer Monitor Program; NCDXF/IARU International Beacon Project; current questions G2D01–G2D03. -->

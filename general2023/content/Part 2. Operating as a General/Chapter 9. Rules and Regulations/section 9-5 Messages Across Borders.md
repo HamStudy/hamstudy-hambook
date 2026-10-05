@@ -5,7 +5,7 @@ questions: ["G1B08", "G1E06", "G1B07", "G1E01", "G1E05", "G1E12", "G1D05", "G1D1
 status: draft1
 ---
 
-### Section 9.5: Messages and International Operation
+### Section 9.5: Messages Across Borders
 
 An ordinary contact exchanges information between amateur operators. Relaying a message for someone else adds another consideration, and an international border may change which messages you can carry. Operating a transmitter located abroad is different again from contacting a foreign station from home.
 
@@ -25,9 +25,7 @@ An international allocation also does not give every operator the same national 
 
 The regional allocations provide a framework; national administrations authorize particular services and operator privileges within it. Consult the rules for the station’s location rather than assuming that every country in a region grants identical amateur access.
 
-For example, a station you can hear may be permitted to transmit outside your own authorized segment. The split-frequency procedure from Chapter 7 can allow a contact when each station has a suitable transmit frequency. Neither operator gains the other’s privileges by making that contact.
-
-![The three ITU radio regions](../images/itu-regions-map.svg)
+For example, a station you can hear may be permitted to transmit outside your own authorized segment. The split-frequency procedure from Section 7.3 can allow a contact when each station has a suitable transmit frequency. Neither operator gains the other’s privileges by making that contact.
 
 #### Keeping the Message Understandable
 
@@ -35,7 +33,7 @@ CW and digital operators use abbreviations to send familiar information efficien
 
 > **Key Information:** Abbreviations and procedural signals may be used if they do not obscure a message’s meaning. {{< link id="G1B07" >}}
 
-The Q-signals from Chapter 8 are examples: QRS requests slower sending, and QSL acknowledges receipt and understanding. A listener may need to learn those conventions, but they are not a secret arrangement between the two operators.
+The Q-signals from the previous chapter are examples: QRS requests slower sending, and QSL acknowledges receipt and understanding. A listener may need to learn those conventions, but they are not a secret arrangement between the two operators.
 
 Likewise, encoding data for transmission and error correction is different from encrypting a message to hide its contents. The purpose and applicable rules matter; a signal does not become prohibited merely because a particular listener lacks the software to decode it. Use publicly explained methods where required, and do not treat a digital link as a private channel exempt from amateur message rules.
 
@@ -57,9 +55,8 @@ Where an international third-party arrangement exists, the message still has lim
 
 A personal greeting is different from using the link for routine commercial business. There is also a separate allowance for international third-party emergency or disaster-relief communications without an ordinary third-party arrangement. That exception is not a general waiver for routine traffic during an exercise or an event labeled an emergency.
 
-At the end of an international third-party exchange, the identification must include the other station’s callsign as well as your own. The practical message-handling skills from Section 8.6 still apply: preserve the sender’s meaning, confirm what was received, and keep track of the message’s destination.
+At the end of an international third-party exchange, the identification must include the other station’s callsign as well as your own. The practical message-handling skills from the previous chapter still apply: preserve the sender’s meaning, confirm what was received, and keep track of the message’s destination.
 
-<!-- Illustration held for review: ../images/third-party-international.svg. Distinguish routine third-party arrangements, emergency/disaster-relief permission, guest supervision, and ordinary amateur-to-amateur contacts. -->
 
 #### Carrying Messages by Remote Control
 
@@ -81,16 +78,17 @@ The reverse arrangement uses the station’s foreign authorization:
 
 > **Key Information:** When operating a station in South America by remote control from the US, the remote station’s country’s rules govern the amateur radio operation. {{< link id="G1D12" >}}
 
-A US General license does not automatically authorize you to use that station. Obtain whatever authorization the transmitter’s country requires and follow its frequency, power, identification, and control rules. The owner’s permission alone does not settle the licensing question.
+A US General Class License does not automatically authorize you to use that station. Obtain whatever authorization the transmitter’s country requires and follow its frequency, power, identification, and control rules. The owner’s permission alone does not settle the licensing question.
 
-<!-- Illustration held for review: ../images/remote-operation-international.svg. Separate the transmitter’s radio jurisdiction from operator-location requirements; do not promise unrestricted worldwide access. -->
+![Two examples connect an operator to a transmitter through a control link. In the first, the operator is abroad and the transmitter is in the United States: US radio rules and a US operator license apply. In the second, the operator is in the United States and the transmitter is abroad: the transmitter country's rules and required authorization apply. In both cases, also check requirements where the operator is located.](../../../images/s9-5-remote-station-jurisdiction.svg)
+{.img-full .img-centered}
 
 #### Taking a Radio Abroad
 
-Taking the transmitter with you is not the same as remotely using a US station. A foreign country may offer reciprocal privileges, recognize a regional arrangement, or require an individual permit. Eligibility can depend on your license class as well as the destination, so a US General license is not automatically sufficient under every arrangement.
+Taking the transmitter with you is not the same as remotely using a US station. A foreign country may offer reciprocal privileges, recognize a regional arrangement, or require an individual permit. Eligibility can depend on your license class as well as the destination, so a US General Class License is not automatically sufficient under every arrangement.
 
 Before traveling, check the destination’s regulator or recognized national amateur organization for the current requirements. Confirm any documents, callsign prefix, power limits, and permitted bands. Do not assume that being a guest at a local club station removes those requirements.
 
 From a home station, a remote control point, or a temporary location abroad, the same distinction remains useful: know which station you are authorized to control and what it may transmit. The final part of that responsibility is keeping the license itself valid and knowing when a new or upgraded privilege takes effect.
 
-<!-- Editorial sources, checked 2026-09-26: 47 CFR 97.3, 97.5, 97.7, 97.9, 97.109, 97.111, 97.113, 97.115, 97.117, 97.119, and 97.301; current questions G1B07–G1B08, G1D05/G1D12, and G1E01/G1E05/G1E06/G1E12. Country-specific travel permission is intentionally not promised. Full URLs are in chapter9-revision-notes.md. -->
+<!-- Editorial sources, checked 2026-09-26: 47 CFR 97.3, 97.5, 97.7, 97.9, 97.109, 97.111, 97.113, 97.115, 97.117, 97.119, and 97.301; current questions G1B07–G1B08, G1D05/G1D12, and G1E01/G1E05/G1E06/G1E12. Country-specific travel permission is intentionally not promised. -->

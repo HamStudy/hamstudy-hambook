@@ -5,11 +5,11 @@ questions: ["G1A01", "G1A08", "G1A11", "G1A05", "G1A09", "G1A02", "G1A03", "G1A0
 status: draft1
 ---
 
-### Section 9.1: General Class Frequency Privileges
+### Section 9.1: General Frequency Privileges
 
-A General license gives you access to many more HF frequencies and modes, but a radio’s tuning range is not a guide to your privileges. Some frequencies require a different license class, and some permit CW or data but not voice. Check both the frequency and the emission type before transmitting.
+A General Class License gives you access to many more HF frequencies and modes, but a radio’s tuning range is not a guide to your privileges. Some frequencies require a different license class, and some permit CW or data but not voice. Check both the frequency and the emission type before transmitting.
 
-A current amateur band chart puts those two kinds of permission together. The chart’s license-class boundaries come from FCC rules; suggested places for particular activities come from voluntary band plans. As Section 8.1 explained, use the band plan within the limits of your license.
+A current amateur band chart puts those two kinds of permission together. The chart’s license-class boundaries come from FCC rules; suggested places for particular activities come from voluntary band plans. As the previous chapter explained, use the band plan within the limits of your license.
 
 #### Reading the License-Class Boundaries
 
@@ -33,9 +33,6 @@ For example, the General phone segment on 20 meters is 14.225–14.350 MHz. On 4
 
 That 40-meter interval is available to Advanced and Amateur Extra operators. Hearing a station there does not allow a General operator to answer on the same frequency. A split-frequency contact may be possible, but your transmit frequency and occupied bandwidth must remain within your own privileges.
 
-<!-- Illustration held for review: ../images/restricted-band-segments.svg. Distinguish General, Advanced, and Extra privileges and preserve gaps in General CW access. -->
-<!-- Illustration held for review: ../images/extra-exclusive-segments.svg. Do not label every non-General segment Extra-only. -->
-<!-- Illustration held for review: ../images/general-voice-privileges.svg. Check all boundaries against current Sections 97.301 and 97.305. -->
 
 #### Checking a Frequency in Practice
 
@@ -63,7 +60,7 @@ That means 28.000–29.700 MHz for CW. It does not make the entire range availab
 
 #### The Separate Arrangements on 60 Meters
 
-The US 60-meter allocation changed on February 13, 2026. It now includes a continuous range from **5351.5 to 5366.5 kHz**, plus four separate channels. An older chart showing only five channels is no longer sufficient.
+The US 60-meter allocation changed on February 13, 2026. It now includes a continuous range from **5351.5 to 5366.5 kHz**, plus four separate channels. An older chart showing only five channels is no longer sufficient. For the latest version of this book, visit [hambook.org](https://hambook.org).
 
 For the four separate channels, these are the channel centers and the corresponding USB suppressed-carrier settings:
 
@@ -76,9 +73,8 @@ For the four separate channels, these are the channel centers and the correspond
 
 The two numbers describe different parts of the same transmission. With USB, the audio shifts the transmitted signal above the suppressed carrier. For CW, the transmitted carrier goes at the channel center instead. Follow the radio and mode instructions so its displayed frequency produces the required RF frequency.
 
-The four separate channels permit USB phone, CW, and the specified RTTY/data emissions. In the continuous segment, permitted phone, CW, RTTY, and data emissions remain subject to the applicable technical rules. In either arrangement, the whole signal must stay within the authorized spectrum and must not exceed 2.8 kHz in bandwidth. The continuous segment and the four channels have different power limits, covered in Section 9.2. In particular, the former channel centered on 5358.5 kHz is now inside the new lower-power segment.
+The four separate channels permit USB phone, CW, and the specified RTTY/data emissions. In the continuous segment, permitted phone, CW, RTTY, and data emissions remain subject to the applicable technical rules. In either arrangement, the whole signal must stay within the authorized spectrum and must not exceed 2.8 kHz in bandwidth. The continuous segment and the four channels have different power limits, covered in the next section. In particular, the former channel centered on 5358.5 kHz is now inside the new lower-power segment.
 
-<!-- Illustration held for review: ../images/60m-channels.svg. Replace the five-channel arrangement with the four retained channels plus 5351.5–5366.5 kHz. -->
 
 #### Repeaters on 10 Meters
 
@@ -90,17 +86,15 @@ Both the repeater’s receive and transmit frequencies must be allowed for that 
 
 A repeater may also link two different bands. In that case, the user’s station and the repeater each have a control operator with appropriate privileges:
 
-> **Key Information:** A 10-meter repeater may retransmit a 2-meter signal from a station with a Technician control operator only if the repeater’s control operator holds at least a General class license. {{< link id="G1E02" >}}
+> **Key Information:** A 10-meter repeater may retransmit a 2-meter signal from a station with a Technician control operator only if the repeater’s control operator holds at least a General Class License. {{< link id="G1E02" >}}
 
 The Technician is transmitting on 2 meters, where that operator has privileges. The repeater makes a separate transmission on 10 meters under its own control operator’s authority. This does not give the Technician permission to transmit directly on the 10-meter repeater frequencies.
-
-![Separate control-operator responsibilities for a cross-band repeater](../images/cross-band-repeater-operation.svg)
 
 #### MF and HF Reference Ranges
 
 The following table summarizes common General privileges for a station in the **48 contiguous United States**, in MHz. CW may also be used in the phone/image ranges shown. Notice the gaps: permission for CW does not cross a frequency interval unavailable to your license class.
 
-| Band | General CW frequencies | General RTTY/data frequencies | General phone/image frequencies |
+| Band | CW | RTTY/data | Phone/image |
 |---|---|---|---|
 | 160 m | 1.800–2.000 | 1.800–2.000 | 1.800–2.000 |
 | 80/75 m | 3.525–3.600; 3.800–4.000 | 3.525–3.600 | 3.800–4.000 |
@@ -113,8 +107,8 @@ The following table summarizes common General privileges for a station in the **
 | 12 m | 24.890–24.990 | 24.890–24.930 | 24.930–24.990 |
 | 10 m | 28.000–29.700 | 28.000–28.300 | 28.300–29.700 |
 
-These are frequency and emission ranges, not permission to ignore bandwidth, power, sharing, or station-control restrictions. Some geographic areas have different provisions. The separate 630- and 2200-meter allocations also have special requirements not summarized here.
+These are frequency and emission ranges, not permission to ignore bandwidth, power, sharing, or station-control restrictions. Some geographic areas have different provisions. The separate 630- and 2200-meter allocations also have [special requirements in Section 97.303(g)](https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-97/subpart-D/section-97.303) not summarized here.
 
 Keep a current band chart near the operating position and check unfamiliar frequencies before transmitting. Once the frequency and mode are allowed, the next limit to check is the power and antenna arrangement you plan to use.
 
-<!-- Editorial sources, checked 2026-09-26: 47 CFR 97.301, 97.303, 97.305, 97.307, 97.205; Federal Register 2026-00587 (effective 2026-02-13). Full URLs and retired-question accounting are in chapter9-revision-notes.md. -->
+<!-- Editorial sources, checked 2026-09-26: 47 CFR 97.301, 97.303, 97.305, 97.307, 97.205; Federal Register 2026-00587 (effective 2026-02-13). -->

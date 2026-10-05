@@ -38,7 +38,7 @@ That frequency is one point inside the band. The same 200-watt limit applies els
 
 #### Power and Bandwidth on 60 Meters
 
-The four 60-meter channels and the continuous segment introduced in Section 9.1 share a bandwidth limit:
+The four 60-meter channels and the continuous segment introduced in the previous section share a bandwidth limit:
 
 > **Key Information:** The maximum bandwidth permitted for USB transmissions in the 60-meter band is 2.8 kHz. {{< link id="G1C03" >}}
 
@@ -46,14 +46,14 @@ The current rule also applies that 2.8 kHz maximum to the other permitted 60-met
 
 Power on this band is specified as **effective radiated power (ERP)**, referenced to a half-wave dipole, rather than only the transmitter’s output. The antenna’s gain therefore affects how much transmitter power you may use.
 
-Under the rules effective February 13, 2026:
+You can find the latest version of this book at [hambook.org](https://hambook.org). The limits below reflect the rules effective February 13, 2026:
 
 | 60-meter operation | Maximum radiated power |
 |---|---|
 | Four channels centered on 5332.0, 5348.0, 5373.0, and 5405.0 kHz | 100 watts ERP |
 | Continuous segment from 5351.5 to 5366.5 kHz | 9.15 watts ERP, equivalent to 15 watts EIRP |
 
-ERP compares the antenna with a half-wave dipole; EIRP compares it with an isotropic antenna. The two figures in the second row express the same limit using different references. Neither means that every antenna system may use that amount of transmitter output.
+ERP compares the antenna with a half-wave dipole; **equivalent isotropically radiated power (EIRP)** compares it with an isotropic antenna, an ideal source that radiates equally in every direction. Section 1.5 introduced these gain references. The two figures in the second row express the same limit using different references. Neither means that every antenna system may use that amount of transmitter output.
 
 For the FCC’s 60-meter calculation, multiply transmitter PEP by antenna gain relative to a dipole. A dipole is assigned a gain factor of 1, or 0 dBd. If another antenna has 3 dBd of gain, its gain factor is about 2: 50 watts PEP produces about 100 watts ERP. In the continuous segment, using a gain factor of 2, a 4.5-watt setting would produce about 9 watts ERP, below the 9.15-watt limit. Allow for uncertainty in the gain and power measurements rather than choosing a setting that may exceed the limit.
 
@@ -63,7 +63,6 @@ That calculation needs a documented gain value:
 
 The record may use the manufacturer’s gain data or an appropriate calculation. Check whether a published value is in dBd or dBi before using it. The different reference antennas are not interchangeable.
 
-<!-- Illustration held for review: ../images/60m-bandwidth.svg. Show the current continuous segment and retained channels, with the 2.8 kHz maximum. -->
 
 #### Antenna Height and Aviation Requirements
 
@@ -75,7 +74,6 @@ The height-based requirement generally applies to structures **more than 200 fee
 
 This is not a blanket right to build a 200-foot tower, nor a guarantee that anything shorter requires no approval. Check the FAA and FCC criteria for the site before construction, along with applicable building and zoning requirements. Marking and lighting requirements, when imposed, depend on that review.
 
-<!-- Illustration held for review: ../images/antenna-height-regulations.svg. Show the more-than-200-foot trigger and the separate airport-proximity condition; do not portray 200 feet as a universal permit exemption. -->
 
 #### State and Local Antenna Rules
 
@@ -89,5 +87,4 @@ Private deed restrictions, leases, and homeowners’ association covenants are a
 
 A useful installation proposal identifies the antenna, its location and height, and how the structure will be supported. Keep the safety and RF exposure work from Chapter 6 with those plans. Meeting a transmitter-power limit does not by itself establish a safe installation—or remove the obligation to avoid harmful interference to other services.
 
-<!-- Illustration held for review: ../images/prb1-reasonable-accommodation.svg. Distinguish local-government accommodation from private covenants and avoid promising approval. -->
-<!-- Editorial sources, checked 2026-09-26: 47 CFR 97.3(b)(9), 97.313, 97.307(f)(14), 97.15, and Part 17; FCC PRB-1, 101 FCC 2d 952 (1985); Federal Register 2026-00587. Full URLs are in chapter9-revision-notes.md. -->
+<!-- Editorial sources, checked 2026-09-26: 47 CFR 97.3(b)(9), 97.313, 97.307(f)(14), 97.15, and Part 17; FCC PRB-1, 101 FCC 2d 952 (1985); Federal Register 2026-00587. -->

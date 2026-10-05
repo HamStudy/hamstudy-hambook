@@ -31,13 +31,12 @@ The certificate also records credit for the passed examination element:
 
 Under the temporary-upgrade provision, the authority lasts until final disposition of the application or 365 days after passing the examination, whichever comes first. That is not an extra year to ignore an application problem. Follow up with the examining team if the application does not progress as expected.
 
-<!-- Illustration held for review: ../images/csce-privileges.svg. Separate existing-license upgrades from a first license, include AG where applicable, and distinguish temporary authority from element credit. -->
 
 #### Keeping a License Current
 
 An ordinary amateur license grant has a ten-year term. Renewal is normally filed within the 90 days before expiration. Check the expiration date and your FCC contact information rather than depending on a reminder to reach you.
 
-If the license expires, a two-year renewal grace period allows renewal without retesting, but it does not authorize transmitting while the expired grant awaits renewal. A timely, properly filed renewal submitted before expiration has a separate provision allowing continued operation while the FCC acts on it.
+If the license expires, a two-year renewal grace period allows renewal without retesting, but it does not authorize transmitting while the expired grant awaits renewal. A properly filed renewal received by the FCC on or before the expiration date has a [separate provision allowing continued operation](https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-97/subpart-A/section-97.21) until the application’s final disposition.
 
 After the grace period, the former license cannot be renewed through the ordinary renewal process. Past qualifications may still provide examination credit:
 
@@ -45,14 +44,12 @@ After the grace period, the former license cannot be renewed through the ordinar
 
 For a former General or Advanced license beyond the grace period, the credit is for **Element 3**, the General examination. It is not credit for Element 2. The returning applicant therefore takes the current Technician examination to obtain a new General grant:
 
-> **Key Information:** After a General license has expired beyond the two-year grace period, obtaining a new General license requires proof of the appropriate expired grant and passing the current Element 2 examination. {{< link id="G1D11" >}}
+> **Key Information:** After a General Class License has expired beyond the two-year grace period, obtaining a new General Class License requires proof of the appropriate expired grant and passing the current Element 2 examination. {{< link id="G1D11" >}}
 
-For example, someone whose General license expired many years ago can present acceptable proof to the examining team. Element 3 is credited, and a passing Element 2 result completes the required examination credit for General. Someone with no current license must still wait for the new FCC grant before transmitting as a control operator.
+For example, someone whose General Class License expired many years ago can present acceptable proof to the examining team. Element 3 is credited, and a passing Element 2 result completes the required examination credit for General. Someone with no current license must still wait for the new FCC grant before transmitting as a control operator.
 
-A former Amateur Extra grant provides credit for Elements 3 and 4. Other historical-license provisions also exist, so contact the examining team before the session to establish what proof and examinations are needed for the particular case. Proof of an old license and a recent CSCE are different sources of credit; the CSCE’s 365-day limit does not make qualifying historical-license credit expire after one year.
+A former Amateur Extra grant provides credit for Elements 3 and 4. Other [historical-license provisions in Section 97.505](https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-97/subpart-F/section-97.505) also exist, so contact the examining team before the session to establish what proof and examinations are needed for the particular case. Proof of an old license and a recent CSCE are different sources of credit; the CSCE’s 365-day limit does not make qualifying historical-license credit expire after one year.
 
-<!-- Illustration held for review: ../images/license-credit-process.svg. Correct the reversed credit: former General/Advanced beyond grace receives Element 3 credit and takes Element 2. -->
-<!-- Illustration held for review: ../images/license-renewal-process.svg. Show the 90-day ordinary renewal window, two-year grace period without transmit authority, and the new-grant path after grace. -->
 
 #### How Volunteer Examiners Fit into the Process
 
@@ -60,11 +57,11 @@ The people administering amateur examinations are Volunteer Examiners, or VEs. T
 
 > **Key Information:** Volunteer Examiners are accredited by a Volunteer Examiner Coordinator. {{< link id="G1D07" >}}
 
-The FCC issues the license grant; the examining team administers and certifies the examination. A General license alone does not make someone a VE. Accreditation and the other eligibility requirements must be met before serving on a team.
+The FCC issues the license grant; the examining team administers and certifies the examination. A General Class License alone does not make someone a VE. Accreditation and the other eligibility requirements must be met before serving on a team.
 
 A VE’s license class limits which examinations that person may administer:
 
-> **Key Information:** An accredited VE holding a General class license may administer Technician examinations only. {{< link id="G1D02" >}}
+> **Key Information:** An accredited VE holding a General Class License may administer Technician examinations only. {{< link id="G1D02" >}}
 
 | VE’s license class | Examinations the VE may administer |
 |---|---|
@@ -72,7 +69,6 @@ A VE’s license class limits which examinations that person may administer:
 | Advanced | Technician and General |
 | Amateur Extra | Technician, General, and Amateur Extra |
 
-<!-- Illustration held for review: ../images/ve-privileges-by-class.svg. Include Advanced, General, and Extra correctly; accreditation and other eligibility requirements remain separate. -->
 
 #### Qualifying and Serving as a VE
 
@@ -92,8 +88,6 @@ Examinations are administered by a team rather than by one examiner acting alone
 
 Each administering VE must be qualified for the examination being given and accredited by the coordinating VEC. Follow that VEC’s procedures for observation, examination security, grading, records, and certification. The team’s responsibility is to verify the result, not to coach the applicant toward particular answers during the test.
 
-![A qualified VE team administering an examination](../images/ve-session-requirements.svg)
-
 A local team or VEC can explain the accreditation process and how to take part. Helping an applicant understand the instructions, arrange an appropriate accommodation, or complete the paperwork can make a session more welcoming without changing the examination standard. Becoming a VE is one possible use of your license, not an obligation that comes with upgrading.
 
 #### From Study to Operating
@@ -104,4 +98,4 @@ As you prepare for the exam, use the linked questions to find topics that still 
 
 Choose an activity that interests you and start with a contact your station can support. Listen, make the needed checks, and give the other operator time to reply. A short exchange is a useful beginning; the next question, adjustment, or conversation gives you somewhere to continue.
 
-<!-- Editorial sources, checked 2026-09-26: 47 CFR 97.5, 97.9(b), 97.21, 97.25, 97.119(f), 97.505, 97.509, 97.511, 97.519, and 1.949; current questions G1D01–G1D04 and G1D06–G1D11. Full URLs are in chapter9-revision-notes.md. -->
+<!-- Editorial sources, checked 2026-09-26: 47 CFR 97.5, 97.9(b), 97.21, 97.25, 97.119(f), 97.505, 97.509, 97.511, 97.519, and 1.949; current questions G1D01–G1D04 and G1D06–G1D11. -->

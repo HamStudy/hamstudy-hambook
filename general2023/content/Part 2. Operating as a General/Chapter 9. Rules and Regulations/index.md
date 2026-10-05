@@ -7,7 +7,7 @@ status: draft1
 
 ## Chapter 9: Rules and Regulations
 
-A band chart tells you where your license class permits you to transmit. It does not settle every operating question. An unattended gateway, a message for an unlicensed friend, or a transmitter in another country may involve rules beyond the frequency limits. The station and operating skills from Chapters 7 and 8 work within those permissions.
+A band chart tells you where your license class permits you to transmit. It does not settle every operating question. An unattended gateway, a message for an unlicensed friend, or a transmitter in another country may involve rules beyond the frequency limits. The station and operating skills from the previous two chapters work within those permissions.
 
 Most US amateur operating rules are in Part 97 of the FCC regulations. They define where and how you may transmit, who is responsible for a station, and which kinds of communication are permitted. Voluntary band plans help operators share the available frequencies, but they do not expand anyone’s legal privileges.
 

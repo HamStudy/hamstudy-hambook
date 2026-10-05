@@ -5,9 +5,9 @@ questions: ["G1B05", "G1B04", "G1B03", "G1B09", "G1B10", "G1B02", "G1E11", "G1E0
 status: draft1
 ---
 
-### Section 9.4: Special Transmissions and Station Control
+### Section 9.4: Special Uses and Control
 
-The contacts in Chapter 8 generally involved stations exchanging information with one another. A code-practice transmission or propagation beacon works differently: it sends something useful without expecting each listener to reply. A digital gateway may answer without an operator taking each turn at the keyboard.
+The contacts in the previous chapter generally involved stations exchanging information with one another. A code-practice transmission or propagation beacon works differently: it sends something useful without expecting each listener to reply. A digital gateway may answer without an operator taking each turn at the keyboard.
 
 These differences raise two separate questions: is that kind of transmission permitted, and how is the station controlled? Permission for a one-way transmission does not by itself authorize automatic control.
 
@@ -31,9 +31,9 @@ A beacon provides a signal that other operators can use to investigate a radio p
 
 > **Key Information:** Observation of propagation and reception is a purpose of a beacon station. {{< link id="G1B03" >}}
 
-Its identified signal and known location let listeners relate what they hear to a particular path, as with the beacon network in Section 9.3. The operator is providing a reference signal rather than calling each listener for a conversation.
+Its identified signal and known location let listeners relate what they hear to a particular path, as with the beacon network in the previous section. The operator is providing a reference signal rather than calling each listener for a conversation.
 
-How the beacon is controlled matters. With **local control**, the control operator directly operates the controls. With **remote control**, the operator does so indirectly through a control link. With **automatic control**, equipment controls the station without the control operator intervening in each transmission. The station still has a responsible licensee and control operator.
+How the beacon is controlled matters. The **control point** is where the control operator performs that duty. With **local control**, the control operator directly operates the controls. With **remote control**, the operator does so indirectly through a control link. With **automatic control**, devices and procedures keep the station in compliance without the control operator present at a control point. The station still has a responsible licensee and control operator.
 
 For ordinary FCC-authorized HF beacon operation, automatic control is limited to a specific range:
 
@@ -49,27 +49,21 @@ Two other beacon limits apply:
 
 The location restriction is **per band**. It does not prohibit beacons on different bands at one site, provided each otherwise complies with the rules. As with other stations, use only the power needed for the purpose rather than automatically selecting the maximum.
 
-<!-- Illustration held for review: ../images/hf-beacon-operation.svg. Distinguish automatic HF permission from beacon operation under other control or authorization. -->
-![A beacon providing a reference signal for propagation and reception observations](../images/beacon-station-purpose.svg)
-
 #### Automatically Controlled Digital Exchanges
 
-The gateway examples in Section 8.5 use another form of automatic operation. The rules distinguish exchanges between automatically controlled stations from a gateway responding to an operator-controlled station:
+The gateway examples in the previous chapter use another form of automatic operation. The rules distinguish exchanges between automatically controlled stations from a gateway responding to an operator-controlled station:
 
 > **Key Information:** Automatically controlled stations may communicate with other automatically controlled stations using RTTY or data on the 6-meter and shorter-wavelength bands, and in specified segments of some HF bands. {{< link id="G1E11" >}}
 
-The stations must still use authorized frequencies and emissions. “Six meters and shorter wavelengths” means the higher-frequency bands, not permission to ignore their other restrictions. On HF, Section 97.221(b) lists the permitted segments; consult that list before configuring an unattended station.
+The stations must still use authorized frequencies and emissions. “Six meters and shorter wavelengths” means the higher-frequency bands, not permission to ignore their other restrictions. On HF, [Section 97.221(b)](https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-97/subpart-C/section-97.221) lists the permitted segments; consult that list before configuring an unattended station.
 
 Outside those HF segments, there is a narrower permission for an automatically controlled station to answer:
 
 > **Key Information:** When contacting an automatically controlled digital station outside the automatic-control segments, the station initiating the contact must be under local or remote control. {{< link id="G1E03" >}}
 
-Under Section 97.221(c), the responding automatic station must also occupy no more than **500 Hz**, and that permission excludes the specified 60-meter channels. The frequency must otherwise permit the emission. A locally controlled caller therefore does not make every gateway mode legal everywhere; a wider automatic response still needs an appropriate authorized segment.
+Under Section 97.221(c), the responding automatic station must also occupy no more than **500 Hz**, and that permission excludes the four 60-meter channels specified in Section 97.303(h). The frequency must otherwise permit the emission. A locally controlled caller therefore does not make every gateway mode legal everywhere; a wider automatic response still needs an appropriate authorized segment.
 
 Using software is not, by itself, automatic control. An operator can use a computer to generate signals while remaining responsible for starting, supervising, and stopping the exchange. Configure the station for the actual form of control being used, not merely for the name of its software.
-
-<!-- Illustration held for review: ../images/auto-control-segments.svg. Show the current 97.221(b) segments without implying that all other automatic responses are prohibited. -->
-<!-- Illustration held for review: ../images/automatic-control-requirements.svg. Include the local/remote initiating station, the 500 Hz response limit, and the 60-meter-channel exclusion. -->
 
 #### Documenting a New Digital Protocol
 
@@ -79,15 +73,13 @@ Control requirements apply even when the signal itself is experimental. Developi
 
 A useful specification describes the modulation, coding, timing, bandwidth, and any error-correction method well enough to explain how the signal works. Publishing the description does not waive the frequency, bandwidth, identification, or message-content rules. Check the applicable digital-code provisions in Section 97.309 as well.
 
-This distinction also applies to familiar networking technology. Compatible hardware does not make two radio services interchangeable:
+The radio service matters as well as the protocol. Compatible hardware does not make two radio services interchangeable:
 
 > **Key Information:** An amateur station may not communicate over its amateur radio link with non-licensed Wi-Fi stations anywhere in the 2.4 GHz band. {{< link id="G1E07" >}}
 
 Here the distinction is between an amateur transmission under Part 97 and a Wi-Fi device operating under Part 15. An amateur license held by the laptop’s owner does not automatically turn its ordinary Wi-Fi connection into an amateur station.
 
-This is not a prohibition on connecting an amateur station’s computer to a home network or the internet. Separate network connections can support station control or an amateur data network. The transmissions on the amateur RF link must still meet Part 97, including its identification and message-content requirements. The AREDN services in Section 8.6 need that same separation between network connectivity and permission to transmit particular traffic.
-
-<!-- Illustration held for review: ../images/wifi-band-restrictions.svg. Distinguish the regulated RF link from ordinary Ethernet, internet, or separate Part 15 network connections. -->
+This is not a prohibition on connecting an amateur station’s computer to a home network or the internet. Separate network connections can support station control or an amateur data network. The transmissions on the amateur RF link must still meet Part 97, including its identification and message-content requirements. The AREDN services described in the previous chapter need that same separation between network connectivity and permission to transmit particular traffic.
 
 #### Checking the Signal’s Technical Limits
 
@@ -99,4 +91,4 @@ That is a transmitter-output limit, unlike the ERP limits on 60 meters. Spread s
 
 Before operating a new system, identify its emission, bandwidth, power, and form of station control. Those determine which permissions apply. You also need to consider the message itself—especially when you transmit information for someone else or send it across an international border.
 
-<!-- Editorial sources, checked 2026-09-26: 47 CFR 97.3, 97.109, 97.111, 97.113, 97.203, 97.221, 97.305, 97.309, 97.311, and 97.313(j); AREDN Home Router Connection documentation. Full URLs are in chapter9-revision-notes.md. -->
+<!-- Editorial sources, checked 2026-09-26: 47 CFR 97.3, 97.109, 97.111, 97.113, 97.203, 97.221, 97.305, 97.309, 97.311, and 97.313(j); AREDN Home Router Connection documentation. -->
