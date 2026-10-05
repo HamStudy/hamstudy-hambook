@@ -7,7 +7,7 @@ status: draft1
 
 ### Section 6.1: AC Power and Protection
 
-Ham shacks come in all shapes and sizes—from a corner of the kitchen table to a dedicated room filled with equipment. But whether you're adding a simple power strip to charge your handheld or running a dedicated 240-volt circuit for an amplifier, any time you modify your station's power distribution, you're making decisions that affect safety. Understanding how AC power works in your home and how to protect yourself and your equipment is something that will pay dividends not just in the hobby, but throughout your life!
+Ham shacks come in all shapes and sizes—from a corner of the kitchen table to a dedicated room filled with equipment. But whether you're adding a simple power strip to charge your handheld or running a dedicated 240-volt circuit for an amplifier, any time you modify your station's power distribution, you're making decisions that affect safety.
 
 #### The Foundation: Understanding Your Home's Power
 

@@ -27,7 +27,7 @@ Three factors work together to determine how much RF exposure someone receives:
 
 **Power density** is the concentration of RF power in space, measured in milliwatts per square centimeter. Far enough from an antenna, in a given direction, moving twice as far away reduces power density to about one quarter (the inverse square law at work). Close to the antenna, the fields are more complex, so that shortcut may not apply.
 
-**Duty cycle** often means the percentage of time you're transmitting. If you listen for 5 minutes and transmit for 5 minutes, that is 50% over the full 10 minutes. A ragchew with 2 minutes talking and 2 minutes listening is also 50% over a complete cycle. But exposure rules use a specified time window, not necessarily your whole conversation. Alternating FT8 slots gives a transmit fraction a little below 50%, because each signal ends before its 15-second slot does; using 50% is a conservative estimate for that alternating pattern.
+**Duty cycle** often means the percentage of time you're transmitting. If you listen for 5 minutes and transmit for 5 minutes, that is 50% over the full 10 minutes. But exposure rules use a specified time window, not necessarily your whole conversation. Alternating FT8 slots gives a transmit fraction a little below 50%, because each signal ends before its 15-second slot does; using 50% is a conservative estimate for that alternating pattern.
 
 The FCC uses "time averaging" to account for duty cycle when evaluating exposure:
 
@@ -103,5 +103,3 @@ RF exposure management doesn't need to be complicated:
 3. Address problems with more distance, less power, or restricted access
 4. Document your evaluation
 5. Re-evaluate when you make significant station changes
-
-The rules exist not to limit your enjoyment but to ensure amateur radio remains safe for operators, families, and neighbors. A little awareness goes a long way.

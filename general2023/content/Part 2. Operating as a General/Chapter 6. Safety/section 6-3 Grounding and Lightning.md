@@ -7,7 +7,7 @@ status: draft1
 
 ### Section 6.3: Grounding and Lightning
 
-That antenna reaching toward the sky does a great job of catching radio waves—but it's also pretty good at catching lightning. As your station grows, you may add bigger antennas or more power, which makes understanding grounding systems more important than ever. What makes grounding confusing is that the word means different things depending on whether you're talking about lightning protection, RF management, or basic electrical safety. Let's sort it all out.
+That antenna reaching toward the sky does a great job of catching radio waves—but it's also pretty good at catching lightning. What makes grounding confusing is that the word means different things depending on whether you're talking about lightning protection, RF management, or basic electrical safety. Let's sort it all out.
 
 #### Lightning Protection
 
@@ -86,6 +86,6 @@ Three different grounding needs—lightning protection, RF management, and elect
 
 The common goal is to manage currents and voltage differences rather than leave separate pieces of equipment at unrelated potentials. Lightning protection, RF bonding, and electrical safety grounding each address a different hazard, so none replaces the others. A station can need attention to all three even if one appears to be working well.
 
-No ground system is perfect, and a direct lightning strike can overwhelm any protection. But a well-designed system gives you the best possible odds of your equipment—and you—surviving to operate another day.
+No ground system is perfect, and a direct lightning strike can overwhelm any protection.
 
 The next section turns from electrical connections to installing and maintaining antennas, including the hazards of working at height.

@@ -23,7 +23,7 @@ Discharging too deeply shortens battery life. In a lead-acid battery, lead sulfa
 
 Treat **10.5 volts as the exam’s lower-limit answer**, not a daily target for long battery life. It is a typical fully discharged endpoint under a specified load. Shallower discharges usually extend life; use the battery maker’s voltage and depth-of-discharge limits.
 
-Here's the gotcha: voltage sags under load. Your battery might read a comfortable 12.2 volts while you're listening, then drop below 10.5 volts the moment you key up to transmit. If you're serious about battery longevity, monitor voltage while transmitting—or better yet, use a low-voltage cutoff set for your battery and load. Your future self (and wallet) will thank you.
+Here's the gotcha: voltage sags under load. Your battery might read a comfortable 12.2 volts while you're listening, then drop below 10.5 volts the moment you key up to transmit. If you're serious about battery longevity, monitor voltage while transmitting—or better yet, use a low-voltage cutoff set for your battery and load.
 
 ##### Internal Resistance: The Hidden Spec
 
@@ -85,7 +85,7 @@ Here's something that's easy to overlook: without reverse-current protection, a 
 
 > **Key Information:** A series diode should be connected between a solar panel and a storage battery that is being charged by the panel to prevent discharge of the battery through the panel during times of low or no illumination. {{< link id="G4E10" >}}
 
-A blocking diode acts like a one-way valve, letting current flow into the battery while preventing it from sneaking back out overnight. Simple problem, simple solution. A solar charge controller regulates the battery’s charging voltage and current, and many include reverse-current protection. Check its specifications before adding a separate blocking diode.
+A blocking diode acts like a one-way valve, letting current flow into the battery while preventing it from sneaking back out overnight. A solar charge controller regulates the battery’s charging voltage and current, and many include reverse-current protection. Check its specifications before adding a separate blocking diode.
 
 ##### Lithium Batteries Need a Chaperone
 
@@ -104,7 +104,7 @@ Cold-weather charging needs special attention. A LiFePO4 battery may allow disch
 
 #### Generator Safety
 
-When the sun isn't shining and the batteries are low, generators save the day—but like everything else, they come with safety considerations.
+When the sun isn't shining and the batteries are low, generators save the day.
 
 ##### Carbon Monoxide: The Silent Threat
 
