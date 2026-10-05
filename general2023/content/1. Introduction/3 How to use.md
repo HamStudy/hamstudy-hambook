@@ -1,5 +1,4 @@
 ---
-title: "How to Use This HamBook"
 epubtype: introduction
 slug: how-to-use
 ---
@@ -10,21 +9,24 @@ slug: how-to-use
 
 The General Class License HamBook is structured to support your existing study habits while addressing the specific content of the General exam. It is divided into two main parts:
 
-### Part 1: The Science
-This section focuses on the technical aspects of amateur radio, including:
+### Part 1: Expanding on Radio Science {#how-to-use-part-1}
 
-- **Components and Circuits**: Diving deeper into electronic theory, resonant circuits, and practical applications.
-- **Radio Waves and Signals**: Understanding modulation and bandwidth.
-- **Antennas and Feedlines**: Exploring antenna theory, matching networks, and common HF antenna designs.
-- **Propagation**: Learning how the atmosphere affects the path between stations.
+This part expands on Technician-level electrical and radio principles:
 
-### Part 2: Operating as a General
-This section covers the practical side of being a General Class operator:
+- **Electrical Foundations**: AC circuits, reactance, impedance, resonance, transformers, and power measurements.
+- **Components and Circuits**: RF components, amplifiers, power supplies, and digital circuits.
+- **Signal Theory and Modulation**: How radios create and receive signals, how modulation carries information, and how much bandwidth a signal uses.
+- **Advanced Antenna Systems**: Feed lines, impedance matching, and common HF antenna designs.
+- **Understanding RF Propagation**: How the atmosphere affects the path between stations.
+
+### Part 2: Expanding on Radio Operation {#how-to-use-part-2}
+
+This part covers the practical knowledge you'll use with a General Class License:
 
 - **Safety**: Electrical safety, RF exposure limits, and grounding practices essential for HF stations.
-- **Station Setup**: Connecting equipment and learning to use its controls.
-- **Operating Procedures**: HF protocols, DXing etiquette, and emergency communications.
-- **Regulations**: Specific rules for General Class privileges, emission types, and station identification.
+- **Setting Up Your HF Station**: Connecting equipment and learning to use its controls.
+- **Operating on the Air**: Voice, CW, and digital contacts, DXing and contests, and emergency communications.
+- **Rules and Regulations**: Rules for General Class privileges, emission types, and station identification.
 
 ## Study Strategies
 

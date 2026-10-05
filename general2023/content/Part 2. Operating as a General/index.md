@@ -4,14 +4,14 @@ slug: pt2
 status: generated
 ---
 
-# Part 2: Operating as a General Class Amateur
+# Part 2: Expanding on Radio Operation
 
-While Part 1 covered the scientific and technical foundations of radio—material that may be familiar to engineers and technically-oriented readers—Part 2 addresses something unique to amateur radio: how to actually operate as a licensed General class amateur. Even experienced radio professionals will find new territory here, as these practices, procedures, and regulations are specific to the amateur radio service.
+So far, we've followed signals from circuits and antennas through the ionosphere. Now we'll bring those ideas into the station: connecting equipment safely, making adjustments, and exchanging information with other operators.
 
-Your General license opens up a wealth of operating privileges that go far beyond what was available with your Technician license. To make the most of these new opportunities, you need to understand the protocols, conventions, and techniques that have evolved within the amateur community over decades of operation.
+A General Class License opens up a wealth of operating privileges beyond those available to a Technician. To make the most of these new opportunities, you need to understand the protocols, conventions, and techniques that have evolved within the amateur community over decades of operation.
 
-In the chapters ahead, we'll explore safety practices specific to amateur installations, learn how to set up an effective HF station, master voice and CW operating techniques that follow established amateur protocols, navigate the rules and regulations that govern General class operation, and examine specialized procedures for activities like emergency communication, contesting, and digital operation.
+In the chapters ahead, we'll explore safety practices specific to amateur installations and learn how to set up an effective HF station. We'll cover voice, CW, and digital operating techniques, along with activities like emergency communication and contesting. We'll also look at the rules that govern General class operation.
 
-For technical readers, this part connects your existing knowledge to amateur-specific applications. For those who found the technical material challenging, don't worry—many excellent operators focus more on operating skills than technical details. Either way, these chapters will equip you with the practical knowledge needed to get on the air and make the most of your new privileges.
+These chapters build on the operating knowledge covered at the Technician level. Whether you're already active on the air or still setting up your first station, they'll help you prepare to use the additional privileges of a General Class License.
 
 Let's discover the operating practices that will turn your technical understanding into successful on-air experiences!
