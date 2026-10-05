@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="385" viewBox="0 0 640 385" role="img" aria-labelledby="title desc">
+<title id="title">High-angle and shallow-angle skywave</title><desc id="desc">A high-angle ray returns near the transmitter, while a shallower ray returns farther away. Both curve gradually through the ionosphere. The flat-ground diagram is conceptual, not a model of angles, distance, or atmospheric height.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#111"/></marker></defs>
+<style>text{font-family:Arial,Helvetica,sans-serif;font-size:24px;fill:#111} .small{font-size:22px} .head{font-weight:bold} .wire{fill:none;stroke:#111;stroke-width:4;stroke-linecap:round;stroke-linejoin:round} .thin{fill:none;stroke:#555;stroke-width:2.5} .dash{stroke-dasharray:8 6} .arrow{fill:none;stroke:#111;stroke-width:3;marker-end:url(#arrow)} .box{fill:#fff;stroke:#111;stroke-width:2.5} .light{fill:#eee;stroke:#555;stroke-width:2} </style>
+<rect width="640" height="385" fill="white"/>
+<text x="320" y="31" class="head" text-anchor="middle">Ray angle and path distance</text><rect x="25" y="70" width="590" height="91" fill="#eee"/><text x="320" y="97" class="small" text-anchor="middle">Ionosphere</text><path d="M 105,278 L 130,154 C 145,80 183,80 196,154 L 219,278" class="wire c-primary-stroke"/><path d="M 105,278 L 265,154 C 345,92 442,102 480,154 L 571,278" class="wire c-secondary-stroke"/><line x1="20" y1="285" x2="620" y2="285" class="wire"/><text x="71" y="327" class="small" text-anchor="middle">Transmit</text><text x="240" y="327" class="small" text-anchor="middle">Near return</text><text x="527" y="327" class="small" text-anchor="middle">Far return</text><text x="48" y="198" class="small" text-anchor="middle">Steep</text><text x="449" y="207" class="small" text-anchor="middle">Shallow</text><text x="320" y="375" class="small" text-anchor="middle">Supported rays only; diagram not to scale.</text>
+<style id="semantic-color">.c-primary-stroke{stroke:#0068a8}.c-secondary-stroke{stroke:#b45309}</style>
+
+<!-- Keep the light palette for print and SVG readers without theme support. -->
+<style id="figure-theme">
+  @media screen and (prefers-color-scheme: dark) {
+    [fill="white"] { fill: #111820; }
+    [fill="#111"] { fill: #e9eef4; }
+    [fill="#eee"] { fill: #24313f; }
+    text { fill: #e9eef4; }
+    .wire { stroke: #e9eef4; }
+    .thin { stroke: #b8c5d4; }
+    .arrow { stroke: #e9eef4; }
+    .box { fill: #111820; stroke: #e9eef4; }
+    .light { fill: #24313f; stroke: #b8c5d4; }
+    .c-primary-stroke { stroke: #79c6ff; }
+    .c-secondary-stroke { stroke: #ffc078; }
+  }
+</style>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="410" viewBox="0 0 640 410" role="img" aria-labelledby="title desc">
+<title id="title">Two arcs of a great circle</title><desc id="desc">A and B are two stations on a great circle. The short path takes the upper arc of this schematic; the long path travels the rest of the circle. The two departure directions at A are opposite.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#111"/></marker></defs>
+<style>text{font-family:Arial,Helvetica,sans-serif;font-size:24px;fill:#111} .small{font-size:22px} .head{font-weight:bold} .wire{fill:none;stroke:#111;stroke-width:4;stroke-linecap:round;stroke-linejoin:round} .thin{fill:none;stroke:#555;stroke-width:2.5} .dash{stroke-dasharray:8 6} .arrow{fill:none;stroke:#111;stroke-width:3;marker-end:url(#arrow)} .box{fill:#fff;stroke:#111;stroke-width:2.5} .light{fill:#eee;stroke:#555;stroke-width:2} </style>
+<rect width="640" height="410" fill="white"/>
+<text x="320" y="31" class="head" text-anchor="middle">Two routes between A and B</text><circle cx="320" cy="192" r="128" fill="#eee" stroke="#bbb" stroke-width="2"/><path d="M 192,192 A 128,128 0 0 1 384,81.14874831559186" fill="none" stroke="#111" stroke-width="5" class="c-primary-stroke"/><path d="M 192,192 A 128,128 0 1 0 384,81.14874831559186" fill="none" stroke="#111" stroke-width="5" stroke-dasharray="12 7" class="c-secondary-stroke"/><circle cx="192" cy="192" r="7" fill="#111"/><circle cx="384" cy="81.14874831559186" r="7" fill="#111"/><text x="160" y="200" class="head" text-anchor="middle">A</text><text x="408" y="77" class="head" text-anchor="middle">B</text><text x="186" y="66" class="small" text-anchor="middle">Short path</text><line x1="211" y1="78" x2="242" y2="90" class="thin"/><text x="475" y="309" class="small" text-anchor="middle">Long path</text><line x1="460" y1="282" x2="425" y2="266" class="thin"/><text x="320" y="191" class="" text-anchor="middle">Earth</text><text x="320" y="364" class="small" text-anchor="middle">One great circle; opposite departure directions</text><text x="320" y="400" class="small" text-anchor="middle">Paths shown on the surface, not hop heights.</text>
+<style id="semantic-color">.c-primary-stroke{stroke:#0068a8}.c-secondary-stroke{stroke:#b45309}</style>
+
+<!-- Keep the light palette for print and SVG readers without theme support. -->
+<style id="figure-theme">
+  @media screen and (prefers-color-scheme: dark) {
+    [fill="white"] { fill: #111820; }
+    [fill="#111"] { fill: #e9eef4; }
+    [fill="#eee"] { fill: #24313f; }
+    [stroke="#111"] { stroke: #e9eef4; }
+    [stroke="#bbb"] { stroke: #5b6e82; }
+    text { fill: #e9eef4; }
+    .wire { stroke: #e9eef4; }
+    .thin { stroke: #b8c5d4; }
+    .arrow { stroke: #e9eef4; }
+    .box { fill: #111820; stroke: #e9eef4; }
+    .light { fill: #24313f; stroke: #b8c5d4; }
+    .c-primary-stroke { stroke: #79c6ff; }
+    .c-secondary-stroke { stroke: #ffc078; }
+  }
+</style>
+</svg>

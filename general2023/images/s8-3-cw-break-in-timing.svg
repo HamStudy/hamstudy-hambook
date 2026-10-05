@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="350" viewBox="0 0 1000 350" role="img"><title>Full break-in receive gaps between CW elements</title><defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#222"/></marker><pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse"><path d="M0 10L10 0" stroke="#aaa" stroke-width="2"/></pattern></defs><rect width="1000" height="350" fill="white"/><g font-family="Arial, Helvetica, sans-serif" fill="#171717"><text x="35" y="40" font-size="30" text-anchor="start" font-weight="bold"><tspan x="35" dy="0">Full break-in: listen in the gaps</tspan></text><text x="35" y="122" font-size="28" text-anchor="start" font-weight="normal" fill="#0068a8"><tspan x="35" dy="0">Transmit</tspan></text><text x="35" y="232" font-size="28" text-anchor="start" font-weight="normal" fill="#00776f"><tspan x="35" dy="0">Receive</tspan></text><rect x="225" y="80" width="70" height="65" rx="4" fill="#0068a8" stroke="#222" stroke-width="2"/><rect x="365" y="80" width="210" height="65" rx="4" fill="#0068a8" stroke="#222" stroke-width="2"/><rect x="645" y="80" width="70" height="65" rx="4" fill="#0068a8" stroke="#222" stroke-width="2"/><rect x="295" y="192" width="70" height="65" rx="4" fill="#e0f2ee" stroke="#222" stroke-width="2"/><rect x="575" y="192" width="70" height="65" rx="4" fill="#e0f2ee" stroke="#222" stroke-width="2"/><rect x="715" y="192" width="140" height="65" rx="4" fill="#e0f2ee" stroke="#222" stroke-width="2"/><text x="260.0" y="172" font-size="28" text-anchor="middle" font-weight="normal"><tspan x="260.0" dy="0">dot</tspan></text><text x="470.0" y="172" font-size="28" text-anchor="middle" font-weight="normal"><tspan x="470.0" dy="0">dash</tspan></text><text x="680.0" y="172" font-size="28" text-anchor="middle" font-weight="normal"><tspan x="680.0" dy="0">dot</tspan></text><line x1="225" y1="290" x2="920" y2="290" stroke="#222" stroke-width="3" marker-end="url(#arrow)"/><text x="575" y="330" font-size="28" text-anchor="middle" font-weight="normal"><tspan x="575" dy="0">Time →   (switching intervals simplified)</tspan></text></g>
+<!-- Keep the light palette for print and SVG readers without theme support. -->
+<style id="figure-theme">
+  @media screen and (prefers-color-scheme: dark) {
+    [fill="white"] { fill: #111820; }
+    [fill="#171717"] { fill: #e9eef4; }
+    [fill="#222"] { fill: #e9eef4; }
+    [fill="#0068a8"] { fill: #79c6ff; }
+    [fill="#00776f"] { fill: #70d5c6; }
+    [fill="#e0f2ee"] { fill: #143c36; }
+    [stroke="#222"] { stroke: #e9eef4; }
+    [stroke="#aaa"] { stroke: #7e91a5; }
+  }
+</style>
+</svg>

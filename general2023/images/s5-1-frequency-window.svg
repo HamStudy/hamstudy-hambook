@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="430" viewBox="0 0 640 430" role="img" aria-labelledby="title desc">
+<title id="title">MUF and LUF define a usable interval</title><desc id="desc">Left, a range above LUF and below MUF supports ordinary skywave on the path. Right, LUF is higher than MUF, so no frequency satisfies both conditions. No numerical frequencies are shown.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#111"/></marker></defs>
+<style>text{font-family:Arial,Helvetica,sans-serif;font-size:24px;fill:#111} .small{font-size:22px} .head{font-weight:bold} .wire{fill:none;stroke:#111;stroke-width:4;stroke-linecap:round;stroke-linejoin:round} .thin{fill:none;stroke:#555;stroke-width:2.5} .dash{stroke-dasharray:8 6} .arrow{fill:none;stroke:#111;stroke-width:3;marker-end:url(#arrow)} .box{fill:#fff;stroke:#111;stroke-width:2.5} .light{fill:#eee;stroke:#555;stroke-width:2} </style>
+<rect width="640" height="430" fill="white"/>
+<text x="179" y="35" class="head" text-anchor="middle">Usable interval</text><text x="473" y="35" class="head" text-anchor="middle">No interval</text><line x1="54" y1="328" x2="54" y2="72" class="arrow"/><text x="182" y="83" class="small" text-anchor="middle">Higher frequency</text><rect x="101" y="130" width="160" height="130" fill="#ddd" class="c-passband-tint"/><line x1="92" y1="130" x2="276" y2="130" class="thin c-primary-stroke"/><line x1="92" y1="260" x2="276" y2="260" class="thin c-secondary-stroke"/><text x="180" y="117" class="" text-anchor="middle">MUF</text><text x="180" y="296" class="" text-anchor="middle">LUF</text><text x="180" y="188" class="small" text-anchor="middle">Usable</text><text x="180" y="219" class="small" text-anchor="middle">range</text><line x1="380" y1="130" x2="565" y2="130" class="thin c-secondary-stroke"/><line x1="380" y1="260" x2="565" y2="260" class="thin c-primary-stroke"/><text x="473" y="117" class="" text-anchor="middle">LUF</text><text x="473" y="296" class="" text-anchor="middle">MUF</text><text x="473" y="191" class="small" text-anchor="middle">Too weak</text><text x="473" y="223" class="small" text-anchor="middle">or no return</text><text x="320" y="365" class="small" text-anchor="middle">Both conditions must hold for the same path:</text><text x="320" y="404" class="head" text-anchor="middle">above LUF and below MUF.</text>
+<style id="semantic-color">.c-passband-tint{fill:#e0f2ee}.c-primary-stroke{stroke:#0068a8}.c-secondary-stroke{stroke:#b45309}</style>
+
+<!-- Keep the light palette for print and SVG readers without theme support. -->
+<style id="figure-theme">
+  @media screen and (prefers-color-scheme: dark) {
+    [fill="white"] { fill: #111820; }
+    [fill="#111"] { fill: #e9eef4; }
+    [fill="#ddd"] { fill: #344455; }
+    text { fill: #e9eef4; }
+    .wire { stroke: #e9eef4; }
+    .thin { stroke: #b8c5d4; }
+    .arrow { stroke: #e9eef4; }
+    .box { fill: #111820; stroke: #e9eef4; }
+    .light { fill: #24313f; stroke: #b8c5d4; }
+    .c-passband-tint { fill: #143c36; }
+    .c-primary-stroke { stroke: #79c6ff; }
+    .c-secondary-stroke { stroke: #ffc078; }
+  }
+</style>
+</svg>
