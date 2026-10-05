@@ -17,9 +17,9 @@ If you're going to climb, a safety harness is non-negotiable. But not just any h
 
 Weight ratings include everything: your body, tools, hardware, whatever you're carrying up. A harness rated for 310 pounds doesn't leave much margin if you weigh 250 and carry 40 pounds of gear.
 
-Service life matters because harnesses degrade over time from UV exposure and normal wear, even if they look fine. Follow the actual manufacturer's inspection and retirement rules; there is no single service-life limit for every harness. Some limits run from manufacture, not first use. Any harness that's taken a fall with shock loading should be removed from service immediately and handled according to its manufacturer's instructions.
+Service life matters because harnesses degrade over time from UV exposure and normal wear, even if they look fine. Inspect the harness before each use and follow the manufacturer's inspection and retirement rules. There is no single service-life limit for every harness. Some limits run from manufacture, not first use. Any harness that's taken a fall with shock loading should be removed from service immediately and handled according to its manufacturer's instructions.
 
-A harness is only one part of a fall-protection system. You also need training, compatible connecting equipment, sound attachment points, and a tower assessed as safe to climb. Stay properly attached throughout the climb and work; never free-climb.
+A harness is only one part of a fall-protection system. You also need training, compatible connecting equipment, attachment points rated for fall protection, and a tower assessed as safe to climb. Stay properly attached throughout the climb and work; never free-climb.
 
 Beyond the harness, never climb alone. A ground crew can call for help if something goes wrong, spot hazards you can't see, and haul tools so you're not carrying extra weight. What starts as a "quick five-minute adjustment" can turn serious fast if no one knows you're up there. Plan for rescue before climbing, including the people and equipment needed to reach an injured or suspended climber. A phone call alone is not a complete rescue plan.
 
@@ -37,6 +37,6 @@ Lockout/tagout means more than flipping a switch. Use the lockout/tagout procedu
 
 #### The Professional Option
 
-Not everyone should climb towers, and there's no shame in that. Professional tower crews have proper equipment, training, insurance, and experience. The cost of professional installation is trivial compared to medical bills—or worse. Many hams enjoy decades of great contacts without ever leaving the ground. The [OSHA/FCC tower-safety guide](https://www.osha.gov/sites/default/files/publications/OSHA3877.pdf) explains the planning and training used in professional tower work.
+Not everyone should climb towers, and there's no shame in that. Choose a professional tower crew with proper equipment, training, insurance, and experience. The cost of professional installation is trivial compared to medical bills—or worse. Many hams enjoy decades of great contacts without ever leaving the ground. The [OSHA/FCC tower-safety guide](https://www.osha.gov/sites/default/files/publications/OSHA3877.pdf) explains the planning and training used in professional tower work.
 
 Whether you climb yourself or watch from below, respect for the hazards keeps everyone safe. The goal isn't just getting antennas in the air—it's enjoying them for years to come.

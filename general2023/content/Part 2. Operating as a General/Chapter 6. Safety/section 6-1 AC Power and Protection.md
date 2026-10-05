@@ -70,7 +70,7 @@ Beyond sizing, *where* you place circuit protection matters. Get this wrong, and
 ![In this four-wire, 240-volt circuit, both hot conductors pass through a linked breaker before reaching the load. The breaker disconnects both hots together. The neutral reaches the load without passing through the breaker and stays separate from the equipment chassis. Protective ground connects to the chassis instead. This is a protection concept, not an installation wiring plan.](../../../images/s6-1-hot-wire-protection.svg)
 {.img-centered}
 
-The logic is straightforward: interrupt the hot supply, and you disconnect the load from that source. Interrupt only the neutral, and you've created a trap—equipment that appears dead but remains energized. The neutral fuse blows, nothing works, but 120 volts still waits on the hot wire.
+The logic is straightforward: interrupt the hot supply, and you disconnect the load from that source. Interrupting only the neutral can stop equipment from working while leaving it connected to a live hot wire.
 
 On a 120-volt circuit, protection goes in its single hot conductor. For the four-wire 240-volt circuit, protect both hots, not neutral or ground. A common two-pole breaker disconnects both hots together when it trips. Equipment may still have stored energy or another supply, so a tripped breaker alone does not prove it is safe to touch.
 
@@ -82,7 +82,7 @@ On a 120-volt circuit in normal operation, all the current flowing out on the ho
 
 > **Key Information:** A ground fault circuit interrupter (GFCI) will disconnect AC power if current flows from one or more of the hot wires directly to ground. {{< link id="G0B05" >}}
 
-Electrical codes require GFCI protection in areas where water and electricity might meet—bathrooms, kitchens, garages, outdoors, and unfinished basements. For your ham shack, they're worth considering anywhere you might be handling equipment in less-than-ideal conditions.
+GFCI protection is required in many locations, including bathrooms, kitchens, garages, outdoors, and basements. The exact requirements depend on the code adopted in your area. It can also add protection elsewhere in your shack.
 
 #### Interlocks and Stored Energy
 
@@ -99,7 +99,7 @@ Interlocks provide an important layer of protection, but they're not foolproof. 
 A few practical tips as you set up or expand your station:
 
 - **Know your circuits.** Figure out which breakers control which outlets before you need that information in an emergency.
-- **Don't overload outlets.** If you're daisy-chaining power strips, it's time to think about your power distribution.
+- **Don't overload outlets or power strips.** Plug power strips directly into a wall outlet, not into another strip or an extension cord.
 - **Test before you trust.** A simple outlet tester can find some common wiring faults—a worthwhile check for any outlet you'll depend on, but not proof that every part of the circuit is safe.
 - **Consider a master shutoff.** Being able to kill power to your entire station quickly can be valuable if something goes wrong.
 

@@ -13,6 +13,8 @@ You covered battery basics when studying for your Technician license—the diffe
 
 Lead-acid batteries have been around forever, and there's a reason they're still popular: they're inexpensive, are generally still usable at cold temperatures, widely available, and you can often find used ones that still have plenty of life left. They're not the lightest or most elegant solution, but when you need a lot of amp-hours without spending a lot of dollars, lead-acid delivers.
 
+Lead-acid batteries contain corrosive acid and can release flammable hydrogen during charging. Charge them in a ventilated area, keep sparks and flames away, and wear eye protection when working around them. Never charge a frozen or damaged battery.
+
 ##### The Voltage Floor
 
 Discharging too deeply shortens battery life. In a lead-acid battery, lead sulfate forms during normal discharge and is converted back during charging. Leaving the battery discharged can let hard sulfate crystals build up and reduce capacity. How far you can safely discharge it depends on the battery and operating conditions.
@@ -29,7 +31,7 @@ Ever wonder why two batteries with the same amp-hour rating perform so different
 
 > **Key Information:** An advantage of batteries with low internal resistance is high discharge current. {{< link id="G6A02" >}}
 
-When your transmitter demands 20+ amps, internal resistance determines whether the battery delivers or disappoints. If there is a high internal resistance, the voltage will drop significantly under load, potentially causing your transmitter to shut down or perform poorly. Check the battery’s rated discharge current and voltage under load, rather than relying on a “high discharge rate” label alone.
+When your transmitter demands 20+ amps, internal resistance determines whether the battery delivers or disappoints. If there is a high internal resistance, the voltage will drop significantly under load, potentially causing your transmitter to shut down or perform poorly. Check the battery’s rated discharge current and voltage under load, rather than relying on a “high discharge rate” label alone. A short across the battery terminals can draw dangerous current; keep tools and jewelry from bridging them.
 
 Car starting batteries have very low internal resistance—they're designed to crank hundreds of amps to your starter motor. They are also generally expected to remain mostly charged all the time—they hate deep discharge; run one down repeatedly and you will rapidly decrease its lifespan. Deep-cycle batteries tolerate repeated cycling but often have higher resistance. AGM (Absorbed Glass Mat) describes how a lead-acid battery holds its electrolyte, not whether it is a starting or deep-cycle battery. An AGM model rated for deep cycling and your transmit current can work well for ham radio.
 
@@ -53,7 +55,7 @@ For most mobile radios, plan on a dedicated, fused connection to the vehicle bat
 
 Size the power wiring for both the radio's current draw and the length of the run: longer runs need heavier wire to limit voltage drop. Place a fuse in the positive lead close to the battery, rated to protect the wire as well as supply the radio. That fuse protects against a short along the cable, not only a fault inside the radio. Keep wiring away from hot or moving parts, and protect it with a grommet wherever it passes through a metal panel so vibration cannot wear through the insulation.
 
-Follow the radio and vehicle makers’ connection instructions, including the negative return. Some vehicles require an approved chassis point so the connection does not bypass a battery-current sensor.
+Follow the radio and vehicle makers’ connection instructions, including where to connect the negative power lead. Some vehicles require an approved chassis point so the connection does not bypass a battery-current sensor.
 
 A dedicated battery connection avoids relying on accessory wiring shared with other loads, but it does not eliminate every source of electrical noise. Noise can still reach the radio through its power leads or antenna. Yes, a dedicated power run is more work than tapping into an existing circuit, but that circuit may not be designed to handle the load.
 
@@ -112,8 +114,8 @@ Generator exhaust contains carbon monoxide—colorless, odorless, and deadly. Yo
 
 For a portable fuel-powered generator, "well-ventilated" means *outdoors*, never inside a home or garage, even with doors or windows open. Exhaust can still enter a building from an outdoor generator, so being outside alone does not guarantee safe placement.
 
-Keep it more than 20 feet from doors, windows and vents, with exhaust directed away from people and buildings. Use battery-powered or battery-backup carbon monoxide alarms in the home.
+Keep it at least 20 feet from homes and other occupied buildings, away from doors, windows and vents, with exhaust directed away from people and buildings. Use battery-powered or battery-backup carbon monoxide alarms in the home. If an alarm sounds or anyone feels dizzy or ill, move to fresh air immediately and call 911.
 
-Ventilation is only one part of generator safety. Let the engine cool before refueling, and keep electrical connections dry. Never feed a generator into a wall outlet; powering household circuits requires suitable transfer equipment installed by a qualified electrician. Follow the generator’s safety instructions for the actual setup.
+Ventilation is only one part of generator safety. Shut the generator off and let it cool before refueling. Use outdoor-rated extension cords sized for the load, and keep the generator and electrical connections dry. Never feed a generator into a wall outlet; powering household circuits requires suitable transfer equipment installed by a qualified electrician. Follow the generator’s safety instructions for the actual setup.
 
 The power source is only part of a station's electrical system. The next section looks at its grounding and bonding connections, and why "grounding" means different things in lightning protection, RF management, and electrical safety.

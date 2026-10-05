@@ -27,7 +27,7 @@ Ground rods, bonding conductors and lightning arrestors work as a system. Arrest
 
 Mount them directly connected to your external ground system. Every conductor entering your shack needs protection: coax, control cables, rotator lines. One unprotected path can negate all your other protection.
 
-Make any planned cable disconnections before a storm arrives. Do not handle antenna cables or grounding connections while lightning is nearby.
+Make any planned cable disconnections before a storm arrives. When you hear thunder, stop operating and stay away from equipment connected to outdoor antennas or house wiring. Do not handle antenna cables or grounding connections while lightning is nearby.
 
 #### RF Grounding
 
@@ -60,9 +60,9 @@ A common bonding point helps reduce voltage differences between enclosures. Some
 
 Beyond lightning and RF, there's basic electrical safety. Line-powered equipment designed for a protective ground needs that ground—the green wire in a typical power cord. Double-insulated equipment and low-voltage devices have different designs; do not add or alter a mains ground without understanding the equipment.
 
-> **Key Information:** The exam calls for grounding metal enclosures of station equipment to prevent hazardous chassis voltages. A protective ground reduces the risk; it cannot guarantee zero voltage during every fault. {{< link id="G4C12" >}}
+> **Key Information:** Metal enclosures of station equipment are grounded to prevent hazardous voltages on the chassis. {{< link id="G4C12" >}}
 
-When insulation fails or a component shorts inside your equipment, the chassis could become energized at line voltage. A proper safety ground provides a low-impedance fault-current path that allows the fuse or circuit breaker to disconnect power. It reduces the hazard; it is not permission to touch equipment suspected of having a fault.
+When insulation fails or a component shorts inside your equipment, the chassis could become energized at line voltage. A proper safety ground provides a low-impedance fault-current path that allows the fuse or circuit breaker to disconnect power. A ground rod does not replace the protective ground wire back to the electrical supply. Grounding reduces the hazard; it is not permission to touch equipment suspected of having a fault.
 
 Never defeat safety grounds by cutting off ground pins, using two-prong adapters, or "floating" grounds to fix hum problems. If you have vintage equipment with a two-prong plug, have a qualified technician assess its safety. A three-wire cord alone is not a suitable fix for every circuit design.
 
@@ -82,7 +82,7 @@ Keep food away from the work area and wash your hands carefully after handling t
 
 #### Bringing It All Together
 
-Three different grounding needs—lightning protection, RF management, and electrical safety—sometimes seem to pull in different directions. But they all benefit from the same basic approach: bonding everything together.
+Three different grounding needs—lightning protection, RF management, and electrical safety—sometimes seem to pull in different directions. All three benefit from proper bonding of the grounding systems and equipment enclosures.
 
 The common goal is to manage currents and voltage differences rather than leave separate pieces of equipment at unrelated potentials. Lightning protection, RF bonding, and electrical safety grounding each address a different hazard, so none replaces the others. A station can need attention to all three even if one appears to be working well.
 
