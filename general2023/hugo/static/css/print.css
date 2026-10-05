@@ -1,0 +1,15 @@
+@media print {
+    /* Embedded SVG diagrams must use their light palette when printing. */
+    .markdown img { color-scheme: only light; }
+    /* Wrapped table headings need room for both lines in the 6-by-9 edition. */
+    .markdown table th { line-height: 1.2; }
+    /* Keep the short 60-meter power comparison on one page. */
+    #pt2chpt9section-92-power-and-antenna-limitsmd table { break-inside: avoid; }
+    /* Fit the complete alphabet table below its introductory text. */
+    #appendxphoneticsmd table { break-inside: avoid; }
+    #appendxphoneticsmd table th,
+    #appendxphoneticsmd table td { padding-top: .35rem; padding-bottom: .35rem; }
+    /* A review banner should stay with the questions it introduces. */
+    .study-prompt { break-after: avoid; }
+    .questions-list > .spacer-1 { break-after: avoid; }
+  }

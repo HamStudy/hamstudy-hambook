@@ -1,6 +1,5 @@
 ---
 title: 2023-2027 General Class Question Pool
-slug: 2023-2027-general-class-question-pool
 pagebreak: true
 ---
 

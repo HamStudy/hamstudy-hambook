@@ -60,8 +60,10 @@
 {{- /* if type is "chapter" then chaptreview-text.svg else qreview-text.svg */ -}}
 
 {{- $reviewImg := lang.Translate "qreview-file" -}}
+{{- $reviewAlt := lang.Translate "qreview" -}}
 {{- if eq $type "chapter" -}}
     {{- $reviewImg = lang.Translate "chaptreview-file" -}}
+    {{- $reviewAlt = lang.Translate "chaptreview" -}}
 {{- end -}}
 {{- $reviewImgPath := printf "svg/%s" $reviewImg -}}
 
@@ -70,11 +72,11 @@
 <div class="study-prompt {{ if eq $type "chapter" -}}chapter{{- else -}}section{{- end -}}-end">
   {{ $random := index $images (int (math.Floor (mul (math.Rand) (len $images)))) }}
   <div class="review-img">
-    <img src="{{ $random | relURL }}" alt="Person studying at desk" />
-    <img src="{{ $reviewImgPath | relURL }}" alt="Question Review" />
+    <img src="{{ $random | relURL }}" alt="" />
+    <img src="{{ $reviewImgPath | relURL }}" alt="{{ $reviewAlt }}" />
   </div>
   <div class="label" style="display: flex !important; flex-direction: row; justify-content: right; gap: 1rem; align-items: center;">
-    <img src="{{ $phoneIconFile | relURL }}" class="hsp" alt="{{ $studyLinkText }} phone icon" />
+    <img src="{{ $phoneIconFile | relURL }}" class="hsp" alt="" />
     <div>
       <a href="{{ $hsShortUrl.Content }}">
         {{- i18n "open" }} <br />{{ $studyLinkText }} {{- /* remove whitespace */ -}}

@@ -59,8 +59,9 @@
       {{- $imagePath := printf "figures/%s" (strings.Replace $question.image ".png" ".svg") -}}
       {{- $imgId := replaceRE "\\..*$" "" $question.image -}}
       {{- if and $question.image (not (index $shownFigures $question.image)) -}}
+        {{- $figureAlt := index ($.Site.Params.figureDescriptions | default dict) (lower $imgId) | default (printf "Figure for %s" $questionID) -}}
         <div class="question-figure figure-{{ $imgId }}">
-          <img src="{{ $imagePath | relURL }}" alt="Figure for {{ $questionID }}" class="q-figure"
+          <img src="{{ $imagePath | relURL }}" alt="{{ $figureAlt }}" class="q-figure"
             style="filter: var(--icon-filter); max-width: 500px; max-height: 400px;" />
         </div>
         {{- $shownFigures = $shownFigures | merge (dict $question.image true) -}}
@@ -86,7 +87,7 @@
             {{- if or $hasAllTheseChoices .correct -}}
               <li class="answer-item{{ if .correct }} correct-answer{{ end }}">
                 {{- if .correct -}}
-                  <strong><img src="{{ "svg/arrow-right.svg" | relURL }}" alt="→" class="icon" /></strong>
+                  <strong><img src="{{ "svg/arrow-right.svg" | relURL }}" alt="{{ i18n "correctAnswer" }}" class="icon" /></strong>
                 {{- else -}}
                   <strong>{{ .letter }}:</strong>
                 {{- end -}}

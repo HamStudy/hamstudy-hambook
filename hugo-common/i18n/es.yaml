@@ -1,5 +1,7 @@
 open: Abrir en
 qreview: Preguntas para revisar
+chaptreview: Repaso del capítulo
+correctAnswer: Respuesta correcta
 qreview-file: qreview-text-es.svg
 chaptreview-file: qreview-text-es.svg
 qrtag: Código QR para estudiar con HamStudy
