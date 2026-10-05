@@ -15,7 +15,7 @@ You covered this in your Technician studies: unlike ionizing radiation from X-ra
 
 > **Key Information:** RF energy can affect human body tissue by *heating it*. {{< link id="G0A01" >}}
 
-At amateur power levels, this heating rarely causes immediate burns (except from touching energized components—don't do that). But prolonged exposure above safety limits can cause tissue damage before you feel anything. The eyes are particularly vulnerable since they don't dissipate heat well.
+Strong RF fields can heat tissue, and you cannot rely on feeling warmth to judge safe exposure. Touching an energized component can also cause a burn—a separate hazard discussed below. The eyes are particularly vulnerable since they don't dissipate heat well.
 
 #### What Determines Your Exposure
 
@@ -23,11 +23,11 @@ Three factors work together to determine how much RF exposure someone receives:
 
 > **Key Information:** RF exposure is determined by *frequency*, *power density*, and *duty cycle*. {{< link id="G0A02" >}}
 
-**Frequency** determines how efficiently your body absorbs the energy. As you learned for the Technician exam, around 50 MHz is where the human body absorbs RF most efficiently—a quarter wavelength on 6 meters is about 1.5 meters, or around 5 feet. In other words, typical adult human height makes us decent antennas at that wavelength.
+**Frequency** determines how efficiently your body absorbs the energy. The body absorbs RF efficiently over part of the VHF range, and the FCC’s lowest power-density limits apply from 30 to 300 MHz. You may remember 50 MHz from Technician study: a quarter wavelength on 6 meters is about 1.5 meters, or around 5 feet. That is a useful reminder that body size matters, not an exact resonance shared by every person.
 
-**Power density** is the concentration of RF power in space, measured in milliwatts per square centimeter. The closer you are to the antenna, the higher the power density. Move twice as far away and the power density drops to one quarter (the inverse square law at work).
+**Power density** is the concentration of RF power in space, measured in milliwatts per square centimeter. Far enough from an antenna, in a given direction, moving twice as far away reduces power density to about one quarter (the inverse square law at work). Close to the antenna, the fields are more complex, so that shortcut may not apply.
 
-**Duty cycle** is the percentage of time you're actually transmitting. If you listen for 5 minutes and transmit for 5 minutes, your duty cycle is 50%. A ragchew where you talk for 2 minutes then listen for 2 minutes is also 50%. Running FT8 and transmitting every other 15-second slot? Still 50%. Duty cycle is about the overall pattern, not individual transmissions.
+**Duty cycle** often means the percentage of time you're transmitting. If you listen for 5 minutes and transmit for 5 minutes, that is 50% over the full 10 minutes. A ragchew with 2 minutes talking and 2 minutes listening is also 50% over a complete cycle. But exposure rules use a specified time window, not necessarily your whole conversation. Alternating FT8 slots gives a transmit fraction a little below 50%, because each signal ends before its 15-second slot does; using 50% is a conservative estimate for that alternating pattern.
 
 The FCC uses "time averaging" to account for duty cycle when evaluating exposure:
 
@@ -35,9 +35,16 @@ The FCC uses "time averaging" to account for duty cycle when evaluating exposure
 > - Time averaging means the *total RF exposure averaged over a certain period* when evaluating RF radiation exposure. {{< link id="G0A04" >}}
 > - A *lower duty cycle* permits *greater power levels* to be transmitted. {{< link id="G0A07" >}}
 
-The averaging period is 6 minutes for controlled environments (like your shack, where you know about the RF) and 30 minutes for uncontrolled environments (public areas where people don't know they're being exposed).
+For the maximum permissible exposure (MPE) limits used here, the averaging periods are 6 minutes for controlled exposure and 30 minutes for uncontrolled exposure. Under the amateur rules, the licensee and immediate household may use controlled limits with appropriate RF-safety training and information. Other nearby people must be evaluated under the general-population/uncontrolled limits. Being inside your shack does not by itself make someone’s exposure controlled.
 
-This is why duty cycle matters so much for compliance. SSB voice might average only 20% duty cycle—you're transmitting only while actually speaking, and conversations have natural pauses. CW runs around 40% (key-down time versus spaces between elements and words). But continuous modes like FM, RTTY, and FT8 are essentially 100% duty cycle whenever you're transmitting. A higher-power SSB station might comply easily where a lower-power digital station struggles, simply because of that duty cycle difference.
+Check the busiest applicable window. Five minutes transmitting followed by five minutes listening includes a six-minute window with five minutes of transmission: 5 ÷ 6, or about 83%, rather than 50%.
+
+![The radio transmits from minute zero to minute five, then receives until minute ten. Across all ten minutes, transmission takes five out of ten minutes, or fifty percent. But a six-minute window starting at zero includes five minutes of transmission and only one minute of receiving. Five divided by six is about eighty-three percent. Equal transmit and receive time over ten minutes does not mean fifty percent within every shorter window.](../../../images/s6-5-time-averaging.svg)
+{.img-centered}
+
+There is a second factor: the average power **while transmitting** compared with peak envelope power (PEP). SSB speech rises and falls, and CW has spaces between keyed elements, so their average power can be below PEP. FM, RTTY and FT8 signals are close to full power while the signal is actually on. Do not count the same pauses in both factors.
+
+For example, suppose a 100-watt-PEP SSB signal averages half its PEP while you transmit, and you transmit for half the applicable averaging window. Average power is 100 × 0.5 × 0.5 = 25 watts. These are example factors; voice processing and operating habits change the actual values. A lower transmit fraction can allow more power while still meeting exposure limits, but it never overrides the band’s legal power limit (Section 9.2).
 
 #### Evaluating Your Station
 
@@ -47,21 +54,21 @@ The FCC requires you to ensure your station meets RF exposure limits. There are 
 > - You can determine that your station complies with FCC RF exposure regulations by calculation based on FCC OET Bulletin 65, by calculation based on computer modeling, or by measurement of field strength using calibrated equipment. {{< link id="G0A03" >}}
 > - A calibrated field strength meter with a calibrated antenna can be used to accurately measure an RF field strength. {{< link id="G0A09" >}}
 
-**OET Bulletin 65** is the FCC's official guidance document for RF exposure evaluation. "OET" stands for Office of Engineering and Technology. The bulletin provides formulas and tables that let you calculate expected exposure based on your power, antenna gain, and distance. Many online calculators automate this math—you plug in your station details and get a compliance answer.
+**OET Bulletin 65** is the FCC's official guidance document for RF exposure evaluation. "OET" stands for Office of Engineering and Technology. The bulletin provides formulas and tables that let you calculate expected exposure based on your power, antenna gain, and distance. Many online calculators automate this math, but the result is useful only when their assumptions fit your station, including antenna height, direction and distance.
 
 **Computer modeling** uses antenna simulation software to predict RF fields around your specific setup. This handles complex situations like stacked antennas or unusual configurations.
 
-**Direct measurement** with calibrated equipment is the most accurate method but requires expensive gear. Some clubs own field strength meters that members can borrow.
+**Direct measurement** requires calibrated equipment and a method suited to the frequency, field and locations being checked. A casual meter reading can miss the highest exposure. Some clubs have suitable equipment and experienced members who can help.
 
-For most amateur stations, the OET 65 calculations (or an online calculator based on them) are plenty adequate.
+For many amateur stations, suitable OET 65 calculations are a practical starting point. Very close to an antenna or with a complex installation, use a method valid for those conditions or get qualified help.
 
 #### What the FCC Requires
 
-Low-power stations often qualify for "categorical exemption"—the power is low enough that compliance is assumed without formal evaluation. But if your station doesn't qualify for exemption:
+Some stations qualify for an exemption from routine evaluation under the current FCC criteria. Those criteria can depend on frequency, power and separation, and they do not exempt a station from the exposure limits themselves. Use the current criteria in [47 CFR §1.1307](https://www.ecfr.gov/current/title-47/chapter-I/subchapter-A/part-1/subpart-I/section-1.1307), rather than an old amateur power-only table. If your station does not qualify:
 
 > **Key Information:**
 > - If your station fails to meet the FCC RF exposure exemption criteria, you must perform an RF exposure evaluation in accordance with FCC OET Bulletin 65. {{< link id="G0A06" >}}
-> - An amateur operator must perform a routine RF exposure evaluation and prevent access to any identified high exposure areas to ensure compliance with RF safety regulations. {{< link id="G0A08" >}}
+> - An amateur operator must perform a routine RF exposure evaluation when required and prevent human exposure above the applicable limits, including by restricting access to identified high-exposure areas. {{< link id="G0A08" >}}
 > - If an evaluation shows that the RF energy radiated exceeds permissible limits for possible human absorption, you must take action to prevent human exposure to the excessive RF fields. {{< link id="G0A05" >}}
 
 "Take action" can mean several things: reduce power, raise or relocate antennas, limit access to high-exposure areas during transmission, or change operating patterns. The FCC doesn't accept "I know there's a problem but I can't fix it"—you must actually achieve compliance.
@@ -75,21 +82,23 @@ A few scenarios deserve extra attention:
 > - When installing an indoor transmitting antenna, make sure that **MPE limits** are not exceeded in occupied areas. {{< link id="G0A11" >}}
 > - All stations with a time-averaged transmission of more than one milliwatt are subject to the FCC rules on RF exposure. {{< link id="G0A12" >}}
 
-**Directional antennas** focus your signal—and RF exposure—in specific directions. Great for working DX, but worth considering if your beam sweeps across the neighbor's yard. Options include mechanical stops that prevent rotation into problem directions, reduced power when pointing toward occupied areas, or coordinating operating times.
+**Directional antennas** focus your signal—and RF exposure—in specific directions. Great for working DX, but worth considering if your beam sweeps across the neighbor's yard. Options include mechanical stops that prevent rotation into problem directions or reducing power enough to meet the limit. If you rely on operating times or access controls, they must reliably prevent excessive exposure whenever people are present.
 
 **Indoor antennas** are necessarily close to living spaces. That attic dipole might sit just a few feet above your bedroom. Operating from an apartment with an indoor antenna demands careful attention to power levels and who's nearby when you transmit.
 
-**Low-power stations** aren't automatically exempt from the rules. One milliwatt is 0.001 watts—your station definitely exceeds that. The good news: low-power stations almost always comply with huge safety margins, but you verify rather than assume.
+Include occupied spaces above, below and next door, and use an evaluation method valid at those short distances.
+
+**Low-power stations** are not automatically exempt from the rules. One milliwatt is 0.001 watts. The current rules include a routine-evaluation exemption for an individual source at or below that time-averaged available power, but the general obligation to avoid excessive exposure remains. Above it, check the applicable exemption or evaluation criteria; low power alone does not establish a safe margin at every distance.
 
 #### Exposure and Contact Burns Are Different Problems
 
-The radiated-field evaluation in this section does not replace the grounding and bonding precautions in Section 6.3. RF voltage on a microphone case or other equipment can cause a contact burn; bonding helps reduce those voltage differences. Passing an exposure evaluation does not prove that equipment is safe to touch, and bonding the equipment does not establish compliance with radiated-exposure limits. Both problems need attention.
+The radiated-field evaluation in this section does not replace the grounding and bonding precautions covered earlier in this chapter. RF voltage on a microphone case or other equipment can cause a contact burn; bonding helps reduce those voltage differences. Passing an exposure evaluation does not prove that equipment is safe to touch, and bonding the equipment does not establish compliance with radiated-exposure limits. Both problems need attention.
 
 #### Staying Compliant
 
 RF exposure management doesn't need to be complicated:
 
-1. Use an online calculator or OET 65 to evaluate your station
+1. Use a suitable calculator or OET 65 method to evaluate your station
 2. Identify any areas that might exceed limits
 3. Address problems with more distance, less power, or restricted access
 4. Document your evaluation

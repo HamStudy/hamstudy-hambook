@@ -5,9 +5,9 @@ questions: ["G0B04", "G0B11", "G0B13", "G4C05", "G4C06", "G4C11", "G4C10", "G4C0
 status: draft1
 ---
 
-### Section 6.3: Grounding and Lightning Protection
+### Section 6.3: Grounding and Lightning
 
-That antenna reaching toward the sky does a great job of catching radio waves—but it's also pretty good at catching lightning. Your General privileges often mean bigger antennas and more power, which makes understanding grounding systems more important than ever. What makes grounding confusing is that the word means different things depending on whether you're talking about lightning protection, RF management, or basic electrical safety. Let's sort it all out.
+That antenna reaching toward the sky does a great job of catching radio waves—but it's also pretty good at catching lightning. As your station grows, you may add bigger antennas or more power, which makes understanding grounding systems more important than ever. What makes grounding confusing is that the word means different things depending on whether you're talking about lightning protection, RF management, or basic electrical safety. Let's sort it all out.
 
 #### Lightning Protection
 
@@ -17,27 +17,29 @@ Lightning carries enormous energy and will find a path to ground one way or anot
 > - The lightning protection ground system should be located *outside the building*. {{< link id="G0B04" >}}
 > - Lightning protection ground rods must be bonded together with all other grounds. {{< link id="G0B11" >}}
 
-Think of your house as a protected zone. Lightning grounds, arrestors, and the connections between them all belong outside. When lightning hits your antenna system, you want that energy to flow directly to earth without ever entering your walls. But having multiple separate ground systems can actually be more dangerous than having none at all—during a strike, different ground points can momentarily sit at very different voltages. If your tower ground is at one potential and your electrical service ground is at another, that difference will try to equalize, potentially through your equipment or through you.
+Think of your house as a protected zone. Lightning grounds, arrestors, and the connections between them all belong outside. When lightning hits your antenna system, you want that energy to flow directly to earth without ever entering your walls. But separate, unbonded ground systems create another hazard: during a strike, different ground points can momentarily sit at very different voltages. If your tower ground is at one potential and your electrical service ground is at another, that difference will try to equalize, potentially through your equipment or through you.
 
 Bonding helps limit voltage differences between grounding systems during a strike; it does not guarantee that every point stays at exactly the same voltage. The conductor sizes, connections, and routing must be appropriate to the installation. The principle here is to coordinate the grounding systems rather than treat each ground rod as an isolated solution.
 
-Ground rods handle the energy, but lightning arrestors determine *where* that energy goes. They work like pressure relief valves—invisible to your signals under normal conditions, but providing an instant short to ground when voltage spikes.
+Ground rods, bonding conductors and lightning arrestors work as a system. Arrestors act rather like pressure relief valves: they pass your signals under normal conditions, but limit a voltage surge by diverting current into the bonded grounding system. They do not make the surge voltage zero.
 
 > **Key Information:** Lightning arrestors should be located where feed lines enter the building. {{< link id="G0B13" >}}
 
 Mount them directly connected to your external ground system. Every conductor entering your shack needs protection: coax, control cables, rotator lines. One unprotected path can negate all your other protection.
 
+Make any planned cable disconnections before a storm arrives. Do not handle antenna cables or grounding connections while lightning is nearby.
+
 #### RF Grounding
 
 Lightning protection is about handling massive currents safely. RF grounding is about something completely different—managing radio frequency energy so it doesn't cause problems in your shack. The two require different approaches, and what works for one may not work for the other.
 
-At DC and low frequencies, a wire is just a wire. But at radio frequencies, wires have impedance that varies with length and frequency. If your ground wire happens to be a quarter wavelength long on your operating frequency, it resonates like an antenna. Instead of providing a low-impedance path to ground, it develops high RF voltage.
+Even an ordinary wire has some resistance and inductance. At radio frequencies, its length and return path become especially important. A grounding connection near a quarter wavelength long can present high impedance at the equipment end, even if its far end is well grounded. RF current through that impedance can produce a high voltage.
 
 > **Key Information:**
 > - High RF voltages that produce RF burns can be caused by a ground wire having high impedance on that frequency. {{< link id="G4C05" >}}
 > - A possible effect of a resonant ground connection is high RF voltages on the enclosures of station equipment. {{< link id="G4C06" >}}
 
-Touch the "grounded" equipment while transmitting and you'll discover this the hard way—RF burns are painful and slow to heal. Symptoms of RF grounding problems include equipment that's warm or tingly to the touch, shocks from the microphone, erratic equipment behavior, or RF feedback in your audio.
+A shock or RF burn from a microphone or enclosure is a reason to stop transmitting and correct the problem—not a test to repeat by touch. Other clues include erratic equipment behavior or RF feedback in your audio.
 
 For RF, a connection to earth is not enough by itself. Bonding equipment enclosures together helps reduce the RF voltage differences between them. The connections have impedance too, so their length and arrangement matter; bonding reduces a problem rather than guaranteeing that all unwanted RF disappears.
 
@@ -56,13 +58,13 @@ A common bonding point helps reduce voltage differences between enclosures. Some
 
 #### Electrical Safety Grounding
 
-Beyond lightning and RF, there's basic electrical safety. Every piece of equipment with a metal enclosure needs a safety ground—the green wire in your power cord.
+Beyond lightning and RF, there's basic electrical safety. Line-powered equipment designed for a protective ground needs that ground—the green wire in a typical power cord. Double-insulated equipment and low-voltage devices have different designs; do not add or alter a mains ground without understanding the equipment.
 
-> **Key Information:** All metal enclosures of station equipment must be grounded to ensure that hazardous voltages cannot appear on the chassis. {{< link id="G4C12" >}}
+> **Key Information:** The exam calls for grounding metal enclosures of station equipment to prevent hazardous chassis voltages. A protective ground reduces the risk; it cannot guarantee zero voltage during every fault. {{< link id="G4C12" >}}
 
 When insulation fails or a component shorts inside your equipment, the chassis could become energized at line voltage. A proper safety ground provides a low-impedance fault-current path that allows the fuse or circuit breaker to disconnect power. It reduces the hazard; it is not permission to touch equipment suspected of having a fault.
 
-Never defeat safety grounds by cutting off ground pins, using two-prong adapters, or "floating" grounds to fix hum problems. If you have vintage equipment with a two-prong plug, it's worth having it professionally retrofitted with a proper three-wire cord.
+Never defeat safety grounds by cutting off ground pins, using two-prong adapters, or "floating" grounds to fix hum problems. If you have vintage equipment with a two-prong plug, have a qualified technician assess its safety. A three-wire cord alone is not a suitable fix for every circuit design.
 
 #### Soldering: Two Different Safety Concerns
 
@@ -86,4 +88,4 @@ The common goal is to manage currents and voltage differences rather than leave 
 
 No ground system is perfect, and a direct lightning strike can overwhelm any protection. But a well-designed system gives you the best possible odds of your equipment—and you—surviving to operate another day.
 
-Speaking of staying safe, if your antenna ambitions include towers or significant height, the next section covers what you need to know before you climb.
+The next section turns from electrical connections to installing and maintaining antennas, including the hazards of working at height.
