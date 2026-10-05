@@ -11,13 +11,12 @@ An ordinary HF voice contact begins in one of three ways: you answer a call, inv
 
 #### Make Your Voice Ready to Transmit
 
-Before calling, check the speech settings established in Section 7.3. Speak at a normal level and use the manufacturer’s recommended ALC indication to guide microphone-gain adjustment:
+Before calling, check the speech settings established in the previous chapter. Speak at a normal level and use the manufacturer’s recommended ALC indication to guide microphone-gain adjustment:
 
 > **Key Information:** Transmit audio or microphone gain is typically adjusted for the proper ALC setting on an SSB transceiver. {{< link id="G2A12" >}}
 
-Adjust microphone gain while speaking normally, keeping the RF power setting at the level you intend to use. Follow the radio’s voice-mode procedure; its recommended ALC indication may differ from the digital-mode guidance in Section 7.5.
+Adjust microphone gain while speaking normally, keeping the RF power setting at the level you intend to use. Follow the radio’s voice-mode procedure; its recommended ALC indication may differ from the digital-mode setup guidance in the previous chapter.
 
-<!-- Illustration held for review: ../images/alc-meter-settings.svg. Any acceptable meter range must be tied to a particular radio or its instructions, not presented as universal. -->
 
 You can switch between transmit and receive with PTT or let your voice operate the switch:
 
@@ -27,17 +26,13 @@ VOX sensitivity determines what audio level starts transmission, and its delay d
 
 Set VOX so that normal speech starts the transmitter without room noise keeping it active. Check that the beginning of a word is not cut off and that the radio returns to receive between turns. PTT is often the better choice in a noisy room or whenever you prefer direct control.
 
-![How VOX switches between transmit and receive](../images/vox-operation.svg)
-
 #### Check Before Starting a Contact
 
 An apparently quiet frequency may be in use. You might hear only one side of a contact, or the participants may be between transmissions. Listen before calling, and leave room for nearby signals as well:
 
 > **Key Information:** When selecting an SSB transmitting frequency, a minimum separation of 2 to 3 kHz from stations on adjacent frequencies should be used to minimize interference. {{< link id="G2B05" >}}
 
-Allow more separation when signals are wider or a strong nearby station still causes interference. Account for the sideband and bandwidth you will transmit, as discussed in Section 7.3.
-
-![Frequency spacing between nearby SSB signals](../images/frequency-spacing.svg)
+Allow more separation when signals are wider or a strong nearby station still causes interference. Account for the sideband and bandwidth you will transmit, as discussed in the previous chapter.
 
 After listening, check whether another station is using the frequency:
 
@@ -51,9 +46,7 @@ Callsigns contain letters that can sound alike through noise. Standard phonetic 
 
 > **Key Information:** Alfa, Bravo, Charlie, and Delta are examples of the NATO Phonetic Alphabet. {{< link id="G2D07" >}}
 
-The A word is also commonly written *Alpha*. Using the standard words gives the listener a familiar set of sounds to recognize. W1ABC becomes “Whiskey One Alfa Bravo Charlie.” Speak clearly at a steady pace; repeat the part the other operator missed rather than changing every phonetic word.
-
-![The NATO Phonetic Alphabet](../images/nato-phonetic-alphabet.svg)
+The A word is also commonly written *Alpha*, including in the question pool; the standard spelling is *Alfa*. The full alphabet is in the appendix. Using the standard words gives the listener a familiar set of sounds to recognize. W1ABC becomes “Whiskey One Alfa Bravo Charlie.” Speak clearly at a steady pace; repeat the part the other operator missed rather than changing every phonetic word.
 
 To invite a contact with any available station, call CQ:
 
@@ -65,15 +58,11 @@ For example:
 
 The listening pause is part of the call. A station cannot answer while you are still transmitting. When answering someone else’s CQ, wait for that pause and give their call followed by yours: “W2XYZ, this is W1ABC, Whiskey One Alfa Bravo Charlie.”
 
-![A CQ call followed by a listening period](../images/calling-for-dx.svg)
-
 Joining a conversation already in progress is different from starting one:
 
 > **Key Information:** The recommended way to break into a phone contact is to say your call sign once. {{< link id="G2A08" >}}
 
 Wait for a pause and give your call. Let the participants acknowledge you before adding to the conversation. If they do not answer, they may not have heard you; avoid repeatedly calling over their exchange. CQ invites a new contact, so it is not the right opening here.
-
-![Joining a voice contact during a pause](../images/breaking-in.svg)
 
 #### Exchange What the Other Operator Needs
 
@@ -81,7 +70,7 @@ Once the stations have identified each other, a signal report helps establish ho
 
 > **Key Information:** Signal reports are typically exchanged at the beginning of an HF contact to allow each station to operate according to conditions. {{< link id="G2D11" >}}
 
-Section 7.2 distinguished readability from signal strength. Apply that distinction here: “You’re five and two, fully readable but weak” gives different information from “Your signal is strong, but the audio is distorted.” A description of fading or interference can be more useful than a higher strength number.
+The previous chapter distinguished readability from signal strength. Apply that distinction here: “You’re five and two, fully readable but weak” gives different information from “Your signal is strong, but the audio is distorted.” A description of fading or interference can be more useful than a higher strength number.
 
 In a short first contact, you might say:
 

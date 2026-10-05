@@ -47,7 +47,7 @@ Formal messages also need a clear ending, distinct from the end of the entire co
 
 > **Key Information:** The prosign AR indicates the end of a formal message when using CW. {{< link id="G2C08" >}}
 
-Send AR as one continuous prosign, as described in Section 8.3. It marks the message’s end; the operators may still need to resolve a missed word or acknowledge receipt. This differs from SK, which ends the contact. Use the acknowledgment QSL only after the information has been received and understood.
+Send AR as one continuous prosign, as described earlier in this chapter. It marks the message’s end; the operators may still need to resolve a missed word or acknowledge receipt. This differs from SK, which ends the contact. Use the acknowledgment QSL only after the information has been received and understood.
 
 These procedures are useful in message-handling practice as well as emergencies. Follow the net’s message format, and request clarification instead of silently repairing something that seems wrong. In an exercise, for example, a receiver who missed part of “Send twenty blankets to the north shelter” should confirm both the quantity and destination before relaying the request.
 
@@ -55,15 +55,13 @@ Keep a record of when the message was passed and any acknowledgment. Being ready
 
 #### Choosing a Method Both Ends Can Use
 
-Voice is useful for a short request, but a long list of supplies or addresses can be easier to handle as text. The Winlink procedures in Section 8.5 offer one way to pass a written message. If that path is not working, a voice exchange with critical details read back may be more useful than repeated attempts at a failed connection.
+Voice is useful for a short request, but a long list of supplies or addresses can be easier to handle as text. The Winlink procedures in the previous section offer one way to pass a written message. If that path is not working, a voice exchange with critical details read back may be more useful than repeated attempts at a failed connection.
 
 Several local sites may need to share forms, files, or phone connections at the same time. That calls for a data network rather than a single HF contact:
 
 > **Key Information:** The primary purpose of an Amateur Radio Emergency Data Network (AREDN) mesh network is to provide high-speed data services during an emergency or community event. {{< link id="G2E11" >}}
 
 AREDN links stations using compatible network radios, rather than the HF audio setup used for modes such as FT8. Applications on the network can provide services such as file sharing, messaging, or voice over IP. The radio links and the services must be deployed and working at the locations that need them.
-
-![An AREDN mesh linking stations and data services](../images/aredn-mesh-network.svg)
 
 An AREDN network can operate without public internet access, but it does not automatically restore access to internet services. Choose applications available within the working network, and confirm that the intended recipient can use them. Choose a method that both ends can support, then check that the message was received.
 
@@ -89,4 +87,4 @@ Before an assignment, practice with the equipment you expect to use, including i
 
 Learn how your group activates, who gives assignments, and what information the supported organization needs. Do not arrive unrequested at an incident. A practice net or exercise lets you test the equipment and the message-handling process before either is urgently needed.
 
-The immediate goal is information someone can act on, received accurately and in time. Chapter 9 adds the rules for third-party messages, international contacts, and automatically controlled stations. Those rules build on the habits used throughout this chapter: know whom you are addressing, preserve what was said, and confirm the result.
+The immediate goal is information someone can act on, received accurately and in time. The next chapter covers the rules behind those operating choices, beginning with frequency, mode, and power limits before turning to station control and the messages you may carry.

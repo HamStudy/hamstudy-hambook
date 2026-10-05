@@ -17,7 +17,7 @@ For most HF voice contacts, the starting point is single sideband:
 
 > **Key Information:** Single sideband (SSB) is the most commonly used voice mode on the HF amateur bands. {{< link id="G2A05" >}}
 
-The SSB transmitter described in Chapter 7 sends the part of an AM signal needed to carry the voice without transmitting both copies of that information:
+As Section 3.1 explained, an SSB transmitter sends the part of an AM signal needed to carry the voice without transmitting both copies of that information:
 
 > **Key Information:** In SSB, only one sideband is transmitted; the other sideband and the carrier are suppressed. {{< link id="G2A07" >}}
 
@@ -25,9 +25,8 @@ For the same audio-frequency range, one sideband occupies about half the bandwid
 
 > **Key Information:** Less bandwidth used and greater power efficiency are advantages of SSB compared to other analog voice modes on the HF amateur bands. {{< link id="G2A06" >}}
 
-Those advantages help explain SSB’s widespread use. The receiver controls and audio adjustments from Chapter 7 help you make use of them when noise or interference makes a contact difficult.
+Those advantages help explain SSB’s widespread use. The receiver controls and audio adjustments from the previous chapter help you make use of them when noise or interference makes a contact difficult.
 
-<!-- Illustration held for review: ../images/ssb-bandwidth-efficiency.svg. Check that it shows approximately half the AM bandwidth for the same audio range, not one-third or a fixed range advantage. -->
 
 #### Selecting the Sideband
 
@@ -47,15 +46,13 @@ Higher-frequency HF voice operation normally uses USB:
 > - Upper sideband (USB) is most commonly used for voice communications on frequencies of 14 MHz or higher. {{< link id="G2A01" >}}
 > - USB is most commonly used for voice communications on the 17- and 12-meter bands. {{< link id="G2A04" >}}
 
-For example, an ordinary voice contact on 40 meters calls for LSB, while one on 20 or 17 meters calls for USB. The main lower-frequency exception is 60-meter voice operation, which uses USB. These are voice conventions; digital modes have their own settings, covered in Section 8.5.
+For example, an ordinary voice contact on 40 meters calls for LSB, while one on 20 or 17 meters calls for USB. The main lower-frequency exception is 60-meter voice operation, which uses USB. On the four separate US channels, USB is required for phone; in the continuous segment, it is the usual voice convention. The next chapter explains the two arrangements. These are voice conventions; digital modes have their own settings, covered later in this chapter.
 
 The USB convention also extends beyond HF when using SSB:
 
 > **Key Information:** USB is most commonly used for SSB voice communications in the VHF and UHF bands. {{< link id="G2A03" >}}
 
 The choice here is for SSB operation; an FM repeater still uses FM.
-
-![Sideband conventions for amateur voice operation](../images/sideband-selection.svg)
 
 #### Finding the Right Part of the Band
 
@@ -65,15 +62,11 @@ Selecting the correct sideband does not make every frequency available for voice
 
 A band plan helps operators find one another and gives different activities room to operate. Use it within your legal privileges, and check for existing activity before transmitting. A suggested calling frequency may already be in use.
 
-![Example of a voluntary band plan](../images/bandplan-example.svg)
-
-On 20 meters, for instance, a US General operator looking for an SSB conversation uses the phone segment from 14.225 to 14.350 MHz. As Section 7.3 explained, the entire transmitted signal must fit within that segment, not only the frequency on the display. Digital activity is generally found farther down the band:
+On 20 meters, for instance, a US General operator looking for an SSB conversation uses the phone segment from 14.225 to 14.350 MHz. As the previous chapter explained, the entire transmitted signal must fit within that segment, not only the frequency on the display. Digital activity is generally found farther down the band:
 
 > **Key Information:** Most digital mode operations on the 20-meter band are commonly found between 14.070 MHz and 14.100 MHz. {{< link id="G2E08" >}}
 
-That range is an operating area, not one wide channel or a reservation for a single mode. Section 8.5 explains how to find and answer particular digital signals within it. On 30 meters, US amateurs may use CW and permitted data emissions, but not phone, so it is not a choice for the voice contacts that follow.
-
-![Common digital operating areas within the amateur bands](../images/digital-mode-band-segments.svg)
+That range is an operating area, not one wide channel or a reservation for a single mode. Later in this chapter, we'll explain how to find and answer particular digital signals within it. On 30 meters, US amateurs may use CW and permitted data emissions, but not phone, so it is not a choice for the voice contacts that follow.
 
 #### Let the Activity Guide You
 

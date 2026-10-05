@@ -19,9 +19,7 @@ Separate CW contacts need much less frequency spacing than SSB conversations:
 
 The appropriate spacing depends on signal strength, sending speed, and receiver filtering. Listen before choosing a frequency, and allow more room when nearby signals still interfere.
 
-![Frequency spacing between separate CW contacts](../images/cw-frequency-spacing.svg)
-
-The frequency-use check introduced in Section 8.2 has a short CW form:
+The frequency-use check introduced in the previous section has a short CW form:
 
 > **Key Information:** The Q signal “QRL?” means “Are you busy?” or “Is this frequency in use?” {{< link id="G2C04" >}}
 
@@ -33,7 +31,6 @@ Spacing separates independent contacts. When answering a station that expects a 
 
 On a modern transceiver, this does not normally mean tuning until the received tone disappears. The radio accounts for a CW pitch offset. Follow its procedure for matching the received pitch to a spot tone or using a CW tuning indicator. For example, with a 600 Hz spot tone, you tune the received signal to that pitch—not toward silence. Check that split or other frequency offsets are not unintentionally separating transmit and receive.
 
-<!-- Illustration held for review: ../images/zero-beat-tuning.svg. It must agree with the transceiver's CW pitch-offset procedure rather than instructing the reader to tune the received audio to zero hertz. -->
 
 #### Choosing a Speed Both Stations Can Copy
 
@@ -43,13 +40,11 @@ The speed of a CQ helps you judge how to answer:
 
 If the station calls at 15 words per minute and you copy comfortably at 12, reply at 12. If you can copy 25, still answer no faster than 15. Sending faster than you can receive may invite a reply you cannot follow.
 
-![Matching your reply speed to your ability and the CQ](../images/cw-speed-matching.svg)
-
 You can ask the other operator to slow down during the contact:
 
 > **Key Information:** The Q signal “QRS” asks the other station to send slower. {{< link id="G2C02" >}}
 
-Respond to that request by reducing your sending speed. Good spacing between letters and words matters as well; slowing the individual elements while running the words together does not make an exchange easy to copy.
+For the exam, recognize the request to send slower even though the pool writes it as “QRS?” Formally, QRS means “Send more slowly,” while QRS? asks “Shall I send more slowly?” Respond to a request for slower sending by reducing your speed. Good spacing between letters and words matters as well; slowing the individual elements while running the words together does not make an exchange easy to copy.
 
 #### Taking Turns and Giving Reports
 
@@ -61,9 +56,7 @@ At the end of a general call, K invites a reply. When you are speaking to a part
 
 This helps other listeners distinguish an invitation to the named station from an opening for anyone to answer. SK marks the end of a contact. These signals organize the exchange; they do not replace your call sign.
 
-![Common CW prosigns and their meanings](../images/cw-prosigns.svg)
-
-The signal report adds one item to the voice report from Section 8.2. RST reports readability, strength, and tone. Tone runs from 1 to 9, with 9 describing a pure tone. A 579 report therefore means perfectly readable, strength 7, and pure tone.
+The signal report adds one item to the voice report from the previous section. RST reports readability, strength, and tone. Tone runs from 1 to 9, with 9 describing a pure tone. A 579 report therefore means perfectly readable, strength 7, and pure tone.
 
 > **Key Information:** A “C” added to a CW RST report indicates a chirpy or unstable signal. {{< link id="G2C07" >}}
 
@@ -83,8 +76,10 @@ If you missed part of the transmission, ask for it again before acknowledging. T
 
 Here is one possible opening. DE means “from,” NAME introduces the operator’s name, and QTH introduces the location. The letters shown for KN are sent together as a prosign.
 
-> **W1ABC calls:** CQ CQ DE W1ABC W1ABC K  
-> **W2XYZ answers:** W1ABC DE W2XYZ W2XYZ K  
+> **W1ABC calls:** CQ CQ DE W1ABC W1ABC K
+>
+> **W2XYZ answers:** W1ABC DE W2XYZ W2XYZ K
+>
 > **W1ABC replies:** W2XYZ DE W1ABC RST 579 NAME ALEX QTH DENVER KN
 
 The last line addresses W2XYZ, identifies W1ABC, and gives the report, name, and location before inviting W2XYZ to reply. W2XYZ can acknowledge with QSL and return the same kinds of information. Either operator can ask for a repeat or slower sending when needed.
@@ -99,7 +94,8 @@ Normally, an operator waits for the other station to finish before replying. Ful
 
 The radio returns to receive during the brief gaps between transmitted elements. A reply from the other station can be heard during those gaps, prompting the sender to stop and listen. This is rapid switching between transmit and receive, not simultaneous full-duplex operation.
 
-![Transmit and receive intervals during full break-in CW](../images/qsk-operation.svg)
+![A timeline runs from left to right. The transmit row shows a dot, a longer dash, and another dot. In the receive row, blocks fill the gaps between those elements and follow the final dot. Full break-in lets the operator hear a reply during these gaps. Transmission and reception alternate; they do not happen at the same time. Switching intervals are simplified.](../../../images/s8-3-cw-break-in-timing.svg)
+{.img-centered}
 
 QSK is optional. Without it, the stations can still take turns at the end of each transmission. Before enabling it with an amplifier, confirm that the whole transmitting system supports the required switching, using the precautions from Section 7.4.
 

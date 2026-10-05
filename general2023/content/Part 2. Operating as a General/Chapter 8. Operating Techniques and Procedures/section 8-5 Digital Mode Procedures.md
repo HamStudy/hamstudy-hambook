@@ -5,23 +5,21 @@ questions: ["G2E01", "G2E05", "G2E15", "G2E04", "G2E12", "G2E13", "G2E02", "G2E0
 status: draft1
 ---
 
-### Section 8.5: Digital Mode Operating Procedures
+### Section 8.5: Digital Mode Procedures
 
 Digital contacts do not all follow the same pattern. RTTY can carry a typed conversation, FT8 exchanges a small set of structured messages, and a messaging system can transfer email through a gateway. Choosing a mode therefore means choosing both a kind of signal and a way of communicating.
 
-Section 7.5 prepared the computer and radio to work together. Here, the task is to find suitable activity, answer without interfering, and recognize when the exchange is complete.
+In the previous chapter, we covered setting up the computer and radio to work together. Here, the task is to find suitable activity, answer without interfering, and recognize when the exchange is complete.
 
 #### Having a Keyboard Conversation with RTTY
 
 RTTY lets two operators exchange text over radio. Before answering, decode enough of the activity to identify the calling station and determine whether it is inviting a new contact or speaking to someone else.
 
-The correct sideband for digital operation depends on the mode, rather than following the voice conventions from Section 8.1:
+The correct sideband for digital operation depends on the mode, rather than following the voice conventions introduced earlier in this chapter:
 
 > **Key Information:** When sending RTTY signals via AFSK with an SSB transmitter, LSB is normally used. {{< link id="G2E01" >}}
 
 Use the radio and software settings together as directed by their instructions. Sideband selection affects which RF frequency represents mark or space; a mismatch may leave a strong signal unreadable. The tone shift, baud rate, and Reverse checks from Section 7.5 help diagnose that problem without guessing at the text.
-
-![RTTY audio tones applied to an SSB transmitter](../images/rtty-afsk-generation.svg)
 
 Once you can copy a CQ, identify the calling station and yourself, then leave time for a reply. “W2XYZ DE W1ABC W1ABC K” is one possible typed response. DE means “from,” as in the CW example, and K invites the other station to transmit.
 
@@ -37,7 +35,7 @@ FT8 and several related modes share a sideband convention:
 
 This remains true on bands where SSB voice normally uses LSB. A radio’s data-mode label may differ, so follow the software and radio instructions for the appropriate USB-based configuration.
 
-Within the 20-meter digital area introduced in Section 8.1, FT8 has a common meeting place:
+Within the 20-meter digital area introduced earlier in this chapter, FT8 has a common meeting place:
 
 > **Key Information:** FT8 is commonly found between approximately 14.074 MHz and 14.077 MHz. {{< link id="G2E15" >}}
 
@@ -49,7 +47,8 @@ Timing determines when to use that position:
 
 If the station calls in one 15-second period, your reply belongs in the following period, when it is receiving. Watch activity in both periods before choosing your transmit position. A frequency that looks clear during the CQ may already be used by someone transmitting in the opposite period.
 
-![FT8 stations using alternating transmit and receive periods](../images/ft8-alternating-transmission.svg)
+![Two station rows share a timeline marked at zero, fifteen, and thirty seconds. During the first fifteen-second period, Station A calls CQ while Station B receives. During the next period, Station B replies while Station A receives. Each transmit bar ends before its fifteen-second period ends. The stations use opposite periods, and each must choose a transmit frequency that is clear during its own period.](../../../images/s8-5-ft8-turn-taking.svg)
+{.img-full .img-centered}
 
 Your reply need not use exactly the same audio frequency as the caller, provided it is within the passband the other station is receiving. Check both the selected transmit period and the transmit marker rather than assuming the software’s current settings are appropriate.
 
@@ -65,9 +64,7 @@ The messaging network and the radio protocol are different parts of that system.
 
 > **Key Information:** A Winlink Remote Message Server is also called a gateway. {{< link id="G2E13" >}}
 
-An internet-connected gateway can transfer your email between the radio link and the wider network. Winlink also supports radio-only arrangements, but usable routes must actually be available. Losing local internet service does not by itself establish that a particular gateway or onward path will work.
-
-![A Winlink station reaching the messaging network through a gateway](../images/winlink-system-overview.svg)
+An internet-connected gateway can transfer your email between the radio link and the wider network. Winlink also supports radio-only arrangements, but usable routes must actually be available. The automatic-station and message rules covered in the next chapter still apply. Losing local internet service does not by itself establish that a particular gateway or onward path will work.
 
 Choose a gateway that supports the band and protocol your station can use. One available protocol is VARA:
 
@@ -78,8 +75,6 @@ PACTOR is another protocol used for radio messaging. A connected PACTOR session 
 > **Key Information:** You cannot join an existing PACTOR contact; PACTOR connections are limited to two stations. {{< link id="G2E09" >}}
 
 Wait for the session to finish or select another suitable gateway. Sending your call over an active connection does not add you to it and may disrupt the transfer.
-
-![A PACTOR connection between two stations](../images/pactor-connection-properties.svg)
 
 #### Establishing and Checking the Connection
 

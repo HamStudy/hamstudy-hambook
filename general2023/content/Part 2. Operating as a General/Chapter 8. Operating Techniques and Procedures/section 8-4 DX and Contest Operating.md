@@ -19,8 +19,6 @@ An ordinary CQ welcomes any station. CQ DX narrows that invitation:
 
 For that call, a station in Canada or Alaska qualifies even though neither contact crosses an ocean. Listen for any further restriction, such as a call for a particular region, and answer only when your station fits the request. If it does not, leave the opportunity for the stations being called.
 
-![How CQ DX differs from a general CQ](../images/cq-dx.svg)
-
 Voluntary band plans sometimes provide operating windows for DX as well. One example is on 6 meters, beyond the HF bands:
 
 > **Key Information:** Under the voluntary band plan, US stations within the 48 contiguous states operating from 50.1 to 50.125 MHz should make only contacts with stations outside the 48 contiguous states. {{< link id="G2B08" >}}
@@ -40,8 +38,6 @@ Sometimes propagation supports the longer route around Earth instead:
 > **Key Information:** For a long-path contact, point a directional antenna 180 degrees from the station’s short-path heading. {{< link id="G2D06" >}}
 
 If the short-path heading is 70 degrees, the long-path heading is 250 degrees. Compare reception in the two directions to find which path, if either, supports the contact.
-
-![Short-path and long-path antenna headings](../images/long-path-propagation.svg)
 
 #### Calling Among Other Stations
 
@@ -65,8 +61,6 @@ Suppose a voice contest requires a report and a serial number. After exchanging 
 
 You will often hear standard 59 or 599 reports in contests. Do not treat those brief exchanges as detailed evaluations of your signal. If you miss a callsign or number, request a repeat before the contact ends. Copying the required information accurately matters more than avoiding an extra transmission.
 
-![The required information in a contest exchange](../images/contest-exchange.svg)
-
 A faster exchange does not change the station-identification requirements:
 
 > **Key Information:** When participating in a contest on HF frequencies, identify your station according to normal FCC regulations. {{< link id="G2D09" >}}
@@ -79,7 +73,6 @@ Power categories are another event-specific choice:
 
 Some contest QRP categories have a 5-watt limit, but definitions and categories vary. Check the rules for the event you are entering. Low power may also suit portable operation, though it can make some contacts harder to complete. Choose an activity and operating goal that fit the station you have.
 
-<!-- Illustration held for review: ../images/qrp-power-levels.svg. Numerical category limits must be qualified rather than presented as a universal definition of QRP. -->
 
 #### Keep an Accurate Record
 
@@ -88,7 +81,5 @@ A contest log records the date and time in UTC, band or frequency, mode, callsig
 > **Key Information:** Many amateurs keep a station log to help with a reply if the FCC requests information about their station. {{< link id="G2D08" >}}
 
 There is no general requirement to log every amateur contact, but specific activities may have recordkeeping requirements. For a contest, use its required format and submission procedure. Record what you actually copied rather than filling gaps from an online listing, and follow the event’s rules about corrections and outside assistance.
-
-![Example of a contest log](../images/contest-logging.svg)
 
 A contest calendar or local club can help you find an event to try. Listen to a few exchanges and prepare the information you will send. You can make a handful of contacts without aiming for a competitive score. In digital operation, software takes on more of the exchange, but the operator still needs to recognize what is happening.
