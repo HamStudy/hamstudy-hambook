@@ -11,7 +11,7 @@ The ionospheric layers we just explored don't exist in isolation—they're power
 
 #### The Solar-Ionospheric Connection
 
-Every second, the sun floods Earth with radiation that creates and sustains our ionosphere. This isn't a gentle process—it's a constant bombardment of energy that rips electrons from atoms 60 to 300 miles above our heads. When solar activity surges, the bombardment intensifies. More radiation means more ionization, denser electron layers, and a higher MUF that brings the upper bands alive. When solar activity wanes, ionization generally decreases, the MUF often drops, and those same bands become less reliable.
+More radiation means more ionization, denser electron layers, and a higher MUF that brings the upper bands alive. When solar activity wanes, ionization generally decreases, the MUF often drops, and those same bands become less reliable.
 
 This relationship changes constantly. Solar flares can destroy propagation in minutes. The 11-year solar cycle shifts available bands over years. The sun’s rotation creates recurring patterns roughly every 27 days. Each time scale affects your ability to communicate.
 
@@ -47,7 +47,7 @@ Measured daily by radio telescopes, this 10.7-cm radiation tracks solar activity
 
 #### Solar Disturbances: Flares and Particles
 
-The sun's steady radiation maintains normal propagation, while explosive events create sudden dramatic changes. Understanding these disturbances helps explain why bands suddenly die or unexpectedly open.
+The sun's steady radiation maintains normal propagation, while explosive events create sudden dramatic changes.
 
 ##### Solar Flares: Instant Impact
 
@@ -115,18 +115,14 @@ Derived from K-index values, the A-index ranges from 0 (completely quiet) to 400
 
 #### The Solar Rotation Cycle
 
-The sun's rotation creates predictable propagation patterns. {{< link id="G3A10" >}}
+> **Key Information:** HF propagation conditions vary periodically in a 26- to 28-day cycle caused by rotation of the Sun's surface layers. {{< link id="G3A10" >}}
 
-> **Key Information:** HF propagation conditions vary periodically in a 26- to 28-day cycle caused by rotation of the Sun's surface layers.
+As the sun rotates, the same active regions—sunspot groups, coronal holes—face Earth approximately every 27 days. If excellent 10-meter propagation occurs today due to a specific sunspot group, similar conditions might return 27 days later when that group rotates back into view.
 
-As the sun rotates, the same active regions—sunspot groups, coronal holes—face Earth approximately every 27 days. If excellent 10-meter propagation occurs today due to a specific sunspot group, similar conditions might return 27 days later when that group rotates back into view. Likewise, a coronal hole that disrupts propagation this week may cause similar problems next month.
-
-This periodicity helps predict future propagation. While active regions evolve and eventually decay, the 27-day pattern often persists for several rotations, allowing operators to anticipate band conditions weeks in advance.
+While active regions evolve and eventually decay, the 27-day pattern often persists for several rotations, allowing operators to anticipate band conditions weeks in advance.
 
 #### Understanding Solar Influences
 
 Solar activity strongly influences HF propagation. Steady radiation maintains the ionosphere's daily patterns. Solar flares create sudden disruptions. Particle storms trigger multi-day blackouts. The 11-year solar cycle determines which bands work reliably. The 27-day rotation creates recurring patterns.
 
-You now understand how solar indices predict band conditions, why flares kill lower frequencies first, and how geomagnetic storms create both problems and opportunities. This knowledge transforms solar numbers from mysterious statistics into practical tools for choosing bands and timing operations.
-
-Next, we'll explore how signals actually travel via the ionosphere—the various propagation modes and paths that connect your station to the world. Understanding these mechanisms completes your foundation for successful HF operation.
+Next, we'll explore how signals actually travel via the ionosphere—the various propagation modes and paths that connect your station to the world.

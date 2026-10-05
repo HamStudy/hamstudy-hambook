@@ -7,7 +7,7 @@ status: draft1
 
 ### Section 5.3: Propagation Modes and Paths
 
-Now that you understand the ionosphere's structure and the solar forces that control it, let's see how your signals actually navigate this dynamic system. Your signal leaves the antenna and heads skyward. Sometimes it bounces once and lands 2,000 miles away. Sometimes it scatters into unexpected places or takes paths that seem to defy logic. Understanding these propagation modes and paths helps you predict which bands will work and when contacts become possible. Each mode has its own characteristics and requirements that determine your communication success.
+Now that you understand the ionosphere's structure and the solar forces that control it, let's see how your signals actually navigate this dynamic system. Your signal leaves the antenna and heads skyward. Sometimes it bounces once and lands 2,000 miles away. Sometimes it scatters into unexpected places or takes paths that seem to defy logic. Understanding these propagation modes and paths helps you predict which bands will work and when contacts become possible.
 
 #### Skip Propagation: How Signals Circle the Globe
 
@@ -96,9 +96,5 @@ Thunderstorms across the tropics and temperate regions generate radio noise that
 Winter often brings less local thunderstorm noise, though distant storms can still be heard. The longer darkness hours favor low-band propagation. Spring and fall can also offer useful DX openings; seasonal ionospheric changes and the daylight along each path matter.
 
 #### From Propagation Science to Practical Operation
-
-You now understand how signals travel via multiple hops to circle the globe, why scatter creates weak signals in the skip zone, and how NVIS provides regional coverage. You know that operating just below the MUF minimizes losses and that summer static affects lower frequencies most.
-
-These propagation modes aren't just curiosities—they're tools that enable communication when conventional paths fail. Long path may work when short path doesn't. Scatter fills skip zones. NVIS covers disaster areas. Each mode serves specific communication needs.
 
 Band choice and timing are only part of getting on the air. The next part turns to the station you operate, starting with safety before moving into equipment setup and operating procedures.

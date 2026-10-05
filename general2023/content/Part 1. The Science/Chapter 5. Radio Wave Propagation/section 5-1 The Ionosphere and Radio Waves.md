@@ -7,7 +7,7 @@ status: draft1
 
 ### Section 5.1: The Ionosphere and Radio Waves
 
-Your antenna launches a signal skyward. Less than a second later it is heard by someone on the other side of the planet. This invisible interaction between radio waves and charged particles transforms your radio into a globe-spanning communication tool. Understanding how the ionosphere works is the key to knowing when and why different bands open and close.
+Your antenna launches a signal skyward. Less than a second later it is heard by someone on the other side of the planet. Understanding how the ionosphere works is the key to knowing when and why different bands open and close.
 
 As a Technician, you learned that the ionosphere can bend radio waves back to Earth. Now we'll explore exactly how this happens and why it varies throughout the day.
 
@@ -20,8 +20,6 @@ While we often say radio waves "bounce" off the ionosphere, they actually refrac
 The ionosphere isn't one uniform blanket—think of it more like a layer cake where each layer has different properties and affects your signals differently. {{< link id="G3C01" >}}
 
 > **Key Information:** The D region is the ionospheric region closest to the surface of Earth.
-
-Understanding these layers—D, E, and F—transforms you from someone who randomly tries bands to someone who can predict which frequencies will work and when. Let's explore each layer from bottom to top.
 
 ![Moving upward from Earth's surface, the daytime regions are D, E, F one, and F two. D is lowest, and F two is highest. At night the D region becomes much weaker, the E region weakens, and a single F region remains instead of separate F one and F two regions. The blocks show their order, not exact heights, thicknesses, or sharp boundaries.](../../../images/s5-1-ionosphere.svg)
 {.img-centered}
@@ -52,7 +50,7 @@ The F region is where DX happens. Located around 90 to 300 miles up, it splits i
 
 > **Key Information:** Skip propagation via the F2 region is longer than that via the other ionospheric regions because it is the highest.
 
-The F2 region's height allows a single hop of up to roughly 2,500 miles under suitable conditions. Several hops can carry a signal across an ocean, as we'll see later in this chapter. The F2 layer is the workhorse of HF communication, enabling long-distance contacts on the right frequencies.
+The F2 region's height allows a single hop of up to roughly 2,500 miles under suitable conditions. Several hops can carry a signal across an ocean, as we'll see later in this chapter.
 
 #### The Physics of Skip: Angles and Frequencies
 
@@ -94,8 +92,6 @@ Think of MUF as a ceiling that changes height throughout the day. Morning might 
 - Time of day
 - Solar activity
 
-It's constantly shifting as Earth rotates and solar radiation changes—like a ceiling that rises and falls with the sun.
-
 ##### Lowest Usable Frequency: The Absorption Floor
 
 While MUF sets the ceiling, LUF sets the floor below which your signals get absorbed. {{< link id="G3B07" >}} {{< link id="G3B06" >}} {{< link id="G3B11" >}}
@@ -120,6 +116,4 @@ This creates a "window" of usable frequencies that shifts throughout the day.
 
 Lower bands (160m, 80m, 40m) suffer from D-region absorption during daylight but excel at night. Middle bands (30m, 20m, 17m) often offer useful openings with less absorption, but their day/night availability depends on the path and ionization. Upper bands (15m, 12m, 10m) depend heavily on solar activity—less reliable during solar minimum, with more frequent openings during solar maximum.
 
-The ionosphere transforms amateur radio from a local communication tool into a worldwide adventure. You now understand how layers of charged particles bend your signals back to Earth, creating windows of usable frequencies between the MUF and LUF that shift throughout the day.
-
-The ionosphere doesn't exist in isolation, however. Next, we'll explore how the sun creates and controls these layers. Solar radiation forms the ionosphere, and solar disturbances can dramatically enhance or destroy propagation conditions.
+Next, we'll explore how the sun creates and controls these layers. Solar radiation forms the ionosphere, and solar disturbances can dramatically enhance or destroy propagation conditions.
