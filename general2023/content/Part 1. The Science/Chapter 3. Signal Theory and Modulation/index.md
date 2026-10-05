@@ -11,6 +11,4 @@ General privileges will let you use many bands and a variety of modulation metho
 
 In this chapter, we'll explore both analog and digital modulation techniques. We'll examine how single sideband (SSB) works, why it's more efficient than AM, and how frequency modulation (FM) provides clarity in some situations. We'll also dive into the exciting world of digital modes—from classic radioteletype (RTTY) to modern protocols like FT8 that can pull signals out of the noise.
 
-We'll also look at the technical aspects of signal bandwidth, frequency mixing, and how to avoid interference. These concepts aren't just theoretical—they directly impact your on-air operations every time you turn on your radio.
-
-Whether you're preparing a station for General class privileges or making the most of equipment you already have, understanding signal theory and modulation will help you communicate more effectively across the frequencies available to you. Let's get started!
+We'll also look at the technical aspects of signal bandwidth, frequency mixing, and how to avoid interference.

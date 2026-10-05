@@ -9,15 +9,13 @@ status: draft1
 
 If you've ever had the opportunity to compare a modern transceiver with an older analog radio, you may have noticed that the modern radios are better able to make weak signals sound clearer, switch instantly between different filter types with the push of a button, and offer features like automatic notch filtering that seem almost magical when compared with the older radios. The key technology behind these capabilities is Digital Signal Processing (DSP)—which adds computer processing to the analog circuits still needed in a radio.
 
-As you prepare for General operation, DSP can be one of your most valuable tools for copying weak signals, reducing interference, and operating digital modes. Understanding how DSP works helps you get the most from modern equipment.
-
 #### DSP Filters: Flexible Choices
 
 One of the most important DSP applications is advanced filtering:
 
 > **Key Information:** An advantage of DSP filters compared to analog filters is that a wide range of filter bandwidths and shapes can be created. {{< link id="G7C06" >}}
 
-Traditional analog filters can be fixed, switched or adjustable. DSP makes a wide choice of responses practical by processing signal samples mathematically. The same processing hardware can create a 200 Hz CW filter, a 2.8 kHz SSB filter, or many choices in between—just by changing the calculations. Providing all those choices with separate analog filters would require more components. DSP opens up a world of possibilities for flexibility and performance both.
+Traditional analog filters can be fixed, switched or adjustable. DSP makes a wide choice of responses practical by processing signal samples mathematically. The same processing hardware can create a 200 Hz CW filter, a 2.8 kHz SSB filter, or many choices in between—just by changing the calculations. Providing all those choices with separate analog filters would require more components.
 
 ##### Choosing the Right Bandwidth
 
@@ -73,8 +71,6 @@ DSP technology provides several advantages for amateur radio operation:
 
 **Real-Time Analysis**: Many DSP radios provide waterfall displays showing band activity and signal types visually.
 
-**Automatic Interference Suppression**: DSP systems can automatically identify and suppress many types of interference without manual adjustment.
-
 #### DSP in Your General Class Operations
 
 For practical amateur radio use, DSP helps with:
@@ -82,5 +78,3 @@ For practical amateur radio use, DSP helps with:
 - Crowded band operation by filtering and suppressing interference  
 - Digital mode integration through built-in decoders
 - Repeatable digital filter settings, though analog circuits can still drift with temperature or age
-
-Understanding these DSP concepts helps you make informed equipment choices and optimize your station's performance as you prepare to explore General class operation.

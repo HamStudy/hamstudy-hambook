@@ -114,17 +114,7 @@ This unwanted mixing can happen in:
 
 Sometimes intermodulation happens in the most unexpected places—out in the environment itself! A loose or corroded metal junction can behave nonlinearly, like a primitive diode, and if that junction encounters strong RF signals, it can create intermodulation products just like an overdriven amplifier stage.
 
-Common culprits include:
-
-- **Corroded antenna connections**: Some oxide layers produce nonlinear contact behavior
-- **Guy wire hardware**: Dissimilar metals in clamps, turnbuckles, and guy anchors
-- **Fence wire and posts**: Especially galvanized wire on steel posts with loose connections
-- **Tower hardware**: Bolted joints between different metal types
-- **Nearby metal structures**: Water tanks, antennas on adjacent towers, even rain gutters
-
 This becomes particularly problematic at mountain-top repeater sites where multiple high-power transmitters operate in close proximity. Strong signals from several repeaters can mix in unexpected places—perhaps in a loose guy wire connection or corroded tower joint—creating intermodulation products that fall right on another repeater's input frequency. The result? Phantom signals triggering repeaters or strange interference patterns that seem to come from nowhere.
-
-These environmental mixing sources can be incredibly difficult to locate. Sometimes the problem only appears under certain weather conditions (when moisture changes the electrical characteristics of corroded connections), or when specific combinations of transmitters are active simultaneously. Troubleshooting often involves systematically turning off transmitters one by one to identify which combination creates the problem, then physically inspecting every metallic junction in the area.
 
 The solution might be as simple as cleaning and properly connecting a guy wire, or may require better antenna isolation and other measures to reduce RF at the bad junction. Filters can help when unwanted frequencies reach the junction, but they cannot remove a transmitter’s intended in-band signal while passing that same signal to the antenna. Understanding that these natural mixing phenomena can occur helps explain some of the stranger interference problems that occasionally puzzle even experienced engineers.
 
@@ -234,33 +224,5 @@ For the same modulation and pulse shape, increasing symbol rate requires more ba
 - High-speed modes like packet radio (1200+ baud) require wide bandwidth
 
 You can put more bits into each symbol without increasing the symbol rate, but then the receiver must distinguish more states. For a fixed signaling arrangement, pushing symbols too fast for the available bandwidth makes them overlap and causes errors.
-
-#### Practical Applications
-
-Understanding frequency mixing and bandwidth helps you:
-
-**Troubleshoot Interference:**
-
-- Identify when strong local signals are creating intermodulation products
-- Recognize image responses and take appropriate filtering action
-- Track down the sources of mixing-related interference
-
-**Optimize Your Station:**
-
-- Select appropriate antenna filters to reduce image problems
-- Choose proper power levels for different duty cycle modes
-- Use correct receiver bandwidths for best reception
-
-**Operate Considerately:**
-
-- Keep your transmitted bandwidth within acceptable limits
-- Avoid overmodulation that creates splatter on adjacent frequencies
-- Understand why your signal bandwidth affects other operators
-
-**Make Better Equipment Choices:**
-
-- Evaluate receiver specifications for image rejection performance
-- Select filters appropriate for your operating interests
-- Choose transmitters with appropriate duty cycle ratings for your preferred modes
 
 Mixing can move a wanted signal to a useful frequency, but the receiver still needs to separate it from noise and interference. We've seen how bandwidth affects that job. Next, we'll see how digital signal processing gives a radio flexible ways to filter and recover the signal.

@@ -23,16 +23,16 @@ Each approach to modifying these characteristics creates different trade-offs be
 
 Amplitude modulation provides a direct way to send voice over radio, and understanding it is crucial because more advanced methods build on these concepts.
 
-The name of the process that varies the instantaneous power level of the RF signal is amplitude modulation. {{< link id="G8A05" >}} The RF amplitude follows the instantaneous audio voltage: positive and negative parts of the audio wave make it rise above and fall below its unmodulated level. Louder audio makes those excursions larger.
+The RF amplitude follows the instantaneous audio voltage: positive and negative parts of the audio wave make it rise above and fall below its unmodulated level. Louder audio makes those excursions larger.
 
-> **Key Information:** Amplitude modulation varies the instantaneous power level of the RF signal.
+> **Key Information:** Amplitude modulation varies the instantaneous power level of the RF signal. {{< link id="G8A05" >}}
 
 ![An audio sine wave appears above an amplitude-modulated radio-frequency wave. Time runs from left to right in both. Many RF cycles fit within each slow audio cycle. As the audio voltage rises, the RF peaks grow taller; as it falls, they shrink. The RF cycles remain evenly spaced. Dashed lines joining their positive and negative peaks outline the modulation envelope. Its upper boundary follows the shape of the audio wave.](../../../images/s3-1-amplitude-modulation.svg)
 {.img-centered}
 
-Looking at an AM signal on an oscilloscope, you can actually see the shape of the audio signal traced out by the peaks of the RF carrier. The modulation envelope of an AM signal is the waveform created by connecting the peak values of the modulated signal. {{< link id="G8A11" >}} With proper modulation, the envelope is a scaled version of the audio, offset above zero—which is how an envelope detector recovers the voice.
+Looking at an AM signal on an oscilloscope, you can actually see the shape of the audio signal traced out by the peaks of the RF carrier. With proper modulation, the envelope is a scaled version of the audio, offset above zero—which is how an envelope detector recovers the voice.
 
-> **Key Information:** The modulation envelope of an AM signal is the waveform created by connecting the peak values of the modulated signal.
+> **Key Information:** The modulation envelope of an AM signal is the waveform created by connecting the peak values of the modulated signal. {{< link id="G8A11" >}}
 
 ##### The AM Problem
 
@@ -45,9 +45,9 @@ For 100% modulation by a single sine-wave tone, about two-thirds of the average 
 
 ##### When AM Goes Wrong
 
-AM is particularly susceptible to a problem called flat-topping. The term "flat-topping," when referring to an amplitude-modulated phone signal, means signal distortion caused by excessive drive or speech levels. {{< link id="G8A10" >}} When you overdrive an AM transmitter, the peaks of the waveform get clipped off flat, creating a harsh, distorted sound and splatter interference on adjacent frequencies.
+AM is particularly susceptible to a problem called flat-topping. When you overdrive an AM transmitter, the peaks of the waveform get clipped off flat, creating a harsh, distorted sound and splatter interference on adjacent frequencies.
 
-> **Key Information:** "Flat-topping" in an AM phone signal refers to signal distortion caused by excessive drive or speech levels.
+> **Key Information:** "Flat-topping" in an AM phone signal refers to signal distortion caused by excessive drive or speech levels. {{< link id="G8A10" >}}
 
 ![A normal AM envelope expands and contracts smoothly, with rounded peaks above and below a center line. In the flat-topped example, the largest peaks reach a limit and stay flat for part of the cycle. Both the upper and lower boundaries are clipped. Those flattened sections replace the rounded peaks, so the envelope no longer follows the audio faithfully. This is the distorted shape caused by excessive drive or speech levels.](../../../images/s3-1-flat-topping.svg)
 {.img-centered}
@@ -56,13 +56,12 @@ AM is particularly susceptible to a problem called flat-topping. The term "flat-
 
 Single sideband was developed to maximize efficiency for point-to-point communications. If both sidebands contain the same information and the carrier contains no information, why not eliminate the redundancy?
 
-Of the conventional analog phone emissions compared here, single sideband uses the narrowest bandwidth. {{< link id="G8A07" >}} SSB eliminates the carrier and one sideband, keeping only the sideband that contains your voice. This creates significant efficiency gains:
-- Uses half the bandwidth of AM
+SSB eliminates the carrier and one sideband, keeping only the sideband that contains your voice. This creates significant efficiency gains:
+- Uses half the bandwidth of AM for the same audio range
 - Puts all your power into the information-carrying signal
 - Can improve weak-signal communication for the same transmitter power
-- Occupies less spectrum than AM for the same audio range
 
-> **Key Information:** Of these conventional analog phone emissions, single sideband uses the narrowest bandwidth.
+> **Key Information:** Of these conventional analog phone emissions, single sideband uses the narrowest bandwidth. {{< link id="G8A07" >}}
 
 However, SSB comes with trade-offs. It requires more complex equipment, precise tuning, and more skill to operate effectively. AM remains preferred for broadcasting because it's simpler for listeners—any basic AM radio can receive it without needing to reconstruct a suppressed carrier. SSB excels where efficiency and spectrum conservation matter most, particularly in amateur radio and other point-to-point services.
 
@@ -71,23 +70,23 @@ However, SSB comes with trade-offs. It requires more complex equipment, precise 
 One common way to build an SSB transmitter uses two key circuits working together:
 
 **Step 1: The Balanced Modulator**
-A balanced modulator produces double-sideband modulated RF. {{< link id="G7C02" >}} This special mixer circuit combines your audio with the carrier frequency, but through clever circuit design, it cancels out the carrier itself. The output contains only the upper and lower sidebands—your voice information is now carried in two separate frequency bands above and below where the carrier used to be.
+This special mixer circuit combines your audio with the carrier frequency, but through clever circuit design, it cancels out the carrier itself. The output contains only the upper and lower sidebands—your voice information is now carried in two separate frequency bands above and below where the carrier used to be.
 
-> **Key Information:** A balanced modulator produces double-sideband modulated RF.
+> **Key Information:** A balanced modulator produces double-sideband modulated RF. {{< link id="G7C02" >}}
 
 **Step 2: The Sideband Filter**
-A filter is used to select one of the sidebands from a balanced modulator. {{< link id="G7C01" >}} This filter has a very sharp cutoff that passes one sideband while rejecting the other. The result is a single sideband containing all your voice information in one sideband.
+This filter has a very sharp cutoff that passes one sideband while rejecting the other. The result is a single sideband containing all your voice information.
 
-> **Key Information:** A filter is used to select one of the sidebands from a balanced modulator.
+> **Key Information:** A filter is used to select one of the sidebands from a balanced modulator. {{< link id="G7C01" >}}
 
 ![Audio and a radio-frequency reference enter a balanced modulator. It produces a lower sideband and an upper sideband while suppressing the carrier between them. The signal then passes through a sideband filter to the single-sideband output. In this example, the filter passes the upper sideband and rejects the lower one. The small frequency plots show both sidebands before filtering and only the upper sideband afterward. Frequency increases from left to right; a dashed mark shows where the suppressed carrier would be.](../../../images/s3-1-ssb-generation.svg)
 {.img-centered}
 
 ##### Receiving SSB: Putting It Back Together
 
-Since SSB has no carrier, the receiver must supply one to make the signal intelligible. A product detector is used in a single sideband receiver to extract the modulated signal. {{< link id="G7C04" >}} This detector mixes the incoming SSB signal with a locally generated carrier (called a Beat Frequency Oscillator or BFO). When you tune an SSB signal, you align the received signal with that local reference until voices sound natural. Which oscillator changes depends on the receiver design.
+Since SSB has no carrier, the receiver must supply one to make the signal intelligible. A product detector mixes the incoming SSB signal with a locally generated carrier (called a Beat Frequency Oscillator or BFO). When you tune an SSB signal, you align the received signal with that local reference until voices sound natural. Which oscillator changes depends on the receiver design.
 
-> **Key Information:** A product detector is used in a single sideband receiver to extract the modulated signal.
+> **Key Information:** A product detector is used in a single sideband receiver to extract the modulated signal. {{< link id="G7C04" >}}
 
 This is why SSB signals sound like "Donald Duck" when you're not tuned quite right—the local carrier frequency is slightly off, making voices sound too high or too low.
 
@@ -105,9 +104,9 @@ While AM varies the signal's strength, frequency and phase modulation keep the a
 
 ##### Frequency Modulation (FM)
 
-The name of the process that changes the instantaneous frequency of an RF wave to convey information is frequency modulation. {{< link id="G8A03" >}} The instantaneous audio voltage moves the RF frequency above or below its center value. Louder audio produces greater **deviation**, the maximum frequency change. Higher audio pitch makes those swings repeat faster; it does not simply move the carrier upward.
+The instantaneous audio voltage moves the RF frequency above or below its center value. Louder audio produces greater **deviation**, the maximum frequency change. Higher audio pitch makes those swings repeat faster; it does not simply move the carrier upward.
 
-> **Key Information:** Frequency modulation changes the instantaneous frequency of an RF wave to convey information.
+> **Key Information:** Frequency modulation changes the instantaneous frequency of an RF wave to convey information. {{< link id="G8A03" >}}
 
 ![An audio wave rises and falls above a frequency-modulated radio-frequency wave. Time runs from left to right. The RF peaks keep the same height, but the cycles bunch closer together and then spread farther apart as the audio changes. Closely spaced cycles mean a higher instantaneous frequency; widely spaced cycles mean a lower one. The pattern repeats with the audio wave. Here the information changes the spacing of the RF cycles, rather than their height.](../../../images/s3-1-frequency-modulation.svg)
 {.img-centered}
@@ -118,19 +117,19 @@ FM's constant amplitude lets receivers reject some amplitude noise, making it us
 
 Back in Section 1.2, we introduced the concept of phase using a spinning wheel analogy—phase tells us where a point is in its rotation cycle, measured in degrees. Phase modulation builds directly on these concepts.
 
-The name of the process that changes the phase angle of an RF signal to convey information is phase modulation. {{< link id="G8A02" >}} Instead of keeping the carrier wave's timing constant, phase modulation shifts when each cycle begins relative to a reference timing.
+Instead of keeping the carrier wave's timing constant, phase modulation shifts when each cycle begins relative to a reference timing.
 
-> **Key Information:** Phase modulation changes the phase angle of an RF signal to convey information.
+> **Key Information:** Phase modulation changes the phase angle of an RF signal to convey information. {{< link id="G8A02" >}}
 
 Picture this: if an unmodulated carrier is like a metronome keeping perfect time, phase modulation is like occasionally making the metronome tick slightly early or late based on your voice. When your voice signal is positive, the carrier phase might advance (each cycle starts a bit earlier); when your voice signal is negative, the phase might be delayed (each cycle starts a bit later).
 
 Here's the interesting part: when you change the phase of a signal, you're actually creating small frequency changes. Remember that frequency tells us how many cycles occur per second. If you advance the phase, you're temporarily fitting more cycles into the same time period (higher frequency). If you delay the phase, you're temporarily fitting fewer cycles (lower frequency). While the phase is changing, the instantaneous frequency changes too. A fixed phase offset alone does not cause a continuing frequency change. FM and PM both produce frequency variations, but their response to audio differs; audio shaping can make an indirect-FM system behave as intended.
 
-Many modern transmitters actually use phase modulation to create what effectively becomes an FM signal. A reactance modulator connected to a transmitter RF amplifier stage produces phase modulation. {{< link id="G8A04" >}} 
+Many modern transmitters actually use phase modulation to create what effectively becomes an FM signal.
 
 A reactance modulator is a voltage-controlled device that changes its reactance (the X we learned about earlier) in response to the audio signal. Remember that reactance is the opposition to AC current flow caused by inductance or capacitance. When applied to an RF amplifier stage, changing reactance shifts the phase of the signal passing through that stage. Applied instead to an oscillator’s tuned circuit, changing reactance changes the generated frequency and produces FM. The amplifier-versus-oscillator distinction is the key to this exam question.
 
-> **Key Information:** A reactance modulator connected to a transmitter RF amplifier produces phase modulation.
+> **Key Information:** A reactance modulator connected to a transmitter RF amplifier produces phase modulation. {{< link id="G8A04" >}}
 
 
 
@@ -140,9 +139,9 @@ Regardless of which modulation method you use, proper operation prevents interfe
 
 ##### Understanding Overmodulation
 
-One of the most common problems across all modulation types is overmodulation. An effect of overmodulation is excessive bandwidth. {{< link id="G8A08" >}} When you drive your transmitter too hard—whether with voice levels that are too high, microphone gain set too high, or speech processing set too aggressively—the signal spreads beyond its normal bandwidth and creates interference on adjacent frequencies.
+One of the most common problems across all modulation types is overmodulation. When you drive your transmitter too hard—whether with voice levels that are too high, microphone gain set too high, or speech processing set too aggressively—the signal spreads beyond its normal bandwidth and creates interference on adjacent frequencies.
 
-> **Key Information:** Excessive bandwidth is an effect of overmodulation.
+> **Key Information:** Excessive bandwidth is an effect of overmodulation. {{< link id="G8A08" >}}
 
 Signs of overmodulation include:
 - Distorted audio reports from other stations
@@ -191,4 +190,4 @@ Your choice of modulation depends on several factors:
 - You want compatibility with AM broadcast receivers
 - Simplicity of operation is the priority
 
-Understanding these analog modulation methods gives you the foundation for effective HF operation and sets the stage for understanding the digital modes we'll explore next. Each method represents a different solution to the challenge of efficiently conveying information over radio waves, and knowing when and how to use each one will make you a more effective operator.
+Understanding these analog modulation methods gives you the foundation for effective HF operation and sets the stage for understanding the digital modes we'll explore next.
