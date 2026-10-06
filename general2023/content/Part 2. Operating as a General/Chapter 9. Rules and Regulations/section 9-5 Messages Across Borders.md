@@ -29,7 +29,7 @@ CW and digital operators use abbreviations to send familiar information efficien
 
 > **Key Information:** Abbreviations and procedural signals may be used if they do not obscure a message’s meaning. {{< link id="G1B07" >}}
 
-The Q-signals from the previous chapter are examples: *QRS requests slower sending*, and *QSL acknowledges receipt and understanding*. A listener may need to learn those conventions, but they are not a secret arrangement between the two operators.
+For example, *QRS requests slower sending*. A listener may need to learn that convention, but it is not a secret arrangement between the two operators.
 
 Likewise, encoding can put data into a form we can transmit or help us correct errors. Encrypting a message instead hides what it says. The purpose and rules matter; a signal is not banned just because a listener lacks the software to decode it.
 
@@ -59,7 +59,7 @@ The same message rules apply when you move the control point away from the trans
 
 > **Key Information:** Third-party messages may be transmitted by remote control whenever those messages are otherwise permitted by FCC rules. {{< link id="G1E12" >}}
 
-For example, an operator controlling a station over an internet link can relay a permitted personal message. You must still follow the rules on message content, destination, and supervising a guest.
+For example, an operator controlling a station over an internet link can relay a permitted personal message.
 
 #### Identifying Which Country’s Station You Operate
 
@@ -78,9 +78,7 @@ The reverse arrangement depends on permission from the transmitter’s country. 
 
 #### Taking a Radio Abroad
 
-Taking the transmitter with you is not the same as remotely using a US station. The country you visit may let you operate based on your US license, through reciprocal privileges or a regional arrangement. Or it may require a permit just for you. Whether you qualify can depend on both your license class and your destination. A US General Class License does not automatically qualify you under every arrangement.
-
-Before you travel, check the current rules with that country’s radio regulator or recognized national amateur organization. Confirm the documents you need, call sign prefix, power limits, and allowed bands.
+Before taking a radio abroad, check the current rules with that country’s radio regulator or recognized national amateur organization. Permission can depend on your destination and license class; a US General Class License does not automatically allow you to operate there. Find out whether you need a separate permit. Confirm the required documents, call sign prefix, power limits, and allowed bands.
 
 Whether you’re at home, at a remote control point, or visiting another country, know which station you’re allowed to control and what it may transmit. You also need to keep your license valid and know when new or upgraded privileges take effect.
 

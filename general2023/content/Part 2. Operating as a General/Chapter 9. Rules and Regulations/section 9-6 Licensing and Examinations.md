@@ -22,13 +22,9 @@ For example, W1ABC using the temporary General privileges identifies as “*W1AB
 
 You can use these temporary privileges for up to 365 days after you pass the exam. They end sooner if the FCC takes final action on your application. Follow up with the examining team if the application does not progress as expected. Keep your CSCE and application records, and check that the FCC record is updated.
 
-A first-time applicant, however, must wait for the FCC license grant before transmitting as a control operator.
-
 #### Keeping a License Current
 
-An ordinary amateur license grant has a ten-year term. You ideally should file for renewal within the 90 days before expiration. It is your responsibility to ensure that your license remains current! If the FCC receives your properly filed renewal application on or before the expiration date, [you may keep operating](https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-97/subpart-A/section-97.21) until the FCC takes final action on it.
-
-If your license expires without a timely renewal application, you must stop transmitting until the license is renewed. A two-year grace period lets you renew (but not transmit!) without retesting.
+If the FCC receives your properly filed renewal application by the expiration date, [you may keep operating](https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-97/subpart-A/section-97.21) until it takes final action. Otherwise, you must stop transmitting when your license expires and wait until it is renewed. The two-year grace period lets you renew without retesting.
 
 Once the grace period ends, you cannot renew that license through the normal process. You may still get exam credit based on your old license:
 

@@ -11,11 +11,11 @@ An amateur allocation does not always mean that amateurs are the only users of t
 
 #### Operating as a Secondary Service
 
-A spectrum allocation can identify a service as primary or secondary. These terms set the rules for sharing between services. They don't rank one amateur's contact above another's:
+Primary and secondary describe how radio services share a band, not which amateur's contact takes priority:
 
 > **Key Information:** When the amateur service is secondary on a band, amateur stations must not cause harmful interference to primary users and must accept interference from them. {{< link id="G1A06" >}}
 
-On 30 meters, for example, amateurs must protect the fixed services listed in the sharing rules. These are radio links between fixed locations. If your signal causes harmful interference to a primary user, you must correct the problem, even if that means stopping transmission. Being on the frequency first doesn't change that duty.
+On 30 meters, amateurs must protect the fixed services listed in the sharing rules—radio links between fixed locations. If you cause harmful interference to a primary user, you must correct it or stop transmitting, even if you were on the frequency first.
 
 Accepting interference means that a secondary station *cannot demand protection from a primary service’s operation*. The 60-meter channels and continuous segment have secondary status too.
 
@@ -41,7 +41,7 @@ Give the beacon frequency and its signal bandwidth room rather than checking onl
 
 #### Investigating an Interference Report
 
-An interference report is a reason to investigate, not proof that either station is at fault. Note the frequency, time, operating mode, and what changes when your transmitter starts or stops. Use Chapter 7's measurement and RF-interference checks to trace the problem. It may come from unwanted signals your transmitter emits, or from a receiver or audio device that reacts poorly to a nearby signal. Keep the discussion factual and cooperative. Test whether your changes actually helped.
+An interference report is a reason to investigate, not proof that either station is at fault. Work together to trace the problem using Chapter 7's measurement and RF-interference checks.
 
 Amateurs also help each other follow the rules through an organized monitoring program:
 
@@ -57,9 +57,7 @@ Suppose a continuous carrier is keeping a repeater transmitting. Using a directi
 
 > **Key Information:** Volunteer Monitors can help localize that station by comparing beam headings on the repeater input from their home locations with those of other Volunteer Monitors. {{< link id="G2D03" >}}
 
-Each heading gives a direction from one receiving location. Plotting several directions helps narrow the search to the area where they meet. Reflections and measurement errors can keep the lines from meeting at one point. Compare observations instead of treating one bearing as proof.
-
-Finding the source does not tell you whether the interference was deliberate. A stuck transmitter and deliberate interference can initially sound much the same. Record what you find and follow the proper reporting process. Don't confront someone based on a suspected location.
+Each heading gives a direction from one receiving location. Plotting several directions helps narrow the search to the area where they meet, though reflections and measurement errors can make the location uncertain. Even finding the source doesn't prove deliberate interference; a stuck transmitter may be the cause. Record your observations and follow the reporting process rather than confronting someone.
 
 #### When a Specific Rule Does Not Settle the Question
 
