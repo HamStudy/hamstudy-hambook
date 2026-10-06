@@ -21,9 +21,9 @@ A diode is like a one-way gate, with voltage providing the push to open it. A sm
 
 Different diode types have different approximate forward thresholds:
 
-> **Key Information:** The approximate forward threshold voltage of a germanium diode is 0.3 volts. {{< link id="G6A03" >}}
-
-> **Key Information:** The approximate forward threshold voltage of a silicon junction diode is 0.7 volts. {{< link id="G6A05" >}}
+> **Key Information:**
+> - The approximate forward threshold voltage of a germanium diode is 0.3 volts. {{< link id="G6A03" >}}
+> - The approximate forward threshold voltage of a silicon junction diode is 0.7 volts. {{< link id="G6A05" >}}
 
 Signals from an antenna can be tiny. Germanium diodes and suitable Schottky diodes conduct at low forward voltages, making them useful in **detectors** that recover speech or music from AM signals. Detection can happen even below the usual threshold, where the gate is open only a crack.
 

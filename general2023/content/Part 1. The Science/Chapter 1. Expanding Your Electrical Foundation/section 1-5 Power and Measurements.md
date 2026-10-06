@@ -106,9 +106,9 @@ For example:
 
 Radio science frequently uses decibels (dB) because they simplify how we express large changes in power. Instead of saying a signal is "100 times stronger," we can say it's "20 dB stronger." This makes calculations easier and allows us to add gains and losses instead of multiplying and dividing.
 
-> **Key Information:** An increase of about 3 dB doubles power; a decrease of about 3 dB halves power. {{< link id="G5B01" >}}
-
-> **Key Information:** A loss of 1 dB represents a power loss of approximately 20.6 percent. {{< link id="G5B10" >}}
+> **Key Information:**
+> - An increase of about 3 dB doubles power; a decrease of about 3 dB halves power. {{< link id="G5B01" >}}
+> - A loss of 1 dB represents a power loss of approximately 20.6 percent. {{< link id="G5B10" >}}
 
 Positive dB values represent power increases, while negative dB values represent decreases. Here are useful approximate power ratios to remember:
 
