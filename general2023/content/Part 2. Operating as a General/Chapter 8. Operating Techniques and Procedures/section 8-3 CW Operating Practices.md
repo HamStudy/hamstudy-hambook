@@ -23,14 +23,13 @@ The frequency-use check introduced in the previous section has a short CW form:
 
 > **Key Information:** The Q signal “QRL?” means “Are you busy?” or “Is this frequency in use?” {{< link id="G2C04" >}}
 
-Send QRL? followed by your call sign, then listen for an answer. If a station indicates that the frequency is occupied, choose another. Q-signals are three-letter groups used for common statements and questions; they save time without requiring the operators to spell out each request.
+Q-signals are three-letter groups used for common statements and questions; they save time without requiring the operators to spell out each request.
 
 Spacing separates independent contacts. When answering a station that expects a reply on its own frequency, you instead want your transmitter to match it:
 
 > **Key Information:** In CW operation, “zero beat” means matching the transmit frequency to the frequency of a received signal. {{< link id="G2C06" >}}
 
-On a modern transceiver, this does not normally mean tuning until the received tone disappears. The radio accounts for a CW pitch offset. Follow its procedure for matching the received pitch to a spot tone or using a CW tuning indicator. For example, with a 600 Hz spot tone, you tune the received signal to that pitch—not toward silence. Check that split or other frequency offsets are not unintentionally separating transmit and receive.
-
+On a modern transceiver, the radio accounts for a CW pitch offset. Follow its procedure for matching the received pitch to a spot tone or using a CW tuning indicator. For example, with a 600 Hz spot tone, you tune the received signal to that pitch—not toward silence. Check that split or other frequency offsets are not unintentionally separating transmit and receive.
 
 #### Choosing a Speed Both Stations Can Copy
 
@@ -44,7 +43,7 @@ You can ask the other operator to slow down during the contact:
 
 > **Key Information:** The Q signal “QRS” asks the other station to send slower. {{< link id="G2C02" >}}
 
-For the exam, recognize the request to send slower even though the pool writes it as “QRS?” Formally, QRS means “Send more slowly,” while QRS? asks “Shall I send more slowly?” Respond to a request for slower sending by reducing your speed. Good spacing between letters and words matters as well; slowing the individual elements while running the words together does not make an exchange easy to copy.
+For the exam, recognize the request to send slower even though the pool writes it as “QRS?” Formally, QRS means “Send more slowly,” while QRS? asks “Shall I send more slowly?” Good spacing between letters and words matters as well; slowing the individual elements while running the words together does not make an exchange easy to copy.
 
 #### Taking Turns and Giving Reports
 
@@ -54,13 +53,13 @@ At the end of a general call, K invites a reply. When you are speaking to a part
 
 > **Key Information:** When a CW operator sends “KN” at the end of a transmission, they are listening only for a specific station or stations. {{< link id="G2C03" >}}
 
-This helps other listeners distinguish an invitation to the named station from an opening for anyone to answer. SK marks the end of a contact. These signals organize the exchange; they do not replace your call sign.
+SK marks the end of a contact. These signals organize the exchange; they do not replace your call sign.
 
 The signal report adds one item to the voice report from the previous section. RST reports readability, strength, and tone. Tone runs from 1 to 9, with 9 describing a pure tone. A 579 report therefore means perfectly readable, strength 7, and pure tone.
 
 > **Key Information:** A “C” added to a CW RST report indicates a chirpy or unstable signal. {{< link id="G2C07" >}}
 
-A chirp is a change in the signal’s frequency as an element is sent, heard as a changing pitch. It is not the same as a steady signal that you have tuned to a higher or lower audio pitch. Reporting it gives the transmitting station a reason to check its equipment.
+A chirp is a change in the signal’s frequency as an element is sent, heard as a changing pitch. Reporting it gives the transmitting station a reason to check its equipment.
 
 You can also describe a problem at your end:
 
@@ -70,7 +69,7 @@ That tells the sender why you may need a repeat even if their signal is otherwis
 
 > **Key Information:** The Q signal “QSL” means “I have received and understood.” {{< link id="G2C09" >}}
 
-If you missed part of the transmission, ask for it again before acknowledging. The other station is still available to repeat it.
+If you missed part of the transmission, ask for it again before acknowledging.
 
 #### A Short CW Exchange
 
@@ -82,9 +81,9 @@ Here is one possible opening. DE means “from,” NAME introduces the operator�
 >
 > **W1ABC replies:** W2XYZ DE W1ABC RST 579 NAME ALEX QTH DENVER KN
 
-The last line addresses W2XYZ, identifies W1ABC, and gives the report, name, and location before inviting W2XYZ to reply. W2XYZ can acknowledge with QSL and return the same kinds of information. Either operator can ask for a repeat or slower sending when needed.
+The last line addresses W2XYZ, identifies W1ABC, and gives the report, name, and location before inviting W2XYZ to reply. W2XYZ can acknowledge with QSL and return the same kinds of information.
 
-The contact may continue with other topics or end after that exchange. At the close, identify your station and use SK to mark the end of the contact. You may also hear 73, meaning “best regards.” A short contact at a manageable speed is enough to practice the complete sequence.
+At the close, identify your station and use SK to mark the end of the contact. You may also hear 73, meaning “best regards.” A short contact at a manageable speed is enough to practice the complete sequence.
 
 #### Listening Between Elements
 
@@ -97,6 +96,4 @@ The radio returns to receive during the brief gaps between transmitted elements.
 ![A timeline runs from left to right. The transmit row shows a dot, a longer dash, and another dot. In the receive row, blocks fill the gaps between those elements and follow the final dot. Full break-in lets the operator hear a reply during these gaps. Transmission and reception alternate; they do not happen at the same time. Switching intervals are simplified.](../../../images/s8-3-cw-break-in-timing.svg)
 {.img-centered}
 
-QSK is optional. Without it, the stations can still take turns at the end of each transmission. Before enabling it with an amplifier, confirm that the whole transmitting system supports the required switching, using the precautions from Section 7.4.
-
-A keyer memory or computer aid may assist with an exchange, but you still need to recognize the reply and act on it. Those habits also matter in DX and contests, where calls may be brief and several operators may be waiting for the same station.
+Before enabling QSK with an amplifier, confirm that the whole transmitting system supports the required switching, using the precautions from Section 7.4.

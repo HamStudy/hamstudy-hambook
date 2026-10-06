@@ -11,12 +11,9 @@ An ordinary HF voice contact begins in one of three ways: you answer a call, inv
 
 #### Make Your Voice Ready to Transmit
 
-Before calling, check the speech settings established in the previous chapter. Speak at a normal level and use the manufacturer’s recommended ALC indication to guide microphone-gain adjustment:
-
 > **Key Information:** Transmit audio or microphone gain is typically adjusted for the proper ALC setting on an SSB transceiver. {{< link id="G2A12" >}}
 
 Adjust microphone gain while speaking normally, keeping the RF power setting at the level you intend to use. Follow the radio’s voice-mode procedure; its recommended ALC indication may differ from the digital-mode setup guidance in the previous chapter.
-
 
 You can switch between transmit and receive with PTT or let your voice operate the switch:
 
@@ -44,9 +41,9 @@ For voice, “Is this frequency in use? This is W1ABC” is enough. Pause for an
 
 Callsigns contain letters that can sound alike through noise. Standard phonetic words help separate them:
 
-> **Key Information:** Alfa, Bravo, Charlie, and Delta are examples of the NATO Phonetic Alphabet. {{< link id="G2D07" >}}
+> **Key Information:** Alpha, Bravo, Charlie, and Delta are examples of the NATO Phonetic Alphabet. {{< link id="G2D07" >}}
 
-The A word is also commonly written *Alpha*, including in the question pool; the standard spelling is *Alfa*. The full alphabet is in the appendix. Using the standard words gives the listener a familiar set of sounds to recognize. W1ABC becomes “Whiskey One Alfa Bravo Charlie.” Speak clearly at a steady pace; repeat the part the other operator missed rather than changing every phonetic word.
+The full alphabet is in the appendix. W1ABC becomes “Whiskey One Alpha Bravo Charlie.” Speak clearly at a steady pace; repeat the part the other operator missed rather than changing every phonetic word.
 
 To invite a contact with any available station, call CQ:
 
@@ -54,9 +51,9 @@ To invite a contact with any available station, call CQ:
 
 For example:
 
-> “CQ CQ CQ, this is W1ABC, Whiskey One Alfa Bravo Charlie, calling CQ and standing by.”
+> “CQ CQ CQ, this is W1ABC, Whiskey One Alpha Bravo Charlie, calling CQ and standing by.”
 
-The listening pause is part of the call. A station cannot answer while you are still transmitting. When answering someone else’s CQ, wait for that pause and give their call followed by yours: “W2XYZ, this is W1ABC, Whiskey One Alfa Bravo Charlie.”
+The listening pause is part of the call. A station cannot answer while you are still transmitting. When answering someone else’s CQ, wait for that pause and give their call followed by yours: “W2XYZ, this is W1ABC, Whiskey One Alpha Bravo Charlie.”
 
 Joining a conversation already in progress is different from starting one:
 
@@ -70,7 +67,7 @@ Once the stations have identified each other, a signal report helps establish ho
 
 > **Key Information:** Signal reports are typically exchanged at the beginning of an HF contact to allow each station to operate according to conditions. {{< link id="G2D11" >}}
 
-The previous chapter distinguished readability from signal strength. Apply that distinction here: “You’re five and two, fully readable but weak” gives different information from “Your signal is strong, but the audio is distorted.” A description of fading or interference can be more useful than a higher strength number.
+“You’re five and two, fully readable but weak” gives different information from “Your signal is strong, but the audio is distorted.”
 
 In a short first contact, you might say:
 

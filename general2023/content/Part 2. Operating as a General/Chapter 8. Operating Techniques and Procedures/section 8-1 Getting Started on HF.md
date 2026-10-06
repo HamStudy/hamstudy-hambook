@@ -15,18 +15,13 @@ Start with a band your station supports and a mode you want to try. Your license
 
 For most HF voice contacts, the starting point is single sideband:
 
-> **Key Information:** Single sideband (SSB) is the most commonly used voice mode on the HF amateur bands. {{< link id="G2A05" >}}
-
-As Section 3.1 explained, an SSB transmitter sends the part of an AM signal needed to carry the voice without transmitting both copies of that information:
-
-> **Key Information:** In SSB, only one sideband is transmitted; the other sideband and the carrier are suppressed. {{< link id="G2A07" >}}
+> **Key Information:**
+> - Single sideband (SSB) is the most commonly used voice mode on the HF amateur bands. {{< link id="G2A05" >}}
+> - In SSB, only one sideband is transmitted; the other sideband and the carrier are suppressed. {{< link id="G2A07" >}}
 
 For the same audio-frequency range, one sideband occupies about half the bandwidth of a conventional AM signal with two sidebands. Suppressing the carrier also avoids spending transmitter power on a component that does not itself carry the changing voice information.
 
 > **Key Information:** Less bandwidth used and greater power efficiency are advantages of SSB compared to other analog voice modes on the HF amateur bands. {{< link id="G2A06" >}}
-
-The receiver controls and audio adjustments from the previous chapter help you make use of them when noise or interference makes a contact difficult.
-
 
 #### Selecting the Sideband
 
@@ -46,17 +41,15 @@ Higher-frequency HF voice operation normally uses USB:
 > - Upper sideband (USB) is most commonly used for voice communications on frequencies of 14 MHz or higher. {{< link id="G2A01" >}}
 > - USB is most commonly used for voice communications on the 17- and 12-meter bands. {{< link id="G2A04" >}}
 
-For example, an ordinary voice contact on 40 meters calls for LSB, while one on 20 or 17 meters calls for USB. The main lower-frequency exception is 60-meter voice operation, which uses USB. On the four separate US channels, USB is required for phone; in the continuous segment, it is the usual voice convention. The next chapter explains the two arrangements. These are voice conventions; digital modes have their own settings, covered later in this chapter.
+The main lower-frequency exception is 60-meter voice operation, which uses USB. On the four separate US channels, USB is required for phone; in the continuous segment, it is the usual voice convention. The next chapter explains the two arrangements. These are voice conventions; digital modes have their own settings, covered later in this chapter.
 
 The USB convention also extends beyond HF when using SSB:
 
 > **Key Information:** USB is most commonly used for SSB voice communications in the VHF and UHF bands. {{< link id="G2A03" >}}
 
-The choice here is for SSB operation; an FM repeater still uses FM.
-
 #### Finding the Right Part of the Band
 
-Selecting the correct sideband does not make every frequency available for voice. First check the frequencies and emission types allowed by your license. Then consult the voluntary band plan for the activity you intend to use:
+First check the frequencies and emission types allowed by your license. Then consult the voluntary band plan for the activity you intend to use:
 
 > **Key Information:** Following the voluntary band plan is commonly accepted amateur practice when choosing a frequency on which to initiate a call. {{< link id="G2B07" >}}
 
@@ -66,10 +59,8 @@ On 20 meters, for instance, a US General operator looking for an SSB conversatio
 
 > **Key Information:** Most digital mode operations on the 20-meter band are commonly found between 14.070 MHz and 14.100 MHz. {{< link id="G2E08" >}}
 
-That range is an operating area, not one wide channel or a reservation for a single mode. Later in this chapter, we'll explain how to find and answer particular digital signals within it. On 30 meters, US amateurs may use CW and permitted data emissions, but not phone, so it is not a choice for the voice contacts that follow.
+On 30 meters, US amateurs may use CW and permitted data emissions, but not phone, so it is not a choice for the voice contacts that follow.
 
 #### Let the Activity Guide You
-
-Propagation gives you possible paths, not a promise that a particular band will be useful at a particular hour. Listen for stations you can copy, and notice which bands are active with your antenna. The propagation principles from earlier chapters help explain what you hear without requiring you to predict every opening.
 
 Your first contact need not be with a distant or unusually weak station. A readable CQ gives you an opportunity to answer, and listening to a few exchanges helps you recognize what comes next. Once you have chosen an appropriate mode and part of the band, the remaining decision is how to make your call without interrupting someone else.

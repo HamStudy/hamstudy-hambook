@@ -9,8 +9,6 @@ status: draft1
 
 Digital contacts do not all follow the same pattern. RTTY can carry a typed conversation, FT8 exchanges a small set of structured messages, and a messaging system can transfer email through a gateway. Choosing a mode therefore means choosing both a kind of signal and a way of communicating.
 
-In the previous chapter, we covered setting up the computer and radio to work together. Here, the task is to find suitable activity, answer without interfering, and recognize when the exchange is complete.
-
 #### Having a Keyboard Conversation with RTTY
 
 RTTY lets two operators exchange text over radio. Before answering, decode enough of the activity to identify the calling station and determine whether it is inviting a new contact or speaking to someone else.
@@ -21,9 +19,7 @@ The correct sideband for digital operation depends on the mode, rather than foll
 
 Use the radio and software settings together as directed by their instructions. Sideband selection affects which RF frequency represents mark or space; a mismatch may leave a strong signal unreadable. The tone shift, baud rate, and Reverse checks from Section 7.5 help diagnose that problem without guessing at the text.
 
-Once you can copy a CQ, identify the calling station and yourself, then leave time for a reply. “W2XYZ DE W1ABC W1ABC K” is one possible typed response. DE means “from,” as in the CW example, and K invites the other station to transmit.
-
-The contact can continue with reports, names, locations, and ordinary conversation. Preset messages can save typing, but choose ones that fit the exchange. A long equipment description is unnecessary when the other operator has asked only for a missed callsign or a contest number.
+Once you can copy a CQ, identify the calling station and yourself, then leave time for a reply. The contact can continue with reports, names, locations, and ordinary conversation.
 
 #### Making a Structured Contact with FT8
 
@@ -52,11 +48,11 @@ If the station calls in one 15-second period, your reply belongs in the followin
 
 Your reply need not use exactly the same audio frequency as the caller, provided it is within the passband the other station is receiving. Check both the selected transmit period and the transmit marker rather than assuming the software’s current settings are appropriate.
 
-A normal exchange establishes the callsigns, passes signal reports, and acknowledges receipt. Let the sequence finish and check the result before logging the contact. Sending your reply does not establish that the other station decoded it. If replies are consistently missing, revisit the timing and signal-level checks in Section 7.5 rather than immediately increasing power.
+A normal exchange establishes the callsigns, passes signal reports, and acknowledges receipt. Let the sequence finish and check the result before logging the contact. If replies are consistently missing, revisit the timing and signal-level checks in Section 7.5 rather than immediately increasing power.
 
 #### Sending Messages Through Winlink
 
-FT8 exchanges a limited set of information, while RTTY leaves both operators at their keyboards. Winlink provides another option: send a written message through a network for the recipient to collect later, much like ordinary email. It can serve an operator who has a radio connection but no local internet access:
+Winlink provides another option: send a written message through a network for the recipient to collect later, much like ordinary email. It can serve an operator who has a radio connection but no local internet access:
 
 > **Key Information:** Winlink is an amateur radio network for sending and receiving internet email, a form of packet radio, and a wireless network capable of both VHF and HF operation. {{< link id="G2E12" >}}
 
@@ -64,13 +60,13 @@ The messaging network and the radio protocol are different parts of that system.
 
 > **Key Information:** A Winlink Remote Message Server is also called a gateway. {{< link id="G2E13" >}}
 
-An internet-connected gateway can transfer your email between the radio link and the wider network. Winlink also supports radio-only arrangements, but usable routes must actually be available. The automatic-station and message rules covered in the next chapter still apply. Losing local internet service does not by itself establish that a particular gateway or onward path will work.
+An internet-connected gateway can transfer your email between the radio link and the wider network. Winlink also supports radio-only arrangements, but usable routes must actually be available. The automatic-station and message rules covered in the next chapter still apply.
 
 Choose a gateway that supports the band and protocol your station can use. One available protocol is VARA:
 
 > **Key Information:** VARA is a digital protocol used with Winlink. {{< link id="G2E02" >}}
 
-PACTOR is another protocol used for radio messaging. A connected PACTOR session is an exchange between two stations, not an open group conversation:
+PACTOR is another protocol used for radio messaging.
 
 > **Key Information:** You cannot join an existing PACTOR contact; PACTOR connections are limited to two stations. {{< link id="G2E09" >}}
 
@@ -88,8 +84,8 @@ Connected protocols can request that damaged or missing data be sent again. That
 
 > **Key Information:** Interference to a PACTOR or VARA transmission can cause frequent retries or timeouts, long pauses in message transmission, or failure to establish a connection. {{< link id="G2E03" >}}
 
-Those symptoms suggest a link problem, but do not identify its cause by themselves. Listen for other activity, verify the setup, and try a suitable alternate gateway or frequency when needed. Repeated connect attempts on an occupied channel can make the problem worse.
+Listen for other activity, verify the setup, and try a suitable alternate gateway or frequency when needed. Repeated connect attempts on an occupied channel can make the problem worse.
 
 Watch for the transfer result before disconnecting. A successful upload means the gateway accepted the message; it does not necessarily mean the intended person has read it. When receipt matters, arrange an acknowledgment from the recipient.
 
-These procedures matter beyond routine contacts. In an emergency, the best method is the one that can carry the needed information to the people who can use it, with a way to confirm that it arrived.
+In an emergency, the best method is the one that can carry the needed information to the people who can use it, with a way to confirm that it arrived.

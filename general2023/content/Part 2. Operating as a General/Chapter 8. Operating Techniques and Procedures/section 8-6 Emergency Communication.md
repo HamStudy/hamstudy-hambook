@@ -49,9 +49,7 @@ Formal messages also need a clear ending, distinct from the end of the entire co
 
 Send AR as one continuous prosign, as described earlier in this chapter. It marks the message’s end; the operators may still need to resolve a missed word or acknowledge receipt. This differs from SK, which ends the contact. Use the acknowledgment QSL only after the information has been received and understood.
 
-These procedures are useful in message-handling practice as well as emergencies. Follow the net’s message format, and request clarification instead of silently repairing something that seems wrong. In an exercise, for example, a receiver who missed part of “Send twenty blankets to the north shelter” should confirm both the quantity and destination before relaying the request.
-
-Keep a record of when the message was passed and any acknowledgment. Being ready to receive, completing a transmission, and confirming receipt are separate steps; none should be assumed from the others.
+Follow the net’s message format, and request clarification instead of silently repairing something that seems wrong. Keep a record of when the message was passed and any acknowledgment.
 
 #### Choosing a Method Both Ends Can Use
 
@@ -61,13 +59,13 @@ Several local sites may need to share forms, files, or phone connections at the 
 
 > **Key Information:** The primary purpose of an Amateur Radio Emergency Data Network (AREDN) mesh network is to provide high-speed data services during an emergency or community event. {{< link id="G2E11" >}}
 
-AREDN links stations using compatible network radios, rather than the HF audio setup used for modes such as FT8. Applications on the network can provide services such as file sharing, messaging, or voice over IP. The radio links and the services must be deployed and working at the locations that need them.
+AREDN links stations using compatible network radios, rather than the HF audio setup used for modes such as FT8. Applications on the network can provide services such as file sharing, messaging, or voice over IP.
 
 An AREDN network can operate without public internet access, but it does not automatically restore access to internet services. Choose applications available within the working network, and confirm that the intended recipient can use them.
 
 #### Preparing with ARES and RACES
 
-An established group gives you a way to practice message handling and learn what equipment a supported organization actually needs. ARES, the Amateur Radio Emergency Service, organizes licensed amateur volunteers for public-service communication. Local training helps volunteers practice the tasks they may be assigned.
+An established group gives you a way to practice message handling and learn what equipment a supported organization actually needs. ARES, the Amateur Radio Emergency Service, organizes licensed amateur volunteers for public-service communication.
 
 RACES, the Radio Amateur Civil Emergency Service, is governed by specific FCC rules for civil-defense communication:
 
