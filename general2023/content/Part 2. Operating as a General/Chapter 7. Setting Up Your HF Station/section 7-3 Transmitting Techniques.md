@@ -83,7 +83,7 @@ CW reception also offers another way to handle nearby interference. CW remains r
 
 #### Avoiding Unwanted Interference
 
-Good transmitting technique includes both readable modulation and control of unwanted emissions. Overdriven audio can produce splatter on adjacent frequencies, and the bandwidth occupied by your transmission must remain within your authorized band segment.
+Overdriven audio can produce splatter on adjacent frequencies, and the bandwidth occupied by your transmission must remain within your authorized band segment.
 
 Interference does not always mean the transmitted signal is faulty. A clean transmission can still be detected by susceptible audio equipment, as described in the previous section. If speakers produce distorted speech or clicks during your transmissions, investigate how RF is entering the equipment rather than assuming that a receiver filter will solve the problem.
 

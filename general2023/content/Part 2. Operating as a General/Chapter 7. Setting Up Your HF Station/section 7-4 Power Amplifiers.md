@@ -29,7 +29,7 @@ Some radio and amplifier combinations coordinate this timing automatically. Othe
 
 Solid-state amplifiers generally do not require manual output tuning. Many tube amplifiers use TUNE and LOAD or COUPLING controls that need adjustment when changing bands or moving significantly within a band.
 
-The TUNE control brings the output circuit to resonance. A dip in the plate-current reading indicates the correct setting:
+The TUNE control brings the output circuit to resonance.
 
 > **Key Information:** The correct setting of a vacuum-tube RF power amplifier's TUNE control produces a pronounced dip in plate current. {{< link id="G4A04" >}}
 
