@@ -41,7 +41,7 @@ Ignition systems are not the only sources of noise in a vehicle:
 
 > **Key Information:** A vehicle's battery charging system, fuel delivery system, and control computers can all cause receive interference to an installed HF transceiver. {{< link id="G4E07" >}}
 
-Some of this interference consists of pulses; other sources produce a steady buzz or whine. Changes that follow engine speed or the switching of nearby equipment can help identify the source. Local electrical noise may reach the radio through its antenna, so "local" describes the source, not necessarily how the noise enters. Report suspected power-line faults to the utility rather than inspecting or repairing the hardware yourself.
+Some of this interference consists of pulses; other sources produce a steady buzz or whine. Changes that follow engine speed or the switching of nearby equipment can help identify the source. Report suspected power-line faults to the utility rather than inspecting or repairing the hardware yourself.
 
 Steadier background noise calls for a different approach. Noise reduction, often labeled **NR**, uses digital processing to reduce noise in the received audio. It attempts to preserve speech while suppressing noise, but stronger processing can also alter the wanted signal:
 
@@ -59,8 +59,6 @@ What you hear can help identify the type of transmission:
 > - RF interference from a single sideband phone transmitter can produce distorted speech in an audio device. {{< link id="G4C03" >}}
 > - RF interference from a CW transmitter can produce on-and-off humming or clicking in an audio device. {{< link id="G4C04" >}}
 
-The sound follows the transmitter's activity, but the audio circuitry is not properly recovering the signal. Computer speakers may produce broken, speech-like sounds during SSB transmissions or clicks that follow the dots and dashes of CW, rather than the clear audio a radio receiver would produce.
-
 The solution depends on where the RF enters or is detected. A suitably chosen bypass capacitor can divert RF away from a sensitive point in the audio circuit. Its lower reactance at RF than at audio frequencies allows it to reduce the interference while leaving the wanted audio largely unaffected.
 
 > **Key Information:** A bypass capacitor can be useful in reducing RF interference to audio-frequency circuits. {{< link id="G4C01" >}}
@@ -69,7 +67,7 @@ When RF reaches the equipment as common-mode current on an audio cable, a ferrit
 
 > **Key Information:** Placing a ferrite choke on an audio cable can reduce RF interference caused by common-mode current on that cable. {{< link id="G4C08" >}}
 
-Capacitor value and placement matter, and a choke must be effective at the interfering frequency. Leave internal modifications to someone familiar with the circuit and its hazards. Identifying the path of the interference helps you choose a remedy rather than adding filters at random.
+Capacitor value and placement matter, and a choke must be effective at the interfering frequency. Leave internal modifications to someone familiar with the circuit and its hazards.
 
 #### Understanding S-Meter Readings
 
@@ -89,13 +87,13 @@ Small changes on this scale can therefore represent large changes in power:
 
 Each 10 dB increase multiplies power by ten, so 20 dB corresponds to $10 \times 10 = 100$ times the power. Similarly, increasing transmitter output from 100 to 400 watts is approximately a 6 dB change. With other conditions unchanged, that is about one additional S unit at the distant receiver.
 
-These comparisons assume a meter that follows the stated calibration. Actual S-meters vary, so readings are most useful for comparing signals on the same receiver with its settings unchanged. They can help you compare antennas or observe fading, but do not assume that different radios will give the same reading for the same signal.
+Actual S-meters vary, so readings are most useful for comparing signals on the same receiver with its settings unchanged. They can help you compare antennas or observe fading.
 
 Signal strength is also separate from readability. In a phone report of "52," the 5 means perfectly readable and the 2 means very weak. You may be able to complete a contact without increasing power, even when the signal-strength number is low.
 
 #### Listen First
 
-Time spent listening helps you recognize how signals fade, how noise changes, and which adjustments improve reception. You can begin before earning your General Class License by listening to amateur HF signals. Try one control at a time and judge the result by how well you can follow the signal.
+You can begin before earning your General Class License by listening to amateur HF signals. Try one control at a time and judge the result by how well you can follow the signal.
 
 Listening also helps you avoid interrupting a contact. A pause does not mean that a frequency is clear, especially if you can hear only one side of a conversation. Listen long enough to establish what is happening before transmitting.
 

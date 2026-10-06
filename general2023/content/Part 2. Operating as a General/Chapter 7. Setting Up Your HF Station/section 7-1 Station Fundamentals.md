@@ -13,7 +13,7 @@ The basics are the same for nearly every HF station: a transceiver, a power sour
 
 #### The Essentials
 
-**Transceiver**: The heart of your station, combining transmitter and receiver in one box. Most modern HF transceivers output 100 watts and cover 160 through 10 meters. Other options may have additional or fewer bands, specialize in low-power super-portable operation, or offer advanced Software Defined Radio capabilities. Whichever radio you choose, you'll need to power it and give it an antenna.
+**Transceiver**: The heart of your station, combining transmitter and receiver in one box. Most modern HF transceivers output 100 watts and cover 160 through 10 meters. Other options may have additional or fewer bands, specialize in low-power super-portable operation, or offer advanced Software Defined Radio capabilities.
 
 **Power source**: Most 100-watt HF transceivers run on 13.8 volts DC and draw 20–25 amps at full power. That can come from an AC-to-DC power supply, a battery, or a heavy-gauge wire run to your vehicle's battery. Follow the radio and vehicle makers' instructions for wire size, fuses, and battery connections—a vehicle's accessory socket and its wiring may not handle that much current.
 
@@ -33,9 +33,9 @@ A 40-meter dipole at resonance presents close to the 50 ohms your radio expects.
 
 > **Key Information:** The purpose of an antenna tuner is to increase power transfer from the transmitter to the feed line. {{< link id="G4A06" >}}
 
-A tuner at the radio does not change the antenna's resonant frequency or remove the mismatch between the antenna and feed line—that mismatch, and its losses, are still there. A tuner at the antenna feed point instead changes the load presented to the feed line. Either way, a tuner transforms the impedance the transmitter sees, letting the radio make the best use of the antenna system even when the antenna isn't ideal for the frequency you're using.
+A tuner at the radio does not change the antenna's resonant frequency or remove the mismatch between the antenna and feed line—that mismatch, and its losses, are still there. A tuner at the antenna feed point instead changes the load presented to the feed line.
 
-Many transceivers have a built-in tuner, though these usually handle only a limited range of impedances. External tuners can often match a wider range of antenna systems. That flexibility makes a tuner a common addition to an HF station.
+Many transceivers have a built-in tuner, though these usually handle only a limited range of impedances. External tuners can often match a wider range of antenna systems.
 
 ##### SWR Monitoring
 
@@ -60,13 +60,11 @@ An SWR meter is great for keeping an eye on things while you operate, but it has
 
 > **Key Information:** When using an antenna analyzer for SWR measurements, the antenna and feed line must be connected. {{< link id="G4B11" >}}
 
-Analyzers let you test antennas before installation, troubleshoot by measuring at different points in the system, identify damaged feed line, and plot SWR and impedance across a band. An analyzer can help with early checks, but make the final measurements with the antenna in its intended position. Its height and nearby objects can change the result. Basic models display SWR, while more advanced models add troubleshooting and visualization tools that make it easier to pinpoint problems. We'll dig deeper into what analyzers can measure later in this chapter.
+Analyzers let you test antennas before installation, troubleshoot by measuring at different points in the system, identify damaged feed line, and plot SWR and impedance across a band. An analyzer can help with early checks, but make the final measurements with the antenna in its intended position. Its height and nearby objects can change the result. We'll dig deeper into what analyzers can measure later in this chapter.
 
 ##### Amplifier
 
-Once your General privileges take effect, you may use up to 1,500 watts PEP on many bands, subject to the limits in Section 9.2. The guiding rule in amateur radio is to use only as much power as needed. More power can help the other station hear you, but it cannot improve your reception. If you hear them well but they cannot hear you, an amplifier may help.
-
-Amplifiers can also help with marginal propagation or limited antennas, but they require proper cooling, high-voltage precautions, tuning, and RF exposure calculations. Every accessory in the RF path must be rated for the power used, and impedance matching becomes more critical at higher power. Amplifiers are discussed later in this chapter.
+Once your General privileges take effect, you may use up to 1,500 watts PEP on many bands, subject to the limits in Section 9.2. The guiding rule in amateur radio is to use only as much power as needed. More power can help the other station hear you, but it cannot improve your reception. If you hear them well but they cannot hear you, an amplifier may help. Amplifiers are discussed later in this chapter.
 
 #### Building Your Station
 
@@ -76,6 +74,4 @@ With all these pieces to choose from, where do you start? Not with a shopping li
 * What kind of antenna can I put up, and how much room do I have for it?
 * What types of operation interest me, and which modes do I want to focus on?
 
-Your answers point you toward the right equipment. A home station built for DX chasing looks very different from a portable setup for camping trips, even though both are built from the same four essentials. Keep these questions in mind as we work through the rest of this chapter—each section will make more sense when you can picture where it fits in *your* station.
-
-Once the gear is connected and the power switch flips on, the very first thing your new station will do is receive—and HF receiving is a different world from the FM you're used to. Instead of clear signals or silence, you'll hear a living jumble of static, whistles, and voices fading in and out from around the planet. Pulling the signals you want out of all that is a skill, and your radio has an entire toolbox to help. That toolbox is where we go next.
+Once the gear is connected and the power switch flips on, the very first thing your new station will do is receive.

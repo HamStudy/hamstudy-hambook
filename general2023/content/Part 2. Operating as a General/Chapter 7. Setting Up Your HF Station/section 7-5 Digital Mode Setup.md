@@ -35,8 +35,6 @@ For many digital modes, a waterfall display helps you find and tune signals with
 
 Each new row shows the received activity as older rows scroll away. A signal at a steady frequency leaves a vertical trace, with brighter colors usually indicating greater strength. RTTY normally shows activity at its two mark and space frequencies.
 
-Extra lines outside that normal pattern can reveal an overdriven transmitter:
-
 > **Key Information:** Vertical lines on either side of a data mode or RTTY signal on a waterfall display indicate overmodulation. {{< link id="G8C13" >}}
 
 If another operator reports extra lines around your signal—or you see them with a separate receiver—reduce audio drive and check that speech processing is off. A display of the computer's outgoing audio cannot show distortion added later by the transmitter.
@@ -61,9 +59,5 @@ An RTTY signal can be strong and appear correctly tuned yet produce unreadable t
 Selecting the wrong receive sideband reverses the relationship between mark and space. Most RTTY software also has a **Reverse** control that swaps its interpretation of those tones. The baud rate must match the sending station's speed; 45.45 baud is common for amateur HF RTTY.
 
 Check the sideband or Reverse setting, then confirm the baud rate and shift. Change one setting at a time so you can identify what corrected the problem.
-
-#### Checking Your Setup
-
-Receiving a digital signal does not by itself confirm that your transmitter is set correctly. Check the transmit side separately, and keep sustained transmissions within the radio and amplifier's duty-cycle limits discussed in the previous section.
 
 The radio's meters and the waterfall provide useful checks. Test equipment can show more about the transmitted waveform and antenna system.

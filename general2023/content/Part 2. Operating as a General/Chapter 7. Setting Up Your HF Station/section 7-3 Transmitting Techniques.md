@@ -9,7 +9,7 @@ status: draft3
 
 On SSB, your RF output power changes with the audio level reaching the transmitter. An FM transmitter produces nearly constant power while you speak or pause, but an SSB transmitter produces little power during a pause unless the microphone picks up background sound.
 
-The radio's power setting limits peak envelope power (PEP), not a steady output throughout the transmission. With a 100-watt setting, your voice peaks may reach that level while quieter sounds produce less power. Good audio adjustment makes effective use of the available power without distorting the signal.
+The radio's power setting limits peak envelope power (PEP), not a steady output throughout the transmission. With a 100-watt setting, your voice peaks may reach that level while quieter sounds produce less power.
 
 #### Setting Microphone Gain and Processing
 
@@ -80,11 +80,5 @@ When sending with a paddle, you still form the characters and leave the spaces b
 CW reception also offers another way to handle nearby interference. CW remains readable using either receive sideband. The **CW-R** setting selects the opposite sideband, which can change where nearby interfering signals fall in the receiver's passband:
 
 > **Key Information:** One benefit of using the opposite or "reverse" sideband when receiving CW is that it may be possible to reduce or eliminate interference from other signals. {{< link id="G4A02" >}}
-
-#### Avoiding Unwanted Interference
-
-Overdriven audio can produce splatter on adjacent frequencies, and the bandwidth occupied by your transmission must remain within your authorized band segment.
-
-Interference does not always mean the transmitted signal is faulty. A clean transmission can still be detected by susceptible audio equipment, as described in the previous section. If speakers produce distorted speech or clicks during your transmissions, investigate how RF is entering the equipment rather than assuming that a receiver filter will solve the problem.
 
 More power may help when a clean signal is still too weak at the other station. An amplifier needs its own adjustments and safeguards to increase that power without creating new problems.
