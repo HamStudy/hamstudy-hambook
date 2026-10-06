@@ -13,7 +13,7 @@ Resonance is the principle that lets your antenna "ring" at exactly the right fr
 
 #### Why Resonance Matters in Amateur Radio
 
-At resonance in an LC circuit, inductive reactance and capacitive reactance are equal ($X_L = X_C$) and cancel each other. When an LC circuit reaches resonance, its impedance can be much lower or higher than at nearby frequencies, depending on the connection. This selectivity is precisely what we need to:
+At resonance in an LC circuit, inductive reactance and capacitive reactance are equal ($X_L = X_C$) and cancel each other. Depending on the connection, an LC circuit's impedance at resonance can be much lower or higher than at nearby frequencies. This selectivity is precisely what we need to:
 
 - Tune into specific stations
 - Reject interference
@@ -39,13 +39,13 @@ There are two fundamental ways to connect inductors and capacitors in resonant c
    
    Why "tank"? Because energy sloshes back and forth between the inductor's magnetic field and the capacitor's electric field—like water sloshing in a tank—creating an oscillating current. In a real circuit, losses make that oscillation fade unless a source replaces the lost energy.
 
-> **Key Information:** The frequency of an LC oscillator is determined by the inductance and capacitance in the tank circuit. {{< link id="G7B09" >}}
+> **Key Information:** The inductance and capacitance in the tank circuit determine the frequency of an LC oscillator. {{< link id="G7B09" >}}
 
 **Practical Note:** While many modern transceivers use digital frequency synthesis for tuning, they may still contain tuned circuits. Understanding these resonant circuits remains relevant for antenna tuners, filters, and many homebrew projects.
 
 #### Filters: Controlling the Flow of Signals
 
-Filters are circuits designed to pass some frequencies while rejecting others. As you move into General class operating, you'll encounter several types:
+Filters are circuits that pass some frequencies while rejecting others. As you move into General class operating, you'll encounter several types:
 
 ![Four graphs show filter output as frequency increases from left to right; a higher curve means more output. The low-pass curve stays high at low frequencies, then falls at higher frequencies. The high-pass curve does the reverse. The band-pass curve rises for a middle range of frequencies and falls on both sides. The notch curve stays high except for a narrow dip around one frequency. The sloping transitions show that these filters do not change abruptly between passing and rejecting a signal.](../../../images/s1-3-filter-responses.svg)
 {.img-centered caption="The curves show which frequencies each filter passes or reduces."}
@@ -78,9 +78,9 @@ This "half-power" point corresponds to a 3 dB reduction in power. When you see f
 
 ##### Filter Bandwidth
 
-> **Key Information:** The bandwidth of a band-pass filter is measured between its upper and lower half-power (-3 dB) points. {{< link id="G7C14" >}}
+> **Key Information:** You measure a band-pass filter's bandwidth between its upper and lower half-power (-3 dB) points. {{< link id="G7C14" >}}
 
-Typical receiver-filter settings vary by mode and by the signal being received:
+Typical receiver-filter settings vary by mode and by the signal you receive:
 - CW: 250-500 Hz
 - SSB: 2.4-2.8 kHz
 - AM: 6 kHz
@@ -90,7 +90,7 @@ Typical receiver-filter settings vary by mode and by the signal being received:
 
 ##### Q Factor and Selectivity
 
-The sharpness of a resonant circuit's response is described by its Q factor (quality factor). Higher Q means narrower bandwidth and more selective filtering—exactly what you want when trying to pick out a weak signal from interference. Lower Q means broader bandwidth but less selectivity.
+A resonant circuit's Q factor (quality factor) describes the sharpness of its response. Higher Q means narrower bandwidth and more selective filtering—exactly what you want when trying to pick out a weak signal from interference. Lower Q means broader bandwidth but less selectivity.
 
 Lower loss generally gives a higher Q. When you adjust your radio’s filter from "wide" to "narrow," you may be selecting another filter or changing digital calculations, rather than changing an LC circuit’s Q.
 
@@ -120,7 +120,7 @@ A matching network changes the voltage-to-current relationship seen at its input
 
 - **Transformers**: Change voltage and current in opposite ratios; the next section follows this in detail.
 
-- **Pi-networks**: Named for their resemblance to the Greek letter π in schematic form (capacitor-inductor-capacitor), these are often found in antenna tuners and amplifier output circuits.
+- **Pi-networks**: The name comes from their resemblance to the Greek letter π in schematic form (capacitor-inductor-capacitor). Antenna tuners and amplifier output circuits often use these networks.
 
 - **L-networks**: Simpler than Pi-networks, using just two components (one series and one parallel), these are common in antenna matching applications.
 
@@ -134,13 +134,13 @@ Modern amateur radio equipment employs various filter technologies:
 
 2. **Crystal Filters**: Use quartz crystals for precise, narrow filtering
 
-3. **Mechanical Filters**: Use mechanical resonant elements; found mostly in older equipment
+3. **Mechanical Filters**: Use mechanical resonant elements; appear mostly in older equipment
 
 4. **Digital Signal Processing (DSP) Filters**: Implement filtering mathematically
 
 #### Your Filter Toolkit Is Ready
 
-You now understand how resonance transforms simple LC circuits into powerful frequency selectors. That roofing filter in your receiver? It limits the signals reaching later stages, and may use crystal resonators rather than an LC tank. The notch filter that reduces an annoying carrier? It could be an analog circuit or digital processing. Your antenna tuner? A matching network that changes the impedance your transmitter sees.
+You now understand how resonance transforms simple LC circuits into powerful frequency selectors. Your receiver’s roofing filter limits the signals reaching later stages and may use crystal resonators rather than an LC tank. The notch filter that reduces an annoying carrier? It could be an analog circuit or digital processing. Your antenna tuner is a matching network that changes the impedance your transmitter sees.
 
 When you turn your radio’s filter knob from "wide" to "narrow," you’re choosing a smaller frequency range. A 500 Hz CW filter can reject noise and interference outside that range while passing the signal you want. Even your antenna acts as a resonant filter, naturally favoring the frequencies it's cut for.
 

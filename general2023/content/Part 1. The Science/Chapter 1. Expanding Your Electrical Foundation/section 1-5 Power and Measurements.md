@@ -43,7 +43,7 @@ P &= I \times E = 0.5A \times 400V = 200W
 
 #### AC Power and RMS Measurements
 
-When dealing with alternating current, our power equations face a challenge: the voltage and current constantly change. For a sine wave centered on zero, the average voltage is zero because its positive and negative halves cancel. So how do we apply Ohm's Law and power formulas to AC circuits?
+With alternating current, voltage and current constantly change. For a sine wave centered on zero, the positive and negative halves cancel when we average its voltage. The result is zero. So how do we apply Ohm's Law and power formulas to AC circuits?
 
 The answer is Root Mean Square (RMS) values. RMS is a special mathematical method that gives us an effective value for AC that works in our DC-based equations:
 
@@ -67,7 +67,7 @@ For example:
 - If you have 120 volts RMS AC, the peak-to-peak voltage is: {{< link id="G5B08" >}} $E_{p-p} = 120V \times 2.828 = 339.4V$
 
 We can also calculate RMS voltage from power measurements:
-- With 1200 watts dissipated across 50 ohms: {{< link id="G5B12" >}} $E_{RMS} = \sqrt{P \times R} = \sqrt{1200W \times 50\Omega} = \sqrt{60000} = 245V$
+- With a 50-ohm load dissipating 1200 watts: {{< link id="G5B12" >}} $E_{RMS} = \sqrt{P \times R} = \sqrt{1200W \times 50\Omega} = \sqrt{60000} = 245V$
 
 The following table shows the relationships between voltage measurements for a **sine wave**:
 
@@ -82,7 +82,7 @@ The following table shows the relationships between voltage measurements for a *
 
 #### RF Power Measurements: PEP
 
-While we're discussing values which change over time, let's look at RF power: When transmitting voice or other complex signals, the power output varies moment by moment, depending on what is being sent! This means we need a standard way to measure power so we can follow the rules and avoid damaging equipment. This is where Peak Envelope Power (PEP) comes in.
+When you transmit voice or other complex signals, RF power can vary moment by moment, depending on what you send. We need a consistent measure. Peak Envelope Power (PEP) provides that standard, helping us follow the rules and avoid damaging equipment.
 
 PEP is the average power over one RF cycle at the crest of the modulation envelope. The envelope follows the slower changes in the RF signal's amplitude, such as the peaks of speech. PEP describes those envelope peaks, not the highest instantaneous power within a single RF cycle. That distinction lets us compare changing signals using a consistent power measurement.
 
@@ -139,7 +139,7 @@ Two common reference points for antenna gain are:
 - **dBi**: Gain compared to an isotropic radiator, an ideal source that radiates equally in every direction
 - **dBd**: Gain compared to a half-wave dipole in free space
 
-That reference dipole has about 2.15 dBi gain. An antenna rated at 6 dBd therefore has the same gain when described as 8.15 dBi. The antenna has not changed—only the reference has.
+That reference dipole has about 2.15 dBi gain. We can therefore express an antenna's 6 dBd gain as 8.15 dBi. The antenna has not changed—only the reference has.
 
 ##### Accounting for Losses
 

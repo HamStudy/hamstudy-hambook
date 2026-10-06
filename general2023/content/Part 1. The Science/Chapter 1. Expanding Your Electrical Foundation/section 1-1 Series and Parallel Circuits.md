@@ -26,7 +26,7 @@ In series circuits, imagine garden hoses connected end-to-end: every drop must f
 * **Same Current Everywhere:** Like our garden hose example, the same current flows through every component.
 * **Voltage Divides:** Total voltage splits among components. Each creates a voltage drop; all drops sum to source voltage.
 * **Ohm's Law:** Since current is constant, voltage drop depends on resistance: $E = I \times R$. Higher resistance means a larger voltage drop.
-* **Failure Modes:** An open component, such as a burned-out bulb, breaks the path and stops current flow. A shorted component is bypassed; with the same source voltage, more current flows through the remaining resistors.
+* **Failure Modes:** An open component, such as a burned-out bulb, breaks the path and stops current flow. A short bypasses a component's normal resistance; with the same source voltage, more current flows through the remaining resistors.
 
 ##### Parallel Circuits:
 
@@ -98,7 +98,7 @@ R_{\text{total}} &= \frac{R_1 \cdot R_2}{R_1 + R_2} \\[1.25em]
 
 #### Capacitors in Combination
 
-Remember, a capacitor is just two conductors (usually metal plates) separated by an insulator (the dielectric). The capacitance depends on plate area—bigger plates can store more charge. When you connect capacitors in parallel, you're essentially combining their plate areas into one larger capacitor. In series, each capacitor stores the same amount of charge, but their voltage drops add. More total voltage is needed to store that charge, so the combined capacitance is lower. That explains why capacitors combine opposite to resistors.
+Remember, a capacitor is just two conductors (usually metal plates) separated by an insulator (the dielectric). The capacitance depends on plate area—bigger plates can store more charge. When you connect capacitors in parallel, you're essentially combining their plate areas into one larger capacitor. In series, each capacitor stores the same amount of charge, but their voltage drops add. Storing that charge takes more total voltage, so the combined capacitance is lower. That explains why capacitors combine opposite to resistors.
 
 > **Key Information:** To increase the total capacitance in a circuit, add a capacitor in parallel. {{< link id="G5C13" >}}
 

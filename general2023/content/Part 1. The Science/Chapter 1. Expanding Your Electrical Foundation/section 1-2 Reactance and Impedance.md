@@ -7,7 +7,7 @@ status: draft1
 
 ### Section 1.2: Reactance and Impedance
 
-In the previous section, we combined capacitors and inductors to find their total values. Those values can stay the same while their opposition to AC changes with frequency. This frequency-dependent opposition is called *reactance*. Resistance and reactance together determine *impedance*, the total opposition to current in an AC circuit. Reactance also affects the timing between voltage and current, which brings us to phase.
+In the previous section, we combined capacitors and inductors to find their total values. Those values can stay the same while their opposition to AC changes with frequency. We call this frequency-dependent opposition *reactance*. Resistance and reactance together determine *impedance*, the total opposition to current in an AC circuit. Reactance also affects the timing between voltage and current, which brings us to phase.
 
 #### Why AC Circuits Are Different: The Phase Concept
 
@@ -16,7 +16,7 @@ Imagine a spinning wheel. As the wheel turns, a point on its edge moves in a cir
 ![Two linked plots connect circular motion to a sine wave. A point moves at constant speed around a circle, while a matching point follows the wave. The wave graph shows angle around the circle horizontally and the moving point’s height above or below the circle’s center vertically. Starting at center height, a quarter-turn reaches the positive peak. A half-turn returns to zero, three-quarters of a turn reaches the negative peak, and one full turn returns to the starting height. The repeated rise and fall forms a sine wave.](../../../images/circle_sine_animated.gif)
 {.img-centered caption="Figure 2: As a point moves at constant speed around a circle, its vertical position traces a sine wave over time."}
 
-* **Phase** tells us where a point is in its rotation, measured in degrees (a full circle is 360°).
+* **Phase** tells us where a point is in its rotation. We measure phase in degrees (a full circle is 360°).
 * For this discussion, we use sine-wave AC and ideal components. Real signals can have other shapes.
 * If voltage and current rise and fall together, they are "in phase."
 * When current peaks at a different time than voltage, they are "out of phase."
@@ -27,8 +27,8 @@ Unlike resistance, which simply converts electrical energy to heat, reactance te
 
 > **Key Information:** 
 > - Reactance is opposition to the flow of alternating current caused by capacitance or inductance. {{< link id="G5A02" >}}
-> - The letter used to represent reactance is X {{< link id="G5A11" >}}
-> - Reactance is measured in ohms (Ω) {{< link id="G5A09" >}}
+> - The letter X represents reactance {{< link id="G5A11" >}}
+> - We measure reactance in ohms (Ω) {{< link id="G5A09" >}}
 
 There are two types, each with unique behaviors:
 
@@ -59,15 +59,15 @@ A capacitor's reactance also depends on frequency, but in the opposite way from 
 
 #### Impedance: The Complete Picture
 
-Real-world radio circuits generally contain both resistance and reactance. Their combined effect is called impedance.
+Real-world radio circuits generally contain both resistance and reactance. We call their combined effect impedance.
 
-Remember Ohm's law from your Technician studies? For DC circuits, resistance equals voltage divided by current: $R = \frac{E}{I}$. This fundamental relationship doesn't change for AC circuits—we just need to account for the phase shifts caused by reactance.
+Remember Ohm's law from your Technician studies? For DC circuits, resistance equals voltage divided by current: $R = \frac{E}{I}$. This fundamental relationship doesn't change for AC circuits—we just need to account for the phase shifts that reactance causes.
 
 > **Key Information:** Impedance is the ratio of voltage to current in an AC circuit. {{< link id="G5A08" >}}
 
-So while Ohm's law for DC circuits states $R = \frac{E}{I}$, the AC version uses impedance: $Z = \frac{E}{I}$. Impedance (Z) represents the total opposition to current flow and is still measured in ohms (Ω), just like resistance. The key difference is that impedance includes both magnitude and phase relationships.
+So while Ohm's law for DC circuits states $R = \frac{E}{I}$, the AC version uses impedance: $Z = \frac{E}{I}$. Impedance (Z) represents the total opposition to current flow, and we still measure it in ohms (Ω), just like resistance. The key difference is that impedance includes both magnitude and phase relationships.
 
-Resistance and reactance can be combined mathematically to find impedance, but they do not add like ordinary numbers. An antenna analyzer may show resistance and reactance separately, or the impedance magnitude—the size of the total opposition.
+We can combine resistance and reactance mathematically to find impedance, but they do not add like ordinary numbers. An antenna analyzer may show resistance and reactance separately, or the impedance magnitude—the size of the total opposition.
 
 **Why Impedance Matters:** Impedance is crucial because it determines how efficiently power transfers between components. Matching accounts for both resistance and reactance—a principle central to antenna systems, feed lines, and amplifier design. Later in this chapter, we'll examine the matching conditions and the usual 50-ohm equipment requirement.
 
@@ -81,11 +81,11 @@ Just as conductance is the inverse of resistance, admittance (Y) is the inverse 
 
 $$Y = \frac{1}{Z}$$
 
-Admittance is measured in siemens (S) and is particularly useful when analyzing parallel circuits. When components are in parallel, their admittances simply add together, making calculations much simpler than working with impedances directly.
+We measure admittance in siemens (S), and it is particularly useful when analyzing parallel circuits. When components are in parallel, their admittances simply add together, making calculations much simpler than working with impedances directly.
 
 #### Introducing Resonance: A Special Case
 
-The opposing behaviors of inductors and capacitors create a fascinating scenario when they're combined in a circuit:
+The opposing behaviors of inductors and capacitors create a fascinating scenario when you combine them in a circuit:
 
 > **Key Information:** 
 > - In a series LC circuit at resonance, impedance is very low {{< link id="G5A01" >}}
@@ -97,6 +97,6 @@ We'll explore what happens at resonance in the next section. Resonance is the fo
 
 #### Making Sense of Your Equipment
 
-You now know why your SWR changes with frequency even though your antenna doesn't move—reactance is changing. You understand why ferrite cores reduce interference: their impedance can include both reactance and loss. You also know why bypass capacitors clean up power supplies: they offer low capacitive reactance to noise.
+You now know why your SWR changes with frequency even though your antenna doesn't move. Reactance is changing. Ferrite cores reduce interference because their impedance can include both reactance and loss. Bypass capacitors clean up power supplies by offering low capacitive reactance to noise.
 
 Most importantly, you're ready to understand resonance—that special frequency where inductive and capacitive reactances cancel completely.

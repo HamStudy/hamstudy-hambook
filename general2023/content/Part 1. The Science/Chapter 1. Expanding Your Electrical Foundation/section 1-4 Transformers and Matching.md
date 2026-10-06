@@ -16,7 +16,7 @@ In this section, we'll explore transformers and matching networks—practical to
 
 > The Maximum Power Transfer Theorem states that, *to obtain maximum external power from a power source with internal resistance, the resistance of the load must equal the resistance of the source as viewed from its output terminals*.
 
-For the resistive source described by this theorem, equal source and load resistances give maximum load power. When reactance is present, the matching load also needs opposite reactance. In station operation, the practical target is the load specified by the equipment, usually 50 ohms with little reactance. A mismatch can cause reflected waves on the feed line, increase line loss, or make the transmitter reduce power; reflected power is not automatically all lost.
+For the resistive source this theorem describes, equal source and load resistances give maximum load power. When reactance is present, the matching load also needs opposite reactance. In station operation, the practical target is the load the equipment specifies, usually 50 ohms with little reactance. A mismatch can cause reflected waves on the feed line, increase line loss, or make the transmitter reduce power; reflected power is not automatically all lost.
 
 This principle explains why your radio might show high SWR (Standing Wave Ratio) on some bands but not others—the antenna's impedance varies with frequency, creating matches at some frequencies and mismatches at others.
 
@@ -60,7 +60,7 @@ For example, a transformer with twice as many turns in the secondary as in the p
 * Halve the current
 * Quadruple the impedance (2²)
 
-For example, a 200-ohm load on that secondary appears as 50 ohms at the primary. Keep track of which winding has more turns.
+With this turns ratio, a 200-ohm load on the secondary appears as 50 ohms at the primary. Keep track of which winding has more turns.
 
 ##### Transformer Applications
 
@@ -75,9 +75,9 @@ The ability to change impedance makes transformers useful in amateur radio for:
 
 What happens when you apply a signal to the secondary winding instead of the primary? The transformer still works, but the transformation ratios reverse:
 
-> **Key Information:** When an input signal is applied to the secondary winding of a 4:1 voltage step-down transformer, the output voltage is multiplied by 4. {{< link id="G5C02" >}}
+> **Key Information:** When you apply an input signal to the secondary winding of a 4:1 voltage step-down transformer, the output voltage equals the input voltage multiplied by 4. {{< link id="G5C02" >}}
 
-This property is useful when you need the opposite transformation without rewinding the transformer. A step-down transformer becomes a step-up transformer when connections are reversed, provided its voltage, current and frequency ratings are respected.
+This property is useful when you need the opposite transformation without rewinding the transformer. A step-down transformer becomes a step-up transformer when you reverse the connections, provided you respect its voltage, current and frequency ratings.
 
 ##### Transformer Construction Considerations
 
@@ -145,7 +145,7 @@ The beta match uses a shorted section of transmission line (the "hairpin") place
 
 This matching system is popular for Yagi antennas because:
 * It's relatively simple to construct
-* It can be adjusted by changing the length or shape of the hairpin
+* You can adjust it by changing the length or shape of the hairpin
 * It provides a good match across a reasonable bandwidth
 
 ##### Gamma Match
@@ -157,7 +157,7 @@ The gamma match is another common approach for directive antennas:
 The gamma match offers several advantages:
 * Allows direct connection of the boom to the driven element without insulation
 * Provides adjustable impedance matching; a separate common-mode choke may still be useful
-* Can be adjusted via the gamma rod length and capacitor setting
+* Lets you adjust the match by changing the gamma rod length and capacitor setting
 
 ![Two schematic feed arrangements show different ways to match a Yagi’s driven element. The hairpin, or beta, match uses an element split at its center. The feed-line wires connect to the two halves, and a short U-shaped conductor bridges the gap as a shorted stub. The gamma match uses a continuous driven element attached at its center to the boom. A gamma rod runs beside part of that element and connects to it away from the center. The coax feed connects through a series capacitor to the rod, with its other conductor connected at the element’s center.](../../../images/s1-4-yagi-matching-basics.svg)
 {.img-centered caption="A hairpin bridges a split feed point. A gamma match can use a continuous driven element attached to the boom. These are schematic views, not construction drawings."}
