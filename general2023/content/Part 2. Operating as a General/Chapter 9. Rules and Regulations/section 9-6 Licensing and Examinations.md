@@ -9,8 +9,6 @@ status: draft1
 
 Passing an exam, receiving an FCC license grant, and keeping that grant valid are related but separate steps. An existing licensee can sometimes use an upgrade before the FCC database changes. A person applying for a first license cannot use that same provision to begin transmitting immediately.
 
-Understanding the difference helps you know when the privileges in this book become available—and how to keep them available as your interests develop.
-
 #### Using a Newly Earned Upgrade
 
 After you pass an examination element, the examining team issues a Certificate of Successful Completion of Examination, or CSCE. For a currently licensed Technician who has completed the General upgrade requirements and properly submitted the application through the VEs, it supports temporary upgraded privileges:
@@ -29,7 +27,7 @@ The certificate also records credit for the passed examination element:
 
 > **Key Information:** A CSCE is valid for examination-element credit for 365 days. {{< link id="G1D09" >}}
 
-Under the temporary-upgrade provision, the authority lasts until final disposition of the application or 365 days after passing the examination, whichever comes first. That is not an extra year to ignore an application problem. Follow up with the examining team if the application does not progress as expected.
+Under the temporary-upgrade provision, the authority lasts until final disposition of the application or 365 days after passing the examination, whichever comes first. Follow up with the examining team if the application does not progress as expected.
 
 
 #### Keeping a License Current

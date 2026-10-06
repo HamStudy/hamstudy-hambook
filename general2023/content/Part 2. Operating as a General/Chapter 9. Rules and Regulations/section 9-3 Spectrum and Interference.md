@@ -51,8 +51,6 @@ Amateurs also support compliance through an organized monitoring program:
 
 > **Key Information:** The Volunteer Monitor Program consists of amateur volunteers formally enlisted to monitor the airwaves for rules violations. {{< link id="G2D01" >}}
 
-Its purpose includes helping operators correct problems and follow the rules:
-
 > **Key Information:** An objective of the Volunteer Monitor Program is to encourage amateur operators to self-regulate and comply with the rules. {{< link id="G2D02" >}}
 
 Volunteer Monitors are distinct from Volunteer Examiners, who administer license examinations. Monitoring and reporting do not give a volunteer the FCC’s enforcement authority.

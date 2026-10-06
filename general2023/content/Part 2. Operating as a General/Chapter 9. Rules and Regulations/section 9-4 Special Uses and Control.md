@@ -31,8 +31,6 @@ A beacon provides a signal that other operators can use to investigate a radio p
 
 > **Key Information:** Observation of propagation and reception is a purpose of a beacon station. {{< link id="G1B03" >}}
 
-Its identified signal and known location let listeners relate what they hear to a particular path, as with the beacon network in the previous section. The operator is providing a reference signal rather than calling each listener for a conversation.
-
 How the beacon is controlled matters. The **control point** is where the control operator performs that duty. With **local control**, the control operator directly operates the controls. With **remote control**, the operator does so indirectly through a control link. With **automatic control**, devices and procedures keep the station in compliance without the control operator present at a control point. The station still has a responsible licensee and control operator.
 
 For ordinary FCC-authorized HF beacon operation, automatic control is limited to a specific range:

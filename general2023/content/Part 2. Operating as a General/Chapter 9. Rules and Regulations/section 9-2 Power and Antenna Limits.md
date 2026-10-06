@@ -26,7 +26,7 @@ For a General control operator, the usual maximum is 1,500 watts PEP output unle
 > - The maximum transmitter power on the 28 MHz band for a General class control operator is 1,500 watts PEP output. {{< link id="G1C05" >}}
 > - The maximum transmitter power on the 1.8 MHz band is 1,500 watts PEP output. {{< link id="G1C06" >}}
 
-The same general limit covers all three bands. Equipment ratings, RF exposure requirements, and any special operating restriction can require a lower setting.
+Equipment ratings, RF exposure requirements, and any special operating restriction can require a lower setting.
 
 #### The Lower Limit on 30 Meters
 
