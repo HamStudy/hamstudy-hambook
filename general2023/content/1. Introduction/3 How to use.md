@@ -30,25 +30,25 @@ This part covers the practical knowledge you'll use with a General Class License
 
 ## Study Strategies
 
-Just as with the Technician exam, you can choose a study method that suits your learning style and goals:
+Some readers want to pass the exam and learn more through operating; others prefer to understand each concept first. Both approaches work, and you can choose the one that fits your goals:
 
 ### The "Build on Technician" Approach
 If you passed your Technician exam recently, much of the material will feel familiar. Focus on the new concepts introduced in each chapter, paying special attention to **italicized text** and **Key Information** boxes. Use the practice questions at the end of each section to test your understanding before moving on.
 
 ### The "Deep Dive" Approach
-For those who want a thorough understanding of HF theory and operation:
+For those who want a thorough understanding of radio theory and operation:
 
 1.  Read each chapter completely before attempting practice questions.
-2.  Take notes on new concepts, especially those related to HF propagation and antenna theory.
-3.  Use the "Study this section with HamStudy" buttons or QR codes to reinforce your learning immediately.
+2.  Take notes on new concepts, from circuits and antennas to HF propagation, and relate them to your interests.
+3.  Use the HamStudy buttons or QR codes to reinforce your learning immediately.
 4.  Engage with local elmers (mentors) or online communities to discuss challenging topics.
 
 ### The "Exam Focused" Approach
 If your primary goal is passing the exam quickly:
 
-1.  Skim the chapters to identify key terms and concepts.
+1.  Skim the chapters to identify key terms and concepts, paying special attention to **Key Information** and anything in *italics*.
 2.  Use HamStudy.org or the app in "Study Mode" alongside the book.
-3.  Focus heavily on the practice questions provided in the book and app.
+3.  Review the practice questions in the book and app. Read the related explanations for concepts you find difficult or interesting.
 4.  Track your progress using the app's analytics features to target weak areas.
 
 ### Final Exam Preparation
@@ -76,4 +76,4 @@ The website offers free question study and practice exams. The mobile app also l
 
 Whether you're aiming for a perfect score or just enough to pass, combining this book with HamStudy's adaptive learning tools gives you a way to find weak areas and decide what to review next.
 
-Remember: The goal is not just passing the test but becoming a knowledgeable and capable operator ready to explore the world of HF radio!
+When you're ready to take the exam, you'll work with a volunteer examiner team. The next section explains how that process works.

@@ -20,7 +20,13 @@ You'll see 35 questions on your exam: one from each of the pool's 35 question gr
 
 All questions and correct answers are publicly available. Corrections and withdrawals can occur during a pool's four-year term, so check the [NCVEC General pool page](https://ncvec.org/index.php/2023-2027-general-question-pool-release) and select the pool that will be in effect on your exam date. The operating rules can also change during that period; Chapter 9 distinguishes current rules from outdated study material. The latest version of this book is available at [hambook.org](https://hambook.org).
 
-## Don't Be Intimidated
+## Why the Pool Covers So Much
+
+One license supports many different interests. Someone who enjoys building circuits needs different skills from someone organizing an emergency net or trying digital modes. The exam introduces those different areas while giving everyone a shared foundation in radio, operating practices, and safety.
+
+You may not use every topic right away. Learn the basics across the pool, then spend more time on the subjects that interest you or help with your plans. You can return to other topics as your interests grow.
+
+## What the Studying Involves
 
 If you passed the Technician exam, you have a useful foundation for General. The concepts build logically on what you already know. For example:
 
@@ -28,5 +34,7 @@ If you passed the Technician exam, you have a useful foundation for General. The
 - General: Explains how these components work together in simple circuits like filters and oscillators.
 - Technician: Covered basic antenna types.
 - General: Discusses antenna matching, SWR, and feedlines in more detail.
+
+Some questions ask you to use a formula, convert units, or calculate values such as resistance and power. The book includes worked examples so you can follow each step. There is no Morse code proficiency test, although the pool includes questions about CW (Morse code) operating practices.
 
 Remember, you only need 74% to pass. Even if some advanced circuit theory feels overwhelming, strong answers on operating rules, safety, and propagation can help make up for a few missed questions. You can miss as many as nine and still pass.
