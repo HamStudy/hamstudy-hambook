@@ -29,13 +29,11 @@ Standing Wave Ratio (SWR) gives us a practical way to detect and quantify impeda
 
 Why use SWR instead of directly measuring impedance? At HF frequencies, measuring complex impedance requires sophisticated equipment. Measuring voltage ratios is relatively simple, making SWR the standard diagnostic tool.
 
-> **Key Information:** To prevent standing waves on a feed line connected to an antenna, the antenna feed point impedance must be matched to the characteristic impedance of the feed line. {{< link id="G9A07" >}}
+> **Key Information:**
+> - To prevent standing waves on a feed line connected to an antenna, the antenna feed point impedance must be matched to the characteristic impedance of the feed line. {{< link id="G9A07" >}}
+> - Connecting a 50-ohm feed line to a 200-ohm resistive load results in a 4:1 SWR. Connecting a 50-ohm feed line to a 10-ohm resistive load results in a 5:1 SWR. {{< link id="G9A09" >}} {{< link id="G9A10" >}}
 
-For purely resistive loads, the math is straightforward:
-
-> **Key Information:** Connecting a 50-ohm feed line to a 200-ohm resistive load results in a 4:1 SWR. Connecting a 50-ohm feed line to a 10-ohm resistive load results in a 5:1 SWR. {{< link id="G9A09" >}} {{< link id="G9A10" >}}
-
-The formula: SWR equals the larger impedance divided by the smaller. So $\frac{200\Omega}{50\Omega} = 4:1$, and $\frac{50\Omega}{10\Omega} = 5:1$.
+For purely resistive loads, SWR equals the larger impedance divided by the smaller. So $\frac{200\Omega}{50\Omega} = 4:1$, and $\frac{50\Omega}{10\Omega} = 5:1$.
 
 That shortcut assumes a lossless feed line and a purely resistive load. If reactance is present, dividing two impedance magnitudes is not enough; an antenna analyzer can help.
 
@@ -43,13 +41,13 @@ That shortcut assumes a lossless feed line and a purely resistive load. If react
 
 Here's where everything we discussed about feed line loss in the previous section becomes even more important:
 
-> **Key Information:** High SWR increases loss in a lossy transmission line. {{< link id="G9A02" >}}
+> **Key Information:**
+> - High SWR increases loss in a lossy transmission line. {{< link id="G9A02" >}}
+> - Higher loss reduces SWR measured at the input to the line. {{< link id="G9A11" >}}
 
 Reflection alone does not turn power into heat. In a real line, the higher current and voltage peaks associated with high SWR increase the inherent losses. Every feed line has some loss, and when SWR is high, the signal bounces back and forth between antenna and transmitter, suffering that loss on each trip. A line with 1 dB of matched loss might exhibit 3 dB or more with high SWR. Your 100-watt signal could lose 30-50% of its power as heat in the coax!
 
-> **Key Information:** Higher loss reduces SWR measured at the input to the line. {{< link id="G9A11" >}}
-
-This creates a dangerous illusion. The lossy line attenuates both forward and reflected signals, making the mismatch appear better than it actually is. That beautiful 1.5:1 SWR reading on your UHF antenna with 200 feet of RG-58? The low SWR might mean your feed line is so lossy it's absorbing the reflected power. Your actual antenna match could be terrible, but the loss masks the problem.
+Higher loss creates a dangerous illusion. The lossy line attenuates both forward and reflected signals, making the mismatch appear better than it actually is. That beautiful 1.5:1 SWR reading on your UHF antenna with 200 feet of RG-58? The low SWR might mean your feed line is so lossy it's absorbing the reflected power. Your actual antenna match could be terrible, but the loss masks the problem.
 
 #### The Matching Network Illusion
 

@@ -7,7 +7,7 @@ status: draft3
 
 ### Section 7.1: Station Fundamentals
 
-As a Technician, there's a good chance your first station was a handheld radio—transmitter, receiver, antenna, and battery all in one package you could clip to your belt. HF stations don't usually come that way. Instead, you'll start with a few basic parts and add to them depending on your specific goals—and those choices, especially about antennas and power, shape what your station can do.
+As a Technician, there's a good chance your first station was a handheld radio—transmitter, receiver, antenna, and battery all in one package you could clip to your belt. HF stations don't usually come that way. Instead, you'll start with a few basic parts and add to them depending on your specific goals. Those choices, especially about antennas and power, shape what your station can do.
 
 The basics are the same for nearly every HF station: a transceiver, a power source, a feed line, and an antenna. Other station accessories enhance performance, add flexibility, or help you troubleshoot—but aren't always required.
 
@@ -21,7 +21,7 @@ The basics are the same for nearly every HF station: a transceiver, a power sour
 
 **Antenna**: There are many types of antennas—there is no "one size fits all," so the type you choose will depend on what matters most to you.
 
-That's the basic signal path: transceiver, power, feed line, antenna. Before going on the air, complete the safety checks from the previous chapter and confirm that your frequency and mode are within your current privileges.
+Those are the basic station parts: transceiver, power, feed line, antenna. Before going on the air, complete the safety checks from the previous chapter and confirm that your frequency and mode are within your current privileges.
 
 #### The Optional Additions
 
@@ -39,24 +39,24 @@ Many transceivers have a built-in tuner, though these usually handle only a limi
 
 ##### SWR Monitoring
 
-Section 4.2 explained SWR as the measure of how well your antenna system is matched. An SWR meter puts that number in front of you while you operate, and it solves more than one problem: it shows the match at the point where it is connected, it verifies the radio-side match when placed between the radio and a tuner, and many meters also show whether your transmitter is putting out power. A good reading at the radio does not, by itself, prove a good match at the antenna.
+Section 4.2 explained SWR as the measure of how well your antenna system is matched. An SWR meter puts that number in front of you while you operate, and it solves more than one problem. It shows the match at the point where you connect it and verifies the radio-side match when you place it between the radio and a tuner. Many meters also show whether your transmitter is putting out power. A good reading at the radio does not, by itself, prove a good match at the antenna.
 
 Many modern transceivers include a built-in SWR meter. If yours doesn't, or if you need a reading at another point or power level, you can add one of two closely related instruments:
 
 > **Key Information:** A directional wattmeter can determine standing wave ratio. {{< link id="G4B10" >}}
 
-* **Directional wattmeter** — Measures forward and reflected power separately. Comparing the two gives you SWR—many have a handy SWR scale built right in—and the forward power reading is useful for that "am I actually transmitting?" check. Net power flow at the meter is forward power minus reflected power; forward power alone does not tell you how much reaches or leaves the antenna.
+* **Directional wattmeter** — Measures forward and reflected power separately. Comparing the two gives you SWR, and many meters have a handy SWR scale built right in. The forward power reading is also useful for that "am I actually transmitting?" check. Net power flow at the meter is forward power minus reflected power; forward power alone does not tell you how much reaches or leaves the antenna.
 
 * **SWR meter** — Displays SWR directly. It's usually the same basic device as a directional wattmeter inside, just presenting less information in a simpler way.
 
 ![A DC power source feeds the transceiver. From left to right, the transmit signal passes from the transceiver through an SWR meter, an optional station tuner, the feed line, and the antenna. The meter is before the tuner, so it checks the match presented to the radio. A good reading there does not prove that the feed line and antenna are matched.](../../../images/s7-1-station-signal-path.svg)
 {.img-full .img-centered}
 
-These meters also earn their keep long after setup day. Weather, antenna damage, feed line problems, and other factors can change your antenna system's characteristics over time, and a slowly rising SWR is often your first warning that something outside needs attention. The higher your power level, the more this ongoing awareness matters—both to protect your equipment and to keep your signal getting where you want it.
+These meters also earn their keep long after setup day. Weather, antenna damage, feed line problems, and other factors can change your antenna system's characteristics over time. A slowly rising SWR is often your first warning that something outside needs attention. Watching SWR becomes more important as power increases—both to protect your equipment and to keep your signal getting where you want it.
 
 ##### Antenna Analyzer
 
-An SWR meter is great for keeping an eye on things while you operate, but it has two limitations: it requires transmitting to make a measurement, and it only shows you the SWR at the frequency you're transmitting on. When you're building, adjusting, or troubleshooting an antenna, you want an instrument that generates its own low-power test signal instead: an antenna analyzer.
+An SWR meter is great for keeping an eye on things while you operate, but it has two limitations. It requires you to transmit to make a measurement, and it only shows SWR at the frequency you're transmitting on. When you're building, adjusting, or troubleshooting an antenna, you want an instrument that generates its own low-power test signal instead: an antenna analyzer.
 
 > **Key Information:** When using an antenna analyzer for SWR measurements, the antenna and feed line must be connected. {{< link id="G4B11" >}}
 
@@ -64,7 +64,7 @@ Analyzers let you test antennas before installation, troubleshoot by measuring a
 
 ##### Amplifier
 
-Once your General privileges take effect, you may use up to 1,500 watts PEP on many bands, subject to the limits in Section 9.2. The guiding rule in amateur radio is to use only as much power as needed. More power can help the other station hear you, but it cannot improve your reception. If you hear them well but they cannot hear you, an amplifier may help. Amplifiers are discussed later in this chapter.
+Once your General privileges take effect, you may use up to 1,500 watts PEP on many bands, subject to the limits in Section 9.2. The guiding rule in amateur radio is to use only as much power as needed. More power can help the other station hear you, but it cannot improve your reception. If you hear them well but they cannot hear you, an amplifier may help. We'll discuss amplifiers later in this chapter.
 
 #### Building Your Station
 
@@ -74,4 +74,4 @@ With all these pieces to choose from, where do you start? Not with a shopping li
 * What kind of antenna can I put up, and how much room do I have for it?
 * What types of operation interest me, and which modes do I want to focus on?
 
-Once the gear is connected and the power switch flips on, the very first thing your new station will do is receive.
+Once you connect the gear and switch on the power, the very first thing your new station will do is receive.

@@ -13,18 +13,15 @@ The minimum-power rule from Chapter 7 still applies: use no more power than nece
 
 #### What the Power Limit Measures
 
-An amplifier’s electrical input, its RF output, and the power radiated in a particular direction are different quantities. For the general transmitter limit, the FCC uses the RF output measurement:
-
-> **Key Information:** FCC rules regulating maximum transmitter power specify PEP output from the transmitter. {{< link id="G1C11" >}}
-
-Peak envelope power is the average power during one RF cycle at the crest of the modulation envelope. On SSB, this corresponds to the voice peaks discussed in Section 7.3, not the average reading over a sentence. A low average meter reading does not establish that the peaks are below the limit.
-
-For a General control operator, the usual maximum is 1,500 watts PEP output unless a more restrictive rule applies. Three examples are:
+An amplifier’s electrical input, its RF output, and the power radiated in a particular direction are different quantities. For the general transmitter limit, the FCC uses the RF output measurement. For a General control operator, the usual maximum is 1,500 watts PEP output unless a more restrictive rule applies.
 
 > **Key Information:**
+> - FCC rules regulating maximum transmitter power specify PEP output from the transmitter. {{< link id="G1C11" >}}
 > - The maximum transmitter power on the 12-meter band is 1,500 watts PEP output. {{< link id="G1C02" >}}
 > - The maximum transmitter power on the 28 MHz band for a General class control operator is 1,500 watts PEP output. {{< link id="G1C05" >}}
 > - The maximum transmitter power on the 1.8 MHz band is 1,500 watts PEP output. {{< link id="G1C06" >}}
+
+Peak envelope power is the average power during one RF cycle at the crest of the modulation envelope. On SSB, this corresponds to the voice peaks discussed in Section 7.3, not the average reading over a sentence. A low average meter reading does not establish that the peaks are below the limit.
 
 Equipment ratings, RF exposure requirements, and any special operating restriction can require a lower setting.
 
@@ -53,7 +50,7 @@ You can find the latest version of this book at [hambook.org](https://hambook.or
 | Four channels centered on 5332.0, 5348.0, 5373.0, and 5405.0 kHz | 100 watts ERP |
 | Continuous segment from 5351.5 to 5366.5 kHz | 9.15 watts ERP, equivalent to 15 watts EIRP |
 
-ERP compares the antenna with a half-wave dipole; **equivalent isotropically radiated power (EIRP)** compares it with an isotropic antenna, an ideal source that radiates equally in every direction. Section 1.5 introduced these gain references. The two figures in the second row express the same limit using different references.
+ERP uses a half-wave dipole as its reference antenna. **Equivalent isotropically radiated power (EIRP)** uses an isotropic antenna—an ideal source that radiates equally in every direction. Section 1.5 introduced these gain references. The two figures in the second row express the same limit using different references.
 
 For the FCC’s 60-meter calculation, multiply transmitter PEP by antenna gain relative to a dipole. A dipole is assigned a gain factor of 1, or 0 dBd. If another antenna has 3 dBd of gain, its gain factor is about 2: 50 watts PEP produces about 100 watts ERP. In the continuous segment, using a gain factor of 2, a 4.5-watt setting would produce about 9 watts ERP, below the 9.15-watt limit. Allow for uncertainty in the gain and power measurements rather than choosing a setting that may exceed the limit.
 

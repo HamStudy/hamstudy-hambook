@@ -25,14 +25,14 @@ Amplitude modulation provides a direct way to send voice over radio, and underst
 
 The RF amplitude follows the instantaneous audio voltage: positive and negative parts of the audio wave make it rise above and fall below its unmodulated level. Louder audio makes those changes larger.
 
-> **Key Information:** Amplitude modulation varies the instantaneous power level of the RF signal. {{< link id="G8A05" >}}
+> **Key Information:**
+> - Amplitude modulation varies the instantaneous power level of the RF signal. {{< link id="G8A05" >}}
+> - The modulation envelope of an AM signal is the waveform created by connecting the peak values of the modulated signal. {{< link id="G8A11" >}}
 
 ![An audio sine wave appears above an amplitude-modulated radio-frequency wave. Time runs from left to right in both. Many RF cycles fit within each slow audio cycle. As the audio voltage rises, the RF peaks grow taller; as it falls, they shrink. The RF cycles remain evenly spaced. Dashed lines joining their positive and negative peaks outline the modulation envelope. Its upper boundary follows the shape of the audio wave.](../../../images/s3-1-amplitude-modulation.svg)
 {.img-centered}
 
 Looking at an AM signal on an oscilloscope, you can actually see the shape of the audio signal traced out by the peaks of the RF carrier. With proper modulation, the envelope is a scaled version of the audio, offset above zero—which is how an envelope detector recovers the voice.
-
-> **Key Information:** The modulation envelope of an AM signal is the waveform created by connecting the peak values of the modulated signal. {{< link id="G8A11" >}}
 
 ##### The AM Problem
 
@@ -69,15 +69,15 @@ However, SSB comes with trade-offs. It requires more complex equipment, precise 
 
 One common way to build an SSB transmitter uses two key circuits working together:
 
+> **Key Information:**
+> - A balanced modulator produces double-sideband modulated RF. {{< link id="G7C02" >}}
+> - A filter is used to select one of the sidebands from a balanced modulator. {{< link id="G7C01" >}}
+
 **Step 1: The Balanced Modulator**
 This special mixer circuit combines your audio with the carrier frequency, but through clever circuit design, it cancels out the carrier itself. The output contains only the upper and lower sidebands—your voice information is now carried in two separate frequency bands above and below where the carrier used to be.
 
-> **Key Information:** A balanced modulator produces double-sideband modulated RF. {{< link id="G7C02" >}}
-
 **Step 2: The Sideband Filter**
 This filter has a very sharp cutoff that passes one sideband while rejecting the other. The result is a single sideband containing all your voice information.
-
-> **Key Information:** A filter is used to select one of the sidebands from a balanced modulator. {{< link id="G7C01" >}}
 
 ![Audio and a radio-frequency reference enter a balanced modulator. It produces a lower sideband and an upper sideband while suppressing the carrier between them. The signal then passes through a sideband filter to the single-sideband output. In this example, the filter passes the upper sideband and rejects the lower one. The small frequency plots show both sidebands before filtering and only the upper sideband afterward. Frequency increases from left to right; a dashed mark shows where the suppressed carrier would be.](../../../images/s3-1-ssb-generation.svg)
 {.img-centered}

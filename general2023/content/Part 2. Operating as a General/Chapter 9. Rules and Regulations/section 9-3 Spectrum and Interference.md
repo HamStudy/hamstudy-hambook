@@ -7,7 +7,7 @@ status: draft1
 
 ### Section 9.3: Spectrum and Interference
 
-An amateur allocation does not always mean that amateurs are the only users of those frequencies. Some bands are shared with government stations or other radio services. Along with your own frequency and power limits, you need to know what responsibility your station has toward those other users.
+An amateur allocation does not always mean that amateurs are the only users of those frequencies. Some bands are shared with government stations or other radio services. Along with your own frequency and power limits, you need to know your responsibilities toward those other users.
 
 #### Operating as a Secondary Service
 
@@ -27,11 +27,11 @@ Some conditions create an extra obligation to protect other operations:
 
 Near an FCC monitoring facility, even an otherwise compliant signal may interfere with its work. The FCC may impose operating restrictions to protect that facility. Spread spectrum operation must protect other authorized modulation types and accept interference from them; the next section covers its power limit.
 
-The appropriate precaution depends on the situation. Lower power, a different frequency, or a change in the antenna arrangement may help, but none is a universal exemption.
+The precautions you need depend on the situation. Lower power, a different frequency, or a change in the antenna arrangement may help, but you must still meet the applicable rules.
 
 #### Leaving Room for Propagation Beacons
 
-Some interference can be avoided by recognizing an established use before you transmit. A network of propagation beacons uses these frequencies:
+Recognizing an established use before you transmit can help you avoid interference. A network of propagation beacons uses these frequencies:
 
 > **Key Information:** Normally avoid transmitting on 14.100, 18.110, 21.150, 24.930, and 28.200 MHz because a system of propagation beacons operates there. {{< link id="G1E10" >}}
 

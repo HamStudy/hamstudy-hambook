@@ -15,15 +15,13 @@ As you prepare to explore the HF bands with General privileges, understanding ho
 
 Here's a fundamental challenge: How do you build a radio that can tune anywhere from 1.8 to 30 MHz with excellent selectivity? Building sharp filters that work across such a wide frequency range would be extremely difficult and expensive. The usual solution is to shift the wanted signal to a frequency where sharp filtering is easier. A superheterodyne receiver does this by converting it to a fixed intermediate frequency (IF).
 
-> **Key Information:** Heterodyning is another term for the mixing of two RF signals. {{< link id="G8B03" >}}
+> **Key Information:**
+> - Heterodyning is another term for the mixing of two RF signals. {{< link id="G8B03" >}}
+> - The sum and difference of a mixer's Local Oscillator (LO) and RF input frequencies are found in the output. {{< link id="G8B11" >}}
 
 Heterodyning (or mixing) solves this problem elegantly. Instead of trying to filter your 14.230 MHz SSB signal directly, your radio converts it to a standard intermediate frequency (like 9 MHz) where sophisticated crystal filters can provide excellent selectivity. Same great filtering performance across the entire HF spectrum!
 
-The heart of this process is the mixer, which combines your incoming signal with a locally generated frequency:
-
-> **Key Information:** The sum and difference of a mixer's Local Oscillator (LO) and RF input frequencies are found in the output. {{< link id="G8B11" >}}
-
-A practical mixer’s output can include these components, along with other unwanted products:
+The heart of this process is the mixer, which combines your incoming signal with a locally generated frequency. A practical mixer’s output can include these components, along with other unwanted products:
 
 - The original RF signal
 - The original local oscillator (LO) signal  
@@ -126,7 +124,9 @@ When two strong signals (F1 and F2) interact in a non-linear device, they create
 
 The most troublesome are the odd-order products:
 
-> **Key Information:** Odd-order intermodulation products are closest to the original signal frequencies. {{< link id="G8B05" >}}
+> **Key Information:**
+> - Odd-order intermodulation products are closest to the original signal frequencies. {{< link id="G8B05" >}}
+> - An example of an odd-order intermodulation product of frequencies F1 and F2 is 2F1 - F2. {{< link id="G8B13" >}}
 
 Here's why odd-order products cause the most problems. Consider two strong signals at 14.200 MHz and 14.250 MHz:
 
@@ -136,11 +136,7 @@ Here's why odd-order products cause the most problems. Consider two strong signa
 ![Frequency increases from left to right. Two original signals are at 14.200 and 14.250 megahertz, 50 kilohertz apart. Unwanted third-order products appear at 14.150 megahertz below them and 14.300 megahertz above them. The lower product equals twice the first frequency minus the second. The upper product equals twice the second frequency minus the first. Each unwanted product is only 50 kilohertz from the nearest original signal, so these mixing products can interfere with nearby stations.](../../../images/s3-3-intermodulation-products.svg)
 {.img-centered caption="Third-order products can fall close to the original signals."}
 
-These products (14.150 and 14.300 MHz) fall right in the 20-meter band where they can interfere with other stations! Second-order products would be much farther away and easier to filter out.
-
-> **Key Information:** An example of an odd-order intermodulation product of frequencies F1 and F2 is 2F1 - F2. {{< link id="G8B13" >}}
-
-This is why contest stations work so hard to keep their signals clean—when you're running high power with multiple transmitters, intermodulation products can create interference across the entire band.
+These products (14.150 and 14.300 MHz) fall right in the 20-meter band where they can interfere with other stations! Second-order products would be much farther away and easier to filter out. This is why contest stations work so hard to keep their signals clean—when you're running high power with multiple transmitters, intermodulation products can create interference across the entire band.
 
 #### Signal Bandwidth: How Much Spectrum Space Do You Need?
 

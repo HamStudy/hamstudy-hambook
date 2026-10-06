@@ -7,7 +7,7 @@ questions: ["G2E06", "G4A11", "G8C14", "G8C13", "G2E07", "G2E14"]
 
 ### Section 7.5: Digital Mode Station Setup
 
-A computer can generate and decode digital signals, control the radio, or do both. Software handles much of the exchange, but it still depends on correct settings for the radio's mode and frequency, the audio levels, and—in some modes—accurate timing.
+A computer can generate and decode digital signals, control the radio, or do both. Software handles much of the exchange, but it still needs the right radio mode, frequency, and audio levels. Some modes also need accurate timing.
 
 #### Getting the Audio Right
 
@@ -31,11 +31,11 @@ Turn off speech processing and other voice effects as well. The processing that 
 
 For many digital modes, a waterfall display helps you find and tune signals within the receiver's audio passband:
 
-> **Key Information:** A waterfall display shows frequency horizontally, signal strength as intensity, and time vertically. {{< link id="G8C14" >}}
+> **Key Information:**
+> - A waterfall display shows frequency horizontally, signal strength as intensity, and time vertically. {{< link id="G8C14" >}}
+> - Vertical lines on either side of a data mode or RTTY signal on a waterfall display indicate overmodulation. {{< link id="G8C13" >}}
 
 Each new row shows the received activity as older rows scroll away. A signal at a steady frequency leaves a vertical trace, with brighter colors usually indicating greater strength. RTTY normally shows activity at its two mark and space frequencies.
-
-> **Key Information:** Vertical lines on either side of a data mode or RTTY signal on a waterfall display indicate overmodulation. {{< link id="G8C13" >}}
 
 If another operator reports extra lines around your signal—or you see them with a separate receiver—reduce audio drive and check that speech processing is off. A display of the computer's outgoing audio cannot show distortion added later by the transmitter.
 

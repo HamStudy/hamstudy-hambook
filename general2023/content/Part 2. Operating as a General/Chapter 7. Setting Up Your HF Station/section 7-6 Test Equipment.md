@@ -11,31 +11,27 @@ A normal power reading does not show whether a transmission is distorted. Nor do
 
 #### Choosing a Meter for the Job
 
-Comparing a power supply's DC voltage while receiving and transmitting can reveal a drop that is not present while the radio is idle. A digital multimeter is useful when you need to read and compare small differences:
+Check a power supply's DC voltage while receiving, then while transmitting. Comparing the two can reveal a drop that is not present while the radio is idle. A digital multimeter is useful when you need to read and compare small differences:
 
-> **Key Information:** An advantage of a digital multimeter compared to an analog multimeter is higher precision. {{< link id="G4B06" >}}
+> **Key Information:**
+> - An advantage of a digital multimeter compared to an analog multimeter is higher precision. {{< link id="G4B06" >}}
+> - An analog multimeter is preferred when adjusting circuits for maximum or minimum values. {{< link id="G4B09" >}}
 
-A numerical display avoids estimating a needle's position between scale markings. The meter's accuracy specifications still matter, however; more displayed digits do not guarantee a more accurate result.
+A digital meter’s numerical display avoids estimating a needle's position between scale markings. The meter's accuracy specifications still matter, however; more displayed digits do not guarantee a more accurate result.
 
-When adjusting a circuit for a peak or dip, the direction of change matters more than the exact value. A moving needle lets you follow the reading as it rises, reaches a turning point, and falls:
-
-> **Key Information:** An analog multimeter is preferred when adjusting circuits for maximum or minimum values. {{< link id="G4B09" >}}
-
-This is also why an analog plate-current meter is useful for observing the tuning dip described earlier in this chapter.
+When adjusting a circuit for a peak or dip, the direction of change matters more than the exact value. A moving needle lets you follow the reading as it rises, reaches a turning point, and falls. This is also why an analog plate-current meter is useful for observing the tuning dip described earlier in this chapter.
 
 #### Looking at a Transmitted Signal
 
 CW illustrates why signal shape matters. Each dot or dash turns the RF carrier on and off, but its rise and fall should be controlled. Abrupt transitions spread energy into nearby frequencies, where other operators may hear key clicks:
 
-> **Key Information:** An oscilloscope is the best instrument for checking a CW transmitter's keying waveform. {{< link id="G4B03" >}}
+> **Key Information:**
+> - An oscilloscope is the best instrument for checking a CW transmitter's keying waveform. {{< link id="G4B03" >}}
+> - When checking a transmitted signal's RF envelope pattern, the attenuated RF output of the transmitter is connected to the oscilloscope's vertical input. {{< link id="G4B04" >}}
 
 The scope shows how the RF envelope rises and falls, letting you inspect the shape of each element rather than only its length.
 
-For either CW or a modulated signal, the sample comes from the transmitter's RF output. It must be reduced to a level the scope can safely accept:
-
-> **Key Information:** When checking a transmitted signal's RF envelope pattern, the attenuated RF output of the transmitter is connected to the oscilloscope's vertical input. {{< link id="G4B04" >}}
-
-Use a sampling or attenuation arrangement rated for the frequency and power involved. The transmitter still needs a suitable load, such as a properly rated dummy load; the oscilloscope input is not a substitute. Follow the equipment's measurement instructions before making connections, and make sure the scope and probe have enough bandwidth for the RF frequency being measured.
+For either CW or a modulated signal, the sample comes from the transmitter's RF output. Reduce it to a level the scope can safely accept. Use a sampling or attenuation arrangement rated for the frequency and power involved. The transmitter still needs a suitable load, such as a properly rated dummy load; the oscilloscope input is not a substitute. Follow the equipment's measurement instructions before making connections. Make sure the scope and probe have enough bandwidth for the RF frequency being measured.
 
 ![The transmitter sends its main radio-frequency output through a rated sampler to a rated dummy load. A branch from the sampler sends an attenuated, lower-level signal to the oscilloscope's vertical input. The scope measures only that sample; it does not take the place of the load or receive the transmitter's full output.](../../../images/s7-6-rf-sampling-path.svg)
 {.img-centered}

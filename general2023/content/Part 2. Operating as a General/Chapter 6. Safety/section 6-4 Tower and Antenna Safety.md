@@ -33,7 +33,7 @@ Towers often carry more than antennas—rotator control cables, preamp power, to
 
 > **Key Information:** Before climbing a tower that supports electrically powered devices, make sure all circuits that supply power to the tower are locked out and tagged. {{< link id="G0B08" >}}
 
-Lockout/tagout means more than flipping a switch. Use the lockout/tagout procedure suited to the installation: identify and isolate all sources, lock and tag the appropriate disconnects, control stored energy, and have a qualified person verify the safe condition. Coordinate with everyone who could turn on a circuit or transmitter. Taking the time to do this could save your life—an unexpected shock at height causes falls even when the voltage itself isn't lethal.
+Lockout/tagout means more than flipping a switch. Use the lockout/tagout procedure suited to the installation. Identify and isolate all sources, then lock and tag the appropriate disconnects. Control stored energy, and have a qualified person verify the safe condition. Coordinate with everyone who could turn on a circuit or transmitter. Taking the time to do this could save your life—an unexpected shock at height causes falls even when the voltage itself isn't lethal.
 
 #### The Professional Option
 

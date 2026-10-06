@@ -65,13 +65,13 @@ A voltmeter can tell you whether that output is near the expected DC voltage. Bu
 
 In its usual display mode, an oscilloscope plots voltage vertically and time horizontally. A steady DC voltage appears as a horizontal line; a changing voltage moves above and below its previous level as the trace progresses across the screen.
 
-> **Key Information:** An oscilloscope contains horizontal and vertical channel amplifiers. {{< link id="G4B01" >}}
+> **Key Information:**
+> - An oscilloscope contains horizontal and vertical channel amplifiers. {{< link id="G4B01" >}}
+> - An advantage of an oscilloscope over a digital voltmeter is that complex waveforms can be measured. {{< link id="G4B02" >}}
 
 In a traditional analog oscilloscope, the vertical amplifier moves the trace up and down in response to the measured signal. A separate time-base circuit generates a sweep signal, which the horizontal amplifier uses to move the trace across the screen. Digital oscilloscopes sample the input and construct the display electronically, but the familiar voltage-versus-time view remains.
 
 The scales matter. At 1 volt per vertical division, a change of two divisions represents 2 volts. At 1 millisecond per horizontal division, a pattern that repeats every four divisions has a period of 4 milliseconds. The display gives you both the size of a change and how quickly it happens.
-
-> **Key Information:** An advantage of an oscilloscope over a digital voltmeter is that complex waveforms can be measured. {{< link id="G4B02" >}}
 
 Return to the power supply example. Two supplies could show similar DC readings on a meter, yet one could have much larger ripple riding on its output. A scope can reveal those repeated rises and falls. Later, the same ability to see shape and timing will help you evaluate transmitted signals. Section 7.6 covers those practical tests; here the important distinction is between a numerical reading and a picture of the changing signal.
 

@@ -15,11 +15,9 @@ A current amateur band chart puts those two kinds of permission together. The ch
 
 On several widely used bands, General privileges cover only part of the amateur allocation:
 
-> **Key Information:** General class licensees may not transmit in portions of the 80-, 40-, 20-, and 15-meter bands. {{< link id="G1A01" >}}
-
-Those same four bands include segments reserved exclusively for Amateur Extra operators:
-
-> **Key Information:** The HF bands with segments exclusively allocated to Amateur Extra licensees are 80, 40, 20, and 15 meters. {{< link id="G1A08" >}}
+> **Key Information:**
+> - General class licensees may not transmit in portions of the 80-, 40-, 20-, and 15-meter bands. {{< link id="G1A01" >}}
+> - The HF bands with segments exclusively allocated to Amateur Extra licensees are 80, 40, 20, and 15 meters. {{< link id="G1A08" >}}
 
 These statements do not mean that every frequency unavailable to a General is Extra-only. Some are also available to operators who hold an Advanced license.
 
@@ -51,7 +49,7 @@ The 30-meter band is only 50 kHz wide, from 10.100 to 10.150 MHz. US amateur pri
 
 For routine operation, treat 30 meters as a CW and permitted-data band, not a place for voice or an SSTV transmission.
 
-CW has broader permission on most bands: it may generally be used wherever the control operator has frequency privileges, subject to any special restrictions. On 10 meters, a General operator has access to the whole band:
+CW has broader permission on most bands: control operators may generally use it wherever they have frequency privileges, subject to any special restrictions. On 10 meters, a General operator has access to the whole band:
 
 > **Key Information:** A General class control operator may transmit CW emissions throughout the entire 10-meter band. {{< link id="G1A07" >}}
 

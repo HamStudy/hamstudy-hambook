@@ -25,23 +25,21 @@ Voluntary band plans sometimes provide operating windows for DX as well. One exa
 
 If you use a directional antenna, an ordinary rectangular world map may not show the heading you need. The shortest path over Earth’s surface can point in a different direction from the line you would draw on that map.
 
-> **Key Information:** An azimuthal projection map shows true bearings and distances from a specific location. {{< link id="G2D04" >}}
+> **Key Information:**
+> - An azimuthal projection map shows true bearings and distances from a specific location. {{< link id="G2D04" >}}
+> - For a long-path contact, point a directional antenna 180 degrees from the station’s short-path heading. {{< link id="G2D06" >}}
 
 The station-centered map used for this purpose is an *azimuthal equidistant* map. Choose one centered on your location, then read the bearing from its center to the destination. The heading refers to true north, so account for magnetic declination if you use a magnetic compass to align the antenna.
 
-Sometimes propagation supports the longer route around Earth instead:
-
-> **Key Information:** For a long-path contact, point a directional antenna 180 degrees from the station’s short-path heading. {{< link id="G2D06" >}}
-
-If the short-path heading is 70 degrees, the long-path heading is 250 degrees. Compare reception in the two directions to find which path, if either, supports the contact.
+Sometimes propagation supports the longer route around Earth instead. If the short-path heading is 70 degrees, the long-path heading is 250 degrees. Compare reception in the two directions to find which path, if either, supports the contact.
 
 #### Calling Among Other Stations
 
-Before answering a station with a pileup, listen through several exchanges. Identify its call sign, determine whether it is working split, and note any instructions. Apply Section 7.3’s split-operation checks to the transmit VFO: a station you may legally receive is not necessarily on a frequency where you may transmit.
+Before answering a station with a pileup, listen through several exchanges. Identify its call sign, determine whether it is working split, and note any instructions. Follow Section 7.3’s split-operation checks for the transmit VFO. Receiving a station legally does not mean you may transmit on its frequency.
 
 Call during the listening period, then listen for the reply. If the operator answers a different callsign or asks for a partial call that does not match yours, leave the exchange clear. Repeated calls during someone else’s reply make it harder for both stations to finish.
 
-Conditions can also bring previously separate contacts into one another’s receivers. Neither group may have heard the other when it began:
+As conditions change, stations in separate contacts may begin hearing one another. Neither group may have heard the other when its contact began:
 
 > **Key Information:** If propagation changes during a contact and creates interference from other stations on the frequency, attempt to resolve the problem with them in a mutually acceptable manner. {{< link id="G2B03" >}}
 
@@ -49,7 +47,7 @@ One group may move to another clear frequency, or the operators may arrange to t
 
 #### Completing a Contest Exchange
 
-A contest specifies which contacts count and what information must be exchanged. Before calling, read its rules for bands, modes, operating times, and entry categories. The exchange might include a signal report plus a state, zone, or serial number; the details depend on the event.
+A contest specifies which contacts count and what information operators must exchange. Before calling, read its rules for bands, modes, operating times, and entry categories. The exchange might include a signal report plus a state, zone, or serial number; the details depend on the event.
 
 Suppose a voice contest requires a report and a serial number. After exchanging callsigns, the other operator sends “five nine, one four two.” You record report 59 and their serial number 142. If this is your seventh contact, your reply might be “five nine, zero zero seven.” Your number records your own sequence, not a copy of theirs.
 
@@ -73,6 +71,6 @@ A contest log records the date and time in UTC, band or frequency, mode, callsig
 
 > **Key Information:** Many amateurs keep a station log to help with a reply if the FCC requests information about their station. {{< link id="G2D08" >}}
 
-There is no general requirement to log every amateur contact, but specific activities may have recordkeeping requirements. For a contest, use its required format and submission procedure. Record what you actually copied rather than filling gaps from an online listing, and follow the event’s rules about corrections and outside assistance.
+There is no general requirement to log every amateur contact, but specific activities may require records. For a contest, use its required format and submission procedure. Record what you actually copied rather than filling gaps from an online listing, and follow the event’s rules about corrections and outside assistance.
 
 A contest calendar or local club can help you find an event to try. Listen to a few exchanges and prepare the information you will send. You can make a handful of contacts without aiming for a competitive score.

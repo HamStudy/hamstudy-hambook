@@ -19,7 +19,7 @@ You can switch between transmit and receive with PTT or let your voice operate t
 
 > **Key Information:** Voice Operated Transmission (VOX) allows hands-free operation compared to Push-To-Talk (PTT). {{< link id="G2A10" >}}
 
-VOX sensitivity determines what audio level starts transmission, and its delay determines how long the radio waits after you stop speaking before returning to receive. Anti-VOX reduces the chance that audio from the radio’s speaker will trigger transmission.
+VOX sensitivity sets the audio level that starts transmission. After you stop speaking, the delay determines how long the radio waits before returning to receive. Anti-VOX reduces the chance that audio from the radio’s speaker will trigger transmission.
 
 Set VOX so that normal speech starts the transmitter without room noise keeping it active. Check that the beginning of a word is not cut off and that the radio returns to receive between turns. PTT is often the better choice in a noisy room or whenever you prefer direct control.
 
@@ -27,15 +27,13 @@ Set VOX so that normal speech starts the transmitter without room noise keeping 
 
 An apparently quiet frequency may be in use. You might hear only one side of a contact, or the participants may be between transmissions. Listen before calling, and leave room for nearby signals as well:
 
-> **Key Information:** When selecting an SSB transmitting frequency, a minimum separation of 2 to 3 kHz from stations on adjacent frequencies should be used to minimize interference. {{< link id="G2B05" >}}
+> **Key Information:**
+> - When selecting an SSB transmitting frequency, a minimum separation of 2 to 3 kHz from stations on adjacent frequencies should be used to minimize interference. {{< link id="G2B05" >}}
+> - Before calling CQ on an apparently clear frequency, send “QRL?” on CW followed by your call sign, or ask if the frequency is in use on phone, followed by your call sign. {{< link id="G2B06" >}}
 
 Allow more separation when signals are wider or a strong nearby station still causes interference. Account for the sideband and bandwidth you will transmit, as discussed in the previous chapter.
 
-After listening, check whether another station is using the frequency:
-
-> **Key Information:** Before calling CQ on an apparently clear frequency, send “QRL?” on CW followed by your call sign, or ask if the frequency is in use on phone, followed by your call sign. {{< link id="G2B06" >}}
-
-For voice, “Is this frequency in use? This is W1ABC” is enough. Pause for an answer, and repeat the check if needed. If someone replies that a contact is underway, choose another frequency. A fixed listening time does not establish that a frequency is clear.
+After listening, check whether another station is using the frequency. For voice, “Is this frequency in use? This is W1ABC” is enough. Pause for an answer, and repeat the check if needed. If someone replies that a contact is underway, choose another frequency. A fixed listening time does not establish that a frequency is clear.
 
 #### Calling and Answering
 
@@ -63,7 +61,7 @@ Wait for a pause and give your call. Let the participants acknowledge you before
 
 #### Exchange What the Other Operator Needs
 
-Once the stations have identified each other, a signal report helps establish how much information the path can support:
+Once the stations have identified each other, a signal report helps you judge how much information you can exchange under the current conditions:
 
 > **Key Information:** Signal reports are typically exchanged at the beginning of an HF contact to allow each station to operate according to conditions. {{< link id="G2D11" >}}
 

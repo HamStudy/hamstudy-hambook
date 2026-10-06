@@ -15,17 +15,14 @@ The radio's power setting limits peak envelope power (PEP), not a steady output 
 
 Normal speech contains brief loud peaks and many quieter sounds, so its average power is well below its peak power. Begin with speech processing off and set microphone gain for a normal speaking voice, following the radio manufacturer's instructions. Shouting or using excessive gain can cause distortion rather than improve readability.
 
-Once microphone gain is set correctly, a speech processor can make the quieter parts of your voice stronger relative to the peaks. This raises average transmitted power without raising peak power. The control may be labeled **PROC**, **COMP**, or something similar:
+Once you've set microphone gain correctly, a speech processor can make the quieter parts of your voice stronger relative to the peaks. This raises average transmitted power without raising peak power. The control may be labeled **PROC**, **COMP**, or something similar:
 
 > **Key Information:**
 > - The purpose of a speech processor in a transceiver is to increase the apparent loudness of transmitted voice signals. {{< link id="G4D01" >}}
 > - A speech processor increases average power in a single sideband phone signal. {{< link id="G4D02" >}}
+> - The effects of an incorrectly adjusted speech processor include distorted speech, excess intermodulation products, and excessive background noise. {{< link id="G4D03" >}}
 
-That higher average level can help the receiving operator understand you through noise. Excessive processing can also amplify background sounds or distort your voice:
-
-> **Key Information:** The effects of an incorrectly adjusted speech processor include distorted speech, excess intermodulation products, and excessive background noise. {{< link id="G4D03" >}}
-
-Start with a modest processing level. The goal is easier-to-understand speech, not the highest possible average-power reading.
+That higher average level can help the receiving operator understand you through noise. Excessive processing can also amplify background sounds or distort your voice. Start with a modest processing level. The goal is easier-to-understand speech, not the highest possible average-power reading.
 
 #### Keeping Your Signal Within the Band
 
@@ -50,7 +47,7 @@ With USB near the upper edge, allow the same room above the displayed frequency:
 > - A 3 kHz USB signal with the displayed carrier frequency set to 14.347 MHz occupies 14.347 MHz to 14.350 MHz. {{< link id="G4D09" >}}
 > - Your displayed carrier frequency should be at least 3 kHz below the edge of the band when using 3 kHz wide USB. {{< link id="G4D11" >}}
 
-These examples assume a 3 kHz signal. Leave more room if your transmitter is set for a wider bandwidth, allow a margin for frequency error, and account for nearby stations as well as band edges.
+These examples assume a 3 kHz signal. If your transmitter is set for a wider bandwidth, leave more room. Also allow a margin for frequency error, and account for nearby stations as well as band edges.
 
 ![Two frequency bars increase from left to right. For lower sideband, a dial setting of 7.178 megahertz places the three-kilohertz signal below the dial frequency, down to the segment edge at 7.175 megahertz. For upper sideband, a dial setting of 14.347 megahertz places the signal above the dial frequency, up to the segment edge at 14.350 megahertz. Each whole sideband fits inside the permitted segment; placing an LSB dial at the lower edge, or a USB dial at the upper edge, would push part of the signal outside it.](../../../images/s7-3-ssb-frequency-edges.svg)
 {.img-full .img-centered}
@@ -65,7 +62,7 @@ When many operators call the same station at once—a *pileup*—their transmiss
 
 For example, a station using USB on 14.250 MHz may announce "up 5." It is listening 5 kHz higher, so you receive on 14.250 MHz and transmit on 14.255 MHz. Both frequency settings are within US General 20-meter phone privileges.
 
-Split can also allow a contact when operators have different transmit privileges. A station may transmit where you are allowed to listen but not transmit, then listen for your reply within a segment you can use. Before calling, check which VFO controls transmit and confirm that your whole signal will be within your privileges.
+Split can also allow a contact when operators have different transmit privileges. A station may transmit on a frequency where you can listen but cannot transmit. It can then listen for your reply within a segment you can use. Before calling, check which VFO controls transmit and confirm that your whole signal will be within your privileges.
 
 #### Morse Code (CW) Operation
 

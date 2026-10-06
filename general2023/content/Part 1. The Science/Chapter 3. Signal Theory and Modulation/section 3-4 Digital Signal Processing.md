@@ -48,7 +48,9 @@ In Software-Defined Radio (SDR), software performs functions that otherwise woul
 
 Modern DSP radios use a special technique involving I and Q signals:
 
-> **Key Information:** The phase difference between the I and Q RF signals that software-defined radio equipment uses for modulation and demodulation is 90 degrees. {{< link id="G7C09" >}}
+> **Key Information:**
+> - The phase difference between the I and Q RF signals that software-defined radio equipment uses for modulation and demodulation is 90 degrees. {{< link id="G7C09" >}}
+> - An advantage of using I-Q modulation with software-defined radios is that all types of modulation can be created with appropriate processing. {{< link id="G7C10" >}}
 
 The “I” (in-phase) and “Q” (quadrature) components use reference directions 90 degrees apart. Remember our phase concepts from Section 1.2? The two streams of values tell us how much of each component is present; they are not necessarily identical copies of a waveform separated by a delay.
 
@@ -56,8 +58,6 @@ The “I” (in-phase) and “Q” (quadrature) components use reference directi
 {.img-centered caption="Changing I and Q changes the size and angle of their combined result."}
 
 For example, a positive I value alone points along the I axis. Adding a positive Q value changes both the size and angle of the combined signal. Changing these values over time lets the radio control amplitude and phase.
-
-> **Key Information:** An advantage of using I-Q modulation with software-defined radios is that all types of modulation can be created with appropriate processing. {{< link id="G7C10" >}}
 
 By mathematically manipulating the I and Q signals, the same hardware can generate AM, FM, SSB, PSK, FSK, or other modulation types within its hardware capabilities. This is why modern transceivers can switch between modes instantly and support new digital modes through firmware updates.
 

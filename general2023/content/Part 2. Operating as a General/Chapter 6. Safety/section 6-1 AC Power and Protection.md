@@ -7,7 +7,7 @@ status: draft1
 
 ### Section 6.1: AC Power and Protection
 
-Ham shacks come in all shapes and sizes—from a corner of the kitchen table to a dedicated room filled with equipment. But whether you're adding a simple power strip to charge your handheld or running a dedicated 240-volt circuit for an amplifier, any time you modify your station's power distribution, you're making decisions that affect safety.
+Ham shacks come in all shapes and sizes—from a corner of the kitchen table to a dedicated room filled with equipment. Whenever you change your station's power distribution, you're making decisions that affect safety. That includes adding a simple power strip to charge your handheld or running a dedicated 240-volt circuit for an amplifier.
 
 #### The Foundation: Understanding Your Home's Power
 
@@ -19,7 +19,7 @@ Before thinking about what your station needs, it helps to understand what's alr
 
 Most ham stations run happily on standard 120-volt outlets. A typical 100-watt HF transceiver draws around 20-25 amps at 13.8 volts DC, which translates to only a few amps from a 120-volt wall outlet through its power supply. Check the supply’s AC input rating for the actual draw. Add a computer, monitor, and a few accessories, and you may still be well within what a single 15 or 20-amp circuit can handle—but count the other loads sharing that circuit too.
 
-That said, there are reasons you might eventually want to expand—adding an amplifier that requires 240 volts, or simply wanting a dedicated circuit so the microwave doesn't cause your radio to hiccup. The key is matching your infrastructure to your actual needs.
+That said, there are reasons you might eventually want to expand—adding an amplifier that requires 240 volts, or simply wanting a dedicated circuit so the microwave doesn't cause your radio to hiccup. The key is matching your station's power system to your actual needs.
 
 #### The Wires in Your Walls
 
@@ -92,7 +92,7 @@ High-voltage equipment can be dangerous even when unplugged—capacitors store e
 
 The concept is simple—open the cover, break the supply circuit. But disconnecting that supply does not necessarily remove charge already stored in capacitors.
 
-Interlocks provide an important layer of protection, but they're not foolproof. Leave internal high-voltage work to someone trained for it. Proper servicing requires isolation from all power sources, the manufacturer's stored-energy procedure, and verification of the safe condition with suitable test equipment. Waiting a few minutes or trusting the interlock is not a substitute for verification.
+Interlocks provide an important layer of protection, but they're not foolproof. Leave internal high-voltage work to someone trained for it. Proper servicing requires isolating the equipment from all power sources, following the manufacturer's stored-energy procedure, and verifying the safe condition with suitable test equipment. Waiting a few minutes or trusting the interlock is not a substitute for verification.
 
 #### Practical Considerations
 

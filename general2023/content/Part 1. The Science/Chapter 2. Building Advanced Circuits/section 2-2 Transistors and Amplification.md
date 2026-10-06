@@ -37,11 +37,11 @@ Though largely replaced by solid-state devices in modern equipment, vacuum tubes
 
 Vacuum tubes work by controlling a stream of electrons flowing from a heated cathode to a plate (anode) through a vacuum.
 
-> **Key Information:** The control grid in a vacuum tube regulates the flow of electrons between cathode and plate. {{< link id="G6A10" >}}
+> **Key Information:**
+> - The control grid in a vacuum tube regulates the flow of electrons between cathode and plate. {{< link id="G6A10" >}}
+> - The primary purpose of a screen grid in a vacuum tube is to reduce grid-to-plate capacitance. {{< link id="G6A12" >}}
 
 The control grid acts like a gate, varying electron flow based on its voltage. Small voltage changes on the grid cause large changes in plate current, providing amplification.
-
-> **Key Information:** The primary purpose of a screen grid in a vacuum tube is to reduce grid-to-plate capacitance. {{< link id="G6A12" >}}
 
 The screen grid sits between the control grid and plate, reducing capacitance between them. Lower capacitance means less feedback from output to input, helping prevent unwanted oscillation in RF amplifiers.
 
@@ -71,10 +71,7 @@ Efficiency varies with the circuit, signal and output level; a class name does n
 
 > **Key Information:** A linear amplifier preserves the input waveform in the output. {{< link id="G7B10" >}}
 
-Linearity refers to how faithfully an amplifier reproduces its input signal. In a perfectly linear amplifier, the output is an exact (but larger) copy of the input. This is crucial for modes where the signal's shape contains information, such as:
-- SSB voice operation
-- AM signals
-- Most digital modes
+Linearity refers to how faithfully an amplifier reproduces its input signal. In a perfectly linear amplifier, the output is an exact (but larger) copy of the input. This is crucial for modes where the signal's shape contains information, such as SSB voice operation, AM signals, and most digital modes.
 
 Now let's look at the main amplifier classes:
 

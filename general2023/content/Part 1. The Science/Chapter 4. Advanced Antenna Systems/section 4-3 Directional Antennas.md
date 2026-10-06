@@ -18,17 +18,15 @@ The Yagi antenna transforms your station from a campfire to a searchlight. A hal
 
 A Yagi has aluminum elements mounted on a horizontal boom. It uses three types of elements working together:
 
-**The Driven Element** is the heart of the antenna—the only element connected to your coax. 
+> **Key Information:**
+> - The approximate length of the driven element of a Yagi antenna is 1/2 wavelength. {{< link id="G9C02" >}}
+> - In a three-element Yagi, the reflector is longer and the director is shorter than the driven element. {{< link id="G9C03" >}}
 
-> **Key Information:** The approximate length of the driven element of a Yagi antenna is 1/2 wavelength. {{< link id="G9C02" >}}
-
-This half-wavelength element resonates at your operating frequency, just like a dipole. We add parasitic elements (not driven directly by the feed line) that interact with the driven element's radiated field.
+**The Driven Element** is the heart of the antenna—the only element connected to your coax. This half-wavelength element resonates at your operating frequency, just like a dipole. We add parasitic elements (not driven directly by the feed line) that interact with the driven element's radiated field.
 
 **The Reflector** sits behind the driven element, slightly longer than a half wavelength. When RF from the driven element reaches it, the reflector re-radiates that energy back toward the front of the antenna, reinforcing the forward signal.
 
 **Directors** sit in front of the driven element, slightly shorter than a half wavelength. They "pull" the signal forward, further concentrating energy in the desired direction.
-
-> **Key Information:** In a three-element Yagi, the reflector is longer and the director is shorter than the driven element. {{< link id="G9C03" >}}
 
 This relationship between element lengths helps create the directional pattern. The flashlight mirror and lens are useful comparisons for the result, but the elements work through induced currents. Their fields add in the forward direction and partly cancel elsewhere; lengths and spacing set the relative phases.
 
@@ -46,9 +44,7 @@ Adding directors with the right lengths and spacing can narrow the beam further.
 
 > **Key Information:** Using larger-diameter elements would increase the bandwidth of a Yagi antenna. {{< link id="G9C01" >}}
 
-Thicker elements are like wider pipes—they're more forgiving of slight frequency changes. This is why commercial Yagis often use aluminum tubing rather than wire elements.
-
-Here, “more forgiving” means the feed-point impedance tends to change less rapidly with frequency, so SWR stays within a useful limit over a wider range.
+Thicker elements are like wider pipes—they're more forgiving of slight frequency changes. This is why commercial Yagis often use aluminum tubing rather than wire elements. Here, “more forgiving” means the feed-point impedance tends to change less rapidly with frequency, so SWR stays within a useful limit over a wider range.
 
 #### Understanding Antenna Specifications
 
@@ -78,13 +74,13 @@ Here's an interesting trick when you want more gain from your antenna system: Yo
 
 The catch? Spacing and feed phase must suit the design; the exam’s free-space example uses in-phase antennas half a wavelength apart. Get it right and you gain 3 dB—like doubling your transmitter power. Get it wrong and your signals cancel rather than combine.
 
-> **Key Information:** In free space, the gain of two 3-element, horizontally polarized Yagi antennas spaced vertically 1/2 wavelength apart is approximately 3 dB higher than a single 3-element Yagi. {{< link id="G9C09" >}}
+> **Key Information:**
+> - In free space, the gain of two 3-element, horizontally polarized Yagi antennas spaced vertically 1/2 wavelength apart is approximately 3 dB higher than a single 3-element Yagi. {{< link id="G9C09" >}}
+> - An advantage of vertically stacking horizontally polarized Yagi antennas is that it narrows the main lobe in elevation. {{< link id="G9D05" >}}
 
-That 3 dB improvement means your 100-watt signal now hits like 200 watts—without the expense and complexity of an amplifier. But the benefits go beyond raw gain.
+That 3 dB improvement means your 100-watt signal now hits like 200 watts—without the expense and complexity of an amplifier. But the benefits go beyond raw gain. Think of narrowing a floodlight’s beam, this time in elevation—the angle above the horizon. More energy is concentrated in a smaller vertical range of directions.
 
-> **Key Information:** An advantage of vertically stacking horizontally polarized Yagi antennas is that it narrows the main lobe in elevation. {{< link id="G9D05" >}}
-
-Think of narrowing a floodlight’s beam, this time in elevation—the angle above the horizon. More energy is concentrated in a smaller vertical range of directions. That does not guarantee a lower takeoff angle: antenna height, spacing, feed phase and ground reflections all affect where the main lobe points. High-angle radiation can also be useful for regional contacts, as we’ll see in the next section.
+That does not guarantee a lower takeoff angle: antenna height, spacing, feed phase and ground reflections all affect where the main lobe points. High-angle radiation can also be useful for regional contacts, as we’ll see in the next section.
 
 While stacked Yagis offer ultimate performance on a single band, many General operators need a more versatile solution for their multi-band privileges.
 
@@ -92,15 +88,11 @@ While stacked Yagis offer ultimate performance on a single band, many General op
 
 General privileges include all nine HF amateur bands. Wouldn't it be nice to cover several of them with one beam? A **log periodic dipole array (LPDA)** is a directional antenna made from a row of dipoles of progressively different lengths. All connect to a common feed system.
 
-> **Key Information:** An advantage of a log periodic antenna is wide bandwidth. {{< link id="G9D06" >}}
+> **Key Information:**
+> - An advantage of a log periodic antenna is wide bandwidth. {{< link id="G9D06" >}}
+> - A log periodic antenna has element length and spacing vary logarithmically along the boom. {{< link id="G9D07" >}}
 
-
-
-Where a Yagi is optimized for one band, a log periodic covers a huge frequency range—often 14 to 30 MHz in a single antenna. The secret lies in its unique construction.
-
-> **Key Information:** A log periodic antenna has element length and spacing vary logarithmically along the boom. {{< link id="G9D07" >}}
-
-Picture a Yagi where each element is scaled down from the one before it by a constant ratio. The longest elements resonate on the lowest frequency, while progressively shorter elements handle higher frequencies. As you change bands, different groups of elements "wake up" and become active.
+Where a Yagi is optimized for one band, a log periodic covers a huge frequency range—often 14 to 30 MHz in a single antenna. The secret lies in its unique construction. Picture a Yagi where each element is scaled down from the one before it by a constant ratio. The longest elements resonate on the lowest frequency, while progressively shorter elements handle higher frequencies. As you change bands, different groups of elements "wake up" and become active.
 
 Unlike the Yagi’s parasitic elements, LPDA elements connect to a feed structure. Check the model’s frequency range; a 14–30 MHz design does not cover all nine HF bands.
 
@@ -114,9 +106,7 @@ Beyond Yagis and log periodics, two specialized directional receiving antennas s
 
 > **Key Information:** An electrically small loop (less than 1/10 wavelength in circumference) has nulls in its radiation pattern broadside to the loop.
 
-Rotate the loop until a signal disappears, and you know the source is perpendicular to the loop plane.
-
-There are two opposite null directions, so that alone does not tell you which side contains the source.
+Rotate the loop until a signal disappears, and you know the source is perpendicular to the loop plane. There are two opposite null directions, so that alone does not tell you which side contains the source.
 
 ![An electrically small loop has two opposite directions of minimum response, called nulls. Both are at right angles to the flat plane enclosed by the loop, pointing out through its two faces rather than along its edge. Rotating the loop to minimize a signal therefore leaves two possible directions to its source, one through each face.](../../../images/s4-3-loop-nulls.svg)
 {.img-centered}

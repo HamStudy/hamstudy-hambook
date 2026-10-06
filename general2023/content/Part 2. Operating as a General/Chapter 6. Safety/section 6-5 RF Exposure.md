@@ -44,7 +44,7 @@ Check the busiest applicable window. Five minutes transmitting followed by five 
 
 There is a second factor: the average power **while transmitting** compared with peak envelope power (PEP). SSB speech rises and falls, and CW has spaces between keyed elements, so their average power can be below PEP. FM, RTTY and FT8 signals are close to full power while the signal is actually on. Do not count the same pauses in both factors.
 
-For example, suppose a 100-watt-PEP SSB signal averages half its PEP while you transmit, and you transmit for half the applicable averaging window. Average power is 100 × 0.5 × 0.5 = 25 watts. These are example factors; voice processing and operating habits change the actual values. A lower transmit fraction can allow more power while still meeting exposure limits, but it never overrides the band’s legal power limit (Section 9.2).
+For example, suppose a 100-watt-PEP SSB signal averages half its PEP while you transmit. You also transmit for half the applicable averaging window. Average power is 100 × 0.5 × 0.5 = 25 watts. These are example factors; voice processing and operating habits change the actual values. A lower transmit fraction can allow more power while still meeting exposure limits, but it never overrides the band’s legal power limit (Section 9.2).
 
 #### Evaluating Your Station
 
@@ -84,11 +84,9 @@ A few scenarios deserve extra attention:
 
 **Directional antennas** focus your signal—and RF exposure—in specific directions. Great for working DX, but worth considering if your beam sweeps across the neighbor's yard. Options include mechanical stops that prevent rotation into problem directions or reducing power enough to meet the limit. If you rely on operating times or access controls, they must reliably prevent excessive exposure whenever people are present.
 
-**Indoor antennas** are necessarily close to living spaces. That attic dipole might sit just a few feet above your bedroom. Operating from an apartment with an indoor antenna demands careful attention to power levels and who's nearby when you transmit.
+**Indoor antennas** are necessarily close to living spaces. That attic dipole might sit just a few feet above your bedroom. Operating from an apartment with an indoor antenna demands careful attention to power levels and who's nearby when you transmit. Include occupied spaces above, below and next door, and use an evaluation method valid at those short distances.
 
-Include occupied spaces above, below and next door, and use an evaluation method valid at those short distances.
-
-**Low-power stations** are not automatically exempt from the rules. One milliwatt is 0.001 watts. The current rules include a routine-evaluation exemption for an individual source at or below that time-averaged available power, but the general obligation to avoid excessive exposure remains. Above it, check the applicable exemption or evaluation criteria; low power alone does not establish a safe margin at every distance.
+**Low-power stations** are not automatically exempt from the rules. One milliwatt is 0.001 watts. The current rules include a routine-evaluation exemption for an individual source at or below that time-averaged available power. The general obligation to avoid excessive exposure still applies. Above that power, check the applicable exemption or evaluation criteria; low power alone does not establish a safe margin at every distance.
 
 #### Exposure and Contact Burns Are Different Problems
 

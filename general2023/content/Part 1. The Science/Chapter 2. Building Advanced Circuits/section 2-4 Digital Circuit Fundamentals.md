@@ -57,11 +57,7 @@ Modern equipment uses integrated circuits (ICs) for most digital functions. Thes
 
 > **Key Information:** MMIC stands for Monolithic Microwave Integrated Circuit. {{< link id="G6B02" >}}
 
-“Monolithic” means the circuit is formed together on one semiconductor chip. An MMIC can handle analog RF signals; being an IC does not make it digital. These specialized ICs are designed for radio frequency and microwave applications, integrating various RF functions into a single chip:
-- Amplifiers
-- Mixers
-- Oscillators
-- Filters
+“Monolithic” means the circuit is formed together on one semiconductor chip. An MMIC can handle analog RF signals; being an IC does not make it digital. These specialized ICs are designed for radio frequency and microwave applications, integrating various RF functions into a single chip. Common examples include but are not limited to amplifiers, mixers, oscillators, and filters.
 
 MMICs are a key reason why modern handhelds and mobile radios can offer sophisticated features in compact sizes.
 

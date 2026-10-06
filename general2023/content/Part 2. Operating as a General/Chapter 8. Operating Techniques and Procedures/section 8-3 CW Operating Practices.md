@@ -7,7 +7,7 @@ status: draft1
 
 ### Section 8.3: CW Operating Practices
 
-A CW contact may contain only a few lines of information: callsigns, a report, names, and locations. Short codes show when to reply, ask for a slower speed, or confirm what was received. Learning those signals alongside the code helps you follow the contact as a conversation.
+A CW contact may contain only a few lines of information: callsigns, a report, names, and locations. Short codes show when to reply, ask for a slower speed, or confirm what you received. Learning those signals alongside the code helps you follow the contact as a conversation.
 
 CW’s narrow bandwidth makes it useful when signals are weak or the band is crowded. It also offers the chance to send and copy a signal directly by ear and hand. You do not need to operate at high speed to use it; the useful speed is one both operators can follow.
 
@@ -35,15 +35,13 @@ On a modern transceiver, the radio accounts for a CW pitch offset. Follow its pr
 
 The speed of a CQ helps you judge how to answer:
 
-> **Key Information:** The best speed when answering a CQ in Morse code is the fastest speed at which you are comfortable copying, but no faster than the CQ. {{< link id="G2C05" >}}
+> **Key Information:**
+> - The best speed when answering a CQ in Morse code is the fastest speed at which you are comfortable copying, but no faster than the CQ. {{< link id="G2C05" >}}
+> - The Q signal “QRS” asks the other station to send slower. {{< link id="G2C02" >}}
 
 If the station calls at 15 words per minute and you copy comfortably at 12, reply at 12. If you can copy 25, still answer no faster than 15. Sending faster than you can receive may invite a reply you cannot follow.
 
-You can ask the other operator to slow down during the contact:
-
-> **Key Information:** The Q signal “QRS” asks the other station to send slower. {{< link id="G2C02" >}}
-
-For the exam, recognize the request to send slower even though the pool writes it as “QRS?” Formally, QRS means “Send more slowly,” while QRS? asks “Shall I send more slowly?” Good spacing between letters and words matters as well; slowing the individual elements while running the words together does not make an exchange easy to copy.
+You can ask the other operator to slow down during the contact. For the exam, recognize the request to send slower even though the pool writes it as “QRS?” Formally, QRS means “Send more slowly,” while QRS? asks “Shall I send more slowly?” Good spacing between letters and words matters as well; slowing the individual elements while running the words together does not make an exchange easy to copy.
 
 #### Taking Turns and Giving Reports
 
@@ -59,7 +57,7 @@ The signal report adds one item to the voice report from the previous section. R
 
 > **Key Information:** A “C” added to a CW RST report indicates a chirpy or unstable signal. {{< link id="G2C07" >}}
 
-A chirp is a change in the signal’s frequency as an element is sent, heard as a changing pitch. Reporting it gives the transmitting station a reason to check its equipment.
+A chirp is a change in the signal’s frequency during a Morse element; you hear the pitch change. Reporting it gives the transmitting station a reason to check its equipment.
 
 You can also describe a problem at your end:
 
@@ -91,7 +89,7 @@ Normally, an operator waits for the other station to finish before replying. Ful
 
 > **Key Information:** Full break-in CW operation, or QSK, allows transmitting stations to receive between code characters and elements. {{< link id="G2C01" >}}
 
-The radio returns to receive during the brief gaps between transmitted elements. A reply from the other station can be heard during those gaps, prompting the sender to stop and listen. This is rapid switching between transmit and receive, not simultaneous full-duplex operation.
+The radio returns to receive during the brief gaps between transmitted elements. During those gaps, the sender can hear a reply from the other station, prompting them to stop and listen. This is rapid switching between transmit and receive, not simultaneous full-duplex operation.
 
 ![A timeline runs from left to right. The transmit row shows a dot, a longer dash, and another dot. In the receive row, blocks fill the gaps between those elements and follow the final dot. Full break-in lets the operator hear a reply during these gaps. Transmission and reception alternate; they do not happen at the same time. Switching intervals are simplified.](../../../images/s8-3-cw-break-in-timing.svg)
 {.img-centered}

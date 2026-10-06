@@ -31,17 +31,14 @@ A beacon provides a signal that other operators can use to investigate a radio p
 
 How the beacon is controlled matters. The **control point** is where the control operator performs that duty. With **local control**, the control operator directly operates the controls. With **remote control**, the operator does so indirectly through a control link. With **automatic control**, devices and procedures keep the station in compliance without the control operator present at a control point. The station still has a responsible licensee and control operator.
 
-For ordinary FCC-authorized HF beacon operation, automatic control is limited to a specific range:
-
-> **Key Information:** Automatically controlled beacon operation on HF is permitted between 28.20 and 28.30 MHz. {{< link id="G1B09" >}}
-
-A beacon heard elsewhere may use another authorized form of control, operate under another country’s rules, or have a specific authorization.
-
-Two other beacon limits apply:
+For ordinary FCC-authorized HF beacon operation, automatic control is limited to a specific range. Two other beacon limits apply:
 
 > **Key Information:**
+> - Automatically controlled beacon operation on HF is permitted between 28.20 and 28.30 MHz. {{< link id="G1B09" >}}
 > - The maximum beacon-station power is 100 watts PEP output. {{< link id="G1B10" >}}
 > - No more than one beacon station may transmit in the same band from the same station location. {{< link id="G1B02" >}}
+
+An HF beacon heard outside that range may use another authorized form of control, operate under another country’s rules, or have a specific authorization.
 
 The location restriction is **per band**. It does not prohibit beacons on different bands at one site, provided each otherwise complies with the rules.
 
@@ -49,15 +46,13 @@ The location restriction is **per band**. It does not prohibit beacons on differ
 
 The gateway examples in the previous chapter use another form of automatic operation. The rules distinguish exchanges between automatically controlled stations from a gateway responding to an operator-controlled station:
 
-> **Key Information:** Automatically controlled stations may communicate with other automatically controlled stations using RTTY or data on the 6-meter and shorter-wavelength bands, and in specified segments of some HF bands. {{< link id="G1E11" >}}
+> **Key Information:**
+> - Automatically controlled stations may communicate with other automatically controlled stations using RTTY or data on the 6-meter and shorter-wavelength bands, and in specified segments of some HF bands. {{< link id="G1E11" >}}
+> - When contacting an automatically controlled digital station outside the automatic-control segments, the station initiating the contact must be under local or remote control. {{< link id="G1E03" >}}
 
 The stations must still use authorized frequencies and emissions. “Six meters and shorter wavelengths” means the higher-frequency bands. On HF, [Section 97.221(b)](https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-97/subpart-C/section-97.221) lists the permitted segments; consult that list before configuring an unattended station.
 
-Outside those HF segments, there is a narrower permission for an automatically controlled station to answer:
-
-> **Key Information:** When contacting an automatically controlled digital station outside the automatic-control segments, the station initiating the contact must be under local or remote control. {{< link id="G1E03" >}}
-
-Under Section 97.221(c), the responding automatic station must also occupy no more than **500 Hz**, and that permission excludes the four 60-meter channels specified in Section 97.303(h). The frequency must otherwise permit the emission. A locally controlled caller therefore does not make every gateway mode legal everywhere; a wider automatic response still needs an appropriate authorized segment.
+Outside those HF segments, there is a narrower permission for an automatically controlled station to answer. Under Section 97.221(c), the automatic station’s response must also occupy no more than **500 Hz**. This permission does not apply on the four 60-meter channels specified in Section 97.303(h). The frequency must also allow that type of emission. A locally controlled caller therefore does not make every gateway mode legal everywhere; a wider automatic response still needs an appropriate authorized segment.
 
 Using software is not, by itself, automatic control. An operator can use a computer to generate signals while remaining responsible for starting, supervising, and stopping the exchange.
 
@@ -67,7 +62,7 @@ Developing a new digital protocol is permitted within the relevant technical rul
 
 > **Key Information:** Before using a new digital protocol on the air, publicly document its technical characteristics. {{< link id="G1C07" >}}
 
-A useful specification describes the modulation, coding, timing, bandwidth, and any error-correction method well enough to explain how the signal works. Check the applicable digital-code provisions in Section 97.309 as well.
+A useful specification describes the modulation, coding, timing, bandwidth, and any error-correction method well enough to explain how the signal works. Also check the digital-code rules that apply under Section 97.309.
 
 The radio service matters as well as the protocol. Compatible hardware does not make two radio services interchangeable:
 

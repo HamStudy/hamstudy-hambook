@@ -50,14 +50,14 @@ Coax is the easygoing alternative—its shield confines the wanted signal and he
 
 Here's a sobering thought: You might be losing more power in your feed line than you're putting into your antenna. Every foot of cable between your radio and antenna acts like a resistor, converting your carefully generated RF into useless heat.
 
-> **Key Information:** The attenuation of coaxial cable increases with increasing frequency. {{< link id="G9A05" >}}
+> **Key Information:**
+> - The attenuation of coaxial cable increases with increasing frequency. {{< link id="G9A05" >}}
+> - RF feed line loss is usually expressed in decibels per 100 feet. {{< link id="G9A06" >}}
 
 Three culprits steal your signal:
 1. **Skin effect**: At RF, current crowds onto the conductor's surface. As frequency rises, this surface layer gets thinner and resistance increases.
 2. **Dielectric heating**: The insulation absorbs energy, especially as frequency climbs.
 3. **Unwanted radiation**: Damage or poor shielding can let coax leak RF. Open-wire or window line can also radiate if its currents become unbalanced, for example when it is routed too close to metal.
-
-> **Key Information:** RF feed line loss is usually expressed in decibels per 100 feet. {{< link id="G9A06" >}}
 
 Let's put this in perspective with RG-8X (a popular "compromise" cable). The [Davis RF attenuation chart](https://www.davisrf.com/attenuation.php) gives these figures:
 - **10 MHz (30 meters)**: 0.78 dB/100 ft—barely noticeable

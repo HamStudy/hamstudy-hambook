@@ -7,17 +7,17 @@ status: draft1
 
 ### Section 8.6: Emergency Communication
 
-A call for help can interrupt an ordinary contact. The operating skills you have practiced—listening, asking for a repeat, and confirming important details—now help connect someone with assistance. Reaching a station is only the first step; you also need to learn what is needed and pass that information accurately.
+A call for help can interrupt an ordinary contact. The operating skills you have practiced—listening, asking for a repeat, and confirming important details—now help connect someone with assistance. Reaching a station is only the first step; find out what is needed and pass that information accurately.
 
 #### Responding to a Call for Help
 
 Amateur frequencies are shared. A scheduled net or recurring conversation does not own its usual frequency, but emergency communication has a specific priority:
 
-> **Key Information:** Except during emergencies, no amateur station has priority access to any frequency. {{< link id="G2B01" >}}
+> **Key Information:**
+> - Except during emergencies, no amateur station has priority access to any frequency. {{< link id="G2B01" >}}
+> - First acknowledge the station in distress and determine what assistance may be needed. {{< link id="G2B02" >}}
 
-The absence of exclusive access does not permit interfering with an existing contact. When emergency traffic appears, give it room and listen. If you hear a station in distress break into your own contact, respond to the request rather than assuming another listener will handle it:
-
-> **Key Information:** First acknowledge the station in distress and determine what assistance may be needed. {{< link id="G2B02" >}}
+No station owns a frequency, but that does not give you permission to interfere with an existing contact. When emergency traffic appears, give it room and listen. If you hear a station in distress break into your own contact, respond to the request rather than assuming another listener will handle it.
 
 For example: “Station calling for help, I hear you. What is your location, and what assistance do you need?” Keep transmissions short and give the caller time to answer. Confirm essential details, especially a location or information you will relay. A weak or interrupted reply does not mean the problem has been resolved.
 
@@ -31,7 +31,7 @@ A net still depends on a usable radio path. Propagation or interference can make
 
 > **Key Information:** Good amateur practice for net management includes having a backup frequency in case of interference or poor conditions. {{< link id="G2B10" >}}
 
-Agree on both the backup frequency and the conditions for moving before the primary frequency fails. Otherwise, the interference that forces the change may also prevent anyone from announcing where to go. The backup must use frequencies and modes available to the participating control operators, and it should be checked for other activity before use.
+Agree on both the backup frequency and the conditions for moving before the primary frequency fails. Otherwise, the interference that forces the change may also prevent anyone from announcing where to go. The backup must use frequencies and modes available to the participating control operators. Check it for other activity before use.
 
 #### Passing a Message Accurately
 
@@ -47,7 +47,7 @@ Formal messages also need a clear ending, distinct from the end of the entire co
 
 > **Key Information:** The prosign AR indicates the end of a formal message when using CW. {{< link id="G2C08" >}}
 
-Send AR as one continuous prosign, as described earlier in this chapter. It marks the message’s end; the operators may still need to resolve a missed word or acknowledge receipt. This differs from SK, which ends the contact. Use the acknowledgment QSL only after the information has been received and understood.
+Send AR as one continuous prosign, as described earlier in this chapter. It marks the message’s end; the operators may still need to resolve a missed word or acknowledge receipt. This differs from SK, which ends the contact. Use the acknowledgment QSL only after you have received and understood the information.
 
 Follow the net’s message format, and request clarification instead of silently repairing something that seems wrong. Keep a record of when the message was passed and any acknowledgment.
 
@@ -69,15 +69,13 @@ An established group gives you a way to practice message handling and learn what
 
 RACES, the Radio Amateur Civil Emergency Service, is governed by specific FCC rules for civil-defense communication:
 
-> **Key Information:** Only a person holding an FCC-issued amateur operator license may be the control operator of an amateur station transmitting in RACES to assist disaster relief operations. {{< link id="G2B09" >}}
+> **Key Information:**
+> - Only a person holding an FCC-issued amateur operator license may be the control operator of an amateur station transmitting in RACES to assist disaster relief operations. {{< link id="G2B09" >}}
+> - Without special authorization, routine RACES training drills and tests may be conducted for no more than one hour per week. {{< link id="G2B11" >}}
 
-A government position does not replace that license. The RACES rules also require the operator to be enrolled and the station to be registered with the responsible civil-defense organization, with the required certification and authorization. An amateur license alone does not make an operator or station a RACES participant.
+A government position does not replace that license. The RACES rules also require the operator to be enrolled and the station to be registered with the responsible civil-defense organization. The required certification and authorization must also be in place. An amateur license alone does not make an operator or station a RACES participant.
 
-Routine RACES practice has a specific limit:
-
-> **Key Information:** Without special authorization, routine RACES training drills and tests may be conducted for no more than one hour per week. {{< link id="G2B11" >}}
-
-The rules provide for longer exercises with the specified approval. The ordinary one-hour limit does not apply to all amateur practice or to all emergency operation. Coordinate RACES exercises with the responsible organization rather than treating them as any other scheduled net.
+Routine RACES practice has a specific limit. The rules provide for longer exercises with the specified approval. The ordinary one-hour limit does not apply to all amateur practice or to all emergency operation. Coordinate RACES exercises with the responsible organization rather than treating them as any other scheduled net.
 
 #### Prepare the Station and the Operator
 

@@ -25,15 +25,13 @@ Once you can copy a CQ, identify the calling station and yourself, then leave ti
 
 FT8 is designed around brief, structured exchanges rather than free-form conversation. The software handles much of the sequence, but you still choose whom to call and check that each reply is addressed to you.
 
-FT8 and several related modes share a sideband convention:
+FT8 and several related modes share a sideband convention. Within the 20-meter digital area introduced earlier in this chapter, FT8 has a common meeting place:
 
-> **Key Information:** USB is the standard sideband for JT65, JT9, FT4, and FT8 signals when using AFSK. {{< link id="G2E05" >}}
+> **Key Information:**
+> - USB is the standard sideband for JT65, JT9, FT4, and FT8 signals when using AFSK. {{< link id="G2E05" >}}
+> - FT8 is commonly found between approximately 14.074 MHz and 14.077 MHz. {{< link id="G2E15" >}}
 
-This remains true on bands where SSB voice normally uses LSB. A radio’s data-mode label may differ, so follow the software and radio instructions for the appropriate USB-based configuration.
-
-Within the 20-meter digital area introduced earlier in this chapter, FT8 has a common meeting place:
-
-> **Key Information:** FT8 is commonly found between approximately 14.074 MHz and 14.077 MHz. {{< link id="G2E15" >}}
+The USB convention remains true on bands where SSB voice normally uses LSB. A radio’s data-mode label may differ, so follow the software and radio instructions for the appropriate USB-based configuration.
 
 The radio’s USB dial frequency is normally 14.074 MHz. Individual signals occupy different positions above it within the audio passband shown by the waterfall. For example, an audio offset of 1,500 Hz places a transmitted signal near 14.0755 MHz. Choosing another position in that passband is different from changing the radio’s dial frequency.
 
@@ -46,7 +44,7 @@ If the station calls in one 15-second period, your reply belongs in the followin
 ![Two station rows share a timeline marked at zero, fifteen, and thirty seconds. During the first fifteen-second period, Station A calls CQ while Station B receives. During the next period, Station B replies while Station A receives. Each transmit bar ends before its fifteen-second period ends. The stations use opposite periods, and each must choose a transmit frequency that is clear during its own period.](../../../images/s8-5-ft8-turn-taking.svg)
 {.img-full .img-centered}
 
-Your reply need not use exactly the same audio frequency as the caller, provided it is within the passband the other station is receiving. Check both the selected transmit period and the transmit marker rather than assuming the software’s current settings are appropriate.
+Your reply can use a different audio frequency from the caller's, as long as it stays within the passband the other station is receiving. Check both the selected transmit period and the transmit marker rather than assuming the software’s current settings are appropriate.
 
 A normal exchange establishes the callsigns, passes signal reports, and acknowledges receipt. Let the sequence finish and check the result before logging the contact. If replies are consistently missing, revisit the timing and signal-level checks in Section 7.5 rather than immediately increasing power.
 
@@ -54,19 +52,14 @@ A normal exchange establishes the callsigns, passes signal reports, and acknowle
 
 Winlink provides another option: send a written message through a network for the recipient to collect later, much like ordinary email. It can serve an operator who has a radio connection but no local internet access:
 
-> **Key Information:** Winlink is an amateur radio network for sending and receiving internet email, a form of packet radio, and a wireless network capable of both VHF and HF operation. {{< link id="G2E12" >}}
+> **Key Information:**
+> - Winlink is an amateur radio network for sending and receiving internet email, a form of packet radio, and a wireless network capable of both VHF and HF operation. {{< link id="G2E12" >}}
+> - A Winlink Remote Message Server is also called a gateway. {{< link id="G2E13" >}}
+> - VARA is a digital protocol used with Winlink. {{< link id="G2E02" >}}
 
-The messaging network and the radio protocol are different parts of that system. Winlink handles the messages; a compatible radio protocol carries them between your station and another station in the network.
+The messaging network and the radio protocol are different parts of that system. Winlink handles the messages; a compatible radio protocol carries them between your station and another station in the network. An internet-connected gateway can transfer your email between the radio link and the wider network. Winlink also supports radio-only arrangements, but usable routes must actually be available. The automatic-station and message rules covered in the next chapter still apply.
 
-> **Key Information:** A Winlink Remote Message Server is also called a gateway. {{< link id="G2E13" >}}
-
-An internet-connected gateway can transfer your email between the radio link and the wider network. Winlink also supports radio-only arrangements, but usable routes must actually be available. The automatic-station and message rules covered in the next chapter still apply.
-
-Choose a gateway that supports the band and protocol your station can use. One available protocol is VARA:
-
-> **Key Information:** VARA is a digital protocol used with Winlink. {{< link id="G2E02" >}}
-
-PACTOR is another protocol used for radio messaging.
+Choose a gateway that supports the band and protocol your station can use. One available protocol is VARA. PACTOR is another protocol used for radio messaging.
 
 > **Key Information:** You cannot join an existing PACTOR contact; PACTOR connections are limited to two stations. {{< link id="G2E09" >}}
 

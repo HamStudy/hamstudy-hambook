@@ -21,21 +21,16 @@ Deep inside the Sun, currents of hot plasma surge and churn. Plasma is gas in wh
 
 The magnetic knots don't sit quietly. Magnetic activity is associated with stronger ultraviolet emissions that maintain denser layers of free electrons in Earth's upper atmosphere. Those layers can bend higher-frequency radio waves back toward Earth, raising the MUF and opening upper HF bands. Sudden flare bursts have a different effect, which we'll get to shortly. For radio operators, each dark patch on the Sun serves as a visible gauge of solar activity—and a preview of the day's propagation. {{< link id="G3A01" >}}
 
-> **Key Information:** Higher sunspot numbers generally indicate a greater probability of good propagation at higher frequencies.
+> **Key Information:**
+> - Higher sunspot numbers generally indicate a greater probability of good propagation at higher frequencies.
+> - The 15-meter, 12-meter, and 10-meter bands are the least reliable for long-distance communications during periods of low solar activity.
+> - The 20-meter band usually supports worldwide propagation during daylight hours at any point in the solar cycle.
 
 As sunspot numbers rise, increased ionizing radiation generally improves the chances for propagation on 15, 12, and even 10 meters. During solar maximum, ten meters can open for worldwide communication with modest power and simple antennas. There is no sunspot count that guarantees a particular band is open on your path.
 
-The opposite occurs during solar minimum when sunspot numbers drop near zero. {{< link id="G3A04" >}}
+The opposite occurs during solar minimum when sunspot numbers drop near zero. {{< link id="G3A04" >}} With minimal solar radiation, the ionosphere weakens. On some paths the MUF may stay below 14 MHz for extended periods, making upper HF bands much less reliable. DX operation shifts to 40 and 80 meters, where absorption and noise create additional challenges.
 
-> **Key Information:** The 15-meter, 12-meter, and 10-meter bands are the least reliable for long-distance communications during periods of low solar activity.
-
-With minimal solar radiation, the ionosphere weakens. On some paths the MUF may stay below 14 MHz for extended periods, making upper HF bands much less reliable. DX operation shifts to 40 and 80 meters, where absorption and noise create additional challenges.
-
-Throughout these extremes, one band remains dependable. {{< link id="G3A07" >}}
-
-> **Key Information:** The 20-meter band usually supports worldwide propagation during daylight hours at any point in the solar cycle.
-
-Twenty meters' frequency sits in a useful sweet spot—high enough to reduce D-layer absorption, but requiring less ionization than 10 meters. That makes it a dependable place to look for DX throughout the cycle, though no band is open on every path all the time.
+Throughout these extremes, one band remains dependable. {{< link id="G3A07" >}} Twenty meters' frequency sits in a useful sweet spot—high enough to reduce D-layer absorption, but requiring less ionization than 10 meters. That makes it a dependable place to look for DX throughout the cycle, though no band is open on every path all the time.
 
 #### Measuring Solar Activity
 
@@ -53,13 +48,13 @@ The sun's steady radiation maintains normal propagation, while explosive events 
 
 Back on the sun's surface, those same twisted magnetic field lines we saw creating sunspots don't always reconnect gently. Sometimes they snap violently, releasing enormous amounts of energy in seconds. This solar flare races toward Earth as a blast of X-rays and ultraviolet radiation. {{< link id="G3A03" >}}
 
-> **Key Information:** The increased ultraviolet and X-ray radiation from a solar flare affects radio propagation on Earth approximately 8 minutes after eruption.
+> **Key Information:**
+> - The increased ultraviolet and X-ray radiation from a solar flare affects radio propagation on Earth approximately 8 minutes after eruption.
+> - A sudden ionospheric disturbance disrupts signals on lower frequencies more than those on higher frequencies during daytime.
 
-Eight minutes—that's the time light takes to travel 93 million miles, not advance warning. We see the flare when its light reaches us, alongside the radiation affecting the atmosphere. One moment you're in mid-QSO on 40 meters; eight minutes after a major flare erupts, the band goes silent. On Earth’s sunlit side, the X-ray burst can sharply increase D-region ionization, creating what we call a Sudden Ionospheric Disturbance. {{< link id="G3A02" >}}
+Eight minutes—that's the time light takes to travel 93 million miles, not advance warning. We see the flare when its light reaches us, alongside the radiation affecting the atmosphere. One moment you're in mid-QSO on 40 meters; eight minutes after a major flare erupts, the band goes silent.
 
-> **Key Information:** A sudden ionospheric disturbance disrupts signals on lower frequencies more than those on higher frequencies during daytime.
-
-The enhanced D region absorbs low-frequency signals. Eighty and 40 meters may completely disappear, while 20 meters might weaken but remain usable. Higher HF frequencies may suffer less absorption, though a strong flare can disrupt a broad range. This short-term disturbance is different from the upper-band improvement associated with sustained solar activity.
+On Earth’s sunlit side, the X-ray burst can sharply increase D-region ionization, creating what we call a Sudden Ionospheric Disturbance. {{< link id="G3A02" >}} The enhanced D region absorbs low-frequency signals. Eighty and 40 meters may completely disappear, while 20 meters might weaken but remain usable. Higher HF frequencies may suffer less absorption, though a strong flare can disrupt a broad range. This short-term disturbance is different from the upper-band improvement associated with sustained solar activity.
 
 ##### Coronal Mass Ejections: Delayed Impact
 
@@ -81,37 +76,26 @@ Unlike the sudden fury of flares, coronal holes deliver persistent harassment. T
 
 When those billion-ton particle clouds from CMEs slam into Earth's magnetic field, our planet doesn't take it quietly. The impact compresses our magnetic shield on the sunward side while stretching it into a comet-like tail on the night side. This violent reshaping triggers geomagnetic storms that wreak havoc on radio propagation. {{< link id="G3A06" >}}
 
-> **Key Information:** A geomagnetic storm is a temporary disturbance in Earth's geomagnetic field.
+> **Key Information:**
+> - A geomagnetic storm is a temporary disturbance in Earth's geomagnetic field.
+> - Geomagnetic storms degrade high-latitude HF propagation.
+> - High geomagnetic activity benefits radio communications by creating auroras that can reflect VHF signals.
 
-These storms often affect polar and high-latitude propagation paths especially strongly. {{< link id="G3A08" >}}
+These storms often affect polar and high-latitude propagation paths especially strongly. {{< link id="G3A08" >}} Signals that normally travel over the poles become weak or disappear entirely. Paths that cross high latitudes can suffer badly, forcing operators to use longer paths at lower latitudes when possible.
 
-> **Key Information:** Geomagnetic storms degrade high-latitude HF propagation.
-
-Signals that normally travel over the poles become weak or disappear entirely. Paths that cross high latitudes can suffer badly, forcing operators to use longer paths at lower latitudes when possible.
-
-While HF propagation degrades, geomagnetic storms create unique opportunities on VHF. {{< link id="G3A09" >}}
-
-> **Key Information:** High geomagnetic activity benefits radio communications by creating auroras that can reflect VHF signals.
-
-The disturbed auroral region can scatter VHF signals along unusual paths. Six and two meters suddenly work like HF bands, though signals acquire a distinctive distorted sound from the rapidly moving auroral curtains.
+While HF propagation degrades, geomagnetic storms create unique opportunities on VHF. {{< link id="G3A09" >}} The disturbed auroral region can scatter VHF signals along unusual paths. Six and two meters suddenly work like HF bands, though signals acquire a distinctive distorted sound from the rapidly moving auroral curtains.
 
 #### Measuring Geomagnetic Disturbances
 
 Two indices measure how stable Earth's magnetic field is. They help operators assess current and recent conditions.
 
-The K-index provides snapshots of geomagnetic activity over 3-hour periods. {{< link id="G3A12" >}}
+> **Key Information:**
+> - The K-index measures the short-term stability of Earth's geomagnetic field.
+> - The A-index measures the long-term stability of Earth's geomagnetic field.
 
-> **Key Information:** The K-index measures the short-term stability of Earth's geomagnetic field.
+The K-index provides snapshots of geomagnetic activity over 3-hour periods. {{< link id="G3A12" >}} K-index values range from 0 (quiet) to 9 (extreme storm). A station reports a local K-index; the planetary Kp index combines measurements from several observatories. K-indices below 3 indicate a relatively quiet magnetic field, but not necessarily enough ionization for a particular band. Values of 5 or higher signal storm conditions with significant HF degradation, particularly on paths crossing high latitudes.
 
-Values range from 0 (quiet) to 9 (extreme storm).
-
-A station reports a local K-index; the planetary Kp index combines measurements from several observatories. K-indices below 3 indicate a relatively quiet magnetic field, but not necessarily enough ionization for a particular band. Values of 5 or higher signal storm conditions with significant HF degradation, particularly on paths crossing high latitudes.
-
-The A-index summarizes an entire day's magnetic activity. {{< link id="G3A13" >}}
-
-> **Key Information:** The A-index measures the long-term stability of Earth's geomagnetic field.
-
-Derived from K-index values, the A-index ranges from 0 (completely quiet) to 400 (severe storm). Values below 10 suggest a relatively quiet magnetic field. Higher values indicate more disturbance, but its effect depends on your frequency and path.
+The A-index summarizes an entire day's magnetic activity. {{< link id="G3A13" >}} Derived from K-index values, the A-index ranges from 0 (completely quiet) to 400 (severe storm). Values below 10 suggest a relatively quiet magnetic field. Higher values indicate more disturbance, but its effect depends on your frequency and path.
 
 #### The Solar Rotation Cycle
 

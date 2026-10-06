@@ -7,7 +7,7 @@ status: draft1
 
 ### Section 6.3: Grounding and Lightning
 
-That antenna reaching toward the sky does a great job of catching radio waves—but it's also pretty good at catching lightning. What makes grounding confusing is that the word means different things depending on whether you're talking about lightning protection, RF management, or basic electrical safety. Let's sort it all out.
+That antenna reaching toward the sky does a great job of catching radio waves—but it's also pretty good at catching lightning. Grounding can be confusing because it means different things for lightning protection, RF management, and basic electrical safety. Let's sort it all out.
 
 #### Lightning Protection
 
@@ -48,11 +48,11 @@ For RF, a connection to earth is not enough by itself. Bonding equipment enclosu
 
 Bonding also helps with a different problem: unwanted currents in your audio connections. Equipment may be connected through both its grounding conductors and the shields of audio cables. Small voltage differences can drive current around those multiple paths, creating a *ground loop*. If that current adds hum to your microphone or computer audio, the transmitter sends the hum along with your intended signal.
 
-> **Key Information:** Reports of hum on your station's transmitted signal can be a symptom of a ground loop in the station's audio connections. {{< link id="G4C10" >}}
+> **Key Information:**
+> - Reports of hum on your station's transmitted signal can be a symptom of a ground loop in the station's audio connections. {{< link id="G4C10" >}}
+> - Ground loops can be minimized by bonding equipment enclosures together. {{< link id="G4C09" >}}
 
-That report is a clue, not proof that every hum comes from a ground loop. Check the audio connections and equipment bonding rather than assuming that more microphone gain will help.
-
-> **Key Information:** Ground loops can be minimized by bonding equipment enclosures together. {{< link id="G4C09" >}}
+A hum report is a clue, not proof that every hum comes from a ground loop. Check the audio connections and equipment bonding rather than assuming that more microphone gain will help.
 
 A common bonding point helps reduce voltage differences between enclosures. Sometimes powering interconnected equipment from the same suitable outlet or power strip also helps. Do not disconnect an electrical safety ground to interrupt a loop; solving an audio problem must not create a shock hazard.
 
@@ -62,7 +62,7 @@ Beyond lightning and RF, there's basic electrical safety. Line-powered equipment
 
 > **Key Information:** Metal enclosures of station equipment are grounded to prevent hazardous voltages on the chassis. {{< link id="G4C12" >}}
 
-When insulation fails or a component shorts inside your equipment, the chassis could become energized at line voltage. A proper safety ground provides a low-impedance fault-current path that allows the fuse or circuit breaker to disconnect power. A ground rod does not replace the protective ground wire back to the electrical supply. Grounding reduces the hazard; it is not permission to touch equipment suspected of having a fault.
+When insulation fails or a component shorts inside your equipment, the chassis could become energized at line voltage. A proper safety ground gives fault current a low-impedance path, allowing the fuse or circuit breaker to disconnect power. A ground rod does not replace the protective ground wire back to the electrical supply. Grounding reduces the hazard; it is not permission to touch equipment suspected of having a fault.
 
 Never defeat safety grounds by cutting off ground pins, using two-prong adapters, or "floating" grounds to fix hum problems. If you have vintage equipment with a two-prong plug, have a qualified technician assess its safety. A three-wire cord alone is not a suitable fix for every circuit design.
 

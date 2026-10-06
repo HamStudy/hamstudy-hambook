@@ -67,15 +67,13 @@ Emergency services rely on NVIS because it provides dependable regional coverage
 
 Choosing among these paths also means choosing a frequency. Earlier in this chapter, we introduced MUF (Maximum Usable Frequency) for a particular path; now let's compare how it can differ between paths. {{< link id="G3B02" >}}
 
-> **Key Information:** MUF is affected by path distance and location, time of day and season, and solar radiation and ionospheric disturbances.
+> **Key Information:**
+> - MUF is affected by path distance and location, time of day and season, and solar radiation and ionospheric disturbances.
+> - For long-distance skip propagation, the least attenuation occurs at frequencies *just below the MUF*.
 
 Every path between two stations has its own MUF at any given moment. The path from New York to London might support 21 MHz while New York to Tokyo peaks at 14 MHz. These variations depend on ionospheric conditions along the entire path, not just at the endpoints.
 
-Choosing the right frequency relative to the MUF determines propagation success. {{< link id="G3B03" >}}
-
-> **Key Information:** For long-distance skip propagation, the least attenuation occurs at frequencies *just below the MUF*.
-
-Operating just below the MUF reduces absorption while the ionosphere can still return the signal. That explains the exam’s least-attenuation answer. The MUF changes, though: a little more room below it may keep a link working when conditions shift. Least attenuation does not necessarily mean minimum fading or greatest reliability.
+Choosing the right frequency relative to the MUF determines propagation success. {{< link id="G3B03" >}} Operating just below the MUF reduces absorption while the ionosphere can still return the signal. That explains the exam’s least-attenuation answer. The MUF changes, though: a little more room below it may keep a link working when conditions shift. Least attenuation does not necessarily mean minimum fading or greatest reliability.
 
 #### Monitoring Real Propagation
 

@@ -106,9 +106,7 @@ For example, a filter with 1 dB insertion loss passes about 80% of the input pow
 
 > **Key Information:** Ultimate rejection specifies a filter's maximum ability to reject signals outside its passband. {{< link id="G7C13" >}}
 
-A higher value (measured in dB) means better filtering of interference.
-
-A filter with 60 dB ultimate rejection reduces unwanted signals to one-millionth of their original power. The response curve shows where that rejection applies; it need not hold at every frequency outside the passband.
+A higher value (measured in dB) means better filtering of interference. A filter with 60 dB ultimate rejection reduces unwanted signals to one-millionth of their original power. The response curve shows where that rejection applies; it need not hold at every frequency outside the passband.
 
 #### Impedance Matching with Filters
 
