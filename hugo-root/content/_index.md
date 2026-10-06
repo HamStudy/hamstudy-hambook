@@ -55,7 +55,7 @@ Your purchase helps support the development and maintenance of these free resour
 
 {{% columns class="book-details" ratio="1:2" %}}
 
-![General HamBook](/general2023.jpg)
+![General Class HamBook](/general2023.jpg)
 {.hb-cover}
 
 <---> <!-- magic separator, between columns -->
