@@ -31,6 +31,9 @@ A beacon provides a signal that other operators can use to investigate a radio p
 
 How the beacon is controlled matters. The **control point** is where the control operator performs that duty. With **local control**, the control operator directly operates the controls. With **remote control**, the operator does so indirectly through a control link. With **automatic control**, devices and procedures keep the station in compliance without the control operator present at a control point. The station still has a responsible licensee and control operator.
 
+![Three side-by-side scenes show the same transceiver under different control methods. At left, an operator beside the radio represents local control: the operator adjusts the radio directly. In the center, an operator uses a separate control console; a dashed line connects that console to the radio: remote control. At right, a small controller box marked with a chip symbol operates the radio, with no person shown: automatic control. The distinction is how the station is controlled, not simply whether it uses a computer. All three methods still have a responsible station licensee and control operator. The diagram explains control methods, not permission for any particular transmission.](../../../images/s9-4-station-control.svg)
+{.img-full .img-centered caption="Left: local control, with the operator adjusting the radio directly. Center: remote control through a control link. Right: automatic control, with a controller operating the radio without an operator at a control point. Each method still requires a responsible licensee and control operator."}
+
 For ordinary FCC-authorized HF beacon operation, automatic control is limited to a specific range. Two other beacon limits apply:
 
 > **Key Information:**

@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="s9-4-station-control" width="1080" height="216" viewBox="0 0 1080 216" role="img" aria-labelledby="s9-4-station-control-title s9-4-station-control-desc">
+<title id="s9-4-station-control-title">Local, remote, and automatic station control</title>
+<desc id="s9-4-station-control-desc">Three side-by-side scenes show the same transceiver under different control methods. At left, an operator beside the radio represents local control: the operator adjusts the radio directly. In the center, an operator uses a separate control console; a dashed line connects that console to the radio: remote control. At right, a small controller box marked with a chip symbol operates the radio, with no person shown: automatic control. The distinction is how the station is controlled, not simply whether it uses a computer. All three methods still have a responsible station licensee and control operator. The diagram explains control methods, not permission for any particular transmission.</desc>
+<style>
+#s9-4-station-control .body { fill:#e5f0f6; stroke:#364756; stroke-width:2.4; }
+#s9-4-station-control .screen { fill:#ffffff; stroke:#086c9d; stroke-width:2; }
+#s9-4-station-control .ink { stroke:#364756; }
+#s9-4-station-control .blue { stroke:#086c9d; }
+#s9-4-station-control .person { fill:#364756; }
+#s9-4-station-control .muted { stroke:#6f8190; }
+#s9-4-station-control .rule { stroke:#c4d0d8; }
+#s9-4-station-control path,#s9-4-station-control line,#s9-4-station-control rect { stroke-linecap:round; stroke-linejoin:round; }
+@media screen and (prefers-color-scheme: dark) {
+#s9-4-station-control .body { fill:#142e41; stroke:#c3d1dc; }
+#s9-4-station-control .screen { fill:#08141d; stroke:#83cefa; }
+#s9-4-station-control .ink { stroke:#c3d1dc; }
+#s9-4-station-control .blue { stroke:#83cefa; }
+#s9-4-station-control .person { fill:#c3d1dc; }
+#s9-4-station-control .muted { stroke:#92a8b9; }
+#s9-4-station-control .rule { stroke:#394e5e; }
+#s9-4-station-control [fill="#086c9d"] { fill:#83cefa; }
+}
+</style>
+
+<!-- Identical radios keep attention on the way each station is controlled. -->
+<path class="rule" d="M358 25 V190 M718 25 V190" fill="none" stroke-width="1.3"/>
+<!-- Local: the operator is at the radio controls. -->
+<g transform="translate(-25 0)">
+<g transform="translate(176 87)">
+  <rect class="body" x="0" y="0" width="140" height="76" rx="7"/>
+  <path class="muted" d="M9 68 H131" stroke-width="1.5"/>
+  <circle class="screen" cx="27" cy="32" r="18"/>
+  <circle class="muted" cx="27" cy="32" r="12.5" fill="none" stroke-width="1.2"/>
+  <path class="blue" d="M27 16 V22" stroke-width="3"/>
+  <rect class="screen" x="56" y="12" width="70" height="26" rx="3"/>
+  <path class="blue" d="M64 28 H84 M89 28 H98 M104 28 H118" stroke-width="2.2"/>
+  <path class="muted" d="M57 52 H70 M78 52 H91" stroke-width="3"/>
+  <circle class="ink" cx="119" cy="53" r="5" fill="none" stroke-width="2"/>
+  <path class="ink" d="M13 77 V81 M127 77 V81" stroke-width="5"/>
+ </g>
+<g transform="translate(111 70)">
+  <circle class="person" cx="0" cy="0" r="14"/>
+  <path class="person" d="M-7 16 H7 L9 21 C24 24 26 38 25 58 L23 72 H-24 L-25 58 C-26 38-24 24-9 21 Z"/>
+ </g>
+<path class="rule" d="M79 170 H329" stroke-width="1.5"/>
+</g>
+<!-- Remote: the operator uses a console connected by a control link. -->
+<g transform="translate(395 70)">
+  <circle class="person" cx="0" cy="0" r="14"/>
+  <path class="person" d="M-7 16 H7 L9 21 C24 24 26 38 25 58 L23 72 H-24 L-25 58 C-26 38-24 24-9 21 Z"/>
+ </g>
+<g transform="translate(427 87)">
+  <rect class="body" x="0" y="0" width="70" height="48" rx="4"/>
+  <rect class="screen" x="7" y="7" width="56" height="33" rx="2"/>
+  <path class="blue" d="M16 29 H32 M39 29 H53" stroke-width="2"/>
+  <path class="ink" d="M34 49 V60 M16 61 H54" stroke-width="2.4"/>
+  <path class="body" d="M-3 67 H74 L82 77 H-10 Z"/>
+  <path class="muted" d="M7 72 H65" stroke-width="1.5"/>
+ </g>
+<path class="blue" d="M508 123 H545" stroke-width="2.6" stroke-dasharray="3 5" fill="none"/>
+<path class="blue" d="M540 118 L546 123 L540 128" stroke-width="2.6" fill="none"/>
+<g transform="translate(554 87)">
+  <rect class="body" x="0" y="0" width="140" height="76" rx="7"/>
+  <path class="muted" d="M9 68 H131" stroke-width="1.5"/>
+  <circle class="screen" cx="27" cy="32" r="18"/>
+  <circle class="muted" cx="27" cy="32" r="12.5" fill="none" stroke-width="1.2"/>
+  <path class="blue" d="M27 16 V22" stroke-width="3"/>
+  <rect class="screen" x="56" y="12" width="70" height="26" rx="3"/>
+  <path class="blue" d="M64 28 H84 M89 28 H98 M104 28 H118" stroke-width="2.2"/>
+  <path class="muted" d="M57 52 H70 M78 52 H91" stroke-width="3"/>
+  <circle class="ink" cx="119" cy="53" r="5" fill="none" stroke-width="2"/>
+  <path class="ink" d="M13 77 V81 M127 77 V81" stroke-width="5"/>
+ </g>
+<path class="rule" d="M376 170 H503 M551 170 H706" stroke-width="1.5"/>
+<!-- Automatic: an unattended hardware controller operates the radio. -->
+<rect class="body" x="771" y="91" width="84" height="70" rx="6"/>
+<!-- A chip symbol identifies the controller without a display or written label. -->
+<rect class="blue" x="799" y="109" width="28" height="28" rx="3" fill="none" stroke-width="2.4"/>
+<path class="blue" d="M805 102 V109 M813 102 V109 M821 102 V109 M805 137 V144 M813 137 V144 M821 137 V144 M792 115 H799 M792 123 H799 M792 131 H799 M827 115 H834 M827 123 H834 M827 131 H834" stroke-width="2.4" fill="none"/>
+<circle cx="840" cy="152" r="2.8" fill="#086c9d"/>
+<path class="blue" d="M856 123 H904 M899 118 L905 123 L899 128" stroke-width="2.6" fill="none"/>
+<g transform="translate(914 87)">
+  <rect class="body" x="0" y="0" width="140" height="76" rx="7"/>
+  <path class="muted" d="M9 68 H131" stroke-width="1.5"/>
+  <circle class="screen" cx="27" cy="32" r="18"/>
+  <circle class="muted" cx="27" cy="32" r="12.5" fill="none" stroke-width="1.2"/>
+  <path class="blue" d="M27 16 V22" stroke-width="3"/>
+  <rect class="screen" x="56" y="12" width="70" height="26" rx="3"/>
+  <path class="blue" d="M64 28 H84 M89 28 H98 M104 28 H118" stroke-width="2.2"/>
+  <path class="muted" d="M57 52 H70 M78 52 H91" stroke-width="3"/>
+  <circle class="ink" cx="119" cy="53" r="5" fill="none" stroke-width="2"/>
+  <path class="ink" d="M13 77 V81 M127 77 V81" stroke-width="5"/>
+ </g>
+<path class="rule" d="M758 170 H1067" stroke-width="1.5"/>
+</svg>
