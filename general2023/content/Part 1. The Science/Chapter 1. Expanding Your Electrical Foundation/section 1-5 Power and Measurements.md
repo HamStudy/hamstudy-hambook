@@ -49,9 +49,9 @@ The answer is Root Mean Square (RMS) values. RMS is a special mathematical metho
 
 > **Key Information:** The RMS value of an AC signal produces the same power dissipation in a resistor as a DC voltage of the same value. {{< link id="G5B07" >}}
 
-Why RMS and not just the average of the absolute values? It's because of how power works in resistive circuits. Power is proportional to voltage squared ($P = \frac{E^2}{R}$), not to voltage directly. The heating effect in a resistor—which is what actually matters in power calculations—depends on this squared relationship.
+Why use RMS instead of averaging the absolute values—the voltage readings without their minus signs? It's because of how power works in resistive circuits. Power is proportional to voltage squared ($P = \frac{E^2}{R}$), not to voltage directly. The heating effect in a resistor—which is what actually matters in power calculations—depends on this squared relationship.
 
-If we used the average of absolute values, our power calculations would be incorrect. The RMS calculation precisely accounts for the non-linear relationship between voltage and power by:
+If we used the average of absolute values, our power calculations would be incorrect. RMS accounts for this squared relationship between voltage and power by:
 1. Taking the square of each instantaneous value (the "Square" in RMS)
 2. Finding the average (Mean) of those squared values
 3. Taking the square Root of that average
@@ -62,7 +62,7 @@ $E_{RMS} = E_{peak} \cdot \frac{1}{\sqrt{2}} \approx 0.707 \cdot E_{peak}$
 
 For a resistor, using RMS voltage in $P = E^2/R$ gives the average power dissipated as heat. When you hear that household electricity is 120 volts, that's the RMS value, not the roughly 170-volt peak of its sine wave.
 
-Conversely:
+For example:
 - If you have 17 volts peak AC, the RMS voltage is: {{< link id="G5B09" >}} $E_{RMS} = \frac{17V}{1.414} = 12V$
 - If you have 120 volts RMS AC, the peak-to-peak voltage is: {{< link id="G5B08" >}} $E_{p-p} = 120V \times 2.828 = 339.4V$
 
@@ -82,7 +82,7 @@ The following table shows the relationships between voltage measurements for a *
 
 #### RF Power Measurements: PEP
 
-While we're discussing values which change over time, let's look at RF power: When transmitting voice or other complex signals, the power output varies moment by moment, depending on what is being sent! This means we need a standard way to measure power for the purpose of ensuring compliance with rules and not damaging equipment. This is where Peak Envelope Power (PEP) comes in.
+While we're discussing values which change over time, let's look at RF power: When transmitting voice or other complex signals, the power output varies moment by moment, depending on what is being sent! This means we need a standard way to measure power so we can follow the rules and avoid damaging equipment. This is where Peak Envelope Power (PEP) comes in.
 
 PEP is the average power over one RF cycle at the crest of the modulation envelope. The envelope follows the slower changes in the RF signal's amplitude, such as the peaks of speech. PEP describes those envelope peaks, not the highest instantaneous power within a single RF cycle. That distinction lets us compare changing signals using a consistent power measurement.
 
@@ -90,7 +90,7 @@ PEP is the average power over one RF cycle at the crest of the modulation envelo
 
 For a *continuous carrier with no modulation* (like a test tone or CW signal with the key down), *PEP equals the average power* because the power level remains constant. {{< link id="G5B13" >}} But with voice modulation, especially on SSB, the power output spikes during louder syllables. These momentary peaks might be several times higher than the average power level.
 
-For a sinusoidal RF waveform across a resistive load, using the peak RF voltage at the envelope crest gives:
+For a sine-wave RF signal across a resistive load, using the peak RF voltage at the envelope crest gives:
 
 $$PEP = \frac{E_{peak}^2}{2R}$$
 

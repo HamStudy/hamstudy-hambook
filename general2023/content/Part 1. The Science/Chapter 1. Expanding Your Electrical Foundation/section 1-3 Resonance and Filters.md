@@ -98,7 +98,7 @@ Lower loss generally gives a higher Q. When you adjust your radio’s filter fro
 
 > **Key Information:** Insertion loss specifies a filter's attenuation inside its passband. {{< link id="G7C07" >}}
 
-Ideally, a filter would pass desired frequencies with zero attenuation, but real-world components always introduce some loss. Lower insertion loss preserves more of the wanted signal; bandwidth and rejection still matter too.
+Ideally, a filter would pass signals at the desired frequencies without weakening them, but real-world components always introduce some loss. Lower insertion loss preserves more of the wanted signal; bandwidth and rejection still matter too.
 
 For example, a filter with 1 dB insertion loss passes about 80% of the input power within its passband.
 

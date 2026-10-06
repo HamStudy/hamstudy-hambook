@@ -9,7 +9,7 @@ status: draft1
 
 Did you ever use those old Christmas lights where one burned-out bulb killed the whole string? That's an example of a series circuit—components connected end-to-end in a single path. Now think about the outlets in your home: unplug the lamp and your radio keeps playing. That's a parallel circuit—each device has its own path to power.
 
-Parallel capacitors add together for more filtering, but series capacitors actually decrease in total value. Understanding why components combine differently in series versus parallel unlocks every circuit in your station, from filters to antenna matching networks.
+Parallel capacitors add together for more filtering, but series capacitors actually decrease in total value. Understanding why components combine differently in series versus parallel helps you make sense of circuits throughout your station, from filters to antenna matching networks.
 
 #### Understanding Current and Voltage in Series and Parallel Circuits
 
@@ -25,8 +25,8 @@ In series circuits, imagine garden hoses connected end-to-end: every drop must f
 * **One Path:** Components connected end-to-end in a single loop—current must flow through each in turn.
 * **Same Current Everywhere:** Like our garden hose example, the same current flows through every component.
 * **Voltage Divides:** Total voltage splits among components. Each creates a voltage drop; all drops sum to source voltage.
-* **Ohm's Law:** Since current is constant, voltage drop depends on resistance: $E = I \times R$. Higher resistance = larger voltage drop.
-* **Failure Modes:** Open component (burned bulb) = circuit dead. Shorted component = bypassed; with the same source voltage, more current flows through the remaining resistors.
+* **Ohm's Law:** Since current is constant, voltage drop depends on resistance: $E = I \times R$. Higher resistance means a larger voltage drop.
+* **Failure Modes:** An open component, such as a burned-out bulb, breaks the path and stops current flow. A shorted component is bypassed; with the same source voltage, more current flows through the remaining resistors.
 
 ##### Parallel Circuits:
 
@@ -39,7 +39,7 @@ With a parallel circuit it's more like your home's plumbing, where the main line
 
 > **Key Information:** In a circuit of parallel resistors, the total current equals the sum of the currents through each branch. {{< link id="G5B02" >}}
 
-* **Ohm's Law:** Since voltage is constant, current through each branch depends on its resistance: $I = \frac{E}{R}$. Lower resistance = more current.
+* **Ohm's Law:** Since voltage is constant, current through each branch depends on its resistance: $I = \frac{E}{R}$. Lower resistance means more current.
 * **Independent Operation:** One branch opens, others continue—like your home outlets working independently. A shorted branch is different: it can overload the shared supply or trip its protection.
 
 #### How Different Components Combine
@@ -54,7 +54,7 @@ Now that we understand current and voltage behavior, let's see how components co
 | Inductors | Direct Sum: <br />$$L_{total} = L_1 + L_2 + L_3 + \ldots$$ | Reciprocal Method:<br /> $$\frac{1}{L_{total}} = \frac{1}{L_1} + \frac{1}{L_2} + \frac{1}{L_3} + \ldots$$|
 {{< /captioned >}}
 
-**Memory tip:** Resistors and inductors follow the same rules (add in series, reciprocal in parallel) because both create opposition that increases with more components. Capacitors flip the pattern—they add in parallel because parallel plates mean more storage area. Now let's explore each type with practical examples.
+**Memory tip:** Resistors and inductors follow the same rules (add in series, reciprocal in parallel) because both create opposition that increases with more components in series. Capacitors flip the pattern—they add in parallel because parallel plates mean more storage area. Now let's explore each type with practical examples.
 
 #### Resistors in Combination
 
@@ -188,8 +188,8 @@ These calculations aren't just exam prep—they're tools that help you understan
 
 1. **Resonant Circuits**: Variable capacitors parallel with inductors tune to specific frequencies
 2. **Impedance Matching**: Antenna tuners can combine inductors and capacitors in series and parallel arrangements to present a 50Ω load to the transmitter
-3. **Filtering**: One low-pass filter design uses series L to oppose higher frequencies and parallel C to bypass them
-4. **Power Distribution**: For resistive DC loads, series resistors share current ($P = I^2R$); parallel resistors share voltage ($P = E^2/R$)
+3. **Filtering**: One low-pass filter design uses inductors in series to oppose higher frequencies and capacitors in parallel to bypass them
+4. **Power Distribution**: For resistive DC loads, the same current flows through each series resistor ($P = I^2R$), while each parallel resistor has the same voltage across it ($P = E^2/R$)
 
 #### Your Foundation Is Set
 

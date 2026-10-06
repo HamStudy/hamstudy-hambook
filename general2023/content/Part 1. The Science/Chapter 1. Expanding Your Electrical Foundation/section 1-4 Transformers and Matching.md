@@ -24,13 +24,13 @@ Let's look at the tools that help us create matches between different impedances
 
 #### Transformers: The Impedance Conversion Tools
 
-Transformers are elegant devices that transfer energy between circuits while changing voltage and current ratios—and consequently, impedance. They work through electromagnetic induction, allowing separately wound circuits to have no direct electrical connection. Autotransformers share an electrical connection, so the name “transformer” alone does not guarantee isolation.
+Transformers are elegant devices that transfer energy between circuits while changing voltage and current ratios—and consequently, impedance. They work through electromagnetic induction. With separate windings, energy can pass between circuits without a direct electrical connection. Autotransformers share an electrical connection, so the name “transformer” alone does not guarantee isolation.
 
 > **Key Information:** Mutual inductance causes a voltage to appear across the secondary winding of a transformer when an AC voltage source is connected across its primary winding. {{< link id="G5C01" >}}
 
 A transformer consists of two or more windings (coils) wrapped around a common core. When alternating current flows through the primary winding, it creates a changing magnetic field that induces voltage across the secondary winding. Current flows when a load completes that circuit. The ratio of turns between these windings determines how voltage, current, and impedance transform.
 
-One of the most commonly known uses for a transformer is to convert between different AC voltages – for example, using a transformer with ten primary turns for every secondary turn and 120VAC on the primary winding you will get ($\frac{1}{10} \cdot 120V$) = 12VAC out, which is the first basic step used in many simple power supply designs! However, since a transformer works on AC signals they can also be used to change voltage *or impedance* of audio or RF signals when designed for that frequency and power!
+One common use for a transformer is to convert between different AC voltages. For example, suppose a transformer has ten primary turns for every secondary turn. With 120VAC on the primary winding, you get ($\frac{1}{10} \cdot 120V$) = 12VAC out. This is the first basic step in many simple power supply designs. Because transformers work on AC signals, they can also change the voltage *or impedance* of audio or RF signals when designed for that frequency and power.
 
 ##### Understanding Turns Ratio
 
@@ -64,7 +64,7 @@ For example, a 200-ohm load on that secondary appears as 50 ohms at the primary.
 
 ##### Transformer Applications
 
-This impedance transformation capability makes transformers invaluable in amateur radio for:
+The ability to change impedance makes transformers useful in amateur radio for:
 
 1. **Antenna Matching**: Converting antenna impedance to match transmitter output
 2. **Baluns** (Balanced-to-Unbalanced): Connecting balanced antennas to unbalanced feed lines
@@ -174,7 +174,7 @@ Connecting coax to a balanced antenna can also allow unwanted common-mode curren
 
 #### LC Matching Networks
 
-Besides transformers, simple combinations of inductors and capacitors (LC networks) can also match impedances. These appear in various configurations (L, Pi, or T networks) in antenna tuners and amplifier output circuits. While the specific designs vary, they all perform the essential function of transforming impedance to present the load required by your radio components. A good input match does not remove feed-line loss or make an inefficient antenna efficient.
+Besides transformers, simple combinations of inductors and capacitors (LC networks) can also match impedances. These appear in various configurations (L, Pi, or T networks) in antenna tuners and amplifier output circuits. Although the designs vary, each changes the impedance so the radio components see the load they require. A good input match does not remove feed-line loss or make an inefficient antenna efficient.
 
 #### Application to General Class Operations
 
@@ -182,7 +182,7 @@ Understanding impedance matching has practical benefits as you prepare to use Ge
 
 * **In Your Station**: Antenna tuners use matching networks to ensure your transmitter sees its expected 50-ohm load, while SWR meters help you detect mismatches.
 
-* **Real-World Considerations**: Perfect matching isn't always necessary—equipment limits vary, so check your radio’s specified SWR and power limits, and sometimes improving an antenna is better than matching a poor one.
+* **Real-World Considerations**: Perfect matching isn't always necessary. Equipment limits vary, so check your radio’s specified SWR and power limits. Sometimes improving an antenna is better than matching a poor one.
 
 * **Why It Matters**: With General privileges, you can operate across multiple HF bands with a single antenna and potentially use higher power levels where mismatches become more significant. Understanding matching helps you make better equipment choices and get more of your transmitter's power to actually radiate from your antenna.
 

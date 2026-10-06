@@ -93,10 +93,10 @@ The opposing behaviors of inductors and capacitors create a fascinating scenario
 
 Since inductive reactance increases with frequency while capacitive reactance decreases, a simple ideal LC circuit has one frequency where they're equal—the resonant frequency.
 
-At this special frequency, dramatic circuit behaviors occur that we'll explore in detail in the next section. Resonance is the foundation for filters that select desired frequencies, oscillators that generate signals, antenna systems that efficiently radiate power, and impedance matching networks.
+We'll explore what happens at resonance in the next section. Resonance is the foundation for filters that select desired frequencies, oscillators that generate signals, antenna systems that efficiently radiate power, and impedance matching networks.
 
 #### Making Sense of Your Equipment
 
-You now know why your SWR changes with frequency even though your antenna doesn't move—reactance is changing. You understand why ferrite cores reduce interference (impedance that can include reactance and loss) and why bypass capacitors clean up power supplies (low capacitive reactance to noise).
+You now know why your SWR changes with frequency even though your antenna doesn't move—reactance is changing. You understand why ferrite cores reduce interference: their impedance can include both reactance and loss. You also know why bypass capacitors clean up power supplies: they offer low capacitive reactance to noise.
 
 Most importantly, you're ready to understand resonance—that special frequency where inductive and capacitive reactances cancel completely.
