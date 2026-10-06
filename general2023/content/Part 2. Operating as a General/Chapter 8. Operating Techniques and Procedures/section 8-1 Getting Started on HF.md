@@ -25,7 +25,7 @@ For the same audio-frequency range, one sideband occupies about half the bandwid
 
 > **Key Information:** Less bandwidth used and greater power efficiency are advantages of SSB compared to other analog voice modes on the HF amateur bands. {{< link id="G2A06" >}}
 
-Those advantages help explain SSB’s widespread use. The receiver controls and audio adjustments from the previous chapter help you make use of them when noise or interference makes a contact difficult.
+The receiver controls and audio adjustments from the previous chapter help you make use of them when noise or interference makes a contact difficult.
 
 
 #### Selecting the Sideband

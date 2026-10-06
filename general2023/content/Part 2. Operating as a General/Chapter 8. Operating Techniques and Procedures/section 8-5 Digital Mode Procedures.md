@@ -92,8 +92,4 @@ Those symptoms suggest a link problem, but do not identify its cause by themselv
 
 Watch for the transfer result before disconnecting. A successful upload means the gateway accepted the message; it does not necessarily mean the intended person has read it. When receipt matters, arrange an acknowledgment from the recipient.
 
-#### Match the Procedure to the Purpose
-
-RTTY leaves the conversation largely to the operators. FT8 uses a defined contact sequence. A gateway session aims to transfer messages correctly. Knowing which kind of exchange you are making helps you recognize the proper next step instead of treating every decoded signal as an invitation to transmit.
-
-These distinctions matter beyond routine contacts. In an emergency, the best method is the one that can carry the needed information to the people who can use it, with a way to confirm that it arrived.
+These procedures matter beyond routine contacts. In an emergency, the best method is the one that can carry the needed information to the people who can use it, with a way to confirm that it arrived.

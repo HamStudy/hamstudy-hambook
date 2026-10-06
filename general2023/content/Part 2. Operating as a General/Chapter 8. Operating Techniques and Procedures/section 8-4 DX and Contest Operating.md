@@ -23,7 +23,7 @@ Voluntary band plans sometimes provide operating windows for DX as well. One exa
 
 > **Key Information:** Under the voluntary band plan, US stations within the 48 contiguous states operating from 50.1 to 50.125 MHz should make only contacts with stations outside the 48 contiguous states. {{< link id="G2B08" >}}
 
-The restriction concerns location, not whether the path crosses an ocean. Use the window for those contacts and conduct other conversations elsewhere, while still checking for existing activity.
+Use the window for those contacts and conduct other conversations elsewhere, while still checking for existing activity.
 
 #### Finding an Antenna Heading
 

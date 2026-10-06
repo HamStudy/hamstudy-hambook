@@ -63,7 +63,7 @@ Several local sites may need to share forms, files, or phone connections at the 
 
 AREDN links stations using compatible network radios, rather than the HF audio setup used for modes such as FT8. Applications on the network can provide services such as file sharing, messaging, or voice over IP. The radio links and the services must be deployed and working at the locations that need them.
 
-An AREDN network can operate without public internet access, but it does not automatically restore access to internet services. Choose applications available within the working network, and confirm that the intended recipient can use them. Choose a method that both ends can support, then check that the message was received.
+An AREDN network can operate without public internet access, but it does not automatically restore access to internet services. Choose applications available within the working network, and confirm that the intended recipient can use them.
 
 #### Preparing with ARES and RACES
 
