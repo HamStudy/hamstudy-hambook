@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="s2-5-meter-loading" width="960" height="276" viewBox="0 68 960 276" role="img" aria-labelledby="s2-5-meter-loading-title s2-5-meter-loading-desc">
+<title id="s2-5-meter-loading-title">How a voltmeter loads a voltage divider</title>
+<desc id="s2-5-meter-loading-desc">Two side-by-side voltage-divider circuits each have a 10-volt source and two 10-kilohm series resistors. At left, without a meter, the midpoint is 5 volts above ground. At right, a circle marked V represents a voltmeter with 10 kilohms of input resistance. It connects between the midpoint and ground, in parallel with the lower resistor. That pair has an equivalent resistance of 5 kilohms. The upper resistor remains 10 kilohms, so the midpoint falls to about 3.3 volts, highlighted in red. Junction dots show each parallel connection. The meter changes the circuit it measures.</desc>
+
+<defs><marker id="s2-5-meter-loading-current-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 1 1 L 9 5 L 1 9 Z" fill="#b45309"/></marker>
+<!-- Symbol and unit glyphs use the KaTeX font already used for book equations.
+The MIT License (MIT)
+
+Copyright (c) 2013-2020 Khan Academy and other contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+-->
+<path id="s2-5-meter-label-regular-43" d="M70 270H369V420L370 570Q380 583 389 583Q402 583 409 568V270H707Q722 262 722.0 250.0Q722 238 707 230H409V-68Q402 -82 389.0 -82.0Q376 -82 369 -68V230H70Q56 237 56.0 250.0Q56 263 70 270Z"/>
+<path id="s2-5-meter-label-regular-8722" d="M98 270H679Q694 262 694.0 250.0Q694 238 679 230H98Q84 237 84.0 250.0Q84 263 98 270Z"/>
+<path id="s2-5-meter-label-regular-49" d="M416 0Q399 3 257 3Q117 3 100 0H88V46H114Q172 46 189 49Q197 50 213 61V578Q211 578 205 575Q159 557 102 556H83V602H102Q186 605 242 640Q260 650 273 663Q275 666 285.0 666.0Q295 666 302 660V361L303 61Q318 46 368 46H401H427V0Z"/>
+<path id="s2-5-meter-label-regular-48" d="M96 585Q152 666 249 666Q322 666 377 616Q404 590 423 548Q460 465 460 320Q460 165 417 83Q389 25 335 -1Q293 -22 250 -22Q135 -22 82 83Q39 165 39 320Q39 413 51.5 473.5Q64 534 96 585ZM321 597Q292 629 250.0 629.0Q208 629 178 597Q156 574 148.0 541.0Q140 508 138 427Q138 421 137.5 388.0Q137 355 137 333Q137 237 139 199Q143 129 151.0 98.5Q159 68 181 46Q208 16 250 16Q291 16 318 46Q340 68 348.0 98.5Q356 129 360 199Q362 237 362 333Q362 355 361.5 388.0Q361 421 361 427Q359 508 351.0 541.0Q343 574 321 597Z"/>
+<path id="s2-5-meter-label-regular-86" d="M114 620Q103 631 94.0 633.5Q85 636 48 637H19V683H28Q42 680 152 680Q272 680 294 683H305V637H284Q238 636 227 626Q223 623 223 620Q223 618 313.0 372.0Q403 126 404 126Q575 590 575 597Q575 616 554.0 626.5Q533 637 508 637H503V683H512Q529 680 627 680Q713 680 724 683H730V637H723Q649 637 627 596Q627 595 514.5 291.0Q402 -13 401 -14Q398 -20 394.0 -21.0Q390 -22 374 -22Q372 -22 369 -22Q352 -22 349 -16L348 -14Z"/>
+<path id="s2-5-meter-label-regular-107" d="M22 683Q26 683 100.0 688.5Q174 694 176 694H179V463L180 233L240 287Q300 341 304 347Q310 356 310 364Q310 382 289 385H284V431H293Q306 428 412 428Q419 428 430.5 428.5Q442 429 448.0 429.0Q454 429 463.5 429.5Q473 430 478.0 430.5Q483 431 484 431H489V385H476Q407 380 360 341Q286 278 286 274Q286 273 349.5 180.5Q413 88 420 79Q434 60 451.5 53.0Q469 46 500 46H511V0H505Q493 3 418 3Q320 3 307 0H299V46H306Q330 48 330 65Q330 72 326 79Q323 84 276.0 153.0Q229 222 228 222Q216 212 202 199L176 176V120Q176 62 177 60Q185 46 227 46H238H254V0H246Q235 3 137.0 3.0Q39 3 28 0H20V46H36H47Q89 46 97 60V68Q97 77 97.0 91.0Q97 105 97.5 124.0Q98 143 98.0 167.5Q98 192 98.0 217.5Q98 243 98.0 272.5Q98 302 98 329Q98 366 98.0 407.5Q98 449 98.0 482.0Q98 515 97.5 542.5Q97 570 97.0 586.0Q97 602 97 603Q94 622 82.5 628.5Q71 635 38 637H20V660Q20 683 22 683Z"/>
+<path id="s2-5-meter-label-regular-937" d="M77 2 62 88Q46 173 44 175V177H84L85 172Q85 167 89 153Q96 108 104 93Q108 88 111 86Q124 81 178 80H222V83Q213 110 200.5 135.0Q188 160 181.0 171.5Q174 183 145 228Q81 331 65 385Q55 422 55 454Q55 484 63 511Q85 586 156.0 640.5Q227 695 322 703Q328 704 337 704H352Q493 704 583 627Q640 577 658 511Q666 484 666 454Q666 422 656 385Q640 331 576 228Q537 167 521 136Q504 99 499 83V80H543Q597 81 610 86Q614 88 617 93Q624 108 632 153Q636 167 636 172L637 177H677V175Q675 173 660 88L644 2V0H552Q478 0 466.5 0.5Q455 1 453 6Q451 10 451 20Q451 49 460 99Q468 139 499 234Q531 331 541 386Q548 428 548 455Q548 596 445 648Q403 668 361 668Q259 668 205 583Q174 534 174 456Q174 422 180 386Q190 331 222 234Q253 139 261 99Q270 50 270 20Q270 7 263 0H77Z"/>
+<path id="s2-5-meter-label-bold-53" d="M131 229Q164 229 185.0 208.0Q206 187 206 154Q206 100 155 83Q152 82 157 78Q196 47 253 47Q305 47 335 77Q347 90 352.5 111.0Q358 132 359.0 150.5Q360 169 360 209Q360 246 359 257Q357 296 353.0 311.0Q349 326 337 338Q315 358 282 358Q202 358 160 303Q153 294 148.5 292.0Q144 290 130 290Q107 290 102 301Q100 304 100 474V565Q101 649 105 652L107 653Q112 656 131 650Q202 623 286 623Q365 623 443 651Q459 657 465 653Q472 650 472 629Q472 613 463 601Q386 507 267 490Q248 487 219 487Q192 487 169 490Q168 490 168 433V376L170 377Q171 378 174.0 379.5Q177 381 179 382Q226 409 288 409Q389 409 453.0 352.5Q517 296 517 201Q517 102 442.5 45.5Q368 -11 253 -11Q186 -11 135.0 21.5Q84 54 66 104Q57 131 57 154Q57 186 78.5 207.5Q100 229 131 229Z"/>
+<path id="s2-5-meter-label-bold-86" d="M592 686Q613 683 724 683Q823 683 835 686H843V624H744L611 315Q503 66 488.0 33.0Q473 0 465 -5L460 -7H409L403 -5Q395 0 380.0 33.0Q365 66 257 315L124 624H25V686H36Q55 683 190 683Q346 683 364 686H377V624H289L384 403L480 185L492 212Q504 240 529.0 298.0Q554 356 575 405L670 624H582V686Z"/>
+<path id="s2-5-meter-label-bold-8776" d="M806 524Q829 524 829 479Q829 400 775.5 350.0Q722 300 638 300Q612 300 587 306Q532 318 441 371Q364 414 327 427Q289 439 256 439Q205 439 164.5 416.0Q124 393 110 359Q108 355 107.0 341.5Q106 328 105 324Q98 300 85 300Q81 300 77 304Q64 315 64 345Q64 424 117.5 474.0Q171 524 250 524Q280 524 306 518Q360 506 453 453Q514 418 547.5 404.5Q581 391 616 386Q623 385 636 385Q706 385 753 424Q786 454 786 481Q786 495 791.5 509.5Q797 524 806 524ZM808 256Q829 256 829 208Q829 179 819 152Q802 99 754.5 65.5Q707 32 640 32Q612 32 587 38Q535 49 443 102Q368 144 328 158Q290 171 256 171Q205 171 164.5 148.0Q124 125 110 91Q108 87 107.0 73.5Q106 60 105 56Q98 32 85 32Q81 32 77 36Q64 47 64 77Q64 156 117.5 206.0Q171 256 250 256Q280 256 306 250Q357 240 453 185Q514 150 547.5 136.5Q581 123 616 118Q623 117 636 117Q681 117 721.0 136.0Q761 155 778 186Q786 202 786 213Q786 231 792.5 243.5Q799 256 808 256Z"/>
+<path id="s2-5-meter-label-bold-51" d="M80 503Q80 571 137.5 613.0Q195 655 274 655Q358 655 416.5 625.0Q475 595 491 538Q493 528 493 510Q493 398 361 348L376 344Q456 323 493 275Q526 232 526 184Q526 162 520 139Q501 67 434.0 28.0Q367 -11 265 -11Q152 -11 87 54Q48 93 48 148Q48 184 71.0 208.0Q94 232 132.0 232.0Q170 232 193.0 208.0Q216 184 216 147Q216 99 176 76L168 71Q168 67 196 59Q226 48 266 48Q331 48 350 105Q358 128 358 185Q358 241 348.5 268.5Q339 296 309 313Q292 321 242 322Q203 322 197 324Q191 329 191 348Q191 366 196.0 369.5Q201 373 232 375Q239 375 247.0 376.0Q255 377 260.5 377.5Q266 378 268 378Q304 390 322.5 427.0Q341 464 341 517Q341 561 325.0 580.5Q309 600 266 600Q227 600 183 576Q234 556 234 503Q234 467 212.0 446.5Q190 426 157 426Q123 426 101.5 447.5Q80 469 80 503Z"/>
+<path id="s2-5-meter-label-bold-46" d="M74 85Q74 116 93.5 139.0Q113 162 143 170Q147 171 156 171Q208 171 232 130Q245 110 245 85Q245 57 228.5 34.5Q212 12 184 3Q175 1 160 1Q128 1 105 20Q74 44 74 85Z"/>
+</defs>
+<g fill="none" stroke="#111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+<path d="M 60 160 V 80 H 245 V 102" stroke="#111"/>
+<polyline points="245,102 255,108 235,114 255,120 235,126 255,132 235,138 255,144 245,150"/>
+<line x1="245" y1="150" x2="245" y2="216" stroke="#111" stroke-width="3"/>
+<polyline points="245,216 255,222 235,228 255,234 235,240 255,246 235,252 255,258 245,264"/>
+<path d="M 245 264 V 300 H 60 V 220" stroke="#111"/>
+<circle cx="60" cy="190" r="30"/>
+<g fill="#111" stroke="none" data-label="+" transform="translate(49.886 186)"><use href="#s2-5-meter-label-regular-43" transform="translate(0.000 0) scale(0.026000 -0.026000)"/></g>
+<g fill="#111" stroke="none" data-label="−" transform="translate(49.886 212)"><use href="#s2-5-meter-label-regular-8722" transform="translate(0.000 0) scale(0.026000 -0.026000)"/></g>
+<g fill="#0068a8" stroke="none" data-label="10 V" transform="translate(103.000 199)"><use href="#s2-5-meter-label-regular-49" transform="translate(0.000 0) scale(0.026000 -0.026000)"/><use href="#s2-5-meter-label-regular-48" transform="translate(13.000 0) scale(0.026000 -0.026000)"/><use href="#s2-5-meter-label-regular-86" transform="translate(32.500 0) scale(0.026000 -0.026000)"/></g>
+<g fill="#111" stroke="none" data-label="10 kΩ" transform="translate(157.000 134)"><use href="#s2-5-meter-label-regular-49" transform="translate(0.000 0) scale(0.026000 -0.026000)"/><use href="#s2-5-meter-label-regular-48" transform="translate(13.000 0) scale(0.026000 -0.026000)"/><use href="#s2-5-meter-label-regular-107" transform="translate(32.500 0) scale(0.026000 -0.026000)"/><use href="#s2-5-meter-label-regular-937" transform="translate(46.228 0) scale(0.026000 -0.026000)"/></g>
+<g fill="#111" stroke="none" data-label="10 kΩ" transform="translate(157.000 247)"><use href="#s2-5-meter-label-regular-49" transform="translate(0.000 0) scale(0.026000 -0.026000)"/><use href="#s2-5-meter-label-regular-48" transform="translate(13.000 0) scale(0.026000 -0.026000)"/><use href="#s2-5-meter-label-regular-107" transform="translate(32.500 0) scale(0.026000 -0.026000)"/><use href="#s2-5-meter-label-regular-937" transform="translate(46.228 0) scale(0.026000 -0.026000)"/></g>
+<circle cx="245" cy="183" r="5" fill="#111" stroke="none"/>
+<path d="M 245 300 V 314 M 225 314 H 265 M 232 323 H 258 M 239 332 H 251" stroke="#111"/>
+<path d="M 535 160 V 80 H 710 V 102" stroke="#111"/>
+<polyline points="710,102 720,108 700,114 720,120 700,126 720,132 700,138 720,144 710,150"/>
+<line x1="710" y1="150" x2="710" y2="216" stroke="#111" stroke-width="3"/>
+<polyline points="710,216 720,222 700,228 720,234 700,240 720,246 700,252 720,258 710,264"/>
+<path d="M 710 264 V 300 H 535 V 220" stroke="#111"/>
+<circle cx="535" cy="190" r="30"/>
+<g fill="#111" stroke="none" data-label="+" transform="translate(524.886 186)"><use href="#s2-5-meter-label-regular-43" transform="translate(0.000 0) scale(0.026000 -0.026000)"/></g>
+<g fill="#111" stroke="none" data-label="−" transform="translate(524.886 212)"><use href="#s2-5-meter-label-regular-8722" transform="translate(0.000 0) scale(0.026000 -0.026000)"/></g>
+<g fill="#0068a8" stroke="none" data-label="10 V" transform="translate(578.000 199)"><use href="#s2-5-meter-label-regular-49" transform="translate(0.000 0) scale(0.026000 -0.026000)"/><use href="#s2-5-meter-label-regular-48" transform="translate(13.000 0) scale(0.026000 -0.026000)"/><use href="#s2-5-meter-label-regular-86" transform="translate(32.500 0) scale(0.026000 -0.026000)"/></g>
+<g fill="#111" stroke="none" data-label="10 kΩ" transform="translate(622.000 134)"><use href="#s2-5-meter-label-regular-49" transform="translate(0.000 0) scale(0.026000 -0.026000)"/><use href="#s2-5-meter-label-regular-48" transform="translate(13.000 0) scale(0.026000 -0.026000)"/><use href="#s2-5-meter-label-regular-107" transform="translate(32.500 0) scale(0.026000 -0.026000)"/><use href="#s2-5-meter-label-regular-937" transform="translate(46.228 0) scale(0.026000 -0.026000)"/></g>
+<g fill="#111" stroke="none" data-label="10 kΩ" transform="translate(622.000 247)"><use href="#s2-5-meter-label-regular-49" transform="translate(0.000 0) scale(0.026000 -0.026000)"/><use href="#s2-5-meter-label-regular-48" transform="translate(13.000 0) scale(0.026000 -0.026000)"/><use href="#s2-5-meter-label-regular-107" transform="translate(32.500 0) scale(0.026000 -0.026000)"/><use href="#s2-5-meter-label-regular-937" transform="translate(46.228 0) scale(0.026000 -0.026000)"/></g>
+<circle cx="710" cy="183" r="5" fill="#111" stroke="none"/>
+<path d="M 710 300 V 314 M 690 314 H 730 M 697 323 H 723 M 704 332 H 716" stroke="#111"/>
+<g fill="#0068a8" stroke="none" data-label="5 V" transform="translate(271.000 192)"><use href="#s2-5-meter-label-bold-53" transform="translate(0.000 0) scale(0.026000 -0.026000)"/><use href="#s2-5-meter-label-bold-86" transform="translate(21.450 0) scale(0.026000 -0.026000)"/></g>
+<path d="M 710 183 H 851 V 209" stroke="#b45309"/>
+<path d="M 851 281 V 300 H 710" stroke="#b45309"/>
+<circle cx="710" cy="300" r="5" fill="#111" stroke="none"/>
+<circle cx="851" cy="245" r="36" stroke="#b45309"/>
+<g fill="#111" stroke="none" data-label="V" transform="translate(839.000 256)"><use href="#s2-5-meter-label-regular-86" transform="translate(0.000 0) scale(0.032000 -0.032000)"/></g>
+<g fill="#b45309" stroke="none" data-label="10 kΩ" transform="translate(818.500 328)"><use href="#s2-5-meter-label-regular-49" transform="translate(0.000 0) scale(0.026000 -0.026000)"/><use href="#s2-5-meter-label-regular-48" transform="translate(13.000 0) scale(0.026000 -0.026000)"/><use href="#s2-5-meter-label-regular-107" transform="translate(32.500 0) scale(0.026000 -0.026000)"/><use href="#s2-5-meter-label-regular-937" transform="translate(46.228 0) scale(0.026000 -0.026000)"/></g>
+<g fill="#ff0000" stroke="none" data-label="≈3.3 V" transform="translate(750.000 169)"><use href="#s2-5-meter-label-bold-8776" transform="translate(0.000 0) scale(0.026000 -0.026000)"/><use href="#s2-5-meter-label-bold-51" transform="translate(23.244 0) scale(0.026000 -0.026000)"/><use href="#s2-5-meter-label-bold-46" transform="translate(38.194 0) scale(0.026000 -0.026000)"/><use href="#s2-5-meter-label-bold-51" transform="translate(46.488 0) scale(0.026000 -0.026000)"/><use href="#s2-5-meter-label-bold-86" transform="translate(67.938 0) scale(0.026000 -0.026000)"/></g>
+</g>
+<style>
+@media screen and (prefers-color-scheme: dark) {
+  #s2-5-meter-loading [fill="white"] { fill: #000000; }
+  #s2-5-meter-loading [fill="#111"] { fill: #e9eef4; }
+  #s2-5-meter-loading [stroke="#111"] { stroke: #e9eef4; }
+  #s2-5-meter-loading [fill="#0068a8"] { fill: #79c6ff; }
+  #s2-5-meter-loading [fill="#ff0000"] { fill: #ff4040; }
+  #s2-5-meter-loading [stroke="#0068a8"] { stroke: #79c6ff; }
+  #s2-5-meter-loading [fill="#b45309"] { fill: #ffc078; }
+  #s2-5-meter-loading [stroke="#b45309"] { stroke: #ffc078; }
+  #s2-5-meter-loading [fill="#00776f"] { fill: #70d5c6; }
+  #s2-5-meter-loading [stroke="#00776f"] { stroke: #70d5c6; }
+}
+</style>
+</svg>

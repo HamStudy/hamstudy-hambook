@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="s4-3-log-periodic" width="850" height="214" viewBox="80 40 850 214" role="img" aria-labelledby="s4-3-log-periodic-title s4-3-log-periodic-desc">
+<title id="s4-3-log-periodic-title">Log-periodic dipole array</title>
+<desc id="s4-3-log-periodic-desc">Seven dipoles become shorter and closer together by a constant ratio toward one end of the array. Longer elements serve lower frequencies; shorter elements serve higher frequencies. Every dipole connects at its center to a common two-conductor feed system. Connections alternate between adjacent dipoles, shown by crossed feed lines with gaps at the crossings to indicate that the wires do not touch. The external feed enters at the short-element end. This schematic explains the arrangement; it is not a construction plan or a radiation-pattern plot.</desc>
+
+<style>
+  #s4-3-log-periodic .ink { stroke: #526374; }
+  #s4-3-log-periodic .divider { stroke: #c7d1da; stroke-width: 1.5; }
+  #s4-3-log-periodic .primary { stroke: #0068a8; }
+  #s4-3-log-periodic .primary-fill { fill: #0068a8; }
+  #s4-3-log-periodic .primary-tint { fill: #e4f1fa; }
+  #s4-3-log-periodic .secondary { stroke: #b45309; }
+  #s4-3-log-periodic .secondary-fill { fill: #b45309; }
+  #s4-3-log-periodic .secondary-tint { fill: #fff0dc; }
+  #s4-3-log-periodic .teal { stroke: #00776f; }
+  #s4-3-log-periodic .teal-fill { fill: #00776f; }
+  #s4-3-log-periodic .night { fill: #526374; }
+  #s4-3-log-periodic path, #s4-3-log-periodic line, #s4-3-log-periodic polyline { stroke-linecap: round; stroke-linejoin: round; }
+  @media screen and (prefers-color-scheme: dark) {
+    #s4-3-log-periodic .ink { stroke: #b8c5d4; }
+    #s4-3-log-periodic .divider { stroke: #536476; }
+    #s4-3-log-periodic .primary { stroke: #79c6ff; }
+    #s4-3-log-periodic .primary-fill { fill: #79c6ff; }
+    #s4-3-log-periodic .primary-tint { fill: #15344b; }
+    #s4-3-log-periodic .secondary { stroke: #ffc078; }
+    #s4-3-log-periodic .secondary-fill { fill: #ffc078; }
+    #s4-3-log-periodic .secondary-tint { fill: #49331c; }
+    #s4-3-log-periodic .teal { stroke: #70d5c6; }
+    #s4-3-log-periodic .teal-fill { fill: #70d5c6; }
+    #s4-3-log-periodic .night { fill: #899bb0; }
+  }
+</style>
+
+<path d="M 110.000 56.000 V 139 M 110.000 155 V 238.000" fill="none" class="primary" stroke-width="6"/>
+<path d="M 292.000 72.380 V 139 M 292.000 155 V 221.620" fill="none" class="primary" stroke-width="6"/>
+<path d="M 441.240 85.812 V 139 M 441.240 155 V 208.188" fill="none" class="primary" stroke-width="6"/>
+<path d="M 563.617 96.826 V 139 M 563.617 155 V 197.174" fill="none" class="primary" stroke-width="6"/>
+<path d="M 663.966 105.857 V 139 M 663.966 155 V 188.143" fill="none" class="primary" stroke-width="6"/>
+<path d="M 746.252 113.263 V 139 M 746.252 155 V 180.737" fill="none" class="primary" stroke-width="6"/>
+<path d="M 813.727 119.335 V 139 M 813.727 155 V 174.665" fill="none" class="primary" stroke-width="6"/>
+<path d="M 110.000 139 L 292.000 155 M 110.000 155 L 192.000 147.791 M 210.000 146.209 L 292.000 139" fill="none" class="secondary" stroke-width="3"/>
+<path d="M 292.000 139 L 441.240 155 M 292.000 155 L 357.620 147.965 M 375.620 146.035 L 441.240 139" fill="none" class="secondary" stroke-width="3"/>
+<path d="M 441.240 139 L 563.617 155 M 441.240 155 L 493.428 148.177 M 511.428 145.823 L 563.617 139" fill="none" class="secondary" stroke-width="3"/>
+<path d="M 563.617 139 L 663.966 155 M 563.617 155 L 604.792 148.435 M 622.792 145.565 L 663.966 139" fill="none" class="secondary" stroke-width="3"/>
+<path d="M 663.966 139 L 746.252 155 M 663.966 155 L 696.109 148.750 M 714.109 145.250 L 746.252 139" fill="none" class="secondary" stroke-width="3"/>
+<path d="M 746.252 139 L 813.727 155 M 746.252 155 L 770.989 149.134 M 788.989 144.866 L 813.727 139" fill="none" class="secondary" stroke-width="3"/>
+<circle cx="110.000" cy="139" r="4" class="secondary-fill"/>
+<circle cx="110.000" cy="155" r="4" class="secondary-fill"/>
+<circle cx="292.000" cy="139" r="4" class="secondary-fill"/>
+<circle cx="292.000" cy="155" r="4" class="secondary-fill"/>
+<circle cx="441.240" cy="139" r="4" class="secondary-fill"/>
+<circle cx="441.240" cy="155" r="4" class="secondary-fill"/>
+<circle cx="563.617" cy="139" r="4" class="secondary-fill"/>
+<circle cx="563.617" cy="155" r="4" class="secondary-fill"/>
+<circle cx="663.966" cy="139" r="4" class="secondary-fill"/>
+<circle cx="663.966" cy="155" r="4" class="secondary-fill"/>
+<circle cx="746.252" cy="139" r="4" class="secondary-fill"/>
+<circle cx="746.252" cy="155" r="4" class="secondary-fill"/>
+<circle cx="813.727" cy="139" r="4" class="secondary-fill"/>
+<circle cx="813.727" cy="155" r="4" class="secondary-fill"/>
+<path d="M 813.727 139 H 905 M 813.727 155 H 905" fill="none" class="secondary" stroke-width="3"/>
+<circle cx="905" cy="139" r="4" class="secondary" fill="none" stroke-width="2.5"/><circle cx="905" cy="155" r="4" class="secondary" fill="none" stroke-width="2.5"/>
+</svg>

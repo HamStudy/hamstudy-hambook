@@ -64,6 +64,9 @@ Sometimes the sun doesn't just flash—it erupts. Coronal Mass Ejections (CMEs) 
 
 This delay transforms a crisis into a countdown. Space weather services track the CME from launch, calculating if and when it will strike Earth. Will it be a glancing blow or a direct hit? When a major CME finally slams into Earth's magnetic field, it can trigger geomagnetic storms that black out HF propagation for days.
 
+![Two side-by-side Sun-to-Earth comparisons distinguish electromagnetic radiation from a cloud of matter. On the left, a wavy arrow leads from the Sun to Earth, where an arc marks the sunlit ionosphere. Flare X-rays and ultraviolet reach Earth in about eight minutes and increase HF absorption there, especially at lower HF frequencies. That is travel time, not advance warning: a flare is seen when its light arrives. On the right, a cloud containing particles and curved magnetic-field lines travels toward Earth and its magnetic field. An Earth-directed coronal mass ejection carries this magnetized plasma. It can arrive in fifteen hours to several days and disturb Earth’s magnetic field and HF propagation. The drawings are schematic and not to scale; they do not imply that every flare produces an Earth-directed CME.](../../../images/s5-2-solar-disturbances.svg)
+{.img-full .img-centered caption="Left: Flare X-rays and ultraviolet reach Earth in about 8 minutes, increasing HF absorption on the sunlit side, especially at lower frequencies. Right: Magnetized plasma from an Earth-directed CME can take 15 hours to several days to reach Earth and disturb its magnetic field and HF propagation."}
+
 ##### Coronal Holes: Persistent Troublemakers
 
 Not all disturbances come from explosions. Coronal holes are cooler, less dense regions of the solar corona with open magnetic fields. They can act like fire hoses for fast solar wind; a stream may reach Earth when a hole faces our direction. {{< link id="G3A14" >}}

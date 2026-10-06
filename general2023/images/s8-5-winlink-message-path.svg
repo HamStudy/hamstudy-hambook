@@ -1,0 +1,43 @@
+<svg id="s8-5-winlink-message-path" xmlns="http://www.w3.org/2000/svg" width="1000" height="210" viewBox="0 0 1000 210" role="img" aria-labelledby="s8-5-winlink-message-path-title s8-5-winlink-message-path-desc">
+<title id="s8-5-winlink-message-path-title">One internet-connected Winlink route</title>
+<desc id="s8-5-winlink-message-path-desc">From left to right, a computer and radio represent your station; a radio connected to network equipment represents the gateway, also called an RMS; and an envelope on a computer screen represents the email recipient. A radio-wave symbol identifies the bidirectional radio link, which uses a compatible protocol such as VARA. A globe identifies the bidirectional internet link from the gateway to the recipient. Winlink is the messaging system, not a separate device or another name for VARA. This shows one Winlink route; radio-only routes are also possible when available.</desc>
+<defs><marker id="s8-5-winlink-message-path-radio-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M1 1 L8 5 L1 9" fill="none" stroke="#0068a8" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></marker><marker id="s8-5-winlink-message-path-net-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M1 1 L8 5 L1 9" fill="none" stroke="#00776f" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+<g transform="translate(22 98)"><rect x="10" y="0" width="95" height="60" rx="4" fill="#e0f2ee" stroke="#00776f" stroke-width="3.5"/>
+ <path d="M10 60 L0 77 H115 L105 60" fill="none" stroke="#00776f" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+ <path d="M44.5 28.5 H70.5" fill="none" stroke="#00776f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+ </g><g transform="translate(150 111)"><rect width="102" height="58" rx="6" fill="#e4f1fa" stroke="#0068a8" stroke-width="3"/>
+ <rect x="42" y="12" width="48" height="15" rx="2" fill="none" stroke="#0068a8" stroke-width="3"/>
+ <circle cx="20" cy="26" r="10" fill="none" stroke="#0068a8" stroke-width="3"/>
+ <path d="M12 45 H90" fill="none" stroke="#0068a8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+ <path d="M14 0 V-26 M4 -34 L14 -25 L24 -34" fill="none" stroke="#0068a8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+ </g><path d="M137 151 H150" fill="none" stroke="#171717" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" /><g transform="translate(415 111)"><rect width="106" height="58" rx="6" fill="#e4f1fa" stroke="#0068a8" stroke-width="3"/>
+ <rect x="42" y="12" width="52" height="15" rx="2" fill="none" stroke="#0068a8" stroke-width="3"/>
+ <circle cx="20" cy="26" r="10" fill="none" stroke="#0068a8" stroke-width="3"/>
+ <path d="M12 45 H94" fill="none" stroke="#0068a8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+ <path d="M14 0 V-26 M4 -34 L14 -25 L24 -34" fill="none" stroke="#0068a8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+ </g><g stroke="#b45309" stroke-width="3" fill="#fff0dc"><rect x="544" y="101" width="69" height="31" rx="4"/><rect x="544" y="145" width="69" height="31" rx="4"/></g><path d="M521 151 H532 V116 H544 M532 151 V160 H544" fill="none" stroke="#b45309" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" /><circle cx="558" cy="117" r="3" fill="#b45309"/><path d="M571 117 H600" fill="none" stroke="#b45309" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" /><circle cx="558" cy="161" r="3" fill="#b45309"/><path d="M571 161 H600" fill="none" stroke="#b45309" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" /><g transform="translate(825 96)"><rect x="10" y="0" width="110" height="73" rx="4" fill="#e0f2ee" stroke="#00776f" stroke-width="3.5"/>
+ <path d="M10 73 L0 90 H130 L120 73" fill="none" stroke="#00776f" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+ <rect x="30" y="17" width="50" height="29" rx="2" fill="none" stroke="#00776f" stroke-width="3"/><path d="M30 18 L55 36 L80 18" fill="none" stroke="#00776f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+ </g><path d="M277 140 H393" fill="none" stroke="#0068a8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" marker-start="url(#s8-5-winlink-message-path-radio-arrow)" marker-end="url(#s8-5-winlink-message-path-radio-arrow)"/><path d="M642 140 H791" fill="none" stroke="#00776f" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" marker-start="url(#s8-5-winlink-message-path-net-arrow)" marker-end="url(#s8-5-winlink-message-path-net-arrow)"/><path d="M321 66 Q307 80 321 94 M312 54 Q289 80 312 106 M349 66 Q363 80 349 94 M358 54 Q381 80 358 106" fill="none" stroke="#0068a8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" /><circle cx="335" cy="80" r="4" fill="#0068a8"/><g fill="none" stroke="#00776f" stroke-width="3"><circle cx="716" cy="78" r="31"/><ellipse cx="716" cy="78" rx="13" ry="31"/><path d="M685 78 H747 M691 62 Q716 70 741 62 M691 94 Q716 86 741 94"/></g>
+<style>
+/* Screen-only dark palette leaves print colors unchanged. */
+@media screen and (prefers-color-scheme: dark) {
+#s8-5-winlink-message-path [fill="#171717"] { fill: #e9eef4; }
+#s8-5-winlink-message-path [stroke="#171717"] { stroke: #e9eef4; }
+#s8-5-winlink-message-path [fill="#a3a3a3"] { fill: #7e91a5; }
+#s8-5-winlink-message-path [stroke="#a3a3a3"] { stroke: #7e91a5; }
+#s8-5-winlink-message-path [fill="#e4f1fa"] { fill: #15344b; }
+#s8-5-winlink-message-path [stroke="#e4f1fa"] { stroke: #15344b; }
+#s8-5-winlink-message-path [fill="#e0f2ee"] { fill: #143c38; }
+#s8-5-winlink-message-path [stroke="#e0f2ee"] { stroke: #143c38; }
+#s8-5-winlink-message-path [fill="#fff0dc"] { fill: #493018; }
+#s8-5-winlink-message-path [stroke="#fff0dc"] { stroke: #493018; }
+#s8-5-winlink-message-path [fill="#0068a8"] { fill: #79c6ff; }
+#s8-5-winlink-message-path [stroke="#0068a8"] { stroke: #79c6ff; }
+#s8-5-winlink-message-path [fill="#00776f"] { fill: #78d7c8; }
+#s8-5-winlink-message-path [stroke="#00776f"] { stroke: #78d7c8; }
+#s8-5-winlink-message-path [fill="#b45309"] { fill: #ffc078; }
+#s8-5-winlink-message-path [stroke="#b45309"] { stroke: #ffc078; }
+}
+</style>
+</svg>

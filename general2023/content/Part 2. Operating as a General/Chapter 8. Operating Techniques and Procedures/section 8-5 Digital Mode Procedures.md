@@ -59,6 +59,9 @@ Winlink provides another option: send a written message through a network for th
 
 The messaging network and the radio protocol are different parts of that system. Winlink handles the messages; a compatible radio protocol carries them between your station and another station in the network. An internet-connected gateway can transfer your email between the radio link and the wider network. Winlink also supports radio-only arrangements, but usable routes must actually be available. The automatic-station and message rules covered in the next chapter still apply.
 
+![From left to right, a computer and radio represent your station; a radio connected to network equipment represents the gateway, also called an RMS; and an envelope on a computer screen represents the email recipient. A radio-wave symbol identifies the bidirectional radio link, which uses a compatible protocol such as VARA. A globe identifies the bidirectional internet link from the gateway to the recipient. Winlink is the messaging system, not a separate device or another name for VARA. This shows one Winlink route; radio-only routes are also possible when available.](../../../images/s8-5-winlink-message-path.svg)
+{.img-full .img-centered caption="One internet-connected Winlink route: your station (left) exchanges messages by radio with a gateway (center), which connects through the internet to an email recipient (right). Arrows show messages traveling both ways."}
+
 Choose a gateway that supports the band and protocol your station can use. One available protocol is VARA. PACTOR is another protocol used for radio messaging.
 
 > **Key Information:** You cannot join an existing PACTOR contact; PACTOR connections are limited to two stations. {{< link id="G2E09" >}}

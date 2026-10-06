@@ -96,6 +96,9 @@ Where a Yagi is optimized for one band, a log periodic covers a huge frequency r
 
 Unlike the Yagi’s parasitic elements, LPDA elements connect to a feed structure. Check the model’s frequency range; a 14–30 MHz design does not cover all nine HF bands.
 
+![Seven dipoles become shorter and closer together by a constant ratio toward one end of the array. Longer elements serve lower frequencies; shorter elements serve higher frequencies. Every dipole connects at its center to a common two-conductor feed system. Connections alternate between adjacent dipoles, shown by crossed feed lines with gaps at the crossings to indicate that the wires do not touch. The external feed enters at the short-element end. This schematic explains the arrangement; it is not a construction plan or a radiation-pattern plot.](../../../images/s4-3-log-periodic.svg)
+{.img-full .img-centered caption="Longer elements at left serve lower frequencies; shorter elements at right serve higher frequencies. The common feed connects every dipole, alternating the connections between neighbors, and enters at the short-element end."}
+
 The tradeoff? An LPDA may provide less gain than a monoband Yagi of comparable size; the difference depends on the designs. But for many operators, the convenience of instant band changes without retuning or switching antennas is worth the modest gain sacrifice.
 
 #### Specialized Antennas for Specific Needs

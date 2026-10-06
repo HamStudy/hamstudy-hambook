@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="s5-2-solar-disturbances" width="960" height="154" viewBox="0 0 960 154" role="img" aria-labelledby="s5-2-solar-disturbances-title s5-2-solar-disturbances-desc">
+<title id="s5-2-solar-disturbances-title">Solar flares and coronal mass ejections</title>
+<desc id="s5-2-solar-disturbances-desc">Two side-by-side Sun-to-Earth comparisons distinguish electromagnetic radiation from a cloud of matter. On the left, a wavy arrow leads from the Sun to Earth, where an arc marks the sunlit ionosphere. Flare X-rays and ultraviolet reach Earth in about eight minutes and increase HF absorption there, especially at lower HF frequencies. That is travel time, not advance warning: a flare is seen when its light arrives. On the right, a cloud containing particles and curved magnetic-field lines travels toward Earth and its magnetic field. An Earth-directed coronal mass ejection carries this magnetized plasma. It can arrive in fifteen hours to several days and disturb Earth’s magnetic field and HF propagation. The drawings are schematic and not to scale; they do not imply that every flare produces an Earth-directed CME.</desc>
+
+<style>
+  #s5-2-solar-disturbances .ink { stroke: #526374; }
+  #s5-2-solar-disturbances .divider { stroke: #c7d1da; stroke-width: 1.5; }
+  #s5-2-solar-disturbances .primary { stroke: #0068a8; }
+  #s5-2-solar-disturbances .primary-fill { fill: #0068a8; }
+  #s5-2-solar-disturbances .primary-tint { fill: #e4f1fa; }
+  #s5-2-solar-disturbances .secondary { stroke: #b45309; }
+  #s5-2-solar-disturbances .secondary-fill { fill: #b45309; }
+  #s5-2-solar-disturbances .secondary-tint { fill: #fff0dc; }
+  #s5-2-solar-disturbances .teal { stroke: #00776f; }
+  #s5-2-solar-disturbances .teal-fill { fill: #00776f; }
+  #s5-2-solar-disturbances .night { fill: #526374; }
+  #s5-2-solar-disturbances path, #s5-2-solar-disturbances line, #s5-2-solar-disturbances polyline { stroke-linecap: round; stroke-linejoin: round; }
+  @media screen and (prefers-color-scheme: dark) {
+    #s5-2-solar-disturbances .ink { stroke: #b8c5d4; }
+    #s5-2-solar-disturbances .divider { stroke: #536476; }
+    #s5-2-solar-disturbances .primary { stroke: #79c6ff; }
+    #s5-2-solar-disturbances .primary-fill { fill: #79c6ff; }
+    #s5-2-solar-disturbances .primary-tint { fill: #15344b; }
+    #s5-2-solar-disturbances .secondary { stroke: #ffc078; }
+    #s5-2-solar-disturbances .secondary-fill { fill: #ffc078; }
+    #s5-2-solar-disturbances .secondary-tint { fill: #49331c; }
+    #s5-2-solar-disturbances .teal { stroke: #70d5c6; }
+    #s5-2-solar-disturbances .teal-fill { fill: #70d5c6; }
+    #s5-2-solar-disturbances .night { fill: #899bb0; }
+  }
+</style>
+<!-- Left: flare radiation. Right: an Earth-directed cloud of magnetized plasma. -->
+<line x1="480" y1="14" x2="480" y2="140" class="divider"/>
+<line x1="95.00" y1="77.00" x2="104.00" y2="77.00" class="secondary" stroke-width="3"/>
+<line x1="85.04" y1="101.04" x2="91.41" y2="107.41" class="secondary" stroke-width="3"/>
+<line x1="61.00" y1="111.00" x2="61.00" y2="120.00" class="secondary" stroke-width="3"/>
+<line x1="36.96" y1="101.04" x2="30.59" y2="107.41" class="secondary" stroke-width="3"/>
+<line x1="27.00" y1="77.00" x2="18.00" y2="77.00" class="secondary" stroke-width="3"/>
+<line x1="36.96" y1="52.96" x2="30.59" y2="46.59" class="secondary" stroke-width="3"/>
+<line x1="61.00" y1="43.00" x2="61.00" y2="34.00" class="secondary" stroke-width="3"/>
+<line x1="85.04" y1="52.96" x2="91.41" y2="46.59" class="secondary" stroke-width="3"/>
+<circle cx="61" cy="77" r="27" class="secondary secondary-tint" stroke-width="3"/>
+<polyline points="116.00,77.00 117.00,78.16 118.00,79.31 119.00,80.42 120.00,81.49 121.00,82.50 122.00,83.43 123.00,84.27 124.00,85.02 125.00,85.66 126.00,86.18 127.00,86.58 128.00,86.85 129.00,86.98 130.00,86.98 131.00,86.85 132.00,86.58 133.00,86.18 134.00,85.66 135.00,85.02 136.00,84.27 137.00,83.43 138.00,82.50 139.00,81.49 140.00,80.42 141.00,79.31 142.00,78.16 143.00,77.00 144.00,75.84 145.00,74.69 146.00,73.58 147.00,72.51 148.00,71.50 149.00,70.57 150.00,69.73 151.00,68.98 152.00,68.34 153.00,67.82 154.00,67.42 155.00,67.15 156.00,67.02 157.00,67.02 158.00,67.15 159.00,67.42 160.00,67.82 161.00,68.34 162.00,68.98 163.00,69.73 164.00,70.57 165.00,71.50 166.00,72.51 167.00,73.58 168.00,74.69 169.00,75.84 170.00,77.00 171.00,78.16 172.00,79.31 173.00,80.42 174.00,81.49 175.00,82.50 176.00,83.43 177.00,84.27 178.00,85.02 179.00,85.66 180.00,86.18 181.00,86.58 182.00,86.85 183.00,86.98 184.00,86.98 185.00,86.85 186.00,86.58 187.00,86.18 188.00,85.66 189.00,85.02 190.00,84.27 191.00,83.43 192.00,82.50 193.00,81.49 194.00,80.42 195.00,79.31 196.00,78.16 197.00,77.00 198.00,75.84 199.00,74.69 200.00,73.58 201.00,72.51 202.00,71.50 203.00,70.57 204.00,69.73 205.00,68.98 206.00,68.34 207.00,67.82 208.00,67.42 209.00,67.15 210.00,67.02 211.00,67.02 212.00,67.15 213.00,67.42 214.00,67.82 215.00,68.34 216.00,68.98 217.00,69.73 218.00,70.57 219.00,71.50 220.00,72.51 221.00,73.58 222.00,74.69 223.00,75.84 224.00,77.00 225.00,78.16 226.00,79.31 227.00,80.42 228.00,81.49 229.00,82.50 230.00,83.43 231.00,84.27 232.00,85.02 233.00,85.66 234.00,86.18 235.00,86.58 236.00,86.85 237.00,86.98 238.00,86.98 239.00,86.85 240.00,86.58 241.00,86.18 242.00,85.66 243.00,85.02 244.00,84.27 245.00,83.43 246.00,82.50 247.00,81.49 248.00,80.42 249.00,79.31 250.00,78.16 251.00,77.00 252.00,75.84 253.00,74.69 254.00,73.58 255.00,72.51 256.00,71.50 257.00,70.57 258.00,69.73 259.00,68.98 260.00,68.34 261.00,67.82 262.00,67.42 263.00,67.15 264.00,67.02 265.00,67.02 266.00,67.15 267.00,67.42 268.00,67.82 269.00,68.34 270.00,68.98 271.00,69.73 272.00,70.57 273.00,71.50 274.00,72.51 275.00,73.58 276.00,74.69 277.00,75.84 278.00,77.00 279.00,78.16 280.00,79.31 281.00,80.42 282.00,81.49 283.00,82.50 284.00,83.43 285.00,84.27 286.00,85.02 287.00,85.66 288.00,86.18 289.00,86.58 290.00,86.85 291.00,86.98 292.00,86.98 293.00,86.85 294.00,86.58 295.00,86.18 296.00,85.66 297.00,85.02 298.00,84.27 299.00,83.43 300.00,82.50 301.00,81.49 302.00,80.42 303.00,79.31 304.00,78.16 305.00,77.00 306.00,75.84 307.00,74.69 308.00,73.58 309.00,72.51 310.00,71.50 311.00,70.57 312.00,69.73 313.00,68.98 314.00,68.34 315.00,67.82 316.00,67.42 317.00,67.15 318.00,67.02 319.00,67.02 320.00,67.15 321.00,67.42 322.00,67.82 323.00,68.34 324.00,68.98 325.00,69.73 326.00,70.57 327.00,71.50 328.00,72.51 329.00,73.58 330.00,74.69 331.00,75.84 332.00,77.00" fill="none" class="primary" stroke-width="3.5"/>
+<path d="M 335 77 H 360 M 348 69 L 361 77 L 348 85" fill="none" class="primary" stroke-width="3.5"/>
+<circle cx="414" cy="77" r="28" class="primary primary-tint" stroke-width="2.5"/>
+<path d="M 395 59 L 407 56 L 412 67 L 405 74 L 406 82 L 399 92 L 395 83 L 390 78 L 392 69 Z" class="teal-fill" opacity="0.8"/>
+<path d="M 414 49 A 28 28 0 0 1 414 105 Z" class="night"/>
+<path d="M 395 43 A 39 39 0 0 0 395 111" fill="none" class="secondary" stroke-width="5"/>
+<line x1="575.00" y1="77.00" x2="584.00" y2="77.00" class="secondary" stroke-width="3"/>
+<line x1="565.04" y1="101.04" x2="571.41" y2="107.41" class="secondary" stroke-width="3"/>
+<line x1="541.00" y1="111.00" x2="541.00" y2="120.00" class="secondary" stroke-width="3"/>
+<line x1="516.96" y1="101.04" x2="510.59" y2="107.41" class="secondary" stroke-width="3"/>
+<line x1="507.00" y1="77.00" x2="498.00" y2="77.00" class="secondary" stroke-width="3"/>
+<line x1="516.96" y1="52.96" x2="510.59" y2="46.59" class="secondary" stroke-width="3"/>
+<line x1="541.00" y1="43.00" x2="541.00" y2="34.00" class="secondary" stroke-width="3"/>
+<line x1="565.04" y1="52.96" x2="571.41" y2="46.59" class="secondary" stroke-width="3"/>
+<circle cx="541" cy="77" r="27" class="secondary secondary-tint" stroke-width="3"/>
+<g transform="translate(490 -136.6) scale(0.8)">
+<path d="M 192 265 C 179 247 199 233 216 240 C 223 221 250 224 260 235 C 282 221 303 232 306 247 C 333 246 345 263 332 279 C 342 293 318 304 302 297 C 287 309 267 302 259 295 C 237 311 218 300 218 289 C 200 296 181 282 192 265 Z" class="secondary secondary-tint" stroke-width="3"/>
+<circle cx="214" cy="256" r="3.3" class="secondary-fill"/>
+<circle cx="239" cy="279" r="3.3" class="secondary-fill"/>
+<circle cx="269" cy="249" r="3.3" class="secondary-fill"/>
+<circle cx="294" cy="284" r="3.3" class="secondary-fill"/>
+<circle cx="315" cy="265" r="3.3" class="secondary-fill"/>
+<path d="M 224 252 C 239 239 273 242 280 265 C 287 287 308 286 316 274 M 215 275 C 231 260 254 263 261 283" fill="none" class="secondary" stroke-width="2.5"/>
+</g>
+<path d="M 770 77 H 805 M 793 69 L 806 77 L 793 85" fill="none" class="secondary" stroke-width="3.5"/>
+<path d="M 878 49 C 811 18 812 136 878 105 M 878 49 C 936 18 936 136 878 105 M 878 49 C 784 -7 784 161 878 105 M 878 49 C 966 -7 966 161 878 105" fill="none" class="teal" stroke-width="2.3"/>
+<circle cx="878" cy="77" r="28" class="primary primary-tint" stroke-width="2.5"/>
+<path d="M 859 59 L 871 56 L 876 67 L 869 74 L 870 82 L 863 92 L 859 83 L 854 78 L 856 69 Z" class="teal-fill" opacity="0.8"/>
+<path d="M 878 49 A 28 28 0 0 1 878 105 Z" class="night"/>
+</svg>
