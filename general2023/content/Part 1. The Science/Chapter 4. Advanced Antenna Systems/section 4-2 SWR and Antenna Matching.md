@@ -9,7 +9,7 @@ status: draft1
 
 In the previous section, we explored how your feed line's characteristic impedance is fixed by its construction, and how losses accumulate as your signal travels through cable and connectors. Now we tackle the next critical question: when RF arrives at your antenna feed point, does it get accepted and transferred efficiently, or does it reflect back down the line?
 
-This is where SWR—that mysterious number you learned about as a Technician—reveals its true meaning. Good impedance matching (low SWR) ensures efficient power transfer from feed line to antenna. It doesn't guarantee your antenna radiates efficiently—that depends on antenna design, height, and other factors we'll explore in upcoming sections—but it does tell you whether power is being accepted at the feed point rather than bouncing back.
+This is where SWR—that mysterious number you learned about as a Technician—reveals its true meaning. Good impedance matching (low SWR) ensures efficient power transfer from feed line to antenna. It doesn't guarantee your antenna radiates efficiently—that depends on antenna design, height, and other factors we'll explore in upcoming sections—but it does tell you whether the antenna accepts power at the feed point rather than reflecting it back.
 
 #### The Real Problem: Impedance Mismatch
 

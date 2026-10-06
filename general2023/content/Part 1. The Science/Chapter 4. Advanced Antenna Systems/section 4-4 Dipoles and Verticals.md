@@ -24,7 +24,7 @@ This figure-eight pattern means your signal radiates strongest broadside to the 
 
 #### Height Transforms Your Dipole's Performance
 
-Changing the height of a dipole changes both its radiation pattern and its feed-point impedance. Moving the same wire can change which stations you reach and the SWR your radio sees.
+A dipole's height affects both its radiation pattern and its feed-point impedance. Moving the same wire can change which stations you reach and the SWR your radio sees.
 
 When you mount a dipole low (less than a half wavelength high), reflections from the ground reshape its radiation pattern. At high elevation angles—angles above the horizon—the signal spreads almost evenly in every compass direction, or azimuth. {{< link id="G9B05" >}}
 

@@ -93,7 +93,7 @@ Finding an open path is only part of the job; your signal also has to compete wi
 
 Thunderstorms across the tropics and temperate regions generate radio noise that plagues 160, 80, and 40 meters from late spring through early fall. Each lightning strike acts as a broadband transmitter, raising noise levels that can bury weak signals. The lower the frequency, the worse the noise. Operators often call this static QRN and interference from other signals QRM; the distinction is noise versus interfering signals, not simply natural versus man-made. Filters and noise controls can help, but they cannot always separate noise from a wanted signal in the same passband.
 
-Winter often brings less local thunderstorm noise, though distant storms can still be heard. The longer darkness hours favor low-band propagation. Spring and fall can also offer useful DX openings; seasonal ionospheric changes and the daylight along each path matter.
+Winter often brings less local thunderstorm noise, though you can still hear distant storms. The longer darkness hours favor low-band propagation. Spring and fall can also offer useful DX openings; seasonal ionospheric changes and the daylight along each path matter.
 
 #### From Propagation Science to Practical Operation
 

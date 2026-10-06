@@ -21,7 +21,7 @@ The symbols tell you what those connections join. A resistor limits current, a c
 
 #### Recognizing the Components
 
-Only symbols 1, 2, 5, 6, and 7 are referenced by questions which could appear on the exam; the others help you understand the complete diagram.
+Questions that could appear on the exam refer only to symbols 1, 2, 5, 6, and 7; the others help you understand the complete diagram.
 
 The two transistor symbols in Figure G7-1 represent different ways of controlling current:
 

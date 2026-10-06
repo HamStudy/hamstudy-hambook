@@ -7,7 +7,7 @@ status: draft1
 
 ### Section 5.1: The Ionosphere and Radio Waves
 
-Your antenna launches a signal skyward. Less than a second later it is heard by someone on the other side of the planet. Understanding how the ionosphere works is the key to knowing when and why different bands open and close.
+Your antenna launches a signal skyward. Less than a second later, someone on the other side of the planet hears it. Understanding how the ionosphere works is the key to knowing when and why different bands open and close.
 
 As a Technician, you learned that the ionosphere can bend radio waves back to Earth. Now we'll explore exactly how this happens and why it varies throughout the day.
 

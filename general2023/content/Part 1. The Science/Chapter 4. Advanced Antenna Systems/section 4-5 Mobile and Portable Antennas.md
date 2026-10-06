@@ -68,7 +68,7 @@ Whether mobile or portable, carrying separate antennas for each band quickly bec
 
 > **Key Information:** The primary function of antenna traps is to *enable multiband operation*. 
 
-Traps are parallel LC circuits that act as frequency-selective switches. At their resonant frequency, parallel LC circuits present high impedance (remember from Chapter 1?), effectively "cutting off" the antenna at that point. Below trap resonance, they act inductively: more of the antenna participates, and the trap’s loading helps establish a lower-frequency resonance. This lets one antenna work like multiple antennas of different lengths—a 40/20/15 meter trap vertical automatically selects the right electrical length for each band.
+Traps are parallel LC circuits that act as frequency-selective switches. At their resonant frequency, these circuits present high impedance (remember from Chapter 1?), effectively "cutting off" the antenna at that point. Below trap resonance, they act inductively: more of the antenna participates, and the trap’s loading helps establish a lower-frequency resonance. This lets one antenna work like multiple antennas of different lengths—a 40/20/15 meter trap vertical automatically selects the right electrical length for each band.
 
 The multiband convenience comes with a catch. {{< link id="G9D11" >}} These antennas can radiate on frequencies you didn't intend.
 

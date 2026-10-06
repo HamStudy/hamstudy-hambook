@@ -13,7 +13,7 @@ Whether you're setting up a new station or trying to track down that annoying hu
 
 #### The Power Supply Journey: From AC to DC
 
-Converting AC from your wall outlet to clean DC for your radio involves several stages. The basic stages are:
+Converting AC from your wall outlet to clean DC for your radio involves these basic stages:
 
 1. **Transformation** - Changing the voltage level (if needed)
 2. **Rectification** - Converting AC to pulsating DC
@@ -47,7 +47,7 @@ As you can see in the waveform comparison:
 
 The half-wave rectifier is the simplest design:
 - A single diode allows current to flow only during the positive half-cycle
-- The negative half-cycle is completely blocked
+- The diode completely blocks the negative half-cycle
 - The output pulses occur at the same frequency as the input AC
 
 Despite leaving half of each AC cycle unused, half-wave rectification is sometimes used in:
@@ -140,7 +140,7 @@ Rectification alone produces pulsating DC—not the smooth, constant voltage our
 
 > **Key Information:** Capacitors and inductors are used in a power supply filter network. {{< link id="G7A02" >}}
 
-The most common filter configuration uses large electrolytic capacitors that charge during voltage peaks and discharge during valleys, filling in the gaps to create smoother DC. Inductors can also be used in filter circuits, resisting current changes and further smoothing the output.
+The most common filter configuration uses large electrolytic capacitors that charge during voltage peaks and discharge during valleys, filling in the gaps to create smoother DC. In filter circuits, inductors can resist current changes and further smooth the output.
 
 Think of filter capacitors like water towers in a municipal water system. During periods of high flow (voltage peaks), they fill up. During periods of low flow (voltage valleys), they release their stored energy to maintain pressure (voltage). The larger the capacitor, the more energy it can store and the smoother the output becomes.
 

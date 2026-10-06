@@ -136,7 +136,7 @@ Binary counters are fundamental to:
 - Digital frequency displays
 - Timing and control functions
 
-The number of bits in a counter determines how many states it can represent: an n-bit counter can represent $2^n$ different states. This exponential relationship is why adding just a few bits dramatically increases a digital system's capabilities.
+The number of bits in a counter determines how many states it can represent: $2^n$ different states for an n-bit counter. This exponential relationship is why adding just a few bits dramatically increases a digital system's capabilities.
 
 #### The Digital Foundation for Advanced Radio Features
 

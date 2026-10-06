@@ -45,7 +45,7 @@ For 100% modulation by a single sine-wave tone, about two-thirds of the average 
 
 ##### When AM Goes Wrong
 
-AM is particularly susceptible to a problem called flat-topping. When you overdrive an AM transmitter, the peaks of the waveform get clipped off flat, creating a harsh, distorted sound and splatter interference on adjacent frequencies.
+AM is particularly susceptible to a problem called flat-topping. Overdriving an AM transmitter clips the peaks of the waveform flat, creating a harsh, distorted sound and splatter interference on adjacent frequencies.
 
 > **Key Information:** "Flat-topping" in an AM phone signal refers to signal distortion caused by excessive drive or speech levels. {{< link id="G8A10" >}}
 
@@ -127,7 +127,7 @@ Here's the interesting part: when you change the phase of a signal, you're actua
 
 Many modern transmitters actually use phase modulation to create what effectively becomes an FM signal.
 
-A reactance modulator is a voltage-controlled device that changes its reactance (the X we learned about earlier) in response to the audio signal. Remember that reactance is the opposition to AC current flow caused by inductance or capacitance. When applied to an RF amplifier stage, changing reactance shifts the phase of the signal passing through that stage. Applied instead to an oscillator’s tuned circuit, changing reactance changes the generated frequency and produces FM. The amplifier-versus-oscillator distinction is the key to this exam question.
+A reactance modulator is a voltage-controlled device that changes its reactance (the X we learned about earlier) in response to the audio signal. Remember that reactance is the opposition to AC current flow caused by inductance or capacitance. In an RF amplifier stage, changing reactance shifts the phase of the signal passing through that stage. In an oscillator’s tuned circuit, the same reactance change shifts the generated frequency and produces FM. The amplifier-versus-oscillator distinction is the key to this exam question.
 
 > **Key Information:** A reactance modulator connected to a transmitter RF amplifier produces phase modulation. {{< link id="G8A04" >}}
 

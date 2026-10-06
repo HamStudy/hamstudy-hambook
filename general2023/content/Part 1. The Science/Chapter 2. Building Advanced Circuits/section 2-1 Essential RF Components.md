@@ -53,7 +53,7 @@ Inductors (coils) are essential in RF circuits, helping to filter signals, match
 
 > **Key Information:** The performance of a ferrite core at different frequencies is determined by the composition, or "mix," of materials used. {{< link id="G6B01" >}}
 
-Ferrite cores aren't "one-size-fits-all"—they're specifically formulated for different frequency ranges. It's like having different grades of tires for different road conditions.
+Ferrite cores aren't "one-size-fits-all"—manufacturers formulate them specifically for different frequency ranges. It's like having different grades of tires for different road conditions.
 
 A ferrite core that works beautifully at 3.5 MHz might be terrible at 28 MHz because of its composition. Manufacturers offer various "mixes" (like Type 43, Type 61, etc.) optimized for specific bands. When you buy ferrite beads or cores for interference problems, getting the correct mix can make a big difference.
 

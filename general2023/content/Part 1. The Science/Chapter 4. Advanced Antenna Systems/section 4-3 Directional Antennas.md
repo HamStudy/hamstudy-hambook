@@ -26,7 +26,7 @@ This half-wavelength element resonates at your operating frequency, just like a 
 
 **The Reflector** sits behind the driven element, slightly longer than a half wavelength. When RF from the driven element reaches it, the reflector re-radiates that energy back toward the front of the antenna, reinforcing the forward signal.
 
-**Directors** are placed in front of the driven element, slightly shorter than a half wavelength. They "pull" the signal forward, further concentrating energy in the desired direction.
+**Directors** sit in front of the driven element, slightly shorter than a half wavelength. They "pull" the signal forward, further concentrating energy in the desired direction.
 
 > **Key Information:** In a three-element Yagi, the reflector is longer and the director is shorter than the driven element. {{< link id="G9C03" >}}
 

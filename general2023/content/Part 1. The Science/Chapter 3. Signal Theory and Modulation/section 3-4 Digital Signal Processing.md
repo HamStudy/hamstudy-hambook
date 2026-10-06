@@ -28,7 +28,7 @@ Using the right bandwidth filter:
 - **Too narrow**: Can distort the signal, making it sound muffled or cutting off information
 - **Just right**: Admits the wanted signal while rejecting noise outside its bandwidth
 
-For example, a narrow CW signal does not need the broad passband used for voice. Narrowing that passband can exclude noise while retaining the CW signal. Narrow it too far for a voice signal, however, and you lose parts of the speech along with the noise.
+For example, a narrow CW signal does not need the broad passband used for voice. Narrowing that passband can exclude noise while retaining the CW signal. For a voice signal, however, too narrow a passband removes parts of the speech along with the noise.
 
 ![Both plots show frequency increasing from left to right. A narrow Morse-code, or CW, signal fits inside a narrow filter. A wider filter, marked by dashed edges, would admit extra noise outside the wanted signal. The broader voice signal needs a wider filter to include all its frequencies. Here, the dashed narrow edges cut through the voice signal, showing that some wanted information would be lost. A suitable filter passes the wanted signal without admitting an unnecessarily wide range of frequencies.](../../../images/s3-4-receiver-filter-width.svg)
 {.img-centered caption="Too wide admits extra noise; too narrow removes wanted information."}
@@ -39,7 +39,7 @@ For a computer digital mode, the radio may pass a wider range containing several
 
 > **Key Information:** Filtering, detection, and modulation are all functions performed by software in a software-defined radio. {{< link id="G7C11" >}}
 
-In Software-Defined Radio (SDR), software performs functions that otherwise would be fixed by circuit design. It is useful to picture a computer with an antenna input, but the physical radio still matters. An analog-to-digital converter (ADC) turns sampled signal values into numbers. Software can filter those values, detect the information they carry, or create modulation for a transmitter. A digital-to-analog converter (DAC) produces an analog output when needed, such as audio for a speaker. Filters and amplifiers are still needed around those converters.
+In Software-Defined Radio (SDR), software performs functions that otherwise would be fixed by circuit design. It is useful to picture a computer with an antenna input, but the physical radio still matters. An analog-to-digital converter (ADC) turns sampled signal values into numbers. Software can filter those values, detect the information they carry, or create modulation for a transmitter. A digital-to-analog converter (DAC) produces an analog output when needed, such as audio for a speaker. The radio still needs filters and amplifiers around those converters.
 
 ![The received signal travels from the antenna and analog input circuits to an analog-to-digital converter, or ADC, which turns signal samples into numbers. Digital signal processing then filters those numbers and recovers the information carried by the signal. Next, a digital-to-analog converter turns the processed audio data back into an analog signal, and an audio amplifier drives the speaker. Arrows connect the stages in that order. Digital processing sits in the middle of the path, with analog circuitry before and after it.](../../../images/s3-4-dsp-signal-path.svg)
 {.img-centered caption="Some radios convert RF directly; others first shift it to a lower frequency. Both still need analog hardware."}

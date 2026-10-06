@@ -33,7 +33,7 @@ Both transistor types have important roles in your radio. Bipolar transistors ar
 
 #### Vacuum Tubes: Understanding Legacy Technology
 
-Though largely replaced by solid-state devices in modern equipment, vacuum tubes remain important to understand. They appear on your exam, they're found in older equipment still in use, and they're still manufactured for specific applications like high-power RF amplifiers. They perform much the same function that we now usually use transistors for, and suitable tube designs can handle high voltages and power levels.
+Though largely replaced by solid-state devices in modern equipment, vacuum tubes remain important to understand. You'll find them on your exam and in older equipment still in use. Manufacturers still make them for specific applications like high-power RF amplifiers. Tubes perform much the same function that we now usually use transistors for, and suitable tube designs can handle high voltages and power levels.
 
 Vacuum tubes work by controlling a stream of electrons flowing from a heated cathode to a plate (anode) through a vacuum.
 
@@ -43,7 +43,7 @@ The control grid acts like a gate, varying electron flow based on its voltage. S
 
 > **Key Information:** The primary purpose of a screen grid in a vacuum tube is to reduce grid-to-plate capacitance. {{< link id="G6A12" >}}
 
-The screen grid sits between the control grid and plate, reducing capacitance between them. This reduces feedback from output to input, helping prevent unwanted oscillation in RF amplifiers.
+The screen grid sits between the control grid and plate, reducing capacitance between them. Lower capacitance means less feedback from output to input, helping prevent unwanted oscillation in RF amplifiers.
 
 While most new amateur radio equipment uses solid-state technology (transistors), tubes are still found in:
 - Some commercial and amateur high-power amplifiers
@@ -60,7 +60,7 @@ Amplifier "classes" (`A`, `B`, `AB`, `C`) describe when a transistor or tube con
 >
 > $$\text{Efficiency} = \frac{RF_{output}}{DC_{input}} \cdot 100\%$$
 
-For example, if an amplifier draws 200 watts from your power supply but produces only 100 watts of RF output, its efficiency is ($\frac{100}{200} = 50\%$). The remaining power is converted to heat, which explains why some amplifiers need cooling fans.
+For example, if an amplifier draws 200 watts from your power supply but produces only 100 watts of RF output, its efficiency is ($\frac{100}{200} = 50\%$). The remaining power becomes heat, which explains why some amplifiers need cooling fans.
 
 Efficiency varies with the circuit, signal and output level; a class name does not specify one fixed percentage. The classes below describe how much of each cycle the device conducts.
 

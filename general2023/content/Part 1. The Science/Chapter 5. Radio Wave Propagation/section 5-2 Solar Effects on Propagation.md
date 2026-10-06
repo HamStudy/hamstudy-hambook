@@ -7,7 +7,7 @@ status: draft1
 
 ### Section 5.2: Solar Effects on Propagation
 
-The ionospheric layers we just explored don't exist in isolation—they're powered and controlled by our sun. Your reliable 40-meter net suddenly becomes unusable. The dead 10-meter band erupts with signals from around the world. These dramatic changes originate 93 million miles away, where our nearest star constantly bombards Earth with the radiation that creates and destroys propagation paths. One of the craziest aspects to HF operation is just how inconsistent propagation can be from day to day—or even minute to minute! Understanding how solar activity drives propagation helps you recognize patterns in seemingly random conditions. Those patterns help you predict when bands will open or close.
+The ionospheric layers we just explored don't exist in isolation—our sun powers and controls them. Your reliable 40-meter net suddenly becomes unusable. The dead 10-meter band erupts with signals from around the world. These dramatic changes originate 93 million miles away, where our nearest star constantly bombards Earth with the radiation that creates and destroys propagation paths. One of the craziest aspects to HF operation is just how inconsistent propagation can be from day to day—or even minute to minute! Understanding how solar activity drives propagation helps you recognize patterns in seemingly random conditions. Those patterns help you predict when bands will open or close.
 
 #### The Solar-Ionospheric Connection
 
@@ -43,7 +43,7 @@ While sunspot counts provide rough guidance, the solar flux index offers precise
 
 > **Key Information:** The solar flux index is a measure of solar radiation at a wavelength of 10.7 centimeters.
 
-Measured daily by radio telescopes, this 10.7-cm radiation tracks solar activity and correlates with the ultraviolet emissions that affect the ionosphere. It is a useful indirect indicator, not a direct measurement of your path. Values near 70 indicate low solar activity; values above 150 can encourage you to check the upper bands. Combine the number with time of day, direction and actual listening rather than treating it as an open/closed sign.
+Radio telescopes measure this 10.7-cm radiation daily; it tracks solar activity and correlates with the ultraviolet emissions that affect the ionosphere. It is a useful indirect indicator, not a direct measurement of your path. Values near 70 indicate low solar activity; values above 150 can encourage you to check the upper bands. Combine the number with time of day, direction and actual listening rather than treating it as an open/closed sign.
 
 #### Solar Disturbances: Flares and Particles
 
@@ -123,6 +123,6 @@ While active regions evolve and eventually decay, the 27-day pattern often persi
 
 #### Understanding Solar Influences
 
-Solar activity strongly influences HF propagation. Steady radiation maintains the ionosphere's daily patterns. Solar flares create sudden disruptions. Particle storms trigger multi-day blackouts. The 11-year solar cycle determines which bands work reliably. The 27-day rotation creates recurring patterns.
+Solar activity strongly influences HF propagation. Steady radiation maintains the ionosphere's daily patterns, while solar flares create sudden disruptions and particle storms trigger multi-day blackouts. The 11-year solar cycle determines which bands work reliably. The 27-day rotation creates recurring patterns.
 
 Next, we'll explore how signals actually travel via the ionosphere—the various propagation modes and paths that connect your station to the world.
