@@ -12,7 +12,7 @@ There are others, but the most commonly used phonetic alphabet is the Radiotelep
 
 | Letter | Phonetic | Letter | Phonetic |
 |:------:|:--------:|:------:|:--------:|
-| A      | Alfa    | N      | November |
+| A      | Alpha (Alfa) | N      | November |
 | B      | Bravo    | O      | Oscar    |
 | C      | Charlie  | P      | Papa     |
 | D      | Delta    | Q      | Quebec   |
