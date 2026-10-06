@@ -37,7 +37,7 @@ For purely resistive loads, the math is straightforward:
 
 The formula: SWR equals the larger impedance divided by the smaller. So $\frac{200\Omega}{50\Omega} = 4:1$, and $\frac{50\Omega}{10\Omega} = 5:1$.
 
-That shortcut is for purely resistive loads on the lossless-line model. If reactance is present, dividing two impedance magnitudes is not enough; an antenna analyzer can help.
+That shortcut assumes a lossless feed line and a purely resistive load. If reactance is present, dividing two impedance magnitudes is not enough; an antenna analyzer can help.
 
 #### The Hidden Cost of High SWR
 
@@ -80,7 +80,7 @@ To move from the match at one connection to the performance of an entire radio l
 
 > **Key Information:** A link budget is the sum of transmit power and antenna gains minus system losses as seen at the receiver. {{< link id="G8A13" >}}
 
-Think of a link budget in terms of communication accounting that determines if a link will work:
+Think of a link budget as communication accounting to determine whether a link will work:
 
 **dBm** means power relative to 1 milliwatt: 0 dBm is 1 mW, +30 dBm is 1 watt, and +50 dBm is 100 watts. This gives the accounting a starting power level:
 - Start with transmitter power (+50 dBm for 100W)

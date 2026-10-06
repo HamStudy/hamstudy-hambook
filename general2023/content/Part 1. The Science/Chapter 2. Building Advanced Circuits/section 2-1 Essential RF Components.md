@@ -43,7 +43,7 @@ If the voltage itself reverses, it is applied in the wrong direction and can dam
 
 Electrolytic capacitors also have internal resistance and inductance, which can limit their effectiveness at radio frequencies. Think of them like water towers—great for storing large amounts, but slow to respond to rapid changes. This is why your transceiver uses electrolytic capacitors mainly for power supply filtering, where they handle relatively slow changes in DC voltage.
 
-For most RF applications, ceramic capacitors are the better choice. They're non-polarized (either voltage polarity is allowed), smaller, and suitable types respond well to the rapid changes of RF signals. This is why your transceiver contains so many ceramic capacitors in its RF circuits for filtering, tuning, and coupling signals between stages.
+For most RF applications, ceramic capacitors are the better choice. They're non-polarized (either voltage polarity is allowed) and smaller. Suitable types respond well to the rapid changes of RF signals. This is why your transceiver contains so many ceramic capacitors in its RF circuits for filtering, tuning, and coupling signals between stages.
 
 #### Inductors and Ferrites: Magnetic Field Masters
 
@@ -55,7 +55,7 @@ Inductors (coils) are essential in RF circuits, helping to filter signals, match
 
 Ferrite cores aren't "one-size-fits-all"—they're specifically formulated for different frequency ranges. It's like having different grades of tires for different road conditions.
 
-A ferrite core that works beautifully at 3.5 MHz might be terrible at 28 MHz because of its composition. Manufacturers offer various "mixes" (like Type 43, Type 61, etc.) optimized for specific bands. When you buy ferrite beads or cores for interference problems getting the correct mix can make a big difference.
+A ferrite core that works beautifully at 3.5 MHz might be terrible at 28 MHz because of its composition. Manufacturers offer various "mixes" (like Type 43, Type 61, etc.) optimized for specific bands. When you buy ferrite beads or cores for interference problems, getting the correct mix can make a big difference.
 
 ##### Toroidal Inductors: Donut-Shaped Wonders
 
@@ -102,7 +102,7 @@ For RF work, suitable carbon composition, metal film, or specialized RF resistor
 
 > **Key Information:** An LED is forward biased when emitting light. {{< link id="G6B08" >}}
 
-"Forward biased" means voltage is applied in the correct direction—positive to the anode and negative to the cathode. On many through-hole LEDs, the anode has the longer lead, but trimmed leads and other packages require checking the markings or specifications. Unlike incandescent bulbs, LEDs only work when connected with the proper polarity. They also need current limiting, often a series resistor. This isn't specific to RF, but it's on the exam and important when using LEDs in station accessories or projects.
+"Forward biased" means voltage is applied in the correct direction—positive to the anode and negative to the cathode. On many through-hole LEDs, the anode has the longer lead. If the leads have been trimmed or the LED uses another package, check the markings or specifications. Unlike incandescent bulbs, LEDs only work when connected with the proper polarity. They also need current limiting, often a series resistor. This isn't specific to RF, but it's on the exam and important when using LEDs in station accessories or projects.
 
 #### RF Components in Action
 

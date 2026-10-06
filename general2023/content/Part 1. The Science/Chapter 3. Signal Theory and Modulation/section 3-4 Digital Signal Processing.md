@@ -7,7 +7,7 @@ status: draft1
 
 ### Section 3.4: Digital Signal Processing
 
-If you've ever had the opportunity to compare a modern transceiver with an older analog radio, you may have noticed that the modern radios are better able to make weak signals sound clearer, switch instantly between different filter types with the push of a button, and offer features like automatic notch filtering that seem almost magical when compared with the older radios. The key technology behind these capabilities is Digital Signal Processing (DSP)—which adds computer processing to the analog circuits still needed in a radio.
+If you've ever compared a modern transceiver with an older analog radio, you may have noticed some differences. Modern radios are better able to make weak signals sound clearer and switch instantly between different filter types with the push of a button. They also offer features like automatic notch filtering that seem almost magical compared with the older radios. The key technology behind these capabilities is Digital Signal Processing (DSP)—which adds computer processing to the analog circuits still needed in a radio.
 
 #### DSP Filters: Flexible Choices
 
@@ -35,7 +35,7 @@ For example, a narrow CW signal does not need the broad passband used for voice.
 
 For a computer digital mode, the radio may pass a wider range containing several signals while the program filters each decoded signal narrowly. The radio’s passband and the decoder’s bandwidth need not be identical. Section 7.2 applies these choices to receiver controls.
 
-#### Software-Defined Radio: The Ultimate DSP
+#### Software-Defined Radio
 
 > **Key Information:** Filtering, detection, and modulation are all functions performed by software in a software-defined radio. {{< link id="G7C11" >}}
 

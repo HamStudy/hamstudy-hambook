@@ -23,7 +23,7 @@ Later in this chapter, we'll use that same control for digital switching, where 
 
 ##### Field-Effect Transistors (FETs)
 
-FETs use an electric field, rather than current, to control the flow of current through a semiconductor channel.
+FETs use an electric field, rather than current, to control the flow of current through a semiconductor channel. One type is the **MOSFET**, or *metal-oxide-semiconductor field-effect transistor*.
 
 > **Key Information:** In MOSFET construction, the gate is separated from the channel by a thin insulating layer. {{< link id="G6A09" >}}
 
@@ -33,7 +33,7 @@ Both transistor types have important roles in your radio. Bipolar transistors ar
 
 #### Vacuum Tubes: Understanding Legacy Technology
 
-Though largely replaced by solid-state devices in modern equipment, vacuum tubes remain important to understand for several reasons: they appear on your exam, they're found in older equipment still in use, and they're still manufactured for specific applications like high-power RF amplifiers. They perform much the same function that we now usually use transistors for, and suitable tube designs can handle high voltages and power levels.
+Though largely replaced by solid-state devices in modern equipment, vacuum tubes remain important to understand. They appear on your exam, they're found in older equipment still in use, and they're still manufactured for specific applications like high-power RF amplifiers. They perform much the same function that we now usually use transistors for, and suitable tube designs can handle high voltages and power levels.
 
 Vacuum tubes work by controlling a stream of electrons flowing from a heated cathode to a plate (anode) through a vacuum.
 
@@ -52,7 +52,7 @@ While most new amateur radio equipment uses solid-state technology (transistors)
 
 #### Amplifier Classes: Efficiency vs. Fidelity
 
-Amplifier "classes" (`A`, `B`, `AB`, `C`) describe when a transistor or tube conducts current during a signal's waveform cycle. This classification represents the fundamental tradeoff between efficiency and signal fidelity that all amplifiers face.
+Amplifier "classes" (`A`, `B`, `AB`, `C`) describe when a transistor or tube conducts current during a signal's waveform cycle. These classes reflect a tradeoff all amplifiers face between efficiency and **signal fidelity**—how faithfully the output reproduces the input signal.
 
 ##### Amplifier Efficiency
 
@@ -112,7 +112,7 @@ An oscillator needs three elements:
 ![An amplifier sends a signal toward the output. Before the output, a branch takes part of that signal through a frequency-selective network and back to the amplifier’s input, forming a loop. The returning signal reinforces oscillation at the selected frequency, while the amplifier replaces energy lost in the circuit.](../../../images/s2-2-oscillator-feedback.svg)
 {.img-centered caption="The amplifier replaces lost energy; feedback reinforces the selected frequency."}
 
-The frequency selection in many oscillators comes from an LC (inductor-capacitor) circuit, where the frequency is determined by the inductance and capacitance in the tank circuit (discussed in the previous chapter).
+Many oscillators use an LC (inductor-capacitor) tank circuit to select the frequency. As we saw in the previous chapter, its inductance and capacitance determine that frequency.
 
 Modern transceivers often use direct digital synthesis (DDS) for frequency generation. DDS systems use digital techniques to generate analog waveforms, providing fast frequency changes with excellent stability.
 

@@ -53,7 +53,7 @@ Here's a sobering thought: You might be losing more power in your feed line than
 > **Key Information:** The attenuation of coaxial cable increases with increasing frequency. {{< link id="G9A05" >}}
 
 Three culprits steal your signal:
-1. **Skin effect**: At RF, current crowds onto the conductor's surface. Higher frequency = thinner skin = more resistance.
+1. **Skin effect**: At RF, current crowds onto the conductor's surface. As frequency rises, this surface layer gets thinner and resistance increases.
 2. **Dielectric heating**: The insulation absorbs energy, especially as frequency climbs.
 3. **Unwanted radiation**: Damage or poor shielding can let coax leak RF. Open-wire or window line can also radiate if its currents become unbalanced, for example when it is routed too close to metal.
 
@@ -78,7 +78,7 @@ Running 10 feet to an attic antenna? For a short HF run, most sound 50-ohm coax 
 
 **HF and 160-Meter Operations:**
 160 meters is an MF band, though it is often grouped with HF in station discussions.
-Both window line and coax have their place. Window line offers extremely low loss—ideal for long runs or when you need maximum efficiency. But it requires careful installation away from metal (including other cables, tower legs, raingutters, etc), often uses a suitable antenna tuner, and can be affected by ice or water.
+Both window line and coax have their place. Window line offers extremely low loss—ideal for long runs or when you need maximum efficiency. But it requires careful installation away from metal, including other cables, tower legs, and rain gutters. You will often use a suitable antenna tuner, and ice or water can affect the line.
 
 Quality coax trades some efficiency for convenience—it's weather-resistant with properly sealed outdoor connections, is less affected by nearby metal, and connects directly to your radio. For most HF stations, good coax is the practical choice.
 
@@ -104,7 +104,7 @@ A suitable BNC connector can handle a 100-watt HF station; check the ratings of 
 ##### Type N: An Underappreciated Option
 > **Key Information:** A type N connector is a *moisture-resistant RF connector useful to 10 GHz*. {{< link id="G6B07" >}}
 
-Type N has a lot going for it—highly weather-resistant, maintains a controlled impedance, and works into microwave frequencies. Many versions handle substantial HF power, but check the actual connector's rating at your frequency before connecting an amplifier.
+Type N has a lot going for it. It is highly weather-resistant, maintains a controlled impedance, and works into microwave frequencies. Many versions handle substantial HF power, but check the actual connector's rating at your frequency before connecting an amplifier.
 
 So why don't we all use Type N? Simple: most amateur radio transceivers come with UHF connectors, so that's what we use. Switching to Type N means adapters or replacing connectors, which adds hassle and potentially negates some benefits. Still, for permanent outdoor installations or VHF/UHF weak signal work, Type N is worth considering.
 

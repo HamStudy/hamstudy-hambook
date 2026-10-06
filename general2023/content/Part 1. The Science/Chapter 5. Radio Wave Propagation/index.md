@@ -8,6 +8,6 @@ status: draft1
 
 The band is completely dead. You're about to shut off the radio when suddenly—a weak signal emerges from the noise. "CQ DX from VK4..." Australia! Thirty seconds later, it's gone, swallowed by the same force that delivered it. That signal may have traveled thousands of miles through several ionospheric hops, turning back toward Earth in regions hundreds of miles overhead. The ionosphere—where solar radiation strips electrons from atoms—bent those radio waves back toward the planet's surface. For a brief moment, the angle was right, the frequency matched the ionization density, and the path opened. Then conditions shifted and it closed.
 
-You can't control the ionosphere, and there's definitely luck involved in catching these openings. What you can control is understanding propagation patterns well enough to be on the right band at the right time. Radio waves travel through different paths depending on frequency, distance, time of day, and atmospheric conditions.
+You can't control the ionosphere, and there's definitely luck involved in catching these openings. You can learn propagation patterns well enough to be on the right band at the right time. Radio waves travel through different paths depending on frequency, distance, time of day, and atmospheric conditions.
 
 This chapter explores the ionosphere's layers and how solar activity controls them, what determines Maximum Usable Frequency and Lowest Usable Frequency, and the various paths that carry signals across different distances.

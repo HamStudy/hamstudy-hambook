@@ -7,11 +7,11 @@ status: draft1
 
 ### Section 3.3: Frequency Mixing and Bandwidth
 
-Ever wonder why your radio can tune to any frequency on the band instantly, yet still provide sharp selectivity and powerful amplification? Or why that strong local FM broadcast station sometimes causes interference to your 2-meter repeater? The answers lie in the fascinating world of frequency mixing—one of the most elegant engineering solutions in radio design.
+Ever wonder why your radio can tune to any frequency on the band instantly, yet still provide sharp selectivity and powerful amplification? Or why that strong local FM broadcast station sometimes causes interference to your 2-meter repeater? Frequency mixing helps explain both.
 
 As you prepare to explore the HF bands with General privileges, understanding how signals mix and interact becomes more important than ever. You'll encounter situations where strong signals create unexpected interference, where your radio's design affects what you can and can't hear, and where bandwidth choices dramatically impact your operating success. These concepts explain the "why" behind many everyday amateur radio experiences.
 
-#### The Magic of Heterodyning: Converting Problems into Solutions
+#### Heterodyning: Shifting Frequency
 
 Here's a fundamental challenge: How do you build a radio that can tune anywhere from 1.8 to 30 MHz with excellent selectivity? Building sharp filters that work across such a wide frequency range would be extremely difficult and expensive. The usual solution is to shift the wanted signal to a frequency where sharp filtering is easier. A superheterodyne receiver does this by converting it to a fixed intermediate frequency (IF).
 
@@ -112,7 +112,7 @@ This unwanted mixing can happen in:
 
 ##### When Nature Creates Accidental Mixers
 
-Sometimes intermodulation happens in the most unexpected places—out in the environment itself! A loose or corroded metal junction can behave nonlinearly, like a primitive diode, and if that junction encounters strong RF signals, it can create intermodulation products just like an overdriven amplifier stage.
+Sometimes intermodulation happens in the most unexpected places—out in the environment itself! A loose or corroded metal junction can behave nonlinearly, like a primitive diode. If that junction encounters strong RF signals, it can create intermodulation products just like an overdriven amplifier stage.
 
 This becomes particularly problematic at mountain-top repeater sites where multiple high-power transmitters operate in close proximity. Strong signals from several repeaters can mix in unexpected places—perhaps in a loose guy wire connection or corroded tower joint—creating intermodulation products that fall right on another repeater's input frequency. The result? Phantom signals triggering repeaters or strange interference patterns that seem to come from nowhere.
 

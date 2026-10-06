@@ -19,7 +19,7 @@ The two main approaches are capacitance hats and loading coils. {{< link id="G4E
 
 > **Key Information:** A capacitance hat on a mobile antenna is used to *electrically lengthen a physically short antenna*. 
 
-Think of a capacitance hat as spreading out the antenna's electrical field at the top, where current is lowest. Those horizontal spokes or discs you see on mobile antennas—typically 4-8 radial wires or a solid metal disk mounted at the antenna tip—create capacitance to ground, reducing the capacitive reactance of the short antenna. Loading coils work more directly—they add inductive reactance that cancels the antenna's capacitive reactance, bringing the total reactance to zero at resonance.
+Think of a capacitance hat as spreading out the antenna's electrical field at the top, where current is lowest. Those horizontal spokes or discs you see on mobile antennas are typically 4-8 radial wires or a solid metal disk mounted at the antenna tip. They create capacitance to ground, reducing the capacitive reactance of the short antenna. Loading coils work more directly—they add inductive reactance that cancels the antenna's capacitive reactance, bringing the total reactance to zero at resonance.
 
 ![One short whip has a loading coil inserted along its length. The other has both a loading coil and a capacitance hat, with spokes extending sideways from the tip. The hat adds capacitance; the coil adds inductance to help bring the short antenna to resonance. Each installation needs an RF return path at the base. The drawing does not give construction dimensions.](../../../images/s4-5-loaded-whips.svg)
 {.img-centered}
@@ -50,7 +50,7 @@ Here's the truth about mobile HF: your fancy radio and amplifier won't help if y
 
 A full-size quarter-wave vertical might radiate 90% of your power. Shrink it to fit on a car, and efficiency can drop below 10%—meaning about 90 watts of a 100-watt signal becomes heat in the coil, conductors and return path instead of radiating! The resistance in the loading coil and the reduced radiation resistance of a short antenna combine to waste most of your power as heat.
 
-Maximizing what efficiency you can get becomes critical: mount antennas as high as possible on the vehicle, use the largest diameter conductor that's practical, ensure excellent ground connections to the vehicle body, and keep losses in the loading system minimal.
+To get the best efficiency, mount antennas as high as possible on the vehicle, use the largest diameter conductor that's practical, ensure excellent ground connections to the vehicle body, and keep losses in the loading system minimal.
 
 #### The Screwdriver Revolution: Tuning on the Fly
 

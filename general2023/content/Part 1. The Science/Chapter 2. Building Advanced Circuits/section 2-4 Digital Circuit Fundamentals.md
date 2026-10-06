@@ -51,7 +51,7 @@ Other basic gates include OR, NOT, NOR, NAND, and XOR.
 
 #### Integrated Circuits: Technology in a Package
 
-Most digital functions in modern equipment are implemented using integrated circuits (ICs)—chips that combine many circuit elements in one package, from small logic blocks to processors with millions of transistors.
+Modern equipment uses integrated circuits (ICs) for most digital functions. These chips combine many circuit elements in one package, from small logic blocks to processors with millions of transistors.
 
 ##### MMICs: RF Processing in a Tiny Package
 
@@ -77,7 +77,7 @@ Check a device’s actual supply and input ratings before connecting logic famil
 
 #### Operational Amplifiers: The Analog-Digital Bridge
 
-While we're focusing on digital circuits, it's important to understand how analog and digital worlds interface:
+While we're focusing on digital circuits, it's important to understand how analog and digital circuits work together:
 
 > **Key Information:** An integrated circuit operational amplifier is an analog device. {{< link id="G6B06" >}}
 
@@ -109,7 +109,7 @@ A shift register functions like a bucket brigade for digital data—each pulse o
 - Creating precise timing delays
 - Generating specific bit patterns
 
-Shift registers are widely used in the digital signal processing capabilities of modern transceivers and in the encoding/decoding circuits for digital communications modes.
+Shift registers are widely used for digital signal processing in modern transceivers and in the encoding/decoding circuits for digital communications modes.
 
 ##### Binary Counters: Tracking Digital States
 
@@ -143,7 +143,7 @@ The number of bits in a counter determines how many states it can represent: an 
 While we've focused on the fundamental components, these digital building blocks combine to create the sophisticated capabilities in modern equipment:
 
 - **Digital Signal Processing (DSP)** uses these elements at high speeds to filter signals and reduce noise
-- **Software Defined Radio (SDR)** leverages digital processing to implement radio functions in software running on processing hardware, rather than fixed analog circuits
+- **Software Defined Radio (SDR)** uses digital processing to perform radio functions in software running on processing hardware, rather than in fixed analog circuits
 - **Digital Mode Operation** relies on these components to encode and decode signals
 
 When you use features like noise reduction, notch filters, or digital mode interfaces, you're benefiting from these digital fundamentals working together.

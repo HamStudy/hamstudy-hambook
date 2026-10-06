@@ -8,7 +8,7 @@ status: draft1
 
 In the previous chapter, you learned how voltage, current, and reactance interact in AC circuits. Now it's time to meet the physical components that make those principles work—the building blocks inside every transceiver, amplifier, and power supply in your station.
 
-As a Technician, you encountered basic components like resistors, capacitors, and diodes. Moving to General class operation, you'll discover how these familiar parts behave differently at radio frequencies, and you'll meet new components like MOSFETs, switching power supplies, and MMICs that enable modern radio performance. You don't need to fully understand everything, but we will try to give you a basic foundation so you know what there is and the terms to use to find more information when it becomes more relevant.
+As a Technician, you encountered basic components like resistors, capacitors, and diodes. Moving to General class operation, you'll discover how these familiar parts behave differently at radio frequencies, and you'll meet new components like MOSFETs, switching power supplies, and MMICs that enable modern radio performance. You don't need to fully understand everything. We'll give you a basic foundation so you know what's available and which terms to use when you need more information.
 
 You'll learn how transistors and tubes amplify signals, how power supplies convert household AC into DC, and how digital circuits process information. Schematic symbols then let you follow the connections between those components, while measurement principles explain how to compare a circuit's behavior with what you expect. Choosing and using instruments for station tests comes later, in Chapter 7.
 

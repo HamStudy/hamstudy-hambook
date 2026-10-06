@@ -7,7 +7,7 @@ status: draft1
 
 ### Section 5.2: Solar Effects on Propagation
 
-The ionospheric layers we just explored don't exist in isolation—they're powered and controlled by our sun. Your reliable 40-meter net suddenly becomes unusable. The dead 10-meter band erupts with signals from around the world. These dramatic changes originate 93 million miles away, where our nearest star constantly bombards Earth with the radiation that creates and destroys propagation paths. One of the craziest aspects to HF operation is just how inconsistent propagation can be from day to day—or even minute to minute! Understanding how solar activity drives propagation helps you predict when bands will open or close, transforming seemingly random conditions into recognizable patterns.
+The ionospheric layers we just explored don't exist in isolation—they're powered and controlled by our sun. Your reliable 40-meter net suddenly becomes unusable. The dead 10-meter band erupts with signals from around the world. These dramatic changes originate 93 million miles away, where our nearest star constantly bombards Earth with the radiation that creates and destroys propagation paths. One of the craziest aspects to HF operation is just how inconsistent propagation can be from day to day—or even minute to minute! Understanding how solar activity drives propagation helps you recognize patterns in seemingly random conditions. Those patterns help you predict when bands will open or close.
 
 #### The Solar-Ionospheric Connection
 
@@ -17,7 +17,7 @@ This relationship changes constantly. Solar flares can destroy propagation in mi
 
 #### Sunspots and Solar Activity
 
-Deep inside the Sun, currents of hot plasma—gas in which electrons have separated from atoms, leaving charged particles—surge and churn, dragging magnetic fields with them and twisting them into knots. The tangled fields punch through the surface, blocking the normal flow of heat and leaving patches about 2,000°F cooler than their surroundings. Against the blazing backdrop, these cooler regions stand out as dark spots—sunspots.
+Deep inside the Sun, currents of hot plasma surge and churn. Plasma is gas in which electrons have separated from atoms, leaving charged particles. These currents drag magnetic fields with them and twist them into knots. The tangled fields punch through the surface, blocking the normal flow of heat and leaving patches about 2,000°F cooler than their surroundings. Against the blazing backdrop, these cooler regions stand out as dark spots—sunspots.
 
 The magnetic knots don't sit quietly. Magnetic activity is associated with stronger ultraviolet emissions that maintain denser layers of free electrons in Earth's upper atmosphere. Those layers can bend higher-frequency radio waves back toward Earth, raising the MUF and opening upper HF bands. Sudden flare bursts have a different effect, which we'll get to shortly. For radio operators, each dark patch on the Sun serves as a visible gauge of solar activity—and a preview of the day's propagation. {{< link id="G3A01" >}}
 
@@ -43,7 +43,7 @@ While sunspot counts provide rough guidance, the solar flux index offers precise
 
 > **Key Information:** The solar flux index is a measure of solar radiation at a wavelength of 10.7 centimeters.
 
-Measured daily by radio telescopes, this 10.7-cm radiation tracks solar activity and correlates with the ultraviolet emissions that affect the ionosphere. It is a useful proxy, not a direct measurement of your path. Values near 70 indicate low solar activity; values above 150 can encourage you to check the upper bands. Combine the number with time of day, direction and actual listening rather than treating it as an open/closed sign.
+Measured daily by radio telescopes, this 10.7-cm radiation tracks solar activity and correlates with the ultraviolet emissions that affect the ionosphere. It is a useful indirect indicator, not a direct measurement of your path. Values near 70 indicate low solar activity; values above 150 can encourage you to check the upper bands. Combine the number with time of day, direction and actual listening rather than treating it as an open/closed sign.
 
 #### Solar Disturbances: Flares and Particles
 
@@ -63,7 +63,7 @@ The enhanced D region absorbs low-frequency signals. Eighty and 40 meters may co
 
 ##### Coronal Mass Ejections: Delayed Impact
 
-Sometimes the sun doesn't just flash—it erupts. Coronal Mass Ejections hurl billion-ton clouds of magnetized plasma into space at millions of miles per hour. Unlike the light-speed radiation from flares, these massive particle clouds crawl across the solar system. {{< link id="G3A11" >}}
+Sometimes the sun doesn't just flash—it erupts. Coronal Mass Ejections (CMEs) hurl billion-ton clouds of magnetized plasma into space at millions of miles per hour. Unlike the light-speed radiation from flares, these massive particle clouds crawl across the solar system. {{< link id="G3A11" >}}
 
 > **Key Information:** Earth-directed coronal mass ejections can affect radio propagation 15 hours to several days after leaving the sun.
 
@@ -97,7 +97,7 @@ The disturbed auroral region can scatter VHF signals along unusual paths. Six an
 
 #### Measuring Geomagnetic Disturbances
 
-Two indices quantify Earth's magnetic field stability, helping operators assess current and recent conditions.
+Two indices measure how stable Earth's magnetic field is. They help operators assess current and recent conditions.
 
 The K-index provides snapshots of geomagnetic activity over 3-hour periods. {{< link id="G3A12" >}}
 

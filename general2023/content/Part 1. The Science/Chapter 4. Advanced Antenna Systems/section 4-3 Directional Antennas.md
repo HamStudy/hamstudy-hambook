@@ -16,13 +16,13 @@ The Yagi antenna transforms your station from a campfire to a searchlight. A hal
 ![A three-element Yagi has three parallel elements across one supporting boom. The driven element is in the middle, with a feed point at its center. The reflector behind it is longer; the director ahead is shorter. The forward beam points along the boom toward the director, perpendicular to the elements. The lengths are illustrative, not construction measurements.](../../../images/s4-3-yagi.svg)
 {.img-centered}
 
-A Yagi is elegantly simple—just aluminum elements mounted on a horizontal boom. But the physics behind it is pure genius. The antenna consists of three types of elements working together:
+A Yagi has aluminum elements mounted on a horizontal boom. It uses three types of elements working together:
 
 **The Driven Element** is the heart of the antenna—the only element connected to your coax. 
 
 > **Key Information:** The approximate length of the driven element of a Yagi antenna is 1/2 wavelength. {{< link id="G9C02" >}}
 
-This half-wavelength element resonates at your operating frequency, just like a dipole. But here's where the magic begins: we add parasitic elements (not driven directly by the feed line) that interact with the driven element's radiated field.
+This half-wavelength element resonates at your operating frequency, just like a dipole. We add parasitic elements (not driven directly by the feed line) that interact with the driven element's radiated field.
 
 **The Reflector** sits behind the driven element, slightly longer than a half wavelength. When RF from the driven element reaches it, the reflector re-radiates that energy back toward the front of the antenna, reinforcing the forward signal.
 
@@ -70,7 +70,7 @@ Every Yagi design involves compromises. Want maximum gain? You might sacrifice b
 
 > **Key Information:** Forward gain, front-to-back ratio, and SWR bandwidth of a Yagi antenna can all be optimized by adjusting the physical length of the boom, the number of elements on the boom, and the spacing of each element along the boom. {{< link id="G9C10" >}}
 
-Computer modeling has revolutionized antenna design. Modern Yagis are optimized for specific goals—DX chasers might choose maximum forward gain, contesters often prefer wide bandwidth for frequency agility, and those fighting noise might optimize for front-to-back ratio.
+Computer modeling has revolutionized antenna design. Modern Yagis are optimized for specific goals—DX chasers might choose maximum forward gain, contesters often prefer wide bandwidth for quick frequency changes, and those fighting noise might optimize for front-to-back ratio.
 
 #### Stacking: When One Antenna Isn't Enough
 

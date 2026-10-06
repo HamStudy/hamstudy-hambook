@@ -86,7 +86,7 @@ This design uses:
 During operation:
 - When the top of the secondary is positive relative to the center tap, the top diode conducts
 - When the bottom of the secondary is positive relative to the center tap, the bottom diode conducts
-- Both scenarios create current flow in the same direction through the load
+- In both cases, current flows in the same direction through the load
 
 
 
@@ -132,7 +132,7 @@ In practical circuits, the diode forward voltage drop affects the output. For a 
 
 For high-power applications, this voltage drop represents wasted power and heat generation in the diodes.
 
-Most amateur radio power supplies use full-wave rectification because of these advantages, with bridge rectifiers being the most common in modern designs due to their flexibility and the low cost of diodes.
+Most amateur radio power supplies use full-wave rectification for its efficiency and easier filtering. Bridge rectifiers are the most common in modern designs because of their flexibility and the low cost of diodes.
 
 #### Filtering: Smoothing the Pulses
 
@@ -165,7 +165,7 @@ Traditional linear power supplies work well but tend to be large and heavy due t
 
 > **Key Information:** High-frequency operation allows switchmode power supplies to use smaller components compared to linear power supplies. {{< link id="G7A08" >}}
 
-Instead of transforming 60 Hz AC directly, a typical isolated mains switchmode supply will:
+Instead of transforming 60 Hz AC directly, a typical switchmode supply that runs from household AC and provides electrical isolation will:
 1. Rectify the incoming AC to DC
 2. Use high-speed switching transistors to create high-frequency AC
 3. Transform this high-frequency AC to the desired voltage

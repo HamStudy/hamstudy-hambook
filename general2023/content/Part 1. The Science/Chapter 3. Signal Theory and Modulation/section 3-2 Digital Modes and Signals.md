@@ -36,7 +36,7 @@ These terms come from telegraphy, where "mark" meant a signal was present and "s
 
 ##### Advanced FSK: Multiple Tones
 
-Here's where things get really clever! Modern digital modes extend the basic FSK concept by using more than two frequencies—why settle for just two tones when you can use many?
+Why stop at two tones? Modern digital modes build on basic FSK by using more frequencies.
 
 > **Key Information:** FT8 uses 8-tone frequency shift keying modulation. {{< link id="G8A09" >}}
 
@@ -63,7 +63,7 @@ Engineers call this a "constellation diagram" because the phase positions look l
 
 > **Key Information:** QPSK31 is sideband sensitive, its encoding provides error correction, and its bandwidth is approximately the same as BPSK31. {{< link id="G8A06" >}}
 
-The error correction capability means the mode can often detect and fix transmission errors automatically—pretty impressive for such a narrow bandwidth mode! “Sideband sensitive” means both stations must select the same sideband. The similar symbol rate and signal shaping keep QPSK31’s bandwidth close to BPSK31’s; its extra coding capacity helps correct errors instead of simply doubling typing speed.
+The mode can often detect and fix transmission errors automatically, even within its narrow bandwidth. “Sideband sensitive” means both stations must select the same sideband. The similar symbol rate and signal shaping keep QPSK31’s bandwidth close to BPSK31’s; its extra coding capacity helps correct errors instead of simply doubling typing speed.
 
 #### Character Encoding: From Letters to Bits
 
@@ -73,11 +73,11 @@ Digital modes need a way to convert text characters into binary data. Different 
 
 > **Key Information:** Baudot code is a 5-bit code with additional start and stop bits. {{< link id="G8C04" >}}
 
-This vintage encoding system, still used in RTTY, has a charming retro feel—it predates modern computers and uses five data bits per character, plus the start and stop bits. With only 32 possible combinations (2⁵), it has room for letters and control functions, but requires special "shift" characters to access numbers and punctuation.
+Baudot is still used in RTTY, even though it predates modern computers. It uses five data bits per character, plus the start and stop bits. With only 32 possible combinations (2⁵), it has room for letters and control functions, but requires special "shift" characters to access numbers and punctuation.
 
 ##### Varicode: The Smart System
 
-Some modes use variable-length encoding. Here's where things get elegant:
+Some modes use variable-length encoding:
 
 > **Key Information:** PSK31 uses Varicode for sending characters. {{< link id="G8C12" >}}
 
@@ -95,11 +95,11 @@ Some of the most impressive digital modes specialize in extremely weak signal co
 
 > **Key Information:** WSPR is a digital mode used as a low-power beacon for assessing HF propagation. {{< link id="G8C02" >}}
 
-WSPR (pronounced "whisper"—how perfect is that?) uses long transmissions and a very narrow signal to recover limited information. Stations transmit just their callsign, grid square, and power level using incredibly low power, sometimes just milliwatts. Yet receivers worldwide can decode these whisper-quiet signals and automatically report what they heard via the internet.
+WSPR (pronounced "whisper") uses long transmissions and a very narrow signal to recover limited information. Stations transmit just their callsign, grid square, and power level using incredibly low power, sometimes just milliwatts. Yet receivers worldwide can decode these whisper-quiet signals and automatically report what they heard via the internet.
 
 When conditions cooperate, it’s fascinating to run WSPR at 200 milliwatts and see reports from stations thousands of miles away that heard your tiny signal. The automatic reporting creates a real-time global map of propagation conditions.
 
-##### FT8: The Game Changer
+##### FT8: Weak-Signal Contacts
 
 > **Key Information:** FT8 can receive signals with very low signal-to-noise ratios. {{< link id="G8C07" >}}
 
