@@ -46,7 +46,7 @@ Have your FRN, accepted identification, and any license or exam-credit documents
 
 ## Exam and Application Fees
 
-Exam teams may charge a fee to cover examination expenses; check the session listing for the amount and payment method. The FCC does not charge an application fee for a license-class upgrade. A new license application currently costs $35, paid separately to the FCC. Follow the FCC's payment instructions if your application requires that fee. Current fee guidance is available from [ARRL](https://www.arrl.org/fcc-application-fee); the latest version of this book is at [hambook.org](https://hambook.org).
+Exam teams may charge a fee to cover examination expenses; check the session listing for the amount and payment method. The FCC does not charge an application fee for a license-class upgrade. A new license application currently costs $35, paid separately to the FCC. Follow the FCC's payment instructions if your application requires that fee. Current fee guidance is available on [ARRL’s FCC application-fee page](https://www.arrl.org/fcc-application-fee); the latest version of this book is at [hambook.org](https://hambook.org).
 
 ## After Passing Your Exam
 

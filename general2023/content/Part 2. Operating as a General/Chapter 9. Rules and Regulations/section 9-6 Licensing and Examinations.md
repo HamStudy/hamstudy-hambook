@@ -24,7 +24,7 @@ You can use these temporary privileges for up to 365 days after you pass the exa
 
 #### Keeping a License Current
 
-If the FCC receives your properly filed renewal application by the expiration date, [you may keep operating](https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-97/subpart-A/section-97.21) until it takes final action. Otherwise, you must stop transmitting when your license expires and wait until it is renewed. The two-year grace period lets you renew without retesting.
+If the FCC receives your properly filed renewal application by the expiration date, you may keep operating until it takes final action ([FCC rule 97.21](https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-97/subpart-A/section-97.21)). Otherwise, you must stop transmitting when your license expires and wait until it is renewed. The two-year grace period lets you renew without retesting.
 
 Once the grace period ends, you cannot renew that license through the normal process. You may still get exam credit based on your old license:
 
@@ -34,7 +34,7 @@ Once the grace period ends, you cannot renew that license through the normal pro
 
 A General or Advanced license past its grace period gives credit for **Element 3**, the General exam. It is not credit for Element 2. Without current Element 2 credit, you must pass the *current Technician exam* to get a new General grant. Someone with no current license must still wait for the new FCC grant before transmitting as a control operator.
 
-A former Amateur Extra grant provides credit for Elements 3 and 4. Section 97.505 also lists [other ways an older license can earn exam credit](https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-97/subpart-F/section-97.505). Before the session, ask the exam team what proof to bring and which exams you need. You can claim exam credit with proof of an old license or a recent CSCE. The CSCE’s 365-day limit does not apply to credit from a qualifying old license.
+A former Amateur Extra grant provides credit for Elements 3 and 4. [FCC rule 97.505](https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-97/subpart-F/section-97.505) also lists other ways an older license can earn exam credit. Before the session, ask the exam team what proof to bring and which exams you need. You can claim exam credit with proof of an old license or a recent CSCE. The CSCE’s 365-day limit does not apply to credit from a qualifying old license.
 
 #### How Volunteer Examiners Fit into the Process
 
