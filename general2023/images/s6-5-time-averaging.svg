@@ -35,15 +35,15 @@ SOFTWARE.
 <path id="figure-math-main-61" d="M56 347Q56 360 70 367H707Q722 360 722 347Q722 336 708 328L390 327H72Q56 332 56 347ZM56 153Q56 168 72 173H708Q709 172 712.5 169.5Q716 167 717.5 165.5Q719 164 720.5 160.5Q722 157 722 153Q722 140 707 133H70Q56 140 56 153Z"/>
 </defs>
 <style>text{font-family:Arial,Helvetica,sans-serif;font-size:24px;fill:#111} .small{font-size:22px} .head{font-weight:bold} .wire{fill:none;stroke:#111;stroke-width:4;stroke-linecap:round;stroke-linejoin:round} .thin{fill:none;stroke:#555;stroke-width:2.5} .dash{stroke-dasharray:8 6} .arrow{fill:none;stroke:#111;stroke-width:3;marker-end:url(#arrow)} .box{fill:#fff;stroke:#111;stroke-width:2.5} .light{fill:#eee;stroke:#555;stroke-width:2} </style>
-<rect width="640" height="355" fill="white"/>
+
 <text x="320" y="35" class="head" text-anchor="middle">Five minutes on, five minutes off</text><rect x="70" y="77" width="250" height="62" fill="#444" stroke="#111" stroke-width="2" class="c-primary-solid"/><rect x="320" y="77" width="250" height="62" fill="#fff" stroke="#111" stroke-width="2"/><text x="195" y="115" class="head" style="fill:white" text-anchor="middle">Transmit</text><text x="445" y="115" class="head" text-anchor="middle">Receive</text><line x1="70" y1="139" x2="70" y2="149" class="thin"/><text x="70" y="176" class="small" text-anchor="middle">0</text><line x1="320" y1="139" x2="320" y2="149" class="thin"/><text x="320" y="176" class="small" text-anchor="middle">5</text><line x1="370" y1="139" x2="370" y2="149" class="thin"/><text x="370" y="176" class="small" text-anchor="middle">6</text><line x1="570" y1="139" x2="570" y2="149" class="thin"/><text x="570" y="176" class="small" text-anchor="middle">10</text><line x1="70" y1="210" x2="370" y2="210" class="thin c-secondary-stroke"/><line x1="70" y1="198" x2="70" y2="222" class="thin c-secondary-stroke"/><line x1="370" y1="198" x2="370" y2="222" class="thin c-secondary-stroke"/><g fill="#111" stroke="none" data-tex="\frac{5}{6}\approx83\%" transform="translate(395.0000 216.0000)"><g transform="translate(3.0000 -16.2480)"><use href="#figure-math-main-53" transform="translate(0.0000 0.0000) scale(0.024000 -0.024000)"/></g><path d="M0,-6.0000 h18.0000" fill="none" stroke="#111" stroke-width="0.9600" stroke-linecap="butt"/><g transform="translate(3.0000 16.4640)"><use href="#figure-math-main-54" transform="translate(0.0000 0.0000) scale(0.024000 -0.024000)"/></g><use href="#figure-math-main-8776" transform="translate(24.6667 0.0000) scale(0.024000 -0.024000)"/><g transform="translate(50.0053 0.0000)"><use href="#figure-math-main-56" transform="translate(0.0000 0.0000) scale(0.024000 -0.024000)"/><use href="#figure-math-main-51" transform="translate(12.0000 0.0000) scale(0.024000 -0.024000)"/><use href="#figure-math-main-37" transform="translate(24.0000 0.0000) scale(0.024000 -0.024000)"/></g></g><line x1="70" y1="266" x2="570" y2="266" class="thin"/><line x1="70" y1="254" x2="70" y2="278" class="thin"/><line x1="570" y1="254" x2="570" y2="278" class="thin"/><text x="177.2445" y="308" class="small" text-anchor="start">Over 10 minutes:</text><g fill="#111" stroke="none" data-tex="\frac{5}{10}=50\%" transform="translate(356.7582 308.0000)"><g transform="translate(9.0000 -16.2480)"><use href="#figure-math-main-53" transform="translate(0.0000 0.0000) scale(0.024000 -0.024000)"/></g><path d="M0,-6.0000 h30.0000" fill="none" stroke="#111" stroke-width="0.9600" stroke-linecap="butt"/><g transform="translate(3.0000 16.4640)"><use href="#figure-math-main-49" transform="translate(0.0000 0.0000) scale(0.024000 -0.024000)"/><use href="#figure-math-main-48" transform="translate(12.0000 0.0000) scale(0.024000 -0.024000)"/></g><use href="#figure-math-main-61" transform="translate(36.6667 0.0000) scale(0.024000 -0.024000)"/><g transform="translate(62.0053 0.0000)"><use href="#figure-math-main-53" transform="translate(0.0000 0.0000) scale(0.024000 -0.024000)"/><use href="#figure-math-main-48" transform="translate(12.0000 0.0000) scale(0.024000 -0.024000)"/><use href="#figure-math-main-37" transform="translate(24.0000 0.0000) scale(0.024000 -0.024000)"/></g></g><text x="320" y="349" class="small" text-anchor="middle">Time in minutes</text>
 <style id="semantic-color">.c-primary-solid{fill:#0068a8}.c-secondary-stroke{stroke:#b45309}</style>
 
 <!-- Keep the light palette for print and SVG readers without theme support. -->
 <style id="figure-theme">
   @media screen and (prefers-color-scheme: dark) {
-    [fill="white"] { fill: #111820; }
-    [fill="#fff"] { fill: #111820; }
+    [fill="white"] { fill: #000000; }
+    [fill="#fff"] { fill: #000000; }
     [fill="#111"] { fill: #e9eef4; }
     [fill="#444"] { fill: #c7d1dd; }
     [stroke="#111"] { stroke: #e9eef4; }
@@ -51,7 +51,7 @@ SOFTWARE.
     .wire { stroke: #e9eef4; }
     .thin { stroke: #b8c5d4; }
     .arrow { stroke: #e9eef4; }
-    .box { fill: #111820; stroke: #e9eef4; }
+    .box { fill: #000000; stroke: #e9eef4; }
     .light { fill: #24313f; stroke: #b8c5d4; }
     .c-primary-solid { fill: #0068a8; }
     .c-secondary-stroke { stroke: #ffc078; }

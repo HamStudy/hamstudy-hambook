@@ -2,14 +2,14 @@
 <title id="title">Small-loop null directions</title><desc id="desc">Perspective view of an electrically small loop. Both nulls point perpendicular to the plane of the loop, not along the wire. Nulls indicate directions of least response.</desc>
 <defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#111"/></marker></defs>
 <style>text{font-family:Arial,Helvetica,sans-serif;font-size:24px;fill:#111} .small{font-size:22px} .head{font-weight:bold} .wire{fill:none;stroke:#111;stroke-width:4;stroke-linecap:round;stroke-linejoin:round} .thin{fill:none;stroke:#555;stroke-width:2.5} .dash{stroke-dasharray:8 6} .arrow{fill:none;stroke:#111;stroke-width:3;marker-end:url(#arrow)} .box{fill:#fff;stroke:#111;stroke-width:2.5} .light{fill:#eee;stroke:#555;stroke-width:2} </style>
-<rect width="640" height="335" fill="white"/>
+
 <text x="320" y="34" class="head" text-anchor="middle">Electrically small loop</text><ellipse cx="320" cy="166" rx="48" ry="100" fill="#eee" stroke="#111" stroke-width="4" class="c-primary-stroke c-primary-tint"/><line x1="265" y1="166" x2="50" y2="166" class="arrow c-secondary-stroke"/><line x1="375" y1="166" x2="590" y2="166" class="arrow c-secondary-stroke"/><text x="110" y="145" class="head" text-anchor="middle">Null</text><text x="530" y="145" class="head" text-anchor="middle">Null</text><line x1="335" y1="112" x2="462" y2="76" class="thin"/><text x="500" y="62" class="small" text-anchor="middle">Loop plane</text><text x="320" y="302" class="small" text-anchor="middle">Nulls are perpendicular to the loop plane.</text>
 <style id="semantic-color">.c-primary-stroke{stroke:#0068a8}.c-primary-tint{fill:#e4f1fa}.c-secondary-stroke{stroke:#b45309}</style>
 
 <!-- Keep the light palette for print and SVG readers without theme support. -->
 <style id="figure-theme">
   @media screen and (prefers-color-scheme: dark) {
-    [fill="white"] { fill: #111820; }
+    [fill="white"] { fill: #000000; }
     [fill="#111"] { fill: #e9eef4; }
     [fill="#eee"] { fill: #24313f; }
     [stroke="#111"] { stroke: #e9eef4; }
@@ -17,7 +17,7 @@
     .wire { stroke: #e9eef4; }
     .thin { stroke: #b8c5d4; }
     .arrow { stroke: #e9eef4; }
-    .box { fill: #111820; stroke: #e9eef4; }
+    .box { fill: #000000; stroke: #e9eef4; }
     .light { fill: #24313f; stroke: #b8c5d4; }
     .c-primary-stroke { stroke: #79c6ff; }
     .c-primary-tint { fill: #15344b; }

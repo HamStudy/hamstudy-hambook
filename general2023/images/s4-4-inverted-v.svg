@@ -15,19 +15,19 @@
     .radio { fill: #edf2f5; stroke: #394753; stroke-width: 2; }
     .knob { fill: #737d87; }
     @media screen and (prefers-color-scheme: dark) {
-      .background { fill: #111820; }
+      .background { fill: #000000; }
       text { fill: #e9eef4; }
       .support { fill: #24313f; stroke: #a4b0bd; }
       .ground, .leader, .rope { stroke: #a4b0bd; }
       .leg { stroke: #79c6ff; }
-      .insulator, .feed { fill: #111820; stroke: #d1dce6; }
+      .insulator, .feed { fill: #000000; stroke: #d1dce6; }
       .coax { stroke: #ffc078; }
       .connection { fill: #79c6ff; }
       .radio { fill: #24313f; stroke: #d1dce6; }
       .knob { fill: #d1dce6; }
     }
   </style>
-  <rect class="background" width="640" height="300"/>
+
 
   <!-- The mast is behind the feed-point housing; it is a mechanical support. -->
   <path class="ground" d="M 26,279 H 614"/>

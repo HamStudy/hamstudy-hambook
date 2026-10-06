@@ -2,20 +2,20 @@
 <title id="title">Solar station power flow</title><desc id="desc">Solar panel feeds a compatible charge controller, which controls charging of the battery. Correctly rated fuses near the battery protect its charge and load cables. The controller may include reverse-current blocking. Arrows show power flow, not wiring connections.</desc>
 <defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#111"/></marker></defs>
 <style>text{font-family:Arial,Helvetica,sans-serif;font-size:24px;fill:#111} .small{font-size:22px} .head{font-weight:bold} .wire{fill:none;stroke:#111;stroke-width:4;stroke-linecap:round;stroke-linejoin:round} .thin{fill:none;stroke:#555;stroke-width:2.5} .dash{stroke-dasharray:8 6} .arrow{fill:none;stroke:#111;stroke-width:3;marker-end:url(#arrow)} .box{fill:#fff;stroke:#111;stroke-width:2.5} .light{fill:#eee;stroke:#555;stroke-width:2} </style>
-<rect width="640" height="500" fill="white"/>
+
 <text x="320" y="34" class="head" text-anchor="middle">Solar station power flow</text><rect x="30" y="77" width="200" height="65" rx="5" class="box"/><text x="130" y="117" class="" text-anchor="middle">Solar panel</text><rect x="350" y="67" width="260" height="90" rx="5" class="box"/><text x="480" y="105" class="" text-anchor="middle">Charge</text><text x="480" y="136" class="" text-anchor="middle">controller</text><line x1="230" y1="108" x2="346" y2="108" class="arrow c-primary-stroke"/><line x1="480" y1="159" x2="480" y2="184" class="arrow c-primary-stroke"/><rect x="434" y="188" width="92" height="58" rx="5" class="box c-secondary-stroke c-secondary-tint"/><text x="480" y="225" class="" text-anchor="middle">Fuse</text><line x1="480" y1="248" x2="480" y2="281" class="arrow c-primary-stroke"/><rect x="368" y="285" width="224" height="69" rx="5" class="box"/><text x="480" y="327" class="" text-anchor="middle">Battery</text><line x1="367" y1="320" x2="297" y2="320" class="arrow c-primary-stroke"/><rect x="205" y="287" width="90" height="65" rx="5" class="box c-secondary-stroke c-secondary-tint"/><text x="250" y="327" class="" text-anchor="middle">Fuse</text><line x1="203" y1="320" x2="146" y2="320" class="arrow c-primary-stroke"/><rect x="30" y="287" width="113" height="65" rx="5" class="box"/><text x="87" y="327" class="" text-anchor="middle">Radio</text><text x="254" y="202" class="small" text-anchor="middle">Fuses near</text><text x="254" y="233" class="small" text-anchor="middle">the battery</text><line x1="319" y1="217" x2="431" y2="217" class="thin"/><line x1="254" y1="240" x2="254" y2="284" class="thin"/><text x="320" y="397" class="small" text-anchor="middle">Controller limits charging and may block</text><text x="320" y="427" class="small" text-anchor="middle">reverse current into the panel.</text><text x="320" y="483" class="small" text-anchor="middle">Power flow only; connection details are omitted.</text>
 <style id="semantic-color">.c-primary-stroke{stroke:#0068a8}.c-secondary-stroke{stroke:#b45309}.c-secondary-tint{fill:#fff0dc}</style>
 
 <!-- Keep the light palette for print and SVG readers without theme support. -->
 <style id="figure-theme">
   @media screen and (prefers-color-scheme: dark) {
-    [fill="white"] { fill: #111820; }
+    [fill="white"] { fill: #000000; }
     [fill="#111"] { fill: #e9eef4; }
     text { fill: #e9eef4; }
     .wire { stroke: #e9eef4; }
     .thin { stroke: #b8c5d4; }
     .arrow { stroke: #e9eef4; }
-    .box { fill: #111820; stroke: #e9eef4; }
+    .box { fill: #000000; stroke: #e9eef4; }
     .light { fill: #24313f; stroke: #b8c5d4; }
     .c-primary-stroke { stroke: #79c6ff; }
     .c-secondary-stroke { stroke: #ffc078; }

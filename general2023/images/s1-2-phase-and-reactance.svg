@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 196" width="640" height="196" role="img">
 <title>Sine-wave phase and reactive phase relationships</title>
-<rect width="640" height="196" fill="white"/>
+
 <defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#111"/></marker><marker id="phase-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#111"/></marker></defs>
 <g font-family="Arial, sans-serif">
 <text x="106" y="35" fill="#111" font-size="20" text-anchor="middle" font-weight="bold">One cycle is 360°</text>
@@ -56,7 +56,7 @@
 <!-- Keep the light palette for print and SVG readers without theme support. -->
 <style id="figure-theme">
   @media screen and (prefers-color-scheme: dark) {
-    [fill="white"] { fill: #111820; }
+    [fill="white"] { fill: #000000; }
     [fill="#111"] { fill: #e9eef4; }
     [fill="#0068a8"] { fill: #79c6ff; }
     [fill="#b45309"] { fill: #ffc078; }

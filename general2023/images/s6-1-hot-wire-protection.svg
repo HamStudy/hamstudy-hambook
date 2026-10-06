@@ -2,14 +2,14 @@
 <title id="title">Protect both hot conductors</title><desc id="desc">Conceptual four-wire 240-volt circuit. Each hot conductor has overcurrent protection. Neutral and protective ground do not. Protective ground connects to the equipment enclosure; neutral remains separate there. Not a wiring diagram.</desc>
 <defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#111"/></marker></defs>
 <style>text{font-family:Arial,Helvetica,sans-serif;font-size:24px;fill:#111} .small{font-size:22px} .head{font-weight:bold} .wire{fill:none;stroke:#111;stroke-width:4;stroke-linecap:round;stroke-linejoin:round} .thin{fill:none;stroke:#555;stroke-width:2.5} .dash{stroke-dasharray:8 6} .arrow{fill:none;stroke:#111;stroke-width:3;marker-end:url(#arrow)} .box{fill:#fff;stroke:#111;stroke-width:2.5} .light{fill:#eee;stroke:#555;stroke-width:2} </style>
-<rect width="640" height="470" fill="white"/>
+
 <text x="320" y="33" class="head" text-anchor="middle">Four-wire 240 V circuit</text><text x="65" y="109" class="small" text-anchor="middle">Hot 1</text><text x="65" y="179" class="small" text-anchor="middle">Hot 2</text><text x="65" y="249" class="small" text-anchor="middle">Neutral</text><text x="65" y="344" class="small" text-anchor="middle">Ground</text><rect x="443" y="63" width="182" height="294" rx="5" fill="#eee" stroke="#555" stroke-width="2" stroke-dasharray="6 5"/><rect x="494" y="87" width="112" height="183" rx="5" class="box"/><line x1="115" y1="100" x2="231" y2="100" class="wire"/><line x1="269" y1="100" x2="494" y2="100" class="wire"/><line x1="115" y1="170" x2="231" y2="170" class="wire"/><line x1="269" y1="170" x2="494" y2="170" class="wire"/><rect x="231" y="81" width="38" height="38" class="box c-secondary-stroke c-secondary-tint"/><rect x="231" y="151" width="38" height="38" class="box c-secondary-stroke c-secondary-tint"/><line x1="250" y1="120" x2="250" y2="150" class="thin dash"/><line x1="115" y1="240" x2="494" y2="240" class="wire"/><line x1="115" y1="335" x2="469" y2="335" class="wire"/><circle cx="469" cy="335" r="6" fill="#111"/><line x1="469" y1="335" x2="469" y2="316" class="wire"/><line x1="454" y1="316" x2="484" y2="316" class="wire"/><line x1="459" y1="310" x2="479" y2="310" class="wire"/><line x1="464" y1="304" x2="474" y2="304" class="wire"/><text x="550" y="185" class="head" text-anchor="middle">Load</text><text x="534" y="295" class="small" text-anchor="middle">Chassis</text><text x="250" y="66" class="small" text-anchor="middle">Breaker</text><text x="255" y="389" class="small" text-anchor="middle">Protection on both hots</text><text x="320" y="428" class="small" text-anchor="middle">Neutral stays separate from the chassis.</text><text x="320" y="461" class="small" text-anchor="middle">Concept only; follow applicable wiring codes.</text>
 <style id="semantic-color">.c-secondary-stroke{stroke:#b45309}.c-secondary-tint{fill:#fff0dc}</style>
 
 <!-- Keep the light palette for print and SVG readers without theme support. -->
 <style id="figure-theme">
   @media screen and (prefers-color-scheme: dark) {
-    [fill="white"] { fill: #111820; }
+    [fill="white"] { fill: #000000; }
     [fill="#111"] { fill: #e9eef4; }
     [fill="#eee"] { fill: #24313f; }
     [stroke="#555"] { stroke: #b8c5d4; }
@@ -17,7 +17,7 @@
     .wire { stroke: #e9eef4; }
     .thin { stroke: #b8c5d4; }
     .arrow { stroke: #e9eef4; }
-    .box { fill: #111820; stroke: #e9eef4; }
+    .box { fill: #000000; stroke: #e9eef4; }
     .light { fill: #24313f; stroke: #b8c5d4; }
     .c-secondary-stroke { stroke: #ffc078; }
     .c-secondary-tint { fill: #49331c; }

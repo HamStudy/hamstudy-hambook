@@ -2,21 +2,21 @@
 <title id="title">Day and night ionospheric regions</title><desc id="desc">Daytime regions in order upward are D, E, F1, and F2. At night lower-region ionization weakens greatly and a combined F region remains. Regions have gradual boundaries; diagram not to scale.</desc>
 <defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#111"/></marker></defs>
 <style>text{font-family:Arial,Helvetica,sans-serif;font-size:24px;fill:#111} .small{font-size:22px} .head{font-weight:bold} .wire{fill:none;stroke:#111;stroke-width:4;stroke-linecap:round;stroke-linejoin:round} .thin{fill:none;stroke:#555;stroke-width:2.5} .dash{stroke-dasharray:8 6} .arrow{fill:none;stroke:#111;stroke-width:3;marker-end:url(#arrow)} .box{fill:#fff;stroke:#111;stroke-width:2.5} .light{fill:#eee;stroke:#555;stroke-width:2} </style>
-<rect width="640" height="450" fill="white"/>
+
 <text x="170" y="35" class="head" text-anchor="middle">Day</text><text x="470" y="35" class="head" text-anchor="middle">Night</text><rect x="38" y="65" width="265" height="63" class="light c-primary-stroke c-primary-tint"/><rect x="38" y="153" width="265" height="56" class="light c-primary-stroke c-primary-tint"/><rect x="38" y="240" width="265" height="47" class="light"/><rect x="38" y="313" width="265" height="39" class="light c-secondary-stroke c-secondary-tint"/><text x="170" y="105" class="" text-anchor="middle">F2</text><text x="170" y="190" class="" text-anchor="middle">F1</text><text x="170" y="272" class="" text-anchor="middle">E</text><text x="170" y="341" class="" text-anchor="middle">D</text><rect x="337" y="95" width="265" height="100" class="light c-primary-stroke c-primary-tint"/><rect x="337" y="240" width="265" height="47" fill="white" stroke="#999" stroke-width="2" stroke-dasharray="7 7"/><rect x="337" y="313" width="265" height="39" fill="white" stroke="#999" stroke-width="2" stroke-dasharray="7 7" class="c-secondary-stroke"/><text x="470" y="153" class="" text-anchor="middle">F region</text><text x="470" y="272" class="small" text-anchor="middle">E: weaker</text><text x="470" y="341" class="small" text-anchor="middle">D: much weaker</text><line x1="20" y1="375" x2="620" y2="375" class="wire"/><text x="320" y="405" class="small" text-anchor="middle">Earth&#x27;s surface</text><text x="320" y="432" class="small" text-anchor="middle">Regions and spacing are schematic.</text>
 <style id="semantic-color">.c-primary-stroke{stroke:#0068a8}.c-primary-tint{fill:#e4f1fa}.c-secondary-stroke{stroke:#b45309}.c-secondary-tint{fill:#fff0dc}</style>
 
 <!-- Keep the light palette for print and SVG readers without theme support. -->
 <style id="figure-theme">
   @media screen and (prefers-color-scheme: dark) {
-    [fill="white"] { fill: #111820; }
+    [fill="white"] { fill: #000000; }
     [fill="#111"] { fill: #e9eef4; }
     [stroke="#999"] { stroke: #899bb0; }
     text { fill: #e9eef4; }
     .wire { stroke: #e9eef4; }
     .thin { stroke: #b8c5d4; }
     .arrow { stroke: #e9eef4; }
-    .box { fill: #111820; stroke: #e9eef4; }
+    .box { fill: #000000; stroke: #e9eef4; }
     .light { fill: #24313f; stroke: #b8c5d4; }
     .c-primary-stroke { stroke: #79c6ff; }
     .c-primary-tint { fill: #15344b; }
