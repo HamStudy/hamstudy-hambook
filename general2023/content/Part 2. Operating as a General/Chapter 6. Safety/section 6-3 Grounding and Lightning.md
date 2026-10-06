@@ -33,7 +33,7 @@ Make any planned cable disconnections before a storm arrives. When you hear thun
 
 Lightning protection is about handling massive currents safely. RF grounding is about something completely different—managing radio frequency energy so it doesn't cause problems in your shack. The two require different approaches, and what works for one may not work for the other.
 
-Even an ordinary wire has some resistance and inductance. At radio frequencies, its length and return path become especially important. A grounding connection near a quarter wavelength long can present high impedance at the equipment end, even if its far end is well grounded. RF current through that impedance can produce a high voltage.
+Even an ordinary wire has some resistance and inductance. At radio frequencies, its length and return path become especially important. A grounding connection near a quarter wavelength long can be *resonant*, presenting high impedance at the equipment end even if its far end is well grounded. RF current through that impedance can produce a high voltage.
 
 > **Key Information:**
 > - High RF voltages that produce RF burns can be caused by a ground wire having high impedance on that frequency. {{< link id="G4C05" >}}

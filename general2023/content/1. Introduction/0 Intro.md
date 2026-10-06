@@ -34,7 +34,7 @@ This HamBook covers the US General Class (Element 3) exam pool valid from 2023 t
 - **HF Operating**: Practical guidance for operating on the worldwide bands, including propagation, antenna tuning, and etiquette.
 - **Regulations**: The rules specific to General class privileges and HF operation.
 - **Safety**: Electrical and RF safety, including precautions for higher power levels and different station setups.
-- **Practice Questions**: Questions from the actual exam pool, grouped with the topics that explain them.
+- **Question Reviews**: Questions and answers from the actual exam pool, grouped with the topics that explain them.
 
 ## Preparing for the Next Step
 

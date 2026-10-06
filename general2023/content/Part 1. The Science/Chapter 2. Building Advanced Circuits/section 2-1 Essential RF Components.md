@@ -1,7 +1,7 @@
 ---
 chapter: "2"
 section: "2.1"
-questions: ["G6A03", "G6A05", "G6A04", "G6A08", "G6B01", "G6B05", "G6B10", "G6A06", "G6B08", "G6A11"]
+questions: ["G6A03", "G6A05", "G6A04", "G6A08", "G6B01", "G6B05", "G6A11", "G6B10", "G6A06", "G6B08"]
 status: draft1
 ---
 
@@ -43,7 +43,7 @@ If the voltage itself reverses, it is applied in the wrong direction and can dam
 
 Electrolytic capacitors also have internal resistance and inductance, which can limit their effectiveness at radio frequencies. Think of them like water towers—great for storing large amounts, but slow to respond to rapid changes. This is why your transceiver uses electrolytic capacitors mainly for power supply filtering, where they handle relatively slow changes in DC voltage.
 
-For most RF applications, ceramic capacitors are the better choice. They're non-polarized (either voltage polarity is allowed) and smaller. Suitable types respond well to the rapid changes of RF signals. This is why your transceiver contains so many ceramic capacitors in its RF circuits for filtering, tuning, and coupling signals between stages.
+For most RF applications, ceramic capacitors are the better choice. They're non-polarized (either voltage polarity is allowed) and inexpensive. Suitable types respond well to the rapid changes of RF signals. This is why your transceiver contains so many ceramic capacitors in its RF circuits for filtering, tuning, and coupling signals between stages.
 
 #### Inductors and Ferrites: Magnetic Field Masters
 

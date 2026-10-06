@@ -17,7 +17,7 @@ Amateur frequencies are shared. A scheduled net or recurring conversation does n
 > - Except during emergencies, no amateur station has priority access to any frequency. {{< link id="G2B01" >}}
 > - First acknowledge the station in distress and determine what assistance may be needed. {{< link id="G2B02" >}}
 
-No station owns a frequency, but that does not give you permission to interfere with an existing contact. When emergency traffic appears, give it room and listen. If you hear a station in distress break into your own contact, respond to the request rather than assuming another listener will handle it.
+No station owns a frequency, but that does not give you permission to interfere with an existing contact. When other stations are already handling emergency traffic, give them room and listen. If you hear a station in distress break into your own contact, respond to the request rather than assuming another listener will handle it.
 
 For example: “Station calling for help, I hear you. What is your location, and what assistance do you need?” Keep transmissions short and give the caller time to answer. Confirm essential details, especially a location or information you will relay. A weak or interrupted reply does not mean the problem has been resolved.
 
@@ -73,9 +73,9 @@ RACES, the Radio Amateur Civil Emergency Service, is governed by specific FCC ru
 > - Only a person holding an FCC-issued amateur operator license may be the control operator of an amateur station transmitting in RACES to assist disaster relief operations. {{< link id="G2B09" >}}
 > - Without special authorization, routine RACES training drills and tests may be conducted for no more than one hour per week. {{< link id="G2B11" >}}
 
-A government position does not replace that license. The RACES rules also require the operator to be enrolled and the station to be registered with the responsible civil-defense organization. The required certification and authorization must also be in place. An amateur license alone does not make an operator or station a RACES participant.
+A government position does not replace that license. The responsible civil-defense organization must certify that the operator is enrolled and the station is registered with it, and authorize the RACES communications. An amateur license alone does not make an operator or station a RACES participant.
 
-Routine RACES practice has a specific limit. The rules provide for longer exercises with the specified approval. The ordinary one-hour limit does not apply to all amateur practice or to all emergency operation. Coordinate RACES exercises with the responsible organization rather than treating them as any other scheduled net.
+Longer RACES exercises require approval from the chief emergency-planning officer for the state, commonwealth, district, or territory. With that approval, drills may last up to 72 hours, no more than twice per calendar year. The ordinary one-hour limit does not apply to all amateur practice or to all emergency operation. Coordinate RACES exercises with the responsible organization rather than treating them as any other scheduled net.
 
 #### Prepare the Station and the Operator
 

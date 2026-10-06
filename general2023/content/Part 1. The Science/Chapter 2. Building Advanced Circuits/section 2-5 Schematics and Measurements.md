@@ -12,7 +12,7 @@ You have met the components that amplify signals, turn AC into DC, and process d
 
 #### Reading the Connections
 
-A schematic describes electrical connections, not the physical arrangement of parts on a circuit board. Two components drawn far apart may sit beside each other in the equipment. Lines represent conductors, and junction dots identify connected branches. A crossing without a junction dot generally means the wires are not connected; check the drawing's conventions when in doubt.
+A schematic describes electrical connections, not the physical arrangement of parts on a circuit board. Two components drawn far apart may sit beside each other in the equipment. Lines represent conductors, and junction dots identify connected branches. A crossing without a junction dot generally means the wires are not connected; check the drawing's conventions when in doubt. In Figure G7-1, a wire ending at another in a T is connected even without a dot.
 
 The symbols tell you what those connections join. A resistor limits current, a capacitor stores charge, and a transistor can control a larger current with a smaller input signal. Recognizing the symbols lets you follow the ideas from earlier sections into an actual circuit diagram.
 
@@ -21,7 +21,7 @@ The symbols tell you what those connections join. A resistor limits current, a c
 
 #### Recognizing the Components
 
-Questions that could appear on the exam refer only to symbols 1, 2, 5, 6, and 7; the others help you understand the complete diagram.
+The correct answers to the current exam questions use symbols 1, 2, 5, 6, and 7. Other symbols appear among the answer choices and help you understand the complete diagram.
 
 The two transistor symbols in Figure G7-1 represent different ways of controlling current:
 
@@ -71,7 +71,7 @@ In its usual display mode, an oscilloscope plots voltage vertically and time hor
 
 In a traditional analog oscilloscope, the vertical amplifier moves the trace up and down in response to the measured signal. A separate time-base circuit generates a sweep signal, which the horizontal amplifier uses to move the trace across the screen. Digital oscilloscopes sample the input and construct the display electronically, but the familiar voltage-versus-time view remains.
 
-The scales matter. At 1 volt per vertical division, a change of two divisions represents 2 volts. At 1 millisecond per horizontal division, a pattern that repeats every four divisions has a period of 4 milliseconds. The display gives you both the size of a change and how quickly it happens.
+The scales matter. Each square in the screen’s grid is one **division**. At 1 volt per vertical division, a change of two divisions represents 2 volts. At 1 millisecond per horizontal division, a pattern that repeats every four divisions has a period of 4 milliseconds. The display gives you both the size of a change and how quickly it happens.
 
 Return to the power supply example. Two supplies could show similar DC readings on a meter, yet one could have much larger ripple riding on its output. A scope can reveal those repeated rises and falls. Later, the same ability to see shape and timing will help you evaluate transmitted signals. Section 7.6 covers those practical tests; here the important distinction is between a numerical reading and a picture of the changing signal.
 

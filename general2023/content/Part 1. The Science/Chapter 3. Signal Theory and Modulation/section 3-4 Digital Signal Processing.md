@@ -1,7 +1,7 @@
 ---
 chapter: "3"
 section: "3.4"
-questions: ["G7C06", "G7C09", "G7C10", "G7C11", "G8B09"]
+questions: ["G7C06", "G8B09", "G7C11", "G7C09", "G7C10"]
 status: draft1
 ---
 
@@ -15,7 +15,7 @@ One of the most important DSP applications is advanced filtering:
 
 > **Key Information:** An advantage of DSP filters compared to analog filters is that a wide range of filter bandwidths and shapes can be created. {{< link id="G7C06" >}}
 
-Traditional analog filters can be fixed, switched or adjustable. DSP makes a wide choice of responses practical by processing signal samples mathematically. The same processing hardware can create a 200 Hz CW filter, a 2.8 kHz SSB filter, or many choices in between—just by changing the calculations. Providing all those choices with separate analog filters would require more components.
+Traditional analog filters can be fixed, switched or adjustable. DSP makes a wide choice of responses practical by processing numerical samples of the signal mathematically. The same processing hardware can create a 200 Hz CW filter, a 2.8 kHz SSB filter, or many choices in between—just by changing the calculations. Providing all those choices with separate analog filters would require more components.
 
 ##### Choosing the Right Bandwidth
 

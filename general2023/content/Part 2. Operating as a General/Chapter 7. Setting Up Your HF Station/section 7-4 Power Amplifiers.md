@@ -17,7 +17,7 @@ If both devices support a compatible external Automatic Level Control (ALC) conn
 
 > **Key Information:** ALC is used with an RF power amplifier to prevent excessive drive. {{< link id="G4A05" >}}
 
-Treat ALC as a safeguard, not as the normal way to set output power. Set the correct drive first, then configure ALC according to the equipment instructions. Relying on ALC to continually reduce excessive drive can itself introduce distortion.
+Treat the amplifier's ALC connection as a safeguard, not as the normal way to set output power. Set the correct drive first, then configure ALC according to the equipment instructions. Relying on ALC to continually reduce excessive drive can itself introduce distortion.
 
 The amplifier must also complete its receive-to-transmit switching before RF arrives. The radio therefore activates the amplifier's keying line first, then waits briefly before sending RF. Switching while RF is already present can damage the switching components:
 
@@ -45,7 +45,7 @@ Average power also matters for cooling. As the previous section explained, voice
 
 #### Operating Safely
 
-Higher RF output also increases the voltages and currents that the antenna system must handle. Feed lines, switches, meters, tuners, and other accessories after the amplifier must all be rated for the power used. High SWR can create still higher voltage and current peaks, so stay within the equipment's matching limits as well. Check that your station's RF exposure assessment from the previous chapter covers the higher power level.
+Higher RF output also increases the voltages and currents that the antenna system must handle. Feed lines, switches, meters, tuners, and other accessories after the amplifier must all be rated for the power used. An impedance mismatch that produces high SWR can create still higher voltage and current peaks, so stay within the equipment's matching limits as well. Check that your station's RF exposure assessment from the previous chapter covers the higher power level.
 
 Tube amplifiers contain potentially lethal internal voltages that can remain after you turn off and unplug the amplifier. Never remove the cover or attempt internal repairs unless you are trained to do so and follow the manufacturer's safety procedures.
 

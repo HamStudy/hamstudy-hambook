@@ -13,7 +13,7 @@ The radio's power setting limits peak envelope power (PEP), not a steady output 
 
 #### Setting Microphone Gain and Processing
 
-Normal speech contains brief loud peaks and many quieter sounds, so its average power is well below its peak power. Begin with speech processing off and set microphone gain for a normal speaking voice, following the radio manufacturer's instructions. Shouting or using excessive gain can cause distortion rather than improve readability.
+Normal speech contains brief loud peaks and many quieter sounds, so its average power is well below its peak power. Begin with speech processing off and set microphone gain for a normal speaking voice, following the radio manufacturer's instructions. If your radio has an ALC meter, aim for the recommended range; some ALC action on voice peaks can be normal. Shouting or using excessive gain can cause distortion rather than improve readability.
 
 Once you've set microphone gain correctly, a speech processor can make the quieter parts of your voice stronger relative to the peaks. This raises average transmitted power without raising peak power. The control may be labeled **PROC**, **COMP**, or something similar:
 

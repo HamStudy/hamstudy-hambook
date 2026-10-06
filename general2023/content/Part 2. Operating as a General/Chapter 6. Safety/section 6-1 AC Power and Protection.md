@@ -33,7 +33,7 @@ A four-wire 120/240-volt circuit has two hot wires (typically black and red) ins
 
 #### The National Electrical Code
 
-The standards for safe residential wiring aren't arbitrary—they come from the National Electrical Code, which represents decades of hard-learned lessons about what causes fires and electrocutions. The NEC covers everything from wire sizing to outlet placement, and it applies to your ham station too.
+The standards for safe residential wiring aren't arbitrary—they come from the National Electrical Code (NEC), which represents decades of hard-learned lessons about what causes fires and electrocutions. The NEC covers everything from wire sizing to outlet placement, and it applies to your ham station too.
 
 > **Key Information:** The National Electrical Code covers electrical safety of the station. {{< link id="G0B06" >}}
 

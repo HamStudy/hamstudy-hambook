@@ -1,6 +1,7 @@
 ---
 questions: []
 slug: pt2
+epubtype: part
 status: generated
 ---
 

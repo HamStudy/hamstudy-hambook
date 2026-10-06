@@ -29,7 +29,7 @@ Spacing separates independent contacts. When answering a station that expects a 
 
 > **Key Information:** In CW operation, “zero beat” means matching the transmit frequency to the frequency of a received signal. {{< link id="G2C06" >}}
 
-On a modern transceiver, the radio accounts for a CW pitch offset. Follow its procedure for matching the received pitch to a spot tone or using a CW tuning indicator. For example, with a 600 Hz spot tone, you tune the received signal to that pitch—not toward silence. Check that split or other frequency offsets are not unintentionally separating transmit and receive.
+Two signals at the same frequency have a difference, or beat frequency, of zero. A modern transceiver uses a CW pitch offset so you can still hear the matched signal. Follow its procedure for matching the received pitch to a spot tone or using a CW tuning indicator. For example, with a 600 Hz spot tone, you tune the received signal to that pitch—not toward silence. Check that split or other frequency offsets are not unintentionally separating transmit and receive.
 
 #### Choosing a Speed Both Stations Can Copy
 

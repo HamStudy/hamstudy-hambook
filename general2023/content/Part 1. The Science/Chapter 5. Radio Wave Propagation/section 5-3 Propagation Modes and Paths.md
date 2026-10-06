@@ -25,7 +25,7 @@ A single F2 hop can cross a narrow part of the Atlantic. Under suitable conditio
 
 Every distant station offers two possible paths around our spherical Earth. Short path takes the direct route—the shortest distance between two points on the globe. From New York to Tokyo, the short great-circle route heads roughly north-northwest and covers about 6,700 miles.
 
-Long path goes the opposite direction completely around the world. That same New York-to-Tokyo contact would point south-southeast, traveling about 18,100 miles along the other arc of that great circle. This longer journey sometimes encounters better propagation conditions than the direct route.
+Long path heads the opposite direction, the long way around the world. That same New York-to-Tokyo contact would point south-southeast, traveling about 18,100 miles along the other arc of that great circle. This longer journey sometimes encounters better propagation conditions than the direct route.
 
 ![Stations A and B lie on one great circle around Earth. The short path follows the smaller arc between them. The long path leaves A in the opposite direction and follows the rest of that same circle to B. These are two routes to the same station, so their initial antenna headings are opposite. The curves mark routes around Earth's surface, not the height of ionospheric hops.](../../../images/s5-3-long-short-path.svg)
 {.img-centered}
@@ -34,7 +34,7 @@ When both paths open simultaneously, you may hear a useful clue. {{< link id="G3
 
 > **Key Information:** A characteristic of skywave signals arriving by both short-path and long-path propagation is a *slightly delayed echo*.
 
-In our example, the surface routes differ by about 11,400 miles—roughly 60 milliseconds of travel time at the speed of light. The actual ionospheric paths are somewhat longer. The later arrival can create a distinctive hollow sound. It is a clue to check the opposite beam heading, though other multiple paths can also cause echoes.
+In our example, the surface routes differ by about 11,400 miles—roughly 60 milliseconds of travel time at the speed of light. The actual ionospheric paths are somewhat longer. The later arrival can create a *distinctive hollow sound*. It is a clue to check the opposite beam heading, though other multiple paths can also cause echoes.
 
 #### Scatter Propagation: Signals from the Impossible Zone
 
@@ -46,7 +46,7 @@ The skip zone should be silent—too far for ground wave, too close for normal s
 > - Allows signals to be heard in the transmitting station's *skip zone*
 > - Signals are usually *weak* because only a *small part* of the energy scatters into the skip zone
 
-The multiple scattered signals arrive with slightly different timing and phase, combining at your receiver to produce the unmistakable warbling sound of scatter propagation. Most of your signal continues on its normal path or gets absorbed—only a tiny fraction scatters back toward the skip zone, explaining why these signals barely rise above the noise floor. Digital modes excel here since they can decode signals too weak for voice communication.
+The multiple scattered signals arrive with slightly different timing and phase, combining at your receiver to produce the *unmistakable warbling sound* of scatter propagation. Most of your signal continues on its normal path or gets absorbed—only *a tiny fraction scatters back toward the skip zone*, explaining why these signals barely rise above the noise floor. Digital modes excel here since they can decode signals too weak for voice communication.
 
 #### NVIS: Reliable Regional Coverage
 
@@ -54,7 +54,7 @@ Sometimes you need coverage across a region a few hundred miles wide, including 
 
 > **Key Information:** NVIS propagation is short distance MF or HF propagation using *high radiation angles*.
 
-Instead of using low angles for distance, NVIS uses high angles for area coverage. The ionosphere acts like an umbrella, reflecting your nearly vertical signal back down in a circular pattern around your station. With suitable frequencies and ionospheric conditions, this can fill in the usual skip zone and reach stations out to a few hundred miles away.
+Instead of using low angles for distance, NVIS uses *high angles* for area coverage. The ionosphere acts like an umbrella, reflecting your nearly vertical signal back down in a circular pattern around your station. With suitable frequencies and ionospheric conditions, this can fill in the usual skip zone and reach stations out to a few hundred miles away.
 
 NVIS requires the right antenna setup and frequency. Low horizontal antennas (0.1 to 0.25 wavelengths high) produce the high-angle radiation needed. As we saw in the previous chapter, this height favors a high-angle pattern; the details depend on height and ground conditions. Frequency must be below the critical frequency for vertical reflection but high enough to avoid excessive D-region absorption. During daylight, 40 or 60 meters may be useful choices. After dark, 80 or 160 meters may work better as ionization falls. Check the current path: none of these bands is always suitable.
 
@@ -73,7 +73,7 @@ Choosing among these paths also means choosing a frequency. Earlier in this chap
 
 Every path between two stations has its own MUF at any given moment. The path from New York to London might support 21 MHz while New York to Tokyo peaks at 14 MHz. These variations depend on ionospheric conditions along the entire path, not just at the endpoints.
 
-Choosing the right frequency relative to the MUF determines propagation success. {{< link id="G3B03" >}} Operating just below the MUF reduces absorption while the ionosphere can still return the signal. That explains the exam’s least-attenuation answer. The MUF changes, though: a little more room below it may keep a link working when conditions shift. Least attenuation does not necessarily mean minimum fading or greatest reliability.
+Choosing the right frequency relative to the MUF determines propagation success. {{< link id="G3B03" >}} Operating *just below the MUF* reduces absorption while the ionosphere can still return the signal. That explains the exam’s least-attenuation answer. The MUF changes, though: a little more room below it may keep a link working when conditions shift. Least attenuation does not necessarily mean minimum fading or greatest reliability.
 
 #### Monitoring Real Propagation
 
@@ -81,7 +81,7 @@ Modern technology gives you another way to check band conditions. {{< link id="G
 
 > **Key Information:** Current propagation can be determined by using a network of automated receiving stations on the internet to see where your transmissions are being received.
 
-Networks like the Reverse Beacon Network and PSK Reporter show where participating receivers have heard signals. Send a CQ in a mode the network monitors, and reports may appear within seconds. That is direct evidence of a working path. No report does not prove the path is closed: a receiver may be absent, busy or unable to decode your signal.
+Networks like the Reverse Beacon Network and PSK Reporter show where participating receivers have heard signals. Send a CQ in a mode the network monitors, and reports may appear within seconds on the Reverse Beacon Network or within a few minutes on PSK Reporter. That is direct evidence of a working path. No report does not prove the path is closed: a receiver may be absent, busy or unable to decode your signal.
 
 #### Seasonal Propagation Patterns
 

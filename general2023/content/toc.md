@@ -50,14 +50,12 @@ status: generated
   - G7C13 - What term specifies a filter’s maximum ability to reject signals outside its passband?
   - G5A10 - Which of the following devices can be used for impedance matching at radio frequencies?
 
-- Section 1.4: Transformers and Matching - ["G5C01","G5C02","G5C05","G5C06","G5C07","G9C11","G9C12"]
+- Section 1.4: Transformers and Matching - ["G5C01","G5C02","G5C05","G5C06","G5C07"]
   - G5C01 - What causes a voltage to appear across the secondary winding of a transformer when an AC voltage source is connected across its primary winding?
   - G5C02 - What is the output voltage if an input signal is applied to the secondary winding of a 4:1 voltage step-down transformer instead of the primary winding?
   - G5C05 - Why is the primary winding wire of a voltage step-up transformer usually a larger size than that of the secondary winding?
   - G5C06 - What is the voltage output of a transformer with a 500-turn primary and a 1500-turn secondary when 120 VAC is applied to the primary?
   - G5C07 - What transformer turns ratio matches an antenna’s 600-ohm feed point impedance to a 50-ohm coaxial cable?
-  - G9C11 - What is a beta or hairpin match?
-  - G9C12 - Which of the following is a characteristic of using a gamma match with a Yagi antenna?
 
 - Section 1.5: Power and Measurements - ["G5B04","G5B05","G5B03","G5B07","G5B09","G5B08","G5B12","G5B11","G5B13","G5B06","G5B14","G5B01","G5B10","G9C04"]
   - G5B04 - How many watts of electrical power are consumed by a 12 VDC light bulb that draws 0.2 amperes?
@@ -214,22 +212,7 @@ status: generated
   - G8A13 - What is a link budget?
   - G8A14 - What is link margin?
 
-- Section 4.3: Directional Antennas - ["G9C02","G9C03","G9C05","G9C01","G9C08","G9C07","G9C10","G9C09","G9D05","G9D06","G9D07","G9D10","G9D09"]
-  - G9C02 - What is the approximate length of the driven element of a Yagi antenna?
-  - G9C03 - How do the lengths of a three-element Yagi reflector and director compare to that of the driven element?
-  - G9C05 - What is the primary effect of increasing boom length and adding directors to a Yagi antenna?
-  - G9C01 - Which of the following would increase the bandwidth of a Yagi antenna?
-  - G9C08 - What is meant by the “main lobe” of a directive antenna?
-  - G9C07 - What does “front-to-back ratio” mean in reference to a Yagi antenna?
-  - G9C10 - Which of the following can be adjusted to optimize forward gain, front-to-back ratio, or SWR bandwidth of a Yagi antenna?
-  - G9C09 - In free space, how does the gain of two three-element, horizontally polarized Yagi antennas spaced vertically 1/2 wavelength apart typically compare to the gain of a single three-element Yagi?
-  - G9D05 - What is an advantage of vertically stacking horizontally polarized Yagi antennas?
-  - G9D06 - Which of the following is an advantage of a log-periodic antenna?
-  - G9D07 - Which of the following describes a log-periodic antenna?
-  - G9D10 - In which direction or directions does an electrically small loop (less than 1/10 wavelength in circumference) have nulls in its radiation pattern?
-  - G9D09 - What is the primary use of a Beverage antenna?
-
-- Section 4.4: Dipoles and Vertical Antennas - ["G9B04","G9B05","G9B07","G9B08","G9B10","G9B11","G9D12","G9D02","G9B09","G9B03","G9B06","G9B02","G9B12","G9B01","G9D01"]
+- Section 4.3: Dipoles and Vertical Antennas - ["G9B04","G9B05","G9B07","G9B08","G9B10","G9B11","G9D12","G9D02","G9B09","G9B03","G9B06","G9B02","G9B12","G9B01","G9D01"]
   - G9B04 - What is the radiation pattern of a dipole antenna in free space in a plane containing the conductor?
   - G9B05 - How does antenna height affect the azimuthal radiation pattern of a horizontal dipole HF antenna at elevation angles higher than about 45 degrees?
   - G9B07 - How does the feed point impedance of a horizontal 1/2 wave dipole antenna change as the antenna height is reduced to 1/10 wavelength above ground?
@@ -245,6 +228,23 @@ status: generated
   - G9B12 - What is the approximate length for a 1/4 wave monopole antenna cut for 28.5 MHz?
   - G9B01 - What is a characteristic of a random-wire HF antenna connected directly to the transmitter?
   - G9D01 - Which of the following antenna types will be most effective as a near vertical incidence skywave (NVIS) antenna for short-skip communications on 40 meters during the day?
+
+- Section 4.4: Directional Antennas - ["G9C02","G9C03","G9C11","G9C12","G9C05","G9C01","G9C08","G9C07","G9C10","G9C09","G9D05","G9D06","G9D07","G9D10","G9D09"]
+  - G9C02 - What is the approximate length of the driven element of a Yagi antenna?
+  - G9C03 - How do the lengths of a three-element Yagi reflector and director compare to that of the driven element?
+  - G9C11 - What is a beta or hairpin match?
+  - G9C12 - Which of the following is a characteristic of using a gamma match with a Yagi antenna?
+  - G9C05 - What is the primary effect of increasing boom length and adding directors to a Yagi antenna?
+  - G9C01 - Which of the following would increase the bandwidth of a Yagi antenna?
+  - G9C08 - What is meant by the “main lobe” of a directive antenna?
+  - G9C07 - What does “front-to-back ratio” mean in reference to a Yagi antenna?
+  - G9C10 - Which of the following can be adjusted to optimize forward gain, front-to-back ratio, or SWR bandwidth of a Yagi antenna?
+  - G9C09 - In free space, how does the gain of two three-element, horizontally polarized Yagi antennas spaced vertically 1/2 wavelength apart typically compare to the gain of a single three-element Yagi?
+  - G9D05 - What is an advantage of vertically stacking horizontally polarized Yagi antennas?
+  - G9D06 - Which of the following is an advantage of a log-periodic antenna?
+  - G9D07 - Which of the following describes a log-periodic antenna?
+  - G9D10 - In which direction or directions does an electrically small loop (less than 1/10 wavelength in circumference) have nulls in its radiation pattern?
+  - G9D09 - What is the primary use of a Beverage antenna?
 
 - Section 4.5: Mobile and Portable Antennas - ["G4E01","G4E06","G4E02","G4E05","G9D08","G9D04","G9D11","G9D03"]
   - G4E01 - What is the purpose of a capacitance hat on a mobile antenna?

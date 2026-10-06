@@ -33,11 +33,11 @@ There are two fundamental ways to connect inductors and capacitors in resonant c
 
 1. **Series Resonant Circuit**: When L and C are in series, their reactances cancel at resonance, leaving only the resistance to limit current flow. This creates minimum impedance at the resonant frequency, allowing maximum current flow.
    
-   *Application*: Series resonant circuits are excellent for creating band-pass filters that select a specific frequency range.
+   *Application*: Placed in line with the signal, a series resonant circuit can form a band-pass filter that selects a specific frequency range.
 
-2. **Parallel Resonant Circuit (Tank Circuit)**: When L and C are in parallel, the opposite occurs—impedance is maximum at resonance. The currents through the inductor and capacitor cancel each other out, creating a high-impedance path at the resonant frequency.
+2. **Parallel Resonant Circuit (Tank Circuit)**: When L and C are in parallel, the opposite occurs—impedance is maximum at resonance. The inductor and capacitor currents cancel at the external connection, creating a high-impedance path at resonance even while current circulates between the two components.
    
-   Why "tank"? Because energy sloshes back and forth between the inductor's magnetic field and the capacitor's electric field—like water sloshing in a tank—creating an oscillating current. In a real circuit, losses make that oscillation fade unless a source replaces the lost energy.
+   The tank analogy fits: energy sloshes back and forth between the inductor's magnetic field and the capacitor's electric field—like water sloshing in a tank—creating an oscillating current. In a real circuit, losses make that oscillation fade unless a source replaces the lost energy.
 
 > **Key Information:** The inductance and capacitance in the tank circuit determine the frequency of an LC oscillator. {{< link id="G7B09" >}}
 
@@ -45,7 +45,7 @@ There are two fundamental ways to connect inductors and capacitors in resonant c
 
 #### Filters: Controlling the Flow of Signals
 
-Filters are circuits that pass some frequencies while rejecting others. As you move into General class operating, you'll encounter several types:
+Filters are circuits that pass some frequencies while rejecting others. The range a filter is designed to pass is its **passband**. As you move into General class operating, you'll encounter several types:
 
 ![Four graphs show filter output as frequency increases from left to right; a higher curve means more output. The low-pass curve stays high at low frequencies, then falls at higher frequencies. The high-pass curve does the reverse. The band-pass curve rises for a middle range of frequencies and falls on both sides. The notch curve stays high except for a narrow dip around one frequency. The sloping transitions show that these filters do not change abruptly between passing and rejecting a signal.](../../../images/s1-3-filter-responses.svg)
 {.img-centered caption="The curves show which frequencies each filter passes or reduces."}
@@ -55,7 +55,7 @@ Filters are circuits that pass some frequencies while rejecting others. As you m
    - *Example*: A transmitter low-pass filter that reduces harmonic interference, or a telephone filter that passes voice while rejecting RF
 
 2. **High-Pass Filters**: Pass frequencies above a cutoff point
-   - *Application*: Eliminate low-frequency noise
+   - *Application*: Reduce low-frequency noise
    - *Example*: A suitable high-pass filter at a television antenna input that reduces lower-frequency HF interference
 
 3. **Band-Pass Filters**: Pass a specific range of frequencies
@@ -110,7 +110,7 @@ A higher value (measured in dB) means better filtering of interference. A filter
 
 #### Impedance Matching with Filters
 
-Many filter circuits serve double duty—they not only select frequencies but also match impedances between different parts of your station:
+Some filters serve double duty by matching impedances as well as selecting frequencies. Other devices can match impedances too:
 
 > **Key Information:** Transformers, Pi-networks, and lengths of transmission line can all be used for impedance matching at radio frequencies. {{< link id="G5A10" >}}
 

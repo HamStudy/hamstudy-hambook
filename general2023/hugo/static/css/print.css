@@ -1,6 +1,23 @@
 @media print {
     /* Embedded SVG diagrams must use their light palette when printing. */
     .markdown img { color-scheme: only light; }
+    /* Keep each diagram with its caption and each Key Information box intact. */
+    .markdown figure,
+    .markdown blockquote { break-inside: avoid; }
+    .markdown figcaption { break-before: avoid; }
+    /* These diagrams remain clear at this width and fit with their lead-ins. */
+    .markdown img[src$="/s1-3-resonance-comparison.svg"],
+    .markdown img[src$="/s1-4-transformer-ratios.svg"] { width: 80%; }
+    /* Keep displayed calculations with their introductory text. */
+    .markdown .katex-display { break-before: avoid; break-inside: avoid; }
+    .markdown li:has(.katex-display) { break-inside: avoid; }
+    /* These small reference tables are easier to compare on a single page. */
+    #pt1chpt1section-15-power-and-measurementsmd > table,
+    #pt1chpt2section-24-digital-circuit-fundamentalsmd table,
+    #pt2chpt6section-61-ac-power-and-protectionmd table { break-inside: avoid; }
+    /* Pool subsection labels must stay with the first question. */
+    .full-pool .section-head,
+    .full-pool .subel { break-after: avoid; }
     /* Wrapped table headings need room for both lines in the 6-by-9 edition. */
     .markdown table th { line-height: 1.2; }
     /* Keep the short 60-meter power comparison on one page. */

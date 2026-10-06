@@ -54,7 +54,7 @@ Now that we understand current and voltage behavior, let's see how components co
 | Inductors | Direct Sum: <br />$$L_{total} = L_1 + L_2 + L_3 + \ldots$$ | Reciprocal Method:<br /> $$\frac{1}{L_{total}} = \frac{1}{L_1} + \frac{1}{L_2} + \frac{1}{L_3} + \ldots$$|
 {{< /captioned >}}
 
-**Memory tip:** Resistors and inductors follow the same rules (add in series, reciprocal in parallel) because both create opposition that increases with more components in series. Capacitors flip the pattern—they add in parallel because parallel plates mean more storage area. Now let's explore each type with practical examples.
+**Memory tip:** Resistors and inductors follow the same rules (add in series, reciprocal in parallel). Capacitors flip the pattern—they add in parallel because parallel plates mean more storage area. Now let's explore each type with practical examples.
 
 #### Resistors in Combination
 
@@ -68,7 +68,7 @@ $$ R_\text{total} = R_1 + R_2 + R_3 + \ldots $$
 Think of it like adding garden hose sections—more length means more resistance.
 
 ##### **Resistors in Parallel (Reciprocal Method):**
-When resistors provide multiple paths for current, use the reciprocal rule from the table above. For just two resistors, we can simplify to:
+Each parallel resistor adds a path for current. More total current flows at the same voltage, which means less total resistance. To find it, use the reciprocal rule from the table above. For just two resistors, we can simplify to:
 
 $$R_{\text{total}} = \frac{R_1 \cdot R_2}{R_1 + R_2}$$
 
@@ -92,13 +92,13 @@ What is the approximate total resistance of a 100-ohm and a 200-ohm resistor in 
 $$\begin{align*}
 R_{\text{total}} &= \frac{R_1 \cdot R_2}{R_1 + R_2} \\[1.25em]
 &= \frac{100 \cdot 200}{100 + 200} \\[1.25em]
-&= \frac{20,000}{300} \\[1.25em]
-&= 66.7 \text{ ohms} \approx 67 \text{ ohms}
+&= \frac{20{,}000}{300} \\[1.25em]
+&\approx 66.7 \text{ ohms} \approx 67 \text{ ohms}
 \end{align*}$$
 
 #### Capacitors in Combination
 
-Remember, a capacitor is just two conductors (usually metal plates) separated by an insulator (the dielectric). The capacitance depends on plate area—bigger plates can store more charge. When you connect capacitors in parallel, you're essentially combining their plate areas into one larger capacitor. In series, each capacitor stores the same amount of charge, but their voltage drops add. Storing that charge takes more total voltage, so the combined capacitance is lower. That explains why capacitors combine opposite to resistors.
+Remember, a capacitor is just two conductors (usually metal plates) separated by an insulator (the dielectric). Capacitance measures how much charge a capacitor stores per volt. It depends on plate area—bigger plates can store more charge. When you connect capacitors in parallel, you're essentially combining their plate areas into one larger capacitor. In series, each capacitor stores the same amount of charge, but their voltage drops add. Storing that charge takes more total voltage, so the combined capacitance is lower. That explains why capacitors combine opposite to resistors.
 
 > **Key Information:** To increase the total capacitance in a circuit, add a capacitor in parallel. {{< link id="G5C13" >}}
 
@@ -146,7 +146,7 @@ $$\begin{align*}
 C_{\text{total}} &= \frac{C_1 \cdot C_2}{C_1 + C_2} \\[1.25em]
 &= \frac{20 \cdot 50}{20 + 50} \\[1.25em]
 &= \frac{1000}{70} \\[1.25em]
-&= 14.3 \,\mu\mathrm{F}
+&\approx 14.3 \,\mu\mathrm{F}
 \end{align*}$$
 
 #### Inductors in Combination
@@ -179,7 +179,7 @@ What is the inductance of three 10-mH inductors connected in parallel? {{< link 
 $$\begin{align*}
 \frac{1}{L_{\text{total}}} &= \frac{1}{10} + \frac{1}{10} + \frac{1}{10} \\[1.25em]
 &= \frac{3}{10} \\[1.25em]
-L_{\text{total}} &= \frac{10}{3} = 3.33 \text{ mH} \approx 3.3 \text{ mH}
+L_{\text{total}} &= \frac{10}{3} \approx 3.33 \text{ mH} \approx 3.3 \text{ mH}
 \end{align*}$$
 
 #### Connecting to Real Amateur Radio Applications
@@ -188,7 +188,7 @@ These calculations aren't just exam prep—they're tools that help you understan
 
 1. **Resonant Circuits**: Variable capacitors parallel with inductors tune to specific frequencies
 2. **Impedance Matching**: Antenna tuners can combine inductors and capacitors in series and parallel arrangements to present a 50Ω load to the transmitter
-3. **Filtering**: One low-pass filter design uses inductors in series to oppose higher frequencies and capacitors in parallel to bypass them
+3. **Filtering**: One low-pass filter design uses inductors in line with the signal to oppose higher frequencies and capacitors from the signal line to ground to bypass them
 4. **Power Distribution**: For resistive DC loads, the same current flows through each series resistor ($P = I^2R$), while each parallel resistor has the same voltage across it ($P = E^2/R$)
 
 #### Your Foundation Is Set

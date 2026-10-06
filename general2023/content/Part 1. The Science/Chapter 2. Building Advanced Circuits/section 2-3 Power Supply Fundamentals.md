@@ -24,11 +24,11 @@ The previous chapter covered transformers and voltage ratios. We'll start here w
 
 #### Rectification: Converting AC to DC
 
-The first step in converting AC to DC is rectification—changing alternating current that flows back and forth into direct current that flows in one direction. There are two basic approaches to rectification: half-wave and full-wave.
+Rectification changes alternating current that flows back and forth into direct current that flows in one direction. There are two basic approaches to rectification: half-wave and full-wave.
 
 > **Key Information:**
-> * *A half-wave rectifier converts 180 degrees of the AC cycle to DC.* {{< link id="G7A05" >}}
-> * *A full-wave rectifier converts 360 degrees of the AC cycle to DC.* {{< link id="G7A06" >}}
+> * A half-wave rectifier converts 180 degrees of the AC cycle to DC. {{< link id="G7A05" >}}
+> * A full-wave rectifier converts 360 degrees of the AC cycle to DC. {{< link id="G7A06" >}}
 
 ![Three voltage graphs share the same time scale. The AC input alternates between positive and negative half-cycles. The half-wave output keeps each positive half-cycle and remains at zero during each negative half-cycle, producing one pulse per input cycle. The full-wave output turns the negative half-cycles into positive pulses, producing two pulses per input cycle. Both rectified voltages stay positive or zero, but they still rise and fall; the unfiltered full-wave output reaches zero between pulses.](../../../images/s2-3-rectifier-waveforms.svg)
 {.img-centered}
@@ -93,13 +93,13 @@ During operation:
 ##### **Bridge Rectifier Design**
 
 ![Four diodes form a diamond. The AC source connects to its top corner, N, and bottom corner, S. The load connects between the right corner, marked DC positive, and the left corner, marked DC negative. When N is positive, current goes through D2 to DC positive, through the load to DC negative, then through D4 to S. When S is positive, current goes through D3, through the load in the same direction, and through D1 back to N. A different pair of diodes conducts on each half-cycle, but load current keeps the same direction.](../../../images/s2-3-bridge-rectifier.svg)
-{.img-centered .img-bw}
+{.img-centered .img-bw caption="At the wire crossing without a dot, the wires are not connected."}
 
 The bridge rectifier uses four diodes arranged to:
 - Direct current through the load in the same direction regardless of input polarity
 - Eliminate the need for a center-tapped transformer
 
-To illustrate the current path we'll use compass points – N, E, S, W (going clockwise starting at the top of the diagram above). We'll use the "positive to negative" convention of tracing current flow.
+The AC connections in the diagram are marked N (top) and S (bottom). We'll use the "positive to negative" convention of tracing current flow.
 
 
 
@@ -142,10 +142,12 @@ Rectification alone produces pulsating DC—not the smooth, constant voltage our
 
 The most common filter configuration uses large electrolytic capacitors that charge during voltage peaks and discharge during valleys, filling in the gaps to create smoother DC. In filter circuits, inductors can resist current changes and further smooth the output.
 
-Think of filter capacitors like water towers in a municipal water system. During periods of high flow (voltage peaks), they fill up. During periods of low flow (voltage valleys), they release their stored energy to maintain pressure (voltage). The larger the capacitor, the more energy it can store and the smoother the output becomes.
+Think of filter capacitors like water towers in a municipal water system. High pressure (voltage) refills the tower near each peak. Between peaks, the tower keeps the pressure up while the town draws water (current). The larger the capacitor, the more energy it can store and the smoother the output becomes.
 
 ![A graph compares rectified voltage with capacitor-filtered output over time. The unfiltered rectified voltage repeatedly rises to a peak and falls to zero. The filtered output rises with the first peak, then falls only gradually while the capacitor supplies current to the load. Each following peak recharges the capacitor. The result is a mostly steady positive voltage with small repeated drops between charging peaks; those remaining rises and falls are ripple.](../../../images/s2-3-supply-ripple.svg)
 {.img-centered caption="Between charging peaks, the capacitor supplies the load. More load current discharges it faster."}
+
+The small repeated rise and fall left in the filtered output is called **ripple**. Too much ripple can cause hum in your audio.
 
 A **regulator** adjusts the supply’s operation to keep its output voltage close to the desired value as input voltage or load current changes. Filtering smooths the pulses; regulation controls the output level.
 
@@ -161,7 +163,7 @@ Never assume a power supply is safe just because it's unplugged! Those capacitor
 
 #### Modern Alternative: Switchmode Power Supplies
 
-Traditional linear power supplies work well but tend to be large and heavy due to their 60 Hz transformers and massive filter capacitors. Switchmode (switching) power supplies offer a more compact alternative.
+The transformer, rectifier, filter, and regulator we have followed make up a traditional **linear power supply**. These supplies work well but tend to be large and heavy due to their 60 Hz transformers and massive filter capacitors. Switchmode (switching) power supplies offer a more compact alternative.
 
 > **Key Information:** High-frequency operation allows switchmode power supplies to use smaller components compared to linear power supplies. {{< link id="G7A08" >}}
 

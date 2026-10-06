@@ -25,7 +25,7 @@ For voice, there is a useful pattern:
 
 > **Key Information:** When General class licensees cannot use the entire voice portion of a band, they may use the upper-frequency portion. {{< link id="G1A11" >}}
 
-For example, the General phone segment on 20 meters is 14.225–14.350 MHz. On 40 meters, it begins at 7.175 MHz:
+For example, the full phone segment on 20 meters is 14.150–14.350 MHz; General privileges cover *the upper part, 14.225–14.350 MHz*. On 40 meters, the General phone segment begins at 7.175 MHz:
 
 > **Key Information:** A General class licensee may not act as control operator for transmissions from 7.125 MHz to 7.175 MHz. {{< link id="G1A05" >}}
 
@@ -33,11 +33,11 @@ That 40-meter interval is available to Advanced and Amateur Extra operators. Hea
 
 #### Checking a Frequency in Practice
 
-Suppose you hear a voice station on 21.300 MHz. First identify the band: 21.000–21.450 MHz is the 15-meter amateur band. Then check the General phone segment, which runs from 21.275 to 21.450 MHz:
+Suppose you hear a voice station on 21.300 MHz (21,300 kHz). First identify the band: 21.000–21.450 MHz is the 15-meter amateur band. Then check the General phone segment, which runs from 21.275 to 21.450 MHz:
 
 > **Key Information:** 21.300 MHz is within the General class portion of the 15-meter band. {{< link id="G1A09" >}}
 
-It is well inside that phone segment, so a normal-width SSB signal can fit there. A frequency close to an edge needs a second check: as Section 7.3 showed, an LSB signal extends below the displayed carrier frequency and a USB signal extends above it. The whole signal must fit, not only the number on the display.
+It is well inside that phone segment, so a normal-width SSB signal can fit there. Near an edge, check that the whole signal fits within your privileges, as explained in Section 7.3.
 
 #### Checking the Mode as Well as the Band
 
@@ -47,9 +47,9 @@ The 30-meter band is only 50 kHz wide, from 10.100 to 10.150 MHz. US amateur pri
 > - Phone operation is prohibited on the 30-meter band. {{< link id="G1A02" >}}
 > - Image emissions are prohibited on the 30-meter band. {{< link id="G1A03" >}}
 
-For routine operation, treat 30 meters as a CW and permitted-data band, not a place for voice or an SSTV transmission.
+For routine operation, treat 30 meters as a CW and permitted-data band, *not a place for voice or an image mode such as slow-scan TV (SSTV)*.
 
-CW has broader permission on most bands: control operators may generally use it wherever they have frequency privileges, subject to any special restrictions. On 10 meters, a General operator has access to the whole band:
+CW has broader permission on most bands: control operators may generally use it wherever they have frequency privileges, subject to any special restrictions. On 10 meters, a General operator has access to *the whole band*:
 
 > **Key Information:** A General class control operator may transmit CW emissions throughout the entire 10-meter band. {{< link id="G1A07" >}}
 
@@ -68,9 +68,9 @@ For the four separate channels, these are the channel centers and the correspond
 | 5373.0 | 5371.5 |
 | 5405.0 | 5403.5 |
 
-The two numbers describe different parts of the same transmission. With USB, the audio shifts the transmitted signal above the suppressed carrier. For CW, the transmitted carrier goes at the channel center instead. Follow the radio and mode instructions so its displayed frequency produces the required RF frequency.
+The two columns describe the same channel in different ways. The USB dial setting is 1.5 kHz below the channel center because the audio shifts the transmitted signal above the suppressed carrier. For CW, the transmitted carrier goes at the channel center instead. Follow the radio and mode instructions so its displayed frequency produces the required RF frequency.
 
-The four separate channels permit USB phone, CW, and the specified RTTY/data emissions. In the continuous segment, permitted phone, CW, RTTY, and data emissions remain subject to the applicable technical rules. In either arrangement, the whole signal must stay within the authorized spectrum and must not exceed 2.8 kHz in bandwidth. The continuous segment and the four channels have different power limits, covered in the next section. In particular, the former channel centered on 5358.5 kHz is now inside the new lower-power segment.
+The four separate channels permit USB phone, CW, and the specified RTTY/data emissions. In the continuous segment, permitted phone, CW, RTTY, and data emissions remain subject to the applicable technical rules. In either arrangement, the whole signal must stay within the authorized spectrum and *must not exceed 2.8 kHz in bandwidth*. The continuous segment and the four channels have different power limits, covered in the next section. In particular, the former channel centered on 5358.5 kHz is now inside the new lower-power segment.
 
 #### Repeaters on 10 Meters
 

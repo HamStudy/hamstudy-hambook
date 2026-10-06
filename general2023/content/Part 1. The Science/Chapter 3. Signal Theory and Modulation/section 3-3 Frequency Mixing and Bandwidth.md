@@ -70,7 +70,7 @@ This approach derives the higher frequency from a stable reference. Multiplicati
 
 #### The Dark Side of Mixing: Image Response
 
-Here's where heterodyning gets tricky. Since mixing produces both sum and difference frequencies, two different input frequencies can produce the same IF:
+Here's where heterodyning gets tricky. Signals equally far above and below the local oscillator can produce the same difference frequency—and therefore the same IF:
 
 > **Key Information:** Image response is interference from a signal at twice the IF frequency from the desired signal. {{< link id="G8B02" >}}
 
@@ -104,9 +104,9 @@ This unwanted mixing can happen in:
 
 - Overdriven amplifier stages
 - Corroded antenna connections  
-- Metal objects near your antenna
-- Crystal diodes in unexpected places
-- Even rusty fence wire!
+- Loose or corroded joints in nearby metal
+- Semiconductor junctions in nearby electronics
+- Even rusty fence connections!
 
 ##### When Nature Creates Accidental Mixers
 
@@ -122,8 +122,10 @@ The solution might be as simple as cleaning and properly connecting a guy wire, 
 When two strong signals (F1 and F2) interact in a non-linear device, they create a whole family of new frequencies:
 
 - F1 + F2, F1 - F2 (second-order products)
-- 2F1 + F2, 2F1 - F2, F1 + 2F2, F1 - 2F2 (third-order products)
+- 2F1 + F2, 2F1 - F2, F1 + 2F2, 2F2 - F1 (third-order products)
 - And many higher-order combinations
+
+Use the magnitude if a difference comes out negative. To find a product’s **order**, add its multipliers, ignoring the minus signs: 2F1 - F2 is third order because 2 + 1 = 3. By the same rule, 5F1 - 3F2 is eighth order, not odd order.
 
 The most troublesome are the odd-order products:
 
@@ -198,7 +200,7 @@ Two factors matter for heating: average RF power while transmitting compared wit
 - An ordinary FT8 transmission lasts about 12.6 seconds. One transmission in a 30-second transmit/receive cycle gives about 42% transmit time, not 100%.
 - CW keying, pauses in speech and time spent listening give equipment different opportunities to cool.
 
-Follow the radio, amplifier and power-supply ratings; do not assume the transceiver automatically reduces output enough to protect every device. Section 7.3 applies these limits to transmitter setup. Section 6.5 covers the separate averaging intervals used for RF-exposure evaluation.
+Follow the radio, amplifier and power-supply ratings; do not assume the transceiver automatically reduces output enough to protect every device. Section 7.4 applies these limits to amplifier setup. Section 6.5 covers the separate averaging intervals used for RF-exposure evaluation.
 
 ##### Receiver Sensitivity
 
@@ -208,7 +210,7 @@ Bandwidth also helps determine how weak a signal your receiver can usefully dete
 
 The input amplifier boosts the signal before later stages process it. Enough gain can keep noise added by those later stages from dominating, but amplification does not separate a signal from noise already mixed with it. The amplifier's *noise figure* measures how much it degrades the signal-to-noise ratio; a lower noise figure means less degradation. Finally, the bandwidth used when recovering the information determines how much noise accompanies it.
 
-Sensitivity depends on the whole receiving chain, not just how much you turn up the gain. Section 7.2 applies these ideas to the controls and interference you encounter while listening.
+Sensitivity depends on the whole receiving chain, not just how much you turn up the gain. Section 7.2 covers controls that help when strong signals overload the receiver.
 
 ##### Digital Mode Considerations
 
@@ -219,7 +221,7 @@ For digital communications, there's a fundamental relationship:
 For the same modulation and pulse shape, increasing symbol rate requires more bandwidth. Common modes illustrate the general trend, though their frequency shifts and signal shaping differ too:
 
 - Slow modes like PSK31 (31.25 baud) use narrow bandwidth
-- Medium-speed modes like RTTY (45 baud) need more bandwidth  
+- Medium-speed modes like RTTY (~45 baud) need more bandwidth
 - High-speed modes like packet radio (1200+ baud) require wide bandwidth
 
 You can put more bits into each symbol without increasing the symbol rate, but then the receiver must distinguish more states. For a fixed signaling arrangement, pushing symbols too fast for the available bandwidth makes them overlap and causes errors.

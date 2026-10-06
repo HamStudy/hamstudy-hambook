@@ -93,7 +93,7 @@ The opposing behaviors of inductors and capacitors create a fascinating scenario
 
 Since inductive reactance increases with frequency while capacitive reactance decreases, a simple ideal LC circuit has one frequency where they're equal—the resonant frequency.
 
-We'll explore what happens at resonance in the next section. Resonance is the foundation for filters that select desired frequencies, oscillators that generate signals, antenna systems that efficiently radiate power, and impedance matching networks.
+We'll explore what happens at resonance in the next section. Resonance is the foundation for filters that select desired frequencies, oscillators that generate signals, antennas tuned for particular bands, and impedance matching networks.
 
 #### Making Sense of Your Equipment
 

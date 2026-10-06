@@ -14,7 +14,7 @@ The Technician license is the usual starting point, getting you on the air and i
 The most significant upgrade with a General Class License is broader access to the HF bands, including 80, 40, 20, 15, 12, and 10 meters, along with the 160-meter band just below HF. On these frequencies, the ionosphere can bend radio waves back toward Earth, allowing them to travel thousands of miles beyond the horizon. This propagation allows you to communicate directly with other hams across continents without relying on any man-made infrastructure like repeaters or the internet.
 
 ### New Bands for Familiar Modes
-Technician privileges already include almost every mode amateur radio has to offer—Single Sideband (SSB), CW (Morse Code), and digital modes like FT8 are all permitted on VHF and UHF. Technicians also have limited access to them on the HF bands, primarily on 10 meters and via CW on 80, 40, and 15 meters.
+Technician privileges already include almost every mode amateur radio has to offer—Single Sideband (SSB), CW (Morse Code), and digital modes like FT8 are all permitted on VHF and UHF. Technicians also have limited HF privileges: CW on parts of 80, 40, and 15 meters, plus CW, SSB voice, and digital modes on parts of 10 meters.
 
 The General Class License expands those privileges, granting you access to phone (voice) and digital segments on the "workhorse" bands like 20 meters and 40 meters.
 
@@ -25,9 +25,9 @@ The General Class License expands those privileges, granting you access to phone
 Circuits, antennas, interference, and safety matter whether you're using a local repeater, experimenting on VHF or UHF, or making HF contacts. Studying for General gives you more background for choosing equipment, solving station problems, and helping other operators.
 
 ### Becoming a Volunteer Examiner
-One of the most rewarding privileges earned with your General Class License is the authority to help others get licensed. As a General Class operator age 18 or older, you can apply to a Volunteer Examiner Coordinator (VEC) for accreditation as a Volunteer Examiner (VE).
+One of the most rewarding privileges earned with your General Class License is the authority to help others get licensed. As a General Class operator *age 18 or older*, you can apply to a *Volunteer Examiner Coordinator (VEC) for accreditation as a Volunteer Examiner (VE)*.
 
-This means you can assist in administering exams for Technician Class candidates. It is a fantastic way to give back to the community, mentor new hams, and help grow the hobby.
+This means you can assist in *administering exams for Technician Class candidates*. It is a fantastic way to give back to the community, mentor new hams, and help grow the hobby.
 
 ## Expanding Your Reach
 With a General Class License, you gain access to most HF amateur frequencies. The Amateur Extra license offers additional exclusive segments, but General privileges give you many ways to make worldwide contacts. Which band will work depends on propagation, your station, and the station you hope to reach.

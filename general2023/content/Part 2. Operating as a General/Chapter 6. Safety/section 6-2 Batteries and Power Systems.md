@@ -23,7 +23,7 @@ Discharging too deeply shortens battery life. In a lead-acid battery, lead sulfa
 
 Treat **10.5 volts as the exam’s lower-limit answer**, not a daily target for long battery life. It is a typical fully discharged endpoint under a specified load. Shallower discharges usually extend life; use the battery maker’s voltage and depth-of-discharge limits.
 
-Here's the gotcha: voltage sags under load. Your battery might read a comfortable 12.2 volts while you're listening, then drop below 10.5 volts the moment you key up to transmit. If you're serious about battery longevity, monitor voltage while transmitting—or better yet, use a low-voltage cutoff set for your battery and load.
+Here's the gotcha: voltage sags under load. A sudden drop when you key up does not, by itself, tell you how much charge is left. For a charge estimate from voltage, let the battery rest as its maker directs before measuring. Monitor transmit voltage too, and use a low-voltage cutoff suited to your battery and load.
 
 ##### Internal Resistance: The Hidden Spec
 

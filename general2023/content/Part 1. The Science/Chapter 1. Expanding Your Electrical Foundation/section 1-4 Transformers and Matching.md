@@ -1,7 +1,7 @@
 ---
 chapter: "1"
 section: "1.4"
-questions: ["G5C01", "G5C02", "G5C05", "G5C06", "G5C07", "G9C11", "G9C12"]
+questions: ["G5C01", "G5C02", "G5C05", "G5C06", "G5C07"]
 status: draft1
 slug: section-14-impedance-matching-and-transformers
 ---
@@ -18,13 +18,13 @@ In this section, we'll explore transformers and matching networks—practical to
 
 For the resistive source this theorem describes, equal source and load resistances give maximum load power. When reactance is present, the matching load also needs opposite reactance. In station operation, the practical target is the load the equipment specifies, usually 50 ohms with little reactance. A mismatch can cause reflected waves on the feed line, increase line loss, or make the transmitter reduce power; reflected power is not automatically all lost.
 
-This principle explains why your radio might show high SWR (Standing Wave Ratio) on some bands but not others—the antenna's impedance varies with frequency, creating matches at some frequencies and mismatches at others.
+Your radio might show high SWR (Standing Wave Ratio) on some bands but not others because the antenna's impedance varies with frequency, creating matches at some frequencies and mismatches at others.
 
 Let's look at the tools that help us create matches between different impedances:
 
 #### Transformers: The Impedance Conversion Tools
 
-Transformers are elegant devices that transfer energy between circuits while changing voltage and current ratios—and consequently, impedance. They work through electromagnetic induction. With separate windings, energy can pass between circuits without a direct electrical connection. Autotransformers share an electrical connection, so the name “transformer” alone does not guarantee isolation.
+Transformers are elegant devices that transfer energy between circuits while changing voltage and current ratios—and consequently, impedance. They work through electromagnetic induction. With separate windings, energy can pass between circuits without a direct electrical connection. Autotransformers use one tapped winding and share an electrical connection, so the name “transformer” alone does not guarantee isolation.
 
 > **Key Information:** Mutual inductance causes a voltage to appear across the secondary winding of a transformer when an AC voltage source is connected across its primary winding. {{< link id="G5C01" >}}
 
@@ -39,7 +39,7 @@ For an ideal transformer, the turns ratio determines how voltage, current, and i
 ![A transformer links two separate circuits through a magnetic core. An AC source drives the primary winding on the left; the secondary winding on the right supplies a load. There is no direct wire connection between the windings. The secondary has twice as many turns as the primary. For this ideal transformer, that gives twice the primary voltage across the secondary and half the primary current through its load, with the same power transferred. Arrows identify current in each circuit.](../../../images/s1-4-transformer-ratios.svg)
 {.img-centered caption="Twice as many secondary turns doubles voltage and halves load current for the same ideal transferred power."}
 
-* **Turns Ratio**: The ratio of turns on the secondary side to turns on the primary side
+* **Turns Ratio**: A comparison of the turns in the two windings. In these formulas, $n$ means secondary turns divided by primary turns ($N_s/N_p$)
   
   $$n = \frac{N_\text{secondary}}{N_\text{primary}}$$
 
@@ -77,7 +77,7 @@ What happens when you apply a signal to the secondary winding instead of the pri
 
 > **Key Information:** When you apply an input signal to the secondary winding of a 4:1 voltage step-down transformer, the output voltage equals the input voltage multiplied by 4. {{< link id="G5C02" >}}
 
-This property is useful when you need the opposite transformation without rewinding the transformer. A step-down transformer becomes a step-up transformer when you reverse the connections, provided you respect its voltage, current and frequency ratings.
+Here, 4:1 step-down means four primary turns for every secondary turn. Reversing the connections gives the opposite transformation without rewinding the transformer. A step-down transformer becomes a step-up transformer when you reverse the connections, provided you respect its voltage, current and frequency ratings.
 
 ##### Transformer Construction Considerations
 
@@ -87,7 +87,7 @@ Transformer design involves important practical considerations beyond just turns
 
 Since power ($P = I \cdot E$) remains approximately constant (minus losses), a step-up transformer that increases voltage must decrease current proportionally. Therefore:
 
-* The primary winding handles higher current and needs thicker wire
+* The primary winding handles *higher current* and needs thicker wire
 * The secondary winding carries less current and can use thinner wire
 
 ##### Calculating Transformer Voltage
@@ -131,36 +131,7 @@ n &= \sqrt{\frac{Z_s}{Z_p}} \\[1.25em]
 \end{align*}
 $$
 
-Therefore, a turns ratio of approximately 3.5:1 will match a 600-ohm antenna to 50-ohm coax, with more turns on the 600-ohm side.
-
-#### Practical Matching Systems for Antennas
-
-Transformers are just one approach to impedance matching. For antenna systems, several specialized matching methods have evolved. A **Yagi** is a directional antenna with several parallel elements on a supporting **boom**. Its **driven element** connects to the feed line. Chapter 4 explains how the elements produce directionality; here we need their feed-point arrangements:
-
-##### Beta Match (Hairpin Match)
-
-> **Key Information:** A beta or hairpin match is a shorted transmission line stub placed at the feed point of a Yagi antenna to provide impedance matching. {{< link id="G9C11" >}}
-
-The beta match uses a shorted section of transmission line (the "hairpin") placed in parallel with the feed point of an antenna element. With a suitably shortened driven element, the hairpin’s inductive reactance works with the element’s capacitive reactance to transform the feed-point impedance.
-
-This matching system is popular for Yagi antennas because:
-* It's relatively simple to construct
-* You can adjust it by changing the length or shape of the hairpin
-* It provides a good match across a reasonable bandwidth
-
-##### Gamma Match
-
-The gamma match is another common approach for directive antennas:
-
-> **Key Information:** A gamma match with a Yagi antenna does not require the driven element to be insulated from the boom. {{< link id="G9C12" >}}
-
-The gamma match offers several advantages:
-* Allows direct connection of the boom to the driven element without insulation
-* Provides adjustable impedance matching; a separate common-mode choke may still be useful
-* Lets you adjust the match by changing the gamma rod length and capacitor setting
-
-![Two schematic feed arrangements show different ways to match a Yagi’s driven element. The hairpin, or beta, match uses an element split at its center. The feed-line wires connect to the two halves, and a short U-shaped conductor bridges the gap as a shorted stub. The gamma match uses a continuous driven element attached at its center to the boom. A gamma rod runs beside part of that element and connects to it away from the center. The coax feed connects through a series capacitor to the rod, with its other conductor connected at the element’s center.](../../../images/s1-4-yagi-matching-basics.svg)
-{.img-centered caption="A hairpin bridges a split feed point. A gamma match can use a continuous driven element attached to the boom. These are schematic views, not construction drawings."}
+Therefore, a turns ratio of approximately *3.5:1* will match a 600-ohm antenna to 50-ohm coax, with more turns on the 600-ohm side.
 
 #### Specialized RF Transformers
 
@@ -180,7 +151,7 @@ Besides transformers, simple combinations of inductors and capacitors (LC networ
 
 Understanding impedance matching has practical benefits as you prepare to use General privileges:
 
-* **In Your Station**: Antenna tuners use matching networks to ensure your transmitter sees its expected 50-ohm load, while SWR meters help you detect mismatches.
+* **In Your Station**: Antenna tuners use matching networks to help your transmitter see its expected 50-ohm load, while SWR meters help you detect mismatches.
 
 * **Real-World Considerations**: Perfect matching isn't always necessary. Equipment limits vary, so check your radio’s specified SWR and power limits. Sometimes improving an antenna is better than matching a poor one.
 

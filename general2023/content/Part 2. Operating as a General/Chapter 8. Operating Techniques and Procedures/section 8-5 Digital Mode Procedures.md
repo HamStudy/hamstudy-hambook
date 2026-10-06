@@ -17,7 +17,7 @@ The correct sideband for digital operation depends on the mode, rather than foll
 
 > **Key Information:** When sending RTTY signals via AFSK with an SSB transmitter, LSB is normally used. {{< link id="G2E01" >}}
 
-Use the radio and software settings together as directed by their instructions. Sideband selection affects which RF frequency represents mark or space; a mismatch may leave a strong signal unreadable. The tone shift, baud rate, and Reverse checks from Section 7.5 help diagnose that problem without guessing at the text.
+Use the radio and software settings together as directed by their instructions. With AFSK, the SSB transmitter places the audio tones above its dial frequency on USB or below it on LSB. Sideband selection therefore affects which RF frequency represents mark or space; a mismatch may leave a strong signal unreadable. The tone shift, baud rate, and Reverse checks from Section 7.5 help diagnose that problem without guessing at the text.
 
 Once you can copy a CQ, identify the calling station and yourself, then leave time for a reply. The contact can continue with reports, names, locations, and ordinary conversation.
 
@@ -44,7 +44,7 @@ If the station calls in one 15-second period, your reply belongs in the followin
 ![Two station rows share a timeline marked at zero, fifteen, and thirty seconds. During the first fifteen-second period, Station A calls CQ while Station B receives. During the next period, Station B replies while Station A receives. Each transmit bar ends before its fifteen-second period ends. The stations use opposite periods, and each must choose a transmit frequency that is clear during its own period.](../../../images/s8-5-ft8-turn-taking.svg)
 {.img-full .img-centered}
 
-Your reply can use a different audio frequency from the caller's, as long as it stays within the passband the other station is receiving. Check both the selected transmit period and the transmit marker rather than assuming the software’s current settings are appropriate.
+Your reply can use a different audio frequency from the caller's, as long as it stays within the passband the other station is receiving. Check both the selected transmit period and the marker showing your transmit frequency on the waterfall rather than assuming the software’s current settings are appropriate.
 
 A normal exchange establishes the callsigns, passes signal reports, and acknowledges receipt. Let the sequence finish and check the result before logging the contact. If replies are consistently missing, revisit the timing and signal-level checks in Section 7.5 rather than immediately increasing power.
 

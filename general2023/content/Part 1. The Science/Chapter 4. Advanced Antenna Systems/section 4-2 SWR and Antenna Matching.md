@@ -9,7 +9,7 @@ status: draft1
 
 In the previous section, we explored how your feed line's characteristic impedance is fixed by its construction, and how losses accumulate as your signal travels through cable and connectors. Now we tackle the next critical question: when RF arrives at your antenna feed point, does it get accepted and transferred efficiently, or does it reflect back down the line?
 
-This is where SWR—that mysterious number you learned about as a Technician—reveals its true meaning. Good impedance matching (low SWR) ensures efficient power transfer from feed line to antenna. It doesn't guarantee your antenna radiates efficiently—that depends on antenna design, height, and other factors we'll explore in upcoming sections—but it does tell you whether the antenna accepts power at the feed point rather than reflecting it back.
+This is where SWR—that mysterious number you learned about as a Technician—reveals its true meaning. Good impedance matching (low SWR at the feed point) allows power to enter the antenna with little reflection. It doesn't guarantee your antenna radiates efficiently—that depends on antenna design, height, and other factors we'll explore in upcoming sections—but it does tell you whether the antenna accepts power at the feed point rather than reflecting it back.
 
 #### The Real Problem: Impedance Mismatch
 
@@ -17,7 +17,7 @@ Remember from the previous section that your feed line has a characteristic impe
 
 > **Key Information:** Reflected power at an antenna's feed point is caused by a difference between feed line impedance and antenna feed point impedance. {{< link id="G9A04" >}}
 
-Think of your radio system like water flowing through pipes. The transmitter acts like a pump, pushing energy through the feed line toward the antenna. A restriction in a water pipe creates backpressure. In an RF system, an impedance mismatch causes some energy to reflect back toward the transmitter instead of continuing into the antenna.
+Think of your radio system like water flowing through pipes. The transmitter acts like a pump, pushing energy through the feed line toward the antenna. A restriction in a water pipe creates backpressure. In an RF system, *an impedance mismatch*—whether higher or lower than the feed line impedance—causes some energy to reflect back toward the transmitter instead of continuing into the antenna.
 
 Here's the key insight: the impedance mismatch is the disease; high SWR is just the symptom we can easily measure.
 
@@ -27,7 +27,7 @@ Just like the resonant circuits we discussed in Chapter 1, antenna impedance isn
 
 Standing Wave Ratio (SWR) gives us a practical way to detect and quantify impedance mismatches. When forward and reflected waves travel on the same feed line, they create a standing wave pattern. SWR is the ratio of maximum to minimum voltages in this pattern.
 
-Why use SWR instead of directly measuring impedance? At HF frequencies, measuring complex impedance requires sophisticated equipment. Measuring voltage ratios is relatively simple, making SWR the standard diagnostic tool.
+Why use SWR instead of directly measuring impedance? A simple SWR meter can stay in line while you transmit. An antenna analyzer measures resistance and reactance too, but you normally use it with the transmitter disconnected.
 
 > **Key Information:**
 > - To prevent standing waves on a feed line connected to an antenna, the antenna feed point impedance must be matched to the characteristic impedance of the feed line. {{< link id="G9A07" >}}
@@ -47,7 +47,7 @@ Here's where everything we discussed about feed line loss in the previous sectio
 
 Reflection alone does not turn power into heat. In a real line, the higher current and voltage peaks associated with high SWR increase the inherent losses. Every feed line has some loss, and when SWR is high, the signal bounces back and forth between antenna and transmitter, suffering that loss on each trip. A line with 1 dB of matched loss might exhibit 3 dB or more with high SWR. Your 100-watt signal could lose 30-50% of its power as heat in the coax!
 
-Higher loss creates a dangerous illusion. The lossy line attenuates both forward and reflected signals, making the mismatch appear better than it actually is. That beautiful 1.5:1 SWR reading on your UHF antenna with 200 feet of RG-58? The low SWR might mean your feed line is so lossy it's absorbing the reflected power. Your actual antenna match could be terrible, but the loss masks the problem.
+Higher loss creates a dangerous illusion. The lossy line attenuates both forward and reflected signals, making the mismatch appear better than it actually is. That nearly 1:1 SWR reading on your UHF antenna with 200 feet of RG-58? The low SWR might mean your feed line is so lossy it's absorbing the reflected power. Your actual antenna match could be terrible, but the loss masks the problem.
 
 #### The Matching Network Illusion
 
@@ -55,7 +55,7 @@ Here's a critical concept that trips up many operators:
 
 > **Key Information:** If the SWR on an antenna feed line is 5:1, and a matching network at the transmitter end is adjusted to present a 1:1 SWR to the transmitter, the resulting SWR on the feed line remains 5:1. {{< link id="G9A08" >}}
 
-The matching network (antenna tuner) transforms the impedance seen by the transmitter, protecting it from high SWR. However, between the tuner and antenna, that 5:1 SWR still exists with all its losses. The tuner doesn't change your antenna's resonant frequency—a 40-meter dipole remains resonant at 7.150 MHz whether you use a tuner or not.
+The matching network (antenna tuner) transforms the impedance seen by the transmitter so it works into the load it was designed for. However, between the tuner and antenna, *that 5:1 SWR still exists* with all its losses. The tuner doesn't change your antenna's resonant frequency—a 40-meter dipole remains resonant at 7.150 MHz whether you use a tuner or not.
 
 A suitable tuner at the antenna feed point can instead match the antenna to the feed line, reducing SWR and loss along the line. Location matters!
 
@@ -64,7 +64,7 @@ A suitable tuner at the antenna feed point can instead match the antenna to the 
 
 > **Key Information:** An impedance matching transformer at a transmitter output is used to present the desired impedance to the transmitter and feed line. {{< link id="G7C03" >}}
 
-Think of it as a pressure regulator on mismatched pipes—it protects the pump but doesn't fix the plumbing problem. The transformer presents the desired impedance at its connection; it doesn't erase losses elsewhere in the system.
+Inside a transmitter, an output transformer can match the amplifier to the feed line. Think of it as a pressure regulator on mismatched pipes—it protects the pump but doesn't fix the plumbing problem. The transformer presents the desired impedance at its connection; it doesn't erase losses elsewhere in the system.
 
 #### Connecting the Model to a Reading
 
@@ -100,10 +100,10 @@ These system-level concepts tie everything together—your feed line losses disc
 
 #### The Complete Picture
 
-Remember: perfect SWR doesn't guarantee good performance. A dummy load has 1:1 SWR but makes zero contacts! SWR tells you about power transfer efficiency, not radiation effectiveness.
+Remember: perfect SWR doesn't guarantee good performance. A dummy load has 1:1 SWR but makes zero contacts! SWR describes the impedance match, not radiation effectiveness.
 
 Focus on the complete system:
-- Reasonable impedance match (SWR under 2:1)
+- A match your radio can handle at its output (often SWR under 2:1 there)
 - Proper antenna design and placement
 - Quality feed line appropriate for frequency
 - Regular measurements to catch problems early

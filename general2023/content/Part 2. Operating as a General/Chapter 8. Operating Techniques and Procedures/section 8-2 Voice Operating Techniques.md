@@ -65,7 +65,7 @@ Once the stations have identified each other, a signal report helps you judge ho
 
 > **Key Information:** Signal reports are typically exchanged at the beginning of an HF contact to allow each station to operate according to conditions. {{< link id="G2D11" >}}
 
-“You’re five and two, fully readable but weak” gives different information from “Your signal is strong, but the audio is distorted.”
+A voice report gives readability from 1 to 5, then signal strength from 1 to 9. “You’re five and two, fully readable but weak” gives different information from “Your signal is strong, but the audio is distorted.”
 
 In a short first contact, you might say:
 

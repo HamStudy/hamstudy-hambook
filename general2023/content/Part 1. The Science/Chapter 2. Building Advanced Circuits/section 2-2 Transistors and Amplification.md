@@ -23,13 +23,13 @@ Later in this chapter, we'll use that same control for digital switching, where 
 
 ##### Field-Effect Transistors (FETs)
 
-FETs use an electric field, rather than current, to control the flow of current through a semiconductor channel. One type is the **MOSFET**, or *metal-oxide-semiconductor field-effect transistor*.
+FETs use an electric field from a control terminal called the **gate** to control current through a semiconductor channel. One type is the **MOSFET**, or *metal-oxide-semiconductor field-effect transistor*.
 
 > **Key Information:** In MOSFET construction, the gate is separated from the channel by a thin insulating layer. {{< link id="G6A09" >}}
 
 This insulating layer creates an extremely high input impedance, as virtually no steady DC current flows into the gate. Charging and discharging the gate’s capacitance still requires current when its voltage changes. The voltage at the gate creates an electric field that controls current flow between the source and drain.
 
-Both transistor types have important roles in your radio. Bipolar transistors are often used in audio and low-level RF stages, while MOSFETs excel in RF power amplifiers and receiver front ends where their high-frequency performance and high input impedance are advantageous.
+Both transistor types have important roles in your radio. Bipolar transistors are often used in audio and low-level RF stages, while MOSFETs are common in RF power amplifiers and some receiver front ends.
 
 #### Vacuum Tubes: Understanding Legacy Technology
 
@@ -71,7 +71,7 @@ Efficiency varies with the circuit, signal and output level; a class name does n
 
 > **Key Information:** A linear amplifier preserves the input waveform in the output. {{< link id="G7B10" >}}
 
-Linearity refers to how faithfully an amplifier reproduces its input signal. In a perfectly linear amplifier, the output is an exact (but larger) copy of the input. This is crucial for modes where the signal's shape contains information, such as SSB voice operation, AM signals, and most digital modes.
+Linearity refers to how faithfully an amplifier reproduces its input signal. In a perfectly linear amplifier, the output is an exact (but larger) copy of the input. This is crucial for modes where the signal's shape contains information, such as SSB voice operation, AM signals, and digital modes such as PSK31.
 
 Now let's look at the main amplifier classes:
 

@@ -15,7 +15,7 @@ An ordinary CQ welcomes any station. CQ DX narrows that invitation:
 
 > **Key Information:** Generally, stations outside the lower 48 states should respond when a station in the contiguous 48 states calls “CQ DX.” {{< link id="G2A11" >}}
 
-For that call, a station in Canada or Alaska qualifies even though neither contact crosses an ocean. Listen for any further restriction, such as a call for a particular region, and answer only when your station fits the request.
+For that call, a station in Canada or Alaska qualifies; the contact need not cross an ocean. Listen for any further restriction, such as a call for a particular region, and answer only when your station fits the request.
 
 Voluntary band plans sometimes provide operating windows for DX as well. One example is on 6 meters, beyond the HF bands:
 
@@ -29,7 +29,7 @@ If you use a directional antenna, an ordinary rectangular world map may not show
 > - An azimuthal projection map shows true bearings and distances from a specific location. {{< link id="G2D04" >}}
 > - For a long-path contact, point a directional antenna 180 degrees from the station’s short-path heading. {{< link id="G2D06" >}}
 
-The station-centered map used for this purpose is an *azimuthal equidistant* map. Choose one centered on your location, then read the bearing from its center to the destination. The heading refers to true north, so account for magnetic declination if you use a magnetic compass to align the antenna.
+The station-centered map used for this purpose is an *azimuthal equidistant* map. Choose one centered on your location, then read the bearing from its center to the destination. The heading refers to true north, so account for magnetic declination—the difference between true and magnetic north—if you use a magnetic compass to align the antenna.
 
 Sometimes propagation supports the longer route around Earth instead. If the short-path heading is 70 degrees, the long-path heading is 250 degrees. Compare reception in the two directions to find which path, if either, supports the contact.
 
@@ -71,6 +71,6 @@ A contest log records the date and time in UTC, band or frequency, mode, callsig
 
 > **Key Information:** Many amateurs keep a station log to help with a reply if the FCC requests information about their station. {{< link id="G2D08" >}}
 
-There is no general requirement to log every amateur contact, but specific activities may require records. For a contest, use its required format and submission procedure. Record what you actually copied rather than filling gaps from an online listing, and follow the event’s rules about corrections and outside assistance.
+There is no general requirement to log every amateur contact, but specific activities may require records. You do not have to submit a contest log, but if you do, use the sponsor's required format and submission procedure. Record what you actually copied rather than filling gaps from an online listing, and follow the event’s rules about corrections and outside assistance.
 
 A contest calendar or local club can help you find an event to try. Listen to a few exchanges and prepare the information you will send. You can make a handful of contacts without aiming for a competitive score.

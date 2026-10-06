@@ -4,7 +4,7 @@ slug: phonetics
 
 ## Phonetic Alphabet
 
-While it can be fun to make up your own phonetics and many people do particularly for their call sign, using it for anything important can often lead to a surprising amount of confusion. For that reason, it's best to learn the official phonetic alphabet so that everyone uses the same terms and to maximize clarity in communications.
+Making up your own phonetics can be fun, and many operators do it for their call sign. For important messages, though, unfamiliar words can cause confusion. Learn the standard phonetic alphabet so everyone uses the same words.
 
 ### NATO phonetic alphabet
 

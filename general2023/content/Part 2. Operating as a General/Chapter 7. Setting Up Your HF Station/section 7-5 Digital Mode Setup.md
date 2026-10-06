@@ -13,7 +13,7 @@ A computer can generate and decode digital signals, control the radio, or do bot
 
 In audio-based setups, the computer sends tones to the transmitter in place of microphone audio. On receive, the software decodes the audio coming from the radio. Some radios carry this audio through a built-in USB sound interface; others need an external sound interface and audio cables. Here, USB means the computer connection, not upper sideband.
 
-RTTY sent using AFSK shifts between two audio frequencies called *mark* and *space*. The difference between them is called the *shift*:
+RTTY can use **audio frequency-shift keying (AFSK)**: the computer alternates between two audio tones, *mark* and *space*, and an SSB transmitter converts them to two RF frequencies. Their spacing, called the *shift*, stays the same:
 
 > **Key Information:** The most common frequency shift for RTTY emissions in the amateur HF bands is 170 Hz. {{< link id="G2E06" >}}
 
@@ -23,7 +23,7 @@ The drive-level lesson from the previous section also applies here: set the audi
 
 > **Key Information:** The ALC system should be inactive when transmitting AFSK data signals because the ALC action distorts the signal. {{< link id="G4A11" >}}
 
-Start with low audio drive and follow the radio manufacturer's digital-mode setup procedure. The aim is to prevent distortion by setting the input correctly, not by disabling ALC protection. Recommended ALC meter indications vary between radios.
+Start with low audio drive and follow the radio manufacturer's digital-mode setup procedure. Inactive means the ALC is not being triggered; it does not mean switching off that protection. Recommended ALC meter indications vary between radios.
 
 Turn off speech processing and other voice effects as well. The processing that raises average speech power, discussed earlier in this chapter, can distort data tones.
 
@@ -44,7 +44,7 @@ If another operator reports extra lines around your signal—or you see them wit
 
 #### Keeping Accurate Time
 
-FT8 stations take turns transmitting and receiving in 15-second periods timed to UTC; each actual RF transmission is shorter than its period. Their clocks must agree closely enough for one station's transmission to arrive during the other's receive period:
+FT8 stations take turns transmitting and receiving in 15-second periods timed to Coordinated Universal Time (UTC); each actual RF transmission is shorter than its period. Their clocks must agree closely enough for one station's transmission to arrive during the other's receive period:
 
 > **Key Information:** FT8 requires computer time accurate to within approximately 1 second. {{< link id="G2E07" >}}
 
@@ -56,7 +56,7 @@ An RTTY signal can be strong and appear correctly tuned yet produce unreadable t
 
 > **Key Information:** If you cannot decode an RTTY or other FSK signal even though it is apparently tuned in properly, the mark and space frequencies may be reversed, you may have selected the wrong baud rate, or you may be listening on the wrong sideband. {{< link id="G2E14" >}}
 
-Selecting the wrong receive sideband reverses the relationship between mark and space. Most RTTY software also has a **Reverse** control that swaps its interpretation of those tones. The baud rate must match the sending station's speed; 45.45 baud is common for amateur HF RTTY.
+Selecting the wrong receive sideband reverses the relationship between mark and space. Most RTTY software also has a **Reverse** control that swaps its interpretation of those tones. The baud rate must match the sending station's speed; about 45 baud is common for amateur HF RTTY.
 
 Check the sideband or Reverse setting, then confirm the baud rate and shift. Change one setting at a time so you can identify what corrected the problem.
 

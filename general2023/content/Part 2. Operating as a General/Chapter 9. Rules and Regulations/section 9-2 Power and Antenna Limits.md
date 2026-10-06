@@ -9,11 +9,11 @@ status: draft1
 
 A frequency may be available to your license class while the power you intend to use is not. Most of the familiar MF and HF bands share one general transmitter-power limit, but some have lower limits. On 60 meters, the antenna’s gain matters too.
 
-The minimum-power rule from Chapter 7 still applies: use no more power than necessary to carry out the communication. A maximum is a limit, not a recommended setting.
+The minimum-power rule introduced in Chapter 7 still applies: use no more power than necessary to carry out the communication. A maximum is a limit, not a recommended setting.
 
 #### What the Power Limit Measures
 
-An amplifier’s electrical input, its RF output, and the power radiated in a particular direction are different quantities. For the general transmitter limit, the FCC uses the RF output measurement. For a General control operator, the usual maximum is 1,500 watts PEP output unless a more restrictive rule applies.
+An amplifier’s electrical input, its RF output, and the power radiated in a particular direction are different quantities. For the general transmitter limit, the FCC uses the RF output measurement. For a General control operator, the usual maximum is *1,500 watts PEP output* unless a more restrictive rule applies.
 
 > **Key Information:**
 > - FCC rules regulating maximum transmitter power specify PEP output from the transmitter. {{< link id="G1C11" >}}
@@ -21,7 +21,7 @@ An amplifier’s electrical input, its RF output, and the power radiated in a pa
 > - The maximum transmitter power on the 28 MHz band for a General class control operator is 1,500 watts PEP output. {{< link id="G1C05" >}}
 > - The maximum transmitter power on the 1.8 MHz band is 1,500 watts PEP output. {{< link id="G1C06" >}}
 
-Peak envelope power is the average power during one RF cycle at the crest of the modulation envelope. On SSB, this corresponds to the voice peaks discussed in Section 7.3, not the average reading over a sentence. A low average meter reading does not establish that the peaks are below the limit.
+On SSB, the limit applies to the voice peaks discussed in Section 7.3. A low average meter reading does not establish that those peaks are below the limit.
 
 Equipment ratings, RF exposure requirements, and any special operating restriction can require a lower setting.
 
@@ -31,15 +31,13 @@ The 30-meter band has a lower transmitter-output limit throughout its 10.100–1
 
 > **Key Information:** The maximum transmitter power an amateur station may use on 10.140 MHz is 200 watts PEP output. {{< link id="G1C01" >}}
 
-The same 200-watt limit applies elsewhere on 30 meters.
-
 #### Power and Bandwidth on 60 Meters
 
 The four 60-meter channels and the continuous segment introduced in the previous section share a bandwidth limit:
 
 > **Key Information:** The maximum bandwidth permitted for USB transmissions in the 60-meter band is 2.8 kHz. {{< link id="G1C03" >}}
 
-The current rule also applies that 2.8 kHz maximum to the other permitted 60-meter emissions. Set the transmitter for the allowed bandwidth rather than assuming that a normal SSB or data preset fits.
+The current rule also applies that *2.8 kHz maximum* to the other permitted 60-meter emissions. Set the transmitter for the allowed bandwidth rather than assuming that a normal SSB or data preset fits.
 
 Power on this band is specified as **effective radiated power (ERP)**, rather than only the transmitter’s output. The antenna’s gain therefore affects how much transmitter power you may use.
 
@@ -52,7 +50,7 @@ You can find the latest version of this book at [hambook.org](https://hambook.or
 
 ERP uses a half-wave dipole as its reference antenna. **Equivalent isotropically radiated power (EIRP)** uses an isotropic antenna—an ideal source that radiates equally in every direction. Section 1.5 introduced these gain references. The two figures in the second row express the same limit using different references.
 
-For the FCC’s 60-meter calculation, multiply transmitter PEP by antenna gain relative to a dipole. A dipole is assigned a gain factor of 1, or 0 dBd. If another antenna has 3 dBd of gain, its gain factor is about 2: 50 watts PEP produces about 100 watts ERP. In the continuous segment, using a gain factor of 2, a 4.5-watt setting would produce about 9 watts ERP, below the 9.15-watt limit. Allow for uncertainty in the gain and power measurements rather than choosing a setting that may exceed the limit.
+For the FCC’s 60-meter calculation, multiply transmitter PEP by antenna gain relative to a dipole. A dipole is assigned a gain factor of 1, or 0 dBd. If another antenna has 3 dBd of gain, its gain factor is about 2. In the continuous segment, a 4.5-watt setting would then produce about 9 watts ERP, below the 9.15-watt limit. Allow for uncertainty in the gain and power measurements rather than choosing a setting that may exceed the limit.
 
 That calculation needs a documented gain value:
 
@@ -64,9 +62,9 @@ The record may use the manufacturer’s gain data or an appropriate calculation.
 
 An antenna can be electrically suitable and still require approval because of its height or location.
 
-> **Key Information:** Away from a public-use airport, an antenna structure may generally be up to 200 feet tall before its height triggers FAA notification and FCC registration. {{< link id="G1B01" >}}
+> **Key Information:** Away from a public-use airport, an antenna structure may generally be up to 200 feet tall before its height triggers Federal Aviation Administration (FAA) notification and FCC registration. {{< link id="G1B01" >}}
 
-The height-based requirement generally applies to structures **more than 200 feet above ground level**. Shorter structures near airports may also require notification and registration. Measure the complete structure, including an antenna mounted on top, rather than only the length of the tower sections.
+The height-based requirement generally applies to structures *more than 200 feet above ground level*. Shorter structures near airports may also require notification and registration. Measure the complete structure, including an antenna mounted on top, rather than only the length of the tower sections.
 
 Check the FAA and FCC criteria for the site before construction, along with applicable building and zoning requirements. Marking and lighting requirements, when imposed, depend on that review.
 

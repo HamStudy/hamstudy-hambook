@@ -29,7 +29,7 @@ CW illustrates why signal shape matters. Each dot or dash turns the RF carrier o
 > - An oscilloscope is the best instrument for checking a CW transmitter's keying waveform. {{< link id="G4B03" >}}
 > - When checking a transmitted signal's RF envelope pattern, the attenuated RF output of the transmitter is connected to the oscilloscope's vertical input. {{< link id="G4B04" >}}
 
-The scope shows how the RF envelope rises and falls, letting you inspect the shape of each element rather than only its length.
+The vertical input controls the trace's up-and-down movement. The scope shows how the RF envelope rises and falls, letting you inspect the shape of each element rather than only its length.
 
 For either CW or a modulated signal, the sample comes from the transmitter's RF output. Reduce it to a level the scope can safely accept. Use a sampling or attenuation arrangement rated for the frequency and power involved. The transmitter still needs a suitable load, such as a properly rated dummy load; the oscilloscope input is not a substitute. Follow the equipment's measurement instructions before making connections. Make sure the scope and probe have enough bandwidth for the RF frequency being measured.
 

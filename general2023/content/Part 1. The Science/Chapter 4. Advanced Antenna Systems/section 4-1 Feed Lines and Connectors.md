@@ -21,19 +21,20 @@ The physics is beautifully simple:
 - Spread conductors farther apart? Impedance goes up.
 - Use fatter wires? Impedance goes down.
 - What you connect to either end? Doesn't change the cable's characteristic impedance.
+- Make the line longer or shorter? Its characteristic impedance stays the same.
 
 Those comparisons assume the same insulating material, or *dielectric*, between the conductors. The dielectric also affects impedance.
 
 Common impedances you'll encounter:
 - **50 ohms**: The usual amateur radio standard—most transceivers expect it
 - **75 ohms**: Common in TV cable, but useful in some amateur installations too
-- **450 ohms**: Window line—spaced conductors and air gaps for low loss
+- **450 ohms**: *Window line*—spaced conductors and air gaps for low loss
 
-This characteristic impedance is a fundamental property of the feed line itself. When you connect your radio (expecting 50 ohms) to 50-ohm coax and then to an antenna that also presents 50 ohms, power flows smoothly through the entire system. But any mismatch anywhere in this chain—whether at the radio, connectors, feed line, or antenna—creates reflections. In a real feed line, the resulting standing waves can increase heat loss. We'll explore those antenna mismatches in the next section. First, let's compare the practical tradeoffs between feed-line types.
+This characteristic impedance is a fundamental property of the feed line itself. When you connect your radio (expecting 50 ohms) to 50-ohm coax and then to an antenna that also presents 50 ohms, power flows smoothly through the entire system. An impedance change along the feed line—at a connector, a splice between different lines, or the antenna—reflects some power. In a real feed line, the resulting standing waves can increase heat loss. We'll explore those antenna mismatches in the next section. First, let's compare the practical tradeoffs between feed-line types.
 
 > **Key Information:** The nominal characteristic impedance of "window line" transmission line is 450 ohms. {{< link id="G9A03" >}}
 
-Window line (ladder line with rectangular cutouts) achieves remarkable efficiency by using air as its primary dielectric. Those windows aren't decorative—they remove lossy plastic while maintaining conductor spacing.
+Window line (ladder line with rectangular cutouts) keeps loss low through its high impedance and mostly air dielectric. When matched, its higher impedance means less current for the same power, reducing heating in the wires. Those windows aren't decorative—they reduce dielectric loss while maintaining conductor spacing.
 
 ![Coax has a central conductor surrounded by insulation, with a conducting shield wrapped around that insulation. Window line instead has two parallel wires held apart by insulating material. Rectangular openings remove much of the material between the wires while keeping their spacing fixed. The key difference is one conductor surrounding the other in coax, compared with two side-by-side conductors in window line.](../../../images/s4-1-feed-lines.svg)
 {.img-centered}
@@ -44,7 +45,7 @@ The tradeoff? Window line demands respect:
 - Protect it from ice buildup
 - Keep sufficient clearance from other cables
 
-Coax is the easygoing alternative—its shield confines the wanted signal and helps block outside interference. Unwanted current can still flow on the outside of that shield; Section 1.4 explains how a choke helps control it. Window line trades convenience for efficiency—worthwhile when you need every watt to count such as for QRP (low-power) operation.
+Coax is the easygoing alternative—its shield confines the wanted signal and helps block outside interference. Unwanted current can still flow on the outside of that shield; Section 2.1 explains how a ferrite choke helps control it. Window line trades convenience for efficiency—worthwhile when you need every watt to count such as for QRP (low-power) operation.
 
 #### Feed Line Loss: Where Your Power Goes
 
@@ -67,7 +68,7 @@ Let's put this in perspective with RG-8X (a popular "compromise" cable). The [Da
 
 These are specifications for one cable choice, not every product sold as RG-8X. Check the actual cable's data at your operating frequency.
 
-What does a 4.5 dB loss mean for your signal? You're delivering 35 watts to your antenna from a 100-watt radio. The other 65 watts? Warming up your coax. That could be part of why that distant station can't hear you. And remember—this loss affects both transmit AND receive. Your signal weakens going out, and incoming signals weaken coming back in. It's a double penalty. How much the receive loss hurts signal-to-noise ratio depends on the receiver and the external noise arriving with the signal.
+What does a 4.5 dB loss mean for your signal? At 200 MHz, send 100 watts through 100 feet of this cable and only about 35 watts reach your antenna. The other 65 watts? Warming up your coax. That could be part of why that distant station can't hear you. And remember—this loss affects both transmit AND receive. Your signal weakens going out, and incoming signals weaken coming back in. It's a double penalty. How much the receive loss hurts signal-to-noise ratio depends on the receiver and the external noise arriving with the signal.
 
 #### Choosing Feed Line for Your Station
 
@@ -120,4 +121,4 @@ Those RCA jacks behind your transceiver handle audio and control signals for dig
 
 #### Building Your Complete Antenna System
 
-Getting power to your antenna efficiently is only part of the story. What happens when that power arrives at the antenna? Does your antenna accept it and radiate it effectively, or does it reflect power back down the feed line, creating the standing waves you learned about as a Technician? That's where impedance matching and SWR come into play—the critical final link in your antenna system that we'll explore in the next section.
+Getting power to your antenna efficiently is only part of the story. What happens when that power arrives at the antenna? Does your antenna accept it, or does it reflect power back down the feed line, creating the standing waves you learned about as a Technician? That's where impedance matching and SWR come into play—the critical final link in your antenna system that we'll explore in the next section.

@@ -32,7 +32,7 @@ These equations let us calculate power in a resistive load when we know at least
 
 For example:
 - With 12 volts and 0.2 amperes: {{< link id="G5B04" >}} $P = I \times E = 0.2A \times 12V = 2.4W$
-- With 7 milliamperes through 1,250 ohms: {{< link id="G5B05" >}} $P = I^2 \times R = (0.007A)^2 \times 1250\Omega = 0.061W = 61mW$
+- With 7 milliamperes through 1,250 ohms: {{< link id="G5B05" >}} $P = I^2 \times R = (0.007A)^2 \times 1250\Omega \approx 0.061W = 61mW$
 
 If we apply 400 VDC to an 800-ohm load, we can calculate the power: {{< link id="G5B03" >}}
 
@@ -63,11 +63,11 @@ $E_{RMS} = E_{peak} \cdot \frac{1}{\sqrt{2}} \approx 0.707 \cdot E_{peak}$
 For a resistor, using RMS voltage in $P = E^2/R$ gives the average power dissipated as heat. When you hear that household electricity is 120 volts, that's the RMS value, not the roughly 170-volt peak of its sine wave.
 
 For example:
-- If you have 17 volts peak AC, the RMS voltage is: {{< link id="G5B09" >}} $E_{RMS} = \frac{17V}{1.414} = 12V$
+- If you have 17 volts peak AC, the RMS voltage is: {{< link id="G5B09" >}} $E_{RMS} = \frac{17V}{1.414} \approx 12V$
 - If you have 120 volts RMS AC, the peak-to-peak voltage is: {{< link id="G5B08" >}} $E_{p-p} = 120V \times 2.828 = 339.4V$
 
 We can also calculate RMS voltage from power measurements:
-- With a 50-ohm load dissipating 1200 watts: {{< link id="G5B12" >}} $E_{RMS} = \sqrt{P \times R} = \sqrt{1200W \times 50\Omega} = \sqrt{60000} = 245V$
+- With a 50-ohm load dissipating 1200 watts: {{< link id="G5B12" >}} $E_{RMS} = \sqrt{P \times R} = \sqrt{1200W \times 50\Omega} = \sqrt{60000} \approx 245V$
 
 The following table shows the relationships between voltage measurements for a **sine wave**:
 
@@ -104,7 +104,7 @@ For example:
 
 #### Logarithmic Measurements: Decibels
 
-Radio science frequently uses decibels (dB) because they simplify how we express large changes in power. Instead of saying a signal is "100 times stronger," we can say it's "20 dB stronger." This makes calculations easier and allows us to add gains and losses instead of multiplying and dividing.
+Radio science frequently uses decibels (dB) because they simplify how we express large changes in power. Instead of saying a signal has "100 times the power," we can say it's "20 dB stronger." This makes calculations easier and allows us to add gains and losses instead of multiplying and dividing.
 
 > **Key Information:**
 > - An increase of about 3 dB doubles power; a decrease of about 3 dB halves power. {{< link id="G5B01" >}}

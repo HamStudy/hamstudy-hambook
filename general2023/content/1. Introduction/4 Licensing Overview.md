@@ -13,10 +13,10 @@ The General Class License is the second step in the US amateur radio licensing s
 The Federal Communications Commission (FCC) issues three license classes to new applicants. Some operators still hold Novice or Advanced licenses, but those classes are no longer issued to new applicants.
 
 1.  **Technician**: Your entry ticket. VHF/UHF privileges, local repeaters, limited HF access.
-2.  **General**: The class this book prepares you for. Broader HF privileges, more options for international communication, higher power limits on many HF bands, and eligibility for accreditation to administer Technician exams.
+2.  **General**: The class this book prepares you for. Broader HF privileges, more options for international communication, higher power limits on many HF bands, and eligibility for accreditation to *administer Technician exams*.
 3.  **Amateur Extra**: The highest class. Additional HF frequency privileges, eligibility for more call sign formats, and eligibility for accreditation to administer all amateur exam elements.
 
-Each license builds on the previous one, and requires that you have passed the previous exams as well. To hold the top license you must pass all three exams, etc.
+Each license builds on the previous one and requires credit for the lower-class exams as well. Most applicants earn that credit by passing the exams. To hold an Amateur Extra license, you need credit for all three.
 
 ## Upgrade Requirements
 
@@ -26,7 +26,7 @@ The question pool is maintained by the National Conference of Volunteer Examiner
 
 ## Your FCC Registration Number
 
-Before registering for an exam, you'll need an **FCC Registration Number (FRN)**. This free, 10-digit number identifies you in the FCC's records. The exam team uses it on your license application. It is separate from your callsign.
+Before registering for an exam, you'll need an **FCC Registration Number (FRN)**. This free, 10-digit number identifies you in the FCC's records. The exam team uses it on your license application. It is separate from your call sign.
 
 If you already have an FRN, reuse it. You can find it on your FCC license, and it stays the same when you upgrade. Use an individual FRN registered in your own name, not a business FRN. Each applicant needs their own FRN, including family members.
 
@@ -42,7 +42,7 @@ Volunteer Examiners (VEs) are licensed amateurs accredited to administer exams. 
 
 Visit [HamStudy.org/sessions](https://hamstudy.org/sessions) to find in-person and remote exams, or ask a local amateur radio club. Read the VE team's instructions before registering; fees, identification requirements, and remote-exam arrangements vary. Contact the team listed for the session if you have questions.
 
-Have your FRN, accepted identification, and any license or exam-credit documents requested by the team ready. Check its rules for calculators and other materials. For a remote exam, arrange a quiet space and test the required camera, internet connection, and software beforehand. The team may ask you to show your room and work area on camera.
+Have your FRN, accepted identification, and any license or exam-credit documents requested by the team ready. Check the VE team's rules for calculators and other materials. For a remote exam, arrange a quiet space and test the required camera, internet connection, and software beforehand. The team may ask you to show your room and work area on camera.
 
 ## Exam and Application Fees
 
@@ -52,7 +52,7 @@ Exam teams may charge a fee to cover examination expenses; check the session lis
 
 The VEs give you a Certificate of Successful Completion of Examination (CSCE) and forward your application through their VEC. Keep the certificate and check that your FCC license record is updated.
 
-A currently licensed Technician who completes the General requirements and properly submits the application through the VEs can use temporary General privileges with an unexpired CSCE. When using those privileges before the upgrade appears in the FCC database, add /AG after your callsign. First-time applicants must wait for their FCC license grant before transmitting as a control operator.
+If you already hold a Technician license, you can use temporary General privileges with an unexpired CSCE once you complete the General requirements and properly submit the application through the VEs. When using those privileges before the upgrade appears in the FCC database, *add /AG after your call sign*. First-time applicants must wait for their FCC license grant before transmitting as a control operator.
 
 Section 9.6 explains what to keep after passing and the conditions and time limits for using your new privileges.
 

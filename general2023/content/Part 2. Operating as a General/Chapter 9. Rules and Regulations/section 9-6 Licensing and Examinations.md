@@ -7,48 +7,48 @@ status: draft1
 
 ### Section 9.6: Licensing and Examinations
 
-Passing an exam, receiving an FCC license grant, and keeping that grant valid are related but separate steps. An existing licensee can sometimes use an upgrade before the FCC database changes. A person applying for a first license cannot use that same provision to begin transmitting immediately.
+Passing an exam, receiving an FCC license grant, and keeping that grant valid are related but separate steps. If you already hold a license, you can sometimes use an upgrade before the FCC updates its database. A first-time applicant must wait for the FCC grant before transmitting as a control operator.
 
 #### Using a Newly Earned Upgrade
 
-After you pass an examination element, the examining team issues a Certificate of Successful Completion of Examination, or CSCE. A currently licensed Technician can use the CSCE for temporary upgraded privileges after completing the General upgrade requirements and properly submitting the application through the VEs:
+After you pass an exam element, the exam team gives you a Certificate of Successful Completion of Examination, or CSCE. A currently licensed Technician can use the CSCE for temporary General privileges. First, you must complete the General upgrade requirements and properly submit your application through the VEs:
 
 > **Key Information:**
-> - A Technician with an unexpired CSCE for General privileges may operate on General or Technician band segments. {{< link id="G1D03" >}}
-> - A Technician using newly earned General privileges must add AG after the callsign until the General upgrade appears in the FCC database. {{< link id="G1D06" >}}
+> - A Technician with an unexpired CSCE for General privileges may operate on any General or Technician band segment. {{< link id="G1D03" >}}
+> - A Technician using newly earned General privileges must add AG after the call sign until the General upgrade appears in the FCC database. {{< link id="G1D06" >}}
 > - A CSCE is valid for examination-element credit for 365 days. {{< link id="G1D09" >}}
 
-For example, W1ABC using the temporary General privileges identifies as “W1ABC slash AG” on voice, or W1ABC/AG in CW or an appropriate text mode.
+For example, W1ABC using the temporary General privileges identifies as “*W1ABC slash AG*” on voice, or *W1ABC/AG* in CW or an appropriate text mode.
 
-Temporary upgraded privileges end when the FCC takes final action on the application or 365 days after you pass the examination, whichever comes first. Follow up with the examining team if the application does not progress as expected. Keep your CSCE and application records, and check that the FCC record is updated.
+You can use these temporary privileges for up to 365 days after you pass the exam. They end sooner if the FCC takes final action on your application. Follow up with the examining team if the application does not progress as expected. Keep your CSCE and application records, and check that the FCC record is updated.
 
 A first-time applicant, however, must wait for the FCC license grant before transmitting as a control operator.
 
 #### Keeping a License Current
 
-An ordinary amateur license grant has a ten-year term. You ideally should file for renewal within the 90 days before expiration. It is your responsibility to ensure that your license remains current! Once your license has expired, you may not transmit again until the license has been renewed.
+An ordinary amateur license grant has a ten-year term. You ideally should file for renewal within the 90 days before expiration. It is your responsibility to ensure that your license remains current! If the FCC receives your properly filed renewal application on or before the expiration date, [you may keep operating](https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-97/subpart-A/section-97.21) until the FCC takes final action on it.
 
-If your license expires, a two-year grace period lets you renew (but not transmit!) without retesting. If the FCC received your properly filed renewal on or before the expiration date, a [separate provision allowing continued operation](https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-97/subpart-A/section-97.21) applies until the FCC takes final action on the application.
+If your license expires without a timely renewal application, you must stop transmitting until the license is renewed. A two-year grace period lets you renew (but not transmit!) without retesting.
 
-After the grace period, the former license cannot be renewed through the ordinary renewal process. Past qualifications may still provide examination credit:
+Once the grace period ends, you cannot renew that license through the normal process. You may still get exam credit based on your old license:
 
 > **Key Information:**
 > - A person who can demonstrate a former FCC-issued General, Advanced, or Amateur Extra license that was not revoked may receive partial credit for the examination elements represented by that license. {{< link id="G1D01" >}}
 > - After a General Class License has expired beyond the two-year grace period, obtaining a new General Class License requires proof of the appropriate expired grant and passing the current Element 2 examination. {{< link id="G1D11" >}}
 
-For a former General or Advanced license beyond the grace period, the credit is for **Element 3**, the General examination. It is not credit for Element 2. The returning applicant therefore takes the current Technician examination to obtain a new General grant. Someone with no current license must still wait for the new FCC grant before transmitting as a control operator.
+A General or Advanced license past its grace period gives credit for **Element 3**, the General exam. It is not credit for Element 2. Without current Element 2 credit, you must pass the *current Technician exam* to get a new General grant. Someone with no current license must still wait for the new FCC grant before transmitting as a control operator.
 
-A former Amateur Extra grant provides credit for Elements 3 and 4. Other [historical-license provisions in Section 97.505](https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-97/subpart-F/section-97.505) also exist. Before the session, contact the examining team to find out what proof and examinations your particular case requires. Proof of an old license and a recent CSCE are different sources of credit; the CSCE’s 365-day limit does not make qualifying historical-license credit expire after one year.
+A former Amateur Extra grant provides credit for Elements 3 and 4. Section 97.505 also lists [other ways an older license can earn exam credit](https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-97/subpart-F/section-97.505). Before the session, ask the exam team what proof to bring and which exams you need. You can claim exam credit with proof of an old license or a recent CSCE. The CSCE’s 365-day limit does not apply to credit from a qualifying old license.
 
 #### How Volunteer Examiners Fit into the Process
 
-The people administering amateur examinations are Volunteer Examiners, or VEs. They work through a Volunteer Examiner Coordinator, or VEC, which coordinates examination sessions and the associated application process:
+Volunteer Examiners, or VEs, give amateur radio exams. They work through a Volunteer Examiner Coordinator, or VEC, which organizes exam sessions and handles the related applications:
 
 > **Key Information:**
 > - Volunteer Examiners are accredited by a Volunteer Examiner Coordinator. {{< link id="G1D07" >}}
 > - An accredited VE holding a General Class License may administer Technician examinations only. {{< link id="G1D02" >}}
 
-The FCC issues the license grant; the examining team administers and certifies the examination. A VE’s license class limits which examinations that person may administer:
+The FCC issues the license grant; the examining team administers and certifies the examination. A VE’s license class limits which exams that person may administer:
 
 | VE’s license class | Examinations the VE may administer |
 |---|---|
@@ -65,7 +65,7 @@ VE requirements apply both to the individual examiners and to the team:
 > - A non-US citizen seeking VE accreditation must hold an FCC-granted General, Advanced, or Amateur Extra license. {{< link id="G1D08" >}}
 > - At least three VEs holding General class or higher licenses must observe the administration of a Technician examination. {{< link id="G1D04" >}}
 
-The minimum age applies to examining, not to obtaining an amateur license. A foreign amateur license by itself does not satisfy the FCC-license requirement for this role. Each administering VE must be qualified for the examination being given and accredited by the coordinating VEC. A local team or VEC can explain the accreditation process and how to take part.
+The minimum age applies to examining, not to obtaining an amateur license. A foreign amateur license alone does not meet the FCC-license requirement for this role. Each VE must qualify to give that exam and be *accredited by the coordinating VEC*. A local team or VEC can explain the accreditation process and how to take part.
 
 #### From Study to Operating
 

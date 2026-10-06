@@ -7,7 +7,7 @@ status: draft1
 
 ### Section 6.5: RF Exposure
 
-When you transmit, where does all that RF energy go? Most of it radiates into the atmosphere and off toward distant stations (that's the plan, anyway). But some of it ends up closer to home. While you can't see or smell RF, it's real, and at high enough levels it can cause harm. The FCC requires amateur stations to comply with RF exposure limits—whether you're running QRP or pushing the legal limit.
+When you transmit, where does all that RF energy go? Most of it radiates into the atmosphere and off toward distant stations (that's the plan, anyway). But some of it ends up closer to home. While you can't see or smell RF, it's real, and at high enough levels it can cause harm. The FCC requires amateur stations to comply with RF exposure limits—whether you're running low power (QRP) or pushing the legal limit.
 
 #### How RF Affects You
 
@@ -27,7 +27,7 @@ Three factors work together to determine how much RF exposure someone receives:
 
 **Power density** is the concentration of RF power in space, measured in milliwatts per square centimeter. Far enough from an antenna, in a given direction, moving twice as far away reduces power density to about one quarter (the inverse square law at work). Close to the antenna, the fields are more complex, so that shortcut may not apply.
 
-**Duty cycle** often means the percentage of time you're transmitting. If you listen for 5 minutes and transmit for 5 minutes, that is 50% over the full 10 minutes. But exposure rules use a specified time window, not necessarily your whole conversation. Alternating FT8 slots gives a transmit fraction a little below 50%, because each signal ends before its 15-second slot does; using 50% is a conservative estimate for that alternating pattern.
+**Transmit duty cycle** is the percentage of time you're transmitting. If you listen for 5 minutes and transmit for 5 minutes, that is 50% over the full 10 minutes. But exposure rules use a specified time window, not necessarily your whole conversation. Alternating FT8 slots gives a transmit fraction a little below 50%, because each signal ends before its 15-second slot does; using 50% is a conservative estimate for that alternating pattern.
 
 The FCC uses "time averaging" to account for duty cycle when evaluating exposure:
 
@@ -37,14 +37,14 @@ The FCC uses "time averaging" to account for duty cycle when evaluating exposure
 
 For the maximum permissible exposure (MPE) limits used here, the averaging periods are 6 minutes for controlled exposure and 30 minutes for uncontrolled exposure. Under the amateur rules, the licensee and immediate household may use controlled limits with appropriate RF-safety training and information. Other nearby people must be evaluated under the general-population/uncontrolled limits. Being inside your shack does not by itself make someone’s exposure controlled.
 
-Check the busiest applicable window. Five minutes transmitting followed by five minutes listening includes a six-minute window with five minutes of transmission: 5 ÷ 6, or about 83%, rather than 50%.
+Check the busiest applicable window. Five minutes transmitting followed by five minutes listening includes a six-minute controlled-exposure window with five minutes of transmission: $5 \div 6 \approx 83\%$, rather than 50%. Repeating that pattern throughout a 30-minute uncontrolled-exposure window gives 50%.
 
 ![The radio transmits from minute zero to minute five, then receives until minute ten. Across all ten minutes, transmission takes five out of ten minutes, or fifty percent. But a six-minute window starting at zero includes five minutes of transmission and only one minute of receiving. Five divided by six is about eighty-three percent. Equal transmit and receive time over ten minutes does not mean fifty percent within every shorter window.](../../../images/s6-5-time-averaging.svg)
-{.img-centered}
+{.img-centered caption="The six-minute controlled-exposure window includes five minutes of transmission. Repeating the pattern over a 30-minute uncontrolled-exposure window averages 50%."}
 
-There is a second factor: the average power **while transmitting** compared with peak envelope power (PEP). SSB speech rises and falls, and CW has spaces between keyed elements, so their average power can be below PEP. FM, RTTY and FT8 signals are close to full power while the signal is actually on. Do not count the same pauses in both factors.
+There is a second factor, **modulation duty cycle**: the average power **while transmitting** compared with peak envelope power (PEP). SSB speech rises and falls, and CW has spaces between keyed elements, so their average power can be below PEP. FM, RTTY and FT8 signals are close to full power while the signal is actually on. Do not count the same pauses in both factors.
 
-For example, suppose a 100-watt-PEP SSB signal averages half its PEP while you transmit. You also transmit for half the applicable averaging window. Average power is 100 × 0.5 × 0.5 = 25 watts. These are example factors; voice processing and operating habits change the actual values. A lower transmit fraction can allow more power while still meeting exposure limits, but it never overrides the band’s legal power limit (Section 9.2).
+For example, suppose a 100-watt-PEP SSB signal averages half its PEP while you transmit. You also transmit for half the applicable averaging window. Average power is $100 \times 0.5 \times 0.5 = 25$ watts. These are example factors; voice processing and operating habits change the actual values. A lower transmit fraction can allow more power while still meeting exposure limits, but it never overrides the band’s legal power limit (Section 9.2).
 
 #### Evaluating Your Station
 

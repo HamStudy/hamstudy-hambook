@@ -7,7 +7,7 @@ status: draft3
 
 ### Section 7.2: Receiving Techniques
 
-An HF receiver may deliver the station you want along with static, noise from nearby electronics, and other stations close to the same frequency. If most of your experience is with FM, hearing these sounds together may be unfamiliar. On SSB, a strong signal does not capture the receiver in the same way. The right adjustment depends on whether the problem is an overloaded receiver, a steady tone, or another kind of interference.
+An HF receiver may deliver the station you want along with static, noise from nearby electronics, and other stations close to the same frequency. If most of your experience is with FM, hearing these sounds together may be unfamiliar. On FM, the strongest signal tends to take over; on SSB, you often hear several signals together. The right adjustment depends on whether the problem is an overloaded receiver, a steady tone, or another kind of interference.
 
 #### When Signals Overload the Receiver
 
@@ -19,7 +19,9 @@ An attenuator reduces all incoming signals, including the station you want. If i
 
 #### Reducing Noise and Interference
 
-Overload is only one source of poor reception. A receiver operating normally can still pass an unwanted tone, repeated noise pulses, or background hiss. Notch filters, noise blankers, and noise reduction controls address these different problems.
+Overload is only one source of poor reception. When a nearby station falls inside the receive passband, try narrowing the filter, keeping it wide enough for the wanted signal. Voice needs more width than CW.
+
+A receiver operating normally can still pass an unwanted tone, repeated noise pulses, or background hiss. Notch filters, noise blankers, and noise reduction controls address these different problems.
 
 Suppose a steady whistle overlaps the voice you are trying to hear. It may come from another station's carrier or from nearby electronics. A notch filter reduces a narrow range of frequencies around that tone:
 
@@ -33,13 +35,13 @@ Not all interference is confined to a narrow range of frequencies. A loose or co
 > - Arcing at a poor electrical connection can cause interference covering a wide range of frequencies. {{< link id="G4C02" >}}
 > - A noise blanker works by reducing receiver gain during a noise pulse. {{< link id="G4A03" >}}
 
-The rapid change in current during each spark produces a brief pulse of energy spread across many frequencies. A noise blanker reduces the effect of these pulses. The receiver returns to normal gain between pulses. This can reduce impulse noise from ignition systems, sparking power lines, or electric fences, but it is not intended for a continuous tone or steady hiss.
+The rapid change in current during each spark produces a brief pulse of energy spread across many frequencies. A noise blanker reduces the effect of these pulses. The receiver returns to normal gain between pulses. This can reduce impulse noise from ignition systems, sparking power lines, or electric fences, but it is not intended for a continuous tone or steady hiss. Report suspected power-line faults to the utility rather than inspecting or repairing the hardware yourself.
 
 Ignition systems are not the only sources of noise in a vehicle:
 
 > **Key Information:** A vehicle's battery charging system, fuel delivery system, and control computers can all cause receive interference to an installed HF transceiver. {{< link id="G4E07" >}}
 
-Some of this interference consists of pulses; other sources produce a steady buzz or whine. Changes that follow engine speed or the switching of nearby equipment can help identify the source. Report suspected power-line faults to the utility rather than inspecting or repairing the hardware yourself.
+Some of this interference consists of pulses; other sources produce a steady buzz or whine. Noise that follows engine speed or starts and stops when nearby equipment turns on or off can help identify the source.
 
 Steadier background noise calls for a different approach. Noise reduction, often labeled **NR**, uses digital processing to reduce noise in the received audio. It attempts to preserve speech while suppressing noise, but stronger processing can also alter the wanted signal:
 
@@ -49,7 +51,7 @@ Start with a low setting and increase it only while the voice becomes easier to 
 
 #### When RF Gets into Audio Equipment
 
-Receiver controls cannot correct every sound coming from the station's speakers. RF may enter a separate audio device, such as powered computer speakers, and be unintentionally detected by its amplifier. That creates sound without passing through your receiver's filters. The interfering transmitter may be yours or another nearby station.
+Receiver controls cannot correct every sound coming from the station's speakers. RF may enter a separate audio device, such as powered computer speakers, where the amplifier can act as an accidental detector, turning RF into sound. That sound never passes through your receiver's filters. The interfering transmitter may be yours or another nearby station.
 
 What you hear can help identify the type of transmission:
 
