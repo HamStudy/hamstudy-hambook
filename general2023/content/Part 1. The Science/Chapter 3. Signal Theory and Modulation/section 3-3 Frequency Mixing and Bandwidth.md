@@ -110,6 +110,9 @@ This unwanted mixing can happen in:
 
 ##### When Nature Creates Accidental Mixers
 
+![A cartoon boy wears headphones and holds one earcup, listening with a curious, puzzled expression.](../../../images/illus/s3-3-puzzled-listener.svg)
+{.img-xsmall .float-right .mb-1}
+
 Sometimes intermodulation happens in the most unexpected places—out in the environment itself! A loose or corroded metal junction can behave nonlinearly, like a primitive diode. If that junction encounters strong RF signals, it can create intermodulation products just like an overdriven amplifier stage.
 
 This becomes particularly problematic at mountain-top repeater sites where multiple high-power transmitters operate in close proximity. Strong signals from several repeaters can mix in unexpected places—perhaps in a loose guy wire connection or corroded tower joint—creating intermodulation products that fall right on another repeater's input frequency. The result? Phantom signals triggering repeaters or strange interference patterns that seem to come from nowhere.

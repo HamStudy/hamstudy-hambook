@@ -81,6 +81,9 @@ Listening tells you whether a signal is understandable. The S-meter provides a d
 
 With 6 dB per S unit, an S9 signal represents about four times the received power of S8 and sixteen times that of S7. Small changes on this scale can therefore represent large changes in power. Each 10 dB increase multiplies power by ten, so 20 dB corresponds to $10 \times 10 = 100$ times the power. Similarly, increasing transmitter output from 100 to 400 watts is approximately a 6 dB change. With other conditions unchanged, that is about one additional S unit at the distant receiver.
 
+![A cartoon boy smiles gently and raises one index finger, as though he has just understood the explanation.](../../../images/illus/s7-2-understanding-child.svg)
+{.img-xsmall .float-right .mb-1}
+
 Actual S-meters vary, so readings are most useful for comparing signals on the same receiver with its settings unchanged. They can help you compare antennas or observe fading.
 
 Signal strength is also separate from readability. In a phone report of "52," the 5 means perfectly readable and the 2 means very weak. You may be able to complete a contact without increasing power, even when the signal-strength number is low.
