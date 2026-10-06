@@ -9,7 +9,7 @@ status: draft1
 
 A General Class License gives you access to many more HF frequencies and modes, but a radio’s tuning range is not a guide to your privileges. Some frequencies require a different license class, and some permit CW or data but not voice. Check both the frequency and the emission type before transmitting.
 
-A current amateur band chart puts those two kinds of permission together. The chart’s license-class boundaries come from FCC rules; suggested places for particular activities come from voluntary band plans. As the previous chapter explained, use the band plan within the limits of your license.
+A current amateur band chart puts those two kinds of permission together. The chart’s license-class boundaries come from FCC rules; suggested places for particular activities come from voluntary band plans.
 
 #### Reading the License-Class Boundaries
 
@@ -21,7 +21,7 @@ Those same four bands include segments reserved exclusively for Amateur Extra op
 
 > **Key Information:** The HF bands with segments exclusively allocated to Amateur Extra licensees are 80, 40, 20, and 15 meters. {{< link id="G1A08" >}}
 
-These statements do not mean that every frequency unavailable to a General is Extra-only. Some are also available to operators who hold an Advanced license. Read the actual class boundaries rather than treating a band as one General segment and one Extra segment.
+These statements do not mean that every frequency unavailable to a General is Extra-only. Some are also available to operators who hold an Advanced license.
 
 For voice, there is a useful pattern:
 
@@ -31,8 +31,7 @@ For example, the General phone segment on 20 meters is 14.225–14.350 MHz. On 4
 
 > **Key Information:** A General class licensee may not act as control operator for transmissions from 7.125 MHz to 7.175 MHz. {{< link id="G1A05" >}}
 
-That 40-meter interval is available to Advanced and Amateur Extra operators. Hearing a station there does not allow a General operator to answer on the same frequency. A split-frequency contact may be possible, but your transmit frequency and occupied bandwidth must remain within your own privileges.
-
+That 40-meter interval is available to Advanced and Amateur Extra operators. Hearing a station there does not allow a General operator to answer on the same frequency.
 
 #### Checking a Frequency in Practice
 
@@ -50,7 +49,7 @@ The 30-meter band is only 50 kHz wide, from 10.100 to 10.150 MHz. US amateur pri
 > - Phone operation is prohibited on the 30-meter band. {{< link id="G1A02" >}}
 > - Image emissions are prohibited on the 30-meter band. {{< link id="G1A03" >}}
 
-These are FCC emission categories, not merely descriptions of what an application displays. For routine operation, treat 30 meters as a CW and permitted-data band, not a place for voice or an SSTV transmission. Permission to use the band does not authorize every mode your radio can generate.
+For routine operation, treat 30 meters as a CW and permitted-data band, not a place for voice or an SSTV transmission.
 
 CW has broader permission on most bands: it may generally be used wherever the control operator has frequency privileges, subject to any special restrictions. On 10 meters, a General operator has access to the whole band:
 
@@ -75,7 +74,6 @@ The two numbers describe different parts of the same transmission. With USB, the
 
 The four separate channels permit USB phone, CW, and the specified RTTY/data emissions. In the continuous segment, permitted phone, CW, RTTY, and data emissions remain subject to the applicable technical rules. In either arrangement, the whole signal must stay within the authorized spectrum and must not exceed 2.8 kHz in bandwidth. The continuous segment and the four channels have different power limits, covered in the next section. In particular, the former channel centered on 5358.5 kHz is now inside the new lower-power segment.
 
-
 #### Repeaters on 10 Meters
 
 Some 10-meter contacts use repeaters rather than a direct path between the two operators. Repeater operation has its own frequency restriction:
@@ -88,7 +86,7 @@ A repeater may also link two different bands. In that case, the user’s station
 
 > **Key Information:** A 10-meter repeater may retransmit a 2-meter signal from a station with a Technician control operator only if the repeater’s control operator holds at least a General Class License. {{< link id="G1E02" >}}
 
-The Technician is transmitting on 2 meters, where that operator has privileges. The repeater makes a separate transmission on 10 meters under its own control operator’s authority. This does not give the Technician permission to transmit directly on the 10-meter repeater frequencies.
+The Technician is transmitting on 2 meters, where that operator has privileges. The repeater makes a separate transmission on 10 meters under its own control operator’s authority.
 
 #### MF and HF Reference Ranges
 
@@ -107,7 +105,7 @@ The following table summarizes common General privileges for a station in the **
 | 12 m | 24.890–24.990 | 24.890–24.930 | 24.930–24.990 |
 | 10 m | 28.000–29.700 | 28.000–28.300 | 28.300–29.700 |
 
-These are frequency and emission ranges, not permission to ignore bandwidth, power, sharing, or station-control restrictions. Some geographic areas have different provisions. The separate 630- and 2200-meter allocations also have [special requirements in Section 97.303(g)](https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-97/subpart-D/section-97.303) not summarized here.
+Some geographic areas have different provisions. The separate 630- and 2200-meter allocations also have [special requirements in Section 97.303(g)](https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-97/subpart-D/section-97.303) not summarized here.
 
 Keep a current band chart near the operating position and check unfamiliar frequencies before transmitting. Once the frequency and mode are allowed, the next limit to check is the power and antenna arrangement you plan to use.
 

@@ -34,7 +34,7 @@ The 30-meter band has a lower transmitter-output limit throughout its 10.100–1
 
 > **Key Information:** The maximum transmitter power an amateur station may use on 10.140 MHz is 200 watts PEP output. {{< link id="G1C01" >}}
 
-That frequency is one point inside the band. The same 200-watt limit applies elsewhere on 30 meters, regardless of whether the station’s amplifier can produce more. Using CW instead of data does not remove the limit.
+The same 200-watt limit applies elsewhere on 30 meters.
 
 #### Power and Bandwidth on 60 Meters
 
@@ -44,7 +44,7 @@ The four 60-meter channels and the continuous segment introduced in the previous
 
 The current rule also applies that 2.8 kHz maximum to the other permitted 60-meter emissions. Set the transmitter for the allowed bandwidth rather than assuming that a normal SSB or data preset fits.
 
-Power on this band is specified as **effective radiated power (ERP)**, referenced to a half-wave dipole, rather than only the transmitter’s output. The antenna’s gain therefore affects how much transmitter power you may use.
+Power on this band is specified as **effective radiated power (ERP)**, rather than only the transmitter’s output. The antenna’s gain therefore affects how much transmitter power you may use.
 
 You can find the latest version of this book at [hambook.org](https://hambook.org). The limits below reflect the rules effective February 13, 2026:
 
@@ -53,7 +53,7 @@ You can find the latest version of this book at [hambook.org](https://hambook.or
 | Four channels centered on 5332.0, 5348.0, 5373.0, and 5405.0 kHz | 100 watts ERP |
 | Continuous segment from 5351.5 to 5366.5 kHz | 9.15 watts ERP, equivalent to 15 watts EIRP |
 
-ERP compares the antenna with a half-wave dipole; **equivalent isotropically radiated power (EIRP)** compares it with an isotropic antenna, an ideal source that radiates equally in every direction. Section 1.5 introduced these gain references. The two figures in the second row express the same limit using different references. Neither means that every antenna system may use that amount of transmitter output.
+ERP compares the antenna with a half-wave dipole; **equivalent isotropically radiated power (EIRP)** compares it with an isotropic antenna, an ideal source that radiates equally in every direction. Section 1.5 introduced these gain references. The two figures in the second row express the same limit using different references.
 
 For the FCC’s 60-meter calculation, multiply transmitter PEP by antenna gain relative to a dipole. A dipole is assigned a gain factor of 1, or 0 dBd. If another antenna has 3 dBd of gain, its gain factor is about 2: 50 watts PEP produces about 100 watts ERP. In the continuous segment, using a gain factor of 2, a 4.5-watt setting would produce about 9 watts ERP, below the 9.15-watt limit. Allow for uncertainty in the gain and power measurements rather than choosing a setting that may exceed the limit.
 
@@ -61,19 +61,17 @@ That calculation needs a documented gain value:
 
 > **Key Information:** When operating on 60 meters with an antenna other than a dipole, you must keep a record of the antenna’s gain. {{< link id="G1C04" >}}
 
-The record may use the manufacturer’s gain data or an appropriate calculation. Check whether a published value is in dBd or dBi before using it. The different reference antennas are not interchangeable.
-
+The record may use the manufacturer’s gain data or an appropriate calculation. Check whether a published value is in dBd or dBi before using it.
 
 #### Antenna Height and Aviation Requirements
 
-An antenna can be electrically suitable and still require approval because of its height or location. Federal aviation requirements apply independently of the radio’s power setting:
+An antenna can be electrically suitable and still require approval because of its height or location.
 
 > **Key Information:** Away from a public-use airport, an antenna structure may generally be up to 200 feet tall before its height triggers FAA notification and FCC registration. {{< link id="G1B01" >}}
 
 The height-based requirement generally applies to structures **more than 200 feet above ground level**. Shorter structures near airports may also require notification and registration. Measure the complete structure, including an antenna mounted on top, rather than only the length of the tower sections.
 
-This is not a blanket right to build a 200-foot tower, nor a guarantee that anything shorter requires no approval. Check the FAA and FCC criteria for the site before construction, along with applicable building and zoning requirements. Marking and lighting requirements, when imposed, depend on that review.
-
+Check the FAA and FCC criteria for the site before construction, along with applicable building and zoning requirements. Marking and lighting requirements, when imposed, depend on that review.
 
 #### State and Local Antenna Rules
 
@@ -81,10 +79,10 @@ Local rules may address an installation’s safety, location, height, and appear
 
 > **Key Information:** State and local antenna regulations must reasonably accommodate amateur service communications and must be the minimum practicable regulation needed to accomplish a legitimate state or local purpose. {{< link id="G1B06" >}}
 
-This principle comes from the FCC’s PRB-1 decision and is reflected in Section 97.15(b). It does not guarantee approval of every proposed antenna. It requires reasonable accommodation rather than rules that preclude amateur communication.
+This principle comes from the FCC’s PRB-1 decision and is reflected in Section 97.15(b). It does not guarantee approval of every proposed antenna.
 
 Private deed restrictions, leases, and homeowners’ association covenants are a separate issue; PRB-1 does not generally override them. Check both the public requirements and any private restrictions that apply to the property.
 
-A useful installation proposal identifies the antenna, its location and height, and how the structure will be supported. Keep the safety and RF exposure work from Chapter 6 with those plans. Meeting a transmitter-power limit does not by itself establish a safe installation—or remove the obligation to avoid harmful interference to other services.
+Meeting a transmitter-power limit does not by itself establish a safe installation—or remove the obligation to avoid harmful interference to other services.
 
 <!-- Editorial sources, checked 2026-09-26: 47 CFR 97.3(b)(9), 97.313, 97.307(f)(14), 97.15, and Part 17; FCC PRB-1, 101 FCC 2d 952 (1985); Federal Register 2026-00587. -->

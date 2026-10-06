@@ -17,9 +17,7 @@ A spectrum allocation can identify a service as primary or secondary. These term
 
 On 30 meters, for example, amateurs must protect the fixed services specified in the sharing rules. If an amateur transmission causes harmful interference to a primary user, the operator must make the necessary changes, including stopping the transmission when required. Being on the frequency first does not remove that obligation.
 
-Accepting interference means that a secondary station cannot demand protection from a primary service’s operation. It does not mean that every strong or unfamiliar signal is automatically a primary user. Avoid interfering while you establish what is happening, and consult the sharing requirements for the particular band.
-
-The 60-meter channels and continuous segment have secondary status too. The bandwidth and power limits from the previous two sections do not replace the requirement to protect primary users.
+Accepting interference means that a secondary station cannot demand protection from a primary service’s operation. The 60-meter channels and continuous segment have secondary status too.
 
 #### Situations Requiring Additional Precautions
 
@@ -27,9 +25,9 @@ Some conditions create an extra obligation to protect other operations:
 
 > **Key Information:** Specific steps to avoid harmful interference are required when operating within one mile of an FCC monitoring station, on a band where the amateur service is secondary, or with spread spectrum emissions. {{< link id="G1E04" >}}
 
-Near an FCC monitoring facility, even an otherwise compliant signal may interfere with its work. The FCC may impose operating restrictions to protect that facility. Secondary operation has the sharing duties described above. Spread spectrum operation must protect other authorized modulation types and accept interference from them; the next section covers its power limit.
+Near an FCC monitoring facility, even an otherwise compliant signal may interfere with its work. The FCC may impose operating restrictions to protect that facility. Spread spectrum operation must protect other authorized modulation types and accept interference from them; the next section covers its power limit.
 
-The appropriate precaution depends on the situation. Lower power, a different frequency, or a change in the antenna arrangement may help, but none is a universal exemption. If the rules require you to eliminate harmful interference, continuing unchanged while discussing possible remedies is not enough.
+The appropriate precaution depends on the situation. Lower power, a different frequency, or a change in the antenna arrangement may help, but none is a universal exemption.
 
 #### Leaving Room for Propagation Beacons
 
@@ -39,19 +37,17 @@ Some interference can be avoided by recognizing an established use before you tr
 
 The beacons transmit identified signals in a repeating schedule. Listening to a beacon from a known location helps you assess that radio path. A gap in the sequence is not necessarily an unused frequency; a beacon may be transmitting that you cannot hear.
 
-Give the beacon frequency and its signal bandwidth room rather than checking only whether your dial displays one of those exact numbers. This is an application of the band-plan and occupied-bandwidth lessons from the previous two chapters, not ownership of the frequency by an individual operator.
+Give the beacon frequency and its signal bandwidth room rather than checking only whether your dial displays one of those exact numbers.
 
 #### Investigating an Interference Report
 
-An interference report is a reason to investigate, not proof that either station is at fault. Note the frequency, time, operating mode, and what changes when your transmitter starts or stops. Chapter 7’s measurement and RF-interference checks can help distinguish an unwanted transmitter emission from a receiver or audio device responding poorly to a nearby signal.
-
-Keep the discussion factual and cooperative. A clean transmitter does not make every complaint irrelevant, and adding a ground connection or ferrite does not establish that a problem is solved. Test whether the change actually helped.
+An interference report is a reason to investigate, not proof that either station is at fault. Note the frequency, time, operating mode, and what changes when your transmitter starts or stops. Chapter 7’s measurement and RF-interference checks can help distinguish an unwanted transmitter emission from a receiver or audio device responding poorly to a nearby signal. Keep the discussion factual and cooperative. Test whether your changes actually helped.
 
 Amateurs also support compliance through an organized monitoring program:
 
-> **Key Information:** The Volunteer Monitor Program consists of amateur volunteers formally enlisted to monitor the airwaves for rules violations. {{< link id="G2D01" >}}
-
-> **Key Information:** An objective of the Volunteer Monitor Program is to encourage amateur operators to self-regulate and comply with the rules. {{< link id="G2D02" >}}
+> **Key Information:**
+> - The Volunteer Monitor Program consists of amateur volunteers formally enlisted to monitor the airwaves for rules violations. {{< link id="G2D01" >}}
+> - An objective of the Volunteer Monitor Program is to encourage amateur operators to self-regulate and comply with the rules. {{< link id="G2D02" >}}
 
 Volunteer Monitors are distinct from Volunteer Examiners, who administer license examinations. Monitoring and reporting do not give a volunteer the FCC’s enforcement authority.
 
@@ -71,8 +67,8 @@ Part 97 also requires good engineering and good amateur practice in matters it d
 
 > **Key Information:** The FCC determines what constitutes good engineering and good amateur practice in matters not specifically covered by Part 97. {{< link id="G1B11" >}}
 
-Established operating methods and technical guidance help you make a sound choice, but a popular custom cannot override a regulation. Nor does the absence of an exact prohibition make every experiment acceptable. Consider the effect on other stations, check the applicable rules, and seek guidance when the requirements are unclear.
+Established operating methods and technical guidance help you make a sound choice, but a popular custom cannot override a regulation. Consider the effect on other stations, check the applicable rules, and seek guidance when the requirements are unclear.
 
-That distinction becomes particularly useful when a station transmits without an immediate human reply. Beacons, code practice, and automatically controlled digital stations have specific permissions rather than one general exemption from the rules.
+Beacons, code practice, and automatically controlled digital stations have specific permissions rather than one general exemption from the rules.
 
 <!-- Editorial sources, checked 2026-09-26: 47 CFR 97.101, 97.13(b), 97.303, 97.307, and 97.311; ARRL Volunteer Monitor Program; NCDXF/IARU International Beacon Project; current questions G2D01–G2D03. -->
