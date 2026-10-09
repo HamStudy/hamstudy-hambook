@@ -33,6 +33,18 @@ We welcome contributions to improve the HamBook! Here's how you can help:
 3. Make your improvements or additions
 4. Submit a **pull request** with a clear description of your changes
 
+### Linking to pages
+
+Use `pageref` with the destination's `section` or `slug` frontmatter value:
+
+```markdown
+[Section 4.3]({{% pageref "4.3" %}})
+[Chapter 7]({{% pageref "chpt7" %}})
+[Specific heading]({{% pageref "4.3#heading-id" %}})
+```
+
+Keep section values quoted, such as `section: "4.3"`, and unique within each language. Links resolve in the current language and work on the web, in print, and in EPUB. Bare names such as `chpt7` match an explicit, unique `slug` first, then fall back to the existing path lookup. Missing destinations or duplicate section numbers/slugs fail the build. Full content paths still work and can distinguish pages that share a slug.
+
 ### Contribution Terms:
 - By contributing to this project, **you grant full copyright of any material to HamStudy.org LLC**.
 - Contributions should align with the existing style and tone of the book.

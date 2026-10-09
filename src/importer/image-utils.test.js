@@ -25,3 +25,21 @@ test('shared artwork is copied for exports and book-specific images take precede
     assert.equal(await fs.readFile(path.join(localOutput, 'images/hamstudy_a.svg'), 'utf8'), localBytes);
     assert.deepEqual(await fs.readFile(shared), sharedBytes);
 });
+
+test('official pool figures are copied unchanged for manuscript exports', async t => {
+    const root = await fs.mkdtemp(path.join(os.tmpdir(), 'hambook-pool-figures-'));
+    t.after(() => fs.rm(root, { recursive: true, force: true }));
+    const source = path.join(root, 'book');
+    const figures = path.join(source, 'hugo/static/figures');
+    await fs.mkdir(path.join(source, 'images'), { recursive: true });
+    await fs.mkdir(figures, { recursive: true });
+    const figure = path.join(figures, 'E5-1.svg');
+    const bytes = '<svg xmlns="http://www.w3.org/2000/svg"><title>Pool figure</title></svg>';
+    await fs.writeFile(figure, bytes);
+    const output = path.join(root, 'export');
+    const content = await processImages('![Impedance graph](../../../hugo/static/figures/E5-1.svg)', source, output, 'images');
+    assert.equal(content, '![Impedance graph](images/E5-1.svg)');
+    assert.equal(await fs.readFile(path.join(output, 'images/E5-1.svg'), 'utf8'), bytes);
+    assert.equal(await fs.readFile(figure, 'utf8'), bytes);
+    await assert.rejects(fs.access(path.join(source, 'images/E5-1.svg')));
+});

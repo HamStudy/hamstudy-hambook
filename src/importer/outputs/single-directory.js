@@ -2,7 +2,7 @@ const fs = require('fs/promises');
 const path = require('path');
 const { processImages, convertPngToSvg } = require('../image-utils');
 const { formatPoolData } = require('../pool-utils');
-const { writeFrontMatter } = require('../utils');
+const { writeFrontMatter, getTitleSlug } = require('../utils');
 
 /**
  * 
@@ -53,13 +53,18 @@ async function writeSingleDirectoryBook(book, outputPath, sourcePath, lang = und
 
     // Keep track of processed images
     const processedImages = [];
+    const epubFilenames = new Map();
+    const epubSlugs = new Set();
+    const exportedFiles = [];
 
-    const saveSection = async (section, index) => {
+    const saveSection = async (section, index, hugoPath) => {
         const sanitizedTitle = section.title.replace(/[^\w\s-]/g, '').replace(/\s+/g, '-').toLowerCase();
         // Use .md for default, .<lang>.md for others
         const ext = lang && lang !== 'default' ? `.${lang}.md` : '.en.md';
         const filename = `${String(index).padStart(2, '0')}-${sanitizedTitle}${ext}`;
         const filePath = path.join(contentDir, filename);
+        epubFilenames.set(hugoPath, filename);
+        exportedFiles.push(filePath);
 
         // Add weight to the frontmatter
         const frontMatter = {
@@ -67,6 +72,7 @@ async function writeSingleDirectoryBook(book, outputPath, sourcePath, lang = und
             weight: index,
             title: section.title
         };
+        if (frontMatter.slug) epubSlugs.add(String(frontMatter.slug));
 
         // Create content with frontmatter
         const contentWithFrontmatter = writeFrontMatter(frontMatter) + section.content;
@@ -99,18 +105,21 @@ async function writeSingleDirectoryBook(book, outputPath, sourcePath, lang = und
     let tocContent = '';
     const sectionFiles = [];
 
-    const processSections = async (sections, level = 0) => {
+    const processSections = async (sections, level = 0, hugoParentPath = '') => {
         const indent = '    '.repeat(level + 1); // Extra indentation for the HTML
         for (const section of sections) {
             if (section.frontMatter?.epub === false) {
                 continue;
             }
+            const hugoPath = section.conclusion && level === 0
+                ? 'conclusion'
+                : path.posix.join(hugoParentPath, getTitleSlug(section));
             if ('sections' in section && Array.isArray(section.sections)) {
                 const intro = (section.sections?.find(s => s.intro));
                 // Add a header for this section group
                 if (intro) {
                     const title = section.title.replace(/[0-9]+\. /, '');
-                    const { filename, frontMatter } = await saveSection(intro, fileIndex++);
+                    const { filename, frontMatter } = await saveSection(intro, fileIndex++, hugoPath);
                     const epubType = frontMatter.epubtype || 'chapter';
 
                     tocContent += `${indent}<li>\n`
@@ -122,7 +131,7 @@ async function writeSingleDirectoryBook(book, outputPath, sourcePath, lang = und
                     // If there are subsections, add a nested list
                     if (section.sections.length > 0) {
                         tocContent += `\n${indent}    <ol>`;
-                        await processSections(section.sections, level + 1);
+                        await processSections(section.sections, level + 1, hugoPath);
                         tocContent += `\n${indent}    </ol>`;
                     }
 
@@ -134,14 +143,14 @@ async function writeSingleDirectoryBook(book, outputPath, sourcePath, lang = und
                         + `${indent}    <ol>`;
 
                     // Process subsections
-                    await processSections(section.sections, level + 1);
+                    await processSections(section.sections, level + 1, hugoPath);
 
                     tocContent += `\n${indent}    </ol>`
                         + `${indent}</li>`;
                 }
             } else {
                 // Save the section and add to TOC
-                const { filename, frontMatter } = await saveSection(section, fileIndex++);
+                const { filename, frontMatter } = await saveSection(section, fileIndex++, hugoPath);
                 const epubType = frontMatter.epubtype || 'chapter';
 
                 tocContent += `${indent}<li>\n`
@@ -163,9 +172,33 @@ async function writeSingleDirectoryBook(book, outputPath, sourcePath, lang = und
     tocContent += `\n</ol>\n`;
 
     if (book.conclusion) {
-        const filename = await saveSection(book.conclusion, fileIndex++);
+        const filename = await saveSection(book.conclusion, fileIndex++, 'conclusion');
         tocContent += `- [${book.conclusion.title}](${filename})\n`;
         sectionFiles.push({ title: book.conclusion.title, filename });
+    }
+
+    // Source page references use the web book's hierarchy; EPUB uses flat, numbered files.
+    // Wait until every section has a filename so forward references work too.
+    for (const filePath of exportedFiles) {
+        const content = await fs.readFile(filePath, 'utf8');
+        const rewritten = content.replace(
+            /(\]\(\s*\{\{(?:<|%)\s*(?:relref|pageref)\s+)(["'])([^"']+)\2(?=\s*(?:"[^"]*"|'[^']*')?\s*(?:>|%)\}\}\s*\))/g,
+            (match, prefix, quote, destination) => {
+                const fragmentIndex = destination.indexOf('#');
+                const target = fragmentIndex < 0 ? destination : destination.slice(0, fragmentIndex);
+                const fragment = fragmentIndex < 0 ? '' : destination.slice(fragmentIndex);
+                // Let pageref resolve section numbers and explicit slugs after export.
+                if (/\bpageref\s+$/.test(prefix) && (
+                    /^[0-9]+\.[0-9]+$/.test(target) ||
+                    (!target.includes('/') && epubSlugs.has(target))
+                )) return match;
+                const hugoPath = target.replace(/^\/+|\/+$/g, '')
+                    .replace(/\.md$/, '').replace(/\/_index$/, '');
+                const filename = epubFilenames.get(hugoPath);
+                return filename ? `${prefix}${quote}${filename}${fragment}${quote}` : match;
+            }
+        );
+        if (rewritten !== content) await fs.writeFile(filePath, rewritten);
     }
 
     // Write the table of contents with frontmatter

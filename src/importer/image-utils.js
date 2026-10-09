@@ -171,8 +171,11 @@ async function processImages(content, sourceDir, outputDir, relativePath = '/ima
             styleAttr = ` style="${styleMatch[1]}"`;
         }
 
-        // Shared publisher artwork is also copied when exporting EPUB or other formats.
-        const imagePath = await findImage(imageDir, imageName) || await findImage(sharedImageDir, imageName);
+        // Include official pool figures and shared artwork in every export format.
+        const poolFigurePath = path.join(sourceDir, 'hugo/static/figures', imageName);
+        const imagePath = await findImage(imageDir, imageName)
+            || (await fileExists(poolFigurePath) ? poolFigurePath : null)
+            || await findImage(sharedImageDir, imageName);
 
         if (imagePath && imgCache[imagePath]) {
             // Use cached result.

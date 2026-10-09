@@ -6,6 +6,8 @@
  *    content file.
  *  - A referenced question ID does not exist in the pool at all.
  *  - A referenced question has been withdrawn from the pool.
+ *  - A content file with questions is missing the `section` or `chapter`
+ *    frontmatter params required by the study-prompt partial.
  */
 
 // Recursively collect question references from frontmatter.
@@ -25,6 +27,27 @@ function collectQuestionReferences(parts, refs = new Map()) {
         }
     }
     return refs;
+}
+
+// Recursively find sections that list questions but are missing the
+// `section`/`chapter` frontmatter params required by the study-prompt
+// partial. Returns [{ filePath, missing: string[] }]
+function collectMissingStudyPromptParams(parts, problems = []) {
+    for (const section of parts) {
+        if (section.sections) {
+            collectMissingStudyPromptParams(section.sections, problems);
+            continue;
+        }
+        const questions = section.frontMatter?.questions || [];
+        if (!questions.length) continue;
+        const missing = [];
+        if (!section.frontMatter?.section) missing.push('section');
+        if (!section.frontMatter?.chapter) missing.push('chapter');
+        if (missing.length > 0) {
+            problems.push({ filePath: section.filePath, missing });
+        }
+    }
+    return problems;
 }
 
 // Collect all pool questions, including withdrawn ones.
@@ -49,6 +72,10 @@ function collectPoolQuestionIds(pool) {
 }
 
 function sanityCheckBook(book) {
+    for (const { filePath, missing } of collectMissingStudyPromptParams(book.parts)) {
+        console.warn(`WARNING: ${filePath} has questions but is missing frontmatter param(s) required by study-prompt: ${missing.join(', ')}`);
+    }
+
     const refs = collectQuestionReferences(book.parts);
 
     // IDs may legitimately come from external pools declared via `questionPool`
@@ -79,6 +106,7 @@ function sanityCheckBook(book) {
 }
 
 module.exports = {
+    collectMissingStudyPromptParams,
     collectQuestionReferences,
     collectPoolQuestionIds,
     sanityCheckBook,
