@@ -30,7 +30,7 @@ The RF amplitude follows the instantaneous audio voltage: positive and negative 
 > - The modulation envelope of an AM signal is the waveform created by connecting the peak values of the modulated signal. {{< link id="G8A11" >}}
 
 ![An audio sine wave appears above an amplitude-modulated radio-frequency wave. Time runs from left to right in both. Many RF cycles fit within each slow audio cycle. As the audio voltage rises, the RF peaks grow taller; as it falls, they shrink. The RF cycles remain evenly spaced. Dashed lines joining their positive and negative peaks outline the modulation envelope. Its upper boundary follows the shape of the audio wave.](../../../images/s3-1-amplitude-modulation.svg)
-{.img-centered}
+{.img-centered caption="The dashed lines join the RF peaks to show the modulation envelope."}
 
 Looking at an AM signal on an oscilloscope, you can actually see the shape of the audio signal traced out by the peaks of the RF signal. With proper modulation, the envelope is a scaled version of the audio, offset above zero—which is how an **envelope detector**, a circuit that follows those peaks, recovers the voice.
 
@@ -96,7 +96,7 @@ For SSB voice, amateur radio convention is:
 - **Lower Sideband (LSB)**: 160, 80, and 40 meters
 - **Upper Sideband (USB)**: 20, 17, 15, 12, and 10 meters (and all VHF/UHF)
 
-Both sidebands contain identical information, but choosing the wrong one makes the received audio sound inverted and unintelligible. These conventions help stations choose compatible settings. Digital modes can use other conventions, and 60 meters has special rules; Section 9.1 covers actual frequency and emission permissions.
+Both sidebands contain identical information, but choosing the wrong one makes the received audio sound inverted and unintelligible. These conventions help stations choose compatible settings. Digital modes can use other conventions, and 60 meters has special rules; [Section 9.1]({{% pageref "9.1" %}}) covers actual frequency and emission permissions.
 
 #### Frequency and Phase Modulation: Constant-Amplitude Alternatives
 
@@ -109,13 +109,13 @@ The instantaneous audio voltage moves the RF frequency above or below its center
 > **Key Information:** Frequency modulation changes the instantaneous frequency of an RF wave to convey information. {{< link id="G8A03" >}}
 
 ![An audio wave rises and falls above a frequency-modulated radio-frequency wave. Time runs from left to right. The RF peaks keep the same height, but the cycles bunch closer together and then spread farther apart as the audio changes. Closely spaced cycles mean a higher instantaneous frequency; widely spaced cycles mean a lower one. The pattern repeats with the audio wave. Here the information changes the spacing of the RF cycles, rather than their height.](../../../images/s3-1-frequency-modulation.svg)
-{.img-centered}
+{.img-centered caption="The RF cycles move closer together or farther apart while their amplitude stays constant."}
 
 FM's constant amplitude lets receivers reject some amplitude noise, making it useful for local VHF/UHF communication and broadcasting. It still becomes noisy when the signal is weak and can suffer interference.
 
 ##### Phase Modulation (PM)
 
-Back in Section 1.2, we introduced the concept of phase using a spinning wheel analogy—phase tells us where a point is in its rotation cycle, measured in degrees. Phase modulation builds directly on these concepts.
+Back in [Section 1.2]({{% pageref "1.2" %}}), we introduced the concept of phase using a spinning wheel analogy—phase tells us where a point is in its rotation cycle, measured in degrees. Phase modulation builds directly on these concepts.
 
 Instead of keeping the carrier wave's timing constant, phase modulation shifts when each cycle begins relative to a reference timing.
 

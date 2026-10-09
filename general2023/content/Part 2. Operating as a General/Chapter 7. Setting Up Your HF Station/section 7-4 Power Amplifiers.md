@@ -39,7 +39,7 @@ TUNE and LOAD interact, so adjusting one may require readjusting the other. Foll
 
 #### Using an Amplifier Well
 
-The linearity concepts from Section 2.2 apply to the entire transmitting system. An amplifier intended only for constant-amplitude modes such as FM may distort SSB, whose changing amplitude carries information. Use equipment intended for the mode, and remember that even a suitable amplifier can distort if you overdrive it.
+The linearity concepts from [Section 2.2]({{% pageref "2.2" %}}) apply to the entire transmitting system. An amplifier intended only for constant-amplitude modes such as FM may distort SSB, whose changing amplitude carries information. Use equipment intended for the mode, and remember that even a suitable amplifier can distort if you overdrive it.
 
 Average power also matters for cooling. As the previous section explained, voice reaches its peak power only briefly. A sustained digital signal may remain near its set output throughout a transmission. When it does, it places a greater heat load on the amplifier than voice at the same peak power. Keep airflow clear and follow the manufacturer's duty-cycle and continuous-output limits; a rating for SSB does not necessarily apply to sustained data transmissions.
 

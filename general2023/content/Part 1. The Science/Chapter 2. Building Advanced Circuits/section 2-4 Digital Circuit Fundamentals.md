@@ -98,7 +98,7 @@ Digital circuits include specialized components for managing digital information
 A **bit** is one binary digit, 0 or 1. A **clock** provides the timing steps.
 
 ![Five rows show four register stages connected in a chain, with data moving from left to right. All four stages start at zero. A one enters on the first clock step, followed by zeros on later steps. On the next three clock steps, the one moves to the second, third, and fourth stages. All other stages hold zero. Each clock step moves the stored bit one stage toward the output at the right.](../../../images/s2-4-shift-register-static.svg)
-{.img-centered caption="Figure 2: A 1 followed by zeros moves one stage per clock step."}
+{.img-centered caption="Figure 2: A 1 followed by zeros moves one stage to the right per clock step."}
 
 A shift register functions like a bucket brigade for digital data—each pulse of a clock signal moves the data one position down the line. This sequential movement is important for:
 - Converting between serial and parallel data forms

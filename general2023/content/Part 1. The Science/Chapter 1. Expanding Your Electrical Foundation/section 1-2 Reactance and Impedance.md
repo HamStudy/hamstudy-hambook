@@ -97,6 +97,6 @@ We'll explore what happens at resonance in the next section. Resonance is the fo
 
 #### Making Sense of Your Equipment
 
-You now know why your SWR changes with frequency even though your antenna doesn't move. Reactance is changing. Ferrite cores reduce interference because their impedance can include both reactance and loss. Bypass capacitors clean up power supplies by offering low capacitive reactance to noise.
+An antenna also has resistance and reactance. Its impedance can change with frequency, changing the SWR even though the antenna hasn't moved. Ferrite cores reduce interference because their impedance can include both reactance and loss. Bypass capacitors clean up power supplies by offering low capacitive reactance to noise.
 
 Most importantly, you're ready to understand resonance—that special frequency where inductive and capacitive reactances cancel completely.

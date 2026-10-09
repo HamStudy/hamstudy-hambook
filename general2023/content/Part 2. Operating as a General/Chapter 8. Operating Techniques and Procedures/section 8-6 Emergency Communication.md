@@ -79,7 +79,7 @@ Longer RACES exercises require approval from the chief emergency-planning office
 
 #### Prepare the Station and the Operator
 
-Before an assignment, practice with the equipment you expect to use, including its portable antenna and power source. Check the complete arrangement: a working radio is not enough if an adapter is missing, the battery voltage drops during transmission, or the destination cannot be reached. Apply the power, grounding, and RF exposure precautions from Chapter 6 in temporary locations too.
+Before an assignment, practice with the equipment you expect to use, including its portable antenna and power source. Check the complete arrangement: a working radio is not enough if an adapter is missing, the battery voltage drops during transmission, or the destination cannot be reached. Apply the power, grounding, and RF exposure precautions from [Chapter 6]({{% pageref "chpt6" %}}) in temporary locations too.
 
 Learn how your group activates, who gives assignments, and what information the supported organization needs. Do not arrive unrequested at an incident. A practice net or exercise lets you test the equipment and the message-handling process before either is urgently needed.
 

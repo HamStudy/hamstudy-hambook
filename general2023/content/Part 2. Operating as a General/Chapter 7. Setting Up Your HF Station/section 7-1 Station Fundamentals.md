@@ -39,7 +39,7 @@ Many transceivers have a built-in tuner, though these usually handle only a limi
 
 ##### SWR Monitoring
 
-Section 4.2 explained SWR as the measure of how well your antenna system is matched. An SWR meter puts that number in front of you while you operate, and it solves more than one problem. It shows the match at the point where you connect it and verifies the radio-side match when you place it between the radio and a tuner. Many meters also show whether your transmitter is putting out power. A good reading at the radio does not, by itself, prove a good match at the antenna.
+[Section 4.2]({{% pageref "4.2" %}}) explained SWR as the measure of how well your antenna system is matched. An SWR meter puts that number in front of you while you operate, and it solves more than one problem. It shows the match at the point where you connect it and verifies the radio-side match when you place it between the radio and a tuner. Many meters also show whether your transmitter is putting out power. A good reading at the radio does not, by itself, prove a good match at the antenna.
 
 Many modern transceivers include a built-in SWR meter. If yours doesn't, or if you need a reading at another point or power level, you can add one of two closely related instruments:
 
@@ -50,7 +50,7 @@ Many modern transceivers include a built-in SWR meter. If yours doesn't, or if y
 * **SWR meter** — Displays SWR directly. It's usually the same basic device as a directional wattmeter inside, just presenting less information in a simpler way.
 
 ![A DC power source feeds the transceiver. From left to right, the transmit signal passes from the transceiver through an SWR meter, an optional station tuner, the feed line, and the antenna. The meter is before the tuner, so it checks the match presented to the radio. A good reading there does not prove that the feed line and antenna are matched.](../../../images/s7-1-station-signal-path.svg)
-{.img-full .img-centered}
+{.img-full .img-centered caption="The SWR meter checks the match presented to the radio. A station tuner can improve that match while a mismatch remains on the feed line beyond it."}
 
 These meters also earn their keep long after setup day. Weather, antenna damage, feed line problems, and other factors can change your antenna system's characteristics over time. A slowly rising SWR is often your first warning that something outside needs attention. Watching SWR becomes more important as power increases—both to protect your equipment and to keep your signal getting where you want it.
 
@@ -64,7 +64,7 @@ Analyzers let you test antennas before installation, troubleshoot by measuring a
 
 ##### Amplifier
 
-Once your General privileges take effect, you may use up to 1,500 watts PEP on many bands, subject to the limits in Section 9.2. The guiding rule in amateur radio is to use only as much power as needed. More power can help the other station hear you, but it cannot improve your reception. If you hear them well but they cannot hear you, an amplifier may help. We'll discuss amplifiers later in this chapter.
+Once your General privileges take effect, you may use up to 1,500 watts PEP on many bands, subject to the limits in [Section 9.2]({{% pageref "9.2" %}}). The guiding rule in amateur radio is to use only as much power as needed. More power can help the other station hear you, but it cannot improve your reception. If you hear them well but they cannot hear you, an amplifier may help. We'll discuss amplifiers later in this chapter.
 
 #### Building Your Station
 

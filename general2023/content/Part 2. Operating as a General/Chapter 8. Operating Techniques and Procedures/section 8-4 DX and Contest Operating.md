@@ -35,7 +35,7 @@ Sometimes propagation supports the longer route around Earth instead. If the sho
 
 #### Calling Among Other Stations
 
-Before answering a station with a pileup, listen through several exchanges. Identify its call sign, determine whether it is working split, and note any instructions. Follow Section 7.3’s split-operation checks for the transmit VFO. Receiving a station legally does not mean you may transmit on its frequency.
+Before answering a station with a pileup, listen through several exchanges. Identify its call sign, determine whether it is working split, and note any instructions. Follow [Section 7.3]({{% pageref "7.3" %}})’s split-operation checks for the transmit VFO. Receiving a station legally does not mean you may transmit on its frequency.
 
 Call during the listening period, then listen for the reply. If the operator answers a different callsign or asks for a partial call that does not match yours, leave the exchange clear. Repeated calls during someone else’s reply make it harder for both stations to finish.
 

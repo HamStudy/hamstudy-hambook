@@ -76,7 +76,7 @@ The exam covers two common full-wave rectifier designs: center-tapped transforme
 > **Key Information:** A full-wave rectifier circuit using a center-tapped transformer uses two diodes. {{< link id="G7A03" >}}
 
 ![An AC source drives a transformer whose secondary winding has a connection at its midpoint, called the center tap. Each end of the secondary connects through its own diode, D1 or D2, to the same positive side of the load. The other side of the load returns to the center tap. When the upper end is positive relative to the tap, D1 conducts; when the lower end is positive, D2 conducts. Both paths send current through the load in the same direction, so both half-cycles produce positive output pulses.](../../../images/s2-3-center-tap-rectifier.svg)
-{.img-centered}
+{.img-centered caption="The two diodes conduct on alternate half-cycles, keeping current through the load in the same direction."}
 
 This design uses:
 - A transformer with a center tap on its secondary winding
@@ -159,7 +159,7 @@ When you turn off a power supply, those large filter capacitors can retain dange
 
 Bleeder resistors are high-value resistors connected across the filter capacitors. They provide a discharge path that safely drains stored energy when the power supply is turned off. While they do consume a small amount of power during operation, the safety benefit far outweighs this minor inefficiency.
 
-Never assume a power supply is safe just because it's unplugged! Those capacitors can deliver a painful or even dangerous shock. A bleeder can fail or be absent, so waiting alone does not prove the supply safe. Follow the equipment’s service procedure and have stored voltage checked before internal work. Chapter 6 covers electrical hazards.
+Never assume a power supply is safe just because it's unplugged! Those capacitors can deliver a painful or even dangerous shock. A bleeder can fail or be absent, so waiting alone does not prove the supply safe. Follow the equipment’s service procedure and have stored voltage checked before internal work. [Chapter 6]({{% pageref "chpt6" %}}) covers electrical hazards.
 
 #### Modern Alternative: Switchmode Power Supplies
 

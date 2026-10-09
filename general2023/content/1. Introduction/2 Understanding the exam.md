@@ -18,7 +18,7 @@ The **General Class License exam** is Element 3, based on the question pool vali
 
 You'll see 35 questions on your exam: one from each of the pool's 35 question groups, which are organized into 10 subelements (major topics). These pool groups are different from the teaching sections in this book. This is the same structure as the Technician exam, but the topics dive deeper into technical concepts and focus heavily on HF (High Frequency) operations.
 
-All questions and correct answers are publicly available. Corrections and withdrawals can occur during a pool's four-year term, so check the [NCVEC General pool page](https://ncvec.org/index.php/2023-2027-general-question-pool-release) and select the pool that will be in effect on your exam date. The operating rules can also change during that period; Chapter 9 points out rule changes that affect this pool, including the 2026 update on 60 meters. The latest version of this book is available at [hambook.org](https://hambook.org).
+All questions and correct answers are publicly available. Corrections and withdrawals can occur during a pool's four-year term, so check the [NCVEC General pool page](https://ncvec.org/index.php/2023-2027-general-question-pool-release) and select the pool that will be in effect on your exam date. The operating rules can also change during that period; [Chapter 9]({{% pageref "chpt9" %}}) points out rule changes that affect this pool, including the 2026 update on 60 meters. The latest version of this book is available at [hambook.org](https://hambook.org).
 
 ## Why the Pool Covers So Much
 

@@ -44,7 +44,7 @@ Check the busiest applicable window. Five minutes transmitting followed by five 
 
 There is a second factor, **modulation duty cycle**: the average power **while transmitting** compared with peak envelope power (PEP). SSB speech rises and falls, and CW has spaces between keyed elements, so their average power can be below PEP. FM, RTTY and FT8 signals are close to full power while the signal is actually on. Do not count the same pauses in both factors.
 
-For example, suppose a 100-watt-PEP SSB signal averages half its PEP while you transmit. You also transmit for half the applicable averaging window. Average power is $100 \times 0.5 \times 0.5 = 25$ watts. These are example factors; voice processing and operating habits change the actual values. A lower transmit fraction can allow more power while still meeting exposure limits, but it never overrides the band’s legal power limit (Section 9.2).
+For example, suppose a 100-watt-PEP SSB signal averages half its PEP while you transmit. You also transmit for half the applicable averaging window. Average power is $100 \times 0.5 \times 0.5 = 25$ watts. These are example factors; voice processing and operating habits change the actual values. A lower transmit fraction can allow more power while still meeting exposure limits, but it never overrides the band’s legal power limit ([Section 9.2]({{% pageref "9.2" %}})).
 
 #### Evaluating Your Station
 

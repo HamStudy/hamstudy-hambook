@@ -77,7 +77,7 @@ Away from your vehicle or an outlet, sunlight gives you another way to replenish
 
 *Open-circuit* means measured with no load connected. It is not a promise that the cell will maintain that voltage while supplying any amount of current you ask for.
 
-To make a useful panel, manufacturers combine cells, using the series and parallel relationships from Chapter 1. Cells in series add their voltages; parallel strings increase the available current. In a simplified example, 36 cells at 0.5 volt each would add to 18 volts open-circuit, rather than the half volt from one cell.
+To make a useful panel, manufacturers combine cells, using the series and parallel relationships from [Chapter 1]({{% pageref "chpt1" %}}). Cells in series add their voltages; parallel strings increase the available current. In a simplified example, 36 cells at 0.5 volt each would add to 18 volts open-circuit, rather than the half volt from one cell.
 
 Real cells and panels can have higher open-circuit voltages; use the panel’s specifications when choosing equipment. Actual voltage and current depend on illumination, temperature, and the load. The panel must supply enough voltage for charging under load, and charging equipment must keep the battery within its limits. That introduces two concerns: controlling current toward the battery and preventing current from flowing back out of it.
 
@@ -100,7 +100,7 @@ All battery types need charging within the maker’s limits. Overcharging lead-a
 The BMS is a protective backup, not a substitute for a compatible charge controller. Use the charging settings specified for the battery.
 
 ![Power flows from the solar panel through a charge controller and a fuse to the battery. The battery supplies the radio through a separate fuse. Both fuses are near the battery, one on its charging cable and one on the cable supplying the radio. The controller limits charging and may also block current from flowing backward into the panel. The arrows show power flow, not complete wiring connections.](../../../images/s6-2-solar-power.svg)
-{.img-centered}
+{.img-centered caption="The controller limits charging and may block reverse current into the panel. Arrows show power flow; wiring details are omitted."}
 
 Cold-weather charging needs special attention. A LiFePO4 battery may allow discharge at a temperature where charging would damage it. Follow its separate charging and discharging limits, and verify whether its BMS actually blocks charging when too cold.
 

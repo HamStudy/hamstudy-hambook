@@ -7,7 +7,7 @@ pagebreak: true
 
 # Appendix
 
-Use the phonetic alphabet to practice spelling call signs clearly. The question pool lets you review individual questions by ID.
+Use the [phonetic alphabet]({{% pageref "phonetics" %}}) to practice spelling call signs clearly. The [question pool]({{% pageref "/appendx/2023-2027-general-class-question-pool" %}}) lets you review individual questions by ID.
 
 For updates and further study, these sources are useful:
 

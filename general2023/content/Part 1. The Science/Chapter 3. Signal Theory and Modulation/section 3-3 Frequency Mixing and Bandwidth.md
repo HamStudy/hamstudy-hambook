@@ -200,7 +200,7 @@ Two factors matter for heating: average RF power while transmitting compared wit
 - An ordinary FT8 transmission lasts about 12.6 seconds. One transmission in a 30-second transmit/receive cycle gives about 42% transmit time, not 100%.
 - CW keying, pauses in speech and time spent listening give equipment different opportunities to cool.
 
-Follow the radio, amplifier and power-supply ratings; do not assume the transceiver automatically reduces output enough to protect every device. Section 7.4 applies these limits to amplifier setup. Section 6.5 covers the separate averaging intervals used for RF-exposure evaluation.
+Follow the radio, amplifier and power-supply ratings; do not assume the transceiver automatically reduces output enough to protect every device. [Section 7.4]({{% pageref "7.4" %}}) applies these limits to amplifier setup. [Section 6.5]({{% pageref "6.5" %}}) covers the separate averaging intervals used for RF-exposure evaluation.
 
 ##### Receiver Sensitivity
 
@@ -210,7 +210,7 @@ Bandwidth also helps determine how weak a signal your receiver can usefully dete
 
 The input amplifier boosts the signal before later stages process it. Enough gain can keep noise added by those later stages from dominating, but amplification does not separate a signal from noise already mixed with it. The amplifier's *noise figure* measures how much it degrades the signal-to-noise ratio; a lower noise figure means less degradation. Finally, the bandwidth used when recovering the information determines how much noise accompanies it.
 
-Sensitivity depends on the whole receiving chain, not just how much you turn up the gain. Section 7.2 covers controls that help when strong signals overload the receiver.
+Sensitivity depends on the whole receiving chain, not just how much you turn up the gain. [Section 7.2]({{% pageref "7.2" %}}) covers controls that help when strong signals overload the receiver.
 
 ##### Digital Mode Considerations
 

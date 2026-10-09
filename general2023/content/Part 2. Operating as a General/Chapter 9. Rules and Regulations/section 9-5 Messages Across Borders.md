@@ -21,7 +21,7 @@ Even on the same band, what you’re allowed to do can differ by country. The IT
 
 The regional allocations give countries a shared framework. Within it, each country’s government decides which radio services may operate and what their operators may do. Check the rules where the station is located; countries in the same region may grant different amateur privileges.
 
-For example, a station you hear may be allowed to transmit on a frequency you cannot use. The split-frequency procedure from Section 7.3 can let you make contact when each station has a suitable transmit frequency.
+For example, a station you hear may be allowed to transmit on a frequency you cannot use. The split-frequency procedure from [Section 7.3]({{% pageref "7.3" %}}) can let you make contact when each station has a suitable transmit frequency.
 
 #### Keeping the Message Understandable
 
@@ -74,7 +74,7 @@ In the first case, the station remains a US station, operating under FCC rules a
 The reverse arrangement depends on permission from the transmitter’s country. A US General Class License does not automatically give you that permission. Get whatever approval that country requires and follow its frequency, power, identification, and control rules.
 
 ![Two examples connect an operator to a transmitter through a control link. In the first, the operator is abroad and the transmitter is in the United States: US radio rules and a US operator license apply. In the second, the operator is in the United States and the transmitter is abroad: only the transmitter country's radio rules and required authorization apply. When the operator is abroad and the transmitter is in the US, also check requirements where the operator is located.](../../../images/s9-5-remote-station-jurisdiction.svg)
-{.img-full .img-centered}
+{.img-full .img-centered caption="In these remote-operation examples, radio rules follow the transmitter’s location."}
 
 #### Taking a Radio Abroad
 

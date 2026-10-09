@@ -50,7 +50,7 @@ With USB near the upper edge, allow the same room above the displayed frequency:
 These examples assume a 3 kHz signal. If your transmitter is set for a wider bandwidth, leave more room. Also allow a margin for frequency error, and account for nearby stations as well as band edges.
 
 ![Two frequency bars increase from left to right. For lower sideband, a dial setting of 7.178 megahertz places the three-kilohertz signal below the dial frequency, down to the segment edge at 7.175 megahertz. For upper sideband, a dial setting of 14.347 megahertz places the signal above the dial frequency, up to the segment edge at 14.350 megahertz. Each whole sideband fits inside the permitted segment; placing an LSB dial at the lower edge, or a USB dial at the upper edge, would push part of the signal outside it.](../../../images/s7-3-ssb-frequency-edges.svg)
-{.img-full .img-centered}
+{.img-full .img-centered caption="The whole sideband must fit within your permitted frequencies, not just the dial setting."}
 
 #### Working Split
 

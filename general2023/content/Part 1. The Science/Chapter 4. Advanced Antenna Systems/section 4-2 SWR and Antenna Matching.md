@@ -21,7 +21,7 @@ Think of your radio system like water flowing through pipes. The transmitter act
 
 Here's the key insight: the impedance mismatch is the disease; high SWR is just the symptom we can easily measure.
 
-Just like the resonant circuits we discussed in Chapter 1, antenna impedance isn't constant—it varies with frequency. At resonance, the reactive components cancel out leaving pure resistance—but not necessarily 50 ohms. Near its first resonance, a dipole is capacitive if too short and inductive if too long. This explains why a 40-meter dipole matched at 7.150 MHz can have a higher SWR elsewhere in the band.
+Just like the resonant circuits we discussed in [Chapter 1]({{% pageref "chpt1" %}}), antenna impedance isn't constant—it varies with frequency. At resonance, the reactive components cancel out leaving pure resistance—but not necessarily 50 ohms. Near its first resonance, a dipole is capacitive if too short and inductive if too long. This explains why a 40-meter dipole matched at 7.150 MHz can have a higher SWR elsewhere in the band.
 
 #### Enter SWR: Our Diagnostic Tool
 
@@ -60,7 +60,7 @@ The matching network (antenna tuner) transforms the impedance seen by the transm
 A suitable tuner at the antenna feed point can instead match the antenna to the feed line, reducing SWR and loss along the line. Location matters!
 
 ![With a tuner next to the radio, the radio sees a standing wave ratio of one to one, but the feed line beyond the tuner still has a five-to-one ratio. With a suitable tuner at the antenna instead, the feed line has a one-to-one ratio. Moving the matching point changes which part of the system is matched. These ideal examples omit tuner and feed-line losses.](../../../images/s4-2-tuner-location.svg)
-{.img-centered}
+{.img-centered caption="These ideal examples omit tuner and feed-line losses."}
 
 > **Key Information:** An impedance matching transformer at a transmitter output is used to present the desired impedance to the transmitter and feed line. {{< link id="G7C03" >}}
 
@@ -70,7 +70,7 @@ Inside a transmitter, an output transformer can match the amplifier to the feed 
 
 These relationships explain why an SWR reading needs context. A reading taken between the radio and tuner describes the match at that point, not necessarily the match at the antenna. Likewise, a reading taken through a lossy feed line can hide a larger mismatch at its far end. Record the frequency and where the measurement was made before comparing two readings.
 
-Sections 7.1 and 7.6 introduce the instruments used to make those measurements and the checks that help you trust them. The principle here is independent of the instrument: a good match at one point does not tell you how efficiently the whole station delivers a signal to another receiver.
+Sections [7.1]({{% pageref "7.1" %}}) and [7.6]({{% pageref "7.6" %}}) introduce the instruments used to make those measurements and the checks that help you trust them. The principle here is independent of the instrument: a good match at one point does not tell you how efficiently the whole station delivers a signal to another receiver.
 
 #### System Performance: The Complete Picture
 
@@ -90,7 +90,7 @@ For a made-up example, start with 50 dBm, subtract 2 dB of transmitting feed-lin
 
 $$50-2+3-124+3-1=-71\text{ dBm}$$
 
-Both antenna gains use the isotropic reference from Section 1.5, and the path loss uses that same reference. This illustrates the bookkeeping, not a forecast for a particular HF path.
+Both antenna gains use the isotropic reference from [Section 1.5]({{% pageref "1.5" %}}), and the path loss uses that same reference. This illustrates the bookkeeping, not a forecast for a particular HF path.
 
 > **Key Information:** Link margin is the difference between received power level and minimum required signal level at the input to the receiver. {{< link id="G8A14" >}}
 

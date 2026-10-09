@@ -13,20 +13,20 @@ This HamBook is divided into two main parts:
 
 This part expands on Technician-level electrical and radio principles:
 
-- **Electrical Foundations**: AC circuits, reactance, impedance, resonance, transformers, and power measurements.
-- **Components and Circuits**: RF components, amplifiers, power supplies, and digital circuits.
-- **Signal Theory and Modulation**: How radios create and receive signals, how modulation carries information, and how much bandwidth a signal uses.
-- **Advanced Antenna Systems**: Feed lines, impedance matching, and common HF antenna designs.
-- **Understanding RF Propagation**: How the atmosphere affects the path between stations.
+- **[Electrical Foundations]({{% pageref "chpt1" %}})**: AC circuits, reactance, impedance, resonance, transformers, and power measurements.
+- **[Components and Circuits]({{% pageref "chpt2" %}})**: RF components, amplifiers, power supplies, and digital circuits.
+- **[Signal Theory and Modulation]({{% pageref "chpt3" %}})**: How radios create and receive signals, how modulation carries information, and how much bandwidth a signal uses.
+- **[Advanced Antenna Systems]({{% pageref "chpt4" %}})**: Feed lines, impedance matching, and common HF antenna designs.
+- **[Understanding RF Propagation]({{% pageref "chpt5" %}})**: How the atmosphere affects the path between stations.
 
 ### Part 2: Expanding on Radio Operation {#how-to-use-part-2}
 
 This part covers the practical knowledge you'll use with a General Class License:
 
-- **Safety**: Electrical safety, RF exposure limits, and grounding practices essential for HF stations.
-- **Setting Up Your HF Station**: Connecting equipment and learning to use its controls.
-- **Operating on the Air**: Voice, CW, and digital contacts, DXing and contests, and emergency communications.
-- **Rules and Regulations**: Rules for General Class privileges, emission types, and messages across borders.
+- **[Safety]({{% pageref "chpt6" %}})**: Electrical safety, RF exposure limits, and grounding practices essential for HF stations.
+- **[Setting Up Your HF Station]({{% pageref "chpt7" %}})**: Connecting equipment and learning to use its controls.
+- **[Operating on the Air]({{% pageref "chpt8" %}})**: Voice, CW, and digital contacts, DXing and contests, and emergency communications.
+- **[Rules and Regulations]({{% pageref "chpt9" %}})**: Rules for General Class privileges, emission types, and messages across borders.
 
 ## Study Strategies
 

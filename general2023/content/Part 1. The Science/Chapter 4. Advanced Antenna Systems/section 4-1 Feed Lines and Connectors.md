@@ -45,7 +45,7 @@ The tradeoff? Window line demands respect:
 - Protect it from ice buildup
 - Keep sufficient clearance from other cables
 
-Coax is the easygoing alternative—its shield confines the wanted signal and helps block outside interference. Unwanted current can still flow on the outside of that shield; Section 2.1 explains how a ferrite choke helps control it. Window line trades convenience for efficiency—worthwhile when you need every watt to count such as for QRP (low-power) operation.
+Coax is the easygoing alternative—its shield confines the wanted signal and helps block outside interference. Unwanted current can still flow on the outside of that shield; [Section 2.1]({{% pageref "2.1" %}}) explains how a ferrite choke helps control it. Window line trades convenience for efficiency—worthwhile when you need every watt to count such as for QRP (low-power) operation.
 
 #### Feed Line Loss: Where Your Power Goes
 

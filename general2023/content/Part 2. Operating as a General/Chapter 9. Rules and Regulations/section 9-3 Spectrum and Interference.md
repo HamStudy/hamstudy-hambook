@@ -41,7 +41,7 @@ Give the beacon frequency and its signal bandwidth room rather than checking onl
 
 #### Investigating an Interference Report
 
-An interference report is a reason to investigate, not proof that either station is at fault. Work together to trace the problem using Chapter 7's measurement and RF-interference checks.
+An interference report is a reason to investigate, not proof that either station is at fault. Work together to trace the problem using [Chapter 7]({{% pageref "chpt7" %}})'s measurement and RF-interference checks.
 
 Amateurs also help each other follow the rules through an organized monitoring program:
 

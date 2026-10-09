@@ -41,7 +41,7 @@ Callsigns contain letters that can sound alike through noise. Standard phonetic 
 
 > **Key Information:** Alpha, Bravo, Charlie, and Delta are examples of the NATO Phonetic Alphabet. {{< link id="G2D07" >}}
 
-The full alphabet is in the appendix. W1ABC becomes “Whiskey One Alpha Bravo Charlie.” Speak clearly at a steady pace; repeat the part the other operator missed rather than changing every phonetic word.
+The full alphabet is in the [appendix]({{% pageref "phonetics" %}}). W1ABC becomes “Whiskey One Alpha Bravo Charlie.” Speak clearly at a steady pace; repeat the part the other operator missed rather than changing every phonetic word.
 
 To invite a contact with any available station, call CQ:
 

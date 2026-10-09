@@ -13,7 +13,7 @@ Freedom to roam with radio—that's the promise of mobile and portable operation
 
 Picture trying to mount a 33-foot whip antenna on your car for 40-meter operation—it would add some definite challenges to the trip! Yet thousands of hams work HF mobile every day, making contacts around the world with antennas *significantly* shorter than that. The secret lies in clever engineering that makes the best use of the antenna you have by making it "appear" the correct length electrically. 
 
-Remember those resonant circuits from Chapter 1? We use the same principle here—adding inductance or capacitance to cancel out the antenna's reactance at our desired frequency. Below its first resonance, a physically short whip has capacitive reactance, so we add inductance to bring it to resonance where the impedance becomes purely resistive.
+Remember those resonant circuits from [Chapter 1]({{% pageref "chpt1" %}})? We use the same principle here—adding inductance or capacitance to cancel out the antenna's reactance at our desired frequency. Below its first resonance, a physically short whip has capacitive reactance, so we add inductance to bring it to resonance where the impedance becomes purely resistive.
 
 The two main approaches are capacitance hats and loading coils. {{< link id="G4E01" >}} These devices add electrical length without adding physical height, letting you fit effective HF antennas on vehicles.
 
@@ -22,7 +22,7 @@ The two main approaches are capacitance hats and loading coils. {{< link id="G4E
 Think of a capacitance hat as spreading out the antenna's electrical field at the top, where current is lowest. Those horizontal spokes or discs you see on mobile antennas are typically 4-8 radial wires or a solid metal disk mounted at the antenna tip. They create capacitance to ground, *reducing the capacitive reactance of the short antenna*. Loading coils work more directly—they add inductive reactance that cancels the antenna's capacitive reactance, bringing the total reactance to zero at resonance.
 
 ![One short whip has a loading coil inserted along its length. The other has both a loading coil and a capacitance hat, with spokes extending sideways from the tip. The hat adds capacitance; the coil adds inductance to help bring the short antenna to resonance. Each installation needs an RF return path at the base. The drawing does not give construction dimensions.](../../../images/s4-5-loaded-whips.svg)
-{.img-centered}
+{.img-centered caption="The parts are shown; their sizes depend on the design."}
 
 Every engineering solution has trade-offs. {{< link id="G4E06" >}} When you shorten an antenna and add components to resonate it, you're creating a high-Q circuit with *a narrow bandwidth*.
 
@@ -68,7 +68,7 @@ Whether mobile or portable, carrying separate antennas for each band quickly bec
 
 > **Key Information:** The primary function of antenna traps is to *enable multiband operation*. 
 
-Traps are parallel LC circuits that act as frequency-selective switches. At their resonant frequency, these circuits present high impedance (remember from Chapter 1?), effectively "cutting off" the antenna at that point. Below trap resonance, they act inductively: more of the antenna participates, and the trap’s loading helps establish a lower-frequency resonance. This lets *one antenna work like multiple antennas of different lengths*—a 40/20/15 meter trap vertical automatically selects the right electrical length for each band.
+Traps are parallel LC circuits that act as frequency-selective switches. At their resonant frequency, these circuits present high impedance (remember from [Chapter 1]({{% pageref "chpt1" %}})?), effectively "cutting off" the antenna at that point. Below trap resonance, they act inductively: more of the antenna participates, and the trap’s loading helps establish a lower-frequency resonance. This lets *one antenna work like multiple antennas of different lengths*—a 40/20/15 meter trap vertical automatically selects the right electrical length for each band.
 
 The multiband convenience comes with a catch. {{< link id="G9D11" >}} These antennas can radiate on frequencies you didn't intend.
 

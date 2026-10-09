@@ -358,7 +358,24 @@ figure {
   }
 }
 
-img.img-bw {
+// Opt in where a table or labeled diagram needs more room on a small screen.
+// Keep its ordinary layout for print.
+@media screen and (max-width: 40rem) {
+  // Let labeled diagrams use the available phone width without enlarging print.
+  .markdown .img-mobile-full {
+    width: 100%;
+    max-width: 100% !important;
+  }
+
+  .markdown table.table-scroll {
+    display: block;
+    max-width: 100%;
+    overflow-x: auto;
+  }
+}
+
+img.img-bw,
+figure.img-bw img {
   filter: var(--icon-filter);
 }
 

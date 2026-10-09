@@ -14,7 +14,7 @@ Picture this: you're trying to work a rare DX station in Japan from your station
 The Yagi antenna transforms your station from a campfire to a searchlight. In the previous section, we saw how a dipole radiates most strongly broadside to its wire. A Yagi concentrates that energy further into a beam. This concentration of power is what lets modest stations work the world.
 
 ![A three-element Yagi has three parallel elements across one supporting boom. The driven element is in the middle, with a feed point at its center. The reflector behind it is longer; the director ahead is shorter. The forward beam points along the boom toward the director, perpendicular to the elements. The lengths are illustrative, not construction measurements.](../../../images/s4-4-yagi.svg)
-{.img-centered}
+{.img-centered caption="Relative element lengths are shown; this is not a construction plan."}
 
 A Yagi has aluminum elements mounted on a horizontal support called a **boom**. It uses three types of elements working together:
 
@@ -67,7 +67,7 @@ When you're ready to put up a beam antenna, understanding what makes one Yagi pe
 
 > **Key Information:** Increasing boom length and adding directors to a Yagi antenna primarily increases its gain. {{< link id="G9C05" >}}
 
-Adding directors with the right lengths and spacing can narrow the beam further. For example, if one design has 3 dB more gain than another using the same reference, that doubles its effective power in the comparison direction! Check whether the gain is stated in dBi or dBd, as Section 1.5 explains.
+Adding directors with the right lengths and spacing can narrow the beam further. For example, if one design has 3 dB more gain than another using the same reference, that doubles its effective power in the comparison direction! Check whether the gain is stated in dBi or dBd, as [Section 1.5]({{% pageref "1.5" %}}) explains.
 
 **Element Diameter** affects how your antenna performs across a band. HF bands are wide—20 meters spans 350 kHz—and you want good SWR across the entire range.
 
@@ -141,7 +141,7 @@ Beyond Yagis and log periodics, two specialized directional receiving antennas s
 Rotate the loop until a signal disappears, and you know the source is *perpendicular to the loop plane*. There are two opposite null directions, so that alone does not tell you which side contains the source.
 
 ![An electrically small loop has two opposite directions of minimum response, called nulls. Both are at right angles to the flat plane enclosed by the loop, pointing out through its two faces rather than along its edge. Rotating the loop to minimize a signal therefore leaves two possible directions to its source, one through each face.](../../../images/s4-4-loop-nulls.svg)
-{.img-centered}
+{.img-centered caption="An electrically small loop has nulls perpendicular to its plane."}
 
 That neighbor's plasma TV wreaking havoc on 40 meters? Orient a small receiving loop to null it out.
 
@@ -165,7 +165,7 @@ Before you start shopping for that dream beam antenna, let's talk about the real
 
 Many hams wisely hire professionals for tower work. There's no shame in prioritizing safety over savings.
 
-**The Neighbor Factor** is real. Some antenna installations have legal protections, but local rules and private restrictions still matter (see Section 9.2). Maintaining good relationships matters too. Many hams find that explaining amateur radio's public service role helps gain acceptance. Others choose less visually imposing options like hex beams or compact tribanders.
+**The Neighbor Factor** is real. Some antenna installations have legal protections, but local rules and private restrictions still matter (see [Section 9.2]({{% pageref "9.2" %}})). Maintaining good relationships matters too. Many hams find that explaining amateur radio's public service role helps gain acceptance. Others choose less visually imposing options like hex beams or compact tribanders.
 
 **Budget Reality** hits hard when you price a complete beam station. A modest tribander, 50-foot tower, rotator, and installation can easily exceed $5,000. But don't despair—many successful DXers started with wire antennas and upgraded gradually. Some build their own Yagis from hardware store materials, learning valuable lessons along the way.
 

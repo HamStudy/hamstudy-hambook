@@ -18,7 +18,7 @@ At resonance in an LC circuit, inductive reactance and capacitive reactance are 
 - Tune into specific stations
 - Reject interference
 - Generate stable oscillator frequencies
-- Define our transmitted signal bandwidth
+- Limit the range of frequencies we transmit
 
 Changing either the inductance or the capacitance changes the resonant frequency. With the other value unchanged, increasing either one lowers the resonant frequency; decreasing either one raises it.
 
@@ -29,7 +29,7 @@ Let's see how resonance works in practical circuit configurations.
 There are two fundamental ways to connect inductors and capacitors in resonant circuits, and they behave quite differently:
 
 ![Two circuits compare an inductor and capacitor in series and in parallel. In the series circuit, current follows one path through both components. In the parallel circuit, the inductor and capacitor form separate branches between the same two terminals. Under each circuit, a graph shows frequency increasing to the right and impedance increasing upward. The series curve dips to its minimum at resonance, then rises again. The parallel curve peaks at resonance and falls on either side. These are simplified responses; real component losses limit the minimum and maximum.](../../../images/s1-3-resonance-comparison.svg)
-{.img-centered caption="Series resonance gives minimum impedance; parallel resonance gives maximum impedance in these simple circuits. Real components limit both responses."}
+{.img-centered caption="Each dashed center line marks the resonant frequency on the horizontal axis. Series resonance gives minimum impedance; parallel resonance gives maximum impedance in these simple circuits. Real components limit both responses."}
 
 1. **Series Resonant Circuit**: When L and C are in series, their reactances cancel at resonance, leaving only the resistance to limit current flow. This creates minimum impedance at the resonant frequency, allowing maximum current flow.
    

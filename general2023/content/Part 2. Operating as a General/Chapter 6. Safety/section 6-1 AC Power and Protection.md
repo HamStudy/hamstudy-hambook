@@ -68,7 +68,7 @@ Beyond sizing, *where* you place circuit protection matters. Get this wrong, and
 > **Key Information:** In a four-conductor 240 VAC circuit, only the hot wires should be connected to fuses or circuit breakers. {{< link id="G0B01" >}}
 
 ![In this four-wire, 240-volt circuit, both hot conductors pass through a linked breaker before reaching the load. The breaker disconnects both hots together. The neutral reaches the load without passing through the breaker and stays separate from the equipment chassis. Protective ground connects to the chassis instead. This is a protection concept, not an installation wiring plan.](../../../images/s6-1-hot-wire-protection.svg)
-{.img-centered}
+{.img-centered caption="In this four-wire 240 V circuit, the breaker protects both hot wires and neutral stays separate from the chassis. This is a concept diagram; follow applicable wiring codes."}
 
 The logic is straightforward: interrupt the hot supply, and you disconnect the load from that source. Interrupting only the neutral can stop equipment from working while leaving it connected to a live hot wire.
 

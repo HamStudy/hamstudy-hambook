@@ -22,7 +22,7 @@ The ionosphere isn't one uniform blanket—think of it more like a layer cake wh
 > **Key Information:** The D region is the ionospheric region closest to the surface of Earth.
 
 ![Moving upward from Earth's surface, the daytime regions are D, E, F one, and F two. D is lowest, and F two is highest. At night the D region becomes much weaker, the E region weakens, and a single F region remains instead of separate F one and F two regions. The blocks show their order, not exact heights, thicknesses, or sharp boundaries.](../../../images/s5-1-ionosphere.svg)
-{.img-centered}
+{.img-centered caption="The regions and their spacing are schematic."}
 
 ##### D Region: The Daytime Signal Absorber
 
@@ -112,7 +112,7 @@ Sometimes the ionosphere just won't cooperate. Think of it like this: if the flo
 This creates a "window" of usable frequencies that shifts throughout the day.
 
 ![Frequency increases upward in this comparison. For one radio path, the lowest usable frequency, or LUF, lies below the maximum usable frequency, or MUF. Frequencies between the two limits form a usable skywave range. In the second case, LUF is higher than MUF. No frequency can then be both above LUF and below MUF, so ordinary skywave has no usable interval on that path.](../../../images/s5-1-frequency-window.svg)
-{.img-centered}
+{.img-centered caption="For the same path, the frequency must be above the LUF and below the MUF."}
 
 Lower bands (160m, 80m, 40m) suffer from D-region absorption during daylight but excel at night. Middle bands (30m, 20m, 17m) often offer useful openings with less absorption, but their day/night availability depends on the path and ionization. Upper bands (15m, 12m, 10m) depend heavily on solar activity—less reliable during solar minimum, with more frequent openings during solar maximum.
 

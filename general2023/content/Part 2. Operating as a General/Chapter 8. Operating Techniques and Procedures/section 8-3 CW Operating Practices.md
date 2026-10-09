@@ -92,6 +92,6 @@ Normally, an operator waits for the other station to finish before replying. Ful
 The radio returns to receive during the brief gaps between transmitted elements. During those gaps, the sender can hear a reply from the other station, prompting them to stop and listen. This is rapid switching between transmit and receive, not simultaneous full-duplex operation.
 
 ![A timeline runs from left to right. The transmit row shows a dot, a longer dash, and another dot. In the receive row, blocks fill the gaps between those elements and follow the final dot. Full break-in lets the operator hear a reply during these gaps. Transmission and reception alternate; they do not happen at the same time. Switching intervals are simplified.](../../../images/s8-3-cw-break-in-timing.svg)
-{.img-centered}
+{.img-centered caption="Full break-in lets you listen between Morse elements. Switching intervals are simplified."}
 
-Before enabling QSK with an amplifier, confirm that the whole transmitting system supports the required switching, using the precautions from Section 7.4.
+Before enabling QSK with an amplifier, confirm that the whole transmitting system supports the required switching, using the precautions from [Section 7.4]({{% pageref "7.4" %}}).

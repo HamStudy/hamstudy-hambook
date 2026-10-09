@@ -73,7 +73,7 @@ In a traditional analog oscilloscope, the vertical amplifier moves the trace up 
 
 The scales matter. Each square in the screen’s grid is one **division**. At 1 volt per vertical division, a change of two divisions represents 2 volts. At 1 millisecond per horizontal division, a pattern that repeats every four divisions has a period of 4 milliseconds. The display gives you both the size of a change and how quickly it happens.
 
-Return to the power supply example. Two supplies could show similar DC readings on a meter, yet one could have much larger ripple riding on its output. A scope can reveal those repeated rises and falls. Later, the same ability to see shape and timing will help you evaluate transmitted signals. Section 7.6 covers those practical tests; here the important distinction is between a numerical reading and a picture of the changing signal.
+Return to the power supply example. Two supplies could show similar DC readings on a meter, yet one could have much larger ripple riding on its output. A scope can reveal those repeated rises and falls. Later, the same ability to see shape and timing will help you evaluate transmitted signals. [Section 7.6]({{% pageref "7.6" %}}) covers those practical tests; here the important distinction is between a numerical reading and a picture of the changing signal.
 
 #### Measuring Without Changing the Circuit Too Much
 

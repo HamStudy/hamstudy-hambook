@@ -14,7 +14,7 @@ A good match gets power into the antenna, but you still need a design that fits 
 Picture this: with just two pieces of wire and some coax, you can work stations on the other side of the world. A basic half-wave dipole has two wire arms, each about a quarter wavelength long, with the feed line connected at the center. Its radiation pattern helps you decide how to position those wires.
 
 ![An ideal half-wave dipole in free space produces a figure-eight pattern in a slice that contains its wire. The two lobes extend at right angles to the wire, marking the strongest radiation. Along either end of the wire is a null, a direction of minimum radiation. This is one slice of a three-dimensional pattern; the ground can change the pattern of an installed antenna.](../../../images/s4-3-dipole-pattern.svg)
-{.img-centered}
+{.img-centered caption="One slice of an ideal half-wave dipole’s three-dimensional pattern in free space. Ground changes the pattern."}
 
 The drawing shows the dipole in *free space*: an ideal setting without the ground or nearby objects affecting it. The two lobes show where its signal is strongest.
 
@@ -112,7 +112,7 @@ The upright part of a quarter-wave vertical needs a conducting return system at 
 > **Key Information:** The radial wires of a ground-mounted vertical antenna system should be placed on the surface or buried a few inches below the ground. {{< link id="G9B06" >}}
 
 ![A ground-mounted vertical has radial wires extending outward along the soil surface at the base of its upright element. An elevated vertical has its feed point above the soil, with radial wires sloping downward while remaining above ground. These are side views: additional radials can extend in other directions around the antenna. The drawing does not mean that each antenna uses only two radials.](../../../images/s4-3-radials.svg)
-{.img-centered}
+{.img-centered caption="These are side views; more radials extend in other directions."}
 
 Radials give RF current a lower-loss path than the soil alone. More radials generally help, but their length, the soil, and the installation affect the benefit. Start with a practical design and add wires as space allows. Elevated verticals can use fewer carefully arranged radials, often two to four, because the wires provide the return system above the soil.
 

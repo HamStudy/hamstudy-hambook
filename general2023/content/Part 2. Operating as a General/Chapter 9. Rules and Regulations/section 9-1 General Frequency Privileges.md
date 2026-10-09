@@ -37,7 +37,7 @@ Suppose you hear a voice station on 21.300 MHz (21,300 kHz). First identify the 
 
 > **Key Information:** 21.300 MHz is within the General class portion of the 15-meter band. {{< link id="G1A09" >}}
 
-It is well inside that phone segment, so a normal-width SSB signal can fit there. Near an edge, check that the whole signal fits within your privileges, as explained in Section 7.3.
+It is well inside that phone segment, so a normal-width SSB signal can fit there. Near an edge, check that the whole signal fits within your privileges, as explained in [Section 7.3]({{% pageref "7.3" %}}).
 
 #### Checking the Mode as Well as the Band
 

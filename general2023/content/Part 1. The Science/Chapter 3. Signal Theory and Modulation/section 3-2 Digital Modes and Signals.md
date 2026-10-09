@@ -11,7 +11,7 @@ In an analog voice signal, changes in the RF wave follow the sound you want to s
 
 That opens up several kinds of communication. Radioteletype (RTTY) can carry a typed conversation, FT8 exchanges short structured messages at low signal levels, and packet systems can pass addressed messages through a network. They do not all provide the same speed, flexibility, or protection against errors. A noisy RTTY contact can produce garbled characters; other protocols add checks, correction, or retransmission to improve reliability.
 
-The useful foundation is how information becomes a signal, how bits represent characters, and what happens when some of those bits arrive incorrectly. Station setup and on-air procedures build on these ideas in Sections 7.5 and 8.5.
+The useful foundation is how information becomes a signal, how bits represent characters, and what happens when some of those bits arrive incorrectly. Station setup and on-air procedures build on these ideas in Sections [7.5]({{% pageref "7.5" %}}) and [8.5]({{% pageref "8.5" %}}).
 
 #### Basic Digital Modulation Techniques
 
@@ -44,7 +44,7 @@ With 8 different tones, each data symbol can represent 3 coded bits (since 2³ =
 
 ##### Phase Shift Keying (PSK)
 
-Instead of changing frequency like FSK, PSK takes a different approach—it changes the phase of the carrier to represent data. Remember our spinning wheel analogy from Section 1.2? PSK works by controlling exactly when each "wheel rotation" begins.
+Instead of changing frequency like FSK, PSK takes a different approach—it changes the phase of the carrier to represent data. Remember our spinning wheel analogy from [Section 1.2]({{% pageref "1.2" %}})? PSK works by controlling exactly when each "wheel rotation" begins.
 
 Binary PSK (BPSK) uses two phase positions—think of it as starting each cycle either "on time" or "half a cycle late." The "B" in BPSK stands for "Binary," meaning it uses two states, just like binary FSK uses two frequencies.
 
@@ -103,7 +103,7 @@ When conditions cooperate, it’s fascinating to run WSPR at 200 milliwatts and 
 
 Many operators are amazed the first time they successfully complete an FT8 contact with a signal they can't even hear. The computer looks for known signal patterns, uses error-correction coding, and combines evidence over time to recover a short structured message.
 
-FT8 signal reports use a standardized measurement system. From Section 1.5, +3dB means about twice the power. Here, signal power is about twice the reference noise power in 2500 Hz (2.5 kHz); it does not mean S3 or three watts. The 2500 Hz reference is not the width of a single FT8 signal. These reports estimate conditions at the receiving station, using a common reference so the numbers can be compared.
+FT8 signal reports use a standardized measurement system. From [Section 1.5]({{% pageref "1.5" %}}), +3dB means about twice the power. Here, signal power is about twice the reference noise power in 2500 Hz (2.5 kHz); it does not mean S3 or three watts. The 2500 Hz reference is not the width of a single FT8 signal. These reports estimate conditions at the receiving station, using a common reference so the numbers can be compared.
 
 #### Error Detection and Correction
 
@@ -165,7 +165,7 @@ Digital modes can extend range and reliability for particular kinds of messages 
 As you move into General operating, digital modes can offer several practical advantages:
 
 - **Extended Range**: Digital modes often work with signals too weak for analog voice
-- **Automated Exchanges**: Software can handle parts of an exchange, while station-control duties still apply; see Section 9.4
+- **Automated Exchanges**: Software can handle parts of an exchange, while station-control duties still apply; see [Section 9.4]({{% pageref "9.4" %}})
 - **Error Control**: Depending on the protocol, error detection, correction, or retransmission can improve message reliability
 - **Signal Reports**: Digital reports provide numerical estimates using a defined reference
 - **Network Capabilities**: Digital modes can connect through networks and gateways

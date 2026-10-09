@@ -7,7 +7,7 @@ questions: ["G4B06", "G4B09", "G4B03", "G4B04", "G4B07", "G4B08", "G4B13", "G4B1
 
 ### Section 7.6: Test Equipment and Measurement
 
-A normal power reading does not show whether a transmission is distorted. Nor does it explain a supply voltage drop or a changing antenna match. The measurement principles from Section 2.5 help you choose a test that answers the question you have.
+A normal power reading does not show whether a transmission is distorted. Nor does it explain a supply voltage drop or a changing antenna match. The measurement principles from [Section 2.5]({{% pageref "2.5" %}}) help you choose a test that answers the question you have.
 
 #### Choosing a Meter for the Job
 
@@ -34,7 +34,7 @@ The vertical input controls the trace's up-and-down movement. The scope shows ho
 For either CW or a modulated signal, the sample comes from the transmitter's RF output. Reduce it to a level the scope can safely accept. Use a sampling or attenuation arrangement rated for the frequency and power involved. The transmitter still needs a suitable load, such as a properly rated dummy load; the oscilloscope input is not a substitute. Follow the equipment's measurement instructions before making connections. Make sure the scope and probe have enough bandwidth for the RF frequency being measured.
 
 ![The transmitter sends its main radio-frequency output through a rated sampler to a rated dummy load. A branch from the sampler sends an attenuated, lower-level signal to the oscilloscope's vertical input. The scope measures only that sample; it does not take the place of the load or receive the transmitter's full output.](../../../images/s7-6-rf-sampling-path.svg)
-{.img-centered}
+{.img-centered caption="The oscilloscope receives an attenuated sample, not the transmitter’s full output."}
 
 #### Testing Transmitter Linearity
 

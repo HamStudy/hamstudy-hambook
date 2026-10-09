@@ -54,10 +54,10 @@ The VEs give you a Certificate of Successful Completion of Examination (CSCE) an
 
 If you already hold a Technician license, you can use temporary General privileges with an unexpired CSCE once you complete the General requirements and properly submit the application through the VEs. When using those privileges before the upgrade appears in the FCC database, *add /AG after your call sign*. First-time applicants must wait for their FCC license grant before transmitting as a control operator.
 
-Section 9.6 explains what to keep after passing and the conditions and time limits for using your new privileges.
+[Section 9.6]({{% pageref "9.6" %}}) explains what to keep after passing and the conditions and time limits for using your new privileges.
 
 ## Maintaining Your License
 
-Your General Class License normally has a **10-year** term and can be renewed without another exam. If it expires, you have a two-year grace period to renew, but the grace period alone does not allow you to transmit. A timely and properly filed renewal application can allow continued operation while the FCC processes it. Section 9.6 explains renewal and the exam credit available after a license has expired.
+Your General Class License normally has a **10-year** term and can be renewed without another exam. If it expires, you have a two-year grace period to renew, but the grace period alone does not allow you to transmit. A timely and properly filed renewal application can allow continued operation while the FCC processes it. [Section 9.6]({{% pageref "9.6" %}}) explains renewal and the exam credit available after a license has expired.
 
 **Important Note**: If you held a Technician license granted before March 21, 1987, you may qualify for Element 3 credit. Check with a Volunteer Examiner (VE) team about the required proof and application. The old license document does not itself grant General operating privileges.

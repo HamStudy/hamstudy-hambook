@@ -12,11 +12,11 @@ The General exam builds on the electrical and radio principles introduced at the
 
 The chapters ahead cover:
 
-- **Electrical Foundations**: AC circuits, reactance, impedance, transformers, and power measurements
-- **Components and Circuits**: RF components, transistors, power supplies, and digital circuits
-- **Signal Theory and Modulation**: How information travels through radio waves
-- **Advanced Antenna Systems**: Feed lines, impedance matching, and directional antennas
-- **Understanding RF Propagation**: The ionosphere, solar cycles, and why HF bands behave the way they do
+- **[Electrical Foundations]({{% pageref "chpt1" %}})**: AC circuits, reactance, impedance, transformers, and power measurements
+- **[Components and Circuits]({{% pageref "chpt2" %}})**: RF components, transistors, power supplies, and digital circuits
+- **[Signal Theory and Modulation]({{% pageref "chpt3" %}})**: How information travels through radio waves
+- **[Advanced Antenna Systems]({{% pageref "chpt4" %}})**: Feed lines, impedance matching, and directional antennas
+- **[Understanding RF Propagation]({{% pageref "chpt5" %}})**: The ionosphere, solar cycles, and why HF bands behave the way they do
 
 These concepts prepare you for the General class examination. They also give you the foundation to make informed decisions about equipment, troubleshoot problems, and improve your station's performance once you're on the air.
 

@@ -20,7 +20,7 @@ Where:
 - $I$ is current in amperes (A)
 - $E$ is voltage (**E**lectromotive force) in volts (V)
 
-Building on Ohm's Law from earlier in this chapter, we can express power in three equivalent ways:
+Replacing $I$ in $P = I \times E$ with $E/R$ from Ohm's law gives $P = E^2/R$. Replacing $E$ with $I \times R$ instead gives $P = I^2 \times R$. That gives us three equivalent forms:
 
 $$\begin{align*}
 P &= I \times E\\[1.25em]
@@ -145,7 +145,7 @@ That reference dipole has about 2.15 dBi gain. We can therefore express an anten
 
 Decibels also describe power that fails to reach its destination. Suppose your transmitter delivers 100 watts and the feed line loses 3 dB before the antenna. About half the power, or 50 watts, reaches the antenna. If another component introduces another 3 dB loss, about 25 watts remain. The losses add to 6 dB, while the power is halved twice.
 
-That is why a power increase at the transmitter does not necessarily produce the same power at the antenna. Section 4.1 applies this accounting to actual feed lines and their loss specifications. For now, the useful tool is the relationship between a dB change and the corresponding power ratio.
+That is why a power increase at the transmitter does not necessarily produce the same power at the antenna. [Section 4.1]({{% pageref "4.1" %}}) applies this accounting to actual feed lines and their loss specifications. For now, the useful tool is the relationship between a dB change and the corresponding power ratio.
 
 #### Exam Questions
 

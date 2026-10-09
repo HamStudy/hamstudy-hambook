@@ -9,7 +9,7 @@ status: draft1
 
 A frequency may be available to your license class while the power you intend to use is not. Most of the familiar MF and HF bands share one general transmitter-power limit, but some have lower limits. On 60 meters, the antenna’s gain matters too.
 
-The minimum-power rule introduced in Chapter 7 still applies: use no more power than necessary to carry out the communication. A maximum is a limit, not a recommended setting.
+The minimum-power rule introduced in [Chapter 7]({{% pageref "chpt7" %}}) still applies: use no more power than necessary to carry out the communication. A maximum is a limit, not a recommended setting.
 
 #### What the Power Limit Measures
 
@@ -21,7 +21,7 @@ An amplifier’s electrical input, its RF output, and the power radiated in a pa
 > - The maximum transmitter power on the 28 MHz band for a General class control operator is 1,500 watts PEP output. {{< link id="G1C05" >}}
 > - The maximum transmitter power on the 1.8 MHz band is 1,500 watts PEP output. {{< link id="G1C06" >}}
 
-On SSB, the limit applies to the voice peaks discussed in Section 7.3. A low average meter reading does not establish that those peaks are below the limit.
+On SSB, the limit applies to the voice peaks discussed in [Section 7.3]({{% pageref "7.3" %}}). A low average meter reading does not establish that those peaks are below the limit.
 
 Equipment ratings, RF exposure requirements, and any special operating restriction can require a lower setting.
 
@@ -48,7 +48,7 @@ You can find the latest version of this book at [hambook.org](https://hambook.or
 | Four channels centered on 5332.0, 5348.0, 5373.0, and 5405.0 kHz | 100 watts ERP |
 | Continuous segment from 5351.5 to 5366.5 kHz | 9.15 watts ERP, equivalent to 15 watts EIRP |
 
-ERP uses a half-wave dipole as its reference antenna. **Equivalent isotropically radiated power (EIRP)** uses an isotropic antenna—an ideal source that radiates equally in every direction. Section 1.5 introduced these gain references. The two figures in the second row express the same limit using different references.
+ERP uses a half-wave dipole as its reference antenna. **Equivalent isotropically radiated power (EIRP)** uses an isotropic antenna—an ideal source that radiates equally in every direction. [Section 1.5]({{% pageref "1.5" %}}) introduced these gain references. The two figures in the second row express the same limit using different references.
 
 For the FCC’s 60-meter calculation, multiply transmitter PEP by antenna gain relative to a dipole. A dipole is assigned a gain factor of 1, or 0 dBd. If another antenna has 3 dBd of gain, its gain factor is about 2. In the continuous segment, a 4.5-watt setting would then produce about 9 watts ERP, below the 9.15-watt limit. Allow for uncertainty in the gain and power measurements rather than choosing a setting that may exceed the limit.
 

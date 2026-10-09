@@ -40,7 +40,7 @@ Each new row shows the received activity as older rows scroll away. A signal at 
 If another operator reports extra lines around your signal—or you see them with a separate receiver—reduce audio drive and check that speech processing is off. A display of the computer's outgoing audio cannot show distortion added later by the transmitter.
 
 ![Two radio teletype waterfall displays compare a clean signal with a distorted one. Audio frequency increases from left to right. New activity appears at the top, and older activity moves downward. Both examples have two main tone traces, 170 hertz apart. The distorted example also has weaker traces outside that pair, indicating overmodulation. Brighter marks represent stronger signals.](../../../images/s7-5-digital-waterfall.svg)
-{.img-full .img-centered}
+{.img-full .img-centered caption="Both examples have two main tones 170 Hz apart. Brighter marks mean stronger signals; the extra traces in the distorted example indicate overmodulation."}
 
 #### Keeping Accurate Time
 
