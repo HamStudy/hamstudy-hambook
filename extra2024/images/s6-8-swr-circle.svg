@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 310" class="s68swrcircle" role="img"><style>.s68swrcircle text{font:20px Helvetica,Arial,sans-serif;fill:#263445} .s68swrcircle .line{fill:none;stroke-width:2} .s68swrcircle .dash{stroke-dasharray:5 5}
+.s68swrcircle .ink{stroke:#263445} .s68swrcircle .inkfill{fill:#263445}
+.s68swrcircle .muted{stroke:#586777} .s68swrcircle .mutedfill{fill:#586777}
+.s68swrcircle .blue{stroke:#1672ac} .s68swrcircle .bluefill{fill:#1672ac}
+.s68swrcircle .orange{stroke:#b35c00} .s68swrcircle .orangefill{fill:#b35c00}
+.s68swrcircle .green{stroke:#267c67} .s68swrcircle .greenfill{fill:#267c67}
+.s68swrcircle .red{stroke:#be2d42} .s68swrcircle .redfill{fill:#be2d42}
+@media(prefers-color-scheme:dark){.s68swrcircle text{fill:#e6edf3}.s68swrcircle .ink{stroke:#e6edf3} .s68swrcircle .inkfill{fill:#e6edf3}
+.s68swrcircle .muted{stroke:#a2b5c9} .s68swrcircle .mutedfill{fill:#a2b5c9}
+.s68swrcircle .blue{stroke:#64b4ed} .s68swrcircle .bluefill{fill:#64b4ed}
+.s68swrcircle .orange{stroke:#f5a851} .s68swrcircle .orangefill{fill:#f5a851}
+.s68swrcircle .green{stroke:#70c4ad} .s68swrcircle .greenfill{fill:#70c4ad}
+.s68swrcircle .red{stroke:#ff8190} .s68swrcircle .redfill{fill:#ff8190}}
+@media print{.s68swrcircle text{fill:#263445}.s68swrcircle .ink{stroke:#263445} .s68swrcircle .inkfill{fill:#263445}
+.s68swrcircle .muted{stroke:#586777} .s68swrcircle .mutedfill{fill:#586777}
+.s68swrcircle .blue{stroke:#1672ac} .s68swrcircle .bluefill{fill:#1672ac}
+.s68swrcircle .orange{stroke:#b35c00} .s68swrcircle .orangefill{fill:#b35c00}
+.s68swrcircle .green{stroke:#267c67} .s68swrcircle .greenfill{fill:#267c67}
+.s68swrcircle .red{stroke:#be2d42} .s68swrcircle .redfill{fill:#be2d42}}</style><text x="200" y="26" text-anchor="middle">Z₀ = 50 Ω</text><circle cx="200" cy="165" r="125" class="line muted" opacity=".4"/><path d="M75 165H325" class="line muted" opacity=".4"/><circle cx="200" cy="165" r="41.667" class="line blue"/><circle cx="200" cy="165" r="3" class="mutedfill"/><path d="M241.667 165A41.667 41.667 0 0 1 158.333 165m-5 9 5 -9 5 9" class="line orange" style="stroke-width:3"/><circle cx="241.667" cy="165" r="5" class="bluefill"/><circle cx="158.333" cy="165" r="5" class="bluefill"/><text x="253" y="156">100 Ω</text><text x="146" y="156" text-anchor="end">25 Ω</text><text x="200" y="235" text-anchor="middle" class="orangefill">λ/4</text></svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="s10-5-inverting-transponder" width="720" height="280" viewBox="0 0 720 280" role="img" aria-labelledby="s10-5-inverting-transponder-title s10-5-inverting-transponder-desc">
+<title id="s10-5-inverting-transponder-title">An inverting satellite passband</title><desc id="s10-5-inverting-transponder-desc">In this hypothetical transponder, low uplink frequency 435.100 MHz maps to high downlink frequency 145.950 MHz. High uplink frequency 435.150 MHz maps to low downlink frequency 145.900 MHz. The two equal 50 kilohertz passbands run in opposite order.</desc>
+<style>#s10-5-inverting-transponder{--ink:#263445;--muted:#586777;--blue:#1672ac;--orange:#b35c00;--green:#267c67;--red:#be2d42}
+@media(prefers-color-scheme:dark){#s10-5-inverting-transponder{--ink:#e6edf3;--muted:#a2b5c9;--blue:#64b4ed;--orange:#f5a851;--green:#70c4ad;--red:#ff8190}}
+@media print{#s10-5-inverting-transponder{--ink:#263445;--muted:#586777;--blue:#1672ac;--orange:#b35c00;--green:#267c67;--red:#be2d42}}
+#s10-5-inverting-transponder text{font-family:Arial,Helvetica,sans-serif;font-size:20px;fill:var(--ink)}
+#s10-5-inverting-transponder .muted{fill:var(--muted)}
+#s10-5-inverting-transponder .axis{stroke:var(--muted);stroke-width:2;fill:none}
+#s10-5-inverting-transponder .blue{stroke:var(--blue);fill:none;stroke-width:4;stroke-linejoin:round}
+#s10-5-inverting-transponder .orange{stroke:var(--orange);fill:none;stroke-width:4;stroke-linejoin:round}
+#s10-5-inverting-transponder .green{stroke:var(--green);fill:none;stroke-width:4;stroke-linejoin:round}
+#s10-5-inverting-transponder .red{stroke:var(--red);fill:none;stroke-width:4;stroke-linejoin:round}
+#s10-5-inverting-transponder .guide{stroke:var(--muted);fill:none;stroke-width:1;stroke-dasharray:4 5;opacity:.6}
+</style>
+
+<text x="36" y="28">Uplink / MHz</text>
+<path class="axis" d="M80 67H676"/><path fill="var(--muted)" d="M682 67l-12 -6v12z"/>
+<text x="161" y="53" text-anchor="middle">435.100</text><text x="560" y="53" text-anchor="middle">435.150</text>
+<path class="blue" d="M161 69L550 200"/>
+<path class="orange" stroke-dasharray="9 5" d="M560 69L171 200"/>
+<path fill="var(--blue)" d="M560 204l-12 -11 -5 13z"/>
+<path fill="var(--orange)" d="M161 204l17 -1 -5 -13z"/>
+<circle cx="161" cy="67" r="6" fill="var(--blue)"/>
+<rect x="554" y="61" width="12" height="12" fill="var(--orange)"/>
+<path class="axis" d="M80 206H676"/><path fill="var(--muted)" d="M682 206l-12 -6v12z"/>
+<circle cx="560" cy="206" r="6" fill="var(--blue)"/>
+<rect x="155" y="200" width="12" height="12" fill="var(--orange)"/>
+<text x="161" y="241" text-anchor="middle">145.900</text><text x="560" y="241" text-anchor="middle">145.950</text>
+<text x="36" y="274">Downlink / MHz</text>
+
+</svg>

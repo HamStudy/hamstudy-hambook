@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="235" viewBox="0 0 700 235" role="img" aria-labelledby="title desc">
+<title id="title">Differential-mode and common-mode current paths</title>
+<desc id="desc">Two equivalent current-path circuits show an instant in an RF cycle. At left, differential current I flows right on one conductor, through the load, then left on the other conductor back to its source. At right, equal common-mode currents I flow right on both conductors. Stray capacitances connect both to an external return path. The two currents combine to 2I, which flows left outside the conductor pair and back to the source. The drawings isolate the two components; actual equipment can carry both.</desc>
+<style>
+:root{color-scheme:light dark;--ink:#243247;--muted:#718096;--current:#1673a5;--return:#ad6000}
+text{font-family:Arial,Helvetica,sans-serif;font-size:28px;fill:var(--ink)}
+.wire{stroke:var(--ink);stroke-width:2.5;fill:none;stroke-linejoin:round;stroke-linecap:round}
+.current{stroke:var(--current);stroke-width:3.5;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.return{stroke:var(--return);stroke-width:3;fill:none;stroke-dasharray:8 6}
+.dot{fill:var(--ink)}.i{font-style:italic;fill:var(--current)}.ir{font-style:italic;fill:var(--return)}
+@media(prefers-color-scheme:dark){:root{--ink:#edf3fa;--muted:#a3b1c3;--current:#6cc5ff;--return:#ffc273}}
+@media print{:root{color-scheme:only light;--ink:#111;--muted:#555;--current:#111;--return:#111}}
+</style>
+<!-- Differential-mode equivalent, at left. -->
+<path class="wire" d="M42 56H294v10l-8 5 16 10-16 10 16 10-8 5v12H42v-13m0-36V56"/>
+<circle class="wire" cx="42" cy="87" r="18"/>
+<path class="wire" d="M31 87c3.7-11 7.3-11 11 0s7.3 11 11 0"/>
+<path class="current" d="M93 56H240m-12-6 12 6-12 6M240 118H93m12-6-12 6 12 6"/>
+<text class="i" x="167" y="44" text-anchor="middle">I</text><text class="i" x="167" y="152" text-anchor="middle">I</text>
+<!-- Common-mode equivalent, at right. Identical capacitances provide one possible return path. -->
+<path class="wire" d="M386 56H652v24m-13 0h26m-26 10h26m-13 0v117M386 118H607v22m-13 0h26m-26 10h26m-13 0v57M386 56v80"/>
+<circle class="wire" cx="386" cy="154" r="18"/>
+<path class="wire" d="M375 154c3.7-11 7.3-11 11 0s7.3 11 11 0"/>
+<path class="return" d="M652 207H386v-35"/>
+<circle class="dot" cx="386" cy="118" r="4"/><circle class="dot" cx="607" cy="207" r="4"/>
+<path class="current" d="M439 56H568m-12-6 12 6-12 6M439 118H568m-12-6 12 6-12 6"/>
+<text class="i" x="502" y="44" text-anchor="middle">I</text><text class="i" x="502" y="106" text-anchor="middle">I</text>
+<path d="M568 207H439m12-6-12 6 12 6" fill="none" stroke="var(--return)" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text class="ir" x="502" y="196" text-anchor="middle">2I</text>
+</svg>

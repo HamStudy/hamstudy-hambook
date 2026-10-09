@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="228" viewBox="0 0 500 228" role="img" aria-labelledby="title desc">
+<title id="title">Quartz crystal equivalent circuit</title>
+<desc id="desc">A quartz crystal symbol is equivalent to two parallel branches between the same terminals. The upper branch contains resistance R, inductance L, and capacitance C in series. The lower branch contains capacitance C zero alone.</desc>
+<style>
+ .wire{fill:none;stroke:#263445;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round}
+ .node{fill:#263445}.port{fill:#fff;stroke:#263445;stroke-width:2.5}
+ text{font-family:Arial,Helvetica,sans-serif;font-size:28px;fill:#263445}
+ .symbol{font-style:italic}.heading{font-size:32px}.extra{stroke:#b35c00}.extra-label{fill:#b35c00}
+ @media(prefers-color-scheme:dark){.wire{stroke:#e6edf3}.node{fill:#e6edf3}.port{fill:#101827;stroke:#e6edf3}text{fill:#e6edf3}.extra{stroke:#f5a851}.extra-label{fill:#f5a851}}
+ @media print{.wire{stroke:#263445}.node{fill:#263445}.port{fill:#fff;stroke:#263445}text{fill:#263445}.extra{stroke:#b35c00}.extra-label{fill:#b35c00}}
+</style>
+<path class="wire" d="M14 100H44 M44 79V121 M56 76H76V124H56Z M88 79V121 M88 100H120"/><circle class="port" cx="14" cy="100" r="4"/><circle class="port" cx="120" cy="100" r="4"/><text x="163" y="113" class="heading" text-anchor="middle">≡</text><path class="wire" d="M210 100H230V54H250 M286 54H307 M355 54H395 M407 54H450V151H338 M326 151H230V100 M450 100H482"/><path class="wire" d="M250 54L255 46L261 62L267 46L273 62L279 46L286 54"/><path class="wire" d="M307 54 c0 -16 12 -16 12 0 c0 -16 12 -16 12 0 c0 -16 12 -16 12 0 c0 -16 12 -16 12 0"/><path class="wire" d="M395 38V70 M407 38V70 M326 135V167 M338 135V167"/><circle class="port" cx="210" cy="100" r="4"/><circle class="port" cx="482" cy="100" r="4"/><circle class="node" cx="230" cy="100" r="3.5"/><circle class="node" cx="450" cy="100" r="3.5"/><text x="268" y="31" class="symbol" text-anchor="middle">R</text><text x="331" y="31" class="symbol" text-anchor="middle">L</text><text x="401" y="31" class="symbol" text-anchor="middle">C</text><text x="332" y="205" class="symbol" text-anchor="middle">C<tspan baseline-shift="sub" font-size="20" font-style="normal">0</tspan></text>
+</svg>

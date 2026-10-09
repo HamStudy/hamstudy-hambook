@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="s9-4-probe-compensation" width="720" height="200" viewBox="0 0 720 200" role="img" aria-labelledby="s9-4-probe-compensation-title s9-4-probe-compensation-desc">
+<title id="s9-4-probe-compensation-title">Probe compensation comparison</title><desc id="s9-4-probe-compensation-desc">Three equal-scale square-wave traces. Undercompensation rounds the leading edge. Correct compensation gives a flat top. Overcompensation overshoots and then settles.</desc>
+<style>#s9-4-probe-compensation{--ink:#263445;--muted:#586777;--blue:#1672ac;--orange:#b35c00;--green:#267c67;--red:#be2d42}
+@media(prefers-color-scheme:dark){#s9-4-probe-compensation{--ink:#e6edf3;--muted:#a2b5c9;--blue:#64b4ed;--orange:#f5a851;--green:#70c4ad;--red:#ff8190}}
+@media print{#s9-4-probe-compensation{--ink:#263445;--muted:#586777;--blue:#1672ac;--orange:#b35c00;--green:#267c67;--red:#be2d42}}
+#s9-4-probe-compensation text{font-family:Arial,Helvetica,sans-serif;font-size:20px;fill:var(--ink)}
+#s9-4-probe-compensation .muted{fill:var(--muted)}
+#s9-4-probe-compensation .axis{stroke:var(--muted);stroke-width:2;fill:none}
+#s9-4-probe-compensation .blue{stroke:var(--blue);fill:none;stroke-width:4;stroke-linejoin:round}
+#s9-4-probe-compensation .orange{stroke:var(--orange);fill:none;stroke-width:4;stroke-linejoin:round}
+#s9-4-probe-compensation .green{stroke:var(--green);fill:none;stroke-width:4;stroke-linejoin:round}
+#s9-4-probe-compensation .red{stroke:var(--red);fill:none;stroke-width:4;stroke-linejoin:round}
+#s9-4-probe-compensation .guide{stroke:var(--muted);fill:none;stroke-width:1;stroke-dasharray:4 5;opacity:.6}
+</style>
+
+<path class="guide" d="M20 70H220 M250 70H470 M500 70H710 M20 135H220 M250 135H470 M500 135H710"/>
+<path class="orange" d="M22 135H47 L47 107 C51 78 67 70 97 70 H135 L135 100 C139 129 155 135 182 135 H213"/>
+<path class="green" d="M264 135H289 V70 H377 V135 H450"/>
+<path class="red" d="M506 135H531 V46 C538 62 548 70 566 70 H619 V158 C626 142 636 135 654 135 H698"/>
+<text x="120" y="182" text-anchor="middle">Under</text>
+<text x="360" y="182" text-anchor="middle">Correct</text>
+<text x="600" y="182" text-anchor="middle">Over</text>
+
+</svg>

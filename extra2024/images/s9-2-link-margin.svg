@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="146" viewBox="0 0 700 146" role="img" aria-labelledby="title desc">
+<title id="title">Required signal and remaining link margin</title>
+<desc id="desc">A horizontal dBm number line shows the exam example with power increasing to the right. MDS at minus 103 dBm is the left tick. The required signal at minus 97 dBm is 6 dB farther right. The received signal at minus 89 dBm is another 8 dB to the right. Tick distances are proportional to the decibel differences.</desc>
+<style>
+:root{color-scheme:light dark;--ink:#243247;--muted:#64748b;--signal:#1673a5;--required:#ad6000}
+text{font-family:Arial,Helvetica,sans-serif;font-size:28px;fill:var(--ink)}
+.axis{stroke:var(--muted);stroke-width:2.5;fill:none}.level{stroke:var(--ink);stroke-width:2;fill:none}
+.signal{stroke:var(--signal);fill:none;stroke-width:3}.required{stroke:var(--required);fill:none;stroke-width:3}
+@media(prefers-color-scheme:dark){:root{--ink:#edf3fa;--muted:#a3b1c3;--signal:#6cc5ff;--required:#ffc273}}
+@media print{:root{color-scheme:only light;--ink:#111;--muted:#555;--signal:#111;--required:#111}}
+</style>
+<!-- Thirty-nine drawing units per dB: 6 dB = 234 units; 8 dB = 312 units. -->
+<text x="28" y="29">dBm</text>
+<path class="axis" d="M31 88H666m-12-6 12 6-12 6"/>
+<path class="level" d="M70 79v18M304 79v18M616 79v18"/>
+<g text-anchor="middle"><text x="70" y="130">−103</text><text x="304" y="130">−97</text><text x="616" y="130">−89</text></g>
+<path class="required" d="M70 63V52H304v11"/>
+<path class="signal" d="M304 63V52H616v11"/>
+<text x="187" y="39" text-anchor="middle">6 dB</text><text x="460" y="39" text-anchor="middle">8 dB</text>
+</svg>

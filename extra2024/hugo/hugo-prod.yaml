@@ -1,0 +1,4 @@
+baseURL: 'https://hambook.org/extra2024/'
+
+params:
+  BookServiceWorker: true

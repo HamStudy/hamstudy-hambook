@@ -1,0 +1,7 @@
+@media print {
+  /* Embedded SVGs inherit this palette even when the reader uses dark mode. */
+  .markdown img { color-scheme: only light; }
+  /* Keep each compact teaching figure together with its caption. */
+  .markdown figure { break-inside: avoid; }
+  .markdown figcaption { break-before: avoid; }
+}

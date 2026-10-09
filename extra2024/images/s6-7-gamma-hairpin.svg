@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 282" role="img" aria-labelledby="title desc">
+<title id="title">Gamma and hairpin feed connections</title><desc id="desc">Left: an unbroken gamma-fed radiator is bonded to its boom. Its coax shield joins the center; its separate center conductor feeds through a series capacitor and a parallel arm to an offset joint. Right: a split radiator has an insulating support at the boom, a U-shaped hairpin across the feed terminals, and separate feed conductors.</desc>
+<style>
+:root{--ink:#253547;--muted:#778392;--grid:#c9d0d8;--blue:#116faa;--orange:#b55708;--support:#e6ebef;--hatch:#97a2ae}
+@media(prefers-color-scheme:dark){:root{--ink:#e6edf5;--muted:#a6b2c1;--grid:#536172;--blue:#6bc7fb;--orange:#ffb36c;--support:#283747;--hatch:#718196}}
+@media print{:root{--ink:#202c38;--muted:#66717c;--grid:#c3c8cf;--blue:#116faa;--orange:#a84c00;--support:#edf0f2;--hatch:#89949e}}
+text{fill:var(--ink);font-family:Arial,Helvetica,sans-serif;font-size:26px} .sub{font-size:19px}.small{font-size:23px}
+.ink{stroke:var(--ink)}.blue{stroke:var(--blue)}.orange{stroke:var(--orange)}.grid{stroke:var(--grid)}.muted{stroke:var(--muted)}
+.wire{fill:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round}.wire.grid{stroke-width:1.25}.wire.muted{stroke-width:1.75}.curve{fill:none;stroke-width:4;stroke-linejoin:round}.guide{fill:none;stroke:var(--grid);stroke-width:1.8;stroke-dasharray:4 6}
+</style><path d="M180 35 V130" fill="none" stroke="var(--grid)" stroke-width="13"/>
+<line x1="25" y1="90" x2="335" y2="90" class="wire ink" />
+<circle cx="180" cy="90" r="5" stroke="var(--ink)" stroke-width="2.5" fill="var(--ink)"/>
+<circle cx="300" cy="90" r="5" stroke="var(--ink)" stroke-width="2.5" fill="var(--ink)"/>
+<path d="M190 220 A22 22 0 1 1 170 220" class="wire blue"/>
+<path d="M158 240 H135 V115 H180 V90" class="wire blue"/>
+<path d="M180 240 V155 H215" class="wire orange"/>
+<circle cx="180" cy="240" r="4" stroke="var(--orange)" stroke-width="2.5" fill="var(--orange)"/>
+<line x1="215" y1="141" x2="215" y2="169" class="wire ink" />
+<line x1="230" y1="141" x2="230" y2="169" class="wire ink" />
+<path d="M230 155 H300 V90" class="wire blue"/>
+<text x="222.5" y="198" text-anchor="middle">C</text>
+<path d="M540 65 V250" fill="none" stroke="var(--grid)" stroke-width="13"/>
+<defs><pattern id="insulator" width="9" height="9" patternUnits="userSpaceOnUse"><rect width="9" height="9" fill="var(--support)"/><path d="M-2 2 L2 -2 M0 9 L9 0 M7 11 L11 7" stroke="var(--hatch)" stroke-width="1"/></pattern></defs>
+<rect x="490" y="74" width="100" height="32" rx="4" fill="url(#insulator)" stroke="var(--muted)" stroke-width="1.5"/>
+<line x1="385" y1="90" x2="505" y2="90" class="wire ink" />
+<line x1="575" y1="90" x2="695" y2="90" class="wire ink" />
+<path d="M505 90 V35 H575 V90" class="wire blue"/>
+<line x1="505" y1="90" x2="505" y2="230" class="wire orange" />
+<line x1="575" y1="90" x2="575" y2="230" class="wire orange" />
+<circle cx="505" cy="90" r="5" stroke="var(--ink)" stroke-width="2.5" fill="var(--ink)"/>
+<circle cx="575" cy="90" r="5" stroke="var(--ink)" stroke-width="2.5" fill="var(--ink)"/>
+<circle cx="505" cy="236" r="6" stroke="var(--orange)" stroke-width="2.5" fill="none"/>
+<circle cx="575" cy="236" r="6" stroke="var(--orange)" stroke-width="2.5" fill="none"/>
+</svg>

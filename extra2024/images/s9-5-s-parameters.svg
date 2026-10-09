@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="s9-5-s-parameters" width="720" height="215" viewBox="0 0 720 215" role="img" aria-labelledby="s9-5-s-parameters-title s9-5-s-parameters-desc">
+<title id="s9-5-s-parameters-title">S11 and S21 with port 1 driven</title><desc id="s9-5-s-parameters-desc">A signal enters port 1 of a two-port device. S11 measures the returning signal at port 1. S21 measures the transmitted signal at port 2. The second subscript is 1 in both because port 1 is driven.</desc>
+<style>#s9-5-s-parameters{--ink:#263445;--muted:#586777;--blue:#1672ac;--orange:#b35c00;--green:#267c67;--red:#be2d42}
+@media(prefers-color-scheme:dark){#s9-5-s-parameters{--ink:#e6edf3;--muted:#a2b5c9;--blue:#64b4ed;--orange:#f5a851;--green:#70c4ad;--red:#ff8190}}
+@media print{#s9-5-s-parameters{--ink:#263445;--muted:#586777;--blue:#1672ac;--orange:#b35c00;--green:#267c67;--red:#be2d42}}
+#s9-5-s-parameters text{font-family:Arial,Helvetica,sans-serif;font-size:20px;fill:var(--ink)}
+#s9-5-s-parameters .muted{fill:var(--muted)}
+#s9-5-s-parameters .axis{stroke:var(--muted);stroke-width:2;fill:none}
+#s9-5-s-parameters .blue{stroke:var(--blue);fill:none;stroke-width:4;stroke-linejoin:round}
+#s9-5-s-parameters .orange{stroke:var(--orange);fill:none;stroke-width:4;stroke-linejoin:round}
+#s9-5-s-parameters .green{stroke:var(--green);fill:none;stroke-width:4;stroke-linejoin:round}
+#s9-5-s-parameters .red{stroke:var(--red);fill:none;stroke-width:4;stroke-linejoin:round}
+#s9-5-s-parameters .guide{stroke:var(--muted);fill:none;stroke-width:1;stroke-dasharray:4 5;opacity:.6}
+</style>
+
+<rect x="265" y="42" width="190" height="125" rx="8" fill="none" stroke="var(--ink)" stroke-width="2"/>
+<text x="360" y="73" text-anchor="middle">DUT</text>
+<text x="265" y="29" text-anchor="middle">1</text><text x="455" y="29" text-anchor="middle">2</text>
+<path class="blue" d="M40 65H220L265 105"/><path fill="var(--blue)" d="M184 65l-13 -7v14z"/>
+<text x="113" y="47" text-anchor="middle" class="muted">RF</text>
+<path class="orange" d="M265 105L220 145H47"/><path fill="var(--orange)" d="M44 145l13 -7v14z"/>
+<text x="145" y="181" text-anchor="middle">S<tspan baseline-shift="sub" font-size="16">11</tspan></text>
+<path class="green" d="M265 105H678"/><path fill="var(--green)" d="M679 105l-13 -7v14z"/>
+<text x="565" y="84" text-anchor="middle">S<tspan baseline-shift="sub" font-size="16">21</tspan></text>
+<circle cx="265" cy="105" r="5" fill="var(--ink)"/>
+<circle cx="455" cy="105" r="5" fill="var(--ink)"/>
+
+</svg>

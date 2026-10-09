@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 265" class="s71fresnelclearance" role="img"><style>.s71fresnelclearance text{font:20px Helvetica,Arial,sans-serif;fill:#263445} .s71fresnelclearance .line{fill:none;stroke-width:2} .s71fresnelclearance .dash{stroke-dasharray:5 5}
+.s71fresnelclearance .ink{stroke:#263445} .s71fresnelclearance .inkfill{fill:#263445}
+.s71fresnelclearance .muted{stroke:#586777} .s71fresnelclearance .mutedfill{fill:#586777}
+.s71fresnelclearance .blue{stroke:#1672ac} .s71fresnelclearance .bluefill{fill:#1672ac}
+.s71fresnelclearance .orange{stroke:#b35c00} .s71fresnelclearance .orangefill{fill:#b35c00}
+.s71fresnelclearance .green{stroke:#267c67} .s71fresnelclearance .greenfill{fill:#267c67}
+.s71fresnelclearance .red{stroke:#be2d42} .s71fresnelclearance .redfill{fill:#be2d42}
+@media(prefers-color-scheme:dark){.s71fresnelclearance text{fill:#e6edf3}.s71fresnelclearance .ink{stroke:#e6edf3} .s71fresnelclearance .inkfill{fill:#e6edf3}
+.s71fresnelclearance .muted{stroke:#a2b5c9} .s71fresnelclearance .mutedfill{fill:#a2b5c9}
+.s71fresnelclearance .blue{stroke:#64b4ed} .s71fresnelclearance .bluefill{fill:#64b4ed}
+.s71fresnelclearance .orange{stroke:#f5a851} .s71fresnelclearance .orangefill{fill:#f5a851}
+.s71fresnelclearance .green{stroke:#70c4ad} .s71fresnelclearance .greenfill{fill:#70c4ad}
+.s71fresnelclearance .red{stroke:#ff8190} .s71fresnelclearance .redfill{fill:#ff8190}}
+@media print{.s71fresnelclearance text{fill:#263445}.s71fresnelclearance .ink{stroke:#263445} .s71fresnelclearance .inkfill{fill:#263445}
+.s71fresnelclearance .muted{stroke:#586777} .s71fresnelclearance .mutedfill{fill:#586777}
+.s71fresnelclearance .blue{stroke:#1672ac} .s71fresnelclearance .bluefill{fill:#1672ac}
+.s71fresnelclearance .orange{stroke:#b35c00} .s71fresnelclearance .orangefill{fill:#b35c00}
+.s71fresnelclearance .green{stroke:#267c67} .s71fresnelclearance .greenfill{fill:#267c67}
+.s71fresnelclearance .red{stroke:#be2d42} .s71fresnelclearance .redfill{fill:#be2d42}}</style><path d="M30 245H295L357 195L407 228L433 245H672" class="line muted" style="stroke-width:3"/><path d="M70 245V145m-14 -16 14 16 14 -16 M630 245V145m-14 -16 14 16 14 -16" class="line ink"/><path d="M70 145H630" class="line muted dash"/><ellipse cx="350" cy="145" rx="280" ry="65" class="line orange dash"/><ellipse cx="350" cy="145" rx="280" ry="41.812388858674" class="line blue"/><circle cx="70" cy="145" r="4" class="inkfill"/><circle cx="630" cy="145" r="4" class="inkfill"/><path d="M155 35H190" class="line orange dash"/><text x="204" y="42">2.4 GHz</text><path d="M390 35H425" class="line blue"/><text x="439" y="42">5.8 GHz</text></svg>

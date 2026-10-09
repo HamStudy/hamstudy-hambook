@@ -1,0 +1,67 @@
+title: 'The HamStudy Amateur Extra Class HamBook (2024 - 2028)'
+languageCode: 'en-us'
+defaultContentLanguage: 'en'
+
+relativeURLs: false
+canonifyURLs: false
+
+# Shared templates, assets, math render hooks, and light/dark styling.
+module:
+  imports:
+    - path: hambook.org/hambook/common
+
+params:
+  printStylesheet: "css/print.css"
+  keywords: "Amateur Radio, Ham Radio, Amateur Extra Class, HamBook, Study Manual"
+  description: "Prepare for the 2024–2028 US Amateur Extra Class exam. Study circuits, signals, antennas, propagation, station techniques, operating procedures, and FCC rules."
+  BookPortableLinks: true
+  BookSubtitle: (2024 - 2028)
+  BookLogo: "figures/coverfornow.png"
+  hsBaseURL: "https://hamstudy.org/flashcard/E4_2024?bk=hambook-extra2024&def=q:"
+  figurePath: "figures/%s"
+  figureDescriptions:
+    e5-1: "Official Figure E5-1 is a rectangular impedance graph. Resistance is horizontal and reactance is vertical, both in ohms. Point 4 is approximately 400 minus j300, point 3 is 300 plus j400, and point 1 is 300 minus j400. These are the three points used by the circuit examples."
+    e6-1: "Official Figure E6-1 shows six FET symbols. Symbol 1 is a P-channel junction FET, with a gate arrow pointing outward from the channel. Symbols 4 and 5 both have two insulated gate terminals labeled G1 and G2, a drain D, and a source S. Symbol 4 has an arrow pointing toward the channel, identifying an N-channel dual-gate MOSFET; symbol 5 has an arrow pointing away, identifying a P-channel device."
+    e6-2: "Official Figure E6-2 shows eight semiconductor symbols. Symbol 6 is the Schottky diode, identified by the small squared hooks at the ends of its cathode bar. Symbol 3 has the bent cathode bar of a Zener diode, and symbol 5 has outward arrows representing light from an LED."
+    e6-3: "Official Figure E6-3 shows six logic symbols. Symbol 1 is AND. Symbol 2 has an AND-shaped body and an output bubble, making it NAND. Symbol 3 is OR. Symbol 4 adds an output bubble to OR, making it NOR. Symbol 5 is a triangle with an output bubble and performs NOT. Symbol 6 has two inputs, a curved input side, and a pointed output side without a bubble."
+    e7-1: "Official Figure E7-1 shows a common-emitter transistor amplifier. C1 couples the input to the base and C2 couples the collector to the output. R1 runs from the positive supply to the base, and R2 from the base to ground, forming a bias divider. R3 connects the emitter to ground for self bias; C3 bypasses the emitter at signal frequencies."
+    e7-2: "Official Figure E7-2 shows a linear supply regulator with a plus-25-volt input and plus-12-volt output. Q1 is the series pass transistor between them. R1 feeds Q1's base and Zener D1, which connects to ground as a reference. C2 is connected in parallel with D1 to bypass ripple. C1 is across the input; C3 and load R2 are across the output."
+    e7-3: "Official Figure E7-3 shows an inverting op-amp. R1 connects the input to the minus input. RF connects the output back to the minus input, forming negative feedback. The plus input is grounded. In the ideal operating model, gain is minus RF divided by R1."
+    e9-1: "Figure E9-1, a free-space antenna pattern plotted on a circular decibel grid. The main lobe points right at zero degrees and peaks at the outer reference circle. Its minus-3-dB crossings are near plus and minus 25 degrees, giving a 50-degree beamwidth. Response directly behind at 180 degrees is about 18 dB below the forward peak. The side response near plus or minus 90 degrees is about 14 dB below the peak. Smaller side and rear lobes show that the antenna also radiates away from its main direction."
+    e9-2: "Figure E9-2, an elevation radiation pattern over real ground. The horizontal baseline is the horizon, with forward zero degrees to the right, 90 degrees overhead, and the rear horizon at 180 degrees to the left. The strongest forward lobe peaks only about 7.5 degrees above the horizon. Other weaker forward lobes rise at higher angles, separated by deep nulls. Small rear lobes are about 28 dB below the strongest forward response. Radial markings show minus 10, minus 20, minus 30, and minus 40 dB."
+    e9-3: "Figure E9-3, a normalized impedance Smith chart. A horizontal resistance axis runs from zero at the left edge through one at the center to infinity at the right edge. Constant-resistance circles touch the right edge and cross the horizontal axis at their labeled values, including 0.2, 0.5, 1, 2, and 5. Constant-reactance arcs run from the large outer circle toward the right edge. The upper half represents positive inductive reactance and the lower half negative capacitive reactance; the printed arc labels give magnitudes. The center represents a resistive load equal to the chosen reference impedance. No wavelength scales or added constant-SWR circles are shown in this simplified figure."
+
+markup:
+  tableOfContents:
+    endLevel: 5
+    ordered: false
+    startLevel: 2
+
+  goldmark:
+    renderer:
+      unsafe: true
+      xHTML: true
+      hardWraps: false
+    parser:
+      wrapStandAloneImageWithinParagraph: false
+      attribute:
+        block: true
+        title: true
+      autoHeadingID: true
+
+    extensions:
+      definitionList: true
+      footnote: true
+      table: true
+      strikethrough: true
+      taskList: true
+      typographer: true
+      passthrough:
+        enable: true
+        delimiters:
+          block:
+            - ['\[', '\]']
+            - ['$$', '$$']
+          inline:
+            - ['\(', '\)']
+            - ['$', '$']

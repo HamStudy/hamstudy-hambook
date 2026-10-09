@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="s9-6-two-tone-spectrum" width="720" height="275" viewBox="0 0 720 275" role="img" aria-labelledby="s9-6-two-tone-spectrum-title s9-6-two-tone-spectrum-desc">
+<title id="s9-6-two-tone-spectrum-title">Two-tone RF spectrum</title><desc id="s9-6-two-tone-spectrum-desc">Two tall desired tones at f1 and f2. Two shorter dashed third-order distortion products at 2f1 minus f2 and 2f2 minus f1. All four lines are equally spaced. Vertical height indicates amplitude and horizontal position indicates frequency.</desc>
+<style>#s9-6-two-tone-spectrum{--ink:#263445;--muted:#586777;--blue:#1672ac;--orange:#b35c00;--green:#267c67;--red:#be2d42}
+@media(prefers-color-scheme:dark){#s9-6-two-tone-spectrum{--ink:#e6edf3;--muted:#a2b5c9;--blue:#64b4ed;--orange:#f5a851;--green:#70c4ad;--red:#ff8190}}
+@media print{#s9-6-two-tone-spectrum{--ink:#263445;--muted:#586777;--blue:#1672ac;--orange:#b35c00;--green:#267c67;--red:#be2d42}}
+#s9-6-two-tone-spectrum text{font-family:Arial,Helvetica,sans-serif;font-size:20px;fill:var(--ink)}
+#s9-6-two-tone-spectrum .muted{fill:var(--muted)}
+#s9-6-two-tone-spectrum .axis{stroke:var(--muted);stroke-width:2;fill:none}
+#s9-6-two-tone-spectrum .blue{stroke:var(--blue);fill:none;stroke-width:4;stroke-linejoin:round}
+#s9-6-two-tone-spectrum .orange{stroke:var(--orange);fill:none;stroke-width:4;stroke-linejoin:round}
+#s9-6-two-tone-spectrum .green{stroke:var(--green);fill:none;stroke-width:4;stroke-linejoin:round}
+#s9-6-two-tone-spectrum .red{stroke:var(--red);fill:none;stroke-width:4;stroke-linejoin:round}
+#s9-6-two-tone-spectrum .guide{stroke:var(--muted);fill:none;stroke-width:1;stroke-dasharray:4 5;opacity:.6}
+</style>
+
+<path class="axis" d="M63 216V33 M63 216H687"/>
+<path fill="var(--muted)" d="M63 27l-6 12h12z M693 216l-12 -6v12z"/>
+<text transform="translate(26 132) rotate(-90)" text-anchor="middle">Amplitude</text>
+<text x="688" y="258" text-anchor="end">f</text>
+<path class="blue" d="M296 216V51 M426 216V51"/>
+<path class="orange" stroke-dasharray="7 5" d="M166 216V152 M556 216V152"/>
+<text x="296" y="35" text-anchor="middle">f<tspan baseline-shift="sub" font-size="16">1</tspan></text>
+<text x="426" y="35" text-anchor="middle">f<tspan baseline-shift="sub" font-size="16">2</tspan></text>
+<text x="166" y="136" text-anchor="middle">2f<tspan baseline-shift="sub" font-size="16">1</tspan> − f<tspan baseline-shift="sub" font-size="16">2</tspan></text>
+<text x="608" y="136" text-anchor="end">2f<tspan baseline-shift="sub" font-size="16">2</tspan> − f<tspan baseline-shift="sub" font-size="16">1</tspan></text>
+<path class="guide" d="M166 224V237 M296 224V237 M426 224V237 M556 224V237 M166 232H556"/>
+
+</svg>

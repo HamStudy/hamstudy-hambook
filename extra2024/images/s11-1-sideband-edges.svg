@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="s11-1-sideband-edges" width="720" height="325" viewBox="0 0 720 325" role="img" aria-labelledby="s11-1-sideband-edges-title s11-1-sideband-edges-desc">
+<title id="s11-1-sideband-edges-title">Two sidebands crossing their permitted edges</title><desc id="s11-1-sideband-edges-desc">Both bars represent 3 kilohertz signals on the same horizontal scale. The USB signal starts at its displayed carrier of 14.348 megahertz and ends at 14.351 megahertz, crossing the 14.350 megahertz band edge by 1 kilohertz. The LSB signal runs below its displayed carrier of 3.601 megahertz to 3.598 megahertz, crossing the 3.600 megahertz phone-segment edge by 2 kilohertz. Triangles mark displayed carriers, dashed lines mark legal edges, and hatching marks out-of-range portions.</desc>
+<style>#s11-1-sideband-edges{--ink:#263445;--muted:#586777;--blue:#1672ac;--orange:#b35c00;--green:#267c67;--red:#be2d42}
+@media(prefers-color-scheme:dark){#s11-1-sideband-edges{--ink:#e6edf3;--muted:#a2b5c9;--blue:#64b4ed;--orange:#f5a851;--green:#70c4ad;--red:#ff8190}}
+@media print{#s11-1-sideband-edges{--ink:#263445;--muted:#586777;--blue:#1672ac;--orange:#b35c00;--green:#267c67;--red:#be2d42}}
+#s11-1-sideband-edges text{font-family:Arial,Helvetica,sans-serif;font-size:20px;fill:var(--ink)}
+#s11-1-sideband-edges .muted{fill:var(--muted)}
+#s11-1-sideband-edges .axis{stroke:var(--muted);stroke-width:2;fill:none}
+#s11-1-sideband-edges .blue{stroke:var(--blue);fill:none;stroke-width:4;stroke-linejoin:round}
+#s11-1-sideband-edges .orange{stroke:var(--orange);fill:none;stroke-width:4;stroke-linejoin:round}
+#s11-1-sideband-edges .green{stroke:var(--green);fill:none;stroke-width:4;stroke-linejoin:round}
+#s11-1-sideband-edges .red{stroke:var(--red);fill:none;stroke-width:4;stroke-linejoin:round}
+#s11-1-sideband-edges .guide{stroke:var(--muted);fill:none;stroke-width:1;stroke-dasharray:4 5;opacity:.6}
+</style>
+
+<defs><pattern id="s11-1-edge-hatch" patternUnits="userSpaceOnUse" width="10" height="10"><path d="M-2 2L2 -2 M0 10L10 0 M8 12L12 8" stroke="var(--red)" stroke-width="2"/></pattern></defs>
+<text x="36" y="28">USB / MHz</text>
+<path class="axis" d="M80 99H671"/><path fill="var(--muted)" d="M680 99l-13 -6v12z"/>
+<rect x="200" y="80" width="240" height="38" fill="var(--blue)" fill-opacity=".13" stroke="var(--blue)" stroke-width="2"/>
+<rect x="440" y="80" width="120" height="38" fill="url(#s11-1-edge-hatch)" stroke="var(--red)" stroke-width="2"/>
+<path d="M440 58V131" stroke="var(--ink)" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="440" y="47" text-anchor="middle">14.350</text>
+<path d="M200 118l-8 15h16z" fill="var(--ink)"/>
+<text x="200" y="158" text-anchor="middle">14.348</text><text x="560" y="158" text-anchor="middle">14.351</text>
+<text x="36" y="186">LSB / MHz</text>
+<path class="axis" d="M80 257H671"/><path fill="var(--muted)" d="M680 257l-13 -6v12z"/>
+<rect x="200" y="238" width="240" height="38" fill="url(#s11-1-edge-hatch)" stroke="var(--red)" stroke-width="2"/>
+<rect x="440" y="238" width="120" height="38" fill="var(--blue)" fill-opacity=".13" stroke="var(--blue)" stroke-width="2"/>
+<path d="M440 216V289" stroke="var(--ink)" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="440" y="205" text-anchor="middle">3.600</text>
+<path d="M560 276l-8 15h16z" fill="var(--ink)"/>
+<text x="200" y="316" text-anchor="middle">3.598</text><text x="560" y="316" text-anchor="middle">3.601</text>
+
+</svg>
