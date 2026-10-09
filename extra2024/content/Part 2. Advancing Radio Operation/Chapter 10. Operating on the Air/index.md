@@ -6,6 +6,6 @@ pagebreak: true
 
 ## Chapter 10: Operating on the Air
 
-A contact can take a few seconds of brisk conversation or several patient turns waiting for a lunar echo. In either case, you and the other operator need a shared method: where to listen, when to transmit, and what information completes the exchange.
+The same station can face very different operating demands. A pileup leaves a brief opening for your call, a meteor trail may carry only a burst of data, and a satellite pass changes frequency and direction while a contact is underway. Getting through depends on fitting the exchange to those conditions.
 
-The signal and propagation ideas from earlier chapters now have people at both ends. Try the parts that interest you: a busy contest, a quiet weak-signal mode, a moving satellite, or a packet network that passes a report along. Each asks you to fit your operating habits to the path and the people sharing it.
+We will build on ordinary contact procedure to handle busy frequencies, choose modes for particular messages and paths, and coordinate timed exchanges. Satellite and packet operation add shared relays: their frequency translation, power limits, and forwarding methods determine how your transmission reaches its destination.

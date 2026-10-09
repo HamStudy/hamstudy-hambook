@@ -18,15 +18,15 @@ For transmitting, losing most of the accepted power is disappointing. For receiv
 
 The qualification matters: enough signal and external noise must still reach the receiver. Unlimited loss would eventually make receiver noise the limiting factor.
 
-*Receiving directivity factor, or RDF, compares peak gain with the average gain over the surrounding upper hemisphere.* That average considers the whole region around and above the antenna, not only one rear bearing.
+A deep rear null helps against one noise source, but noise can arrive from many directions. To compare how broadly antennas reject it, *receiving directivity factor, or RDF, compares peak gain with average gain over the surrounding upper hemisphere.* That average covers the whole region around and above the antenna, not only one rear bearing.
 
 > **Key Information:** RDF is peak antenna gain compared with average gain over the hemisphere around and above the antenna. {{< link id="E9H03" >}}
 
-A deep rear null can help against one noise source, but RDF gives a broader view of how much unwanted energy the antenna admits from other directions.
+RDF therefore gives a broader view of unwanted pickup than a front-to-back ratio alone.
 
 #### A Long Wire Near the Ground
 
-A Beverage is a long receiving wire supported relatively close to the ground. A wave arriving along the favored direction induces voltages along the wire that add usefully at the feed point. A transformer connects its impedance to the receiver's feed line.
+A Beverage obtains low-band directivity with a long wire close to the ground. A wave arriving along the favored direction induces voltages that add usefully at the feed point. A transformer matches the wire's impedance to the receiver's feed line.
 
 > **Key Information:** A Beverage should be at least one wavelength long for good performance at the intended frequency. {{< link id="E9H01" >}}
 
@@ -42,7 +42,7 @@ Its far end normally has a terminating resistor. *The termination absorbs travel
 
 #### Stronger Loop Output
 
-A small receiving loop responds to changing magnetic flux through its area. A larger area intercepts more flux; more turns add the induced voltages of individual turns. *Within the useful operating range, either can raise output voltage.*
+Where there is no room for a Beverage, a small receiving loop offers a compact alternative. If its output is too low, a larger area intercepts more changing magnetic flux, while more turns add their induced voltages. *Within the useful operating range, either can raise output voltage.*
 
 > **Key Information:** Increasing the number of turns, the enclosed area, or both increases a multiple-turn receiving loop's output voltage. {{< link id="E9H10" >}}
 
@@ -56,7 +56,7 @@ The shield must not form a closed conducting turn around the loop. Its purpose i
 
 #### One Null Instead of Two
 
-*A small loop has two null directions, 180 degrees apart.* Rotate it until a signal disappears and you have found an axis. The transmitter could be ahead of you or behind you; that 180-degree ambiguity remains even with a very sharp null.
+A deeper loop null improves the bearing, but it cannot tell you which end of that bearing points to the transmitter. *The two null directions remain 180 degrees apart.* Rotating the loop until the signal disappears identifies an axis, leaving the source ahead or behind.
 
 > **Key Information:** A small wire loop presents a direction-finding challenge because its null pattern is bidirectional. {{< link id="E9H05" >}}
 
@@ -64,7 +64,7 @@ A *sense antenna* adds a second response with suitable phase and amplitude. *Com
 
 > **Key Information:** A sense antenna modifies a DF antenna's pattern to provide a null in only one direction. {{< link id="E9H08" >}}
 
-*A single-turn terminated loop, such as a pennant, also produces a cardioid pattern.* Its asymmetric combination of loop geometry and termination favors one direction and rejects the opposite direction.
+A single-turn terminated loop obtains a one-way response through its geometry and termination instead. *A pennant is one example; it produces a cardioid pattern.* The asymmetric arrangement favors one direction and rejects the opposite one.
 
 > **Key Information:**
 > - A single-turn terminated loop such as a pennant has a cardioid pattern. {{< link id="E9H09" >}}

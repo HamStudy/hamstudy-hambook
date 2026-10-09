@@ -14,11 +14,11 @@ Your wattmeter may show full power while the next station on the band hears an u
 > - A spectrum analyzer displays signal amplitude on the vertical axis and frequency on the horizontal axis. {{< link id="E4A02" >}}
 > - A spectrum analyzer can display spurious signals and intermodulation distortion products from an SSB transmitter. {{< link id="E4A03" >}}
 
-The oscilloscope in the previous sections answered “How does the signal change with time?” The spectrum analyzer answers “Where is its energy in frequency?” Both views can describe the same signal.
+The scope shows changes over time; *the spectrum analyzer plots signal amplitude vertically against frequency horizontally*. The latter view lets you distinguish wanted output power from spurious signals and distortion products.
 
 #### Give Distortion a Recognizable Pattern
 
-Speech changes too much for a repeatable distortion test. Two steady audio tones give a cleaner comparison. *Choose frequencies that are not harmonically related, feed them into the transmitter's audio input, and inspect the RF output.* “Not harmonically related” means neither audio tone is an integer multiple of the other. That keeps an ordinary harmonic of one test tone from being mistaken for a mixing product. A linear SSB transmitter produces the two translated tones. Nonlinearity adds intermodulation products.
+A two-tone linearity test gives unwanted products a repeatable pattern to measure. *Apply two non-harmonically related audio tones to the SSB transmitter and inspect its RF output with a spectrum analyzer.* Neither tone is an integer multiple of the other, helping distinguish ordinary harmonics from mixing products. A linear transmitter produces the two translated RF tones; nonlinearity adds further products at predictable frequencies.
 
 > **Key Information:** Measure SSB transmitter intermodulation distortion by modulating it with two AF signals at non-harmonically related frequencies and observing the RF output with a spectrum analyzer. {{< link id="E4B10" >}}
 
@@ -33,7 +33,7 @@ Use a suitable dummy load and a correctly rated attenuator or sampling coupler. 
 
 #### Set Digital Audio for a Clean Signal
 
-Audio-frequency shift keying, or AFSK, sends audio tones through the transmitter's audio path. More computer audio does not necessarily produce a better RF signal. Once a stage leaves its linear range, extra drive creates unwanted frequencies.
+Unwanted mixing products can also reveal excessive drive in digital-mode setup. *Excessive AFSK transmit audio is a common cause of overmodulation*: once a stage leaves its linear range, extra drive creates unwanted frequencies. *Intermodulation distortion, or IMD, measures that degradation*, so output power alone is not enough to choose the audio level.
 
 > **Key Information:**
 > - Excessive transmit audio levels are a common cause of AFSK overmodulation. {{< link id="E8D07" >}}

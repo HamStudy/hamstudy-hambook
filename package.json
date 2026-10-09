@@ -15,6 +15,11 @@
     "serve:general2023": "../hugo.sh serve -s general2023/hugo --cleanDestinationDir -p 1313",
     "dev:general2023": "npm run import:general2023 && concurrently \"npm:import:general2023:watch\" \"npm:serve:general2023\"",
 
+    "import:extra2024": "node src/import.js -f hugo extra2024 -o extra2024/hugo",
+    "import:extra2024:watch": "node src/import.js -f hugo extra2024 -o extra2024/hugo --watch",
+    "serve:extra2024": "../hugo.sh serve -s extra2024/hugo --buildDrafts --cleanDestinationDir -p 1316",
+    "dev:extra2024": "npm run import:extra2024 && concurrently \"npm:import:extra2024:watch\" \"npm:serve:extra2024\"",
+
     "import:yam2026": "node src/import.js -f hugo yam2026 -o yam2026/hugo",
     "import:yam2026:watch": "node src/import.js -f hugo yam2026 -o yam2026/hugo --watch",
     "serve:yam2026": "../hugo.sh serve -s yam2026/hugo --cleanDestinationDir -p 1313",

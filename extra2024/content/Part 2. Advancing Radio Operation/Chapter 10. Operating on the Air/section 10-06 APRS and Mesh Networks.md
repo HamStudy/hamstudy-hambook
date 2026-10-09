@@ -8,17 +8,15 @@ draft: true
 
 ### Section 10.6: APRS and Mesh Networks
 
-A balloon report and a mesh-network message may both travel through other amateur stations. The relays work differently. *APRS sends compact reports in packets that digipeaters may repeat.* *A mesh network discovers links between addressed nodes and routes data through them.*
+A balloon's position report may need a relay before your station can hear it. A mesh-network message may likewise need to cross several radio links. Both extend reach, but APRS controls repetition through a packet's path while a mesh discovers neighboring nodes and selects routes between them.
 
 #### Follow an APRS Report
 
-The Automatic Packet Reporting System, or APRS, carries information such as position, weather, and short messages. You do not have to ask a balloon where it is: *its transmitter can report its changing position so receiving stations can follow the track.*
+*APRS position reports let receiving stations track a balloon carrying an amateur transmitter in real time.* The balloon can send its changing position without waiting for a request from each station following the track. Position, weather, and short messages share the APRS reporting system.
 
 > **Key Information:** APRS is used for real-time tracking of balloons carrying amateur radio transmitters. {{< link id="E2D04" >}}
 
-A position beacon does not first establish a connected session with every listener. It puts the information in a packet that any suitable station within range can receive.
-
-*AX.25 defines the packet's framing and address fields*; APRS defines how to interpret the information inside, such as a position report. *An Unnumbered Information (UI) frame carries that information without opening a connected exchange or numbering a sequence of data frames.*
+To broadcast a report to any suitable receiver within range, *APRS uses an AX.25 Unnumbered Information (UI) frame*. AX.25 supplies framing and addresses; APRS defines the information carried, such as the position. *UI frames require neither a connected exchange nor a numbered sequence of data frames*, so the beacon need not establish a session with each listener.
 
 > **Key Information:**
 > - APRS uses the AX.25 digital protocol. {{< link id="E2D07" >}}
@@ -33,7 +31,7 @@ The arrows are separate radio transmissions. A receiver might hear the original 
 
 #### Count the Remaining Hops
 
-*In a WIDEn-N path, the first number describes the requested hop allowance and the number after the hyphen counts the remaining hops.* A digipeater reduces the remaining count when it relays the packet.
+Repeating every packet indefinitely would fill the channel with old reports. A WIDEn-N path limits the number of relays: *the first number records the requested hop allowance, and the number after the hyphen counts the hops remaining*. Each eligible digipeater reduces that remaining count when it retransmits the packet.
 
 > **Key Information:** WIDE3-1 means that three digipeater hops were requested and one remains. {{< link id="E2D10" >}}
 
@@ -41,7 +39,7 @@ The count begins as WIDE3-3, becomes WIDE3-2 after one hop, and becomes WIDE3-1 
 
 #### Let Nodes Find Their Neighbors
 
-A mesh node is a radio and network device that can communicate with neighboring nodes. Amateur mesh networks often adapt equipment developed for wireless data service. *Firmware* is the software that runs the device itself; custom firmware changes the router's capabilities for the intended network.
+A mesh must deliver data to a destination through whichever neighboring radio links are usable. *A wireless router running custom firmware commonly provides the node*: the modified device software supports the amateur network's links and routing. *Some usable frequencies are shared with unlicensed wireless data services*.
 
 > **Key Information:**
 > - Amateur mesh networks can use frequencies shared with various unlicensed wireless data services. {{< link id="E2C04" >}}
@@ -49,7 +47,7 @@ A mesh node is a radio and network device that can communicate with neighboring 
 
 The amateur allocation, device, firmware, and local network plan must all support the chosen channel. A familiar-looking wireless router does not grant permission to use every frequency it can generate.
 
-Each node needs an address so data can be directed to it. *Discovery messages identify neighbors; link-establishment and routing procedures let the network use the available connections.*
+To route toward a particular destination, *nodes use Internet Protocol (IP) addresses*. *Discovery and link-establishment protocols identify neighboring nodes and form usable connections*, which the routing system can combine into a path.
 
 > **Key Information:**
 > - Mesh-network nodes have Internet Protocol, or IP, addresses. {{< link id="E8C14" >}}

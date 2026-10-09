@@ -8,7 +8,7 @@ draft: true
 
 ### Section 5.1: Converting Signals to Data
 
-The signal coming down your feed line is still a changing voltage, however digital the radio may be. *A direct-sampling receiver turns incoming RF into numbers before changing its frequency.* An analog-to-digital converter, or ADC, measures the signal voltage at regular intervals. Digital circuits can then select, filter, and demodulate the wanted signal.
+A receiver can leave frequency conversion as well as filtering and demodulation to its digital circuits. To do that, *a direct-sampling receiver digitizes incoming RF before changing its frequency*. Its analog-to-digital converter, or ADC, must measure the RF voltage often enough, and in fine enough steps, to preserve the wanted information.
 
 > **Key Information:** In a direct-sampling software defined radio, incoming RF is digitized by an ADC without first mixing it with a local oscillator signal. {{< link id="E7F01" >}}
 
@@ -31,7 +31,7 @@ For example, a receiver intended to digitize everything from near DC through 30 
 
 #### Fine Enough in Voltage
 
-Sample rate describes *when* the converter measures. Bit depth describes how many voltage values it can report. An $N$-bit ADC has $2^N$ possible codes. More bits divide the same full-scale voltage range into smaller steps.
+Even frequent samples can miss small voltage changes if the converter reports them in steps that are too large. Sample rate sets *when* it measures; bit depth sets how many voltage values it can report. An $N$-bit ADC has $2^N$ possible codes. More bits divide the same full-scale range into smaller steps.
 
 > **Key Information:** An eight-bit ADC can encode $2^8=256$ different input levels. {{< link id="E8A09" >}}
 
@@ -48,23 +48,23 @@ An ADC rounds each measured voltage to an available code. This rounding is *quan
 
 #### Making the Conversion
 
-*A successive-approximation ADC makes a series of comparisons.* It first asks whether the voltage is above or below a halfway value, then narrows the remaining range one bit at a time. *A flash ADC uses many comparisons in parallel to make a much faster decision, at the cost of more hardware.*
+The converter must keep up with the required sample rate. *A successive-approximation ADC makes a series of comparisons*, first comparing the voltage with a halfway value, then narrowing the remaining range one bit at a time. For faster sampling, *a flash ADC makes many comparisons in parallel*, trading more hardware for a much faster decision.
 
 > **Key Information:**
 > - Successive approximation is a method of analog-to-digital conversion. {{< link id="E8A02" >}}
 > - Direct, or flash, conversion ADCs can digitize high frequencies because of their very high speed. {{< link id="E8A08" >}}
 
-Adding noise may sound like an odd way to improve a receiver. Here the target is a repeating error: *a controlled amount of noise, called dither, can prevent quantization errors from repeating in a fixed pattern.* It spreads those errors rather than leaving them concentrated in unwanted tones. The benefit is reduced quantization-related artifacts; adding noise does not erase all noise in the receiver.
+Quantization errors that repeat with the waveform can create unwanted tones. *A controlled amount of added noise, called dither, breaks up that fixed pattern.* It spreads the error instead of concentrating it at particular frequencies. This reduces quantization-related artifacts; it does not erase all noise in the receiver.
 
 > **Key Information:** Dither is a small amount of noise added to an ADC's input signal to reduce quantization noise. {{< link id="E8A04" >}}
 
-Real converters also distort the waveform. Feeding a sine wave into an imperfect ADC can produce harmonics in the digital output. *Total harmonic distortion compares the unwanted harmonic energy with the wanted fundamental, giving one measure of converter quality.*
+To check how faithfully an ADC reproduces a waveform, feed it a sine wave and look for harmonics in the digital output. *Total harmonic distortion compares that unwanted harmonic energy with the wanted fundamental*, giving one measure of converter quality.
 
 > **Key Information:** Total harmonic distortion is a measure of ADC quality. {{< link id="E8A11" >}}
 
 #### Back to a Voltage
 
-A digital-to-analog converter, or DAC, performs the return trip. It converts a stream of numbers into changing analog levels. That output contains sampling-related images and other unwanted components as well as the intended waveform. *A low-pass reconstruction filter passes the wanted signal and reduces those artifacts.*
+When the processed signal must drive an analog circuit, a digital-to-analog converter (DAC) turns the numbers back into changing voltage levels. Its output includes sampling-related images and other unwanted components. *A low-pass reconstruction filter passes the intended waveform and reduces those artifacts.*
 
 > **Key Information:** A low-pass filter at a DAC's output removes spurious sampling artifacts. {{< link id="E8A10" >}}
 

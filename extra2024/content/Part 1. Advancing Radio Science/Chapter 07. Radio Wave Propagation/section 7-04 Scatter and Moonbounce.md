@@ -8,11 +8,11 @@ draft: true
 
 ### Section 7.4: Scatter and Moonbounce
 
-One distant VHF signal arrives as a brief ping; another has a rasp where a clean tone ought to be. Those sounds are clues to the path. A usable path need not return from a smooth ionospheric layer. A meteor's trail can provide a brief scattering region; auroral irregularities can redirect VHF signals; the Moon can return a tiny fraction of a transmitted beam. These paths leave different marks on the received sound.
+A brief meteor ping and a raspy auroral signal call for different operating choices. One offers little time to pass information; the other distorts the signal throughout the contact. Moonbounce adds a different challenge: recovering a tiny, changing return from a very long path. The way each path scatters energy explains what we can recover from it.
 
 #### A Trail That Lasts Briefly
 
-A meteor entering the atmosphere leaves a narrow trail of ionized gas. *For radio work, useful trails form around the E-region heights.* A suitably placed trail scatters energy between two stations beyond their normal terrestrial range, then fades as the ionization disperses.
+For a meteor-scatter contact, the two stations need a trail in a useful position before it disperses. *A meteor leaves a narrow, linear ionized trail around the E-region heights.* That trail scatters energy beyond the stations' normal terrestrial range.
 
 > **Key Information:**
 > - A meteor creates a linear ionized region in the ionosphere's E region. {{< link id="E3A08" >}}
@@ -22,7 +22,7 @@ A weak trail may produce only a short burst or “ping.” Denser trails can las
 
 #### The Rough Sound of Aurora
 
-Severe geomagnetic disturbance increases auroral activity and associated ionospheric irregularities. Signals scattered from these moving structures can reach stations that cannot hear one another by a normal direct path.
+The high geomagnetic activity that harms polar HF paths can create a VHF opportunity. Severe disturbances increase auroral activity and associated ionospheric irregularities; scattering from those moving structures can link stations beyond their normal direct path.
 
 > **Key Information:** Severe geomagnetic storms are most likely to produce auroral propagation. {{< link id="E3A12" >}}
 
@@ -34,7 +34,7 @@ Even with a rough tone, the timing of Morse dots and dashes can remain recogniza
 
 #### Both Stations Face the Moon
 
-Earth-Moon-Earth communication, or EME, sends a signal to the Moon and receives energy scattered back toward Earth. The signal spreads on both legs, and the Moon returns only part of the energy that reaches it. That large path loss explains the value of antenna gain, low receiver noise, and narrow signal bandwidth.
+Earth-Moon-Earth communication, or EME, can link distant stations through a shared view of the Moon. It sends a signal to the lunar surface and receives energy scattered back toward Earth. Spreading on both legs, plus the small fraction returned by the Moon, creates a large path loss. Antenna gain, low receiver noise, and narrow signal bandwidth help recover that weak return.
 
 *Both stations must have a radio path to the Moon at the same time.* Here “visible” means above the usable horizon, not visible to the naked eye. You can work a Moon path in daylight or through cloud. What matters here is whether Earth or local terrain blocks either station’s radio path.
 
@@ -44,13 +44,13 @@ That surface separation is close to half Earth's circumference. The signal itsel
 
 #### Flutter and Distance
 
-The Moon is not a smooth, fixed reflector. Different surface regions return parts of the signal over slightly different paths. Earth and lunar motion slowly change the Moon's apparent orientation, called *libration*. Relative motion also changes the received frequency, an effect called **Doppler shift**. Those changing paths and their different shifts make the returned contributions alternately reinforce and cancel.
+Even with both antennas aimed at the Moon, the returned signal can flutter. Different parts of its rough surface return energy over slightly different paths. Earth and lunar motion change the Moon's apparent orientation, called *libration*. The relative motion also gives the returns different Doppler shifts, so their contributions alternately reinforce and cancel.
 
 > **Key Information:** Libration fading is fluttery, irregular fading of an EME signal. {{< link id="E3A02" >}}
 
 It describes variations in signal strength, not merely a steady change in the pitch of a CW tone. Its rate depends on frequency and the geometry of both stations' paths.
 
-The Moon's orbit also changes its distance from Earth. *Perigee is the nearest point; apogee is the farthest.* A nearer reflector reduces spreading loss on both legs of the journey.
+For a planned contact, lunar distance offers a more predictable advantage. *Perigee is the nearest point in the Moon's orbit; apogee is the farthest.* A nearer reflector reduces spreading loss on both legs of the journey.
 
 > **Key Information:** Scheduling an EME contact near lunar perigee generally gives the least path loss. {{< link id="E3A03" >}}
 

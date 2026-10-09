@@ -12,7 +12,7 @@ You turn up the gain, the speaker gets louder, and the call sign is still unread
 
 #### Following the Signal Level
 
-A link budget adds gains and subtracts losses along the radio path. Keep the distinction from Chapter 5: dBm is a power level referred to one milliwatt; dB is a ratio used for a gain or loss. Antenna gain in dBi uses an isotropic antenna as its reference.
+Before adding receiver gain, estimate how much signal should reach the antenna input. A *link budget* adds antenna gains and subtracts losses along the path. Use dBm for power levels, referenced to one milliwatt, and dB for gains and losses; antenna gain in dBi is referenced to an isotropic antenna.
 
 For a 10 W transmitter, start at +40 dBm. Add the transmitting antenna's 6 dBi gain and the receiving antenna's 3 dBi gain, then subtract 100 dB of path loss:
 
@@ -37,7 +37,7 @@ Read that *+8 dB* as an allowance for extra loss. If the path gets 5 dB worse, 3
 
 #### Admit Only What You Need
 
-A receive filter wider than the signal admits extra noise and neighboring signals. A filter too narrow removes wanted information. Match the passband to the mode: a CW contact can use a much narrower filter than an SSB voice contact.
+*Match receive bandwidth to the modulation to admit the wanted information while limiting noise and adjacent signals.* Narrowing beyond that point cuts the signal you are trying to copy. CW permits a narrower passband than SSB, but filter width is only part of the decision.
 
 > **Key Information:** A choice of receiver bandwidths lets you match the modulation bandwidth, maximizing signal-to-noise ratio and minimizing interference. {{< link id="E4C10" >}}
 
@@ -53,7 +53,7 @@ The position of a filter matters as much as its width. The roofing filter discus
 
 #### When Less Input Helps
 
-An input attenuator reduces both the wanted signal and external noise. That sounds unhelpful until the receiver is overloaded. Reducing the total input can let its circuits operate linearly again.
+Attenuation can restore an overloaded receiver's linear operation, but it also reduces the wanted signal. Whether that costs readability depends on what supplies most of the noise: the antenna or the receiver itself.
 
 *On the lower HF bands, atmospheric noise often exceeds the receiver's own noise by a wide margin.* Moderate attenuation can lower the signal and atmospheric noise together while leaving both above the internal noise floor. *Their ratio changes little, but overload may disappear.*
 
@@ -61,11 +61,11 @@ An input attenuator reduces both the wanted signal and external noise. That soun
 > - Inserting attenuation before the first RF stage reduces the likelihood of receiver desensitization. {{< link id="E4D07" >}}
 > - On the lower HF bands, attenuation can reduce overload with little or no effect on signal-to-noise ratio because atmospheric noise is generally greater than internally generated noise even after attenuation. {{< link id="E4C11" >}}
 
-If attenuation makes the desired station harder to copy without curing a problem, remove it. There is no prize for leaving every signal-processing button lit.
+Compare reception with and without attenuation. Keep it only if reducing overload helps more than the reduced signal level hurts.
 
 #### Noise Controls Have Side Effects
 
-Digital noise reduction looks for differences between wanted signals and noise, whether a broad hiss or a repeating disturbance. White noise spreads roughly equal power into equal-width slices of the band. *A noise blanker instead suppresses brief intervals containing large pulses.* An automatic notch filter finds and rejects steady tones. They address different shapes of interference.
+The noise pattern determines which processing is useful. *Digital noise reduction can often reduce broadband white noise, ignition noise, and power line noise* by distinguishing them from the wanted signal. White noise contributes roughly equal power in equal-width frequency ranges. *A noise blanker targets impulse noise by suppressing the brief intervals containing large pulses*; an automatic notch targets steady tones. Each method can also alter a wanted signal that resembles what it is trying to remove.
 
 > **Key Information:**
 > - Digital noise reduction can often reduce broadband white noise, ignition noise, and power line noise. {{< link id="E4E02" >}}

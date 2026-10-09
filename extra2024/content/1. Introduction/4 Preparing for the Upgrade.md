@@ -15,9 +15,9 @@ Read the team's instructions before registering. Check the fee, accepted identif
 
 ## Bring Your Existing FRN
 
-Your **FCC Registration Number (FRN)** is a 10-digit number that identifies you in FCC records. The team needs it for your application. It is separate from your call sign and stays with you when you upgrade.
+Use the **FCC Registration Number (FRN)** shown on your FCC license record when you register for the exam. The team needs that 10-digit number for your application; it stays with you when you upgrade, even if your call sign changes. Don't create a second one.
 
-If you already hold a license, use the FRN shown on your FCC license record. Don't create a second one. If you don't yet have an FRN, visit the [FCC's Commission Registration System (CORES)](https://apps.fcc.gov/cores/), create an FCC username account, and follow the instructions to register a new individual FRN in your own name. Save that number for your exam registration.
+If you're preparing for your first license and don't yet have an FRN, visit the [FCC's Commission Registration System (CORES)](https://apps.fcc.gov/cores/), create an FCC username account, and follow the instructions to register a new individual FRN in your own name. Save that number for your exam registration.
 
 ## Keep Your Exam Credit
 

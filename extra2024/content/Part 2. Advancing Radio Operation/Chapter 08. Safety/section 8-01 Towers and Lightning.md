@@ -12,7 +12,7 @@ A taller antenna is appealing when you're chasing a weak signal. Someone still h
 
 #### Staying Attached to the Tower
 
-A **lanyard** connects a climber's harness to an anchor. A shock-absorbing lanyard helps limit the force if the climber falls. The harness, lanyard, anchor, and available clearance must work together as a fall-protection system.
+*Staying tied off includes the moments when you change position on the tower.* A **lanyard** connects the climber's harness to an anchor; a shock-absorbing lanyard also helps limit the force of a fall. The harness, lanyard, anchor, and available clearance must work together as a fall-protection system.
 
 > **Key Information:**
 >
@@ -30,7 +30,7 @@ A surge can enter on one cable and leave through another. You don't want your ra
 
 > **Key Information:** The primary function of an external earth connection or ground rod is **lightning charge dissipation**. {{< link id="E0A01" >}}
 
-A **single point ground panel** brings the station's cable protectors together at a common conductive panel. Bonding means making an electrical connection between metal parts; here, those connections give the protectors a shared voltage reference during a surge.
+A **single point ground panel** brings the station's cable protectors together at a common conductive panel. Bonding the protectors to that panel gives them a shared voltage reference during a surge.
 
 > **Key Information:**
 >

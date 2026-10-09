@@ -16,7 +16,7 @@ params:
   description: "Prepare for the 2024–2028 US Amateur Extra Class exam. Study circuits, signals, antennas, propagation, station techniques, operating procedures, and FCC rules."
   BookPortableLinks: true
   BookSubtitle: (2024 - 2028)
-  BookLogo: "figures/coverfornow.png"
+  BookLogo: "figures/coverfornow.jpg"
   hsBaseURL: "https://hamstudy.org/flashcard/E4_2024?bk=hambook-extra2024&def=q:"
   figurePath: "figures/%s"
   figureDescriptions:

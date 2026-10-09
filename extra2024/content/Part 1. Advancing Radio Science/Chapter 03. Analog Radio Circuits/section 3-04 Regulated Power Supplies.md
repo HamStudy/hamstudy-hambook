@@ -8,11 +8,11 @@ draft: true
 
 ### Section 3.4: Regulated Power Supplies
 
-A supply's voltage reading with nothing connected tells only part of the story. Add a load and the voltage may sag; remove the load and it may rise. A rectifier changes AC into pulsating DC, and smoothing capacitors reduce the variations. Some AC variation, called *ripple*, can remain. A regulator adjusts power flow to hold the output near a chosen value as those conditions change.
+A supply's voltage reading with nothing connected tells only part of the story. Add a load and the voltage may sag; remove the load and it may rise. Filtering reduces rectifier ripple, but regulation must hold the output near its chosen value as input voltage and load current change.
 
 #### Continuous Control
 
-*A linear regulator varies the conduction of an active device.* A stable reference gives its control circuit a voltage to compare against. The circuit adjusts conduction in the direction that opposes any change in output voltage.
+To correct an output-voltage change, a regulator needs a stable reference to compare against. *A linear regulator varies the conduction of an active device* in the direction that opposes the change. *A Zener diode can supply the reference.*
 
 > **Key Information:**
 > - A linear electronic voltage regulator varies the conduction of a control element to maintain a constant output voltage. {{< link id="E7D01" >}}
@@ -56,7 +56,7 @@ In this example, the regulator heats the room with more power than it delivers t
 
 #### Controlling Pulses Instead
 
-A switchmode regulator repeatedly turns an active device on and off. An energy-storage network and filter turn those pulses into a steadier output. *Duty cycle* is the fraction of each switching period spent on.
+To reduce the loss in the control device, a switchmode regulator turns it on and off instead of holding it partly conducting. An energy-storage network and filter turn those pulses into a steadier output. *Duty cycle* is the fraction of each switching period spent on.
 
 > **Key Information:** A switchmode voltage regulator varies the duty cycle of pulses applied to a filter. {{< link id="E7D02" >}}
 

@@ -8,11 +8,11 @@ draft: true
 
 ### Section 11.1: Signal and Band Limits
 
-The radio displays one frequency, but your signal takes up a slice of the band. The whole modulated signal must fit within the band or segment available to you. The sideband direction, signal width, and emission type determine where that signal belongs.
+Near a band or emission-segment edge, selecting an allowed dial frequency is not enough. The complete emission must fit. Use the displayed carrier frequency, sideband direction, and occupied width to calculate its outer edge, then compare that edge with the limit for the emission type.
 
 #### Leave Room for the Sideband
 
-An SSB transceiver normally displays the suppressed carrier frequency. USB occupies frequencies above it; LSB occupies frequencies below it. Using the exam's stated bandwidth, add for USB and subtract for LSB.
+For the exam's SSB examples, the display gives the suppressed carrier frequency. *Add the stated width for USB or subtract it for LSB* to locate the far edge. This turns the band-edge precaution into a specific frequency check.
 
 At 14.348 MHz, a 3 kHz USB signal extends to
 
@@ -43,7 +43,7 @@ Before doing the arithmetic, write down which edge matters: the whole band's edg
 
 #### The Two Forms of 60-Meter Access
 
-The 2026 rules provide a continuous segment from 5351.5 to 5366.5 kHz plus four separate channels. The channel centers are 5332, 5348, 5373, and 5405 kHz. If you have older channel memories, check them against both the new frequency layout and the power limits below.
+Before using a 60-meter memory, determine whether it falls in a discrete channel or the continuous segment; the operating constraints differ. The 2026 rules provide a continuous segment from 5351.5 to 5366.5 kHz plus four separate channels. The channel centers are 5332, 5348, 5373, and 5405 kHz. Check older memories against that layout and the power limits below.
 
 > **Key Information:**
 > - For channelized 60-meter operation, a CW signal must transmit at the channel's center frequency. {{< link id="E1A06" >}}
@@ -57,7 +57,7 @@ Amateurs remain secondary users on 60 meters. Avoid harmful interference to prim
 
 #### Match the Emission to Its Limits
 
-Bandwidth rules are tied to the emission and the band. A digital label does not create permission to send a wide signal wherever data or phone is allowed.
+Choosing a digital-voice or image mode requires both room for its signal and permission for that emission on the band. The mode's label alone does not establish either. Apply the emission-specific limits as well as the segment boundaries.
 
 > **Key Information:**
 > - Where authorized on HF, 3 kHz is an acceptable bandwidth for digital voice or slow-scan television. {{< link id="E1B02" >}}
@@ -70,7 +70,7 @@ For spread spectrum, look for SS among the permitted emission types in §97.305;
 
 #### Keep Unwanted Output Down
 
-The unwanted products seen on a spectrum analyzer in Chapter 9 are more than untidy. A transmitter must suppress emissions outside the bandwidth needed to carry its information.
+A signal can fit inside its segment while unwanted products appear elsewhere. The spectrum-analyzer tests in Chapter 9 let us distinguish information-bearing output from *spurious emissions: output outside the necessary bandwidth that can be reduced or removed without changing the transmitted information*. A transmitter must suppress those products.
 
 > **Key Information:**
 > - A spurious emission is an emission outside the signal's necessary bandwidth that can be reduced or eliminated without affecting the transmitted information. {{< link id="E1B01" >}}
@@ -78,7 +78,7 @@ The unwanted products seen on a spectrum analyzer in Chapter 9 are more than unt
 
 *The −43 dB requirement applies to transmitters installed after January 1, 2003*; §97.307 contains provisions for older equipment. All stations must reduce spurious emissions as far as practicable and correct harmful interference. Meeting one numerical limit does not excuse interference from a spur.
 
-An external amplifier must preserve a clean signal as it raises power. Certification sets requirements for commercially supplied equipment, with an exception relevant to amateur construction.
+Adding an external amplifier can raise unwanted output as well as wanted power. Its certification test therefore checks spurious emissions at a specified output level. Certification sets requirements for commercially supplied equipment, with an exception relevant to amateur construction.
 
 > **Key Information:**
 > - A dealer may sell an uncertified external RF amplifier capable of operation below 144 MHz under the exception for an amplifier constructed or modified by an amateur operator for use at an amateur station. {{< link id="E1F03" >}}

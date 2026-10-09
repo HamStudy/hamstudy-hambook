@@ -8,13 +8,11 @@ draft: true
 
 ### Section 2.4: Resonance and Q
 
-A tuning capacitor can select a frequency even though it has no frequency marked on it. The result depends on the inductor working with it. At one frequency, their reactance magnitudes match and their opposite phase effects cancel at the circuit's input. That condition is *resonance*.
-
-Energy still moves between the capacitor's electric field and the inductor's magnetic field. From the source's point of view, however, the pair has no net reactance.
+Two LC circuits can resonate at the same frequency yet place very different demands on a source. A series circuit draws its greatest current there; a parallel circuit draws its least. Their internal currents and voltages can also be much larger than the source values. Following those differences lets us calculate the response and understand the stress on the components.
 
 #### Two Resonant Arrangements
 
-In a series RLC circuit, all components carry the same current. *At resonance, $X_L-X_C=0$, leaving resistance as the only opposition to the source.* For a fixed applied voltage, current reaches its maximum.
+At resonance, the inductive and capacitive reactance magnitudes match. Energy continues moving between the electric and magnetic fields, but their opposite phase effects cancel at the input. *In a series RLC circuit, $X_L-X_C=0$, leaving resistance as the only opposition to the source.* For a fixed applied voltage, the current through all the components reaches its maximum.
 
 > **Key Information:** At series resonance, voltage and current are in phase, and the impedance magnitude is approximately equal to circuit resistance. {{< link id="E5A08" >}} {{< link id="E5A03" >}}
 
@@ -32,7 +30,7 @@ The resistance in this parallel model sits across the LC pair. A high value lets
 
 *The voltages inside a series resonant circuit can be much larger than the source voltage.* Suppose a 10 V source drives 1 A through 10 Ω of resistance. The resistor drops the full 10 V. If the inductor and capacitor each have 100 Ω of reactance, that same current produces **100 V across each one**.
 
-A meter across either component would read ten times the source voltage. Where did the extra voltage come from? Energy keeps passing between the inductor and capacitor. Their voltages are opposite in phase, so they cancel around the complete circuit. The source supplies the energy lost in the resistance.
+A meter across either component would read ten times the source voltage. Energy passing between the inductor and capacitor sustains those larger voltages. Their voltages are opposite in phase, so they cancel around the complete circuit. The source supplies the energy lost in the resistance.
 
 > **Key Information:** Resonance can make the voltage across individual reactances in a series RLC circuit higher than the voltage applied to the entire circuit. {{< link id="E5A01" >}}
 
@@ -68,7 +66,7 @@ Two circuits can tune to the same frequency yet respond differently on either si
 
 For a series RLC model, the ratio goes the other way: $Q=X/R$. Less series resistance reduces loss, but *more* parallel resistance reduces loss. Either change raises Q.
 
-A circuit's *half-power bandwidth* is the frequency interval between the two response points where power is half its resonant value. Find one point below resonance and one above it; bandwidth is the whole interval between them, not the distance from the peak to one side.
+To put a frequency range to that sharpness, measure the *half-power bandwidth* between the response points on either side of resonance. At each point, power is half its resonant value. Bandwidth spans the whole interval, not the distance from the peak to one side.
 
 ![Two normalized resonant power-response curves peak at the same frequency f zero. The solid blue curve for Q of 100 is narrower than the dashed orange curve for Q of 50. A horizontal half-power line crosses the blue curve at f L and f H. A double-headed arrow between those frequencies marks the full bandwidth.](../../../images/s2-4-resonance-bandwidth.svg)
 {.img-centered .img-xlarge .img-mobile-full caption="Higher Q gives a narrower response. Measure bandwidth between both half-power points."}

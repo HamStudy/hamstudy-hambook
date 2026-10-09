@@ -8,7 +8,7 @@ draft: true
 
 ### Section 10.1: DX and Contest Contacts
 
-Dozens of callers may be waiting for a rare DX station. On another frequency, a contest station may finish several contacts in a minute. Both need the same thing from you: listen first, send the information needed, and leave room for a reply. Listen to a few complete contacts before joining in. The repeated pattern tells you far more than trying to guess while everyone is calling.
+In a busy pileup, a well-timed call can still go unanswered if it lands on the wrong frequency. A contest contact can sound complete yet lack a required exchange item. Listen through a few contacts to establish where the station is listening and what it expects, then prepare both the radio and the log for that exchange.
 
 #### Find the Activity
 
@@ -24,7 +24,7 @@ A *weak-signal segment* is the part of a band used for modes such as SSB and CW,
 
 #### Hear the Reply
 
-In a pileup, callers can cover the DX station's next instruction. *Split operation separates the DX station's transmit frequency from the frequency where it listens.* For example, “up five” directs you to transmit 5 kHz above the frequency on which you hear the station. Set the two VFOs (variable-frequency oscillators) to separate receive and transmit frequencies, then verify which one controls transmit before calling. This is a good moment to resist the urge to hurry.
+*Split operation separates the callers from the DX station's replies*, keeping the pileup from covering its next instruction. With “up five,” receive on the DX station's frequency and transmit 5 kHz higher. Set the VFOs accordingly and verify the transmit selection before calling; hearing the right frequency does not confirm that you will transmit in the right place.
 
 > **Key Information:** DX stations may transmit and receive on different frequencies to separate callers from the DX station, improve efficiency by reducing interference, and accommodate callers who cannot legally transmit on the DX station's frequency. {{< link id="E2C10" >}}
 
@@ -36,7 +36,7 @@ Wait until the station finishes with the previous caller. Give enough identifica
 
 Sending only a suffix can force another request for the rest of your call. If the station replies to someone else, listen through that contact. If it replies to you, send the required exchange and correct any copied error before moving on.
 
-In digital contests, the exchange can differ from an ordinary contact even when the mode stays the same. A grid square identifies an area on the Maidenhead locator map and provides location information useful for VHF scoring.
+In digital contests, the software must send the contest exchange rather than its ordinary report. *For FT8 or FT4 VHF contests, a Maidenhead grid square replaces the signal-to-noise ratio*, supplying location information useful for scoring.
 
 > **Key Information:** In an FT8 or FT4 VHF contest exchange, a grid square replaces the signal-to-noise ratio. {{< link id="E2D02" >}}
 
@@ -50,7 +50,7 @@ Logging software may offer several export formats. Choose the one for the job. M
 
 *For example, you might submit a Cabrillo file to the contest sponsor, then export ADIF to combine those same contacts with your main station log.* Read the sponsor's instructions for the required fields and deadline.
 
-A confirmation, or QSL, is a separate record that the other station agrees the contact occurred. *A DX station may have a manager handle its confirmations, especially when many requests arrive.*
+Submitting a contest log does not by itself confirm the contacts for your award records. *A DX QSL manager handles the station's incoming and outgoing confirmations*, taking on the volume of requests that a busy operation can generate.
 
 > **Key Information:**
 > - A DX QSL manager handles incoming and outgoing confirmations for a DX station. {{< link id="E2C05" >}}

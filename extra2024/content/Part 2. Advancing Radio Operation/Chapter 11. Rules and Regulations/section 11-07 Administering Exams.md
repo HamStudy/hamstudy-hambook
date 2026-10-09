@@ -8,18 +8,18 @@ draft: true
 
 ### Section 11.7: Administering Exams
 
-An Amateur Extra license lets you qualify to give exams for every amateur license class. *Passing Element 4 alone does not make you an examiner; you also need accreditation.* The exam system assigns duties to both the coordinating group and each examiner. The candidate needs a fair test and a clear explanation of what happens afterward.
+An Amateur Extra license lets you qualify to give exams for every amateur license class. *You still need VE accreditation*. Once examining, you take personal responsibility for supervising candidates and certifying valid results. The coordinating VEC supports the session, but it does not take over each examiner's duties.
 
 #### Prepare Through a VEC
 
-A Volunteer Examiner, or VE, is a person who helps give exams. *A Volunteer Examiner Coordinator, or VEC, is the organization that coordinates the session under an agreement with the FCC.*
+The exam team works through a Volunteer Examiner Coordinator (VEC) to prepare the session and submit its results. *The VEC confirms examiner eligibility and provides the common question pools*.
 
 > **Key Information:**
 > - A VEC is an organization that has entered into an agreement with the FCC to coordinate, prepare, and administer amateur operator license examinations. {{< link id="E1E03" >}}
 > - Part 97 assigns maintenance of the US amateur examination question pools to the VECs. {{< link id="E1E02" >}}
 > - To accredit a VE, a VEC must confirm that the applicant meets FCC examiner requirements. {{< link id="E1E04" >}}
 
-*The VECs work together on public question pools.* An exam team uses question sets drawn from those pools. The people at one exam session do not maintain a separate pool of their own. Each VE giving an exam must be at least 18 and hold the required license class. *The coordinating VEC must also have accredited that VE.* Only an Extra-class VE can give the Extra exam.
+*The VECs maintain the public question pools*, from which the team draws its question sets; one session does not maintain a separate pool. Check the team's eligibility against the exams being offered: each VE must be at least 18, hold the required license class, and *be accredited by the coordinating VEC*. Only an Extra-class VE can give the Extra exam.
 
 Volunteers may still need to pay for materials and processing. *The rules let them recover exam expenses.* Payment for unrelated teaching work is a separate matter.
 
@@ -29,13 +29,13 @@ Use the coordinating VEC's procedures to handle those expenses and the session's
 
 #### Supervise Each Candidate
 
-An exam requires at least three VEs. Before the session, check that each VE is eligible to give each candidate's exam. *This includes checking the rule against examining certain relatives.*
+An exam requires at least three VEs. Before the session, *check the rule against examining certain relatives* as well as each examiner's eligibility to give that class of exam.
 
 > **Key Information:** A VE may not administer an examination to relatives listed in the FCC rules. {{< link id="E1E08" >}}
 
 The list includes a spouse; children, grandchildren, and stepchildren; parents, grandparents, and stepparents; siblings and stepsiblings; aunts, uncles, nieces, nephews, and in-laws. *This rule does not bar a VE from examining a friend or employee.* The exam must still be fair and properly supervised.
 
-The session manager does not bear these duties alone. *Each VE giving the exam must watch the candidate throughout it and help ensure that the result is valid.*
+A valid score depends on the candidate completing the examination under proper supervision. *Each administering VE bears that responsibility*, rather than leaving it solely to the session manager. Each must watch the candidate throughout the exam and help ensure that the result is valid.
 
 > **Key Information:**
 > - Each administering VE is responsible for proper conduct and necessary supervision during the examination session. {{< link id="E1E06" >}}
@@ -45,7 +45,7 @@ The session manager does not bear these duties alone. *Each VE giving the exam m
 
 #### Certify and Send the Result
 
-After the exam, the team scores it and handles the paperwork based on the result.
+The result determines where the application goes and what the VEs certify. Score the examination before separating unsuccessful applications from those ready to proceed to the coordinating VEC.
 
 > **Key Information:**
 > - If the examinee does not pass an examination element, return the application document to the examinee. {{< link id="E1E05" >}}
@@ -55,7 +55,7 @@ After the exam, the team scores it and handles the paperwork based on the result
 ![A smiling cartoon exam candidate holds a sheet of paper, with a pencil and a small radio on the desk in front of her.](/images/illus/s11-7-exam-success.png)
 {.img-small .float-right}
 
-The team tells the candidate the result. For a passed element, it issues a Certificate of Successful Completion of Examination, or CSCE. *The VEs certify exam credit; the FCC grants the license.* *The coordinating VEC handles the application between those steps.*
+Tell the candidate the result and issue a Certificate of Successful Completion of Examination (CSCE) for a passed element. That document records the exam credit; it is not the FCC license grant. *The VEs certify the credit, the coordinating VEC handles the application, and the FCC grants the license*.
 
 Your certification is your own statement that the requirements were met. Saying that another examiner handled the details does not excuse a false certification.
 

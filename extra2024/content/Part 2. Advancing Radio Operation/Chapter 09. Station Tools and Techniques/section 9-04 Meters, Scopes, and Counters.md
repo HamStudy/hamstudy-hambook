@@ -8,11 +8,11 @@ draft: true
 
 ### Section 9.4: Meters, Scopes, and Counters
 
-Suppose the voltage changes when you move a meter to another range. Before replacing a part, check whether the meter itself changed the circuit. A test instrument joins the circuit it measures. Its input resistance, probe leads, and timing reference can all affect the result. A precise-looking display still deserves a question: what did this setup actually measure?
+A voltage reading that changes with the meter range may reveal instrument loading rather than a faulty part. Input resistance is one source of measurement error; probe behavior and timing accuracy introduce others. We need to separate changes in the circuit from changes caused by the test setup.
 
 #### A Meter Draws Current Too
 
-An analog voltmeter's *ohms-per-volt* rating describes how much resistance it presents on each range. *Multiply that rating by the range's full-scale voltage, not by the reading of the needle.*
+To estimate how much an analog voltmeter loads a circuit, find its input resistance on the selected range. Its *ohms-per-volt* rating provides the conversion: *multiply the rating by the range's full-scale voltage, not by the needle reading*.
 
 > **Key Information:** A voltmeter's full-scale reading multiplied by its ohms-per-volt rating gives its input impedance. {{< link id="E4B02" >}}
 
@@ -26,7 +26,7 @@ Its frequency range and allowed peak levels still apply. “True RMS” does not
 
 #### Make the Probe Behave
 
-An oscilloscope can reveal a waveform that one meter reading hides. A passive probe must first match the scope input. *Connect it to the scope's square-wave reference and adjust its compensation.* Too little compensation rounds the rising edge; too much produces an overshoot before the top settles. *Adjust for a flat top without either error.*
+Before trusting a waveform's shape, check that the probe itself is not rounding or exaggerating its transitions. A passive probe's compensation must match the scope input. *Connect it to the square-wave reference and adjust for flat horizontal portions.* Too little compensation rounds the rising edge; too much produces an overshoot before the top settles.
 
 ![Three oscilloscope traces show the same square wave with too little, correct, and too much probe compensation. The undercompensated trace curves up slowly, the compensated trace has a flat top, and the overcompensated trace overshoots before settling.](../../../images/s9-4-probe-compensation.svg)
 {.img-centered .img-xlarge caption="Probe compensation: the square-wave reference should have flat horizontal portions. Rounded edges and overshoot reveal a probe adjustment error."}
@@ -53,7 +53,7 @@ A trace that changes unexpectedly when you change the time scale deserves suspic
 
 #### Counting Against a Clock
 
-A frequency counter compares input cycles with its time base, an internal timing reference. If the time base runs slightly fast or slow, the displayed frequency inherits that error. More display digits cannot correct it. They may only give you a more detailed view of the wrong answer.
+A counter may show many digits and still report the wrong frequency if its clock is inaccurate. It compares input cycles with its *time base*, an internal timing reference. A fast or slow reference shifts the reported frequency, so *time-base accuracy is the chief limit on the counter's accuracy*. More display digits cannot correct that error.
 
 > **Key Information:** Time base accuracy is the factor that most affects a frequency counter's accuracy. {{< link id="E4B01" >}}
 

@@ -8,17 +8,17 @@ draft: true
 
 ### Section 4.2: Frequency and Phase Modulation
 
-FM carries a voice by moving the carrier frequency above and below its resting value. Louder audio causes a wider swing; higher-pitched audio makes the swing repeat faster. Try saying the same vowel softly and then loudly: you have changed its amplitude without necessarily changing its pitch. FM turns that amplitude change into a change in deviation.
+Direct FM and phase modulation can both carry speech to an FM receiver, but their response to audio pitch differs. The transmitter and receiver must account for that difference to reproduce balanced speech. We also need to compare the frequency swing with the audio frequency when describing the modulation.
 
 #### Frequency and Phase Changes
 
-An oscillator's resonant frequency depends on capacitance and inductance. *A reactance modulator lets the audio vary an effective capacitance, causing the oscillator's frequency to follow the message.*
+To make an oscillator follow the audio, *a reactance modulator varies an effective capacitance in its resonant circuit*. The changing resonant frequency produces FM.
 
 > **Key Information:**
 > - Reactance modulation of a local oscillator can generate FM phone signals. {{< link id="E7E01" >}}
 > - A reactance modulator produces PM or FM by varying a capacitance. {{< link id="E7E02" >}}
 
-Phase modulation, or PM, moves the carrier's phase ahead of or behind an unmodulated reference. Phase and frequency are linked: changing phase means temporarily changing the rate at which cycles advance. With the same audio amplitude, PM produces more frequency deviation at higher audio frequencies. Direct FM instead makes deviation follow audio amplitude without that inherent increase with audio frequency.
+With phase modulation, or PM, the same audio instead advances or delays the carrier's phase. Changing phase temporarily changes the rate at which cycles advance, so it changes frequency too. With the same audio amplitude, PM produces more frequency deviation at higher audio frequencies. Direct FM instead makes deviation follow audio amplitude without that inherent increase with audio frequency.
 
 The receiver needs to turn frequency changes back into voltage changes. *A frequency discriminator does that, yielding audio whose voltage follows the carrier's departures from center frequency.*
 
@@ -26,7 +26,7 @@ The receiver needs to turn frequency changes back into voltage changes. *A frequ
 
 #### Keeping Speech Balanced
 
-*A pre-emphasis network boosts higher audio frequencies before transmission.* A matching de-emphasis network reduces those frequencies after detection. Together they restore the intended audio response; de-emphasis also reduces high-frequency noise introduced along the way.
+Reducing higher audio frequencies after detection can also reduce high-frequency noise added along the way. To preserve the voice's intended response, *a pre-emphasis network boosts those frequencies before transmission*. A matching de-emphasis network reduces them after detection, undoing the boost while reducing the added noise.
 
 The rising frequency response associated with PM is part of this relationship. *An FM receiver with the appropriate de-emphasis can recover speech from a transmitter using phase modulation without making the high audio frequencies too prominent.*
 
@@ -36,7 +36,7 @@ The rising frequency response associated with PM is part of this relationship. *
 
 #### Two Ratios, One Useful Division
 
-The frequency deviation, $\Delta f$, is the maximum departure on *one side* of the carrier. A signal swinging from 3 kHz below center to 3 kHz above center has 3 kHz deviation, not 6 kHz. For a sinusoidal modulating tone of frequency $f_m$, the FM modulation index is
+To compare the size of a frequency swing with how quickly it repeats, we use modulation index. Frequency deviation, $\Delta f$, is the maximum departure on *one side* of the carrier. A signal swinging from 3 kHz below center to 3 kHz above center has 3 kHz deviation, not 6 kHz. For a sinusoidal modulating tone of frequency $f_m$, the FM modulation index is
 
 $$\beta=\frac{\Delta f}{f_m}.$$
 
@@ -50,7 +50,7 @@ The Greek letter $\beta$ (beta) names the index. Both frequencies must use the s
 
 *For the first example, divide $3{,}000\text{ Hz}/1{,}000\text{ Hz}=3$. For the second, $6\text{ kHz}/2\text{ kHz}=3$.* The carrier might be on 29 MHz or 146 MHz; that number does not enter either calculation. PM's index expresses the amount of phase swing, so *it likewise does not require the carrier frequency.*
 
-*Deviation ratio* describes a system's limits rather than a particular tone at a particular instant. *Divide the maximum allowed deviation by the highest audio modulating frequency.*
+For a whole speech channel, we need its operating limits rather than the index of one tone. *Deviation ratio divides the maximum allowed deviation by the highest audio modulating frequency.*
 
 > **Key Information:**
 > - Deviation ratio is maximum carrier frequency deviation divided by the highest audio modulating frequency. {{< link id="E8B09" >}}

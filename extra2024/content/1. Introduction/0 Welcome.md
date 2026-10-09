@@ -7,9 +7,9 @@ draft: true
 
 Welcome to the HamStudy Amateur Extra Class License HamBook! Perhaps a contact just outside your General frequency privileges has you thinking about an upgrade. You may also want to understand what happens inside your radio, improve a station, help others get licensed, or earn the highest license class. Whatever brought you here, let's give those exam answers something to connect to.
 
-You don't need to be an electronics engineer or an expert operator to begin. You will need the foundations covered by the Technician and General exams. If you haven't studied those yet, start with the corresponding HamBooks at [hambook.org](https://hambook.org). You can take more than one exam at the same session if you're ready; earning the higher license still requires credit for the lower exams.
+This book builds on the knowledge tested by the Technician and General exams; you don't need to be an electronics engineer or an expert operator. If you haven't studied those yet, start with the corresponding HamBooks at [hambook.org](https://hambook.org). You can take more than one exam at the same session if you're ready; earning the higher license still requires credit for the lower exams.
 
-You can use this book whether or not you've read either earlier HamBook. We'll include reminders where a new idea depends on an older one.
+You can use this book whether or not you've read either earlier HamBook. Brief refreshers connect familiar ideas to the new material, so you can build on what you've learned without starting over.
 
 ## What's Inside This Book
 

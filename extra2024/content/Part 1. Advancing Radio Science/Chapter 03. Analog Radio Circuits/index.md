@@ -6,6 +6,6 @@ pagebreak: true
 
 ## Chapter 3: Analog Radio Circuits
 
-A receiver has to choose one signal, make it larger, and keep its own circuits from drifting or oscillating where they should not. The same small collection of components can do all those jobs. Their connections decide whether a circuit filters a signal, amplifies it, holds a voltage steady, or generates a repeating waveform.
+A filter must pass the wanted signal while rejecting nearby interference. An amplifier must provide gain without distorting or oscillating, and its supply must stay steady under load. Meeting those demands takes more than choosing individual components: their connections determine how the complete circuit behaves.
 
-Feedback ties much of this chapter together. Returning a signal in opposition can stabilize a voltage or set an amplifier's gain. Returning it in reinforcement can sustain an oscillation. We will follow those paths through the circuit diagrams, watching where the current and signal go. The component labels will become clues to what each circuit does.
+Feedback ties these circuits together. An opposing return signal can stabilize a voltage or set an amplifier's gain; a reinforcing one can sustain an oscillator at a chosen frequency. We will follow those paths through the circuit diagrams, watching where the current and signal go. The component labels will become clues to what each circuit does.

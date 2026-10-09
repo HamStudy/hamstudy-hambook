@@ -8,17 +8,17 @@ draft: true
 
 ### Section 3.5: Oscillators and Phase Locking
 
-We have been trying to stop amplifiers from oscillating accidentally. Now we want one to oscillate on purpose, at a frequency we choose. A resonator favors that frequency, while an amplifier feeds energy back at the right phase to replace what is lost each cycle. The result is an oscillator: a source of AC powered by DC.
+A useful oscillator must do more than keep oscillating. It needs to hold its chosen frequency despite temperature changes, vibration, and the circuits connected to it. The resonator and feedback arrangement set that behavior; a stable reference can help correct drift.
 
 #### Quartz Resonance
 
-Quartz has a useful connection between mechanical strain and electrical voltage. *Applied voltage deforms the crystal slightly; deforming the crystal produces voltage. This two-way property is piezoelectricity.*
+For sharp frequency selection, a quartz crystal provides a very high-Q resonance. Its mechanical vibration interacts with the electrical signal through *piezoelectricity: applied voltage deforms the crystal slightly, and deforming the crystal produces voltage.*
 
 > **Key Information:** Piezoelectric materials generate voltage when stressed and flex when voltage is applied. Mechanical deformation caused by an applied voltage is one aspect of the piezoelectric effect. {{< link id="E6D01" >}} {{< link id="E6D03" >}}
 
 The quartz really does vibrate; it is not merely holding a fixed electrical charge. A cut piece has mechanical resonances determined largely by its dimensions and cut. Electrodes couple the circuit to those vibrations. Because little energy is lost per cycle, the resonance can have a very high Q.
 
-We can model the mechanical motion with electrical components. *A series inductance and capacitance represent energy moving between two forms; a series resistance represents loss. The electrodes and other stray capacitance add a parallel path.*
+To predict how the surrounding circuit affects that resonance, we model the crystal's mechanical motion with electrical components. *A series inductance and capacitance represent energy moving between two forms; a series resistance represents loss. The electrodes and other stray capacitance add a parallel path.*
 
 > **Key Information:** A quartz crystal's equivalent circuit is a series RLC branch in parallel with a shunt capacitance representing electrode and stray capacitance. {{< link id="E6D02" >}}
 
@@ -39,7 +39,7 @@ Their names identify different ways to arrange the resonator and feedback. A Har
 > - A Colpitts oscillator supplies positive feedback through a capacitive divider. {{< link id="E7H04" >}}
 > - A Pierce oscillator supplies positive feedback through a quartz crystal. {{< link id="E7H05" >}}
 
-*A crystal specified for a particular load capacitance reaches its rated frequency when the oscillator presents that effective capacitance.* Board and device capacitances contribute along with the intended capacitors.
+The frequency marked on a crystal assumes a particular circuit load. *A crystal specified for a particular load capacitance reaches its rated frequency when the oscillator presents that effective capacitance.* Board and device capacitances contribute along with the intended capacitors.
 
 > **Key Information:** Providing a crystal with its specified parallel capacitance ensures operation at the frequency specified by the manufacturer. {{< link id="E7H12" >}}
 
@@ -59,7 +59,7 @@ Thermal drift has a different cause. Temperature changes component values and th
 
 NP0, also commonly written C0G/NP0, identifies a ceramic capacitor dielectric with a very small temperature coefficient. It helps keep the oscillator's capacitive loading steady; it does not remove every source of crystal drift.
 
-Microwave systems can need much tighter frequency control. They may compare a local oscillator with a stable reference or control the resonator's temperature directly.
+At higher operating frequencies, the same percentage of drift moves the signal through more hertz. Microwave systems may compare a local oscillator with a stable reference or control the resonator's temperature directly to hold it more closely.
 
 > **Key Information:** Techniques for highly accurate and stable microwave oscillators include a GPS signal reference, a rubidium-stabilized reference oscillator, and a temperature-controlled high-Q dielectric resonator. {{< link id="E7H13" >}}
 
@@ -67,7 +67,7 @@ GPS can provide a timing reference used to correct a local oscillator. A rubidiu
 
 #### Locking to a Reference
 
-A *voltage-controlled oscillator*, or VCO, changes frequency in response to a control voltage. Combine it with a circuit that compares phase, and the oscillator can be made to follow a reference automatically.
+A stable reference can correct a tunable oscillator instead of fixing the radio to one frequency. A *voltage-controlled oscillator*, or VCO, provides the adjustment: changing its control voltage changes its frequency. A phase-comparison circuit supplies the correction.
 
 In a *phase-locked loop*, or PLL, a phase detector compares the reference signal with a signal derived from the VCO output. A low-pass filter smooths the detector's correction signal. That voltage adjusts the VCO, reducing the phase error. *The loop is a servo*: a control system that continually corrects a difference between desired and actual behavior.
 
@@ -80,7 +80,7 @@ In a *phase-locked loop*, or PLL, a phase detector compares the reference signal
 
 Follow the return path: the detector compares two 1 MHz signals, even though the useful output is 100 MHz. If the VCO drifts, the comparison changes and the loop corrects it. Changing the division ratio selects another related output frequency without requiring a separate reference crystal for each one.
 
-*A loop can also follow a received frequency-modulated signal within its tracking range.* Frequency modulation, or FM, conveys information by varying the frequency of a signal called the *carrier*. *The correction voltage needed to make the VCO follow those changes recovers the modulation.*
+*A loop can also follow a received FM signal within its tracking range.* As the carrier frequency changes, the loop adjusts its VCO to follow. *The resulting correction voltage recovers the modulation.*
 
 > **Key Information:** A phase-locked loop can perform frequency synthesis and FM demodulation. {{< link id="E7H06" >}}
 

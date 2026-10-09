@@ -8,7 +8,7 @@ draft: true
 
 ### Section 6.8: Reading the Smith Chart
 
-A Smith chart puts resistance, reactance, mismatch, and line length on one drawing. Its curved grid can look crowded until you follow one point at a time. Each point represents a complex impedance, just as $R+jX$ did in Chapter 2.
+To place a matching stub, we need to find both a suitable point along the feed line and the reactance to add there. A Smith chart lets us follow those changes graphically instead of calculating each new impedance separately. Each point represents a complex impedance, $R+jX$. Follow one point at a time and the crowded grid becomes manageable.
 
 > **Key Information:** A Smith chart can determine impedance along transmission lines and show their impedance and SWR values. {{< link id="E9G01" >}} {{< link id="E9G03" >}}
 
@@ -38,7 +38,7 @@ Positive, inductive reactance occupies the upper half. Negative, capacitive reac
 
 #### Give the Center a Value
 
-A printed chart need not be limited to 50-ohm systems. *Normalization* divides all impedances by a chosen reference $Z_0$. *The center, marked 1, then represents a resistance equal to $Z_0$ and zero reactance.*
+The same printed chart can serve a 50-ohm coax system or a line with another impedance. *Normalization* makes that possible: divide every impedance by the chosen reference $Z_0$. *The center, marked 1, then represents a resistance equal to $Z_0$ and zero reactance.*
 
 > **Key Information:** A Smith chart is normalized by reassigning the prime center's impedance value. {{< link id="E9G08" >}}
 
@@ -48,7 +48,7 @@ At the center, $1+j0$ means a perfect match to the reference. A point's distance
 
 #### Following a Transmission Line
 
-Draw a circle centered on the prime center through the load point. On an ideal lossless line, moving along the line changes reflection phase but not reflection magnitude. The impedance moves around that circle while SWR stays constant.
+To find what impedance the transmitter sees through a length of line, start at the load point. Draw a circle through it, centered on the prime center. Moving along an ideal lossless line changes reflection phase but not magnitude, so the impedance moves around that circle while SWR stays constant.
 
 > **Key Information:**
 > - Constant-SWR circles are a third family often added during matching-network design. {{< link id="E9G09" >}}
@@ -63,7 +63,7 @@ For a 100-ohm load on 50-ohm line, the normalized load is 2, on the horizontal a
 
 #### Placing a Matching Stub
 
-A parallel stub adds *admittance*, the reciprocal of impedance. Recall that parallel admittances add directly. Stub design therefore uses the chart's admittance interpretation to find a point where the real part is correct and a stub can cancel the remaining imaginary part.
+To add a parallel stub's effect to the main line's, work in *admittance*, the reciprocal of impedance. Parallel admittances add directly. The chart's admittance interpretation lets us find a point where the real part is correct and a stub can cancel the remaining imaginary part.
 
 > **Key Information:** A common Smith-chart use is finding the length and position of an impedance-matching stub. {{< link id="E9G05" >}}
 

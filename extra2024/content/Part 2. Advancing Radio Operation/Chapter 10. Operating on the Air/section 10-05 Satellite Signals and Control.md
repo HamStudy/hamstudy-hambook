@@ -8,11 +8,11 @@ draft: true
 
 ### Section 10.5: Satellite Signals and Control
 
-Tune across a linear satellite transponder's downlink and you may hear several separate contacts. The transponder relays a range of frequencies at once, so those narrow signals can share it while each keeps its own place in the passband. Unlike a single-channel voice repeater, it does not need to decode each user's modulation before forwarding it.
+Several contacts can share a linear transponder, each occupying part of its passband. To find your own downlink and keep it clear of the others, you need the transponder's frequency mapping as well as the satellite's band designation. An inverting transponder moves a signal downward on the downlink when you tune upward on the uplink.
 
 #### An Upside-Down Passband
 
-An inverting transponder applies the mixing process from Chapter 4. *It combines the uplink with a local oscillator and sends the appropriate difference product.* When the local oscillator is above the uplink, increasing the uplink frequency decreases that difference.
+That reversed tuning comes from frequency subtraction. *An inverting transponder mixes the uplink with a local oscillator and transmits the appropriate difference product.* With the oscillator above the uplink, increasing the uplink frequency decreases the difference.
 
 > **Key Information:** An inverting linear transponder mixes the uplink signal with a local oscillator and transmits the difference product. {{< link id="E2A03" >}}
 
@@ -31,19 +31,19 @@ A common operating convention is to receive USB and transmit LSB through an inve
 
 #### Share the Available Power
 
-Linearity lets the transponder preserve many kinds of modulation as long as their signals fit its passband. Technical capability and good operating practice are separate questions, though.
+To choose a mode, first check that its signal fits the passband and the satellite operator permits it. The linear relay preserves modulation without decoding each user's message, so *it can carry FM and CW, SSB and SSTV, or PSK and packet*. That technical capability does not give each signal unlimited access to the shared transmitter.
 
 > **Key Information:** A linear transponder can relay FM and CW, SSB and SSTV, and PSK and packet signals. {{< link id="E2A07" >}}
 
-That does not make every mode suitable for every satellite. Wide or high-duty-cycle signals can consume a large share of a transponder's resources; some satellite operators permit only specified modes. Check those instructions before transmitting.
+Wide or high-duty-cycle signals can consume a large share of the transponder's resources, so satellite operators may restrict the permitted modes.
 
-The satellite has a limited power supply and a shared transmitter. *A strong uplink can dominate its automatic level control, reducing the downlink power available to weaker users.* Raising power until you are the loudest station can make their contacts fail. You are sharing one spacecraft power budget with everyone else in the passband.
+The power limit protects those other contacts. *A strong uplink can dominate the transponder's automatic level control and reduce downlink power for weaker users*. Your station can sound louder while making their signals harder to copy, because all are sharing the spacecraft's power supply and transmitter.
 
 > **Key Information:** Limit effective radiated power to a satellite with a linear transponder to avoid reducing downlink power to all the other users. {{< link id="E2A08" >}}
 
 Use enough uplink power to hear a readable downlink and follow the operator's recommended reference level. Your transmitter's watt setting is only part of that decision; antenna gain also changes the power directed toward the satellite.
 
-Some satellites carry a different kind of relay. *They store digital messages in onboard memory. You could upload a message during your pass and let its recipient collect it on a later pass.* Sender and recipient do not need simultaneous access to the spacecraft.
+Sender and recipient may never share a satellite pass. *Digital store-and-forward holds uploaded messages in onboard memory for later download*, letting the recipient collect a message on a later pass instead of requiring simultaneous access.
 
 > **Key Information:** Digital store-and-forward holds messages in a satellite for later download. {{< link id="E2A12" >}}
 

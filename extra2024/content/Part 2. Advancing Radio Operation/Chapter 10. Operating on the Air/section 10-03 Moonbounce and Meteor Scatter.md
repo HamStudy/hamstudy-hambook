@@ -12,7 +12,7 @@ Meteor scatter may give you only a brief burst of signal. The Moon offers a much
 
 #### Catching a Meteor Burst
 
-Chapter 7 described the ionized trail that makes meteor scatter possible. MSK144 sends short messages repeatedly, giving a brief burst a chance to carry a complete decodable message. Waiting for one long, uninterrupted transmission would waste many of those openings.
+A meteor trail may support only part of a normal-length transmission. *MSK144 is designed for meteor scatter*: it repeats short messages so a brief burst has a chance to contain a complete decodable copy. Waiting for a long, uninterrupted opening would waste many usable trails.
 
 > **Key Information:** MSK144 is designed for meteor scatter communications. {{< link id="E2D01" >}}
 
@@ -20,7 +20,7 @@ Operators agree on the mode, frequency, and transmit periods. You may hear very 
 
 #### Recovering a Lunar Echo
 
-Earth–Moon–Earth communication, or EME, uses the Moon as a reflector. The losses make weak-signal decoding especially valuable. An unpromising stretch of hiss can still contain enough information for a usable decode. *JT65 encodes a compact message with error correction and represents it with a sequence of audio tones.* An SSB transmitter translates those tones to RF.
+On an Earth–Moon–Earth (EME) path, the reflected signal may arrive far below what you can copy by ear. *JT65 can decode at very low signal-to-noise ratios* by carrying a compact, error-protected message. *Its multitone AFSK represents that message with a sequence of audio tones*, which an SSB transmitter translates to RF.
 
 > **Key Information:**
 > - JT65 can decode signals with a very low signal-to-noise ratio. {{< link id="E2D05" >}}
@@ -28,7 +28,7 @@ Earth–Moon–Earth communication, or EME, uses the Moon as a reflector. The lo
 
 Its name does not mean a 65 Hz bandwidth or a 65-baud symbol rate. JT65 has also been used on terrestrial paths; it is not restricted to moonbounce.
 
-Q65 is another choice for very weak, changing signals. *It combines information from repeated receptions of the same message, so an individual period need not provide enough evidence for a decode on its own.*
+One receive period may still contain too little information for a decode. *Q65, designed for EME, can average multiple receptions of the same message*. Combining their evidence can recover a message that no single period reveals.
 
 > **Key Information:**
 > - Q65 is designed for EME communications. {{< link id="E2D03" >}}

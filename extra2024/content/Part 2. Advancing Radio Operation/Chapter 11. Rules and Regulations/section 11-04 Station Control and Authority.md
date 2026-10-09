@@ -8,11 +8,11 @@ draft: true
 
 ### Section 11.4: Station Control and Authority
 
-Remote control moves the controls away from the transmitter. The control operator remains responsible for the signal. The link must carry commands reliably, including the command to stop transmitting.
+At a remote station, a stop command travels through a link before the transmitter responds. Delay or link failure can leave the on-air state different from what the operator expects. The system must handle delayed or missing commands, and the control operator remains responsible for the signal.
 
 #### Follow a Command to the Radio
 
-Suppose you release push-to-talk at your computer. The command travels across a network before the remote radio responds. Your screen may already show “receive” while the command is still on its way. What matters on the air is when the transmitter actually changes state.
+A network command takes time to reach the radio. *Latency is the interval between the operator's action and the corresponding change in the transmitted signal*. The screen may already show “receive” while the command is still on its way, so the actual transmitter state is the relevant result.
 
 > **Key Information:** Latency is the delay between a control operator's action and the corresponding change in the transmitted signal. {{< link id="E2C12" >}}
 
@@ -30,7 +30,7 @@ Other call-sign rules still apply. For example, add the required upgrade indicat
 
 #### The Control Link and the Station Site
 
-Section 97.213 sets rules for remote control of an amateur station on or within 50 kilometers of Earth's surface. A radio control link must use an auxiliary station. A link through another telecommunications service counts as wireline under this rule. An *auxiliary station* carries messages within a group of amateur stations that work together. The link serves that system instead of carrying an ordinary contact between users.
+Choose the control link with its regulatory role in mind. Section 97.213 sets rules for remote control of an amateur station on or within 50 kilometers of Earth's surface. A radio control link must use an auxiliary station. A link through another telecommunications service counts as wireline under this rule. The auxiliary link carries messages within the cooperating station system rather than an ordinary contact between users.
 
 > **Key Information:** Only Technician, General, Advanced, or Amateur Extra operators may be control operators of auxiliary stations, subject to their license privileges. {{< link id="E1F10" >}}
 
@@ -50,7 +50,7 @@ A model-control transmitter is another telecommand use, with its own limit. Do n
 
 #### RACES Authority
 
-The Radio Amateur Civil Emergency Service, or RACES, authorizes amateur operation for civil defense. Local, remote, and automatic control describe how a station is controlled. RACES describes the authority under which it operates.
+A station used for civil defense needs the appropriate operating authority as well as a suitable control method. The Radio Amateur Civil Emergency Service, or RACES, supplies that framework. Local, remote, and automatic control describe how the station is controlled; RACES describes the authority under which it operates.
 
 > **Key Information:**
 > - Any FCC-licensed amateur station certified by the responsible civil-defense organization for the area served may operate under RACES rules. {{< link id="E1B09" >}}

@@ -12,7 +12,7 @@ Noise has clues: its spacing across the dial, its rhythm, and the equipment that
 
 #### Listen for a Pattern
 
-Digital electronics and switching power supplies contain repeating electrical activity. Harmonics of that activity can appear at many frequencies. The sound and spacing help narrow the search, though they do not identify a device with certainty.
+A regularly spaced series of signals suggests a repeating electrical source. Harmonics of switching activity appear at multiples of its frequency, so *switch-mode power supplies can produce carriers at regular intervals across a wide frequency range*. *Computer network equipment may instead produce unstable modulated or unmodulated signals at specific frequencies.* Use the pattern to choose what to test, without treating it as proof of the source.
 
 > **Key Information:**
 > - Computer network equipment can produce unstable modulated or unmodulated signals at specific frequencies. {{< link id="E4E06" >}}
@@ -28,7 +28,7 @@ Locating suspect utility equipment does not make it safe to touch. Report a loca
 
 #### Mixing Outside the Receiver
 
-Chapter 5 traced unwanted mixing inside receivers. Nonlinear junctions elsewhere can mix signals too. A corroded metal contact may act as a crude rectifier. *Strong broadcast signals reaching it can combine into new frequencies, which the metalwork then radiates.*
+An unwanted signal may remain even after receiver attenuation removes overload. Mixing can occur before the signal reaches your antenna: a corroded metal contact acts as a nonlinear junction, much like a crude rectifier. *Strong AM broadcast signals can mix at that contact and be reradiated as spurious MF or HF signals.*
 
 > **Key Information:** Nearby corroded metal connections can mix and reradiate AM broadcast signals, creating spurious signals on the MF or HF bands. {{< link id="E4E11" >}}
 
@@ -44,7 +44,7 @@ The termination absorbs the diverted energy. The circulator does not make that e
 
 #### Stop Noise Along Its Path
 
-A cable may carry unwanted RF as well as its intended signal. With differential-mode current, current goes out on one conductor and returns on another. *With common-mode current, the conductors carry RF in the same direction relative to their surroundings.* The return path lies elsewhere, so the cable can act as an antenna.
+A ferrite choke can suppress cable-borne interference only if it opposes the unwanted current's path. The intended differential current goes out on one conductor and returns on another. *Common-mode current flows in the same direction on the conductors relative to their surroundings; equal current on every conductor of an unshielded cable is common mode.* Its return path lies elsewhere, allowing the cable to act as an antenna.
 
 ![Two equivalent current-path circuits show an instant in an RF cycle. On the left, a source drives differential current I to the right along one conductor, through the load, and back to the left along the other conductor. On the right, a common-mode source drives equal currents I to the right along both conductors. Each conductor connects through a stray capacitance to an external return path below the pair. The currents combine into 2I, shown by a leftward arrow on the dashed return, and complete the circuit through the source. These drawings isolate the two current components; both may occur on a real cable.](../../../images/s9-3-current-paths.svg)
 {.img-centered .img-xlarge .img-mobile-full caption="Equivalent circuits at one instant: differential current (left) returns on the other conductor. Equal common-mode currents (right) return outside the pair, combining to 2I. The capacitors show one possible stray-capacitance path; the dashed return closes through the noise source. A real cable can carry both components."}
@@ -53,7 +53,7 @@ A cable may carry unwanted RF as well as its intended signal. With differential-
 > - Current flowing equally on all conductors of an unshielded multiconductor cable is common-mode current. {{< link id="E4E08" >}}
 > - Common-mode currents on the shield and conductors can cause shielded cables to radiate or receive interference. {{< link id="E4E07" >}}
 
-A shield is therefore not a guarantee of quiet operation. A ferrite choke adds impedance to unwanted RF current on a cable. Put suppression where it interrupts the coupling path, ideally close to the source before a long cable radiates the noise.
+*A shielded cable can still radiate or receive interference through common-mode currents on its shield and conductors.* Put the ferrite choke where its added RF impedance interrupts that path, ideally close to the source before a long cable radiates the noise. For noise conducted from a vehicle's battery charging system, *place chokes on the charging-system leads*. A line-driven AC motor instead calls for *a brute-force AC-line filter in series with its power leads*.
 
 > **Key Information:**
 > - Ferrite chokes on automobile battery charging-system leads can suppress conducted noise from that system. {{< link id="E4E04" >}}

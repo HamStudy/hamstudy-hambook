@@ -8,11 +8,11 @@ draft: true
 
 ### Section 2.2: Drawing Complex Impedance
 
-An antenna analyzer might report an impedance such as $50-j25\ \Omega$. The 50 looks familiar; the rest needs explaining. That reading gives us two pieces of information: resistance and reactance. A drawing will help us keep track of both.
+An antenna analyzer might report $50-j25\ \Omega$ rather than a single impedance value. The extra information lets us distinguish resistance from reactance and tell whether a load is inductive or capacitive. Plotting the reading gives us a way to see those differences and calculate their combined effect.
 
 #### Two Directions, One Impedance
 
-*Impedance*, written $Z$, describes how a circuit opposes AC, including the phase relationship between voltage and current. Resistance and reactance affect that phase differently, so we draw them in two directions rather than adding them along one line.
+Resistance and reactance affect phase differently, so we cannot add them along one line to find impedance $Z$. We draw them in two directions instead.
 
 *In rectangular coordinates, resistance $R$ runs along the horizontal axis.* *Reactance $X$ runs along the vertical axis.* A point such as $(50,-25)$ means “50 across, 25 down.” Both coordinates are in ohms.
 
@@ -34,7 +34,7 @@ Watch the labels here: *the graph's “X axis” is horizontal, while the quanti
 
 #### A Length and an Angle
 
-Start an arrow at the *origin*, where both axes read zero, and draw it to the impedance point. You can now describe that same point another way: how long is the arrow, and which way does it point? Its length is the impedance's *magnitude*, and its angle above or below the horizontal axis is the *phase angle*. *Describing the arrow by length and angle gives polar coordinates.*
+To find the total opposition to current and its phase angle, draw an arrow from the *origin*, where both axes read zero, to the impedance point. The arrow's length is the impedance's *magnitude*. Its angle above or below the horizontal axis is the *phase angle*. *Describing the arrow by length and angle gives polar coordinates.*
 
 > **Key Information:**
 > - Polar coordinates describe impedance by magnitude and phase angle, and are often used to display a circuit's phase angle. {{< link id="E5C02" >}} {{< link id="E5C08" >}}

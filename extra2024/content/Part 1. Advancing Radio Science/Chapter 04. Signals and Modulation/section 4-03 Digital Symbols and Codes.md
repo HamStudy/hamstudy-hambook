@@ -8,7 +8,7 @@ draft: true
 
 ### Section 4.3: Digital Symbols and Codes
 
-A receiver decoding digital data makes a series of choices: which state did the transmitter send this time? One signaling choice need not mean one bit. If the receiver can distinguish four possible states, each state can represent two bits: 00, 01, 10, or 11. This is the distinction between a *bit*, one binary digit, and a *symbol*, one signaling choice.
+Sending more bits need not mean changing the signal more often. We can give each symbol more possible states, provided the receiver can still tell them apart. The choices involve both modulation and coding: how states carry bits, how bits represent characters, and how the receiver handles mistakes.
 
 #### Counting Symbols
 
@@ -22,11 +22,11 @@ A two-state system sending 1,000 symbols per second carries 1,000 raw bits per s
 
 #### The Constellation Diagram
 
-Two sine waves can have the same frequency while being a quarter-cycle apart. They are in *quadrature*: 90 degrees out of phase. A modulator can vary each one's amplitude independently and add them. Their sum has a phase and amplitude determined by the two component values.
+QPSK carries bit pairs in four phase states at a common amplitude. To provide more symbol choices, *quadrature amplitude modulation, or QAM, varies amplitude as well as phase*. It does this by independently varying the amplitudes of two same-frequency carriers in quadrature—90 degrees apart—and adding them. Their two component values set the sum's amplitude and phase.
 
 > **Key Information:** QAM, or quadrature amplitude modulation, carries data by modulating the amplitudes of two carriers at the same frequency and 90 degrees apart in phase. {{< link id="E8C01" >}}
 
-A constellation diagram plots the possible combinations as points. Its horizontal axis represents the in-phase component; its vertical axis represents the quadrature component. *A point's distance from the center gives its amplitude, and its angle gives its phase.* QPSK, quadrature phase-shift keying, uses four phase states at a common amplitude. QAM can use several amplitudes as well as phases.
+A constellation diagram plots the possible combinations as points. Its horizontal axis represents the in-phase component; its vertical axis represents the quadrature component. *A point's distance from the center gives its amplitude, and its angle gives its phase.*
 
 ![Two constellation plots share in-phase I and quadrature Q axes. QPSK has four equally distant points around the origin, labeled 00, 01, 11, and 10 in order so neighboring states differ by one bit. The 16-QAM plot has sixteen points in a square grid at several distances and angles from the origin. A radius to a sample point represents amplitude; its angle from the positive I axis represents phase.](/images/s4-3-constellations.svg)
 {.img-centered .img-xlarge caption="Each dot is one possible symbol. QPSK carries two bits per symbol at a fixed amplitude; 16-QAM carries four bits per symbol and also uses different amplitudes. Radius A gives amplitude; angle φ gives phase. The I and Q axes are the two components, not two transmitted messages."}
@@ -43,7 +43,7 @@ The bit labels also matter. Ordinary binary counting from 01 to 10 changes both 
 
 #### Turning Text into Bits
 
-A character code assigns bit patterns to letters, numbers, and control functions. *The five-bit code commonly called Baudot in amateur radioteletype has only $2^5=32$ patterns.* *Two special patterns switch the interpretation of the following characters between letters and figures.* The same five-bit value can therefore mean a letter in one state and a number or punctuation mark in the other. Miss a shift code and a run of perfectly received bits can print as the wrong characters. The receiver needs the current shift state as well as the bits.
+*Baudot's five data bits provide only $2^5=32$ patterns*, too few to give every letter, number, punctuation mark, and control function a separate one. *Two special patterns switch the interpretation of following characters between letters and figures*, allowing the code to reuse its patterns. The same five-bit value can therefore mean a letter in one state and a number or punctuation mark in the other. Miss a shift code and a run of perfectly received bits can print as the wrong characters. The receiver needs the current shift state as well as the bits.
 
 ASCII has a larger set of patterns. *Standard ASCII uses seven data bits; extended character sets use eight.* *It does not need the letters/figures shifts used by Baudot.*
 
@@ -53,12 +53,12 @@ ASCII has a larger set of patterns. *Standard ASCII uses seven data bits; extend
 
 #### Detect, Request, or Repair
 
-A parity bit adds a quick check. With even parity, the sender chooses the extra bit so the total number of ones is even. If one bit changes in transit, the receiver counts an odd number and knows an error occurred. Two flipped bits can escape this check, and parity alone does not identify which bit is wrong.
+To check an ASCII character for a damaged bit, the sender can add a *parity bit*. With even parity, the sender chooses the extra bit so the total number of ones is even. If one bit changes in transit, the receiver counts an odd number and knows an error occurred. Two flipped bits can escape this check, and parity alone does not identify which bit is wrong.
 
 > **Key Information:** Parity bits allow some types of errors in ASCII characters to be detected. {{< link id="E8D06" >}}
 
-Detection leaves a decision. *Automatic repeat request, or ARQ, asks the other station to send damaged information again.* It needs a return path and time for the repeat.
+Detection alone does not repair the character. *Automatic repeat request, or ARQ, asks for damaged information again*, which requires a return path and time for the repeat.
 
 > **Key Information:** ARQ corrects errors by requesting retransmission when errors are detected. {{< link id="E8C08" >}}
 
-Forward error correction, or FEC, takes another approach. The sender adds structured check information that lets the receiver correct some errors without requesting a repeat. The added bits consume capacity, but can keep a link working when repeats would be slow or impossible. Error detection, ARQ, and FEC do different jobs even when one protocol combines them.
+When repeats would be slow or impossible, forward error correction (FEC) spends more capacity on structured check information instead. It lets the receiver repair some errors without a return request. Error detection, ARQ, and FEC do different jobs even when one protocol combines them.

@@ -6,6 +6,6 @@ pagebreak: true
 
 ## Chapter 9: Station Tools and Techniques
 
-A bigger number is not always better at the operating desk. More gain can make a receiver harder to use, and a full-power transmitter can still have an untidy signal. The useful reading is the one that tells you what to change. Sometimes the best tool is a spectrum analyzer; sometimes it is a notebook and a few minutes switching suspected noise sources off.
+A station can have enough power and a good antenna match yet still struggle to complete a contact. A battery may run down sooner than expected, receiver overload may hide a weak signal, or distortion may spread a transmission beyond its intended bandwidth. Each problem calls for a different measurement.
 
-This chapter follows that work from the operating desk to the bench. The tools differ, but the habit stays the same: decide what you need to know, choose a suitable test, and check what the test itself might change.
+We will use operating time and signal-level calculations to set expectations, then use listening tests and instruments to find where actual performance falls short. At the bench, that means looking beyond a meter reading: account for the instrument's effect on the circuit, separate reflection from transmission, and check where the transmitter's power appears in the spectrum.

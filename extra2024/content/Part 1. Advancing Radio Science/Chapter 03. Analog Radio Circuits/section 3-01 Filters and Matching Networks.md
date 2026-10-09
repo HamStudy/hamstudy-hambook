@@ -8,7 +8,7 @@ draft: true
 
 ### Section 3.1: Filters and Matching Networks
 
-A radio seldom wants every signal that reaches a circuit. It may need to pass one band, reject a nearby transmitter, or keep an amplifier's harmonics away from the antenna. A network of reactive components can do that filtering while also changing the impedance seen by the source.
+An amplifier's output network may need to do two jobs at once: present the right load to the amplifier and keep harmonics away from the antenna. The same reactive components can do both. Choosing their arrangement and values determines the impedance match and which frequencies pass.
 
 #### Matching While Filtering
 
@@ -18,7 +18,7 @@ An impedance-matching network can make a complex load look like the resistance a
 
 Ideally, inductors and capacitors accomplish this without dissipating the transferred power. They change the relationship between input voltage and current. Because their reactances change with frequency, the match and the amount of signal passed also change with frequency.
 
-A *low-pass filter* passes lower frequencies and attenuates higher ones. In a low-pass *Pi-network*, the drawing resembles the Greek letter $\pi$: two branches to ground and one component joining the input to the output.
+For a low-pass match, a *Pi-network* uses two branches to ground and one component joining input to output. The drawing resembles the Greek letter $\pi$.
 
 > **Key Information:** A low-pass Pi-network has a capacitor from input to ground, another capacitor from output to ground, and an inductor between input and output. {{< link id="E7C01" >}}
 
@@ -28,7 +28,7 @@ A *low-pass filter* passes lower frequencies and attenuates higher ones. In a lo
 
 > **Key Information:** A T-network with series capacitors and a shunt inductor has a high-pass response. {{< link id="E7C02" >}}
 
-Nonlinear transmitter circuits can produce *harmonics*, signals at whole-number multiples of the desired fundamental frequency. For a 7 MHz fundamental, the second and third harmonics are 14 and 21 MHz. A low-pass output network can pass 7 MHz while suppressing those higher-frequency products.
+At a 7 MHz fundamental, the second and third harmonics are 14 and 21 MHz. A low-pass output network can pass 7 MHz while suppressing those products of nonlinear transmitter circuits. If a Pi-network does not provide enough suppression, an extra inductor can strengthen its filtering.
 
 > **Key Information:** A Pi-L network is a Pi-network with an additional series inductor at the output. That inductor provides greater harmonic suppression. {{< link id="E7C07" >}} {{< link id="E7C03" >}}
 
@@ -39,7 +39,7 @@ Nonlinear transmitter circuits can produce *harmonics*, signals at whole-number 
 
 #### Reading the Response
 
-A filter's *passband* is the frequency range it is intended to pass. Its *stopband* is the range it is intended to reject. The transition between them has a finite width; a real filter does not go from full transmission to complete rejection at one exact frequency.
+A nearby unwanted signal can fall in the transition between a filter's passband and its *stopband*, the range intended for rejection. The width of that transition determines how close the unwanted signal can be before the filter struggles to separate it from the wanted one.
 
 The vertical scale on a response graph often spans a huge range of power. Decibels make that range manageable. A power ratio expressed in decibels is
 
@@ -51,7 +51,7 @@ A ratio of one gives 0 dB; a ratio of ten gives +10 dB; a ratio of one-tenth giv
 
 *A Y axis marked in equal decibel steps is logarithmic in power*: each 10 dB step represents another factor of ten. A curve falling from −20 to −40 dB therefore passes one-hundredth as much power at the second point as at the first.
 
-Filter families make different tradeoffs. *Ripple* is variation in response within a band. A Butterworth response is flat in its passband; other designs accept ripple to obtain a sharper transition.
+A steeper transition can improve separation of nearby signals, but it may come with *ripple*: variation in response within a band. A Butterworth response keeps the passband flat; other filter families accept ripple to obtain a sharper transition.
 
 > **Key Information:**
 > - A Chebyshev filter has passband ripple and a sharp cutoff. {{< link id="E7C05" >}}
@@ -62,19 +62,21 @@ A *notch* is a narrow region of especially strong rejection. On a response graph
 ![Three illustrative low-pass response graphs have gain in decibels on the vertical axis and frequency increasing to the right. Butterworth has a flat passband and a smooth fall. Chebyshev has small passband ripples and a steeper fall. Elliptic has passband ripple, a sharp fall, and deep notches in its stopband. Lower on each graph means stronger rejection.](../../../images/s3-1-filter-responses.svg)
 {.img-centered .img-xlarge caption="Typical low-pass response shapes. The small passband ripples and deep stopband notches are different features."}
 
-A filter's *shape factor* compares its bandwidth at two stated attenuation levels, commonly the wider bandwidth at 60 dB down divided by the bandwidth at 6 dB down. A ratio closer to one means steeper sides.
+Two filters can have the same 3 kHz passband yet behave differently when a strong station sits just outside it. *Shape factor* compares the widths of their responses at two stated attenuation levels, commonly the bandwidth at 60 dB down divided by the bandwidth at 6 dB down. A ratio closer to one means steeper sides.
 
 > **Key Information:** Shape factor measures a filter's ability to reject signals in adjacent channels. {{< link id="E7C11" >}}
 
-For example, a filter 3 kHz wide at 6 dB down and 6 kHz wide at 60 dB down has a shape factor of $6/3=2$. Two filters can have the same 3 kHz passband yet behave quite differently when a strong station is just outside it. Shape factor tells you how quickly the sides fall away.
+For example, a filter 3 kHz wide at 6 dB down and 6 kHz wide at 60 dB down has a shape factor of $6/3=2$.
 
 #### Choosing a Resonator
 
-Different physical resonators suit different frequencies and power levels. Quartz crystals provide very sharp resonance for low-level signals. Helical resonators use a coil inside a conducting enclosure. Cavity resonators store RF energy in a conducting chamber and can separate closely spaced transmit and receive signals.
+When a filter uses resonators, choose ones suited to its signal level and frequency. Quartz crystals provide very sharp resonance for low-level signals in a small circuit-board package. *Helical resonators use a coil inside a conducting enclosure and serve VHF/UHF band-pass and notch-filter roles.*
+
+A repeater places a much greater demand on its filters: its *duplexer* lets the transmitter and receiver share an antenna while isolating their frequencies. Cavity resonators store RF energy in conducting chambers, providing the separation and power handling that this job requires.
 
 > **Key Information:**
 > - A crystal lattice filter is a filter for low-level signals made using quartz crystals. {{< link id="E7C09" >}}
 > - Helical filters are frequently used as band-pass or notch filters in VHF and UHF transceivers. {{< link id="E7C08" >}}
 > - A 2-meter repeater duplexer uses cavity filters. {{< link id="E7C10" >}}
 
-A *duplexer* lets a repeater's transmitter and receiver share an antenna while isolating their frequencies. That demanding job needs both the proper response shape and suitable power handling. A receiver crystal filter is small enough to fit on a circuit board. A repeater cavity has to handle a very different job, including the transmitter's power. Choosing a filter means choosing its physical limits as well as its response curve.
+A small receiver crystal filter and a repeater cavity therefore solve different problems. Choose the filter's physical limits as carefully as its response curve.

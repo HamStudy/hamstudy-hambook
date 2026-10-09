@@ -8,7 +8,7 @@ draft: true
 
 ### Section 3.3: Operational Amplifiers
 
-A very large amplifier gain sounds useful until a tiny input error drives the output to its limit. An operational amplifier makes that large gain useful by applying negative feedback. External components then set a predictable gain or filter response.
+A small DC or audio signal may need substantial amplification without drawing much current from its source. *An operational amplifier provides high gain and high input impedance.* Negative feedback makes that gain predictable, allowing external components to set the response rather than relying on the amplifier's gain alone.
 
 #### Amplifying a Difference
 
@@ -18,25 +18,25 @@ An *operational amplifier*, or *op-amp*, has two inputs. A positive change at th
 
 *Direct-coupled* means its internal signal path can amplify DC as well as changing signals. *Differential* means it amplifies a difference. High input impedance draws little current from the signal source; low output impedance allows the output to hold its voltage while supplying load current within its rating.
 
-An ideal op-amp is a mathematical model without real-world limits. *Its gain does not fall as frequency rises.*
+The needed gain must hold across the signal's frequency range. In the ideal op-amp model, that is never a problem: *gain does not fall as frequency rises*. Real devices have limits.
 
 > **Key Information:** The gain of an ideal operational amplifier does not vary with frequency. {{< link id="E7G08" >}}
 
-Real op-amps do have limits. With no external feedback, their *open-loop gain* falls at higher frequencies. The usable gain of a feedback circuit must fit within that response.
+With no external feedback, a real op-amp's *open-loop gain* falls at higher frequencies. The usable gain of a feedback circuit must fit within that response.
 
 > **Key Information:** The op-amp gain-bandwidth value in the exam is the frequency at which open-loop gain equals one. {{< link id="E7G06" >}}
 
 *This is the unity-gain frequency: unity means a gain of one.* For many common op-amps, gain multiplied by bandwidth is approximately constant over much of the useful range. Ask the circuit for more gain and it can keep up over a smaller range of frequencies. The exact relationship depends on the device and its feedback circuit.
 
-Tiny internal mismatches create another departure from the ideal model. Even when both inputs have the same voltage, the output may tend toward one direction. *A small differential correction would be needed to bring it to zero.*
+When measuring a millivolt, a millivolt of error inside the amplifier can obscure the signal. Tiny internal mismatches can make the output tend toward one direction even when both inputs have the same voltage. *A small differential correction would be needed to bring it to zero.*
 
 > **Key Information:** Input offset voltage is the differential input voltage needed to bring the open-loop output voltage to zero. {{< link id="E7G04" >}}
 
-Offset matters most when the desired DC signal is itself small. If you are trying to measure a millivolt, an input error of a millivolt is no small detail. Offset describes the amplifier's own imbalance, not the normal signal being amplified.
+Offset describes the amplifier's own imbalance, not the normal signal being amplified. It matters most when the desired DC signal is small.
 
 #### The Inverting Circuit
 
-Figure E7-3 connects the non-inverting input to ground. R1 carries the input signal to the inverting input, and $R_F$ returns the output to that same point.
+To set the gain with resistors, Figure E7-3 returns part of the output to the inverting input through $R_F$. R1 carries the input signal to that same point, while the non-inverting input connects to ground.
 
 ![Official Figure E7-3 shows an inverting op-amp. R1 connects the input to the minus input. RF connects the output back to the minus input, forming negative feedback. The plus input is grounded. In the ideal operating model, gain is minus RF divided by R1.](../../../hugo/static/figures/E7-3.svg)
 {.img-centered .img-xlarge .img-bw caption="Figure E7-3: Negative feedback sets the inverting gain."}
@@ -69,7 +69,7 @@ These calculations assume suitable power supplies and operation within the op-am
 
 #### Frequency-Dependent Feedback
 
-Place a capacitor across $R_F$. At low frequencies it has high reactance, leaving the resistor to set gain. At higher frequencies its reactance falls and the effective feedback impedance decreases. Since gain magnitude depends on feedback impedance divided by R1, gain falls with frequency.
+If we want less gain at high frequencies, the feedback path can do the filtering. Place a capacitor across $R_F$. Its high reactance at low frequencies leaves the resistor to set gain. At higher frequencies its reactance falls and the effective feedback impedance decreases. Since gain magnitude depends on feedback impedance divided by R1, gain falls with frequency.
 
 > **Key Information:** Adding a capacitor across the feedback resistor in Figure E7-3 makes a low-pass filter. {{< link id="E7G02" >}}
 

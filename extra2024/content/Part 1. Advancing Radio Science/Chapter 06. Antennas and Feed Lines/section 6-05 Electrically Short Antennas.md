@@ -8,7 +8,7 @@ draft: true
 
 ### Section 6.5: Electrically Short Antennas
 
-A short whip makes an HF installation possible where a full-sized antenna will not fit. You can bring it to resonance, but that does not give it the efficiency of a full-sized antenna. Loading fixes the reactance. The remaining radiation resistance and loss resistance decide where the accepted power goes.
+Once a short whip resonates on the chosen HF band, there is still useful work to do. Coil loss, coil position, and current distribution determine how much of the accepted power it radiates. Improving those can help a compact antenna without making it full-sized.
 
 #### Resonance Without Full Size
 
@@ -18,11 +18,11 @@ A base-fed whip used below its natural resonant frequency is electrically short 
 
 For example, a radiation resistance of 2 ohms with 8 ohms of loss gives $2/(2+8)=20\%$ efficiency. If radiation resistance falls to 1 ohm while losses stay at 8 ohms, efficiency becomes $1/9\approx11\%$. Low feed resistance by itself is not a sign of good performance.
 
-A loading coil supplies inductive reactance. If the short antenna has $-j200\ \Omega$ of capacitive reactance, a suitable coil supplies $+j200\ \Omega$ to cancel it at the design frequency.
+The loading coil cancels that capacitive reactance: for $-j200\ \Omega$ at the antenna, it supplies $+j200\ \Omega$ at the design frequency.
 
 > **Key Information:** A loading coil resonates an electrically short antenna by canceling capacitive reactance. {{< link id="E9D09" >}}
 
-The coil does not replace a missing length of straight radiating wire. It stores magnetic energy, and its resistance also dissipates some power. For a required reactance, lower coil resistance means less heating.
+After choosing the needed reactance, compare coil losses. The coil stores magnetic energy rather than replacing the missing length of radiating wire, and its resistance dissipates power. Lower resistance gives the same tuning effect with less heating.
 
 > **Key Information:** Loading coils should have a high reactance-to-resistance ratio to maximize efficiency. {{< link id="E9D04" >}}
 
@@ -40,7 +40,7 @@ A *capacity hat* adds conducting area at the top. This top loading lets more cur
 
 #### A Narrow Match
 
-A small loaded antenna stores substantial energy compared with the energy it radiates or loses each cycle. That means high antenna Q. Its reactance changes rapidly as frequency moves away from resonance, so the feed impedance departs from the matched value over a relatively small frequency range.
+An efficient loading system can still need frequent retuning as you move across a band. A small loaded antenna stores substantial energy compared with what it radiates or loses each cycle, giving it high antenna Q. Its reactance then changes rapidly away from resonance, so the match holds over a relatively narrow frequency range.
 
 > **Key Information:**
 > - Increasing antenna Q decreases SWR bandwidth. {{< link id="E9D08" >}}

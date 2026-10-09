@@ -8,7 +8,7 @@ draft: true
 
 ### Section 4.1: Spectra, Mixing, and SSB
 
-An oscilloscope and a spectrum display can show the same signal and appear to disagree. One draws voltage against time; the other shows how much of each frequency is present. Neither has changed the signal. They reveal different parts of its story.
+To see which frequencies a filter must pass or remove, we need a spectrum as well as a waveform. An oscilloscope plots voltage against time; a spectrum display separates the same signal into frequency components. The two views let us connect a waveform's shape to the frequencies it occupies.
 
 #### Frequencies in a Waveform
 
@@ -23,7 +23,7 @@ Analysis finds components already present. A mixer does something different: it 
 
 #### Moving a Message Onto RF
 
-Your microphone produces an electrical version of your voice. It contains audio frequencies, not yet a radio channel. *That original message occupies a range called baseband.*
+*Microphone audio occupies the message's baseband: its frequency range before modulation.* Moving that spectrum onto RF creates the sidebands. The filter after a mixer must select the wanted conversion and reject other output components.
 
 > **Key Information:**
 > - Baseband is the frequency range occupied by a message signal before modulation. {{< link id="E7E07" >}}
@@ -31,15 +31,15 @@ Your microphone produces an electrical version of your voice. It contains audio 
 
 Suppose a mixer receives 10 MHz and 1 MHz. Its output can contain 10 MHz, 1 MHz, 11 MHz, and 9 MHz. A following filter selects the wanted result. Balanced mixers suppress some of these components, but the sum-and-difference relationship still explains frequency conversion.
 
-Mixing a carrier with speech produces many sums and differences because speech contains many frequencies. The sums form an upper sideband; the differences form a lower sideband. In ordinary amplitude modulation, or AM, the transmitter sends both sidebands and the carrier. The RF amplitude rises and falls with the audio. The outline of those rapid RF cycles is the *envelope*.
+Mixing a carrier with speech produces upper-sideband sums and lower-sideband differences for each audio frequency. Ordinary AM sends both sidebands and the carrier, with an envelope that follows the audio.
 
-A diode conducts more readily in one direction than the other, so *it rectifies the RF.* *A resistor-capacitor network then smooths the rapid carrier cycles while following the slower envelope.* With a properly formed AM signal, that envelope recovers the audio.
+To recover that audio, an envelope detector must discard the rapid RF cycles while retaining their slower amplitude changes. *A diode rectifies the RF, then a resistor-capacitor network smooths the carrier cycles while following the envelope.* For a properly formed AM signal, the result reproduces the audio.
 
 > **Key Information:** A diode envelope detector works by rectifying and filtering RF signals. {{< link id="E7E10" >}}
 
 #### Sending One Sideband
 
-Both AM sidebands carry the same message. Single sideband, or SSB, sends one of them and usually suppresses the carrier as well. *A balanced modulator first produces double-sideband suppressed-carrier energy. A filter removes the unwanted sideband.*
+To generate SSB, we need to remove the carrier and one of the two sidebands carrying the same message. *A balanced modulator produces double-sideband suppressed-carrier energy, then a filter removes the unwanted sideband.*
 
 At the receiver, there is no strong transmitted carrier for an envelope detector to follow. *A product detector mixes the received sideband with a locally generated carrier.* The difference frequencies reproduce the audio. Tune that local carrier incorrectly and the recovered voice shifts in pitch. As you tune across an SSB voice, listen for that change: the receiver is changing the difference between the incoming sideband and its own carrier.
 
@@ -49,7 +49,7 @@ At the receiver, there is no strong transmitted carrier for an envelope detector
 
 #### Speech Has Peaks and Pauses
 
-An SSB transmitter's power follows the voice. A loud syllable demands much more power than a pause. Peak envelope power, or PEP, measures average RF power over one RF cycle at the crest of the modulation envelope. It is not the average power over a whole sentence.
+An SSB transmitter must handle speech peaks even though its average output is lower. PEP measures the RF-cycle average at the envelope's crest; an average-power reading over a whole sentence includes the quieter syllables and pauses. The ratio between those readings depends on the voice.
 
 > **Key Information:**
 > - An unprocessed SSB phone signal has an approximate PEP-to-average-power ratio of 2.5 to 1. {{< link id="E8A06" >}}

@@ -8,11 +8,11 @@ draft: true
 
 ### Section 10.4: Satellite Orbits and Links
 
-For a low-orbit satellite, the useful contact window may pass while you are still deciding where to point. Prepare from the orbit data: when it rises, where it crosses the sky, and when it sets. Then check the radio link it actually offers.
+A predicted satellite pass is useful only if the orbit data is current and the station is ready for the link it offers. Planning therefore joins two tasks: follow the spacecraft's path and prepare the permitted uplink, downlink, and antenna arrangement.
 
 #### Predict the Pass
 
-Tracking software uses a mathematical description of the orbit along with your location and the time. *The elements describe the orbit and the satellite's place in it at a stated time.* The program works forward from there to predict a pass. Old data can put the predicted pass in the wrong place or at the wrong time, so use a current set.
+To predict when and where to aim, tracking software works forward from *Keplerian elements: parameters defining the orbit and the satellite's place in it at a stated time*. Combined with your location and the time, they produce the pass prediction. An old set can put that prediction in the wrong place or at the wrong time.
 
 > **Key Information:**
 > - Keplerian elements are parameters that define a satellite's orbit. {{< link id="E2A06" >}}
@@ -23,14 +23,14 @@ Tracking software uses a mathematical description of the orbit along with your l
 
 #### Read the Band Designation
 
-An *uplink* goes from your Earth station to the satellite. A *downlink* comes from the satellite to Earth. *Satellite descriptions often use “mode” to identify those two frequency bands*, which is different from selecting FM or SSB on your radio.
+The band designation tells you which transmit and receive equipment to prepare. *A satellite's “mode” gives the uplink band first and the downlink band second*. This use of mode describes the link's frequencies, not its FM or SSB modulation.
 
 > **Key Information:**
 > - A satellite's mode specifies its uplink and downlink frequency bands. {{< link id="E2A04" >}}
 > - The letters in a mode designator specify the uplink and downlink frequency ranges, in that order. {{< link id="E2A05" >}}
 > - In satellite band designations, L band is 23 centimeters and S band is 13 centimeters. {{< link id="E2A09" >}}
 
-For example, U/V means an uplink in the 70-centimeter band and a downlink in the 2-meter band. *L/S puts the 23-centimeter uplink first and the 13-centimeter downlink second.* The letters narrow the search; the satellite's published operating information supplies the actual frequencies, signal modes, and current availability. “U/V” tells you which bands to prepare, not which buttons to press to select SSB or FM.
+The U/V designation pairs a 70-centimeter uplink with a 2-meter downlink. *L/S extends the same convention to a 23-centimeter uplink and a 13-centimeter downlink.* Check the satellite's published information for actual frequencies, modulation, and current availability.
 
 #### Check Both Ends of the Link
 
@@ -51,7 +51,7 @@ No special AMSAT qualification is needed to be an ordinary satellite user. *Your
 
 #### Keep Polarization from Stealing the Signal
 
-A satellite's spin may rotate its antenna relative to yours, producing *spin modulation*: a changing signal level caused by changing antenna alignment. Faraday rotation in the ionosphere can also rotate linear polarization. *A circularly polarized antenna is less sensitive to that changing linear orientation.*
+Correct pointing may not prevent spin fading: the spacecraft's antenna can keep changing its alignment relative to yours. Faraday rotation can also turn linear polarization as the signal crosses the ionosphere. *Circular polarization reduces sensitivity to those changing orientations, minimizing the effects of spin modulation and Faraday rotation*.
 
 > **Key Information:** A circularly polarized antenna can minimize the effects of spin modulation and Faraday rotation. {{< link id="E2A11" >}}
 

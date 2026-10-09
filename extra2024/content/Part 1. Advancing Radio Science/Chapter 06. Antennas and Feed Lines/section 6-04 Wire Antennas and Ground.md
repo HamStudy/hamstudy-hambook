@@ -8,11 +8,11 @@ draft: true
 
 ### Section 6.4: Wire Antennas and Ground
 
-Two builders can start with similar lengths of wire and end up with very different loads for their feed lines. The connection point and nearby conductors change how current divides and where voltage is high. Ground then changes both the pattern and the loss.
+Keeping a wire antenna's length fixed still leaves several ways to change its feed impedance and pattern. We can add a parallel conductor, move the feed point, or make a feed-line section part of the design. The current distribution connects these choices to the resulting match; height and ground add their own effects.
 
 #### Variations on the Dipole
 
-A half-wave dipole has a current maximum near its center and high voltage near its ends. *A folded dipole adds a second parallel wire, connected to the first at both ends.* The feed point remains at the center of one wire. This is not a dipole whose tips have been bent downward.
+To obtain a higher feed resistance while keeping roughly a half-wave span, a *folded dipole adds a second parallel wire, connected to the first at both ends.* The feed point remains at the center of one wire. This is not a dipole whose tips have been bent downward.
 
 > **Key Information:**
 > - A folded dipole is a half-wave dipole with an additional parallel wire connecting its ends. {{< link id="E9C08" >}}
@@ -23,7 +23,7 @@ A half-wave dipole has a current maximum near its center and high voltage near i
 
 For equal-sized closely spaced wires, current divides between the two conductors in a way that gives roughly four times an ordinary dipole's feed resistance. *Using about 75 ohms for the ordinary dipole gives about 300 ohms for the folded version.* Its actual installed impedance still responds to height and surroundings.
 
-An off-center-fed dipole uses a different connection point. *At suitable locations, the voltage-to-current ratio is similar on several harmonically related bands, making one matching arrangement useful on those bands.*
+Another goal is to use one matching arrangement on several bands. An off-center-fed dipole takes advantage of the changing voltage-to-current ratio between a dipole's current maximum near the center and its high-voltage ends. *At suitable locations, the voltage-to-current ratio is similar on several harmonically related bands, making one matching arrangement useful on those bands.*
 
 > **Key Information:** An off-center-fed dipole is fed between its center and an end to create similar feed point impedances on multiple bands. {{< link id="E9C05" >}}
 
@@ -31,13 +31,13 @@ Moving the feed point does not make the antenna resonant at every frequency. It 
 
 #### The Feed Section
 
-*A G5RV combines a center-fed wire with a particular length of open-wire line, followed by a transition to coax.* The open-wire section transforms impedance, so changing it changes the antenna system's behavior. *A balun at the transition connects the balanced line to the unbalanced coax.*
+Feed-line transformation offers another way to make a wire antenna useful on several bands. *A G5RV combines a center-fed wire with a particular length of open-wire line, followed by a transition to coax.* The open-wire section transforms impedance, so changing it changes the antenna system's behavior. *A balun at the transition connects the balanced line to the unbalanced coax.*
 
 > **Key Information:** A G5RV is a wire antenna center-fed through a specific length of open-wire line connected to a balun and coaxial feed line. {{< link id="E9C09" >}}
 
 Treat that open-wire section as part of the antenna design when you build a G5RV. Cutting it to use up a convenient scrap of line changes the match. An antenna tuner may still be needed on the chosen band.
 
-*A Zepp feeds a half-wave radiator at an end, where impedance is high.* *The extended double Zepp is a different form: a center-fed wire whose total length is 1.25 wavelengths.* Each side is five-eighths of a wavelength.
+When the feed line needs to reach an end of the wire, *a Zepp provides an end-fed half-wave radiator with high feed impedance.* *The extended double Zepp is a different form: a center-fed wire whose total length is 1.25 wavelengths.* Each side is five-eighths of a wavelength.
 
 > **Key Information:**
 > - A Zepp is an end-fed half-wavelength dipole. {{< link id="E9C10" >}}
@@ -47,7 +47,7 @@ Those names alone do not supply a match to 50-ohm coax. Feed systems must handle
 
 #### More Wire Means More Lobes
 
-A wire many wavelengths long no longer has the broad two-lobed pattern of a half-wave dipole. Different sections carry currents with different phases. Their fields reinforce some directions and cancel in others.
+Extending a wire well beyond a half wavelength changes where to aim it. Different sections carry currents with different phases, so their fields reinforce new directions and cancel in others. The broad two-lobed dipole pattern develops more lobes.
 
 > **Key Information:** As an unterminated long wire becomes longer, additional lobes form and the major lobes move closer to the wire's axis. {{< link id="E9C04" >}}
 
@@ -78,4 +78,4 @@ The ground also carries current for a ground-mounted vertical. Ordinary soil is 
 > - Soil conductivity determines ground losses for a ground-mounted HF vertical. {{< link id="E9A11" >}}
 > - Installing ground radials improves the efficiency of a ground-mounted quarter-wave vertical. {{< link id="E9A10" >}}
 
-An improved ground system may change the feed resistance and SWR. That change can be evidence of reduced loss, even if a matching adjustment becomes necessary. If adding radials raises the SWR, do not assume you have made the antenna worse. Less ground heating can change the feed resistance; readjust the match and assess the whole system.
+Reducing ground loss can change the feed resistance and raise SWR, even as more power radiates. If adding radials has that result, readjust the match before judging the change. The SWR reading alone does not measure efficiency.

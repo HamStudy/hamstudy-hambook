@@ -8,7 +8,7 @@ draft: true
 
 ### Section 11.6: Operating Across Borders
 
-Calling an amateur abroad raises questions about what you may say. Operating while you are abroad raises more: which country permits your station to operate, and what does it allow?
+Talking to a station in another country and operating a radio there call for different checks. The contact must carry permitted messages. To operate there, you also need authorization and must follow the host country's operating limits.
 
 #### Contacting a Foreign Station
 
@@ -20,7 +20,7 @@ For third-party traffic, apply the separate arrangements discussed in the previo
 
 #### Operating While Traveling
 
-Before packing a transmitter, check whether the country you will visit recognizes your license. Find out which bands and modes you may use, which documents to bring, and how to identify. Check these details before you arrive with a charged battery and an antenna ready to go. Your US band privileges do not travel unchanged.
+Before packing a transmitter, identify the route to operating permission for the country you will visit. An agreement may let you use your home license, or you may need a permit. Confirm the recognized license class, permitted bands and modes, documents, and identification format; US band privileges do not travel unchanged.
 
 > **Key Information:** CEPT allows eligible FCC-licensed US citizens to operate in many European countries and eligible amateurs from many European countries to operate in the United States. {{< link id="E1C11" >}}
 
@@ -40,7 +40,7 @@ Check that your destination takes part, and get the required permit before using
 
 #### A Canadian License in the United States
 
-An eligible visitor may operate under the US–Canadian reciprocal arrangement. *Start with the Canadian license's terms, then apply the US rules.* Both sets of limits matter. Use the privileges they have in common rather than choosing whichever rule is more generous.
+For a Canadian licensee visiting the United States, the reciprocal arrangement requires a comparison of privileges. *Start with the Canadian license's terms, then apply the US rules.* Both sets of limits matter. Use the privileges they have in common rather than choosing whichever rule is more generous.
 
 > **Key Information:** A person operating in the United States under a Canadian amateur license has that license's operating terms and conditions, not exceeding US Amateur Extra privileges. {{< link id="E1F02" >}}
 
@@ -48,7 +48,7 @@ For example, permission to use a mode at home does not let a visitor use it wher
 
 #### Aboard a Vessel or Aircraft
 
-*Aboard a US-registered vessel in international waters, your US amateur license supplies the amateur operating privileges.* You do not need a marine endorsement or a separate commercial operator permit for that amateur operation.
+Shipboard operation combines amateur licensing with the authority of the person in command of the vessel. *Aboard a US-registered vessel in international waters, your US amateur license supplies the amateur operating privileges.* You do not need a marine endorsement or a separate commercial operator permit for that amateur operation.
 
 > **Key Information:**
 > - Any FCC-issued amateur license meets the amateur licensing requirement aboard a US-registered vessel in international waters, within that license's privileges. {{< link id="E1A11" >}}

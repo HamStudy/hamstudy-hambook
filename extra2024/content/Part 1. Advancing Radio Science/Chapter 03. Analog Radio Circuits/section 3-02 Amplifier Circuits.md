@@ -8,7 +8,7 @@ draft: true
 
 ### Section 3.2: Amplifier Circuits
 
-An amplifier uses a small signal to control power from a DC supply. To reproduce the signal faithfully, the active device needs room to move in both directions. Its bias sets that starting point; its circuit arrangement determines where the input and output connect.
+An amplifier that clips one side of a waveform changes the signal it was meant to strengthen. Bias sets the room available for the signal to swing. The circuit arrangement determines where the input and output connect, whether the signal inverts, and how much current the driving stage must supply.
 
 #### Reading a Transistor Stage
 
@@ -30,29 +30,29 @@ R3 then helps stabilize the resting current. If emitter current rises, the volta
 
 In a common-emitter stage, increased collector current creates a larger drop across the collector resistor, pulling collector voltage down. The voltage signal is therefore inverted.
 
-An *emitter follower*, also called a common-collector amplifier, takes its output from the emitter instead. Its voltage gain is near one, but it can provide current gain and isolate a signal source from a load. A gain of one is useful when the source already has enough voltage but cannot supply the current the load needs. *The emitter follows the base's voltage changes without reversing them.*
+Sometimes the source has enough voltage but cannot supply the current a load needs. An *emitter follower*, also called a common-collector amplifier, provides current gain while keeping voltage gain near one. It takes the output from the emitter, isolating the source from the load. *The emitter follows the base's voltage changes without reversing them.*
 
 > **Key Information:** An emitter follower's input and output signals are in phase. {{< link id="E7B09" >}}
 
-Vacuum-tube stages use related arrangements. A tube has a cathode that supplies electrons, a grid that controls their flow, and a plate that collects them. In a grounded-grid amplifier, the grid is at RF ground, the cathode receives the input, and the plate supplies the output. Moving the cathode voltage changes its voltage relative to the fixed grid, controlling electron flow. *The driving stage must supply RF current through the cathode circuit, so it faces a relatively low input impedance.*
+The driver also has to supply the input current a tube amplifier needs. In a grounded-grid amplifier, the grid stays at RF ground while the cathode receives the input and the plate supplies the output. Moving the cathode voltage changes its voltage relative to the fixed grid, controlling electron flow. *The driving stage must supply RF current through the cathode circuit, so it faces a relatively low input impedance.*
 
 > **Key Information:** A grounded-grid amplifier has low input impedance. {{< link id="E7B06" >}}
 
 #### Conduction Angle
 
-Amplifier *class* describes how the active device conducts during a signal cycle. In Class A, it conducts for all 360 degrees. Its resting operating point leaves room for the signal to rise and fall without reaching cutoff, where conduction stops, or saturation, where the transistor can no longer increase its output swing normally.
+For a Class A stage to conduct through all 360 degrees, its resting operating point must leave room for the signal to rise and fall. Too far in one direction reaches cutoff, where conduction stops; too far in the other reaches saturation, where the transistor can no longer increase its output swing normally.
 
 > **Key Information:** A Class A common-emitter amplifier operates approximately halfway between saturation and cutoff. {{< link id="E7B04" >}}
 
-A push-pull amplifier uses two active elements to handle opposite portions of the waveform. In Class B, each conducts for half a cycle. Class AB adds some overlap to reduce distortion where their contributions meet. *Neither device has to handle the whole cycle, but each stays on a little beyond its own half.* That avoids an abrupt handoff at the crossing.
+A push-pull amplifier divides the waveform between two active elements. With each handling half a cycle, as in Class B, their contributions can meet abruptly and cause distortion. Class AB adds overlap to smooth that handoff. *Neither device has to handle the whole cycle, but each stays on a little beyond its own half.*
 
 > **Key Information:** Each active element in a push-pull Class AB amplifier conducts for more than 180 degrees but less than 360 degrees of the signal cycle. {{< link id="E7B01" >}}
 
-Class C conducts for less than half a cycle. A tuned output circuit can build a sine wave from those current pulses, making Class C useful for suitable constant-envelope RF signals. A single-sideband, or SSB, phone signal has a changing *amplitude envelope*: the outline of its RF peaks rises and falls with speech. *Ordinary Class C amplification does not preserve that envelope.*
+Class C conducts for less than half a cycle. A tuned output circuit can build a sine wave from those current pulses, making Class C useful for suitable constant-envelope RF signals. *Ordinary Class C amplification does not preserve the changing amplitude envelope of SSB phone.* Its current pulses lose the proportional amplitude changes that carry the speech.
 
 > **Key Information:** Using a Class C amplifier to amplify an SSB phone signal causes signal distortion and excessive bandwidth. {{< link id="E7B07" >}}
 
-“Linear” amplification means the output follows the input's changing amplitude in proportion, within the circuit's limits. Class A and properly operated Class AB stages can provide that behavior.
+Class A and properly operated Class AB stages can preserve those proportional amplitude changes and provide linear amplification.
 
 #### Switching for Efficiency
 

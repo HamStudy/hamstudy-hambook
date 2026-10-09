@@ -8,11 +8,11 @@ draft: true
 
 ### Section 6.2: Gain and Antenna Patterns
 
-A gain antenna sends more signal toward some places by sending less toward others. That trade is visible in its radiation pattern. A large gain number is little comfort if the other station sits in a null. The strongest direction is useful only if it points where the contact needs to go.
+An antenna's quoted gain tells only part of the story. A large number is little comfort if the other station sits in a null, or if a strong noise source falls in a side lobe. The radiation pattern shows where the antenna's gain will help and where it will not.
 
 > **Key Information:** A lossless gain antenna and a lossless isotropic radiator driven by the same power radiate the same total power. {{< link id="E9B07" >}}
 
-Gain describes strength in a direction relative to a reference antenna, not a multiplication of total energy. A pattern plot lets us inspect that distribution instead of relying on one gain number.
+The gain comes from directing the available power. We can read that distribution from a pattern plot, then combine gain with system losses to compare complete installations.
 
 #### Reading the Free-Space Pattern
 
@@ -34,7 +34,7 @@ Front-to-back ratio compares the forward peak with the response directly behind 
 
 #### Looking Above the Horizon
 
-An azimuth pattern is a horizontal slice around the antenna. An elevation pattern is a vertical slice showing radiation at different angles above the horizon. Figure E9-2 includes the ground, so only the upper half of the circle appears.
+A bearing around the horizon does not tell us whether the strongest lobe points low or nearly overhead. An azimuth pattern gives the horizontal slice; an elevation pattern shows radiation at different angles above the horizon. Figure E9-2 includes the ground, so only the upper half of the circle appears.
 
 ![Figure E9-2, an elevation radiation pattern over real ground. The horizontal baseline is the horizon, with forward zero degrees to the right, 90 degrees overhead, and the rear horizon at 180 degrees to the left. The strongest forward lobe peaks only about 7.5 degrees above the horizon. Other weaker forward lobes rise at higher angles, separated by deep nulls. Small rear lobes are about 28 dB below the strongest forward response. Radial markings show minus 10, minus 20, minus 30, and minus 40 dB.](../../../hugo/static/figures/E9-2.svg)
 {.img-centered .img-xlarge .img-bw caption="Figure E9-2: Elevation lobes produced over real ground."}
@@ -50,7 +50,7 @@ These are different questions from beamwidth. A low takeoff angle tells where a 
 
 #### Naming the Gain Reference
 
-*Gain in dBi uses the isotropic reference.* *Gain in dBd uses a half-wave dipole in free space.* The dipole's maximum gain is 2.15 dBi, so the same antenna has a number 2.15 smaller when stated in dBd:
+Before comparing two gain figures, put them on the same reference: *dBi uses an isotropic radiator; dBd uses a half-wave dipole in free space.* The dipole's maximum gain is 2.15 dBi, so convert with
 
 $$G_{\text{dBd}}=G_{\text{dBi}}-2.15.$$
 
@@ -92,7 +92,7 @@ The other examples use the same steps:
 
 #### A Modeled Pattern
 
-A wire-antenna model divides conductors into small pieces called segments. The program solves for their currents and combines the fields those currents produce. The common *Method of Moments* turns the field relationships into a set of equations a computer can solve.
+We can also predict how changing an antenna's dimensions or surroundings will change its pattern and impedance. A wire-antenna model divides conductors into small pieces called segments, solves for their currents, and combines the fields they produce. The common *Method of Moments* turns these field relationships into equations a computer can solve.
 
 > **Key Information:**
 > - Method of Moments analysis is commonly used to model antennas. {{< link id="E9B09" >}}

@@ -21,7 +21,7 @@ These groups describe common uses, not a full list of each mode's abilities. The
 
 #### Getting Data into the Transmitter
 
-Frequency-shift keying, or FSK, carries data by changing frequency. *You can create those changes in the radio itself or send shifting audio tones through an SSB transmitter.* In the latter case, the radio translates the tones into shifting RF frequencies.
+An FSK mode can produce the same RF frequency shifts through two different signal paths. *Direct FSK changes the transmitter VFO; AFSK supplies changing audio tones through the audio path of an SSB transmitter.* The latter lets the computer's audio interface generate the tones while the radio translates them to RF. *FSK is used for amateur data emissions below 30 MHz*.
 
 > **Key Information:**
 > - FSK is a type of modulation used for data emissions below 30 MHz. {{< link id="E2E01" >}}
@@ -29,17 +29,17 @@ Frequency-shift keying, or FSK, carries data by changing frequency. *You can cre
 
 Direct FSK and AFSK describe how the signal is generated. They do not, by themselves, guarantee different bandwidths or data rates. With AFSK, the drive-level checks from the previous chapter keep the audio path from adding unwanted products.
 
-PSK31 instead changes the signal's phase. *Its character code assigns shorter patterns to commonly used characters, which saves time during ordinary text conversation.*
+For keyboard conversation, PSK31's phase changes carry *variable-length character codes*. Commonly used characters take shorter patterns, reducing the time spent sending ordinary text.
 
 > **Key Information:** PSK31 uses variable-length character coding. {{< link id="E2E09" >}}
 
-That does not make it a general-purpose binary file transport. A file needs its sequence of bytes preserved, including values that do not represent printable text. *PACTOR provides a data link suited to that task, using error control so bad blocks can be recovered.*
+A binary file requires every byte to survive, including values that do not represent printable characters. *PACTOR provides a file-capable data link with error control to recover bad blocks.* That reliability, rather than convenient character coding, serves the file-transfer job.
 
 > **Key Information:**
 > - PACTOR can transfer binary files. {{< link id="E2E08" >}}
 > - Under clear conditions, PACTOR IV has the highest data throughput among MFSK16, 170 Hz shift 45-baud RTTY, FT8, and PACTOR IV. {{< link id="E2E13" >}}
 
-Throughput means useful data delivered per unit time. It falls when the link must use more protection or repeat damaged data. A speed that looks impressive on a clear path may accomplish less when every other block needs another try.
+Compare useful data delivered per unit time—*throughput*—rather than the raw signaling rate. *Under clear conditions, PACTOR IV has the highest throughput of the four listed modes.* Protection and retransmission lower useful throughput as conditions worsen; a fast signal accomplishes less if its blocks keep needing another try.
 
 #### Finding a Working Channel
 
@@ -51,7 +51,7 @@ The call arrives over the radio. An internet page is not required to tell the st
 
 #### Short Messages on a Shared Clock
 
-FT8 and FT4 exchange compact messages such as call signs, locations, and reports. Their computers divide time into agreed transmit and receive periods. A station that starts on the wrong boundary may miss part of a message or transmit during the other station's turn.
+For FT8 and FT4, the short exchange works only when both stations use the same timing boundaries. *Synchronizing their computer clocks aligns WSJT-X transmit and receive periods.* Starting late can cut off a message or place part of it in the other station's transmit turn.
 
 > **Key Information:**
 > - An FT8 transmission cycle is 15 seconds. {{< link id="E2E06" >}}
@@ -68,7 +68,7 @@ FT4 uses shorter periods for quicker exchanges. FT8 uses a narrower signal, *abo
 
 This comparison is limited to the named modes. WSPR and some FST4 settings can be narrower still.
 
-*FST4 offers a wider choice of period lengths.* Longer periods allow slower symbols and closer tone spacing, trading time for sensitivity on suitably stable paths.
+On a stable path, allowing more time for each message can make weaker signals usable. *FST4 offers variable transmit/receive periods with corresponding tone spacings.* Longer periods allow slower symbols and closer spacing, trading speed for sensitivity.
 
 > **Key Information:** FST4 uses four-tone Gaussian frequency-shift keying, variable transmit/receive periods, and seven different tone spacings. {{< link id="E2E04" >}}
 
@@ -76,7 +76,7 @@ Gaussian shaping smooths the transitions between tones to limit unwanted spectra
 
 #### Reports Without a Conversation
 
-WSPR, pronounced “whisper,” means Weak Signal Propagation Reporter. It sends a compact report that other stations can decode to show where signals are reaching. A receiver can report a weak path even when neither operator is present for a conversation. *The transmitted message has a defined job; it is not a place to type a question about the other operator's antenna.*
+To find where a weak signal is reaching, a propagation report may be enough; no conversation is needed. WSPR (pronounced “whisper”), the Weak Signal Propagation Reporter, sends a compact message that receiving stations can decode and report even without operators attending. *It does not support keyboard-to-keyboard conversation*.
 
 > **Key Information:** WSPR does not support keyboard-to-keyboard operation. {{< link id="E2E05" >}}
 

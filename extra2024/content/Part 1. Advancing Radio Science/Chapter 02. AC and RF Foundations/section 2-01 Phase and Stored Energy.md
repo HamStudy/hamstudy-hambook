@@ -8,11 +8,11 @@ draft: true
 
 ### Section 2.1: Phase and Stored Energy
 
-Watch voltage and current on the same screen and you may see two smooth sine waves whose peaks arrive at different times. Neither trace is misbehaving. That timing difference explains much of what capacitors and inductors do in a radio. We need to follow both the size of a signal and where it is in its cycle.
+Voltage and current in a reactive load can peak at different times. To calculate its power or impedance, we need to track that timing as well as signal strength. A graph lets us compare both and connect the phase difference to energy moving through the circuit.
 
 #### A Waveform Is a History
 
-A voltage pushes charge through a circuit; current is the rate at which charge flows. We measure voltage in volts, current in amperes, and resistance in ohms. *On a waveform graph, the horizontal axis usually shows time and the vertical axis shows voltage or current.* A taller trace means a greater amplitude, not a higher frequency. Frequency, measured in hertz, tells us how many complete cycles occur each second.
+*On a waveform graph, the horizontal axis usually shows time and the vertical axis shows voltage or current.* This is a time-domain view. A taller trace means greater amplitude; a shorter interval between cycles means higher frequency.
 
 > **Key Information:** A signal in the time domain shows its amplitude at different times. {{< link id="E8A03" >}}
 
@@ -20,7 +20,7 @@ One complete cycle spans 360 degrees of *phase*. A quarter-cycle spans 90 degree
 
 #### Where the Energy Goes
 
-A resistor turns electrical energy into heat. Its current rises and falls with its voltage. *A capacitor instead stores energy in an electric field between its plates.* Current must move charge onto those plates to change the voltage. With a sine-wave voltage, current is greatest while voltage is changing fastest; current is zero at the voltage peak, where the voltage momentarily stops changing.
+A resistor's current rises and falls with its voltage as it turns electrical energy into heat. *A capacitor stores energy in an electric field between its plates*, so current must first move charge onto those plates to change the voltage. With a sine-wave voltage, current is greatest while voltage is changing fastest; current is zero at the voltage peak, where the voltage momentarily stops changing.
 
 *An inductor stores energy in a magnetic field around its winding.* Changing its current requires voltage. The voltage reaches its peak while the current is changing fastest, before the current reaches its own peak.
 
@@ -37,9 +37,9 @@ These are steady sine-wave relationships for ideal components. Their opposition 
 
 #### Charging Takes Time
 
-Connect a capacitor to a DC source through a resistor and it charges quickly at first. As capacitor voltage rises toward the source voltage, less voltage remains across the resistor. That reduces current, so each further increase takes longer. The result is a curved approach to the final voltage.
+To predict how quickly a capacitor's voltage settles after a change, we need to account for the resistance in its charging path. Connect it to a DC source through a resistor and it charges quickly at first. As capacitor voltage rises toward the source voltage, less voltage remains across the resistor. That reduces current, so each further increase takes longer. The result is a curved approach to the final voltage.
 
-How long does that take? The resistor and capacitor set the pace together. Multiply resistance by capacitance to find the circuit's *time constant*:
+The resistor and capacitor set the pace together. Multiply resistance by capacitance to find the circuit's *time constant*:
 
 $$\tau=RC$$
 
@@ -69,7 +69,7 @@ That's a little under four minutes for one time constant. It describes charging 
 
 #### Real and Reactive Power
 
-Stored energy does not stay stored throughout an AC cycle. The capacitor or inductor returns it to the rest of the circuit. During part of the cycle, energy enters the component; during another part, it leaves. In an ideal component, those amounts balance.
+The current through a coil does not by itself tell us how many watts it consumes. Energy enters its magnetic field during part of the AC cycle and returns to the circuit during another part. A capacitor does the same with its electric field. In ideal components, those amounts balance.
 
 > **Key Information:**
 > - In ideal inductors and capacitors, energy is stored in magnetic or electric fields, but power is not dissipated. {{< link id="E5D09" >}}
@@ -78,9 +78,9 @@ Stored energy does not stay stored throughout an AC cycle. The capacitor or indu
 
 “Nonproductive” is a rather unflattering name for something a radio depends on. *It means no net energy is consumed by the ideal reactance.* Returning stored energy is exactly what we need for tuning and filtering. Reactive power is measured in volt-amperes reactive, or VAR, while real power is measured in watts.
 
-For AC power calculations, we use *RMS* (root mean square) voltage and current unless told otherwise. An RMS value gives the same heating in a resistor as that value of DC. For a sine wave, divide the peak value by $\sqrt{2}$, or multiply by about 0.707, to get RMS.
+Use *RMS* (root mean square) voltage and current in these AC power calculations. If given a sine-wave peak instead, divide by $\sqrt{2}$, or multiply by about 0.707, to get RMS.
 
-Suppose 1 A RMS flows through a 100 Ω resistor and an ideal 100 Ω inductive reactance in series. Both carry the same current, but only the resistor turns energy into heat. To find that power, multiply the current by itself, then by the **resistance**:
+Suppose 1 A RMS flows through a 100 Ω resistor and an ideal 100 Ω inductive reactance in series. Both carry the same current, but only the resistor turns energy into heat. Use $I^2R$ with the **resistance**, leaving the reactance out of the heat calculation:
 
 $$P=I^2R=(1\ \mathrm{A})^2(100\ \Omega)=100\ \mathrm{W}.$$
 

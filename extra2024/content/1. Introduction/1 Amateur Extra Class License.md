@@ -21,6 +21,6 @@ Extra also carries a bit of prestige in the ham radio world. Some people want th
 
 Some Extra topics explain a choice you'll face at the operating desk: which receiver filter to use, how to recognize overload, or why a digital mode gets through when voice does not. Others help you interpret an antenna analyzer or understand a circuit you want to build.
 
-You don't have to build a radio to benefit from knowing how one works. A control labeled "RF gain" or a specification called "noise figure" means more when you know what happens to the signal. That knowledge also helps you describe a problem when you need advice.
+You don't have to build a radio to benefit from a closer look inside it. Following a signal through the receiver helps you decide whether more gain will reveal a weak station or make overload worse. That knowledge also helps you describe a problem when you need advice.
 
 There's a fair amount to learn. We'll take it in pieces, with enough explanation to make the exam answers useful beyond exam day.

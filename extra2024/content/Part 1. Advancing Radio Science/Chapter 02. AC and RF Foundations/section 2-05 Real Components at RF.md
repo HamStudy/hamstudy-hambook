@@ -8,11 +8,11 @@ draft: true
 
 ### Section 2.5: Real Components at RF
 
-You buy an inductor for its inductance, but you get some capacitance and resistance with it at no extra charge. A capacitor brings unwanted inductance too. These properties come from the way the parts are built. At radio frequencies, they can decide whether a circuit works.
+You buy an inductor for its inductance, but you get some capacitance and resistance with it at no extra charge. A capacitor brings unwanted inductance too. Our calculations need to account for these unwanted properties when they become large enough to affect the circuit. A correct value on the label does not guarantee the right behavior at RF.
 
 #### Current Crowds Toward the Surface
 
-DC uses the cross section of a conductor fairly evenly. *As frequency rises, the changing magnetic field redistributes current toward the conductor's surface.* This is *skin effect*. *Less of the metal carries most of the current, so the effective resistance rises.*
+A wire's DC resistance can underestimate the loss it causes at RF. DC uses the cross section fairly evenly, but *a higher-frequency magnetic field redistributes current toward the conductor's surface*. This is *skin effect*. *Less of the metal carries most of the current, so the effective resistance rises.*
 
 > **Key Information:** Conductor skin effect increases resistance as frequency increases because RF current flows closer to the surface. {{< link id="E5D01" >}}
 
@@ -36,7 +36,7 @@ Suppose a circuit works with short connections, then stops working when you spre
 
 #### Unwanted Resonance
 
-We call an unintended electrical property a *parasitic* property. The *nominal* value is the intended or specified one. Adjacent turns of an inductor are conductors separated by insulation and air, so they form small capacitors. *Their combined effect acts with the winding's inductance to produce self-resonance.*
+An inductor stops behaving as expected when its parasitic capacitance becomes significant. Adjacent turns are conductors separated by insulation and air, so they form small capacitors. *That capacitance acts with the winding's nominal, or specified, inductance to produce self-resonance.*
 
 > **Key Information:**
 > - Inter-turn capacitance creates an inductor's self-resonance. {{< link id="E5D06" >}}
@@ -52,10 +52,10 @@ An electrolytic can still store energy and smooth low-frequency supply ripple. A
 
 #### Two Kinds of Length
 
-*Electrical length* describes how a conductor behaves in terms of wavelength or phase, rather than its length on a ruler. Inductance and capacitance occur all along the conductor, and its shape affects both. Diameter is part of that shape.
+Making an antenna element thicker can change its resonant behavior even if its physical length stays the same. Its *electrical length* depends on wavelength and phase, not just the ruler measurement. Inductance and capacitance occur all along the conductor; its shape, including diameter, affects both.
 
 > **Key Information:** As a conductor's diameter increases, its electrical length increases. {{< link id="E5D10" >}}
 
-For an antenna element of a given physical length, increasing diameter can therefore shift its resonant behavior. A thicker element may need a shorter physical length for the same resonance. We will use that distinction again when discussing antennas in Chapter 6.
+A thicker antenna element may therefore need a shorter physical length for the same resonance. We will use that distinction again when discussing antennas in Chapter 6.
 
 Resistance, reactance, and geometry now belong in the same picture. We can use them with the components from the previous chapter to follow a complete circuit: one that filters, amplifies, or generates a signal.

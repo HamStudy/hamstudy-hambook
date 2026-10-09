@@ -12,7 +12,7 @@ An antenna's best radiating shape need not give a 50-ohm feed point. A matching 
 
 #### A Quarter-Wave Transformer
 
-A lossless quarter-wave line transforms a resistive load $R_L$ according to
+Suppose an antenna presents 100 ohms but the feed line is 50 ohms. A quarter-wave section of another line impedance can provide the transformation between them. For a lossless section and a resistive load $R_L$,
 
 $$R_{\text{in}}=\frac{Z_t^2}{R_L},$$
 
@@ -24,7 +24,7 @@ $$Z_t=\sqrt{R_{\text{in}}R_L}=\sqrt{50\times100}\approx70.7\ \Omega.$$
 
 > **Key Information:** A 75-ohm quarter-wave Q-section is a suitable choice for matching a 100-ohm feed point to 50-ohm line. {{< link id="E9E06" >}}
 
-Why 75 rather than 70.7? It is the closest offered standard line impedance. A 75-ohm section transforms 100 ohms to $75^2/100=56.25\ \Omega$, which is a close match to 50 ohms. You would not get an exact 50-ohm result, but the closest available cable still gives a useful match. The method assumes the antenna load is resistive; uncorrected reactance needs further attention.
+The exam offers 75-ohm line, the nearest standard choice to the calculated 70.7 ohms. A 75-ohm section transforms 100 ohms to $75^2/100=56.25\ \Omega$, which is a close match to 50 ohms. You would not get an exact 50-ohm result, but the closest available cable still gives a useful match. The method assumes the antenna load is resistive; uncorrected reactance needs further attention.
 
 #### Stubs in Parallel
 
@@ -36,7 +36,7 @@ Picture a T connection: the main feed line continues toward the antenna and the 
 
 #### The Gamma Connection
 
-*A gamma match connects the coax shield to the center of the antenna and its center conductor through a matching arm to a point off center.* The arm runs beside part of the element. *That geometry transforms the feed resistance but also introduces inductive reactance, which a series capacitor cancels.*
+To feed an unbroken element, we can make the impedance transformation with an offset connection. *A gamma match connects the coax shield to the center of the antenna and its center conductor through a matching arm to a point off center.* The arm runs beside part of the element. *That geometry transforms the feed resistance but also introduces inductive reactance, which a series capacitor cancels.*
 
 > **Key Information:**
 > - A gamma match connects the coax shield at the antenna center and the center conductor a fraction of a wavelength to one side. {{< link id="E9E02" >}}
@@ -50,7 +50,7 @@ The tower remains grounded at DC while the feed arrangement establishes the requ
 
 #### The Hairpin Connection
 
-A beta, or hairpin, match places a short inductive section across a split driven element. *The driven element is shortened until it supplies the needed capacitive reactance.* Together, that capacitance and the shunt inductance form a matching network.
+With a split driven element, a beta or hairpin match can use the element itself as part of the matching network. *Shortening the element makes its feed impedance capacitive.* A short inductive section across the feed point supplies the other reactive part.
 
 > **Key Information:**
 > - A beta or hairpin match requires the Yagi's driven element to be insulated from the boom. {{< link id="E9E01" >}}

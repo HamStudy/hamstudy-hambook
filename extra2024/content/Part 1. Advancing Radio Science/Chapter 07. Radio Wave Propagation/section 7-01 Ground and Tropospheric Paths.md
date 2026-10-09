@@ -8,7 +8,7 @@ draft: true
 
 ### Section 7.1: Ground and Tropospheric Paths
 
-The geographic horizon is not always the end of a radio path. A surface wave can follow the ground, and the lower atmosphere can bend a wave beyond the straight-line horizon. These are different mechanisms, with different frequency limits.
+For a terrestrial link, the geographic horizon is only a starting point. A surface wave following the ground and a wave bending through the atmosphere encounter different limits. At microwave frequencies, clearance around the sightline also affects whether a path will work.
 
 #### Along the Surface
 
@@ -30,9 +30,9 @@ For an idealized location with a 20-mile geographic horizon, that estimate gives
 
 #### Trapped in a Weather Layer
 
-Temperature and moisture sometimes change sharply with height. The resulting refractive-index gradient can bend a microwave signal enough to keep it within a layer rather than letting it escape upward. This is *tropospheric ducting*, named for the lower atmosphere where weather occurs.
+A microwave path over a large body of water may benefit from *tropospheric ducting*. Sharp changes in temperature and moisture with height create a refractive-index gradient. It can bend a signal enough to keep it within a weather layer rather than letting it escape upward.
 
-A temperature inversion, with warmer air above cooler air, can help establish such conditions. Moisture gradients over water can do so too. The duct's height and the antenna's position affect whether the signal enters it.
+A temperature inversion—warmer air above cooler air—can help form a duct, as can moisture gradients over water. To use it, the signal must enter the layer; duct height and antenna position both affect that.
 
 > **Key Information:**
 > - Microwave-supporting atmospheric ducts often form over large bodies of water. {{< link id="E3A07" >}}

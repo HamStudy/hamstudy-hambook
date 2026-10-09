@@ -12,11 +12,11 @@ A solar report contains several numbers because the Sun affects radio in several
 
 #### Radiation and Sudden Blackouts
 
-Solar activity indicators help estimate how strongly the Sun is ionizing the upper atmosphere. *The 304A parameter measures ultraviolet emission at a wavelength of 304 angstroms, or 30.4 nanometers.* *It tracks activity related to the solar flux index, although the two measurements use different parts of the spectrum.*
+To estimate the ionization available for HF paths, reports may include ultraviolet measurements alongside the solar flux index. *The 304A parameter measures ultraviolet emission at 304 angstroms, or 30.4 nanometers.* *It correlates with the solar flux index, although the two measurements use different parts of the spectrum.*
 
 > **Key Information:** The 304A parameter measures ultraviolet emissions at 304 angstroms, correlated with the solar flux index. {{< link id="E3C10" >}}
 
-A solar flare is a sudden release of energy that increases radiation, including X-rays. That radiation reaches the sunlit side of Earth and can sharply increase D-region absorption. HF signals that previously passed through the lower ionosphere toward the F region may then be absorbed.
+A flare can disrupt a path that the broader solar-activity picture favors. Its sudden increase in radiation, including X-rays, reaches Earth's sunlit side and can raise D-region absorption. HF signals may be absorbed before they reach the F region.
 
 > **Key Information:**
 > - Solar flares cause short-term radio blackouts. {{< link id="E3C01" >}}
@@ -32,7 +32,7 @@ Treat the sound as a reason to check observations, not as proof that a CME has j
 
 #### The Field Carried by the Wind
 
-The solar wind carries the interplanetary magnetic field, or IMF. *Its north-south component is called $B_z$.* That direction helps determine how readily energy transfers into Earth's magnetic environment.
+An approaching solar-wind disturbance does not tell the whole story: its magnetic-field direction affects how readily energy transfers into Earth's magnetic environment. The wind carries the interplanetary magnetic field, or IMF. *Its north-south component is called $B_z$.*
 
 > **Key Information:**
 > - $B_z$ represents the north-south strength of the interplanetary magnetic field. {{< link id="E3C04" >}}
@@ -40,7 +40,7 @@ The solar wind carries the interplanetary magnetic field, or IMF. *Its north-sou
 
 A sustained southward field couples more effectively with Earth's field on the dayside. When you check the plot, look back along the trace as well as at the latest number. The duration matters, as do the solar wind’s other properties. A momentary negative value is not a complete forecast.
 
-*A and K indices describe the disturbance of Earth's magnetic field.* K describes activity over a three-hour interval on a scale from 0 to 9. The daily A index summarizes activity on a related linear scale. Planetary versions combine observations from several stations.
+To see how Earth's field has actually responded, check the *A and K indices of geomagnetic disturbance*. K gives a three-hour measure from 0 to 9; daily A summarizes activity on a related linear scale. Planetary versions combine observations from several stations.
 
 > **Key Information:**
 > - A rising A-index or K-index indicates increasing geomagnetic disturbance. {{< link id="E3C02" >}}
@@ -50,7 +50,7 @@ Keep the letters attached to the numbers. X class describes a solar flare; *G5 d
 
 #### Where Absorption Grows
 
-Earth's magnetic field guides charged particles into high-latitude regions. The *auroral oval* is the ring-shaped region around each magnetic pole where auroral activity is concentrated. Disturbance can expand and intensify it. The incoming particles increase ionization in regions where collisions absorb radio energy, making an HF path through that region especially lossy.
+The effect on a contact depends on where its path crosses the disturbed region. Earth's magnetic field guides charged particles toward high latitudes, concentrating auroral activity in a ring around each magnetic pole: the *auroral oval*. Disturbance can expand and intensify it. Incoming particles increase ionization where collisions absorb radio energy, making an HF path through the oval especially lossy.
 
 > **Key Information:** A path through the auroral oval is likely to experience high absorption when A or K is elevated. {{< link id="E3C03" >}}
 
@@ -58,13 +58,13 @@ An otherwise attractive short path over a polar region may therefore fail while 
 
 #### Models and Reports
 
-A propagation model uses assumptions about location, date, time, frequency, and ionospheric conditions to estimate a path's behavior. *VOACAP, the Voice of America Coverage Analysis Program, provides this kind of HF prediction.*
+Planning a contact calls for a forecast for that route, band, and time. *VOACAP, the Voice of America Coverage Analysis Program, models HF propagation* using assumptions about location, date, time, frequency, and ionospheric conditions.
 
 > **Key Information:** VOACAP models HF propagation. {{< link id="E3C11" >}}
 
 A model can help choose promising bands and times, but it does not listen to the band. Its result describes expected conditions under its assumptions, not a guarantee of a contact at this instant.
 
-Reporting networks supply observations instead. Receiving stations identify transmissions and report information such as call sign, frequency, time, and signal strength or signal-to-noise ratio. *CW and digital signals are particularly suited to automatic decoding and reporting.*
+To test a prediction against signals on the air, check propagation-reporting networks. Their receiving stations report call sign, frequency, time, and signal strength or signal-to-noise ratio. *CW and digital signals suit automatic decoding and reporting.*
 
 > **Key Information:** Amateur propagation-reporting networks report digital-mode and CW signals. {{< link id="E3C09" >}}
 

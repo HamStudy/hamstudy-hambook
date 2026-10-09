@@ -8,7 +8,7 @@ draft: true
 
 ### Section 4.4: Digital Signal Bandwidth
 
-A continuous, unchanging carrier can be extremely narrow. Turn it on and off to send Morse, and sidebands appear. The information lies in those changes, so a usable signal needs enough bandwidth to preserve them.
+A CW signal can sound fine on its own frequency yet produce clicks that bother an operator nearby. The problem lies in the changes that form each dot and dash. Keying creates sidebands around the otherwise narrow carrier; the timing and shape of those changes determine how far the sidebands extend.
 
 #### The Shape of a Dot
 
@@ -28,7 +28,7 @@ This is a rule of thumb for a normally shaped signal, not a promise that every 1
 > - Extremely short CW rise or fall times generate key clicks. {{< link id="E8D04" >}}
 > - The usual cure is to increase keying-waveform rise and fall times. {{< link id="E8D05" >}}
 
-Those clicks are an annoyance for the operator trying to hear a weak signal nearby. *Rounding the keying edge reduces the unwanted sidebands at their source.* An RF output filter intended to remove harmonics may not remove clicks close to the carrier. Rise and fall times also cannot grow without limit: overly slow edges can blur short dots at high speed.
+*Rounding the keying edge reduces the unwanted sidebands at their source.* An RF output filter intended to remove harmonics may not remove clicks close to the carrier. Rise and fall times also cannot grow without limit: overly slow edges can blur short dots at high speed.
 
 #### Shaping Phase Changes
 
@@ -42,7 +42,7 @@ The pulse shape matters as much as the symbol labels. Smoothly reducing the enve
 
 #### A Mode's Bandwidth
 
-A mode specification combines symbol rate, frequency or phase states, and pulse shaping. FT8 makes those choices to fit a weak-signal exchange into a narrow channel.
+To fit a weak-signal exchange into a narrow channel, FT8 combines a low symbol rate with chosen frequency states and pulse shaping. Its occupied bandwidth reflects all three choices.
 
 > **Key Information:** An FT8 signal occupies 50 Hz. {{< link id="E8C06" >}}
 

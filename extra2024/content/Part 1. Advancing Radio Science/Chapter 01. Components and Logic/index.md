@@ -6,6 +6,6 @@ pagebreak: true
 
 ## Chapter 1: Components and Logic
 
-Open a radio and you find familiar-looking parts doing some surprising jobs. A diode may be tuning the receiver instead of rectifying AC. *A small ferrite bead may be deliberately wasting energy to stop an unwanted oscillation.* To read the circuit, we need to know what each part is doing there.
+Choosing a component takes more than recognizing its symbol. A diode suited to a power supply may perform poorly in a receiver's RF detector. A transistor needs enough gain at the intended frequency, and a coil's core must handle the current without wasting too much signal energy. The useful details lie in how each device behaves in its circuit.
 
-We will follow those jobs from semiconductor junctions to optical devices, magnetic cores, and logic. The parts change, but the questions stay practical: what controls the current, where does the energy go, and what makes the output change? By the time we reach a frequency divider, even remembering a single bit will be doing useful radio work.
+We'll build on rectifiers, amplifiers, and logic gates to examine those choices. Semiconductor junctions and magnetic materials explain many of them; at higher frequencies, the package and wiring matter too. The chapter then turns to logic circuits that compare inputs, share connections, store bits, and produce timing signals.

@@ -8,7 +8,7 @@ draft: true
 
 ### Section 4.5: Sharing Signal Bandwidth
 
-Suppose one radio link has several data streams to deliver. They need not wait for separate radio links: several streams can share one transmitted signal. One method gives each stream its own frequency range. Another lets the streams take turns. The receiver must know the arrangement so it can separate the messages again.
+Several data streams can share one radio link if the receiver can separate them again. Allocating frequency ranges lets them travel at once; allocating time slots lets them take turns. The choice determines whether the system needs frequency separation or precise timing.
 
 #### Dividing Frequency or Time
 
@@ -24,7 +24,7 @@ FDM needs frequency separation. TDM needs timing agreement. Neither method, by i
 
 #### Closely Packed Subcarriers
 
-Ordinary FDM leaves room between channels so their filters can separate them. Orthogonal frequency-division multiplexing, or OFDM, takes a more coordinated approach. It divides digital data among many subcarriers whose frequencies have a precise relationship to the symbol interval.
+Ordinary FDM leaves room between channels so their filters can separate them. To pack subcarriers more closely, *orthogonal frequency-division multiplexing*, or OFDM, coordinates their frequencies with the symbol interval.
 
 *Orthogonal* means the receiver can separate these subcarriers over that interval even though their spectra overlap. Each subcarrier's spectral zeros align with the centers of the others: where one subcarrier is being measured, the others contribute zero over the symbol interval. Guard intervals help keep delayed copies of an earlier symbol from interfering with the next one.
 
@@ -36,7 +36,7 @@ The exam description groups the result under intersymbol interference. More prec
 
 #### Spreading a Signal on Purpose
 
-Spread spectrum distributes a signal over more spectrum than the message would otherwise require. The transmitter and receiver use the same known sequence to spread and recover it. *Pseudorandom* means the sequence looks irregular but is reproducible.
+Interference confined to one frequency need not disrupt a whole transmission. Spread spectrum distributes the signal more widely than the message alone requires, then uses a matching sequence at the receiver to recover it. The sequence is *pseudorandom*: it looks irregular but is reproducible. Signals that do not follow it receive no matching recovery benefit.
 
 *With frequency hopping, the transmitted signal rapidly visits different frequencies according to that sequence.* A receiver following the same hops can keep recovering the message. An interferer confined to one frequency affects only part of the sequence.
 

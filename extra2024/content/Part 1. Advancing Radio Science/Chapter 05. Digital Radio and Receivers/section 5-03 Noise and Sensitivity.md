@@ -11,13 +11,13 @@ draft: true
 ![A cartoon operator wearing headphones listens with a small smile while turning the tuning knob on a desktop radio.](/images/illus/s5-3-listening-operator.png)
 {.img-small .float-right}
 
-Turning up receiver gain makes a weak station louder, but it also makes the noise louder. The useful question is how far the signal stands above that noise. A receiver's noise floor describes the background against which it must find the signal.
+A receiver's noise floor sets the background against which a weak signal must stand out. To compare receivers, we need to measure that noise, account for filter bandwidth, and separate noise added by the receiver from noise at its input. More gain alone cannot improve the ratio of a signal to noise already mixed with it.
 
 #### Power in dBm
 
-A decibel expresses a ratio. For power, the difference in decibels is $10\log_{10}(P_2/P_1)$. A tenfold increase is 10 dB, and a doubling is about 3 dB.
+Decibels compare powers using $10\log_{10}(P_2/P_1)$, but a sensitivity specification needs an actual power level. We can use the same scale by giving the ratio a fixed reference.
 
-*dBm* gives that scale a fixed reference: 0 dBm equals 1 milliwatt. Positive values exceed 1 mW; negative values are below it. Thus $-10$ dBm is 0.1 mW and $-20$ dBm is 0.01 mW. Each further decrease of 10 dB divides power by ten again.
+For *dBm*, that reference is 1 milliwatt: 0 dBm equals 1 mW. Positive values exceed it; negative values are below it. Thus $-10$ dBm is 0.1 mW and $-20$ dBm is 0.01 mW. Each further decrease of 10 dB divides power by ten again.
 
 #### Noise in Each Hertz
 
@@ -31,11 +31,11 @@ $$\Delta N=10\log_{10}(20)\approx13\text{ dB}.$$
 
 > **Key Information:** Increasing receiver bandwidth from 50 Hz to 1,000 Hz raises the noise floor by 13 dB. {{< link id="E4C06" >}}
 
-Try narrowing a receiver filter around a CW signal: much of the hiss can disappear while the tone remains. Do the same to a voice signal and you soon cut away needed sidebands. The useful width depends on the message you want to hear.
+Narrowing the filter reduces noise, provided the signal still fits its passband. A narrow CW filter can exclude noise while retaining the tone; applying it to speech would also remove wanted sidebands.
 
 #### What the Receiver Adds
 
-A real receiver contributes its own noise. *Noise figure expresses how much it worsens the signal-to-noise ratio compared with an ideal receiver, using the standard room-temperature reference.* A 3 dB noise figure means twice the equivalent input noise power of that ideal case.
+To isolate the receiver's contribution, compare its noise with that ideal baseline. *Noise figure expresses how much the receiver worsens the signal-to-noise ratio, using the standard room-temperature reference.* A 3 dB noise figure means twice the equivalent input noise power of the ideal case.
 
 > **Key Information:** Receiver noise figure compares receiver noise with the theoretical minimum, expressed as a ratio in dB. {{< link id="E4C04" >}}
 
@@ -45,7 +45,7 @@ $$N\text{ (dBm)}=-174+10\log_{10}(B)+NF,$$
 
 where bandwidth $B$ is in hertz and noise figure $NF$ is in dB. In a 1,000 Hz bandwidth with a 3 dB noise figure, the estimate is $-174+30+3=-141$ dBm.
 
-A low-noise preamplifier adds gain near the start of the signal path while adding little noise of its own. That gain makes noise added by later stages less significant. This is especially useful where external noise is low and losses ahead of the receiver matter.
+When later receiver stages contribute too much noise, a low-noise preamplifier can provide early gain while adding little noise of its own. That makes the later stages' noise less significant, especially where external noise is low and losses ahead of the receiver matter.
 
 *Noise figure is a ratio in dB, so a value in dBm is not a noise figure at all.* For an ordinary amplifier using this room-temperature reference, look for a small positive value: zero would mean no added noise.
 
@@ -53,7 +53,7 @@ A low-noise preamplifier adds gain near the start of the signal path while addin
 
 #### Finding the Smallest Signal
 
-*Minimum discernible signal, or MDS, describes the smallest signal a receiver can distinguish under specified test conditions.* Always keep its bandwidth in mind; a figure measured through a narrow filter is not directly comparable to one measured through a wide filter.
+For a direct measure of sensitivity, *minimum discernible signal (MDS) gives the smallest signal a receiver can distinguish under specified test conditions*. Its bandwidth matters: a narrow-filter measurement is not directly comparable to one made through a wide filter.
 
 > **Key Information:** MDS means minimum discernible signal. {{< link id="E4C07" >}}
 

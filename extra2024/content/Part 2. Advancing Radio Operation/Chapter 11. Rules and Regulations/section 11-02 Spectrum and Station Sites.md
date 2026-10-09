@@ -12,13 +12,13 @@ Where you put a station can change how you may operate. A repeater may share spe
 
 #### Who Else Uses the Frequency?
 
-Amateurs share the 70-centimeter band with radiolocation services. *If a repeater interferes with a protected radiolocation system, continuing at the same settings is not an option.*
+A 70-centimeter repeater can be within its amateur allocation and still interfere with radiolocation services sharing the band. *If that interference occurs, the repeater must cease operation or be changed to mitigate it*. Frequency permission alone does not resolve the conflict.
 
 > **Key Information:** A 70-centimeter repeater that interferes with a radiolocation system must cease operation or make changes that mitigate the interference. {{< link id="E1B04" >}}
 
 A fix must address the actual interference. You may need to change frequency, power, antenna pattern, or filtering. The methods from Chapter 9 help find the cause. You must still protect the other service while doing that work.
 
-Location also matters near Canada. *Line A* is a defined boundary inside the United States, not the international border itself.
+A site near Canada needs a geographic check before you choose the lower part of the 70-centimeter band. *Line A* is a defined boundary inside the United States, not the international border itself.
 
 > **Key Information:**
 > - Line A runs roughly parallel to and south of the US–Canada border. {{< link id="E1F04" >}}
@@ -38,7 +38,7 @@ Radio astronomy has another need: receiving extremely weak natural signals. The 
 
 That is the pool's name for the protected astronomy site at Green Bank, now operated as Green Bank Observatory. Check the rules for your site. The zone's name does not mean that all radio use throughout it is forbidden.
 
-A broadcast receiver can also qualify for protection. Section 97.121 covers certain interference to receivers of good engineering design. *It limits use of the frequencies causing that interference during specified hours.*
+The remedy for interference to a broadcast receiver may depend on when and where the amateur transmits. Section 97.121 covers certain interference to receivers of good engineering design. *It limits use of the frequencies causing that interference during specified hours*.
 
 > **Key Information:** For interference to domestic broadcast reception using receivers of good engineering design, the FCC may require an amateur station to avoid transmitting during certain hours on the offending frequencies. {{< link id="E1B08" >}}
 
@@ -46,7 +46,7 @@ This limits the troublesome operation without banning every band. Find the path 
 
 #### Which Authority Governs the Structure?
 
-A tower's effect on aircraft and its effect on local land use are separate questions. Approval under one set of rules does not settle the other.
+Before building a tower, separate its effect on aircraft from its effect on local land use. FAA notification and FCC registration address aviation concerns; PRB-1 addresses state and local antenna regulation. Approval under one set of rules does not settle the other.
 
 > **Key Information:**
 > - An amateur antenna structure at or near a public-use airport may require FAA notification and FCC registration under Part 17. {{< link id="E1B06" >}}

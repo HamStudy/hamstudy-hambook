@@ -12,7 +12,7 @@ draft: true
 
 #### Reports in One Direction
 
-Telecommand sends instructions to a distant device. *Telemetry sends measurements from a distant device.* A balloon that reports altitude and battery voltage is sending telemetry even if nobody replies.
+A balloon can report altitude and battery voltage without waiting for a reply. Those readings are *telemetry: one-way measurements sent from a distant instrument*. A command sent to change the balloon's equipment would instead be telecommand.
 
 > **Key Information:**
 > - Telemetry is the one-way transmission of measurements at a distance from the measuring instrument. {{< link id="E1D01" >}}
@@ -20,7 +20,7 @@ Telecommand sends instructions to a distant device. *Telemetry sends measurement
 
 *Location, altitude, and power data may be useful, but they do not replace the call sign.* The APRS position report in the previous chapter is a practical place to keep measurement content and station identification straight.
 
-Amateur radio generally serves contacts between stations. The rules also allow certain one-way uses, depending on the station's role. *A beacon, for example, sends a signal for other stations to hear without expecting a reply from each listener.*
+A report or command can serve its purpose without a reply from every listener. The rules permit certain one-way uses according to the station's role. *A beacon, for example, provides a signal for other stations to hear without expecting each one to answer*.
 
 > **Key Information:** Space stations, beacon stations, and telecommand stations may transmit one-way communications. {{< link id="E1D12" >}}
 
@@ -28,7 +28,7 @@ These are permitted categories, not a complete list of every one-way exception i
 
 #### Forwarding Someone Else's Message
 
-A third-party message travels between control operators on behalf of another person. A message-forwarding system may pass it through several stations before it reaches the destination. The use of software to forward it does not remove the third-party rules.
+A message-forwarding system may carry someone else's message through several stations without a person handling each relay. That remains third-party traffic. Software does not remove the message restrictions, and automatic forwarding adds a condition on the emission type.
 
 > **Key Information:** A station may transmit third-party communications while automatically controlled only when transmitting RTTY or data emissions. {{< link id="E1C05" >}}
 
@@ -42,7 +42,7 @@ Once forwarding operators learn that a message is prohibited, they must stop for
 
 #### Purpose, Payment, and Privacy
 
-A personal message may be addressed to a business. That alone does not make the contact a business use of amateur radio. Ask whether the amateur or employer has a financial interest in the message. The contact must also meet the other amateur rules.
+A business address alone does not tell you whether a message is permitted. The relevant distinction is a financial interest in the communication: a personal message can be addressed to a business without becoming a business use of amateur radio. The contact must also meet the other amateur rules.
 
 > **Key Information:**
 > - An amateur station may send a message to a business when neither the amateur nor the amateur's employer has a pecuniary interest in the communication. {{< link id="E1F07" >}}
@@ -50,7 +50,7 @@ A personal message may be addressed to a business. That alone does not make the 
 
 *Pecuniary* means financial. A small payment is still payment; there is no general exemption for amounts below 25 or 50 dollars. The question is the financial purpose of the message, not whether the amount sounds small. Section 97.113 has specific exceptions, but they do not make amateur radio a substitute for routine business communication.
 
-Mesh networking introduces another trap. A program may automatically encrypt its traffic, even when the operator thinks of it only as email or a web page. The amateur restriction concerns the content actually transmitted on the amateur link.
+An email or web application may encrypt traffic automatically. Before carrying it over an amateur mesh, inspect what the program will actually send on the RF link. A permitted personal message does not make the application's encrypted transport permissible.
 
 > **Key Information:** An amateur radio mesh network may not carry messages encoded to obscure their meaning. {{< link id="E1F09" >}}
 

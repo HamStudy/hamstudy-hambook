@@ -8,13 +8,11 @@ draft: true
 
 ### Section 7.2: Ionospheric Paths
 
-An HF signal can travel thousands of miles because the ionosphere bends it back toward Earth. The amount of bending depends on frequency, electron density, and entry angle. A path that works at noon can disappear after sunset without anything changing at either station.
+An HF contact can fade after sunset even though neither station has changed its equipment. A different band may preserve the contact; another route may work when the original one fails. Choosing a useful response means looking at conditions along the whole path.
 
-#### A Changing Refracting Region
+#### Keeping a Path Open
 
-Solar ultraviolet and X-ray energy separate electrons from atoms and molecules high in the atmosphere. The resulting ionized regions are called D, E, and F, from lower to higher altitude. Their boundaries and strengths change. The lower D region causes substantial daytime absorption at lower HF frequencies; the higher F region supports many long-distance paths.
-
-The maximum usable frequency, or MUF, is the highest frequency that can return over a specified ionospheric path under the stated conditions. It belongs to a path and time, not to the entire planet. At night, reduced ionization often lowers the MUF even while reduced D-region absorption improves lower-frequency reception.
+After sunset, reduced ionization often lowers a path's maximum usable frequency (MUF). Reduced D-region absorption also improves lower-frequency reception, making a lower band worth trying. The MUF still belongs to a particular path and time: frequency, electron density, and entry angle determine whether a wave returns.
 
 > **Key Information:** To continue a distant contact when darkness lowers the path's MUF, switch to a lower-frequency HF band. {{< link id="E3A06" >}}
 
@@ -30,7 +28,7 @@ On 160 meters, daytime absorption strongly limits distant paths. *Darkness needs
 
 > **Key Information:** A path entirely in darkness is most likely to support long-distance propagation on 160 meters. {{< link id="E3B05" >}}
 
-Between most pairs of stations, the great circle around Earth offers a shorter arc and a longer arc. *Long-path propagation* uses the longer one. Its initial bearing is opposite the short-path bearing, so turning a directional antenna roughly 180 degrees can favor a very different route.
+If the shorter route is unfavorable, *long-path propagation* may offer another chance. It follows the longer arc of the great circle between the stations. Turning a directional antenna roughly 180 degrees favors that opposite initial bearing.
 
 > **Key Information:** Long-path propagation is most frequent on 40 and 20 meters among the listed amateur bands. {{< link id="E3B06" >}}
 
@@ -46,13 +44,15 @@ In an ordinary multi-hop picture, the signal returns to Earth, reflects, and tra
 
 *Avoiding a lossy ground encounter preserves more signal.*
 
-Earth's magnetic field also changes how the ionized medium responds to a radio wave. The signal can divide into two propagation modes with different polarization and different paths through the ionosphere. In each elliptically polarized mode, the electric field rotates while its magnitude varies; the tip of its field vector traces an ellipse rather than a circle.
+#### Two Waves in One Path
+
+A single transmitted signal need not follow just one route through the ionosphere. Earth's magnetic field changes how the ionized medium responds, allowing the signal to divide into two modes with different paths and polarizations. In each elliptically polarized mode, the electric field rotates while its magnitude varies: its tip traces an ellipse rather than a circle.
 
 > **Key Information:** Ordinary and extraordinary waves are independently propagating, elliptically polarized waves created in the ionosphere. {{< link id="E3B04" >}}
 
 #### Across the Magnetic Equator
 
-The ionosphere near the geomagnetic equator has structures that do not fit a uniform-layer model. Enhanced ionization on either side and aligned irregularities can support *transequatorial propagation*, or TEP, including paths at VHF. The geomagnetic equator follows Earth's magnetic field and does not coincide everywhere with the geographic equator.
+VHF stations on opposite sides of the geomagnetic equator can sometimes communicate across thousands of miles by *transequatorial propagation*, or TEP. Enhanced ionization on either side and aligned irregularities support these paths. The geomagnetic equator follows Earth's magnetic field, so it does not coincide everywhere with the geographic equator.
 
 *The favorable geometry crosses that magnetic equator roughly at right angles.* Strong equatorial ionization builds during the day, and related irregularities can extend useful conditions into the evening.
 
@@ -65,7 +65,7 @@ The ionosphere near the geomagnetic equator has structures that do not fit a uni
 
 #### Dense Patches in the E Region
 
-Sporadic E, often written $E_s$, consists of thin, unusually dense ionized regions within the E layer. These patches can return frequencies that would otherwise pass through, sometimes opening VHF paths. Their location and density change, so a strong opening can appear and vanish quickly.
+A sporadic-E opening can appear and vanish quickly as its dense ionized patches change location and strength. These thin regions within the E layer can return frequencies that would otherwise pass through, including VHF. We cannot schedule a particular opening, but seasonal and daily patterns suggest when to listen. Sporadic E is often written $E_s$.
 
 > **Key Information:**
 > - Sporadic-E propagation is most likely near the solstices, especially the summer solstice. {{< link id="E3B09" >}}

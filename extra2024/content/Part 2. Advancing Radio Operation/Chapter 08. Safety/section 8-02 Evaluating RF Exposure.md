@@ -8,11 +8,11 @@ draft: true
 
 ### Section 8.2: Evaluating RF Exposure
 
-You replace a dipole with a high-gain beam and leave the power setting alone. Have exposure levels stayed the same? Not necessarily: the antenna now puts more energy in some directions. An RF exposure check considers where people can be, along with power, antenna gain, direction, distance, frequency, and transmitting time.
+Replacing a dipole with a high-gain beam changes where the RF energy goes, even if you leave the power setting alone. Recheck exposure where people can be, using the antenna's gain and direction as well as power, distance, frequency, and transmitting time.
 
 #### Energy Absorbed by the Body
 
-RF exposure limits protect people from harmful effects of absorbed energy, including heating. ***Specific absorption rate (SAR)** describes that absorption in the body.* **Maximum permissible exposure (MPE)** limits instead specify allowed field strengths or power density in the space a person occupies. The limits are most restrictive where whole-body absorption is most efficient.
+Exposure limits connect the RF field around an antenna with the energy the body absorbs. **Maximum permissible exposure (MPE)** limits specify allowed field strengths or power density where people may be. ***Specific absorption rate (SAR)** measures how quickly the body absorbs RF energy.* To protect against harmful effects such as heating, the MPE limits are most restrictive where whole-body absorption is most efficient.
 
 > **Key Information:**
 >
@@ -20,11 +20,11 @@ RF exposure limits protect people from harmful effects of absorbed energy, inclu
 > - The FCC's human-body RF exposure limits are most restrictive from **30 to 300 MHz**. {{< link id="E0A03" >}}
 > - At microwave frequencies, commonly used **high-gain antennas can produce high exposure levels**. {{< link id="E0A05" >}}
 
-Gain concentrates energy in a favored direction. That makes a dish useful for a distant contact, but also means someone in front of it may receive much more exposure than someone the same distance behind it. Evaluate where people can actually be.
+A dish's gain helps with a distant contact, but *can also create high exposure levels in its beam*. Someone in front of it may receive much more exposure than someone the same distance behind it. Evaluate where people can actually be.
 
 #### Both Fields Matter Nearby
 
-Close to an antenna, in its **near field**, electric and magnetic field strengths do not have the simple fixed relationship they have in a traveling wave far away. *Reflections also affect the field around a station.* A single far-field power-density estimate may therefore be unsuitable close to an antenna.
+A far-field power-density estimate may be unsuitable when people can approach an antenna. In its **near field**, electric and magnetic field strengths do not have the simple fixed relationship they have in a traveling wave far away. *Reflections also affect the field around a station.*
 
 > **Key Information:** Below 300 MHz, separate electric (E) and magnetic (H) MPE limits account for three facts:
 >
@@ -57,7 +57,7 @@ The pool's brief answers don't describe every condition in the rules. Use the [F
 
 #### Several Transmitters, One Site
 
-At a shared site, exposure contributions add. For example, suppose one transmitter contributes 60% of its applicable limit at a location and another contributes 50% of its limit. Together they reach 110%, even though neither reaches 100% alone. Compare contributions as fractions of their applicable limits, not simply by adding transmitter watts.
+Separate checks can each pass while the combined exposure at a shared site exceeds the limit. The contributions add: suppose one transmitter contributes 60% of its applicable limit at a location and another contributes 50% of its limit. Together they reach 110%, even though neither reaches 100% alone. Compare contributions as fractions of their applicable limits, not simply by adding transmitter watts.
 
 > **Key Information:** Where combined exposure exceeds the MPE limit, the exam assigns responsibility for reducing it to each transmitter producing **5% or more of its MPE limit** in that area. {{< link id="E0A04" >}}
 

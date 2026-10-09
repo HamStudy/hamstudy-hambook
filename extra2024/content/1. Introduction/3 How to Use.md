@@ -9,7 +9,7 @@ This HamBook is designed to help you prepare for the Amateur Extra exam quickly 
 
 ## The Two Parts
 
-**Part 1: Advancing Radio Science** develops the ideas behind components, AC circuits, modulation, digital processing, antennas, and propagation. Later sections use the models introduced earlier, so this is the place to return when an explanation depends on a concept you don't yet understand.
+**Part 1: Advancing Radio Science** extends familiar component and circuit behavior into the models and calculations used for modulation, digital processing, antennas, and propagation. Later sections use the models introduced earlier, so this is the place to return when an explanation depends on a concept you don't yet understand.
 
 **Part 2: Advancing Radio Operation** applies those ideas to safety, station measurements, interference, operating techniques, and regulations. These chapters connect the science to decisions you make as an operator.
 

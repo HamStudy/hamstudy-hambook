@@ -47,13 +47,11 @@ The smaller angle in the first example reflects resistance dominating reactance.
 
 #### Turning the Ratio Over
 
-Impedance tells us how much voltage is needed for a given current: $Z=V/I$. Sometimes we want current for a given voltage instead. *Turning the ratio over gives admittance, $Y=I/V$.*
+Parallel branches share the same voltage, and their currents add. Working with current per volt makes those branches easier to combine: we can add their admittances. *Admittance turns the impedance ratio $Z=V/I$ over to give $Y=I/V$.*
 
 > **Key Information:** Admittance is the inverse of impedance: $Y=1/Z$. {{< link id="E5B12" >}}
 
 Here, *inverse* means the *reciprocal*: 1 divided by the impedance. Admittance is measured in siemens, abbreviated S. For a 50 Ω resistor, divide 1 by 50 to get 0.02 S. Apply 1 V and it passes 0.02 A; the admittance tells you that directly.
-
-This viewpoint is useful for parallel branches. Each branch has the same voltage, and their currents add, so their admittances add too.
 
 Like impedance, admittance has two perpendicular components. *Its real part is conductance, $G$, and its imaginary part is susceptance, $B$:*
 
@@ -61,7 +59,7 @@ $$Y=G+jB.$$
 
 > **Key Information:** Susceptance is the imaginary part of admittance and is commonly represented by the letter $B$. {{< link id="E5B06" >}} {{< link id="E5B02" >}}
 
-Recall that *polar notation describes an impedance by its magnitude and angle*. *To convert it to admittance, divide 1 by the magnitude and reverse the sign of the angle.* For an impedance of $100\ \Omega$ at $+30^\circ$:
+An impedance given in polar form has both a magnitude and an angle to convert. *Divide 1 by the magnitude and reverse the sign of the angle to find admittance.* For an impedance of $100\ \Omega$ at $+30^\circ$:
 
 - Divide 1 by 100: the admittance magnitude is **0.01 S**.
 - Reverse the sign of +30°: the admittance angle is **−30°**.

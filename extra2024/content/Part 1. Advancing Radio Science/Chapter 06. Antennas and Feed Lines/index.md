@@ -6,6 +6,6 @@ pagebreak: true
 
 ## Chapter 6: Antennas and Feed Lines
 
-An antenna does more than put transmitter power into the air. It favors some directions, rejects others, and exchanges energy with the ground and nearby objects. The feed line also takes part: its length and construction can change the impedance presented to the radio.
+An antenna system can have a good match and still put little signal where you need it. Improving it means separating several questions: how much power radiates, which directions it favors, and what the feed line presents to the radio.
 
-Moving an antenna a few meters can change a contact—and the SWR reading—without changing a single component in the radio. To explain that, we need to keep track of where the energy goes. Some becomes heat, some travels along a line, and some radiates. Geometry and phase decide where the radiated fields add or cancel. Those same patterns can help a receiving antenna reject noise, even when that antenna would be a poor choice for transmitting.
+We will put numbers to those questions, read and shape antenna patterns, and use transmission lines as matching components. Geometry, phase, and the surroundings connect all three. They also explain how a lossy receiving antenna can make a signal easier to hear by rejecting noise from other directions.

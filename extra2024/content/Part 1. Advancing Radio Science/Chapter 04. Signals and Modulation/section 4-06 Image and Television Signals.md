@@ -8,7 +8,7 @@ draft: true
 
 ### Section 4.6: Image and Television Signals
 
-A radio can send a picture as a sequence of measurements. Read one row from left to right, send its values, and then begin the next row. The receiver rebuilds the image in the same order. How quickly those rows arrive separates slow-scan images from moving television.
+To rebuild a transmitted picture, the receiver needs both the image values and a way to put them in the right places. Scanning sends one row from left to right, then begins the next. The receiver follows the same order. The timing and encoding determine whether it receives a still image or moving television.
 
 #### A Picture Made from Tones
 
@@ -22,7 +22,7 @@ Color needs more information than brightness alone. *The transmitter sends color
 > - Specific tone frequencies tell SSTV receiving software to begin a new picture line. {{< link id="E2B12" >}}
 > - The vertical interval signaling, or VIS, code identifies the SSTV mode. {{< link id="E2B11" >}}
 
-A strong signal can still produce a scrambled picture if the decoder uses the wrong mode. It may be hearing every tone correctly while putting the rows or colors in the wrong places. *The VIS code tells it which arrangement to expect.*
+With the wrong mode selected, the decoder may hear every tone correctly yet put the rows or colors in the wrong places. *The VIS code tells it which arrangement to expect.*
 
 Digital image modes can send picture data through a voice-width channel too. Amateur use of the Digital Radio Mondiale, or DRM, protocol carries coded digital data that software turns back into a file or image. This differs from assigning a brightness value directly to each analog tone. *An SSB receiver preserves the signal in its audio output so the software can do the digital decoding.*
 
@@ -56,7 +56,7 @@ The receiver must actually support the analog format and cable-channel tuning. T
 
 #### Video and Error Protection
 
-Digital television encodes the picture as data, adds error protection, and maps the resulting bits onto modulation symbols. *DVB-T, Digital Video Broadcasting—Terrestrial, uses OFDM subcarriers with QPSK or QAM symbol states.*
+To repair damaged picture data without waiting for a repeat, digital television adds error protection before mapping the coded bits onto modulation symbols. *DVB-T, Digital Video Broadcasting—Terrestrial, uses OFDM subcarriers with QPSK or QAM symbol states.*
 
 > **Key Information:** Amateur DVB-T television uses QAM and QPSK modulation. {{< link id="E2B07" >}}
 

@@ -8,11 +8,11 @@ draft: true
 
 ### Section 5.2: Digital Signal Processing
 
-A digital filter changes numbers instead of routing current through inductors and capacitors. Those numbers still represent a real signal. Delaying them, scaling them, and adding them can select frequencies, remove noise, or create a new waveform.
+The ADC may capture far more spectrum than the one channel you want to hear. Digital processing must isolate that channel and preserve its information without processing unnecessary data. Delaying, scaling, and adding samples provide the tools. The same operations can also shape a transmitted signal.
 
 #### Frequency and Sample Rate
 
-An ADC supplies voltage samples in time order. *The fast Fourier transform, or FFT, reorganizes a block of samples into its frequency components.* Those peaks across your spectrum display come from this calculation: it shows the strength of many frequencies at once.
+To display activity across that spectrum, the radio needs to separate the frequencies contained in its time-ordered samples. *The fast Fourier transform, or FFT, reorganizes a block of samples into frequency components*, showing the strength of many frequencies at once.
 
 > **Key Information:** An FFT converts a signal from the time domain to the frequency domain. {{< link id="E7F07" >}}
 
@@ -28,7 +28,7 @@ For example, reducing 48,000 samples per second to 12,000 means retaining one sa
 
 #### Taps and Filter Shape
 
-Picture a line of stored samples, with the newest at one end. Each step back gives a sample from one interval earlier. The filter multiplies those delayed samples by chosen weights and adds the results. *Its taps provide access to the delayed values.*
+To pass some frequencies and reject others, a digital filter combines samples taken at different times. Picture a line of stored samples, newest at one end; each step back is one sample interval earlier. The filter multiplies those values by chosen weights and adds the results. *Its taps provide access to the delayed samples.*
 
 > **Key Information:**
 > - DSP-filter taps provide incremental signal delays for filter algorithms. {{< link id="E7F13" >}}
@@ -40,9 +40,9 @@ A finite impulse response, or FIR, filter uses a finite set of these weighted sa
 
 > **Key Information:** FIR filters can delay all frequency components of a signal by the same amount. {{< link id="E7F12" >}}
 
-Sharper filtering usually requires more calculation and can add delay. It is a useful trade, but not a free one. A fixed FIR filter also keeps the same response until its weights change.
+Sharper filtering usually requires more calculation and can add delay. A fixed FIR filter keeps the same response until its weights change.
 
-An *adaptive* filter adjusts its behavior as the incoming signal changes. *Receiver noise reduction can use that ability to separate patterns in speech from less predictable noise.*
+When a fixed response does not suit changing noise conditions, an *adaptive* filter adjusts to the input. *Receiver noise reduction can use it to separate patterns in speech from less predictable noise*.
 
 > **Key Information:** An adaptive DSP audio filter can remove unwanted noise from a received SSB signal. {{< link id="E7F02" >}}
 
@@ -50,7 +50,7 @@ When trying noise reduction, listen to the words as well as the hiss. Strong set
 
 #### Quadrature Makes a Sideband
 
-Chapter 4 introduced two components 90 degrees apart in phase. *DSP can create that relationship over an audio band using a Hilbert-transform filter.* One signal path supplies the original audio with the needed matching delay; the other supplies its quadrature counterpart.
+Instead of removing an unwanted sideband with a sharp RF filter, DSP can cancel it by combining signals with the right phase relationships. *That requires two audio paths 90 degrees apart across the audio band*. *A Hilbert-transform filter provides the quadrature path*; the original path receives a matching delay.
 
 Those paths modulate quadrature carrier components. When combined with the right signs, the desired sideband adds while the unwanted sideband cancels. Changing the sign of one path selects the other sideband.
 
@@ -62,7 +62,7 @@ This produces the same kind of SSB signal as the balanced-modulator-and-filter m
 
 #### Synthesizing an Oscillator
 
-Direct digital synthesis, or DDS, begins with a number that tracks position within a waveform cycle. This *phase accumulator* advances by a chosen amount on each clock tick, wrapping around when it reaches a full cycle. A larger increment advances through cycles faster and produces a higher frequency.
+To generate a chosen frequency from a fixed clock, direct digital synthesis (DDS) controls how far a waveform advances on each tick. A *phase accumulator* tracks that position within the cycle. It advances by a chosen amount on each clock tick, then wraps around at a full cycle. A larger increment completes cycles faster, producing a higher frequency.
 
 The phase value selects an entry in a lookup table. *The entry supplies the waveform amplitude at that point in the cycle.* For a sine wave, the entries at 0, 90, 180, and 270 degrees are proportional to 0, +1, 0, and −1. *The table stores heights along the wave, not a list of channel frequencies.* A DAC turns the amplitude numbers into voltage, and a low-pass filter smooths the output and removes sampling artifacts.
 

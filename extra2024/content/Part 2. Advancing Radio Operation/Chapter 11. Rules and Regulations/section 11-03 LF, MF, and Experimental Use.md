@@ -12,19 +12,19 @@ On 2200 and 630 meters, permission starts with the station's fixed location. The
 
 #### Notify Before Transmitting
 
-The 2200-meter band covers 135.7–137.8 kHz; 630 meters covers 472–479 kHz. Before using either, identify the band or bands you intend to use and the coordinates of the transmitting antenna's fixed location.
+The Utilities Technology Council (UTC) needs the intended bands and antenna location to check for nearby PLC systems. The 2200-meter band covers 135.7–137.8 kHz; 630 meters covers 472–479 kHz. Before using either, identify the band or bands you intend to use and the coordinates of the transmitting antenna's fixed location.
 
 > **Key Information:**
 > - Before transmitting on 2200 or 630 meters, notify the Utilities Technology Council, or UTC, of your call sign and station coordinates. {{< link id="E1C07" >}}
 > - You may begin after 30 days if UTC has not told you that the station is within 1 kilometer of a PLC system using the same or overlapping frequencies. {{< link id="E1C03" >}}
 
-The notification also includes the intended band or bands. Mark the *30-day waiting period* in your plans. You do not need to wait indefinitely for an approval letter, but you do need to meet the stated separation condition. Operation remains prohibited within the specified separation distance from a transmission line carrying an overlapping PLC signal.
+Mark the *30-day waiting period* in your plans. You do not need to wait indefinitely for an approval letter, but you do need to meet the stated separation condition. Operation remains prohibited within the specified separation distance from a transmission line carrying an overlapping PLC signal.
 
 The rule still uses the older name “Utilities Telecom Council.” The pool uses the organization's current name, Utilities Technology Council. Both refer to UTC in this process.
 
 #### Limit Radiated Power
 
-Short antennas at these long wavelengths can have very low efficiency. That makes transmitter output and radiated power quite different numbers. Here, the letters after “watts” matter as much as the number. The EIRP limits account for the power reaching the antenna and its gain relative to an isotropic radiator.
+The transmitter's wattmeter alone cannot establish compliance with a radiated-power limit. At these long wavelengths, a short antenna's low efficiency can make its radiated power much smaller than its input power. Use the power reaching the antenna and its gain relative to an isotropic radiator to determine EIRP, then check the separate transmitter-output limit.
 
 > **Key Information:**
 > - The maximum radiated power on 2200 meters is 1 W EIRP. {{< link id="E1A07" >}}

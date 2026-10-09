@@ -12,17 +12,17 @@ A receiver can hear an extremely weak test signal and still struggle on a crowde
 
 #### The Other Frequency That Fits
 
-A superheterodyne receiver mixes incoming RF with a local oscillator, or LO, to produce an intermediate frequency, or IF. An IF filter selects the desired conversion product, which is then amplified and demodulated.
+A superheterodyne receiver must reject an image before mixing: once it reaches the same intermediate frequency (IF) as the wanted signal, even a sharp IF filter cannot separate them. The choice of IF affects how easily the input circuits can do that job.
 
-Suppose the wanted signal is at 14 MHz, the LO is at 23 MHz, and the IF is 9 MHz. The wanted difference is $23-14=9$ MHz. A signal at 32 MHz also gives a 9 MHz difference: $32-23=9$ MHz. That unwanted 32 MHz signal is the *image*.
+Suppose the wanted signal is at 14 MHz, the local oscillator (LO) is at 23 MHz, and the IF is 9 MHz. The wanted difference is $23-14=9$ MHz. A signal at 32 MHz also gives a 9 MHz difference: $32-23=9$ MHz. That unwanted 32 MHz signal is the *image*.
 
-At the IF filter, both stations now look like 9 MHz signals. A narrower filter there cannot separate them. *The receiver must reject the image ahead of the mixer.* Desired signal and image are separated by twice the IF, so choosing a higher IF puts them farther apart.
+Both signals produce the same IF, but they are 18 MHz apart at the input. That separation is twice the IF: *a higher IF puts the image farther from the wanted signal, making it easier to reject ahead of the mixer*.
 
 > **Key Information:** A high IF makes image responses easier for a superheterodyne receiver's front-end circuitry to reject. {{< link id="E4C09" >}}
 
 #### Products That Were Never Transmitted
 
-An image is a real incoming signal converted by the normal mixing process. Intermodulation is different. *Nonlinear behavior makes signals combine into unwanted products.* A mixer needs controlled nonlinearity for frequency conversion, but *excessive input levels create additional combinations.*
+Rejecting images does not prevent interference created inside the receiver. *Nonlinear behavior combines incoming signals into unwanted intermodulation products.* A mixer needs controlled nonlinearity for frequency conversion, but *excessive input levels create additional combinations*.
 
 > **Key Information:**
 > - Excessive mixer input levels generate spurious mixer products. {{< link id="E7E09" >}}
@@ -32,7 +32,7 @@ Two signals at frequencies $f_1$ and $f_2$ can produce third-order products at $
 
 > **Key Information:** Odd-order intermodulation products of two in-band signals are likely to fall within the received band too. {{< link id="E4D11" >}}
 
-A receiver's *third-order intercept point* helps compare its resistance to this effect. In the small-signal region, raising both test signals by 1 dB raises their third-order products by about 3 dB. Extend those trends on a graph and they eventually meet. That theoretical meeting is the intercept; the actual receiver reaches overload before operating there.
+Intermodulation grows faster than the wanted response: in the small-signal region, raising both test signals by 1 dB raises their third-order products by about 3 dB. To compare receivers, extend those trends on a graph until they meet at the *third-order intercept point*. The actual receiver reaches overload before operating at that theoretical meeting.
 
 ![A graph plots output power per component in dBm against input power per tone for two equal test signals. The blue fundamental response follows a one-dB-per-dB trend at low levels, then bends toward compression. One orange third-order product follows a three-dB-per-dB trend. Dashed straight extensions of both low-level trends meet at a hollow point, IP3, at 40 dBm input and 30 dBm output. A vertical guide projects that point to IIP3 on the input axis. The solid fundamental response remains below the intersection. The illustrative conversion stage has 10 dB of small-signal conversion loss. The curves are a model, not measurements or input ratings of a particular receiver.](../../../images/s5-4-third-order-intercept.svg)
 {.img-centered .img-xlarge .img-mobile-full caption="Illustrative two-tone test. At low levels, each 1 dB input increase raises the fundamentals (blue) 1 dB and third-order products (orange) 3 dB. Dashed extensions meet at IIP₃ = 40 dBm; the solid response compresses first. Powers are per component. The intercept is theoretical, not an operating limit."}
@@ -54,7 +54,7 @@ Cross modulation transfers modulation from an unwanted strong signal onto anothe
 
 If the noise floor is $-130$ dBm and a test signal at $-20$ dBm causes 1 dB compression, blocking dynamic range is $-20-(-130)=110$ dB. The test-signal spacing and receiver settings matter when comparing that number with another receiver's specification.
 
-A roofing filter limits the bandwidth early in the IF chain. *By attenuating strong signals outside its passband, it protects following stages from overload.* It cannot undo overload that has already happened ahead of it.
+To protect later stages from strong signals they do not need to process, a roofing filter limits bandwidth early in the IF chain. *It attenuates signals outside its passband, improving blocking dynamic range.* It cannot undo overload ahead of it.
 
 > **Key Information:** A narrow-band roofing filter improves blocking dynamic range by attenuating strong signals near the receive frequency. {{< link id="E4C12" >}}
 
@@ -64,9 +64,9 @@ A direct-sampling radio faces the same need to control signal levels. Its ADC ha
 
 #### Oscillator Noise
 
-An ideal LO has perfectly steady phase. A real oscillator has small, rapid phase fluctuations called *phase noise*. In a spectrum, these fluctuations form noise on either side of the oscillator frequency. They are different from a slow shift in tuning frequency.
+A strong adjacent signal can raise the noise inside the wanted passband even when the filter rejects the adjacent carrier. The source can be the receiver's oscillator: its small, rapid phase fluctuations create *phase noise* on either side of its frequency. These fluctuations differ from a slow shift in tuning.
 
-*A strong adjacent signal can mix with that LO noise and place noise inside the wanted IF passband.* The wanted station then disappears into a higher background even though the adjacent signal itself falls outside the filter.
+*The adjacent signal mixes with that LO noise, placing noise inside the wanted IF passband.* The resulting higher background can hide the station you want to hear.
 
 > **Key Information:**
 > - Reciprocal mixing occurs when LO phase noise mixes with strong adjacent signals and interferes with desired signals. {{< link id="E4C13" >}}

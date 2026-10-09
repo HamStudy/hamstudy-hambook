@@ -8,32 +8,7 @@ draft: true
 
 ### Section 6.1: Radiation and Efficiency
 
-Current in an antenna creates changing electric and magnetic fields. Some energy remains close to the antenna, moving between stored electric and magnetic energy. Some travels away as an electromagnetic wave. Radiation is that outward flow.
-
-#### Fields Crossing Space
-
-Frequency counts cycles per second. Wavelength, $\lambda$, is the distance the wave travels during one cycle. In free space, using frequency $f$ in megahertz gives the convenient approximation
-
-$$\lambda\text{ (meters)}\approx\frac{300}{f\text{ (MHz)}}.$$
-
-At 30 MHz, a wavelength is about 10 meters. At 150 MHz, it is about 2 meters. That is why a full-sized antenna for one band can look tiny beside a full-sized antenna for another. Dimensions expressed in wavelengths change their physical size when frequency changes.
-
-*In a freely traveling wave, the electric and magnetic fields point at right angles to each other.* *The wave travels perpendicular to both.* For example, a horizontally traveling wave can have a vertical electric field and a horizontal magnetic field extending across its path.
-
-> **Key Information:**
-> - An electromagnetic wave travels at a right angle to its electric and magnetic fields. {{< link id="E3A04" >}}
-> - The electric and magnetic fields are oriented at right angles to one another. {{< link id="E3A05" >}}
-> - A medium's index of refraction determines wave speed through that medium. {{< link id="E3A10" >}}
-
-Here, right angles describe *directions in space*, not a 90-degree timing difference. In a plane wave in free space, the electric and magnetic fields rise and fall together. *The index of refraction $n$ relates wave speed $v$ to the vacuum speed $c$: $v=c/n$.* A wave with unchanged frequency has a shorter wavelength in a medium where it travels more slowly.
-
-#### The Electric Field's Direction
-
-Polarization names the electric field's orientation. With linear polarization, it stays along one line, such as vertical or horizontal. *With circular polarization, its direction rotates as the wave passes, while its magnitude remains constant in the ideal case.* *The magnetic field rotates with it and remains perpendicular.*
-
-> **Key Information:** Circularly polarized waves have rotating electric and magnetic fields. {{< link id="E3A14" >}}
-
-The wave still moves forward. Circular polarization does not mean the signal travels in a circle, nor does a circular wire loop automatically produce circular polarization.
+Two antennas can each accept 100 watts yet radiate different amounts of it. A good match alone cannot tell us how much becomes a signal and how much becomes heat. To compare them, we need a way to account for both radiation and loss.
 
 #### Radiated Power and Lost Power
 
@@ -49,6 +24,31 @@ Direction is a separate issue. *An isotropic radiator supplies a reference that 
 
 > **Key Information:** An isotropic radiator is a hypothetical, lossless antenna with equal radiation intensity in all directions, used as a gain reference. {{< link id="E9A01" >}}
 
+#### Fields Crossing Space
+
+The radiated energy travels away in the changing electric and magnetic fields produced by antenna current. Other energy stays close, moving between stored electric and magnetic energy. To compare antenna size with the traveling wave, use wavelength rather than meters alone. With frequency $f$ in megahertz, the free-space wavelength is
+
+$$\lambda\text{ (meters)}\approx\frac{300}{f\text{ (MHz)}}.$$
+
+At 30 MHz, a wavelength is about 10 meters; at 150 MHz, it is about 2 meters. Antennas with the same dimensions in wavelengths can therefore have very different physical sizes.
+
+*In a freely traveling wave, the electric and magnetic fields point at right angles to each other.* *The wave travels perpendicular to both.* For example, a horizontally traveling wave can have a vertical electric field and a horizontal magnetic field extending across its path.
+
+> **Key Information:**
+> - An electromagnetic wave travels at a right angle to its electric and magnetic fields. {{< link id="E3A04" >}}
+> - The electric and magnetic fields are oriented at right angles to one another. {{< link id="E3A05" >}}
+> - A medium's index of refraction determines wave speed through that medium. {{< link id="E3A10" >}}
+
+Here, right angles describe *directions in space*, not a 90-degree timing difference. In a plane wave in free space, the electric and magnetic fields rise and fall together. *The index of refraction $n$ relates wave speed $v$ to the vacuum speed $c$: $v=c/n$.* A wave with unchanged frequency has a shorter wavelength in a medium where it travels more slowly.
+
+#### The Electric Field's Direction
+
+A polarization match depends on the electric field's direction, which need not stay fixed as the wave passes. Linear polarization keeps that field along one line, such as vertical or horizontal. *With circular polarization, its direction rotates as the wave passes, while its magnitude remains constant in the ideal case.* *The magnetic field rotates with it and remains perpendicular.*
+
+> **Key Information:** Circularly polarized waves have rotating electric and magnetic fields. {{< link id="E3A14" >}}
+
+The wave still moves forward. Circular polarization does not mean the signal travels in a circle, nor does a circular wire loop automatically produce circular polarization.
+
 #### The Antenna's Surroundings
 
 An antenna's fields induce currents in the ground and nearby conductors. Those currents create fields of their own, which affect both the pattern and the voltage-to-current ratio at the feed point. Raise the antenna and you may need to adjust a match that was fine near the ground. Its impedance can change even though you have not shortened any wire.
@@ -59,6 +59,6 @@ An antenna's fields induce currents in the ground and nearby conductors. Those c
 
 A reflected field can reinforce the direct field in one direction and weaken it in another. Ground gain does not create extra transmitter power; it changes its distribution.
 
-Close to the antenna, the mix of stored and radiated fields changes with distance. *Far enough away, the angular pattern settles into a stable shape.* Field strength still falls as distance increases, but the relative strengths in different directions remain the same.
+To compare radiation patterns, we need to observe them far enough from the antenna that nearby stored fields no longer reshape the result. Close to the antenna, the mix of stored and radiated fields changes with distance. *Far enough away, the angular pattern settles into a stable shape.* Field strength still falls as distance increases, but the relative strengths in different directions remain the same.
 
 > **Key Information:** The far field is the region where radiation-pattern shape no longer varies with distance. {{< link id="E9B08" >}}
