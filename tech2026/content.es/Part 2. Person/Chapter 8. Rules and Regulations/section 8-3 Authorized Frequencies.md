@@ -11,13 +11,13 @@ Como Técnico, tienes una amplia gama de frecuencias disponibles: desde una pequ
 
 La mayor parte de esta sección implica memorización para el examen, pero no necesitas memorizar cada frecuencia. Concéntrate en los puntos específicos que aparecen en las preguntas del examen, y repasa las preguntas de este capítulo para ver qué datos debes fijar. Para la operación cotidiana, la mayoría de los radioaficionados tienen tablas de referencia a mano.
 
-> **Consejo:** Muchas preguntas relacionadas con frecuencias en el examen pueden resolverse usando la ecuación de longitud de onda que presentamos en la Sección 3.1: $\text{Longitud de onda} = \frac{300}{\text{Frecuencia en MHz}}$. ¡A menudo la respuesta correcta es la única opción que cae dentro de la banda especificada!
+> **Consejo:** Muchas preguntas relacionadas con frecuencias en el examen pueden resolverse usando la ecuación de longitud de onda que presentamos en la [Sección 3.1]({{% pageref "3.1" %}}): $\text{Longitud de onda} = \frac{300}{\text{Frecuencia en MHz}}$. ¡A menudo la respuesta correcta es la única opción que cae dentro de la banda especificada!
 
 Un recordatorio rápido de terminología antes de entrar en materia: "CW" (abreviatura de "Continuous Wave") se refiere al código Morse, "Phone" significa transmisiones de voz, y "Data" cubre los modos digitales.
 
 #### Designaciones de Bandas
 
-Las bandas de radioaficionados a menudo se nombran por su longitud de onda aproximada en lugar de por su rango de frecuencias. Recuerda de la Sección 3.1 que la longitud de onda y la frecuencia están relacionadas de forma inversa: a medida que aumenta la frecuencia, disminuye la longitud de onda.
+Las bandas de radioaficionados a menudo se nombran por su longitud de onda aproximada en lugar de por su rango de frecuencias. Recuerda de la [Sección 3.1]({{% pageref "3.1" %}}) que la longitud de onda y la frecuencia están relacionadas de forma inversa: a medida que aumenta la frecuencia, disminuye la longitud de onda.
 
 Esta convención de nombres es la razón por la que oirás referencias a la "banda de 2 metros" (144-148 MHz), la "banda de 70 centímetros" (420-450 MHz) o la "banda de 10 metros" (28-29.7 MHz). También ofrece una forma rápida de estimar el tamaño de las antenas necesarias para esas bandas, ya que los elementos de antena suelen diseñarse como fracciones (como 1/4 o 1/2) de la longitud de onda.
 

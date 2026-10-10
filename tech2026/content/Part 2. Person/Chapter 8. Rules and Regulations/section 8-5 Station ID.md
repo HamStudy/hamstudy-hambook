@@ -50,7 +50,7 @@ Just remember, your indicator can't clash with any FCC-specified indicators or c
 
 #### Special Situations
 
-- **Club Stations**: Use the club's callsign, not your personal one (covered in Section 8.1).
+- **Club Stations**: Use the club's callsign, not your personal one (covered in [Section 8.1]({{% pageref "8.1" %}})).
 - **Special Event Stations**: Use the special event callsign if one has been issued.
 - **Remote Operation**: Additional identification rules may apply — check current FCC regulations if you're operating remotely.
 

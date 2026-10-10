@@ -76,7 +76,7 @@ Imagina crear tu propia mini-internet usando ondas de radio. De eso se tratan la
 
 ##### APRS (Automatic Packet Reporting System) {#aprs-section75}
 
-Hablamos un poco de esto en la Sección 3.5: piensa en APRS como redes sociales para tu radio. Te permite transmitir tu posición, datos meteorológicos y mensajes cortos por radioafición. Imagina un mapa en tiempo real que muestra dónde están operando los radioaficionados, con actualizaciones de estado e información local. Es especialmente útil durante eventos de servicio público o emergencias, porque permite a los coordinadores ver de un vistazo dónde están sus operadores.
+Hablamos un poco de esto en la [Sección 3.5]({{% pageref "3.5" %}}): piensa en APRS como redes sociales para tu radio. Te permite transmitir tu posición, datos meteorológicos y mensajes cortos por radioafición. Imagina un mapa en tiempo real que muestra dónde están operando los radioaficionados, con actualizaciones de estado e información local. Es especialmente útil durante eventos de servicio público o emergencias, porque permite a los coordinadores ver de un vistazo dónde están sus operadores.
 
 ##### SOTA (Summits On The Air) y POTA (Parks On The Air)
 

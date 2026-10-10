@@ -17,13 +17,13 @@ Welcome to the amateur radio glossary! Here you'll find definitions for common t
 A radio communication service used by licensed operators for personal communication, technical exploration, emergency communication, and public service. Governed by the FCC in the United States, amateur radio operators (hams) use various frequency bands and modes to communicate locally and globally.
 
 ##### Antenna Tuner
-A device that matches the impedance of an antenna system to the transceiver's output impedance. Sometimes called an antenna coupler. A tuner doesn't actually "tune" the antenna — it just makes the transmitter see a load it's happy with. See Section 4.1.
+A device that matches the impedance of an antenna system to the transceiver's output impedance. Sometimes called an antenna coupler. A tuner doesn't actually "tune" the antenna — it just makes the transmitter see a load it's happy with. See [Section 4.1]({{% pageref "4.1" %}}).
 
 ##### APRS (Automatic Packet Reporting System) {#glossary-aprs}
-A digital communication system that allows amateur radio operators to transmit position data, weather information, and short text messages. It provides real-time tactical communications with mapping capabilities. Discussed in Section 3.5.
+A digital communication system that allows amateur radio operators to transmit position data, weather information, and short text messages. It provides real-time tactical communications with mapping capabilities. Discussed in [Section 3.5]({{% pageref "3.5" %}}).
 
 ##### ARES (Amateur Radio Emergency Service)
-A volunteer organization for emergency communications. Discussed in Section 7.3.
+A volunteer organization for emergency communications. Discussed in [Section 7.3]({{% pageref "7.3" %}}).
 
 #### B
 
@@ -36,7 +36,7 @@ A voluntary guideline for using different modes or activities within an amateur 
 #### C
 
 ##### Coax / Coaxial Cable
-The most common type of feed line in amateur radio. Coax has a center conductor surrounded by insulation (the dielectric), a shielding layer, and a protective outer jacket. Most amateur coax has an impedance of 50 ohms. See Section 4.3.
+The most common type of feed line in amateur radio. Coax has a center conductor surrounded by insulation (the dielectric), a shielding layer, and a protective outer jacket. Most amateur coax has an impedance of 50 ohms. See [Section 4.3]({{% pageref "4.3" %}}).
 
 ##### CTCSS (Continuous Tone-Coded Squelch System)
 A sub-audible tone transmitted along with voice audio to open the squelch of a receiver. Often called "PL" (Private Line), it helps prevent interference and unwanted repeater activations.
@@ -52,7 +52,7 @@ It was originally called Continuous Wave to differentiate it from the raspy squa
 A digital voice and data radio technology that uses time-division multiple access (TDMA) to allow two voice channels in a single 12.5 kHz channel bandwidth.
 
 ##### Dipole
-The most basic antenna type — two conductors of equal length, fed at the center. A half-wave dipole radiates strongest broadside to the wire. Most other antenna types are variations on the dipole. See Section 4.1.
+The most basic antenna type — two conductors of equal length, fed at the center. A half-wave dipole radiates strongest broadside to the wire. Most other antenna types are variations on the dipole. See [Section 4.1]({{% pageref "4.1" %}}).
 
 ##### Doppler Shift
 An observed change in signal frequency caused by relative motion between a satellite and an Earth station. As a satellite approaches, the frequency appears higher; as it moves away, it seems lower.
@@ -84,7 +84,7 @@ A conductive surface that acts as the "other half" of certain antennas like quar
 #### H
 
 ##### Handheld Transceiver (HT)
-A small, portable, battery-powered radio that fits in your hand. Sometimes called a "walkie-talkie." HTs are the most common starting point for new Technicians. See Section 6.3.
+A small, portable, battery-powered radio that fits in your hand. Sometimes called a "walkie-talkie." HTs are the most common starting point for new Technicians. See [Section 6.3]({{% pageref "6.3" %}}).
 
 ##### Harmonics
 Multiples of a fundamental transmit frequency. For example, a transmitter on 146 MHz can produce harmonics at 292 MHz, 438 MHz, and so on. Harmonics are a common cause of interference and are minimized through proper transmitter design and filtering.
@@ -98,7 +98,7 @@ The radio frequency band between 3 and 30 MHz, known for long-distance communica
 #### I
 
 ##### Ionosphere
-A region of the upper atmosphere containing charged particles (ions) that can refract HF radio waves back toward Earth, enabling long-distance communication. Conditions in the ionosphere change with time of day, season, and solar activity. See Section 3.3.
+A region of the upper atmosphere containing charged particles (ions) that can refract HF radio waves back toward Earth, enabling long-distance communication. Conditions in the ionosphere change with time of day, season, and solar activity. See [Section 3.3]({{% pageref "3.3" %}}).
 
 ##### IRLP (Internet Radio Linking Project)
 A system that connects amateur radio systems via the internet using Voice Over Internet Protocol (VoIP), allowing worldwide communication through linked repeaters.
@@ -116,7 +116,7 @@ The process of combining speech or data with a radio frequency carrier signal. D
 #### O
 
 ##### OSCAR (Orbiting Satellite Carrying Amateur Radio)
-A naming convention for amateur radio satellites. Most amateur satellites are designated OSCAR-something (for example, AO-91 is "AMSAT OSCAR 91"). See Section 7.4.
+A naming convention for amateur radio satellites. Most amateur satellites are designated OSCAR-something (for example, AO-91 is "AMSAT OSCAR 91"). See [Section 7.4]({{% pageref "7.4" %}}).
 
 #### P
 
@@ -149,7 +149,7 @@ Casual, extended conversation on the air — the radio equivalent of hanging out
 An amateur radio station that receives signals on one frequency and simultaneously retransmits them on another frequency, extending communication range.
 
 ##### Resonance / Resonant Frequency
-The frequency at which an antenna or tuned circuit operates most efficiently. At resonance, inductive and capacitive reactances cancel out, allowing energy to flow most readily. Antennas are typically designed to be resonant at their operating frequency. See Sections 1.2 and 3.1.
+The frequency at which an antenna or tuned circuit operates most efficiently. At resonance, inductive and capacitive reactances cancel out, allowing energy to flow most readily. Antennas are typically designed to be resonant at their operating frequency. See Sections [1.2]({{% pageref "1.2" %}}) and [3.1]({{% pageref "3.1" %}}).
 
 ##### RF (Radio Frequency)
 Electromagnetic waves used for wireless communication, typically ranging from 3 kHz to 300 GHz.
@@ -157,7 +157,7 @@ Electromagnetic waves used for wireless communication, typically ranging from 3 
 #### S
 
 ##### Sideband
-The frequencies above and below a carrier wave that contain the actual modulated information. AM signals have both upper and lower sidebands; SSB transmits only one. See Section 3.4.
+The frequencies above and below a carrier wave that contain the actual modulated information. AM signals have both upper and lower sidebands; SSB transmits only one. See [Section 3.4]({{% pageref "3.4" %}}).
 
 ##### Simplex
 A communication mode where stations transmit and receive on the same frequency.
@@ -196,7 +196,7 @@ The radio frequency band between 300 MHz and 3 GHz. Commonly used for local comm
 #### V
 
 ##### Vanity Callsign
-A custom callsign chosen by a licensed operator. See Section 8.1.
+A custom callsign chosen by a licensed operator. See [Section 8.1]({{% pageref "8.1" %}}).
 
 ##### VEC (Volunteer Examiner Coordinator)
 An organization that coordinates volunteer examiners and submits exam results to the FCC. The ARRL and W5YI are two well-known VECs in the United States.

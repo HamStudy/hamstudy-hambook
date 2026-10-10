@@ -18,19 +18,19 @@ FM is the default mode for most local communications, especially on VHF and UHF 
 
 Instead of varying the strength of the signal (like AM does), FM varies the frequency slightly. It's like changing the color of a laser rather than the intensity. This is why FM sounds so clear on your car radio — and why it's perfect for local ham chats.
 
-As we discussed in Section 3.5, there is also PM (Phase Modulation), which is so similar to FM in practical use that most hams don't know the difference. For convenience, we just refer to it as FM since the main difference lies in how the transmitter generates the signal.
+As we discussed in [Section 3.4]({{% pageref "3.4" %}}), there is also PM (Phase Modulation), which is so similar to FM in practical use that most hams don't know the difference. For convenience, we just refer to it as FM since the main difference lies in how the transmitter generates the signal.
 
 #### Types of FM Operation
 
 Now, let's talk about using FM in the ham world:
 
-1. **Simplex Operation**: This is direct radio-to-radio communication — as introduced in Section 6.5, you and your contact are on the same frequency, taking turns to transmit and receive. It's great for local chats or emergency communications when repeaters might be down.
+1. **Simplex Operation**: This is direct radio-to-radio communication — as introduced in [Section 6.5]({{% pageref "6.5" %}}), you and your contact are on the same frequency, taking turns to transmit and receive. It's great for local chats or emergency communications when repeaters might be down.
 
    > **Key Information:** The national calling frequency for FM simplex operations in the 2-meter band is 146.520 MHz. {{< link id="T2A02" >}}
 
    It's like the radio equivalent of a public square — used to make initial contact before moving to a different frequency.
 
-2. **Repeater Operation**: As covered in Section 6.5, most VHF and UHF repeaters use FM. They listen on one frequency and transmit on another, vastly increasing your coverage area.
+2. **Repeater Operation**: As covered in [Section 6.5]({{% pageref "6.5" %}}), most VHF and UHF repeaters use FM. They listen on one frequency and transmit on another, vastly increasing your coverage area.
 
 3. **Narrow Band FM**: Many modern radios use Narrow Band FM to allow more channels in the same frequency space. Think of it like fitting more cars into a parking lot by shrinking the spaces just a little.
 
@@ -42,7 +42,7 @@ When operating FM, keep these tips in mind:
 - Leave a pause between transmissions. This gives others a chance to break in or call for help.
 - Use simplex when possible. It keeps repeaters available for those who truly need the extended range.
 
-A couple of FM-specific issues to watch for: tuning has to be precise (other modes may sound off-pitch when you're slightly off frequency, but FM just sounds bad), and as we discussed in Section 6.7, microphone volume matters too — talking too loudly can cause overdeviation, which results in audio dropouts on voice peaks.
+A couple of FM-specific issues to watch for: tuning has to be precise (other modes may sound off-pitch when you're slightly off frequency, but FM just sounds bad), and as we discussed in [Section 6.7]({{% pageref "6.7" %}}), microphone volume matters too — talking too loudly can cause overdeviation, which results in audio dropouts on voice peaks.
 
 > **Key Information:**
 > - When an FM signal is received slightly off frequency, the audio becomes distorted. {{< link id="T4B04" >}}

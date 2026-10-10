@@ -1,7 +1,7 @@
 ---
 chapter: "3"
 section: "3.5"
-questions: [ "T8D01", "T8D08", "T8D03", "T8D05", "T8D06", "T8D07", "T2B12", "T2B14", "T2B07", "T4B07", "T4B11", "T4B09", "T4A10", "T4A06", "T4A04", "T4A07", "T8D02", "T8D10", "T8D04", "T8D12", "T8D11" ]
+questions: [ "T8D01", "T8D08", "T8D03", "T8D05", "T8D06", "T8D07", "T2B12", "T2B14", "T2B07", "T4B09", "T4B07", "T4B11", "T4A10", "T4A06", "T4A04", "T4A07", "T8D02", "T8D10", "T8D04", "T8D12", "T8D11" ]
 status: publish1
 ---
 
@@ -111,7 +111,7 @@ There are two main options for sending images and video:
 
 > **Key Information:** An amateur radio mesh network is an amateur-radio data network using commercial Wi-Fi equipment with modified firmware. {{< link id="T8D12" >}}
 
-Amateur mesh networks take commercial Wi-Fi hardware, load it with modified firmware, and use it to operate within amateur radio bands rather than the standard Wi-Fi ones. Mesh networks route around failures automatically — if one node goes down, traffic finds a different path — which makes them popular for emergency communications and community-built networks.
+Amateur mesh networks take commercial Wi-Fi hardware, load it with modified firmware, and use it to operate on amateur frequencies, some of which overlap standard Wi-Fi channels. Mesh networks route around failures automatically — if one node goes down, traffic finds a different path — which makes them popular for emergency communications and community-built networks.
 
 #### ARQ (Automatic Repeat reQuest)
 

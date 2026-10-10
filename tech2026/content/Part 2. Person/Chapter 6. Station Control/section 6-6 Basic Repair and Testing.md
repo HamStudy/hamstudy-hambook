@@ -61,7 +61,7 @@ Safety is paramount when measuring high voltages. Using a voltmeter rated for 50
 
 A few other instruments earn space in any ham's toolkit:
 
-1. **SWR Meter**: measures the standing wave ratio so you can tell how well your antenna is matched to your transmitter. We covered SWR in detail in Section 4.5.
+1. **SWR Meter**: measures the standing wave ratio so you can tell how well your antenna is matched to your transmitter. We covered SWR in detail in [Section 4.5]({{% pageref "4.5" %}}).
 2. **Wattmeter**: measures your transmitter's power output, which helps you stay within legal limits and confirm proper operation.
 3. **Dummy Load**: lets you test transmitters without putting a signal on the air. It looks like a properly-matched antenna to your transmitter, but converts all the RF energy to heat instead of radiating it.
 4. **Oscilloscope**: visualizes electrical signals over time. More advanced, but useful for diagnosing modulation or signal-quality issues.

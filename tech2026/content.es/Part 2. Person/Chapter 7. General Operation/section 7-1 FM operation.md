@@ -18,19 +18,19 @@ FM es el modo predeterminado para la mayoría de las comunicaciones locales, esp
 
 En lugar de variar la intensidad de la señal (como lo hace AM), FM varía ligeramente la frecuencia. Es como cambiar el color de un láser en vez de su intensidad. Por eso FM suena tan clara en la radio de tu coche, y por eso es perfecta para charlas locales de radioaficionados.
 
-Como discutimos en la Sección 3.5, también existe PM (modulación de fase), que en el uso práctico es tan parecida a FM que la mayoría de los radioaficionados no conocen la diferencia. Por conveniencia, simplemente nos referimos a ella como FM, ya que la diferencia principal está en cómo el transmisor genera la señal.
+Como discutimos en la [Sección 3.4]({{% pageref "3.4" %}}), también existe PM (modulación de fase), que en el uso práctico es tan parecida a FM que la mayoría de los radioaficionados no conocen la diferencia. Por conveniencia, simplemente nos referimos a ella como FM, ya que la diferencia principal está en cómo el transmisor genera la señal.
 
 #### Tipos de Operación FM
 
 Ahora hablemos de cómo se usa FM en el mundo de la radioafición:
 
-1. **Operación Simplex**: Es la comunicación directa de radio a radio. Como se presentó en la Sección 6.5, tú y tu contacto están en la misma frecuencia, turnándose para transmitir y recibir. Es excelente para charlas locales o comunicaciones de emergencia cuando los repetidores podrían estar fuera de servicio.
+1. **Operación Simplex**: Es la comunicación directa de radio a radio. Como se presentó en la [Sección 6.5]({{% pageref "6.5" %}}), tú y tu contacto están en la misma frecuencia, turnándose para transmitir y recibir. Es excelente para charlas locales o comunicaciones de emergencia cuando los repetidores podrían estar fuera de servicio.
 
    > **Información Clave:** La frecuencia nacional de llamada para operaciones simplex de FM en la banda de 2 metros es 146.520 MHz. {{< link id="T2A02" >}}
 
    Es como el equivalente radiofónico de una plaza pública: se usa para hacer el contacto inicial antes de moverse a otra frecuencia.
 
-2. **Operación con Repetidor**: Como se cubrió en la Sección 6.5, la mayoría de los repetidores de VHF y UHF usan FM. Escuchan en una frecuencia y transmiten en otra, aumentando enormemente tu área de cobertura.
+2. **Operación con Repetidor**: Como se cubrió en la [Sección 6.5]({{% pageref "6.5" %}}), la mayoría de los repetidores de VHF y UHF usan FM. Escuchan en una frecuencia y transmiten en otra, aumentando enormemente tu área de cobertura.
 
 3. **FM de Banda Estrecha**: Muchas radios modernas usan FM de banda estrecha para permitir más canales en el mismo espacio de frecuencia. Piensa en ello como meter más coches en un estacionamiento reduciendo un poco el tamaño de cada espacio.
 
@@ -42,7 +42,7 @@ Cuando operes en FM, ten presentes estos consejos:
 - Deja una pausa entre transmisiones. Esto da a otros la oportunidad de entrar o pedir ayuda.
 - Usa simplex cuando sea posible. Mantiene los repetidores disponibles para quienes realmente necesitan el alcance extendido.
 
-Hay un par de problemas específicos de FM a los que debes prestar atención: la sintonía debe ser precisa (otros modos pueden sonar desafinados cuando estás ligeramente fuera de frecuencia, pero FM simplemente suena mal), y como discutimos en la Sección 6.7, el volumen del micrófono también importa: hablar demasiado alto puede causar que estés desviando demasiado, lo que produce cortes de audio en los picos de voz.
+Hay un par de problemas específicos de FM a los que debes prestar atención: la sintonía debe ser precisa (otros modos pueden sonar desafinados cuando estás ligeramente fuera de frecuencia, pero FM simplemente suena mal), y como discutimos en la [Sección 6.7]({{% pageref "6.7" %}}), el volumen del micrófono también importa: hablar demasiado alto puede causar que estés desviando demasiado, lo que produce cortes de audio en los picos de voz.
 
 > **Información Clave:**
 > - Cuando se recibe una señal FM ligeramente fuera de frecuencia, el audio se distorsiona. {{< link id="T4B04" >}}

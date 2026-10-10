@@ -50,7 +50,7 @@ Solo recuerda que tu indicador no puede entrar en conflicto con ningún indicado
 
 #### Situaciones Especiales
 
-- **Estaciones de Club**: Usa el indicativo del club, no el tuyo personal (cubierto en la Sección 8.1).
+- **Estaciones de Club**: Usa el indicativo del club, no el tuyo personal (cubierto en la [Sección 8.1]({{% pageref "8.1" %}})).
 - **Estaciones de Eventos Especiales**: Usa el indicativo de evento especial si se ha emitido uno.
 - **Operación Remota**: Pueden aplicarse reglas adicionales de identificación; revisa las regulaciones actuales de la FCC si operas remotamente.
 

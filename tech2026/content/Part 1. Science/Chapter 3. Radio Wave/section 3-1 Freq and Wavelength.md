@@ -7,7 +7,7 @@ status: publish1
 
 ### Section 3.1: Frequency and Wavelength
 
-![cartoon showing a boy on the beach watching waves; how fast they come is frequency and the distance between them is wavelength](../../../images/illus/waves.svg)
+![Wavelength is marked between adjacent wave crests. Three views of a fixed post at 0, 1, and 2 seconds show a crest, a trough, then the next crest: one wave every 2 seconds, or 0.5 Hz.](../../../images/illus/waves.svg)
 {.img-pgcap .float-right}
 
 Watch waves at the beach. Some waves come in quickly, one after another, while others roll in more slowly with greater distance between them. Those are two different things: how often waves arrive (frequency) and the distance between them (wavelength). As we'll see, both describe the same wave, and they're linked. Radio waves work in a similar way, but instead of water, they're electromagnetic waves traveling through space at the speed of light.

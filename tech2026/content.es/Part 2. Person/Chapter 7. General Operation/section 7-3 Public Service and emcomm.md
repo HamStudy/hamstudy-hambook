@@ -92,7 +92,7 @@ Los operadores de radioafición también proporcionan valioso apoyo de comunicac
 Recuerda estas regulaciones clave:
 
 - *Las reglas de la FCC siempre se aplican* a la operación de estaciones de aficionados, incluso durante emergencias.
-- Los operadores aficionados no pueden aceptar compensación por proporcionar comunicaciones (más en la Sección 8.6).
+- Los operadores aficionados no pueden aceptar compensación por proporcionar comunicaciones (más en la [Sección 8.6]({{% pageref "8.6" %}})).
 
 Participar en estas actividades desarrolla habilidades valiosas para emergencias reales mientras ayudas a tu comunidad.
 

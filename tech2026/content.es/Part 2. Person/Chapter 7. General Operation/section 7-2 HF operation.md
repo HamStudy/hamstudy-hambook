@@ -19,7 +19,7 @@ Como Técnico, tienes privilegios de voz en una pequeña porción de la banda de
 
 Esto es lo que hace especial a HF:
 
-1. **Comunicación de Larga Distancia**: Como discutimos en la Sección 3.4, las ondas HF pueden reflejarse en la ionosfera, permitiéndote hablar alrededor del mundo. ¡Es como hacer saltar piedras sobre un estanque, pero con ondas de radio!
+1. **Comunicación de Larga Distancia**: Como discutimos en la [Sección 3.3]({{% pageref "3.3" %}}), las ondas HF pueden reflejarse en la ionosfera, permitiéndote hablar alrededor del mundo. ¡Es como hacer saltar piedras sobre un estanque, pero con ondas de radio!
 
 2. **Condiciones Variables**: La propagación HF cambia con la hora del día, la estación del año y la actividad solar. Un día podrías charlar con alguien en Australia, y al día siguiente podrías tener dificultades para llegar al estado vecino.
 

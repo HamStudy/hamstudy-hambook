@@ -26,7 +26,7 @@ También podrías querer un protector contra sobretensiones entre tu fuente y el
 
 #### Interfaces digitales
 
-Para modos digitales (que cubrimos en la Sección 3.5), querrás una forma de conectar tu radio a la computadora. Las tres señales principales que necesitas conectar son *audio de recepción, audio de transmisión y activación del transmisor*; todo lo demás es cableado auxiliar alrededor de esas tres. Muchos radios modernos incluyen puertos USB que manejan las tres por un solo cable; configuraciones más antiguas o más simples usan cables de audio separados con una pequeña caja de interfaz que maneja la activación.
+Para modos digitales (que cubrimos en la [Sección 3.5]({{% pageref "3.5" %}})), querrás una forma de conectar tu radio a la computadora. Las tres señales principales que necesitas conectar son *audio de recepción, audio de transmisión y activación del transmisor*; todo lo demás es cableado auxiliar alrededor de esas tres. Muchos radios modernos incluyen puertos USB que manejan las tres por un solo cable; configuraciones más antiguas o más simples usan cables de audio separados con una pequeña caja de interfaz que maneja la activación.
 
 #### Analizadores de antena, medidores de ROE y medidores de potencia
 

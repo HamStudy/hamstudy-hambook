@@ -1,0 +1,4 @@
+/* Keep the revised illustrations readable in the printed book. */
+.markdown .book-section img.illustration-gutter {
+  margin-left: 0.75rem;
+}

@@ -1,7 +1,7 @@
 ---
 chapter: "6"
 section: "6.5"
-questions: [ "T1F09", "T2A07", "T2A01", "T2A03", "T2B01", "T2B02", "T2B04", "T2A04", "T2A09", "T2A11", "T2B03", "T8C07", "T8C06", "T8C10", "T8C08", "T8C09", "T8C11" ]
+questions: [ "T1F09", "T2A07", "T2A01", "T2A03", "T2B01", "T2B02", "T2B04", "T2A04", "T2A09", "T2A11", "T2B03", "T8C07", "T8C11", "T8C08", "T8C06", "T8C09", "T8C10" ]
 status: publish1
 ---
 
@@ -13,7 +13,7 @@ A repeater is a station that listens on one frequency and rebroadcasts what it h
 
 > **Key Information:** A repeater station simultaneously retransmits the signal of another amateur station on a different channel or channels. {{< link id="T1F09" >}}
 
-![Illustration showing two operators on either side of a mountain talking via a repeater on the mountaintop](../../../images/repeater-illustration.svg)
+![Two children with handheld radios on opposite sides of a mountain communicate through a repeater at its summit; two-way arrows connect each child to the repeater.](../../../images/repeater-illustration.svg)
 {.img-med .float-right}
 
 Think of a radio relay station perched high up on a hill or tall building. It listens on one frequency and simultaneously retransmits what it hears on another. This extends your range way beyond what your little handheld or mobile rig could do on its own.
@@ -61,7 +61,7 @@ Many repeaters require either a CTCSS (Continuous Tone-Coded Squelch System) ton
 
 Both serve the same purpose: they help prevent interference and unintended activations of the repeater. Your radio must be set to transmit the correct CTCSS tone or DCS code for the repeater to even recognize your signal. Check your local repeater directory or club information to find out which system a particular repeater uses.
 
-You'll also encounter DTMF in repeater operation. As we discussed in Section 6.4, DTMF uses two simultaneous audio tones — the same technology used in touch-tone phones. Unlike CTCSS or DCS, DTMF is not used for basic repeater access but instead for controlling repeater functions, activating links to other systems, or accessing internet-connected systems like IRLP (which we'll discuss later in this section).
+You'll also encounter DTMF in repeater operation. As we discussed in [Section 6.4]({{% pageref "6.4" %}}), DTMF uses two simultaneous audio tones — the same technology used in touch-tone phones. Unlike CTCSS or DCS, DTMF is not used for basic repeater access but instead for controlling repeater functions, activating links to other systems, or accessing internet-connected systems like IRLP (which we'll discuss later in this section).
 
 If you're having trouble accessing a repeater whose output you can hear, there could be several reasons:
 

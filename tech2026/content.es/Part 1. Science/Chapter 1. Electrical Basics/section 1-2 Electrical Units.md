@@ -33,7 +33,7 @@ En radioafición podrías trabajar con:
   - Dividir voltaje en circuitos de medición.
   - Convertir energía eléctrica en calor en aplicaciones como cargas ficticias.
 
-Estas tres cantidades están fundamentalmente relacionadas, como explica la **Ley de Ohm**, que veremos en la **Sección 1.3**.
+Estas tres cantidades están fundamentalmente relacionadas, como explica la **Ley de Ohm**, que veremos en la **[Sección 1.3]({{% pageref "1.3" %}})**.
 
 #### Caída de voltaje
 
@@ -117,7 +117,7 @@ En un **circuito de CC**, la resistencia simplemente se opone al flujo de electr
 
 *La inductancia describe la capacidad de almacenar energía en un campo magnético* {{< link id="T5C03" >}} y se mide en *henrios (H)*. {{< link id="T5C04" >}}
 
-Los componentes físicos que presentan estas propiedades se llaman **capacitores** e **inductores**; los veremos en la Sección 2.1. Por ahora, el enfoque está en cómo se comportan dentro de un circuito.
+Los componentes físicos que presentan estas propiedades se llaman **capacitores** e **inductores**; los veremos en la [Sección 2.1]({{% pageref "2.1" %}}). Por ahora, el enfoque está en cómo se comportan dentro de un circuito.
 
 Cuando los capacitores o inductores están en un circuito de CA, se oponen a la corriente de forma distinta a diferentes frecuencias. Este tipo de oposición dependiente de la frecuencia se llama **reactancia**.
 
@@ -155,7 +155,7 @@ En radioafición, a menudo manejamos números muy grandes o muy pequeños. En lu
 > * La abreviatura kHz significa “kilohercio”. {{< link id="T5C06" >}}
 > * La abreviatura MHz significa “megahercio”. {{< link id="T5C07" >}}
 
-Nota: Las unidades F (faradio) y H (henrio) se refieren a la capacitancia y la inductancia mencionadas arriba, que exploraremos con más detalle en la Sección 2.1.
+Nota: Las unidades F (faradio) y H (henrio) se refieren a la capacitancia y la inductancia mencionadas arriba, que exploraremos con más detalle en la [Sección 2.1]({{% pageref "2.1" %}}).
 
 Aquí hay algunas conversiones comunes que pueden aparecer en el examen:
 

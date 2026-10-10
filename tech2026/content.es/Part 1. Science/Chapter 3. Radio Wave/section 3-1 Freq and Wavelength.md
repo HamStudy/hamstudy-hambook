@@ -7,7 +7,7 @@ status: publish1
 
 ### Sección 3.1: Frecuencia y longitud de onda
 
-![caricatura que muestra a un niño en la playa observando olas; qué tan rápido llegan es la frecuencia y la distancia entre ellas es la longitud de onda](../../../images/illus/waves-es.svg)
+![Olas con la distancia entre crestas marcada como longitud de onda. Una cresta pasa por un poste fijo cada 2 segundos, lo que equivale a una frecuencia de 0,5 Hz.](../../../images/illus/waves_es.svg)
 {.img-pgcap .float-right}
 
 Observa las olas en la playa. Algunas llegan rápidamente, una tras otra, mientras que otras vienen más despacio y con mayor distancia entre ellas. Son dos cosas diferentes: qué tan seguido llegan las olas (frecuencia) y la distancia entre ellas (longitud de onda). Como veremos, ambas describen la misma onda y están relacionadas. Las ondas de radio funcionan de manera parecida, pero en lugar de agua son ondas electromagnéticas que viajan por el espacio a la velocidad de la luz.

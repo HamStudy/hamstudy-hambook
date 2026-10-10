@@ -14,7 +14,7 @@ La radioafición, a menudo llamada "radio ham", es más que un simple pasatiempo
 
 ## Un mundo de posibilidades
 
-![Ilustración mostrando muchas personas con radios](../../images/illus/aboutradio-color.svg)
+![Grupo diverso de radioaficionados de distintas edades con radios portátiles.](../../images/illus/aboutradio-color.svg)
 {.img-xlarge .img-centered}
 
 Imagina mantenerte en contacto cuando todo lo demás falla — sin servicio celular, sin internet, ni siquiera electricidad. Con la radioafición, no solo estás usando la red de alguien más; estás creando la tuya propia. Ya sea que estés en lo profundo de las montañas o en medio de un apagón en la ciudad, tu radio te mantiene conectado.
@@ -25,7 +25,7 @@ Como operador de clase Technician, tendrás acceso a frecuencias VHF y UHF, perf
 
 ## Más que solo un pasatiempo
 
-![Ilustración mostrando radioaficionados ayudando en un desastre](../../images/illus/morethanhobby-color.svg)
+![Dibujo de tres radioaficionados voluntarios después de un desastre: uno habla por un radio portátil, otro escribe un mensaje y otra revisa un formulario.](../../images/illus/morethanhobby-color.svg)
 {.float-right .img-pgcap}
 
 Claro, la radioafición es divertida, pero también es una herramienta vital en emergencias. Cuando ocurren desastres y caen las torres de telefonía celular, los radioaficionados a menudo intervienen para mantener abiertas las líneas de comunicación.

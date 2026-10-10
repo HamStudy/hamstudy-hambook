@@ -95,7 +95,7 @@ Para tu estación, quieres un camino de baja impedancia a tierra. Esto significa
 - **Mantenlo tan corto y recto como sea posible** y evita curvas pronunciadas.
 - **Conéctalo a una buena tierra física** (varillas de tierra, tuberías de agua fría, etc.).
 
-Todo tu equipo debe conectarse a tierra en un solo punto. Esto evita “bucles de tierra”, que ocurren cuando equipos a diferentes potenciales de tierra crean un lazo por el que puede fluir corriente, causando zumbido, ruido y otros dolores de cabeza. Si tu estación tiene más de una varilla de tierra o conexión a tierra, recuerda de la Sección 5.5 que deben unirse entre sí con alambre grueso o cinta conductora para que los rayos y las corrientes parásitas no puedan desarrollar una diferencia de voltaje entre ellas.
+Todo tu equipo debe conectarse a tierra en un solo punto. Esto evita “bucles de tierra”, que ocurren cuando equipos a diferentes potenciales de tierra crean un lazo por el que puede fluir corriente, causando zumbido, ruido y otros dolores de cabeza. Si tu estación tiene más de una varilla de tierra o conexión a tierra, recuerda de la [Sección 5.5]({{% pageref "5.5" %}}) que deben unirse entre sí con alambre grueso o cinta conductora para que los rayos y las corrientes parásitas no puedan desarrollar una diferencia de voltaje entre ellas.
 
 La puesta a tierra no se trata solo de rendimiento; también es un tema de seguridad. Una buena tierra puede ayudar a proteger tu equipo (y a ti) de acumulación de estática y forma parte de tu sistema de protección contra rayos.
 

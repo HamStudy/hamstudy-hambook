@@ -19,7 +19,7 @@ But wait, there's more! If you're feeling adventurous, as a Technician, you can 
 
 Here's what makes HF special:
 
-1. **Long-Distance Communication**: As we discussed in Section 3.4, HF waves can reflect off the ionosphere, letting you talk around the world. It's like skipping stones on a pond, but with radio waves!
+1. **Long-Distance Communication**: As we discussed in [Section 3.3]({{% pageref "3.3" %}}), HF waves can reflect off the ionosphere, letting you talk around the world. It's like skipping stones on a pond, but with radio waves!
 
 2. **Varying Conditions**: HF propagation changes with the time of day, season, and solar activity. One day you might chat with someone in Australia, the next day you might struggle to reach the next state.
 

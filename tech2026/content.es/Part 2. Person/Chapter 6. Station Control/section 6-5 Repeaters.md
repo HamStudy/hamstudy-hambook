@@ -1,7 +1,7 @@
 ---
 chapter: "6"
 section: "6.5"
-questions: [ "T1F09", "T2A07", "T2A01", "T2A03", "T2B01", "T2B02", "T2B04", "T2A04", "T2A09", "T2A11", "T2B03", "T8C07", "T8C06", "T8C10", "T8C08", "T8C09", "T8C11" ]
+questions: [ "T1F09", "T2A07", "T2A01", "T2A03", "T2B01", "T2B02", "T2B04", "T2A04", "T2A09", "T2A11", "T2B03", "T8C07", "T8C11", "T8C08", "T8C06", "T8C09", "T8C10" ]
 status: publish1
 ---
 
@@ -13,7 +13,7 @@ Un repetidor es una estación que escucha en una frecuencia y retransmite lo que
 
 > **Información clave:** Una estación repetidora retransmite simultáneamente la señal de otra estación de radioaficionado en un canal o canales diferentes. {{< link id="T1F09" >}}
 
-![Ilustración que muestra a dos operadores a cada lado de una montaña hablando mediante un repetidor en la cima de la montaña](../../../images/repeater-illustration.svg)
+![Dos niños con radios portátiles a lados opuestos de una montaña se comunican mediante un repetidor en la cima; flechas de doble sentido conectan a cada niño con el repetidor.](../../../images/repeater-illustration.svg)
 {.img-med .float-right}
 
 Piensa en una estación de retransmisión de radio ubicada en lo alto de una colina o edificio alto. Escucha en una frecuencia y retransmite simultáneamente lo que oye en otra. Esto extiende tu alcance mucho más allá de lo que tu pequeño portátil o equipo móvil podría hacer por su cuenta.
@@ -61,7 +61,7 @@ Muchos repetidores requieren un tono CTCSS (Continuous Tone-Coded Squelch System
 
 Ambos tienen el mismo propósito: ayudan a prevenir interferencias y activaciones no intencionadas del repetidor. Tu radio debe estar configurado para transmitir el tono CTCSS o código DCS correcto para que el repetidor siquiera reconozca tu señal. Consulta un directorio local de repetidores o la información del club para saber qué sistema usa un repetidor específico.
 
-También encontrarás DTMF en la operación con repetidores. Como discutimos en la Sección 6.4, DTMF usa dos tonos de audio simultáneos, la misma tecnología usada en teléfonos de tonos. A diferencia de CTCSS o DCS, DTMF no se usa para el acceso básico al repetidor, sino para controlar funciones del repetidor, activar enlaces a otros sistemas o acceder a sistemas conectados a Internet como IRLP (que discutiremos más adelante en esta sección).
+También encontrarás DTMF en la operación con repetidores. Como discutimos en la [Sección 6.4]({{% pageref "6.4" %}}), DTMF usa dos tonos de audio simultáneos, la misma tecnología usada en teléfonos de tonos. A diferencia de CTCSS o DCS, DTMF no se usa para el acceso básico al repetidor, sino para controlar funciones del repetidor, activar enlaces a otros sistemas o acceder a sistemas conectados a Internet como IRLP (que discutiremos más adelante en esta sección).
 
 Si tienes problemas para acceder a un repetidor cuya salida sí puedes escuchar, podría haber varias razones:
 

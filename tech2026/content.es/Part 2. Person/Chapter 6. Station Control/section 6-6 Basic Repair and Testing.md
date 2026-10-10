@@ -61,7 +61,7 @@ La seguridad es primordial al medir altos voltajes. Usar un voltímetro clasific
 
 Algunos otros instrumentos merecen espacio en la caja de herramientas de cualquier radioaficionado:
 
-1. **Medidor de ROE**: mide la relación de onda estacionaria para que puedas saber qué tan bien está adaptada tu antena a tu transmisor. Cubrimos la ROE en detalle en la Sección 4.5.
+1. **Medidor de ROE**: mide la relación de onda estacionaria para que puedas saber qué tan bien está adaptada tu antena a tu transmisor. Cubrimos la ROE en detalle en la [Sección 4.5]({{% pageref "4.5" %}}).
 2. **Vatímetro**: mide la potencia de salida de tu transmisor, lo que te ayuda a mantenerte dentro de los límites legales y confirmar operación correcta.
 3. **Carga fantasma ("dummy load")**: te permite probar transmisores sin poner una señal en el aire. Se ve como una antena correctamente adaptada para tu transmisor, pero convierte toda la energía de RF en calor en lugar de radiarla.
 4. **Osciloscopio**: visualiza señales eléctricas a lo largo del tiempo. Es más avanzado, pero útil para diagnosticar problemas de modulación o calidad de señal.

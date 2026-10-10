@@ -64,7 +64,7 @@ The common thread running through those facts is water: it causes failure, it ca
 In addition to water-related problems, a few other things are worth watching out for:
 
 - **Poor connections** — Loose or corroded connectors are like potholes in your signal's highway. Keep them clean and tight!
-- **High SWR** — We'll talk more about SWR in Section 4.5, but if your SWR is too high, power that should be radiating from the antenna is instead lost in the feed line.
+- **High SWR** — We'll talk more about SWR in [Section 4.5]({{% pageref "4.5" %}}), but if your SWR is too high, power that should be radiating from the antenna is instead lost in the feed line.
 - **Too many connectors** — Every extra adapter or connection means more loss. Keep it simple!
 
 #### Alternative Feed Lines: Ladder Line

@@ -64,7 +64,7 @@ El hilo conductor de esos hechos es el agua: causa fallas, causa pérdida, y es 
 Además de los problemas relacionados con el agua, hay algunas otras cosas que vale la pena vigilar:
 
 - **Conexiones deficientes** — Los conectores sueltos o corroídos son como baches en la autopista de tu señal. ¡Mantenlos limpios y ajustados!
-- **ROE alta** — Hablaremos más de la ROE en la Sección 4.5, pero si tu ROE es demasiado alta, la potencia que debería radiar desde la antena se pierde en la línea de alimentación.
+- **ROE alta** — Hablaremos más de la ROE en la [Sección 4.5]({{% pageref "4.5" %}}), pero si tu ROE es demasiado alta, la potencia que debería radiar desde la antena se pierde en la línea de alimentación.
 - **Demasiados conectores** — Cada adaptador o conexión adicional significa más pérdida. ¡Mantenlo simple!
 
 #### Líneas de alimentación alternativas: línea de escalera

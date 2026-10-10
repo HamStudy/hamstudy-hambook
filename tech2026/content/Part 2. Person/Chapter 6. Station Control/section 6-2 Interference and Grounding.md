@@ -95,7 +95,7 @@ For your station, you want a low-impedance path to ground. This means:
 - **Keep it as short and straight as possible** and avoid sharp bends.
 - **Connect to a good earth ground** (ground rods, cold water pipes, etc.).
 
-All of your equipment should be grounded to a single point. This prevents "ground loops," which happen when equipment at different ground potentials creates a loop that current can flow through — causing hum, noise, and other headaches. If your station has more than one ground rod or earth connection, remember from Section 5.5 that they need to be bonded together with heavy wire or conductive strap so lightning and stray currents can't develop a voltage difference between them.
+All of your equipment should be grounded to a single point. This prevents "ground loops," which happen when equipment at different ground potentials creates a loop that current can flow through — causing hum, noise, and other headaches. If your station has more than one ground rod or earth connection, remember from [Section 5.5]({{% pageref "5.5" %}}) that they need to be bonded together with heavy wire or conductive strap so lightning and stray currents can't develop a voltage difference between them.
 
 Grounding isn't just about performance; it's also a safety issue. A good ground can help protect your equipment (and you) from static buildup and is part of your lightning protection system.
 

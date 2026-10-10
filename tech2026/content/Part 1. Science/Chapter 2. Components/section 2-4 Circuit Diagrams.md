@@ -19,7 +19,7 @@ Let's review the key components you'll encounter in circuit diagrams. Pay specia
 
 ##### Basic Components
 
-These are the passive components we covered in Section 2.1 — the ones that don't need their own power source to do their job.
+These are the passive components we covered in [Section 2.1]({{% pageref "2.1" %}}) — the ones that don't need their own power source to do their job.
 
 | **Component** | **Description** | **Symbol**  |
 |---------------|------------------|---|
@@ -33,12 +33,12 @@ These are the passive components we covered in Section 2.1 — the ones that don
 
 ##### Active Components
 
-These are the semiconductors from Section 2.2 — the ones that control or amplify current in ways passive components can't.
+These are the semiconductors from [Section 2.2]({{% pageref "2.2" %}}) — the ones that control or amplify current in ways passive components can't.
 
 | **Component** | **Description** | **Symbol** |
 |---------------|-----------------|------------|
 | **Transistor** | Control current flow and provide amplification. On a BJT like the one shown, the arrow on the emitter points in the direction of conventional current flow. {{< link id="T6D10" >}} | ![NPN Transistor Schematic Symbol](../../../images/schem-npn.svg) {{< link id="T6C03" >}} |
-| **Diode** | As seen in Section 2.2, the arrow points toward the cathode. | ![Diode diagram with anode / cathode labeled](../../../images/s2-2-diode.svg) |
+| **Diode** | As seen in [Section 2.2]({{% pageref "2.2" %}}), the arrow points toward the cathode. | ![Diode diagram with anode / cathode labeled](../../../images/s2-2-diode.svg) |
 | **LED (Light Emitting Diode)** | Like a regular diode but with arrows showing it emits light. | ![LED schematic diagram with anode / cathode labeled](../../../images/s2-2-led.svg) {{< link id="T6C07" >}} |
 {.component-table}
 

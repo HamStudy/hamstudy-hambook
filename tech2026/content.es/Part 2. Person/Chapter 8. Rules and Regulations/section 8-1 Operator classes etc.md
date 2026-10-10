@@ -31,7 +31,7 @@ Junto con el propósito de habilidades técnicas y de comunicación en la Inform
 1. **Clase Technician**:
    - Licencia de nivel inicial.
    - Privilegios completos en todas las bandas de aficionados por encima de 50 MHz.
-   - Privilegios limitados en HF (como se discute más adelante en la Sección 8.3).
+   - Privilegios limitados en HF (como se discute más adelante en la [Sección 8.3]({{% pageref "8.3" %}})).
    - Excelente para comunicaciones locales y experimentación con VHF/UHF.
 
 2. **Clase General**:

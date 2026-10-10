@@ -33,7 +33,7 @@ In amateur radio, you might deal with:
   - Divide voltage in measurement circuits.
   - Convert electrical energy to heat in applications like dummy loads.
 
-These three quantities are fundamentally linked as explained by **Ohm's Law**, which we'll cover in **Section 1.3**.
+These three quantities are fundamentally linked as explained by **Ohm's Law**, which we'll cover in **[Section 1.3]({{% pageref "1.3" %}})**.
 
 #### Voltage Drop
 
@@ -117,7 +117,7 @@ In a **DC circuit**, resistance simply opposes the flow of electricity. But in a
 
 *Inductance describes the ability to store energy in a magnetic field* {{< link id="T5C03" >}} and is measured in *henrys (H)*. {{< link id="T5C04" >}}
 
-The physical components that exhibit these properties are called **capacitors** and **inductors**; we'll cover them in Section 2.1. For now, the focus is on how they behave in a circuit.
+The physical components that exhibit these properties are called **capacitors** and **inductors**; we'll cover them in [Section 2.1]({{% pageref "2.1" %}}). For now, the focus is on how they behave in a circuit.
 
 When capacitors or inductors are in an AC circuit, they oppose current differently at different frequencies. This kind of frequency-dependent opposition is called **reactance**.
 
@@ -155,7 +155,7 @@ In amateur radio, we often deal with very large or very small numbers. Instead o
 > * The abbreviation kHz stands for "kilohertz". {{< link id="T5C06" >}}
 > * The abbreviation MHz stands for "megahertz". {{< link id="T5C07" >}}
 
-Note: The F (farad) and H (henry) units refer to capacitance and inductance as discussed above, which we'll explore in more detail in Section 2.1.
+Note: The F (farad) and H (henry) units refer to capacitance and inductance as discussed above, which we'll explore in more detail in [Section 2.1]({{% pageref "2.1" %}}).
 
 Here are some common conversions that may appear on the exam:
 

@@ -19,7 +19,7 @@ Repasemos los componentes clave que encontrarás en los diagramas de circuitos. 
 
 ##### Componentes básicos
 
-Estos son los componentes pasivos que vimos en la Sección 2.1: los que no necesitan su propia fuente de alimentación para hacer su trabajo.
+Estos son los componentes pasivos que vimos en la [Sección 2.1]({{% pageref "2.1" %}}): los que no necesitan su propia fuente de alimentación para hacer su trabajo.
 
 | **Componente** | **Descripción** | **Símbolo**  |
 |---------------|------------------|---|
@@ -33,12 +33,12 @@ Estos son los componentes pasivos que vimos en la Sección 2.1: los que no neces
 
 ##### Componentes activos
 
-Estos son los semiconductores de la Sección 2.2: los que controlan o amplifican corriente de formas que los componentes pasivos no pueden.
+Estos son los semiconductores de la [Sección 2.2]({{% pageref "2.2" %}}): los que controlan o amplifican corriente de formas que los componentes pasivos no pueden.
 
 | **Componente** | **Descripción** | **Símbolo** |
 |---------------|-----------------|------------|
 | **Transistor** | Controla el flujo de corriente y proporciona amplificación. En un BJT como el que se muestra, la flecha en el emisor apunta en la dirección del flujo de corriente convencional. {{< link id="T6D10" >}} | ![Símbolo esquemático de transistor NPN](../../../images/schem-npn.svg) {{< link id="T6C03" >}} |
-| **Diodo** | Como vimos en la Sección 2.2, la flecha apunta hacia el cátodo. | ![Diagrama de diodo con ánodo / cátodo etiquetados](../../../images/s2-2-diode.svg) |
+| **Diodo** | Como vimos en la [Sección 2.2]({{% pageref "2.2" %}}), la flecha apunta hacia el cátodo. | ![Diagrama de diodo con ánodo / cátodo etiquetados](../../../images/s2-2-diode.svg) |
 | **LED (diodo emisor de luz)** | Como un diodo normal, pero con flechas que muestran que emite luz. | ![Diagrama esquemático de LED con ánodo / cátodo etiquetados](../../../images/s2-2-led.svg) {{< link id="T6C07" >}} |
 {.component-table}
 

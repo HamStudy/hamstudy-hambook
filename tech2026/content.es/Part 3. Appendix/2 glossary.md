@@ -17,13 +17,13 @@ status: publish1
 Un servicio de radiocomunicación usado por operadores con licencia para comunicación personal, exploración técnica, comunicación de emergencia y servicio público. Regido por la FCC en los Estados Unidos, los operadores de radioafición (radioaficionados) usan diversas bandas de frecuencia y modos para comunicarse local y globalmente.
 
 ##### Antenna Tuner (Sintonizador de Antena)
-Un dispositivo que adapta la impedancia de un sistema de antena a la impedancia de salida del transceptor. A veces se llama acoplador de antena. Un sintonizador en realidad no "sintoniza" la antena; solo hace que el transmisor vea una carga con la que puede trabajar cómodamente. Ver Sección 4.1.
+Un dispositivo que adapta la impedancia de un sistema de antena a la impedancia de salida del transceptor. A veces se llama acoplador de antena. Un sintonizador en realidad no "sintoniza" la antena; solo hace que el transmisor vea una carga con la que puede trabajar cómodamente. Ver [Sección 4.1]({{% pageref "4.1" %}}).
 
 ##### APRS (Automatic Packet Reporting System) {#glossary-aprs}
-Un sistema de comunicación digital que permite a los operadores de radioafición transmitir datos de posición, información meteorológica y mensajes cortos de texto. Proporciona comunicaciones tácticas en tiempo real con capacidades de mapeo. Se discute en la Sección 3.5.
+Un sistema de comunicación digital que permite a los operadores de radioafición transmitir datos de posición, información meteorológica y mensajes cortos de texto. Proporciona comunicaciones tácticas en tiempo real con capacidades de mapeo. Se discute en la [Sección 3.5]({{% pageref "3.5" %}}).
 
 ##### ARES (Amateur Radio Emergency Service)
-Una organización voluntaria para comunicaciones de emergencia. Se discute en la Sección 7.3.
+Una organización voluntaria para comunicaciones de emergencia. Se discute en la [Sección 7.3]({{% pageref "7.3" %}}).
 
 #### B
 
@@ -36,7 +36,7 @@ Una guía voluntaria para usar diferentes modos o actividades dentro de una band
 #### C
 
 ##### Coax / Coaxial Cable (Coaxial / Cable Coaxial)
-El tipo más común de línea de alimentación en radioafición. El coaxial tiene un conductor central rodeado por aislamiento (el dieléctrico), una capa de blindaje y una cubierta exterior protectora. La mayoría del coaxial de radioaficionados tiene una impedancia de 50 ohms. Ver Sección 4.3.
+El tipo más común de línea de alimentación en radioafición. El coaxial tiene un conductor central rodeado por aislamiento (el dieléctrico), una capa de blindaje y una cubierta exterior protectora. La mayoría del coaxial de radioaficionados tiene una impedancia de 50 ohms. Ver [Sección 4.3]({{% pageref "4.3" %}}).
 
 ##### CTCSS (Continuous Tone-Coded Squelch System)
 Un tono subaudible transmitido junto con el audio de voz para abrir el silenciador de un receptor. A menudo llamado "PL" (Private Line), ayuda a prevenir interferencias y activaciones no deseadas de repetidores.
@@ -52,7 +52,7 @@ Originalmente se llamó Continuous Wave para diferenciarla de las ondas cuadrada
 Una tecnología de radio digital de voz y datos que usa acceso múltiple por división de tiempo (TDMA) para permitir dos canales de voz en un solo ancho de banda de canal de 12.5 kHz.
 
 ##### Dipole (Dipolo)
-El tipo de antena más básico: dos conductores de igual longitud, alimentados en el centro. Un dipolo de media onda irradia con mayor intensidad perpendicular al cable. La mayoría de los otros tipos de antena son variaciones del dipolo. Ver Sección 4.1.
+El tipo de antena más básico: dos conductores de igual longitud, alimentados en el centro. Un dipolo de media onda irradia con mayor intensidad perpendicular al cable. La mayoría de los otros tipos de antena son variaciones del dipolo. Ver [Sección 4.1]({{% pageref "4.1" %}}).
 
 ##### Doppler Shift (Desplazamiento Doppler)
 Un cambio observado en la frecuencia de la señal causado por el movimiento relativo entre un satélite y una estación terrestre. A medida que un satélite se acerca, la frecuencia parece más alta; cuando se aleja, parece más baja.
@@ -84,7 +84,7 @@ Una superficie conductora que actúa como la "otra mitad" de ciertas antenas, co
 #### H
 
 ##### Handheld Transceiver (HT) (Transceptor Portátil)
-Un radio pequeño, portátil y alimentado por batería que cabe en tu mano. A veces se llama "walkie-talkie". Los HT son el punto de partida más común para nuevos Técnicos. Ver Sección 6.3.
+Un radio pequeño, portátil y alimentado por batería que cabe en tu mano. A veces se llama "walkie-talkie". Los HT son el punto de partida más común para nuevos Técnicos. Ver [Sección 6.3]({{% pageref "6.3" %}}).
 
 ##### Harmonics (Armónicos)
 Múltiplos de una frecuencia fundamental de transmisión. Por ejemplo, un transmisor en 146 MHz puede producir armónicos en 292 MHz, 438 MHz, y así sucesivamente. Los armónicos son una causa común de interferencia y se minimizan mediante un diseño y filtrado adecuados del transmisor.
@@ -98,7 +98,7 @@ La banda de radiofrecuencia entre 3 y 30 MHz, conocida por la comunicación de l
 #### I
 
 ##### Ionosphere (Ionosfera)
-Una región de la atmósfera superior que contiene partículas cargadas (iones) capaces de refractar ondas de radio HF de vuelta hacia la Tierra, permitiendo comunicación de larga distancia. Las condiciones en la ionosfera cambian con la hora del día, la estación del año y la actividad solar. Ver Sección 3.3.
+Una región de la atmósfera superior que contiene partículas cargadas (iones) capaces de refractar ondas de radio HF de vuelta hacia la Tierra, permitiendo comunicación de larga distancia. Las condiciones en la ionosfera cambian con la hora del día, la estación del año y la actividad solar. Ver [Sección 3.3]({{% pageref "3.3" %}}).
 
 ##### IRLP (Internet Radio Linking Project)
 Un sistema que conecta sistemas de radioafición mediante internet usando Voz sobre Protocolo de Internet (VoIP), permitiendo comunicación mundial a través de repetidores enlazados.
@@ -116,7 +116,7 @@ El proceso de combinar voz o datos con una señal portadora de radiofrecuencia. 
 #### O
 
 ##### OSCAR (Orbiting Satellite Carrying Amateur Radio)
-Una convención de nombres para satélites de radioaficionados. La mayoría de los satélites de aficionados se designan como algo-OSCAR (por ejemplo, AO-91 es "AMSAT OSCAR 91"). Ver Sección 7.4.
+Una convención de nombres para satélites de radioaficionados. La mayoría de los satélites de aficionados se designan como algo-OSCAR (por ejemplo, AO-91 es "AMSAT OSCAR 91"). Ver [Sección 7.4]({{% pageref "7.4" %}}).
 
 #### P
 
@@ -149,7 +149,7 @@ Conversación casual y extendida al aire: el equivalente radial de pasar el rato
 Una estación de radioaficionado que recibe señales en una frecuencia y las retransmite simultáneamente en otra, extendiendo el alcance de comunicación.
 
 ##### Resonance / Resonant Frequency (Resonancia / Frecuencia Resonante)
-La frecuencia a la que una antena o circuito sintonizado opera con mayor eficiencia. En resonancia, las reactancias inductiva y capacitiva se cancelan, permitiendo que la energía fluya con mayor facilidad. Las antenas normalmente se diseñan para ser resonantes en su frecuencia de operación. Ver Secciones 1.2 y 3.1.
+La frecuencia a la que una antena o circuito sintonizado opera con mayor eficiencia. En resonancia, las reactancias inductiva y capacitiva se cancelan, permitiendo que la energía fluya con mayor facilidad. Las antenas normalmente se diseñan para ser resonantes en su frecuencia de operación. Ver Secciones [1.2]({{% pageref "1.2" %}}) y [3.1]({{% pageref "3.1" %}}).
 
 ##### RF (Radio Frequency)
 Ondas electromagnéticas usadas para comunicación inalámbrica, normalmente en el rango de 3 kHz a 300 GHz.
@@ -157,7 +157,7 @@ Ondas electromagnéticas usadas para comunicación inalámbrica, normalmente en 
 #### S
 
 ##### Sideband (Banda Lateral)
-Las frecuencias por encima y por debajo de una onda portadora que contienen la información modulada real. Las señales AM tienen banda lateral superior e inferior; SSB transmite solo una. Ver Sección 3.4.
+Las frecuencias por encima y por debajo de una onda portadora que contienen la información modulada real. Las señales AM tienen banda lateral superior e inferior; SSB transmite solo una. Ver [Sección 3.4]({{% pageref "3.4" %}}).
 
 ##### Simplex
 Un modo de comunicación en el que las estaciones transmiten y reciben en la misma frecuencia.
@@ -196,7 +196,7 @@ La banda de radiofrecuencia entre 300 MHz y 3 GHz. Se usa comúnmente para comun
 #### V
 
 ##### Vanity Callsign (Indicativo Personalizado)
-Un indicativo personalizado elegido por un operador con licencia. Ver Sección 8.1.
+Un indicativo personalizado elegido por un operador con licencia. Ver [Sección 8.1]({{% pageref "8.1" %}}).
 
 ##### VEC (Volunteer Examiner Coordinator)
 Una organización que coordina examinadores voluntarios y presenta resultados de exámenes a la FCC. La ARRL y W5YI son dos VEC conocidos en los Estados Unidos.

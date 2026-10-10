@@ -1,7 +1,7 @@
 ---
 chapter: "8"
 section: "8.6"
-questions: [ "T1C03", "T1D08", "T1D09", "T1D01", "T1C06", "T1F08", "T1F07", "T1D02", "T1D10", "T1D05", "T1D03", "T1D04", "T1D06", "T1A11" ]
+questions: [ "T1D08", "T1D09", "T1C03", "T1C06", "T1D01", "T1F08", "T1F07", "T1D02", "T1D10", "T1D05", "T1D03", "T1D04", "T1D06", "T1A11" ]
 status: publish1
 ---
 

@@ -92,7 +92,7 @@ Ham radio operators also provide valuable communication support for non-emergenc
 Remember these key regulations:
 
 - *FCC rules always apply* to the operation of amateur stations, even during emergencies.
-- Amateur operators cannot accept compensation for providing communications (more in Section 8.6).
+- Amateur operators cannot accept compensation for providing communications (more in [Section 8.6]({{% pageref "8.6" %}})).
 
 Participating in these activities builds skills that are valuable during actual emergencies while helping your community.
 

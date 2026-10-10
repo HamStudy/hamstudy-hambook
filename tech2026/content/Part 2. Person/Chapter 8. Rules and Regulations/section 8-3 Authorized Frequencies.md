@@ -11,13 +11,13 @@ As a Technician, you have a wide range of frequencies available — from a small
 
 Most of this section involves memorization for the exam, but you don't need to commit every frequency to memory. Focus on the specific points that appear in test questions, and review those questions for this chapter to see what facts to lock in. For everyday operating, most hams keep reference charts handy.
 
-> **Tip:** Many frequency-related questions on the exam can be solved using the wavelength equation we introduced in Section 3.1 — $\text{Wavelength} = \frac{300}{\text{Frequency in MHz}}$. Often the correct answer is the only option that falls within the specified band!
+> **Tip:** Many frequency-related questions on the exam can be solved using the wavelength equation we introduced in [Section 3.1]({{% pageref "3.1" %}}) — $\text{Wavelength} = \frac{300}{\text{Frequency in MHz}}$. Often the correct answer is the only option that falls within the specified band!
 
 A quick reminder on terminology before we dive in: "CW" (short for "Continuous Wave") refers to Morse code, "Phone" means voice transmissions, and "Data" covers digital modes.
 
 #### Band Designations
 
-Amateur radio bands are often referred to by their approximate wavelength rather than their frequency range. Recall from Section 3.1 that wavelength and frequency are inversely related — as frequency increases, wavelength decreases.
+Amateur radio bands are often referred to by their approximate wavelength rather than their frequency range. Recall from [Section 3.1]({{% pageref "3.1" %}}) that wavelength and frequency are inversely related — as frequency increases, wavelength decreases.
 
 This naming convention is why you'll hear references to the "2-meter band" (144-148 MHz), the "70-centimeter band" (420-450 MHz), or the "10-meter band" (28-29.7 MHz). It also gives a quick way to estimate the size of antennas needed for these bands, since antenna elements are often designed as fractions (like 1/4 or 1/2) of the wavelength.
 

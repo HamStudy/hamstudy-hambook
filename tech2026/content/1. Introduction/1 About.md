@@ -14,7 +14,7 @@ Amateur radio, often called "ham radio," is more than just a hobby — it's a co
 
 ## A World of Possibilities
 
-![Illustration showing many people with radios](../../images/illus/aboutradio-color.svg)
+![An inclusive cartoon group of amateur radio operators of different ages holding handheld radios.](../../images/illus/aboutradio-color.svg)
 {.img-xlarge .img-centered}
 
 Imagine staying in touch when everything else is down — no cell service, no internet, not even power. With amateur radio, you're not just using someone else's network; you're creating your own. Whether you're deep in the mountains or in the middle of a city blackout, your radio keeps you connected.
@@ -25,7 +25,7 @@ As a Technician class operator, you'll have access to VHF and UHF frequencies, p
 
 ## More Than Just a Hobby
 
-![Illustration showing ham radio operators helping with a disaster](../../images/illus/morethanhobby-color.svg)
+![Cartoon of three amateur radio volunteers after a disaster: one speaks into a handheld radio, one writes a message, and one checks a message form.](../../images/illus/morethanhobby-color.svg)
 {.float-right .img-pgcap}
 
 Sure, amateur radio is fun, but it's also a vital tool in emergencies. When disasters strike and cell towers go down, ham radio operators often step in to keep communication lines open.

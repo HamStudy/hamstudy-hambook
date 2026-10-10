@@ -31,7 +31,7 @@ Together with the technical-and-communication-skills purpose in the KI above, th
 1. **Technician Class**:
    - Entry-level license.
    - Full privileges on all amateur bands above 50 MHz.
-   - Limited HF privileges (as discussed later in Section 8.3).
+   - Limited HF privileges (as discussed later in [Section 8.3]({{% pageref "8.3" %}})).
    - Great for local communications and experimentation with VHF/UHF.
 
 2. **General Class**:
