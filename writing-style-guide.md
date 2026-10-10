@@ -1,329 +1,549 @@
-# HamStudy HamBook Writing Style Guide
+# Writing and Revising the HamBooks
 
-## Structure
+Readers use the HamBooks to prepare for an exam, understand radio, and decide whether to pursue another license class. They should be able to find what they need without unnecessary reading. Extra material consumes attention, raises printing costs, and lengthens the audiobook; missing explanation can leave readers confused or acting on an unsafe misunderstanding.
 
-These sections are designed to be published using Hugo. Each should have "front matter" which will have a chapter and section, indicating where in the book it lives, an array of questions, and a status field.
+We aim for **Minimum Viable Teaching**: the smallest coherent explanation that supplies the understanding this reader needs. Brevity serves that purpose only while the teaching remains complete, approachable, and useful.
 
-The array of questions in the front matter is the "source of truth" for the content; if there are questions mentioned in the front matter they must be addressed, while if there are links to questions (e.g. {{< link id="G9B05" >}}) that aren't in the front matter it's probably a mistake. All questions from the question pool must be covered by at least one section, and there may be cases where it makes sense to have them discussed in multiple places, but generally we'll only link it in one section.
+Teaching, tone, accuracy, accessibility, and exam-emphasis principles apply across manuscripts, figures, audio, and video. Source syntax applies to its specified medium; adapting presentation within the approved format is not an exception to those principles. **Requirements** are binding author decisions. **Preferences** allow judgment where another choice better serves learning. **Implementation notes** describe current publishing conventions; verify the code when behavior matters. New explicit author instructions control the current task, and generic skill defaults do not override project requirements.
 
-There should be exactly 1 - no more, no fewer - link in the content for each question in the front matter.
+## Start a task without losing context
 
-While the Set of question IDs in the front matter is the source of truth, the order should follow the order they appear (are discussed) in the content, so if the order doesn't match please reorder the questions in the front matter.
+A useful edit solves the requested problem while preserving the author's work. Establish the book, language, pool, files, and scope before editing. Read applicable repository instructions, inspect staged and unstaged changes, and consult history when the original wording matters. Existing diffs may belong to someone else.
 
-### Status
+Read this guide fully when joining the project; later, revisit the relevant guidance and skills. For a passage-level edit, understand the whole section, its assigned questions, and the surrounding teaching before choosing an intervention suited to its editorial stage. See [Revision and verification](#revision-and-verification) for scope and completion criteria.
 
-The status field is to help me keep track of where in the writing process we are. Here are the levels:
+The author often reviews while work continues. Deliver reviewable sections or chapters, announce completed units, and check for concurrent edits before writing. Preserve user edits and staged work; never reset, blindly revert, or overwrite unrelated changes. Resolve only the affected write if ownership becomes unclear.
 
-- generated: Initial content has been created by an AI following the layout and question list I specified.
-- generated_n_: Used if additional "Generated" content is created later where a completely new generated draft without direction is created.
-- reviewed1: Content has been reviewed and updated by the AI under direction from a human reviewer. Still all AI-generated, but with guided improvements. Additional "reviewed_n_" stages may be added for further revisions.
-- draft1: A final human review and edit stage has been completed, this is considered the "first draft" as it's the first stage that is fully copyrightable by humans. Likely missing images and figures. Still considered rough, but should be "content complete", covering all questions. Additional "draft_n_" stages may be added for further revisions.
-- publish1: The content has been finalized and is ready for publication; all images and figures have been added. Additional "publish_n_" stages may be added for further revisions in the future.
+**Standing boundaries:** leave changes unstaged and uncommitted unless asked otherwise. Do not push, merge, publish, or deploy without authorization. Render a PDF only when requested; one previous request does not authorize recurring rebuilds. Legacy instructions to “always push before finishing” do not override these boundaries.
 
-IMPORTANT: The status should not be updated unless instructed; when in doubt, ask before making changes.
+### Find the relevant guidance
 
-## Book Organization and Cross-Referencing
+- [Readers and study paths](#readers-and-study-paths).
+- [Purpose-first explanation](#purpose-first-explanation).
+- [Depth and length](#depth-and-length).
+- [Book structure and continuity](#book-structure-and-continuity).
+- [Voice, grammar, and terminology](#voice-grammar-and-terminology).
+- [Exam facts and Key Information](#exam-facts-and-key-information).
+- [Manuscript files and syntax](#manuscript-files-and-syntax).
+- [Mathematics](#mathematics).
+- [Figures, illustrations, and accessibility](#figures-illustrations-and-accessibility).
+- [Video lessons](#video-lessons).
+- [Accuracy and safe simplification](#accuracy-and-safe-simplification).
+- [Revision and verification](#revision-and-verification).
+- [Skills and supporting tools](#skills-and-supporting-tools).
+- [Handoff and completion](#handoff-and-completion).
 
-### Two-Part Structure
-Each HamBook follows a deliberate two-part structure:
+## Readers and study paths
 
-**Part 1: The Science** - Covers concepts, science, and theory
-- Focuses on understanding the "how" and "why"
-- Builds foundational knowledge
-- Explains principles that underlie amateur radio
+### Build on the right starting knowledge
 
-**Part 2: Operating as a [license class]** - Covers practical application
-- Shows how to use the concepts from Part 1
-- Focuses on real-world operation
-- Connects theory to practice
+Accessibility means making the next idea understandable without treating familiar material as a new discovery.
 
-### Avoiding Redundancy While Maintaining Clarity
-We aim to teach each concept thoroughly once, then reference it when needed later:
+| Book | Knowledge the text may assume | Knowledge it must not assume |
+| --- | --- | --- |
+| Technician | Everyday experience; teach the radio and electrical foundations the pool needs. | Prior licensing, electronics training, or operating experience. |
+| General | Knowledge required by the Technician examination. | Reading the Technician HamBook, extensive operating experience, or already holding General privileges. |
+| Amateur Extra | Knowledge required by the Technician and General examinations. | Reading either earlier HamBook, extensive operating experience, professional electronics expertise, or already holding Extra privileges. |
 
-**First Teaching**: When introducing a concept for the first time, provide complete explanation with context, examples, and exam information.
+Establish this baseline from the **earlier question pools**, checking which edition each book covers. The current local references are `tech2026`, `general2023`, and `extra2024`. Their explanations help with continuity, but optional material in an earlier book is not automatically prerequisite knowledge.
 
-**Later References**: When the same concept appears again in a different context, briefly remind the reader and reference back to the original discussion.
+A brief refresher should connect existing knowledge to new learning. An Extra lesson about diode behavior can build on rectification without reteaching AC-to-DC conversion. Apply familiar ideas instead of repeatedly saying “as you already know.” Define genuinely new terms when needed and expand unfamiliar abbreviations, such as “log-periodic dipole array (LPDA).”
 
-### Cross-Reference Format
-When referencing earlier material, use clear, helpful pointers:
+Never tell readers they already know or understand something technical unless a typical high-school student would know it. Readers reach each book by different routes: some take several exams in one session, some studied with other materials, and some passed an earlier exam years ago. “You learned…” or “You can already…” is untrue for some of them, and a reader who doesn't recall the idea is left feeling behind or out of place. Hedge instead, as in “you probably met” or “you likely learned,” or simply state the fact so the sentence teaches it either way. Where the background matters, point readers who missed it to the earlier HamBook at [hambook.org](https://hambook.org).
 
-**Good Examples**:
-- "As we discussed in Chapter 3's exploration of antenna basics, a dipole's radiation pattern..."
-- "Remember from Section 2.4 how SWR affects your signal? Here's where that knowledge becomes critical..."
-- "Building on the frequency allocation principles from Chapter 1, let's see how they apply to DX operation..."
+### Keep both ways of studying useful
 
-**Avoid**:
-- Repeating full explanations of previously covered material
-- Assuming readers remember everything without any reminder
-- Treating a topic as new if it was discussed earlier in the book
+Both study paths are nonnegotiable:
 
-### Practical Guidelines
-1. **Track Key Concepts**: Major topics that will be referenced multiple times should be noted during initial writing.
-2. **Use Descriptive References**: Include both chapter/section numbers and topic descriptions.
-3. **Brief Refreshers**: A single sentence reminder often suffices before applying a previously learned concept.
-4. **Progressive Building**: Each part should clearly build on the previous, with Part 2 applying what Part 1 taught.
+- **Exam-focused study:** scan Key Information blocks and italicized exam facts, practice the assigned questions, and consult explanations when an answer is unclear.
+- **Deeper learning:** follow the prose, examples, calculations, and diagrams as a coherent lesson, then test understanding.
 
-## Core Writing Philosophy: Start with Why
+Do not shame cramming or turn the full reading path into a disconnected answer list. HamStudy integration supports both paths: explain Study Mode, practice exams, progress tracking, and section-specific study links or print QR codes. Those links must open the intended questions.
 
-We're writing the **HamStudy Technician License HamBook** or **HamStudy General Class License HamBook** (never call it a "license manual" or "handbook"). Following Simon Sinek's "Start with Why" principle, we begin every topic by establishing purpose and meaning before diving into details. That doesn't mean that we begin by literally asking "why" questions, however.
+### Let the introduction answer real entry questions
 
-**The Purpose-First Framework:**
-- **Purpose Layer**: What this enables the reader to do or achieve
-- **Method Layer**: How or why this approach works in practice  
-- **Details Layer**: The concrete facts, numbers, or procedures
+The introduction may be all someone reads before deciding to study. It must orient them to:
 
-This creates emotional connection and context that makes technical information meaningful and memorable.
+- What the license enables, who the book serves, its prerequisites, and what is inside.
+- How the license classes work: higher classes require credit for lower examinations; a prepared candidate may take multiple elements in one session. Explain this briefly, and direct candidates who lack the prerequisite preparation to start there.
+- Both study paths and their connection to KI blocks, italics, questions, and HamStudy.
+- What the exam involves, including verified math expectations for its pool.
+- Arranging an exam, the FRN, and the distinction between passing and receiving or using privileges.
+- The pool edition covered and where to find the latest book.
 
-## Core Teaching Philosophy: MVT (Minimum Viable Teaching)
+For upgrades, explain reusing the FRN on the existing FCC record. Briefly describe its application role and the CORES route for someone without one; do not encourage duplicate FRNs.
 
-Without being too extreme about this, we need to remember that we are primarily aiming to help a reader to pass the exam and be able to operate with the license. There are *many* topics we could spend a lot of time on, but we want to teach the minimum amount needed to give them enough grounding to be able to use things that are common or understand well enough to look for more information on things that are less universally applicable to all operators.
+Keep motives broad. General candidates need not plan to operate HF. Extra candidates may want more privileges, deeper knowledge, the satisfaction or status of the highest class, or eligibility to administer all exam classes as an appropriately accredited Volunteer Examiner. The license alone does not grant examiner accreditation.
 
-We want to be as brief as possible, but not more brief than is truly viable; it's a fine line to walk, but we fail if we underteach just as we fail if we overteach.
+Use [hambook.org](https://hambook.org) for the latest book and for references to other HamBooks, rather than directing readers to dated editions. Put that link near statements about changing pools, rules, or editions. Preserve useful “What's Inside” orientation even when later chapters have introductions.
 
-## Voice and Tone
+## Purpose-first explanation
 
-### Conversational Teaching Style
-- Write as a friendly, experienced ham explaining to an eager newcomer.
-- Use "you" to address the reader directly.
-- Maintain enthusiasm without condescension.
-- Build confidence while acknowledging complexity.
-- Avoid being "over the top" and overusing metaphors.
-- Keep things "real"; don't use made-up examples, assuming that everyone is building a massively overengineered station, or lean too hard on niche situations.
-- If a story is told it needs to be an actual story that happened; we can't just make things up.
+Readers understand a concept more readily when they recognize a situation in which it is useful. Establish a concrete problem, practical decision, opportunity, or familiar experience; introduce the concept through its role; then develop its behavior and mechanism from that connection.
 
-**Good**: "When you key up your mic for the first time, you'll be joining a global community that spans generations."
+Apply this before each substantial increase in complexity, especially at the beginning of a section. A broad promise to help readers choose components or understand radio is not enough: connect the unfamiliar mechanism to a concrete result before asking readers to work through it. A section introduction or transition can supply that connection.
 
-**Avoid**: "Students often struggle with this concept" or overly formal academic language.
+Choose the situation for the author's stated audience and purpose. A component's possible uses do not all belong in this book. Reuse settled answers, ask when missing context affects the teaching angle, and verify uncertain factual claims.
 
-### Real-World Connection
-- Connect every concept to actual amateur radio activities.
-- Use concrete examples and scenarios.
-- Include practical anecdotes (🔥 for dramatic stories), but never make things up! It should never be told as a true story if it isn't verified as one.
-- Explain how concepts enable awesome amateur radio activities or capabilities.
-
-## Content Structure
-
-### Purpose-First Content Structure
-When explaining any technical concept, regulation, or procedure, organize using this three-layer approach:
-
-#### 1. Purpose Layer (Connect to Goals)
-**Lead with what this enables the reader to do or achieve:**
-- When applicable, connect first to things that "ordinary" people would already understand.
-- Next connect to practical ham radio activities (DXing, emergency communication, experimentation).
-  - We want an emphasis on understanding what is possible with ham radio, but when teaching about concepts particularly it is often better to connect to things that the reader already understands, when applicable. E.g. teaching about power or AC circuits is easier starting with what they already see and know in their home, rather than presenting it as something new that only applies to their ham shack.
-- Explain the problem this solves or opportunity it creates.
-- Make it personal to their experience first from day to day and then as an operator.
-- Show how this expands their capabilities.
-
-#### 2. Method Layer (Explain the Principle)
-**Describe how or why this approach works in practice:**
-- Provide the reasoning that makes it effective.
-- Explain the practical logic behind rules or procedures.
-- Show how it fits into the bigger picture of amateur radio.
-- Connect to established amateur radio practices.
-
-#### 3. Details Layer (Present Specifics)
-**Give the concrete facts, numbers, or procedures:**
-- State actual regulations, frequencies, formulas, or specifications.
-- Provide precise technical details for exam preparation.
-- Include memorization aids and key exam points.
-- Reference specific question requirements.
-- Stick with the MVT method and don't overdo the details; teach only as much as needed, but no less.
-
-**Example Structure:**
-
-❌ **Don't write:** "What are frequency allocations? The FCC assigns different frequency bands..."
-
-✅ **Do write:** "Ham radio gives you access to communicate across the globe, but only if everyone follows the same roadmap *(Purpose)*. Frequency allocations are that roadmap—they ensure when you tune to 20 meters, you'll find other hams doing similar activities, and you won't accidentally interfere with emergency services *(Method)*. The amateur bands are divided into segments: 80 meters (3.5-4.0 MHz), 40 meters (7.0-7.3 MHz), 20 meters (14.0-14.35 MHz)... *(Details)*"
-
-**Key Guidelines:**
-- Start every major concept with purpose, not definition.
-- Avoid chains of "why" questions—integrate purpose naturally.
-- Avoid headers with "why" questions—headers should declare the purpose.
-- Connect abstract rules to concrete amateur radio activities.
-- Use active voice and direct language.
-
-### Key Information Blocks
-Use **only** for information that directly answers exam questions:
-
-> **Key Information:** The maximum power for Technician Class operators on HF is 200 watts PEP.
-
-**Strict criteria:**
-- Must relate to a specific exam question.
-- Contains exact facts needed for test.
-- Never for general concepts or background.
-- Avoid duplicating other text exactly.
-- Can introduce a topic, then continue with details in regular text.
-- Use bullet lists only when multiple related exam facts belong together.
-- _Never_ bold or italicize _entire_ Key Information blocks (only _small emphasized parts_).
-- While we prefer to have them spread throughout the text, they can be grouped together if it improves clarity or prevents lots of micro sections. For example, having multiple key information blocks separated only by a sentence or two of regular text can feel fragmented and it can be better to combine the key information blocks into a bulleted list which has several facts relevant to the surrounding flow of the document.
-
-Always remember that key information blocks are to focus attention on something that may be needed to pass the exam, but they should never impede understanding of the text.
-
-### Formatting and Media
-- *Italicize* exam-specific information.
-- **Bold** for important concepts and definitions.
-- `Code formatting` for technical values and callsigns.
-- Tables for organizing related data.
-- Images in markdown format only (never HTML).
-- Use `![alt text](path)` for images.
-
-### Mathematical Content
-- Inline math: `$P = I \times E$` (use "PIE" format for Power Law for memorability).
-- Display blocks: `$$P = I^2 \times R$$`
-- Multi-step calculations: use `$$\begin{align*}...\end{align*}$$` (two dollar signs on each side).
-- Always explain variables and include units.
-- Provide worked examples.
-- Acknowledge limited math on exam with "escape hatches".
-
-## Section Narrative Development
-
-Before writing any section, identify its core narrative: What is the reader trying to accomplish? What problem are they solving? What capability are they gaining?
-
-### Finding Your Narrative
-
-Each section should answer a central question or teach toward a specific goal:
-- Section 7.1: "What do I need to set up an HF station?"
-- Section 7.2: "How do I overcome challenges when receiving?"
-- Section 7.3: "How do I give the other station the best signal possible?"
-- Section 7.4: "When and how do I safely add more power?"
-
-The narrative comes first; the exam questions get answered naturally along the way.
-
-### Bad Approach (Question-Driven)
-âŒ Starting with: "This section covers G4A01, G4A03, G4A07..."
-âŒ Structure: One subsection per question or small clusters
-âŒ Result: Feels like a list of disconnected facts
-
-### Good Approach (Narrative-Driven)
-âœ… Starting with: "What does it take to hear weak signals through noise?"
-âœ… Structure: Organized around solving that problem
-âœ… Result: Cohesive lesson where questions are answered naturally
-
-### Connecting Sections
-
-Sections should build on each other and reference the larger story:
-- Explicit connections: "Just as we focused on receiving in 7.2, now let's flip to transmitting..."
-- Thematic parallels: Receiving = overcoming challenges; Transmitting = preventing challenges for others
-- Progressive building: Each section adds capability or understanding
-
-### Red Flags You're Doing It Wrong
-
-- Subsection headers that are just question topics
-- Paragraphs that feel like separate mini-lessons
-- No clear "why does this section exist" answer
-- Transitions like "Next topic:" instead of natural flow
-- Could rearrange subsections without losing coherence
-
-### Process
-
-1. **Identify the goal**: What is the reader trying to accomplish?
-2. **Determine the flow**: What's the logical progression to achieve that goal?
-3. **Map questions to flow**: Where do exam questions naturally fit?
-4. **Write the narrative**: Teach toward the goal, letting questions get answered along the way
-5. **Check coherence**: Could you remove one part without breaking the story?
-
-## Language Conventions
-
-### General
-- IMPORTANT: Never start a sentence with a conjunction (and, or, but...). Seriously, we aren't in middle school, you should know better than to start sentences with "but".
-
-### Technical Terms
-- Define when first introduced.
-- Build vocabulary gradually.
-- Use consistent terminology.
-- Prefer simpler terms when equivalent.
-
-### Analogies and Metaphors
-Use relatable analogies that truly clarify:
-- Water flow for electrical concepts.
-- Highway systems for frequency allocation.
-- Mail slots for antenna polarization.
-
-**Quality test**: Does this analogy actually help understanding or just sound clever?
-
-### Writing Variety and Flow
-- Avoid repetitive conclusions: "The bottom line," "In conclusion," etc.
-- Vary transitional phrases beyond "let's dive in".
-- Minimize overused metaphors like "swiss army knife of".
-- Keep language fresh and engaging throughout.
-- Maintain conversational flow while covering technical content.
-
-### Numbers and Units
-- Spell out one through nine, numerals for 10+.
-- Always include units: "146.52 MHz".
-- Use standard abbreviations consistently.
-
-## Educational Approach
-
-### Question Integration and Linking
-- Address exam questions through natural explanation.
-- Never quote questions directly.
-- Include question links like `{{< link id="G2D07" >}}` at the relevant point in text.
-- Order questions in front matter to match their appearance in the text.
-- Explain reasoning behind correct answers.
-- Cover all question IDs in section metadata.
-- Connect facts to broader understanding.
-- Ignore question pool organization—group by content logic instead.
-
-### Building Understanding vs. Memorization
-- Explain the "why" behind rules and procedures.
-- Connect new concepts to previous learning.
-- Provide context that makes information stick.
-- Acknowledge when memorization is appropriate.
-
-### Handling Complexity
-For challenging topics:
-1. Start with practical importance (why).
-2. Provide big picture context.
-3. Break into digestible pieces.
-4. Offer multiple explanation approaches.
-5. Include "skip if needed" guidance for non-essential details.
-
-## Content Guidelines
-
-### Include
-- Concepts needed for exam understanding.
-- Practical operating information for new licensees.
-- Background that aids comprehension.
-- Real-world applications and examples.
-- Safety woven throughout.
-
-### Question/Remove
-- Topics not relevant to the license class privileges.
-- Complex math beyond basic applications.
-- Advanced theory not needed for understanding.
-- Content that confuses rather than clarifies.
-- Excessive explanation that becomes long winded instead of helpful
-
-### Safety Integration
-- Emphasize safety within technical discussions.
-- Use real examples to show importance.
-- Connect safety to successful operation.
-- Balance information with avoiding fear.
-
-## Quality Checks
-
-### Content Review
-- Does this explain why the topic matters?
-- Will this help a new ham succeed?
-- Is exam information clearly marked?
-- Are we building understanding or just cramming facts?
-- Does this connect to real amateur radio activities?
-- Are we "keeping it real"?
-
-### Voice Check
-- Is the tone conversational and encouraging?
-- Are concepts explained at appropriate level?
-- Is enthusiasm for amateur radio evident?
-- Would a beginner feel welcomed and capable?
-
-## Screen Reader Compatibility
-
-Some screen readers will not properly end sentences without punctuation, so all list items, blocks (including key information blocks), etc. must end with punctuation, e.g. a period.
-
-## Mission Statement
-
-We're not just preparing people for a test—we're introducing them to expanded amateur radio privileges and capabilities. Every section should help readers understand why the license class matters, how they can use new privileges, and what specific knowledge they need to operate safely and successfully at the next level.
-
-Success means creating operators who pass with understanding, feel confident using new frequency privileges, appreciate expanded opportunities, and have a foundation for continued growth in amateur radio.
+For a reader learning about capacitors:
+
+> A circuit's demand for current can change suddenly. When the power supply cannot respond immediately, the voltage can briefly dip. A capacitor placed nearby provides a small reserve of energy that can help meet that demand and keep the voltage steadier. It stores energy when charged and releases energy as it discharges.
+
+The voltage dip gives energy storage a job. Further explanation of capacitance and charging can develop that connection; this example does not define every use of a capacitor.
+
+For upgrade readers, use familiar behavior from the prerequisite pools as a foothold, then show what that explanation leaves unanswered. A lead-in should reduce the initial learning burden. If understanding the motivating example requires several unfamiliar devices or mechanisms, choose a more familiar starting point or develop those ideas first. Preserve the causal connection rather than simplifying the example by skipping steps. The capacitor example illustrates a strategy, not a mandatory opening template.
+
+Carry the connection through the explanation: link properties to consequences and show how those consequences serve the need. “This improves performance” supplies neither the mechanism nor the conditions under which it helps. Keep the definitions, examples, and qualifications needed to understand the result. An appealing use cannot substitute for accurate explanation, and a benefit sentence before or after a catalogue of facts does not organize that catalogue into a lesson.
+
+Vary the form. A preceding passage or chapter introduction may already establish the need. A brief definition may be necessary for orientation. Required formats, including concise pool-aligned KI blocks, can rely on surrounding prose for context. Do not force a new scenario into every block or procedure.
+
+Let transitions carry a useful idea forward and reveal what the next passage can explain. Avoid forced crises, repeated “Imagine…” openings, stock claims of importance, rhetorical “Why does this matter?” questions, and WHY/HOW/WHAT labels. Natural signposts and conversational questions remain useful when they do real work. The reader should experience the connection without being told about the writing technique.
+
+## Depth and length
+
+Required exam knowledge comes first; essential operating and safety knowledge also belongs. Other material earns space by helping this reader understand or apply those things. Preserve enough context, terms, reasoning, examples, and qualifications to make the lesson usable without adding every engineering derivation, exception, or troubleshooting procedure.
+
+Judge a proposed cut by both the burden removed and the support lost:
+
+1. Which assigned question, operating need, safety concern, or necessary learning step does it support?
+2. Does it build on prerequisite knowledge or repeat teaching already supplied? Is a refresher needed here?
+3. Would removing it lose a term, causal step, qualification, motivation, transition, or distinct helpful example?
+4. Can the same understanding be achieved with less space? Does the pool require the procedure or calculation, or only the concept?
+5. Is a figure doing something the text cannot do just as clearly, and could its layout do that job more compactly?
+6. Does the shorter version still read naturally, including aloud, and preserve every required answer, necessary reasoning step, and essential operating point?
+
+There is no deletion quota. Keep practical connections that make exam knowledge useful; they quietly counter the idea that the material is pointless. Do not add speeches defending the exam. For niche topics, an orientation and route to further learning may suffice, but a link cannot replace required teaching. Recall facts may need context or a mnemonic rather than an invented mechanism.
+
+Depth follows the particular pool. A decision to omit a nonexam reactance formula or complex-impedance calculation from General does not prohibit teaching it in Extra. Assess the required understanding rather than carrying cuts forward as universal rules.
+
+Preserve the authorized scope: a style pass keeps the information taught; a trimming pass may remove unnecessary material and repair transitions. Removing a substantial prerequisite tutorial changes depth, even if the reader should know it already. Do that when authorized, or propose it separately.
+
+A dense page may need better ordering, clearer sentences, or a missing intermediate step before it needs art. Use lists for parallel choices, comparisons, and ordered actions. Convert one to prose only when the result is more natural and clearer, not merely shorter. Short paragraphs can provide emphasis; unrelated isolated sentences need integration. Combining KI blocks does not justify flattening ordinary lists.
+
+## Book structure and continuity
+
+### Build a teaching sequence
+
+Every HamBook has **Part 1: science and theory** and **Part 2: practical application, operation, and responsibilities**, supported by introductions, appendices, and references. The parts need not have equal lengths or question counts.
+
+Plan from conceptual dependencies and reader needs, then map questions into that progression. Do not copy another publisher's table of contents or default to question-pool order. Earlier HamBooks provide useful series continuity where topics play similar teaching roles, not a template to copy mechanically.
+
+Give each active question a primary teaching home and maintain its question-to-section mapping. Normally an ID belongs to one section; any deliberate duplicate needs a teaching reason. Later applications can use brief refreshers rather than reteaching the topic. Balance question counts only when a move preserves prerequisites and coherent grouping; account for teaching difficulty as well as counts.
+
+Extra should ease readers in before the densest mathematics, placing math early enough to support later work—typically Chapter 2 or 3, rather than first or last.
+
+### Make titles and references useful
+
+Aim for descriptive titles of roughly **30 characters or fewer** so the print ToC fits, without becoming vague or overpromising. A chapter about components should not promise to teach circuit construction. Check the fit of the complete numbered title.
+
+Keep **Part 1** and **Part 2** visible in the ToC and preserve approved wording:
+
+- Technician: “The Science Behind Amateur Radio” / “The Person Behind Amateur Radio.”
+- General: “Expanding on Radio Science” / “Expanding on Radio Operation.”
+- Extra: confirm the current approved wording. “Advancing” was rejected because it implies contributing to the field; “Advanced” was discussed but is not established here as final.
+
+Directory names may lag behind titles; they do not establish approval or justify an unrelated rename.
+
+For nearby material, prefer audio-friendly references such as “in the previous section” or “later in this chapter.” Use numbers when the destination is distant or ambiguous, and full titles only when they help locate material in a substantially different part of the book.
+
+After moves or renames, update references in both directions throughout prose, figures, captions, introductions, ToC material, and maintained outlines. Check translated structure when relevant. A working link can still describe the wrong subject; [metadata and link rules](#manuscript-files-and-syntax) protect both navigation and studying.
+
+## Voice, grammar, and terminology
+
+Aim for **tenth-grade reading level or easier**, with a conversational, friendly tone, believable personality, and cheerfulness that does not feel forced. Name concrete things and what they do. Keep useful humor and lively observations; avoid patronizing simplification, exaggerated excitement, and buildup that delivers only an ordinary fact.
+
+### Use variety to help readers follow meaning
+
+**Do not begin sentences with coordinating conjunctions, especially And, Or, or But.** This does not prohibit conditional openings such as “When…” or “If…,” or phrases such as “For example….” A skill's “therefore/but” diagnostic describes conceptual connections, not prescribed sentence starters.
+
+The following are soft preferences, not rewriting quotas:
+
+- Prefer active voice; retain passive wording when the actor is irrelevant or the pool's phrasing matters.
+- Vary sentence length and structure. Short sentences can emphasize a point; longer ones can show relationships.
+- Avoid distracting word repetition and repeated sentence patterns. Keep technical terms stable and use parallelism when it helps comparison or emphasis.
+- Give each paragraph one main point with enough support to develop it.
+
+Do not minimize difficulty with “obviously” or claims that readers “just” need to understand something. Ordinary uses of “just” or “simple” are not automatically wrong. Scrutinize canned phrasing and repeated metaphors across the book, including “the bottom line,” “let's dive in,” and “Swiss Army knife.” A natural expression used once need not become a ban; a repeated template needs attention.
+
+Readability scores flag passages to inspect, not words to delete. Check whether readers can follow the point and causal steps with their expected knowledge. Keep necessary technical terms instead of replacing them with vague language to lower a score.
+
+### Keep language recognizable and precise
+
+Use **HamBook** for the series, not “license manual” or “handbook,” and preserve the approved full title. Write **General Class License**, not “General License,” and use unambiguous class names for Technician and Amateur Extra. Use community terms such as **Volunteer Examiners** or **Administering Exams**, not “Volunteer Examining.”
+
+Match pool terminology and spelling where recognition matters: use **alpha** if the pool does. An alternate spelling may belong in an appendix, not repeated qualifications. Keep distinctions such as PEP/ERP/EIRP and allocation/emission permission/band plan consistent after teaching them.
+
+The author's diode term is **forward threshold voltage**, not “turn-on voltage.” Explain the sharp current increase without implying linear behavior, a perfect switch, or unlimited current.
+
+Check literal meaning and pronoun references, especially for audio. Name what is supplied, received, measured, or changed: a cable supplies power to a radio. A listener should not have to reconstruct which device or quantity “it” means.
+
+Use numerals for measured quantities, calculations, frequencies, and identifiers, with a space before the unit: **146.52 MHz**, **50 Ω**, **100 W**. Ordinary prose generally spells out one through nine and uses numerals from 10 onward. Round only where precision adds no needed meaning; never change a legal boundary or exam answer through rounding.
+
+Use code styling for literal syntax, paths, and commands. Preserve the target book's established typography for call signs and technical values rather than normalizing it during an unrelated edit.
+
+## Exam facts and Key Information
+
+Readers scanning highlights need a dependable examination layer; readers following the lesson need enough explanation to understand those facts.
+
+### Preserve coverage and answer recognition
+
+The section's `questions` frontmatter defines its assignments. Read each actual question, correct answer, and relevant distractors in the intended pool. Honor an existing deliberate `questionPool` override; never add one merely to hide unknown IDs.
+
+For each assigned ID, teach enough to select and understand the answer, including every component of an “all these choices” answer. In manuscript source, include **exactly one** body anchor, `{{< link id="E6A02" >}}`, at its teaching point, usually in KI. The frontmatter IDs must match the anchor order; do not add unassigned anchors.
+
+**Most questions should connect to KI blocks, and every KI block must directly support assigned questions.** Motivation, general advice, and interesting facts belong in ordinary prose. Teach a coherent lesson rather than quoting stems or writing a miniature answer explanation for each ID; the separate question review supplies canonical questions. Distractors reveal distinctions that need teaching, not an obligation to explain every wrong choice.
+
+Keep KI wording close to the pool's terminology and correct answer. Before changing it, check its exact question and correctness-determining qualifiers. Active voice and variety do not justify weakening exam recognition. Additional practical qualifications can follow in prose when they would obscure the tested fact. Replacing an antenna fact with a different true antenna fact still breaks coverage.
+
+**Italicize exam facts outside KI. Inside KI, italicize only for helpful emphasis, never the whole block or more than about 70% of its text.** Do not bold whole blocks; the bold **Key Information:** label identifies them.
+
+### Group related facts coherently
+
+Combine closely related KI blocks separated by token sentences into one bulleted block. Immediately consecutive KI blocks should not remain separate. If the items are unrelated, fix placement or supply a real transition rather than forcing them together. Then reconsider the following paragraphs: merge shared explanations, but preserve distinct steps and useful lists.
+
+Single-fact and related-fact forms:
+
+```markdown
+> **Key Information:** A Zener diode's most useful characteristic is a nearly constant voltage drop under conditions of varying current. {{< link id="E6B01" >}}
+
+Ordinary explanatory prose separates distinct teaching groups.
+
+> **Key Information:**
+> - N-type semiconductor material contains excess free electrons. {{< link id="E6A02" >}}
+> - An impurity atom that adds holes is an acceptor impurity. {{< link id="E6A04" >}}
+```
+
+End KI statements, list items, captions, and other read-aloud prose with punctuation so speech systems can end utterances properly. Put punctuation before the question anchor.
+
+## Manuscript files and syntax
+
+These concrete conventions keep teaching, navigation, and study links intact across formats. Their exact syntax matters even when the surrounding editorial approach changes.
+
+### Edit maintained sources
+
+Paths are relative to the `hambook/` repository inside the parent print project.
+
+| Location | Role |
+| --- | --- |
+| `<book>/content/` | English source manuscript. |
+| `<book>/content.es/` | Spanish source; edit only within translation scope. |
+| `<book>/pool.json` and translated pool data | Exam baseline; do not silently change it during editing. |
+| `<book>/images/`, including `<book>/images/illus/` | Book-specific source art. |
+| `<book>/hugo/static/figures/` | Tracked official pool figures: a source-asset exception within Hugo structure. |
+| `hugo-common/` | Shared web behavior and genuinely shared assets. |
+| `../hugo-pdf/`, `../scss/` | Shared print content/templates and styles. |
+| Under `<book>/hugo/`: `content/`, `content.*/`, `public/`, `resources/`, `static/images/`, `data/questions*.json` | Normally generated or ignored Hugo outputs. |
+| `../output/` | Generated publishing output. |
+
+A generated edit can disappear at the next import. Conversely, tracked configuration and book-specific CSS under `<book>/hugo/` are not disposable. Inspect tracking and ignore rules before deciding what to edit or copy.
+
+Keep book-specific assets with their book, even when several of its pages reuse them. Use shared sources for genuinely common logos, templates, and behavior. For a new book, compare current Technician and General configuration, establish source content, pool and root `poolid`, and required tracked Hugo files without copying generated output or duplicating shared behavior. Preserve the requested initial status.
+
+### Preserve study and publication metadata
+
+```markdown
+---
+chapter: "1"
+section: "1.1"
+questions: ["E6A02", "E6A04"]
+status: generated1
+draft: true
+---
+
+### Section 1.1: Diodes and Junctions
+
+Opening prose.
+
+#### Building a Junction
+
+Teaching and the relevant question anchors.
+```
+
+This is a syntax example, not a complete lesson. **Every page assigning one or more questions needs `chapter` and `section`** for grouping, HamStudy links, and QR codes. Keep them as strings: `"1.10"` must not become `1.1`. An introduction with `questions: []` needs no invented section assignment.
+
+Preserve metadata unless the task requires changing it. `status` records editorial workflow; `draft` controls publication separately. Keep fields such as `epub`, `print`, `pagebreak`, `epubtype`, and `poolid` until their purpose and authority for change are clear. Completing an agent pass does not authorize a status promotion; Extra's requested `generated1` remains until instructed otherwise.
+
+Historical labels include `generated/generated1`, `reviewed1`, `draft1`, and `publish1`, with later numbered stages where used. They track generated, AI-reviewed, human-reviewed, and publication-ready work; they do not establish copyright ownership or legal protectability.
+
+### Keep source names and navigation aligned
+
+The parser derives a title from the first nonblank heading of any level. Omit frontmatter `title` unless the intended navigation/metadata title differs. Add `slug` only for a concrete need, inspecting references before deleting an existing one. Do not add aliases to unreleased pages for imagined backward compatibility.
+
+Use the established source hierarchy; the exporter normalizes headings for individual pages:
+
+```markdown
+# Part 1: Approved Part Title
+
+## Chapter 1: Chapter Title
+
+### Section 1.1: Section Title
+
+#### Subsection Heading
+
+##### A Necessary Deeper Heading
+```
+
+These occur in their appropriate files, not all on one page. An introduction may use H1; instructional files do not all need it. The importer shortens chapter/section navigation labels, so preserve complete source headings rather than adding redundant title overrides. Part labels remain visible.
+
+Part and chapter `index.md` files hold introductions. `conclusion.md` follows ordinary sections and child chapters; `toc.md` is skipped in ordinary manuscript traversal. Filename order affects reading order. Preserve the book's numbering/padding convention, and keep filenames meaningfully aligned with titles; abbreviations are fine.
+
+Prefer distinct, useful headings across the book. Where repeated wording is genuinely preferable, supply a unique ID:
+
+```markdown
+#### Checking the Match {#checking-the-feed-line-match}
+```
+
+The print system currently scopes heading IDs by page, but that does not replace meaningful headings or verification after structural changes.
+
+### Keep references and translations aligned
+
+Question anchors identify teaching points; they are not generic page links. Use `pageref` for internal destinations:
+
+```markdown
+[the previous section]({{% pageref "4.3" %}})
+[the matching discussion]({{% pageref "4.3#matching-heading" %}})
+[Chapter 7]({{% pageref "chpt7" %}})
+```
+
+Use a section number, existing unique explicit slug, or supported content path. `chpt7` works only when that destination exists; do not add a slug to imitate the example. Validate the destination and its subject, with visible wording that follows the relative-reference preference.
+
+Translations require matching structural order and **identical question arrays in identical order**. If a source move affects translation structure outside the task's scope, report the dependency rather than silently editing another language or claiming the combined build is ready.
+
+Use ordinary Markdown with blank lines around blocks. Bold important new terms sparingly; reserve italics according to the exam-fact rules. Tables should compare parallel information, fit print and small screens, and have enough prose that audio understanding does not depend on column alignment. Do not align columns with manual spaces.
+
+## Mathematics
+
+A calculation should help readers predict, compare, or interpret something. Explain the quantities, units, needed steps, and meaning of the result. Include required methods and useful worked examples; neither skip difficult exam math nor reteach familiar arithmetic mechanically.
+
+When the pool tests only a relationship, a conceptual explanation may suffice. When it requires a numerical result, teach the method. In the Extra exam introduction, explain the verified maximum number of math-related questions a candidate could see and what the count includes. Derive it from selection rules and relevant subgroups, not the total number of numerical questions in the pool. Give other books the expectations appropriate to their pools; do not describe required math as safely skippable.
+
+Use proper KaTeX-compatible notation, including subscripts and units:
+
+```markdown
+Inline: $P = I \times E$.
+
+$$
+\begin{aligned}
+I &= \frac{E}{R} \\
+  &= \frac{12\text{ V}}{6\ \Omega} \\
+  &= 2\text{ A}.
+\end{aligned}
+$$
+```
+
+The established **PIE** mnemonic may support the power law. Explain symbol choices and keep them consistent with the section and pool. Apply proper typography inside figures too; use the existing equation-rendering approach where suitable, not fake subscripts or awkwardly positioned plain letters.
+
+Check calculations independently, including units, signs, phase conventions, logarithms, and rounding. Supply enough prose for listeners to understand the operation and conclusion without seeing the equation.
+
+## Figures, illustrations, and accessibility
+
+### Make each image earn its space
+
+A diagram should reveal a relationship, mechanism, geometry, comparison, or sequence more clearly than prose alone. A sparse, compact character illustration can make a dense page approachable. Judge both by their contribution to learning relative to their printed footprint, audio description, production difficulty, and distraction. Do not decorate around an unresolved explanation problem.
+
+A replacement must preserve the original teaching purpose. A circle-to-sine-wave animation and a phase comparison teach different relationships even though both show sine waves. Keep useful web animation; its first frame or an adequate static equivalent can support print.
+
+For compactness, improve arrangement, spacing, or relative sizes where needed. Side-by-side panels often save height if they remain legible. Use CSS for display size: changing an SVG's outer dimensions without changing its geometry does not improve its layout. Inspect aspect ratio, margins, labels, and rendering after asset replacements, including PNG-to-SVG conversions.
+
+### Design for every edition
+
+Prefer shapes, arrows, familiar symbols, and short variable labels over embedded explanatory sentences. Captions and surrounding prose translate more easily and use the book's fonts. Keep any labels necessary to interpret the figure; language reduction must not make it a puzzle.
+
+Use tasteful color to improve contrast and distinctions in this color book. Also distinguish important traces by markers, line styles, position, or labels. Check actual light- and dark-mode behavior, intended print size, and narrow screens: transparency alone does not make black lines visible, and indiscriminate inversion can damage colored art.
+
+### Use supported image markup
+
+Use Markdown images, never raw HTML image tags:
+
+```markdown
+![A shared node divides incoming current into two outgoing branches. One carries I1 and the other I2. Arrows show that the incoming current equals I1 plus I2.](../../../images/s1-1-branch-currents.svg)
+{.img-centered .img-large .img-mobile-full caption="At the junction, incoming current equals the sum of the branch currents."}
+```
+
+The example path must be replaced with an actual matching asset. Put attributes **immediately after the image**. `caption="..."` renders a visible caption; with it, classes attach to the figure, otherwise to the image.
+
+| Existing class | Use |
+| --- | --- |
+| `.img-centered` | Center art. |
+| `.img-xsmall`, `.img-small` | Compact illustrations. |
+| `.img-med`, `.img-large`, `.img-xlarge`, `.img-full` | Increasing or context-dependent sizes; `.img-med` and `.img-large` differ in print despite similar screen widths. Check current styles. |
+| `.img-mobile-full` | Expand on narrow screens independently of print width. |
+| `.float-left`, `.float-right`, `.clear` | Wrap text around compact art and end the float when needed. Inspect the resulting text column. |
+| `.img-pgcap`, `.img-portrait` | Capped or portrait sizing; verify screen and print behavior. |
+| `.img-bw` | Theme filtering for suitable monochrome art, not arbitrary colored images. |
+
+Class names do not guarantee good layout. Book-specific classes such as Technician's `.illustration-gutter` work elsewhere only if their styles are available.
+
+### Give listeners access to the image's teaching
+
+Alt text is used by screen readers and the audiobook. It must convey the intended lesson as fully as words reasonably can: relevant connections, direction of flow or time, axes and values, comparisons, symbol meanings, and the conclusion the arrangement supports. “Diagram of a circuit” is insufficient.
+
+Describe the actual art, including left/right or above/below relationships. The **alt** supplies its information; the **caption** identifies its point or context. Coordinate these with nearby prose to avoid pointless repetition without making access depend on sight. Decorative characters need brief accurate descriptions, not invented technical meanings. Read the paragraph, alt, caption, and following prose as a sequence.
+
+### Keep artwork credible and maintainable
+
+Custom referenced SVGs need the section prefix **`s1-1-description.svg`**, not `1-1-description.svg`. Official pool figures retain their official names and exam content, such as `G7-1.svg` and `E6-2.svg`; do not redesign or recolor them as a style exercise.
+
+Use the source locations described under [Manuscript files and syntax](#manuscript-files-and-syntax). After asset moves, verify every affected reference and book. Basename lookup can hide a mistaken relative path; use accurate paths and avoid ambiguous duplicate filenames.
+
+Favor simple diagrams and original, consistent illustrations where photography adds little. Use suitable vector tools for diagrams and plots, and image generation for raster art when appropriate. Renaming or wrapping a PNG does not create a useful vector drawing.
+
+Inspect physical plausibility and visual quality: controls face operators, cables connect sensibly, antenna pointing works in three dimensions, and anatomy is proportionate. Nonsensical devices, impossible geometry, inconsistent line work, and conspicuous generation artifacts undermine credibility. Cover art should be inclusive and fun, without disproportionately centering white men. Match approved series art; clean cel-shaded forms can help planned vector conversion without imposing one scene on every cover.
+
+Use original work or assets with verified permission and suitable licensing. Retain provenance and required attribution; do not copy distinctive outside artwork or another book's layout, or promise that generation guarantees legal clearance. Resolve actual provenance uncertainty before incorporating an asset.
+
+## Video lessons
+
+Video combines narration, images, and timing to make relationships visible. Viewers must receive a complete lesson without needing to read the book first. The shared audience, purpose-first teaching, voice, exam, accuracy, and accessibility requirements apply to scripts, authored screen text, diagrams, and review.
+
+An older video README, renderer limitation, or production habit does not override those requirements. If a video need requires an exception, explain the conflict and obtain author confirmation while continuing independent work. The approved closed-caption exception appears below.
+
+### Preserve the teaching while adapting the presentation
+
+Use the matching book's license-level prerequisites and question assignments. A course may build on its earlier lessons, but it must supply necessary reasoning, terms, calculations, safety conditions, and useful context before practice. KI coverage alone does not establish a complete lesson.
+
+Preserve part and chapter introductions' orientation, roadmap, and practical motivation. They may be separate videos or part of the first section video; combined versions need distinct navigation markers. The conclusion may accompany the final section, as agreed for tech2026.
+
+Present videos positively as amateur radio lessons, with HamBook as a companion and HamStudy for practice, rather than pitching them as replacing the book. Planned paid availability does not establish a release date or implemented app feature.
+
+Aim for less runtime than equivalent audiobook material when visual teaching allows it. This is a preference, not a quota: give difficult or interesting concepts enough time, preserve useful examples and personality, and compare equivalent scope when reporting durations, including introductions and practice.
+
+### Coordinate sight, speech, and time
+
+Let images show arrangement and change while narration explains relationships and consequences. Speak essential conditions, values, and reasoning so understanding does not depend on sight. Integrate useful alt-text information naturally rather than reading prose, alt, and caption mechanically. Make references such as “this branch” identifiable at that moment and give the object a useful name too.
+
+Reveal or animate changes that matter, then allow time to understand the result. Highlights and zooms must preserve relevant connections. Mark schematic, slowed, or exaggerated motion when viewers might mistake it for measurement. Reuse or adapt art for its teaching contribution rather than restarting each scene with a definition or hook.
+
+Keep labels, equations, and choices readable at ordinary player size and on small screens, clear of captions and controls. Regroup dense material instead of shrinking it beyond readability. Keep explanatory wording editable where practical. Sound examples should explain what to listen for, use meaningful comparisons, and describe the audible distinction in captions or accompanying text; check recording levels and timing. Decorative sound or motion must not compete with teaching.
+
+Speak equations understandably while displaying proper notation. Verify generated pronunciation of symbols, acronyms, call signs, numbers, and units; speech overrides must preserve accurate visible wording and captions. Caption limits are not a reason to flatten narration into uniformly short sentences.
+
+### Make exam emphasis and practice dependable
+
+Teach all assigned knowledge whether or not its question appears in practice. Highlight source KI facts near their explanation, using cards or identified takeaways as appropriate; related facts need not create repeated full-screen interruptions. Authored teaching text follows the book's exam-fact emphasis rules.
+
+**Approved exception:** closed captions may be plain, faithful transcripts without italicized exam facts. The exception does not extend to authored teaching text on screen.
+
+Preserve the author-requested fuller practice blocks: canonical question, choices, required figure, thinking time, correct-answer reveal, and reasoning. Keep question wording, answer identity, and the approved selection unchanged during a wording pass. Select new practice for the distinctions and reasoning it exercises, accounting for section size; the old “about six questions” heuristic is not a ceiling. Video practice does not require an extra book quiz or question-by-question instructional narration.
+
+At the practice transition, offer video questions or the section in HamStudy through a legible QR code and readable link, with a clickable player link where available. Keep this brief. The destination must contain **all** assigned questions, even if practice uses a selection. Verify book, pool, section, question set, and any claimed app-opening behavior.
+
+### Verify the delivered lesson
+
+Review complete scripts and captions for meaning, then watch and listen to the final video at normal speed. Check pacing, transitions, pronunciation, emphasis, visual timing, intermediate animation states, answer reveals, and caption accuracy, timing, and placement. For a delivered player, verify navigation, study links, and downloads.
+
+Stills, contact sheets, transcription, coverage checks, and technical media checks support review but do not substitute for complete viewing and listening. Report which checks occurred and leave missing review explicit. Rendering success is not editorial approval or evidence of learning effectiveness.
+
+After corrections, regenerate affected outputs and review changed passages, transitions, and dependent timing or layout. Keep evidence tied to the delivered version: scripts, media, captions, chapter times, and preview packages must agree.
+
+**Current implementation:** maintained episode YAML lives in `<book>/video/episodes/`, settings in `<book>/video/series.yaml`, and video-specific art in `<book>/video/art/`. Episode `source` references account for included introductions, sections, and conclusions; the manuscript and pool determine teaching scope. Edit maintained sources rather than generated video or captions. Output lives under `../output/video/`, with a separately refreshed preview package. This does not authorize unrelated asset migration.
+
+Consult the [video engine README](../video/README.md) and code for production details and generation/cache side effects. A guide-only edit does not require speech generation or course rebuilding. Source changes, rendered changes, and completed review are distinct states.
+
+## Accuracy and safe simplification
+
+A useful model is accurate at the depth needed for the reader's decision. State conditions that change the answer, behavior, or safe action without burying the main point under irrelevant qualifications. Avoid both false generality and false specificity: a broadly applicable AC rule should not appear limited to 120 V, and advice to watch a meter should not assume every radio has one. Describe common approaches as common rather than making them sound exceptional.
+
+Analogies must preserve the behavior being taught. Use a clear mapping, connect it to the actual mechanism, and mention limits where misunderstanding could change the reader's conclusion. Reuse a helpful established analogy for continuity rather than multiplying competing ones. Hypothetical examples are fine; fabricated events, quotations, statistics, attributions, and “true” anecdotes are not.
+
+Verify uncertain technical claims against primary or authoritative sources and changing rules against current official regulations or agency publications. Record dates and specific provisions when currency matters. Review diagrams, tables, examples, and appendices too: correct prose does not repair a stale band chart. Check distinctions such as geographic limits, channel versus continuous-segment rules, power references, control methods, and withdrawn question IDs wherever relevant.
+
+The pool establishes exam expectations, not current permission to operate. For a confirmed conflict, teach the expected answer clearly and explain the operational distinction nearby. Do not silently substitute an answer or present an obsolete rule as safe permission.
+
+Put necessary safety constraints where readers might act, using brief reminders and references when fuller treatment exists elsewhere. Preserve hazard controls and warnings without adding unrelated hypothetical dangers. Omit unsupported optional advice while still teaching exam topics accurately.
+
+Treat another model's review as hypotheses: confirm factual problems before fixing them, distinguish preferences from errors, and ask about consequential preference changes the author has not settled. Account for rejected recommendations when the review task calls for it.
+
+## Revision and verification
+
+### Match the intervention to the stage and request
+
+Early generated material needs room to find a sound teaching structure. Pages with `status: draft` or `status: published` need careful edits that protect settled work and keep review diffs manageable. Use the page's `status` field to determine the editing approach:
+
+- **AI-generated statuses:** Material that is still fully AI-generated, including `generated`, `generated1`, and AI-reviewed stages such as `reviewed1`, is open to substantial revision. Reorder, regroup, replace, or rewrite explanations when that will meaningfully improve the section. Do not preserve a weak structure merely to minimize the diff; judge the resulting lesson by its teaching, flow, and reading burden.
+- **`status: draft` or `status: published`:** Make careful, targeted edits. Prefer the smallest change that fully solves the problem, preserve settled wording and structure, and keep revision diffs easy to review. Make larger changes only when necessary or explicitly requested, with a clear reason.
+
+The separate Hugo `draft: true` flag controls publication; it does **not** put `status: generated1` material into the editorial draft stage. Do not promote a page's status yourself. Preserve identifiable author edits and explicit decisions at every stage.
+
+The request still determines scope: a request for one sentence is not permission to rewrite the book, while a full generated-section revision may require rebuilding its progression. Minimum Viable Teaching limits unnecessary reader burden; it is not a minimum-edit rule.
+
+| Requested pass | Scope |
+| --- | --- |
+| Review or recommendations | Findings and focused questions; no manuscript edits unless requested. |
+| Style, accessibility, or purpose-first revision | Improve clarity, tone, and progression while preserving information taught, technical meaning, and coverage. |
+| Trimming/MVT | Remove unnecessary material and repair flow while retaining required teaching, safety, and essential operating knowledge. |
+| Factual correction | Fix the verified claim and affected examples, figures, KI, and references. |
+| Structural revision | Move or regroup within scope while preserving coverage, dependencies, navigation, and series design. |
+| New draft | Develop complete teaching within the approved outline, assignments, format, and status. |
+
+Ask when the answer changes a consequential edit: describe the passage and tradeoff, reuse established decisions, and continue independent work. Do not invent approval steps for authorized work or treat silence as approval where a decision is needed. If a tool or rule blocks work, name the action and source of the restriction.
+
+### Check the outcomes independently
+
+Consider coverage, style, accuracy, and presentation independently so improvement in one does not hide damage to another. Use separate passes for substantial revisions; choose and repeat the relevant checks according to the scope and risks of the edit:
+
+| Outcome | Evidence to seek |
+| --- | --- |
+| Complete, recognizable exam teaching | Every active question has a home, with no accidental unknown or withdrawn assignments; anchors, order, KI, and italics agree with the actual pool; all required answers and reasoning remain. |
+| A coherent reader journey | Appropriate prerequisites, clear need and mechanism, sufficient depth, natural transitions, and introductions that match the settled sections. |
+| Clear, engaging language | Understandable causal steps, suitable reading difficulty, natural rhythm and personality, correct terminology, punctuation, and grammar. |
+| Reliable facts and actions | Verified changed claims, calculations, analogies, qualifications, and safety instructions. |
+| Accessible, economical presentation | Useful figures with matching alt/captions, readable math, helpful lists and KI grouping, and working visual/audio flow. |
+| An intact publishing contract | Correct metadata, filenames, headings, references, translations within scope, and real image paths; preserved user work and publication state. |
+
+When prose, teaching, or reading flow changes, reread the revised section uninterrupted and across its boundaries. Settle sections before revising their chapter introduction, then check part introductions and “How to Use” for changed promises. An iteration is a substantive review and justified correction, not a synonym pass. Honor requested iterative depth, but do not invent changes or claim passes to reach a number. Stop when the criteria hold or a real unresolved decision remains.
+
+Use automation where it can detect a failure, and editorial review where it cannot. A successful build does not establish explanation quality; word counts and readability scores are measurements, not proof of reader understanding.
+
+### Verify without changing the baseline accidentally
+
+For prose work, read-only source and diff checks often suffice. **Importing can refresh tracked `pool.json`** from HamStudy using the language root's `poolid`; current CLI behavior has no documented pool-freeze switch. Check side effects before running [publishing scripts](package.json), account for resulting changes, and do not accept an incidental pool update as part of prose editing. Import sanity checks can warn without failing, so inspect warnings.
+
+When output inspection is needed, verify that it reflects current sources. Check changed figures visually and inspect layout in appropriate web or print HTML, including light/dark behavior. Test shared changes in affected books. PDF generation still requires a request; do not claim verified page counts or print layout from source checks alone. Report any unperformed checks that limit the conclusion.
+
+## Skills and supporting tools
+
+Skills supply methods; this guide supplies the project decisions those methods must serve. Read the relevant installed skill and supporting references, locating equivalents if paths differ. The established purpose does not need reconfirmation before routine authorized work.
+
+| Skill | Use |
+| --- | --- |
+| [accessible-technical-writing](/Users/richard/.agents/skills/accessible-technical-writing/SKILL.md) | Audience, depth, structure, voice, analogies, and review. References include `depth-calibration`, `structure-and-flow`, `voice-and-style`, `cognitive-load`, `analogies-and-accuracy`, `anti-patterns`, and `review-passes`. |
+| [purpose-led-writing](/Users/richard/.agents/skills/purpose-led-writing/SKILL.md) | Connect relevance, role, behavior, and mechanism. |
+| [purpose-led-development](/Users/richard/.agents/skills/purpose-led-development/SKILL.md) | Preserve author purpose, scope, and commitments while adapting methods. Use `book-scope-and-depth` for trimming and `authoring-instructions` for guidance documents. |
+| `imagegen` | Raster illustration work; locate the installed skill. |
+| [ham-radio-marketing-copy](/Users/richard/.agents/skills/ham-radio-marketing-copy/SKILL.md) | Covers and promotional text, whose persuasive role differs from instruction. |
+| `pdf` | Requested PDF inspection or rendering; locate the installed skill. |
+
+Apply generic defaults with judgment: “assume no knowledge” does not erase license prerequisites; rigid example, sentence, paragraph, or quiz quotas are not project requirements. Do not force every section into one framework or add redundant quizzes to the book manuscript; video practice follows its separately approved format. The project's reading target, KI fidelity, and explicit author choices govern conflicts.
+
+For publishing questions about software libraries, APIs, frameworks, or CLIs, follow repository Context7 documentation instructions. Ordinary prose editing does not need unrelated software research.
+
+### Implementation references
+
+Consult these for current behavior, without treating implementation as authority to change editorial requirements:
+
+- [Parser and metadata](src/importer/parser.js), [import/pool refresh](src/import.js), and [question sanity checks](src/importer/sanity-check.js).
+- [Image processing](src/importer/image-utils.js), [Hugo/title output](src/importer/outputs/hugo.js), [image attributes/captions](hugo-common/layouts/_default/_markup/render-image.html), and [page references](hugo-common/layouts/shortcodes/pageref.html).
+- [Shared web styles](hugo-common/assets/_custom.scss), [print styles](../scss/_pageSettings.scss), and [combined print content](../hugo-pdf/layouts/_default/allcontent.html).
+
+Conditional output supports:
+
+```markdown
+{{< web-only >}}
+Web-specific material.
+{{< /web-only >}}
+
+{{< print-only >}}
+Print-specific material.
+{{< /print-only >}}
+```
+
+Verify exporter behavior before relying on audio-specific shortcodes. Every edition needs an adequate explanation; conditional output must not hide essential instruction from one audience.
+
+## Handoff and completion
+
+Leave enough state for the next agent to continue without reconstructing decisions: book/language/pool and scope, author decisions and open questions, completed units, constraints, sources for nonobvious corrections, checks performed and outstanding, pending work or side effects, and the next step.
+
+Report material changes, intended reader benefit, evidence, and limitations without defending every sentence. Distinguish source edits from rendered output and completed review. Do not claim perfection, factual verification from a style pass, or layout review without inspecting it.
+
+The completion test is whether both readers—the one preparing quickly and the one learning in depth—have a clearer, dependable path with no unnecessary burden.
