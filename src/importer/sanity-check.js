@@ -8,6 +8,12 @@
  *  - A referenced question has been withdrawn from the pool.
  *  - A content file with questions is missing the `section` or `chapter`
  *    frontmatter params required by the study-prompt partial.
+ *  - A non-withdrawn pool question does not have exactly one body link
+ *    (`{{< link id="..." >}}`) across all content files.
+ *  - A content file's body link order does not match the order of its
+ *    frontmatter `questions` array.
+ *  - A content file has a body link for a question that is not in its
+ *    frontmatter `questions` array.
  */
 
 // Recursively collect question references from frontmatter.
@@ -71,6 +77,97 @@ function collectPoolQuestionIds(pool) {
         .map(([id]) => id);
 }
 
+// Matches question-link shortcodes such as {{< link id="E6A02" >}}.
+const QUESTION_LINK_RE = /\{\{<\s*link\s+[^>]*?\bid\s*=\s*"([^"]+)"[^>]*?>\}\}/g;
+
+// Extract question IDs from body-link shortcodes in order of appearance.
+function extractBodyQuestionLinkIds(content) {
+    const ids = [];
+    for (const match of content.matchAll(QUESTION_LINK_RE)) {
+        ids.push(match[1]);
+    }
+    return ids;
+}
+
+function frontMatterQuestions(frontMatter) {
+    const questions = frontMatter?.questions;
+    if (Array.isArray(questions)) return questions;
+    return questions ? [questions] : [];
+}
+
+// Recursively collect each content file's frontmatter questions and body
+// question links. Returns [{ filePath, questionPool, frontIds, bodyIds }]
+function collectBodyQuestionLinks(parts, files = []) {
+    for (const section of parts) {
+        if (section.sections) {
+            collectBodyQuestionLinks(section.sections, files);
+            continue;
+        }
+        files.push({
+            filePath: section.filePath,
+            questionPool: section.frontMatter?.questionPool || null,
+            frontIds: frontMatterQuestions(section.frontMatter),
+            bodyIds: extractBodyQuestionLinkIds(section.content || ''),
+        });
+    }
+    return files;
+}
+
+// Body-link checks. Per file: every body link must appear in the frontmatter
+// `questions` array, and frontmatter order must match body-link order. Per
+// book: every non-withdrawn pool question must have exactly one body link.
+// Links in files declaring `questionPool` target an external pool and do not
+// count toward the book's own pool coverage.
+function checkBodyQuestionLinks(book) {
+    const files = collectBodyQuestionLinks(book.parts);
+
+    for (const { filePath, frontIds, bodyIds } of files) {
+        if (bodyIds.length === 0) continue;
+
+        const frontSet = new Set(frontIds);
+        const notInFrontmatter = [...new Set(bodyIds.filter(id => !frontSet.has(id)))];
+        for (const qid of notInFrontmatter) {
+            console.warn(`WARNING: ${filePath} has a body link for question ${qid} which is not in its frontmatter questions array`);
+        }
+
+        const bodySet = new Set(bodyIds);
+        const bodyOrder = bodyIds.filter(id => frontSet.has(id));
+        const frontOrder = frontIds.filter(id => bodySet.has(id));
+        if (JSON.stringify(bodyOrder) !== JSON.stringify(frontOrder)) {
+            console.warn(`WARNING: ${filePath} frontmatter questions order does not match body link order (frontmatter: ${frontOrder.join(', ')}; body: ${bodyOrder.join(', ')})`);
+        }
+    }
+
+    // qid -> [{ filePath, count }]
+    const ownPoolLinks = new Map();
+    for (const { filePath, questionPool, bodyIds } of files) {
+        if (questionPool) continue;
+        const counts = new Map();
+        for (const id of bodyIds) {
+            counts.set(id, (counts.get(id) || 0) + 1);
+        }
+        for (const [id, count] of counts) {
+            if (!ownPoolLinks.has(id)) {
+                ownPoolLinks.set(id, []);
+            }
+            ownPoolLinks.get(id).push({ filePath, count });
+        }
+    }
+
+    for (const qid of collectPoolQuestionIds(book.pool)) {
+        const occurrences = ownPoolLinks.get(qid) || [];
+        const total = occurrences.reduce((sum, occurrence) => sum + occurrence.count, 0);
+        if (total === 0) {
+            console.warn(`WARNING: non-withdrawn pool question ${qid} has no body question link in any content file`);
+        } else if (total > 1) {
+            const where = occurrences
+                .map(({ filePath, count }) => (count > 1 ? `${filePath} (${count} links)` : filePath))
+                .join(', ');
+            console.warn(`WARNING: pool question ${qid} has ${total} body question links across: ${where}`);
+        }
+    }
+}
+
 function sanityCheckBook(book) {
     for (const { filePath, missing } of collectMissingStudyPromptParams(book.parts)) {
         console.warn(`WARNING: ${filePath} has questions but is missing frontmatter param(s) required by study-prompt: ${missing.join(', ')}`);
@@ -103,11 +200,16 @@ function sanityCheckBook(book) {
     if (missing.length > 0) {
         console.warn(`WARNING: ${missing.length} non-withdrawn pool question(s) not referenced by any content file: ${missing.join(', ')}`);
     }
+
+    checkBodyQuestionLinks(book);
 }
 
 module.exports = {
     collectMissingStudyPromptParams,
     collectQuestionReferences,
     collectPoolQuestionIds,
+    extractBodyQuestionLinkIds,
+    collectBodyQuestionLinks,
+    checkBodyQuestionLinks,
     sanityCheckBook,
 };
