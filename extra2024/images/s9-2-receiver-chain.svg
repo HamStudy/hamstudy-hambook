@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="300" viewBox="0 0 700 300" role="img" aria-labelledby="title"><title id="title">Where receiver filters and controls act along the signal path</title><style>svg{--ink:#263445;--muted:#586777;--blue:#1672ac;--orange:#b35c00;--green:#267c67;--red:#be2d42}text{font-family:Arial,Helvetica,sans-serif;font-size:18px;fill:var(--ink)}.small{font-size:16px}.mid{text-anchor:middle}.box{fill:none;stroke:var(--ink);stroke-width:2}.active{fill:var(--orange);fill-opacity:.18;stroke:var(--ink);stroke-width:2}.wire{stroke:var(--ink);stroke-width:2;fill:none;stroke-linejoin:round}.gbr{stroke:var(--green);stroke-width:2.5;fill:none}.obr{stroke:var(--orange);stroke-width:2.5;fill:none}.gtext{fill:var(--green)}.otext{fill:var(--orange)}.spk{fill:none;stroke:var(--ink);stroke-width:2;stroke-linejoin:round}@media(prefers-color-scheme:dark){svg{--ink:#e6edf3;--muted:#a2b5c9;--blue:#64b4ed;--orange:#f5a851;--green:#70c4ad;--red:#ff8190}}@media print{svg{--ink:#263445;--muted:#586777;--blue:#1672ac;--orange:#b35c00;--green:#267c67;--red:#be2d42}}</style><defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="7" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,1 L8,5 L1,9" fill="none" stroke="var(--ink)" stroke-width="1.8"/></marker></defs>
+<!-- Row 1: antenna, attenuator, preselector, RF amp, mixer -->
+<path d="M14 40L26 56L38 40M26 40V81H50" class="wire" marker-end="url(#arrow)"/>
+<rect x="52" y="52" width="114" height="58" class="box"/><text x="109" y="87" class="mid">Attenuator</text>
+<line x1="166" y1="81" x2="186" y2="81" class="wire" marker-end="url(#arrow)"/>
+<rect x="188" y="52" width="114" height="58" class="box"/><text x="245" y="87" class="mid">Preselector</text>
+<line x1="302" y1="81" x2="322" y2="81" class="wire" marker-end="url(#arrow)"/>
+<rect x="324" y="52" width="114" height="58" class="active"/><text x="381" y="87" class="mid">RF amp</text>
+<line x1="438" y1="81" x2="458" y2="81" class="wire" marker-end="url(#arrow)"/>
+<rect x="460" y="52" width="114" height="58" class="active"/><text x="517" y="87" class="mid">Mixer</text>
+<rect x="489" y="4" width="56" height="28" class="box"/><text x="517" y="24" class="mid small">LO</text>
+<line x1="517" y1="32" x2="517" y2="50" class="wire" marker-end="url(#arrow)"/>
+<!-- Bracket under the two stages ahead of the first active stage -->
+<path d="M52 120v8H302v-8" class="gbr"/>
+<text x="177" y="150" class="mid small gtext">before the first active stage</text>
+<!-- Return path to row 2 -->
+<path d="M574 81H630V172H94V192" class="wire" marker-end="url(#arrow)"/>
+<!-- Row 2: roofing filter, noise blanker, IF filter, detector and DSP, speaker -->
+<rect x="38" y="194" width="112" height="58" class="box"/><text x="94" y="218" class="mid">Roofing</text><text x="94" y="240" class="mid">filter</text>
+<line x1="150" y1="223" x2="170" y2="223" class="wire" marker-end="url(#arrow)"/>
+<rect x="172" y="194" width="112" height="58" class="box"/><text x="228" y="218" class="mid">Noise</text><text x="228" y="240" class="mid">blanker</text>
+<line x1="284" y1="223" x2="304" y2="223" class="wire" marker-end="url(#arrow)"/>
+<rect x="306" y="194" width="112" height="58" class="box"/><text x="362" y="218" class="mid">IF filter</text><text x="362" y="240" class="mid small">IF Shift</text>
+<line x1="418" y1="223" x2="438" y2="223" class="wire" marker-end="url(#arrow)"/>
+<rect x="440" y="194" width="146" height="58" class="box"/><text x="513" y="218" class="mid">Detector, DSP</text><text x="513" y="240" class="mid small">NR, notch</text>
+<line x1="586" y1="223" x2="610" y2="223" class="wire" marker-end="url(#arrow)"/>
+<path d="M612 213h10v20h-10zM622 213l16-12v44l-16-12" class="spk"/>
+<!-- Bracket under everything after the mixer -->
+<path d="M38 262v8H586v-8" class="obr"/>
+<text x="312" y="292" class="mid small otext">after the mixer: too late to undo overload</text>
+</svg>

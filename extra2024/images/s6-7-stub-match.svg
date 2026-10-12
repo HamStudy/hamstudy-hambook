@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="250" viewBox="0 0 640 250" role="img" aria-labelledby="title"><title id="title">Single-stub match on a feed line</title><style>svg{--ink:#263445;--muted:#586777;--blue:#1672ac;--orange:#b35c00;--green:#267c67;--red:#be2d42;--fill:#eef2f6}text{font-family:Arial,Helvetica,sans-serif;font-size:20px;fill:var(--ink)}.mid{text-anchor:middle}.small{font-size:18px}.line{stroke:var(--blue);stroke-width:6;fill:none;stroke-linecap:butt}.stub{stroke:var(--orange);stroke-width:6;fill:none}.box{stroke:var(--ink);stroke-width:2;fill:var(--fill)}.dim{stroke:var(--muted);stroke-width:1.6;fill:none}.ink{stroke:var(--ink);stroke-width:3;fill:none;stroke-linecap:round}.dot{fill:var(--ink)}.btext{fill:var(--blue)}.otext{fill:var(--orange)}.it{font-style:italic}@media(prefers-color-scheme:dark){svg{--ink:#e6edf3;--muted:#a2b5c9;--blue:#64b4ed;--orange:#f5a851;--green:#70c4ad;--red:#ff8190;--fill:#22303f}}@media print{svg{--ink:#263445;--muted:#586777;--blue:#1672ac;--orange:#b35c00;--green:#267c67;--red:#be2d42;--fill:#eef2f6}}</style>
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M1,1 L8,5 L1,9" fill="none" stroke="var(--muted)" stroke-width="1.6"/></marker></defs>
+<text x="30" y="114" class="small">to transmitter</text>
+<path d="M30 78H520" class="line"/>
+<text x="150" y="62" class="mid btext small">feed line</text>
+<rect x="520" y="52" width="96" height="52" rx="4" class="box"/>
+<text x="568" y="85" class="mid">antenna</text>
+<path d="M330 78V200" class="stub"/>
+<circle cx="330" cy="78" r="7" class="dot"/>
+<path d="M308 203H352" class="ink" style="stroke-width:5"/>
+<text x="330" y="230" class="mid small">shorted end</text>
+<text x="312" y="145" text-anchor="end" class="otext">stub</text>
+<path d="M330 48V30 M520 48V30" class="dim"/>
+<path d="M333 38H517" class="dim" marker-start="url(#a)" marker-end="url(#a)"/>
+<text x="425" y="28" class="mid it">d</text>
+<path d="M358 90H376 M358 200H376" class="dim"/>
+<path d="M368 93V197" class="dim" marker-start="url(#a)" marker-end="url(#a)"/>
+<text x="378" y="146" class="it">ℓ</text>
+</svg>

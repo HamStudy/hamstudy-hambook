@@ -8,52 +8,44 @@ draft: true
 
 ### Section 10.1: DX and Contest Contacts
 
-In a busy pileup, a well-timed call can still go unanswered if it lands on the wrong frequency. A contest contact can sound complete yet lack a required exchange item. Listen through a few contacts to establish where the station is listening and what it expects, then prepare both the radio and the log for that exchange.
+Working a pileup, where many stations call one station at once, follows the same routine as a contest contact. Listen first, call when the station is listening, and send the exchange the rules require. That contact sits between two other jobs. Before calling, you need to find the activity. Afterward, the log goes to the contest sponsor, and the contact may still need confirming for an award.
 
 #### Find the Activity
 
-Check the event's bands and exchange before calling. Contest activity does not belong on every band, and an active VHF contest will not necessarily sound busy in the repeater segment.
+Contests don't run on every HF band. By long-standing agreement, they leave out the three WARC bands, named for the 1979 World Administrative Radio Conference that allocated them. Keeping those bands contest-free leaves room for ordinary contacts during a busy weekend.
+
+On VHF and UHF, a contest may sound quiet in the FM repeater segment. Band plans set aside a **weak-signal segment** on each band for SSB, CW, and contacts beyond local range. Each has a calling frequency, such as 144.200 MHz on 2 meters, where stations find each other.
 
 > **Key Information:**
 > - Amateur radio contesting is generally excluded from 30 meters. {{< link id="E2C03" >}}
-> - During a VHF/UHF contest, expect the highest SSB or CW activity in the weak-signal segment, with much of it near the calling frequency. {{< link id="E2C06" >}}
+> - During a VHF/UHF contest, expect the highest level of SSB or CW activity in the weak-signal segment of the band, with most of the activity near the calling frequency. {{< link id="E2C06" >}}
 
-Keeping some bands free of contests gives other operators room for ordinary contacts during a busy event. *The 30-meter exclusion is an operating convention reflected in band plans and contest rules.*
+#### Make the Call
 
-A *weak-signal segment* is the part of a band used for modes such as SSB and CW, including contacts beyond normal local range. The name describes the style of operation; it does not mean that every station there will be weak. Band plans and contest rules help you find the appropriate place.
+In a pileup, callers on the DX station's own frequency would cover its replies. A DX operator who sends “up five” is working split: keep receiving on the station's frequency, and transmit 5 kHz higher. If the DX station transmits outside your allowed range, you can still listen there and reply on an allowed frequency within its listening range. Check which VFO controls transmit before you call.
 
-#### Hear the Reply
+> **Key Information:** DX stations often transmit and receive on different frequencies to separate the calling stations from the DX station, improve operating efficiency by reducing interference, and accommodate callers who cannot legally transmit on the DX station's frequency. {{< link id="E2C10" >}}
 
-*Split operation separates the callers from the DX station's replies*, keeping the pileup from covering its next instruction. With “up five,” receive on the DX station's frequency and transmit 5 kHz higher. Set the VFOs accordingly and verify the transmit selection before calling; hearing the right frequency does not confirm that you will transmit in the right place.
+When you call, the DX operator needs your whole call sign, but the opening is short. A suffix alone can force another request for the rest of your call, while sending your call many times wastes the opening. If the station answers someone else, listen through that contact. If it answers you, send the required exchange and correct any copying errors before moving on.
 
-> **Key Information:** DX stations may transmit and receive on different frequencies to separate callers from the DX station, improve efficiency by reducing interference, and accommodate callers who cannot legally transmit on the DX station's frequency. {{< link id="E2C10" >}}
+In digital contests, the software must send the contest exchange in place of its usual report, which for FT8 and FT4 is a signal-to-noise ratio in decibels. VHF contests usually count grid squares toward the score.
 
-*Split can also bridge different operating privileges.* If the DX station transmits outside your allowed transmit range, you can still listen there and reply on an allowed frequency within its listening range.
-
-Wait until the station finishes with the previous caller. Give enough identification for it to select you without consuming the whole opening.
-
-> **Key Information:** When calling a DX station in a contest or pileup, generally send your full call sign once or twice. {{< link id="E2C11" >}}
-
-Sending only a suffix can force another request for the rest of your call. If the station replies to someone else, listen through that contact. If it replies to you, send the required exchange and correct any copied error before moving on.
-
-In digital contests, the software must send the contest exchange rather than its ordinary report. *For FT8 or FT4 VHF contests, a Maidenhead grid square replaces the signal-to-noise ratio*, supplying location information useful for scoring.
-
-> **Key Information:** In an FT8 or FT4 VHF contest exchange, a grid square replaces the signal-to-noise ratio. {{< link id="E2D02" >}}
+> **Key Information:**
+> - When attempting to contact a DX station in a contest or pileup, generally identify your station by sending your full call sign once or twice. {{< link id="E2C11" >}}
+> - When using FT8 or FT4 in a VHF contest, a grid square replaces the signal-to-noise ratio. {{< link id="E2D02" >}}
 
 #### Save, Submit, Confirm
 
-Logging software may offer several export formats. Choose the one for the job. Moving contacts to another logging program is different from sending a scored entry to a contest sponsor.
+Logging software may offer several export formats, and the job decides which one. You might submit a Cabrillo file to the contest sponsor, then export ADIF (Amateur Data Interchange Format) to merge the same contacts into your main station log.
 
 > **Key Information:**
-> - Cabrillo is a standard for submitting electronic contest logs. {{< link id="E2C07" >}}
-> - ADIF is a file format for exchanging amateur radio log data. {{< link id="E2C02" >}}
+> - The Cabrillo format is a standard for submission of electronic contest logs. {{< link id="E2C07" >}}
+> - ADIF is a file format used for exchanging amateur radio log data. {{< link id="E2C02" >}}
 
-*For example, you might submit a Cabrillo file to the contest sponsor, then export ADIF to combine those same contacts with your main station log.* Read the sponsor's instructions for the required fields and deadline.
+Submitting a contest log doesn't confirm any contacts for awards. The two stations confirm a contact separately, traditionally by exchanging QSL cards. A popular DX station can receive more requests than its operators can answer, so many pass that work to someone else.
 
-Submitting a contest log does not by itself confirm the contacts for your award records. *A DX QSL manager handles the station's incoming and outgoing confirmations*, taking on the volume of requests that a busy operation can generate.
+Logbook of The World (LoTW), run by the ARRL, confirms contacts electronically when the records uploaded by both stations match. Your upload alone confirms nothing.
 
 > **Key Information:**
-> - A DX QSL manager handles incoming and outgoing confirmations for a DX station. {{< link id="E2C05" >}}
-> - Logbook of The World, or LoTW, can confirm US special-event contacts, contacts between US and non-US stations, and contacts for Worked All States credit. {{< link id="E2C08" >}}
-
-LoTW matches records submitted by the two stations. A log upload alone is not a matched confirmation, and a contest submission does not necessarily upload your contacts to LoTW. *The matching works for domestic contacts as well as DX; a distant country is not a requirement.* Check those steps separately if you want both contest credit and confirmations.
+> - A DX QSL manager handles the receiving and sending of confirmations for a DX station. {{< link id="E2C05" >}}
+> - Logbook of The World, or LoTW, can confirm special event contacts between stations in the US, contacts between a US station and a non-US station, and contacts for Worked All States credit. {{< link id="E2C08" >}}

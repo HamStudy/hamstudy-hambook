@@ -19,9 +19,9 @@ text{fill:var(--ink);font-family:Arial,Helvetica,sans-serif;font-size:26px} .sub
 <line x1="230" y1="141" x2="230" y2="169" class="wire ink" />
 <path d="M230 155 H300 V90" class="wire blue"/>
 <text x="222.5" y="198" text-anchor="middle">C</text>
-<path d="M540 65 V250" fill="none" stroke="var(--grid)" stroke-width="13"/>
+<path d="M540 104 V250" fill="none" stroke="var(--grid)" stroke-width="13"/>
 <defs><pattern id="insulator" width="9" height="9" patternUnits="userSpaceOnUse"><rect width="9" height="9" fill="var(--support)"/><path d="M-2 2 L2 -2 M0 9 L9 0 M7 11 L11 7" stroke="var(--hatch)" stroke-width="1"/></pattern></defs>
-<rect x="490" y="74" width="100" height="32" rx="4" fill="url(#insulator)" stroke="var(--muted)" stroke-width="1.5"/>
+<rect x="478" y="96" width="124" height="26" rx="4" fill="url(#insulator)" stroke="var(--muted)" stroke-width="1.5"/>
 <line x1="385" y1="90" x2="505" y2="90" class="wire ink" />
 <line x1="575" y1="90" x2="695" y2="90" class="wire ink" />
 <path d="M505 90 V35 H575 V90" class="wire blue"/>

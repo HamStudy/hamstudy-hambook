@@ -1,70 +1,70 @@
 ---
 chapter: "1"
 section: "1.2"
-questions: ["E6A06", "E6A07", "E6A08", "E6A05", "E6A09", "E6A10", "E6A11", "E6A12"]
+questions: ["E6A07", "E6A06", "E6A08", "E6A05", "E6A09", "E6A10", "E6A11", "E6A12"]
 status: generated1
 draft: true
 ---
 
 ### Section 1.2: Transistors
 
-A transistor may have plenty of gain at audio frequencies yet too little at the RF frequency you need. Its input can also demand more current than the preceding stage can supply. Gain, bias, and input loading help us choose a device that fits the job.
+Whether a transistor's control signal is a current or a voltage depends on its type. In a bipolar junction transistor (BJT), a small base current controls a larger current between collector and emitter. In a field-effect transistor (FET), the gate voltage controls current through a channel between source and drain. Both use the same doped semiconductor as a diode, and much of their behavior follows from the junctions the previous section described.
 
 #### Current Control in a BJT
 
-For a bipolar junction transistor (BJT), the driving stage must supply enough base current to control the required collector current. *Beta, written $\beta$, expresses the change in collector current relative to the change in base current.*
+A BJT's base and emitter meet at a PN junction, and base current flows only when that junction is forward biased. In an NPN transistor, the base is the P-type layer, so forward bias means making the base positive relative to the emitter. As in a silicon diode, current rises sharply once the voltage nears the forward threshold.
 
-For example, if a 0.1 mA change in base current produces a 10 mA collector-current change, divide 10 by 0.1 to find the current gain: $\beta=100$. The extra output energy comes from the collector supply; beta tells us how effectively the base-current change controls it.
+That base current controls a much larger collector current. The transistor's current gain, called **beta** and written $\beta$, measures that control. The higher the beta, the less base current the driving stage must supply for a given change in collector current.
 
-To establish that current, we use the junction behavior from the previous section. In a silicon NPN transistor, the base-emitter junction must be forward biased, with the base positive relative to the emitter.
+For example, if a 0.1 mA change in base current produces a 10 mA collector-current change, divide 10 by 0.1 to find the current gain: $\beta=100$. The extra output energy comes from the collector supply.
 
 > **Key Information:**
-> - The beta of a BJT is the change in collector current with respect to the change in base current. {{< link id="E6A06" >}}
 > - A silicon NPN transistor biased on has a base-to-emitter voltage of approximately 0.6 to 0.7 volts. {{< link id="E6A07" >}}
+> - The beta of a BJT is the change in collector current with respect to the change in base current. {{< link id="E6A06" >}}
 
-A transistor must also keep up with the signal. At sufficiently high frequencies, current gain falls because the device cannot move and store charge instantly. A gain measurement at a low frequency therefore doesn't tell us how well the transistor will amplify RF.
+#### Gain at Higher Frequencies
 
-Different amplifier arrangements use different terminals as the common connection for input and output. Beta is the common-emitter current gain. *Alpha is the grounded-base, or common-base, current gain.* Its *cutoff frequency* marks a specified drop from the low-frequency gain.
+That gain doesn't hold at every frequency. At high enough frequencies, current gain falls because the device cannot move and store charge instantly.
 
-> **Key Information:** The alpha cutoff frequency is the frequency at which grounded-base current gain falls to 0.7 of its value at 1 kHz. {{< link id="E6A08" >}}
+A **cutoff frequency** marks where gain has fallen by a set amount, and which gain you measure depends on which terminal the input and output share. With the input at the base and the output at the collector, the two share the emitter, so beta is the common-emitter gain. Alpha compares collector current with emitter current. The base is then the shared, or grounded, terminal, so alpha is the grounded-base, or common-base, current gain. Because emitter current is collector current plus base current, alpha is slightly below 1. Beta has a cutoff frequency of its own, measured on common-emitter gain.
 
-If grounded-base gain is 0.98 at 1 kHz, it falls to about $0.7\times0.98=0.686$ at the alpha cutoff frequency. The 0.7 is a *fraction of the earlier gain*, not a gain that every transistor must have. Keep alpha tied to grounded-base gain when comparing the names in the question.
+> **Key Information:** The alpha cutoff frequency is the frequency at which the grounded-base current gain of a bipolar junction transistor has decreased to 0.7 of the gain obtainable at 1 kHz. {{< link id="E6A08" >}}
 
 #### Controlling the Channel
 
-When base current would load the preceding stage too heavily, a FET offers another approach. Its gate voltage controls the source-to-drain channel while drawing very little steady input current.
+When base current would load the driving stage too heavily, an FET offers another approach. Its gate draws almost no steady current.
 
-A junction FET, or JFET, uses a reverse-biased junction for this control. A MOSFET uses a gate insulated from the channel by a very thin layer; its name expands to metal-oxide-semiconductor FET. Both have high *DC input impedance*, reducing the current demanded from the driving stage.
+A junction FET, or JFET, controls the channel through a reverse-biased junction, which passes only a tiny leakage current. A MOSFET uses a gate insulated from the channel by a very thin layer; its name expands to metal-oxide-semiconductor FET.
 
 > **Key Information:** The DC input impedance at an FET gate is higher than that of a bipolar transistor. {{< link id="E6A05" >}}
 
-A changing signal still has to charge and discharge the gate's capacitance, though. High DC input impedance does not mean the gate places no demand on an RF driver.
+That holds for DC. A changing signal still draws current to charge and discharge the gate's capacitance.
 
-When setting up the bias, we also need to know whether the channel conducts before we apply a gate-to-source voltage. *A depletion-mode FET already has a conducting channel at zero gate-to-source voltage.* Gate bias can deplete that channel of carriers and reduce its current. In contrast, an enhancement-mode FET needs suitable gate bias to establish strong conduction.
+Before biasing an FET, you need to know whether its channel conducts with no gate voltage. Some FETs come with the channel already in place. Gate bias can deplete that channel of carriers and reduce its current, which gives this type its name.
 
-> **Key Information:** A depletion-mode FET conducts between source and drain when no gate voltage is applied, provided a drain-to-source voltage is present. {{< link id="E6A09" >}}
+> **Key Information:** A depletion-mode FET is an FET that exhibits a current flow between source and drain when no gate voltage is applied. {{< link id="E6A09" >}}
 
-A drain-to-source voltage must still drive that current. “No gate voltage” does not mean “no power supply.”
+An enhancement-mode FET works the other way: its channel needs suitable gate bias to conduct strongly.
 
 #### Recognizing the Symbols
 
-A schematic shows which gate arrangement a circuit uses. A gap between the gate line and channel indicates an insulated gate. Two separately labeled gate connections identify a dual-gate device. Those gates control the same source-to-drain channel, allowing the transistor to accept two separate control signals.
+An FET symbol shows how its gate is built. A gap between the gate line and the channel indicates an insulated gate; a gate line that touches the channel marks a JFET. Two separately labeled gates identify a dual-gate device, which accepts two control signals on the same channel. The arrow shows the channel type. As in a diode symbol, it points from P toward N: into an N-channel device, out of a P-channel one.
 
-![Official Figure E6-1 shows six FET symbols. Symbol 1 is a P-channel junction FET, with a gate arrow pointing outward from the channel. Symbols 4 and 5 both have two insulated gate terminals labeled G1 and G2, a drain D, and a source S. Symbol 4 has an arrow pointing toward the channel, identifying an N-channel dual-gate MOSFET; symbol 5 has an arrow pointing away, identifying a P-channel device.](../../../hugo/static/figures/E6-1.svg)
+![Official Figure E6-1 shows six FET symbols, with D marking the drain, S the source, and G the gate. Symbols 1 and 6 have a gate line connected directly to the channel. In 1 the gate arrow points outward, identifying a P-channel JFET; in 6 it points inward, identifying an N-channel JFET. Symbols 2 and 3 have one gate separated from the channel by a gap, indicating insulation. Their channel arrows point inward and outward, respectively. Symbols 4 and 5 have two insulated gates, G1 and G2. Symbol 4 has an inward arrow and is the N-channel dual-gate MOSFET; 5 has an outward arrow and is P-channel.](../../../hugo/static/figures/E6-1.svg)
 {.img-centered .img-xlarge .img-bw caption="Figure E6-1: Gate arrangement and arrow direction identify the FET."}
+
+In symbol 1, the gate touches the channel and the arrow points out. Symbol 4 has two insulated gates and an arrow pointing in.
 
 > **Key Information:**
 > - Symbol 4 in Figure E6-1 is an N-channel dual-gate MOSFET. {{< link id="E6A10" >}}
 > - Symbol 1 in Figure E6-1 is a P-channel junction FET. {{< link id="E6A11" >}}
 
-*In symbol 1, the gate arrow points outward from the channel, identifying a P-channel JFET.* *Symbols 4 and 5 each have two insulated gates, G1 and G2.* Their arrows distinguish the channel types: *symbol 4 points toward the channel for N-channel; symbol 5 points away for P-channel.*
-
 #### Protecting the Gate
 
-The thin insulation that gives a MOSFET its high input impedance also needs protection. Excessive voltage can puncture it. Even a small static charge may reach a damaging voltage despite carrying little energy.
+The thin insulation that gives a MOSFET its high input impedance is also easy to damage. Excessive voltage can puncture it. Because the gate's capacitance is small, even a little static charge can raise its voltage that far despite carrying little energy.
 
-The Zener diode from the previous section can help here. *It limits the voltage before the gate insulation breaks down*, acting as a voltage clamp.
+The Zener diode can help here. Its breakdown voltage sits above the normal gate voltage but below the level that would harm the insulation, so it doesn't conduct during normal operation. If static pushes the gate voltage higher, the Zener conducts and limits the voltage before the insulation breaks down.
 
 > **Key Information:** Zener diodes connected between a MOSFET gate and its source or drain protect the gate from static damage. {{< link id="E6A12" >}}
 
-This protection does not make every static discharge harmless, and it does not replace the transistor's normal bias circuit.
+Static precautions are still worth taking when you handle MOSFETs.

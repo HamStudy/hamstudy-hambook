@@ -19,9 +19,9 @@
 <path class="blue" d="M40 65H220L265 105"/><path fill="var(--blue)" d="M184 65l-13 -7v14z"/>
 <text x="113" y="47" text-anchor="middle" class="muted">RF</text>
 <path class="orange" d="M265 105L220 145H47"/><path fill="var(--orange)" d="M44 145l13 -7v14z"/>
-<text x="145" y="181" text-anchor="middle">S<tspan baseline-shift="sub" font-size="16">11</tspan></text>
+<text x="145" y="181" text-anchor="middle">S<tspan dy="5" font-size="16">11</tspan></text>
 <path class="green" d="M265 105H678"/><path fill="var(--green)" d="M679 105l-13 -7v14z"/>
-<text x="565" y="84" text-anchor="middle">S<tspan baseline-shift="sub" font-size="16">21</tspan></text>
+<text x="565" y="84" text-anchor="middle">S<tspan dy="5" font-size="16">21</tspan></text>
 <circle cx="265" cy="105" r="5" fill="var(--ink)"/>
 <circle cx="455" cy="105" r="5" fill="var(--ink)"/>
 

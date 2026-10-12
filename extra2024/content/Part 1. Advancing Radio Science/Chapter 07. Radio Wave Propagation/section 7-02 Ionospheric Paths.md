@@ -1,74 +1,84 @@
 ---
 chapter: "7"
 section: "7.2"
-questions: ["E3A06", "E3B07", "E3B05", "E3B06", "E3B12", "E3B10", "E3B04", "E3B01", "E3B02", "E3B03", "E3B09", "E3B11"]
+questions: ["E3A06", "E3B05", "E3B06", "E3B07", "E3B12", "E3B10", "E3B01", "E3B02", "E3B03", "E3B04", "E3B09", "E3B11"]
 status: generated1
 draft: true
 ---
 
 ### Section 7.2: Ionospheric Paths
 
-An HF contact can fade after sunset even though neither station has changed its equipment. A different band may preserve the contact; another route may work when the original one fails. Choosing a useful response means looking at conditions along the whole path.
+An HF contact can fade after sunset even though neither station has changed its equipment. A different band may save the contact, or a different route may work when the original one fails. Choosing well means looking at conditions along the whole path.
 
 #### Keeping a Path Open
 
-After sunset, reduced ionization often lowers a path's maximum usable frequency (MUF). Reduced D-region absorption also improves lower-frequency reception, making a lower band worth trying. The MUF still belongs to a particular path and time: frequency, electron density, and entry angle determine whether a wave returns.
+After sunset, ionization falls, and so does the path's maximum usable frequency (MUF). The D region fades too, so the lower bands lose their daytime absorption.
 
-> **Key Information:** To continue a distant contact when darkness lowers the path's MUF, switch to a lower-frequency HF band. {{< link id="E3A06" >}}
+> **Key Information:** To continue a long-distance contact when the MUF for that path decreases due to darkness, switch to a lower-frequency HF band. {{< link id="E3A06" >}}
 
-If 21 MHz no longer bends back to the other station, a lower band such as 14 MHz may still return. In that situation, reach for the band switch before the power control. More transmitter power does not make an above-MUF ray bend enough to complete the same path.
-
-*A lower launch angle sends the wave farther along Earth before it returns.* This is why the low-angle antenna lobes in the previous chapter matter for long-distance work.
-
-> **Key Information:** Lowering transmitted elevation angle increases the distance covered by each ionospheric HF hop. {{< link id="E3B07" >}}
+If 21 MHz no longer bends back to the other station, 14 MHz may still return. More transmitter power does not make an above-MUF ray bend enough to complete the path.
 
 #### Darkness and the Long Way Around
 
-On 160 meters, daytime absorption strongly limits distant paths. *Darkness needs to cover the route, not only the station at one end.* An early sunset at your location does not remove daytime absorption thousands of miles away.
+The fading D region matters most on 160 meters, where daytime absorption blocks distant paths. An early sunset at your location does not remove daytime absorption thousands of miles away.
 
 > **Key Information:** A path entirely in darkness is most likely to support long-distance propagation on 160 meters. {{< link id="E3B05" >}}
 
-If the shorter route is unfavorable, *long-path propagation* may offer another chance. It follows the longer arc of the great circle between the stations. Turning a directional antenna roughly 180 degrees favors that opposite initial bearing.
+When the short route won't work, **long-path propagation** may offer another chance. It follows the longer arc of the same great circle, so you point a directional antenna roughly 180 degrees away from the short-path heading.
 
-> **Key Information:** Long-path propagation is most frequent on 40 and 20 meters among the listed amateur bands. {{< link id="E3B06" >}}
+A long path covers more than half of Earth's circumference, so it usually crosses both daylight and darkness. On 160 and 80 meters, the sunlit part adds heavy D-region absorption. On 10 and 6 meters, the dark part usually drops the MUF below the band. That leaves the middle of HF.
 
-The longer route is not automatically worse at a particular moment. Its illumination and ionospheric conditions may support a path that the shorter arc does not.
+> **Key Information:** Long-path propagation is most frequent on the 40-meter and 20-meter bands. {{< link id="E3B06" >}}
 
-#### Hops Without a Ground Bounce
+#### Fewer Hops, Less Loss
 
-In an ordinary multi-hop picture, the signal returns to Earth, reflects, and travels up for another ionospheric return. *Each ground encounter adds loss.* Real ionospheric regions can be tilted or shaped so a ray reaches another refracting region before striking the ground.
+A long path takes many hops. A ray launched at a low angle rises gradually, so it covers more ground before it reaches the ionosphere, and as much again on the way down.
+
+> **Key Information:** Lowering a signal's transmitted elevation angle increases the distance covered by each hop in ionospheric HF skip propagation. {{< link id="E3B07" >}}
+
+Fewer hops then cover the same distance, which is why the low-angle antenna lobes in the previous chapter matter for long-distance work. In an ordinary multi-hop path, the signal comes back to Earth, reflects from the ground, and travels up again. Every ground reflection loses some energy, and the trips down through the absorbing D region and back up lose more.
+
+Real ionospheric regions can tilt, though. A ray refracted at one point may then meet the layer again before it reaches the ground. It crosses beneath the curved ionosphere like a chord joining two points on a circle, which gives **chordal-hop propagation** its name.
+
+![Two side-by-side cross sections, each showing a curved Earth with a thin D region shaded just above the surface and the F region shaded higher up. Heights are exaggerated. At left, labeled multi-hop, a ray leaves one station, rises to the F region, comes back down to the ground at the midpoint, reflects, rises to the F region again, and comes down at the far station. A circle marks the ground reflection, and red dots mark the four places where the ray passes through the D region. At right, labeled chordal hop, the ray rises to the F region, crosses a straight chord beneath the curved F region to a second point in it, and then comes down at the far station. It never touches the ground between the stations, and red dots show only two passes through the D region.](../../../images/s7-2-chordal-hop.svg)
+{.img-centered .img-xlarge .img-mobile-full caption="An ordinary two-hop path reflects from the ground and passes through the absorbing D region four times. A chordal hop travels between two points in the F region and passes through the D region only twice."}
 
 > **Key Information:**
-> - Chordal-hop propagation uses successive ionospheric refractions without an intermediate ground reflection. {{< link id="E3B12" >}}
-> - It has less loss than multi-hop propagation that uses Earth as a reflector between hops. {{< link id="E3B10" >}}
-
-*Avoiding a lossy ground encounter preserves more signal.*
-
-#### Two Waves in One Path
-
-A single transmitted signal need not follow just one route through the ionosphere. Earth's magnetic field changes how the ionized medium responds, allowing the signal to divide into two modes with different paths and polarizations. In each elliptically polarized mode, the electric field rotates while its magnitude varies: its tip traces an ellipse rather than a circle.
-
-> **Key Information:** Ordinary and extraordinary waves are independently propagating, elliptically polarized waves created in the ionosphere. {{< link id="E3B04" >}}
+> - Chordal-hop propagation is successive ionospheric refractions without an intermediate reflection from the ground. {{< link id="E3B12" >}}
+> - With chordal-hop propagation, the signal experiences less loss compared to multi-hop propagation, which uses Earth as a reflector. {{< link id="E3B10" >}}
 
 #### Across the Magnetic Equator
 
-VHF stations on opposite sides of the geomagnetic equator can sometimes communicate across thousands of miles by *transequatorial propagation*, or TEP. Enhanced ionization on either side and aligned irregularities support these paths. The geomagnetic equator follows Earth's magnetic field, so it does not coincide everywhere with the geographic equator.
+Near the **geomagnetic equator**, where Earth's magnetic field runs level with the ground, the daytime ionosphere takes a shape that suits such hops. Ionization collects into two dense bands roughly 10 to 20 degrees north and south of that line. The line follows the field rather than the map, so it wanders north and south of the geographic equator.
 
-*The favorable geometry crosses that magnetic equator roughly at right angles.* Strong equatorial ionization builds during the day, and related irregularities can extend useful conditions into the evening.
+A VHF signal can refract from one band to the other without touching the ground, much like a chordal hop. This is **transequatorial propagation**, or TEP. It works best when the stations sit on opposite sides, about equally far from that line, so the signal bent by one band reaches the matching part of the other.
+
+![A map-style sketch. A dashed straight line across the middle is the geographic equator. A solid curved line, the magnetic equator, runs above it on the left and crosses below it on the right. Two shaded bands labeled dense band follow the magnetic equator, one on each side, with a clear gap between each band and the line. An orange path joins station A, at the outer edge of the northern band, to station B, at the outer edge of the southern band. It crosses the magnetic equator at a right angle, marked with a small square, so it is tilted away from north-south. A and B are the same distance from the magnetic equator. A dimension line beside the path is labeled 2,000 to 3,000 miles.](../../../images/s7-2-tep-geometry.svg)
+{.img-centered .img-large .img-mobile-full caption="A TEP path links matching points in the two dense bands."}
+
+The bands build through the day and peak in the afternoon. In the evening a second type, evening TEP, rides on long, uneven patches of ionization stretched along the magnetic field.
 
 > **Key Information:**
-> - TEP is most likely between points 2,000 to 3,000 miles apart over a path perpendicular to the geomagnetic equator. {{< link id="E3B01" >}}
-> - Its approximate maximum range is 5,000 miles. {{< link id="E3B02" >}}
-> - Afternoon or early evening is the most likely time. {{< link id="E3B03" >}}
+> - Transequatorial propagation is most likely between points separated by 2,000 miles to 3,000 miles over a path perpendicular to the geomagnetic equator. {{< link id="E3B01" >}}
+> - The approximate maximum range for signals using transequatorial propagation is 5,000 miles. {{< link id="E3B02" >}}
+> - Transequatorial propagation is most likely to occur in the afternoon or early evening. {{< link id="E3B03" >}}
 
-*The 2,000-to-3,000-mile description identifies a favorable common geometry.* *The 5,000-mile value describes an approximate outer range*; the two numbers answer different questions.
+Real paths vary, and afternoon TEP often runs somewhat longer than 3,000 miles.
+
+#### Two Waves in One Path
+
+The magnetic field also changes how a wave travels through the ionosphere. Under the field's influence, the ionized medium splits a signal into two modes, the **ordinary** and **extraordinary** waves. They follow slightly different paths. In each, the electric field rotates as the wave travels, and its tip traces an ellipse.
+
+> **Key Information:** Extraordinary and ordinary waves are independently propagating, elliptically polarized waves created in the ionosphere. {{< link id="E3B04" >}}
+
+The two waves reach the receiver with a shifting phase difference, so their combined polarization keeps changing. That is one cause of fading. Because the arriving polarization is elliptical and keeps changing, vertical and horizontal antennas both work for HF skywave.
 
 #### Dense Patches in the E Region
 
-A sporadic-E opening can appear and vanish quickly as its dense ionized patches change location and strength. These thin regions within the E layer can return frequencies that would otherwise pass through, including VHF. We cannot schedule a particular opening, but seasonal and daily patterns suggest when to listen. Sporadic E is often written $E_s$.
+A sporadic-E opening can appear and vanish quickly as its dense ionized patches change location and strength. These thin patches within the E region can return frequencies that would otherwise pass through, including VHF. Sporadic E, often written $E_s$, can't be scheduled, but seasonal and daily patterns suggest when to listen.
 
 > **Key Information:**
-> - Sporadic-E propagation is most likely near the solstices, especially the summer solstice. {{< link id="E3B09" >}}
-> - It is most likely between sunrise and sunset. {{< link id="E3B11" >}}
+> - Sporadic-E propagation is most likely to occur around the solstices, especially the summer solstice. {{< link id="E3B09" >}}
+> - Sporadic-E propagation is most likely to occur between sunrise and sunset. {{< link id="E3B11" >}}
 
-Those are likelihoods, not operating hours. Winter openings and nighttime events occur too. Treat the seasonal pattern as a reason to listen, not a reason to ignore an unexpected opening. Conditions and actual signals tell you what is happening now.
+A smaller peak comes near the winter solstice, and nighttime openings occur too.

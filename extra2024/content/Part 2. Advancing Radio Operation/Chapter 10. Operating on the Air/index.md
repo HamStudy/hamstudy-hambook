@@ -6,6 +6,6 @@ pagebreak: true
 
 ## Chapter 10: Operating on the Air
 
-The same station can face very different operating demands. A pileup leaves a brief opening for your call, a meteor trail may carry only a burst of data, and a satellite pass changes frequency and direction while a contact is underway. Getting through depends on fitting the exchange to those conditions.
+Calling CQ on a quiet band takes little planning. Someone answers, and the contact goes at whatever pace you both like. Many contacts run on terms set by something else: a contest's rules, a digital mode's clock, a satellite's orbit, or a network's relay path.
 
-We will build on ordinary contact procedure to handle busy frequencies, choose modes for particular messages and paths, and coordinate timed exchanges. Satellite and packet operation add shared relays: their frequency translation, power limits, and forwarding methods determine how your transmission reaches its destination.
+Those terms don't have to stop you. Once you understand them, you can plan around them and still complete the contact, whether you face a busy pileup, a signal that lasts only a moment, or a satellite about to set. The same planning helps you choose a mode that fits the message and the path.

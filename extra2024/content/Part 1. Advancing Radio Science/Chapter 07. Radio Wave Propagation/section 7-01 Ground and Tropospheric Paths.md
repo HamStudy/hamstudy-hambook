@@ -8,49 +8,45 @@ draft: true
 
 ### Section 7.1: Ground and Tropospheric Paths
 
-For a terrestrial link, the geographic horizon is only a starting point. A surface wave following the ground and a wave bending through the atmosphere encounter different limits. At microwave frequencies, clearance around the sightline also affects whether a path will work.
+Not every contact depends on the ionosphere. A UHF handheld's signal seldom reaches far past the radio horizon, while an AM broadcast station, at a much lower frequency, carries far beyond the horizon in daytime. Both signals stay near the ground; frequency sets their limits.
 
 #### Along the Surface
 
-*Ground-wave propagation includes a surface wave that follows Earth's curvature.* Interaction with the ground absorbs energy, and that loss grows as frequency increases. Conductive surfaces such as seawater support better paths than poorly conducting ground.
+The AM station's daytime signal travels mostly as a surface wave. Ground-wave propagation includes a surface wave that follows Earth's curvature. The wave drives currents in the ground, and the ground's resistance turns some of the wave's energy into heat. That loss grows as frequency increases. Seawater, a good conductor, supports much better paths than poor soil.
+
+A vertically polarized wave's electric field stands perpendicular to the ground. A horizontal electric field lies along the conducting surface, which nearly shorts it out. That is why AM broadcast stations use tall vertical towers.
 
 > **Key Information:**
-> - Increasing frequency decreases the maximum range of ground-wave propagation. {{< link id="E3B08" >}}
+> - The maximum range of ground-wave propagation decreases when the signal frequency is increased. {{< link id="E3B08" >}}
 > - Ground-wave propagation supports vertical polarization. {{< link id="E3B13" >}}
-
-A vertically polarized wave has its electric field perpendicular to the ground. A horizontally polarized surface wave suffers heavy loss because its electric field drives currents along the conducting surface. Ground wave is therefore most useful at lower frequencies, where it can extend well beyond an optical line of sight. Raising frequency eventually makes other paths more useful.
 
 #### A Horizon That Bends
 
-Most familiar VHF and UHF terrestrial contacts use direct and ground-reflected waves through the lower atmosphere. Atmospheric refractive index normally decreases with height, bending radio paths slightly downward. That extends the usable horizon compared with a straight geometric ray.
+By VHF, the surface wave dies out within a short distance, so terrestrial contacts rely on waves through the lower atmosphere. The air's refractive index normally decreases with height, so a wave travels slightly faster higher up. The top of the wavefront pulls ahead, bending the path gently downward and extending the usable horizon.
 
-> **Key Information:** The VHF/UHF radio horizon is approximately 15% farther away than the geographic horizon. {{< link id="E3C06" >}}
+> **Key Information:** The VHF/UHF radio horizon is approximately 15 percent farther than the geographic horizon. {{< link id="E3C06" >}}
 
-For an idealized location with a 20-mile geographic horizon, that estimate gives $20\times1.15=23$ miles for the radio horizon. Use that 23-mile estimate as a starting point, not a promise from the repeater. Hills, trees, buildings, and unusual weather can change the actual result.
+An antenna about 270 feet above smooth ground has a geographic horizon near 20 miles, so its radio horizon is about $20\times1.15=23$ miles. Hills, trees, buildings, and unusual weather can change the actual result.
 
 #### Trapped in a Weather Layer
 
-A microwave path over a large body of water may benefit from *tropospheric ducting*. Sharp changes in temperature and moisture with height create a refractive-index gradient. It can bend a signal enough to keep it within a weather layer rather than letting it escape upward.
+Usually that bending is gentle. When the refractive index falls sharply with height, the path can curve as fast as Earth does, keeping the signal within a layer instead of letting it escape upward. A temperature inversion, warmer air above cooler air, can form such a **tropospheric duct**. A sharp drop in humidity with height can too, where evaporation keeps the lowest air much moister than the air above.
 
-A temperature inversion—warmer air above cooler air—can help form a duct, as can moisture gradients over water. To use it, the signal must enter the layer; duct height and antenna position both affect that.
+A duct traps only waves that are short compared with its thickness. Ducts over water are often just tens of feet thick, which suits microwaves. The signal must also enter the layer, which depends on the duct's height and the antenna's position. Once trapped, a microwave signal can travel many times past the radio horizon.
 
 > **Key Information:**
-> - Microwave-supporting atmospheric ducts often form over large bodies of water. {{< link id="E3A07" >}}
-> - A typical microwave tropospheric-duct range is 100 to 300 miles. {{< link id="E3A11" >}}
-
-A 200-mile microwave contact during a duct opening does not establish an everyday 200-mile path. The quoted range is typical, not a hard maximum, and an inversion alone does not guarantee an opening. The weather layer must suit the frequency and both stations’ positions.
+> - Atmospheric ducts capable of propagating microwave signals often form over large bodies of water. {{< link id="E3A07" >}}
+> - A typical range for tropospheric duct propagation of microwave signals is 100 miles to 300 miles. {{< link id="E3A11" >}}
 
 #### Fresnel Clearance
 
-At microwave frequencies, seeing the other antenna does not always mean the path is clear enough. Waves passing near an obstruction can diffract and combine with the direct signal. The *first Fresnel zone* describes a region around the direct path where obstructions can have a strong effect.
+At microwave frequencies, seeing the other antenna does not always mean the path is clear enough. Energy reaches the receiver through a broad region around the line of sight. Where a detour adds less than half a wavelength to the trip, that energy arrives close enough in step to add together. That region is the **first Fresnel zone** (pronounced fray-NEL), and an obstruction inside it blocks part of the energy that adds up at the receiver.
 
-This zone bulges outward between the antennas and narrows near each end. Its size depends on the path distances and wavelength. *At the same point on the same path, its radius is proportional to the square root of wavelength.* *Higher frequency means shorter wavelength and a smaller zone.*
+The zone bulges outward between the antennas and narrows to nothing at each end. With a longer wavelength, a detour can swing farther out before it adds half a wavelength, so the zone grows. At the same point on the same path, its radius is proportional to the square root of wavelength. Among the common microwave bands below 6 GHz, 5.8 GHz has the shortest wavelength.
 
-> **Key Information:** Of 900 MHz, 2.4 GHz, 3.4 GHz, and 5.8 GHz, the 5.8 GHz band has the smallest first Fresnel zone. {{< link id="E9A08" >}}
+> **Key Information:** The 5.8 GHz band has the smallest first Fresnel zone. {{< link id="E9A08" >}}
 
 For example, on the same path a 5.8 GHz zone has about $\sqrt{2.4/5.8}\approx0.64$ times the radius of a 2.4 GHz zone. A ridge can therefore clear one zone while intruding into the other.
 
-![Two antennas have a clear horizontal line of sight above a ridge. A dashed oval outlines the larger first Fresnel zone at 2.4 GHz, and a solid oval outlines the smaller zone at 5.8 GHz. The ridge intrudes into the larger zone while remaining below the smaller one. At every position along the path, the smaller zone has about 64 percent of the larger zone’s radius. Vertical dimensions are exaggerated.](/images/s7-1-fresnel-clearance.svg)
-{.img-centered .img-xlarge caption="A clear sightline is only part of the clearance check. On the same path, 5.8 GHz has a smaller first Fresnel zone than 2.4 GHz. This sketch exaggerates the vertical scale to show a ridge intruding into the larger zone."}
-
-Fresnel clearance is a requirement along the path, not a separate propagation mode.
+![Two antennas have a clear horizontal line of sight above a ridge. A dashed oval outlines the larger first Fresnel zone at 2.4 GHz, and a solid oval outlines the smaller zone at 5.8 GHz. The ridge intrudes into the larger zone while remaining below the smaller one. At every position along the path, the smaller zone has about 64 percent of the larger zone’s radius. Vertical dimensions are exaggerated.](../../../images/s7-1-fresnel-clearance.svg)
+{.img-centered .img-xlarge caption="A clear sightline is only part of the clearance check. This sketch exaggerates the vertical scale to show a ridge intruding into the 2.4 GHz zone but not the 5.8 GHz zone."}

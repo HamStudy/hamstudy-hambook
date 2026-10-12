@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="236" viewBox="0 0 700 236" role="img" aria-labelledby="title"><title id="title">IF Shift slides the passband away from an interfering signal</title><style>svg{--ink:#263445;--muted:#586777;--blue:#1672ac;--orange:#b35c00;--green:#267c67;--red:#be2d42}text{font-family:Arial,Helvetica,sans-serif;font-size:18px;fill:var(--ink)}.small{font-size:16px}.mid{text-anchor:middle}.head{font-weight:bold}.axis{stroke:var(--ink);stroke-width:2;fill:none}.pass{fill:var(--blue);fill-opacity:.16;stroke:var(--blue);stroke-width:2.5;stroke-linejoin:round}.old{fill:none;stroke:var(--muted);stroke-width:1.6;stroke-dasharray:6 5}.want{fill:var(--green);fill-opacity:.55;stroke:var(--green);stroke-width:2}.qrm{stroke:var(--red);stroke-width:4}.btext{fill:var(--blue)}.gtext{fill:var(--green)}.rtext{fill:var(--red)}.mtext{fill:var(--muted)}.shift{stroke:var(--blue);stroke-width:2.5;fill:none}@media(prefers-color-scheme:dark){svg{--ink:#e6edf3;--muted:#a2b5c9;--blue:#64b4ed;--orange:#f5a851;--green:#70c4ad;--red:#ff8190}}@media print{svg{--ink:#263445;--muted:#586777;--blue:#1672ac;--orange:#b35c00;--green:#267c67;--red:#be2d42}}</style><defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="7" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,1 L8,5 L1,9" fill="none" stroke="var(--ink)" stroke-width="1.8"/></marker><marker id="barrow" markerWidth="10" markerHeight="10" refX="7" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,1 L8,5 L1,9" fill="none" stroke="var(--blue)" stroke-width="2"/></marker></defs>
+<!-- Left panel: before -->
+<text x="170" y="22" class="mid head">IF Shift centered</text>
+<path d="M45 190L75 70H255L285 190Z" class="pass"/>
+<text x="165" y="92" class="mid small btext">passband</text>
+<path d="M90 190C95 150 105 120 120 128C135 136 140 108 158 112C176 116 182 134 198 126C214 118 222 140 232 160L238 190Z" class="want"/>
+<text x="164" y="172" class="mid small">wanted</text>
+<line x1="250" y1="190" x2="250" y2="54" class="qrm"/>
+<text x="250" y="46" class="mid small rtext">interference</text>
+<line x1="20" y1="190" x2="330" y2="190" class="axis" marker-end="url(#arrow)"/>
+<text x="330" y="216" class="small mtext" text-anchor="end">frequency</text>
+<!-- Right panel: after IF Shift -->
+<g transform="translate(360 0)">
+<text x="170" y="22" class="mid head">IF Shift moved down</text>
+<path d="M45 190L75 70H255L285 190" class="old"/>
+<path d="M0 190L30 70H210L240 190Z" class="pass"/>
+<line x1="146" y1="58" x2="92" y2="58" class="shift" marker-end="url(#barrow)"/>
+<text x="120" y="92" class="mid small btext">passband</text>
+<path d="M90 190C95 150 105 120 120 128C135 136 140 108 158 112C176 116 182 134 198 126C214 118 222 140 232 160L238 190Z" class="want"/>
+<text x="164" y="172" class="mid small">wanted</text>
+<line x1="250" y1="190" x2="250" y2="54" class="qrm"/>
+<text x="250" y="46" class="mid small rtext">interference</text>
+<line x1="0" y1="190" x2="330" y2="190" class="axis" marker-end="url(#arrow)"/>
+<text x="330" y="216" class="small mtext" text-anchor="end">frequency</text>
+</g>
+</svg>

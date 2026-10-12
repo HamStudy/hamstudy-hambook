@@ -8,76 +8,77 @@ draft: true
 
 ### Section 3.4: Regulated Power Supplies
 
-A supply's voltage reading with nothing connected tells only part of the story. Add a load and the voltage may sag; remove the load and it may rise. Filtering reduces rectifier ripple, but regulation must hold the output near its chosen value as input voltage and load current change.
+An unregulated supply's output sags as the load draws more current and rises when the load draws less. Filtering smooths the ripple, but a regulator holds the output steady as the input voltage and load current change.
 
 #### Continuous Control
 
-To correct an output-voltage change, a regulator needs a stable reference to compare against. *A linear regulator varies the conduction of an active device* in the direction that opposes the change. *A Zener diode can supply the reference.*
+Holding an output steady takes a fixed voltage to compare it with and a part that can correct it. The Zener diode from Chapter 1 holds a nearly constant voltage as its current varies. A transistor, conducting more or less as needed, can make the correction.
 
 > **Key Information:**
-> - A linear electronic voltage regulator varies the conduction of a control element to maintain a constant output voltage. {{< link id="E7D01" >}}
-> - A Zener diode can provide a stable voltage reference. {{< link id="E7D03" >}}
+> - A linear electronic voltage regulator works by varying the conduction of a control element to maintain a constant output voltage. {{< link id="E7D01" >}}
+> - A Zener diode is used as a stable voltage reference. {{< link id="E7D03" >}}
 
-A *series regulator* puts its control device in the path between source and load. If output voltage begins to fall, that device conducts more; if output rises, it conducts less. *A shunt regulator instead changes the current drawn across the source, in parallel with the load.* A source resistance or current-limiting element allows that changing load to control voltage.
+A **series regulator** puts its control element in the path between source and load. The common three-terminal regulator chip packs this kind of control element and a reference into one small package.
+
+A **shunt regulator** puts its control element across the output, in parallel with the load. A resistor in series with the source carries both the load current and the shunt current. When the output starts to rise, the shunt element draws more current, the drop across the series resistor grows, and the output comes back down. A Zener diode with a series resistor is the simplest example.
+
+![Two simplified regulator circuits sit side by side, each with an input terminal at the left and an output terminal at the right. In the left circuit, labeled Series, a variable control element, drawn in orange as a resistor with an arrow through it, connects the input to the output, and a load resistor runs from the output to ground. In the right circuit, labeled Shunt, a fixed resistor R connects the input to the output. The orange variable control element runs from the output to ground beside a load resistor that also runs from the output to ground, so the control element and the load are in parallel.](../../../images/s3-4-series-shunt.svg)
+{.img-centered .img-xlarge .img-mobile-full caption="A series regulator varies the element between source and load. A shunt regulator varies the current it draws across the load, which changes the drop across R."}
 
 > **Key Information:**
-> - The common three-terminal voltage regulator is a series regulator. {{< link id="E7D04" >}}
-> - A shunt regulator operates by loading the unregulated voltage source. {{< link id="E7D05" >}}
+> - A three-terminal voltage regulator is a series regulator. {{< link id="E7D04" >}}
+> - A shunt regulator is the type of linear voltage regulator that operates by loading the unregulated voltage source. {{< link id="E7D05" >}}
 
-A three-terminal regulator packages the input, output, and reference or ground connections with its internal control circuitry. The discrete circuit below makes the series-control idea visible.
+Figure E7-2 builds a series regulator from separate parts.
 
-![Official Figure E7-2 shows a linear supply regulator with a plus-25-volt input and plus-12-volt output. Q1 is the series pass transistor between them. R1 feeds Q1's base and Zener D1, which connects to ground as a reference. C2 is connected in parallel with D1 to bypass ripple. C1 is across the input; C3 and load R2 are across the output.](../../../hugo/static/figures/E7-2.svg)
+![Official Figure E7-2 shows a linear supply regulator with a plus-25-volt input at the left and a plus-12-volt output at the right. Q1, the series pass transistor, connects between them, with its collector at the input and its emitter at the output. R1 runs from the input to Q1's base, which also connects to Zener diode D1; D1 goes to ground as a reference. C2, marked 4000, is connected in parallel with D1 to bypass ripple. C1, also marked 4000, is across the input; C3, marked 0.01, and load resistor R2 are across the output.](../../../hugo/static/figures/E7-2.svg)
 {.img-centered .img-xlarge .img-bw caption="Figure E7-2: Q1 controls load current while D1 establishes a reference."}
 
-> **Key Information:**
-> - Figure E7-2 is a linear voltage regulator. {{< link id="E7D08" >}}
-> - Q1 controls current to keep the output voltage constant. {{< link id="E7D06" >}}
-> - C2 bypasses rectifier-output ripple around D1. {{< link id="E7D07" >}}
+Q1, an NPN transistor between the +25 V input and the +12 V output, is the control element, or **pass transistor**: all the load current passes through it. R1 feeds current to D1 and Q1's base, and D1 holds the base steady. As in an emitter follower, the output at Q1's emitter stays about one base-emitter drop lower. If the output sags, Q1's base-to-emitter voltage rises, so Q1 conducts more and restores it. Many regulators also have an amplifier that compares the output with the reference, a feedback loop this simple circuit lacks.
 
-D1 holds the base voltage fairly steady. The emitter output follows at approximately one base-emitter drop below it. *C2 provides a low-impedance path for the remaining AC ripple at the reference node, helping prevent that ripple from appearing at the output.* It is not the large main filter across the load.
+The +25 V input comes from a rectifier, and even after C1 it carries some ripple that R1 would pass to the reference. C2 is as large as C1, but it isn't an output filter. It sits across D1, giving that ripple an easy path to ground and keeping the base voltage smooth.
+
+> **Key Information:**
+> - The circuit shown in Figure E7-2 is a linear voltage regulator. {{< link id="E7D08" >}}
+> - In Figure E7-2, the purpose of Q1 is to control the current to keep the output voltage constant. {{< link id="E7D06" >}}
+> - In Figure E7-2, the purpose of C2 is to bypass rectifier output ripple around D1. {{< link id="E7D07" >}}
 
 #### Headroom and Heat
 
-The control device needs some voltage across it to keep regulating. If the input falls too close to the desired output, the device cannot compensate further.
+A series regulator can only take voltage away, and its control element needs some voltage across it to keep control. If the input falls too close to the output, the regulator runs out of room to correct. A regulator that needs 2 V of room must have at least 14 V in to provide 12 V out, even at the lowest dips of the input ripple.
 
-> **Key Information:** Dropout voltage is the minimum input-to-output voltage difference required for a linear regulator to maintain regulation. {{< link id="E7D12" >}}
+The voltage the regulator takes away becomes heat, because the full output current $I$ flows through the control element across that difference. The control element dissipates
 
-For example, a regulator requiring 2 V of headroom to provide 12 V needs at least about 14 V at its input under the stated operating conditions. The lowest points of input ripple matter, not just the average input voltage.
+$$P=(E_{\mathrm{in}}-E_{\mathrm{out}})\times I.$$
 
-Excess headroom becomes heat. Ignoring the regulator's small internal operating current, its dissipation is
+Running the regulator itself takes a little more. If Figure E7-2 supplies 1 A, Q1 dissipates $(25-12)\ \mathrm{V}\times1\ \mathrm{A}=13\ \mathrm{W}$. That's more than the 12 W the load receives.
 
-$$P_{\mathrm{loss}}=(V_{\mathrm{in}}-V_{\mathrm{out}})I_{\mathrm{out}}.$$
-
-The voltage difference is in volts and output current in amperes, so the result is watts. Converting 25 V to 12 V at 1 A dissipates $(25-12)(1)=13\ \mathrm{W}$ in the series regulator, in addition to the 12 W delivered to the load.
-
-> **Key Information:** A series linear regulator's power dissipation is the input-to-output voltage difference multiplied by output current. {{< link id="E7D13" >}}
-
-In this example, the regulator heats the room with more power than it delivers to the load. The 12 V output can be perfectly steady while the regulator runs hot. A larger current or voltage drop increases that heat further.
+> **Key Information:**
+> - The dropout voltage of a linear voltage regulator is the minimum input-to-output voltage required to maintain regulation. {{< link id="E7D12" >}}
+> - The power dissipated by a series linear voltage regulator is the voltage difference from input to output multiplied by the output current. {{< link id="E7D13" >}}
 
 #### Controlling Pulses Instead
 
-To reduce the loss in the control device, a switchmode regulator turns it on and off instead of holding it partly conducting. An energy-storage network and filter turn those pulses into a steadier output. *Duty cycle* is the fraction of each switching period spent on.
+A switchmode regulator avoids most of that heat. It turns its control element fully on and off instead of holding it partly on. As with the switching amplifiers earlier in this chapter, the element rarely has large voltage and large current at once.
 
-> **Key Information:** A switchmode voltage regulator varies the duty cycle of pulses applied to a filter. {{< link id="E7D02" >}}
+A filter that stores energy turns the resulting pulses into a steady output. **Duty cycle** is the fraction of each switching period spent on. If each period lasts 10 µs, staying on for 2 µs gives a duty cycle of $2/10=0.20$, or 20%; 5 µs gives 50%. More on-time sends more energy to the output, so the controller lengthens it when the output sags and shortens it when the output rises.
 
-Suppose each switching period lasts 10 µs. Staying on for 2 µs gives a duty cycle of $2/10=0.20$, or 20%; staying on for 5 µs gives 50%. Changing the pulse width changes how much energy reaches the output. As with the switching amplifiers we just studied, the device spends less time carrying substantial current while dropping a substantial voltage. It can therefore dissipate less power than a comparable linear pass device.
+> **Key Information:** A switchmode voltage regulator works by varying the duty cycle of pulses input to a filter. {{< link id="E7D02" >}}
 
-Many switching supplies convert power at a frequency much higher than the AC mains frequency. Their transformers transfer smaller packets of energy more frequently, and their filters need to smooth shorter intervals between packets.
+Many switching supplies rectify the AC line to DC first. An **inverter** then chops that DC into AC at tens of kilohertz or more, far above the 60 Hz of a linear supply's transformer. At that frequency, a transformer moves a smaller packet of energy on each cycle, many more times per second, and the filters need only bridge the short gaps between packets.
 
-> **Key Information:** A switching supply can be lighter and less expensive because its high-frequency inverter uses much smaller transformers and filter components for an equivalent power output. {{< link id="E7D10" >}}
+> **Key Information:** A switching type power supply is less expensive and lighter than an equivalent linear power supply because its high-frequency inverter design uses much smaller transformers and filter components for an equivalent power output. {{< link id="E7D10" >}}
 
-The high-frequency switching still needs careful filtering and layout to keep unwanted signals out of a radio. That practical interference problem appears again in the station chapters.
+Fast switching can also cause interference, as [Section 9.3]({{% pageref "9.3" %}}) explains.
 
 #### Stored Energy at Higher Voltage
 
-A high-voltage supply may use several filter capacitors in series to obtain enough total voltage rating. Real capacitors have unequal leakage currents, so equal capacitance values alone do not ensure equal DC voltage sharing. *Equal-value resistors across the capacitors make the division more predictable by drawing a controlled current.*
+Bleeder resistors drain a supply's filter capacitors after it turns off. In a high-voltage supply, they take on extra jobs. Such a supply may stack several filter capacitors in series to get enough voltage rating. Their leakage currents differ, so equal capacitance alone doesn't make the voltage divide equally. Equal resistors across the capacitors draw enough current to swamp those differences, and that current flows even with nothing connected to the output.
 
-> **Key Information:** Equal-value resistors across series-connected supply filter capacitors equalize capacitor voltages, discharge the capacitors when voltage is removed, and provide a minimum load on the supply. {{< link id="E7D14" >}}
+At switch-on, uncharged capacitors can draw a huge current. A step-start circuit feeds them through a current-limiting resistor at first, then bypasses it.
 
-These are often called balancing or bleeder resistors. *While the supply is on, they keep drawing current even if the main load is disconnected; that is the minimum load.* *After power is removed, stored charge has a path through the same resistors.* Discharge takes time, and a failed resistor can defeat that function; their presence is not proof that a capacitor is discharged.
+> **Key Information:**
+> - Connecting equal-value resistors across series-connected power supply filter capacitors equalizes the voltage across each capacitor, discharges the capacitors when voltage is removed, and provides a minimum load on the supply. {{< link id="E7D14" >}}
+> - A step-start circuit in a high-voltage power supply allows the filter capacitors to charge gradually. {{< link id="E7D15" >}}
 
-At switch-on, an uncharged capacitor can demand a large current. *A step-start circuit temporarily limits that current, then permits normal operation after the capacitors have charged.*
-
-> **Key Information:** A step-start circuit allows a high-voltage supply's filter capacitors to charge gradually. {{< link id="E7D15" >}}
-
-A common arrangement initially includes resistance in the charging path and later bypasses it. High-voltage supply work requires training and equipment for handling stored energy safely. Understanding this circuit does not make its exposed parts safe to touch.
+Discharge takes time, and a resistor can fail, so bleeders don't prove that a capacitor is safe. High-voltage supply work requires training and equipment for handling stored energy safely.

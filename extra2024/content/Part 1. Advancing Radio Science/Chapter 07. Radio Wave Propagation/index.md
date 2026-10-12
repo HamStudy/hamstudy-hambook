@@ -6,6 +6,6 @@ pagebreak: true
 
 ## Chapter 7: Radio Wave Propagation
 
-An antenna aimed in the right direction still needs a usable path to the other station. When that path weakens, changing frequency, time, or route may help more than adding power.
+An antenna aimed in the right direction still needs a usable path to the other station. When that path weakens, changing frequency, time, or route often helps more than adding power.
 
-This chapter builds those choices from the conditions each path needs: ground and atmospheric behavior, ionospheric geometry, and space weather. Forecasts suggest where to listen; reports show what signals have actually arrived. We will also examine how meteor trails, auroral irregularities, and the Moon reshape signals, so you can recognize both their opportunities and their limits.
+Reading conditions well lets you make that choice. Whether a path runs along the ground, through the ionosphere, or by way of a meteor trail, the aurora, or the Moon, you'll learn to pick the frequency, time, and direction most likely to work. Forecasts and live reports help most once you know what each one measures.

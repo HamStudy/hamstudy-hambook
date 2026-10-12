@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="s11-1-60m-layout" width="720" height="200" viewBox="0 0 720 200" role="img" aria-labelledby="s11-1-60m-layout-title s11-1-60m-layout-desc">
+<title id="s11-1-60m-layout-title">The 60-meter channels and continuous segment</title><desc id="s11-1-60m-layout-desc">On one frequency scale from 5330 to 5410 kilohertz, four narrow channels centered at 5332, 5348, 5373 and 5405 kilohertz are each labeled 100 W ERP. A wider continuous segment from 5351.5 to 5366.5 kilohertz is labeled 9.15 W ERP. A dashed outline inside the segment marks the former channel at 5358.5 kilohertz.</desc>
+<style>#s11-1-60m-layout{--ink:#263445;--muted:#586777;--blue:#1672ac;--orange:#b35c00;--green:#267c67;--red:#be2d42}
+@media(prefers-color-scheme:dark){#s11-1-60m-layout{--ink:#e6edf3;--muted:#a2b5c9;--blue:#64b4ed;--orange:#f5a851;--green:#70c4ad;--red:#ff8190}}
+@media print{#s11-1-60m-layout{--ink:#263445;--muted:#586777;--blue:#1672ac;--orange:#b35c00;--green:#267c67;--red:#be2d42}}
+#s11-1-60m-layout text{font-family:Arial,Helvetica,sans-serif;font-size:18px;fill:var(--ink)}
+#s11-1-60m-layout .muted{fill:var(--muted)}
+#s11-1-60m-layout .bluet{fill:var(--blue);font-weight:bold}
+#s11-1-60m-layout .greent{fill:var(--green);font-weight:bold}
+#s11-1-60m-layout .axis{stroke:var(--muted);stroke-width:2;fill:none}
+#s11-1-60m-layout .guide{stroke:var(--muted);fill:none;stroke-width:1;stroke-dasharray:4 4}
+</style>
+
+<text x="60" y="36" class="muted">ERP limit</text>
+<text x="75" y="64" text-anchor="middle" class="bluet">100 W</text>
+<text x="195" y="64" text-anchor="middle" class="bluet">100 W</text>
+<text x="277" y="64" text-anchor="middle" class="greent">9.15 W</text>
+<text x="382.5" y="64" text-anchor="middle" class="bluet">100 W</text>
+<text x="622.5" y="64" text-anchor="middle" class="bluet">100 W</text>
+
+<rect x="221.25" y="76" width="112.5" height="44" fill="var(--green)" fill-opacity=".25" stroke="var(--green)" stroke-width="2"/>
+<rect x="263.25" y="76" width="21" height="44" fill="none" stroke="var(--ink)" stroke-width="1.6" stroke-dasharray="5 3"/>
+<rect x="64.5" y="76" width="21" height="44" fill="var(--blue)" fill-opacity=".3" stroke="var(--blue)" stroke-width="2"/>
+<rect x="184.5" y="76" width="21" height="44" fill="var(--blue)" fill-opacity=".3" stroke="var(--blue)" stroke-width="2"/>
+<rect x="372" y="76" width="21" height="44" fill="var(--blue)" fill-opacity=".3" stroke="var(--blue)" stroke-width="2"/>
+<rect x="612" y="76" width="21" height="44" fill="var(--blue)" fill-opacity=".3" stroke="var(--blue)" stroke-width="2"/>
+
+<path class="axis" d="M50 120H668"/><path fill="var(--muted)" d="M678 120l-12 -6v12z"/>
+
+<text x="75" y="142" text-anchor="middle">5332</text>
+<text x="195" y="142" text-anchor="middle">5348</text>
+<text x="382.5" y="142" text-anchor="middle">5373</text>
+<text x="622.5" y="142" text-anchor="middle">5405</text>
+<path class="guide" d="M221.25 122V150M333.75 122V150M273.75 122V174"/>
+<text x="221.25" y="166" text-anchor="middle">5351.5</text>
+<text x="333.75" y="166" text-anchor="middle">5366.5</text>
+<text x="273.75" y="191" text-anchor="middle" class="muted">Former 5358.5 channel</text>
+<text x="668" y="191" text-anchor="end" class="muted">Frequency (kHz)</text>
+</svg>

@@ -1,18 +1,18 @@
 ---
 chapter: "6"
 section: "6.7"
-questions: ["E9E06", "E9E03", "E9E02", "E9E04", "E9E09", "E9E01", "E9E05", "E9E08"]
+questions: ["E9E06", "E9E08", "E9E02", "E9E04", "E9E09", "E9E01", "E9E05", "E9E03"]
 status: generated1
 draft: true
 ---
 
 ### Section 6.7: Antenna Matching Methods
 
-An antenna's best radiating shape need not give a 50-ohm feed point. A matching system transforms that impedance into a load the feed line can carry efficiently. It can use lumped components, transmission-line sections, or a carefully placed connection to the radiator.
+Put an antenna tuner beside the radio and the transmitter sees a 50-ohm load, but the feed line beyond the tuner still carries the antenna's mismatch. A match made at the antenna clears the mismatch from the line. The methods here make that match with sections of transmission line or with connections to the radiating element itself.
 
 #### A Quarter-Wave Transformer
 
-Suppose an antenna presents 100 ohms but the feed line is 50 ohms. A quarter-wave section of another line impedance can provide the transformation between them. For a lossless section and a resistive load $R_L$,
+Suppose an antenna presents 100 ohms but the feed line is 50 ohms. A quarter-wave section of another line impedance can transform one into the other. For a lossless section and a resistive load $R_L$,
 
 $$R_{\text{in}}=\frac{Z_t^2}{R_L},$$
 
@@ -20,51 +20,45 @@ where $Z_t$ is the matching section's characteristic impedance. To connect a 100
 
 $$Z_t=\sqrt{R_{\text{in}}R_L}=\sqrt{50\times100}\approx70.7\ \Omega.$$
 
-*The length must be one-quarter electrical wavelength at the operating frequency, including velocity factor.* This arrangement is called a Q-section or quarter-wave transformer.
+The length must be one-quarter electrical wavelength at the operating frequency, including velocity factor. This arrangement is called a **Q-section** or **quarter-wave transformer**. Standard coax doesn't come in 70.7 ohms, but 75-ohm cable is common. A 75-ohm section transforms 100 ohms to $75^2/100=56.25\ \Omega$, an SWR of only about 1.1:1 on the 50-ohm line.
 
-> **Key Information:** A 75-ohm quarter-wave Q-section is a suitable choice for matching a 100-ohm feed point to 50-ohm line. {{< link id="E9E06" >}}
+> **Key Information:** A 75-ohm transmission line is suitable for constructing a quarter-wave Q-section to match a 100-ohm feed point impedance to a 50-ohm transmission line. {{< link id="E9E06" >}}
 
-The exam offers 75-ohm line, the nearest standard choice to the calculated 70.7 ohms. A 75-ohm section transforms 100 ohms to $75^2/100=56.25\ \Omega$, which is a close match to 50 ohms. You would not get an exact 50-ohm result, but the closest available cable still gives a useful match. The method assumes the antenna load is resistive; uncorrected reactance needs further attention.
+#### Feeding Two Loads
 
-#### Stubs in Parallel
+The same math lets one 50-ohm line feed two 50-ohm antennas. Connected directly in parallel, the two would present 25 ohms at their junction. A **Wilkinson divider** instead feeds each load through its own 70.7-ohm quarter-wave branch. Each branch turns its 50-ohm load into 100 ohms at the junction, where the two branches in parallel give 50 ohms. An isolation resistor reduces interaction between the output ports.
 
-Earlier, shorted and open line sections supplied inductive or capacitive reactance. Connect one in parallel with the feed line and it can cancel an unwanted reactive component at a selected point. Its length determines the reactance; its position determines the load it must correct.
+> **Key Information:** A use for a Wilkinson divider is to divide power equally between two 50-ohm loads while maintaining 50-ohm input impedance. {{< link id="E9E08" >}}
 
-> **Key Information:** A stub match uses a short transmission-line section connected in parallel with the feed line at or near the feed point. {{< link id="E9E03" >}}
-
-Picture a T connection: the main feed line continues toward the antenna and the stub branches off to one side. Its open or shorted far end is intentional. The Smith chart in the next section helps choose both branch position and length.
+Ideally, a 100-watt input supplies 50 watts to each load. Each output is 3 dB down because the power is split, not lost as heat.
 
 #### The Gamma Connection
 
-To feed an unbroken element, we can make the impedance transformation with an offset connection. *A gamma match connects the coax shield to the center of the antenna and its center conductor through a matching arm to a point off center.* The arm runs beside part of the element. *That geometry transforms the feed resistance but also introduces inductive reactance, which a series capacitor cancels.*
+Both methods above connect to a feed point. A Yagi's driven element is often a continuous tube bolted straight to a metal boom, with no break at its center to serve as one. Coax can still feed it. The shield connects at the element's center, and the center conductor runs out along a parallel rod, the arm, to a point off center. How far out that point sits sets the resistance the coax sees. The arm and the part of the element beside it also form a short line, shorted at the far end. Like the shorted stubs in [Section 6.3]({{% pageref "6.3" %}}), it acts as an inductor, so a capacitor goes in series with the arm.
+
+Because this feed arrangement does not require a center break in the radiator, it can work with an electrically grounded structure. On a grounded tower used as a vertical radiator, the arm attaches partway up the tower. The coax shield connects to the grounded base and ground system; the center conductor feeds the arm through the matching capacitor. Feeding RF alongside the direct ground connection this way is called **shunt feeding**.
 
 > **Key Information:**
-> - A gamma match connects the coax shield at the antenna center and the center conductor a fraction of a wavelength to one side. {{< link id="E9E02" >}}
-> - Its series capacitor cancels unwanted inductive reactance. {{< link id="E9E04" >}}
-
-Because this feed arrangement does not require a center break in the radiator, it can work with an electrically grounded structure. *A grounded tower used as a vertical radiator can receive RF through a gamma arm attached above its base.*
-
-> **Key Information:** A gamma match can shunt feed a tower grounded at its base. {{< link id="E9E09" >}}
-
-The tower remains grounded at DC while the feed arrangement establishes the required RF voltage and current relationship.
-
-#### The Hairpin Connection
-
-With a split driven element, a beta or hairpin match can use the element itself as part of the matching network. *Shortening the element makes its feed impedance capacitive.* A short inductive section across the feed point supplies the other reactive part.
-
-> **Key Information:**
-> - A beta or hairpin match requires the Yagi's driven element to be insulated from the boom. {{< link id="E9E01" >}}
-> - Its driven element must have capacitive feed point impedance, obtained by making it electrically shorter than one-half wavelength. {{< link id="E9E05" >}}
-
-The hairpin does more than add an inductor to an already matched dipole. Element length and hairpin dimensions work together to obtain the intended resistance and cancel the reactive part.
+> - A gamma match matches coaxial cable to an antenna by connecting the shield to the center of the antenna and the conductor a fraction of a wavelength to one side. {{< link id="E9E02" >}}
+> - The purpose of the series capacitor in a gamma match is to cancel unwanted inductive reactance. {{< link id="E9E04" >}}
+> - A gamma match is used to shunt feed a grounded tower at its base. {{< link id="E9E09" >}}
 
 ![Two matching arrangements compare their electrical connections. At left, a gamma match uses an unbroken horizontal driven element bonded to the gray vertical boom at its center. A blue lead connects the outer ring of the coax symbol, representing its shield, to that center joint. The orange center conductor leaves the coax symbol through the ring opening and connects through the series capacitor C to a blue matching arm parallel to the element. A shorting connection joins the arm to the element at a dot to the right of center. At right, the hairpin arrangement has a gap between two halves of the driven element. A hatched insulating support holds those halves away from the gray boom. A blue U-shaped conductor joins the two feed joints above the gap, forming the shunt inductive section. Separate orange feed conductors extend downward from those same two joints to open terminals. Black dots mark electrical joints. The drawings show connections only; element lengths, matching dimensions, and a balun are not shown.](../../../images/s6-7-gamma-hairpin.svg)
 {.img-centered .img-xlarge .img-mobile-full caption="Left: gamma feed. The coax shield (outer ring) joins the continuous element at its center; the center conductor feeds the offset arm through C. Right: hairpin feed. The two feed terminals connect across a split element and the U-shaped inductive section. The hatched support insulates the element from the gray boom. Connection sketches only; dimensions and a balun are omitted."}
 
-#### Feeding Two Loads
+#### The Hairpin Connection
 
-Two 50-ohm antennas connected directly in parallel present 25 ohms at their junction. *A Wilkinson divider avoids that mismatch while dividing the input power equally.* Its matching sections and isolation resistor also reduce interaction between the output ports.
+With a split driven element, a beta or hairpin match uses the element itself as part of the matching network. The hairpin, a short length of line shorted at its far end, sits across the feed point and acts as an inductor. A Yagi's driven element often presents well below 50 ohms. Like the matching networks in [Section 3.1]({{% pageref "3.1" %}}), the hairpin works with a reactance of the opposite kind in the element. Together they cancel the reactance and raise that low resistance to the value the line needs. Because the element is split and fed across its center gap, bonding both halves directly to a metal boom would short that gap.
 
-> **Key Information:** A Wilkinson divider can split power equally between two 50-ohm loads while maintaining a 50-ohm input impedance. {{< link id="E9E08" >}}
+> **Key Information:**
+> - The beta or hairpin matching system for Yagi antennas requires the driven element to be insulated from the boom. {{< link id="E9E01" >}}
+> - A beta or hairpin matching system requires a capacitive Yagi driven element feed point impedance, with the driven element electrically shorter than 1/2 wavelength. {{< link id="E9E05" >}}
 
-Ideally, a 100-watt input supplies 50 watts to each matched load. The 3 dB reduction at each output reflects the split between two destinations; it does not mean half the total power was turned into heat.
+#### Stubs in Parallel
+
+The hairpin is itself a shorted stub placed right at the feed point. A stub can also sit some distance down the feed line, connected in parallel with it. Moving along a mismatched line changes what it presents, and at certain points, adding the right reactance in parallel leaves exactly the line's characteristic impedance. A shorted or open stub at one of those points supplies that inductive or capacitive reactance. The stub's length sets its reactance; its position sets what it must correct.
+
+![A one-line diagram of a stub match. A horizontal blue feed line runs from the transmitter at the left to a box labeled antenna at the right. At a junction dot a distance d to the left of the antenna, an orange stub branches straight down from the feed line. The stub has length ℓ and ends in a bar labeled shorted end. Dimension arrows mark d along the feed line between the junction and the antenna, and ℓ along the stub.](../../../images/s6-7-stub-match.svg)
+{.img-centered .img-large .img-mobile-full caption="A stub match: a short section of line in parallel with the feed line, a distance d from the antenna. Its length ℓ sets the reactance it adds; its far end may be shorted or open."}
+
+> **Key Information:** A stub match uses a short length of transmission line connected in parallel with the feed line at or near the feed point. {{< link id="E9E03" >}}

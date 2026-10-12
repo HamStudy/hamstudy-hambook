@@ -8,70 +8,60 @@ draft: true
 
 ### Section 5.2: Digital Signal Processing
 
-The ADC may capture far more spectrum than the one channel you want to hear. Digital processing must isolate that channel and preserve its information without processing unnecessary data. Delaying, scaling, and adding samples provide the tools. The same operations can also shape a transmitted signal.
+A receiver that samples everything from near DC to 30 MHz captures the whole HF spectrum at once. To hear one SSB voice, though, you need only about 3 kHz of it. Digital processing has to pick out that channel and drop the data it doesn't need. Its tools are simple: delaying samples, scaling them, and adding them. The same tools can also generate a signal for transmitting.
 
 #### Frequency and Sample Rate
 
-To display activity across that spectrum, the radio needs to separate the frequencies contained in its time-ordered samples. *The fast Fourier transform, or FFT, reorganizes a block of samples into frequency components*, showing the strength of many frequencies at once.
+That wide capture lets an SDR show the whole band on a spectrum or waterfall display. To draw one, the radio must measure how strong each frequency is across a block of samples. A record of amplitude against time is the **time-domain** view of a signal; strength against frequency is the **frequency-domain** view. The fast Fourier transform, or FFT, is a quick way to do the Fourier analysis from Section 4.1 on such a block. It doesn't convert between analog and digital; the samples must already exist.
 
-> **Key Information:** An FFT converts a signal from the time domain to the frequency domain. {{< link id="E7F07" >}}
+> **Key Information:** A Fast Fourier Transform converts signals from the time domain to the frequency domain. {{< link id="E7F07" >}}
 
-The FFT does not perform analog-to-digital conversion; the samples must already exist. It also cannot move an RF signal to a lower frequency by itself. It describes which frequencies are present in the sampled block.
-
-After selecting a narrow channel, a receiver need not keep processing samples at the original wideband rate. *Decimation reduces the effective sample rate.* Discarding samples also lowers the highest frequency that can be represented without aliasing. *A digital low-pass filter must first remove components that would violate that new limit.*
+Hearing one channel takes far less data than drawing the band. Once the receiver has chosen a narrow channel, it doesn't need every sample. Suppose earlier stages have already narrowed the stream to 48,000 samples per second. Keeping one sample in four cuts that to 12,000. That also lowers the Nyquist limit from 24 kHz to 6 kHz. A component at 8 kHz would now alias to 4 kHz ($12\text{ kHz}-8\text{ kHz}=4\text{ kHz}$) and could pass for a wanted signal.
 
 > **Key Information:**
-> - Decimation reduces effective sample rate by removing samples. {{< link id="E7F08" >}}
-> - A decimator's anti-aliasing filter removes high-frequency components that would otherwise appear as lower frequencies. {{< link id="E7F09" >}}
-
-For example, reducing 48,000 samples per second to 12,000 means retaining one sample in four after filtering. The new Nyquist limit is 6 kHz. A component at 8 kHz must be suppressed first, or it can alias to 4 kHz and be mistaken for a wanted signal.
+> - The function of decimation is reducing the effective sample rate by removing samples. {{< link id="E7F08" >}}
+> - A decimator requires an anti-aliasing filter because the filter removes high-frequency signal components that would otherwise be reproduced as lower frequency components. {{< link id="E7F09" >}}
 
 #### Taps and Filter Shape
 
-To pass some frequencies and reject others, a digital filter combines samples taken at different times. Picture a line of stored samples, newest at one end; each step back is one sample interval earlier. The filter multiplies those values by chosen weights and adds the results. *Its taps provide access to the delayed samples.*
+To pass some frequencies and reject others, a digital filter combines samples taken at different times. Picture a line of stored samples, newest at one end; each step back is one sample interval earlier. The filter multiplies those values by chosen weights and adds the results. Each point where it reads a stored sample is called a **tap**.
+
+For a small example, average the current sample with the preceding one. Steady samples of 1 and 1 give $(1+1)/2=1$: the steady signal passes. Alternating samples of 1 and $-1$ give zero: this rapid variation cancels. Different weights produce more useful frequency responses. At the same sample rate, more taps lengthen the time span the filter compares, so it can tell apart closer frequencies.
 
 > **Key Information:**
-> - DSP-filter taps provide incremental signal delays for filter algorithms. {{< link id="E7F13" >}}
-> - More taps allow a sharper filter response. {{< link id="E7F14" >}}
+> - Taps in a digital signal processing filter provide incremental signal delays for filter algorithms. {{< link id="E7F13" >}}
+> - More taps allow a digital signal processing filter to create a sharper filter response. {{< link id="E7F14" >}}
 
-For a small example, average the current sample with the preceding one. Steady samples of 1 and 1 give $(1+1)/2=1$: the steady signal passes. Alternating samples of 1 and $-1$ give zero: this rapid variation cancels. Different weights produce more useful frequency responses.
+A finite impulse response, or FIR, filter uses a finite set of these weighted samples. Feed it one isolated pulse, and once that pulse has passed the last tap, the output returns to zero. If its weights are symmetrical about the middle tap, every frequency component emerges centered on that tap, half the filter's length later. Their relative timing stays intact, which helps preserve the waveform's shape. The trade-off is work: compared with filters that feed their output back into the calculation, an FIR filter usually needs more taps, more calculation, and more delay for the same steep rolloff.
 
-A finite impulse response, or FIR, filter uses a finite set of these weighted samples. After one isolated input pulse and enough subsequent zero samples, its output returns to zero. *With the right symmetry in its weights, an FIR filter delays all frequency components by the same time.* That preserves their relative timing and helps preserve waveform shape.
+A fixed FIR filter keeps the same response until its weights change. An **adaptive** filter adjusts its weights continually to suit the input. Speech has patterns that repeat over short spans, and random noise doesn't, so such a filter can keep adjusting to pass what it can predict.
 
-> **Key Information:** FIR filters can delay all frequency components of a signal by the same amount. {{< link id="E7F12" >}}
-
-Sharper filtering usually requires more calculation and can add delay. A fixed FIR filter keeps the same response until its weights change.
-
-When a fixed response does not suit changing noise conditions, an *adaptive* filter adjusts to the input. *Receiver noise reduction can use it to separate patterns in speech from less predictable noise*.
-
-> **Key Information:** An adaptive DSP audio filter can remove unwanted noise from a received SSB signal. {{< link id="E7F02" >}}
-
-When trying noise reduction, listen to the words as well as the hiss. Strong settings may alter the voice, so a quieter output is not always easier to copy. The filter cannot restore information that noise has completely obscured.
+> **Key Information:**
+> - FIR filters can delay all frequency components of the signal by the same amount. {{< link id="E7F12" >}}
+> - An adaptive DSP audio filter is used to remove unwanted noise from a received SSB signal. {{< link id="E7F02" >}}
 
 #### Quadrature Makes a Sideband
 
-Instead of removing an unwanted sideband with a sharp RF filter, DSP can cancel it by combining signals with the right phase relationships. *That requires two audio paths 90 degrees apart across the audio band*. *A Hilbert-transform filter provides the quadrature path*; the original path receives a matching delay.
+Section 4.1 built SSB from a balanced modulator and a sharp filter that removes one sideband. DSP can instead cancel the unwanted sideband. It splits the audio into two paths, 90 degrees apart at every audio frequency. A Hilbert-transform filter provides that quadrature path, while the original path passes through a matching delay.
 
-Those paths modulate quadrature carrier components. When combined with the right signs, the desired sideband adds while the unwanted sideband cancels. Changing the sign of one path selects the other sideband.
+The two paths then modulate the I and Q carriers from Section 4.3, which are also 90 degrees apart. Added together, the two results reinforce one sideband and cancel the other. Subtracting them instead keeps the opposite sideband.
 
 > **Key Information:**
-> - DSP can generate SSB by combining signals in a quadrature phase relationship. {{< link id="E7F04" >}}
-> - A Hilbert-transform filter is used in DSP SSB generation. {{< link id="E7F03" >}}
-
-This produces the same kind of SSB signal as the balanced-modulator-and-filter method, but achieves sideband selection through phase relationships.
+> - One method of generating an SSB signal using digital signal processing combines signals in quadrature phase relationship. {{< link id="E7F04" >}}
+> - A Hilbert-transform filter is the type of DSP filter used to generate an SSB signal. {{< link id="E7F03" >}}
 
 #### Synthesizing an Oscillator
 
-To generate a chosen frequency from a fixed clock, direct digital synthesis (DDS) controls how far a waveform advances on each tick. A *phase accumulator* tracks that position within the cycle. It advances by a chosen amount on each clock tick, then wraps around at a full cycle. A larger increment completes cycles faster, producing a higher frequency.
+The PLL in Section 3.5 reaches a chosen frequency by steering an analog oscillator. **Direct digital synthesis** (DDS) computes the waveform instead, one value per tick of a fixed clock. A **phase accumulator** tracks the position within the cycle. On each tick it advances by a chosen increment, then wraps around after a full cycle. A larger increment completes cycles faster, producing a higher frequency.
 
-The phase value selects an entry in a lookup table. *The entry supplies the waveform amplitude at that point in the cycle.* For a sine wave, the entries at 0, 90, 180, and 270 degrees are proportional to 0, +1, 0, and −1. *The table stores heights along the wave, not a list of channel frequencies.* A DAC turns the amplitude numbers into voltage, and a low-pass filter smooths the output and removes sampling artifacts.
+The phase value selects an entry in a **lookup table**. For a sine wave, the entries at 0, 90, 180, and 270 degrees are proportional to 0, +1, 0, and −1, whatever frequency the synthesizer generates. A DAC turns those numbers into voltage steps, and a low-pass filter smooths them, as in the previous section. DDS designers often call this filter an anti-alias filter, though it does the same smoothing.
 
-![A DDS diagram begins with a circular phase dial and a wraparound arrow. An increment, delta phi, advances the phase each clock tick. Next, a sine curve plotted as amplitude against phase shows the lookup table selecting waveform height from phase position; the marked quarter-cycle position gives peak amplitude. A DAC converts those amplitude values into a stepped voltage waveform. A low-pass response curve represents the reconstruction filter, followed by a smooth sine-wave output.](/images/s5-2-dds.svg)
-{.img-centered .img-xlarge caption="The phase accumulator advances by Δφ each clock tick. The lookup table supplies waveform amplitude A for each phase φ; the DAC produces voltage steps, and the low-pass filter removes unwanted conversion products."}
+![A DDS diagram runs left to right. At left, a circular dial labeled phase accumulator has a wraparound arrow. A dashed pointer marks the previous phase and an orange pointer the current phase, phi; a curved arrow between them, labeled delta phi, is the increment added each clock tick. Next, the lookup table is drawn as a sine curve of amplitude A against phase, with dots marking its stored entries; the entry at the current phase, a quarter cycle, gives peak amplitude. A DAC box follows, and its output is a stepped voltage waveform. A box labeled low-pass filter, with a response that is flat and then falls, turns the steps into the smooth sine-wave output at right.](../../../images/s5-2-dds.svg)
+{.img-centered .img-xlarge .img-mobile-full caption="The phase accumulator advances by Δφ each clock tick. The lookup table supplies waveform amplitude A for each phase φ; the DAC produces voltage steps, and the low-pass filter removes unwanted conversion products."}
+
+Rounding phase or amplitude values leaves small errors. The accumulator's pattern of steps repeats over and over, so the errors repeat too. Like the quantization tones from an ADC, repeating errors pile up at a few frequencies rather than spreading out as broadband noise. Engineers call the resulting tones **spurs**. Flaws in the DAC can add more.
 
 > **Key Information:**
-> - A DDS uses a phase accumulator, lookup table, DAC, and low-pass filter, called an anti-alias filter in the exam question. {{< link id="E7H09" >}}
-> - Its lookup table stores amplitude values representing the desired waveform. {{< link id="E7H10" >}}
-> - Its major spectral impurities are spurious signals at discrete frequencies. {{< link id="E7H11" >}}
-
-The DAC output filter is more precisely a reconstruction, or anti-imaging, filter. *Limited number precision and imperfect conversion can still leave discrete unwanted tones called spurs.* A precise tuning display tells you the requested frequency; it does not guarantee a perfectly pure spectrum.
+> - A direct digital synthesizer uses a phase accumulator, lookup table, digital-to-analog converter, and a low-pass anti-alias filter. {{< link id="E7H09" >}}
+> - The lookup table of a direct digital synthesizer contains amplitude values that represent the desired waveform. {{< link id="E7H10" >}}
+> - The major spectral impurity components of direct digital synthesizers are spurious signals at discrete frequencies. {{< link id="E7H11" >}}

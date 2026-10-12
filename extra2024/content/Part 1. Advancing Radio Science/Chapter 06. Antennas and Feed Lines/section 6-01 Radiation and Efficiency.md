@@ -1,64 +1,62 @@
 ---
 chapter: "6"
 section: "6.1"
-questions: ["E3A04", "E3A05", "E3A10", "E3A14", "E9A01", "E9A09", "E9A04", "E9A05", "E9B08"]
+questions: ["E9A09", "E3A04", "E3A05", "E3A10", "E3A14", "E9A04", "E9A05", "E9B08", "E9A01"]
 status: generated1
 draft: true
 ---
 
 ### Section 6.1: Radiation and Efficiency
 
-Two antennas can each accept 100 watts yet radiate different amounts of it. A good match alone cannot tell us how much becomes a signal and how much becomes heat. To compare them, we need a way to account for both radiation and loss.
+A dummy load can show a perfect 1:1 SWR while radiating almost nothing, because it turns the power it accepts into heat. An antenna also turns some power into heat, in its conductors, any loading coils, and the nearby ground. The rest leaves as radio waves. Comparing those two shares shows how well the antenna uses the power it accepts.
 
 #### Radiated Power and Lost Power
 
-Antenna current can do two things with real power: radiate it or dissipate it as heat. We represent radiation by *radiation resistance*, $R_r$, and heat losses by *loss resistance*, $R_l$. Both must refer to the same current point when used in a calculation.
+You can picture each share as power in a resistance that carries the antenna current. Radiation resistance, $R_r$, stands for the power leaving as radio waves. **Loss resistance**, $R_l$, stands for the power that becomes heat. Efficiency is the radiated fraction:
 
 $$\eta=\frac{R_r}{R_r+R_l}.$$
 
-The Greek letter $\eta$ (eta) represents efficiency as a fraction; multiply by 100 for percent. For $R_r=40\ \Omega$ and $R_l=10\ \Omega$, efficiency is $40/50=0.8$, or 80%. Of 100 watts accepted by that antenna, 80 watts radiate and 20 watts become heat.
+The Greek letter $\eta$ (eta) represents efficiency as a fraction; multiply by 100 for percent. For $R_r=40\ \Omega$ and $R_l=10\ \Omega$, efficiency is $40/50=0.8$, or 80%. Of 100 watts that antenna accepts, 80 watts radiate and 20 watts become heat.
 
 > **Key Information:** Antenna efficiency is radiation resistance divided by total resistance. {{< link id="E9A09" >}}
 
-Direction is a separate issue. *An isotropic radiator supplies a reference that sends energy equally in every direction, like a uniform spherical distribution.* It is a mathematical reference rather than a physical antenna you can buy.
-
-> **Key Information:** An isotropic radiator is a hypothetical, lossless antenna with equal radiation intensity in all directions, used as a gain reference. {{< link id="E9A01" >}}
-
 #### Fields Crossing Space
 
-The radiated energy travels away in the changing electric and magnetic fields produced by antenna current. Other energy stays close, moving between stored electric and magnetic energy. To compare antenna size with the traveling wave, use wavelength rather than meters alone. With frequency $f$ in megahertz, the free-space wavelength is
+The radiated share travels away in changing electric and magnetic fields produced by the antenna current. Some energy near the antenna never leaves. It moves back and forth between electric and magnetic fields close by.
 
-$$\lambda\text{ (meters)}\approx\frac{300}{f\text{ (MHz)}}.$$
+Take a wave that leaves a vertical wire and travels horizontally. Its electric field points up and down, and its magnetic field points sideways across its path. Those are directions in space, not a 90-degree timing difference. Far from the antenna, the two fields rise and fall together.
 
-At 30 MHz, a wavelength is about 10 meters; at 150 MHz, it is about 2 meters. Antennas with the same dimensions in wavelengths can therefore have very different physical sizes.
-
-*In a freely traveling wave, the electric and magnetic fields point at right angles to each other.* *The wave travels perpendicular to both.* For example, a horizontally traveling wave can have a vertical electric field and a horizontal magnetic field extending across its path.
+In free space, the wave moves at the speed of light, $c$. In glass, water, or the plastic inside coax, it moves more slowly: $v=c/n$, where $n$ is the material's index of refraction. The frequency doesn't change, so a slower wave has a shorter wavelength.
 
 > **Key Information:**
-> - An electromagnetic wave travels at a right angle to its electric and magnetic fields. {{< link id="E3A04" >}}
-> - The electric and magnetic fields are oriented at right angles to one another. {{< link id="E3A05" >}}
-> - A medium's index of refraction determines wave speed through that medium. {{< link id="E3A10" >}}
-
-Here, right angles describe *directions in space*, not a 90-degree timing difference. In a plane wave in free space, the electric and magnetic fields rise and fall together. *The index of refraction $n$ relates wave speed $v$ to the vacuum speed $c$: $v=c/n$.* A wave with unchanged frequency has a shorter wavelength in a medium where it travels more slowly.
+> - An electromagnetic wave travels at a right angle to the electric and magnetic fields. {{< link id="E3A04" >}}
+> - The component fields of an electromagnetic wave are oriented at right angles. {{< link id="E3A05" >}}
+> - The index of refraction determines the speed of electromagnetic waves through a medium. {{< link id="E3A10" >}}
 
 #### The Electric Field's Direction
 
-A polarization match depends on the electric field's direction, which need not stay fixed as the wave passes. Linear polarization keeps that field along one line, such as vertical or horizontal. *With circular polarization, its direction rotates as the wave passes, while its magnitude remains constant in the ideal case.* *The magnetic field rotates with it and remains perpendicular.*
+The electric field's direction sets a wave's polarization, so the example wave above is vertically polarized. Linear polarization keeps that field along one line, such as vertical or horizontal. Now combine a vertical and a horizontal wave of equal strength, timed a quarter cycle apart. As one peaks, the other passes through zero, so the combined electric field points up, then sideways, then down, then to the other side. The magnetic field keeps its right angle to it throughout.
 
-> **Key Information:** Circularly polarized waves have rotating electric and magnetic fields. {{< link id="E3A14" >}}
+> **Key Information:** Circularly polarized electromagnetic waves are waves with rotating electric and magnetic fields. {{< link id="E3A14" >}}
 
-The wave still moves forward. Circular polarization does not mean the signal travels in a circle, nor does a circular wire loop automatically produce circular polarization.
+The wave itself still moves straight ahead. Circular polarization does not mean the signal travels in a circle, and a wire bent into a loop does not automatically produce it.
 
 #### The Antenna's Surroundings
 
-An antenna's fields induce currents in the ground and nearby conductors. Those currents create fields of their own, which affect both the pattern and the voltage-to-current ratio at the feed point. Raise the antenna and you may need to adjust a match that was fine near the ground. Its impedance can change even though you have not shortened any wire.
+Near the earth, the fields don't travel through empty space alone. They induce currents in the ground and in nearby conductors, and those currents create fields of their own. Some of those fields reach back to the antenna and change the voltage-to-current ratio at its feed point, even though no wire changes length. This is the impedance at the antenna itself; feed-line length can separately change the impedance seen at the radio.
+
+Seen from far away, the ground currents act as a reflection: a second field added to the direct one. Depending on direction, the reflected field reinforces the direct field or weakens it. Where it reinforces, the signal is stronger. The transmitter supplies no extra power; the ground only changes where the power goes.
 
 > **Key Information:**
-> - Antenna height affects feed point impedance. {{< link id="E9A04" >}}
-> - Ground gain is increased signal strength caused by ground reflections in the antenna's environment. {{< link id="E9A05" >}}
+> - Antenna height affects the feed point impedance of an antenna. {{< link id="E9A04" >}}
+> - Ground gain is an increase in signal strength from ground reflections in the environment of the antenna. {{< link id="E9A05" >}}
 
-A reflected field can reinforce the direct field in one direction and weaken it in another. Ground gain does not create extra transmitter power; it changes its distribution.
+#### Comparing Patterns
 
-To compare radiation patterns, we need to observe them far enough from the antenna that nearby stored fields no longer reshape the result. Close to the antenna, the mix of stored and radiated fields changes with distance. *Far enough away, the angular pattern settles into a stable shape.* Field strength still falls as distance increases, but the relative strengths in different directions remain the same.
+A pattern is measured or calculated far from the antenna. Close to it, the mix of stored and radiated fields changes with distance and reshapes the result. Farther out, the stored fields have faded, leaving only the radiated ones. Their strength still falls with distance, but at the same rate in every direction.
 
-> **Key Information:** The far field is the region where radiation-pattern shape no longer varies with distance. {{< link id="E9B08" >}}
+A pattern taken that far out can be compared with a standard one. A real antenna makes a shaky yardstick, because its pattern and losses depend on how it is built and where it stands. Gain is measured instead against an imagined antenna with none of those quirks: the **isotropic radiator**, the "i" in dBi.
+
+> **Key Information:**
+> - The far field of an antenna is the region where the shape of the radiation pattern no longer varies with distance. {{< link id="E9B08" >}}
+> - An isotropic radiator is a hypothetical, lossless antenna having equal radiation intensity in all directions, used as a reference for antenna gain. {{< link id="E9A01" >}}

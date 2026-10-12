@@ -6,6 +6,6 @@ pagebreak: true
 
 ## Chapter 6: Antennas and Feed Lines
 
-An antenna system can have a good match and still put little signal where you need it. Improving it means separating several questions: how much power radiates, which directions it favors, and what the feed line presents to the radio.
+One of radio's best-known rules of thumb is to cut a dipole to half a wavelength. The rule works, but a dipole cut to exactly half a wavelength usually resonates a little low in frequency, and its feed-point impedance shifts with its height above ground.
 
-We will put numbers to those questions, read and shape antenna patterns, and use transmission lines as matching components. Geometry, phase, and the surroundings connect all three. They also explain how a lossy receiving antenna can make a signal easier to hear by rejecting noise from other directions.
+Explaining rules like that one is part of a larger skill: predicting how much of your power an antenna system radiates and in which directions. Along the way, you'll see what the feed line and matching network do to the signal. That lets you compare antennas by more than their advertised gain, fix a mismatch with confidence, and choose a receiving antenna that hears better even though it loses signal.

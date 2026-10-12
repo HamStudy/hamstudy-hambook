@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="730" height="410" viewBox="0 0 730 410" role="img" aria-labelledby="title"><title id="title">FCC RF exposure limits are lowest from 30 to 300 MHz</title>
+<style>svg{--ink:#263445;--muted:#586777;--blue:#1672ac;--orange:#b35c00;--green:#267c67;--red:#be2d42}text{font-family:Arial,Helvetica,sans-serif;font-size:16px;fill:var(--ink)}.mid{text-anchor:middle}.end{text-anchor:end}.tiny{font-size:14px}.axis{stroke:var(--ink);stroke-width:1.6;fill:none}.grid{stroke:var(--muted);stroke-width:1;stroke-opacity:.35;fill:none}.band{fill:var(--blue);fill-opacity:.12}.unc{stroke:var(--blue);stroke-width:3;fill:none;stroke-linejoin:round}.con{stroke:var(--orange);stroke-width:3;fill:none;stroke-dasharray:9 5;stroke-linejoin:round}.tick{stroke:var(--muted);stroke-width:1.5}.mtext{fill:var(--muted)}.bracket{stroke:var(--ink);stroke-width:1.6;fill:none}@media(prefers-color-scheme:dark){svg{--ink:#e6edf3;--muted:#a2b5c9;--blue:#64b4ed;--orange:#f5a851;--green:#70c4ad;--red:#ff8190}}@media print{svg{--ink:#263445;--muted:#586777;--blue:#1672ac;--orange:#b35c00;--green:#267c67;--red:#be2d42}}</style>
+<rect x="300.9" y="40" width="110.4" height="290" class="band"/>
+<text x="356.1" y="62" class="mid">lowest</text><text x="356.1" y="81" class="mid">limits</text><text x="356.1" y="100" class="tiny mid">30–300 MHz</text>
+<line x1="80" y1="242.1" x2="690" y2="242.1" class="grid"/>
+<line x1="80" y1="154.3" x2="690" y2="154.3" class="grid"/>
+<line x1="80" y1="66.4" x2="690" y2="66.4" class="grid"/>
+<line x1="137.8" y1="40" x2="137.8" y2="330" class="grid"/>
+<line x1="248.2" y1="40" x2="248.2" y2="330" class="grid"/>
+<line x1="358.7" y1="40" x2="358.7" y2="330" class="grid"/>
+<line x1="469.1" y1="40" x2="469.1" y2="330" class="grid"/>
+<line x1="579.6" y1="40" x2="579.6" y2="330" class="grid"/>
+<path d="M80 40V330H690" class="axis"/>
+<text x="72" y="335.0" class="end">0.1</text>
+<text x="72" y="247.1" class="end">1</text>
+<text x="72" y="159.3" class="end">10</text>
+<text x="72" y="71.4" class="end">100</text>
+<line x1="137.8" y1="330" x2="137.8" y2="336" class="axis"/><text x="137.8" y="354" class="mid">1 MHz</text>
+<line x1="248.2" y1="330" x2="248.2" y2="336" class="axis"/><text x="248.2" y="354" class="mid">10 MHz</text>
+<line x1="358.7" y1="330" x2="358.7" y2="336" class="axis"/><text x="358.7" y="354" class="mid">100 MHz</text>
+<line x1="469.1" y1="330" x2="469.1" y2="336" class="axis"/><text x="469.1" y="354" class="mid">1 GHz</text>
+<line x1="579.6" y1="330" x2="579.6" y2="336" class="axis"/><text x="579.6" y="354" class="mid">10 GHz</text>
+<line x1="690.0" y1="330" x2="690.0" y2="336" class="axis"/><text x="690.0" y="354" class="mid">100 GHz</text>
+<text x="10" y="24">power density, mW/cm<tspan dy="-6" font-size="11">2</tspan></text>
+<polyline points="80.0,66.4 151.8,66.4 300.9,303.6 411.3,303.6 488.5,242.1 690.0,242.1" class="unc"/>
+<polyline points="80.0,66.4 190.4,66.4 300.9,242.1 411.3,242.1 488.5,180.7 690.0,180.7" class="con"/>
+<text x="612.8" y="170.7" class="mid">controlled</text>
+<text x="612.8" y="232.1" class="mid">uncontrolled</text>
+<line x1="430" y1="19" x2="462" y2="19" class="unc"/><text x="468" y="24">uncontrolled</text><line x1="580" y1="19" x2="612" y2="19" class="con"/><text x="618" y="24">controlled</text>
+<line x1="197.8" y1="330" x2="197.8" y2="323" class="tick"/><text x="197.8" y="319" class="tiny mid mtext">80 m</text>
+<line x1="264.3" y1="330" x2="264.3" y2="323" class="tick"/><text x="264.3" y="319" class="tiny mid mtext">20 m</text>
+<line x1="325.4" y1="330" x2="325.4" y2="323" class="tick"/><text x="325.4" y="319" class="tiny mid mtext">6 m</text>
+<line x1="376.8" y1="330" x2="376.8" y2="323" class="tick"/><text x="376.8" y="319" class="tiny mid mtext">2 m</text>
+<line x1="429.7" y1="330" x2="429.7" y2="323" class="tick"/><text x="429.7" y="319" class="tiny mid mtext">70 cm</text>
+<line x1="480.6" y1="330" x2="480.6" y2="323" class="tick"/><text x="480.6" y="319" class="tiny mid mtext">23 cm</text>
+<path d="M80 371V378H411.3V371" class="bracket"/>
+<text x="245.7" y="400" class="mid">separate E and H limits below 300 MHz</text>
+</svg>

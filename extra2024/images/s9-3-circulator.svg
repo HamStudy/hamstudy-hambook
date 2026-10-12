@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="660" height="300" viewBox="0 0 660 300" role="img" aria-labelledby="title"><title id="title">A terminated circulator at a repeater transmitter's output</title><style>svg{--ink:#263445;--muted:#586777;--blue:#1672ac;--orange:#b35c00;--green:#267c67;--red:#be2d42}text{font-family:Arial,Helvetica,sans-serif;font-size:18px;fill:var(--ink)}.small{font-size:16px}.mid{text-anchor:middle}.box{fill:none;stroke:var(--ink);stroke-width:2}.wire{stroke:var(--ink);stroke-width:2.5;fill:none;stroke-linejoin:round}.circ{fill:none;stroke:var(--ink);stroke-width:2.5}.tx{stroke:var(--blue);stroke-width:3;fill:none}.qrm{stroke:var(--red);stroke-width:3;fill:none;stroke-dasharray:8 5}.btext{fill:var(--blue)}.rtext{fill:var(--red)}@media(prefers-color-scheme:dark){svg{--ink:#e6edf3;--muted:#a2b5c9;--blue:#64b4ed;--orange:#f5a851;--green:#70c4ad;--red:#ff8190}}@media print{svg{--ink:#263445;--muted:#586777;--blue:#1672ac;--orange:#b35c00;--green:#267c67;--red:#be2d42}}</style><defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="7" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,1 L8,5 L1,9" fill="none" stroke="var(--ink)" stroke-width="1.8"/></marker><marker id="barrow" markerWidth="12" markerHeight="12" refX="8" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,1 L9,6 L1,11" fill="none" stroke="var(--blue)" stroke-width="2.4"/></marker><marker id="rarrow" markerWidth="12" markerHeight="12" refX="8" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,1 L9,6 L1,11" fill="none" stroke="var(--red)" stroke-width="2.4"/></marker></defs>
+<!-- Transmitter -->
+<rect x="20" y="122" width="132" height="56" class="box"/><text x="86" y="146" class="mid">Repeater</text><text x="86" y="168" class="mid">transmitter</text>
+<line x1="152" y1="150" x2="270" y2="150" class="wire"/>
+<!-- Circulator body with direction arrow -->
+<circle cx="320" cy="150" r="50" class="circ"/>
+<path d="M287 132A38 38 0 1 1 302 184" class="wire" marker-end="url(#arrow)"/>
+<!-- Antenna -->
+<line x1="370" y1="150" x2="560" y2="150" class="wire"/>
+<path d="M560 150V62M544 50L560 70L576 50" class="wire"/>
+<text x="590" y="110" class="small">antenna</text>
+<!-- Load on third port -->
+<path d="M320 200V214l-10 5 20 8-20 8 20 8-20 8 10 5V272" class="wire"/>
+<path d="M302 272H338M308 279H332M314 286H326" class="wire"/>
+<text x="300" y="246" class="small" text-anchor="end">load</text>
+<!-- Outgoing signal: transmitter to antenna -->
+<line x1="166" y1="132" x2="256" y2="132" class="tx" marker-end="url(#barrow)"/>
+<line x1="386" y1="132" x2="530" y2="132" class="tx" marker-end="url(#barrow)"/>
+<text x="211" y="118" class="mid small btext">output</text>
+<text x="458" y="118" class="mid small btext">output</text>
+<!-- Incoming signal: antenna to load -->
+<path d="M530 170H383" class="qrm"/>
+<text x="460" y="196" class="mid small rtext">nearby signal</text>
+<path d="M383 170A66 66 0 0 1 344 211.5V262" class="qrm" marker-end="url(#rarrow)"/>
+</svg>

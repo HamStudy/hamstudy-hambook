@@ -19,10 +19,10 @@
 <text x="688" y="258" text-anchor="end">f</text>
 <path class="blue" d="M296 216V51 M426 216V51"/>
 <path class="orange" stroke-dasharray="7 5" d="M166 216V152 M556 216V152"/>
-<text x="296" y="35" text-anchor="middle">f<tspan baseline-shift="sub" font-size="16">1</tspan></text>
-<text x="426" y="35" text-anchor="middle">f<tspan baseline-shift="sub" font-size="16">2</tspan></text>
-<text x="166" y="136" text-anchor="middle">2f<tspan baseline-shift="sub" font-size="16">1</tspan> − f<tspan baseline-shift="sub" font-size="16">2</tspan></text>
-<text x="608" y="136" text-anchor="end">2f<tspan baseline-shift="sub" font-size="16">2</tspan> − f<tspan baseline-shift="sub" font-size="16">1</tspan></text>
+<text x="296" y="35" text-anchor="middle">f<tspan dy="5" font-size="16">1</tspan></text>
+<text x="426" y="35" text-anchor="middle">f<tspan dy="5" font-size="16">2</tspan></text>
+<text x="166" y="136" text-anchor="middle">2f<tspan dy="5" font-size="16">1</tspan><tspan dy="-5"> − f</tspan><tspan dy="5" font-size="16">2</tspan></text>
+<text x="608" y="136" text-anchor="end">2f<tspan dy="5" font-size="16">2</tspan><tspan dy="-5"> − f</tspan><tspan dy="5" font-size="16">1</tspan></text>
 <path class="guide" d="M166 224V237 M296 224V237 M426 224V237 M556 224V237 M166 232H556"/>
 
 </svg>

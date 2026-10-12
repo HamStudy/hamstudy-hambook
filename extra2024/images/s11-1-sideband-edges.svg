@@ -14,7 +14,7 @@
 </style>
 
 <defs><pattern id="s11-1-edge-hatch" patternUnits="userSpaceOnUse" width="10" height="10"><path d="M-2 2L2 -2 M0 10L10 0 M8 12L12 8" stroke="var(--red)" stroke-width="2"/></pattern></defs>
-<text x="36" y="28">USB / MHz</text>
+<text x="36" y="28">USB (MHz)</text>
 <path class="axis" d="M80 99H671"/><path fill="var(--muted)" d="M680 99l-13 -6v12z"/>
 <rect x="200" y="80" width="240" height="38" fill="var(--blue)" fill-opacity=".13" stroke="var(--blue)" stroke-width="2"/>
 <rect x="440" y="80" width="120" height="38" fill="url(#s11-1-edge-hatch)" stroke="var(--red)" stroke-width="2"/>
@@ -22,7 +22,7 @@
 <text x="440" y="47" text-anchor="middle">14.350</text>
 <path d="M200 118l-8 15h16z" fill="var(--ink)"/>
 <text x="200" y="158" text-anchor="middle">14.348</text><text x="560" y="158" text-anchor="middle">14.351</text>
-<text x="36" y="186">LSB / MHz</text>
+<text x="36" y="186">LSB (MHz)</text>
 <path class="axis" d="M80 257H671"/><path fill="var(--muted)" d="M680 257l-13 -6v12z"/>
 <rect x="200" y="238" width="240" height="38" fill="url(#s11-1-edge-hatch)" stroke="var(--red)" stroke-width="2"/>
 <rect x="440" y="238" width="120" height="38" fill="var(--blue)" fill-opacity=".13" stroke="var(--blue)" stroke-width="2"/>

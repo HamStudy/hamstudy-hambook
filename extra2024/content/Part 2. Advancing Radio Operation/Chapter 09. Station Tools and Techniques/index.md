@@ -6,6 +6,6 @@ pagebreak: true
 
 ## Chapter 9: Station Tools and Techniques
 
-A station can have enough power and a good antenna match yet still struggle to complete a contact. A battery may run down sooner than expected, receiver overload may hide a weak signal, or distortion may spread a transmission beyond its intended bandwidth. Each problem calls for a different measurement.
+Quick checks and quick fixes settle most questions at the radio. The SWR meter reads low, the multimeter shows 13.8 V, and the noise blanker quiets the popping. When a result surprises you, though, the quick check rarely explains it.
 
-We will use operating time and signal-level calculations to set expectations, then use listening tests and instruments to find where actual performance falls short. At the bench, that means looking beyond a meter reading: account for the instrument's effect on the circuit, separate reflection from transmission, and check where the transmitter's power appears in the spectrum.
+To explain it, you need to know what each tool and control actually measures or changes, and what it misses. With that knowledge, you can tell when to trust a reading, plan a power source or a link that will hold up, track down a source of noise, and confirm that the signal you transmit is clean.

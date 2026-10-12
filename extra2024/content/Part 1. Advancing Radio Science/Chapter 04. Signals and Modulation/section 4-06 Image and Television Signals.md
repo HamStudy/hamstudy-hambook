@@ -1,69 +1,66 @@
 ---
 chapter: "4"
 section: "4.6"
-questions: ["E2B10", "E2B04", "E2B12", "E2B11", "E2B09", "E2B02", "E2B03", "E2B06", "E2B05", "E2B08", "E2B07", "E2B01"]
+questions: ["E2B10", "E2B04", "E2B12", "E2B11", "E2B09", "E2B02", "E2B03", "E2B08", "E2B06", "E2B05", "E2B07", "E2B01"]
 status: generated1
 draft: true
 ---
 
 ### Section 4.6: Image and Television Signals
 
-To rebuild a transmitted picture, the receiver needs both the image values and a way to put them in the right places. Scanning sends one row from left to right, then begins the next. The receiver follows the same order. The timing and encoding determine whether it receives a still image or moving television.
+Slow-scan television, or SSTV, sends a still picture through an ordinary voice channel, taking from a few seconds to a couple of minutes per image. Hams even use it to receive pictures from the International Space Station. The picture travels one row at a time, left to right, and the receiver must put each piece back in place.
 
 #### A Picture Made from Tones
 
-*Analog slow-scan television, or SSTV, represents brightness by audio tone frequency.* A change from dark to light changes the tone's pitch. Turning up the receiver's volume does not make the encoded picture brighter because amplitude is not the brightness measurement.
+In common analog modes, a 1,500 Hz tone means black and 2,300 Hz means white, with grays in between. Turning up the volume doesn't brighten the picture; amplitude carries no brightness information.
 
-Color needs more information than brightness alone. *The transmitter sends color components in sequence, and the receiver combines them into the displayed image.* *Synchronizing tones mark the line timing; a code at the start identifies which SSTV format supplies that timing and color sequence.*
+Color needs more than brightness. Many common modes send each row as three scans, green, then blue, then red, and the receiver combines them. Each line starts with a short 1,200 Hz sync pulse, below the picture's tone range, so the decoder can't mistake it for part of the image. The picture itself begins with a short burst of tones called the vertical interval signaling, or VIS, code. Modes differ in line timing and color order, and with the wrong mode selected, rows or colors land in the wrong places.
+
+![A graph plots tone frequency against time for one line of a color SSTV picture. The frequency axis is marked at 1,200, 1,500, and 2,300 hertz. The line begins with a short sync pulse that drops to 1,200 hertz, below the picture range. Three scans follow, labeled green, blue, and red. In each scan, the tone wanders up and down between 1,500 hertz, labeled black, and 2,300 hertz, labeled white, as the brightness along the row changes.](../../../images/s4-6-sstv-line.svg)
+{.img-centered .img-large .img-mobile-full caption="One color SSTV line: a 1,200 Hz sync tone, then green, blue, and red scans whose tone follows brightness from black (1,500 Hz) to white (2,300 Hz)."}
 
 > **Key Information:**
-> - Tone frequency encodes brightness in analog SSTV. {{< link id="E2B10" >}}
-> - Analog SSTV sends color lines sequentially. {{< link id="E2B04" >}}
-> - Specific tone frequencies tell SSTV receiving software to begin a new picture line. {{< link id="E2B12" >}}
-> - The vertical interval signaling, or VIS, code identifies the SSTV mode. {{< link id="E2B11" >}}
+> - In an analog slow-scan television signal, tone frequency encodes the brightness of the picture. {{< link id="E2B10" >}}
+> - In analog SSTV, color lines are sent sequentially. {{< link id="E2B04" >}}
+> - Specific tone frequencies signal SSTV receiving software to begin a new picture line. {{< link id="E2B12" >}}
+> - The function of the vertical interval signaling (VIS) code sent as part of an SSTV transmission is to identify the SSTV mode being used. {{< link id="E2B11" >}}
 
-With the wrong mode selected, the decoder may hear every tone correctly yet put the rows or colors in the wrong places. *The VIS code tells it which arrangement to expect.*
+Digital image modes fit in a voice channel too. Amateur DRM spreads coded data across many OFDM subcarriers, and software turns the data back into an image file. A product detector shifts the whole signal down to audio with every subcarrier's frequency and phase intact. An AM envelope detector would keep only the signal's overall amplitude.
 
-Digital image modes can send picture data through a voice-width channel too. Amateur use of the Digital Radio Mondiale, or DRM, protocol carries coded digital data that software turns back into a file or image. This differs from assigning a brightness value directly to each analog tone. *An SSB receiver preserves the signal in its audio output so the software can do the digital decoding.*
-
-> **Key Information:** An SSB receiver can receive DRM-protocol SSTV for decoding by suitable software. {{< link id="E2B09" >}}
+> **Key Information:** An SSB receiver can be used to receive and decode SSTV using the Digital Radio Mondiale (DRM) protocol. {{< link id="E2B09" >}}
 
 #### From Rows to Moving Frames
 
-Fast-scan television refreshes whole pictures fast enough to show motion, so it needs much more bandwidth. The analog NTSC system divides each frame into two *fields*. *One field scans the odd-numbered lines; the next fills in the even-numbered lines between them.* This is interlaced scanning.
+Fast-scan television refreshes whole pictures fast enough to show motion, so it needs far more bandwidth, about 6 MHz. The analog NTSC system, named for the National Television System Committee, sends each frame as two **fields**, one after the other, at about 30 frames and 60 fields each second. The first field skips every other line, and the next fills in the lines between.
+
+Analog amateur fast-scan TV uses the same format, so an analog TV set can display it if the set can tune the frequency. Some analog cable-TV channels fall inside the 70-centimeter band, and a cable-ready set can tune them.
 
 > **Key Information:**
-> - An NTSC fast-scan television frame contains 525 horizontal lines. {{< link id="E2B02" >}}
-> - Interlacing scans odd-numbered lines in one field and even-numbered lines in the next. {{< link id="E2B03" >}}
-
-The 525 count includes the line intervals used for blanking and timing; it is not a count of 525 visible picture rows. Keep *field* and *frame* distinct: the two fields together complete a frame.
+> - A fast-scan (NTSC) television frame is made up of 525 horizontal lines. {{< link id="E2B02" >}}
+> - An interlaced scanning pattern is generated by scanning odd-numbered lines in one field and even-numbered lines in the next. {{< link id="E2B03" >}}
+> - Transmitting on channels shared with cable TV allows commercial analog TV receivers to be used for fast-scan TV operations on the 70-centimeter band. {{< link id="E2B08" >}}
 
 #### Leaving a Vestige
 
-An AM video signal would contain two full sidebands. Removing one completely saves bandwidth, but preserving very low video frequencies near the carrier would demand a difficult filter transition. *Vestigial sideband, or VSB, keeps one full sideband and a small portion of the other.*
+An AM video signal would contain two full sidebands. Removing one entirely, as SSB does, would save the most bandwidth. Voice allows that because speech has almost nothing below about 300 Hz, which leaves a filter room to work. A picture's broad areas of steady brightness produce video frequencies down to nearly zero, right against the carrier. Cutting one sideband cleanly would take an impractically sharp filter, so analog TV lets its filter roll off gradually, leaving a narrow slice of the lower sideband.
+
+![A spectrum of one analog fast-scan TV channel, 6 megahertz wide, with frequency increasing to the right. Near the low edge of the channel sits the video carrier. To its right, the full upper sideband extends about 4.2 megahertz. To its left, only a narrow vestige of the lower sideband remains, about 0.75 megahertz wide, then slopes down to the channel edge. Inside the upper sideband, about 3.58 megahertz above the video carrier, is the color subcarrier. Above the video sideband, 4.5 megahertz above the video carrier, is a narrow sound carrier.](../../../images/s4-6-tv-channel.svg)
+{.img-centered .img-xlarge .img-mobile-full caption="An analog TV channel keeps the full upper sideband and a vestige of the lower one. Color and sound sit in the upper part of the channel, not in the vestige."}
 
 > **Key Information:**
-> - VSB is amplitude modulation with one complete sideband and a portion of the other transmitted. {{< link id="E2B06" >}}
-> - In analog fast-scan TV, VSB reduces bandwidth while improving the fidelity of low-frequency video components. {{< link id="E2B05" >}}
-
-That remaining portion gives the transmitter and receiver a workable response around the carrier. It is not a separate sideband reserved for sound or color.
-
-Some cable-TV channel frequencies overlap the 70-centimeter amateur band. *A compatible analog television receiver that tunes those cable channels can therefore receive amateur fast-scan television without first moving it into a broadcast-TV channel.*
-
-> **Key Information:** Transmitting on channels shared with cable TV permits compatible commercial analog TV receivers to receive 70-centimeter fast-scan amateur TV. {{< link id="E2B08" >}}
-
-The receiver must actually support the analog format and cable-channel tuning. The presence of a screen and an antenna socket alone does not establish that compatibility.
+> - Vestigial sideband modulation is amplitude modulation in which one complete sideband and a portion of the other are transmitted. {{< link id="E2B06" >}}
+> - In analog fast-scan TV transmissions, vestigial sideband reduces the bandwidth while increasing the fidelity of low frequency video components. {{< link id="E2B05" >}}
 
 #### Video and Error Protection
 
-To repair damaged picture data without waiting for a repeat, digital television adds error protection before mapping the coded bits onto modulation symbols. *DVB-T, Digital Video Broadcasting—Terrestrial, uses OFDM subcarriers with QPSK or QAM symbol states.*
+Some digital amateur TV uses DVB-T, Digital Video Broadcasting—Terrestrial. Its data rides on OFDM subcarriers like those in the previous section. Each subcarrier sends symbols from a constellation like the ones earlier in this chapter.
 
-> **Key Information:** Amateur DVB-T television uses QAM and QPSK modulation. {{< link id="E2B07" >}}
-
-The *coding rate* tells how much of a coded stream represents information before forward error correction was added. *A rate of $3/4$ means three information bits for every four transmitted coded bits. The remaining one bit in four provides error protection.*
+Before modulation, DVB-T adds forward error correction, so the receiver can repair damaged picture data without asking for a repeat. The **coding rate** tells what fraction of the coded stream is the original information. A rate of $3/4$ means three information bits for every four coded bits sent.
 
 $$\text{FEC fraction}=1-\frac34=\frac14=25\%.$$
 
-> **Key Information:** A digital-TV coding rate of 3/4 means 25% of the data sent is forward error correction data. {{< link id="E2B01" >}}
+Coding rate isn't picture compression, and it isn't the guard interval between OFDM symbols, which DVB-T also gives as a fraction such as 1/4.
 
-For every 3,000 information bits in this example, the encoder sends 4,000 coded bits. The extra 1,000 let the receiver repair some errors without requesting the picture again. That is coding overhead, not picture compression and not a time-slot guard interval.
+> **Key Information:**
+> - Amateur television DVB-T signals use QAM and QPSK modulation. {{< link id="E2B07" >}}
+> - In digital television, a coding rate of 3/4 means 25% of the data sent is forward error correction data. {{< link id="E2B01" >}}

@@ -1,77 +1,74 @@
 ---
 chapter: "3"
 section: "3.2"
-questions: ["E7B12", "E7B10", "E7B11", "E7B04", "E7B01", "E7B09", "E7B06", "E7B07", "E7B02", "E7B08", "E7B03", "E7B05"]
+questions: ["E7B12", "E7B10", "E7B11", "E7B09", "E7B06", "E7B04", "E7B01", "E7B07", "E7B02", "E7B08", "E7B03", "E7B05"]
 status: generated1
 draft: true
 ---
 
 ### Section 3.2: Amplifier Circuits
 
-An amplifier that clips one side of a waveform changes the signal it was meant to strengthen. Bias sets the room available for the signal to swing. The circuit arrangement determines where the input and output connect, whether the signal inverts, and how much current the driving stage must supply.
+An amplifier's class describes how much of each signal cycle its device conducts. Class A conducts for all of it and is the most linear; Class C conducts for less than half, trading linearity for efficiency. The class comes from the circuit around the device, especially its bias.
 
 #### Reading a Transistor Stage
 
-In Figure E7-1, the signal enters the transistor's base through C1. The amplified signal leaves the collector through C2. *C3 bypasses the emitter to ground at signal frequencies, so the emitter is the terminal shared by the input and output circuits.*
+Figure E7-1 shows a typical NPN transistor stage.
 
-![Official Figure E7-1 shows a common-emitter transistor amplifier. C1 couples the input to the base and C2 couples the collector to the output. R1 runs from the positive supply to the base, and R2 from the base to ground, forming a bias divider. R3 connects the emitter to ground for self bias; C3 bypasses the emitter at signal frequencies.](../../../hugo/static/figures/E7-1.svg)
+![Official Figure E7-1 shows a common-emitter transistor amplifier. C1 couples the input to the base and C2 couples the collector to the output. An unlabeled load resistor connects the positive supply to the collector. R1 runs from the positive supply to the base, and R2 from the base to ground, forming a bias divider. R3 connects the emitter to ground for self bias; C3 bypasses the emitter at signal frequencies.](../../../hugo/static/figures/E7-1.svg)
 {.img-centered .img-xlarge .img-bw caption="Figure E7-1: The resistors set DC bias while the capacitors route AC."}
 
+The signal enters the base through C1 and leaves the collector through C2. The unlabeled resistor from the supply to the collector is the collector load; the output voltage develops across it. C3 bypasses the emitter to ground for signals, so the emitter is the terminal the input and output circuits share. Amplifier circuits take their names from that common terminal.
+
+R1 and R2 divide the supply voltage to hold the base at a steady DC voltage, even with no signal. That sets the transistor's resting point, and R3 holds it steady.
+
+If emitter current rises, perhaps as the transistor warms, the voltage across R3 rises too. With the base voltage fixed by the divider, less voltage remains between base and emitter, which pulls the current back down. The transistor's own emitter current produces this correction.
+
+R3's correction is **feedback**: part of a circuit's output or response returned to its input. Negative feedback like R3's opposes a change; positive feedback reinforces one. C3 bypasses R3 for signals, so this feedback doesn't also cut the signal's gain.
+
 > **Key Information:**
-> - Figure E7-1 is a common-emitter amplifier. {{< link id="E7B12" >}}
-> - R1 and R2 provide voltage-divider bias. {{< link id="E7B10" >}}
-> - R3 provides self bias. {{< link id="E7B11" >}}
+> - The amplifier circuit shown in Figure E7-1 is a common-emitter amplifier. {{< link id="E7B12" >}}
+> - In Figure E7-1, the purpose of R1 and R2 is voltage divider bias. {{< link id="E7B10" >}}
+> - In Figure E7-1, the purpose of R3 is self bias. {{< link id="E7B11" >}}
 
-*Even with no input signal, R1 and R2 establish a DC voltage at the base by dividing the supply voltage.* That gives the transistor its starting operating point.
+When the input drives the base more positive, collector current rises, the drop across the collector load grows, and the collector voltage falls. The stage inverts the signal.
 
-R3 then helps stabilize the resting current. If emitter current rises, the voltage across R3 rises. That reduces base-to-emitter voltage for a given base voltage, opposing the increase. C3 allows signal-frequency current to bypass much of that resistance while preserving its DC effect.
+Moving the shared terminal changes that. An **emitter follower** connects its collector straight to the supply, whose steady voltage acts as ground for signals. That makes the collector the shared terminal, which gives the circuit its other name: **common-collector** amplifier. The signal still enters the base, but the output comes from the emitter, which has no bypass capacitor. Raise the base voltage, and the emitter voltage rises by nearly the same amount, so the voltage gain is near one. The follower can still supply far more current than it draws from its source.
 
-*Feedback* returns part of a circuit's output or response to its input. Negative feedback opposes a change, as R3 does for the bias current. Positive feedback reinforces a change. The sign describes the effect around the complete path, including any phase shifts.
+Tubes offer a similar choice of common terminal. A **grounded-grid** amplifier, the tube version of common base, holds the grid at RF ground, drives the cathode, and takes the output from the plate. The driving stage must supply the tube's whole cathode current at a modest voltage, and impedance is voltage divided by current.
 
-In a common-emitter stage, increased collector current creates a larger drop across the collector resistor, pulling collector voltage down. The voltage signal is therefore inverted.
-
-Sometimes the source has enough voltage but cannot supply the current a load needs. An *emitter follower*, also called a common-collector amplifier, provides current gain while keeping voltage gain near one. It takes the output from the emitter, isolating the source from the load. *The emitter follows the base's voltage changes without reversing them.*
-
-> **Key Information:** An emitter follower's input and output signals are in phase. {{< link id="E7B09" >}}
-
-The driver also has to supply the input current a tube amplifier needs. In a grounded-grid amplifier, the grid stays at RF ground while the cathode receives the input and the plate supplies the output. Moving the cathode voltage changes its voltage relative to the fixed grid, controlling electron flow. *The driving stage must supply RF current through the cathode circuit, so it faces a relatively low input impedance.*
-
-> **Key Information:** A grounded-grid amplifier has low input impedance. {{< link id="E7B06" >}}
+> **Key Information:**
+> - A characteristic of an emitter follower, or common-collector, amplifier is that its input and output signals are in phase. {{< link id="E7B09" >}}
+> - A characteristic of a grounded-grid amplifier is low input impedance. {{< link id="E7B06" >}}
 
 #### Conduction Angle
 
-For a Class A stage to conduct through all 360 degrees, its resting operating point must leave room for the signal to rise and fall. Too far in one direction reaches cutoff, where conduction stops; too far in the other reaches saturation, where the transistor can no longer increase its output swing normally.
+Biased partly on, the stage in Figure E7-1 can run Class A, conducting through all 360 degrees. Its resting point must leave room for the signal to swing both ways. Too far one way is cutoff, where conduction stops. Too far the other is saturation: fully on, with the collector voltage unable to fall further.
 
-> **Key Information:** A Class A common-emitter amplifier operates approximately halfway between saturation and cutoff. {{< link id="E7B04" >}}
+> **Key Information:** The operating point of a Class A common-emitter amplifier is approximately halfway between saturation and cutoff. {{< link id="E7B04" >}}
 
-A push-pull amplifier divides the waveform between two active elements. With each handling half a cycle, as in Class B, their contributions can meet abruptly and cause distortion. Class AB adds overlap to smooth that handoff. *Neither device has to handle the whole cycle, but each stays on a little beyond its own half.*
+That bias current flows even with no signal, so Class A wastes power. A push-pull amplifier divides the waveform between two active elements instead. In Class B, each conducts for exactly half the cycle, and the handoff near the zero crossing can distort the signal. Class AB biases each device slightly on, so their halves overlap and the handoff is smooth.
 
-> **Key Information:** Each active element in a push-pull Class AB amplifier conducts for more than 180 degrees but less than 360 degrees of the signal cycle. {{< link id="E7B01" >}}
+Class C conducts in pulses shorter than half a cycle. A tuned output circuit rebuilds a sine wave from those current pulses, which works for FM, whose amplitude stays constant. SSB phone is different: its changing amplitude carries the speech, and Class C's pulses don't follow it in proportion. Those errors add new frequencies, like the splatter from an overdriven transmitter.
 
-Class C conducts for less than half a cycle. A tuned output circuit can build a sine wave from those current pulses, making Class C useful for suitable constant-envelope RF signals. *Ordinary Class C amplification does not preserve the changing amplitude envelope of SSB phone.* Its current pulses lose the proportional amplitude changes that carry the speech.
-
-> **Key Information:** Using a Class C amplifier to amplify an SSB phone signal causes signal distortion and excessive bandwidth. {{< link id="E7B07" >}}
-
-Class A and properly operated Class AB stages can preserve those proportional amplitude changes and provide linear amplification.
+> **Key Information:**
+> - Each active element in a push-pull Class AB amplifier conducts for more than 180 degrees but less than 360 degrees of the signal cycle. {{< link id="E7B01" >}}
+> - The likely result of using a Class C amplifier to amplify a single-sideband phone signal is signal distortion and excessive bandwidth. {{< link id="E7B07" >}}
 
 #### Switching for Efficiency
 
-An active device dissipates power when voltage across it and current through it exist at the same time. A switch avoids much of that overlap: when off, current is small; when fully on, the voltage drop is small. Most of the time, one factor in $P=VI$ is small. Real switching transitions still cause some loss.
+A switching amplifier takes Class C's idea further: its device is either fully off, at cutoff, or fully on, at saturation (called the **ohmic region** for MOSFETs). A device dissipates power when it has voltage across it and current through it at once. Off, the current is small; fully on, the voltage drop is small. Either way, one factor in $P=I\times E$ is small, so little power becomes heat.
+
+A switching waveform has sharp edges, which make it rich in harmonics. Those are the same unwanted signals the previous section's low-pass networks keep off the air.
 
 > **Key Information:**
 > - A Class D amplifier uses switching technology to achieve high efficiency. {{< link id="E7B02" >}}
-> - Switching amplifiers are more efficient because their switching devices spend most of the time at saturation or cutoff. {{< link id="E7B08" >}}
-
-For a MOSFET, the low-loss on state is often called its ohmic region; the exam's “saturation or cutoff” wording describes the general fully-on/fully-off switching model. Do not confuse that wording with the different technical meaning of MOSFET saturation.
-
-*The switching waveform contains harmonics. Filtering selects the wanted output and removes unwanted frequency components.*
-
-> **Key Information:** An RF switching amplifier requires an output filter to remove harmonic content. {{< link id="E7B03" >}}
+> - Switching amplifiers are more efficient than linear amplifiers because the switching device is at saturation or cutoff most of the time. {{< link id="E7B08" >}}
+> - An RF switching amplifier requires a filter at its output to remove harmonic content. {{< link id="E7B03" >}}
 
 #### Stopping an Accidental Oscillator
 
-An amplifier's output can find an unintended route back to its input through capacitance, wiring, or magnetic coupling. If that return reinforces the input with enough gain, the circuit can oscillate even without an applied signal.
+Not every feedback path is designed in. Stray capacitance, wiring, or magnetic coupling can carry some output back to the input. At some frequency, that stray feedback may arrive in phase and turn positive. With enough gain, the amplifier then oscillates on its own, often far from its working frequency.
 
-> **Key Information:** Parasitic suppressors and/or neutralization can prevent unwanted oscillations in an RF power amplifier. {{< link id="E7B05" >}}
+Two remedies attack that feedback. A **parasitic suppressor**, such as a ferrite bead from Chapter 1, damps the unwanted path at the oscillation frequency but has little effect at the working frequency. **Neutralization** feeds back an opposing signal that cancels the unwanted feedback.
 
-A suppressor damps an unwanted resonant path; ferrite beads from Chapter 1 are one example. *Neutralization* supplies a carefully chosen opposing feedback signal to cancel unwanted feedback. An amplifier that produces RF without being driven has started a second job you did not ask it to do. *Suppression and neutralization remove the feedback conditions that let it keep doing that job.*
+> **Key Information:** Installing parasitic suppressors and/or neutralizing the stage can prevent unwanted oscillations in an RF power amplifier. {{< link id="E7B05" >}}

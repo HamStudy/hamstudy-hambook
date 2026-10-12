@@ -1,19 +1,43 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 310" class="s68swrcircle" role="img"><style>.s68swrcircle text{font:20px Helvetica,Arial,sans-serif;fill:#263445} .s68swrcircle .line{fill:none;stroke-width:2} .s68swrcircle .dash{stroke-dasharray:5 5}
-.s68swrcircle .ink{stroke:#263445} .s68swrcircle .inkfill{fill:#263445}
-.s68swrcircle .muted{stroke:#586777} .s68swrcircle .mutedfill{fill:#586777}
-.s68swrcircle .blue{stroke:#1672ac} .s68swrcircle .bluefill{fill:#1672ac}
-.s68swrcircle .orange{stroke:#b35c00} .s68swrcircle .orangefill{fill:#b35c00}
-.s68swrcircle .green{stroke:#267c67} .s68swrcircle .greenfill{fill:#267c67}
-.s68swrcircle .red{stroke:#be2d42} .s68swrcircle .redfill{fill:#be2d42}
-@media(prefers-color-scheme:dark){.s68swrcircle text{fill:#e6edf3}.s68swrcircle .ink{stroke:#e6edf3} .s68swrcircle .inkfill{fill:#e6edf3}
-.s68swrcircle .muted{stroke:#a2b5c9} .s68swrcircle .mutedfill{fill:#a2b5c9}
-.s68swrcircle .blue{stroke:#64b4ed} .s68swrcircle .bluefill{fill:#64b4ed}
-.s68swrcircle .orange{stroke:#f5a851} .s68swrcircle .orangefill{fill:#f5a851}
-.s68swrcircle .green{stroke:#70c4ad} .s68swrcircle .greenfill{fill:#70c4ad}
-.s68swrcircle .red{stroke:#ff8190} .s68swrcircle .redfill{fill:#ff8190}}
-@media print{.s68swrcircle text{fill:#263445}.s68swrcircle .ink{stroke:#263445} .s68swrcircle .inkfill{fill:#263445}
-.s68swrcircle .muted{stroke:#586777} .s68swrcircle .mutedfill{fill:#586777}
-.s68swrcircle .blue{stroke:#1672ac} .s68swrcircle .bluefill{fill:#1672ac}
-.s68swrcircle .orange{stroke:#b35c00} .s68swrcircle .orangefill{fill:#b35c00}
-.s68swrcircle .green{stroke:#267c67} .s68swrcircle .greenfill{fill:#267c67}
-.s68swrcircle .red{stroke:#be2d42} .s68swrcircle .redfill{fill:#be2d42}}</style><text x="200" y="26" text-anchor="middle">Z₀ = 50 Ω</text><circle cx="200" cy="165" r="125" class="line muted" opacity=".4"/><path d="M75 165H325" class="line muted" opacity=".4"/><circle cx="200" cy="165" r="41.667" class="line blue"/><circle cx="200" cy="165" r="3" class="mutedfill"/><path d="M241.667 165A41.667 41.667 0 0 1 158.333 165m-5 9 5 -9 5 9" class="line orange" style="stroke-width:3"/><circle cx="241.667" cy="165" r="5" class="bluefill"/><circle cx="158.333" cy="165" r="5" class="bluefill"/><text x="253" y="156">100 Ω</text><text x="146" y="156" text-anchor="end">25 Ω</text><text x="200" y="235" text-anchor="middle" class="orangefill">λ/4</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 485" class="s68swrcircle" role="img" aria-labelledby="s68-title s68-desc">
+<title id="s68-title">A constant-SWR circle on a Smith grid</title>
+<desc id="s68-desc">A heavy 2-to-1 SWR circle crosses faint resistance circles and reactance arcs. With a 50-ohm reference, its right-axis crossing is normalized resistance 2, or 100 ohms, and the left crossing is 0.5, or 25 ohms. A clockwise arrow and radial guides align the path with rim marks at zero, one-eighth, and one-quarter wavelength of travel toward the generator from the 100-ohm load.</desc>
+<style>
+.s68swrcircle text{font:22px Helvetica,Arial,sans-serif;fill:#263445;paint-order:stroke;stroke:#fff;stroke-width:5px;stroke-linejoin:round}
+.s68swrcircle .small{font-size:19px}.s68swrcircle .sub{font-size:16px}
+.s68swrcircle .grid{fill:none;stroke:#a4adb7;stroke-width:1.5}
+.s68swrcircle .guide{fill:none;stroke:#778492;stroke-width:1.5;stroke-dasharray:4 5}
+.s68swrcircle .heavy{fill:none;stroke:#1672ac;stroke-width:3.5}
+.s68swrcircle .dot{fill:#1672ac}.s68swrcircle .center{fill:#586777}
+.s68swrcircle .arrow{fill:none;stroke:#b35c00;stroke-width:3.5;stroke-linecap:round;stroke-linejoin:round}
+@media(prefers-color-scheme:dark){
+.s68swrcircle text{fill:#e6edf3;stroke:#17212d}.s68swrcircle .grid{stroke:#697888}.s68swrcircle .guide{stroke:#96a8bb}
+.s68swrcircle .heavy{stroke:#64b4ed}.s68swrcircle .dot{fill:#64b4ed}.s68swrcircle .center{fill:#a2b5c9}.s68swrcircle .arrow{stroke:#f5a851}}
+@media print{
+.s68swrcircle text{fill:#263445;stroke:#fff}.s68swrcircle .grid{stroke:#a4adb7}.s68swrcircle .guide{stroke:#778492}
+.s68swrcircle .heavy{stroke:#1672ac}.s68swrcircle .dot{fill:#1672ac}.s68swrcircle .center{fill:#586777}.s68swrcircle .arrow{stroke:#b35c00}}
+</style>
+<text x="320" y="28" text-anchor="middle">Z<tspan class="sub" dy="6">0</tspan><tspan dy="-6"> = 50 Ω</tspan></text>
+<circle cx="320" cy="250" r="175" class="grid"/>
+<path d="M145 250 H495" class="grid"/>
+<circle cx="378.333" cy="250" r="116.667" class="grid"/>
+<circle cx="407.500" cy="250" r="87.500" class="grid"/>
+<circle cx="436.667" cy="250" r="58.333" class="grid"/>
+<polyline points="320.000,425.000 320.756,408.755 322.745,394.128 325.616,381.024 329.095,369.317 332.975,358.872 337.097,349.557 341.345,341.243 345.634,333.814 349.902,327.165 354.105,321.204 358.214,315.846 362.207,311.022 366.073,306.666 369.804,302.726 373.397,299.152 376.851,295.904 380.169,292.944 383.353,290.241 386.407,287.768 389.337,285.500 392.147,283.415 394.842,281.496 397.428,279.726 399.910,278.089 402.293,276.574 404.582,275.168 406.782,273.863 408.897,272.648 410.932,271.515 412.892,270.458 414.779,269.470 416.598,268.545 418.352,267.678 420.045,266.865 421.680,266.100 423.259,265.381 424.786,264.703 426.263,264.065 427.692,263.462 429.076,262.892 430.417,262.353 431.717,261.843 432.979,261.359 434.203,260.900 435.392,260.465 436.547,260.051 437.670,259.657 438.762,259.283 439.824,258.926 440.859,258.586 441.866,258.261 442.848,257.952 443.805,257.656 444.739,257.373 445.650,257.102 446.539,256.844 447.408,256.596 448.257,256.358 449.086,256.130 449.897,255.912 450.691,255.702 451.467,255.501 452.228,255.308 452.972,255.122 453.702,254.943 454.417,254.771 455.118,254.605 455.805,254.446 456.480,254.292 457.142,254.144 457.792,254.001 458.430,253.864 459.058,253.731 459.674,253.603 460.280,253.479 460.876,253.359 461.462,253.244 462.039,253.132 462.607,253.024 463.166,252.920 463.717,252.819 464.259,252.721 464.794,252.627 465.321,252.535 465.840,252.446 466.353,252.361 466.858,252.278 467.357,252.197 467.850,252.119 468.336,252.043 468.816,251.970 469.290,251.899 469.759,251.830 470.222,251.763 470.680,251.698 471.132,251.635 471.580,251.574 472.023,251.515 472.461,251.457 472.895,251.402 473.325,251.348 473.750,251.295 474.171,251.244 474.588,251.194 475.002,251.146 475.412,251.100 475.818,251.054 476.221,251.011 476.620,250.968 477.016,250.926 477.409,250.886 477.800,250.847 478.187,250.810 478.571,250.773 478.953,250.737 479.332,250.703 479.709,250.669 480.083,250.637 480.455,250.605 480.825,250.575 481.193,250.546 481.558,250.517 481.922,250.489 482.284,250.463 482.644,250.437 483.002,250.412 483.359,250.388 483.714,250.364 484.067,250.342 484.419,250.320 484.770,250.299 485.120,250.279 485.468,250.260 485.815,250.241 486.161,250.223 486.506,250.206 486.850,250.190 487.194,250.174 487.536,250.159 487.878,250.145 488.219,250.131 488.560,250.119 488.900,250.106 489.239,250.095 489.578,250.084 489.917,250.074 490.255,250.064 490.594,250.055 490.932,250.047 491.270,250.040 491.608,250.033 491.946,250.027 492.284,250.021 492.622,250.016 492.961,250.012 493.300,250.008 493.639,250.005 493.978,250.003 494.318,250.001 494.659,250.000 495,250" class="grid"/>
+<polyline points="320.000,75.000 320.756,91.245 322.745,105.872 325.616,118.976 329.095,130.683 332.975,141.128 337.097,150.443 341.345,158.757 345.634,166.186 349.902,172.835 354.105,178.796 358.214,184.154 362.207,188.978 366.073,193.334 369.804,197.274 373.397,200.848 376.851,204.096 380.169,207.056 383.353,209.759 386.407,212.232 389.337,214.500 392.147,216.585 394.842,218.504 397.428,220.274 399.910,221.911 402.293,223.426 404.582,224.832 406.782,226.137 408.897,227.352 410.932,228.485 412.892,229.542 414.779,230.530 416.598,231.455 418.352,232.322 420.045,233.135 421.680,233.900 423.259,234.619 424.786,235.297 426.263,235.935 427.692,236.538 429.076,237.108 430.417,237.647 431.717,238.157 432.979,238.641 434.203,239.100 435.392,239.535 436.547,239.949 437.670,240.343 438.762,240.717 439.824,241.074 440.859,241.414 441.866,241.739 442.848,242.048 443.805,242.344 444.739,242.627 445.650,242.898 446.539,243.156 447.408,243.404 448.257,243.642 449.086,243.870 449.897,244.088 450.691,244.298 451.467,244.499 452.228,244.692 452.972,244.878 453.702,245.057 454.417,245.229 455.118,245.395 455.805,245.554 456.480,245.708 457.142,245.856 457.792,245.999 458.430,246.136 459.058,246.269 459.674,246.397 460.280,246.521 460.876,246.641 461.462,246.756 462.039,246.868 462.607,246.976 463.166,247.080 463.717,247.181 464.259,247.279 464.794,247.373 465.321,247.465 465.840,247.554 466.353,247.639 466.858,247.722 467.357,247.803 467.850,247.881 468.336,247.957 468.816,248.030 469.290,248.101 469.759,248.170 470.222,248.237 470.680,248.302 471.132,248.365 471.580,248.426 472.023,248.485 472.461,248.543 472.895,248.598 473.325,248.652 473.750,248.705 474.171,248.756 474.588,248.806 475.002,248.854 475.412,248.900 475.818,248.946 476.221,248.989 476.620,249.032 477.016,249.074 477.409,249.114 477.800,249.153 478.187,249.190 478.571,249.227 478.953,249.263 479.332,249.297 479.709,249.331 480.083,249.363 480.455,249.395 480.825,249.425 481.193,249.454 481.558,249.483 481.922,249.511 482.284,249.537 482.644,249.563 483.002,249.588 483.359,249.612 483.714,249.636 484.067,249.658 484.419,249.680 484.770,249.701 485.120,249.721 485.468,249.740 485.815,249.759 486.161,249.777 486.506,249.794 486.850,249.810 487.194,249.826 487.536,249.841 487.878,249.855 488.219,249.869 488.560,249.881 488.900,249.894 489.239,249.905 489.578,249.916 489.917,249.926 490.255,249.936 490.594,249.945 490.932,249.953 491.270,249.960 491.608,249.967 491.946,249.973 492.284,249.979 492.622,249.984 492.961,249.988 493.300,249.992 493.639,249.995 493.978,249.997 494.318,249.999 494.659,250.000 495,250" class="grid"/>
+<path d="M378.333 250 H505 M261.667 250 H135 M320 308.333 V435" class="guide"/>
+<circle cx="320" cy="250" r="58.333" class="heavy"/>
+<path d="M378.333 250 A58.333 58.333 0 0 1 261.667 250 m-5 10 5 -10 7 8" class="arrow"/>
+<circle cx="261.667" cy="250" r="5" class="dot"/>
+<circle cx="378.333" cy="250" r="5" class="dot"/>
+<circle cx="320" cy="250" r="3.5" class="center"/>
+<text x="255" y="234" text-anchor="end">25 Ω</text>
+<text x="385" y="234">100 Ω</text>
+<text x="254" y="278" text-anchor="end" class="small">0.5</text>
+<text x="320" y="278" text-anchor="middle" class="small">1</text>
+<text x="386" y="278" class="small">2</text>
+<text x="320" y="167" text-anchor="middle">SWR = 2:1</text>
+<path d="M320 176 V186" class="heavy"/>
+<text x="520" y="257">0</text>
+<text x="120" y="257" text-anchor="end">λ/4</text>
+<text x="320" y="463" text-anchor="middle">λ/8</text>
+</svg>

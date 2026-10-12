@@ -6,6 +6,6 @@ pagebreak: true
 
 ## Chapter 4: Signals and Modulation
 
-A transmitter can carry clear speech or readable data while occupying more bandwidth than it should. Looking at its waveform alone may not reveal the problem. This chapter connects modulation choices to their spectra, showing how information, signal shape, and coding determine what reaches the receiver.
+On its own, an oscillator's steady carrier tells a listener nothing. Every mode on the air, from SSB voice and FM repeaters to CW, FT8, and SSTV, is a different way of putting a message onto a carrier. Each choice also decides how much of the band the signal takes up.
 
-Mixing moves the message to a new frequency, smooth transitions limit unwanted sidebands, and codes let the receiver distinguish states and check for errors. You can use those connections to make sense of an unfamiliar mode—and to find out why a transmitter sounds fine in its own monitor while taking up too much room on the band.
+Every mode, analog or digital, answers the same questions in its own way: how much spectrum it occupies and why, what keeps it from splattering or clicking, and how it balances speed, bandwidth, and reliability. Once you can ask those questions, an unfamiliar mode becomes a set of choices you can evaluate.

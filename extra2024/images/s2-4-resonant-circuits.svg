@@ -1,75 +1,77 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="724" height="234" viewBox="0 0 724 234" role="img" aria-labelledby="title">
-  <title id="title">RLC</title>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="234" viewBox="0 0 760 234" role="img" aria-labelledby="title">
+  <title id="title">Series and parallel RLC circuits at resonance</title>
   <style>
-    .wire{fill:none;stroke:#263445;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
-    .node{fill:#263445}
-    text{font-family:Arial,Helvetica,sans-serif;font-size:26px;font-style:italic;fill:#263445}
+    svg{--ink:#263445;--blue:#1672ac;--orange:#b35c00}
+    .wire{fill:none;stroke:var(--ink);stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+    .node{fill:var(--ink)}
+    text{font-family:Arial,Helvetica,sans-serif;font-size:26px;font-style:italic;fill:var(--ink)}
     .sub{font-size:17px;font-style:normal}
-    .current{fill:none;stroke:#1672ac;stroke-width:2.3;stroke-linecap:round;stroke-linejoin:round}
-    .reactive{fill:none;stroke:#b35c00;stroke-width:2.7;stroke-linecap:round;stroke-linejoin:round}
-    .current-label{fill:#1672ac}
-    .reactive-label{fill:#b35c00}
-    @media(prefers-color-scheme:dark){
-      .wire{stroke:#e6edf3}.node{fill:#e6edf3}text{fill:#e6edf3}
-      .current{stroke:#64b4ed}.current-label{fill:#64b4ed}
-      .reactive{stroke:#f5a851}.reactive-label{fill:#f5a851}
-    }
-    @media print{
-      .wire{stroke:#263445}.node{fill:#263445}text{fill:#263445}
-      .current{stroke:#1672ac}.current-label{fill:#1672ac}
-      .reactive{stroke:#b35c00}.reactive-label{fill:#b35c00}
-    }
+    .current{fill:none;stroke:var(--blue);stroke-width:2.3;stroke-linecap:round;stroke-linejoin:round}
+    .small{fill:none;stroke:var(--blue);stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+    .big{fill:none;stroke:var(--orange);stroke-width:4.5;stroke-linecap:round;stroke-linejoin:round}
+    .loop{fill:none;stroke:var(--orange);stroke-width:3;stroke-linecap:round}
+    .head{fill:var(--orange)}
+    .current-label{fill:var(--blue)}
+    .reactive-label{fill:var(--orange)}
+    @media(prefers-color-scheme:dark){svg{--ink:#e6edf3;--blue:#64b4ed;--orange:#f5a851}}
+    @media print{svg{--ink:#263445;--blue:#1672ac;--orange:#b35c00}}
   </style>
 
-  <!-- Series source, resistor, inductor, and capacitor share one path. -->
+  <!-- Series: source, R, L, and C share one path and one current. -->
   <g class="wire">
-    <path d="M45 100 V55 H119 M183 55 H282 V95 M282 143 V191 H162 M150 191 H45 V146"/>
-    <circle cx="45" cy="123" r="23"/>
-    <path d="M31 123 C36 109 40 109 45 123 S54 137 59 123"/>
-    <path d="M119 55 L125 55 L130 46 L138 64 L146 46 L154 64 L162 46 L170 64 L176 55 H183"/>
-    <path d="M282 95 c-15 0 -15 12 0 12 c-15 0 -15 12 0 12 c-15 0 -15 12 0 12 c-15 0 -15 12 0 12"/>
-    <path d="M150 176 V206 M162 176 V206"/>
+    <path d="M57 100 V55 H131 M195 55 H294 V95 M294 143 V191 H174 M162 191 H57 V146"/>
+    <circle cx="57" cy="123" r="23"/>
+    <path d="M43 123 C48 109 52 109 57 123 S66 137 71 123"/>
+    <path d="M131 55 L137 55 L142 46 L150 64 L158 46 L166 64 L174 46 L182 64 L188 55 H195"/>
+    <path d="M294 95 c-15 0 -15 12 0 12 c-15 0 -15 12 0 12 c-15 0 -15 12 0 12 c-15 0 -15 12 0 12"/>
+    <path d="M162 176 V206 M174 176 V206"/>
   </g>
-  <text x="7" y="129">V</text>
-  <text x="151" y="33" text-anchor="middle">R</text>
-  <text x="303" y="126">L</text>
-  <text x="156" y="228" text-anchor="middle">C</text>
+  <text x="26" y="132" text-anchor="end">E</text>
+  <text x="163" y="33" text-anchor="middle">R</text>
+  <text x="315" y="126">L</text>
+  <text x="168" y="228" text-anchor="middle">C</text>
   <g class="current">
-    <path d="M200 55 H228 M221 50 L228 55 L221 60"/>
-    <path d="M282 153 V181 M277 174 L282 181 L287 174"/>
-    <path d="M218 191 H190 M197 186 L190 191 L197 196"/>
+    <path d="M212 55 H240 M233 50 L240 55 L233 60"/>
+    <path d="M294 153 V181 M289 174 L294 181 L299 174"/>
+    <path d="M230 191 H202 M209 186 L202 191 L209 196"/>
   </g>
-  <text class="current-label" x="214" y="35" text-anchor="middle">I</text>
-  <text class="current-label" x="302" y="173">I</text>
-  <text class="current-label" x="204" y="219" text-anchor="middle">I</text>
+  <text class="current-label" x="226" y="35" text-anchor="middle">I</text>
+  <text class="current-label" x="314" y="173">I</text>
+  <text class="current-label" x="216" y="219" text-anchor="middle">I</text>
 
-  <!-- Parallel R, L, and C share the same two source nodes. -->
+  <!-- Parallel: R, L, and C share the same two source nodes. -->
   <g class="wire">
-    <path d="M394 100 V55 H670 V117 M670 129 V191 H394 V146"/>
-    <circle cx="394" cy="123" r="23"/>
-    <path d="M380 123 C385 109 389 109 394 123 S403 137 408 123"/>
-    <path d="M490 55 V107 L482 113 L498 121 L482 129 L498 137 L482 145 L490 151 V191"/>
-    <path d="M580 55 V101 c-15 0 -15 12 0 12 c-15 0 -15 12 0 12 c-15 0 -15 12 0 12 c-15 0 -15 12 0 12 V191"/>
-    <path d="M655 117 H685 M655 129 H685"/>
+    <path d="M406 100 V55 H712 V125 M712 137 V191 H406 V146"/>
+    <circle cx="406" cy="123" r="23"/>
+    <path d="M392 123 C397 109 401 109 406 123 S415 137 420 123"/>
+    <path d="M502 55 V109 L494 115 L510 123 L494 131 L510 139 L494 147 L502 153 V191"/>
+    <path d="M592 55 V107 c-15 0 -15 12 0 12 c-15 0 -15 12 0 12 c-15 0 -15 12 0 12 c-15 0 -15 12 0 12 V191"/>
+    <path d="M697 125 H727 M697 137 H727"/>
   </g>
   <g class="node">
-    <circle cx="490" cy="55" r="3"/><circle cx="490" cy="191" r="3"/>
-    <circle cx="580" cy="55" r="3"/><circle cx="580" cy="191" r="3"/>
+    <circle cx="502" cy="55" r="3"/><circle cx="502" cy="191" r="3"/>
+    <circle cx="592" cy="55" r="3"/><circle cx="592" cy="191" r="3"/>
   </g>
-  <text x="355" y="129">V</text>
-  <text x="511" y="136">R</text>
-  <text x="601" y="131">L</text>
-  <text x="691" y="130">C</text>
-  <g class="current">
-    <path d="M415 55 H434 M427 50 L434 55 L427 60"/>
-    <path d="M490 77 V96 M485 89 L490 96 L495 89"/>
+  <text x="376" y="132" text-anchor="end">E</text>
+  <text x="523" y="140">R</text>
+  <text x="613" y="140">L</text>
+  <text x="733" y="140">C</text>
+
+  <!-- Small input and resistor currents. -->
+  <g class="small">
+    <path d="M439 55 H455 M450 51 L455 55 L450 59"/>
+    <path d="M502 75 V91 M498 86 L502 91 L506 86"/>
   </g>
-  <text class="current-label" x="425" y="35" text-anchor="middle">I<tspan class="sub" baseline-shift="sub">in</tspan></text>
-  <text class="current-label" x="507" y="89">I<tspan class="sub" baseline-shift="sub">R</tspan></text>
-  <g class="reactive">
-    <path d="M580 97 V67 M575 74 L580 67 L585 74"/>
-    <path d="M670 67 V97 M665 90 L670 97 L675 90"/>
+  <text class="current-label" x="447" y="35" text-anchor="middle">I<tspan dy="5" class="sub">in</tspan></text>
+  <text class="current-label" x="519" y="89">I<tspan dy="5" class="sub">R</tspan></text>
+
+  <!-- Large branch currents in L and C, circulating around the L-C loop. -->
+  <g class="big">
+    <path d="M592 102 V66 M584 75 L592 66 L600 75"/>
+    <path d="M712 66 V102 M704 93 L712 102 L720 93"/>
   </g>
-  <text class="reactive-label" x="597" y="88">I<tspan class="sub" baseline-shift="sub">L</tspan></text>
-  <text class="reactive-label" x="687" y="88">I<tspan class="sub" baseline-shift="sub">C</tspan></text>
+  <path class="loop" d="M655.55 164.25 A20 40 0 1 1 679.32 153.71"/>
+  <polygon class="head" points="675.45,162.93 684.39,155.84 674.25,151.58"/>
+  <text class="reactive-label" x="580" y="89" text-anchor="end">I<tspan dy="5" class="sub">L</tspan></text>
+  <text class="reactive-label" x="729" y="89">I<tspan dy="5" class="sub">C</tspan></text>
 </svg>

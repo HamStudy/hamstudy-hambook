@@ -8,59 +8,56 @@ draft: true
 
 ### Section 6.6: Arrays and Reflectors
 
-A fixed pair of verticals can favor one direction or another without either antenna moving. The change comes from how their fields arrive together at a distant point: reinforcement in one direction, cancellation in another. Element spacing and feed phase give us control over that pattern.
+A Yagi favors one direction, and changing that direction means turning the antenna. Two fixed verticals can favor a direction too, then switch to another without moving; only their feed changes. In the pair, as in the Yagi, fields from separate elements meet at a distant point. They add in some directions and cancel in others. Spacing and the phase of each element's current decide which directions are which.
 
 #### Feed Phase and Travel Phase
 
-To establish the needed delay between driven elements, we can feed them through phasing lines. The phase difference seen at a distant receiver combines that feed delay with the extra travel distance from one element. The pattern follows from the total.
+Here both verticals are driven elements. **Phasing lines**, lengths of feed line that delay the signal to one element, set the phase of each element's current. At a distant point, the phase difference between the two fields combines that feed delay with the extra distance one field travels. The pattern follows from the total.
 
-> **Key Information:** Multiple driven elements connected through phasing lines control an antenna's radiation pattern. {{< link id="E9E11" >}}
+The **array axis** is the line joining the antennas. Consider two quarter-wave verticals spaced half a wavelength apart, with equal currents in phase. Broadside to the axis, the travel distances are equal, so their fields add. Along the axis, the extra half wavelength of travel adds 180 degrees, so their fields cancel.
 
-The *array axis* is the line joining the antennas. Viewed from above, it lies across the ground between the verticals. Consider two quarter-wave verticals spaced half a wavelength apart, with equal currents in phase. Broadside to the line joining them, the travel distances are equal, so their fields add. Along that line, the extra half-wavelength travel adds 180 degrees, so their fields cancel. *The result is a broadside figure-eight pattern.*
+Now feed the same elements 180 degrees apart. Broadside, their fields cancel. Along the axis, a direction sometimes called **end-fire**, the extra travel delay makes up for the feed-phase difference, so the fields arrive in step and add.
 
-Now feed the same elements 180 degrees apart. Broadside, their fields cancel. Along the axis, the extra travel phase cancels the feed-phase difference, and the fields add. *The figure eight turns to point along the array.*
+> **Key Information:**
+> - The purpose of using multiple driven elements connected through phasing lines is to control the antenna's radiation pattern. {{< link id="E9E11" >}}
+> - Two 1/4-wavelength vertical antennas spaced 1/2-wavelength apart and fed in phase create a figure-eight pattern broadside to the axis of the array. {{< link id="E9C03" >}}
+> - The same pair fed 180 degrees out of phase creates a figure-eight pattern oriented along the axis of the array. {{< link id="E9C01" >}}
 
-> **Key Information:** For two quarter-wave verticals spaced one-half wavelength apart:
-> - In-phase feeding produces a figure eight broadside to the array's axis. {{< link id="E9C03" >}}
-> - Feeding 180 degrees out of phase produces a figure eight along the array's axis. {{< link id="E9C01" >}}
+![Two plan-view radiation patterns for identical pairs of quarter-wave verticals spaced half a wavelength apart. In both panels two dots represent the verticals along a horizontal array axis. With zero feed-phase difference, the figure-eight lobes point above and below that axis and nulls lie along it. With a 180-degree feed-phase difference, the lobes point left and right along the axis and the nulls lie broadside. The curves are simplified horizontal patterns calculated from spacing and feed phase for equal element currents, plotted as normalized field strength.](../../../images/s6-6-array-phase.svg)
+{.img-centered .img-xlarge .img-mobile-full caption="Δφ is the feed-phase difference. The in-phase pair favors broadside directions; reversing the phase of one element favors directions along the array. Dots mark the verticals in this view from above. Curves show simplified horizontal patterns for equal element currents, not physical distances."}
 
-![Two plan-view radiation patterns for identical pairs of quarter-wave verticals spaced half a wavelength apart. In both panels two dots represent the verticals along a horizontal array axis. With zero feed-phase difference, the figure-eight lobes point above and below that axis and nulls lie along it. With a 180-degree feed-phase difference, the lobes point left and right along the axis and the nulls lie broadside. The curves are simplified horizontal array-factor patterns for equal element currents, plotted as normalized field strength.](/images/s6-6-array-phase.svg)
-{.img-centered .img-xlarge caption="Same spacing, different feed phase. The in-phase pair favors broadside directions; reversing the phase of one element favors directions along the array. Dots mark the verticals in this view from above. Curves show simplified horizontal patterns for equal element currents, not physical distances."}
+Quarter-wave spacing and a 90-degree feed difference give another useful pattern. Along one direction, the travel delay makes up for the feed delay, so the fields arrive in step and add. In the opposite direction, the two phase differences total 180 degrees, so the fields cancel and produce a null. The favored direction points from the element whose feed leads toward the one that lags, so reversing which element leads reverses the pattern.
 
-Quarter-wave spacing and a 90-degree feed difference give another useful pattern. Along one direction, travel and feed phase cancel; along the opposite direction, they add to 180 degrees. One direction is strong and the opposite direction has a null. *The resulting heart-shaped pattern is called a cardioid.*
+![A plan-view radiation pattern for two quarter-wave verticals spaced a quarter wavelength apart, with a 90-degree feed-phase difference. Two dots on a horizontal array axis mark the verticals. The left one is labeled leads and the right one lags, with a quarter-wavelength dimension between them. A heart-shaped cardioid is drawn centered on the midpoint between them, so its pinched point falls between the two dots and the leading element sits just outside the curve. Its single broad lobe extends to the right, beyond the lagging element, where an arrow marks the favored direction. To the left the response falls to zero, and an arrow pointing left marks the null. The curve is a simplified horizontal pattern for equal element currents. Its distance from the midpoint shows normalized field strength in each direction, not a physical distance, so the dots' positions relative to the curve have no meaning.](../../../images/s6-6-cardioid.svg)
+{.img-centered .img-med .img-mobile-full caption="With quarter-wave spacing and a 90-degree feed difference, the pattern favors the direction from the leading element toward the lagging one and has a single null in the opposite direction."}
 
-> **Key Information:** Two quarter-wave verticals spaced one-quarter wavelength apart and fed 90 degrees out of phase produce a cardioid pattern. {{< link id="E9C02" >}}
+> **Key Information:** Two 1/4-wavelength vertical antennas spaced 1/4-wavelength apart and fed 90 degrees out of phase create a cardioid radiation pattern. {{< link id="E9C02" >}}
 
-Reversing which element leads reverses the favored direction. The null is a useful check on your construction: amplitude or phase errors fill it in. Equal feed-line lengths alone do not guarantee the intended result if the elements and their surroundings differ.
+The depth of the null is a useful check on construction: amplitude or phase errors fill it in.
 
 #### Phase From Parasitic Elements
 
-A Yagi obtains useful phase differences without separate feed lines to every element. *Its directly fed element is approximately half a wavelength long.* Fields from it induce currents in the parasitic elements, whose phase and amplitude depend on their lengths and spacing. Their reradiated fields then reshape the combined pattern.
+A Yagi obtains useful phase differences without feeding every element. Only its driven element connects to the feed line. Fields from it induce currents in the parasitic elements, and those elements reradiate. The phase of each induced current depends on the element's length and spacing. An element longer than resonant length is inductive, so its current lags the voltage induced in it. A shorter element is capacitive, like the short whip in the previous section, so its current leads. As with the phased verticals, that phase and the spacing together decide on which side the fields add. That is why designers make a reflector longer than resonant length and a director shorter.
+
+A two-element Yagi can use either one. A reflector usually sits around 0.15 to 0.2 wavelength from the driven element. A director does as well only at closer spacing, about 0.1 wavelength, where the feed resistance falls low enough to make matching harder.
 
 > **Key Information:**
-> - A Yagi's driven element is approximately one-half wavelength long. {{< link id="E9D05" >}}
-> - Making parasitic elements longer or shorter than resonance controls their phase shift. {{< link id="E9D12" >}}
-
-A reflector is normally longer than resonant length; a director is shorter. Those names describe their role in the combined field. The reflector does not act as a solid metal wall, and the director has no feed line pushing power into it.
-
-> **Key Information:** For a two-element Yagi with normal spacing, a reflector is preferred to a director for higher gain. {{< link id="E9D11" >}}
-
-Spacing, tuning, gain, and front-to-back ratio interact. That comparison does not mean every possible two-element director design has lower gain. A designer may trade some maximum forward gain for a better rear null or a wider operating range.
+> - A Yagi's driven element is approximately 1/2 wavelength long. {{< link id="E9D05" >}}
+> - The purpose of making a Yagi's parasitic elements either longer or shorter than resonance is control of phase shift. {{< link id="E9D12" >}}
+> - Most two-element Yagis with normal spacing have a reflector instead of a director for higher gain. {{< link id="E9D11" >}}
 
 #### Rotating the Polarization
 
-A Yagi pair can also control polarization. To produce a rotating field, combine two perpendicular linear fields with equal amplitudes, 90 degrees apart in phase. When one field is at its maximum, the other passes through zero; a quarter-cycle later, their roles reverse. Their combined electric field rotates.
+A 90-degree phase difference can also set polarization. Circular polarization, often used for satellite work, comes from two perpendicular linear fields of equal strength, a quarter cycle apart, as [Section 6.1]({{% pageref "6.1" %}}) showed. Two Yagis can supply those fields when they share one boom with their elements at right angles. Their driven elements must sit at the same point along the boom, because an offset would add its own travel phase.
 
-> **Key Information:** To obtain circular polarization from two linear Yagis, place them on the same axis, perpendicular to each other, with their driven elements at the same point along the boom, and feed them 90 degrees out of phase. {{< link id="E9D02" >}}
-
-Equal amplitudes are also needed for ideal circular polarization. If the amplitudes or timing are wrong, the field generally becomes elliptical. Spatial placement matters because a displacement along the boom adds its own travel phase.
+> **Key Information:** Two linearly polarized Yagi antennas can produce circular polarization when arranged on the same axis and perpendicular to each other, with the driven elements at the same point on the boom and fed 90 degrees out of phase. {{< link id="E9D02" >}}
 
 #### Dish Gain and Frequency
 
-A dish used on two bands can have different gain on each even though its physical size stays the same. The parabolic reflector directs energy from its feed into a narrow beam, and its gain depends on aperture size in wavelengths. With unchanged efficiency, doubling frequency halves wavelength. The dish becomes twice as wide in wavelengths and four times as large in wavelength-squared area.
+A parabolic dish, the shape familiar from satellite TV, reflects energy from a feed at its focus into a narrow beam. Its gain is proportional to its area measured in square wavelengths, so the same dish has more gain on a higher band. Doubling frequency halves wavelength. The dish then spans twice as many wavelengths across, so its area in square wavelengths, and its gain, grow by a factor of four.
 
 $$\text{Gain increase}=10\log_{10}(4)\approx6\text{ dB}.$$
 
-> **Key Information:** Doubling frequency increases an ideal parabolic reflector's gain by 6 dB. {{< link id="E9D01" >}}
+> **Key Information:** Doubling the operating frequency increases the gain of an ideal parabolic reflector antenna by 6 dB. {{< link id="E9D01" >}}
 
-The beam also narrows, so pointing becomes more demanding. A real dish must retain suitable surface accuracy and feed performance at the higher frequency for the ideal gain increase to hold.
+A real dish delivers that full increase only if its surface accuracy and feed still perform well at the higher frequency. Its narrower beam also demands more careful pointing.

@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="730" height="440" viewBox="0 0 730 440" role="img" aria-labelledby="title"><title id="title">Tying off to a lattice tower leg above head level</title><style>svg{--ink:#263445;--muted:#586777;--blue:#1672ac;--orange:#b35c00;--green:#267c67;--red:#be2d42}text{font-family:Arial,Helvetica,sans-serif;font-size:18px;fill:var(--ink)}.small{font-size:16px}.mid{text-anchor:middle}.end{text-anchor:end}.leg{stroke:var(--ink);stroke-width:6;fill:none}.rung{stroke:var(--ink);stroke-width:3;fill:none}.brace{stroke:var(--muted);stroke-width:2.5;fill:none;stroke-linejoin:round}.guy{stroke:var(--muted);stroke-width:2;fill:none}.lead{stroke:var(--muted);stroke-width:1.2;fill:none}.body{stroke:var(--blue);stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round}.head{fill:var(--blue)}.ghost{stroke:var(--muted);stroke-width:3;fill:none;stroke-linecap:round}.ghosthead{fill:none;stroke:var(--muted);stroke-width:3}.lan{stroke:var(--orange);stroke-width:3.5;fill:none;stroke-linecap:round}.lan2{stroke:var(--orange);stroke-width:3;fill:none;stroke-dasharray:8 5;stroke-linecap:round}.hook{fill:none;stroke:var(--orange);stroke-width:3}.dring{fill:var(--orange)}.fall{stroke:var(--red);stroke-width:3;fill:none}.otext{fill:var(--orange)}.rtext{fill:var(--red)}.mtext{fill:var(--muted)}@media(prefers-color-scheme:dark){svg{--ink:#e6edf3;--muted:#a2b5c9;--blue:#64b4ed;--orange:#f5a851;--green:#70c4ad;--red:#ff8190}}@media print{svg{--ink:#263445;--muted:#586777;--blue:#1672ac;--orange:#b35c00;--green:#267c67;--red:#be2d42}}</style><defs><marker id="oarrow" markerWidth="10" markerHeight="10" refX="7" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,1 L8,5 L1,9" fill="none" stroke="var(--orange)" stroke-width="2"/></marker><marker id="rarrow" markerWidth="10" markerHeight="10" refX="7" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,1 L8,5 L1,9" fill="none" stroke="var(--red)" stroke-width="2"/></marker></defs>
+<!-- Tower section -->
+<rect x="198" y="12" width="14" height="48" fill="none" stroke="var(--ink)" stroke-width="2.5"/>
+<text x="222" y="38" class="small">mast</text>
+<line x1="138" y1="60" x2="272" y2="60" stroke="var(--ink)" stroke-width="4"/>
+<path d="M150 60L260 110L150 160L260 210L150 260L260 310L150 360L260 410" class="brace"/>
+<path d="M150 110H260M150 160H260M150 210H260M150 260H260M150 310H260M150 360H260M150 410H260" class="rung"/>
+<line x1="150" y1="60" x2="150" y2="428" class="leg"/>
+<line x1="260" y1="60" x2="260" y2="428" class="leg"/>
+<path d="M147 66L124 73L147 82Z" fill="var(--ink)"/>
+<line x1="126" y1="74" x2="18" y2="300" class="guy"/>
+<text x="12" y="44" class="small">guy bracket</text>
+<line x1="70" y1="50" x2="122" y2="70" class="lead"/>
+<text x="282" y="336" class="small">leg</text>
+<line x1="279" y1="331" x2="265" y2="331" class="lead"/>
+<text x="138" y="416" class="small end">rung</text>
+<text x="138" y="380" class="small end">brace</text>
+<line x1="141" y1="375" x2="176" y2="372" class="lead"/>
+<!-- Climber, seen from behind, facing the tower -->
+<path d="M205 248V300M205 300L192 360M205 300L218 360M205 260L154 232M205 260L256 232" class="body"/>
+<circle cx="205" cy="235" r="13" class="head"/>
+<path d="M205 262C226 252 250 224 258 196" class="lan"/>
+<circle cx="260" cy="190" r="6" class="hook"/>
+<path d="M205 262C186 232 166 186 157 152" class="lan2" marker-end="url(#oarrow)"/>
+<circle cx="205" cy="262" r="5" class="dring"/>
+<text x="284" y="176" class="small otext">shock-absorbing</text>
+<text x="284" y="195" class="small otext">lanyard</text>
+<line x1="281" y1="190" x2="268" y2="190" class="lead"/>
+<text x="138" y="202" class="small end otext">second</text>
+<text x="138" y="221" class="small end otext">lanyard</text>
+<line x1="141" y1="210" x2="168" y2="198" class="lead"/>
+<!-- Fall-distance comparison: gray outline before the fall, blue figure where the lanyard catches -->
+<text x="500" y="96" class="small mid">anchor</text>
+<text x="500" y="115" class="small mid">above head</text>
+<text x="634" y="96" class="small mid">anchor</text>
+<text x="634" y="115" class="small mid">at waist</text>
+<line x1="468" y1="135" x2="468" y2="365" class="leg"/>
+<line x1="600" y1="135" x2="600" y2="365" class="leg"/>
+<circle cx="522" cy="168" r="9" class="ghosthead"/>
+<path d="M522 178V224M522 224L516 252M522 224L528 252" class="ghost"/>
+<circle cx="654" cy="168" r="9" class="ghosthead"/>
+<path d="M654 178V224M654 224L648 252M654 224L660 252" class="ghost"/>
+<path d="M471 151L490 222" class="lan"/>
+<circle cx="468" cy="150" r="5" class="dring"/>
+<path d="M603 215L622 286" class="lan"/>
+<circle cx="600" cy="214" r="5" class="dring"/>
+<path d="M490 212V258M490 258L484 286M490 258L496 286" class="body"/>
+<circle cx="490" cy="202" r="9" class="head"/>
+<path d="M622 276V322M622 322L616 350M622 322L628 350" class="body"/>
+<circle cx="622" cy="266" r="9" class="head"/>
+<circle cx="490" cy="222" r="4" class="dring"/>
+<circle cx="622" cy="286" r="4" class="dring"/>
+<circle cx="522" cy="188" r="4" class="dring"/>
+<circle cx="654" cy="188" r="4" class="dring"/>
+<line x1="545" y1="188" x2="545" y2="220" class="fall" marker-end="url(#rarrow)"/>
+<line x1="677" y1="188" x2="677" y2="284" class="fall" marker-end="url(#rarrow)"/>
+<line x1="539" y1="188" x2="551" y2="188" class="fall"/>
+<line x1="671" y1="188" x2="683" y2="188" class="fall"/>
+<text x="552" y="245" class="small rtext">short</text>
+<text x="552" y="264" class="small rtext">fall</text>
+<text x="684" y="222" class="small rtext">long</text>
+<text x="684" y="241" class="small rtext">fall</text>
+</svg>

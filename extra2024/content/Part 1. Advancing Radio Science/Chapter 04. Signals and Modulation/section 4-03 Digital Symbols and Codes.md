@@ -8,57 +8,57 @@ draft: true
 
 ### Section 4.3: Digital Symbols and Codes
 
-Sending more bits need not mean changing the signal more often. We can give each symbol more possible states, provided the receiver can still tell them apart. The choices involve both modulation and coding: how states carry bits, how bits represent characters, and how the receiver handles mistakes.
+Each tone an RTTY signal sends stands for one bit, because RTTY chooses between only two. FT8 picks from eight, so each of its tones stands for three bits. Counting tones sent and counting bits are different measures, and the gap between them lets a signal carry more data without changing any faster. Codes then turn text into bits and catch the mistakes noise causes.
 
 #### Counting Symbols
 
-A digital transmitter divides time into symbol intervals. During each interval it sends the state chosen by the data. Repeated symbols can leave the waveform unchanged, but the scheduled opportunities to send a new symbol still count toward symbol rate.
+Each of those tones is a symbol, one signal state sent during a fixed time interval. How often the transmitter can send a new one sets the pace of the whole signal.
 
 > **Key Information:**
-> - Symbol rate is the rate at which the waveform changes to convey information. {{< link id="E8C02" >}}
+> - The symbol rate in a digital transmission is the rate at which the waveform changes to convey information. {{< link id="E8C02" >}}
 > - Symbol rate and baud are the same: one baud is one symbol per second. {{< link id="E8C11" >}}
 
-A two-state system sending 1,000 symbols per second carries 1,000 raw bits per second. A four-state system at the same symbol rate can carry 2,000 raw bits per second. Message overhead and error-control information reduce the rate available for useful text or other data.
+A repeated symbol can leave the waveform unchanged, but each scheduled chance to change still counts toward the symbol rate. A two-state system sending 1,000 symbols per second carries 1,000 raw bits per second. A four-state system at the same symbol rate can carry 2,000.
 
 #### The Constellation Diagram
 
-QPSK carries bit pairs in four phase states at a common amplitude. To provide more symbol choices, *quadrature amplitude modulation, or QAM, varies amplitude as well as phase*. It does this by independently varying the amplitudes of two same-frequency carriers in quadrature—90 degrees apart—and adding them. Their two component values set the sum's amplitude and phase.
+Quadrature phase-shift keying, or QPSK, carries bit pairs in four phase states, 90 degrees apart, at a common amplitude. Adding amplitude changes gives more symbol choices. One way sums two carriers of the same frequency, 90 degrees apart: the in-phase, or I, carrier and the quadrature, or Q, carrier. Varying the two amplitudes separately changes both the amplitude and the phase of their sum.
 
-> **Key Information:** QAM, or quadrature amplitude modulation, carries data by modulating the amplitudes of two carriers at the same frequency and 90 degrees apart in phase. {{< link id="E8C01" >}}
-
-A constellation diagram plots the possible combinations as points. Its horizontal axis represents the in-phase component; its vertical axis represents the quadrature component. *A point's distance from the center gives its amplitude, and its angle gives its phase.*
-
-![Two constellation plots share in-phase I and quadrature Q axes. QPSK has four equally distant points around the origin, labeled 00, 01, 11, and 10 in order so neighboring states differ by one bit. The 16-QAM plot has sixteen points in a square grid at several distances and angles from the origin. A radius to a sample point represents amplitude; its angle from the positive I axis represents phase.](/images/s4-3-constellations.svg)
-{.img-centered .img-xlarge caption="Each dot is one possible symbol. QPSK carries two bits per symbol at a fixed amplitude; 16-QAM carries four bits per symbol and also uses different amplitudes. Radius A gives amplitude; angle φ gives phase. The I and Q axes are the two components, not two transmitted messages."}
+A constellation diagram plots each possible combination as a dot. Its horizontal axis shows the I carrier's amplitude, and its vertical axis shows the Q carrier's. As on the impedance graph in Section 2.2, each dot also marks the tip of an arrow from the center. The arrow's length is the symbol's amplitude, and its angle is its phase.
 
 > **Key Information:**
-> - A QAM or QPSK constellation diagram shows the possible phase and amplitude states for each symbol. {{< link id="E8C13" >}}
-> - A more efficient digital code can increase data rate without increasing bandwidth. {{< link id="E8C10" >}}
+> - Quadrature amplitude modulation, or QAM, is the transmission of data by modulating the amplitude of two carriers of the same frequency but 90 degrees out of phase. {{< link id="E8C01" >}}
+> - The constellation diagram of a QAM or QPSK signal describes the possible phase and amplitude states for each symbol. {{< link id="E8C13" >}}
 
-For example, sixteen distinct symbol states can represent four bits each. That moves more bits in each symbol interval. Look at the gaps between the dots, though. Noise can move a received point toward the wrong dot, so adding states demands a cleaner signal. More choices do not come free.
+![Two constellation plots each have a horizontal in-phase axis, I, and a vertical quadrature axis, Q. In the QPSK plot at left, four points sit on a dashed circle around the origin, so all have the same amplitude. Starting at upper right and going counterclockwise, they are labeled 00, 01, 11, and 10, so neighboring points differ by one bit. A line from the origin to the 00 point is marked A for amplitude, and its angle from the positive I axis is marked phi for phase. The 16-QAM plot at right has sixteen points in a four-by-four square grid, at several distances and angles from the origin.](../../../images/s4-3-constellations.svg)
+{.img-centered .img-xlarge caption="Each dot is one possible symbol. QPSK carries two bits per symbol at a fixed amplitude; 16-QAM carries four bits per symbol and also uses different amplitudes. Radius A gives amplitude; angle φ gives phase. The I and Q axes show the amplitudes of the two carriers."}
 
-The bit labels also matter. Ordinary binary counting from 01 to 10 changes both bits. *A two-bit Gray-code sequence, 00, 01, 11, 10, changes only one bit at each step.* Assigning nearby constellation points this way limits the bit damage when noise makes the receiver choose a neighboring point.
+With 16-QAM's sixteen states, each symbol can carry four bits, twice QPSK's two. Packing more bits into each symbol makes a code more efficient. Bandwidth depends mainly on symbol rate, not on bits per symbol. Each added state, though, crowds the dots closer together. Noise can move a received point toward the wrong dot, so adding states demands a cleaner signal.
 
-> **Key Information:** Gray code changes only one bit between sequential code values. {{< link id="E8C09" >}}
+The bit labels also matter. Ordinary binary counting from 01 to 10 changes both bits. Labeling the QPSK dots 00, 01, 11, 10 in order around the circle changes just one bit between neighbors. When noise makes the receiver choose a neighboring dot, only one bit comes out wrong.
+
+> **Key Information:**
+> - Data rate can be increased without increasing bandwidth by using a more efficient digital code. {{< link id="E8C10" >}}
+> - Gray code allows only one bit to change between sequential code values. {{< link id="E8C09" >}}
 
 #### Turning Text into Bits
 
-*Baudot's five data bits provide only $2^5=32$ patterns*, too few to give every letter, number, punctuation mark, and control function a separate one. *Two special patterns switch the interpretation of following characters between letters and figures*, allowing the code to reuse its patterns. The same five-bit value can therefore mean a letter in one state and a number or punctuation mark in the other. Miss a shift code and a run of perfectly received bits can print as the wrong characters. The receiver needs the current shift state as well as the bits.
+Every added bit doubles the number of patterns a code can make. RTTY's Baudot code has only $2^5=32$, too few to give every letter, number, punctuation mark, and control function its own. Special shift characters tell the receiver to read the following characters as letters or as figures, so each pattern can do double duty. Miss a shift and a run of perfectly received bits can print as the wrong characters.
 
-ASCII has a larger set of patterns. *Standard ASCII uses seven data bits; extended character sets use eight.* *It does not need the letters/figures shifts used by Baudot.*
+ASCII, the American Standard Code for Information Interchange, uses more bits. Its standard form has $2^7=128$ patterns, and extended sets double that. Even 128 covers 26 capital letters, 26 small ones, and all the digits, punctuation marks, and control codes, each with a pattern of its own.
 
 > **Key Information:**
-> - Baudot uses five data bits per character and two letters/figures shift codes. ASCII uses seven or eight data bits and has no letters/figures shift code. {{< link id="E8D10" >}}
-> - ASCII can transmit both uppercase and lowercase text. {{< link id="E8D11" >}}
+> - Baudot uses 5 data bits per character and ASCII uses 7 or 8; Baudot uses 2 characters as letters/figures shift codes, and ASCII has no letters/figures shift code. {{< link id="E8D10" >}}
+> - One advantage of using ASCII code for data communications is that it can transmit both uppercase and lowercase text. {{< link id="E8D11" >}}
 
 #### Detect, Request, or Repair
 
-To check an ASCII character for a damaged bit, the sender can add a *parity bit*. With even parity, the sender chooses the extra bit so the total number of ones is even. If one bit changes in transit, the receiver counts an odd number and knows an error occurred. Two flipped bits can escape this check, and parity alone does not identify which bit is wrong.
+To check an ASCII character for a damaged bit, the sender can add a **parity bit**. With even parity, the sender chooses the extra bit so the total number of ones is even. If one bit changes in transit, the receiver counts an odd number and knows an error occurred. Two flipped bits can escape this check, and parity alone does not identify which bit is wrong.
 
-> **Key Information:** Parity bits allow some types of errors in ASCII characters to be detected. {{< link id="E8D06" >}}
+Detection alone does not repair the character. On a link where the receiver can talk back, **automatic repeat request**, or ARQ, takes care of that, at the cost of time for the repeat.
 
-Detection alone does not repair the character. *Automatic repeat request, or ARQ, asks for damaged information again*, which requires a return path and time for the repeat.
+> **Key Information:**
+> - The advantage of including parity bits in ASCII characters is that some types of errors can be detected. {{< link id="E8D06" >}}
+> - ARQ accomplishes error correction by requesting a retransmission if errors are detected. {{< link id="E8C08" >}}
 
-> **Key Information:** ARQ corrects errors by requesting retransmission when errors are detected. {{< link id="E8C08" >}}
-
-When repeats would be slow or impossible, forward error correction (FEC) spends more capacity on structured check information instead. It lets the receiver repair some errors without a return request. Error detection, ARQ, and FEC do different jobs even when one protocol combines them.
+When repeats would be slow or impossible, forward error correction (FEC) sends extra check information along with the data. The receiver can then repair some errors without asking for a repeat.

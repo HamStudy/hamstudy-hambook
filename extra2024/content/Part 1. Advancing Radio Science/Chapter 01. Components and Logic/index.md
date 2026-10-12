@@ -6,6 +6,6 @@ pagebreak: true
 
 ## Chapter 1: Components and Logic
 
-Choosing a component takes more than recognizing its symbol. A diode suited to a power supply may perform poorly in a receiver's RF detector. A transistor needs enough gain at the intended frequency, and a coil's core must handle the current without wasting too much signal energy. The useful details lie in how each device behaves in its circuit.
+Two parts with the same schematic symbol can behave very differently. A transistor with plenty of gain at audio frequencies may have too little at the frequency you need, and a coil wound on the wrong core can waste the signal it's meant to pass. The reasons lie in how each part is built.
 
-We'll build on rectifiers, amplifiers, and logic gates to examine those choices. Semiconductor junctions and magnetic materials explain many of them; at higher frequencies, the package and wiring matter too. The chapter then turns to logic circuits that compare inputs, share connections, store bits, and produce timing signals.
+Connect a part's construction to its behavior, and you can predict how a diode, transistor, coil, or chip will act in a circuit and judge whether it suits the job. The same look inside shows how simple logic circuits make decisions and keep time. Every circuit ahead uses these parts.

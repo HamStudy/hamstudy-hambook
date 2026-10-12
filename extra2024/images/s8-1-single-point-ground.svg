@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="380" viewBox="0 0 780 380" role="img" aria-labelledby="title"><title id="title">A single point ground panel compared with separate grounds</title><style>svg{--ink:#263445;--muted:#586777;--blue:#1672ac;--orange:#b35c00;--green:#267c67;--red:#be2d42;--soil:#8a7a63}text{font-family:Arial,Helvetica,sans-serif;font-size:18px;fill:var(--ink)}.small{font-size:16px}.mid{text-anchor:middle}.end{text-anchor:end}.head{font-weight:bold}.gnd{stroke:var(--soil);stroke-width:3;fill:none}.wall{fill:var(--muted);fill-opacity:.35}.panel{fill:var(--blue);fill-opacity:.22;stroke:var(--blue);stroke-width:2}.prot{fill:var(--orange)}.wire{stroke:var(--ink);stroke-width:2.5;fill:none;stroke-linejoin:round}.coax{stroke:var(--ink);stroke-width:4;fill:none}.box{fill:none;stroke:var(--ink);stroke-width:2}.rod{stroke:var(--ink);stroke-width:5}.bond{stroke:var(--green);stroke-width:3.5;fill:none;stroke-linejoin:round}.gdot{fill:var(--green)}.surge{stroke:var(--red);stroke-width:4;fill:none;stroke-linejoin:round;stroke-opacity:.85}.mtext{fill:var(--muted)}.btext{fill:var(--blue)}.gtext{fill:var(--green)}.rtext{fill:var(--red)}@media(prefers-color-scheme:dark){svg{--ink:#e6edf3;--muted:#a2b5c9;--blue:#64b4ed;--orange:#f5a851;--green:#70c4ad;--red:#ff8190;--soil:#b9a68a}}@media print{svg{--ink:#263445;--muted:#586777;--blue:#1672ac;--orange:#b35c00;--green:#267c67;--red:#be2d42;--soil:#8a7a63}}</style><defs><marker id="rarrow" markerWidth="12" markerHeight="12" refX="8" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,1 L9,6 L1,11" fill="none" stroke="var(--red)" stroke-width="2.4"/></marker></defs>
+<!-- Left: single point ground panel -->
+<text x="190" y="24" class="mid head">single point ground</text>
+<text x="60" y="54" class="small mid mtext">outside</text>
+<text x="255" y="54" class="small mid mtext">inside</text>
+<rect x="120" y="64" width="14" height="226" class="wall"/>
+<line x1="10" y1="290" x2="370" y2="290" class="gnd"/>
+<rect x="136" y="76" width="14" height="170" class="panel"/>
+<path d="M10 100H134M152 100H240" class="wire"/>
+<path d="M10 140H134M152 140H240" class="coax"/>
+<path d="M152 196H320V170M152 208H220V239H240" class="wire"/>
+<rect x="132" y="92" width="22" height="16" class="prot"/>
+<rect x="132" y="132" width="22" height="16" class="prot"/>
+<rect x="132" y="190" width="22" height="24" class="prot"/>
+<text x="14" y="93" class="small">rotator</text>
+<text x="14" y="133" class="small">coax</text>
+<text x="196" y="190" class="small">AC</text>
+<rect x="240" y="86" width="110" height="28" class="box"/>
+<text x="295" y="106" class="small mid">control</text>
+<rect x="240" y="126" width="110" height="44" class="box"/>
+<text x="295" y="154" class="mid">radio</text>
+<rect x="240" y="222" width="110" height="34" class="box"/>
+<text x="295" y="245" class="small mid">AC service</text>
+<path d="M143 246V276H100V290" class="bond"/>
+<text x="156" y="270" class="small btext">panel</text>
+<line x1="30" y1="290" x2="30" y2="345" class="rod"/>
+<line x1="100" y1="290" x2="100" y2="345" class="rod"/>
+<line x1="330" y1="256" x2="330" y2="290" class="wire"/>
+<line x1="330" y1="290" x2="330" y2="345" class="rod"/>
+<path d="M30 318H330" class="bond"/>
+<circle cx="30" cy="318" r="5" class="gdot"/>
+<circle cx="100" cy="318" r="5" class="gdot"/>
+<circle cx="330" cy="318" r="5" class="gdot"/>
+<text x="215" y="310" class="small mid gtext">bonded</text>
+<text x="8" y="368" class="small">tower ground</text>
+<text x="372" y="368" class="small end">service ground</text>
+<!-- Right: separate grounds -->
+<text x="590" y="24" class="mid head">separate grounds</text>
+<text x="465" y="54" class="small mid mtext">outside</text>
+<text x="655" y="54" class="small mid mtext">inside</text>
+<rect x="520" y="64" width="14" height="226" class="wall"/>
+<line x1="410" y1="290" x2="770" y2="290" class="gnd"/>
+<path d="M410 140H640" class="coax"/>
+<rect x="494" y="132" width="22" height="16" class="prot"/>
+<path d="M505 148V290" class="bond"/>
+<line x1="505" y1="290" x2="505" y2="345" class="rod"/>
+<rect x="640" y="126" width="110" height="44" class="box"/>
+<text x="695" y="154" class="mid">radio</text>
+<path d="M730 170V222" class="wire"/>
+<rect x="640" y="222" width="110" height="34" class="box"/>
+<text x="648" y="245" class="small">AC service</text>
+<line x1="730" y1="256" x2="730" y2="290" class="wire"/>
+<line x1="730" y1="290" x2="730" y2="345" class="rod"/>
+<text x="617" y="324" class="small mid mtext">not bonded</text>
+<text x="414" y="164" class="small">coax</text>
+<path d="M412 128H742V322" class="surge" marker-end="url(#rarrow)"/>
+<text x="414" y="119" class="small rtext">surge</text>
+<text x="772" y="368" class="small end">service ground</text>
+</svg>
