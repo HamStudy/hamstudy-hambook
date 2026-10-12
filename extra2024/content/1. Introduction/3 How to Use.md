@@ -5,7 +5,7 @@ draft: true
 
 # How to Use This HamBook
 
-This HamBook is designed to help you prepare for the Amateur Extra exam quickly or build a deeper understanding of radio theory and operation. The same sections support both approaches: highlights identify the exam facts, and the surrounding explanations help you understand and apply them.
+This HamBook helps you prepare for the Amateur Extra exam quickly or build a deeper understanding of radio theory and operation. The same sections support both approaches: highlights identify the exam facts, and the surrounding explanations help you understand and apply them.
 
 ## The Two Parts
 
