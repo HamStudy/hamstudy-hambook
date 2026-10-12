@@ -2,6 +2,7 @@ const fs = require('fs/promises');
 const path = require('path');
 const { formatPoolData } = require('../pool-utils');
 const { writeFrontMatter } = require('../utils');
+const { removeStaleFiles } = require('./stale-files');
 
 async function loadSpokenOverrides(sourceDir, lang) {
     const candidates = [];
@@ -143,6 +144,7 @@ async function writeAudiobookDirectoryBook(book, outputPath, sourcePath, lang = 
     await fs.writeFile(poolFilePath, JSON.stringify(poolData, null, 2));
 
     const sectionFiles = [];
+    const writtenSectionFiles = [];
 
     const saveSection = async (section, index) => {
         const sanitizedTitle = section.title.replace(/[^\w\s-]/g, '').replace(/\s+/g, '-').toLowerCase();
@@ -160,6 +162,7 @@ async function writeAudiobookDirectoryBook(book, outputPath, sourcePath, lang = 
         const contentWithFrontmatter = writeFrontMatter(frontMatter) + section.content;
         await fs.writeFile(filePath, contentWithFrontmatter);
         sectionFiles.push({ title: section.title, filename });
+        writtenSectionFiles.push(filePath);
     };
 
     const processSections = async (sections) => {
@@ -187,6 +190,9 @@ async function writeAudiobookDirectoryBook(book, outputPath, sourcePath, lang = 
     if (book.conclusion) {
         await saveSection(book.conclusion, fileIndex++);
     }
+
+    // Narrow pattern on purpose: build-m4b artifacts (.md.json, .mp3) share this dir.
+    await removeStaleFiles(outDir, writtenSectionFiles, /^\d{2,}-.+\.md$/);
 
     const rootIndexSection = getRootIndexSection(book);
     const rootFrontMatter = rootIndexSection?.frontMatter || {};

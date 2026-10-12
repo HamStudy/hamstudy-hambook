@@ -4,6 +4,7 @@ const crypto = require('crypto');
 const { writeFrontMatter, getTitleSlug, adjustMarkdownHeaders, getLinkSlug } = require('../utils');
 const { processImages } = require('../image-utils');
 const { formatPoolData } = require('../pool-utils');
+const { removeStaleFiles } = require('./stale-files');
 
 const hugoRelImgPath = '/images';
 
@@ -46,12 +47,15 @@ async function writeHugoMultilingualBook(books, outputPath, sourcePath) {
     // Always process and write the main pool.json to data/questions.json
     const mainPoolPath = path.join(sourcePath, 'pool.json');
     const dataDir = path.join(outputPath, 'data');
+    const writtenDataFiles = [];
     await fs.mkdir(dataDir, { recursive: true });
     if (await fs.stat(mainPoolPath).then(() => true, () => false)) {
         const mainPoolContent = await fs.readFile(mainPoolPath, 'utf8');
         const mainPoolDoc = JSON.parse(mainPoolContent);
         const formattedMainPool = formatPoolData(mainPoolDoc);
-        await fs.writeFile(path.join(dataDir, 'questions.json'), JSON.stringify(formattedMainPool, null, 2));
+        const questionsFile = path.join(dataDir, 'questions.json');
+        await fs.writeFile(questionsFile, JSON.stringify(formattedMainPool, null, 2));
+        writtenDataFiles.push(questionsFile);
     }
 
     // Write external pools (from questionPool overrides) to data/questions-{poolId}.json
@@ -59,7 +63,9 @@ async function writeHugoMultilingualBook(books, outputPath, sourcePath) {
     if (defaultBook.externalPools) {
         for (const [poolId, poolData] of Object.entries(defaultBook.externalPools)) {
             const formattedPool = formatPoolData(poolData);
-            await fs.writeFile(path.join(dataDir, `questions-${poolId}.json`), JSON.stringify(formattedPool, null, 2));
+            const poolFile = path.join(dataDir, `questions-${poolId}.json`);
+            await fs.writeFile(poolFile, JSON.stringify(formattedPool, null, 2));
+            writtenDataFiles.push(poolFile);
         }
     }
     for (const [lang, book] of Object.entries(books)) {
@@ -74,9 +80,13 @@ async function writeHugoMultilingualBook(books, outputPath, sourcePath) {
             const langPoolContent = await fs.readFile(langPoolPath, 'utf8');
             const langPoolDoc = JSON.parse(langPoolContent);
             const formattedLangPool = formatPoolData(langPoolDoc);
-            await fs.writeFile(path.join(dataDir, `questions-${lang}.json`), JSON.stringify(formattedLangPool, null, 2));
+            const langPoolFile = path.join(dataDir, `questions-${lang}.json`);
+            await fs.writeFile(langPoolFile, JSON.stringify(formattedLangPool, null, 2));
+            writtenDataFiles.push(langPoolFile);
         }
     }
+
+    await removeStaleFiles(dataDir, writtenDataFiles, /^questions.*\.json$/);
 }
 
 // Patch: allow custom content path for multilingual
@@ -85,6 +95,9 @@ async function writeHugoBook(book, outputPath, sourcePath, customContentPath) {
     const sourceDir = path.resolve(sourcePath);
 
     const imagesDir = path.join(outputPath, 'static');
+
+    const writtenContentFiles = [];
+    const writtenDataFiles = [];
 
     // Write pool.json to data/questions.json if not called from multilingual (which handles this itself)
     if (!customContentPath) {
@@ -95,15 +108,20 @@ async function writeHugoBook(book, outputPath, sourcePath, customContentPath) {
             const mainPoolContent = await fs.readFile(mainPoolPath, 'utf8');
             const mainPoolDoc = JSON.parse(mainPoolContent);
             const formattedMainPool = formatPoolData(mainPoolDoc);
-            await fs.writeFile(path.join(dataDir, 'questions.json'), JSON.stringify(formattedMainPool, null, 2));
+            const questionsFile = path.join(dataDir, 'questions.json');
+            await fs.writeFile(questionsFile, JSON.stringify(formattedMainPool, null, 2));
+            writtenDataFiles.push(questionsFile);
         }
         // Write external pools for single-language books
         if (book.externalPools) {
             for (const [poolId, poolData] of Object.entries(book.externalPools)) {
                 const formattedPool = formatPoolData(poolData);
-                await fs.writeFile(path.join(dataDir, `questions-${poolId}.json`), JSON.stringify(formattedPool, null, 2));
+                const poolFile = path.join(dataDir, `questions-${poolId}.json`);
+                await fs.writeFile(poolFile, JSON.stringify(formattedPool, null, 2));
+                writtenDataFiles.push(poolFile);
             }
         }
+        await removeStaleFiles(dataDir, writtenDataFiles, /^questions.*\.json$/);
     }
 
     // Assign translationKey to parts and sections if not already assigned by multilingual process
@@ -138,7 +156,9 @@ async function writeHugoBook(book, outputPath, sourcePath, customContentPath) {
             introContent = adjustMarkdownHeaders(introContent);
 
             introContent.filename = '_index';
-            await fs.writeFile(path.join(chapterPath, '_index.md'), introContent);
+            const introFile = path.join(chapterPath, '_index.md');
+            await fs.writeFile(introFile, introContent);
+            writtenContentFiles.push(introFile);
         }
 
         let sectionIndex = 1;
@@ -159,7 +179,9 @@ async function writeHugoBook(book, outputPath, sourcePath, customContentPath) {
                 sectionContent = adjustMarkdownHeaders(sectionContent);
 
                 section.filename = sectionFileName;
-                await fs.writeFile(path.join(chapterPath, `${sectionFileName}.md`), sectionContent);
+                const sectionFile = path.join(chapterPath, `${sectionFileName}.md`);
+                await fs.writeFile(sectionFile, sectionContent);
+                writtenContentFiles.push(sectionFile);
             }
             sectionIndex++;
         }
@@ -179,7 +201,9 @@ async function writeHugoBook(book, outputPath, sourcePath, customContentPath) {
             conclusionContent = adjustMarkdownHeaders(conclusionContent);
 
             part.filename = `conclusion`;
-            await fs.writeFile(path.join(contentPath, `${part.filename}.md`), conclusionContent);
+            const conclusionFile = path.join(contentPath, `${part.filename}.md`);
+            await fs.writeFile(conclusionFile, conclusionContent);
+            writtenContentFiles.push(conclusionFile);
         } else if (part.sections) {
             await writeChapter(part, contentPath, partIndex);
         } else {
@@ -189,7 +213,11 @@ async function writeHugoBook(book, outputPath, sourcePath, customContentPath) {
     }
 
     const tocContent = generateTableOfContents(book);
-    await fs.writeFile(path.join(contentPath, '_index.md'), tocContent);
+    const tocFile = path.join(contentPath, '_index.md');
+    await fs.writeFile(tocFile, tocContent);
+    writtenContentFiles.push(tocFile);
+
+    await removeStaleFiles(contentPath, writtenContentFiles, /\.md$/);
 }
 
 function generateTableOfContents(book) {

@@ -3,6 +3,7 @@ const path = require('path');
 const { processImages, convertPngToSvg } = require('../image-utils');
 const { formatPoolData } = require('../pool-utils');
 const { writeFrontMatter, getTitleSlug } = require('../utils');
+const { removeStaleFiles } = require('./stale-files');
 
 /**
  * 
@@ -210,7 +211,10 @@ async function writeSingleDirectoryBook(book, outputPath, sourcePath, lang = und
     // Use .md for default, .<lang>.md for others
     const tocExt = lang && lang !== 'default' ? `.${lang}.md` : '.md';
     const tocWithFrontMatter = writeFrontMatter(tocFrontMatter) + tocContent;
-    await fs.writeFile(path.join(contentDir, `00-table-of-contents${tocExt}`), tocWithFrontMatter);
+    const tocFilePath = path.join(contentDir, `00-table-of-contents${tocExt}`);
+    await fs.writeFile(tocFilePath, tocWithFrontMatter);
+
+    await removeStaleFiles(contentDir, [...exportedFiles, tocFilePath], /\.md$/);
 
     // Write a metadata file that can be used for EPUB generation
     const metadata = {
