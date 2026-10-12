@@ -66,4 +66,4 @@ An antenna analyzer's sweep can reveal a cable's electrical length as well as it
 
 > **Key Information:** An antenna analyzer can measure velocity factor, cable length, and the resonant frequency of a tuned circuit. {{< link id="E4A11" >}}
 
-Disconnect the transmitter before connecting an analyzer. Its measurement port is built for a small test signal, not transmitter power.
+Disconnect the transmitter before connecting an analyzer. Its measurement port is built for a small test signal, not transmitter power. Key up into it by mistake, and it may never measure anything again.

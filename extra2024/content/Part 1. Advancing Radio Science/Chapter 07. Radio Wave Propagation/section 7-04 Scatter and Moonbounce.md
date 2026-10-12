@@ -8,7 +8,7 @@ draft: true
 
 ### Section 7.4: Scatter and Moonbounce
 
-A brief meteor ping and a raspy auroral signal call for different operating choices. One offers little time to pass information; the other distorts the signal throughout the contact. Moonbounce adds a different challenge: recovering a tiny, changing return from a very long path.
+A meteor ping and a raspy auroral signal call for different operating choices. One may give you less than a second to pass information; the other roughens every word of the contact. Moonbounce adds a third challenge: recovering a faint, fluttering echo from a round trip of nearly half a million miles.
 
 #### A Trail That Lasts Briefly
 
@@ -20,13 +20,13 @@ At higher frequencies, echoes from ordinary meteor trails become weaker and shor
 > - When a meteor strikes Earth's atmosphere, a linear ionized region is formed in the E region of the ionosphere. {{< link id="E3A08" >}}
 > - The 28 MHz to 148 MHz range is most suited for meteor-scatter communications. {{< link id="E3A09" >}}
 
-A weak trail may produce only a short burst or “ping.” Denser trails can last longer. Suitable digital modes can recover short pieces of information during those brief openings; [Section 10.3]({{% pageref "10.3" %}}) covers how to use them.
+A weak trail may produce only a short burst or “ping.” Denser trails can last longer. Big annual showers such as the August Perseids add extra trails, but meteors arrive every day. Suitable digital modes can recover short pieces of information during those brief openings; [Section 10.3]({{% pageref "10.3" %}}) covers how to use them.
 
 #### The Rough Sound of Aurora
 
 The geomagnetic storms that close polar HF paths can open a VHF one. A severe storm intensifies the aurora and fills the auroral oval with moving irregularities in the ionization. Signals scattered from them can link stations well beyond line of sight. Both stations usually aim toward the aurora, north in the Northern Hemisphere, rather than at each other.
 
-The same motion spreads the signal in frequency. A steady CW tone can become raspy or hiss-like. Speech loses the clean frequency relationships that make voices understandable, so SSB can become difficult to copy, and FM and narrow-shift data modes struggle too. Even with a rough tone, the timing of Morse dots and dashes stays recognizable.
+The same motion spreads the signal in frequency. A steady CW tone can become raspy or hiss-like. Speech loses the clean frequency relationships that make voices understandable, so SSB can become difficult to copy, and FM and narrow-shift data modes struggle too. Even with a rough tone, the timing of Morse dots and dashes stays recognizable. A raspy dit is still a dit.
 
 > **Key Information:**
 > - Severe geomagnetic storms are most likely to result in auroral propagation. {{< link id="E3A12" >}}
@@ -55,4 +55,4 @@ Lunar distance offers a more predictable advantage. **Perigee** is the nearest p
 
 > **Key Information:** When scheduling EME contacts, the least path loss generally comes when the Moon is at perigee. {{< link id="E3A03" >}}
 
-On a lunar calendar, look for the perigee date. A full Moon describes the lit face seen from Earth, not the Moon's distance.
+On a lunar calendar, look for the perigee date. A full Moon describes the lit face we see, not the distance; the “supermoon” in the news is a full Moon that falls near perigee.

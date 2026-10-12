@@ -8,13 +8,13 @@ draft: true
 
 ### Section 1.7: Timing and Digital Control
 
-The fan control in the previous section assumes its inputs already give clean on/off requests. A sensor may instead produce a gradually rising voltage with some noise. The controller must turn it into a steady decision.
+The fan control in the previous section assumed tidy on/off requests. Real sensors are messier. A temperature sensor may produce a voltage that creeps upward with a little noise riding on it, and the controller must turn that into a steady decision.
 
 #### From Level to Decision
 
 A **comparator** compares the sensor's voltage with a reference voltage that sets the threshold. Its output goes high or low depending on which voltage is greater, giving the logic circuit an on/off state.
 
-Noise can push an input back and forth across the threshold. The fan controller could keep switching its command on and off at nearly the same temperature. This rapid output switching is called **chatter**.
+Noise can push an input back and forth across the threshold. The fan controller could keep switching its command on and off at nearly the same temperature. This rapid output switching is called **chatter**; drive a relay with it, and you can hear where the name comes from.
 
 We can avoid that by using separate thresholds for rising and falling voltage, a behavior called **hysteresis**. Reversing the output now requires the input to reach the other threshold.
 
@@ -22,14 +22,14 @@ We can avoid that by using separate thresholds for rising and falling voltage, a
 > - A comparator changes its output state when its input signal crosses the threshold voltage. {{< link id="E6C02" >}}
 > - Hysteresis prevents input noise from causing unstable comparator output signals. {{< link id="E6C01" >}}
 
-Suppose the command turns on above 3.0 V and turns off below 2.8 V. After it turns on, a fluctuation to 2.95 V leaves it on. The input must fall below 2.8 V to switch it off. That small wobble no longer becomes a new command. The diagram below feeds the same noisy input to a comparator with one threshold and to one with hysteresis.
+Suppose the command turns on above 3.0 V and turns off below 2.8 V. After it turns on, a fluctuation to 2.95 V leaves it on. The input must fall below 2.8 V to switch it off. That small wobble no longer becomes a new command. A home thermostat uses the same trick so the furnace doesn't cycle every few seconds. The diagram below feeds the same noisy input to a comparator with one threshold and to one with hysteresis.
 
 ![A timing diagram shows three traces on one time axis. At the top, a noisy input voltage rises slowly from left to right. Two dashed horizontal lines cross it: the upper one is labeled 3.0 V on, and the lower one is labeled 2.8 V off. The input crosses 2.8 V once, then wobbles back and forth across 3.0 V before staying above it. After it first passes 3.0 V, its dips never come close to 2.8 V. The middle trace, labeled One threshold, switches at 3.0 V alone: it goes high, low, high, low, and high again, once for each crossing. The bottom trace, labeled Hysteresis, goes high at the first crossing of 3.0 V and stays high. Dashed vertical guides line up each output change with the input crossing that caused it.](../../../images/s1-7-hysteresis.svg)
 {.img-centered .img-xlarge .img-mobile-full caption="With one threshold, noise makes the output chatter. With hysteresis, the output switches once."}
 
 #### Remembering a Bit
 
-A comparator reacts to its input continuously. Registers and counters need the opposite: they must hold their bits between clock events. A flip-flop has two stable states: it can store either 0 or 1 until an input or clock event tells it to change.
+A comparator reacts to its input continuously. Registers and counters need the opposite: they must hold their bits between clock events. A flip-flop has two stable states. Like a wall switch, it stays where you leave it, storing either 0 or 1 until an input or clock event tells it to change.
 
 > **Key Information:** A flip-flop is a bistable circuit. {{< link id="E7A01" >}}
 
@@ -72,4 +72,4 @@ Combining many gates, stored bits, and counters could mean wiring together a lot
 
 > **Key Information:** A hardware description language, or HDL, is used to design an FPGA's configuration. {{< link id="E6C09" >}}
 
-The resulting circuit gives each task its own hardware, so one counter can count pulses while other logic handles a different signal, all at once. No processor has to step through the operations in sequence.
+The resulting circuit gives each task its own hardware, so one counter can count pulses while other logic handles a different signal, all at once. No processor has to step through the operations in sequence. That speed is why many SDR transceivers use an FPGA to keep up with their receivers' data.

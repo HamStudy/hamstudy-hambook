@@ -60,7 +60,7 @@ A low dipole sends much of its signal upward, while a higher one favors the low 
 ![At left, a side view of a horizontal antenna, shown as a dot at height h above flat ground. A solid blue ray labeled direct leaves the antenna upward to the right. A dashed orange ray labeled reflected travels down to the ground, bounces, and leaves at the same elevation angle, theta, parallel to the direct ray, after covering a longer path. At right, a quarter-circle elevation plot runs from the horizon at 0 degrees to overhead at 90 degrees, with spokes every 15 degrees, and compares two heights over ideal ground. At a height of a half wavelength, drawn solid blue and shaded, the pattern is a single lobe peaking at 30 degrees, with no radiation straight overhead. At a height of one wavelength, drawn dashed orange, the lowest lobe peaks at about 15 degrees, and a second lobe peaks near 49 degrees. Raising the antenna moved its lowest lobe down toward the horizon.](../../../images/s6-4-ground-reflection.svg)
 {.img-centered .img-xlarge .img-mobile-full caption="Direct and ground-reflected paths (left) and elevation patterns over ideal ground for two heights (right). Raising the antenna lowers its lowest lobe."}
 
-Height counts in wavelengths. A wire 10 meters high is half a wavelength up on 20 meters, but only one-eighth wavelength up on 80 meters.
+Height counts in wavelengths. A wire 10 meters high is half a wavelength up on 20 meters, but only one-eighth wavelength up on 80 meters. That's why so many backyard 80-meter dipoles become “cloud warmers,” sending most of their signal nearly straight up: fine for nearby stations, less so for DX.
 
 Over a long, uniform slope, the reflecting surface tilts, and the pattern tilts with it.
 

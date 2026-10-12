@@ -16,7 +16,7 @@ You can picture each share as power in a resistance that carries the antenna cur
 
 $$\eta=\frac{R_r}{R_r+R_l}.$$
 
-The Greek letter $\eta$ (eta) represents efficiency as a fraction; multiply by 100 for percent. For $R_r=40\ \Omega$ and $R_l=10\ \Omega$, efficiency is $40/50=0.8$, or 80%. Of 100 watts that antenna accepts, 80 watts radiate and 20 watts become heat.
+The Greek letter $\eta$ (eta) represents efficiency as a fraction; multiply by 100 for percent. For $R_r=40\ \Omega$ and $R_l=10\ \Omega$, efficiency is $40/50=0.8$, or 80%. Of 100 watts that antenna accepts, 80 watts radiate and 20 watts become heat, warming wire and soil instead of reaching anyone's receiver.
 
 > **Key Information:** Antenna efficiency is radiation resistance divided by total resistance. {{< link id="E9A09" >}}
 

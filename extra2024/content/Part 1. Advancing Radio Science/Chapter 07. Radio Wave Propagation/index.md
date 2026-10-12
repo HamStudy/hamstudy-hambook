@@ -6,6 +6,6 @@ pagebreak: true
 
 ## Chapter 7: Radio Wave Propagation
 
-An antenna aimed in the right direction still needs a usable path to the other station. When that path weakens, changing frequency, time, or route often helps more than adding power.
+When hams call a band open or dead, they're usually describing the path. A good antenna aimed the right way still needs one to reach the other station. If that path weakens, changing frequency, time, or route often helps more than adding power.
 
-Reading conditions well lets you make that choice. Whether a path runs along the ground, through the ionosphere, or by way of a meteor trail, the aurora, or the Moon, you'll learn to pick the frequency, time, and direction most likely to work. Forecasts and live reports help most once you know what each one measures.
+Whether your signal hugs the ground, bends through the ionosphere, or scatters off a meteor trail, the aurora, or the Moon, you'll learn to pick the frequency, time, and direction most likely to work. Forecasts and live reports help most once you know what each one measures.

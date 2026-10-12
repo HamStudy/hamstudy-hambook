@@ -8,7 +8,7 @@ draft: true
 
 ### Section 6.8: Reading the Smith Chart
 
-The stub at the end of the previous section needs two numbers: its distance $d$ from the antenna and its length $\ell$. Both depend on how impedance changes along the line, and calculating that change point by point is slow. On a Smith chart, each point represents one complex impedance, $R+jX$, and moving along a line moves that point in a predictable way.
+The stub at the end of the previous section needs two numbers: its distance $d$ from the antenna and its length $\ell$. Both depend on how impedance changes along the line, and calculating that change point by point is slow. On a Smith chart, each point represents one complex impedance, $R+jX$, and moving along a line moves that point in a predictable way. At first glance, the chart looks like a tangle of circles. Learn its two families of curves, and the tangle becomes a map.
 
 > **Key Information:** Impedance along transmission lines can be calculated using a Smith chart. {{< link id="E9G01" >}}
 
@@ -71,4 +71,4 @@ Suppose the main line's admittance at the chosen junction is $0.02+j0.02$ siemen
 
 A shorted one-eighth-wave stub of 50-ohm line presents $+j50\ \Omega$, so its admittance is $1/(j50)=-j0.02$ siemens, the same sign flip as in Section 2.3. Connected in parallel, the imaginary parts cancel and leave a 50-ohm resistive input.
 
-With the electrical lengths in hand, find each one's free-space length and multiply it by the line's velocity factor. The result is the length of cable to cut.
+With the electrical lengths in hand, find each one's free-space length and multiply it by the line's velocity factor. The result is the length of cable to cut. Measure twice; coax doesn't grow back.

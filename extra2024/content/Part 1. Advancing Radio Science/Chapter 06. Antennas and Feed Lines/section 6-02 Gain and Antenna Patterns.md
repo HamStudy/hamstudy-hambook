@@ -10,7 +10,7 @@ draft: true
 
 An antenna's quoted gain tells only part of the story. A large number is little comfort if the other station sits in a null, or if a strong noise source falls in a side lobe. The radiation pattern shows where the antenna's gain will help and where it will not.
 
-The pattern also shows where that gain comes from: an antenna concentrates power in some directions by taking it from others.
+The pattern also shows where that gain comes from: an antenna concentrates power in some directions by taking it from others. Like a squeezed balloon, it can only bulge out where it's pinched in somewhere else.
 
 > **Key Information:** There is no difference in radiated power between a lossless antenna with gain and an isotropic radiator driven by the same power. {{< link id="E9B07" >}}
 

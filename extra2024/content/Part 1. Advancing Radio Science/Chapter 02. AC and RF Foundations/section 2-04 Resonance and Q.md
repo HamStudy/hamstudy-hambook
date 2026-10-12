@@ -16,7 +16,7 @@ At resonance, energy keeps moving between the electric and magnetic fields, but 
 
 That large current flows through the inductor and capacitor too. Suppose a 10 V source drives 1 A through 10 Ω of resistance. The resistor drops the full 10 V. If the inductor and capacitor each have 100 Ω of reactance, that same current produces **100 V across each one**.
 
-Energy passing between the inductor and capacitor sustains those larger voltages. Their voltages are opposite in phase, so they cancel around the complete circuit. The source supplies only the energy lost in the resistance.
+Energy passing between the inductor and capacitor sustains those larger voltages. Their voltages are opposite in phase, so they cancel around the complete circuit. The source supplies only the energy lost in the resistance. This is why a small transmitting loop's tuning capacitor can need a rating of several thousand volts, even at modest power.
 
 > **Key Information:**
 > - At series resonance, voltage and current are in phase, and the impedance magnitude is approximately equal to circuit resistance. {{< link id="E5A08" >}} {{< link id="E5A03" >}}
@@ -60,7 +60,7 @@ You may also see the formula written as $f_0=1/(2\pi\sqrt{LC})$. That version us
 
 #### How Sharply It Resonates
 
-Two circuits can tune to the same frequency yet respond differently on either side of it. The **quality factor**, $Q$, measures that sharpness by comparing energy stored with energy lost. A high-Q circuit loses a smaller fraction of its stored energy each cycle.
+Two circuits can tune to the same frequency yet respond differently on either side of it. The **quality factor**, $Q$, measures that sharpness by comparing energy stored with energy lost. A high-Q circuit loses a smaller fraction of its stored energy each cycle. Like a well-made bell that keeps ringing after one strike, it hangs on to its energy.
 
 Where the resistance sits decides how to calculate Q. Series resistance carries the full circuit current, so less of it wastes less power; a series RLC model uses $Q=X/R$. Parallel resistance sits across the full voltage, so more of it draws less current and wastes less power; a parallel model turns the ratio over, $Q=R/X$. At resonance the two reactances are equal, so either one gives the same Q. In our earlier series example, $Q=100/10=10$, and each reactance had ten times the source voltage.
 

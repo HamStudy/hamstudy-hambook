@@ -18,7 +18,7 @@ The resistor and capacitor set the pace together. Multiply resistance by capacit
 
 $$\tau=RC$$
 
-The symbol $\tau$ is the Greek letter tau. Here $R$ is resistance in ohms and $C$ is capacitance in farads; the result is seconds. One time constant is a useful checkpoint, not the time needed to finish charging.
+The symbol $\tau$ is the Greek letter tau. Here $R$ is resistance in ohms and $C$ is capacitance in farads; the result is seconds. One time constant is a checkpoint, not the finish line.
 
 > **Key Information:** One time constant is the time needed for a capacitor to charge to 63.2% of the applied voltage, or discharge to 36.8% of its initial voltage. {{< link id="E5B01" >}}
 

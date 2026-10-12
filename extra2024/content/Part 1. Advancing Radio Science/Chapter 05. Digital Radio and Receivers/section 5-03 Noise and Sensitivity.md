@@ -15,7 +15,7 @@ Tune to an empty spot on the band, and you still hear a soft hiss. Part of that 
 
 #### Power in dBm
 
-Decibels compare two powers, using $10\log_{10}(P_2/P_1)$. Give the ratio a fixed reference, and the same scale measures actual power levels. For dBm, that reference is 1 milliwatt: 0 dBm equals 1 mW. Thus $-10$ dBm is 0.1 mW and $-20$ dBm is 0.01 mW. Every 30 dB down divides power by another 1,000: $-30$ dBm is 1 microwatt (µW), $-60$ dBm is 1 nanowatt, and $-90$ dBm is 1 picowatt (pW).
+Decibels compare two powers, using $10\log_{10}(P_2/P_1)$. Give the ratio a fixed reference, and the same scale measures actual power levels. For dBm, that reference is 1 milliwatt: 0 dBm equals 1 mW. Thus $-10$ dBm is 0.1 mW and $-20$ dBm is 0.01 mW. Every 30 dB down divides power by another 1,000: $-30$ dBm is 1 microwatt (µW), $-60$ dBm is 1 nanowatt, and $-90$ dBm is 1 picowatt (pW), a trillionth of a watt.
 
 #### Noise in Each Hertz
 

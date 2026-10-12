@@ -8,7 +8,7 @@ draft: true
 
 ### Section 3.3: Operational Amplifiers
 
-In the previous section, R3 used negative feedback to hold one transistor's bias steady. An **operational amplifier**, or **op-amp**, puts feedback at the center of the design. On its own, the chip has far more gain than most circuits can use. A few external parts in a feedback path set the working gain instead.
+In the previous section, R3 used negative feedback to hold one transistor's bias steady. An **operational amplifier**, or **op-amp**, puts feedback at the center of the design. On its own, the chip has far more gain than most circuits can use, often 100,000 or more. A few external parts in a feedback path set the working gain instead.
 
 #### Amplifying a Difference
 

@@ -16,7 +16,7 @@ Filters and amplifiers may still come before the ADC; "direct" says only where f
 
 #### Fast Enough in Time
 
-Each measurement is a sample. The **sample rate** counts measurements per second. If samples arrive too slowly, different input frequencies can produce the same sequence of numbers. That ambiguity is **aliasing**: an out-of-range frequency appears as another frequency in the sampled result. Once only those numbers remain, software can't tell which waveform produced them.
+Each measurement is a sample. The **sample rate** counts measurements per second. If samples arrive too slowly, different input frequencies can produce the same sequence of numbers. That ambiguity is **aliasing**: an out-of-range frequency travels under a false name, appearing as another frequency in the sampled result. Once only those numbers remain, software can't tell which waveform produced them.
 
 ![A solid 1 kHz cosine wave and a dashed 5 kHz cosine wave pass through the same seven marked sample points during one millisecond. The points are taken 1/6000 second apart, at a sample rate of 6000 samples per second. Between samples the waveforms differ; at every sampled instant they have identical voltages.](../../../images/s5-1-aliasing.svg)
 {.img-centered .img-xlarge .img-mobile-full caption="At 6,000 samples per second, these 1 kHz and 5 kHz signals produce identical samples. An input filter must keep the unwanted higher-frequency signal out before sampling."}

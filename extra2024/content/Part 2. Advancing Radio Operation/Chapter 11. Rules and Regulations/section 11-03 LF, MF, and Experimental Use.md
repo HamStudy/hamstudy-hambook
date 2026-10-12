@@ -22,7 +22,7 @@ You don't need an approval letter. Your notice also lists the bands you plan to 
 
 #### Power and Emissions
 
-On these bands, the limit that usually matters is what the antenna radiates, not what the transmitter puts out. Antennas here are tiny compared with a wavelength, and their low efficiency can make the radiated power much smaller than the input power. To find EIRP, combine the power reaching the antenna with the antenna's gain relative to an isotropic radiator, as in Chapter 6.
+On these bands, the limit that usually matters is what the antenna radiates, not what the transmitter puts out. A quarter-wave vertical for 2200 meters would stand about 550 meters tall, higher than the Empire State Building. Practical antennas here are tiny compared with a wavelength, and their low efficiency can make the radiated power much smaller than the input power. To find EIRP, combine the power reaching the antenna with the antenna's gain relative to an isotropic radiator, as in Chapter 6.
 
 > **Key Information:**
 > - The maximum power permitted on the 2200-meter band is 1 W EIRP. {{< link id="E1A07" >}}

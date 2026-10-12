@@ -31,7 +31,7 @@ Use a suitable dummy load and a correctly rated attenuator or sampling coupler. 
 
 #### Set Digital Audio for a Clean Signal
 
-The extra waterfall lines beside an overdriven data signal are products of the same kind. AFSK sends audio tones through the SSB transmitter. Too much audio drives a stage beyond its linear range, where extra drive creates unwanted frequencies instead of more clean output. Output power alone therefore can't tell you the right audio level.
+The extra waterfall lines beside an overdriven data signal are products of the same kind. AFSK sends audio tones through the SSB transmitter. Too much audio drives a stage beyond its linear range, where extra drive creates unwanted frequencies instead of more clean output. Output power alone therefore can't tell you the right audio level. Scan a busy FT8 waterfall, and you'll often spot the result: a signal trailing extra lines because its operator ran the audio too high.
 
 > **Key Information:**
 > - Excessive transmit audio levels are a common cause of AFSK overmodulation. {{< link id="E8D07" >}}

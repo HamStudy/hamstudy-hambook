@@ -8,7 +8,7 @@ draft: true
 
 ### Section 1.6: Logic Gates and Levels
 
-An AND gate gives a 1 only when both of its inputs are 1, so it can require both a transmit request and permission from a protection circuit. A cooling fan may need a different rule: run when either a switch or a temperature sensor requests it. Which gate you choose depends on how those conditions should combine.
+An amplifier should key up only when the radio asks and its protection circuit sees no fault. An AND gate enforces that rule: it gives a 1 only when both of its inputs are 1. A cooling fan may need a different rule: run when either a switch or a temperature sensor requests it. Which gate you choose depends on how those conditions should combine.
 
 #### Rules for Ones and Zeros
 
@@ -42,7 +42,7 @@ To check exactly what each gate does, we can list every input combination with i
 
 #### Symbols Show the Operation
 
-On a schematic, each gate's symbol shows which rule it applies. An AND symbol has a flat input side and a rounded, D-shaped body. An OR symbol has a curved input side and comes to a point at the output. A small circle, or bubble, on an output means inversion: it changes an AND symbol to NAND or an OR symbol to NOR. An inverter uses a triangle with an output bubble.
+On a schematic, each gate's symbol shows which rule it applies. An AND symbol has a flat input side and a rounded, D-shaped body. An OR symbol has a curved input side and comes to a point at the output. A small circle, or bubble, on an output means inversion: it changes an AND symbol to NAND or an OR symbol to NOR. That little bubble is easy to miss, and it reverses every result. An inverter uses a triangle with an output bubble.
 
 ![Official Figure E6-3 shows six logic symbols. Symbol 1 is AND. Symbol 2 has an AND-shaped body and an output bubble, making it NAND. Symbol 3 is OR. Symbol 4 adds an output bubble to OR, making it NOR. Symbol 5 is a triangle with an output bubble and performs NOT. Symbol 6 has two inputs, a curved input side, and a pointed output side without a bubble.](../../../hugo/static/figures/E6-3.svg)
 {.img-centered .img-xlarge .img-bw caption="Figure E6-3: An output bubble marks an inverted result."}
@@ -55,7 +55,7 @@ Behind each symbol sits a small transistor circuit. Its construction, called the
 
 A battery-powered controller needs logic that draws as little current as possible. In CMOS (complementary metal-oxide-semiconductor) logic, each gate pairs N-channel and P-channel MOSFETs. In either steady state, one device of each pair is off, so almost no current flows from supply to ground. Switching still takes energy to charge and discharge capacitance. Other families, such as TTL (including its faster Schottky versions), emitter-coupled logic (ECL), and NMOS, draw current even while their outputs hold steady.
 
-Noise on an input or power supply should not turn “off” into “on.” A gate reads an input as high or low by comparing it with a switching threshold. The farther that threshold sits from both the normal low and high levels, the more a noisy input can rise or fall without changing the interpreted state. That tolerance is a **noise margin**. Exact input levels vary among CMOS families.
+Noise on an input or power supply should not turn “off” into “on,” and the transmitter a few feet away can supply plenty of it. A gate reads an input as high or low by comparing it with a switching threshold. The farther that threshold sits from both the normal low and high levels, the more a noisy input can rise or fall without changing the interpreted state. That tolerance is a **noise margin**. Exact input levels vary among CMOS families.
 
 Sometimes a gate needs to accept a signal without drawing much input current, yet drive a load at its output. BiCMOS combines bipolar and CMOS circuitry to do both.
 
@@ -66,7 +66,7 @@ Sometimes a gate needs to accept a signal without drawing much input current, ye
 
 #### Letting Go of a Shared Wire
 
-Devices sharing a signal wire must take turns driving it. Otherwise, one output could try to hold the wire high while another holds it low. A control signal can switch a waiting device's output into a high-impedance state, so another device can drive the line.
+Devices sharing a signal wire must take turns driving it, like stations on a net. Otherwise, one output could try to hold the wire high while another holds it low. A control signal can switch a waiting device's output into a high-impedance state, so another device can drive the line.
 
 In the high-impedance state, the output effectively disconnects. It lets go of the wire rather than sending a third number. When nobody drives the line, however, an input still needs a defined voltage. Noise or leakage could otherwise determine its apparent state. A resistor to one of the supply lines can provide that voltage yet still let an active output override it.
 

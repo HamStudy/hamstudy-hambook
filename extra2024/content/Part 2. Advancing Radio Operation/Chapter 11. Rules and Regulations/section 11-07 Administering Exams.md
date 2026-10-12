@@ -45,7 +45,7 @@ Don't give a warning first, and don't let the candidate finish with a plan to re
 
 #### Certify and Send the Result
 
-The VEs grade each test as soon as the candidate turns it in. Each candidate filled out a license application before testing, and the result decides what happens to it.
+The VEs grade each test as soon as the candidate turns it in. For many VEs, telling a nervous candidate “You passed” is the best part of the job. Each candidate filled out a license application before testing, and the result decides what happens to it.
 
 > **Key Information:**
 > - If the examinee does not pass the exam, the VE team must return the application document to the examinee. {{< link id="E1E05" >}}

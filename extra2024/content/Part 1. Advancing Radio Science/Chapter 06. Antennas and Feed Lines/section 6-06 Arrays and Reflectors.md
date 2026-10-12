@@ -8,7 +8,7 @@ draft: true
 
 ### Section 6.6: Arrays and Reflectors
 
-A Yagi favors one direction, and changing that direction means turning the antenna. Two fixed verticals can favor a direction too, then switch to another without moving; only their feed changes. In the pair, as in the Yagi, fields from separate elements meet at a distant point. They add in some directions and cancel in others. Spacing and the phase of each element's current decide which directions are which.
+A Yagi favors one direction, and changing that direction means turning the antenna. Two fixed verticals can favor a direction too, then point another way at the flip of a switch in the shack; only their feed changes. In the pair, as in the Yagi, fields from separate elements meet at a distant point. Like ripples spreading from two pebbles dropped in a pond, they add in some directions and cancel in others. Spacing and the phase of each element's current decide which directions are which.
 
 #### Feed Phase and Travel Phase
 

@@ -21,7 +21,7 @@ A pure sine wave has one frequency. A square wave's flat tops and sharp edges ta
 
 #### Mixing a Message Onto RF
 
-Fourier analysis finds components already present in a waveform. A mixer creates new ones. Feed it 10 MHz and 1 MHz, and its output can contain both inputs plus their sum, 11 MHz, and their difference, 9 MHz. A filter after the mixer selects the wanted result.
+Fourier analysis finds components already present in a waveform. A mixer creates new ones. Feed it 10 MHz and 1 MHz, and its output can contain both inputs plus their sum, 11 MHz, and their difference, 9 MHz. A filter after the mixer picks out the one you want.
 
 A transmitter uses those sums and differences to move a message onto RF. For voice, the message starts as microphone audio, roughly 300 to 3,000 Hz. Mixing that audio with a carrier produces a sum and a difference for each audio frequency. The sums form the upper sideband, and the differences form the lower sideband.
 
@@ -36,7 +36,7 @@ Ordinary AM sends both sidebands and the carrier, with an envelope that follows 
 
 SSB keeps just one copy of the message, removing the carrier and the other sideband. A mixer arranged so that its carrier input cancels at the output is called a **balanced modulator**. What remains is double-sideband suppressed-carrier energy: both sidebands, one more than SSB needs.
 
-At the receiver, an envelope detector finds no strong carrier to follow. Instead, the receiver mixes the incoming sideband with a carrier it generates itself, and the difference frequencies reproduce the audio. Set that local carrier to the wrong frequency and every difference changes, so the voice shifts up or down in pitch, as it does while tuning across an SSB signal.
+At the receiver, an envelope detector finds no strong carrier to follow. Instead, the receiver mixes the incoming sideband with a carrier it generates itself, and the difference frequencies reproduce the audio. Set that local carrier to the wrong frequency and every difference changes, so the voice shifts up or down in pitch: the Donald Duck sound of a mistuned SSB signal.
 
 > **Key Information:**
 > - One way to produce a single-sideband phone signal is to use a balanced modulator followed by a filter. {{< link id="E7E04" >}}
@@ -50,4 +50,4 @@ With no carrier, an SSB transmitter's output follows the voice, rising on loud s
 > - The approximate ratio of PEP-to-average power in an unprocessed single-sideband phone signal is 2.5 to 1. {{< link id="E8A06" >}}
 > - Speech characteristics determine the PEP-to-average power ratio. {{< link id="E8A07" >}}
 
-Using that ratio, a 100-watt PEP signal averages about $100/2.5=40$ watts. A whole conversation, with its longer pauses, averages lower still. FCC guidance on RF exposure assumes 20% of PEP for conversational SSB without speech processing.
+Using that ratio, a 100-watt PEP signal averages about $100/2.5=40$ watts, which is why an average-reading wattmeter seldom gets anywhere near 100 W while you talk. A whole conversation, with its longer pauses, averages lower still. FCC guidance on RF exposure assumes 20% of PEP for conversational SSB without speech processing.

@@ -5,7 +5,7 @@ draft: true
 
 # Understanding the Extra Exam
 
-The Amateur Extra exam, called **Element 4**, contains **50 multiple-choice questions**. You must answer **37 correctly** to pass. You won't face a Morse code test.
+The Amateur Extra exam, called **Element 4**, contains **50 multiple-choice questions**. You must answer **37 correctly** to pass. You won't face a Morse code test; that requirement went away in 2007.
 
 The questions come from a public pool maintained by the National Conference of Volunteer Examiner Coordinators. The pool this book covers contains **599 questions** and is valid from July 1, 2024, through June 30, 2028. Check [hambook.org](https://hambook.org) for the latest book if you're studying near a pool change.
 

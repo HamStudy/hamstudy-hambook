@@ -16,7 +16,7 @@ In the impedance triangle, the vertical side divided by the horizontal side, $X/
 
 $$\phi=\tan^{-1}\left(\frac{X}{R}\right).$$
 
-Look for $\tan^{-1}$ or `atan` on your calculator, often through a shift or second-function key. Here the $-1$ means inverse tangent, not “1 divided by tangent.” Set the calculator to **degrees**, the unit used for these angles. As a check, $\tan^{-1}(1)$ should give 45°; a result near 0.785 means it is using radians.
+Look for $\tan^{-1}$ or `atan` on your calculator, often through a shift or second-function key. Here the $-1$ means inverse tangent, not “1 divided by tangent.” Set the calculator to **degrees**, the unit used for these angles. As a check, $\tan^{-1}(1)$ should give 45°; a result near 0.785 means it's set to radians, a classic exam-day trap.
 
 The previous section's $300+j400\ \Omega$ triangle gives $\tan^{-1}(400/300)\approx53.1^\circ$. With the 500 Ω magnitude we already found, its polar form is **500 Ω at +53.1°**.
 
@@ -24,7 +24,7 @@ This angle describes **voltage relative to current**. A positive angle means vol
 
 #### Net Reactance Sets the Angle
 
-Put an inductor and a capacitor in series and their reactances pull the impedance point in opposite directions, one up and one down. Find where that leaves the point before calculating its angle; adding both reactance magnitudes would put it in the wrong place.
+Put an inductor and a capacitor in series, and their reactances play tug-of-war with the impedance point, one pulling up and one pulling down. Find where that leaves the point before calculating its angle; adding both reactance magnitudes would put it in the wrong place.
 
 A series RLC circuit contains resistance $R$, inductance $L$, and capacitance $C$. Its net reactance is
 

@@ -8,7 +8,7 @@ draft: true
 
 ### Section 4.3: Digital Symbols and Codes
 
-Each tone an RTTY signal sends stands for one bit, because RTTY chooses between only two. FT8 picks from eight, so each of its tones stands for three bits. Counting tones sent and counting bits are different measures, and the gap between them lets a signal carry more data without changing any faster. Codes then turn text into bits and catch the mistakes noise causes.
+Each tone an RTTY signal sends stands for one bit, because RTTY chooses between only two. FT8 picks from eight, so each of its tones stands for three bits. Counting tones sent and counting bits are different measures, and the gap between them lets a signal carry more data without changing any faster. Codes then turn text into bits and catch noise's mistakes.
 
 #### Counting Symbols
 
@@ -33,7 +33,7 @@ A constellation diagram plots each possible combination as a dot. Its horizontal
 ![Two constellation plots each have a horizontal in-phase axis, I, and a vertical quadrature axis, Q. In the QPSK plot at left, four points sit on a dashed circle around the origin, so all have the same amplitude. Starting at upper right and going counterclockwise, they are labeled 00, 01, 11, and 10, so neighboring points differ by one bit. A line from the origin to the 00 point is marked A for amplitude, and its angle from the positive I axis is marked phi for phase. The 16-QAM plot at right has sixteen points in a four-by-four square grid, at several distances and angles from the origin.](../../../images/s4-3-constellations.svg)
 {.img-centered .img-xlarge caption="Each dot is one possible symbol. QPSK carries two bits per symbol at a fixed amplitude; 16-QAM carries four bits per symbol and also uses different amplitudes. Radius A gives amplitude; angle φ gives phase. The I and Q axes show the amplitudes of the two carriers."}
 
-With 16-QAM's sixteen states, each symbol can carry four bits, twice QPSK's two. Packing more bits into each symbol makes a code more efficient. Bandwidth depends mainly on symbol rate, not on bits per symbol. Each added state, though, crowds the dots closer together. Noise can move a received point toward the wrong dot, so adding states demands a cleaner signal.
+With 16-QAM's sixteen states, each symbol can carry four bits, twice QPSK's two. Packing more bits into each symbol makes a code more efficient. Bandwidth depends mainly on symbol rate, not on bits per symbol. Each added state, though, crowds the dots closer together. Noise smears each received point into a small cloud, and crowded clouds overlap, so adding states demands a cleaner signal.
 
 The bit labels also matter. Ordinary binary counting from 01 to 10 changes both bits. Labeling the QPSK dots 00, 01, 11, 10 in order around the circle changes just one bit between neighbors. When noise makes the receiver choose a neighboring dot, only one bit comes out wrong.
 
@@ -43,7 +43,7 @@ The bit labels also matter. Ordinary binary counting from 01 to 10 changes both 
 
 #### Turning Text into Bits
 
-Every added bit doubles the number of patterns a code can make. RTTY's Baudot code has only $2^5=32$, too few to give every letter, number, punctuation mark, and control function its own. Special shift characters tell the receiver to read the following characters as letters or as figures, so each pattern can do double duty. Miss a shift and a run of perfectly received bits can print as the wrong characters.
+Every added bit doubles the number of patterns a code can make. RTTY's Baudot code has only $2^5=32$, too few to give every letter, number, punctuation mark, and control function its own. Special shift characters tell the receiver to read the following characters as letters or as figures, so each pattern can do double duty. Miss a shift, and perfectly received bits print as nonsense: a line of letters comes out as digits and punctuation.
 
 ASCII, the American Standard Code for Information Interchange, uses more bits. Its standard form has $2^7=128$ patterns, and extended sets double that. Even 128 covers 26 capital letters, 26 small ones, and all the digits, punctuation marks, and control codes, each with a pattern of its own.
 

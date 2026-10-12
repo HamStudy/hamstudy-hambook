@@ -8,7 +8,7 @@ draft: true
 
 ### Section 3.4: Regulated Power Supplies
 
-An unregulated supply's output sags as the load draws more current and rises when the load draws less. Filtering smooths the ripple, but a regulator holds the output steady as the input voltage and load current change.
+Run an SSB transmitter from an unregulated supply, and the supply's output sags on every voice peak, then climbs back when you pause. Filtering smooths the ripple, but a regulator holds the output steady as the input voltage and load current change.
 
 #### Continuous Control
 
@@ -51,7 +51,7 @@ The voltage the regulator takes away becomes heat, because the full output curre
 
 $$P=(E_{\mathrm{in}}-E_{\mathrm{out}})\times I.$$
 
-Running the regulator itself takes a little more. If Figure E7-2 supplies 1 A, Q1 dissipates $(25-12)\ \mathrm{V}\times1\ \mathrm{A}=13\ \mathrm{W}$. That's more than the 12 W the load receives.
+Running the regulator itself takes a little more. If Figure E7-2 supplies 1 A, Q1 dissipates $(25-12)\ \mathrm{V}\times1\ \mathrm{A}=13\ \mathrm{W}$. That's more than the 12 W the load receives, so the regulator ends up as the hottest part in the box.
 
 > **Key Information:**
 > - The dropout voltage of a linear voltage regulator is the minimum input-to-output voltage required to maintain regulation. {{< link id="E7D12" >}}

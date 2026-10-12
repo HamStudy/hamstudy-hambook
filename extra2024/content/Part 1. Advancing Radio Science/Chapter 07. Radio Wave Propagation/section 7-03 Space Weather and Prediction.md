@@ -16,7 +16,7 @@ The solar flux index, a radio measurement made at 10.7 cm, tracks the Sun's ioni
 
 > **Key Information:** The 304A solar parameter measures UV emissions at 304 angstroms, correlated to the solar flux index. {{< link id="E3C10" >}}
 
-A flare works much faster. Its burst of X-rays reaches Earth's sunlit side in about 8 minutes and raises D-region absorption. For minutes to a few hours, the D region may absorb HF signals before they reach the F region. Flares are classed by peak X-ray intensity as A, B, C, M, or X, with a number for strength within the class. Each letter marks ten times the intensity of the one before.
+A flare works much faster. Its burst of X-rays reaches Earth's sunlit side in about 8 minutes and raises D-region absorption. For minutes to a few hours, the D region may absorb HF signals before they reach the F region. A busy band can go so quiet you might wonder if your antenna came down. Flares are classed by peak X-ray intensity as A, B, C, M, or X, with a number for strength within the class. Each letter marks ten times the intensity of the one before.
 
 > **Key Information:**
 > - Solar flares cause short-term radio blackouts. {{< link id="E3C01" >}}
@@ -57,6 +57,8 @@ A high K-index hits some paths much harder than others. Earth's magnetic field g
 
 > **Key Information:** A signal path through the auroral oval is most likely to experience high levels of absorption when the A-index or K-index is elevated. {{< link id="E3C03" >}}
 
+That's bad news for an East Coast station working Japan: the short path runs near Alaska's Arctic coast.
+
 #### Models and Reports
 
 Planning a contact calls for a forecast for that route, band, and time. VOACAP, the Voice of America Coverage Analysis Program, works from the stations' locations, the month and hour, the frequency, and the expected level of solar activity.
@@ -68,5 +70,7 @@ Its predictions describe typical conditions for that hour across the month, not 
 To see what is actually happening, check propagation-reporting networks such as the Reverse Beacon Network and PSK Reporter. Their receiving stations report the call sign, frequency, time, and signal strength or signal-to-noise ratio of each signal they decode. That works only for signals a computer can decode by itself.
 
 > **Key Information:** Amateur radio propagation reporting networks report digital-mode and CW signals. {{< link id="E3C09" >}}
+
+Call CQ for a few minutes, and these networks can show where your own signal landed.
 
 Use models to guide the search, reports to test the forecast, and your own receiver to examine the path you can actually use.

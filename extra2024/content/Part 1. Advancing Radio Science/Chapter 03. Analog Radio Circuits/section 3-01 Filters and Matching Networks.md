@@ -62,7 +62,7 @@ A narrow passband with steep sides takes high-Q resonators, and the right kind d
 
 At VHF and UHF, a **helical resonator**, a coil inside a conducting can, packs high Q into a space small enough to fit inside a radio.
 
-A 2-meter repeater receives and transmits at the same time on frequencies only 600 kHz apart. Its **duplexer** lets the transmitter and receiver share one antenna while keeping the transmitter's power out of the receiver. **Cavity filters**, resonant chambers of conducting metal, provide the very high Q and power handling this job requires.
+A 2-meter repeater receives and transmits at the same time on frequencies only 600 kHz apart. Its receiver listens for signals more than a trillion times weaker than its own transmitter's output. Its **duplexer** lets the transmitter and receiver share one antenna while keeping the transmitter's power out of the receiver. **Cavity filters**, resonant chambers of conducting metal, provide the very high Q and power handling this job requires.
 
 > **Key Information:**
 > - A crystal lattice filter is a filter for low-level signals made using quartz crystals. {{< link id="E7C09" >}}

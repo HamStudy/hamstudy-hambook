@@ -8,7 +8,7 @@ draft: true
 
 ### Section 5.2: Digital Signal Processing
 
-A receiver that samples everything from near DC to 30 MHz captures the whole HF spectrum at once. To hear one SSB voice, though, you need only about 3 kHz of it. Digital processing has to pick out that channel and drop the data it doesn't need. Its tools are simple: delaying samples, scaling them, and adding them. The same tools can also generate a signal for transmitting.
+A receiver that samples everything from near DC to 30 MHz captures the whole HF spectrum at once, as tens of millions of numbers every second. To hear one SSB voice, though, you need only about 3 kHz of it. Digital processing has to pick out that channel and drop the data it doesn't need. Its tools are simple: delaying samples, scaling them, and adding them. The same tools can also generate a signal for transmitting.
 
 #### Frequency and Sample Rate
 

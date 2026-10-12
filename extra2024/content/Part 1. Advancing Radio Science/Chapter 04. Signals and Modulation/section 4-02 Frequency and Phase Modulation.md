@@ -12,23 +12,23 @@ FM is the everyday voice mode of VHF and UHF repeaters, usually set for about 5 
 
 #### Frequency and Phase Changes
 
-Direct FM starts at the oscillator. Its resonant circuit includes a capacitance that changes with the audio voltage, such as a varactor diode (Section 1.1). As that capacitance changes, so does the oscillator's frequency. Placed in an RF amplifier stage instead, the same changing reactance shifts the phase of the passing signal.
+Direct FM starts at the oscillator, whose resonant circuit includes a capacitance that changes with the audio voltage, such as a varactor diode (Section 1.1). As that capacitance changes, so does the frequency. In an RF amplifier stage instead, the same changing reactance shifts the phase of the passing signal.
 
 > **Key Information:**
 > - Reactance modulation of a local oscillator can be used to generate FM phone signals. {{< link id="E7E01" >}}
 > - The function of a reactance modulator is to produce PM or FM signals by varying a capacitance. {{< link id="E7E02" >}}
 
-With PM, the audio advances or delays the carrier's phase, and changing the phase also changes the frequency. A higher-pitched tone pushes the phase through the same swing in less time. That faster change means a larger frequency shift, so with the same audio amplitude, PM produces more deviation at higher audio frequencies. Direct FM's deviation follows audio amplitude alone.
+With PM, the audio advances or delays the carrier's phase. Like a runner pulling ahead of a steady pace, the carrier gets ahead by briefly speeding up: its frequency rises. A higher-pitched tone demands the same lead in less time, so the burst of speed, the frequency shift, is larger. With the same audio amplitude, PM produces more deviation at higher audio frequencies. Direct FM's deviation follows audio amplitude alone.
 
-At the receiver, frequency changes must become voltage changes again, as in the phase-locked loop at the end of the previous chapter.
+At the receiver, frequency changes must become voltage changes again, as in the previous chapter's phase-locked loop.
 
 > **Key Information:** A frequency discriminator is a circuit for detecting FM signals. {{< link id="E7E03" >}}
 
 #### Keeping Speech Balanced
 
-Through a discriminator, a PM signal's high tones come out louder, since they arrived with more deviation. In effect, a PM transmitter boosts the treble. Direct FM transmitters usually add that boost on purpose. It lifts the high tones above the hiss, which FM reception adds mostly at high frequencies.
+Through a discriminator, a PM signal's high tones come out louder, since they arrived with more deviation. In effect, a PM transmitter boosts the treble. Direct FM transmitters usually add that boost on purpose, to lift the high tones above the hiss that FM reception adds mostly at high frequencies.
 
-A receiver network cuts them back down by the same amount. That restores the voice's balance and lowers the hiss. A PM transmitter's built-in boost has the same shape, so the cut evens that out too.
+A receiver network cuts them back down by the same amount, restoring the voice's balance and lowering the hiss. A PM transmitter's built-in boost has the same shape, so the cut evens that out too.
 
 ![A graph plots relative level in decibels against audio frequency from 300 hertz to 3 kilohertz, on a logarithmic frequency scale. A flat blue line at 0 decibels is labeled direct FM: at equal audio amplitude, its deviation is the same at every pitch. An orange dashed line labeled PM or pre-emphasis rises steadily from about minus 10 decibels at 300 hertz to about plus 10 decibels at 3 kilohertz. A green dotted line labeled de-emphasis, in the receiver, falls at the same rate, from about plus 10 decibels to about minus 10 decibels. All three lines meet at 1 kilohertz. The rising and falling lines mirror each other around the flat line, so together they add to a flat response.](../../../images/s4-2-emphasis.svg)
 {.img-centered .img-large .img-mobile-full caption="PM's deviation rises with audio frequency, just as pre-emphasis does. Receiver de-emphasis falls at the same rate, so the recovered audio comes out flat."}
@@ -45,7 +45,7 @@ Frequency deviation, $\Delta f$, is the maximum departure on one side of the car
 
 $$\beta=\frac{\Delta f}{f_m}.$$
 
-Use the same units for both frequencies; they cancel, leaving a plain number. For 3,000 Hz deviation and a 1,000 Hz modulating tone, $\beta=3{,}000/1{,}000=3$. For $\pm6$ kHz and 2 kHz, $\beta=6/2=3$. The carrier frequency never enters the calculation. For a PM signal, the index is the peak phase swing, in radians.
+Use the same units for both; they cancel, leaving a plain number. For 3,000 Hz deviation and a 1,000 Hz modulating tone, $\beta=3{,}000/1{,}000=3$. For $\pm6$ kHz and 2 kHz, $\beta=6/2=3$. The carrier frequency never enters the calculation. For a PM signal, the index is the peak phase swing, in radians.
 
 A speech channel carries many tones, so two limits describe it: its largest swing and its highest audio frequency. At those limits, the modulation index goes by a second name. For $\pm5$ kHz and 3 kHz audio, it is $5/3\approx1.67$. For $\pm7.5$ kHz and 3.5 kHz, it is $7.5/3.5\approx2.14$.
 
@@ -60,6 +60,6 @@ A speech channel carries many tones, so two limits describe it: its largest swin
 
 #### FM Capture
 
-On SSB, you can often hear two stations on the same frequency at once. On FM, one voice usually wins, and the audio may jump to the other as their strengths change. Once one signal is clearly stronger, the weaker one barely affects the output, though it is still on the air.
+On SSB, you can often hear two stations on one frequency at once. On FM, one voice usually wins, and the audio may jump to the other as their strengths change. Once one signal is clearly stronger, the weaker one barely affects the output, though it is still on the air.
 
 > **Key Information:** Capture effect is the suppression in an FM receiver of one signal by another stronger signal on the same frequency. {{< link id="E4C03" >}}

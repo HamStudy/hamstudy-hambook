@@ -21,7 +21,7 @@ Two common choices are ferrite and powdered iron. Ferrite is a magnetic ceramic.
 > - Ferrite cores generally require fewer turns than powdered-iron cores to produce a given inductance. {{< link id="E6D05" >}}
 > - Powdered iron has the highest temperature stability of its magnetic characteristics. {{< link id="E6D08" >}}
 
-A core that fits the winding is not necessarily the right core. Each material comes in different formulations. A core intended to absorb unwanted VHF energy may be a poor choice for a low-loss HF tuned circuit, even if it gives the inductance you wanted.
+A core that fits the winding is not necessarily the right core. Each material comes in different formulations, which hams call mixes and know by number: type 43 ferrite, say, or type 2 powdered iron. A core intended to absorb unwanted VHF energy may be a poor choice for a low-loss HF tuned circuit, even if it gives the inductance you wanted.
 
 Shape matters too. In a solenoidal winding, such as a coil around a straight rod, much of the field loops outside the core, where it can couple into nearby parts. A toroid's core is a closed ring, with the winding wrapped around it.
 
@@ -31,7 +31,7 @@ With little field outside the ring, a toroid and nearby parts disturb each other
 
 #### Loss and Limits
 
-A changing magnetic field induces voltage in nearby conductors, including the core itself. In a solid metal core, that voltage drives circulating **eddy currents**, which heat the metal and waste signal energy. Building the core from thin, insulated layers breaks up those large current paths. Powdered iron's insulated particles do the same job on a finer scale.
+A changing magnetic field induces voltage in nearby conductors, including the core itself. In a solid metal core, that voltage drives circulating **eddy currents**, which heat the metal and waste signal energy. An induction cooktop heats a pan the same way, on purpose. Building the core from thin, insulated layers breaks up those large current paths. Powdered iron's insulated particles do the same job on a finer scale.
 
 Eddy currents can also be useful. A movable brass slug lets you adjust a coil's inductance without rewinding it. Unlike iron or ferrite, brass is nonmagnetic. Eddy currents in a brass slug oppose the coil's changing field.
 
@@ -43,7 +43,7 @@ Heavy current brings another problem. As the current rises, so does the magnetiz
 
 > **Key Information:** Inductor saturation results from operation at excessive magnetic flux. {{< link id="E6D12" >}}
 
-A coil that measures correctly on a meter can still saturate in use. Check its current or saturation rating as well as its inductance.
+A coil can measure perfectly on the bench and still saturate in use, because the meter tests it with a tiny current. Check its current or saturation rating as well as its inductance.
 
 #### Using Loss on Purpose
 
@@ -51,6 +51,6 @@ In a tuned circuit, core loss wastes wanted energy and lowers Q, a measure that 
 
 In an HF amplifier, lead inductance and capacitance between nearby conductors can create an unwanted feedback path. These unintended properties are called **parasitic effects**. They come from the physical wiring, even where the schematic shows no coil or capacitor. The stray values are small, so they resonate at high frequencies, and the amplifier may oscillate at VHF.
 
-A ferrite bead slipped over a lead adds impedance that depends on frequency. In its intended suppression range, part of that impedance is resistive, so the bead dissipates unwanted RF energy. At the desired HF frequencies, a suitable bead adds little loss.
+The lump on many laptop power cords is a ferrite core that soaks up RF riding the cable. A ferrite bead slipped over a lead is a smaller version, adding impedance that depends on frequency. In its intended suppression range, part of that impedance is resistive, so the bead dissipates unwanted RF energy. At the desired HF frequencies, a suitable bead adds little loss.
 
 > **Key Information:** Ferrite beads are commonly used as VHF and UHF parasitic suppressors at the input and output terminals of a transistor HF amplifier. {{< link id="E6D09" >}}

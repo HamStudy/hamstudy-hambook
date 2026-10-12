@@ -46,7 +46,7 @@ A typical Pierce oscillator resembles a Colpitts, with the crystal in place of t
 
 #### Keeping Frequency Steady
 
-Vibration is another threat. A jolt can flex a part, shift a wire, or change a stray capacitance just enough to move the frequency. The oscillator then acts a bit like a microphone, turning sound and bumps into changes of frequency. Those bumps reach the circuit through whatever holds it, usually the case.
+Vibration is another threat. A jolt can flex a part, shift a wire, or change a stray capacitance just enough to move the frequency. The oscillator then acts a bit like a microphone, turning sound and bumps into changes of frequency. Tap the cabinet, and the signal you're listening to may wobble in pitch. Those bumps reach the circuit through whatever holds it, usually the case.
 
 Heat is a third. It changes component values and the crystal itself. A capacitor whose value drifts with temperature drags the frequency along. **NP0 capacitors**, also marked C0G, use a ceramic whose value barely changes with temperature. They hold the oscillator's load capacitance steady.
 

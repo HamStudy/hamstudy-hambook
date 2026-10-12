@@ -28,7 +28,7 @@ The Beverage, a long, low wire with a resistor at its far end, is the classic lo
 
 The resistor works best when it matches the wire's own characteristic impedance, typically several hundred ohms. With the wrong value, waves reaching the far end partly reflect. As on any mismatched line in [Section 6.3]({{% pageref "6.3" %}}), the feed impedance then varies more as frequency changes.
 
-Directivity grows with length. For scale, one wavelength at 1.8 MHz is about $300/1.8=167$ meters. A Beverage needs considerable property, though it does not need a high tower.
+Directivity grows with length. For scale, one wavelength at 1.8 MHz is about $300/1.8=167$ meters. A Beverage needs room to roam, often more than a suburban lot can offer, though it does not need a high tower.
 
 > **Key Information:**
 > - The function of a Beverage antenna's termination resistor is to absorb signals from the reverse direction. {{< link id="E9H07" >}}
@@ -49,7 +49,7 @@ For direction finding, or DF, a small loop's deep null is often easier to locate
 
 #### One Null Instead of Two
 
-Even a perfect null leaves a question: which end of the bearing points to the transmitter? Rotating the loop until the signal disappears identifies an axis, leaving the source ahead or behind.
+Even a perfect null leaves a question: which end of the bearing points to the transmitter? Rotating the loop until the signal disappears identifies an axis, leaving the source ahead or behind. On a fox hunt, that ambiguity can send you to the wrong side of town.
 
 > **Key Information:** The challenge presented by a small wire-loop antenna for direction finding is that it has a bidirectional null pattern. {{< link id="E9H05" >}}
 

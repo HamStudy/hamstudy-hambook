@@ -8,15 +8,15 @@ draft: true
 
 ### Section 8.1: Towers and Lightning
 
-A taller antenna is appealing when you're chasing a weak signal. Someone still has to put it up—and go back up when a connector needs attention. Before anyone climbs, the usual rules apply: never climb alone, check the harness rating and service life, lock out and tag circuits feeding the tower, and keep its antennas off the air. None of that replaces climbing training, suitable fall-protection equipment, and a rescue plan.
+A taller antenna is hard to resist when you're chasing weak signals. Someone still has to put it up, and climb back up the day a connector lets in water. Before anyone climbs, the usual rules apply: never climb alone, check the harness rating and service life, lock out and tag circuits feeding the tower, and keep its antennas off the air. None of that replaces climbing training, suitable fall-protection equipment, and a rescue plan.
 
 #### Staying Attached to the Tower
 
 A **lanyard** connects the climber's harness to an anchor; a shock-absorbing lanyard also helps limit the force of a fall. The harness, lanyard, anchor, and available clearance must work together as a fall-protection system.
 
-Where the lanyard goes matters too. A lattice tower has three or four upright **legs** joined by cross braces that climbers often use as rungs. The legs carry the tower's load. Rungs and guy brackets aren't meant to hold a falling climber, and a lanyard around the mast can slide or turn with it.
+A lattice tower has three or four upright **legs** joined by cross braces that climbers often use as rungs. The legs carry the tower's load. Rungs and guy brackets aren't meant to hold a falling climber, and a lanyard around the mast can slide or turn with it.
 
-Moving up means unclipping, so a climber uses two lanyards, clipping one at the next anchor before releasing the other. The higher that anchor sits above the harness, the less the climber can fall before the lanyard catches.
+Moving up means unclipping, so a climber uses two lanyards, clipping one at the next anchor before releasing the other. The higher that anchor sits above the harness, the shorter the fall before the lanyard catches, and the smaller the jolt.
 
 > **Key Information:**
 >
@@ -47,4 +47,4 @@ Some surge current still reaches the station's cables, and it can enter on one c
 
 Connect the panel to the outside ground rods with a short, direct conductor, and bond that system to the building's electrical service ground. Separate, unbonded ground rods put the radio back in the surge's path. A ground rod does not replace the AC equipment-grounding conductor.
 
-Use surge protectors suited to each line, following their installation instructions and applicable electrical codes. Have a qualified electrician handle AC wiring. These measures reduce risk, but they do not make it safe to work on the station or tower during a thunderstorm.
+Use surge protectors suited to each line, following their instructions and applicable electrical codes. Have a qualified electrician handle AC wiring. These measures reduce risk, but they do not make it safe to work on the station or tower during a thunderstorm.

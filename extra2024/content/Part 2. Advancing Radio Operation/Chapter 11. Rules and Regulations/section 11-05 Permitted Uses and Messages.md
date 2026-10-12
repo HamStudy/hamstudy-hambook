@@ -48,7 +48,7 @@ A message to a business isn't always business use of amateur radio. Telling a sh
 
 **Pecuniary** means financial. A small payment is still payment; the rules offer no general exemption for amounts below 25 or 50 dollars. Section 97.113 lists a few specific exceptions, such as pay for a teacher who uses a station in class. None of them make amateur radio a substitute for routine business communication.
 
-Many email and web programs encrypt their traffic automatically, as a secure web page does. The message inside may be ordinary, but the radio link then carries scrambled data that other stations can't read.
+Many email and web programs encrypt their traffic automatically; the padlock beside a web address means exactly that. The message inside may be ordinary, but the radio link then carries scrambled data that other stations can't read.
 
 > **Key Information:** Messages encoded to obscure their meaning cannot be transmitted over an amateur radio mesh network. {{< link id="E1F09" >}}
 

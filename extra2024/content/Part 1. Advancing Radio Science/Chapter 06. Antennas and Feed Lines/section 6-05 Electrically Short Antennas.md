@@ -41,10 +41,10 @@ A **capacitance hat**, also called a capacity hat, is the usual form of top load
 
 #### A Narrow Match
 
-Mobile HF operators often retune after moving only a short way across a band. A small loaded antenna stores much more energy than it radiates or loses each cycle, which gives it a high antenna Q. Its reactance changes quickly away from resonance, as in any high-Q resonant circuit.
+Mobile HF operators often retune after moving only a short way across a band; on 75 meters, a few tens of kilohertz can be enough. A small loaded antenna stores much more energy than it radiates or loses each cycle, which gives it a high antenna Q. Its reactance changes quickly away from resonance, as in any high-Q resonant circuit.
 
 > **Key Information:**
 > - As the Q of an antenna increases, SWR bandwidth decreases. {{< link id="E9D08" >}}
 > - When one or more loading coils are used to resonate an electrically short antenna, SWR bandwidth decreases. {{< link id="E9D06" >}}
 
-Coil Q and antenna Q answer different questions. A coil's Q compares its reactance with its own resistance, so higher is better. Adding any resistance lowers antenna Q, which widens the SWR curve, but only by turning more of the power into heat.
+Coil Q and antenna Q answer different questions. A coil's Q compares its reactance with its own resistance, so higher is better. Adding any resistance lowers antenna Q, which widens the SWR curve, but only by turning more of the power into heat. By that measure, a dummy load is the broadest-band antenna of all.

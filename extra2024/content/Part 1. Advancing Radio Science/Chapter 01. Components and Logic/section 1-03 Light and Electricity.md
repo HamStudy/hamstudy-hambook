@@ -8,7 +8,7 @@ draft: true
 
 ### Section 1.3: Light and Electricity
 
-A solar panel turns sunlight into electricity, the reverse of what an LED does. Both depend on the band gap described earlier in this chapter. In an LED, electrons give up energy as light when they fall across the gap; a solar cell runs that process the other way. Light can carry information as well as power, so a circuit can also use it to measure brightness, pass a command across an insulating gap, or follow a turning knob.
+The solar panel charging a battery at Field Day turns sunlight into electricity, the reverse of what an LED does. Both depend on the band gap described earlier in this chapter. In an LED, electrons give up energy as light when they fall across the gap; a solar cell runs that process the other way. Light can carry information as well as power, so a circuit can also use it to measure brightness, pass a command across an insulating gap, or follow a turning knob.
 
 #### Making Electricity from Light
 
@@ -30,11 +30,11 @@ A cell's **open-circuit voltage** is its voltage with nothing connected, so no c
 
 > **Key Information:** A fully illuminated silicon photovoltaic cell produces an approximate open-circuit voltage of 0.5 volts. {{< link id="E6F11" >}}
 
-That is far too little for most uses, so a panel connects many cells in series to add their voltages. Actual voltage varies with cell design, light, and temperature. Many modern silicon cells measure above 0.6 V with nothing connected, and their voltage drops toward 0.5 V while they deliver power.
+Half a volt won't charge much of anything, so a panel connects many cells in series to add their voltages. A panel built to charge a 12 V battery commonly strings 36 of them. Actual voltage varies with cell design, light, and temperature. Many modern silicon cells measure above 0.6 V with nothing connected, and their voltage drops toward 0.5 V while they deliver power.
 
 #### Detecting Light with Resistance
 
-We don't always need light to supply power. Sometimes a powered circuit only needs to measure how much light is present. A **photoconductive** device changes its resistance with light. As in a solar cell, absorbed photons free additional mobile carriers in the semiconductor, and more carriers let more current flow for a given applied voltage.
+We don't always need light to supply power. A porch light that switches on at dusk only needs to know how much light is present. A **photoconductive** device changes its resistance with light. As in a solar cell, absorbed photons free additional mobile carriers in the semiconductor, and more carriers let more current flow for a given applied voltage.
 
 > **Key Information:**
 > - A photoconductive material's resistance decreases when light shines on it. {{< link id="E6F02" >}}
@@ -44,7 +44,7 @@ For a stronger response, a **phototransistor** puts transistor gain to work. Car
 
 #### Passing a Signal Across Insulation
 
-A low-voltage controller may need to switch a 120 VAC circuit while keeping the two electrically separate. We can send the instruction as light, letting it cross insulation without a shared signal wire.
+A low-voltage controller may need to switch a 120 VAC circuit while keeping the two electrically separate, so an AC fault can't reach the controller, or you. We can send the instruction as light, letting it cross insulation without a shared signal wire.
 
 An **optoisolator**, also called an **optocoupler**, puts a light source and a light detector in one package. Driving the source makes light, and the detector responds on the other side. A transparent insulating barrier lets the light pass without a direct conducting path between circuits.
 
@@ -63,4 +63,4 @@ A radio with a free-spinning tuning knob has to sense how far the knob turns and
 
 > **Key Information:** An optical shaft encoder detects rotation by interrupting a light source with a patterned wheel. {{< link id="E6F05" >}}
 
-The detector turns those interruptions into electrical pulses. Counting the pulses measures movement. With two suitably spaced detectors, the circuit can also distinguish clockwise from counterclockwise rotation. The knob can now report your movement without sliding electrical contacts.
+The detector turns those interruptions into electrical pulses. Counting the pulses measures movement. With two suitably spaced detectors, the circuit can also distinguish clockwise from counterclockwise rotation. The knob can now report your movement without sliding electrical contacts, so nothing wears into the crackle of an old volume control.

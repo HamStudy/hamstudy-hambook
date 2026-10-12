@@ -5,7 +5,7 @@ draft: true
 
 # Amateur Extra Class License
 
-Amateur Extra is the highest of the three US amateur license classes. It adds access to portions of several HF bands that General operators cannot use. Those extra frequencies can offer welcome space during a contest or a chance to reach a station operating in an Extra-only segment.
+Amateur Extra is the highest of the three US amateur license classes. It adds access to portions of several HF bands that General operators cannot use. Those extra frequencies can be a quiet refuge when a contest packs the General segments, or your only way to reach a DX station working the Extra-only end of a band.
 
 Your radio won't gain any watts when the license arrives: the usual maximum power limit stays the same as for General. You gain more frequency choices, along with knowledge that can help you make better use of the station you have.
 

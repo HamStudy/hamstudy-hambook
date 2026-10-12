@@ -8,7 +8,7 @@ draft: true
 
 ### Section 9.1: Planning Station Power
 
-Estimating how long a battery will run a radio looks simple until you ask which current to use. A radio may spend most of an afternoon listening, then draw several times as much current for each transmission. Weight each current by its share of operating time to find the average.
+Estimating how long a battery will run a radio looks simple until you ask which current to use. Guess wrong at a park activation, and the radio may go quiet just as the pileup builds. A radio may spend most of an afternoon listening, then draw several times as much current for each transmission. Weight each current by its share of operating time to find the average.
 
 > **Key Information:** Battery operating time is calculated by dividing capacity in amp-hours by average current in amperes. {{< link id="E7D09" >}}
 

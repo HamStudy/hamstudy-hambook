@@ -12,7 +12,7 @@ You buy an inductor for its inductance, but you get some capacitance and resista
 
 #### Current Crowds Toward the Surface
 
-A wire's DC resistance can underestimate the loss it causes at RF. DC uses the whole cross section evenly, but an alternating current's own changing magnetic field pushes it toward the conductor's surface, more strongly as frequency rises. This is skin effect. Most of the current then flows through less of the metal.
+A wire's DC resistance can underestimate the loss it causes at RF. DC uses the whole cross section evenly, but an alternating current's own changing magnetic field pushes it toward the conductor's surface, more strongly as frequency rises. This is skin effect. At 14 MHz, most of the current in a copper wire flows within about 0.02 mm of the surface, a layer thinner than a sheet of paper.
 
 Capacitors have metal in their current path too. In a film capacitor, a thin plastic film separates the electrodes. A low-loss film such as polypropylene wastes little energy itself, so most of the loss comes from resistance in the metal: the electrodes, end connections, and leads.
 

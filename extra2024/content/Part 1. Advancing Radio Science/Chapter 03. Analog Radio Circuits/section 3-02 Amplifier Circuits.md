@@ -8,7 +8,7 @@ draft: true
 
 ### Section 3.2: Amplifier Circuits
 
-An amplifier's class describes how much of each signal cycle its device conducts. Class A conducts for all of it and is the most linear; Class C conducts for less than half, trading linearity for efficiency. The class comes from the circuit around the device, especially its bias.
+An amplifier's class describes how much of each signal cycle its device conducts. Class A conducts for all of it and is the most linear; Class C conducts for less than half, trading linearity for efficiency. That one choice decides how clean the output is and how hot the heat sink runs. The class comes from the circuit around the device, especially its bias.
 
 #### Reading a Transistor Stage
 
@@ -46,7 +46,7 @@ Biased partly on, the stage in Figure E7-1 can run Class A, conducting through a
 
 > **Key Information:** The operating point of a Class A common-emitter amplifier is approximately halfway between saturation and cutoff. {{< link id="E7B04" >}}
 
-That bias current flows even with no signal, so Class A wastes power. A push-pull amplifier divides the waveform between two active elements instead. In Class B, each conducts for exactly half the cycle, and the handoff near the zero crossing can distort the signal. Class AB biases each device slightly on, so their halves overlap and the handoff is smooth.
+That bias current flows even with no signal, so a Class A stage runs warm while nobody is talking. A push-pull amplifier divides the waveform between two active elements instead. In Class B, each conducts for exactly half the cycle, and the handoff near the zero crossing can distort the signal. Class AB biases each device slightly on, so their halves overlap and the handoff is smooth.
 
 Class C conducts in pulses shorter than half a cycle. A tuned output circuit rebuilds a sine wave from those current pulses, which works for FM, whose amplitude stays constant. SSB phone is different: its changing amplitude carries the speech, and Class C's pulses don't follow it in proportion. Those errors add new frequencies, like the splatter from an overdriven transmitter.
 
@@ -67,7 +67,7 @@ A switching waveform has sharp edges, which make it rich in harmonics. Those are
 
 #### Stopping an Accidental Oscillator
 
-Not every feedback path is designed in. Stray capacitance, wiring, or magnetic coupling can carry some output back to the input. At some frequency, that stray feedback may arrive in phase and turn positive. With enough gain, the amplifier then oscillates on its own, often far from its working frequency.
+Not every feedback path is designed in. Stray capacitance, wiring, or magnetic coupling can carry some output back to the input. At some frequency, that stray feedback may arrive in phase and turn positive. With enough gain, the amplifier then oscillates on its own, often far from its working frequency, where you may not notice until someone else does.
 
 Two remedies attack that feedback. A **parasitic suppressor**, such as a ferrite bead from Chapter 1, damps the unwanted path at the oscillation frequency but has little effect at the working frequency. **Neutralization** feeds back an opposing signal that cancels the unwanted feedback.
 

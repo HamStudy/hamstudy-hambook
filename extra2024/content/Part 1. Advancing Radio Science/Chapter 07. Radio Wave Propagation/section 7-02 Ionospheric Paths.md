@@ -8,7 +8,7 @@ draft: true
 
 ### Section 7.2: Ionospheric Paths
 
-An HF contact can fade after sunset even though neither station has changed its equipment. A different band may save the contact, or a different route may work when the original one fails. Choosing well means looking at conditions along the whole path.
+A conversation with a distant station on 15 meters can sink into the noise around sunset, though neither operator has touched a knob. A different band may save the contact, or a different route may work. Choosing well means looking at conditions along the whole path.
 
 #### Keeping a Path Open
 
@@ -16,7 +16,7 @@ After sunset, ionization falls, and so does the path's maximum usable frequency 
 
 > **Key Information:** To continue a long-distance contact when the MUF for that path decreases due to darkness, switch to a lower-frequency HF band. {{< link id="E3A06" >}}
 
-If 21 MHz no longer bends back to the other station, 14 MHz may still return. More transmitter power does not make an above-MUF ray bend enough to complete the path.
+If 21 MHz no longer bends back to the other station, 14 MHz may still return. More power won't rescue the path, because the ionosphere bends a 1,500 W signal no more than a 100 W one.
 
 #### Darkness and the Long Way Around
 
@@ -36,7 +36,7 @@ A long path takes many hops. A ray launched at a low angle rises gradually, so i
 
 > **Key Information:** Lowering a signal's transmitted elevation angle increases the distance covered by each hop in ionospheric HF skip propagation. {{< link id="E3B07" >}}
 
-Fewer hops then cover the same distance, which is why the low-angle antenna lobes in the previous chapter matter for long-distance work. In an ordinary multi-hop path, the signal comes back to Earth, reflects from the ground, and travels up again. Every ground reflection loses some energy, and the trips down through the absorbing D region and back up lose more.
+Fewer hops then cover the same distance, which is why DXers raise their antennas for the low-angle lobes from the previous chapter. In an ordinary multi-hop path, the signal comes back to Earth, reflects from the ground, and travels up again. Every ground reflection loses some energy, and the trips down through the absorbing D region and back up lose more.
 
 Real ionospheric regions can tilt, though. A ray refracted at one point may then meet the layer again before it reaches the ground. It crosses beneath the curved ionosphere like a chord joining two points on a circle, which gives **chordal-hop propagation** its name.
 
@@ -67,15 +67,15 @@ Real paths vary, and afternoon TEP often runs somewhat longer than 3,000 miles.
 
 #### Two Waves in One Path
 
-The magnetic field also changes how a wave travels through the ionosphere. Under the field's influence, the ionized medium splits a signal into two modes, the **ordinary** and **extraordinary** waves. They follow slightly different paths. In each, the electric field rotates as the wave travels, and its tip traces an ellipse.
+The magnetic field also changes how a wave travels through the ionosphere: the ionized medium splits it into two modes, the **ordinary** and **extraordinary** waves. They follow slightly different paths. In each, the electric field rotates as the wave travels, and its tip traces an ellipse.
 
 > **Key Information:** Extraordinary and ordinary waves are independently propagating, elliptically polarized waves created in the ionosphere. {{< link id="E3B04" >}}
 
-The two waves reach the receiver with a shifting phase difference, so their combined polarization keeps changing. That is one cause of fading. Because the arriving polarization is elliptical and keeps changing, vertical and horizontal antennas both work for HF skywave.
+The two waves reach the receiver with a shifting phase difference, so their combined polarization keeps changing. That is one cause of fading. The shifting polarization also means vertical and horizontal antennas both work for HF skywave. A vertical in a small yard and a dipole strung between two trees can both work the same distant station.
 
 #### Dense Patches in the E Region
 
-A sporadic-E opening can appear and vanish quickly as its dense ionized patches change location and strength. These thin patches within the E region can return frequencies that would otherwise pass through, including VHF. Sporadic E, often written $E_s$, can't be scheduled, but seasonal and daily patterns suggest when to listen.
+Six meters can sit silent for hours, then fill with strong signals from half a continent away, then go quiet again. That is sporadic E, often written $E_s$, and a big reason hams call 6 meters the Magic Band. Thin, dense patches of ionization form within the E region, drift, and fade. While they last, they can return frequencies that would otherwise pass through, including VHF. Sporadic E can't be scheduled, but seasonal and daily patterns suggest when to listen.
 
 > **Key Information:**
 > - Sporadic-E propagation is most likely to occur around the solstices, especially the summer solstice. {{< link id="E3B09" >}}

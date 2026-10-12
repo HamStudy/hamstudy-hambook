@@ -8,7 +8,7 @@ draft: true
 
 ### Section 6.3: Feed Line Behavior
 
-On a mismatched feed line, forward and reflected waves combine into a standing wave, with voltage peaks and dips at fixed points along the line. SWR sums up that pattern in one number, the ratio of the highest voltage to the lowest. Voltage and current vary from point to point, so the impedance does too, and a line cut to a chosen length can become a matching component.
+On a mismatched feed line, forward and reflected waves combine into a standing wave, with voltage peaks and dips at fixed points along the line. SWR sums up that pattern in one number, the ratio of the highest voltage to the lowest. Voltage and current vary from point to point, so the impedance does too, and a line cut to a chosen length can become a matching component, built from nothing but coax.
 
 #### Wavelength Inside the Line
 
@@ -22,7 +22,7 @@ A free-space wavelength in meters is about 300 divided by the frequency in megah
 
 $$L_{1/2}\approx\frac{300}{2\times14.10}\times1=10.6\text{ m}.$$
 
-The same electrical length in VF 0.66 coax is about $10.6\times0.66=7.0$ meters.
+The same electrical length in VF 0.66 coax is about $10.6\times0.66=7.0$ meters. Cut the coax to 10.6 m, and you'd miss by more than 3 meters.
 
 > **Key Information:**
 > - The velocity factor of a transmission line is the velocity of a wave in the transmission line divided by the velocity of light in a vacuum. {{< link id="E9F01" >}}

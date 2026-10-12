@@ -8,7 +8,7 @@ draft: true
 
 ### Section 2.2: Drawing Complex Impedance
 
-An antenna analyzer might report $50-j25\ \Omega$ rather than a single impedance value. The extra information lets us distinguish resistance from reactance and tell whether a load is inductive or capacitive. Plotting the reading lets us see those differences and work out their combined effect.
+Connect an antenna analyzer to a feed line, and it might report $50-j25\ \Omega$ instead of a single number. The extra information lets us distinguish resistance from reactance and tell whether a load is inductive or capacitive. Plotting the reading lets us see those differences and work out their combined effect.
 
 #### Two Directions, One Impedance
 
@@ -18,7 +18,7 @@ Resistance and reactance affect phase differently, so we cannot add them along o
 > - When graphing impedance in rectangular coordinates, the X axis represents the resistive component and the Y axis represents the reactive component. {{< link id="E5C09" >}}
 > - The impedance of a pure resistance is plotted on the horizontal axis. {{< link id="E5C07" >}}
 
-Watch the labels here: the graph's “X axis” is horizontal, while the quantity called $X$—reactance—goes vertically. A point such as $(50,-25)$ means “50 across, 25 down.”
+Watch the labels here, because the names collide: the graph's “X axis” is horizontal, while the quantity called $X$—reactance—goes vertically. A point such as $(50,-25)$ means “50 across, 25 down.”
 
 Rectangular notation, $Z=R+jX$, holds the same information as that point. The letter $j$ marks the reactance part, drawn at right angles to resistance. Inductive reactance points upward and has a plus sign. Capacitive reactance points downward and has a minus sign, like the $-j25$ in our analyzer's reading.
 
@@ -100,4 +100,4 @@ The graph places these last two reactances at 400 Ω rather than 396 or 395 Ω. 
 > - A 300-ohm resistor and 18-microhenry inductor in series at 3.505 MHz give approximately $300+j396\ \Omega$: point 3. {{< link id="E5C11" >}}
 > - A 300-ohm resistor and 19-picofarad capacitor in series at 21.200 MHz give approximately $300-j395\ \Omega$: point 1. {{< link id="E5C12" >}}
 
-All three magnitudes are close to 500 Ω, yet their phase angles differ.
+All three magnitudes are close to 500 Ω, yet they're three different loads. The magnitude alone would never tell them apart.

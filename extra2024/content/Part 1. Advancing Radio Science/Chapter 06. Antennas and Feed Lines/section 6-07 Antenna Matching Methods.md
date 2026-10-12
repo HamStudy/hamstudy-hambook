@@ -8,7 +8,7 @@ draft: true
 
 ### Section 6.7: Antenna Matching Methods
 
-Put an antenna tuner beside the radio and the transmitter sees a 50-ohm load, but the feed line beyond the tuner still carries the antenna's mismatch. A match made at the antenna clears the mismatch from the line. The methods here make that match with sections of transmission line or with connections to the radiating element itself.
+Put an antenna tuner beside the radio and the transmitter sees a 50-ohm load, but the feed line beyond the tuner still carries the antenna's mismatch. The radio is happy; the coax isn't. A match made at the antenna clears the mismatch from the line. The methods here make that match with sections of transmission line or with connections to the radiating element itself.
 
 #### A Quarter-Wave Transformer
 
@@ -20,7 +20,7 @@ where $Z_t$ is the matching section's characteristic impedance. To connect a 100
 
 $$Z_t=\sqrt{R_{\text{in}}R_L}=\sqrt{50\times100}\approx70.7\ \Omega.$$
 
-The length must be one-quarter electrical wavelength at the operating frequency, including velocity factor. This arrangement is called a **Q-section** or **quarter-wave transformer**. Standard coax doesn't come in 70.7 ohms, but 75-ohm cable is common. A 75-ohm section transforms 100 ohms to $75^2/100=56.25\ \Omega$, an SWR of only about 1.1:1 on the 50-ohm line.
+The length must be one-quarter electrical wavelength at the operating frequency, including velocity factor. This arrangement is called a **Q-section** or **quarter-wave transformer**. Standard coax doesn't come in 70.7 ohms, but 75-ohm cable, the kind behind many TVs, is common. A 75-ohm section transforms 100 ohms to $75^2/100=56.25\ \Omega$, an SWR of only about 1.1:1 on the 50-ohm line.
 
 > **Key Information:** A 75-ohm transmission line is suitable for constructing a quarter-wave Q-section to match a 100-ohm feed point impedance to a 50-ohm transmission line. {{< link id="E9E06" >}}
 

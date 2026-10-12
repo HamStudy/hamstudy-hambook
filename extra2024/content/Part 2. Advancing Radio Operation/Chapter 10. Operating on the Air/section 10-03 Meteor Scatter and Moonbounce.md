@@ -8,7 +8,7 @@ draft: true
 
 ### Section 10.3: Meteor Scatter and Moonbounce
 
-Section 7.4 introduced two unusual paths. A meteor trail lasts only a moment. The Moon stays in view for hours but returns only a tiny part of the energy sent to it. Each path calls for its own kind of digital mode: one fits a complete message into a fleeting opening, and the other recovers a message from deep noise.
+Section 7.4 introduced two unusual paths, each stingy in its own way. A meteor trail lasts only a moment. The Moon stays in view for hours but returns only a tiny part of the energy sent to it. Each path calls for its own kind of digital mode: one fits a complete message into a fleeting opening, and the other recovers a message from deep noise.
 
 #### Catching a Meteor Burst
 
@@ -16,11 +16,11 @@ A meteor trail may support only part of a normal-length transmission. MSK144 ans
 
 > **Key Information:** MSK144 is designed for meteor scatter communications. {{< link id="E2D01" >}}
 
-Operators agree on the mode, frequency, and transmit periods. You may hear very little for most of a receive period, then a brief burst produces a complete line of decoded text. The exchange progresses when the needed message gets through, not when every repetition does.
+Operators agree on the mode, frequency, and transmit periods. You may hear nothing but noise for most of a receive period. Then comes a ping, and a complete line of decoded text appears. The exchange moves forward when the needed message gets through, not when every repetition does. Major showers, such as the Perseids each August, bring pings far more often.
 
 #### Recovering a Lunar Echo
 
-On an Earth–Moon–Earth (EME) path, the reflected signal may arrive far below what you can copy by ear. JT65 copes by carrying a compact, error-protected message as a slow sequence of audio tones, which an SSB transmitter translates to RF.
+On an Earth–Moon–Earth (EME) path, the reflected signal may arrive too weak to hear at all. JT65 copes by carrying a compact, error-protected message as a slow sequence of audio tones, which an SSB transmitter translates to RF.
 
 > **Key Information:**
 > - JT65 can decode signals with a very low signal-to-noise ratio. {{< link id="E2D05" >}}
@@ -28,7 +28,7 @@ On an Earth–Moon–Earth (EME) path, the reflected signal may arrive far below
 
 The 65 in the name counts tones: 64 carry data and one provides synchronization. It does not specify bandwidth or baud rate.
 
-One receive period may still contain too little information for a decode. Q65 handles that by combining the evidence from several periods that carry the same message, which can recover a message that no single period reveals. Despite the Q, Q65 does not use quadrature modulation; like JT65, it sends one of 65 FSK tones at a time.
+One receive period may still contain too little information for a decode. Q65 handles that by combining the evidence from several periods that carry the same message, which can recover a message that no single period reveals. Astrophotographers stack exposures of faint galaxies for the same reason. Despite the Q, Q65 does not use quadrature modulation; like JT65, it sends one of 65 FSK tones at a time.
 
 > **Key Information:**
 > - Q65 is designed for EME communications. {{< link id="E2D03" >}}
@@ -51,4 +51,4 @@ Agree on a period length and who transmits first, then let synchronized clocks k
 | 02:02:00 | Transmit | Receive |
 | 02:03:00 | Receive | Transmit |
 
-The software times its signal within each slot. Point the antennas for the lunar path, check the agreed period, and let successful decodes determine when to advance the exchange.
+Keep the antennas on the Moon as it crosses the sky. Check the agreed period, and let successful decodes determine when to advance the exchange.

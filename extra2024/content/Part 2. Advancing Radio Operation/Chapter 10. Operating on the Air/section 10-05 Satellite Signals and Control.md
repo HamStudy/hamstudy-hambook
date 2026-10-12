@@ -49,7 +49,7 @@ A transponder contact needs both stations in view of the satellite at the same m
 
 Talking through a satellite differs from changing its operating state. Commands that switch a transponder on, change a function, or stop a transmission are called telecommand. They must come only from stations the satellite's operators trust.
 
-Amateurs normally may not encrypt messages. Commands to a spacecraft raise a problem, though: anyone who could read them could send the same commands and take control of it.
+Amateurs normally may not encrypt messages. Commands to a spacecraft raise a problem, though: anyone who could read them could send the same commands and take control of a spacecraft that no one can reach with a screwdriver.
 
 > **Key Information:**
 > - A space telecommand station transmits communications that initiate, modify, or terminate functions of a space station. {{< link id="E1D03" >}}

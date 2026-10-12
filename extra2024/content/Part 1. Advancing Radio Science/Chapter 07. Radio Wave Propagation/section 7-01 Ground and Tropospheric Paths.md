@@ -12,9 +12,9 @@ Not every contact depends on the ionosphere. A UHF handheld's signal seldom reac
 
 #### Along the Surface
 
-The AM station's daytime signal travels mostly as a surface wave. Ground-wave propagation includes a surface wave that follows Earth's curvature. The wave drives currents in the ground, and the ground's resistance turns some of the wave's energy into heat. That loss grows as frequency increases. Seawater, a good conductor, supports much better paths than poor soil.
+The AM station's daytime signal travels mostly as a surface wave, the part of ground-wave propagation that follows Earth's curvature. The wave drives currents in the ground, and the ground's resistance turns some of the wave's energy into heat. That loss grows as frequency increases. Seawater, a good conductor, supports much better paths than poor soil.
 
-A vertically polarized wave's electric field stands perpendicular to the ground. A horizontal electric field lies along the conducting surface, which nearly shorts it out. That is why AM broadcast stations use tall vertical towers.
+A vertically polarized wave's electric field stands perpendicular to the ground. A horizontal electric field lies along the conducting surface, which nearly shorts it out. That is why AM stations use tall vertical towers. Often the steel tower itself is the antenna.
 
 > **Key Information:**
 > - The maximum range of ground-wave propagation decreases when the signal frequency is increased. {{< link id="E3B08" >}}
@@ -32,7 +32,7 @@ An antenna about 270 feet above smooth ground has a geographic horizon near 20 m
 
 Usually that bending is gentle. When the refractive index falls sharply with height, the path can curve as fast as Earth does, keeping the signal within a layer instead of letting it escape upward. A temperature inversion, warmer air above cooler air, can form such a **tropospheric duct**. A sharp drop in humidity with height can too, where evaporation keeps the lowest air much moister than the air above.
 
-A duct traps only waves that are short compared with its thickness. Ducts over water are often just tens of feet thick, which suits microwaves. The signal must also enter the layer, which depends on the duct's height and the antenna's position. Once trapped, a microwave signal can travel many times past the radio horizon.
+A duct traps only waves that are short compared with its thickness. Ducts over water are often just tens of feet thick, which suits microwaves. The signal must also enter the layer, which depends on the duct's height and the antenna's position. Once trapped, a microwave signal can ride the duct many times farther than the radio horizon.
 
 > **Key Information:**
 > - Atmospheric ducts capable of propagating microwave signals often form over large bodies of water. {{< link id="E3A07" >}}
@@ -40,7 +40,7 @@ A duct traps only waves that are short compared with its thickness. Ducts over w
 
 #### Fresnel Clearance
 
-At microwave frequencies, seeing the other antenna does not always mean the path is clear enough. Energy reaches the receiver through a broad region around the line of sight. Where a detour adds less than half a wavelength to the trip, that energy arrives close enough in step to add together. That region is the **first Fresnel zone** (pronounced fray-NEL), and an obstruction inside it blocks part of the energy that adds up at the receiver.
+On a microwave link, you can see the other dish from your roof and still get a weak signal. Energy reaches the receiver through a broad region around the line of sight. Where a detour adds less than half a wavelength to the trip, that energy arrives close enough in step to add together. That region is the **first Fresnel zone** (pronounced fray-NEL), and an obstruction inside it blocks part of the energy that adds up at the receiver.
 
 The zone bulges outward between the antennas and narrows to nothing at each end. With a longer wavelength, a detour can swing farther out before it adds half a wavelength, so the zone grows. At the same point on the same path, its radius is proportional to the square root of wavelength. Among the common microwave bands below 6 GHz, 5.8 GHz has the shortest wavelength.
 

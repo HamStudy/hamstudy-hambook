@@ -14,7 +14,7 @@ Slow-scan television, or SSTV, sends a still picture through an ordinary voice c
 
 In common analog modes, a 1,500 Hz tone means black and 2,300 Hz means white, with grays in between. Turning up the volume doesn't brighten the picture; amplitude carries no brightness information.
 
-Color needs more than brightness. Many common modes send each row as three scans, green, then blue, then red, and the receiver combines them. Each line starts with a short 1,200 Hz sync pulse, below the picture's tone range, so the decoder can't mistake it for part of the image. The picture itself begins with a short burst of tones called the vertical interval signaling, or VIS, code. Modes differ in line timing and color order, and with the wrong mode selected, rows or colors land in the wrong places.
+Color needs more than brightness. Many common modes send each row as three scans, green, then blue, then red, and the receiver combines them. Each line starts with a short 1,200 Hz sync pulse, below the picture's tone range, so the decoder can't mistake it for part of the image. The picture itself begins with a short burst of tones called the vertical interval signaling, or VIS, code. Modes differ in line timing and color order, and with the wrong mode selected, the picture slants, smears, or comes out in the wrong colors.
 
 ![A graph plots tone frequency against time for one line of a color SSTV picture. The frequency axis is marked at 1,200, 1,500, and 2,300 hertz. The line begins with a short sync pulse that drops to 1,200 hertz, below the picture range. Three scans follow, labeled green, blue, and red. In each scan, the tone wanders up and down between 1,500 hertz, labeled black, and 2,300 hertz, labeled white, as the brightness along the row changes.](../../../images/s4-6-sstv-line.svg)
 {.img-centered .img-large .img-mobile-full caption="One color SSTV line: a 1,200 Hz sync tone, then green, blue, and red scans whose tone follows brightness from black (1,500 Hz) to white (2,300 Hz)."}
@@ -31,7 +31,7 @@ Digital image modes fit in a voice channel too. Amateur DRM spreads coded data a
 
 #### From Rows to Moving Frames
 
-Fast-scan television refreshes whole pictures fast enough to show motion, so it needs far more bandwidth, about 6 MHz. The analog NTSC system, named for the National Television System Committee, sends each frame as two **fields**, one after the other, at about 30 frames and 60 fields each second. The first field skips every other line, and the next fills in the lines between.
+Fast-scan television refreshes whole pictures fast enough to show motion, so it needs far more bandwidth: about 6 MHz, more than the entire 2-meter band. The analog NTSC system, named for the National Television System Committee, sends each frame as two **fields**, one after the other, at about 30 frames and 60 fields each second. The first field skips every other line, and the next fills in the lines between.
 
 Analog amateur fast-scan TV uses the same format, so an analog TV set can display it if the set can tune the frequency. Some analog cable-TV channels fall inside the 70-centimeter band, and a cable-ready set can tune them.
 

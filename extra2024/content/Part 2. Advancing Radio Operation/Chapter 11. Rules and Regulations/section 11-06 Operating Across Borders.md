@@ -8,19 +8,19 @@ draft: true
 
 ### Section 11.6: Operating Across Borders
 
-Radio rules follow the transmitter. A DX contact from your home station is a US station talking to a foreign one, so US rules govern your side of the conversation. Take the radio on a trip abroad, and the host country decides whether you may transmit at all, and on what terms.
+Radio rules follow the transmitter. A DX contact from your home station is a US station talking to a foreign one, so US rules govern your side of the conversation. Pack a handheld for a trip abroad, though, and the host country decides whether you may transmit at all, and on what terms.
 
 #### Contacting a Foreign Station
 
-A typical DX contact trades signal reports, station details, notes on an antenna experiment, and a few words about each operator. For contacts with other countries, that pattern is also a rule.
+A typical DX contact trades signal reports, station details, maybe notes on an antenna experiment, and a few words about the weather and the people at each end. For contacts with other countries, that friendly pattern is also a rule.
 
 > **Key Information:** Communications transmitted to amateur stations in foreign countries must be limited to those incidental to the purpose of the amateur service and remarks of a personal nature. {{< link id="E1C02" >}}
 
-The conversation need not be in English, though your voice identification must be. Passing a message for someone else falls under the third-party rules in the previous section.
+Chat in Spanish, Japanese, or Esperanto if you like; your voice identification still has to be in English. Passing a message for someone else falls under the third-party rules in the previous section.
 
 #### Operating While Traveling
 
-An agreement may let you use your home license abroad, or you may need a permit. Either way, confirm the license class the host country recognizes, the bands and modes you may use, the documents to carry, and how to sign your call. US band privileges do not travel unchanged.
+Before a radio goes in your suitcase, find out whether an agreement lets you use your home license or you need a permit. Either way, confirm the license class the host country recognizes, the bands and modes you may use, the documents to carry, and how to sign your call. Your US band privileges stay home; the host country's band plan applies.
 
 European regulators work together through CEPT, the European Conference of Postal and Telecommunications Administrations. Its plan for amateur licenses is open to other countries too, and the United States takes part.
 
@@ -32,11 +32,13 @@ European regulators work together through CEPT, the European Conference of Posta
 
 Under CEPT, you sign the host country's prefix, a slash, and your own call sign. An Extra in Germany, for example, signs DL/ before the US call, not a “/CEPT” suffix. The country list and local rules can change, so check [CEPT's current T/R 61-01 documents](https://docdb.cept.org/document/925) and the host country's regulator before your visit.
 
-A second arrangement comes from an inter-American treaty. Under it, US citizens get an International Amateur Radio Permit (IARP) from ARRL.
+Closer to home, a treaty among countries of the Americas sets up a similar arrangement. ARRL issues its permit, the International Amateur Radio Permit (IARP), to US citizens.
 
 > **Key Information:** An IARP is a permit that allows US amateurs to operate in certain countries of the Americas. {{< link id="E1C04" >}}
 
-Only countries that joined the treaty accept it. Check that your destination takes part, and get the permit before you go.
+The IARP is a paper permit you carry while you operate. It lasts a year, or until your license expires if that's sooner. With an Extra or General license, you get a Class 1 permit and all its privileges. Technicians get Class 2, which covers only frequencies above 30 MHz. Only treaty countries honor it, and some add steps of their own, so check your destination's rules before you go.
+
+Canada needs no permit at all. There, the prefix goes after your call: W1AW/VE3 in Ontario, for example.
 
 #### A Canadian License in the United States
 
@@ -48,7 +50,7 @@ Both sets of limits apply, so the visitor uses only the privileges the two have 
 
 #### Aboard a Vessel or Aircraft
 
-US amateur rules also travel with a US-registered ship or aircraft, even into international waters. The person in charge of the craft has a say, too.
+US rules also ride along on a US-registered ship or aircraft, even in international waters. The captain or pilot has a say, too.
 
 > **Key Information:**
 > - The licensing required to operate an amateur station aboard a US-registered vessel in international waters is any FCC-issued amateur license. {{< link id="E1A11" >}}
