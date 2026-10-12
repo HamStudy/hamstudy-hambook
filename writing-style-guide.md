@@ -81,7 +81,15 @@ Use [hambook.org](https://hambook.org) for the latest book and for references to
 
 Readers understand a concept more readily when they recognize a situation in which it is useful. Establish a concrete problem, practical decision, opportunity, or familiar experience; introduce the concept through its role; then develop its behavior and mechanism from that connection.
 
-Apply this before each substantial increase in complexity, especially at the beginning of a section. A broad promise to help readers choose components or understand radio is not enough: connect the unfamiliar mechanism to a concrete result before asking readers to work through it. A section introduction or transition can supply that connection.
+**Anchor where the reader enters, then keep the thread.** An entry point is anywhere the reader arrives without a thread from the text just before: the start of a part, chapter, or section, or a point where the subject really changes. Start there from something the reader probably knows, then show what it leaves unanswered.
+
+Everywhere else, the previous passage is the starting point. Check each join by asking whether the next idea follows from the last one, either as a result or as a complication. If it does, the reader has their footing, so keep going. If the only honest link is “here's another thing,” try reordering first. Otherwise, have the introduction set up a frame that the later parts hang from, as a diode section that opens with the jobs diodes can do gives each later subsection its place. Add a new starting point only when neither works. This is a check on the logic, not a phrase to write. Usually the content carries the link: an echoed term, a contrast, or simply putting the right idea next.
+
+Terms, materials, and the steps of a mechanism don't get their own lead-ins; explain them in place. Most sections need one entry point, and few need two.
+
+The pattern can recur across the book, but its phrasing shouldn't, much as a piece of music can return to a theme without repeating the same rhythm. Entry points can open with a familiar job or experience, a question a reader might be wondering about, a result from the previous section, a contrast, or a short concrete situation. Vary sentence length, rhythm, and structure as well. Section endings needn't all hand off to the next section the same way, and many need no handoff at all. Reading several consecutive openings or endings aloud is a good test; if they fall into the same cadence, rework a few.
+
+A broad promise to help readers choose components or understand radio is not enough: connect the unfamiliar mechanism to a concrete result before asking readers to work through it. A section introduction or transition can supply that connection.
 
 Choose the situation for the author's stated audience and purpose. A component's possible uses do not all belong in this book. Reuse settled answers, ask when missing context affects the teaching angle, and verify uncertain factual claims.
 
@@ -91,11 +99,15 @@ For a reader learning about capacitors:
 
 The voltage dip gives energy storage a job. Further explanation of capacitance and charging can develop that connection; this example does not define every use of a capacitor.
 
-For upgrade readers, use familiar behavior from the prerequisite pools as a foothold, then show what that explanation leaves unanswered. A lead-in should reduce the initial learning burden. If understanding the motivating example requires several unfamiliar devices or mechanisms, choose a more familiar starting point or develop those ideas first. Preserve the causal connection rather than simplifying the example by skipping steps. The capacitor example illustrates a strategy, not a mandatory opening template.
+Always try to begin from something familiar to the intended reader. Often that means building on what the preceding passage just established. When changing topics, establish a recognizable starting point first, then develop the new idea from it. Give readers a clear path into and through the section.
+
+For Technician, start from general knowledge or everyday experience. For General, build on what a Technician probably knows; for Extra, use a General Class perspective. Establish the starting fact briefly where needed, without claiming the reader remembers it or has read an earlier HamBook. A useful refresher welcomes someone who needs it without reteaching the whole prerequisite topic.
+
+A lead-in should reduce the initial learning burden. If understanding the motivating example requires several unfamiliar devices or mechanisms, choose a more familiar starting point or develop those ideas first. Preserve the causal connection rather than simplifying the example by skipping steps. The capacitor example illustrates a strategy, not a mandatory opening template.
 
 Carry the connection through the explanation: link properties to consequences and show how those consequences serve the need. “This improves performance” supplies neither the mechanism nor the conditions under which it helps. Keep the definitions, examples, and qualifications needed to understand the result. An appealing use cannot substitute for accurate explanation, and a benefit sentence before or after a catalogue of facts does not organize that catalogue into a lesson.
 
-Vary the form. A preceding passage or chapter introduction may already establish the need. A brief definition may be necessary for orientation. Required formats, including concise pool-aligned KI blocks, can rely on surrounding prose for context. Do not force a new scenario into every block or procedure.
+Vary both the form of the connection and how you refer to familiar material. Apply an idea directly when that reads naturally; do not repeatedly announce “you probably learned…” or “in the previous section.” A preceding passage or chapter introduction may already establish the need. A brief definition may be necessary for orientation. Required formats, including concise pool-aligned KI blocks, can rely on surrounding prose for context. Do not force a new scenario into every block or procedure.
 
 Let transitions carry a useful idea forward and reveal what the next passage can explain. Avoid forced crises, repeated “Imagine…” openings, stock claims of importance, rhetorical “Why does this matter?” questions, and WHY/HOW/WHAT labels. Natural signposts and conversational questions remain useful when they do real work. The reader should experience the connection without being told about the writing technique.
 
@@ -193,24 +205,28 @@ For each assigned ID, teach enough to select and understand the answer, includin
 
 **Most questions should connect to KI blocks, and every KI block must directly support assigned questions.** Motivation, general advice, and interesting facts belong in ordinary prose. Teach a coherent lesson rather than quoting stems or writing a miniature answer explanation for each ID; the separate question review supplies canonical questions. Distractors reveal distinctions that need teaching, not an obligation to explain every wrong choice.
 
-Keep KI wording close to the pool's terminology and correct answer. Before changing it, check its exact question and correctness-determining qualifiers. Active voice and variety do not justify weakening exam recognition. Additional practical qualifications can follow in prose when they would obscure the tested fact. Replacing an antenna fact with a different true antenna fact still breaks coverage.
+**Each KI item is a statement that answers one or more assigned questions.** Match the pool's phrasing as exactly as the sentence allows, usually by combining the question's own words with the keyed answer. After reading the KI, a reader should be able to look at the question and know the answer at once, without doubt. Before changing KI, check the exact question and its correctness-determining qualifiers. Active voice and variety do not justify weakening exam recognition. Keep qualifiers such as “nearly” or “among common types” out of the KI statement; when a practical qualification matters, put it in the nearby prose. A KI statement never refers to the exam or pool (“the exam's answer,” “the question says,” “among the listed choices”) and never lists the answer choices. Replacing an antenna fact with a different true antenna fact still breaks coverage.
 
-**Italicize exam facts outside KI. Inside KI, italicize only for helpful emphasis, never the whole block or more than about 70% of its text.** Do not bold whole blocks; the bold **Key Information:** label identifies them.
+**Key Information is part of the teaching, not a recap of it.** The prose leads up to a fact: it supplies the context, mechanism, or reasoning. The KI then states the fact. Don't state the same fact in a prose sentence and again in the KI, whether the prose version is italicized or not. A term may first appear in a KI statement when the surrounding prose has given the reader what they need to understand it. Prose after a KI builds on it rather than restating it.
+
+**Italicize exam facts that are not stated in a KI block. Inside KI, italicize only for helpful emphasis, never the whole block or more than about 70% of its text.** Do not bold whole blocks; the bold **Key Information:** label identifies them.
+
+Reserve italics in prose for those exam facts so readers scanning for them aren't misled. Bold a genuinely new term where it is defined, and only there. Write variables as math (`$d$`, not `*d*`), and use bold or plain wording rather than italics for emphasis.
 
 ### Group related facts coherently
 
-Combine closely related KI blocks separated by token sentences into one bulleted block. Immediately consecutive KI blocks should not remain separate. If the items are unrelated, fix placement or supply a real transition rather than forcing them together. Then reconsider the following paragraphs: merge shared explanations, but preserve distinct steps and useful lists.
+Combine closely related KI items into one bulleted block when the text that teaches them is nearby. Two KI blocks under the same subheading separated by only a sentence or two should rarely remain separate, and immediately consecutive blocks never should. Do not go to the other extreme: a single combined block at the top or end of a section pulls each answer away from its explanation. Each block belongs near the prose that teaches its items. Optimize first for readability and then for space; every KI block adds visual padding, so a few well-placed blocks serve better than many small ones. If the items are unrelated, fix placement or supply a real transition rather than forcing them together. After combining, reconsider the surrounding paragraphs: merge shared explanations, but preserve distinct steps and useful lists.
 
 Single-fact and related-fact forms:
 
 ```markdown
-> **Key Information:** A Zener diode's most useful characteristic is a nearly constant voltage drop under conditions of varying current. {{< link id="E6B01" >}}
+> **Key Information:** The most useful characteristic of a Zener diode is a constant voltage drop under conditions of varying current. {{< link id="E6B01" >}}
 
 Ordinary explanatory prose separates distinct teaching groups.
 
 > **Key Information:**
 > - N-type semiconductor material contains excess free electrons. {{< link id="E6A02" >}}
-> - An impurity atom that adds holes is an acceptor impurity. {{< link id="E6A04" >}}
+> - An impurity atom that adds holes to a semiconductor crystal structure is called an acceptor impurity. {{< link id="E6A04" >}}
 ```
 
 End KI statements, list items, captions, and other read-aloud prose with punctuation so speech systems can end utterances properly. Put punctuation before the question anchor.
@@ -261,9 +277,24 @@ Teaching and the relevant question anchors.
 
 This is a syntax example, not a complete lesson. **Every page assigning one or more questions needs `chapter` and `section`** for grouping, HamStudy links, and QR codes. Keep them as strings: `"1.10"` must not become `1.1`. An introduction with `questions: []` needs no invented section assignment.
 
-Preserve metadata unless the task requires changing it. `status` records editorial workflow; `draft` controls publication separately. Keep fields such as `epub`, `print`, `pagebreak`, `epubtype`, and `poolid` until their purpose and authority for change are clear. Completing an agent pass does not authorize a status promotion; Extra's requested `generated1` remains until instructed otherwise.
+Preserve metadata unless the task requires changing it. `status` records editorial workflow; the separate Hugo `draft` boolean controls publication. Keep fields such as `epub`, `print`, `pagebreak`, `epubtype`, and `poolid` until their purpose and authority for change are clear.
 
-Historical labels include `generated/generated1`, `reviewed1`, `draft1`, and `publish1`, with later numbered stages where used. They track generated, AI-reviewed, human-reviewed, and publication-ready work; they do not establish copyright ownership or legal protectability.
+### Understand editorial status
+
+The status tells the next editor what review the material has received and how carefully to preserve settled work. It consists of a **category prefix followed by a revision number**, such as `reviewed1`, `draft2`, or `published1`. In the table, `N` represents that number, not a literal character.
+
+| Status category | Meaning |
+| --- | --- |
+| `generatedN` (also unnumbered `generated`) | AI-created content following the author's layout and assigned question list. Further generated versions may be completely new AI drafts; the content has not yet received the guided review represented by `reviewedN`. |
+| `reviewedN` | AI-reviewed and updated under a human reviewer's direction. The improvements are guided, but the material is still AI-generated. |
+| `draftN` | Human review and editing have been completed. The manuscript may still be rough or lack images and figures, but it should be content-complete and cover every assigned question. |
+| `publishedN` | The content has been finalized and is ready for publication, with all required images and figures present. |
+
+The number tracks **major revisions within the same category**: a major draft revision advances `draft1` to `draft2`; a major revision of publication-ready content advances `published1` to `published2`. A minor correction does not by itself require a new number, and increasing the number does not change the category.
+
+Older manuscripts use `publishN`, such as `publish1`, for the same publication-ready category. Apply the same editing care to those pages; do not rename their statuses during unrelated work.
+
+**Update a page's status only when instructed**, preserving any explicitly requested value. Completing an agent pass does not establish that human review or final approval occurred. These labels track editorial work; they do not establish copyright ownership or legal protectability. See [the revision rules](#match-the-intervention-to-the-stage-and-request) for how the category affects editing scope.
 
 ### Keep source names and navigation aligned
 
@@ -331,7 +362,9 @@ I &= \frac{E}{R} \\
 $$
 ```
 
-The established **PIE** mnemonic may support the power law. Explain symbol choices and keep them consistent with the section and pool. Apply proper typography inside figures too; use the existing equation-rendering approach where suitable, not fake subscripts or awkwardly positioned plain letters.
+The established **PIE** mnemonic may support the power law. Explain symbol choices and keep them consistent with the section and pool. Use **E** for voltage in formulas, symbols, and figure labels ($E = I \times R$, $P = I \times E$, $Z = E/I$, $E_{\mathrm{in}}$), as the question pools do; V remains the unit.
+
+Show a formula when it clarifies how to calculate something, even if a nearby KI states the same relationship in words. Remove a displayed formula only when it adds nothing to the surrounding explanation. Apply proper typography inside figures too; use the existing equation-rendering approach where suitable, not fake subscripts or awkwardly positioned plain letters.
 
 Check calculations independently, including units, signs, phase conventions, logarithms, and rounding. Supply enough prose for listeners to understand the operation and conclusion without seeing the equation.
 
@@ -458,12 +491,12 @@ Treat another model's review as hypotheses: confirm factual problems before fixi
 
 ### Match the intervention to the stage and request
 
-Early generated material needs room to find a sound teaching structure. Pages with `status: draft` or `status: published` need careful edits that protect settled work and keep review diffs manageable. Use the page's `status` field to determine the editing approach:
+Early generated material needs room to find a sound teaching structure. Human-edited drafts and publication-ready material need greater care to protect settled work and keep review diffs manageable. Choose the editing approach from the [status category prefix](#understand-editorial-status), regardless of its revision number:
 
-- **AI-generated statuses:** Material that is still fully AI-generated, including `generated`, `generated1`, and AI-reviewed stages such as `reviewed1`, is open to substantial revision. Reorder, regroup, replace, or rewrite explanations when that will meaningfully improve the section. Do not preserve a weak structure merely to minimize the diff; judge the resulting lesson by its teaching, flow, and reading burden.
-- **`status: draft` or `status: published`:** Make careful, targeted edits. Prefer the smallest change that fully solves the problem, preserve settled wording and structure, and keep revision diffs easy to review. Make larger changes only when necessary or explicitly requested, with a clear reason.
+- **`generated…` and `reviewed…`:** Material is still AI-generated and open to substantial revision. Reorder, regroup, replace, or rewrite explanations when that will meaningfully improve the section. Do not preserve a weak structure merely to minimize the diff; judge the resulting lesson by its teaching, flow, and reading burden.
+- **`draft…` and `published…` (including older `publish…` values):** Make careful, targeted edits. Prefer the smallest change that fully solves the problem, preserve settled wording and structure, and keep revision diffs easy to review. Make larger changes only when necessary or explicitly requested, with a clear reason. This applies equally to `draft1`, `draft3`, `published1`, and later revisions within those categories.
 
-The separate Hugo `draft: true` flag controls publication; it does **not** put `status: generated1` material into the editorial draft stage. Do not promote a page's status yourself. Preserve identifiable author edits and explicit decisions at every stage.
+The separate Hugo `draft: true` flag controls publication; it does **not** put `status: generated1` material into the editorial draft category. Preserve identifiable author edits and explicit decisions at every stage.
 
 The request still determines scope: a request for one sentence is not permission to rewrite the book, while a full generated-section revision may require rebuilding its progression. Minimum Viable Teaching limits unnecessary reader burden; it is not a minimum-edit rule.
 
@@ -491,7 +524,18 @@ Consider coverage, style, accuracy, and presentation independently so improvemen
 | Accessible, economical presentation | Useful figures with matching alt/captions, readable math, helpful lists and KI grouping, and working visual/audio flow. |
 | An intact publishing contract | Correct metadata, filenames, headings, references, translations within scope, and real image paths; preserved user work and publication state. |
 
-When prose, teaching, or reading flow changes, reread the revised section uninterrupted and across its boundaries. Settle sections before revising their chapter introduction, then check part introductions and “How to Use” for changed promises. An iteration is a substantive review and justified correction, not a synonym pass. Honor requested iterative depth, but do not invent changes or claim passes to reach a number. Stop when the criteria hold or a real unresolved decision remains.
+After revising each section, reread it uninterrupted and across its boundaries from the intended reader's perspective: someone starting out for Technician, someone with Technician-level preparation for General, or someone with General-level preparation for Extra. Consider what that reader has encountered earlier in this book. Reading the preceding HamBook is one useful perspective to test, but the section must also work for readers who prepared elsewhere or need a brief reminder.
+
+Ask during that reread:
+
+- Does the opening connect smoothly to something familiar, and does each later idea follow naturally?
+- Have we explained the new material well enough, including the steps needed to understand it?
+- Are we overexplaining or repeating knowledge that needs only a brief refresher?
+- Does anything else need to change for this reader to follow the lesson comfortably and accurately?
+
+Review and revise **up to five times per section, as needed, before moving on**. Match the scale of each change to the section's [status category](#match-the-intervention-to-the-stage-and-request). Each iteration should address a real teaching or reading problem; stop when the criteria hold rather than inventing changes to reach five. Report any unresolved issue rather than treating the iteration limit as proof of completion.
+
+Settle sections before revising their chapter introduction, then check part introductions and “How to Use” for changed promises.
 
 Use automation where it can detect a failure, and editorial review where it cannot. A successful build does not establish explanation quality; word counts and readability scores are measurements, not proof of reader understanding.
 
