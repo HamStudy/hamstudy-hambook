@@ -3,7 +3,6 @@ chapter: "7"
 section: "7.1"
 questions: ["E3B08", "E3B13", "E3C06", "E3A07", "E3A11", "E9A08"]
 status: generated1
-draft: true
 ---
 
 ### Section 7.1: Ground and Tropospheric Paths

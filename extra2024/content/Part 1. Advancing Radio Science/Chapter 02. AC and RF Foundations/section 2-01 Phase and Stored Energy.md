@@ -3,7 +3,6 @@ chapter: "2"
 section: "2.1"
 questions: ["E5B01", "E5B04", "E8A03", "E5B09", "E5B10", "E5D09", "E5D03", "E5D12", "E5D11"]
 status: generated1
-draft: true
 ---
 
 ### Section 2.1: Phase and Stored Energy

@@ -3,7 +3,6 @@ chapter: "4"
 section: "4.1"
 questions: ["E8A01", "E7E08", "E7E07", "E7E10", "E7E04", "E7E11", "E8A06", "E8A07"]
 status: generated1
-draft: true
 ---
 
 ### Section 4.1: Spectra, Mixing, and SSB

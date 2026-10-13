@@ -3,7 +3,6 @@ chapter: "11"
 section: "11.3"
 questions: ["E1C07", "E1C03", "E1A07", "E1A09", "E1C12", "E1F06"]
 status: "generated1"
-draft: true
 ---
 
 ### Section 11.3: LF, MF, and Experimental Use

@@ -3,7 +3,6 @@ chapter: "11"
 section: "11.7"
 questions: ["E1E03", "E1E02", "E1E04", "E1E01", "E1E08", "E1E06", "E1E07", "E1E05", "E1E11", "E1E10", "E1E09"]
 status: "generated1"
-draft: true
 ---
 
 ### Section 11.7: Administering Exams

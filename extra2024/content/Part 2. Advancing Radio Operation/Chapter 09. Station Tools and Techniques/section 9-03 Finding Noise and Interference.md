@@ -3,7 +3,6 @@ chapter: "9"
 section: "9.3"
 questions: ["E4E12", "E4E06", "E4E10", "E4E11", "E4D03", "E4D04", "E4E08", "E4E07", "E4E04", "E4E05"]
 status: "generated1"
-draft: true
 ---
 
 ### Section 9.3: Finding Noise and Interference

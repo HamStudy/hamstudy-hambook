@@ -3,7 +3,6 @@ chapter: "5"
 section: "5.1"
 questions: ["E7F01", "E7F05", "E7F10", "E8A09", "E7F06", "E8A04", "E8A11", "E8A02", "E8A08", "E8A10"]
 status: generated1
-draft: true
 ---
 
 ### Section 5.1: Converting Signals to Data

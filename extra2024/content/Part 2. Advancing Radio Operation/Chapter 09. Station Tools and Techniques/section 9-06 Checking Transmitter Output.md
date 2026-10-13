@@ -3,7 +3,6 @@ chapter: "9"
 section: "9.6"
 questions: ["E4A02", "E4A03", "E4B10", "E8D07", "E8D08", "E8D09"]
 status: "generated1"
-draft: true
 ---
 
 ### Section 9.6: Checking Transmitter Output

@@ -3,7 +3,6 @@ chapter: "11"
 section: "11.2"
 questions: ["E1B04", "E1F04", "E1F05", "E1B03", "E1B05", "E1B08", "E1B06", "E1B07", "E1B11"]
 status: "generated1"
-draft: true
 ---
 
 ### Section 11.2: Spectrum and Station Sites

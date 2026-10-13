@@ -3,7 +3,6 @@ chapter: "10"
 section: "10.4"
 questions: ["E2A06", "E2A01", "E2A10", "E2A04", "E2A05", "E2A09", "E1D07", "E1D08", "E1D09", "E1D11", "E2A11"]
 status: "generated1"
-draft: true
 ---
 
 ### Section 10.4: Satellite Orbits and Links

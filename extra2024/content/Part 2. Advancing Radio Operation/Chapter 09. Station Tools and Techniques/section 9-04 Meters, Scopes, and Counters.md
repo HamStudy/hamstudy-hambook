@@ -3,7 +3,6 @@ chapter: "9"
 section: "9.4"
 questions: ["E4B02", "E8A05", "E4A04", "E4A09", "E4A10", "E4A01", "E4A06", "E4B01", "E4A05"]
 status: "generated1"
-draft: true
 ---
 
 ### Section 9.4: Meters, Scopes, and Counters

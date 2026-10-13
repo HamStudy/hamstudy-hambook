@@ -3,7 +3,6 @@ chapter: "10"
 section: "10.5"
 questions: ["E2A03", "E2A02", "E2A07", "E2A08", "E2A12", "E1D03", "E1D10", "E1D02"]
 status: "generated1"
-draft: true
 ---
 
 ### Section 10.5: Satellite Signals and Control

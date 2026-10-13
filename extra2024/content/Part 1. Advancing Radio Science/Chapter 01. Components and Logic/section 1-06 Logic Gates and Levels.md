@@ -3,7 +3,6 @@ chapter: "1"
 section: "1.6"
 questions: ["E7A11", "E7A10", "E7A08", "E7A07", "E7A09", "E6C08", "E6C10", "E6C11", "E6C05", "E6C06", "E6C04", "E6C03", "E6C07"]
 status: generated1
-draft: true
 ---
 
 ### Section 1.6: Logic Gates and Levels

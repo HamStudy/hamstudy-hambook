@@ -3,7 +3,6 @@ chapter: "7"
 section: "7.2"
 questions: ["E3A06", "E3B05", "E3B06", "E3B07", "E3B12", "E3B10", "E3B01", "E3B02", "E3B03", "E3B04", "E3B09", "E3B11"]
 status: generated1
-draft: true
 ---
 
 ### Section 7.2: Ionospheric Paths

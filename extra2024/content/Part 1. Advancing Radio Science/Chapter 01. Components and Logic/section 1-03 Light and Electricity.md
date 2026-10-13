@@ -3,7 +3,6 @@ chapter: "1"
 section: "1.3"
 questions: ["E6F04", "E6F01", "E6F10", "E6F09", "E6F11", "E6F02", "E6F06", "E6F03", "E6F08", "E6F07", "E6F05"]
 status: generated1
-draft: true
 ---
 
 ### Section 1.3: Light and Electricity

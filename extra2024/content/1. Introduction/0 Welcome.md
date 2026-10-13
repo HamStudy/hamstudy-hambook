@@ -1,6 +1,5 @@
 ---
 status: generated1
-draft: true
 ---
 
 # Welcome to Amateur Extra

@@ -3,7 +3,6 @@ chapter: "5"
 section: "5.3"
 questions: ["E4C05", "E4C06", "E4C04", "E6E05", "E4C07", "E4D14", "E7F11"]
 status: generated1
-draft: true
 ---
 
 ### Section 5.3: Noise and Sensitivity

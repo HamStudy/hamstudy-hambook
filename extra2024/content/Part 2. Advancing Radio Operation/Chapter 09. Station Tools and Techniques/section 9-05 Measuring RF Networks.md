@@ -3,7 +3,6 @@ chapter: "9"
 section: "9.5"
 questions: ["E4B06", "E4A07", "E4B07", "E4B04", "E4B03", "E4B11", "E4A08", "E4B05", "E4B09", "E4A11"]
 status: "generated1"
-draft: true
 ---
 
 ### Section 9.5: Measuring RF Networks

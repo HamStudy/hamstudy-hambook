@@ -3,7 +3,6 @@ chapter: "9"
 section: "9.1"
 questions: ["E7D09", "E7D11"]
 status: "generated1"
-draft: true
 ---
 
 ### Section 9.1: Planning Station Power

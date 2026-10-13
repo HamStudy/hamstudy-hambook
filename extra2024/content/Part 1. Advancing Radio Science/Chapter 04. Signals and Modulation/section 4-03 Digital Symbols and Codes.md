@@ -3,7 +3,6 @@ chapter: "4"
 section: "4.3"
 questions: ["E8C02", "E8C11", "E8C01", "E8C13", "E8C10", "E8C09", "E8D10", "E8D11", "E8D06", "E8C08"]
 status: generated1
-draft: true
 ---
 
 ### Section 4.3: Digital Symbols and Codes

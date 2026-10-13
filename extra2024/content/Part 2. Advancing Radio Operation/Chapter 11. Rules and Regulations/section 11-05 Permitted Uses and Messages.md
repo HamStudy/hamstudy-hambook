@@ -3,7 +3,6 @@ chapter: "11"
 section: "11.5"
 questions: ["E1D01", "E1D04", "E1D12", "E1C05", "E1A08", "E1F07", "E1F08", "E1F09"]
 status: "generated1"
-draft: true
 ---
 
 ### Section 11.5: Permitted Uses and Messages

@@ -3,7 +3,6 @@ chapter: "6"
 section: "6.5"
 questions: ["E9D10", "E9D09", "E9D04", "E9D03", "E9D07", "E9D08", "E9D06"]
 status: generated1
-draft: true
 ---
 
 ### Section 6.5: Electrically Short Antennas

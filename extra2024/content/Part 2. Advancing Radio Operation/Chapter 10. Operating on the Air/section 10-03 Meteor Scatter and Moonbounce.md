@@ -3,7 +3,6 @@ chapter: "10"
 section: "10.3"
 questions: ["E2D01", "E2D05", "E2D09", "E2D03", "E2E07", "E2D06"]
 status: "generated1"
-draft: true
 ---
 
 ### Section 10.3: Meteor Scatter and Moonbounce

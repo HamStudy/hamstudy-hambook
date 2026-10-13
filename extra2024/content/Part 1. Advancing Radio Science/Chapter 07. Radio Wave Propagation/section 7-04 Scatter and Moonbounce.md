@@ -3,7 +3,6 @@ chapter: "7"
 section: "7.4"
 questions: ["E3A08", "E3A09", "E3A12", "E3A13", "E3A01", "E3A02", "E3A03"]
 status: generated1
-draft: true
 ---
 
 ### Section 7.4: Scatter and Moonbounce

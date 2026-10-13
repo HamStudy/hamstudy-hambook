@@ -3,7 +3,6 @@ chapter: "2"
 section: "2.2"
 questions: ["E5C09", "E5C07", "E5C01", "E5C06", "E5C02", "E5C08", "E5C03", "E5C05", "E5C10", "E5C11", "E5C12"]
 status: generated1
-draft: true
 ---
 
 ### Section 2.2: Drawing Complex Impedance

@@ -3,7 +3,6 @@ chapter: "6"
 section: "6.2"
 questions: ["E9B07", "E9B01", "E9B02", "E9B03", "E9B05", "E9B06", "E9B04", "E9B09", "E9B10", "E9B11", "E9A12", "E9A03", "E9A02", "E9A06", "E9A07"]
 status: generated1
-draft: true
 ---
 
 ### Section 6.2: Gain and Antenna Patterns

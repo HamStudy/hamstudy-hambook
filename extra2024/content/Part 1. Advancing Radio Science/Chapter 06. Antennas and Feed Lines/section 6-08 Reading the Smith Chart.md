@@ -3,7 +3,6 @@ chapter: "6"
 section: "6.8"
 questions: ["E9G01", "E9G02", "E9G04", "E9G10", "E9G07", "E9G06", "E9G08", "E9G03", "E9G09", "E9G11", "E9G05"]
 status: generated1
-draft: true
 ---
 
 ### Section 6.8: Reading the Smith Chart

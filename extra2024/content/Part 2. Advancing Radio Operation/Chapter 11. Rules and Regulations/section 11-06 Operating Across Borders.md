@@ -3,7 +3,6 @@ chapter: "11"
 section: "11.6"
 questions: ["E1C02", "E1C11", "E1C06", "E1C04", "E1F02", "E1A11", "E1A05", "E1A10"]
 status: "generated1"
-draft: true
 ---
 
 ### Section 11.6: Operating Across Borders

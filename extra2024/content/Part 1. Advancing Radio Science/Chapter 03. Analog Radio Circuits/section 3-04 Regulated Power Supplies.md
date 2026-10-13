@@ -3,7 +3,6 @@ chapter: "3"
 section: "3.4"
 questions: ["E7D01", "E7D03", "E7D04", "E7D05", "E7D08", "E7D06", "E7D07", "E7D12", "E7D13", "E7D02", "E7D10", "E7D14", "E7D15"]
 status: generated1
-draft: true
 ---
 
 ### Section 3.4: Regulated Power Supplies

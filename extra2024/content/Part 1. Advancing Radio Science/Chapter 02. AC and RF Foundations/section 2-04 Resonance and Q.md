@@ -3,7 +3,6 @@ chapter: "2"
 section: "2.4"
 questions: ["E5A08", "E5A03", "E5A01", "E5A04", "E5A06", "E5A07", "E5A02", "E5A10", "E5A09", "E5A13", "E5A11", "E5A12", "E4B08", "E5A05"]
 status: generated1
-draft: true
 ---
 
 ### Section 2.4: Resonance and Q

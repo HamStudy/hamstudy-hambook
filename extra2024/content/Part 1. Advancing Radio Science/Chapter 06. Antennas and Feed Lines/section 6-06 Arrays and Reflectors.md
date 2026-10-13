@@ -3,7 +3,6 @@ chapter: "6"
 section: "6.6"
 questions: ["E9E11", "E9C03", "E9C01", "E9C02", "E9D05", "E9D12", "E9D11", "E9D02", "E9D01"]
 status: generated1
-draft: true
 ---
 
 ### Section 6.6: Arrays and Reflectors

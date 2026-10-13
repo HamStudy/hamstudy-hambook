@@ -3,7 +3,6 @@ chapter: "1"
 section: "1.4"
 questions: ["E6D06", "E6D05", "E6D08", "E6D10", "E6D04", "E6D11", "E6D12", "E6D09"]
 status: generated1
-draft: true
 ---
 
 ### Section 1.4: Magnetic Components

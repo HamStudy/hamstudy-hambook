@@ -3,7 +3,6 @@ chapter: "8"
 section: "8.2"
 questions: ["E0A08", "E0A03", "E0A05", "E0A06", "E0A02", "E0A09", "E0A10", "E0A04"]
 status: generated1
-draft: true
 ---
 
 ### Section 8.2: Evaluating RF Exposure

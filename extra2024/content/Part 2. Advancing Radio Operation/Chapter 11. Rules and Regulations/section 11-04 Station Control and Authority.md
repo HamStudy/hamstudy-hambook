@@ -3,7 +3,6 @@ chapter: "11"
 section: "11.4"
 questions: ["E2C12", "E1C08", "E1F10", "E1D05", "E2C01", "E1D06", "E1B09", "E1B10"]
 status: "generated1"
-draft: true
 ---
 
 ### Section 11.4: Station Control and Authority

@@ -3,7 +3,6 @@ chapter: "3"
 section: "3.1"
 questions: ["E7C04", "E7C01", "E7C02", "E7C07", "E7C03", "E5C04", "E7C05", "E7C06", "E7C11", "E7C09", "E7C08", "E7C10"]
 status: generated1
-draft: true
 ---
 
 ### Section 3.1: Filters and Matching Networks

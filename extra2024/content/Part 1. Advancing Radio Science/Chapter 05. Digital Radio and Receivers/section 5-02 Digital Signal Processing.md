@@ -3,7 +3,6 @@ chapter: "5"
 section: "5.2"
 questions: ["E7F07", "E7F08", "E7F09", "E7F13", "E7F14", "E7F12", "E7F02", "E7F04", "E7F03", "E7H09", "E7H10", "E7H11"]
 status: generated1
-draft: true
 ---
 
 ### Section 5.2: Digital Signal Processing

@@ -1,6 +1,5 @@
 ---
 status: generated1
-draft: true
 pagebreak: true
 ---
 

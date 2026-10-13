@@ -3,7 +3,6 @@ chapter: "2"
 section: "2.5"
 questions: ["E5D01", "E5D08", "E5D02", "E5D04", "E5D06", "E5D07", "E5D05", "E5D10"]
 status: generated1
-draft: true
 ---
 
 ### Section 2.5: Real Components at RF

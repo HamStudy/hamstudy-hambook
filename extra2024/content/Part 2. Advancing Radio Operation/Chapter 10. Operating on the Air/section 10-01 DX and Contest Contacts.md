@@ -3,7 +3,6 @@ chapter: "10"
 section: "10.1"
 questions: ["E2C03", "E2C06", "E2C10", "E2C11", "E2D02", "E2C07", "E2C02", "E2C05", "E2C08"]
 status: "generated1"
-draft: true
 ---
 
 ### Section 10.1: DX and Contest Contacts

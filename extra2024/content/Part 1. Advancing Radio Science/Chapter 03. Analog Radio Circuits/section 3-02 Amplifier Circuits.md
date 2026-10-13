@@ -3,7 +3,6 @@ chapter: "3"
 section: "3.2"
 questions: ["E7B12", "E7B10", "E7B11", "E7B09", "E7B06", "E7B04", "E7B01", "E7B07", "E7B02", "E7B08", "E7B03", "E7B05"]
 status: generated1
-draft: true
 ---
 
 ### Section 3.2: Amplifier Circuits

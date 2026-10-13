@@ -1,6 +1,5 @@
 ---
 status: generated1
-draft: true
 ---
 
 # Amateur Extra Class License

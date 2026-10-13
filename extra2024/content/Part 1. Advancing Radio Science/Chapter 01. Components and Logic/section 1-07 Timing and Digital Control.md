@@ -3,7 +3,6 @@ chapter: "1"
 section: "1.7"
 questions: ["E6C02", "E6C01", "E7A01", "E7A03", "E7A04", "E7A02", "E7A06", "E7A05", "E6C09"]
 status: generated1
-draft: true
 ---
 
 ### Section 1.7: Timing and Digital Control

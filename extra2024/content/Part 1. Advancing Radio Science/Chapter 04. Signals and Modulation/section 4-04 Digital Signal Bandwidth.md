@@ -3,7 +3,6 @@ chapter: "4"
 section: "4.4"
 questions: ["E8C12", "E8D04", "E8D05", "E8C03", "E8C04", "E8C05", "E8C06", "E8C07"]
 status: generated1
-draft: true
 ---
 
 ### Section 4.4: Digital Signal Bandwidth

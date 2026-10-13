@@ -3,7 +3,6 @@ chapter: "6"
 section: "6.4"
 questions: ["E9C08", "E9C07", "E9C05", "E9C09", "E9C10", "E9C12", "E9C04", "E9C06", "E9C13", "E9C14", "E9C11", "E9A11", "E9A10"]
 status: generated1
-draft: true
 ---
 
 ### Section 6.4: Wire Antennas and Ground

@@ -3,7 +3,6 @@ chapter: "6"
 section: "6.1"
 questions: ["E9A09", "E3A04", "E3A05", "E3A10", "E3A14", "E9A04", "E9A05", "E9B08", "E9A01"]
 status: generated1
-draft: true
 ---
 
 ### Section 6.1: Radiation and Efficiency

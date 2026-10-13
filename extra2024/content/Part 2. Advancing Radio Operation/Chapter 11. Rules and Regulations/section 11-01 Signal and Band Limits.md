@@ -3,7 +3,6 @@ chapter: "11"
 section: "11.1"
 questions: ["E1A01", "E1A02", "E1A04", "E1A03", "E1A06", "E1C01", "E1B02", "E1C09", "E1F01", "E1B01", "E1C10", "E1F03", "E1F11"]
 status: "generated1"
-draft: true
 ---
 
 ### Section 11.1: Signal and Band Limits

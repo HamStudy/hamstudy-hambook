@@ -3,7 +3,6 @@ chapter: "7"
 section: "7.3"
 questions: ["E3C10", "E3C01", "E3C07", "E3C12", "E3C04", "E3C05", "E3C02", "E3C08", "E3C03", "E3C11", "E3C09"]
 status: generated1
-draft: true
 ---
 
 ### Section 7.3: Space Weather and Prediction

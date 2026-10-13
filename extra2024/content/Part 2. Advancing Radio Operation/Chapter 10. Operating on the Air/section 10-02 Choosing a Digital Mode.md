@@ -3,7 +3,6 @@ chapter: "10"
 section: "10.2"
 questions: ["E2E01", "E2E11", "E2E09", "E2E08", "E2E13", "E2E10", "E2E12", "E2E06", "E2E02", "E2E03", "E2E04", "E2E05"]
 status: "generated1"
-draft: true
 ---
 
 ### Section 10.2: Choosing a Digital Mode

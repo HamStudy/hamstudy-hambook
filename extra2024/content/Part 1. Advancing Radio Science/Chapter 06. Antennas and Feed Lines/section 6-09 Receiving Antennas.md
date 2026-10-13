@@ -3,7 +3,6 @@ chapter: "6"
 section: "6.9"
 questions: ["E9H02", "E9H03", "E9H07", "E9H06", "E9H01", "E9H10", "E9H04", "E9H05", "E9H08", "E9H09", "E9H11"]
 status: generated1
-draft: true
 ---
 
 ### Section 6.9: Receiving Antennas

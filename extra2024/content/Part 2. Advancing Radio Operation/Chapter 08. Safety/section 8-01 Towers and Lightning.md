@@ -3,7 +3,6 @@ chapter: "8"
 section: "8.1"
 questions: ["E0A07", "E0A11", "E0A12", "E0A01", "E4E14", "E4E13"]
 status: generated1
-draft: true
 ---
 
 ### Section 8.1: Towers and Lightning

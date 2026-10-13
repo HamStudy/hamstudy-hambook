@@ -3,7 +3,6 @@ chapter: "1"
 section: "1.5"
 questions: ["E6E02", "E6E11", "E6E12", "E6E09", "E6E10", "E6A01", "E6E01", "E6E03", "E6E04", "E6E06", "E6E07", "E6E08"]
 status: generated1
-draft: true
 ---
 
 ### Section 1.5: Chips at Radio Frequencies

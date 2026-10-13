@@ -3,7 +3,6 @@ chapter: "4"
 section: "4.5"
 questions: ["E8B10", "E8B11", "E8B08", "E8B07", "E8D03", "E8D02", "E8D01"]
 status: generated1
-draft: true
 ---
 
 ### Section 4.5: Sharing Signal Bandwidth

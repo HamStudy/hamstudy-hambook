@@ -3,7 +3,6 @@ chapter: "10"
 section: "10.6"
 questions: ["E2D04", "E2D07", "E2D08", "E2D11", "E2D10", "E2C04", "E2C09", "E8C14", "E8C15"]
 status: "generated1"
-draft: true
 ---
 
 ### Section 10.6: APRS and Mesh Networks

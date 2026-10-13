@@ -3,7 +3,6 @@ chapter: "4"
 section: "4.2"
 questions: ["E7E01", "E7E02", "E7E03", "E7E05", "E7E06", "E8B01", "E8B03", "E8B04", "E8B02", "E8B09", "E8B05", "E8B06", "E4C03"]
 status: generated1
-draft: true
 ---
 
 ### Section 4.2: Frequency and Phase Modulation

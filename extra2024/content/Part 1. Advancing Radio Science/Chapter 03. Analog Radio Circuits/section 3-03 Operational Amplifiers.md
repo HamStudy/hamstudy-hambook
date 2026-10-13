@@ -3,7 +3,6 @@ chapter: "3"
 section: "3.3"
 questions: ["E7G12", "E7G03", "E7G01", "E7G04", "E7G08", "E7G06", "E7G07", "E7G10", "E7G11", "E7G09", "E7G02", "E7G05"]
 status: generated1
-draft: true
 ---
 
 ### Section 3.3: Operational Amplifiers

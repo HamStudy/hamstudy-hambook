@@ -3,7 +3,6 @@ chapter: "9"
 section: "9.2"
 questions: ["E4D13", "E4D12", "E4C10", "E4C02", "E4D09", "E4C14", "E4D07", "E4C11", "E4E02", "E4E03", "E4E01", "E4E09"]
 status: "generated1"
-draft: true
 ---
 
 ### Section 9.2: Improving Reception

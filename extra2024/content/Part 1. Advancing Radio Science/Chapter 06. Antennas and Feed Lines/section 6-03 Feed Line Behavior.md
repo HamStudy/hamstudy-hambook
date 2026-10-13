@@ -3,7 +3,6 @@ chapter: "6"
 section: "6.3"
 questions: ["E9F01", "E9F02", "E9F03", "E9F06", "E9F07", "E9F08", "E9F05", "E9E07", "E9F04", "E9F09", "E9F12", "E9F10", "E9F11"]
 status: generated1
-draft: true
 ---
 
 ### Section 6.3: Feed Line Behavior

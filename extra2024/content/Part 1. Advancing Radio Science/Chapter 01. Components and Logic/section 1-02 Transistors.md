@@ -3,7 +3,6 @@ chapter: "1"
 section: "1.2"
 questions: ["E6A07", "E6A06", "E6A08", "E6A05", "E6A09", "E6A10", "E6A11", "E6A12"]
 status: generated1
-draft: true
 ---
 
 ### Section 1.2: Transistors

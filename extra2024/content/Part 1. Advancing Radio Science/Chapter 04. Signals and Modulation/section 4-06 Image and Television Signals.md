@@ -3,7 +3,6 @@ chapter: "4"
 section: "4.6"
 questions: ["E2B10", "E2B04", "E2B12", "E2B11", "E2B09", "E2B02", "E2B03", "E2B08", "E2B06", "E2B05", "E2B07", "E2B01"]
 status: generated1
-draft: true
 ---
 
 ### Section 4.6: Image and Television Signals

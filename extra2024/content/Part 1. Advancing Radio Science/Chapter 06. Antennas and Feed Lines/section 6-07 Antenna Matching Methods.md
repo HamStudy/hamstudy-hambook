@@ -3,7 +3,6 @@ chapter: "6"
 section: "6.7"
 questions: ["E9E06", "E9E08", "E9E02", "E9E04", "E9E09", "E9E01", "E9E05", "E9E03"]
 status: generated1
-draft: true
 ---
 
 ### Section 6.7: Antenna Matching Methods

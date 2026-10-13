@@ -3,7 +3,6 @@ chapter: "5"
 section: "5.4"
 questions: ["E4C09", "E7E09", "E4D08", "E4D11", "E4D10", "E4D06", "E4D01", "E4D02", "E4C12", "E4C08", "E4C13", "E4C01"]
 status: generated1
-draft: true
 ---
 
 ### Section 5.4: Receiver Limits and Distortion

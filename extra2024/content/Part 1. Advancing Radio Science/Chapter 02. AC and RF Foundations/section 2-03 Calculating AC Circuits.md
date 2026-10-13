@@ -3,7 +3,6 @@ chapter: "2"
 section: "2.3"
 questions: ["E5B07", "E5B08", "E5B11", "E5B12", "E5B06", "E5B02", "E5B05", "E5B03"]
 status: generated1
-draft: true
 ---
 
 ### Section 2.3: Calculating AC Circuits

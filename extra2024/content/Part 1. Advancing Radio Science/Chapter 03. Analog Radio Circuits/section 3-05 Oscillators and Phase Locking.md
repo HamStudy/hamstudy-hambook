@@ -3,7 +3,6 @@ chapter: "3"
 section: "3.5"
 questions: ["E6D01", "E6D03", "E6D02", "E7H01", "E7H04", "E7H05", "E7H12", "E7H02", "E7H07", "E7H08", "E7H13", "E7H03", "E7H06"]
 status: generated1
-draft: true
 ---
 
 ### Section 3.5: Oscillators and Phase Locking

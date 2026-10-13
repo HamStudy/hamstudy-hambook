@@ -3,7 +3,6 @@ chapter: "1"
 section: "1.1"
 questions: ["E6A02", "E6A04", "E6A03", "E6B07", "E6B03", "E6B08", "E6B02", "E6B10", "E6B06", "E6B09", "E6B01", "E6B04", "E6B05", "E6B11"]
 status: generated1
-draft: true
 ---
 
 ### Section 1.1: Diodes and Junctions
