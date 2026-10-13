@@ -51,7 +51,7 @@ Your purchase helps support the development and maintenance of these free resour
 
 ---
 
-### General Class – **Alpha Version Available**
+### General Class – **Release Candidate Available**
 
 {{% columns class="book-details" ratio="1:2" %}}
 
@@ -60,16 +60,16 @@ Your purchase helps support the development and maintenance of these free resour
 
 <---> <!-- magic separator, between columns -->
 
-Expand your privileges and capabilities.
-* Based on the 2023-2027 General question pool
-* Access more frequencies and operating modes
-* Deepen your technical understanding
-* Get started as a Volunteer Examiner (VE)
-* Ideal for those looking to upgrade from Technician
+Everything you need to pass your General Class license exam!
+
+- Unlock HF – understand band privileges and what you can do with them
+- Operate like a pro – SSB, CW, digital modes, DX, contesting, and more
+- Stay Safe and Legal – grounding, RF exposure, towers, and all the rules
+- Study Efficiently – Clear explanations that stay on topic
 
 {{< button relref="/general2023" >}}Read online for Free!{{< /button >}}
 
-*This book is under active development. Purchase options will be available once complete. Please pay attention to the status notes at the top of each page, some pages have not been fully verified for accuracy yet.*
+*This book is in final review state. Everything is believed to be accurate; please email support@hamstudy.org if you find any errors!*
 
 {{% /columns %}}
 
