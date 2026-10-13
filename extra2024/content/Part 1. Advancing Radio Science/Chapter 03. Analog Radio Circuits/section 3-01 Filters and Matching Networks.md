@@ -28,7 +28,7 @@ A T-network has two series arms and a shunt branch to ground where they meet. Wi
 A low-pass network can pass a 7 MHz signal while weakening its harmonics at 14 and 21 MHz. When a Pi-network alone doesn't weaken them enough, another series inductor can follow it at the output. That inductor's reactance is three times as large at 21 MHz as at 7 MHz.
 
 ![Three filter schematics have input at the left and output at the right. The left, labeled pi, has a series inductor between its ports and a capacitor from each port node to ground. The middle, labeled T, has two series capacitors and an inductor from their junction to ground. The right, labeled pi-L, has the same two grounded capacitors and intervening series inductor as the pi network, followed by an additional series inductor between the second capacitor node and the output. Junction dots mark connected branches. The added output inductor is orange; its position identifies it without color.](../../../images/s3-1-matching-topologies.svg)
-{.img-centered .img-xlarge .img-mobile-full caption="Left: low-pass Pi. Middle: high-pass T. Right: Pi-L, with an extra series inductor at the output for greater harmonic suppression. Input is at the left of each circuit; output is at the right."}
+{.img-centered .img-large .caption-wide .img-mobile-full caption="Left: low-pass Pi. Middle: high-pass T. Right: Pi-L, with an extra series inductor at the output for greater harmonic suppression. Input is at the left of each circuit; output is at the right."}
 
 > **Key Information:**
 > - A T-network with series capacitors and a shunt inductor has a high-pass frequency response. {{< link id="E7C02" >}}

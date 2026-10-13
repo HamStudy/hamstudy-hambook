@@ -14,7 +14,7 @@ The common $468/f$ rule cuts a dipole about 5% short of a free-space half wave, 
 The **folded dipole** keeps an ordinary dipole's half-wave span but adds wire, as the figure shows. It is not a dipole with its tips bent downward.
 
 ![An ordinary dipole at left and a folded dipole at right each span about half a wavelength. The ordinary dipole has a gap at its center, with a separate feed conductor connected to each side of the gap. The folded dipole has the same center gap and feed connections in its lower wire, plus an unbroken parallel upper wire joined to the lower wire at both ends. The added wire connects the two sides around the ends; the feed still connects across the gap in only one wire. The drawing shows connections, not construction dimensions.](../../../images/s6-4-folded-dipole.svg)
-{.img-centered .img-xlarge .img-mobile-full caption="The folded dipole (right) adds a parallel wire joined to both ends. Feed the center of one wire; the other remains continuous. Orange lines mark the feed connections."}
+{.img-centered .img-large .caption-wide .img-mobile-full caption="The folded dipole (right) adds a parallel wire joined to both ends. Feed the center of one wire; the other remains continuous. Orange lines mark the feed connections."}
 
 The feed connects at the center of one wire. With two equal-sized, closely spaced wires, the antenna current divides equally between them, so the feed point carries only half the total. Delivering the same power with half the current takes four times the resistance, since $P=I^2R$, and $4\times73\ \Omega=292\ \Omega$.
 

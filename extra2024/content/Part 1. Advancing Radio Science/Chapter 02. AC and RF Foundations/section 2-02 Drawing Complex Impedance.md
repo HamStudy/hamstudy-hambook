@@ -80,7 +80,7 @@ For a **400 Ω resistor and 38 pF capacitor in series at 14 MHz**, work through 
 Because this is a capacitor, its reactance points downward. With the 400 Ω series resistor, the impedance is approximately $400-j299\ \Omega$: move right to 400, then down to about −300. Resistance is never negative in these circuits, so their points always lie right of the vertical axis.
 
 ![Official Figure E5-1 has a horizontal X axis and a vertical Y axis, numbered in steps of 100 from minus 600 to plus 600. For impedance, read horizontal values as resistance and vertical values as reactance, both in ohms. Point 1 is at 300, minus 400; point 2 at 400, plus 300. Point 3 is at 300, plus 400; point 4 at 400, minus 300. Point 5 is at minus 400, minus 300; point 6 at 400, just below zero. Point 7 is at minus 300, minus 400; point 8 at 300, slightly above zero. Positive reactance is inductive; negative reactance is capacitive.](../../../hugo/static/figures/E5-1.svg)
-{.img-centered .img-xlarge .img-bw caption="Figure E5-1: Plot resistance horizontally and signed reactance vertically."}
+{.img-centered .img-xlarge .img-bw .img-mobile-full caption="Figure E5-1: Plot resistance horizontally and signed reactance vertically."}
 
 The inductor formula skips the final “1 divided by” step. With frequency in hertz and inductance in henries:
 

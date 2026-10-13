@@ -367,6 +367,12 @@ figure {
     max-width: 100% !important;
   }
 
+  .markdown figure.img-large.caption-wide.img-mobile-full {
+    width: 100% !important;
+    min-width: 100%;
+    > img { width: 100%; }
+  }
+
   .markdown table.table-scroll {
     display: block;
     max-width: 100%;
@@ -414,6 +420,13 @@ figure.img-bw img {
     height: auto;
   }
 }
+// Keep captions at 80% and art at 50%, including print's user-width overrides.
+figure.img-large.caption-wide {
+  width: 80% !important;
+  min-width: 80%;
+  max-width: 100%;
+  > img { width: 62.5%; }
+}
 .ml-2 { margin-left: 2rem; }
 .float-right { float: right; margin-left: 1.5rem; clear: right; }
 .float-left { float: left; margin-right: 1.5rem; clear: right; }
@@ -442,6 +455,9 @@ img.icon {
 }
 .mw-60 {
   max-width: 60% !important;
+}
+.mw-70 {
+  max-width: 70% !important;
 }
 .clear { clear: both; }
 .text-center { text-align: center;}

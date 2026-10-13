@@ -44,7 +44,7 @@ To check exactly what each gate does, we can list every input combination with i
 On a schematic, each gate's symbol shows which rule it applies. An AND symbol has a flat input side and a rounded, D-shaped body. An OR symbol has a curved input side and comes to a point at the output. A small circle, or bubble, on an output means inversion: it changes an AND symbol to NAND or an OR symbol to NOR. That little bubble is easy to miss, and it reverses every result. An inverter uses a triangle with an output bubble.
 
 ![Official Figure E6-3 shows six logic symbols. Symbol 1 is AND. Symbol 2 has an AND-shaped body and an output bubble, making it NAND. Symbol 3 is OR. Symbol 4 adds an output bubble to OR, making it NOR. Symbol 5 is a triangle with an output bubble and performs NOT. Symbol 6 has two inputs, a curved input side, and a pointed output side without a bubble.](../../../hugo/static/figures/E6-3.svg)
-{.img-centered .img-xlarge .img-bw caption="Figure E6-3: An output bubble marks an inverted result."}
+{.img-centered .img-large .img-bw .img-mobile-full caption="Figure E6-3: An output bubble marks an inverted result."}
 
 > **Key Information:** In Figure E6-3, symbol 2 is NAND, symbol 4 is NOR, and symbol 5 performs NOT, or inversion. {{< link id="E6C08" >}} {{< link id="E6C10" >}} {{< link id="E6C11" >}}
 

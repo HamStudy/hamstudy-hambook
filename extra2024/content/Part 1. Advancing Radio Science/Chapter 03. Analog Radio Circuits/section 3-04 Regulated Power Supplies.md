@@ -31,7 +31,7 @@ A **shunt regulator** puts its control element across the output, in parallel wi
 Figure E7-2 builds a series regulator from separate parts.
 
 ![Official Figure E7-2 shows a linear supply regulator with a plus-25-volt input at the left and a plus-12-volt output at the right. Q1, the series pass transistor, connects between them, with its collector at the input and its emitter at the output. R1 runs from the input to Q1's base, which also connects to Zener diode D1; D1 goes to ground as a reference. C2, marked 4000, is connected in parallel with D1 to bypass ripple. C1, also marked 4000, is across the input; C3, marked 0.01, and load resistor R2 are across the output.](../../../hugo/static/figures/E7-2.svg)
-{.img-centered .img-xlarge .img-bw caption="Figure E7-2: Q1 controls load current while D1 establishes a reference."}
+{.img-centered .img-large .img-bw .img-mobile-full caption="Figure E7-2: Q1 controls load current while D1 establishes a reference."}
 
 Q1, an NPN transistor between the +25 V input and the +12 V output, is the control element, or **pass transistor**: all the load current passes through it. R1 feeds current to D1 and Q1's base, and D1 holds the base steady. As in an emitter follower, the output at Q1's emitter stays about one base-emitter drop lower. If the output sags, Q1's base-to-emitter voltage rises, so Q1 conducts more and restores it. Many regulators also have an amplifier that compares the output with the reference, a feedback loop this simple circuit lacks.
 

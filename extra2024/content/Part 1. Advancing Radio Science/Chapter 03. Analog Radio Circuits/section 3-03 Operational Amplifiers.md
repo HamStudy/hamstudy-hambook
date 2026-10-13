@@ -35,7 +35,7 @@ The product sets a trade. An op-amp with a gain-bandwidth of 1 MHz can provide a
 To set the gain with resistors, Figure E7-3 returns part of the output to the inverting input through $R_F$. $R_1$ carries the input signal to that same point, while the non-inverting input connects to ground.
 
 ![Official Figure E7-3 shows an inverting op-amp. R1 connects the input to the minus input. RF connects the output back to the minus input, forming negative feedback. The plus input is grounded. In the ideal operating model, gain is minus RF divided by R1.](../../../hugo/static/figures/E7-3.svg)
-{.img-centered .img-xlarge .img-bw caption="Figure E7-3: Negative feedback sets the inverting gain."}
+{.img-centered .img-large .img-bw .img-mobile-full caption="Figure E7-3: Negative feedback sets the inverting gain."}
 
 If the inverting-input voltage rises above zero, the op-amp drives its output negative. Through $R_F$, that pulls the inverting input back toward zero. While the amplifier operates linearly, negative feedback holds that input nearly at the grounded input's voltage. We call this a **virtual ground**: the voltage is near ground, but it is not a physical ground connection that can absorb arbitrary current.
 

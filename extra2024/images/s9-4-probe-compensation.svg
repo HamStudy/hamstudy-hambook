@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" id="s9-4-probe-compensation" width="720" height="200" viewBox="0 0 720 200" role="img" aria-labelledby="s9-4-probe-compensation-title s9-4-probe-compensation-desc">
+<svg xmlns="http://www.w3.org/2000/svg" id="s9-4-probe-compensation" width="720" height="160" viewBox="0 35 720 160" role="img" aria-labelledby="s9-4-probe-compensation-title s9-4-probe-compensation-desc">
 <title id="s9-4-probe-compensation-title">Probe compensation comparison</title><desc id="s9-4-probe-compensation-desc">Three equal-scale square-wave traces. Undercompensation rounds the leading edge. Correct compensation gives a flat top. Overcompensation overshoots and then settles.</desc>
 <style>#s9-4-probe-compensation{--ink:#263445;--muted:#586777;--blue:#1672ac;--orange:#b35c00;--green:#267c67;--red:#be2d42}
 @media(prefers-color-scheme:dark){#s9-4-probe-compensation{--ink:#e6edf3;--muted:#a2b5c9;--blue:#64b4ed;--orange:#f5a851;--green:#70c4ad;--red:#ff8190}}

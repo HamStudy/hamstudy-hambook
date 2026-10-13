@@ -1,0 +1,38 @@
+{{- if .Page.Site.Params.BookPortableLinks -}}
+  {{- template "portable-link" . -}}
+{{- else -}}
+  <a href="{{ .Destination | safeURL }}"{{ with .Title}} title="{{ . }}"{{ end }}>{{ .Text | safeHTML }}</a>
+{{- end -}}
+
+{{- define "portable-link" -}}
+  {{- $destination := .Destination }}
+  {{- $isRemote := or (in .Destination ":") (strings.HasPrefix .Destination "//") }}
+  {{- if not $isRemote }}
+    {{- $url := urls.Parse .Destination }}
+    {{- $path := strings.TrimSuffix "/_index.md" $url.Path }}
+    {{- $path = strings.TrimSuffix "/_index" $path }}
+    {{- $path = strings.TrimSuffix ".md" $path }}
+    {{- /* pageref/relref destinations already carry the site base path
+           (and language prefix in prod), which GetPage does not expect. */ -}}
+    {{- $basePath := strings.TrimSuffix "/" ((urls.Parse .Page.Site.BaseURL).Path | default "/") -}}
+    {{- if and $basePath (strings.HasPrefix $path $basePath) -}}
+      {{- $path = strings.TrimPrefix $basePath $path -}}
+    {{- end -}}
+    {{- $langPrefix := .Page.Site.LanguagePrefix -}}
+    {{- if and $langPrefix (strings.HasPrefix $path (print $langPrefix "/")) -}}
+      {{- $path = strings.TrimPrefix $langPrefix $path -}}
+    {{- end -}}
+    {{- $page := .Page.GetPage $path }}
+    {{- if $page }}
+      {{- $destination = $page.RelPermalink }}
+      {{- if $url.Fragment }}
+        {{- $destination = print $destination "#" $url.Fragment }}
+      {{- end }}
+    {{- else if fileExists (print .Page.File.Dir .Destination) }}
+      <!-- Nothing -->
+    {{- else -}}
+      {{- warnf "Page '%s' not found in '%s'" .Destination .Page.File }}
+    {{- end }}
+  {{- end }}
+  <a href="{{ $destination | safeURL }}"{{ with .Title}} title="{{ . }}"{{ end }}>{{ .Text | safeHTML }}</a>
+{{- end -}}

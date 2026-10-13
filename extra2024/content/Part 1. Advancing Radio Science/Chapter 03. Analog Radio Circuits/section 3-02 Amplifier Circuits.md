@@ -14,7 +14,7 @@ An amplifier's class describes how much of each signal cycle its device conducts
 Figure E7-1 shows a typical NPN transistor stage.
 
 ![Official Figure E7-1 shows a common-emitter transistor amplifier. C1 couples the input to the base and C2 couples the collector to the output. An unlabeled load resistor connects the positive supply to the collector. R1 runs from the positive supply to the base, and R2 from the base to ground, forming a bias divider. R3 connects the emitter to ground for self bias; C3 bypasses the emitter at signal frequencies.](../../../hugo/static/figures/E7-1.svg)
-{.img-centered .img-xlarge .img-bw caption="Figure E7-1: The resistors set DC bias while the capacitors route AC."}
+{.img-centered .img-large .img-bw .img-mobile-full caption="Figure E7-1: The resistors set DC bias while the capacitors route AC."}
 
 The signal enters the base through C1 and leaves the collector through C2. The unlabeled resistor from the supply to the collector is the collector load; the output voltage develops across it. C3 bypasses the emitter to ground for signals, so the emitter is the terminal the input and output circuits share. Amplifier circuits take their names from that common terminal.
 

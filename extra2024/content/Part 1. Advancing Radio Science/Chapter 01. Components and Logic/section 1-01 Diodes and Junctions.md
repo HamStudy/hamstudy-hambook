@@ -38,7 +38,7 @@ With **forward bias**, the anode is positive relative to the cathode. The applie
 Only a small leakage current gets through.
 
 ![Two continuous PN semiconductor bars compare bias conditions. In each bar, P material is on the left, N material on the right, and a shaded band straddles the junction. The left bar has a positive contact on P and a negative contact on N. Arrows point holes and electrons toward its narrow depletion band. The right bar reverses those contact polarities. Arrows point majority carriers away from its wider depletion band. Holes are open circles with plus signs; electrons are filled circles with minus signs. A bracket labeled W marks each depletion width. The shaded band remains part of the semiconductor, not an air gap. Widths and carrier positions are qualitative.](../../../images/s1-1-junction-bias.svg)
-{.img-centered .img-xlarge .img-mobile-full caption="Forward bias (left) narrows the depletion region; reverse bias (right) widens it. W marks its width. Open + circles represent holes; filled − circles represent electrons. On the right, the arrows show carriers pulling back as bias is applied, not a steady reverse current. The shaded region is still semiconductor."}
+{.img-centered .img-large .caption-wide .img-mobile-full caption="Forward bias (left) narrows the depletion region; reverse bias (right) widens it. W marks its width. Open + circles represent holes; filled − circles represent electrons. On the right, the arrows show carriers pulling back as bias is applied, not a steady reverse current. The shaded region is still semiconductor."}
 
 Nearly everything a diode does comes down to that barrier and which way you push it. Diodes that rectify, detect, or give off light work with the barrier lowered. Diodes that hold a voltage steady or tune a circuit put reverse bias to work. Others change how the junction itself is built. Forward conduction comes first, since every rectifier depends on it.
 
@@ -69,7 +69,7 @@ Because the band gap sets the forward voltage, choosing a different semiconducto
 On a schematic, the diode types share the same triangle and bar, so the small marks on or near the cathode bar give each one away. In Figure E6-2, the ordinary diode (symbol 4) has a straight bar, the LED (5) adds light arrows, and the Zener (3) has angled ends on its bar. A Schottky's bar has small squared hooks at both ends.
 
 ![Official Figure E6-2 shows eight semiconductor symbols. Symbol 1 has a curved line crossing the diode triangle, followed by a straight cathode bar. Symbol 2 has two triangles pointing toward each other at a bracket-shaped bar. Symbol 3 is a Zener diode with angled ends on its cathode bar. Symbol 4 is an ordinary diode with a straight cathode bar. Symbol 5 adds two outward light arrows to that shape, identifying an LED. Symbol 6 is the Schottky diode, distinguished by small squared hooks at both ends of its cathode bar. Symbols 7 and 8 are enclosed in circles with an extra control lead; 7 has one diode triangle, while 8 has two opposing triangles.](../../../hugo/static/figures/E6-2.svg)
-{.img-centered .img-xlarge .img-bw caption="Figure E6-2: The cathode marking distinguishes the Schottky diode."}
+{.img-centered .img-large .img-bw .img-mobile-full caption="Figure E6-2: The cathode marking distinguishes the Schottky diode."}
 
 > **Key Information:** Symbol 6 in Figure E6-2 is a Schottky diode. {{< link id="E6B10" >}}
 

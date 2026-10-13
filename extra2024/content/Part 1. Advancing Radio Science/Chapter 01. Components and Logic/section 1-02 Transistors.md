@@ -50,7 +50,7 @@ An enhancement-mode FET works the other way: its channel needs suitable gate bia
 An FET symbol shows how its gate is built. A gap between the gate line and the channel indicates an insulated gate; a gate line that touches the channel marks a JFET. Two separately labeled gates identify a dual-gate device, which accepts two control signals on the same channel. The arrow shows the channel type. As in a diode symbol, it points from P toward N: into an N-channel device, out of a P-channel one.
 
 ![Official Figure E6-1 shows six FET symbols, with D marking the drain, S the source, and G the gate. Symbols 1 and 6 have a gate line connected directly to the channel. In 1 the gate arrow points outward, identifying a P-channel JFET; in 6 it points inward, identifying an N-channel JFET. Symbols 2 and 3 have one gate separated from the channel by a gap, indicating insulation. Their channel arrows point inward and outward, respectively. Symbols 4 and 5 have two insulated gates, G1 and G2. Symbol 4 has an inward arrow and is the N-channel dual-gate MOSFET; 5 has an outward arrow and is P-channel.](../../../hugo/static/figures/E6-1.svg)
-{.img-centered .img-xlarge .img-bw caption="Figure E6-1: Gate arrangement and arrow direction identify the FET."}
+{.img-centered .img-xlarge .mw-60 .img-bw .img-mobile-full caption="Figure E6-1: Gate arrangement and arrow direction identify the FET."}
 
 In symbol 1, the gate touches the channel and the arrow points out. Symbol 4 has two insulated gates and an arrow pointing in.
 

@@ -18,7 +18,7 @@ The pattern also shows where that gain comes from: an antenna concentrates power
 Figure E9-1 is a polar plot. Angles run around the outside; distance from the center represents relative signal strength in decibels. The outer edge is the peak reference, 0 dB. The thick curve traces the antenna's response. The spokes are 15 degrees apart. Inward from the unlabeled 0 dB edge, the labeled rings are −3, −6, −12, and −24 dB. Their decibel steps differ, so check the labels before estimating a level between rings.
 
 ![Figure E9-1, a free-space antenna pattern plotted on a circular decibel grid, with spokes every 15 degrees and labeled rings at minus 3, minus 6, minus 12, and minus 24 dB inside the zero-dB outer edge. The main lobe points right at zero degrees and peaks at the outer reference circle. Its minus-3-dB crossings are near plus and minus 25 degrees, giving a 50-degree beamwidth. Response directly behind at 180 degrees is about 18 dB below the forward peak. The side response near plus or minus 90 degrees is about 14 dB below the peak. Smaller side and rear lobes show that the antenna also radiates away from its main direction.](../../../hugo/static/figures/E9-1.svg)
-{.img-centered .img-xlarge .img-bw caption="Figure E9-1: Direction and relative strength in a free-space pattern."}
+{.img-centered .img-xlarge .mw-70 .img-bw .img-mobile-full caption="Figure E9-1: Direction and relative strength in a free-space pattern."}
 
 The broad outward bulge toward zero degrees is the **main lobe**. Smaller bulges are side or rear lobes. To find the 3 dB beamwidth, locate where the main lobe crosses the $-3$ dB circle on each side of its peak. Those points are about $+25^\circ$ and $-25^\circ$, so the full width is $25-(-25)=50^\circ$, not the 25 degrees from the peak to one side. At each point, power density falls to half the peak value.
 
@@ -34,7 +34,7 @@ Front-to-back ratio compares the forward peak with the response directly behind 
 A bearing around the horizon does not tell us whether the strongest lobe points low or nearly overhead. An azimuth pattern gives the horizontal slice; an elevation pattern shows radiation at different angles above the horizon. Figure E9-2 includes the ground, so only the upper half of the circle appears.
 
 ![Figure E9-2, an elevation radiation pattern over real ground. The horizontal baseline is the horizon, with forward zero degrees to the right, 90 degrees overhead, and the rear horizon at 180 degrees to the left. The strongest forward lobe peaks only about 7.5 degrees above the horizon. Other weaker forward lobes rise at higher angles, separated by deep nulls. Small rear lobes are about 28 dB below the strongest forward response. Concentric rings, labeled along the forward baseline, show minus 10, minus 20, minus 30, and minus 40 dB.](../../../hugo/static/figures/E9-2.svg)
-{.img-centered .img-xlarge .img-bw caption="Figure E9-2: Elevation lobes produced over real ground."}
+{.img-centered .img-xlarge .mw-60 .img-bw .img-mobile-full caption="Figure E9-2: Elevation lobes produced over real ground."}
 
 The longest lobe hugs the right-hand horizon. Its peak lies halfway between zero and 15 degrees. This plot uses a different level scale: labels along the right-hand baseline mark its rings at −10, −20, −30, and −40 dB. Follow those rings around to the rear lobes. They reach just outside the −30 dB ring, toward the edge, about 28 dB below the forward peak at 0 dB.
 

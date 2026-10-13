@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="720" height="252" viewBox="0 0 720 252" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="208" viewBox="0 44 720 208" role="img" aria-labelledby="title desc">
 <title id="title">Bias changes a PN junction's depletion width</title>
 <desc id="desc">Two continuous semiconductor bars compare forward and reverse bias. P is on the left and N on the right in each. Forward bias has positive P contact, negative N contact, majority-carrier arrows toward the junction, and a narrow depletion band. Reverse bias reverses the contacts and pushes majority carriers away from a wider depletion band. The band is semiconductor, not a physical gap. W marks its width.</desc>
 <style>

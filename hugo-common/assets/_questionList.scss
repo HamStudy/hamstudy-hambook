@@ -55,6 +55,41 @@ $question-color: #336;
       max-width: 50% !important;
     }
   }
+
+  &.figure-E6-2, &.figure-E6-3,
+  &.figure-E7-1, &.figure-E7-2, &.figure-E7-3 {
+    > img, > object, > object > img {
+      max-width: 50% !important;
+    }
+  }
+
+  &.figure-E6-1, &.figure-E9-2 {
+    > img, > object, > object > img {
+      max-width: 60% !important;
+    }
+  }
+
+  &.figure-E5-1 {
+    > img, > object, > object > img {
+      max-width: 80% !important;
+    }
+  }
+
+  &.figure-E9-1, &.figure-E9-3 {
+    > img, > object, > object > img {
+      max-width: 70% !important;
+    }
+  }
+
+  @media screen and (max-width: 40rem) {
+    &.figure-E5-1, &.figure-E6-1, &.figure-E6-2, &.figure-E6-3,
+    &.figure-E7-1, &.figure-E7-2, &.figure-E7-3,
+    &.figure-E9-1, &.figure-E9-2, &.figure-E9-3 {
+      > img, > object, > object > img {
+        max-width: 100% !important;
+      }
+    }
+  }
 }
 
 // Common styles for question items
