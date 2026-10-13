@@ -227,7 +227,7 @@ Spanish translations mirror English structure:
 ### Adding a New Book
 
 1. Create directory structure: `<exam><year>/content/`, `<exam><year>/hugo/`
-2. Add to `PROJECTS` in `ci-scripts/watcher.sh`
+2. Add it to `projects.json` (used by `ci-scripts/watcher.sh`)
 3. Create `hugo/hugo.yaml` importing common module
 4. Add pool.json with question data
 5. Add npm scripts for dev server

@@ -4,7 +4,7 @@ variables:
 #   CI_DEBUG_TRACE: "true"
   KUBERNETES_POD_ANNOTATIONS_1: "container.apparmor.security.beta.kubernetes.io/build=unconfined"
   KUBERNETES_POD_ANNOTATIONS_2: "container.seccomp.security.alpha.kubernetes.io/build=unconfined"
-  BUILDKIT_IMAGE: docker.io/taxilian/buildkit-rootless-utils:v0.12.3
+  BUILDKIT_IMAGE: docker.io/taxilian/buildkit-rootless-utils:buildx-1
   BUILDKITD_FLAGS: --oci-worker-no-process-sandbox
   CACHEREPO: ${DOCKER_REPO}/hambook/hambook-cache2
   TARGET: ${DOCKER_REPO}/hambook/hambook
@@ -15,6 +15,25 @@ variables:
     --frontend=dockerfile.v0
     --local dockerfile=${CI_PROJECT_DIR}
     --local context=${CI_PROJECT_DIR}
+
+# Builds the web-deploy watcher image; replaces running ci-scripts/build_watcher.sh by hand
+build-watcher:
+  stage: build
+  when: manual
+  image:
+    name: ${BUILDKIT_IMAGE}
+    entrypoint: ["sh", "-c"]
+  variables:
+    WATCHER_IMAGE: ${CI_REGISTRY_IMAGE}/watcher:s3
+  script:
+    - 'echo "Building watcher image: ${WATCHER_IMAGE}"'
+    - 'docker login -u "${CI_REGISTRY_USER}" -p "${CI_REGISTRY_PASSWORD}" "${CI_REGISTRY}"'
+    - 'docker buildx create --name k8s --driver remote --driver-opt cacert=/certs/buildkit/ca.crt,cert=/certs/buildkit/tls-combined.pem,key=/certs/buildkit/tls.key tcp://buildkit-buildkit-service.buildkit.svc:1234 || true'
+    - docker buildx use k8s
+    - docker buildx inspect --bootstrap
+    - 'docker buildx build --progress=plain --pull --push --platform linux/amd64,linux/arm64 -t "${WATCHER_IMAGE}" -f ci-scripts/Dockerfile.watcher ci-scripts'
+    - 'echo "Watcher image pushed: ${WATCHER_IMAGE}"'
+  needs: []
 
 
 # build-image:

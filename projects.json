@@ -17,6 +17,12 @@
       "path": "general2023",
       "port": 1316,
       "active": true
+    },
+    {
+      "name": "extra2024",
+      "path": "extra2024",
+      "port": 1317,
+      "active": true
     }
   ],
   "root": {

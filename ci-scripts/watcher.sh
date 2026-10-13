@@ -10,9 +10,24 @@ BRANCH="${BRANCH:-main}"
 SLEEP_DURATION="${SLEEP_DURATION:-60}"
 KEEP_BUILD_COUNT="${KEEP_BUILD_COUNT:-10}"
 
-# Project configuration - list all projects here
-PROJECTS="tech2022 tech2026 general2023"
-# Add more projects as needed, e.g.: PROJECTS="tech2022 general2023 extra2024"
+# Project configuration comes from projects.json in the repo root (loaded after clone)
+PROJECTS=""
+
+# Reads the active project paths from projects.json; requires node, run from $REPO_DIR
+load_projects() {
+  if ! PROJECTS=$(node -e "
+    const p = require('./projects.json');
+    console.log(p.projects.filter(x => x.active !== false).map(x => x.path).join(' '));
+  "); then
+    echo "Error: could not read project list from projects.json"
+    exit 1
+  fi
+  if [ -z "$PROJECTS" ]; then
+    echo "Error: projects.json contains no active projects"
+    exit 1
+  fi
+  echo "Projects (from projects.json): $PROJECTS"
+}
 
 # Initialize script variables
 FORCE_REBUILD=false
@@ -325,7 +340,6 @@ echo "SLEEP_DURATION: $SLEEP_DURATION"
 echo "KEEP_BUILD_COUNT: $KEEP_BUILD_COUNT"
 echo "S3_BUCKET: $S3_BUCKET"
 echo "AWS_ENDPOINT_URL: $AWS_ENDPOINT_URL"
-echo "PROJECTS: $PROJECTS"
 
 export HUGO_NUMWORKERMULTIPLIER=1
 
@@ -342,6 +356,9 @@ fi
 cd $REPO_DIR
 # Ensure the node modules are installed
 npm ci
+
+# Load the project list from the cloned repo
+load_projects
 
 #region Main loop
 
@@ -427,7 +444,10 @@ while true; do
     git reset --hard origin/${BRANCH}
     git lfs pull
     FORCE_REBUILD=true
-    
+
+    # Re-read the project list: projects.json may have changed in this pull
+    load_projects
+
     # Run imports for all projects
     for project in $PROJECTS; do
       echo " -- Running import for $project"
