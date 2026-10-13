@@ -263,7 +263,6 @@ chapter: "1"
 section: "1.1"
 questions: ["E6A02", "E6A04"]
 status: generated1
-draft: true
 ---
 
 ### Section 1.1: Diodes and Junctions
@@ -277,7 +276,7 @@ Teaching and the relevant question anchors.
 
 This is a syntax example, not a complete lesson. **Every page assigning one or more questions needs `chapter` and `section`** for grouping, HamStudy links, and QR codes. Keep them as strings: `"1.10"` must not become `1.1`. An introduction with `questions: []` needs no invented section assignment.
 
-Preserve metadata unless the task requires changing it. `status` records editorial workflow; the separate Hugo `draft` boolean controls publication. Keep fields such as `epub`, `print`, `pagebreak`, `epubtype`, and `poolid` until their purpose and authority for change are clear.
+Preserve metadata unless the task requires changing it. `status` records editorial workflow. **Never set the Hugo `draft` boolean on a manuscript page:** the web, watcher, and print builds all run without `--buildDrafts`, so a draft page is silently excluded from the build and every table-of-contents entry and reference to it fails with page-not-found errors. Editorial readiness belongs to `status`, not `draft`. Keep fields such as `epub`, `print`, `pagebreak`, `epubtype`, and `poolid` until their purpose and authority for change are clear.
 
 ### Understand editorial status
 
@@ -496,7 +495,7 @@ Early generated material needs room to find a sound teaching structure. Human-ed
 - **`generated…` and `reviewed…`:** Material is still AI-generated and open to substantial revision. Reorder, regroup, replace, or rewrite explanations when that will meaningfully improve the section. Do not preserve a weak structure merely to minimize the diff; judge the resulting lesson by its teaching, flow, and reading burden.
 - **`draft…` and `published…` (including older `publish…` values):** Make careful, targeted edits. Prefer the smallest change that fully solves the problem, preserve settled wording and structure, and keep revision diffs easy to review. Make larger changes only when necessary or explicitly requested, with a clear reason. This applies equally to `draft1`, `draft3`, `published1`, and later revisions within those categories.
 
-The separate Hugo `draft: true` flag controls publication; it does **not** put `status: generated1` material into the editorial draft category. Preserve identifiable author edits and explicit decisions at every stage.
+The Hugo `draft` flag (prohibited in manuscript sources, above) does **not** put `status: generated1` material into the editorial draft category. Preserve identifiable author edits and explicit decisions at every stage.
 
 The request still determines scope: a request for one sentence is not permission to rewrite the book, while a full generated-section revision may require rebuilding its progression. Minimum Viable Teaching limits unnecessary reader burden; it is not a minimum-edit rule.
 

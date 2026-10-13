@@ -165,6 +165,8 @@ questions:                  # Optional: related exam questions
 ---
 ```
 
+**Never set `draft: true` in content frontmatter.** All builds (Hugo, watcher, print/CI) run without `--buildDrafts`, so a draft page is excluded from the output and every reference to it fails. Editorial readiness is tracked by the `status` field (see writing-style-guide.md), never `draft`.
+
 ### Special Files
 
 - `index.md` - Section introduction, gets `epubtype: introduction`
