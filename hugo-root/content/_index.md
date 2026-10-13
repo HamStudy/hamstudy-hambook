@@ -62,10 +62,10 @@ Your purchase helps support the development and maintenance of these free resour
 
 Everything you need to pass your General Class license exam!
 
-- Unlock HF – understand band privileges and what you can do with them
-- Operate like a pro – SSB, CW, digital modes, DX, contesting, and more
-- Stay Safe and Legal – grounding, RF exposure, towers, and all the rules
-- Study Efficiently – Clear explanations that stay on topic
+* Unlock HF – understand band privileges and what you can do with them
+* Operate like a pro – SSB, CW, digital modes, DX, contesting, and more
+* Stay Safe and Legal – grounding, RF exposure, towers, and all the rules
+* Study Efficiently – Clear explanations that stay on topic
 
 {{< button relref="/general2023" >}}Read online for Free!{{< /button >}}
 
@@ -88,11 +88,12 @@ Everything you need to pass your General Class license exam!
 
 Master advanced radio theory and regulations.
 * Covers the 2024-2028 Extra Class question pool
-* Unlock full amateur radio privileges
-* Dive deep into specialized topics
-* For those aiming for the highest level of amateur radio
+* Focus on what matters – clear explanations and highlighted exam facts
+* Make sense of the math – worked examples, one step at a time
+* Connect theory to practice– put your knowledge to work at your station
+* Study Efficiently – practice each section’s questions with HamStudy
 
-[Coming Soon]()
+{{< button relref="/extra2024" >}}Read draft version for Free!{{< /button >}}
 
 {{% /columns %}}
 

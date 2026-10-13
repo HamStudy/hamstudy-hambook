@@ -4,4 +4,4 @@ type: docs
 weight: 20
 ---
 
-fdsafdsafdas
+The General Class HamBook for the 2023-2027 question pool is now available! This edition covers all the questions you'll need to know to pass your General Class exam starting July 1, 2023.
