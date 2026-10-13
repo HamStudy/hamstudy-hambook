@@ -2,7 +2,7 @@
 chapter: "2"
 section: "2.4"
 questions: ["G6A07", "G7B03", "G6B02", "G6B03", "G6B06", "G7B06", "G7B05"]
-status: draft1
+status: complete1
 ---
 
 ### Section 2.4: Digital Circuit Fundamentals

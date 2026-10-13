@@ -2,7 +2,7 @@
 chapter: "9"
 section: "9.2"
 questions: ["G1C11", "G1C02", "G1C05", "G1C06", "G1C01", "G1C03", "G1C04", "G1B01", "G1B06"]
-status: draft1
+status: complete1
 ---
 
 ### Section 9.2: Power and Antenna Limits

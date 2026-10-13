@@ -2,7 +2,7 @@
 chapter: "9"
 section: "9.5"
 questions: ["G1B08", "G1E06", "G1B07", "G1E01", "G1E05", "G1E12", "G1D05", "G1D12"]
-status: draft1
+status: complete1
 ---
 
 ### Section 9.5: Messages Across Borders

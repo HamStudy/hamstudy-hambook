@@ -2,7 +2,7 @@
 chapter: "8"
 section: "8.6"
 questions: ["G2B01", "G2B02", "G2B10", "G2C11", "G2C08", "G2E11", "G2B09", "G2B11"]
-status: draft1
+status: complete1
 ---
 
 ### Section 8.6: Emergency Communication

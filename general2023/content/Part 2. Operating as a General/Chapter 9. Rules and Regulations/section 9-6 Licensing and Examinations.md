@@ -2,7 +2,7 @@
 chapter: "9"
 section: "9.6"
 questions: ["G1D03", "G1D06", "G1D09", "G1D01", "G1D11", "G1D07", "G1D02", "G1D10", "G1D08", "G1D04"]
-status: draft1
+status: complete1
 ---
 
 ### Section 9.6: Licensing and Examinations

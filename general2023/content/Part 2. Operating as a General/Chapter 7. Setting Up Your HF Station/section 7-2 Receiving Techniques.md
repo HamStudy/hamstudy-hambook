@@ -2,7 +2,7 @@
 chapter: "7"
 section: "7.2"
 questions: ["G4A13", "G4A01", "G4C02", "G4A03", "G4E07", "G4A07", "G4C03", "G4C04", "G4C01", "G4C08", "G4D04", "G4D06", "G4D05", "G4D07"]
-status: draft3
+status: complete1
 ---
 
 ### Section 7.2: Receiving Techniques

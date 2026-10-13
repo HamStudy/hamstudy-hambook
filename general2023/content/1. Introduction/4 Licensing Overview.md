@@ -2,6 +2,7 @@
 title: "Licensing Overview"
 slug: licensing
 epubtype: introduction
+status: complete1
 ---
 
 # Licensing Overview

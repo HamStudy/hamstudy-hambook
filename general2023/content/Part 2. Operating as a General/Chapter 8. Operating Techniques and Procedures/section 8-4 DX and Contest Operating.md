@@ -2,7 +2,7 @@
 chapter: "8"
 section: "8.4"
 questions: ["G2A11", "G2B08", "G2D04", "G2D06", "G2B03", "G2D09", "G2D10", "G2D08"]
-status: draft1
+status: complete1
 ---
 
 ### Section 8.4: DX and Contest Operating

@@ -2,7 +2,7 @@
 questions: []
 slug: pt2
 epubtype: part
-status: generated
+status: complete1
 ---
 
 # Part 2: Expanding on Radio Operation

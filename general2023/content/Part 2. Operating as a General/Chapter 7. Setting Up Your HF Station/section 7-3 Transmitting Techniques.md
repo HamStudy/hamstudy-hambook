@@ -2,7 +2,7 @@
 chapter: "7"
 section: "7.3"
 questions: ["G4D01", "G4D02", "G4D03", "G4D08", "G4D10", "G4D09", "G4D11", "G4A12", "G4A10", "G4A02"]
-status: draft3
+status: complete1
 ---
 
 ### Section 7.3: Transmitting Techniques

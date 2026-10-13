@@ -2,7 +2,7 @@
 chapter: "4"
 section: "4.3"
 questions: ["G9B04", "G9B05", "G9B07", "G9B08", "G9B10", "G9B11", "G9D12", "G9D02", "G9B09", "G9B03", "G9B06", "G9B02", "G9B12", "G9B01", "G9D01"]
-status: draft1
+status: complete1
 ---
 
 ### Section 4.3: Dipoles and Vertical Antennas

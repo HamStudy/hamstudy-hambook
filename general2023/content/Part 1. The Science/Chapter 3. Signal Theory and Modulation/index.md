@@ -1,6 +1,7 @@
 ---
 questions: []
 slug: chpt3
+status: complete1
 ---
 
 # Chapter 3: Signal Theory and Modulation

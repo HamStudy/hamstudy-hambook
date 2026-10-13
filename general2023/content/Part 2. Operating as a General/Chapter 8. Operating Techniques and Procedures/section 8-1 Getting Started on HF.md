@@ -2,7 +2,7 @@
 chapter: "8"
 section: "8.1"
 questions: ["G2A05", "G2A07", "G2A06", "G2A02", "G2A09", "G2A01", "G2A04", "G2A03", "G2B07", "G2E08"]
-status: draft1
+status: complete1
 ---
 
 ### Section 8.1: Getting Started on HF

@@ -2,6 +2,7 @@
 title: "The General Class License"
 slug: about
 epubtype: introduction
+status: complete1
 ---
 
 # The General Class License

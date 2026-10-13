@@ -1,7 +1,7 @@
 ---
 slug: chpt8
 questions: []
-status: draft1
+status: complete1
 ---
 
 ## Chapter 8: Operating on the Air

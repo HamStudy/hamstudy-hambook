@@ -2,7 +2,7 @@
 chapter: "9"
 section: "9.3"
 questions: ["G1A06", "G1E04", "G1E10", "G2D01", "G2D02", "G2D03", "G1B11"]
-status: draft1
+status: complete1
 ---
 
 ### Section 9.3: Spectrum and Interference

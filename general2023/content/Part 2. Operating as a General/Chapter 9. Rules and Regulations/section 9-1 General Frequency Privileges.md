@@ -2,7 +2,7 @@
 chapter: "9"
 section: "9.1"
 questions: ["G1A01", "G1A08", "G1A11", "G1A05", "G1A09", "G1A02", "G1A03", "G1A07", "G1A10", "G1E02"]
-status: draft1
+status: complete1
 ---
 
 ### Section 9.1: General Frequency Privileges

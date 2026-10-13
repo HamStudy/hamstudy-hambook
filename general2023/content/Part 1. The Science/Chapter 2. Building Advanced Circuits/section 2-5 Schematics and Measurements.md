@@ -3,7 +3,7 @@ chapter: "2"
 section: "2.5"
 slug: section-25-test-equipment-and-schematic-reading
 questions: ["G7A09", "G7A11", "G7A10", "G7A12", "G7A13", "G4B01", "G4B02", "G4B05"]
-status: draft2
+status: complete1
 ---
 
 ### Section 2.5: Schematics and Measurements

@@ -2,7 +2,7 @@
 chapter: "6"
 section: "6.3"
 questions: ["G0B04", "G0B11", "G0B13", "G4C05", "G4C06", "G4C11", "G4C10", "G4C09", "G4C12", "G4C07", "G0B10"]
-status: draft1
+status: complete1
 ---
 
 ### Section 6.3: Grounding and Lightning

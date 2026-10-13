@@ -2,7 +2,7 @@
 chapter: "8"
 section: "8.2"
 questions: ["G2A12", "G2A10", "G2B05", "G2B06", "G2D07", "G2D05", "G2A08", "G2D11"]
-status: draft1
+status: complete1
 ---
 
 ### Section 8.2: Voice Operating Techniques

@@ -287,7 +287,10 @@ The status tells the next editor what review the material has received and how c
 | `generatedN` (also unnumbered `generated`) | AI-created content following the author's layout and assigned question list. Further generated versions may be completely new AI drafts; the content has not yet received the guided review represented by `reviewedN`. |
 | `reviewedN` | AI-reviewed and updated under a human reviewer's direction. The improvements are guided, but the material is still AI-generated. |
 | `draftN` | Human review and editing have been completed. The manuscript may still be rough or lack images and figures, but it should be content-complete and cover every assigned question. |
+| `complete` | Content complete, pending final review. |
 | `publishedN` | The content has been finalized and is ready for publication, with all required images and figures present. |
+
+On the web site, every page whose status does not start with `publish` displays a status banner at the top naming the category; `publish…` and `published…` pages show no banner. The banner wording per category lives in `hugo-common/layouts/partials/docs/inject/content-before.html`.
 
 The number tracks **major revisions within the same category**: a major draft revision advances `draft1` to `draft2`; a major revision of publication-ready content advances `published1` to `published2`. A minor correction does not by itself require a new number, and increasing the number does not change the category.
 

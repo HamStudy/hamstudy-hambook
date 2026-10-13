@@ -1,7 +1,7 @@
 ---
 chapter: "7"
 section: "7.6"
-status: draft3
+status: complete1
 questions: ["G4B06", "G4B09", "G4B03", "G4B04", "G4B07", "G4B08", "G4B13", "G4B12"]
 ---
 

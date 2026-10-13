@@ -2,7 +2,7 @@
 chapter: "4"
 section: "4.4"
 questions: ["G9C02", "G9C03", "G9C11", "G9C12", "G9C05", "G9C01", "G9C08", "G9C07", "G9C10", "G9C09", "G9D05", "G9D06", "G9D07", "G9D10", "G9D09"]
-status: draft1
+status: complete1
 ---
 
 ### Section 4.4: Directional Antennas
