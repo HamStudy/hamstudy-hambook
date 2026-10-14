@@ -12,7 +12,7 @@ Welcome to HamBooks — free, comprehensive study guides designed to help you ea
 ---
 ## Begin your license journey today!
 
-![License Journey Path](/license-path.svg)
+![Amateur radio license progression: Technician, General, and Amateur Extra](/license-path.svg)
 {.img-path}
 
 ### Technician Class – **Available Now!**
