@@ -1,0 +1,127 @@
+/* SignalStuff Family layer: the shared header and footer.
+   Used by the hambook.org home page and, when params.FamilyChrome is true, by every book page.
+   Structure, sizes and colors are fixed by the design system; the font is the site's own. */
+
+:root {
+  --ssf-surface: #ffffff;
+  --ssf-ink: #2c3e50;
+  --ssf-line: #d9e0e6;
+  --ssf-night: #1c2430;
+  --ssf-on-night: #eef2f5;
+  --ssf-night-link: #c9d2dd;
+  --ssf-signalstuff: #3bb54a;
+  --ssf-hamstudy: #00bcd6;
+  --ssf-examtools: #c79100;
+  --ssf-hambook: #d60000;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --ssf-surface: #1a212a;
+    --ssf-ink: #eef2f5;
+    --ssf-line: #2e3946;
+  }
+}
+
+/* ---- header ---- */
+.ssf-header {
+  display: flex; align-items: center; gap: 32px; height: 64px; box-sizing: border-box;
+  padding-left: max(32px, env(safe-area-inset-left, 0px)); padding-right: max(32px, env(safe-area-inset-right, 0px));
+  background: var(--ssf-surface); border-bottom: 1px solid var(--ssf-line); font-family: inherit;
+}
+.ssf-header__home { display: block; flex: none; }
+.ssf-header__logo { height: 40px; width: auto; display: block; }
+.ssf-header__logo--dark { display: none; }
+@media (prefers-color-scheme: dark) {
+  .ssf-header__logo--light { display: none; }
+  .ssf-header__logo--dark { display: block; }
+}
+.ssf-header nav { display: flex; gap: 24px; flex: 1; align-self: stretch; min-width: 0; }
+.ssf-header nav a {
+  display: flex; align-items: center; font-size: 15px; line-height: 20px; font-weight: 600;
+  color: var(--ssf-ink); text-decoration: none; border-block: 3px solid transparent; white-space: nowrap;
+}
+.ssf-header nav a:hover { border-bottom-color: var(--ssf-line); }
+.ssf-header nav a[aria-current="page"] { border-bottom-color: var(--ssf-hambook); }
+
+/* Book pages on phones: the family header is the only bar, so it carries the book's menu and contents buttons. */
+.ssf-header__btn { display: none; flex: none; cursor: pointer; padding: 6px; margin: -6px; line-height: 0; }
+.ssf-header__btn img { width: 24px; height: 24px; display: block; }
+@media (prefers-color-scheme: dark) { .ssf-header__btn img { filter: invert(1); } }
+#menu-control:focus-visible ~ .ssf-header label[for="menu-control"],
+#toc-control:focus-visible ~ .ssf-header label[for="toc-control"] { outline: 2px solid var(--ssf-hamstudy); border-radius: 4px; }
+
+@media (max-width: 560px) {
+  .ssf-header { gap: 16px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+  .ssf-header__logo { height: 32px; }
+  .ssf-header nav { gap: 14px; }
+  .ssf-header nav a { font-size: 14px; }
+}
+
+/* ---- footer ---- */
+.ssf-footer { background: var(--ssf-night); color: var(--ssf-on-night); font-family: inherit; }
+.ssf-stripe { display: grid; grid-template-columns: repeat(4, 1fr); height: 6px; }
+.ssf-stripe span:nth-child(1) { background: var(--ssf-signalstuff); }
+.ssf-stripe span:nth-child(2) { background: var(--ssf-hamstudy); }
+.ssf-stripe span:nth-child(3) { background: var(--ssf-examtools); }
+.ssf-stripe span:nth-child(4) { background: var(--ssf-hambook); }
+.ssf-footer__inner {
+  display: flex; flex-wrap: wrap; gap: 40px; justify-content: space-between; max-width: 1216px; margin: 0 auto; box-sizing: border-box;
+  padding-block: 40px 32px; padding-left: max(32px, env(safe-area-inset-left, 0px)); padding-right: max(32px, env(safe-area-inset-right, 0px));
+}
+.ssf-footer h4 { margin: 0 0 10px; font-size: 13px; line-height: 16px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; opacity: .85; color: inherit; }
+.ssf-footer ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
+.ssf-footer li { margin: 0; line-height: 20px; }
+.ssf-footer a, .ssf-footer a:visited { color: var(--ssf-night-link); text-decoration: none; font-size: 14px; line-height: 20px; }
+.ssf-footer a:hover { color: var(--ssf-on-night); }
+.ssf-family a::before { content: ""; display: inline-block; width: 10px; height: 10px; border-radius: 3px; margin-right: 8px; background: var(--dot); }
+.ssf-family a[aria-current="page"] { font-weight: 700; }
+.ssf-family [data-p="signalstuff"] { --dot: var(--ssf-signalstuff); }
+.ssf-family [data-p="hamstudy"] { --dot: var(--ssf-hamstudy); }
+.ssf-family [data-p="examtools"] { --dot: var(--ssf-examtools); }
+.ssf-family [data-p="hambook"] { --dot: var(--ssf-hambook); }
+.ssf-footer__base {
+  border-top: 1px solid rgba(238, 242, 245, .15); padding-block: 14px; text-align: center; font-size: 13px; line-height: 20px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+
+/* ---- book pages (body.ssf-chrome, set by _default/baseof.html) ---- */
+/* Desktop: the theme pins the menu and contents to the top of the window. Make them sticky instead,
+   so they start below the header and stay in view once it scrolls away. 56rem is Hugo Book's $mobile-breakpoint. */
+@media screen and (min-width: 56.0625rem) {
+  .ssf-chrome .book-menu .book-menu-content,
+  .ssf-chrome .book-toc .book-toc-content {
+    position: sticky; top: 0; bottom: auto; max-height: 100vh;
+  }
+}
+/* Phones: show our buttons and hide the theme's own bar (its contents panel still opens under it). */
+@media screen and (max-width: 56rem) {
+  .ssf-chrome .ssf-header__btn { display: block; }
+  .ssf-chrome .book-header > .flex { display: none; }
+  .ssf-chrome .ssf-header { gap: 14px; }
+  .ssf-chrome .ssf-header nav { gap: 14px; }
+}
+@media screen and (max-width: 26rem) {
+  .ssf-chrome .ssf-header nav a { font-size: 13px; }
+  .ssf-chrome .ssf-header nav { gap: 10px; }
+  .ssf-chrome .ssf-header__logo { height: 28px; }
+}
+
+/* Phones: the open book menu gets a close button in the same spot as the menu button that opened it,
+   above the book's "HamBook Home" link. */
+.ssf-drawer-close { display: none; }
+@media screen and (max-width: 56rem) {
+  .ssf-chrome .ssf-drawer-close {
+    display: flex; align-items: center; gap: 10px; height: 64px; box-sizing: border-box;
+    margin: -1rem -1rem 1rem; padding: 0 1rem; border-bottom: 1px solid var(--ssf-line);
+    font-size: 15px; font-weight: 600; color: var(--ssf-ink); cursor: pointer;
+  }
+  .ssf-chrome .ssf-drawer-close svg { flex: none; }
+  /* The theme outlines every menu label while the checkbox has focus, which also shows after a tap; keep it for keyboards only. */
+  #menu-control:focus ~ main label.ssf-drawer-close[for="menu-control"] { outline: none; }
+  #menu-control:focus-visible ~ main label.ssf-drawer-close[for="menu-control"] { outline: 2px solid var(--ssf-hamstudy); outline-offset: -4px; }
+}
+
+/* Printing a web page never includes the family header or footer. */
+@media print {
+  .ssf-header, .ssf-footer { display: none !important; }
+}

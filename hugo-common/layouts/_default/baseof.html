@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+{{- /* Copy of Hugo Book's baseof.html (alex-shpak/hugo-book 645c868cec13) with the SignalStuff Family
+       header and footer added. They render only on the website: params.FamilyChrome is set in the web
+       configs, and the PDF build (printToPdf.sh, which reuses the book's hugo.yaml and mounts hugo-pdf)
+       is detected by hugo-pdf's _default/allcontent.html template and always left without them. */ -}}
+{{- $family := and .Site.Params.FamilyChrome (not (templates.Exists "_default/allcontent.html")) -}}
+<html lang="{{ default .Site.Language.Lang .Site.LanguageCode  }}" dir="{{ default "ltr" .Site.Language.LanguageDirection }}">
+<head>
+  {{ partial "docs/html-head" . }}
+  {{ partial "docs/inject/head" . }}
+  {{- if $family }}{{ partial "family/css.html" . }}{{ end }}
+</head>
+<body dir="{{ default "ltr" .Site.Language.LanguageDirection }}"{{ if $family }} class="ssf-chrome"{{ end }}>
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  {{- if $family }}{{ partial "family/header.html" (dict "page" . "bookMenu" true) }}{{ end }}
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        {{- if $family }}
+        <label for="menu-control" class="ssf-drawer-close">
+          <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path d="M5 5l14 14M19 5L5 19" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" fill="none"/></svg>
+          <span>Close menu</span>
+        </label>
+        {{- end }}
+        {{ template "menu" . }} <!-- Left menu Content -->
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        {{ template "header" . }} <!-- Mobile layout header -->
+      </header>
+
+      {{ partial "docs/inject/content-before" . }}
+      {{ template "main" . }} <!-- Page Content -->
+      {{ partial "docs/inject/content-after" . }}
+
+      <footer class="book-footer">
+        {{ template "footer" . }} <!-- Footer under page content -->
+        {{ partial "docs/inject/footer" . }}
+      </footer>
+
+      {{ template "comments" . }} <!-- Comments block -->
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    {{ if default true (default .Site.Params.BookToC .Params.BookToC) }}
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        {{ template "toc" . }} <!-- Table of Contents -->
+      </div>
+    </aside>
+    {{ end }}
+  </main>
+  {{- if $family }}{{ partial "family/footer.html" . }}{{ end }}
+
+  {{ partial "docs/inject/body" . }}
+</body>
+</html>
+
+{{ define "menu" }}
+  {{ partial "docs/menu" . }}
+{{ end }}
+
+{{ define "header" }}
+  {{ partial "docs/header" . }}
+
+  {{ if default true (default .Site.Params.BookToC .Params.BookToC) }}
+  <aside class="hidden clearfix">
+    {{ template "toc" . }}
+  </aside>
+  {{ end }}
+{{ end }}
+
+{{ define "footer" }}
+  {{ partial "docs/footer" . }}
+{{ end }}
+
+{{ define "comments" }}
+  {{ if and .Content (default true (default .Site.Params.BookComments .Params.BookComments)) }}
+  <div class="book-comments">
+    {{- partial "docs/comments" . -}}
+  </div>
+  {{ end }}
+{{ end }}
+
+{{ define "main" }}
+  <article class="markdown book-article">
+    {{- .Content -}}
+  </article>
+{{ end }}
+
+{{ define "toc" }}
+  {{ partial "docs/toc" . }}
+{{ end }}

@@ -1,0 +1,2 @@
+{{- $css := resources.Get "family.css" | resources.Minify | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}">
