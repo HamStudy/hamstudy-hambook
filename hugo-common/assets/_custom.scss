@@ -554,14 +554,14 @@ img.icon {
   }
   
   // Reviewed content - blue
-  &[class*="status-reviewed"] {
+  &.status-reviewed {
     background-color: #cce5ff;
     border-left-color: #007bff;
     color: #004085;
   }
   
   // Draft content - purple
-  &[class*="status-draft"] {
+  &.status-draft {
     background-color: #e2d9f3;
     border-left-color: #6f42c1;
     color: #4a2c7a;
@@ -588,13 +588,13 @@ img.icon {
       color: #ffd9b3;
     }
     
-    &[class*="status-reviewed"] {
+    &.status-reviewed {
       background-color: #002752;
       border-left-color: #4da3ff;
       color: #b3d7ff;
     }
     
-    &[class*="status-draft"] {
+    &.status-draft {
       background-color: #2d1f4a;
       border-left-color: #9d7bd9;
       color: #d4c4ed;
