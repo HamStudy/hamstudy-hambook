@@ -60,10 +60,11 @@
 /* ---- footer ---- */
 .ssf-footer { background: var(--ssf-night); color: var(--ssf-on-night); font-family: inherit; }
 .ssf-stripe { display: grid; grid-template-columns: repeat(4, 1fr); height: 6px; }
-.ssf-stripe span:nth-child(1) { background: var(--ssf-signalstuff); }
+/* HamBook, HamStudy, ExamTools, SignalStuff: learn, prepare, license, support. */
+.ssf-stripe span:nth-child(1) { background: var(--ssf-hambook); }
 .ssf-stripe span:nth-child(2) { background: var(--ssf-hamstudy); }
 .ssf-stripe span:nth-child(3) { background: var(--ssf-examtools); }
-.ssf-stripe span:nth-child(4) { background: var(--ssf-hambook); }
+.ssf-stripe span:nth-child(4) { background: var(--ssf-signalstuff); }
 .ssf-footer__inner {
   display: flex; flex-wrap: wrap; gap: 40px; justify-content: space-between; max-width: 1216px; margin: 0 auto; box-sizing: border-box;
   padding-block: 40px 32px; padding-left: max(32px, env(safe-area-inset-left, 0px)); padding-right: max(32px, env(safe-area-inset-right, 0px));
