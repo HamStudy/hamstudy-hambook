@@ -48,7 +48,7 @@ There are two fundamental ways to connect inductors and capacitors in resonant c
 Filters are circuits that pass some frequencies while rejecting others. The range a filter is designed to pass is its **passband**. As you move into General class operating, you'll encounter several types:
 
 ![Four graphs show filter output as frequency increases from left to right; a higher curve means more output. The low-pass curve stays high at low frequencies, then falls at higher frequencies. The high-pass curve does the reverse. The band-pass curve rises for a middle range of frequencies and falls on both sides. The notch curve stays high except for a narrow dip around one frequency. The sloping transitions show that these filters do not change abruptly between passing and rejecting a signal.](../../../images/s1-3-filter-responses.svg)
-{.img-centered caption="The curves show which frequencies each filter passes or reduces."}
+{.img-centered caption="The curves show which frequencies each filter passes or reduces. The notch is narrow so it can reduce one interfering tone while preserving most of the surrounding signal."}
 
 1. **Low-Pass Filters**: Pass frequencies below a cutoff point
    - *Application*: Reduce harmonics from your transmitter output
@@ -134,11 +134,11 @@ Modern amateur radio equipment employs various filter technologies:
 
 3. **Mechanical Filters**: Use mechanical resonant elements; appear mostly in older equipment
 
-4. **Digital Signal Processing (DSP) Filters**: Implement filtering mathematically
+4. **Digital Signal Processing (DSP) Filters**: Use calculations to filter a signal after an analog-to-digital converter turns measurements of its voltage into numbers. The filtering happens in the digital domain: it works on those numbers. A digital-to-analog converter can then turn the result back into an analog signal, such as audio for a speaker.
 
 #### Your Filter Toolkit Is Ready
 
-You now understand how resonance transforms simple LC circuits into powerful frequency selectors. Your receiver’s roofing filter limits the signals reaching later stages and may use crystal resonators rather than an LC tank. The notch filter that reduces an annoying carrier? It could be an analog circuit or digital processing. Your antenna tuner is a matching network that changes the impedance your transmitter sees.
+You now understand how resonance transforms simple LC circuits into powerful frequency selectors. Your receiver’s roofing filter limits the signals reaching later stages and may use crystal resonators rather than an LC tank. The notch filter that reduces an annoying carrier could use an analog circuit or digital processing. Your antenna tuner is a matching network that changes the impedance your transmitter sees.
 
 When you turn your radio’s filter knob from "wide" to "narrow," you’re choosing a smaller frequency range. A 500 Hz CW filter can reject noise and interference outside that range while passing the signal you want. Even your antenna acts as a resonant filter, naturally favoring the frequencies it's cut for.
 

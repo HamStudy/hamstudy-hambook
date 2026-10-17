@@ -34,14 +34,16 @@ One common use for a transformer is to convert between different AC voltages. Fo
 
 ##### Understanding Turns Ratio
 
+**NOTE:** The symbols can make these formulas look more complicated than they are. Divide the secondary turns by the primary turns to get the turns ratio. Multiply the primary voltage by that ratio to get the secondary voltage. Twice as many secondary turns means twice the voltage. If the symbols feel unfamiliar, start with the worked examples below.
+
 For an ideal transformer, the turns ratio determines how voltage, current, and impedance change:
 
 ![A transformer links two separate circuits through a magnetic core. An AC source drives the primary winding on the left; the secondary winding on the right supplies a load. There is no direct wire connection between the windings. The secondary has twice as many turns as the primary. For this ideal transformer, that gives twice the primary voltage across the secondary and half the primary current through its load, with the same power transferred. Arrows identify current in each circuit.](../../../images/s1-4-transformer-ratios.svg)
 {.img-centered caption="Twice as many secondary turns doubles voltage and halves load current for the same ideal transferred power."}
 
-* **Turns Ratio**: A comparison of the turns in the two windings. In these formulas, $n$ means secondary turns divided by primary turns ($N_s/N_p$)
+* **Turns Ratio**: A comparison of the turns in the two windings. In these formulas, $p$ is primary, $s$ is secondary, and $n$ means secondary turns divided by primary turns ($N_s/N_p$)
   
-  $$n = \frac{N_\text{secondary}}{N_\text{primary}}$$
+  $$n = \frac{N_\text{secondary}}{N_\text{primary}} = \frac{N_s}{N_p}$$
 
 * **Voltage Transformation**: The voltage ratio equals the turns ratio (see above)
   

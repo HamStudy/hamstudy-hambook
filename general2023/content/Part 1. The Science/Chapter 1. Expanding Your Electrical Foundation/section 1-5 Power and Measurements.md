@@ -51,7 +51,7 @@ The answer is Root Mean Square (RMS) values. RMS is a special mathematical metho
 
 Why use RMS instead of averaging the absolute values—the voltage readings without their minus signs? It's because of how power works in resistive circuits. Power is proportional to voltage squared ($P = \frac{E^2}{R}$), not to voltage directly. The heating effect in a resistor—which is what actually matters in power calculations—depends on this squared relationship.
 
-If we used the average of absolute values, our power calculations would be incorrect. RMS accounts for this squared relationship between voltage and power by:
+If we used the average of absolute values, our power calculations would be incorrect. **Though not needed for the exam**, it's useful to know that RMS accounts for this squared relationship between voltage and power by:
 1. Taking the square of each instantaneous value (the "Square" in RMS)
 2. Finding the average (Mean) of those squared values
 3. Taking the square Root of that average
@@ -63,6 +63,7 @@ $E_{RMS} = E_{peak} \cdot \frac{1}{\sqrt{2}} \approx 0.707 \cdot E_{peak}$
 For a resistor, using RMS voltage in $P = E^2/R$ gives the average power dissipated as heat. When you hear that household electricity is 120 volts, that's the RMS value, not the roughly 170-volt peak of its sine wave.
 
 For example:
+
 - If you have 17 volts peak AC, the RMS voltage is: {{< link id="G5B09" >}} $E_{RMS} = \frac{17V}{1.414} \approx 12V$
 - If you have 120 volts RMS AC, the peak-to-peak voltage is: {{< link id="G5B08" >}} $E_{p-p} = 120V \times 2.828 = 339.4V$
 
@@ -149,7 +150,7 @@ That is why a power increase at the transmitter does not necessarily produce the
 
 #### Exam Questions
 
-Below is a summary of the power calculation questions you might encounter on your General class exam. Since there will be at most one question on the exam from **G5B**, you will never see more than one of these questions on any given exam.
+At most one of the questions in this table can appear on your exam.
 
 | **Question**                                             | **Equation**                    | **Answer** |
 |----------------------------------------------------------|--------------------------------|------------|
@@ -166,7 +167,7 @@ Below is a summary of the power calculation questions you might encounter on you
 | **G5B13**: PEP of unmodulated carrier with 1060W average | PEP = Average Power (for unmodulated carrier) | $PEP = 1060W$ |
 | **G5B14**: PEP with 500V peak-to-peak across 50 ohms    | $PEP = \frac{E_{p-p}^2}{8R}$  | $PEP = 625W$ |
 
-While it is ideal to learn the equations and relationships, there are few enough of these that you can get away with memorizing them if you need to. Just remember to come back to this chapter when you need to understand it better!
+You can learn the calculation methods or memorize these answers for now. Return to the worked examples when you need to apply the math.
 
 #### Moving Forward
 

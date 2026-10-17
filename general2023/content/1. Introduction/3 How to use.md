@@ -52,6 +52,12 @@ If your primary goal is passing the exam quickly:
 3.  Review the questions and answers in the book, then test yourself in HamStudy. Read the related explanations for concepts you find difficult or interesting.
 4.  Track your progress using the app's analytics features to target weak areas.
 
+### Working Through the Math
+
+Some math helps answer pool questions; some explains why a concept works. Brief bold notes mark extra math you can skim while keeping the concept in mind. If a calculation feels intimidating, keep reading and return to it later.
+
+You can also memorize an exam answer or set a difficult calculation aside while studying other topics. You need 26 correct answers out of 35 to pass. Only one question comes from each pool group, so several related calculations may account for just one question on your exam.
+
 ### Final Exam Preparation
 
 Once you've covered the material, use this study cycle:

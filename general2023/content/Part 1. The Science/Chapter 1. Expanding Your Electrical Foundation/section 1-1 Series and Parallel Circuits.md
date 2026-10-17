@@ -46,7 +46,7 @@ With a parallel circuit it's more like your home's plumbing, where the main line
 
 Now that we understand current and voltage behavior, let's see how components combine. We'll cover this in more detail below, but here is the short version:
 
-{{< captioned caption="Table 1 – Summary of governing equations for series and parallel circuits" >}}
+{{< captioned caption="Table 1 – Summary of governing equations for series and parallel circuits. At most one question about these combinations can appear on your exam." >}}
 | Component | Series Connection | Parallel Connection |
 |-----------|------------------|---------------------|
 | Resistors | Direct Sum: <br />$$R_{total} = R_1 + R_2 + R_3 + \ldots$$ | Reciprocal Method:<br /> $$\frac{1}{R_{total}} = \frac{1}{R_1} + \frac{1}{R_2} + \frac{1}{R_3} + \ldots$$|
