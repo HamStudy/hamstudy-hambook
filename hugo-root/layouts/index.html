@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+{{- /* hambook.org home page: a standalone layout (no Hugo Book sidebar). Content lives in content/_index.md front matter. */ -}}
+{{- $p := .Params -}}
+<html lang="{{ default "en" .Site.Language.LanguageCode }}" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="{{ .Description }}">
+  <meta name="keywords" content="{{ delimit (default (slice) $p.keywords) ", " }}">
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#1a212a">
+  <meta name="color-scheme" content="light dark">
+  {{- template "_internal/opengraph.html" . }}
+  <title>HamBook: {{ .Title }}</title>
+  {{ partial "docs/html-head-favicon" . }}
+  {{- $manifest := resources.Get "manifest.json" | resources.ExecuteAsTemplate "manifest.json" . }}
+  <link rel="manifest" href="{{ $manifest.RelPermalink }}">
+  <link rel="canonical" href="{{ .Permalink }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rosario:wght@400;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  {{- $css := resources.Get "home.css" | resources.Minify | resources.Fingerprint }}
+  {{ partial "family/css.html" . }}
+  <link rel="stylesheet" href="{{ $css.RelPermalink }}">
+  {{- if .Site.Params.BookServiceWorker }}
+  {{- $swJS := resources.Get "sw-register.js" | resources.ExecuteAsTemplate "sw.js" . | resources.Minify | resources.Fingerprint }}
+  <script defer src="{{ $swJS.RelPermalink }}"></script>
+  {{- end }}
+  {{- with .OutputFormats.Get "rss" }}
+  {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+  {{- end }}
+  <script defer data-domain="hambook.org" src="https://analytics.signalstuff.com/js/script.file-downloads.hash.outbound-links.pageview-props.tagged-events.js"></script>
+  <script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
+</head>
+<body>
+{{ partial "family/header.html" (dict "page" .) }}
+
+<main id="top">
+{{- with $p.hero }}
+<section class="hero">
+  <div class="wrap">
+    <div>
+      <div class="eyebrow">{{ .eyebrow }}</div>
+      <h1 style="margin-top:14px">{{ .title | safeHTML }}</h1>
+      <p class="lede">{{ .lede }}</p>
+      <div class="ctas">
+        <a class="btn btn--primary" href="{{ .primary.url | relURL }}">{{ .primary.text }}</a>
+        <a class="btn btn--ghost" href="{{ .secondary.url }}">{{ .secondary.text }}</a>
+      </div>
+      <p class="hero-note">{{ .note }}</p>
+    </div>
+    <div class="fan" aria-label="The HamBooks">
+      {{- range $p.books }}
+      <a href="#{{ .id }}" title="{{ .title }} HamBook"><img src="{{ .cover | relURL }}" alt="{{ .cover_alt }}" width="400" height="640"></a>
+      {{- end }}
+    </div>
+  </div>
+</section>
+{{- end }}
+
+{{- with $p.journey }}
+<section class="journey">
+  <div class="wrap">
+    <div>
+      <div class="eyebrow">{{ .eyebrow }}</div>
+      <h2>{{ .title }}</h2>
+      <p>{{ .text }}</p>
+    </div>
+    <div class="path"><img src="{{ .image | relURL }}" alt="License journey path from Technician to General to Extra" loading="lazy"></div>
+  </div>
+</section>
+{{- end }}
+
+<section class="books">
+  <div class="wrap">
+    <h2>{{ $p.books_title }}</h2>
+    <p>{{ $p.books_intro }}</p>
+    {{- range $p.books }}
+    <article class="book" id="{{ .id }}">
+      <a class="cover" href="{{ .url | relURL }}"><img src="{{ .cover | relURL }}" alt="{{ .title }} HamBook cover" loading="lazy" width="400" height="640"></a>
+      <div class="book-main">
+        <div>
+          <span class="status status--{{ .status }}">{{ .badge }}</span>
+          <h3>{{ .title }}</h3>
+          <div class="pool">{{ .pool }}</div>
+          <p class="tag">{{ .tagline }}</p>
+          <ul class="points">
+            {{- range .points }}
+            <li>{{ . | safeHTML }}</li>
+            {{- end }}
+          </ul>
+          <a class="btn btn--{{ default "primary" .read_style }}" href="{{ .url | relURL }}">{{ .read }}</a>
+          {{- with .note }}
+          <p class="note">{{ . }}</p>
+          {{- end }}
+        </div>
+        {{- if .buy }}
+        <aside class="buy" id="{{ .id }}-buy" aria-label="Download and purchase the {{ .title }} HamBook">
+          <h4>Download and purchase</h4>
+          <p class="sub">{{ .buy.intro }}</p>
+          <dl>
+            {{- range .buy.groups }}
+            <dt class="group">{{ .label }}</dt><dd hidden></dd>
+            {{- range .items }}
+            <dt><a href="{{ .url }}">{{ .name }}</a>{{ with .note }}<small>{{ . }}</small>{{ end }}</dt><dd>{{ .price | safeHTML }}</dd>
+            {{- end }}
+            {{- end }}
+          </dl>
+          <p class="thanks">{{ .buy.thanks }}</p>
+        </aside>
+        {{- else }}
+        <aside class="buy buy--soon" aria-label="{{ .title }} HamBook purchase options">
+          <h4>Download and purchase</h4>
+          <p class="sub" style="margin-bottom:0">{{ .buy_soon }}</p>
+        </aside>
+        {{- end }}
+      </div>
+    </article>
+    {{- end }}
+  </div>
+</section>
+
+<section class="why">
+  <div class="wrap">
+    <h2>{{ $p.why_title }}</h2>
+    <div class="why-grid">
+      {{- range $p.why }}
+      <div class="why-item"><div class="ssf-tile"><img src="{{ .icon | relURL }}" alt="" width="50" height="50"></div><b>{{ .title }}</b><span>{{ .text }}</span></div>
+      {{- end }}
+    </div>
+  </div>
+</section>
+
+<section class="cc">
+  <div class="wrap">
+    {{- with $p.community }}
+    <div>
+      <h2>{{ .title }}</h2>
+      <p>{{ .text }}</p>
+      <div class="links">
+        <a class="btn btn--ghost" href="{{ .github }}">View or contribute on GitHub</a>
+      </div>
+      <p style="margin-top:14px">Email us at <a class="mail" href="mailto:{{ .email }}">{{ .email }}</a></p>
+    </div>
+    {{- end }}
+    {{- with $p.about }}
+    <div>
+      <h2>{{ .title }}</h2>
+      {{ .text | markdownify }}
+      <div class="signoff">73!</div>
+    </div>
+    {{- end }}
+  </div>
+</section>
+</main>
+
+{{ partial "family/footer.html" . }}
+</body>
+</html>

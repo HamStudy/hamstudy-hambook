@@ -1,0 +1,22 @@
+{{- /* SignalStuff Family shared header. Call with (dict "page" . "bookMenu" true) on book pages.
+       Links are site-root paths because each book is its own Hugo build under hambook.org/<book>/.
+       params.FamilyCurrent (technician | general | extra) underlines the current book. HamBook has no header action. */ -}}
+{{- $page := .page -}}
+{{- $current := $page.Site.Params.FamilyCurrent -}}
+<header class="ssf-header" data-product="hambook">
+  {{- if .bookMenu }}
+  <label for="menu-control" class="ssf-header__btn"><img src="{{ "svg/menu.svg" | relURL }}" alt="Menu"></label>
+  {{- end }}
+  <a class="ssf-header__home" href="/" aria-label="HamBook home">
+    <img class="ssf-header__logo ssf-header__logo--light" src="/brand/hambook-lockup.svg" alt="HamBook by SignalStuff" width="150" height="40">
+    <img class="ssf-header__logo ssf-header__logo--dark" src="/brand/hambook-lockup-white.svg" alt="HamBook by SignalStuff" width="150" height="40">
+  </a>
+  <nav aria-label="Books">
+    <a href="/tech2026/"{{ if eq $current "technician" }} aria-current="page"{{ end }}>Technician</a>
+    <a href="/general2023/"{{ if eq $current "general" }} aria-current="page"{{ end }}>General</a>
+    <a href="/extra2024/"{{ if eq $current "extra" }} aria-current="page"{{ end }}>Extra</a>
+  </nav>
+  {{- if and .bookMenu (default true (default $page.Site.Params.BookToC $page.Params.BookToC)) }}
+  <label for="toc-control" class="ssf-header__btn"><img src="{{ "svg/toc.svg" | relURL }}" alt="Table of Contents"></label>
+  {{- end }}
+</header>

@@ -11,6 +11,9 @@ module:
     - path: hambook.org/hambook/common
 
 params:
+  # SignalStuff Family header and footer (web only; see hugo-common/layouts/_default/baseof.html)
+  FamilyChrome: true
+  FamilyCurrent: extra
   printStylesheet: "css/print.css"
   keywords: "Amateur Radio, Ham Radio, Amateur Extra Class, HamBook, Study Manual"
   description: "Prepare for the 2024–2028 US Amateur Extra Class exam. Study circuits, signals, antennas, propagation, station techniques, operating procedures, and FCC rules."
