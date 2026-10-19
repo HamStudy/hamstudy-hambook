@@ -183,7 +183,7 @@ Readability scores flag passages to inspect, not words to delete. Check whether 
 
 Use **HamBook** for the series, not “license manual” or “handbook,” and preserve the approved full title. Write **General Class License**, not “General License,” and use unambiguous class names for Technician and Amateur Extra. Use community terms such as **Volunteer Examiners** or **Administering Exams**, not “Volunteer Examining.”
 
-Match pool terminology and spelling where recognition matters: use **alpha** if the pool does. An alternate spelling may belong in an appendix, not repeated qualifications. Keep distinctions such as PEP/ERP/EIRP and allocation/emission permission/band plan consistent after teaching them.
+Use the pool's hierarchy: **subelement** (such as E5), **section** (E5B), and **question** (E5B01). Distinguish pool sections from book sections when needed. Match pool terminology and spelling where recognition matters: use **alpha** if the pool does. An alternate spelling may belong in an appendix, not repeated qualifications. Keep distinctions such as PEP/ERP/EIRP and allocation/emission permission/band plan consistent after teaching them.
 
 The author's diode term is **forward threshold voltage**, not “turn-on voltage.” Explain the sharp current increase without implying linear behavior, a perfect switch, or unlimited current.
 
@@ -348,7 +348,9 @@ Use ordinary Markdown with blank lines around blocks. Bold important new terms s
 
 A calculation should help readers predict, compare, or interpret something. Explain the quantities, units, needed steps, and meaning of the result. Include required methods and useful worked examples; neither skip difficult exam math nor reteach familiar arithmetic mechanically.
 
-When the pool tests only a relationship, a conceptual explanation may suffice. When it requires a numerical result, teach the method. In the Extra exam introduction, explain the verified maximum number of math-related questions a candidate could see and what the count includes. Derive it from selection rules and relevant subgroups, not the total number of numerical questions in the pool. Give other books the expectations appropriate to their pools; do not describe required math as safely skippable.
+When the pool tests only a relationship, a conceptual explanation may suffice. When it requires a numerical result, teach the method. In the Extra exam introduction, explain the verified maximum number of math-related questions a candidate could see and what the count includes. Derive it from selection rules and relevant pool sections, not the total number of numerical questions in the pool. Give other books the expectations appropriate to their pools; do not describe required math as safely skippable.
+
+Readers should be able to tell which mathematics they need for the exam. When retaining a calculation or derivation solely to explain a concept, prefer a brief aside woven into the explanation that also makes its teaching purpose clear—for example, “Although the exam doesn’t require this calculation, it helps explain why …”. Verify that distinction against the whole pool and later applications: a question may require recognizing a formula, relationship, or calculation method without calculating a number. Limit the aside to the extra calculation or derivation; the underlying concept may still be tested. Vary the phrasing, and let one aside cover a related group of examples without repeating it for every equation.
 
 Use proper KaTeX-compatible notation, including subscripts and units:
 
