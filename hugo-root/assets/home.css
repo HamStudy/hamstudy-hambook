@@ -26,6 +26,8 @@ body{background:var(--bg);color:var(--fg);font:16px/1.6 var(--body)}
 a{color:var(--red-ink)}
 :focus-visible{outline:3px solid var(--hs);outline-offset:2px;border-radius:4px}
 .wrap{max-width:1120px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+/* Line the family header's logo up with the .wrap column: 1120px max, 16px gutters. */
+.ssf-header{padding-left:max(16px,calc(50% - 544px),env(safe-area-inset-left,0px));padding-right:max(16px,calc(50% - 544px),env(safe-area-inset-right,0px))}
 h1,h2,h3{font-family:var(--display);text-wrap:balance;margin:0;line-height:1.15}
 .eyebrow{font:700 12px/1 var(--body);letter-spacing:.1em;text-transform:uppercase;color:var(--red-ink)}
 

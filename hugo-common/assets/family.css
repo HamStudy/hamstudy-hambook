@@ -24,12 +24,12 @@
 
 /* ---- header ---- */
 .ssf-header {
-  display: flex; align-items: center; gap: 32px; height: 64px; box-sizing: border-box;
+  display: flex; align-items: center; gap: 32px; height: 80px; box-sizing: border-box;
   padding-left: max(32px, env(safe-area-inset-left, 0px)); padding-right: max(32px, env(safe-area-inset-right, 0px));
   background: var(--ssf-surface); border-bottom: 1px solid var(--ssf-line); font-family: inherit;
 }
 .ssf-header__home { display: block; flex: none; }
-.ssf-header__logo { height: 40px; width: auto; display: block; }
+.ssf-header__logo { height: 48px; width: auto; display: block; }
 .ssf-header__logo--dark { display: none; }
 @media (prefers-color-scheme: dark) {
   .ssf-header__logo--light { display: none; }
@@ -38,10 +38,12 @@
 .ssf-header nav { display: flex; gap: 24px; flex: 1; align-self: stretch; min-width: 0; }
 .ssf-header nav a {
   display: flex; align-items: center; font-size: 15px; line-height: 20px; font-weight: 600;
-  color: var(--ssf-ink); text-decoration: none; border-block: 3px solid transparent; white-space: nowrap;
+  color: var(--ssf-ink); text-decoration: none; white-space: nowrap;
 }
-.ssf-header nav a:hover { border-bottom-color: var(--ssf-line); }
-.ssf-header nav a[aria-current="page"] { border-bottom-color: var(--ssf-hambook); }
+/* The underline sits 8px under the text, not at the bar's edge, so it stays close to the label at any bar height. */
+.ssf-header nav a:hover,
+.ssf-header nav a[aria-current="page"] { text-decoration: underline 3px var(--ssf-line); text-underline-offset: 8px; text-decoration-skip-ink: none; }
+.ssf-header nav a[aria-current="page"] { text-decoration-color: var(--ssf-hambook); }
 
 /* Book pages on phones: the family header is the only bar, so it carries the book's menu and contents buttons. */
 .ssf-header__btn { display: none; flex: none; cursor: pointer; padding: 6px; margin: -6px; line-height: 0; }
@@ -50,9 +52,13 @@
 #menu-control:focus-visible ~ .ssf-header label[for="menu-control"],
 #toc-control:focus-visible ~ .ssf-header label[for="toc-control"] { outline: 2px solid var(--ssf-hamstudy); border-radius: 4px; }
 
+/* Phones: the bar is 64px and the lockup 40px. */
+@media (max-width: 896px) {
+  .ssf-header { height: 64px; }
+  .ssf-header__logo { height: 40px; }
+}
 @media (max-width: 560px) {
   .ssf-header { gap: 16px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
-  .ssf-header__logo { height: 32px; }
   .ssf-header nav { gap: 14px; }
   .ssf-header nav a { font-size: 14px; }
 }
@@ -93,6 +99,11 @@
   .ssf-chrome .book-toc .book-toc-content {
     position: sticky; top: 0; bottom: auto; max-height: 100vh;
   }
+  /* Line the logo up with the book menu's content: the theme centers an 80rem container and pads the menu 1rem. */
+  .ssf-chrome .ssf-header {
+    padding-left: max(16px, calc(50% - 39rem), env(safe-area-inset-left, 0px));
+    padding-right: max(16px, calc(50% - 39rem), env(safe-area-inset-right, 0px));
+  }
 }
 /* Phones: show our buttons and hide the theme's own bar (its contents panel still opens under it). */
 @media screen and (max-width: 56rem) {
@@ -112,11 +123,13 @@
 .ssf-drawer-close { display: none; }
 @media screen and (max-width: 56rem) {
   .ssf-chrome .ssf-drawer-close {
-    display: flex; align-items: center; gap: 10px; height: 64px; box-sizing: border-box;
+    display: flex; align-items: center; gap: 10px; height: 80px; box-sizing: border-box;
     margin: -1rem -1rem 1rem; padding: 0 1rem; border-bottom: 1px solid var(--ssf-line);
     font-size: 15px; font-weight: 600; color: var(--ssf-ink); cursor: pointer;
   }
   .ssf-chrome .ssf-drawer-close svg { flex: none; }
+  /* Same height as the header, so the close button lands where the menu button was. */
+  @media (max-width: 896px) { .ssf-chrome .ssf-drawer-close { height: 64px; } }
   /* The theme outlines every menu label while the checkbox has focus, which also shows after a tap; keep it for keyboards only. */
   #menu-control:focus ~ main label.ssf-drawer-close[for="menu-control"] { outline: none; }
   #menu-control:focus-visible ~ main label.ssf-drawer-close[for="menu-control"] { outline: 2px solid var(--ssf-hamstudy); outline-offset: -4px; }
