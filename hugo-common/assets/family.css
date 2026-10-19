@@ -99,6 +99,11 @@
   .ssf-chrome .book-toc .book-toc-content {
     position: sticky; top: 0; bottom: auto; max-height: 100vh;
   }
+  /* Line the logo up with the book menu's content: the theme centers an 80rem container and pads the menu 1rem. */
+  .ssf-chrome .ssf-header {
+    padding-left: max(16px, calc(50% - 39rem), env(safe-area-inset-left, 0px));
+    padding-right: max(16px, calc(50% - 39rem), env(safe-area-inset-right, 0px));
+  }
 }
 /* Phones: show our buttons and hide the theme's own bar (its contents panel still opens under it). */
 @media screen and (max-width: 56rem) {
