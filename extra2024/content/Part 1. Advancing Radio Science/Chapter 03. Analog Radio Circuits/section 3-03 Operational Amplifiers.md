@@ -39,11 +39,7 @@ To set the gain with resistors, Figure E7-3 returns part of the output to the in
 
 If the inverting-input voltage rises above zero, the op-amp drives its output negative. Through $R_F$, that pulls the inverting input back toward zero. While the amplifier operates linearly, negative feedback holds that input nearly at the grounded input's voltage. We call this a **virtual ground**: the voltage is near ground, but it is not a physical ground connection that can absorb arbitrary current.
 
-Very little current enters the op-amp input, so current arriving through $R_1$ must leave through $R_F$. One end of $R_1$ is at the input voltage and the other is near zero, so its current is approximately $E_{\mathrm{in}}/R_1$. For a positive input, that same current continues through $R_F$ from the virtual-ground node toward the output. That puts the output below zero by the current multiplied by $R_F$:
-
-$$E_{\mathrm{out}}=-\frac{E_{\mathrm{in}}}{R_1}\times R_F.$$
-
-Dividing both sides by $E_{\mathrm{in}}$ gives the voltage gain:
+Very little current enters the op-amp input, so current arriving through $R_1$ must leave through $R_F$. With the same current flowing through both, making $R_F$ ten times $R_1$ produces ten times the voltage drop. The output therefore moves ten times as far in the opposite direction from the input, keeping the junction near zero. The resistor ratio sets the voltage gain, $A_v$:
 
 $$A_v=\frac{E_{\mathrm{out}}}{E_{\mathrm{in}}}=-\frac{R_F}{R_1}.$$
 

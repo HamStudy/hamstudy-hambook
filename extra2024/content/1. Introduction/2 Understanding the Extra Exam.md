@@ -10,17 +10,17 @@ The questions come from a public pool maintained by the National Conference of V
 
 ## How the Questions Fit Together
 
-The pool groups questions by subject, then divides those subjects into smaller **subgroups**. Your exam draws one question from each of the 50 subgroups. That gives every exam a similar balance of topics.
+The pool has **10 subelements**, each divided into several **sections**. Your exam draws one question from each of the pool's 50 sections. That gives every exam a similar balance of topics.
 
-Each question has an ID, such as **E5B01**. The letter E identifies the Extra pool; E5 is a subject group, E5B is a subgroup, and 01 identifies the question within it. The IDs let you find a question in HamStudy or connect it to an explanation here.
+Each question has an ID, such as **E5B01**. The letter E identifies the Extra pool; E5 is a subelement, E5B is a section, and 01 identifies the question within it. The IDs let you find a question in HamStudy or connect it to an explanation here.
 
-Our chapters follow a teaching order rather than the pool's order. You may therefore see questions from several subgroups in one book section. The question reviews and HamStudy links keep those connections together for you.
+Our chapters follow a teaching order rather than the pool's order. You may therefore see questions from several pool sections in one book section. The question reviews and HamStudy links keep those connections together for you.
 
 ## Working Through the Math
 
-With this pool and the one-question-per-subgroup format, **at most 20 of the 50 questions can ask you to work out a numerical result**, including reading values from graphs. That is a ceiling, not a prediction of your exam. Other questions ask about formulas or relationships without requiring a calculation.
+For this pool, **at most six exam questions call for more involved calculations**. You can miss **13 questions** and still pass. The next section offers ways to keep studying even when the math slows you down.
 
-The calculations range from simple subtraction to several steps with a calculator. We begin with component behavior, then build from Ohm's law to the AC calculations in Chapter 2. Each worked example connects the numbers to what happens in a circuit. Later chapters introduce other methods where you need them.
+The calculations range from simple division to several steps with a calculator. We begin with component behavior, then build from Ohm's law to the AC calculations in Chapter 2. Each worked example connects the numbers to what happens in a circuit. Later chapters introduce other methods where you need them.
 
 Give a worked example a try before checking the result. If your answer is wildly different, look at the units first—a missing "micro" can move a decimal point a long way. Check your exam team's calculator policy early, then practice with the calculator you plan to use.
 

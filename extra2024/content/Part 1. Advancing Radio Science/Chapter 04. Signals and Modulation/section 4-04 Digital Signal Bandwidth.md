@@ -38,19 +38,21 @@ PSK31 faces the same problem with phase. An abrupt phase reversal spreads a wide
 
 #### A Mode's Bandwidth
 
-A rule of thumb for normally shaped CW multiplies the speed in words per minute by four. One WPM is about 0.8 baud, and good keying needs about five times its baud rate. At 13 WPM, that gives $B\approx4\times13=52$ Hz.
+A rule of thumb for normally shaped CW multiplies the speed in words per minute by four. At 13 WPM, that gives $B\approx4\times13=52$ Hz.
 
-FT8 ends up about as narrow. It sends one of eight tones at a time, spaced 6.25 Hz apart, each lasting 0.16 second. The tone centers span seven gaps, $7\times6.25=43.75$ Hz. A tone that brief is itself about 6.25 Hz wide, half of it beyond each end tone: $43.75+6.25=50$ Hz. Smooth tone changes keep it from spreading farther.
+FT8 ends up about as narrow. It sends one of eight closely spaced tones at a time, with smooth changes between them to keep the signal from spreading farther.
 
 > **Key Information:**
 > - The approximate bandwidth of a 13-WPM International Morse Code transmission is 52 Hz. {{< link id="E8C05" >}}
 > - The bandwidth of an FT8 signal is 50 Hz. {{< link id="E8C06" >}}
 
-A faster frequency-shift-keyed signal, such as 9,600-baud ASCII sent by FM, needs much more room. Here **shift** means the full separation between the two transmitted frequencies, twice the deviation. A common necessary-bandwidth estimate is
+A faster frequency-shift-keyed signal, such as 9,600-baud ASCII sent by FM, needs much more room. Here **shift** means the full separation between the two transmitted frequencies, twice the deviation.
+
+A common necessary-bandwidth estimate allows room for both the tone separation and the keying sidebands: multiply the shift in hertz by 1.2, then add the symbol rate in baud. The result is in hertz. In symbols,
 
 $$B_n=R_s+1.2S,$$
 
-where $R_s$ is the symbol rate in baud and $S$ is the shift in hertz. The $1.2S$ term covers the tones' separation, and $R_s$ the keying sidebands around them. For a 4,800 Hz shift,
+where $R_s$ is the symbol rate and $S$ is the shift. For a 4,800 Hz shift at 9,600 baud,
 
 $$\begin{aligned}
 B_n&=9{,}600+1.2(4{,}800)\\

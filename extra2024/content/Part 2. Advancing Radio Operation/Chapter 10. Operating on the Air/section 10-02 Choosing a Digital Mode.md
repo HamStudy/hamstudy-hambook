@@ -45,7 +45,7 @@ Speed costs bandwidth. The table compares four modes by bandwidth and by **throu
 | MFSK16 | 316 Hz | about 31 bit/s |
 | PACTOR IV | 2.4 kHz | up to about 5,500 bit/s |
 
-The RTTY width follows from the formula in Section 4.4: $45+1.2\times170\approx250$ Hz. PACTOR IV fills most of an SSB channel and adapts its modulation, sending more data when conditions allow. FT8 trades the other way, giving up speed for the ability to decode through noise. On a busy FT8 waterfall, dozens of those narrow signals sit side by side in one SSB passband. As conditions worsen, error checks and repeated blocks lower the throughput of ARQ modes such as PACTOR.
+PACTOR IV fills most of an SSB channel and adapts its modulation, sending more data when conditions allow. FT8 trades the other way, giving up speed for the ability to decode through noise. On a busy FT8 waterfall, dozens of those narrow signals sit side by side in one SSB passband. As conditions worsen, error checks and repeated blocks lower the throughput of ARQ modes such as PACTOR.
 
 > **Key Information:**
 > - Of the four modes in the table, PACTOR IV has the highest data throughput under clear communication conditions. {{< link id="E2E13" >}}

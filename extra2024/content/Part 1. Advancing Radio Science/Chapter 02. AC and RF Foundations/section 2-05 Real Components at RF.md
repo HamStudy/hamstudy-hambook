@@ -21,7 +21,7 @@ Capacitors have metal in their current path too. In a film capacitor, a thin pla
 
 #### A Connection Is a Component
 
-Long leads kept DIP packages out of UHF circuits in the previous chapter. Even a straight lead has inductance, and since $X_L=2\pi fL$, a lead that contributes little reactance at audio frequencies can become troublesome at VHF.
+Long leads kept DIP packages out of UHF circuits in the previous chapter. Even a straight lead has inductance. Its reactance rises with frequency, so a lead that contributes little reactance at audio frequencies can become troublesome at VHF.
 
 Travel time is the other cost. At microwave frequencies, a connection can occupy a noticeable fraction of a wavelength. The signal takes time to travel along it, so its phase at one end differs from its phase at the other. Physical layout becomes part of the circuit.
 

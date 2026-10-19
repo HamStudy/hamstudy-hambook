@@ -55,13 +55,9 @@ With $X_L=75\ \Omega$ and $X_C=25\ \Omega$, net reactance is +50 Ω. The resista
 
 #### Turning the Ratio Over
 
-Every part of a series circuit carries the same current. Parallel branches share the same voltage instead, and their currents add. Working with current per volt makes those branches easier to combine: we can add their admittances. Impedance is voltage over current, $Z=E/I$. **Admittance** flips that ratio to current over voltage, $Y=I/E$, and is measured in siemens, abbreviated S. For a 50 Ω resistor, divide 1 by 50 to get 0.02 S. Apply 1 V and it passes 0.02 A.
+Every part of a series circuit carries the same current. Parallel branches share the same voltage instead, and their currents add. **Admittance** describes how much current flows for each volt applied, so we can combine parallel branches by adding their admittances. Impedance is voltage divided by current; admittance turns that division around. Its unit is the siemens, abbreviated S. For a 50 Ω resistor, divide 1 by 50 to get 0.02 S. Apply 1 V and it passes 0.02 A.
 
-Like impedance, admittance has two perpendicular components:
-
-$$Y=G+jB.$$
-
-The real part, $G$, is called **conductance**.
+Like impedance, admittance has two perpendicular components. Its real part, $G$, is **conductance**.
 
 > **Key Information:**
 > - Admittance is the inverse of impedance: $Y=1/Z$. {{< link id="E5B12" >}}

@@ -11,7 +11,7 @@ Inductive reactance rises with frequency while capacitive reactance falls, so an
 
 #### Two Resonant Arrangements
 
-At resonance, energy keeps moving between the electric and magnetic fields, but their opposite phase effects cancel at the input. In a series RLC circuit, the net reactance $X_L-X_C$ is zero, so the phase angle is $\tan^{-1}(0/R)=0^\circ$. With only resistance left to limit it, the current through all the components reaches its maximum for a fixed applied voltage.
+At resonance, energy keeps moving between the electric and magnetic fields. In a series RLC circuit, the equal inductive and capacitive reactances cancel, leaving only resistance at the input. Voltage and current are in phase, and the current through all the components reaches its maximum for a fixed applied voltage.
 
 That large current flows through the inductor and capacitor too. Suppose a 10 V source drives 1 A through 10 Ω of resistance. The resistor drops the full 10 V. If the inductor and capacitor each have 100 Ω of reactance, that same current produces **100 V across each one**.
 
@@ -55,8 +55,6 @@ Change the parts to 33 Ω, 50 µH, and 10 pF. The resistance again drops out. Th
 > - With $R=22\ \Omega$, $L=50\ \mu\mathrm{H}$, and $C=40\ \mathrm{pF}$, resonance is at 3.56 MHz. {{< link id="E5A02" >}}
 > - With $R=33\ \Omega$, $L=50\ \mu\mathrm{H}$, and $C=10\ \mathrm{pF}$, resonance is at 7.12 MHz. {{< link id="E5A10" >}}
 
-You may also see the formula written as $f_0=1/(2\pi\sqrt{LC})$. That version uses **henries and farads** and gives **hertz**.
-
 #### How Sharply It Resonates
 
 Two circuits can tune to the same frequency yet respond differently on either side of it. The **quality factor**, $Q$, measures that sharpness by comparing energy stored with energy lost. A high-Q circuit loses a smaller fraction of its stored energy each cycle. Like a well-made bell that keeps ringing after one strike, it hangs on to its energy.
@@ -80,7 +78,7 @@ Try a circuit tuned to 7.1 MHz with a Q of 150. First write the frequency as **7
 
 At 3.7 MHz with a Q of 118, use 3700 kHz: $3700/118\approx31.4\ \mathrm{kHz}$.
 
-The same formula runs backward: $Q=f_0/\mathrm{BW}$. Use the same frequency units for both numbers. A response centered on 7100 kHz with a bandwidth of 47.3 kHz gives $7100/47.3\approx150$ for Q.
+You can also find Q from a measured response by dividing the resonant frequency by its bandwidth, with both frequencies in the same units.
 
 A sharper response is useful when selecting one frequency, but it also narrows the range a circuit can cover without retuning. An impedance-matching network, such as the one in an antenna tuner, is a tuned circuit too, and its Q sets how far you can change frequency before you lose the match.
 

@@ -11,21 +11,17 @@ Put an antenna tuner beside the radio and the transmitter sees a 50-ohm load, bu
 
 #### A Quarter-Wave Transformer
 
-Suppose an antenna presents 100 ohms but the feed line is 50 ohms. A quarter-wave section of another line impedance can transform one into the other. For a lossless section and a resistive load $R_L$,
+Suppose an antenna presents 100 ohms but the feed line is 50 ohms. A quarter-wave section of another line impedance can transform one into the other. For a lossless section matching a resistive load, multiply the load resistance by the main line's impedance and take the square root. Here, the matching section's characteristic impedance, $Z_t$, is
 
-$$R_{\text{in}}=\frac{Z_t^2}{R_L},$$
+$$Z_t=\sqrt{50\times100}\approx70.7\ \Omega.$$
 
-where $Z_t$ is the matching section's characteristic impedance. To connect a 100-ohm antenna to 50-ohm line, solve for the matching section:
-
-$$Z_t=\sqrt{R_{\text{in}}R_L}=\sqrt{50\times100}\approx70.7\ \Omega.$$
-
-The length must be one-quarter electrical wavelength at the operating frequency, including velocity factor. This arrangement is called a **Q-section** or **quarter-wave transformer**. Standard coax doesn't come in 70.7 ohms, but 75-ohm cable, the kind behind many TVs, is common. A 75-ohm section transforms 100 ohms to $75^2/100=56.25\ \Omega$, an SWR of only about 1.1:1 on the 50-ohm line.
+The length must be one-quarter electrical wavelength at the operating frequency, including velocity factor. This arrangement is called a **Q-section** or **quarter-wave transformer**. Common 75-ohm coax, such as TV cable, is close enough to the calculated impedance to give a good match.
 
 > **Key Information:** A 75-ohm transmission line is suitable for constructing a quarter-wave Q-section to match a 100-ohm feed point impedance to a 50-ohm transmission line. {{< link id="E9E06" >}}
 
 #### Feeding Two Loads
 
-The same math lets one 50-ohm line feed two 50-ohm antennas. Connected directly in parallel, the two would present 25 ohms at their junction. A **Wilkinson divider** instead feeds each load through its own 70.7-ohm quarter-wave branch. Each branch turns its 50-ohm load into 100 ohms at the junction, where the two branches in parallel give 50 ohms. An isolation resistor reduces interaction between the output ports.
+The same impedance transformation lets one 50-ohm line feed two 50-ohm antennas. Connected directly in parallel, the two would present 25 ohms at their junction. A **Wilkinson divider** instead feeds each load through its own 70.7-ohm quarter-wave branch. Each branch turns its 50-ohm load into 100 ohms at the junction, where the two branches in parallel give 50 ohms. An isolation resistor reduces interaction between the output ports.
 
 > **Key Information:** A use for a Wilkinson divider is to divide power equally between two 50-ohm loads while maintaining 50-ohm input impedance. {{< link id="E9E08" >}}
 

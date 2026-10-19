@@ -37,7 +37,7 @@ The same printed chart can serve a 50-ohm coax system or a line with another imp
 
 > **Key Information:** A Smith chart is normalized by reassigning the prime center's impedance value. {{< link id="E9G08" >}}
 
-For a 50-ohm system, divide $100+j50\ \Omega$ by 50. The result is $2+j1$. Find the resistance-2 circle and the positive-reactance-1 arc; their upper-half intersection represents the load. Multiply the chart values by 50 to return to ohms. If the reference were 75 ohms, the same chart point would mean $150+j75\ \Omega$.
+A few numbers make the chart's scales easier to follow, although the exam doesn't require these calculations. For a 50-ohm system, divide $100+j50\ \Omega$ by 50. The result is $2+j1$. Find the resistance-2 circle and the positive-reactance-1 arc; their upper-half intersection represents the load. Multiply the chart values by 50 to return to ohms. If the reference were 75 ohms, the same chart point would mean $150+j75\ \Omega$.
 
 ![A Smith chart with a faint grid. The horizontal diameter is drawn dark and labeled resistance axis, with short at its left end and open at its right end. The dark outer circle is labeled reactance axis. A dot at the center is labeled prime center, 1. One resistance circle, labeled r equals 2, is drawn heavy in blue; it touches the right-hand end and crosses the axis to the right of center. One reactance arc, labeled x equals plus 1, is drawn heavy in orange; it runs from the top of the rim down to the right-hand end. Where the circle and arc cross, in the upper half, a dot is labeled 2 plus j1. Text at the upper left reads plus jX inductive, and at the lower left minus jX capacitive.](../../../images/s6-8-reading-guide.svg)
 {.img-centered .img-large .img-mobile-full caption="Reading the chart: r and x are normalized resistance and reactance. The resistance-2 circle and the reactance +1 arc cross at 2 + j1, which is 100 + j50 Ω on a 50-ohm chart."}
@@ -62,12 +62,8 @@ For a 100-ohm load on 50-ohm line, the normalized load is 2, on the horizontal a
 
 #### Placing a Matching Stub
 
-A stub connects in parallel, so the stub problem is easier with admittance, the reciprocal of impedance from [Section 2.3]({{% pageref "2.3" %}}). Parallel admittances add directly. Half a turn inverts a normalized impedance, as 2 became 0.5 above, so the point directly across the center from any impedance gives its normalized admittance. Working with those opposite points, move along the line to a junction where the real part is 1. A stub there can cancel the remaining imaginary part.
+A stub's position and length work together to complete the match. Because it connects in parallel, its current adds to the current flowing toward the antenna. The chart helps find a junction where the current in phase with the voltage already has the value needed for a match. At that point, the stub needs to cancel only the part that leads or lags the voltage. Its length sets the reactive current it supplies for that job.
 
 > **Key Information:** A common use for a Smith chart is to determine the length and position of an impedance matching stub. {{< link id="E9G05" >}}
-
-Suppose the main line's admittance at the chosen junction is $0.02+j0.02$ siemens, or $1+j1$ normalized to 50 ohms. Its real part is already right: once the stub cancels the $+j0.02$ susceptance, 0.02 siemens alone is $1/0.02=50\ \Omega$.
-
-A shorted one-eighth-wave stub of 50-ohm line presents $+j50\ \Omega$, so its admittance is $1/(j50)=-j0.02$ siemens, the same sign flip as in Section 2.3. Connected in parallel, the imaginary parts cancel and leave a 50-ohm resistive input.
 
 With the electrical lengths in hand, find each one's free-space length and multiply it by the line's velocity factor. The result is the length of cable to cut. Measure twice; coax doesn't grow back.

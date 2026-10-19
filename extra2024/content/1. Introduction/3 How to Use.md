@@ -29,6 +29,12 @@ If your main goal is to pass the exam quickly:
 
 You can get your license upgrade first and learn more through operating afterward. Passing the exam doesn't require becoming an expert in every branch of amateur radio.
 
+## Don't Let Math Stop You
+
+More involved math problems appear in only **six pool sections**, so your exam can include **at most six**. With random question selection, **three or fewer appear about 96% of the time**. You can miss **13 of the 50 questions** and still pass.
+
+Memorize answers in HamStudy or leave difficult calculations for later; use practice exams to check your progress. The formulas are here to help you understand, and you can return to them after earning your upgrade. These figures apply to this pool; find the latest book at [hambook.org](https://hambook.org).
+
 ## The Deep Learning Approach
 
 If you prefer to understand each topic before moving on:

@@ -46,17 +46,9 @@ A line's build also sets its characteristic impedance. Conductor size, spacing, 
 
 Predicting the impedance at each point takes more than SWR. It takes the size and the phase of the reflected wave. A load equal to the line's characteristic impedance, $Z_0$, produces no reflection.
 
-The **reflection coefficient**, $\Gamma$ (capital gamma), gives the reflected voltage wave relative to the incident voltage wave, including phase. For a load impedance $Z_L$,
-
-$$\Gamma=\frac{Z_L-Z_0}{Z_L+Z_0}.$$
+The **reflection coefficient**, $\Gamma$ (capital gamma), gives the reflected voltage wave relative to the incident voltage wave, including phase. SWR depends only on the magnitude of that ratio: a larger reflected fraction means a higher SWR. Loads with the same SWR can still give the reflected wave different phases.
 
 > **Key Information:** Reflection coefficient is the parameter that describes the interaction of a load and transmission line. {{< link id="E9E07" >}}
-
-For a 100-ohm resistive load on 50-ohm line, $\Gamma=(100-50)/(100+50)=1/3$. The reflected power fraction is $|\Gamma|^2=1/9$, about 11%. SWR follows from the size of $\Gamma$:
-
-$$SWR=\frac{1+|\Gamma|}{1-|\Gamma|}=2:1.$$
-
-That matches the shortcut for a resistive load: $100\ \Omega/50\ \Omega=2$.
 
 #### Impedance Along a Line
 
@@ -72,10 +64,6 @@ To use a line as a matching component, follow how the reflected wave's phase cha
 
 Matching may also call for a particular reactance rather than an open or a short. A short section of line with a shorted or open end can supply one; used this way, it is called a **stub**. When a stub is shorter than a quarter wave, a shorted end keeps current high and voltage low over most of its length, so the stub stores mostly magnetic energy. An open end does the reverse, so an open stub stores mostly electric energy.
 
-For electrical length $\theta$ in degrees, a lossless shorted stub has $X=Z_0\tan\theta$; an open stub has $X=-Z_0/\tan\theta$. At one-eighth wavelength, $\theta=45^\circ$ and $\tan45^\circ=1$.
-
 > **Key Information:**
 > - A 1/8-wavelength transmission line shorted at the far end presents an inductive reactance to an RF generator. {{< link id="E9F10" >}}
 > - A 1/8-wavelength transmission line open at the far end presents a capacitive reactance to an RF generator. {{< link id="E9F11" >}}
-
-An eighth-wave stub of 50-ohm line therefore supplies about $+j50\ \Omega$ when shorted, or $-j50\ \Omega$ when open.

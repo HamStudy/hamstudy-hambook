@@ -45,11 +45,9 @@ Resistance, reactance, and the arrow form a right triangle. The arrow is the dia
 ![An impedance triangle starts at the origin, runs 300 ohms to the right along the resistance axis, and rises 400 ohms along the positive reactance direction. The diagonal from the origin to 300 plus j400 has magnitude 500 ohms. The phase angle phi lies between that diagonal and the positive resistance axis.](../../../images/s2-2-impedance-triangle.svg)
 {.img-centered .img-med .img-mobile-full caption="Resistance and reactance make the two legs; impedance magnitude is the diagonal. The angle φ (phi) is the phase angle."}
 
-The Pythagorean theorem finds that diagonal: square each of the two sides, add the results, then take the square root. The formula is $|Z|=\sqrt{R^2+X^2}$, where the vertical bars mean “magnitude.” For $Z=300+j400\ \Omega$:
+Although the exam doesn't require calculating this magnitude, the Pythagorean theorem shows how the two sides combine: square them, add, and take the square root. The bars around $Z$ mean “magnitude.”
 
-$$|Z|=\sqrt{300^2+400^2}=\sqrt{250{,}000}=500\ \Omega.$$
-
-The previous section's 100 Ω resistor and 100 Ω inductive reactance work the same way: $|Z|=\sqrt{100^2+100^2}\approx141\ \Omega$. Driving 1 A through that pair takes about 141 V, not 200 V.
+$$|Z|=\sqrt{300^2+400^2}=500\ \Omega.$$
 
 Changing $+j400$ to $-j400$ moves the point below the axis but leaves its distance from the origin unchanged. To tell an inductive load from a capacitive one, you also need the angle.
 

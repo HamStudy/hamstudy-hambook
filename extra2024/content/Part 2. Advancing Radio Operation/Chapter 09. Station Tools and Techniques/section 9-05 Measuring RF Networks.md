@@ -57,11 +57,11 @@ Now connect a filter between ports 1 and 2 and sweep frequency. The $S_{21}$ plo
 
 > **Key Information:** A two-port VNA can measure filter frequency response. {{< link id="E4B09" >}}
 
-For a suitable single-resonance response, you can also apply the $Q=f_0/\mathrm{BW}$ relationship from Section 2.4. A response centered on 10 MHz with 100 kHz between its half-power points, 3 dB below the peak, has $Q=10{,}000/100=100$, using kilohertz for both numbers.
+For a circuit with a single resonance, the width between its half-power points also lets you find its Q, using the method from Section 2.4.
 
 #### A Feed Line as a Test Object
 
-An antenna analyzer's sweep can reveal a cable's electrical length as well as its impedance. A shorted cable looks like an open circuit at the frequency where it is an electrical quarter wavelength long, as Section 6.3 showed. Suppose a shorted 10 m cable looks open at 4.95 MHz. A free-space quarter wave there is $300/(4\times4.95)\approx15.2$ m, so the velocity factor is $10/15.2\approx0.66$. With the velocity factor known instead, the same measurement gives the length. For a tuned circuit, look for the resonance behavior from Chapter 2: inductive and capacitive effects cancel, leaving a resistive impedance.
+An antenna analyzer's sweep can reveal a cable's electrical length as well as its impedance. As Section 6.3 showed, a shorted cable first looks like an open circuit when it is an electrical quarter wavelength long. That relationship lets you find velocity factor when you know the physical length, or find physical length when you know velocity factor. For a tuned circuit, look for the resonance behavior from Chapter 2: inductive and capacitive effects cancel, leaving a resistive impedance.
 
 > **Key Information:** An antenna analyzer can measure velocity factor, cable length, and the resonant frequency of a tuned circuit. {{< link id="E4A11" >}}
 

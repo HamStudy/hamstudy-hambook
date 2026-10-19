@@ -9,7 +9,7 @@ status: generated1
 
 You probably know the diode best as a one-way valve for current, the part that lets a power supply's rectifier turn AC into DC. An LED is a diode too; it gives off light while it conducts.
 
-That sells the diode short. With the right design, a diode can hold a voltage steady, pull the audio out of a radio signal, tune a receiver, or steer a signal from one path to another. To get those jobs out of it, you need a look inside, starting with the two kinds of material a diode is made from.
+That sells the diode short. With the right design, a diode can do much more: hold a voltage steady, pull the audio out of a radio signal, tune a receiver, steer a signal from one path to another, and much more. To understand how that is possible, we need to better understand how a diode works.  We'll start by discussing the two kinds of material a diode is made from.
 
 #### Two Kinds of Semiconductor
 

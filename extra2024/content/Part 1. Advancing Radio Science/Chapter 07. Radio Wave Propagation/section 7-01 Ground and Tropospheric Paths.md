@@ -41,11 +41,11 @@ A duct traps only waves that are short compared with its thickness. Ducts over w
 
 On a microwave link, you can see the other dish from your roof and still get a weak signal. Energy reaches the receiver through a broad region around the line of sight. Where a detour adds less than half a wavelength to the trip, that energy arrives close enough in step to add together. That region is the **first Fresnel zone** (pronounced fray-NEL), and an obstruction inside it blocks part of the energy that adds up at the receiver.
 
-The zone bulges outward between the antennas and narrows to nothing at each end. With a longer wavelength, a detour can swing farther out before it adds half a wavelength, so the zone grows. At the same point on the same path, its radius is proportional to the square root of wavelength. Among the common microwave bands below 6 GHz, 5.8 GHz has the shortest wavelength.
+The zone bulges outward between the antennas and narrows to nothing at each end. With a longer wavelength, a detour can swing farther out before it adds half a wavelength, so the zone grows. For the same path, higher frequencies therefore have smaller Fresnel zones. Among the common microwave bands below 6 GHz, 5.8 GHz has the shortest wavelength.
 
 > **Key Information:** The 5.8 GHz band has the smallest first Fresnel zone. {{< link id="E9A08" >}}
 
-For example, on the same path a 5.8 GHz zone has about $\sqrt{2.4/5.8}\approx0.64$ times the radius of a 2.4 GHz zone. A ridge can therefore clear one zone while intruding into the other.
+A ridge can therefore intrude into the zone at 2.4 GHz while clearing it at 5.8 GHz, even though both links have an unobstructed sightline.
 
-![Two antennas have a clear horizontal line of sight above a ridge. A dashed oval outlines the larger first Fresnel zone at 2.4 GHz, and a solid oval outlines the smaller zone at 5.8 GHz. The ridge intrudes into the larger zone while remaining below the smaller one. At every position along the path, the smaller zone has about 64 percent of the larger zone’s radius. Vertical dimensions are exaggerated.](../../../images/s7-1-fresnel-clearance.svg)
+![Two antennas have a clear horizontal line of sight above a ridge. A dashed oval outlines the larger first Fresnel zone at 2.4 GHz, and a solid oval outlines the smaller zone at 5.8 GHz. The ridge intrudes into the larger zone while remaining below the smaller one. Vertical dimensions are exaggerated.](../../../images/s7-1-fresnel-clearance.svg)
 {.img-centered .img-xlarge caption="A clear sightline is only part of the clearance check. This sketch exaggerates the vertical scale to show a ridge intruding into the 2.4 GHz zone but not the 5.8 GHz zone."}
