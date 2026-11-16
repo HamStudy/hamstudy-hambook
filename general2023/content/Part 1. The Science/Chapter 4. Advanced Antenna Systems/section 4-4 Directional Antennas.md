@@ -14,7 +14,7 @@ Picture this: you're trying to work a rare DX station in Japan from your station
 The Yagi antenna transforms your station from a campfire to a searchlight. In the previous section, we saw how a dipole radiates most strongly broadside to its wire. A Yagi concentrates that energy further into a beam. This concentration of power is what lets modest stations work the world.
 
 ![A three-element Yagi has three parallel elements across one supporting boom. The driven element is in the middle, with a feed point at its center. The reflector behind it is longer; the director ahead is shorter. The forward beam points along the boom toward the director, perpendicular to the elements. The lengths are illustrative, not construction measurements.](../../../images/s4-4-yagi.svg)
-{.img-centered caption="Relative element lengths are shown; this is not a construction plan."}
+{.img-centered .mw-70 .img-mobile-full caption="Relative element lengths are shown; this is not a construction plan."}
 
 A Yagi has aluminum elements mounted on a horizontal support called a **boom**. It uses three types of elements working together:
 
@@ -57,7 +57,7 @@ The gamma match offers several advantages:
 * Lets you adjust the match by changing the gamma rod length and capacitor setting
 
 ![Two schematic feed arrangements show different ways to match a Yagi’s driven element. The hairpin, or beta, match uses an element split at its center. The feed-line wires connect to the two halves, and a short U-shaped conductor bridges the gap as a shorted stub. The gamma match uses a continuous driven element attached at its center to the boom. A gamma rod runs beside part of that element and connects to it away from the center. The coax feed connects through a series capacitor to the rod, with its other conductor connected at the element’s center.](../../../images/s4-4-yagi-matching-basics.svg)
-{.img-centered caption="A hairpin bridges a split feed point. A gamma match can use a continuous driven element attached to the boom. These are schematic views, not construction drawings."}
+{.img-centered .mw-70 .img-mobile-full caption="A hairpin bridges a split feed point. A gamma match can use a continuous driven element attached to the boom. These are schematic views, not construction drawings."}
 
 #### Building Better Beams: Performance Factors
 
@@ -126,7 +126,7 @@ Where a monoband Yagi is optimized for one band, a log periodic covers *a huge f
 Unlike the Yagi’s parasitic elements, LPDA elements connect to a feed structure. Check the model’s frequency range; a 14–30 MHz design does not cover all nine HF bands.
 
 ![Seven dipoles become shorter and closer together by a constant ratio toward one end of the array. Longer elements serve lower frequencies; shorter elements serve higher frequencies. Every dipole connects at its center to a common two-conductor feed system. Connections alternate between adjacent dipoles, shown by crossed feed lines with gaps at the crossings to indicate that the wires do not touch. The external feed enters at the short-element end. This schematic explains the arrangement; it is not a construction plan or a radiation-pattern plot.](../../../images/s4-4-log-periodic.svg)
-{.img-full .img-centered caption="Longer elements at left serve lower frequencies; shorter elements at right serve higher frequencies. The common feed connects every dipole, alternating the connections between neighbors, and enters at the short-element end."}
+{.img-centered .mw-60 .img-mobile-full caption="Longer elements at left serve lower frequencies; shorter elements at right serve higher frequencies. The common feed connects every dipole, alternating the connections between neighbors, and enters at the short-element end."}
 
 The tradeoff? An LPDA may provide less gain than a monoband Yagi of comparable size; the difference depends on the designs. But for many operators, the convenience of instant band changes without retuning or switching antennas is worth the modest gain sacrifice.
 
@@ -141,7 +141,7 @@ Beyond Yagis and log periodics, two specialized directional receiving antennas s
 Rotate the loop until a signal disappears, and you know the source is *perpendicular to the loop plane*. There are two opposite null directions, so that alone does not tell you which side contains the source.
 
 ![An electrically small loop has two opposite directions of minimum response, called nulls. Both are at right angles to the flat plane enclosed by the loop, pointing out through its two faces rather than along its edge. Rotating the loop to minimize a signal therefore leaves two possible directions to its source, one through each face.](../../../images/s4-4-loop-nulls.svg)
-{.img-centered caption="An electrically small loop has nulls perpendicular to its plane."}
+{.img-centered .mw-70 .img-mobile-full caption="An electrically small loop has nulls perpendicular to its plane."}
 
 That neighbor's plasma TV wreaking havoc on 40 meters? Orient a small receiving loop to null it out.
 

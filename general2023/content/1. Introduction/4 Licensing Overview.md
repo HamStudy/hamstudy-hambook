@@ -41,7 +41,7 @@ To get an FRN, use the [FCC's Commission Registration System (CORES)](https://ap
 
 Volunteer Examiners (VEs) are licensed amateurs accredited to administer exams. They work through a Volunteer Examiner Coordinator (VEC), which coordinates sessions and sends qualified applicants' information to the FCC.
 
-Visit [HamStudy.org/sessions](https://hamstudy.org/sessions) to find in-person and remote exams, or ask a local amateur radio club. Read the VE team's instructions before registering; fees, identification requirements, and remote-exam arrangements vary. Contact the team listed for the session if you have questions.
+Visit [HamStudy.org/sessions](https://hamstudy.org/sessions) to find in-person and remote exams, or ask a local amateur radio club. Check the listing for fees, ID requirements, and remote-exam arrangements. Contact the VE team if you have questions.
 
 Have your FRN, accepted identification, and any license or exam-credit documents requested by the team ready. Check the VE team's rules for calculators and other materials. For a remote exam, arrange a quiet space and test the required camera, internet connection, and software beforehand. The team may ask you to show your room and work area on camera.
 
@@ -53,9 +53,7 @@ Exam teams may charge a fee to cover examination expenses; check the session lis
 
 The VEs give you a Certificate of Successful Completion of Examination (CSCE) and forward your application through their VEC. Keep the certificate and check that your FCC license record is updated.
 
-If you already hold a Technician license, you can use temporary General privileges with an unexpired CSCE once you complete the General requirements and properly submit the application through the VEs. When using those privileges before the upgrade appears in the FCC database, *add /AG after your call sign*. First-time applicants must wait for their FCC license grant before transmitting as a control operator.
-
-[Section 9.6]({{% pageref "9.6" %}}) explains what to keep after passing and the conditions and time limits for using your new privileges.
+If you already hold a Technician license, you can use temporary General privileges with an unexpired CSCE once you complete the General requirements and properly submit the application through the VEs. When using those privileges before the upgrade appears in the FCC database, *add /AG after your call sign*. First-time applicants must wait for their FCC license grant before transmitting as a control operator. See [Section 9.6]({{% pageref "9.6" %}}) for the time limits on temporary privileges.
 
 ## Maintaining Your License
 

@@ -92,7 +92,7 @@ A strong signal at 32.230 MHz would interfere with reception of your 14.230 MHz 
 This is why receivers include preselector filters before the mixer—to block these unwanted image frequencies that would otherwise cause interference.
 
 ![Frequency increases from left to right. The wanted signal is at 14.230 megahertz, the local oscillator at 23.230 megahertz, and the unwanted image signal at 32.230 megahertz. The wanted signal and image are each 9 megahertz from the oscillator, on opposite sides. Mixing either with the oscillator can therefore produce the same 9-megahertz intermediate frequency. A filter at that stage cannot separate the wanted signal from the image. The wanted signal and image are 18 megahertz apart, twice the intermediate frequency.](../../../images/s3-3-mixer-image.svg)
-{.img-centered caption="Both inputs become the same 9 MHz IF. They are 18 MHz, or twice the IF, apart."}
+{.img-centered .mw-70 .img-mobile-full caption="Both inputs become the same 9 MHz IF. They are 18 MHz, or twice the IF, apart."}
 
 #### When Mixing Happens Unintentionally: Intermodulation
 
@@ -139,7 +139,7 @@ Here's why odd-order products cause the most problems. Consider two strong signa
 - Another third-order product: 2(14.250) - 14.200 = 14.300 MHz
 
 ![Frequency increases from left to right. Two original signals are at 14.200 and 14.250 megahertz, 50 kilohertz apart. Unwanted third-order products appear at 14.150 megahertz below them and 14.300 megahertz above them. The lower product equals twice the first frequency minus the second. The upper product equals twice the second frequency minus the first. Each unwanted product is only 50 kilohertz from the nearest original signal, so these mixing products can interfere with nearby stations.](../../../images/s3-3-intermodulation-products.svg)
-{.img-centered caption="Third-order products can fall close to the original signals."}
+{.img-centered .mw-70 .img-mobile-full caption="Third-order products can fall close to the original signals."}
 
 These products (14.150 and 14.300 MHz) fall right in the 20-meter band where they can interfere with other stations! Second-order products would be much farther away and easier to filter out. This is why contest stations work so hard to keep their signals clean—when you're running high power with multiple transmitters, intermodulation products can create interference across the entire band.
 

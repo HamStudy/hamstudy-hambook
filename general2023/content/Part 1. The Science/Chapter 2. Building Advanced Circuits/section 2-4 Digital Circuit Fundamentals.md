@@ -33,7 +33,7 @@ The fundamental building blocks of digital circuits are logic gates—components
 > **Key Information:** A two-input AND gate outputs a high signal (1) only when both inputs are high. {{< link id="G7B03" >}}
 
 ![The AND gate symbol has a flat left edge and a curved right edge, like a capital D. Two input lines, A and B, enter on the left; one output line leaves on the right. The output is high only when both inputs are high. If either input, or both inputs, are low, the output is low.](../../../images/s2-4-and-gate.svg)
-{.img-centered}
+{.img-centered .mw-60 .img-mobile-full}
 
  A | B | Output
 :-:|:-:|:------:
@@ -98,7 +98,7 @@ Digital circuits include specialized components for managing digital information
 A **bit** is one binary digit, 0 or 1. A **clock** provides the timing steps.
 
 ![Five rows show four register stages connected in a chain, with data moving from left to right. All four stages start at zero. A one enters on the first clock step, followed by zeros on later steps. On the next three clock steps, the one moves to the second, third, and fourth stages. All other stages hold zero. Each clock step moves the stored bit one stage toward the output at the right.](../../../images/s2-4-shift-register-static.svg)
-{.img-centered caption="Figure 2: A 1 followed by zeros moves one stage to the right per clock step."}
+{.img-centered .mw-60 .img-mobile-full caption="Figure 2: A 1 followed by zeros moves one stage to the right per clock step."}
 
 A shift register functions like a bucket brigade for digital data—each pulse of a clock signal moves the data one position down the line. This sequential movement is important for:
 - Converting between serial and parallel data forms

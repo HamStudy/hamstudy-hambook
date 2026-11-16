@@ -30,7 +30,7 @@ One of the simplest digital modulation methods switches between two frequencies 
 A receiver identifies each bit by detecting which of the two frequencies is present. The names "mark" and "space" come from telegraphy, where "mark" meant a signal was present and "space" meant no signal. In FSK, "mark" represents a binary "1" and "space" represents a binary "0".
 
 ![Binary FSK uses two frequencies. Here, time moves from left to right through eight equal symbol intervals. In this example, the upper frequency is mark, representing one; the lower frequency is space, representing zero. The bits are one, zero, one, one, zero, zero, one, zero. The frequency stays the same across the two adjacent ones and across the two adjacent zeros. It changes only when the bit value changes. Vertical position represents frequency, not signal strength: the space state still transmits a tone.](../../../images/s3-2-fsk-modulation.svg)
-{.img-centered caption="Binary FSK sends one of two frequencies during each symbol interval. Vertical position shows frequency, not amplitude."}
+{.img-centered .mw-70 .img-mobile-full caption="Binary FSK sends one of two frequencies during each symbol interval. Vertical position shows frequency, not amplitude."}
 
 ##### Advanced FSK: Multiple Tones
 
@@ -55,7 +55,7 @@ For even more efficiency, we can use more phase positions:
 The "Q" stands for "Quadrature," referring to a 90-degree relationship; QPSK uses four phase positions. Each phase position represents a unique 2-bit combination: 00, 01, 10, or 11.
 
 ![Four points around a circle show QPSK's four possible phase positions, 90 degrees apart. In this example, zero degrees represents zero zero; 90 degrees represents zero one; 180 degrees represents one one; and 270 degrees represents one zero. The points are equally far from the center: their angles differ, not their distances. Four distinct phase states allow each symbol to identify one of four bit pairs, carrying two bits of information.](../../../images/s3-2-qpsk-constellation.svg)
-{.img-centered caption="Four phase states can represent two bits per symbol. This is one illustrative mapping."}
+{.img-centered .mw-60 .img-mobile-full caption="Four phase states can represent two bits per symbol. This is one illustrative mapping."}
 
 Engineers call this a "constellation diagram" because the phase positions look like stars in specific locations around a circle.
 
@@ -138,7 +138,7 @@ Digital communication organizes information into neat, addressable packages:
 Like the addressing information on an envelope, the header tells the network where the packet should go and how to handle it along the way. This structure lets software route and handle the data without interpreting the message itself.
 
 ![A simplified packet is divided into three fields. First comes the header, with routing and handling information. Next comes the data field, containing the message. The final field is an error check that helps the receiving system detect damaged data. The message is therefore only one part of what the packet carries.](../../../images/s3-2-packet-fields.svg)
-{.img-centered caption="The header tells the system how to handle the data; an error check helps detect corruption."}
+{.img-centered .mw-70 .img-mobile-full caption="The header tells the system how to handle the data; an error check helps detect corruption."}
 
 ##### Mesh Networking: The Self-Healing Network
 

@@ -16,16 +16,7 @@ Amateur radio, often called "ham radio," brings people together to communicate, 
 
 While the Technician license offers many ways to communicate through VHF and UHF, the General Class License opens much more of the High Frequency (HF) bands. This is where you can talk around the globe without relying on internet-linked repeaters or satellites.
 
-## The World Awaits
-
-People work toward a General Class License for different reasons. You might want to:
-
-- Communicate directly with hams in other countries and continents.
-- Participate in worldwide contests and DXpeditions—trips to operate from places rarely heard on the air.
-- Experiment with digital modes on more HF bands.
-- Build and test your own antennas for long-distance communication.
-- Join emergency nets—organized groups communicating over the air—that span states or regions.
-- Learn more about radio equipment or become a Volunteer Examiner to help others get licensed.
+What would you like to try first? You might join an emergency net where operators across a region pass messages, experiment with digital modes on a new band, or talk to someone on another continent using an antenna you built yourself. You might even hear a DXpedition, a group operating from a place rarely heard on the air.
 
 ## What's Inside
 
@@ -36,9 +27,3 @@ This HamBook covers the US General Class (Element 3) exam pool valid from 2023 t
 - **Regulations**: The rules specific to General class privileges and HF operation.
 - **Safety**: Electrical and RF safety, including precautions for higher power levels and different station setups.
 - **Question Reviews**: Questions and answers from the actual exam pool, grouped with the topics that explain them.
-
-## Preparing for the Next Step
-
-Whether you're looking to upgrade for emergency preparedness, the thrill of talking to a station in Antarctica, or the technical challenge of building a transceiver, this book is your guide.
-
-Let's look at what a General Class License makes possible and how to prepare for it.

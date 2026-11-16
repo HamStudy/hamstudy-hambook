@@ -22,7 +22,7 @@ The two main approaches are capacitance hats and loading coils. {{< link id="G4E
 Think of a capacitance hat as spreading out the antenna's electrical field at the top, where current is lowest. Those horizontal spokes or discs you see on mobile antennas are typically 4-8 radial wires or a solid metal disk mounted at the antenna tip. They create capacitance to ground, *reducing the capacitive reactance of the short antenna*. Loading coils work more directly—they add inductive reactance that cancels the antenna's capacitive reactance, bringing the total reactance to zero at resonance.
 
 ![One short whip has a loading coil inserted along its length. The other has both a loading coil and a capacitance hat, with spokes extending sideways from the tip. The hat adds capacitance; the coil adds inductance to help bring the short antenna to resonance. Each installation needs an RF return path at the base. The drawing does not give construction dimensions.](../../../images/s4-5-loaded-whips.svg)
-{.img-centered caption="The parts are shown; their sizes depend on the design."}
+{.img-centered .mw-70 .img-mobile-full caption="The parts are shown; their sizes depend on the design."}
 
 Every engineering solution has trade-offs. {{< link id="G4E06" >}} When you shorten an antenna and add components to resonate it, you're creating a high-Q circuit with *a narrow bandwidth*.
 

@@ -28,7 +28,7 @@ Every distant station offers two possible paths around our spherical Earth. Shor
 Long path heads the opposite direction, the long way around the world. That same New York-to-Tokyo contact would point south-southeast, traveling about 18,100 miles along the other arc of that great circle. This longer journey sometimes encounters better propagation conditions than the direct route.
 
 ![Stations A and B lie on one great circle around Earth. The short path follows the smaller arc between them. The long path leaves A in the opposite direction and follows the rest of that same circle to B. These are two routes to the same station, so their initial antenna headings are opposite. The curves mark routes around Earth's surface, not the height of ionospheric hops.](../../../images/s5-3-long-short-path.svg)
-{.img-centered caption="The short and long paths between A and B follow one great circle in opposite directions. The paths show surface routes, not hop heights."}
+{.img-centered .mw-70 .img-mobile-full caption="The short and long paths between A and B follow one great circle in opposite directions. The paths show surface routes, not hop heights."}
 
 When both paths open simultaneously, you may hear a useful clue. {{< link id="G3B01" >}}
 
@@ -50,18 +50,14 @@ The multiple scattered signals arrive with slightly different timing and phase, 
 
 #### NVIS: Reliable Regional Coverage
 
-Sometimes you need coverage across a region a few hundred miles wide, including places inside the usual skip zone. Near Vertical Incidence Skywave propagation fills this need by launching signals nearly straight up. {{< link id="G3C10" >}}
+Sometimes you need coverage across a region a few hundred miles wide, including places inside the usual skip zone. Near Vertical Incidence Skywave (NVIS) sends signals nearly straight up so the ionosphere can bend them back toward nearby stations. {{< link id="G3C10" >}}
 
 > **Key Information:** NVIS propagation is short distance MF or HF propagation using *high radiation angles*.
 
-Instead of using low angles for distance, NVIS uses *high angles* for area coverage. The ionosphere acts like an umbrella, reflecting your nearly vertical signal back down in a circular pattern around your station. With suitable frequencies and ionospheric conditions, this can fill in the usual skip zone and reach stations out to a few hundred miles away.
-
-NVIS requires the right antenna setup and frequency. Low horizontal antennas (0.1 to 0.25 wavelengths high) produce the high-angle radiation needed. As we saw in the previous chapter, this height favors a high-angle pattern; the details depend on height and ground conditions. Frequency must be below the critical frequency for vertical reflection but high enough to avoid excessive D-region absorption. During daylight, 40 or 60 meters may be useful choices. After dark, 80 or 160 meters may work better as ionization falls. Check the current path: none of these bands is always suitable.
-
-Emergency services rely on NVIS because it provides dependable regional coverage when infrastructure fails. The mode excels for disaster communications, nets covering mountainous terrain, and any application requiring solid coverage within a few hundred miles.
+For a regional emergency net in mountainous terrain, even a low horizontal dipole can be useful. A height of 0.1 to 0.25 wavelength favors the high angles you need. Choose a frequency below the critical frequency for a vertical return, yet high enough to avoid excessive D-region absorption. Try 40 or 60 meters by day. As ionization falls after dark, 80 or 160 meters may work better. Experimentation is key for things like this, but you may be able to find others in your area who can offer ideas and experience.
 
 ![Two rays leave the same transmitter and curve back toward Earth through the ionosphere. The steeply rising ray returns nearby; the shallower ray travels much farther before returning. This is the principle behind near vertical incidence skywave: a high-angle path can reach nearby stations that a lower-angle path skips over. Both rays assume a frequency the ionosphere can return. Angles, distances, and heights are not drawn to scale.](../../../images/s5-3-nvis.svg)
-{.img-centered caption="Both rays assume a frequency the ionosphere can return. The diagram is not to scale."}
+{.img-centered .mw-70 .img-mobile-full caption="Both rays assume a frequency the ionosphere can return. The diagram is not to scale."}
 
 #### Understanding MUF and Path Selection
 

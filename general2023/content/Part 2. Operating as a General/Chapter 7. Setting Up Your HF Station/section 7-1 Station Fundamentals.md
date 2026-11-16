@@ -29,7 +29,7 @@ The four essentials assume everything cooperates: your antenna presents a nice 5
 
 ##### Antenna Tuner
 
-A 40-meter dipole at resonance presents close to the 50 ohms your radio expects. Use that same dipole on 20 or 80 meters, though, and the impedance the radio sees can be wildly different. An antenna tuner transforms that impedance so the transmitter sees a load close to the 50 ohms it was designed for:
+Your 40-meter dipole should present the radio a good match on 40 meters. Try that same dipole on 20 or 80 meters, though, and the impedance may be far from the 50 ohms your radio expects. An antenna tuner transforms that impedance so the transmitter sees a load close to the 50 ohms it was designed for.
 
 > **Key Information:** The purpose of an antenna tuner is to increase power transfer from the transmitter to the feed line. {{< link id="G4A06" >}}
 
@@ -50,7 +50,7 @@ Many modern transceivers include a built-in SWR meter. If yours doesn't, or if y
 * **SWR meter** — Displays SWR directly. It's usually the same basic device as a directional wattmeter inside, just presenting less information in a simpler way.
 
 ![A DC power source feeds the transceiver. From left to right, the transmit signal passes from the transceiver through an SWR meter, an optional station tuner, the feed line, and the antenna. The meter is before the tuner, so it checks the match presented to the radio. A good reading there does not prove that the feed line and antenna are matched.](../../../images/s7-1-station-signal-path.svg)
-{.img-full .img-centered caption="The SWR meter checks the match presented to the radio. A station tuner can improve that match while a mismatch remains on the feed line beyond it."}
+{.img-centered .img-xlarge .img-mobile-full caption="The SWR meter checks the match presented to the radio. A station tuner can improve that match while a mismatch remains on the feed line beyond it."}
 
 These meters also earn their keep long after setup day. Weather, antenna damage, feed line problems, and other factors can change your antenna system's characteristics over time. A slowly rising SWR is often your first warning that something outside needs attention. Watching SWR becomes more important as power increases—both to protect your equipment and to keep your signal getting where you want it.
 

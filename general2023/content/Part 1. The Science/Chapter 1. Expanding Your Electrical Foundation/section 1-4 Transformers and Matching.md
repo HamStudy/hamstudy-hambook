@@ -147,16 +147,6 @@ Connecting coax to a balanced antenna can also allow unwanted common-mode curren
 
 #### LC Matching Networks
 
-Besides transformers, simple combinations of inductors and capacitors (LC networks) can also match impedances. These appear in various configurations (L, Pi, or T networks) in antenna tuners and amplifier output circuits. Although the designs vary, each changes the impedance so the radio components see the load they require. A good input match does not remove feed-line loss or make an inefficient antenna efficient.
+Besides transformers, simple combinations of inductors and capacitors (LC networks) can also match impedances. These appear in various configurations (L, Pi, or T networks) in antenna tuners and amplifier output circuits. In an antenna tuner, the network helps your transmitter see its expected 50-ohm load. A good input match does not remove feed-line loss or make an inefficient antenna efficient.
 
-#### Application to General Class Operations
-
-Understanding impedance matching has practical benefits as you prepare to use General privileges:
-
-* **In Your Station**: Antenna tuners use matching networks to help your transmitter see its expected 50-ohm load, while SWR meters help you detect mismatches.
-
-* **Real-World Considerations**: Perfect matching isn't always necessary. Equipment limits vary, so check your radio’s specified SWR and power limits. Sometimes improving an antenna is better than matching a poor one.
-
-* **Why It Matters**: With General privileges, you can operate across multiple HF bands with a single antenna and potentially use higher power levels where mismatches become more significant. Understanding matching helps you make better equipment choices and get more of your transmitter's power to actually radiate from your antenna.
-
-Now that we understand how transformers and impedance matching affect power flow in our radio systems, let's explore how to measure and quantify that power. In the next section, we'll examine power calculations, decibels, and other measurement concepts that will help you evaluate your station's performance.
+When you switch bands, check the SWR against your transmitter’s limits for the power you plan to use. If you’re within those limits, there’s usually little to gain by adjusting the tuner for a perfect 1:1 reading.

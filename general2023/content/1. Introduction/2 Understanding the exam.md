@@ -15,7 +15,7 @@ The **General Class License exam** is Element 3, based on the question pool vali
 
 - **Format**: 35 multiple-choice questions
 - **Pool Size**: 423 active questions in this edition
-- **Passing Score**: 26 correct answers (74%)
+- **Passing Score**: 26 correct answers (74%). You can miss nine questions and still pass.
 
 You'll see 35 questions on your exam: one from each of the pool's 35 question groups, which are organized into 10 subelements (major topics). These pool groups are different from the teaching sections in this book. This is the same structure as the Technician exam, but the topics dive deeper into technical concepts and focus heavily on HF (High Frequency) operations.
 
@@ -29,13 +29,6 @@ You may not use every topic right away. Learn the basics across the pool, then s
 
 ## What the Studying Involves
 
-If you passed the Technician exam, you have a useful foundation for General. The concepts build logically on what you already know. For example:
-
-- Technician: Introduced basic components like resistors and capacitors.
-- General: Explains how these components work together in simple circuits like filters and oscillators.
-- Technician: Covered basic antenna types.
-- General: Discusses antenna matching, SWR, and feed lines in more detail.
+If you remember resistors and capacitors from the Technician exam, you'll now see how they work together in a filter. You'll also build on what you know about antennas by learning how to match one to its feed line.
 
 Some questions ask you to use a formula, convert units, or calculate values such as resistance and power. The book includes worked examples so you can follow each step. There is no Morse code proficiency test, although the pool includes questions about CW (Morse code) operating practices.
-
-Remember, you only need 74% to pass. Even if some advanced circuit theory feels overwhelming, strong answers on operating rules, safety, and propagation can help make up for a few missed questions. You can miss as many as nine and still pass.

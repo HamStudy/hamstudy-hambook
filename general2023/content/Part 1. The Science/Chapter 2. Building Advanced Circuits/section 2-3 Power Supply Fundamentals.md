@@ -31,7 +31,7 @@ Rectification changes alternating current that flows back and forth into direct 
 > * A full-wave rectifier converts 360 degrees of the AC cycle to DC. {{< link id="G7A06" >}}
 
 ![Three voltage graphs share the same time scale. The AC input alternates between positive and negative half-cycles. The half-wave output keeps each positive half-cycle and remains at zero during each negative half-cycle, producing one pulse per input cycle. The full-wave output turns the negative half-cycles into positive pulses, producing two pulses per input cycle. Both rectified voltages stay positive or zero, but they still rise and fall; the unfiltered full-wave output reaches zero between pulses.](../../../images/s2-3-rectifier-waveforms.svg)
-{.img-centered}
+{.img-centered .mw-70 .img-mobile-full}
 
 As you can see in the waveform comparison:
 - The input AC signal alternates between positive and negative
@@ -43,7 +43,7 @@ As you can see in the waveform comparison:
 > **Key Information:** A half-wave rectifier is characterized by using only one diode. {{< link id="G7A04" >}}
 
 ![An AC source, diode D1, and a resistive load form one series loop. The diode’s cathode bar faces the load. During the half-cycle that makes the source’s upper terminal positive, current passes through the diode, through the load, and back to the source. During the opposite half-cycle, the diode blocks that path. The load therefore receives current in only one direction, during only half of each AC cycle.](../../../images/s2-3-half-wave-rectifier.svg)
-{.img-large .float-right .img-bw}
+{.img-med .float-right .img-bw}
 
 The half-wave rectifier is the simplest design:
 - A single diode allows current to flow only during the positive half-cycle
@@ -76,24 +76,14 @@ The exam covers two common full-wave rectifier designs: center-tapped transforme
 > **Key Information:** A full-wave rectifier circuit using a center-tapped transformer uses two diodes. {{< link id="G7A03" >}}
 
 ![An AC source drives a transformer whose secondary winding has a connection at its midpoint, called the center tap. Each end of the secondary connects through its own diode, D1 or D2, to the same positive side of the load. The other side of the load returns to the center tap. When the upper end is positive relative to the tap, D1 conducts; when the lower end is positive, D2 conducts. Both paths send current through the load in the same direction, so both half-cycles produce positive output pulses.](../../../images/s2-3-center-tap-rectifier.svg)
-{.img-centered caption="The two diodes conduct on alternate half-cycles, keeping current through the load in the same direction."}
+{.img-centered .mw-70 .img-mobile-full caption="The two diodes conduct on alternate half-cycles, keeping current through the load in the same direction."}
 
-This design uses:
-- A transformer with a center tap on its secondary winding
-- Two diodes that alternately conduct during opposite half-cycles
-- The center tap serves as the common (often ground) connection
-
-During operation:
-- When the top of the secondary is positive relative to the center tap, the top diode conducts
-- When the bottom of the secondary is positive relative to the center tap, the bottom diode conducts
-- In both cases, current flows in the same direction through the load
-
-
+The center tap, halfway along the secondary winding, is the return connection for the load. D1 conducts when the upper end of the winding is positive relative to the tap. On the next half-cycle the lower end is positive, so D2 conducts. Either way, current enters the positive side of the load and returns to the tap.
 
 ##### **Bridge Rectifier Design**
 
 ![Four diodes form a diamond. The AC source connects to its top corner, N, and bottom corner, S. The load connects between the right corner, marked DC positive, and the left corner, marked DC negative. When N is positive, current goes through D2 to DC positive, through the load to DC negative, then through D4 to S. When S is positive, current goes through D3, through the load in the same direction, and through D1 back to N. A different pair of diodes conducts on each half-cycle, but load current keeps the same direction.](../../../images/s2-3-bridge-rectifier.svg)
-{.img-centered .img-bw caption="At the wire crossing without a dot, the wires are not connected."}
+{.img-centered .img-large .caption-wide .img-mobile-full .img-bw caption="At the wire crossing without a dot, the wires are not connected."}
 
 The bridge rectifier uses four diodes arranged to:
 - Direct current through the load in the same direction regardless of input polarity
@@ -109,30 +99,9 @@ The AC connections in the diagram are marked N (top) and S (bottom). We'll use t
 
 #### Center-tapped vs. Bridge Rectifier Designs
 
-Each design has advantages and disadvantages:
+In the center-tapped design, current passes through half the secondary winding and one diode on each half-cycle. A bridge uses the whole winding on both half-cycles, which makes it a common choice for power supplies with an ordinary two-wire secondary. The tradeoff is that current passes through two diodes in series.
 
-Center-tapped transformer design:
-- Uses fewer components (only two diodes)
-- Only one diode voltage drop in the current path
-- Requires a special center-tapped transformer
-- Less efficient use of the transformer (each half of the secondary winding conducts only 50% of the time)
-
-Bridge rectifier design:
-- Works with a suitable transformer without needing a center tap
-- More efficient use of transformer windings
-- Requires four diodes instead of two
-- Two diode voltage drops in series (higher loss)
-
-#### Rectifier Voltage Drops
-
-In practical circuits, the diode forward voltage drop affects the output. For a rough calculation, use about `0.7V` per conducting silicon junction diode; the actual drop depends on device, current and temperature. This means:
-- In half-wave rectifiers: output is reduced by about 0.7V
-- In center-tapped designs: output is reduced by about 0.7V
-- In bridge rectifiers: output is reduced by about 1.4V (two diodes in series)
-
-For high-power applications, this voltage drop represents wasted power and heat generation in the diodes.
-
-Most amateur radio power supplies use full-wave rectification for its efficiency and easier filtering. Bridge rectifiers are the most common in modern designs because of their flexibility and the low cost of diodes.
+For a rough estimate of the output voltage, allow a drop of about 0.7 V for each conducting silicon diode. That’s about 0.7 V for a half-wave or center-tapped rectifier and about 1.4 V for a bridge. The actual drop depends on the device, current, and temperature. At high currents, the power dissipated in the diodes can produce considerable heat.
 
 #### Filtering: Smoothing the Pulses
 
@@ -145,7 +114,7 @@ The most common filter configuration uses large electrolytic capacitors that cha
 Think of filter capacitors like water towers in a municipal water system. High pressure (voltage) refills the tower near each peak. Between peaks, the tower keeps the pressure up while the town draws water (current). The larger the capacitor, the more energy it can store and the smoother the output becomes.
 
 ![A graph compares rectified voltage with capacitor-filtered output over time. The unfiltered rectified voltage repeatedly rises to a peak and falls to zero. The filtered output rises with the first peak, then falls only gradually while the capacitor supplies current to the load. Each following peak recharges the capacitor. The result is a mostly steady positive voltage with small repeated drops between charging peaks; those remaining rises and falls are ripple.](../../../images/s2-3-supply-ripple.svg)
-{.img-centered caption="Between charging peaks, the capacitor supplies the load. More load current discharges it faster."}
+{.img-centered .mw-70 .img-mobile-full caption="Between charging peaks, the capacitor supplies the load. More load current discharges it faster."}
 
 The small repeated rise and fall left in the filtered output is called **ripple**. Too much ripple can cause hum in your audio.
 

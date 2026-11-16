@@ -100,7 +100,7 @@ All battery types need charging within the maker’s limits. Overcharging lead-a
 The BMS is a protective backup, not a substitute for a compatible charge controller. Use the charging settings specified for the battery.
 
 ![Power flows from the solar panel through a charge controller and a fuse to the battery. The battery supplies the radio through a separate fuse. Both fuses are near the battery, one on its charging cable and one on the cable supplying the radio. The controller limits charging and may also block current from flowing backward into the panel. The arrows show power flow, not complete wiring connections.](../../../images/s6-2-solar-power.svg)
-{.img-centered caption="The controller limits charging and may block reverse current into the panel. Arrows show power flow; wiring details are omitted."}
+{.img-centered .mw-70 .img-mobile-full caption="The controller limits charging and may block reverse current into the panel. Arrows show power flow; wiring details are omitted."}
 
 Cold-weather charging needs special attention. A LiFePO4 battery may allow discharge at a temperature where charging would damage it. Follow its separate charging and discharging limits, and verify whether its BMS actually blocks charging when too cold.
 

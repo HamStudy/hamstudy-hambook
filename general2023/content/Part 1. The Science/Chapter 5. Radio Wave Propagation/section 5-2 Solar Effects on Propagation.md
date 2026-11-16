@@ -7,19 +7,13 @@ status: complete1
 
 ### Section 5.2: Solar Effects on Propagation
 
-The ionospheric layers we just explored don't exist in isolation—our sun powers and controls them. Your reliable 40-meter net suddenly becomes unusable. The dead 10-meter band erupts with signals from around the world. These dramatic changes originate 93 million miles away, where our nearest star constantly bombards Earth with the radiation that creates and destroys propagation paths. One of the craziest aspects of HF operation is just how inconsistent propagation can be from day to day—or even minute to minute! Understanding how solar activity drives propagation helps you recognize patterns in seemingly random conditions. Those patterns help you predict when bands will open or close.
-
-#### The Solar-Ionospheric Connection
-
-More radiation means more ionization, denser electron layers, and a higher MUF that brings the upper bands alive. When solar activity wanes, ionization generally decreases, the MUF often drops, and those same bands become less reliable.
-
-This relationship changes constantly. Solar flares can destroy propagation in minutes. The 11-year solar cycle shifts available bands over years. The sun’s rotation creates recurring patterns roughly every 27 days. Each time scale affects your ability to communicate.
+Your reliable 40-meter net suddenly becomes unreachable. The dead 10-meter band erupts with signals from around the world. Both changes can start on the Sun. Some arrive in minutes, while others follow patterns that recur over weeks or years.
 
 #### Sunspots and Solar Activity
 
 Deep inside the Sun, currents of hot plasma surge and churn. Plasma is gas in which electrons have separated from atoms, leaving charged particles. These currents drag magnetic fields with them and twist them into knots. The tangled fields punch through the surface, blocking the normal flow of heat and leaving patches roughly 3,000°F cooler than their surroundings. Against the blazing backdrop, these cooler regions stand out as dark spots—sunspots.
 
-The magnetic knots don't sit quietly. Magnetic activity around the spots is associated with stronger ultraviolet emissions that maintain denser layers of free electrons in Earth's upper atmosphere. Those layers can bend higher-frequency radio waves back toward Earth, raising the MUF and opening upper HF bands. Sudden flare bursts have a different effect, which we'll get to shortly. For radio operators, each dark patch on the Sun serves as a visible gauge of solar activity—and a preview of the day's propagation. {{< link id="G3A01" >}}
+For a radio operator, those dark patches are a visible clue to what the bands might do. Magnetic activity around sunspots is associated with stronger ultraviolet emissions. The radiation frees more electrons in the ionosphere, which can bend higher-frequency signals back toward Earth and raise the maximum usable frequency (MUF) on your path. {{< link id="G3A01" >}}
 
 > **Key Information:**
 > - Higher sunspot numbers generally indicate a greater probability of good propagation at higher frequencies.
@@ -65,7 +59,7 @@ Sometimes the sun doesn't just flash—it erupts. Coronal Mass Ejections (CMEs) 
 This delay transforms a crisis into a countdown. Space weather services track the CME from launch, calculating if and when it will strike Earth. Will it be a glancing blow or a direct hit? When a major CME finally slams into Earth's magnetic field, it can trigger geomagnetic storms that black out HF propagation for days.
 
 ![Two side-by-side Sun-to-Earth comparisons distinguish electromagnetic radiation from a cloud of matter. On the left, a wavy arrow leads from the Sun to Earth, where an arc marks the sunlit ionosphere. Flare X-rays and ultraviolet reach Earth in about eight minutes and increase HF absorption there, especially at lower HF frequencies. That is travel time, not advance warning: a flare is seen when its light arrives. On the right, a cloud containing particles and curved magnetic-field lines travels toward Earth and its magnetic field. An Earth-directed coronal mass ejection carries this magnetized plasma. It can arrive in fifteen hours to several days and disturb Earth’s magnetic field and HF propagation. The drawings are schematic and not to scale; they do not imply that every flare produces an Earth-directed CME.](../../../images/s5-2-solar-disturbances.svg)
-{.img-full .img-centered caption="Left: Flare X-rays and ultraviolet reach Earth in about 8 minutes, increasing HF absorption on the sunlit side, especially at lower frequencies. Right: Magnetized plasma from an Earth-directed CME can take 15 hours to several days to reach Earth and disturb its magnetic field and HF propagation."}
+{.img-centered .mw-70 .img-mobile-full caption="Left: Flare X-rays and ultraviolet reach Earth in about 8 minutes, increasing HF absorption on the sunlit side, especially at lower frequencies. Right: Magnetized plasma from an Earth-directed CME can take 15 hours to several days to reach Earth and disturb its magnetic field and HF propagation."}
 
 ##### Coronal Holes: Persistent Troublemakers
 

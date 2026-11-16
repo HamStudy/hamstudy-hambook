@@ -420,6 +420,11 @@ figure.img-bw img {
     height: auto;
   }
 }
+// The theme sets horizontal margins to zero on Markdown figures.
+.markdown figure.img-centered {
+  margin-left: auto;
+  margin-right: auto;
+}
 // Keep captions at 80% and art at 50%, including print's user-width overrides.
 figure.img-large.caption-wide {
   width: 80% !important;

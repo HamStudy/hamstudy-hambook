@@ -7,19 +7,17 @@ status: complete1
 
 ### Section 8.5: Digital Mode Procedures
 
-Digital contacts do not all follow the same pattern. RTTY can carry a typed conversation, FT8 exchanges a small set of structured messages, and a messaging system can transfer email through a gateway. Choosing a mode therefore means choosing both a kind of signal and a way of communicating.
+Digital contacts do not all follow the same pattern. RTTY lets two operators type back and forth, FT8 uses short structured exchanges, and a messaging gateway can deliver email.
 
 #### Having a Keyboard Conversation with RTTY
 
-RTTY lets two operators exchange text over radio. Before answering, decode enough of the activity to identify the calling station and determine whether it is inviting a new contact or speaking to someone else.
-
-The correct sideband for digital operation depends on the mode, rather than following the voice conventions introduced earlier in this chapter:
+When you tune in an RTTY station, read enough of the incoming text to tell whether the operator is calling CQ or already talking to someone. If the signal is strong but the text is garbled, the first thing to check is which sideband you're using.
 
 > **Key Information:** When sending RTTY signals via AFSK with an SSB transmitter, LSB is normally used. {{< link id="G2E01" >}}
 
-Use the radio and software settings together as directed by their instructions. With AFSK, the SSB transmitter places the audio tones above its dial frequency on USB or below it on LSB. Sideband selection therefore affects which RF frequency represents mark or space; a mismatch may leave a strong signal unreadable. The tone shift, baud rate, and Reverse checks from [Section 7.5]({{% pageref "7.5" %}}) help diagnose that problem without guessing at the text.
+With AFSK, the transmitter puts the audio tones above its dial frequency on USB or below it on LSB. Switching sidebands reverses the order of the mark and space frequencies on the air. If the text is still garbled on the expected sideband, [Section 7.5]({{% pageref "7.5" %}}) walks you through the software's Reverse setting, tone shift, and baud rate.
 
-Once you can copy a CQ, identify the calling station and yourself, then leave time for a reply. The contact can continue with reports, names, locations, and ordinary conversation.
+Once you can copy a CQ, send the caller’s call sign and your own, then pause for a reply. You can exchange signal reports, names, and locations and see where the conversation leads.
 
 #### Making a Structured Contact with FT8
 
@@ -42,7 +40,7 @@ Timing determines when to use that position:
 If the station calls in one 15-second period, your reply belongs in the following period, when it is receiving. Watch activity in both periods before choosing your transmit position. A frequency that looks clear during the CQ may already be used by someone transmitting in the opposite period.
 
 ![Two station rows share a timeline marked at zero, fifteen, and thirty seconds. During the first fifteen-second period, Station A calls CQ while Station B receives. During the next period, Station B replies while Station A receives. Each transmit bar ends before its fifteen-second period ends. The stations use opposite periods, and each must choose a transmit frequency that is clear during its own period.](../../../images/s8-5-ft8-turn-taking.svg)
-{.img-full .img-centered caption="FT8 stations take turns in opposite 15-second periods. Each transmission ends before its period ends. Choose a clear transmit frequency during the period you will use."}
+{.img-centered .img-xlarge .img-mobile-full caption="FT8 stations take turns in opposite 15-second periods. Each transmission ends before its period ends. Choose a clear transmit frequency during the period you will use."}
 
 Your reply can use a different audio frequency from the caller's, as long as it stays within the passband the other station is receiving. Check both the selected transmit period and the marker showing your transmit frequency on the waterfall rather than assuming the software’s current settings are appropriate.
 
@@ -57,20 +55,20 @@ Winlink provides another option: send a written message through a network for th
 > - A Winlink Remote Message Server is also called a gateway. {{< link id="G2E13" >}}
 > - VARA is a digital protocol used with Winlink. {{< link id="G2E02" >}}
 
-The messaging network and the radio protocol are different parts of that system. Winlink handles the messages; a compatible radio protocol carries them between your station and another station in the network. An internet-connected gateway can transfer your email between the radio link and the wider network. Winlink also supports radio-only arrangements, but usable routes must actually be available. The automatic-station and message rules covered in the next chapter still apply.
+When you send a Winlink message, your station uses a protocol such as VARA to carry it by radio to a gateway. In the example below, the gateway forwards the message over the internet to the recipient. Winlink can also deliver messages by radio alone if a route is available. The automatic-station and message rules covered in the next chapter still apply.
 
 ![From left to right, a computer and radio represent your station; a radio connected to network equipment represents the gateway, also called an RMS; and an envelope on a computer screen represents the email recipient. A radio-wave symbol identifies the bidirectional radio link, which uses a compatible protocol such as VARA. A globe identifies the bidirectional internet link from the gateway to the recipient. Winlink is the messaging system, not a separate device or another name for VARA. This shows one Winlink route; radio-only routes are also possible when available.](../../../images/s8-5-winlink-message-path.svg)
-{.img-full .img-centered caption="One internet-connected Winlink route: your station (left) exchanges messages by radio with a gateway (center), which connects through the internet to an email recipient (right). Arrows show messages traveling both ways."}
+{.img-centered .mw-70 .img-mobile-full caption="One internet-connected Winlink route: your station (left) exchanges messages by radio with a gateway (center), which connects through the internet to an email recipient (right). Arrows show messages traveling both ways."}
 
-Choose a gateway that supports the band and protocol your station can use. One available protocol is VARA. PACTOR is another protocol used for radio messaging.
+When choosing a gateway, look for one that supports both your band and a protocol your station can use. If you choose one that uses PACTOR, listen for a transfer already in progress.
 
 > **Key Information:** You cannot join an existing PACTOR contact; PACTOR connections are limited to two stations. {{< link id="G2E09" >}}
 
-Wait for the session to finish or select another suitable gateway. Sending your call over an active connection does not add you to it and may disrupt the transfer.
+If you hear an exchange, wait for it to finish or choose another gateway. Sending your call over an active connection can disrupt the transfer.
 
 #### Establishing and Checking the Connection
 
-Before connecting, check the gateway’s current listing for its callsign, supported protocol, frequency, and any operating instructions. Confirm that your equipment settings match and that the channel is not occupied:
+The gateway's listing gives its call sign, frequency, and operating instructions. Once your settings match and you hear a clear channel, you're ready to connect.
 
 > **Key Information:** One way to establish contact with a digital messaging system gateway is to transmit a connect message on the station’s published frequency. {{< link id="G2E10" >}}
 

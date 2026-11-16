@@ -1,6 +1,14 @@
 @media print {
     /* Embedded SVG diagrams must use their light palette when printing. */
     .markdown img { color-scheme: only light; }
+    /* Let the licensing overview finish before the Part 1 opener. */
+    .book-section[id^="copyright"] ul,
+    .book-section[id^="copyright"] ol {
+      margin-top: .6rem;
+      margin-bottom: .6rem;
+    }
+    /* Leave space between review questions without stranding the last answer. */
+    .book-section.level3 .questions-list .question-item { margin-bottom: .7em; }
     /* Keep each diagram with its caption and each Key Information box intact. */
     .markdown figure,
     .markdown blockquote { break-inside: avoid; }

@@ -65,7 +65,7 @@ For example, if an amplifier draws 200 watts from your power supply but produces
 Efficiency varies with the circuit, signal and output level; a class name does not specify one fixed percentage. The classes below describe how much of each cycle the device conducts.
 
 ![Four equal-length bars each represent one complete signal cycle. The shaded part shows when an amplifying device conducts current. Class A conducts for the whole cycle, or 360 degrees. Class B conducts for half the cycle, or 180 degrees. Class AB conducts for more than half but less than the full cycle. Class C conducts for less than half. The unshaded parts show when the device is not conducting; the bars compare conducting time, not output power.](../../../images/s2-2-amplifier-conduction.svg)
-{.img-centered caption="The shaded part is the conducting interval. AB lies between half and a full cycle; C is less than half."}
+{.img-centered .mw-70 .img-mobile-full caption="The shaded part is the conducting interval. AB lies between half and a full cycle; C is less than half."}
 
 ##### Amplifier Linearity
 
@@ -107,7 +107,7 @@ An oscillator needs three elements:
 3. Positive feedback that reinforces the oscillation
 
 ![An amplifier sends a signal toward the output. Before the output, a branch takes part of that signal through a frequency-selective network and back to the amplifier’s input, forming a loop. The returning signal reinforces oscillation at the selected frequency, while the amplifier replaces energy lost in the circuit.](../../../images/s2-2-oscillator-feedback.svg)
-{.img-centered caption="The amplifier replaces lost energy; feedback reinforces the selected frequency."}
+{.img-centered .mw-70 .img-mobile-full caption="The amplifier replaces lost energy; feedback reinforces the selected frequency."}
 
 Many oscillators use an LC (inductor-capacitor) tank circuit to select the frequency. As we saw in the previous chapter, its inductance and capacitance determine that frequency.
 

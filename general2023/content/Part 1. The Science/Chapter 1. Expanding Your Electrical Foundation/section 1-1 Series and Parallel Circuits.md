@@ -60,15 +60,8 @@ Now that we understand current and voltage behavior, let's see how components co
 
 When resistors are in series, their values add. When resistors are in parallel, the total resistance is always less than the smallest resistor in the group.
 
-##### **Resistors in Series (Direct Sum Method):**
-When resistors are connected end-to-end, their values simply add:
-
-$$ R_\text{total} = R_1 + R_2 + R_3 + \ldots $$
-
-Think of it like adding garden hose sections—more length means more resistance.
-
 ##### **Resistors in Parallel (Reciprocal Method):**
-Each parallel resistor adds a path for current. More total current flows at the same voltage, which means less total resistance. To find it, use the reciprocal rule from the table above. For just two resistors, we can simplify to:
+Each parallel resistor adds a path for current. More total current flows at the same voltage, which means less total resistance. To use the reciprocal rule in Table 1, divide 1 by each resistance, add those results, then divide 1 by that sum. For just two resistors, there’s a shortcut:
 
 $$R_{\text{total}} = \frac{R_1 \cdot R_2}{R_1 + R_2}$$
 
@@ -102,19 +95,7 @@ Remember, a capacitor is just two conductors (usually metal plates) separated by
 
 > **Key Information:** To increase the total capacitance in a circuit, add a capacitor in parallel. {{< link id="G5C13" >}}
 
-##### **Capacitors in Parallel (Direct Sum Method):**
-When capacitors are connected in parallel, their values add:
-
-$$ C_\text{total} = C_1 + C_2 + C_3 + \ldots $$
-
-Think of parallel capacitors like joining storage tanks—you get more total capacity.
-
-##### **Capacitors in Series (Reciprocal Method):**
-For capacitors in series, we use:
-
-$$\frac{1}{C_{total}} = \frac{1}{C_1} + \frac{1}{C_2} + \frac{1}{C_3} + \ldots$$
-
-For two capacitors, we can simplify to:
+For two capacitors in series, we can use the same shortcut as for two parallel resistors. Multiply their values, then divide by their sum:
 
 $$C_{\text{total}} = \frac{C_1 \cdot C_2}{C_1 + C_2}$$
 
@@ -151,21 +132,9 @@ C_{\text{total}} &= \frac{C_1 \cdot C_2}{C_1 + C_2} \\[1.25em]
 
 #### Inductors in Combination
 
-Inductors store energy in magnetic fields and follow rules similar to resistors.
+Inductors store energy in magnetic fields. If the coils are far enough apart that their fields don’t interact, their values add in series and follow the reciprocal rule in parallel, just like resistors. Coupled coils, as in a transformer, behave differently.
 
 > **Key Information:** To increase the total inductance in a circuit, add an inductor in series. {{< link id="G5C14" >}}
-
-##### **Inductors in Series (Direct Sum Method):**
-When inductors are connected in series (and are not magnetically coupled), their values add:
-
-$$ L_\text{total} = L_1 + L_2 + L_3 + \ldots $$
-
-##### **Inductors in Parallel (Reciprocal Method):**
-For inductors in parallel (assuming no magnetic coupling), we use:
-
-$$\frac{1}{L_{total}} = \frac{1}{L_1} + \frac{1}{L_2} + \frac{1}{L_3} + \ldots$$
-
-Note: These formulas assume the inductors are physically separated so their magnetic fields don't interact. When inductors do couple magnetically (like in transformers), different principles apply—you'll see this concept in action later in this chapter.
 
 What is the inductance of a circuit with a 20-mH inductor connected in series with a 50-mH inductor? {{< link id="G5C11" >}}
 

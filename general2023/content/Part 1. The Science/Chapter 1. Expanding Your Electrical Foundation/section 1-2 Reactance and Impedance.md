@@ -53,7 +53,7 @@ An inductor's reactance depends on frequency. Think of an inductor as increasing
 Capacitors resist changes in voltage by storing energy in an electric field. In an ideal capacitor, current leads voltage by 90°.
 
 ![Three plots show phase relationships. A sine wave starts at zero, reaches its positive peak at 90 degrees, crosses zero at 180 degrees, reaches its negative peak at 270 degrees, and completes one cycle at 360 degrees. In the inductor plot, current reaches each peak and zero crossing one quarter-cycle, or 90 degrees, after voltage: current lags. In the capacitor plot, current reaches those points one quarter-cycle before voltage: current leads. The solid line represents voltage and the dashed line represents current.](../../../images/s1-2-phase-and-reactance.svg)
-{.img-centered caption="Figure 3: In an ideal inductor, current lags voltage by a quarter-cycle (90 degrees). In an ideal capacitor, current leads by the same amount."}
+{.img-centered .img-xlarge .img-mobile-full caption="Figure 3: In an ideal inductor, current lags voltage by a quarter-cycle (90 degrees). In an ideal capacitor, current leads by the same amount."}
 
 A capacitor's reactance also depends on frequency, but in the opposite way from inductors. Capacitors become more "willing" to pass current as frequency rises. This makes them excellent as bypass capacitors that provide an easy path for RF signals while blocking DC.
 

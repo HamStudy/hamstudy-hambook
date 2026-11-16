@@ -30,7 +30,7 @@ The RF amplitude follows the instantaneous audio voltage: positive and negative 
 > - The modulation envelope of an AM signal is the waveform created by connecting the peak values of the modulated signal. {{< link id="G8A11" >}}
 
 ![An audio sine wave appears above an amplitude-modulated radio-frequency wave. Time runs from left to right in both. Many RF cycles fit within each slow audio cycle. As the audio voltage rises, the RF peaks grow taller; as it falls, they shrink. The RF cycles remain evenly spaced. Dashed lines joining their positive and negative peaks outline the modulation envelope. Its upper boundary follows the shape of the audio wave.](../../../images/s3-1-amplitude-modulation.svg)
-{.img-centered caption="The dashed lines join the RF peaks to show the modulation envelope."}
+{.img-centered .mw-60 .img-mobile-full caption="The dashed lines join the RF peaks to show the modulation envelope."}
 
 Looking at an AM signal on an oscilloscope, you can actually see the shape of the audio signal traced out by the peaks of the RF signal. With proper modulation, the envelope is a scaled version of the audio, offset above zero—which is how an **envelope detector**, a circuit that follows those peaks, recovers the voice.
 
@@ -50,7 +50,7 @@ AM is particularly susceptible to a problem called flat-topping. Overdriving an 
 > **Key Information:** "Flat-topping" in an AM phone signal refers to signal distortion caused by excessive drive or speech levels. {{< link id="G8A10" >}}
 
 ![A normal AM envelope expands and contracts smoothly, with rounded peaks above and below a center line. In the flat-topped example, the largest peaks reach a limit and stay flat for part of the cycle. Both the upper and lower boundaries are clipped. Those flattened sections replace the rounded peaks, so the envelope no longer follows the audio faithfully. This is the distorted shape caused by excessive drive or speech levels.](../../../images/s3-1-flat-topping.svg)
-{.img-centered}
+{.img-centered .mw-60 .img-mobile-full}
 
 #### Single Sideband: Trading Simplicity for Efficiency
 
@@ -80,7 +80,7 @@ This special mixer circuit combines your audio with the carrier frequency, but t
 This filter has a very sharp cutoff that passes one sideband while rejecting the other. The result is a single sideband containing all your voice information.
 
 ![Audio and a radio-frequency reference enter a balanced modulator. It produces a lower sideband and an upper sideband while suppressing the carrier between them. The signal then passes through a sideband filter to the single-sideband output. In this example, the filter passes the upper sideband and rejects the lower one. The small frequency plots show both sidebands before filtering and only the upper sideband afterward. Frequency increases from left to right; a dashed mark shows where the suppressed carrier would be.](../../../images/s3-1-ssb-generation.svg)
-{.img-centered}
+{.img-centered .mw-70 .img-mobile-full}
 
 ##### Receiving SSB: Putting It Back Together
 
@@ -109,7 +109,7 @@ The instantaneous audio voltage moves the RF frequency above or below its center
 > **Key Information:** Frequency modulation changes the instantaneous frequency of an RF wave to convey information. {{< link id="G8A03" >}}
 
 ![An audio wave rises and falls above a frequency-modulated radio-frequency wave. Time runs from left to right. The RF peaks keep the same height, but the cycles bunch closer together and then spread farther apart as the audio changes. Closely spaced cycles mean a higher instantaneous frequency; widely spaced cycles mean a lower one. The pattern repeats with the audio wave. Here the information changes the spacing of the RF cycles, rather than their height.](../../../images/s3-1-frequency-modulation.svg)
-{.img-centered caption="The RF cycles move closer together or farther apart while their amplitude stays constant."}
+{.img-centered .mw-60 .img-mobile-full caption="The RF cycles move closer together or farther apart while their amplitude stays constant."}
 
 FM's constant amplitude lets receivers reject some amplitude noise, making it useful for local VHF/UHF communication and broadcasting. It still becomes noisy when the signal is weak and can suffer interference.
 
@@ -149,45 +149,12 @@ Signs of overmodulation include:
 - Flat-topped waveforms on an oscilloscope
 - Interference complaints from stations on nearby frequencies
 
-##### Proper Station Setup
+##### Choosing and Setting Up a Voice Mode
 
-To avoid modulation problems:
+**SSB** puts your power into one voice sideband, useful for long-distance contacts on a crowded HF band. Speak in a normal voice at the recommended microphone distance and adjust the gain for the ALC indication your radio specifies. A little speech processing can help a weak signal stand out, but too much distorts your voice. [Section 7.3]({{% pageref "7.3" %}}) walks through those adjustments.
 
-**For SSB Operation:**
-- Set microphone gain using the manufacturer’s recommended ALC indication
-- Use the microphone distance recommended by its manufacturer (usually about 2 inches from your mouth)
-- Speak in a normal, conversational tone
-- Use speech processing sparingly—it can help in weak signal conditions but easily causes overmodulation
+**FM** is a common choice for local VHF or UHF contacts through a repeater. Keep microphone gain moderate and select the deviation the repeater expects, commonly 5 kHz for standard FM or 2.5 kHz for narrow FM.
 
-**For FM Operation:**
-- Use the appropriate deviation setting: commonly 5 kHz for amateur FM or 2.5 kHz for narrow FM
-- Keep microphone gain moderate—FM doesn't benefit from high audio levels
-- Remember that FM becomes much noisier when the received signal falls below the receiver’s useful threshold
+**AM** is useful for vintage-equipment contacts or when the other station has a simple AM receiver.
 
-**General Guidelines:**
-- Monitor your transmitted signal when possible (use a second receiver or ask for audio reports)
-- Watch your transmitter’s meters—ALC helps assess drive; SWR checks the load, not modulation quality
-- If you have access to an oscilloscope, use it to check your modulation quality
-
-#### Choosing the Right Modulation Method
-
-Your choice of modulation depends on several factors:
-
-**Use SSB when:**
-- Operating HF for long-distance communication
-- Power efficiency matters (portable/mobile operation)
-- Bandwidth is limited
-- You need maximum range from your power
-
-**Use FM when:**
-- Operating VHF/UHF for local communication
-- Audio quality is more important than efficiency
-- You're using an FM repeater
-- You want simple, reliable operation
-
-**Use AM when:**
-- Operating with vintage equipment or in special events
-- You want compatibility with AM broadcast receivers
-- Simplicity of operation is the priority
-
-Understanding these analog modulation methods gives you the foundation for effective HF operation and sets the stage for understanding the digital modes we'll explore next.
+To check how your signal sounds, listen on a second receiver or ask another operator for an audio report. An oscilloscope can show distortion that the SWR meter won’t reveal. SWR tells you how well the load is matched.

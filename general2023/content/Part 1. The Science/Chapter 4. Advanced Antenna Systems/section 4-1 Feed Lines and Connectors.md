@@ -37,7 +37,7 @@ This characteristic impedance is a fundamental property of the feed line itself.
 Window line (ladder line with rectangular cutouts) keeps loss low through its high impedance and mostly air dielectric. When matched, its higher impedance means less current for the same power, reducing heating in the wires. Those windows aren't decorative—they reduce dielectric loss while maintaining conductor spacing.
 
 ![Coax has a central conductor surrounded by insulation, with a conducting shield wrapped around that insulation. Window line instead has two parallel wires held apart by insulating material. Rectangular openings remove much of the material between the wires while keeping their spacing fixed. The key difference is one conductor surrounding the other in coax, compared with two side-by-side conductors in window line.](../../../images/s4-1-feed-lines.svg)
-{.img-centered}
+{.img-centered .mw-70 .img-mobile-full}
 
 The tradeoff? Window line demands respect:
 - Keep it away from metal objects

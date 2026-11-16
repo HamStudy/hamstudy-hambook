@@ -8,55 +8,31 @@ status: complete1
 
 ## Structure of the HamBook
 
-This HamBook is divided into two main parts:
-
 ### Part 1: Expanding on Radio Science {#how-to-use-part-1}
 
-This part expands on Technician-level electrical and radio principles:
-
-- **[Electrical Foundations]({{% pageref "chpt1" %}})**: AC circuits, reactance, impedance, resonance, transformers, and power measurements.
-- **[Components and Circuits]({{% pageref "chpt2" %}})**: RF components, amplifiers, power supplies, and digital circuits.
-- **[Signal Theory and Modulation]({{% pageref "chpt3" %}})**: How radios create and receive signals, how modulation carries information, and how much bandwidth a signal uses.
-- **[Advanced Antenna Systems]({{% pageref "chpt4" %}})**: Feed lines, impedance matching, and common HF antenna designs.
-- **[Understanding RF Propagation]({{% pageref "chpt5" %}})**: How the atmosphere affects the path between stations.
+[Part 1]({{% pageref "pt1" %}}) follows a signal from the circuits in your radio through the antenna and out into the ionosphere. If you have a strong radio and electronics background then a lot of this could be review.
 
 ### Part 2: Expanding on Radio Operation {#how-to-use-part-2}
 
-This part covers the practical knowledge you'll use with a General Class License:
-
-- **[Safety]({{% pageref "chpt6" %}})**: Electrical safety, RF exposure limits, and grounding practices essential for HF stations.
-- **[Setting Up Your HF Station]({{% pageref "chpt7" %}})**: Connecting equipment and learning to use its controls.
-- **[Operating on the Air]({{% pageref "chpt8" %}})**: Voice, CW, and digital contacts, DXing and contests, and emergency communications.
-- **[Rules and Regulations]({{% pageref "chpt9" %}})**: Rules for General Class privileges, emission types, and messages across borders.
+[Part 2]({{% pageref "pt2" %}}) takes you into the station to set up safely, get on the air, and learn which frequencies and modes your license lets you use. These are the things that often trip up those with a background in electronics and radio; it's pretty specific to Amateur Radio, so you likely wouldn't have come across it in regular college classes or commercial radio endeavors.
 
 ## Study Strategies
 
-Some readers want to pass the exam and learn more through operating; others prefer to understand each concept first. Both approaches work, and you can choose the one that fits your goals:
+For a **quick exam review**, start with the **Key Information** boxes and *italicized exam facts*. If you recently passed Technician, the questions at the end of each section can help you spot what's new. When an answer surprises you, go back to the related explanation and try again.
 
-### The "Build on Technician" Approach
-If you passed your Technician exam recently, much of the material will feel familiar. Focus on the new concepts introduced in each chapter, paying special attention to **italicized text** and **Key Information** boxes. Use the question review at the end of each section to connect the exam answers with what you've read. Follow its HamStudy link or QR code to test yourself before moving on.
+For **deeper study**, follow the explanations, diagrams, and worked examples in order. Then try the section questions with the answers covered. If you're still puzzling over something practical, like how to tune an antenna, ask an experienced ham to show you.
 
-### The "Deep Dive" Approach
-For those who want a thorough understanding of radio theory and operation:
+{{< web-only >}}At the end of each section, the **Open in HamStudy** link opens a study session for that section's questions.{{< /web-only >}}
 
-1.  Read each chapter completely.
-2.  Take notes on new concepts, from circuits and antennas to HF propagation, and relate them to your interests.
-3.  Use the HamStudy buttons or QR codes to reinforce your learning immediately.
-4.  Engage with local elmers (mentors) or online communities to discuss challenging topics.
+{{< print-only >}}The QR codes at the end of sections open a study session for the questions you've just covered. Scan one with your phone to review that material in HamStudy.{{< /print-only >}}
 
-### The "Exam Focused" Approach
-If your primary goal is passing the exam quickly:
-
-1.  Skim the chapters to identify key terms and concepts, paying special attention to **Key Information** and anything in *italics*.
-2.  Use HamStudy.org or the app in "Study Mode" alongside the book.
-3.  Review the questions and answers in the book, then test yourself in HamStudy. Read the related explanations for concepts you find difficult or interesting.
-4.  Track your progress using the app's analytics features to target weak areas.
+HamStudy.org offers free question study and practice exams. The mobile app also lets you study offline.
 
 ### Working Through the Math
 
-Some math helps answer pool questions; some explains why a concept works. Brief bold notes mark extra math you can skim while keeping the concept in mind. If a calculation feels intimidating, keep reading and return to it later.
+Some math helps answer pool questions, and some explains why a concept works. Brief bold notes mark extra math you can skim. Where a calculation matters for the exam, try following the worked example one step at a time.
 
-You can also memorize an exam answer or set a difficult calculation aside while studying other topics. You need 26 correct answers out of 35 to pass. Only one question comes from each pool group, so several related calculations may account for just one question on your exam.
+Only one question comes from each pool group, so several related calculations may account for just one question on your exam. If you're stuck, give yourself permission to move on. You can come back to that example when you've had a break.
 
 ### Final Exam Preparation
 
@@ -69,18 +45,4 @@ Once you've covered the material, use this study cycle:
 
 Consistently scoring 85% or better gives you a useful margin above the 26-out-of-35 passing score.
 
-You can also keep this book as a reference after passing. Use the contents to return to a topic when it becomes useful in your station. You don't have to become an expert in every part of the hobby before getting started.
-
-## Enhancing Your Study with HamStudy
-
-This book is designed to work seamlessly with HamStudy.org and the HamStudy mobile app. Use **Study Mode** and practice exams to test your knowledge as you read. The **Open in HamStudy** links and QR codes connect each section to its questions.
-
-{{< web-only >}}At the end of each section, the **Open in HamStudy** link opens a study session for that section's questions.{{< /web-only >}}
-
-{{< print-only >}}The QR codes at the end of sections open a study session for the questions you've just covered. Scan one with your phone to review that material in HamStudy.{{< /print-only >}}
-
-The website offers free question study and practice exams. The mobile app also lets you study offline.
-
-Whether you're aiming for a perfect score or just enough to pass, combining this book with HamStudy's adaptive learning tools gives you a way to find weak areas and decide what to review next.
-
-When you're ready to take the exam, you'll work with a volunteer examiner team. The next section explains how that process works.
+You can also keep this book as a reference after passing. When you're ready to try a new mode or put up your first HF antenna, the contents will take you back to the relevant chapter.

@@ -60,17 +60,13 @@ The matching network (antenna tuner) transforms the impedance seen by the transm
 A suitable tuner at the antenna feed point can instead match the antenna to the feed line, reducing SWR and loss along the line. Location matters!
 
 ![With a tuner next to the radio, the radio sees a standing wave ratio of one to one, but the feed line beyond the tuner still has a five-to-one ratio. With a suitable tuner at the antenna instead, the feed line has a one-to-one ratio. Moving the matching point changes which part of the system is matched. These ideal examples omit tuner and feed-line losses.](../../../images/s4-2-tuner-location.svg)
-{.img-centered caption="These ideal examples omit tuner and feed-line losses."}
+{.img-centered .mw-70 .img-mobile-full caption="These ideal examples omit tuner and feed-line losses."}
 
 > **Key Information:** An impedance matching transformer at a transmitter output is used to present the desired impedance to the transmitter and feed line. {{< link id="G7C03" >}}
 
 Inside a transmitter, an output transformer can match the amplifier to the feed line. Think of it as a pressure regulator on mismatched pipes—it protects the pump but doesn't fix the plumbing problem. The transformer presents the desired impedance at its connection; it doesn't erase losses elsewhere in the system.
 
-#### Connecting the Model to a Reading
-
-These relationships explain why an SWR reading needs context. A reading taken between the radio and tuner describes the match at that point, not necessarily the match at the antenna. Likewise, a reading taken through a lossy feed line can hide a larger mismatch at its far end. Record the frequency and where the measurement was made before comparing two readings.
-
-Sections [7.1]({{% pageref "7.1" %}}) and [7.6]({{% pageref "7.6" %}}) introduce the instruments used to make those measurements and the checks that help you trust them. The principle here is independent of the instrument: a good match at one point does not tell you how efficiently the whole station delivers a signal to another receiver.
+Record the frequency and the meter’s position when comparing SWR readings. Sections [7.1]({{% pageref "7.1" %}}) and [7.6]({{% pageref "7.6" %}}) explain how to make and check those measurements.
 
 #### System Performance: The Complete Picture
 
@@ -96,16 +92,4 @@ Both antenna gains use the isotropic reference from [Section 1.5]({{% pageref "1
 
 This is your safety cushion against fading and interference. If your receiver needs -100 dBm minimum and receives -71 dBm, you have 29 dB of link margin.
 
-These system-level concepts tie everything together—your feed line losses discussed earlier, the impedance matching we've covered here, and the antenna radiation efficiency we'll explore in upcoming sections all contribute to whether your signal makes it through.
-
-#### The Complete Picture
-
-Remember: perfect SWR doesn't guarantee good performance. A dummy load has 1:1 SWR but makes zero contacts! SWR describes the impedance match, not radiation effectiveness.
-
-Focus on the complete system:
-- A match your radio can handle at its output (often SWR under 2:1 there)
-- Proper antenna design and placement
-- Quality feed line appropriate for frequency
-- Regular measurements to catch problems early
-
-Don't chase perfect SWR at the expense of getting on the air. That attic dipole with 1:1 SWR may perform worse than a well-placed outdoor antenna at 2:1. The goal isn't impressing your SWR meter—it's making contacts.
+Remember: perfect SWR doesn't guarantee good performance. A dummy load gives you a 1:1 SWR while turning your signal into heat. A well-placed outdoor dipole at 2:1 might make more contacts than a perfectly matched attic antenna. Don't get so caught up in checking and tuning your SWR that you lose track of other factors!

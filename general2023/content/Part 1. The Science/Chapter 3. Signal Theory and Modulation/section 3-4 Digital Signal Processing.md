@@ -31,7 +31,7 @@ Using the right bandwidth filter:
 For example, a narrow CW signal does not need the broad passband used for voice. Narrowing that passband can exclude noise while retaining the CW signal. For a voice signal, however, too narrow a passband removes parts of the speech along with the noise.
 
 ![Both plots show frequency increasing from left to right. A narrow Morse-code, or CW, signal fits inside a narrow filter. A wider filter, marked by dashed edges, would admit extra noise outside the wanted signal. The broader voice signal needs a wider filter to include all its frequencies. Here, the dashed narrow edges cut through the voice signal, showing that some wanted information would be lost. A suitable filter passes the wanted signal without admitting an unnecessarily wide range of frequencies.](../../../images/s3-4-receiver-filter-width.svg)
-{.img-centered caption="The solid box shows a suitable filter width; dashed edges show a poor choice. Too wide admits extra noise; too narrow removes wanted information."}
+{.img-centered .mw-70 .img-mobile-full caption="The solid box shows a suitable filter width; dashed edges show a poor choice. Too wide admits extra noise; too narrow removes wanted information."}
 
 For a computer digital mode, the radio may pass a wider range containing several signals while the program filters each decoded signal narrowly. The radio’s passband and the decoder’s bandwidth need not be identical. [Section 7.2]({{% pageref "7.2" %}}) applies these choices to receiver controls.
 
@@ -42,7 +42,7 @@ For a computer digital mode, the radio may pass a wider range containing several
 In Software-Defined Radio (SDR), software performs functions that otherwise would be fixed by circuit design. It is useful to picture a computer with an antenna input, but the physical radio still matters. An analog-to-digital converter (ADC) turns sampled signal values into numbers. Software can filter those values, detect the information they carry, or create modulation for a transmitter. A digital-to-analog converter (DAC) produces an analog output when needed, such as audio for a speaker. The radio still needs filters and amplifiers around those converters.
 
 ![The received signal travels from the antenna and analog input circuits to an analog-to-digital converter, or ADC, which turns signal samples into numbers. Digital signal processing then filters those numbers and recovers the information carried by the signal. Next, a digital-to-analog converter turns the processed audio data back into an analog signal, and an audio amplifier drives the speaker. Arrows connect the stages in that order. Digital processing sits in the middle of the path, with analog circuitry before and after it.](../../../images/s3-4-dsp-signal-path.svg)
-{.img-centered caption="Some radios convert RF directly; others first shift it to a lower frequency. Both still need analog hardware."}
+{.img-centered .mw-70 .img-mobile-full caption="Some radios convert RF directly; others first shift it to a lower frequency. Both still need analog hardware."}
 
 #### I and Q Signals: The Technical Foundation
 
@@ -55,7 +55,7 @@ Modern DSP radios use a special technique involving I and Q signals:
 The “I” (in-phase) and “Q” (quadrature) components use reference directions 90 degrees apart. Remember our phase concepts from [Section 1.2]({{% pageref "1.2" %}})? The two streams of values tell us how much of each component is present; they are not necessarily identical copies of a waveform separated by a delay.
 
 ![The horizontal I axis and vertical Q axis meet at a right angle, 90 degrees apart. Starting at their shared origin, move right by the I component, then up by the Q value. A diagonal arrow connects the origin to that final point, representing the combined signal. Its length represents amplitude, and its angle from the I axis represents phase. Changing I or Q can change both the length and angle of the combined signal.](../../../images/s3-4-iq-components.svg)
-{.img-centered caption="I and Q use reference directions 90° apart. Their values set the size and angle of the combined signal."}
+{.img-centered .mw-60 .img-mobile-full caption="I and Q use reference directions 90° apart. Their values set the size and angle of the combined signal."}
 
 For example, a positive I value alone points along the I axis. Adding a positive Q value changes both the size and angle of the combined signal. Changing these values over time lets the radio control amplitude and phase.
 

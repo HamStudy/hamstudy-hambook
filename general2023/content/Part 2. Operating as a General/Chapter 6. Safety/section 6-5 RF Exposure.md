@@ -40,7 +40,7 @@ For the maximum permissible exposure (MPE) limits used here, the averaging perio
 Check the busiest applicable window. Five minutes transmitting followed by five minutes listening includes a six-minute controlled-exposure window with five minutes of transmission: $5 \div 6 \approx 83\%$, rather than 50%. Repeating that pattern throughout a 30-minute uncontrolled-exposure window gives 50%.
 
 ![The radio transmits from minute zero to minute five, then receives until minute ten. Across all ten minutes, transmission takes five out of ten minutes, or fifty percent. But a six-minute window starting at zero includes five minutes of transmission and only one minute of receiving. Five divided by six is about eighty-three percent. Equal transmit and receive time over ten minutes does not mean fifty percent within every shorter window.](../../../images/s6-5-time-averaging.svg)
-{.img-centered caption="The six-minute controlled-exposure window includes five minutes of transmission. Repeating the pattern over a 30-minute uncontrolled-exposure window averages 50%."}
+{.img-centered .mw-70 .img-mobile-full caption="The six-minute controlled-exposure window includes five minutes of transmission. Repeating the pattern over a 30-minute uncontrolled-exposure window averages 50%."}
 
 There is a second factor, **modulation duty cycle**: the average power **while transmitting** compared with peak envelope power (PEP). SSB speech rises and falls, and CW has spaces between keyed elements, so their average power can be below PEP. FM, RTTY and FT8 signals are close to full power while the signal is actually on. Do not count the same pauses in both factors.
 

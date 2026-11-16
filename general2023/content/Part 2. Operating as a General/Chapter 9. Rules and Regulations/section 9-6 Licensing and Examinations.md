@@ -65,10 +65,8 @@ The minimum age applies to examining, not to obtaining an amateur license. A for
 
 #### From Study to Operating
 
-This book has connected the behavior of circuits and radio waves to the choices you make at a station: selecting an antenna, recognizing a signal problem, choosing a mode, and conducting a contact within your privileges. You do not need every type of equipment or an interest in every activity to begin using those ideas.
+As you prepare for the exam, use the linked questions to find topics that still need review. When an answer is unclear, return to the explanation and work through the example.
 
-As you prepare for the exam, use the linked questions to find topics that still need review. When an answer is unclear, return to the explanation and work through the example rather than relying only on the answer’s wording. After the exam, keep current frequency and operating references available while experience makes the familiar choices easier.
-
-Choose an activity that interests you and start with a contact your station can support. Listen, make the needed checks, and give the other operator time to reply. A short exchange is a useful beginning; the next question, adjustment, or conversation gives you somewhere to continue.
+Once you earn your upgrade, choose an activity that interests you and start with a contact your station can support. Keep a band chart handy, find a station calling CQ, and take time to listen. When you’re ready, answer the call. A signal report and a name are plenty to start a conversation.
 
 <!-- Editorial sources, checked 2026-09-26: 47 CFR 97.5, 97.9(b), 97.21, 97.25, 97.119(f), 97.505, 97.509, 97.511, 97.519, and 1.949; current questions G1D01–G1D04 and G1D06–G1D11. -->

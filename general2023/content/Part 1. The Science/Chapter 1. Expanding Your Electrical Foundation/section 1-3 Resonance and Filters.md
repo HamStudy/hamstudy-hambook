@@ -29,7 +29,7 @@ Let's see how resonance works in practical circuit configurations.
 There are two fundamental ways to connect inductors and capacitors in resonant circuits, and they behave quite differently:
 
 ![Two circuits compare an inductor and capacitor in series and in parallel. In the series circuit, current follows one path through both components. In the parallel circuit, the inductor and capacitor form separate branches between the same two terminals. Under each circuit, a graph shows frequency increasing to the right and impedance increasing upward. The series curve dips to its minimum at resonance, then rises again. The parallel curve peaks at resonance and falls on either side. These are simplified responses; real component losses limit the minimum and maximum.](../../../images/s1-3-resonance-comparison.svg)
-{.img-centered caption="Each dashed center line marks the resonant frequency on the horizontal axis. Series resonance gives minimum impedance; parallel resonance gives maximum impedance in these simple circuits. Real components limit both responses."}
+{.img-centered .img-xlarge .img-mobile-full caption="Each dashed center line marks the resonant frequency on the horizontal axis. Series resonance gives minimum impedance; parallel resonance gives maximum impedance in these simple circuits. Real components limit both responses."}
 
 1. **Series Resonant Circuit**: When L and C are in series, their reactances cancel at resonance, leaving only the resistance to limit current flow. This creates minimum impedance at the resonant frequency, allowing maximum current flow.
    
@@ -48,7 +48,7 @@ There are two fundamental ways to connect inductors and capacitors in resonant c
 Filters are circuits that pass some frequencies while rejecting others. The range a filter is designed to pass is its **passband**. As you move into General class operating, you'll encounter several types:
 
 ![Four graphs show filter output as frequency increases from left to right; a higher curve means more output. The low-pass curve stays high at low frequencies, then falls at higher frequencies. The high-pass curve does the reverse. The band-pass curve rises for a middle range of frequencies and falls on both sides. The notch curve stays high except for a narrow dip around one frequency. The sloping transitions show that these filters do not change abruptly between passing and rejecting a signal.](../../../images/s1-3-filter-responses.svg)
-{.img-centered caption="The curves show which frequencies each filter passes or reduces. The notch is narrow so it can reduce one interfering tone while preserving most of the surrounding signal."}
+{.img-centered .mw-70 .img-mobile-full caption="The curves show which frequencies each filter passes or reduces. The notch is narrow so it can reduce one interfering tone while preserving most of the surrounding signal."}
 
 1. **Low-Pass Filters**: Pass frequencies below a cutoff point
    - *Application*: Reduce harmonics from your transmitter output

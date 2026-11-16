@@ -74,7 +74,7 @@ There is another RF behavior to watch for: adjacent turns of a coil have a small
 > **Key Information:** Above its self-resonant frequency, an inductor becomes capacitive. {{< link id="G6A11" >}}
 
 ![The upper diagram shows an ideal inductor as a coil between two terminals. The lower diagram models a real coil as the same inductor with a capacitor connected in parallel across it. This capacitor represents the small, unwanted capacitance between the coil’s turns, not a separate part added to the circuit. The coil therefore has both inductance and capacitance, which can resonate together instead of behaving like an ideal inductor at every frequency.](../../../images/s2-1-inductor-self-resonance.svg)
-{.img-centered caption="A real coil has capacitance between its turns. Near and above self-resonance, the ideal-inductor model is no longer enough."}
+{.img-centered .mw-60 .img-mobile-full caption="A real coil has capacitance between its turns. Near and above self-resonance, the ideal-inductor model is no longer enough."}
 
 For example, an RF choke with self-resonance below your operating frequency may not provide the increasing inductive reactance you expect. Check its behavior at the frequency you need, not just the inductance marked on the part.
 
