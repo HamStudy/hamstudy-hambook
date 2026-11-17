@@ -1,7 +1,7 @@
 @media print {
     /* Embedded SVG diagrams must use their light palette when printing. */
     .markdown img { color-scheme: only light; }
-    /* Let the licensing overview finish before the Part 1 opener. */
+    /* Keep list spacing compact in the introduction. */
     .book-section[id^="copyright"] ul,
     .book-section[id^="copyright"] ol {
       margin-top: .6rem;

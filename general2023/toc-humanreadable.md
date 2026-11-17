@@ -8,10 +8,10 @@ status: generated
 ## Introduction
 
 - Introduction
-- The General Class License
+- Upgrading to General
 - Understanding the General Exam
+- Taking the Exam
 - How to Use This HamBook
-- Licensing Overview
 
 ## Part 1: Expanding on Radio Science
 
