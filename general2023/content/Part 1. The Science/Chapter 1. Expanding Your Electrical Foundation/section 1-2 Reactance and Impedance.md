@@ -77,7 +77,7 @@ There’s a handy shortcut for components in parallel.
 
 > **Key Information:** Admittance is the inverse of impedance. {{< link id="G5A07" >}}
 
-Just as conductance is the inverse of resistance, admittance (Y) is the inverse of impedance:
+Impedance tells us how much a circuit opposes AC at a given frequency. Admittance (Y), the inverse, tells us how easily that current flows. The higher the impedance, the lower the admittance.
 
 $$Y = \frac{1}{Z}$$
 
