@@ -1,7 +1,7 @@
 ---
 slug: chpt6
 questions: []
-status: complete1
+status: publish1
 ---
 
 ## Chapter 6: Safety

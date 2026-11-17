@@ -1,7 +1,7 @@
 ---
 questions: []
 slug: chpt5
-status: complete1
+status: publish1
 ---
 
 # Chapter 5: Understanding RF Propagation

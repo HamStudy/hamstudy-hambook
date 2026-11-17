@@ -2,7 +2,7 @@
 title: "Understanding the General Exam"
 epubtype: introduction
 slug: understanding
-status: complete1
+status: publish1
 ---
 
 # Understanding the General Exam

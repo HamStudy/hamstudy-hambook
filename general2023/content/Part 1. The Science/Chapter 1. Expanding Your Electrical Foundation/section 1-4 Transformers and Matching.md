@@ -2,8 +2,7 @@
 chapter: "1"
 section: "1.4"
 questions: ["G5C01", "G5C02", "G5C05", "G5C06", "G5C07"]
-status: complete1
-slug: section-14-impedance-matching-and-transformers
+status: publish1
 ---
 
 ### Section 1.4: Transformers and Matching

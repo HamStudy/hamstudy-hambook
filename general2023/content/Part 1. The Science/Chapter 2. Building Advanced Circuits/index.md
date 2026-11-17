@@ -1,7 +1,7 @@
 ---
 questions: []
 slug: chpt2
-status: complete1
+status: publish1
 ---
 
 # Chapter 2: Components and Circuits

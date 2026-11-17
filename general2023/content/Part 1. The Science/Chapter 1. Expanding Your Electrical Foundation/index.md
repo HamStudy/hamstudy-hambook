@@ -2,7 +2,7 @@
 questions: []
 slug: chpt1
 pagebreak: false
-status: complete1
+status: publish1
 ---
 
 ## Chapter 1: Electrical Foundations

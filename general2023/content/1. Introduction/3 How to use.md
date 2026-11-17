@@ -1,7 +1,7 @@
 ---
 epubtype: introduction
 slug: how-to-use
-status: complete1
+status: publish1
 ---
 
 # How to Use This HamBook

@@ -1,7 +1,7 @@
 ---
 slug: chpt7
 questions: []
-status: complete1
+status: publish1
 ---
 
 ## Chapter 7: Setting Up Your HF Station

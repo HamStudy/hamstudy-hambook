@@ -2,7 +2,7 @@
 chapter: "7"
 section: "7.1"
 questions: ["G4A06", "G4B10", "G4B11"]
-status: complete1
+status: publish1
 ---
 
 ### Section 7.1: Station Fundamentals

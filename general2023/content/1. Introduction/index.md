@@ -2,7 +2,7 @@
 slug: copyright
 epubtype: introduction
 fontsize: smaller
-status: complete1
+status: publish1
 cascade:
   params:
     hideSectionFooter: true

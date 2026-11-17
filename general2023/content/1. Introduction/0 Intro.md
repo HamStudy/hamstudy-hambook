@@ -3,7 +3,7 @@ title: Introduction
 slug: intro
 pagebreak: false
 epubtype: introduction
-status: complete1
+status: publish1
 ---
 
 # Introduction

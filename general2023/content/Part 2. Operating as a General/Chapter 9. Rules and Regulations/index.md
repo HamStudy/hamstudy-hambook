@@ -1,7 +1,7 @@
 ---
 slug: chpt9
 questions: []
-status: complete1
+status: publish1
 ---
 
 ## Chapter 9: Rules and Regulations
