@@ -79,9 +79,9 @@ Some modes use variable-length encoding:
 
 > **Key Information:**
 > - PSK31 uses Varicode for sending characters. {{< link id="G8C12" >}}
-> - PSK31 uppercase letters use longer Varicode bit sequences and thus slow down transmission. {{< link id="G8C08" >}}
+> - PSK31 upper case letters use longer Varicode bit sequences and thus slow down transmission. {{< link id="G8C08" >}}
 
-Like Morse code, Varicode assigns shorter bit patterns to common letters (like 'e' and 't') and longer patterns to rare characters (like 'q' and 'z'). This optimization makes a real difference in transmission speed. Most experienced PSK31 operators type in lowercase to keep things moving quickly, saving uppercase for when they really want to emphasize something.
+Like Morse code, Varicode assigns shorter bit patterns to common letters (like 'e' and 't') and longer patterns to rare characters (like 'q' and 'z'). This optimization makes a real difference in transmission speed. Most experienced PSK31 operators type in lower case to keep things moving quickly, saving upper case for when they really want to emphasize something.
 
 #### Weak Signal Modes: Pulling Signals from the Noise
 
@@ -91,7 +91,7 @@ Some of the most impressive digital modes specialize in extremely weak signal co
 
 > **Key Information:** WSPR is a digital mode used as a low-power beacon for assessing HF propagation. {{< link id="G8C02" >}}
 
-WSPR (pronounced "whisper") uses long transmissions and a very narrow signal to recover limited information. Stations transmit just their callsign, grid square, and power level using incredibly low power, sometimes just milliwatts. Yet receivers worldwide can decode these whisper-quiet signals and automatically report what they heard via the internet.
+WSPR (pronounced "whisper") sends a call sign, grid square, and power level in a long, narrowband transmission. Receiving stations can automatically share their reports online.
 
 When conditions cooperate, it’s fascinating to run WSPR at 200 milliwatts and see reports from stations thousands of miles away that heard your tiny signal. The automatic reporting creates a real-time global map of propagation conditions.
 
@@ -111,19 +111,19 @@ A computer may detect a weak signal, but that does not guarantee it recovers eve
 
 ##### Forward Error Correction (FEC)
 
-> **Key Information:** Forward error correction (FEC) allows the receiver to correct data errors by transmitting redundant information with the data. {{< link id="G8C10" >}}
+> **Key Information:** Forward Error Correction allows the receiver to correct data errors by transmitting redundant information with the data. {{< link id="G8C10" >}}
 
 It's like sending the same message in multiple slightly different ways—if one version gets garbled by noise or fading, the others provide enough information to reconstruct what was intended. No retransmission is required for errors the code can correct! For a small example, send 111 to represent 1. If noise changes it to 101, a majority vote still points to 1. Real codes use more efficient patterns, and too many errors can defeat them.
 
 ##### ARQ: When Accuracy Matters
 
-When a receiving station can request another transmission, Automatic Repeat reQuest (ARQ) provides a different approach:
+When a receiving station can request another transmission, automatic repeat request (ARQ) provides a different approach:
 
 > **Key Information:**
-> - In an ARQ mode, a NAK response means request retransmission of the packet. {{< link id="G8C05" >}}
+> - In ARQ, a negative acknowledgment (NAK) asks the sender to retransmit the packet. {{< link id="G8C05" >}}
 > - Excessive transmission attempts in ARQ mode result in the connection being dropped. {{< link id="G8C06" >}}
 
-When the receiving station detects corrupted data, it automatically sends a "Negative Acknowledgment" (NAK) requesting a do-over. It's like having an automatic "say again?" response. Dropping the connection prevents systems from getting stuck trying forever when propagation just isn't cooperating.
+The receiving station sends this negative acknowledgment (NAK) when it detects corrupted data. It's like having an automatic "say again?" response. Dropping the connection prevents systems from getting stuck trying forever when propagation just isn't cooperating.
 
 #### Packet Radio and Network Protocols
 

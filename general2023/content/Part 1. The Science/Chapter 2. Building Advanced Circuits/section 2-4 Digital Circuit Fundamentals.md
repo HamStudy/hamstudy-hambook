@@ -41,11 +41,9 @@ The fundamental building blocks of digital circuits are logic gates—components
  0 | 1 | 0
  1 | 0 | 0
  1 | 1 | 1
-{.w-50 caption="Table 1: AND gate truth table"}
+{.w-50 caption="AND gate truth table"}
 
-Think of an AND gate as similar to a series circuit with two switches—both must be closed for current to flow. In digital terms:
-- If Input A = 1 AND Input B = 1, then Output = 1
-- For any other combination, Output = 0
+An AND gate works like two switches in series. Both must be closed for current to flow.
 
 Other basic gates include OR, NOT, NOR, NAND, and XOR.
 
@@ -57,7 +55,7 @@ Modern equipment uses integrated circuits (ICs) for most digital functions. Thes
 
 > **Key Information:** MMIC stands for Monolithic Microwave Integrated Circuit. {{< link id="G6B02" >}}
 
-“Monolithic” means the circuit is formed together on one semiconductor chip. An MMIC can handle analog RF signals; being an IC does not make it digital. These specialized ICs are designed for radio frequency and microwave applications, integrating various RF functions into a single chip. Common examples include but are not limited to amplifiers, mixers, oscillators, and filters.
+A monolithic microwave integrated circuit is built on one semiconductor chip. It can handle analog RF signals, serving as an amplifier, mixer, oscillator, or filter.
 
 MMICs are a key reason why modern handhelds and mobile radios can offer sophisticated features in compact sizes.
 
@@ -67,7 +65,7 @@ Digital ICs come in different "families" with distinct characteristics:
 
 > **Key Information:** An advantage of CMOS integrated circuits compared to TTL integrated circuits is low power consumption. {{< link id="G6B03" >}}
 
-**CMOS (Complementary Metal-Oxide-Semiconductor)** can use very little power, especially when not switching. **TTL** stands for **Transistor-Transistor Logic**.
+**CMOS (complementary metal-oxide-semiconductor)** can use very little power, especially when not switching. **TTL** stands for **transistor-transistor logic**.
 
 Check a device’s actual supply and input ratings before connecting logic families. CMOS switching still consumes energy, so faster and more complex chips can use substantial power. Modern amateur radio equipment widely uses CMOS technology due to its energy efficiency—particularly important for portable and battery-powered devices. This technology choice directly impacts your radio's battery life and heat generation.
 
@@ -77,8 +75,8 @@ While we're focusing on digital circuits, it's important to understand how analo
 
 > **Key Information:** An integrated circuit operational amplifier is an analog device. {{< link id="G6B06" >}}
 
-![An operational amplifier is drawn as a triangle pointing to the right. Two inputs enter its flat left side: the upper input is marked minus and the lower input is marked plus. The output leaves the triangle’s right-hand point. The minus sign identifies the inverting input, and the plus sign identifies the non-inverting input; these are signal inputs, not the amplifier’s power-supply connections.](../../../images/s2-4-op-amp.svg)
-{.float-right .img-small caption="Figure 1: Operational Amplifier symbol"}
+![An operational amplifier is drawn as a triangle pointing to the right. Two inputs enter its flat left side: the upper input is marked minus and the lower input is marked plus. The output leaves the triangle’s right-hand point. The minus sign identifies the inverting input, and the plus sign identifies the non-inverting input; these are signal inputs, not the amplifier’s power supply connections.](../../../images/s2-4-op-amp.svg)
+{.float-right .img-small caption="Operational Amplifier symbol"}
 
 Operational amplifiers (op-amps) are versatile analog ICs that:
 - Amplify and condition signals
@@ -98,7 +96,7 @@ Digital circuits include specialized components for managing digital information
 A **bit** is one binary digit, 0 or 1. A **clock** provides the timing steps.
 
 ![Five rows show four register stages connected in a chain, with data moving from left to right. All four stages start at zero. A one enters on the first clock step, followed by zeros on later steps. On the next three clock steps, the one moves to the second, third, and fourth stages. All other stages hold zero. Each clock step moves the stored bit one stage toward the output at the right.](../../../images/s2-4-shift-register-static.svg)
-{.img-centered .mw-60 .img-mobile-full caption="Figure 2: A 1 followed by zeros moves one stage to the right per clock step."}
+{.img-centered .mw-60 .img-mobile-full caption="A 1 followed by zeros moves one stage to the right per clock step."}
 
 A shift register functions like a bucket brigade for digital data—each pulse of a clock signal moves the data one position down the line. This sequential movement is important for:
 - Converting between serial and parallel data forms
@@ -139,7 +137,7 @@ The number of bits in a counter determines how many states it can represent: $2^
 While we've focused on the fundamental components, these digital building blocks combine to create the sophisticated capabilities in modern equipment:
 
 - **Digital Signal Processing (DSP)** uses these elements at high speeds to filter signals and reduce noise
-- **Software Defined Radio (SDR)** uses digital processing to perform radio functions in software running on processing hardware, rather than in fixed analog circuits
+- **Software-Defined Radio (SDR)** uses digital processing to perform radio functions in software running on processing hardware, rather than in fixed analog circuits
 - **Digital Mode Operation** relies on these components to encode and decode signals
 
 When you use features like noise reduction, notch filters, or digital mode interfaces, you're benefiting from these digital fundamentals working together.

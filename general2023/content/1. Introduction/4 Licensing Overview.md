@@ -7,7 +7,7 @@ status: complete1
 
 # Licensing Overview
 
-The General Class License is the second step in the US amateur radio licensing structure, building upon Technician privileges. Here's a quick look at the license classes and what lies ahead.
+The General class license is the second step in the US amateur radio licensing structure, building upon Technician privileges. Here's a quick look at the license classes and what lies ahead.
 
 ## The Three US License Classes
 
@@ -15,7 +15,7 @@ The Federal Communications Commission (FCC) issues three license classes to new 
 
 1.  **Technician**: Your entry ticket. VHF/UHF privileges, local repeaters, limited HF access.
 2.  **General**: The class this book prepares you for. Broader HF privileges, more options for international communication, higher power limits on many HF bands, and eligibility for accreditation to *administer Technician exams*.
-3.  **Amateur Extra**: The highest class. Additional HF frequency privileges, eligibility for more call sign formats, and eligibility for accreditation to administer all amateur exam elements.
+3.  **Amateur Extra**: The highest class. Additional HF band segments, more call sign options, and eligibility for accreditation to *administer all three license exams*.
 
 Each license builds on the previous one and requires credit for the lower-class exams as well. Most applicants earn that credit by passing the exams. To hold an Amateur Extra license, you need credit for all three.
 
@@ -43,7 +43,7 @@ Volunteer Examiners (VEs) are licensed amateurs accredited to administer exams. 
 
 Visit [HamStudy.org/sessions](https://hamstudy.org/sessions) to find in-person and remote exams, or ask a local amateur radio club. Check the listing for fees, ID requirements, and remote-exam arrangements. Contact the VE team if you have questions.
 
-Have your FRN, accepted identification, and any license or exam-credit documents requested by the team ready. Check the VE team's rules for calculators and other materials. For a remote exam, arrange a quiet space and test the required camera, internet connection, and software beforehand. The team may ask you to show your room and work area on camera.
+Have your FRN and an accepted form of ID ready, along with any license or exam-credit documents the team asks you to bring. Check the VE team's rules for calculators and other materials. For a remote exam, arrange a quiet space and test the required camera, internet connection, and software beforehand. The team may ask you to show your room and work area on camera.
 
 ## Exam and Application Fees
 
@@ -57,6 +57,6 @@ If you already hold a Technician license, you can use temporary General privileg
 
 ## Maintaining Your License
 
-Your General Class License normally has a **10-year** term and can be renewed without another exam. If it expires, you have a two-year grace period to renew, but the grace period alone does not allow you to transmit. A timely and properly filed renewal application can allow continued operation while the FCC processes it. [Section 9.6]({{% pageref "9.6" %}}) explains renewal and the exam credit available after a license has expired.
+Your General class license normally has a **10-year** term and can be renewed without another exam. If it expires, you have a two-year grace period to renew, but the grace period alone does not allow you to transmit. A timely and properly filed renewal application can allow continued operation while the FCC processes it. [Section 9.6]({{% pageref "9.6" %}}) explains renewal and the exam credit available after a license has expired.
 
 **Important Note**: If you held a Technician license granted before March 21, 1987, you may qualify for Element 3 credit. Check with a Volunteer Examiner (VE) team about the required proof and application. The old license document does not itself grant General operating privileges.

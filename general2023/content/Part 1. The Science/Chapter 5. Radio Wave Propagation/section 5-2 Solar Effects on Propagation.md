@@ -13,22 +13,22 @@ Your reliable 40-meter net suddenly becomes unreachable. The dead 10-meter band 
 
 Deep inside the Sun, currents of hot plasma surge and churn. Plasma is gas in which electrons have separated from atoms, leaving charged particles. These currents drag magnetic fields with them and twist them into knots. The tangled fields punch through the surface, blocking the normal flow of heat and leaving patches roughly 3,000°F cooler than their surroundings. Against the blazing backdrop, these cooler regions stand out as dark spots—sunspots.
 
-For a radio operator, those dark patches are a visible clue to what the bands might do. Magnetic activity around sunspots is associated with stronger ultraviolet emissions. The radiation frees more electrons in the ionosphere, which can bend higher-frequency signals back toward Earth and raise the maximum usable frequency (MUF) on your path. {{< link id="G3A01" >}}
+For a radio operator, those dark patches are a visible clue to what the bands might do. Magnetic activity around sunspots is associated with stronger ultraviolet emissions. The radiation frees more electrons in the ionosphere, which can bend higher-frequency signals back toward Earth and raise the Maximum Usable Frequency (MUF) on your path. {{< link id="G3A01" >}}
 
 > **Key Information:**
 > - Higher sunspot numbers generally indicate a greater probability of good propagation at higher frequencies.
 > - The 15-meter, 12-meter, and 10-meter bands are the least reliable for long-distance communications during periods of low solar activity.
 > - The 20-meter band usually supports worldwide propagation during daylight hours at any point in the solar cycle.
 
-As sunspot numbers rise, increased ionizing radiation generally improves the chances for propagation on 15, 12, and even 10 meters. During solar maximum, ten meters can open for worldwide communication with modest power and simple antennas. There is no sunspot count that guarantees a particular band is open on your path.
+As sunspot numbers rise, increased ionizing radiation generally improves the chances for propagation on 15, 12, and even 10 meters. Near the peak of the Sun's roughly 11-year activity cycle, 10 meters can open worldwide even with modest power and a simple antenna. There is no sunspot count that guarantees a particular band is open on your path.
 
-The opposite occurs during solar minimum when sunspot numbers drop near zero. {{< link id="G3A04" >}} With minimal solar radiation, the ionosphere weakens. On some paths the MUF may stay below 14 MHz for extended periods, making upper HF bands much less reliable. DX operation shifts to 40 and 80 meters, where absorption and noise create additional challenges.
+The opposite occurs during solar minimum when sunspot numbers drop near zero. {{< link id="G3A04" >}} With less ionizing ultraviolet radiation reaching the upper atmosphere, fewer electrons are freed. On some paths the MUF may stay below 14 MHz for extended periods, making upper HF bands much less reliable. DX operation shifts to 40 and 80 meters, where absorption and noise create additional challenges.
 
-Throughout these extremes, one band remains dependable. {{< link id="G3A07" >}} Twenty meters' frequency sits in a useful sweet spot—high enough to reduce D-layer absorption, but requiring less ionization than 10 meters. That makes it a dependable place to look for *daytime DX throughout the cycle*, though no band is open on every path all the time.
+Throughout these extremes, one band remains dependable. {{< link id="G3A07" >}} Twenty meters' frequency sits in a useful sweet spot—high enough to reduce D-region absorption, but requiring less ionization than 10 meters. That makes it a dependable place to look for *daytime DX throughout the cycle*, though no band is open on every path all the time.
 
 #### Measuring Solar Activity
 
-While sunspot counts provide rough guidance, the solar flux index offers precise measurement of the sun's radio energy output. {{< link id="G3A05" >}}
+While sunspot counts provide rough guidance, the solar flux index offers precise measurement of the Sun's radio energy output. {{< link id="G3A05" >}}
 
 > **Key Information:** The solar flux index is a measure of solar radiation at a wavelength of 10.7 centimeters.
 
@@ -36,11 +36,11 @@ Radio telescopes measure this 10.7-cm radiation daily; it tracks solar activity 
 
 #### Solar Disturbances: Flares and Particles
 
-The sun's steady radiation maintains normal propagation, while explosive events create sudden dramatic changes.
+The Sun's steady radiation maintains normal propagation, while explosive events create sudden dramatic changes.
 
 ##### Solar Flares: Instant Impact
 
-Back on the sun's surface, those same twisted magnetic field lines we saw creating sunspots don't always reconnect gently. Sometimes they snap violently, releasing enormous amounts of energy in seconds. This solar flare races toward Earth as a blast of X-rays and ultraviolet radiation. {{< link id="G3A03" >}}
+Back on the Sun's surface, those same twisted magnetic field lines we saw creating sunspots don't always reconnect gently. Sometimes they snap violently, releasing enormous amounts of energy in seconds. The resulting flare sends X-rays and ultraviolet radiation toward Earth at the speed of light. {{< link id="G3A03" >}}
 
 > **Key Information:**
 > - The increased ultraviolet and X-ray radiation from a solar flare affects radio propagation on Earth approximately 8 minutes after eruption.
@@ -48,13 +48,13 @@ Back on the sun's surface, those same twisted magnetic field lines we saw creati
 
 Eight minutes—that's the time light takes to travel 93 million miles, not advance warning. We see the flare when its light reaches us, alongside the radiation affecting the atmosphere. One moment you're in mid-QSO on 40 meters; eight minutes after a major flare erupts, the band goes silent.
 
-On Earth’s sunlit side, the X-ray burst can sharply increase D-region ionization, creating what we call a Sudden Ionospheric Disturbance. {{< link id="G3A02" >}} The enhanced D region *absorbs low-frequency signals*. Eighty and 40 meters may completely disappear, while 20 meters might weaken but remain usable. Higher HF frequencies may suffer less absorption, though a strong flare can disrupt a broad range. This short-term disturbance is different from the upper-band improvement associated with sustained solar activity.
+On Earth’s sunlit side, the X-ray burst can sharply increase D-region ionization, creating what we call a sudden ionospheric disturbance. {{< link id="G3A02" >}} The enhanced D region *absorbs low-frequency signals*. Eighty and 40 meters may completely disappear, while 20 meters might weaken but remain usable. Higher HF frequencies may suffer less absorption, though a strong flare can disrupt a broad range. This short-term disturbance is different from the upper-band improvement associated with sustained solar activity.
 
 ##### Coronal Mass Ejections: Delayed Impact
 
-Sometimes the sun doesn't just flash—it erupts. Coronal Mass Ejections (CMEs) hurl billion-ton clouds of magnetized plasma into space at millions of miles per hour. Unlike the light-speed radiation from flares, these massive particle clouds crawl across the solar system. {{< link id="G3A11" >}}
+Sometimes the Sun doesn't just flash—it erupts. Coronal mass ejections (CMEs) hurl billion-ton clouds of magnetized plasma into space at millions of miles per hour. Unlike the light-speed radiation from flares, these massive particle clouds crawl across the solar system. {{< link id="G3A11" >}}
 
-> **Key Information:** Earth-directed coronal mass ejections can affect radio propagation 15 hours to several days after leaving the sun.
+> **Key Information:** Earth-directed coronal mass ejections can affect radio propagation 15 hours to several days after leaving the Sun.
 
 This delay transforms a crisis into a countdown. Space weather services track the CME from launch, calculating if and when it will strike Earth. Will it be a glancing blow or a direct hit? When a major CME finally slams into Earth's magnetic field, it can trigger geomagnetic storms that black out HF propagation for days.
 
@@ -63,11 +63,11 @@ This delay transforms a crisis into a countdown. Space weather services track th
 
 ##### Coronal Holes: Persistent Troublemakers
 
-Not all disturbances come from explosions. Coronal holes are cooler, less dense regions of the solar corona—the sun's outer atmosphere—with open magnetic fields. They can act like fire hoses for fast solar wind, the stream of charged particles flowing outward from the sun; a stream may reach Earth when a hole faces our direction. {{< link id="G3A14" >}}
+Not all disturbances come from explosions. Coronal holes are cooler, less dense regions of the solar corona—the Sun's outer atmosphere—with open magnetic fields. They can act like fire hoses for fast solar wind, the stream of charged particles flowing outward from the Sun; a stream may reach Earth when a hole faces our direction. {{< link id="G3A14" >}}
 
 > **Key Information:** Long distance HF radio communication is usually disturbed by charged particles that reach Earth from solar coronal holes.
 
-Unlike the sudden fury of flares, coronal holes deliver persistent harassment. The steady stream of particles rattles our magnetic field day after day, sometimes disturbing propagation for several days. Since these holes can persist for months and rotate with the sun, they may bring a familiar pattern of trouble about every *27 days* as a persistent hole faces Earth again.
+Unlike the sudden fury of flares, coronal holes deliver persistent harassment. The steady stream of particles rattles our magnetic field day after day, sometimes disturbing propagation for several days. Since these holes can persist for months and rotate with the Sun, they may bring a familiar pattern of trouble about every *27 days* as a persistent hole faces Earth again.
 
 #### Geomagnetic Effects
 
@@ -78,7 +78,7 @@ When those billion-ton particle clouds from CMEs slam into Earth's magnetic fiel
 > - Geomagnetic storms degrade high-latitude HF propagation.
 > - High geomagnetic activity benefits radio communications by creating auroras that can reflect VHF signals.
 
-These storms often affect polar and high-latitude propagation paths especially strongly. {{< link id="G3A08" >}} Signals that normally travel over the poles become weak or disappear entirely. Paths that cross high latitudes can suffer badly, forcing operators to look for paths at lower latitudes when possible.
+During a geomagnetic storm, signals on a polar path can fade or disappear. {{< link id="G3A08" >}} Try a path that stays at lower latitudes.
 
 While HF propagation degrades, geomagnetic storms create unique opportunities on VHF. {{< link id="G3A09" >}} The disturbed auroral region can *scatter VHF signals* along unusual paths. Six and two meters can suddenly reach stations hundreds of miles away, though signals acquire a distinctive distorted sound from the rapidly moving auroral curtains.
 
@@ -98,12 +98,12 @@ The A-index summarizes *an entire day's magnetic activity*. {{< link id="G3A13" 
 
 > **Key Information:** HF propagation conditions vary periodically in a 26- to 28-day cycle caused by rotation of the Sun's surface layers. {{< link id="G3A10" >}}
 
-As the sun rotates, the same active regions—sunspot groups, coronal holes—face Earth approximately every 27 days. If excellent 10-meter propagation occurs today due to a specific sunspot group, similar conditions might return 27 days later when that group rotates back into view.
+As the Sun rotates, the same active regions—sunspot groups, coronal holes—face Earth approximately every 27 days. If excellent 10-meter propagation occurs today due to a specific sunspot group, similar conditions might return 27 days later when that group rotates back into view.
 
 While active regions evolve and eventually decay, the 27-day pattern often persists for several rotations, allowing operators to anticipate band conditions weeks in advance.
 
 #### Understanding Solar Influences
 
-Solar activity strongly influences HF propagation. Steady radiation maintains the ionosphere's daily patterns, while solar flares create sudden disruptions and particle storms trigger multi-day blackouts. The 11-year solar cycle determines which bands work reliably. The 27-day rotation creates recurring patterns.
+Solar activity strongly influences HF propagation. Steady radiation maintains the ionosphere's daily patterns, while solar flares create sudden disruptions and particle storms trigger multi-day blackouts. The 27-day rotation creates recurring patterns.
 
 Next, we'll explore how signals actually travel via the ionosphere—the various propagation modes and paths that connect your station to the world.

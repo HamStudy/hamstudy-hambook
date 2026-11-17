@@ -38,7 +38,7 @@ The driven element also needs a good match to the feed line. Two common matching
 
 > **Key Information:** A beta or hairpin match is a shorted transmission line stub placed at the feed point of a Yagi antenna to provide impedance matching. {{< link id="G9C11" >}}
 
-The beta match uses *a shorted section of transmission line* (the "hairpin") placed in parallel with the feed point of an antenna element. With a suitably shortened driven element, the hairpin’s inductive reactance works with the element’s capacitive reactance to transform the feed-point impedance.
+The beta match uses *a shorted section of transmission line* (the "hairpin") placed in parallel with the feed point of an antenna element. With a suitably shortened driven element, the hairpin’s inductive reactance works with the element’s capacitive reactance to transform the feed point impedance.
 
 This matching system is popular for Yagi antennas because:
 * It's relatively simple to construct
@@ -56,7 +56,7 @@ The gamma match offers several advantages:
 * Provides adjustable impedance matching; a separate common-mode choke may still be useful
 * Lets you adjust the match by changing the gamma rod length and capacitor setting
 
-![Two schematic feed arrangements show different ways to match a Yagi’s driven element. The hairpin, or beta, match uses an element split at its center. The feed-line wires connect to the two halves, and a short U-shaped conductor bridges the gap as a shorted stub. The gamma match uses a continuous driven element attached at its center to the boom. A gamma rod runs beside part of that element and connects to it away from the center. The coax feed connects through a series capacitor to the rod, with its other conductor connected at the element’s center.](../../../images/s4-4-yagi-matching-basics.svg)
+![Two schematic feed arrangements show different ways to match a Yagi’s driven element. The hairpin, or beta, match uses an element split at its center. The feed line wires connect to the two halves, and a short U-shaped conductor bridges the gap as a shorted stub. The gamma match uses a continuous driven element attached at its center to the boom. A gamma rod runs beside part of that element and connects to it away from the center. The coax feed connects through a series capacitor to the rod, with its other conductor connected at the element’s center.](../../../images/s4-4-yagi-matching-basics.svg)
 {.img-centered .mw-70 .img-mobile-full caption="A hairpin bridges a split feed point. A gamma match can use a continuous driven element attached to the boom. These are schematic views, not construction drawings."}
 
 #### Building Better Beams: Performance Factors
@@ -73,7 +73,7 @@ Adding directors with the right lengths and spacing can narrow the beam further.
 
 > **Key Information:** Using larger-diameter elements would increase the bandwidth of a Yagi antenna. {{< link id="G9C01" >}}
 
-Thicker elements are like wider pipes—they're more forgiving of slight frequency changes. This is why commercial Yagis often use aluminum tubing rather than wire elements. Here, “more forgiving” means the feed-point impedance tends to change less rapidly with frequency, so SWR stays within a useful limit over a wider range.
+Thicker elements are like wider pipes—they're more forgiving of slight frequency changes. This is why commercial Yagis often use aluminum tubing rather than wire elements. Here, “more forgiving” means the feed point impedance tends to change less rapidly with frequency, so SWR stays within a useful limit over a wider range.
 
 #### Understanding Antenna Specifications
 
@@ -107,32 +107,30 @@ The catch? Spacing and feed phase must suit the design; the exam’s free-space 
 > - In free space, the gain of two 3-element, horizontally polarized Yagi antennas spaced vertically 1/2 wavelength apart is approximately 3 dB higher than a single 3-element Yagi. {{< link id="G9C09" >}}
 > - An advantage of vertically stacking horizontally polarized Yagi antennas is that it narrows the main lobe in elevation. {{< link id="G9D05" >}}
 
-That 3 dB improvement means your 100-watt signal now hits like 200 watts, and it helps on receive too. But the benefits go beyond raw gain. Think of narrowing a floodlight’s beam, this time in elevation—the angle above the horizon. More energy is concentrated in a smaller vertical range, rather than narrowing the beam in azimuth—around the horizon.
+The extra gain helps on receive, too. To picture how a vertical stack changes the pattern, imagine narrowing a floodlight's beam from top to bottom. The main lobe covers a smaller range of elevation angles above the horizon while keeping roughly the same width around the horizon.
 
 That does not guarantee a lower takeoff angle (the elevation of the main lobe): antenna height, spacing, feed phase and ground reflections all affect where the main lobe points. High-angle radiation can also be useful for regional contacts, as we saw with NVIS in the previous section.
 
-While stacked Yagis offer ultimate performance on a single band, many General operators need a more versatile solution for their multi-band privileges.
+#### The Log-Periodic: One Antenna, Many Bands
 
-#### The Log Periodic: One Antenna, Many Bands
-
-General privileges include all nine HF amateur bands. Wouldn't it be nice to cover several of them with one beam? A **log periodic dipole array (LPDA)** is a directional antenna made from a row of dipoles of progressively different lengths. All connect to a common feed system.
+Wouldn't it be nice to cover several HF bands with one beam? A **log-periodic dipole array (LPDA)** is a directional antenna made from a row of dipoles of progressively different lengths. All connect to a common feed system.
 
 > **Key Information:**
-> - An advantage of a log periodic antenna is wide bandwidth. {{< link id="G9D06" >}}
-> - A log periodic antenna has element length and spacing vary logarithmically along the boom. {{< link id="G9D07" >}}
+> - An advantage of a log-periodic antenna is wide bandwidth. {{< link id="G9D06" >}}
+> - A log-periodic antenna has element length and spacing vary logarithmically along the boom. {{< link id="G9D07" >}}
 
-Where a monoband Yagi is optimized for one band, a log periodic covers *a huge frequency range*—often 14 to 30 MHz in a single antenna. The secret lies in its unique construction. Picture a Yagi where each element is scaled down from the one before it *by a constant ratio*. The longest elements resonate on the lowest frequency, while progressively shorter elements handle higher frequencies. As you change bands, different groups of elements "wake up" and become active.
+Where a monoband Yagi is optimized for one band, a log-periodic covers *a huge frequency range*—often 14 to 30 MHz in a single antenna. The secret lies in its unique construction. Picture a Yagi where each element is scaled down from the one before it *by a constant ratio*. The longest elements resonate on the lowest frequency, while progressively shorter elements handle higher frequencies. As you change bands, different groups of elements "wake up" and become active.
 
 Unlike the Yagi’s parasitic elements, LPDA elements connect to a feed structure. Check the model’s frequency range; a 14–30 MHz design does not cover all nine HF bands.
 
 ![Seven dipoles become shorter and closer together by a constant ratio toward one end of the array. Longer elements serve lower frequencies; shorter elements serve higher frequencies. Every dipole connects at its center to a common two-conductor feed system. Connections alternate between adjacent dipoles, shown by crossed feed lines with gaps at the crossings to indicate that the wires do not touch. The external feed enters at the short-element end. This schematic explains the arrangement; it is not a construction plan or a radiation-pattern plot.](../../../images/s4-4-log-periodic.svg)
 {.img-centered .mw-60 .img-mobile-full caption="Longer elements at left serve lower frequencies; shorter elements at right serve higher frequencies. The common feed connects every dipole, alternating the connections between neighbors, and enters at the short-element end."}
 
-The tradeoff? An LPDA may provide less gain than a monoband Yagi of comparable size; the difference depends on the designs. But for many operators, the convenience of instant band changes without retuning or switching antennas is worth the modest gain sacrifice.
+The tradeoff? An LPDA may provide less gain than a monoband Yagi of comparable size; the difference depends on the designs. Many operators accept that tradeoff to change bands without retuning or switching antennas.
 
 #### Specialized Antennas for Specific Needs
 
-Beyond Yagis and log periodics, two specialized directional receiving antennas solve unique challenges worth knowing about.
+Beyond Yagis and log-periodics, two specialized directional receiving antennas solve unique challenges worth knowing about.
 
 **Small Loops** (less than 1/10 wavelength circumference) excel at one thing: deep nulls for direction finding or interference rejection. {{< link id="G9D10" >}}
 
@@ -145,11 +143,11 @@ Rotate the loop until a signal disappears, and you know the source is *perpendic
 
 That neighbor's plasma TV wreaking havoc on 40 meters? Orient a small receiving loop to null it out.
 
-**The Beverage** is the ultimate low-band DX receiving antenna—a simple long wire (500-1000 feet) mounted low with a terminating resistor. {{< link id="G9D09" >}}
+**The Beverage antenna** is the ultimate low-band DX receiving antenna—a simple long wire (500-1000 feet) mounted low with a terminating resistor. {{< link id="G9D09" >}}
 
 > **Key Information:** The primary use of a Beverage antenna is directional receiving for MF and low HF bands.
 
-Terrible efficiency for transmitting, but outstanding for pulling weak 160 and 80-meter DX from the noise because its directivity can improve the wanted signal compared with noise from other directions. Top DXpeditions often deploy multiple Beverages in different directions for optimal reception.
+A Beverage antenna transmits inefficiently, but its directivity can help you hear weak DX on 160 and 80 meters over noise from other directions. Top DXpeditions often deploy multiple Beverage antennas in different directions for optimal reception.
 
 #### Making Directional Antennas Work for You
 
@@ -167,7 +165,7 @@ Many hams wisely hire professionals for tower work. There's no shame in prioriti
 
 **The Neighbor Factor** is real. Some antenna installations have legal protections, but local rules and private restrictions still matter (see [Section 9.2]({{% pageref "9.2" %}})). Maintaining good relationships matters too. Many hams find that explaining amateur radio's public service role helps gain acceptance. Others choose less visually imposing options like hex beams or compact tribanders.
 
-**Budget Reality** hits hard when you price a complete beam station. A modest tribander, 50-foot tower, rotator, and installation can easily exceed $5,000. But don't despair—many successful DXers started with wire antennas and upgraded gradually. Some build their own Yagis from hardware store materials, learning valuable lessons along the way.
+**Budget Reality** hits hard when you price a complete beam station. A modest tribander, 50-foot tower, rotator, and installation can easily exceed $5,000. Many successful DXers started with wire antennas and upgraded gradually. Some build their own Yagis from hardware store materials, learning valuable lessons along the way.
 
 #### Your Path to Directional Success
 

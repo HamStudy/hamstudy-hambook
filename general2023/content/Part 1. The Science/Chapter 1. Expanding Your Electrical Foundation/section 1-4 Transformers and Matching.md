@@ -18,7 +18,7 @@ In this section, we'll explore transformers and matching networks—practical to
 
 For the resistive source this theorem describes, equal source and load resistances give maximum load power. When reactance is present, the matching load also needs opposite reactance. In station operation, the practical target is the load the equipment specifies, usually 50 ohms with little reactance. A mismatch can cause reflected waves on the feed line, increase line loss, or make the transmitter reduce power; reflected power is not automatically all lost.
 
-Your radio might show high SWR (Standing Wave Ratio) on some bands but not others because the antenna's impedance varies with frequency, creating matches at some frequencies and mismatches at others.
+Your radio might show high SWR (standing wave ratio) on some bands but not others because the antenna's impedance varies with frequency, creating matches at some frequencies and mismatches at others.
 
 Let's look at the tools that help us create matches between different impedances:
 
@@ -28,7 +28,7 @@ Transformers are elegant devices that transfer energy between circuits while cha
 
 > **Key Information:** Mutual inductance causes a voltage to appear across the secondary winding of a transformer when an AC voltage source is connected across its primary winding. {{< link id="G5C01" >}}
 
-A transformer consists of two or more windings (coils) wrapped around a common core. When alternating current flows through the primary winding, it creates a changing magnetic field that induces voltage across the secondary winding. Current flows when a load completes that circuit. The ratio of turns between these windings determines how voltage, current, and impedance transform.
+In a two-winding transformer, the primary and secondary coils share a core. When alternating current flows through the primary winding, it creates a changing magnetic field that induces voltage across the secondary winding. Current flows when a load completes that circuit. The ratio of turns between these windings determines how voltage, current, and impedance transform.
 
 One common use for a transformer is to convert between different AC voltages. For example, suppose a transformer has ten primary turns for every secondary turn. With 120VAC on the primary winding, you get ($\frac{1}{10} \cdot 120V$) = 12VAC out. This is the first basic step in many simple power supply designs. Because transformers work on AC signals, they can also change the voltage *or impedance* of audio or RF signals when designed for that frequency and power.
 
@@ -69,8 +69,8 @@ With this turns ratio, a 200-ohm load on the secondary appears as 50 ohms at the
 The ability to change impedance makes transformers useful in amateur radio for:
 
 1. **Antenna Matching**: Converting antenna impedance to match transmitter output
-2. **Baluns** (Balanced-to-Unbalanced): Connecting balanced antennas to unbalanced feed lines
-3. **Ununs** (Unbalanced-to-Unbalanced): Matching between different unbalanced impedances
+2. **Baluns** (balanced-to-unbalanced): Connecting balanced antennas to unbalanced feed lines
+3. **Ununs** (unbalanced-to-unbalanced): Matching between different unbalanced impedances
 4. **Interstage Coupling**: Matching between amplifier stages
 
 ##### Reversing Transformer Connections
@@ -137,7 +137,7 @@ Therefore, a turns ratio of approximately *3.5:1* will match a 600-ohm antenna t
 
 #### Specialized RF Transformers
 
-In RF systems, the balun (Balanced-to-Unbalanced) is particularly important. It solves a fundamental problem in antenna systems:
+In RF systems, the balun (balanced-to-unbalanced) is particularly important. It solves a fundamental problem in antenna systems:
 
 * **Balanced Line**: Two conductors with equal relationships to their surroundings, as in ladder line or window line. The desired signal uses equal and opposite currents.
 
@@ -147,6 +147,6 @@ Connecting coax to a balanced antenna can also allow unwanted common-mode curren
 
 #### LC Matching Networks
 
-Besides transformers, simple combinations of inductors and capacitors (LC networks) can also match impedances. These appear in various configurations (L, Pi, or T networks) in antenna tuners and amplifier output circuits. In an antenna tuner, the network helps your transmitter see its expected 50-ohm load. A good input match does not remove feed-line loss or make an inefficient antenna efficient.
+Besides transformers, simple combinations of inductors and capacitors (LC networks) can also match impedances. These appear in various configurations (L, Pi, or T networks) in antenna tuners and amplifier output circuits. In an antenna tuner, the network helps your transmitter see its expected 50-ohm load. A good input match does not remove feed line loss or make an inefficient antenna efficient.
 
 When you switch bands, check the SWR against your transmitter’s limits for the power you plan to use. If you’re within those limits, there’s usually little to gain by adjusting the tuner for a perfect 1:1 reading.

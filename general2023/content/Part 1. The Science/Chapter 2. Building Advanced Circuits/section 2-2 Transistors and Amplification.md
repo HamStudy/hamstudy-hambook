@@ -13,7 +13,7 @@ To do that, an amplifier uses a small input signal to control a larger current f
 
 #### Transistors: The Building Blocks of Amplification
 
-Transistors are semiconductor devices that can amplify signals or switch current on and off. The two main types are bipolar junction transistors and field-effect transistors. They differ in how they control current.
+Transistors are semiconductor devices that can amplify signals or switch current on and off. The two main types are bipolar junction transistors and field effect transistors. They differ in how they control current.
 
 ##### Bipolar Junction Transistors (BJTs)
 
@@ -21,9 +21,9 @@ Bipolar transistors consist of three semiconductor layers (collector, base, and 
 
 Later in this chapter, we'll use that same control for digital switching, where the transistor operates at cutoff and saturation.
 
-##### Field-Effect Transistors (FETs)
+##### Field Effect Transistors (FETs)
 
-FETs use an electric field from a control terminal called the **gate** to control current through a semiconductor channel. One type is the **MOSFET**, or *metal-oxide-semiconductor field-effect transistor*.
+FETs use an electric field from a control terminal called the **gate** to control current through a semiconductor channel. One type is the **MOSFET**, or *metal-oxide-semiconductor field effect transistor*.
 
 > **Key Information:** In MOSFET construction, the gate is separated from the channel by a thin insulating layer. {{< link id="G6A09" >}}
 
@@ -33,7 +33,7 @@ Both transistor types have important roles in your radio. Bipolar transistors ar
 
 #### Vacuum Tubes: Understanding Legacy Technology
 
-Though largely replaced by solid-state devices in modern equipment, vacuum tubes remain important to understand. You'll find them on your exam and in older equipment still in use. Manufacturers still make them for specific applications like high-power RF amplifiers. Tubes perform much the same function that we now usually use transistors for, and suitable tube designs can handle high voltages and power levels.
+Most new radios use transistors, but you'll still find vacuum tubes in vintage radios, specialty audio equipment, and high-power RF amplifiers. Tubes designed for those amplifiers can handle high voltages and power levels.
 
 Vacuum tubes work by controlling a stream of electrons flowing from a heated cathode to a plate (anode) through a vacuum.
 
@@ -127,7 +127,5 @@ Self-oscillation occurs when some of an amplifier's output feeds back to its inp
 
 
 ---
-
-Whether you're selecting a linear amplifier for SSB operation or troubleshooting an oscillation problem, these concepts provide valuable insights.
 
 Next, we'll explore how power supplies convert household electricity into the steady DC voltages your radio equipment requires.

@@ -7,7 +7,7 @@ status: complete1
 
 ### Section 4.3: Dipoles and Vertical Antennas
 
-A good match gets power into the antenna, but you still need a design that fits your station. Good news—simple wire dipoles and vertical antennas make successful HF contacts every day. Their height, shape, and feed-point position can help you make the most of the space you have.
+A good match gets power into the antenna, but you still need a design that fits your station. Good news—simple wire dipoles and vertical antennas make successful HF contacts every day. Their height, shape, and feed point position can help you make the most of the space you have.
 
 #### Dipole Antennas: Your Gateway to HF Success
 
@@ -20,11 +20,11 @@ The drawing shows the dipole in *free space*: an ideal setting without the groun
 
 > **Key Information:** The radiation pattern of a dipole antenna in free space, in a plane containing the conductor, is a figure-eight at right angles to the antenna. {{< link id="G9B04" >}}
 
-This figure-eight pattern means your signal radiates *strongest broadside to the wire*—perpendicular to its length—with nulls off the ends. The drawing is a flat slice through the wire and its three-dimensional pattern. Orient your dipole so its broadside faces the areas you want to reach, whether that's Europe, Japan, or your favorite net control station.
+This figure-eight pattern means your signal radiates *strongest broadside to the wire*—perpendicular to its length—with nulls off the ends. The drawing shows one slice of the radiation pattern in a plane containing the wire. Orient your dipole so its broadside faces the areas you want to reach, whether that's Europe, Japan, or your favorite net control station.
 
 #### Height Transforms Your Dipole's Performance
 
-A dipole's height affects both its radiation pattern and its feed-point impedance. Moving the same wire can change which stations you reach and the SWR your radio sees.
+A dipole's height affects both its radiation pattern and its feed point impedance. Moving the same wire can change which stations you reach and the SWR your radio sees.
 
 When you mount a dipole low (less than a half wavelength high), reflections from the ground reshape its radiation pattern. At high elevation angles—angles above the horizon—the signal spreads *almost evenly in every compass direction*, or azimuth. {{< link id="G9B05" >}}
 
@@ -32,9 +32,9 @@ When you mount a dipole low (less than a half wavelength high), reflections from
 > - If a horizontal dipole HF antenna is less than 1/2 wavelength high, its azimuthal radiation pattern is almost omnidirectional at elevation angles higher than about 45 degrees 
 > - The feed point impedance of a horizontal 1/2 wave dipole antenna steadily decreases as its height is reduced to 1/10 wavelength above ground {{< link id="G9B07" >}}
 
-Near the ground, lowering the wire tends to *lower its feed-point impedance*. At greater heights, ground reflections can make the impedance rise or fall. Check the SWR after the antenna is at its working height.
+Near the ground, lowering the wire tends to *lower its feed point impedance*. At greater heights, ground reflections can make the impedance rise or fall. Check the SWR after the antenna is at its working height.
 
-A low dipole sends much of its signal upward. This suits NVIS (Near Vertical Incidence Skywave), which uses high-angle signals for regional contacts. A higher dipole can provide more useful low-angle radiation for DX. We'll return to NVIS later in this section.
+A low dipole sends much of its signal upward. This suits NVIS (near vertical incidence skywave), which uses high-angle signals for regional contacts. A higher dipole can provide more useful low-angle radiation for DX. We'll return to NVIS later in this section.
 
 #### Feed Point Magic: Controlling Impedance
 
@@ -42,9 +42,9 @@ Height isn't the only thing that affects the match. Where you connect the feed l
 
 > **Key Information:** The feed point impedance of a 1/2 wave dipole steadily increases as the feed point is moved from the center toward the ends. {{< link id="G9B08" >}}
 
-At the center, current is high and voltage is lower, giving a relatively low feed-point impedance. Toward the ends, current falls and voltage rises, so *impedance increases* into the thousands of ohms. That's why a center-fed dipole can work well with 50-ohm coax, while feeding the same antenna at one end calls for a matching transformer.
+At the center, current is high and voltage is lower, giving a relatively low feed point impedance. Toward the ends, current falls and voltage rises, so *impedance increases* into the thousands of ohms. That's why a center-fed dipole can work well with 50-ohm coax, while feeding the same antenna at one end calls for a matching transformer.
 
-A center-fed half-wave dipole in free space has a feed-point resistance of roughly 73 ohms. Height and surroundings affect the value you measure on an installed antenna.
+A center-fed half-wave dipole in free space has a feed point resistance of roughly 73 ohms. Height and surroundings affect the value you measure on an installed antenna.
 
 #### Building Your Dipole: From Formula to Reality
 
@@ -71,7 +71,7 @@ Not everyone has two tall supports perfectly spaced for a flat dipole. An invert
 ![A side view of an inverted V dipole. One tall central mast supports the feed point at the highest part of the antenna. Two equal wire legs slope outward and downward, with a gentle sag, forming an upside-down V. Each wire ends at an insulator, followed by a support rope to a low anchor; the wire ends stay above ground. Coax runs from the radio up to the center feed point, where it feeds both dipole legs. The mast and support ropes hold the antenna in place.](../../../images/s4-3-inverted-v.svg)
 {.img-centered .mw-70 .img-mobile-full}
 
-Besides saving a tall support, the sloping legs change the radiation pattern and feed-point impedance. They can give useful coverage in more directions than a flat dipole. The impedance may also be near 50 ohms, though the angle, height, and surroundings affect the match. Measure the SWR once it's up. For many yards, an inverted V is a good way to fit a useful dipole into the available space.
+Besides saving a tall support, the sloping legs change the radiation pattern and feed point impedance. They can give useful coverage in more directions than a flat dipole. The impedance may also be near 50 ohms, though the angle, height, and surroundings affect the match. Measure the SWR once it's up. For many yards, an inverted V is a good way to fit a useful dipole into the available space.
 
 #### End-Fed Antennas: Feed Line Freedom
 
@@ -118,7 +118,7 @@ Radials give RF current a lower-loss path than the soil alone. More radials gene
 
 #### Fine-Tuning Your Vertical's Match
 
-A quarter-wave vertical over an ideal ground plane has about 36 ohms of **radiation resistance**. This resistance represents power leaving as radio waves. At resonance, a low-loss vertical has a feed-point resistance close to that value—slightly below the 50 ohms most radios expect.
+A quarter-wave vertical over an ideal ground plane has about 36 ohms of **radiation resistance**. This resistance represents power leaving as radio waves. At resonance, a low-loss vertical has a feed point resistance close to that value—slightly below the 50 ohms most radios expect.
 
 > **Key Information:** To adjust the feed point impedance of an elevated quarter-wave ground-plane vertical antenna to be approximately 50 ohms, slope the radials downward. {{< link id="G9B02" >}}
 
@@ -134,7 +134,7 @@ $$\text{Length (feet)} = \frac{234}{f_{\text{MHz}}}$$
 
 Here the calculation is $234/28.5=8.21$ feet, a starting length to adjust for the installed antenna. An 8-foot vertical for 10 meters is much easier to fit into a small space than a full-size antenna for 80 meters. Higher bands can be a good place to start when space is limited.
 
-#### Random Wire Antennas: The Compromise That Works
+#### Random-Wire Antennas: The Compromise That Works
 
 Life doesn't always provide perfect antenna locations. Maybe you're in a neighborhood with antenna restrictions, renting, or need something temporary. A random-wire antenna uses a length of wire chosen to fit the available space, rather than cut to a specific resonant length. A tuner helps match it to the radio.
 
@@ -146,15 +146,15 @@ This unwanted RF can make a microphone give you an RF burn or interfere with nea
 
 #### NVIS: Your Regional Communication Powerhouse
 
-Earlier, we saw how a low dipole can favor nearby stations. That becomes useful during emergency nets or when you want to cover your state rather than work distant DX. Near Vertical Incidence Skywave (NVIS) uses signals sent nearly straight up and returned by the ionosphere to the surrounding region.
+Earlier, we saw how a low dipole can favor nearby stations. That becomes useful during emergency nets or when you want to cover your state rather than work distant DX. Near vertical incidence skywave (NVIS) uses signals sent nearly straight up and returned by the ionosphere to the surrounding region.
 
-> **Key Information:** A horizontal dipole antenna most effective as a Near Vertical Incidence Skywave (NVIS) antenna for short-skip communications on 40 meters during the day is one placed between 1/10 and 1/4 wavelength above the ground. {{< link id="G9D01" >}}
+> **Key Information:** A horizontal dipole antenna most effective as a near vertical incidence skywave (NVIS) antenna for short-skip communications on 40 meters during the day is one placed between 1/10 and 1/4 wavelength above the ground. {{< link id="G9D01" >}}
 
-On 40 meters, that means mounting the dipole about 13–33 feet high. Think of an umbrella over the region: high-angle signals can return nearby when the ionosphere supports the frequency. This can help you reach stations beyond intervening hills, often within a few hundred miles. The next chapter explains how the frequency and ionosphere determine whether that path is available.
+On 40 meters, that means mounting the dipole about 13–33 feet high. Think of an umbrella over the region: high-angle signals can return nearby when the ionosphere supports the frequency. This can help you reach stations beyond intervening hills, often within a few hundred miles. [Section 5.3]({{% pageref "5.3" %}}) explains how to choose a frequency for a regional NVIS path.
 
 #### Practical Antenna Solutions
 
-General privileges include all nine HF amateur bands, but that doesn't mean you need nine antennas. A fan dipole connects several dipoles of different lengths to one feed point, with each length serving a different band. Some end-fed designs also work on several bands, and the final section of this chapter explains another approach using antenna traps. A dipole fed with ladder line and a tuner can offer useful coverage across several bands too. Remember to allow space for routing the line clear of metal.
+General privileges include all nine HF amateur bands, but that doesn't mean you need nine antennas. A fan dipole connects several dipoles of different lengths to one feed point, with each length serving a different band. Some end-fed designs also work on several bands. A dipole fed with ladder line and a tuner can cover several bands too, if you have room to route the line clear of metal. For another multiband design, see antenna traps in [Section 4.5]({{% pageref "4.5" %}}).
 
 Limited space? Antennas shrink as frequency rises. A half-wave dipole that needs about 132 feet on 80 meters fits in about 16 feet on 10 meters. Small transmitting loops, shortened antennas with loading coils, and attic installations offer other options when a full-size outdoor antenna won't fit.
 

@@ -9,11 +9,9 @@ status: complete1
 
 Your antenna launches a signal skyward. Less than a second later, someone on the other side of the planet hears it. Understanding how the ionosphere works is the key to knowing when and why different bands open and close.
 
-As a Technician, you learned that the ionosphere can bend radio waves back to Earth. Now we'll explore exactly how this happens and why it varies throughout the day.
-
 #### How the Ionosphere Works
 
-While we often say radio waves "bounce" off the ionosphere, they actually refract or bend gradually. The sun's ultraviolet radiation and X-rays strip electrons from atoms in the upper atmosphere, creating layers of charged particles from about 30 miles to over 350 miles up. When your radio signal enters these charged layers at the right frequency and angle, it curves back toward Earth, landing thousands of miles away.
+While we often say radio waves "bounce" off the ionosphere, they actually refract or bend gradually. The Sun's ultraviolet radiation and X-rays strip electrons from atoms in the upper atmosphere, creating layers of charged particles from about 30 miles to over 350 miles up. When your radio signal enters these charged layers at the right frequency and angle, it curves back toward Earth, landing thousands of miles away.
 
 #### The Ionosphere's Multiple Personalities
 
@@ -26,7 +24,7 @@ The ionosphere isn't one uniform blanket—think of it more like a layer cake wh
 
 ##### D Region: The Daytime Signal Absorber
 
-Located 30-55 miles up, the D region becomes much more strongly ionized in daylight and weakens greatly after dark. Think of it as a wet blanket that the sun throws over your lower-frequency signals during the day. {{< link id="G3C11" >}} {{< link id="G3C05" >}}
+Located 30-55 miles up, the D region becomes much more strongly ionized in daylight and weakens greatly after dark. Think of it as a wet blanket that the Sun throws over your lower-frequency signals during the day. {{< link id="G3C11" >}} {{< link id="G3C05" >}}
 
 > **Key Information:** 
 > - The D region is the *most absorbent of signals below 10 MHz* during daylight hours
@@ -42,7 +40,7 @@ Rising about 50 to 90 miles above Earth, the E region forms from moderate solar 
 
 The E region has more free electrons than the D region, but its thinner air means fewer collisions. It can therefore bend some signals back without the heavy absorption that plagues the D region. An E-region path still passes through the D region, so it does not bypass daytime absorption. Under suitable conditions it can return signals over shorter skywave paths than the higher F region.
 
-During summer months, patches of unusually dense ionization called "Sporadic E" can open surprising paths. Atmospheric winds can concentrate long-lived metallic ions into thin sheets capable of returning even VHF signals that would normally escape to space.
+During summer months, patches of unusually dense ionization called "sporadic E" can open surprising paths. Atmospheric winds can concentrate long-lived metallic ions into thin sheets capable of returning even VHF signals that would normally escape to space.
 
 ##### F Region: Your Gateway to the World
 
@@ -78,7 +76,7 @@ This critical frequency constantly changes based on ionospheric conditions. Thin
 
 #### Maximum and Lowest Usable Frequencies: Your Operating Window
 
-Every path between you and another station has a sweet spot—a range of frequencies that will actually complete the journey. Maximum Usable Frequency (MUF) sets the upper edge of that window, and Lowest Usable Frequency (LUF) sets the lower edge.
+When a skywave path is open, there's a range of frequencies you can use. Maximum Usable Frequency (MUF) sets the upper edge of that window, and Lowest Usable Frequency (LUF) sets the lower edge.
 
 ##### Maximum Usable Frequency: The Ceiling
 
@@ -103,7 +101,7 @@ While MUF sets the ceiling, LUF sets the floor below which your signals get abso
 
 The D region is the main culprit here. During daylight, it absorbs low-frequency signals before they can reach the reflective F layers. At night, as D-region absorption weakens, the LUF often drops. Noise, transmitter power, antennas and the required signal quality also affect it. This is why 80 meters works poorly for DX at noon but comes alive after sunset—the absorption floor has dropped.
 
-Sometimes the ionosphere just won't cooperate. Think of it like this: if the floor rises above the ceiling, there's no room to operate! This happens during severe ionospheric disturbances or at transition times between day and night. When LUF rises above MUF, no frequency will complete the path. Time to try a different direction or propagation method, or grab a cup of coffee and wait for conditions to improve. Merely changing bands cannot restore ordinary skywave on that same path while no usable interval exists.
+If the floor rises above the ceiling, there's no room to operate on that path! This can happen during a severe ionospheric disturbance or near sunrise or sunset. Until conditions change, try a different path or propagation mode.
 
 #### Working Within Nature's Window
 
@@ -116,4 +114,4 @@ This creates a "window" of usable frequencies that shifts throughout the day.
 
 Lower bands (160m, 80m, 40m) suffer from D-region absorption during daylight but excel at night. Middle bands (30m, 20m, 17m) often offer useful openings with less absorption, but their day/night availability depends on the path and ionization. Upper bands (15m, 12m, 10m) depend heavily on solar activity—less reliable during solar minimum, with more frequent openings during solar maximum.
 
-Next, we'll explore how the sun creates and controls these layers. Solar radiation forms the ionosphere, and solar disturbances can dramatically enhance or destroy propagation conditions.
+Next, we'll explore how the Sun creates and controls these layers. Solar radiation forms the ionosphere, and solar disturbances can dramatically enhance or destroy propagation conditions.

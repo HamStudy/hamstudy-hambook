@@ -30,7 +30,7 @@ Common impedances you'll encounter:
 - **75 ohms**: Common in TV cable, but useful in some amateur installations too
 - **450 ohms**: *Window line*—spaced conductors and air gaps for low loss
 
-This characteristic impedance is a fundamental property of the feed line itself. When you connect your radio (expecting 50 ohms) to 50-ohm coax and then to an antenna that also presents 50 ohms, power flows smoothly through the entire system. An impedance change along the feed line—at a connector, a splice between different lines, or the antenna—reflects some power. In a real feed line, the resulting standing waves can increase heat loss. We'll explore those antenna mismatches in the next section. First, let's compare the practical tradeoffs between feed-line types.
+This characteristic impedance is a fundamental property of the feed line itself. When you connect your radio (expecting 50 ohms) to 50-ohm coax and then to an antenna that also presents 50 ohms, power flows smoothly through the entire system. An impedance change along the feed line—at a connector, a splice between different lines, or the antenna—reflects some power. In a real feed line, the resulting standing waves can increase heat loss. We'll explore those antenna mismatches in the next section. First, let's compare the practical tradeoffs between feed line types.
 
 > **Key Information:** The nominal characteristic impedance of "window line" transmission line is 450 ohms. {{< link id="G9A03" >}}
 
@@ -45,7 +45,7 @@ The tradeoff? Window line demands respect:
 - Protect it from ice buildup
 - Keep sufficient clearance from other cables
 
-Coax is the easygoing alternative—its shield confines the wanted signal and helps block outside interference. Unwanted current can still flow on the outside of that shield; [Section 2.1]({{% pageref "2.1" %}}) explains how a ferrite choke helps control it. Window line trades convenience for efficiency—worthwhile when you need every watt to count such as for QRP (low-power) operation.
+Coax is the easygoing alternative—its shield confines the wanted signal and helps block outside interference. Unwanted current can still flow on the outside of that shield; [Section 2.1]({{% pageref "2.1" %}}) explains how a ferrite choke helps control it. Window line trades convenience for efficiency—worthwhile when every watt counts, as in QRP (low-power) operation.
 
 #### Feed Line Loss: Where Your Power Goes
 
@@ -68,7 +68,7 @@ Let's put this in perspective with RG-8X (a popular "compromise" cable). The [Da
 
 These are specifications for one cable choice, not every product sold as RG-8X. Check the actual cable's data at your operating frequency.
 
-What does a 4.5 dB loss mean for your signal? At 200 MHz, send 100 watts through 100 feet of this cable and only about 35 watts reach your antenna. The other 65 watts? Warming up your coax. That could be part of why that distant station can't hear you. And remember—this loss affects both transmit AND receive. Your signal weakens going out, and incoming signals weaken coming back in. It's a double penalty. How much the receive loss hurts signal-to-noise ratio depends on the receiver and the external noise arriving with the signal.
+What does a 4.5 dB loss mean for your signal? At 200 MHz, send 100 watts through 100 feet of this cable and only about 35 watts reach your antenna. The other 65 watts? Warming up your coax. That could be part of why that distant station can't hear you. The same cable also weakens signals you receive. How much the receive loss hurts signal-to-noise ratio depends on the receiver and the external noise arriving with the signal.
 
 #### Choosing Feed Line for Your Station
 
@@ -79,7 +79,7 @@ Running 10 feet to an attic antenna? For a short HF run, most sound 50-ohm coax 
 
 **HF and 160-Meter Operations:**
 160 meters is an MF band, though it is often grouped with HF in station discussions.
-Both window line and coax have their place. Window line offers extremely low loss—ideal for long runs or when you need maximum efficiency. But it requires careful installation away from metal, including other cables, tower legs, and rain gutters. You will often use a suitable antenna tuner, and ice or water can affect the line.
+Both window line and coax have their place. The low loss of window line makes it a good choice for long runs, provided you can route it clear of metal, including other cables, tower legs, and rain gutters. You will often use a suitable antenna tuner, and ice or water can affect the line.
 
 Quality coax trades some efficiency for convenience—it's weather-resistant with properly sealed outdoor connections, is less affected by nearby metal, and connects directly to your radio. For most HF stations, good coax is the practical choice.
 
@@ -87,15 +87,15 @@ Quality coax trades some efficiency for convenience—it's weather-resistant wit
 Higher frequencies mean higher losses. Coax that works adequately at HF might lose half your power at 2 meters over a long run. At UHF you could see significant losses even with good coax. Short runs? Your existing cable may be fine if its ratings suit the job. For longer runs? Invest in better quality cable.
 
 **Power Considerations:**
-QRP operators can use lighter coax—when you're running 5 watts, power handling usually isn't the main concern. But push 1500 watts through undersized coax and you risk damage from heating, especially with high SWR.
+QRP operators can use lighter coax if the loss is acceptable for the run—when you're running 5 watts, power handling usually isn't the main concern. Bump that up to 1,500 watts and undersized coax can get hot enough to melt its insulation, especially with high SWR.
 
 #### RF Connectors: Moving Beyond Handheld Adapters
 
-Once you've chosen the cable, you need suitable connectors at each end. For an HF station or a more demanding installation, connector choice becomes even more critical. The best radio and antenna in the world become expensive decorations if a poorly installed connector blocks your signal. A damaged PL-259, corroded connection, or wrong connector type can waste just as much power as having the wrong antenna.
+Once you've chosen the cable, you need suitable connectors at each end. A corroded or poorly fitted connector can waste power.
 
 ##### Quick Review: The Connector Lineup
 
-You already know the basics—SMA for handhelds, UHF connectors (PL-259/SO-239) for mobile and base gear, BNC for quick connections. On HF, you'll use these same connectors but sometimes in more demanding situations where details really matter.
+You may recognize SMA connectors from handhelds, UHF connectors (PL-259/SO-239) from mobile and base equipment, and BNC connectors from their quick twist-lock action.
 
 ##### BNC at HF Frequencies
 > **Key Information:** A typical upper frequency limit for low SWR operation of 50-ohm BNC connectors is *4 GHz*. {{< link id="G6B04" >}}
@@ -107,7 +107,7 @@ A suitable BNC connector can handle a 100-watt HF station; check the ratings of 
 
 Type N has a lot going for it. It is highly weather-resistant, maintains a controlled impedance, and works into microwave frequencies. Many versions handle substantial HF power, but check the actual connector's rating at your frequency before connecting an amplifier.
 
-So why don't we all use Type N? Simple: most amateur radio transceivers come with UHF connectors, so that's what we use. Switching to Type N means adapters or replacing connectors, which adds hassle and potentially negates some benefits. Still, for permanent outdoor installations or VHF/UHF weak signal work, Type N is worth considering.
+Why don't we all use type N? Most amateur radio transceivers come with UHF connectors, so that's what we use. Switching to type N means adapters or replacing connectors, which adds hassle and potentially negates some benefits. Still, for permanent outdoor installations or VHF/UHF weak signal work, type N is worth considering.
 
 ##### SMA: Small but Capable
 > **Key Information:** An SMA connector is a *small threaded connector suitable for signals up to several GHz*. {{< link id="G6B11" >}}

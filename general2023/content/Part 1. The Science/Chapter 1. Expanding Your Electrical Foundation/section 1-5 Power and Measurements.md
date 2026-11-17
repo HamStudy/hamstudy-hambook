@@ -43,9 +43,9 @@ P &= I \times E = 0.5A \times 400V = 200W
 
 #### AC Power and RMS Measurements
 
-With alternating current, voltage and current constantly change. For a sine wave centered on zero, the positive and negative halves cancel when we average its voltage. The result is zero. So how do we apply Ohm's Law and power formulas to AC circuits?
+With alternating current, voltage and current constantly change. For a sine wave centered on zero, the positive and negative halves cancel when we average its voltage. If the average voltage is zero, how do we calculate the power delivered to a resistor?
 
-The answer is Root Mean Square (RMS) values. RMS is a special mathematical method that gives us an effective value for AC that works in our DC-based equations:
+We can use the familiar power formulas for resistors if we use the root mean square (RMS) voltage or current.
 
 > **Key Information:** The RMS value of an AC signal produces the same power dissipation in a resistor as a DC voltage of the same value. {{< link id="G5B07" >}}
 
@@ -78,20 +78,20 @@ The following table shows the relationships between voltage measurements for a *
 | Peak          | $$\begin{align*} E_{peak} &= E_{RMS} \times \sqrt{2} \\ &\approx E_{RMS} \times 1.414 \end{align*}$$ |
 | Peak-to-Peak  | $$\begin{align*} E_{p-p} &= 2 \times E_{peak} \\ &= 2 \times E_{RMS} \times \sqrt{2} \\ &\approx E_{RMS} \times 2.828 \end{align*}$$ |
 
-![The upper graph shows a sine-wave voltage crossing zero between positive and negative peaks. Peak voltage is measured from zero to a crest; peak-to-peak voltage spans the full distance from the negative peak to the positive peak, twice the peak voltage. The RMS level is about 0.707 times the peak voltage. The lower graph shows many rapid radio-frequency cycles inside a more slowly changing envelope. At the envelope’s crest, the RF cycles have their greatest amplitude. Peak envelope power uses the average power during one RF cycle at that crest.](../../../images/s1-5-power-waveforms.svg)
-{.img-centered .mw-70 .img-mobile-full caption="Peak, peak-to-peak and RMS describe sine-wave voltage. PEP uses the RF-cycle average power at the crest of the slower modulation envelope."}
+![The upper graph shows a sine wave voltage crossing zero between positive and negative peaks. Peak voltage is measured from zero to a crest; peak-to-peak voltage spans the full distance from the negative peak to the positive peak, twice the peak voltage. The RMS level is about 0.707 times the peak voltage. The lower graph shows many rapid radio-frequency cycles inside a more slowly changing envelope. At the envelope’s crest, the RF cycles have their greatest amplitude. Peak envelope power uses the average power during one RF cycle at that crest.](../../../images/s1-5-power-waveforms.svg)
+{.img-centered .mw-70 .img-mobile-full caption="Peak, peak-to-peak and RMS describe sine wave voltage. PEP uses the RF-cycle average power at the crest of the slower modulation envelope."}
 
 #### RF Power Measurements: PEP
 
-When you transmit voice or other complex signals, RF power can vary moment by moment, depending on what you send. We need a consistent measure. Peak Envelope Power (PEP) provides that standard, helping us follow the rules and avoid damaging equipment.
+When you transmit voice or other complex signals, RF power can vary moment by moment, depending on what you send. We need a consistent measure. Peak envelope power (PEP) provides that standard, helping us follow the rules and avoid damaging equipment.
 
 PEP is the average power over one RF cycle at the crest of the modulation envelope. The envelope follows the slower changes in the RF signal's amplitude, such as the peaks of speech. PEP describes those envelope peaks, not the highest instantaneous power within a single RF cycle. That distinction lets us compare changing signals using a consistent power measurement.
 
 > **Key Information:** For an unmodulated carrier, the ratio of PEP to average power is 1.00, meaning that the PEP and average power are the same. {{< link id="G5B11" >}}
 
-For a *continuous carrier with no modulation* (like a test tone or CW signal with the key down), *PEP equals the average power* because the power level remains constant. {{< link id="G5B13" >}} But with voice modulation, especially on SSB, the power output spikes during louder syllables. These momentary peaks might be several times higher than the average power level.
+For an *unmodulated carrier*, such as a CW signal with the key held down, *PEP equals average power* because every RF cycle has the same average power. {{< link id="G5B13" >}} With SSB voice, output power peaks on the louder syllables. These momentary peaks might be several times higher than the average power level.
 
-For a sine-wave RF signal across a resistive load, using the peak RF voltage at the envelope crest gives:
+For a sine wave RF signal across a resistive load, using the peak RF voltage at the envelope crest gives:
 
 $$PEP = \frac{E_{peak}^2}{2R}$$
 
@@ -146,7 +146,7 @@ That reference dipole has about 2.15 dBi gain. We can therefore express an anten
 
 Decibels also describe power that fails to reach its destination. Suppose your transmitter delivers 100 watts and the feed line loses 3 dB before the antenna. About half the power, or 50 watts, reaches the antenna. If another component introduces another 3 dB loss, about 25 watts remain. The losses add to 6 dB, while the power is halved twice.
 
-That is why a power increase at the transmitter does not necessarily produce the same power at the antenna. [Section 4.1]({{% pageref "4.1" %}}) applies this accounting to actual feed lines and their loss specifications. For now, the useful tool is the relationship between a dB change and the corresponding power ratio.
+With those two losses, about 25 of the original 100 watts reach the antenna. [Section 4.1]({{% pageref "4.1" %}}) applies this accounting to actual feed lines and their loss specifications. For now, the useful tool is the relationship between a dB change and the corresponding power ratio.
 
 #### Exam Questions
 

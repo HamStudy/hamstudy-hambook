@@ -134,7 +134,7 @@ Modern amateur radio equipment employs various filter technologies:
 
 3. **Mechanical Filters**: Use mechanical resonant elements; appear mostly in older equipment
 
-4. **Digital Signal Processing (DSP) Filters**: Use calculations to filter a signal after an analog-to-digital converter turns measurements of its voltage into numbers. The filtering happens in the digital domain: it works on those numbers. A digital-to-analog converter can then turn the result back into an analog signal, such as audio for a speaker.
+4. **Digital Signal Processing (DSP) Filters**: Use calculations to filter a signal after an analog-to-digital converter turns measurements of its voltage into numbers. A digital-to-analog converter can then turn the result back into an analog signal, such as audio for a speaker.
 
 #### Your Filter Toolkit Is Ready
 
@@ -142,4 +142,4 @@ You now understand how resonance transforms simple LC circuits into powerful fre
 
 When you turn your radio’s filter knob from "wide" to "narrow," you’re choosing a smaller frequency range. A 500 Hz CW filter can reject noise and interference outside that range while passing the signal you want. Even your antenna acts as a resonant filter, naturally favoring the frequencies it's cut for.
 
-But filtering and resonance are only part of the power transfer puzzle. Next, we'll explore how transformers move energy between circuits while offering impedance matching, possible electrical isolation, and the ability to step voltages up or down.
+A filter can select a frequency, but transferring power between circuits also depends on how their impedances match. Next, we'll explore how transformers move energy between circuits while offering impedance matching, possible electrical isolation, and the ability to step voltages up or down.

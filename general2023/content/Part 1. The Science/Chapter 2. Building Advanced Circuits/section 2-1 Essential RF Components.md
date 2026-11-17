@@ -37,7 +37,7 @@ You might remember from your Technician studies that capacitors store energy in 
 > - Electrolytic capacitors are characterized by high capacitance for a given volume (size). {{< link id="G6A04" >}}
 > - Low voltage ceramic capacitors are characterized by comparatively low cost. {{< link id="G6A08" >}}
 
-While electrolytic capacitors pack impressive capacitance into small spaces, they have significant limitations at radio frequencies. Most are polarized, which means the voltage across them must have the marked polarity. That is different from requiring current to flow in only one direction! A power-supply capacitor charges and discharges, so its current reverses while its positive terminal can remain at the higher voltage.
+While electrolytic capacitors pack impressive capacitance into small spaces, they have significant limitations at radio frequencies. Most are polarized, which means the voltage across them must have the marked polarity. That is different from requiring current to flow in only one direction! A power supply capacitor charges and discharges, so its current reverses while its positive terminal can remain at the higher voltage.
 
 If the voltage itself reverses, it is applied in the wrong direction and can damage the capacitor. There is no general 1–2 V reverse-voltage allowance to treat as safe. Follow the manufacturer's voltage and ripple-current ratings; the ripple-current rating tells you how much charging and discharging current the capacitor can handle.
 
@@ -53,7 +53,7 @@ Inductors (coils) are essential in RF circuits, helping to filter signals, match
 
 > **Key Information:** The performance of a ferrite core at different frequencies is determined by the composition, or "mix," of materials used. {{< link id="G6B01" >}}
 
-Ferrite cores aren't "one-size-fits-all"—manufacturers formulate them specifically for different frequency ranges. It's like having different grades of tires for different road conditions.
+Ferrite cores aren't "one-size-fits-all"—manufacturers formulate them specifically for different frequency ranges.
 
 A ferrite core that works beautifully at 3.5 MHz might be terrible at 28 MHz because of its composition. Manufacturers offer various "mixes" (like Type 43, Type 61, etc.) optimized for specific bands. When you buy ferrite beads or cores for interference problems, getting the correct mix can make a big difference.
 

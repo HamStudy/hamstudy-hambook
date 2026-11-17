@@ -14,13 +14,13 @@ Parallel capacitors add together for more filtering, but series capacitors actua
 #### Understanding Current and Voltage in Series and Parallel Circuits
 
 ![Two battery circuits compare series and parallel connections. On the left, the same total current passes through resistors R1, R2, and R3 in one loop. On the right, total current from the battery splits into three branches, one through each resistor, then rejoins on the return path. The three branch currents add up to the total, and every parallel branch has the full battery voltage across it. Arrows show conventional current leaving the positive battery terminal. The formulas show that series resistances add; for parallel resistors, add the reciprocals of the individual resistances, then take the reciprocal of that sum.](../../../images/s1-1-parallel-series.svg)
-{.img-full .img-centered caption="Figure 1 – Series and Parallel Circuit Diagrams"}
+{.img-full .img-centered caption="Series and Parallel Circuit Diagrams"}
 
 We can visualize electricity like water flowing through pipes. Let's take a look:
 
 ##### Series Circuits:
 
-In series circuits, imagine garden hoses connected end-to-end: every drop must flow through each section in sequence. Every bit of current that goes in one end has to pass through every part of the hose (circuit), so current stays the same everywhere. The pressure (voltage) drops across restrictions in the path. In our circuit, the resistors provide those restrictions. We treat the wires and connections as having negligible resistance, so almost all the voltage drop is across the resistors.
+Imagine garden hoses connected end-to-end. The same water flows through each section, just as the same current flows through every resistor in a series circuit. The pressure (voltage) drops across restrictions in the path. In our circuit, the resistors provide those restrictions. We treat the wires and connections as having negligible resistance, so almost all the voltage drop is across the resistors.
 
 * **One Path:** Components connected end-to-end in a single loop—current must flow through each in turn.
 * **Same Current Everywhere:** Like our garden hose example, the same current flows through every component.
@@ -40,13 +40,13 @@ With a parallel circuit it's more like your home's plumbing, where the main line
 > **Key Information:** In a circuit of parallel resistors, the total current equals the sum of the currents through each branch. {{< link id="G5B02" >}}
 
 * **Ohm's Law:** Since voltage is constant, current through each branch depends on its resistance: $I = \frac{E}{R}$. Lower resistance means more current.
-* **Independent Operation:** One branch opens, others continue—like your home outlets working independently. A shorted branch is different: it can overload the shared supply or trip its protection.
+* **Independent Operation:** If one branch opens, current can still flow through the others—just as unplugging a lamp leaves your other outlets working. A shorted branch is different: it can overload the shared supply or trip its protection.
 
 #### How Different Components Combine
 
 Now that we understand current and voltage behavior, let's see how components combine. We'll cover this in more detail below, but here is the short version:
 
-{{< captioned caption="Table 1 – Summary of governing equations for series and parallel circuits. At most one question about these combinations can appear on your exam." >}}
+{{< captioned caption="Summary of governing equations for series and parallel circuits. At most one question about these combinations can appear on your exam." >}}
 | Component | Series Connection | Parallel Connection |
 |-----------|------------------|---------------------|
 | Resistors | Direct Sum: <br />$$R_{total} = R_1 + R_2 + R_3 + \ldots$$ | Reciprocal Method:<br /> $$\frac{1}{R_{total}} = \frac{1}{R_1} + \frac{1}{R_2} + \frac{1}{R_3} + \ldots$$|
@@ -61,9 +61,7 @@ Now that we understand current and voltage behavior, let's see how components co
 When resistors are in series, their values add. When resistors are in parallel, the total resistance is always less than the smallest resistor in the group.
 
 ##### **Resistors in Parallel (Reciprocal Method):**
-Each parallel resistor adds a path for current. More total current flows at the same voltage, which means less total resistance. To use the reciprocal rule in Table 1, divide 1 by each resistance, add those results, then divide 1 by that sum. For just two resistors, there’s a shortcut:
-
-$$R_{\text{total}} = \frac{R_1 \cdot R_2}{R_1 + R_2}$$
+Each parallel resistor adds a path for current. More total current flows at the same voltage, which means less total resistance. To use the reciprocal rule, divide 1 by each resistance, add those results, then divide 1 by that sum.
 
 Let's look at some problems you could encounter on your exam:
 
@@ -78,7 +76,9 @@ R_{\text{total}} &= \frac{1}{0.17} \approx 5.9 \text{ ohms}
 
 Notice how 5.9 Ω is less than our smallest resistor (10 Ω)? This is ALWAYS true for parallel resistors—a great way to check your work!
 
-For a simpler example:
+For just two resistors, there’s a shortcut:
+
+$$R_{\text{total}} = \frac{R_1 \cdot R_2}{R_1 + R_2}$$
 
 What is the approximate total resistance of a 100-ohm and a 200-ohm resistor in parallel? {{< link id="G5C04" >}}
 
@@ -91,15 +91,9 @@ R_{\text{total}} &= \frac{R_1 \cdot R_2}{R_1 + R_2} \\[1.25em]
 
 #### Capacitors in Combination
 
-Remember, a capacitor is just two conductors (usually metal plates) separated by an insulator (the dielectric). Capacitance measures how much charge a capacitor stores per volt. It depends on plate area—bigger plates can store more charge. When you connect capacitors in parallel, you're essentially combining their plate areas into one larger capacitor. In series, each capacitor stores the same amount of charge, but their voltage drops add. Storing that charge takes more total voltage, so the combined capacitance is lower. That explains why capacitors combine opposite to resistors.
+Remember, a capacitor is just two conductors (usually metal plates) separated by an insulator (the dielectric). Capacitance measures how much charge a capacitor stores per volt. It depends on plate area—bigger plates can store more charge. When you connect capacitors in parallel, you're essentially combining their plate areas into one larger capacitor. In series, each capacitor stores the same amount of charge, but their voltage drops add. Storing that charge takes more total voltage, so the combined capacitance is lower. That’s why capacitors add in parallel, while resistors add in series.
 
 > **Key Information:** To increase the total capacitance in a circuit, add a capacitor in parallel. {{< link id="G5C13" >}}
-
-For two capacitors in series, we can use the same shortcut as for two parallel resistors. Multiply their values, then divide by their sum:
-
-$$C_{\text{total}} = \frac{C_1 \cdot C_2}{C_1 + C_2}$$
-
-The result is less than the smallest individual capacitance—another useful way to check your work.
 
 What is the equivalent capacitance of two 5.0-nanofarad capacitors and one 750-picofarad capacitor connected in parallel? {{< link id="G5C08" >}}
 
@@ -119,7 +113,11 @@ C_{\text{total}} &= \frac{100}{3}\\[1.25em]
 &\approx 33.33 \,\mu\mathrm{F}
 \end{align*}$$
 
-Another common example:
+For two capacitors in series, we can use the same shortcut as for two parallel resistors. Multiply their values, then divide by their sum:
+
+$$C_{\text{total}} = \frac{C_1 \cdot C_2}{C_1 + C_2}$$
+
+The result is less than the smallest individual capacitance—another useful way to check your work.
 
 What is the capacitance of a 20-microfarad capacitor connected in series with a 50-microfarad capacitor? {{< link id="G5C12" >}}
 
@@ -155,7 +153,7 @@ L_{\text{total}} &= \frac{10}{3} \approx 3.33 \text{ mH} \approx 3.3 \text{ mH}
 
 These calculations aren't just exam prep—they're tools that help you understand what your equipment is doing. Here are a few examples of where you'll see these principles in action:
 
-1. **Resonant Circuits**: Variable capacitors parallel with inductors tune to specific frequencies
+1. **Resonant Circuits**: Adjusting a variable capacitor connected in parallel with an inductor changes the circuit’s resonant frequency.
 2. **Impedance Matching**: Antenna tuners can combine inductors and capacitors in series and parallel arrangements to present a 50Ω load to the transmitter
 3. **Filtering**: One low-pass filter design uses inductors in line with the signal to oppose higher frequencies and capacitors from the signal line to ground to bypass them
 4. **Power Distribution**: For resistive DC loads, the same current flows through each series resistor ($P = I^2R$), while each parallel resistor has the same voltage across it ($P = E^2/R$)

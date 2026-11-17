@@ -17,7 +17,7 @@ Converting AC from your wall outlet to clean DC for your radio involves these ba
 
 1. **Transformation** - Changing the voltage level (if needed)
 2. **Rectification** - Converting AC to pulsating DC
-3. **Filtering** - Smoothing the pulses into steady DC
+3. **Filtering** - Smoothing the pulses
 4. **Regulation** - Maintaining constant voltage despite load changes
 
 The previous chapter covered transformers and voltage ratios. We'll start here with rectification, then follow the output through filtering and regulation.
@@ -60,14 +60,11 @@ Despite leaving half of each AC cycle unused, half-wave rectification is sometim
 
 #### Full-Wave Rectification
 
-Full-wave rectifiers utilize the entire AC cycle, making them more efficient and easier to filter.
+A full-wave rectifier sends current through the load in the same direction on both halves of the AC cycle. Where a half-wave rectifier leaves a gap, the full-wave rectifier supplies another pulse. For the same peak voltage, that extra pulse gives a higher average DC voltage across the load.
 
 > **Key Information:** An unfiltered full-wave rectifier connected to a resistive load produces a series of DC pulses at twice the frequency of the AC input. {{< link id="G7A07" >}}
 
-The main advantage of full-wave rectification is its efficiency:
-- It utilizes both positive and negative portions of the AC cycle instead of skipping alternate half-cycles
-- By converting both halves of the cycle, it inherently produces pulses at twice the input frequency (120 Hz from a 60 Hz input)
-- The unfiltered output still reaches zero, but the shorter time between peaks makes filtering easier for a given load and capacitance
+On a 60 Hz supply, the load receives 120 pulses per second instead of 60. The unfiltered voltage still falls to zero between peaks, but a filter capacitor can supply current to the load until the next peak recharges it. With the peaks only half as far apart, the same capacitor discharges for less time at a given load current. Its voltage drops less between charges, so the output has less ripple.
 
 The exam covers two common full-wave rectifier designs: center-tapped transformer and bridge rectifier.
 
@@ -105,7 +102,7 @@ For a rough estimate of the output voltage, allow a drop of about 0.7 V for each
 
 #### Filtering: Smoothing the Pulses
 
-Rectification alone produces pulsating DC—not the smooth, constant voltage our radio equipment needs. The next step is filtering, which smooths these pulses into steady DC.
+The rectifier sends current in one direction, but its output voltage still rises and falls. A filter smooths those pulses.
 
 > **Key Information:** Capacitors and inductors are used in a power supply filter network. {{< link id="G7A02" >}}
 

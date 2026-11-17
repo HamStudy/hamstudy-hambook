@@ -11,13 +11,13 @@ As a Technician, you probably focused on FM for local communications. As you pre
 
 #### Why Different Modulation Methods Matter
 
-Early radio communication used keyed signals to send Morse code. But as soon as people wanted to send voice, they needed a way to "paint" the constantly changing audio onto a radio wave. We can carry that audio by varying one of three characteristics of a radio wave:
+Early radio communication used keyed signals to send Morse code. Sending voice posed a different problem because the sound changes from moment to moment. To carry those changes, we can vary one of three characteristics of a radio wave:
 
 1. **Amplitude** (strength/height of the wave)
 2. **Frequency** (how fast it oscillates)
 3. **Phase** (the timing within each cycle)
 
-Each approach to modifying these characteristics creates different trade-offs between bandwidth, power efficiency, noise resistance, and complexity. Let's explore how each method works and why you'd choose one over another.
+Each approach to modifying these characteristics creates different trade-offs between bandwidth, power efficiency, noise resistance, and complexity.
 
 #### Amplitude Modulation: The Foundation
 
@@ -41,7 +41,7 @@ While AM works well, it has a fundamental inefficiency problem. When you transmi
 - An upper sideband (contains your voice)
 - A lower sideband (contains the same voice information)
 
-For 100% modulation by a single sine-wave tone, about two-thirds of the average power is in the carrier and one-sixth in each sideband. Speech does not have a fixed split like that. You’re sending the same audio information in two sidebands while also supplying power to a carrier that carries no changing message!
+For 100% modulation by a single sine wave tone, about two-thirds of the average power is in the carrier and one-sixth in each sideband. Speech does not have a fixed split like that. You’re sending the same audio information in two sidebands while also supplying power to a carrier that carries no changing message!
 
 ##### When AM Goes Wrong
 
@@ -79,7 +79,7 @@ This special mixer circuit combines your audio with the carrier frequency, but t
 **Step 2: The Sideband Filter:**
 This filter has a very sharp cutoff that passes one sideband while rejecting the other. The result is a single sideband containing all your voice information.
 
-![Audio and a radio-frequency reference enter a balanced modulator. It produces a lower sideband and an upper sideband while suppressing the carrier between them. The signal then passes through a sideband filter to the single-sideband output. In this example, the filter passes the upper sideband and rejects the lower one. The small frequency plots show both sidebands before filtering and only the upper sideband afterward. Frequency increases from left to right; a dashed mark shows where the suppressed carrier would be.](../../../images/s3-1-ssb-generation.svg)
+![Audio and a radio-frequency reference enter a balanced modulator. It produces a lower sideband and an upper sideband while suppressing the carrier between them. The signal then passes through a sideband filter to the single sideband output. In this example, the filter passes the upper sideband and rejects the lower one. The small frequency plots show both sidebands before filtering and only the upper sideband afterward. Frequency increases from left to right; a dashed mark shows where the suppressed carrier would be.](../../../images/s3-1-ssb-generation.svg)
 {.img-centered .mw-70 .img-mobile-full}
 
 ##### Receiving SSB: Putting It Back Together
@@ -93,8 +93,8 @@ This is why SSB signals sound like "Donald Duck" when you're not tuned quite rig
 ##### Sideband Selection: USB vs LSB
 
 For SSB voice, amateur radio convention is:
-- **Lower Sideband (LSB)**: 160, 80, and 40 meters
-- **Upper Sideband (USB)**: 20, 17, 15, 12, and 10 meters (and all VHF/UHF)
+- **Lower sideband (LSB)**: 160, 80, and 40 meters
+- **Upper sideband (USB)**: 20, 17, 15, 12, and 10 meters (and all VHF/UHF)
 
 Both sidebands contain identical information, but choosing the wrong one makes the received audio sound inverted and unintelligible. These conventions help stations choose compatible settings. Digital modes can use other conventions, and 60 meters has special rules; [Section 9.1]({{% pageref "9.1" %}}) covers actual frequency and emission permissions.
 
@@ -144,8 +144,8 @@ One of the most common problems across all modulation types is overmodulation. W
 > **Key Information:** Excessive bandwidth is an effect of overmodulation. {{< link id="G8A08" >}}
 
 Signs of overmodulation include:
-- Distorted audio reports from other stations
-- ALC (Automatic Level Control, which reduces excessive drive) indications outside the radio manufacturer’s recommended range
+- Reports from other stations that your audio sounds distorted
+- ALC (automatic level control, which reduces excessive drive) indications outside the radio manufacturer’s recommended range
 - Flat-topped waveforms on an oscilloscope
 - Interference complaints from stations on nearby frequencies
 

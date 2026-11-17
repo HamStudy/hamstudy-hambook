@@ -3,8 +3,10 @@ slug: copyright
 epubtype: introduction
 fontsize: smaller
 status: complete1
+cascade:
+  params:
+    hideSectionFooter: true
 ---
-## Copyright and Credits
 
 This work is copyright 2026 HamStudy.org LLC.
 
@@ -41,7 +43,7 @@ Under the following terms:
 
 By purchasing this book, you agree to these terms.
 
-#### You can find all versions of the book for online viewing or purchase at https://hambook.org
+**You can find all versions of the book for online viewing or purchase at https://hambook.org**
 
 ---
 
@@ -50,8 +52,9 @@ By purchasing this book, you agree to these terms.
 The following people and tools have contributed to this book and the HamBook project:
 * Richard Bateman, KD7BBC — Primary author, content architect, and project lead; directed, revised, and refined all material, including content generated or edited with the aid of AI tools.
 * Ray Bateman, KD7RMX — Software Engineer who kept things running while Richard worked on the book.
-* Mitch Berger, N2YIC — Technical reviewer and editor.
 * Claude AI — Assisted with drafting and revision under human direction, including creation and maintenance of some of the figures.
 * ChatGPT — Assisted with drafting, technical review, and revision under human direction, including creation and maintenance of many of the figures.
+
+NOTE ABOUT AI USE: The book was written with help from AI tools, which were used to speed up drafting, revision, and the creation of figures. Decisions about what to cover, how to present it, and how to organize it were made by people. Every part of the finished book, including material generated with AI, was reviewed and edited by humans.
 
 Also huge thanks to all who have emailed us about corrections or typos!

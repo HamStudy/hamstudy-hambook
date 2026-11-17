@@ -10,11 +10,11 @@ status: complete1
 
 ### Part 1: Expanding on Radio Science {#how-to-use-part-1}
 
-[Part 1]({{% pageref "pt1" %}}) follows a signal from the circuits in your radio through the antenna and out into the ionosphere. If you have a strong radio and electronics background then a lot of this could be review.
+[Part 1]({{% pageref "pt1" %}}) follows a signal from the circuits in your radio through the antenna and out into the ionosphere. If you have a strong background in radio and electronics, much of Part 1 may feel familiar.
 
 ### Part 2: Expanding on Radio Operation {#how-to-use-part-2}
 
-[Part 2]({{% pageref "pt2" %}}) takes you into the station to set up safely, get on the air, and learn which frequencies and modes your license lets you use. These are the things that often trip up those with a background in electronics and radio; it's pretty specific to Amateur Radio, so you likely wouldn't have come across it in regular college classes or commercial radio endeavors.
+[Part 2]({{% pageref "pt2" %}}) takes you into the station to set up safely, get on the air, and learn which frequencies and modes your license lets you use. Even if you've studied electronics or worked in commercial radio, some amateur operating practices may be new to you.
 
 ## Study Strategies
 

@@ -7,9 +7,7 @@ status: complete1
 
 ### Section 4.2: SWR and Antenna Matching
 
-In the previous section, we explored how your feed line's characteristic impedance is fixed by its construction, and how losses accumulate as your signal travels through cable and connectors. Now we tackle the next critical question: when RF arrives at your antenna feed point, does it get accepted and transferred efficiently, or does it reflect back down the line?
-
-This is where SWR—that mysterious number you learned about as a Technician—reveals its true meaning. Good impedance matching (low SWR at the feed point) allows power to enter the antenna with little reflection. It doesn't guarantee your antenna radiates efficiently—that depends on antenna design, height, and other factors we'll explore in upcoming sections—but it does tell you whether the antenna accepts power at the feed point rather than reflecting it back.
+A low SWR at the antenna feed point means little power reflects back down the feed line. How much of the accepted power actually radiates depends on the antenna's design and installation. Even a good match can feed a poor radiator.
 
 #### The Real Problem: Impedance Mismatch
 
@@ -21,11 +19,11 @@ Think of your radio system like water flowing through pipes. The transmitter act
 
 Here's the key insight: the impedance mismatch is the disease; high SWR is just the symptom we can easily measure.
 
-Just like the resonant circuits we discussed in [Chapter 1]({{% pageref "chpt1" %}}), antenna impedance isn't constant—it varies with frequency. At resonance, the reactive components cancel out leaving pure resistance—but not necessarily 50 ohms. Near its first resonance, a dipole is capacitive if too short and inductive if too long. This explains why a 40-meter dipole matched at 7.150 MHz can have a higher SWR elsewhere in the band.
+Like the resonant circuits in [Section 1.3]({{% pageref "1.3" %}}), an antenna presents different impedances at different frequencies. At resonance, its inductive and capacitive reactances cancel, leaving a resistance that may differ from 50 ohms. Near its first resonance, a dipole is capacitive if too short and inductive if too long. This explains why a 40-meter dipole matched at 7.150 MHz can have a higher SWR elsewhere in the band.
 
 #### Enter SWR: Our Diagnostic Tool
 
-Standing Wave Ratio (SWR) gives us a practical way to detect and quantify impedance mismatches. When forward and reflected waves travel on the same feed line, they create a standing wave pattern. SWR is the ratio of maximum to minimum voltages in this pattern.
+Standing wave ratio (SWR) gives us a practical way to detect and quantify impedance mismatches. When forward and reflected waves travel on the same feed line, they create a standing wave pattern. SWR is the ratio of maximum to minimum voltages in this pattern.
 
 Why use SWR instead of directly measuring impedance? A simple SWR meter can stay in line while you transmit. An antenna analyzer measures resistance and reactance too, but you normally use it with the transmitter disconnected.
 
@@ -33,25 +31,21 @@ Why use SWR instead of directly measuring impedance? A simple SWR meter can stay
 > - To prevent standing waves on a feed line connected to an antenna, the antenna feed point impedance must be matched to the characteristic impedance of the feed line. {{< link id="G9A07" >}}
 > - Connecting a 50-ohm feed line to a 200-ohm resistive load results in a 4:1 SWR. Connecting a 50-ohm feed line to a 10-ohm resistive load results in a 5:1 SWR. {{< link id="G9A09" >}} {{< link id="G9A10" >}}
 
-For purely resistive loads, SWR equals the larger impedance divided by the smaller. So $\frac{200\Omega}{50\Omega} = 4:1$, and $\frac{50\Omega}{10\Omega} = 5:1$.
+With a purely resistive load, divide the larger impedance by the smaller to find the SWR. For the 200-ohm load, that gives $\frac{200\Omega}{50\Omega} = 4:1$. For the 10-ohm load, the ratio is $\frac{50\Omega}{10\Omega} = 5:1$.
 
 That shortcut assumes a lossless feed line and a purely resistive load. If reactance is present, dividing two impedance magnitudes is not enough; an antenna analyzer can help.
 
 #### The Hidden Cost of High SWR
 
-Here's where everything we discussed about feed line loss in the previous section becomes even more important:
-
 > **Key Information:**
 > - High SWR increases loss in a lossy transmission line. {{< link id="G9A02" >}}
 > - Higher loss reduces SWR measured at the input to the line. {{< link id="G9A11" >}}
 
-Reflection alone does not turn power into heat. In a real line, the higher current and voltage peaks associated with high SWR increase the inherent losses. Every feed line has some loss, and when SWR is high, the signal bounces back and forth between antenna and transmitter, suffering that loss on each trip. A line with 1 dB of matched loss might exhibit 3 dB or more with high SWR. Your 100-watt signal could lose 30-50% of its power as heat in the coax!
+Reflection alone does not turn power into heat. In a real line, the higher current and voltage peaks associated with high SWR increase the inherent losses. Every feed line has some loss, and when SWR is high, the signal bounces back and forth between antenna and transmitter, suffering that loss on each trip. A line with 1 dB of matched loss might exhibit 3 dB or more with high SWR. With 3 dB of total feed line loss, a 100-watt signal delivers only about 50 watts to the antenna.
 
 Higher loss creates a dangerous illusion. The lossy line attenuates both forward and reflected signals, making the mismatch appear better than it actually is. That nearly 1:1 SWR reading on your UHF antenna with 200 feet of RG-58? The low SWR might mean your feed line is so lossy it's absorbing the reflected power. Your actual antenna match could be terrible, but the loss masks the problem.
 
 #### The Matching Network Illusion
-
-Here's a critical concept that trips up many operators:
 
 > **Key Information:** If the SWR on an antenna feed line is 5:1, and a matching network at the transmitter end is adjusted to present a 1:1 SWR to the transmitter, the resulting SWR on the feed line remains 5:1. {{< link id="G9A08" >}}
 
@@ -59,8 +53,8 @@ The matching network (antenna tuner) transforms the impedance seen by the transm
 
 A suitable tuner at the antenna feed point can instead match the antenna to the feed line, reducing SWR and loss along the line. Location matters!
 
-![With a tuner next to the radio, the radio sees a standing wave ratio of one to one, but the feed line beyond the tuner still has a five-to-one ratio. With a suitable tuner at the antenna instead, the feed line has a one-to-one ratio. Moving the matching point changes which part of the system is matched. These ideal examples omit tuner and feed-line losses.](../../../images/s4-2-tuner-location.svg)
-{.img-centered .mw-70 .img-mobile-full caption="These ideal examples omit tuner and feed-line losses."}
+![With a tuner next to the radio, the radio sees a standing wave ratio of one to one, but the feed line beyond the tuner still has a five-to-one ratio. With a suitable tuner at the antenna instead, the feed line has a one-to-one ratio. Moving the matching point changes which part of the system is matched. These ideal examples omit tuner and feed line losses.](../../../images/s4-2-tuner-location.svg)
+{.img-centered .mw-70 .img-mobile-full caption="These ideal examples omit tuner and feed line losses."}
 
 > **Key Information:** An impedance matching transformer at a transmitter output is used to present the desired impedance to the transmitter and feed line. {{< link id="G7C03" >}}
 
@@ -79,10 +73,10 @@ Think of a link budget as communication accounting to determine whether a link w
 **dBm** means power relative to 1 milliwatt: 0 dBm is 1 mW, +30 dBm is 1 watt, and +50 dBm is 100 watts. This gives the accounting a starting power level:
 - Start with transmitter power (+50 dBm for 100W)
 - Add antenna gains
-- Subtract all losses (including added feed-line loss from high SWR)
+- Subtract all losses (including added feed line loss from high SWR)
 - Result must exceed receiver sensitivity
 
-For a made-up example, start with 50 dBm, subtract 2 dB of transmitting feed-line loss, add 3 dBi of transmitting antenna gain, subtract 124 dB of path loss, add 3 dBi of receiving antenna gain, and subtract 1 dB of receiving feed-line loss:
+For a made-up example, start with 50 dBm, subtract 2 dB of transmitting feed line loss, add 3 dBi of transmitting antenna gain, subtract 124 dB of path loss, add 3 dBi of receiving antenna gain, and subtract 1 dB of receiving feed line loss:
 
 $$50-2+3-124+3-1=-71\text{ dBm}$$
 

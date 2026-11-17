@@ -7,9 +7,7 @@ status: complete1
 
 ### Section 3.3: Frequency Mixing and Bandwidth
 
-Ever wonder why your radio can tune to any frequency on the band instantly, yet still provide sharp selectivity and powerful amplification? Or why that strong local FM broadcast station sometimes causes interference to your 2-meter repeater? Frequency mixing helps explain both.
-
-As you prepare to explore the HF bands with General privileges, understanding how signals mix and interact becomes more important than ever. You'll encounter situations where strong signals create unexpected interference, where your radio's design affects what you can and can't hear, and where bandwidth choices dramatically impact your operating success. These concepts explain the "why" behind many everyday amateur radio experiences.
+Ever wonder why your radio can tune to any frequency on the band instantly, yet still provide sharp selectivity and powerful amplification? Why does a strong local FM broadcast station sometimes interfere with your 2-meter repeater? Frequency mixing helps explain both.
 
 #### Heterodyning: Shifting Frequency
 
@@ -117,13 +115,13 @@ Sometimes intermodulation happens in the most unexpected places—out in the env
 
 This becomes particularly problematic at mountain-top repeater sites where multiple high-power transmitters operate in close proximity. Strong signals from several repeaters can mix in unexpected places—perhaps in a loose guy wire connection or corroded tower joint—creating intermodulation products that fall right on another repeater's input frequency. The result? Phantom signals triggering repeaters or strange interference patterns that seem to come from nowhere.
 
-The solution might be as simple as cleaning and properly connecting a guy wire, or may require better antenna isolation and other measures to reduce RF at the bad junction. Filters can help when unwanted frequencies reach the junction, but they cannot remove a transmitter’s intended in-band signal while passing that same signal to the antenna. Understanding that these natural mixing phenomena can occur helps explain some of the stranger interference problems that occasionally puzzle even experienced engineers.
+The solution might be as simple as cleaning and properly connecting a guy wire, or may require better antenna isolation and other measures to reduce RF at the bad junction. Filters can help when unwanted frequencies reach the junction, but they cannot remove a transmitter’s intended in-band signal while passing that same signal to the antenna.
 
 When two strong signals (F1 and F2) interact in a non-linear device, they create a whole family of new frequencies:
 
 - F1 + F2, F1 - F2 (second-order products)
 - 2F1 + F2, 2F1 - F2, F1 + 2F2, 2F2 - F1 (third-order products)
-- And many higher-order combinations
+- Higher-order combinations
 
 Use the magnitude if a difference comes out negative. To find a product’s **order**, add its multipliers, ignoring the minus signs: 2F1 - F2 is third order because 2 + 1 = 3. By the same rule, 5F1 - 3F2 is eighth order, not odd order.
 
@@ -200,7 +198,7 @@ Two factors matter for heating: average RF power while transmitting compared wit
 - An ordinary FT8 transmission lasts about 12.6 seconds. One transmission in a 30-second transmit/receive cycle gives about 42% transmit time, not 100%.
 - CW keying, pauses in speech and time spent listening give equipment different opportunities to cool.
 
-Follow the radio, amplifier and power-supply ratings; do not assume the transceiver automatically reduces output enough to protect every device. [Section 7.4]({{% pageref "7.4" %}}) applies these limits to amplifier setup. [Section 6.5]({{% pageref "6.5" %}}) covers the separate averaging intervals used for RF-exposure evaluation.
+Follow the radio, amplifier and power supply ratings; do not assume the transceiver automatically reduces output enough to protect every device. [Section 7.4]({{% pageref "7.4" %}}) applies these limits to amplifier setup. [Section 6.5]({{% pageref "6.5" %}}) covers the separate averaging intervals used for RF exposure evaluation.
 
 ##### Receiver Sensitivity
 

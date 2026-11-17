@@ -11,15 +11,17 @@ Freedom to roam with radio—that's the promise of mobile and portable operation
 
 #### Engineering Magic: Making Big Antennas Small
 
-Picture trying to mount a 33-foot whip antenna on your car for 40-meter operation—it would add some definite challenges to the trip! Yet thousands of hams work HF mobile every day, making contacts around the world with antennas *significantly* shorter than that. The secret lies in clever engineering that makes the best use of the antenna you have by making it "appear" the correct length electrically. 
+Let's say you're taking a road trip and want to work 40 meters along the way. A simple quarter-wave whip should do it, right? That 33-foot antenna is unlikely to survive your first overpass—assuming the overhead power lines didn't take it out first.
 
-Remember those resonant circuits from [Chapter 1]({{% pageref "chpt1" %}})? We use the same principle here—adding inductance or capacitance to cancel out the antenna's reactance at our desired frequency. Below its first resonance, a physically short whip has capacitive reactance, so we add inductance to bring it to resonance where the impedance becomes purely resistive.
+Even so, hams work HF on the road all the time, sometimes reaching stations across the ocean with a whip just a few feet long. The trick is to make that short whip electrically long enough to resonate on 40 meters.
 
-The two main approaches are capacitance hats and loading coils. {{< link id="G4E01" >}} These devices add electrical length without adding physical height, letting you fit effective HF antennas on vehicles.
+Remember the [resonant circuits]({{% pageref "1.3" %}}) we looked at earlier? The same principle applies here. Below its first resonance, a short whip has capacitive reactance. A loading coil can supply just enough inductive reactance to cancel it at the operating frequency, leaving only resistance at the feed point.
+
+A capacitance hat is another way to add electrical length without making the whip taller. {{< link id="G4E01" >}}
 
 > **Key Information:** A capacitance hat on a mobile antenna is used to *electrically lengthen a physically short antenna*. 
 
-Think of a capacitance hat as spreading out the antenna's electrical field at the top, where current is lowest. Those horizontal spokes or discs you see on mobile antennas are typically 4-8 radial wires or a solid metal disk mounted at the antenna tip. They create capacitance to ground, *reducing the capacitive reactance of the short antenna*. Loading coils work more directly—they add inductive reactance that cancels the antenna's capacitive reactance, bringing the total reactance to zero at resonance.
+Think of a capacitance hat as spreading out the antenna's electric field at the top, where current is lowest. The hat is usually a set of four to eight horizontal spokes or a solid metal disk. Either shape adds capacitance to ground, *reducing the capacitive reactance of the short antenna*.
 
 ![One short whip has a loading coil inserted along its length. The other has both a loading coil and a capacitance hat, with spokes extending sideways from the tip. The hat adds capacitance; the coil adds inductance to help bring the short antenna to resonance. Each installation needs an RF return path at the base. The drawing does not give construction dimensions.](../../../images/s4-5-loaded-whips.svg)
 {.img-centered .mw-70 .img-mobile-full caption="The parts are shown; their sizes depend on the design."}
@@ -44,7 +46,7 @@ Corona discharge happens when high voltage ionizes the air, creating a bluish gl
 
 #### The Mobile Reality Check: Efficiency and Power
 
-Here's the truth about mobile HF: more transmitter power doesn't fix an inefficient antenna system. {{< link id="G4E05" >}} The laws of physics are unforgiving when it comes to shortened antennas.
+Here's the truth about mobile HF: more transmitter power doesn't fix an inefficient antenna system. {{< link id="G4E05" >}}
 
 > **Key Information:** *The efficiency of the electrically short antenna* is what most limits an HF mobile installation. 
 
@@ -68,7 +70,7 @@ Whether mobile or portable, carrying separate antennas for each band quickly bec
 
 > **Key Information:** The primary function of antenna traps is to *enable multiband operation*. 
 
-Traps are parallel LC circuits that act as frequency-selective switches. At their resonant frequency, these circuits present high impedance (remember from [Chapter 1]({{% pageref "chpt1" %}})?), effectively "cutting off" the antenna at that point. Below trap resonance, they act inductively: more of the antenna participates, and the trap’s loading helps establish a lower-frequency resonance. This lets *one antenna work like multiple antennas of different lengths*—a 40/20/15 meter trap vertical automatically selects the right electrical length for each band.
+Traps are parallel LC circuits that act as frequency-selective switches. At resonance, a parallel LC circuit presents high impedance, as [Section 1.3]({{% pageref "1.3" %}}) explains. That effectively cuts off the antenna at the trap. Below that frequency, the trap acts as an inductor. More of the antenna participates, and the trap’s loading helps establish a lower-frequency resonance. This lets *one antenna work like multiple antennas of different lengths*—a 40/20/15 meter trap vertical automatically selects the right electrical length for each band.
 
 The multiband convenience comes with a catch. {{< link id="G9D11" >}} These antennas can radiate on frequencies you didn't intend.
 
@@ -84,7 +86,7 @@ The transmitter creates that unwanted harmonic; the antenna may radiate it effic
 
 > **Key Information:** The maximum radiation from a VHF/UHF "halo" antenna is omnidirectional in the plane of the halo.
 
-It's roughly a half-wave element bent into a loop shape, with its ends close but not joined; that gap is not generally the feed point. Mounted horizontally, you get horizontal polarization for SSB work with *roughly 360-degree coverage*—perfect for VHF contest operators who travel between locations and need to work stations in any direction without stopping.
+It's roughly a half-wave element bent into a loop shape, with its ends close but not joined; that gap is not generally the feed point. Mounted horizontally, the halo gives you horizontal polarization for SSB work with *roughly 360-degree coverage*—perfect for VHF contest operators who travel between locations and need to work stations in any direction without stopping.
 
 #### From Antennas to Propagation
 

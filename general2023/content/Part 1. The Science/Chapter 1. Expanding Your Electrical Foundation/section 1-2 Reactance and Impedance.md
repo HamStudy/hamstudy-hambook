@@ -14,10 +14,10 @@ In the previous section, we combined capacitors and inductors to find their tota
 Imagine a spinning wheel. As the wheel turns, a point on its edge moves in a circle, completing a full rotation. Each rotation is a "cycle."
 
 ![Two linked plots connect circular motion to a sine wave. A point moves at constant speed around a circle, while a matching point follows the wave. The wave graph shows angle around the circle horizontally and the moving point’s height above or below the circle’s center vertically. Starting at center height, a quarter-turn reaches the positive peak. A half-turn returns to zero, three-quarters of a turn reaches the negative peak, and one full turn returns to the starting height. The repeated rise and fall forms a sine wave.](../../../images/circle_sine_animated.gif)
-{.img-centered caption="Figure 2: As a point moves at constant speed around a circle, its vertical position traces a sine wave over time."}
+{.img-centered caption="As a point moves at constant speed around a circle, its vertical position traces a sine wave over time."}
 
 * **Phase** tells us where a point is in its rotation. We measure phase in degrees (a full circle is 360°).
-* For this discussion, we use sine-wave AC and ideal components. Real signals can have other shapes.
+* For this discussion, we use sine wave AC and ideal components. Real signals can have other shapes.
 * If voltage and current rise and fall together, they are "in phase."
 * When current peaks at a different time than voltage, they are "out of phase."
 
@@ -53,7 +53,7 @@ An inductor's reactance depends on frequency. Think of an inductor as increasing
 Capacitors resist changes in voltage by storing energy in an electric field. In an ideal capacitor, current leads voltage by 90°.
 
 ![Three plots show phase relationships. A sine wave starts at zero, reaches its positive peak at 90 degrees, crosses zero at 180 degrees, reaches its negative peak at 270 degrees, and completes one cycle at 360 degrees. In the inductor plot, current reaches each peak and zero crossing one quarter-cycle, or 90 degrees, after voltage: current lags. In the capacitor plot, current reaches those points one quarter-cycle before voltage: current leads. The solid line represents voltage and the dashed line represents current.](../../../images/s1-2-phase-and-reactance.svg)
-{.img-centered .img-xlarge .img-mobile-full caption="Figure 3: In an ideal inductor, current lags voltage by a quarter-cycle (90 degrees). In an ideal capacitor, current leads by the same amount."}
+{.img-centered .img-xlarge .img-mobile-full caption="In an ideal inductor, current lags voltage by a quarter-cycle (90 degrees). In an ideal capacitor, current leads by the same amount."}
 
 A capacitor's reactance also depends on frequency, but in the opposite way from inductors. Capacitors become more "willing" to pass current as frequency rises. This makes them excellent as bypass capacitors that provide an easy path for RF signals while blocking DC.
 
@@ -65,7 +65,7 @@ Remember Ohm's law from your Technician studies? For DC circuits, resistance equ
 
 > **Key Information:** Impedance is the ratio of voltage to current in an AC circuit. {{< link id="G5A08" >}}
 
-So while Ohm's law for DC circuits states $R = \frac{E}{I}$, the AC version uses impedance: $Z = \frac{E}{I}$. Impedance (Z) represents the total opposition to current flow, and we still measure it in ohms (Ω), just like resistance. The key difference is that impedance includes both magnitude and phase relationships.
+In an AC circuit, the ratio of voltage to current gives the impedance, $Z = \frac{E}{I}$. Impedance (Z) represents the total opposition to current flow, and we still measure it in ohms (Ω), just like resistance. The key difference is that impedance includes both magnitude and phase relationships.
 
 We can combine resistance and reactance mathematically to find impedance, but they do not add like ordinary numbers. An antenna analyzer may show resistance and reactance separately, or the impedance magnitude—the size of the total opposition.
 
@@ -73,7 +73,7 @@ We can combine resistance and reactance mathematically to find impedance, but th
 
 #### Admittance: The Inverse Perspective
 
-While impedance is the primary way we describe AC opposition, engineers often find it mathematically convenient to work with its inverse, especially when analyzing parallel circuits:
+There’s a handy shortcut for components in parallel.
 
 > **Key Information:** Admittance is the inverse of impedance. {{< link id="G5A07" >}}
 
@@ -81,7 +81,7 @@ Just as conductance is the inverse of resistance, admittance (Y) is the inverse 
 
 $$Y = \frac{1}{Z}$$
 
-We measure admittance in siemens (S), and it is particularly useful when analyzing parallel circuits. When components are in parallel, their admittances simply add together, making calculations much simpler than working with impedances directly.
+We measure admittance in siemens (S). In parallel, the admittances add.
 
 #### Introducing Resonance: A Special Case
 
@@ -98,5 +98,3 @@ We'll explore what happens at resonance in the next section. Resonance is the fo
 #### Making Sense of Your Equipment
 
 An antenna also has resistance and reactance. Its impedance can change with frequency, changing the SWR even though the antenna hasn't moved. Ferrite cores reduce interference because their impedance can include both reactance and loss. Bypass capacitors clean up power supplies by offering low capacitive reactance to noise.
-
-Most importantly, you're ready to understand resonance—that special frequency where inductive and capacitive reactances cancel completely.

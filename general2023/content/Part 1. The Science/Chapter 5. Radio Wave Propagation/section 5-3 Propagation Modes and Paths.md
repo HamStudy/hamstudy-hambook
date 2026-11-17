@@ -11,7 +11,7 @@ Now that you understand the ionosphere's structure and the solar forces that con
 
 #### Skip Propagation: How Signals Circle the Globe
 
-HF signals use the ionosphere as a natural relay station, bouncing between Earth and sky to reach distant locations. Your signal travels upward, refracts off an ionospheric layer, returns to Earth, reflects from the surface, and heads skyward again. Each bounce extends your reach by hundreds or thousands of miles.
+HF signals use the ionosphere as a natural relay station, bouncing between Earth and sky to reach distant locations. Your signal travels upward, bends back toward Earth as it passes through the ionosphere, reflects from Earth's surface, and heads skyward again. Each bounce extends your reach by hundreds or thousands of miles.
 
 The distance each hop covers depends on which ionospheric layer does the refracting. {{< link id="G3B09" >}} {{< link id="G3B10" >}}
 
@@ -25,7 +25,7 @@ A single F2 hop can cross a narrow part of the Atlantic. Under suitable conditio
 
 Every distant station offers two possible paths around our spherical Earth. Short path takes the direct route—the shortest distance between two points on the globe. From New York to Tokyo, the short great-circle route heads roughly north-northwest and covers about 6,700 miles.
 
-Long path heads the opposite direction, the long way around the world. That same New York-to-Tokyo contact would point south-southeast, traveling about 18,100 miles along the other arc of that great circle. This longer journey sometimes encounters better propagation conditions than the direct route.
+Long path heads the opposite direction, the long way around the world. For that same contact, aim south-southeast from New York. The long path to Tokyo covers about 18,100 miles. This longer journey sometimes encounters better propagation conditions than the direct route.
 
 ![Stations A and B lie on one great circle around Earth. The short path follows the smaller arc between them. The long path leaves A in the opposite direction and follows the rest of that same circle to B. These are two routes to the same station, so their initial antenna headings are opposite. The curves mark routes around Earth's surface, not the height of ionospheric hops.](../../../images/s5-3-long-short-path.svg)
 {.img-centered .mw-70 .img-mobile-full caption="The short and long paths between A and B follow one great circle in opposite directions. The paths show surface routes, not hop heights."}
@@ -38,7 +38,7 @@ In our example, the surface routes differ by about 11,400 miles—roughly 60 mil
 
 #### Scatter Propagation: Signals from the Impossible Zone
 
-The skip zone should be silent—too far for ground wave, too close for normal skip. Yet sometimes weak signals appear from this "dead" zone through scatter propagation. Instead of clean refraction, your signal hits ionospheric irregularities and scatters in multiple directions like light hitting a disco ball. {{< link id="G3C06" >}} {{< link id="G3C07" >}} {{< link id="G3C08" >}} {{< link id="G3C09" >}}
+The skip zone should be silent—too far for ground wave, too close for normal skip. Occasionally, scatter propagation brings a weak signal into that "dead" zone. Instead of clean refraction, your signal hits ionospheric irregularities and scatters in multiple directions like light hitting a disco ball. {{< link id="G3C06" >}} {{< link id="G3C07" >}} {{< link id="G3C08" >}} {{< link id="G3C09" >}}
 
 > **Key Information:** HF scatter propagation characteristics:
 > - Creates signals with a *fluttering sound*
@@ -50,18 +50,18 @@ The multiple scattered signals arrive with slightly different timing and phase, 
 
 #### NVIS: Reliable Regional Coverage
 
-Sometimes you need coverage across a region a few hundred miles wide, including places inside the usual skip zone. Near Vertical Incidence Skywave (NVIS) sends signals nearly straight up so the ionosphere can bend them back toward nearby stations. {{< link id="G3C10" >}}
+Sometimes you need coverage across a region a few hundred miles wide, including places inside the usual skip zone. Near vertical incidence skywave (NVIS) sends signals nearly straight up so the ionosphere can bend them back toward nearby stations. {{< link id="G3C10" >}}
 
 > **Key Information:** NVIS propagation is short distance MF or HF propagation using *high radiation angles*.
 
-For a regional emergency net in mountainous terrain, even a low horizontal dipole can be useful. A height of 0.1 to 0.25 wavelength favors the high angles you need. Choose a frequency below the critical frequency for a vertical return, yet high enough to avoid excessive D-region absorption. Try 40 or 60 meters by day. As ionization falls after dark, 80 or 160 meters may work better. Experimentation is key for things like this, but you may be able to find others in your area who can offer ideas and experience.
+For a regional emergency net in mountainous terrain, even a low horizontal dipole can be useful. A height of 0.1 to 0.25 wavelength favors the high angles you need. Choose a frequency below the critical frequency for a vertical return, yet high enough to avoid excessive D-region absorption. By day, 40 or 60 meters can work well. As ionization falls after dark, 80 or 160 meters may work better. Try the bands on your path and ask local operators which ones work for their regional nets.
 
 ![Two rays leave the same transmitter and curve back toward Earth through the ionosphere. The steeply rising ray returns nearby; the shallower ray travels much farther before returning. This is the principle behind near vertical incidence skywave: a high-angle path can reach nearby stations that a lower-angle path skips over. Both rays assume a frequency the ionosphere can return. Angles, distances, and heights are not drawn to scale.](../../../images/s5-3-nvis.svg)
 {.img-centered .mw-70 .img-mobile-full caption="Both rays assume a frequency the ionosphere can return. The diagram is not to scale."}
 
 #### Understanding MUF and Path Selection
 
-Choosing among these paths also means choosing a frequency. Earlier in this chapter, we introduced MUF (Maximum Usable Frequency) for a particular path; now let's compare how it can differ between paths. {{< link id="G3B02" >}}
+Choosing among these paths also means choosing a frequency. [Section 5.1]({{% pageref "5.1" %}}) introduced the Maximum Usable Frequency (MUF) for a path. How does that frequency change when you aim at a different station? {{< link id="G3B02" >}}
 
 > **Key Information:**
 > - MUF is affected by path distance and location, time of day and season, and solar radiation and ionospheric disturbances.
@@ -87,7 +87,7 @@ Finding an open path is only part of the job; your signal also has to compete wi
 
 Thunderstorms across the tropics and temperate regions generate radio noise that plagues 160, 80, and 40 meters from late spring through early fall. Each lightning strike acts as a broadband transmitter, raising noise levels that can bury weak signals. The lower the frequency, the worse the noise. Operators often call this static QRN and interference from other signals QRM; the distinction is noise versus interfering signals, not simply natural versus man-made. Filters and noise controls can help, but they cannot always separate noise from a wanted signal in the same passband.
 
-Winter often brings less local thunderstorm noise, though you can still hear distant storms. The longer darkness hours favor low-band propagation. Spring and fall can also offer useful DX openings; seasonal ionospheric changes and the daylight along each path matter.
+Winter often brings less local thunderstorm noise, though you can still hear distant storms. The longer winter nights favor low-band propagation. Spring and fall can also offer useful DX openings; seasonal ionospheric changes and the daylight along each path matter.
 
 #### From Propagation Science to Practical Operation
 

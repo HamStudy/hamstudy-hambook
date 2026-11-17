@@ -16,7 +16,7 @@ A schematic describes electrical connections, not the physical arrangement of pa
 
 The symbols tell you what those connections join. A resistor limits current, a capacitor stores charge, and a transistor can control a larger current with a smaller input signal. Recognizing the symbols lets you follow the ideas from earlier sections into an actual circuit diagram.
 
-![Figure G7-1 is a schematic with eleven numbered components. Wires join the symbols into a circuit, with a positive DC supply connection at the top, an output at the right, and repeated ground symbols marking a common connection. Number 1 is a field-effect transistor, with a gate arrow pointing toward its channel. Number 2 is an NPN transistor, with an emitter arrow pointing outward. Number 3 is an ordinary diode, with a straight cathode bar. Number 4 is a varactor diode, with an added capacitor-like pair of plates. Number 5 is a Zener diode, whose cathode bar has bent ends. Number 6 is a transformer with two coil windings and lines between them indicating a solid core. Number 7 is an inductor with a tap connected partway along its coil. Numbers 8 and 10 are capacitors, each drawn with one straight plate and one curved plate. Number 9 is a fixed resistor, drawn as a zigzag. Number 11 is a potentiometer, drawn as a resistor with an arrow contacting it to represent an adjustable connection.](../../../images/G7-1.svg)
+![Figure G7-1 is a schematic with eleven numbered components. Wires join the symbols into a circuit, with a positive DC supply connection at the top, an output at the right, and repeated ground symbols marking a common connection. Number 1 is a field effect transistor, with a gate arrow pointing toward its channel. Number 2 is an NPN transistor, with an emitter arrow pointing outward. Number 3 is an ordinary diode, with a straight cathode bar. Number 4 is a varactor diode, with an added capacitor-like pair of plates. Number 5 is a Zener diode, whose cathode bar has bent ends. Number 6 is a transformer with two coil windings and lines between them indicating a solid core. Number 7 is an inductor with a tap connected partway along its coil. Numbers 8 and 10 are capacitors, each drawn with one straight plate and one curved plate. Number 9 is a fixed resistor, drawn as a zigzag. Number 11 is a potentiometer, drawn as a resistor with an arrow contacting it to represent an adjustable connection.](../../../images/G7-1.svg)
 {.img-full .img-centered caption="Figure G7-1: Electronic schematic symbols from the official question pool"}
 
 #### Recognizing the Components
@@ -49,7 +49,7 @@ The transformer has two windings, with lines between them indicating its magneti
 
 The remaining numbered components are familiar capacitors and resistors, used in different places in the circuit:
 
-- **Symbols 8 and 10 are capacitors.** Each shows two separated plates, one drawn curved. At 8, the capacitor connects the supply line to circuit ground, providing a bypass path for AC variations on the supply. At 10, the capacitor couples a changing signal into the FET circuit while blocking DC. The connections show these different jobs; the basic component is the same. This drawing does not explicitly mark either capacitor's polarity.
+- **Symbols 8 and 10 are capacitors.** Each symbol has one straight plate and one curved plate. At 8, the capacitor connects the supply line to circuit ground, providing a bypass path for AC variations on the supply. At 10, the capacitor couples a changing signal into the FET circuit while blocking DC. The connections show these different jobs; the basic component is the same. This drawing does not explicitly mark either capacitor's polarity.
 - **Symbol 9 is a fixed resistor.** Its zigzag represents resistance. Here it connects the NPN transistor's emitter circuit to ground; elsewhere in the drawing, the same symbol appears without a number.
 - **Symbol 11 is a potentiometer.** It adds a movable contact, shown by an arrow, to a resistor. Moving that contact selects a different fraction of the voltage across the resistor. In this circuit, the contact connects to the varactor, providing an adjustable control voltage.
 
@@ -59,7 +59,7 @@ The repeated ground marks identify the circuit's common reference connection, so
 
 Once you can identify the parts and follow their connections, a measurement has a purpose. Suppose a low-voltage power supply contains a rectifier and a filter capacitor, like those we studied earlier in this chapter. The diagram tells you where the rectified voltage reaches the capacitor. You would expect the capacitor to smooth the pulses, leaving a relatively steady DC output.
 
-A voltmeter can tell you whether that output is near the expected DC voltage. But the number alone may not tell you how much the output varies between charging pulses. For that, you need to see voltage changing with time: a *waveform*.
+A voltmeter can tell you whether that output is near the expected DC voltage. That reading alone can hide how much the voltage falls between charging pulses. For that, you need to see voltage changing with time: a *waveform*.
 
 #### Seeing a Waveform
 
