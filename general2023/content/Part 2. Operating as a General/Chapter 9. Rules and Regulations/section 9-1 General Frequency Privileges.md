@@ -7,7 +7,7 @@ status: complete1
 
 ### Section 9.1: General Frequency Privileges
 
-A General Class License gives you access to many more HF frequencies and modes, but a radio’s tuning range is not a guide to your privileges. Some frequencies require a different license class, and some permit CW or data but not voice. Check both the frequency and the emission type before transmitting.
+A General class license gives you access to many more HF frequencies and modes, but a radio’s tuning range is not a guide to your privileges. Some frequencies require a different license class, and some permit CW or data but not voice. Check both the frequency and the emission type before transmitting.
 
 A current amateur band chart puts those two kinds of permission together. The chart’s license-class boundaries come from FCC rules; suggested places for particular activities come from voluntary band plans.
 
@@ -23,7 +23,7 @@ These statements do not mean that every frequency unavailable to a General is Ex
 
 For voice, there is a useful pattern:
 
-> **Key Information:** When General class licensees cannot use the entire voice portion of a band, they may use the upper-frequency portion. {{< link id="G1A11" >}}
+> **Key Information:** When General class licensees cannot use the entire voice portion of a band, they may use the upper frequency portion. {{< link id="G1A11" >}}
 
 For example, the full phone segment on 20 meters is 14.150–14.350 MHz; General privileges cover *the upper part, 14.225–14.350 MHz*. On 40 meters, the General phone segment begins at 7.175 MHz:
 
@@ -82,7 +82,7 @@ Both the repeater’s receive and transmit frequencies must be allowed for that 
 
 A repeater may also link two different bands. In that case, the user’s station and the repeater each have a control operator with appropriate privileges:
 
-> **Key Information:** A 10-meter repeater may retransmit a 2-meter signal from a station with a Technician control operator only if the repeater’s control operator holds at least a General Class License. {{< link id="G1E02" >}}
+> **Key Information:** A 10-meter repeater may retransmit a 2-meter signal from a station with a Technician control operator only if the repeater’s control operator holds at least a General class license. {{< link id="G1E02" >}}
 
 The Technician is transmitting on 2 meters, where that operator has privileges. The repeater makes a separate transmission on 10 meters under its own control operator’s authority.
 

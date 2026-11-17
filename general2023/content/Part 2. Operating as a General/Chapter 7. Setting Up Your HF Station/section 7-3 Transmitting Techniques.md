@@ -28,8 +28,8 @@ That higher average level can help the receiving operator understand you through
 
 Your signal occupies a range of frequencies, not only the number on the display. In SSB mode, that number normally identifies the suppressed carrier frequency. The voice sideband lies above or below it:
 
-* **LSB (Lower Sideband):** The signal extends below the displayed frequency.
-* **USB (Upper Sideband):** The signal extends above the displayed frequency.
+* **LSB (lower sideband):** The signal extends below the displayed frequency.
+* **USB (upper sideband):** The signal extends above the displayed frequency.
 
 A signal about 3 kHz wide therefore needs about 3 kHz of room on the appropriate side of the displayed frequency. Near a band or license-privilege boundary, a legal display reading does not guarantee that the entire transmission is within your authorized segment.
 
@@ -54,7 +54,7 @@ These examples assume a 3 kHz signal. If your transmitter is set for a wider ban
 
 #### Working Split
 
-Many HF transceivers provide **VFO A** and **VFO B**, each with its own frequency setting. VFO stands for *variable frequency oscillator*; on the radio, these labels identify the two tuning settings. Normally you use the same frequency for transmit and receive. In *split operation*, the radio receives using one VFO and transmits using the other:
+Many HF transceivers have two independent tuning settings, labeled **VFO A** and **VFO B**. VFO stands for *variable frequency oscillator*. Normally you use the same frequency for transmit and receive. In *split operation*, the radio receives using one VFO and transmits using the other:
 
 > **Key Information:** A common use of the dual-VFO feature on a transceiver is to transmit on one frequency and listen on another. {{< link id="G4A12" >}}
 

@@ -7,7 +7,7 @@ questions: ["G4B06", "G4B09", "G4B03", "G4B04", "G4B07", "G4B08", "G4B13", "G4B1
 
 ### Section 7.6: Test Equipment and Measurement
 
-A normal power reading does not show whether a transmission is distorted. Nor does it explain a supply voltage drop or a changing antenna match. The measurement principles from [Section 2.5]({{% pageref "2.5" %}}) help you choose a test that answers the question you have.
+A normal power reading does not show whether a transmission is distorted. It also can't tell you why the supply voltage drops or the antenna match changes. The measurement principles from [Section 2.5]({{% pageref "2.5" %}}) help you choose a test that answers the question you have.
 
 #### Choosing a Meter for the Job
 
@@ -44,7 +44,7 @@ For SSB, one important question is whether the transmitting system preserves the
 > - A two-tone test uses two non-harmonically related audio signals. {{< link id="G4B07" >}}
 > - A two-tone test analyzes transmitter linearity. {{< link id="G4B08" >}}
 
-For example, 700 Hz and 1900 Hz are not harmonically related because neither frequency is a whole-number multiple of the other. Applied together to an SSB transmitter, they produce two corresponding RF tones. Nonlinear operation creates additional intermodulation products that may extend beyond the intended bandwidth.
+For example, 700 Hz and 1900 Hz are not harmonically related because neither frequency is a whole-number multiple of the other. Applied together to an SSB transmitter, they produce two corresponding RF tones. Non-linear operation creates additional intermodulation products that may extend beyond the intended bandwidth.
 
 An oscilloscope can reveal obvious distortion in the combined RF envelope, such as flattened peaks. A spectrum analyzer separates the output by frequency so you can compare the wanted tones with unwanted products. Use the test to check for distortion at the intended output power.
 

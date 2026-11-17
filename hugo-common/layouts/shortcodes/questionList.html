@@ -9,7 +9,9 @@
 
 <div class="markdown full-pool">
   <h1>{{ .Site.Data.questions.title }}</h1>
-  <h4 class="subheading"><strong>Last updated: </strong>{{ .Site.Data.questions.lastUpdate }}</h4>
+  {{- with .Site.Data.questions.lastUpdate }}
+    <p><strong>{{ i18n "poolUpToDateAsOf" }}</strong> {{ . }}</p>
+  {{- end }}
 
   {{- range $subelList -}}
     <h2 id="{{ .id }}" class="subel subel-{{ .id }} header-text">Subelement <span class="qid">{{ .id }}</span>: {{ .name }}</h2>

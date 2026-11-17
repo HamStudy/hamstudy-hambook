@@ -9,7 +9,7 @@ status: complete1
 
 An ordinary HF voice contact begins in one of three ways: you answer a call, invite someone to answer yours, or join a conversation already in progress. Each requires a different opening, but all depend on making yourself understood and leaving time for a reply.
 
-#### Make Your Voice Ready to Transmit
+#### Set Microphone Gain and VOX
 
 > **Key Information:** Transmit audio or microphone gain is typically adjusted for the proper ALC setting on an SSB transceiver. {{< link id="G2A12" >}}
 
@@ -17,7 +17,7 @@ Adjust microphone gain while speaking normally, keeping the RF power setting at 
 
 You can switch between transmit and receive with PTT or let your voice operate the switch:
 
-> **Key Information:** Voice Operated Transmission (VOX) allows hands-free operation compared to Push-To-Talk (PTT). {{< link id="G2A10" >}}
+> **Key Information:** Voice-operated transmission (VOX) allows hands-free operation compared to push-to-talk (PTT). {{< link id="G2A10" >}}
 
 VOX sensitivity sets the audio level that starts transmission. After you stop speaking, the delay determines how long the radio waits before returning to receive. Anti-VOX reduces the chance that audio from the radio’s speaker will trigger transmission.
 
@@ -37,7 +37,7 @@ After listening, check whether another station is using the frequency. For voice
 
 #### Calling and Answering
 
-Callsigns contain letters that can sound alike through noise. Standard phonetic words help separate them:
+Call signs contain letters that can sound alike through noise. Standard phonetic words help separate them:
 
 > **Key Information:** Alpha, Bravo, Charlie, and Delta are examples of the NATO Phonetic Alphabet. {{< link id="G2D07" >}}
 

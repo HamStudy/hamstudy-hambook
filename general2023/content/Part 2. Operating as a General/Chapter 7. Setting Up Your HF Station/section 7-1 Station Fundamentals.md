@@ -7,19 +7,19 @@ status: complete1
 
 ### Section 7.1: Station Fundamentals
 
-As a Technician, there's a good chance your first station was a handheld radio—transmitter, receiver, antenna, and battery all in one package you could clip to your belt. HF stations don't usually come that way. Instead, you'll start with a few basic parts and add to them depending on your specific goals. Those choices, especially about antennas and power, shape what your station can do.
+As a Technician, you may have started with a handheld radio—transmitter, receiver, antenna, and battery all in one package you could clip to your belt. HF stations don't usually come that way. Instead, you'll start with a few basic parts and add to them depending on your specific goals. Those choices, especially about antennas and power, shape what your station can do.
 
 The basics are the same for nearly every HF station: a transceiver, a power source, a feed line, and an antenna. Other station accessories enhance performance, add flexibility, or help you troubleshoot—but aren't always required.
 
 #### The Essentials
 
-**Transceiver**: The heart of your station, combining transmitter and receiver in one box. Most modern HF transceivers output 100 watts and cover 160 through 10 meters. Other options may have additional or fewer bands, specialize in low-power super-portable operation, or offer advanced Software Defined Radio capabilities.
+**Transceiver**: The heart of your station, combining transmitter and receiver in one box. Most modern HF transceivers output 100 watts and cover 160 through 10 meters. Other options may have additional or fewer bands, specialize in low-power super-portable operation, or offer advanced software-defined radio capabilities.
 
 **Power source**: Most 100-watt HF transceivers run on 13.8 volts DC and draw 20–25 amps at full power. That can come from an AC-to-DC power supply, a battery, or a heavy-gauge wire run to your vehicle's battery. Follow the radio and vehicle makers' instructions for wire size, fuses, and battery connections—a vehicle's accessory socket and its wiring may not handle that much current.
 
 **Feed line**: Connects the transceiver to the antenna.
 
-**Antenna**: There are many types of antennas—there is no "one size fits all," so the type you choose will depend on what matters most to you.
+**Antenna**: Start with the bands you want to use and the space you have to put up an antenna.
 
 Those are the basic station parts: transceiver, power, feed line, antenna. Before going on the air, complete the safety checks from the previous chapter and confirm that your frequency and mode are within your current privileges.
 
@@ -29,7 +29,7 @@ The four essentials assume everything cooperates: your antenna presents a nice 5
 
 ##### Antenna Tuner
 
-Your 40-meter dipole should present the radio a good match on 40 meters. Try that same dipole on 20 or 80 meters, though, and the impedance may be far from the 50 ohms your radio expects. An antenna tuner transforms that impedance so the transmitter sees a load close to the 50 ohms it was designed for.
+Your 40-meter dipole should give your radio a good match on 40 meters. Try that same dipole on 20 or 80 meters, though, and the impedance may be far from the 50 ohms your radio expects. An antenna tuner transforms that impedance so the transmitter sees a load close to the 50 ohms it was designed for.
 
 > **Key Information:** The purpose of an antenna tuner is to increase power transfer from the transmitter to the feed line. {{< link id="G4A06" >}}
 

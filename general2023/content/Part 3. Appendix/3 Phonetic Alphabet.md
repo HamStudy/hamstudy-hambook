@@ -7,9 +7,9 @@ status: complete1
 
 Making up your own phonetics can be fun, and many operators do it for their call sign. For important messages, though, unfamiliar words can cause confusion. Learn the standard phonetic alphabet so everyone uses the same words.
 
-### NATO phonetic alphabet
+### NATO Phonetic Alphabet
 
-There are others, but the most commonly used phonetic alphabet is the Radiotelephony Spelling Alphabet, commonly known as the **NATO phonetic alphabet**:
+The table gives the standard radiotelephony spelling alphabet.
 
 | Letter | Phonetic | Letter | Phonetic |
 |:------:|:--------:|:------:|:--------:|

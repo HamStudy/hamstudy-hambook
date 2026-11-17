@@ -31,7 +31,7 @@ FT8 and several related modes share a sideband convention. Within the 20-meter d
 
 The USB convention remains true on bands where SSB voice normally uses LSB. A radio’s data-mode label may differ, so follow the software and radio instructions for the appropriate USB-based configuration.
 
-The radio’s USB dial frequency is normally 14.074 MHz. Individual signals occupy different positions above it within the audio passband shown by the waterfall. For example, an audio offset of 1,500 Hz places a transmitted signal near 14.0755 MHz. Choosing another position in that passband is different from changing the radio’s dial frequency.
+For FT8 on 20 meters, the usual USB dial setting is 14.074 MHz. Individual signals occupy different positions above it within the audio passband shown by the waterfall. For example, an audio offset of 1,500 Hz places a transmitted signal near 14.0755 MHz. Choosing another position in that passband is different from changing the radio’s dial frequency.
 
 Timing determines when to use that position:
 
@@ -42,9 +42,9 @@ If the station calls in one 15-second period, your reply belongs in the followin
 ![Two station rows share a timeline marked at zero, fifteen, and thirty seconds. During the first fifteen-second period, Station A calls CQ while Station B receives. During the next period, Station B replies while Station A receives. Each transmit bar ends before its fifteen-second period ends. The stations use opposite periods, and each must choose a transmit frequency that is clear during its own period.](../../../images/s8-5-ft8-turn-taking.svg)
 {.img-centered .img-xlarge .img-mobile-full caption="FT8 stations take turns in opposite 15-second periods. Each transmission ends before its period ends. Choose a clear transmit frequency during the period you will use."}
 
-Your reply can use a different audio frequency from the caller's, as long as it stays within the passband the other station is receiving. Check both the selected transmit period and the marker showing your transmit frequency on the waterfall rather than assuming the software’s current settings are appropriate.
+Your reply can use a different audio frequency from the caller's, as long as it stays within the passband the other station is receiving. Check both the selected transmit period and the marker showing your transmit frequency on the waterfall.
 
-A normal exchange establishes the callsigns, passes signal reports, and acknowledges receipt. Let the sequence finish and check the result before logging the contact. If replies are consistently missing, revisit the timing and signal-level checks in [Section 7.5]({{% pageref "7.5" %}}) rather than immediately increasing power.
+A normal exchange establishes the call signs, passes signal reports, and acknowledges receipt. Let the sequence finish and check the result before logging the contact. If replies are consistently missing, revisit the timing and signal-level checks in [Section 7.5]({{% pageref "7.5" %}}) rather than immediately increasing power.
 
 #### Sending Messages Through Winlink
 

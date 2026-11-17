@@ -29,7 +29,7 @@ params:
   keywords: "Amateur Radio, Ham Radio, Technician Class, Hambook, Study Manual"
   description: "This HamBook covers everything you need to know to pass your Technician exam and start your exciting adventure in ham radio. From the basics of electricity and radio waves to operating procedures and FCC regulations, we've got you covered."
   BookPortableLinks: true
-  BookSubtitle: (2026 - 2030)
+  # BookSubtitle: (2026 - 2030)
   BookLogo: "figures/coverfornow.jpg"
   hsBaseURL: "https://hamstudy.org/flashcard/E2_2026?bk=hambook-tech2026&def=q:"
   qrBaseURL: "https://hamstudy.org/api/v1/qrcode"

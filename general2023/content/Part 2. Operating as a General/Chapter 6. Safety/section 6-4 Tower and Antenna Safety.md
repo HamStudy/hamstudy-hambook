@@ -11,7 +11,7 @@ Preparing for General privileges often inspires bigger antenna projects—towers
 
 #### Climbing Safely
 
-If you're going to climb, a safety harness is non-negotiable. But not just any harness—it needs to actually protect you.
+If you're going to climb, a safety harness is non-negotiable.
 
 > **Key Information:** When climbing a tower using a safety harness, confirm that the harness is rated for the weight of the climber and that it is within its allowable service life. {{< link id="G0B07" >}}
 

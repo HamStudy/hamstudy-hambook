@@ -17,7 +17,7 @@ Lightning carries enormous energy and will find a path to ground one way or anot
 > - The lightning protection ground system should be located *outside the building*. {{< link id="G0B04" >}}
 > - Lightning protection ground rods must be bonded together with all other grounds. {{< link id="G0B11" >}}
 
-Think of your house as a protected zone. Lightning grounds, arrestors, and the connections between them all belong outside. When lightning hits your antenna system, you want that energy to flow directly to earth without ever entering your walls. But separate, unbonded ground systems create another hazard: during a strike, different ground points can momentarily sit at very different voltages. If your tower ground is at one potential and your electrical service ground is at another, that difference will try to equalize, potentially through your equipment or through you.
+Think of your house as a protected zone. Lightning grounds, arrestors, and the connections between them all belong outside. When lightning hits your antenna system, you want that energy to flow directly to earth without ever entering your walls. During a strike, separate, unbonded grounds can momentarily sit at very different voltages. If your tower ground is at one potential and your electrical service ground is at another, that difference will try to equalize, potentially through your equipment or through you.
 
 Bonding helps limit voltage differences between grounding systems during a strike; it does not guarantee that every point stays at exactly the same voltage. The conductor sizes, connections, and routing must be appropriate to the installation. The principle here is to coordinate the grounding systems rather than treat each ground rod as an isolated solution.
 
@@ -25,7 +25,7 @@ Ground rods, bonding conductors and lightning arrestors work as a system. Arrest
 
 > **Key Information:** Lightning arrestors should be located where feed lines enter the building. {{< link id="G0B13" >}}
 
-Mount them directly connected to your external ground system. Every conductor entering your shack needs protection: coax, control cables, rotator lines. One unprotected path can negate all your other protection.
+Connect the arrestors directly to the external grounding system where the feed line enters the building. Every conductor entering your shack needs protection: coax, control cables, rotator lines. One unprotected path can negate all your other protection.
 
 Make any planned cable disconnections before a storm arrives. When you hear thunder, stop operating and stay away from equipment connected to outdoor antennas or house wiring. Do not handle antenna cables or grounding connections while lightning is nearby.
 
@@ -82,9 +82,7 @@ Keep food away from the work area and wash your hands carefully after handling t
 
 #### Bringing It All Together
 
-Three different grounding needs—lightning protection, RF management, and electrical safety—sometimes seem to pull in different directions. All three benefit from proper bonding of the grounding systems and equipment enclosures.
-
-The common goal is to manage currents and voltage differences rather than leave separate pieces of equipment at unrelated potentials. Lightning protection, RF bonding, and electrical safety grounding each address a different hazard, so none replaces the others. A station can need attention to all three even if one appears to be working well.
+Lightning protection diverts surges outside, while RF bonding reduces voltage differences between equipment enclosures. The electrical safety ground gives fault current a path back to the supply so the fuse or breaker can open the circuit. Each protects against a different hazard.
 
 No ground system is perfect, and a direct lightning strike can overwhelm any protection.
 

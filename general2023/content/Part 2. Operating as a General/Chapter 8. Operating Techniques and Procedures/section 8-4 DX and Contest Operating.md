@@ -35,9 +35,9 @@ Sometimes propagation supports the longer route around Earth instead. If the sho
 
 #### Calling Among Other Stations
 
-Before answering a station with a pileup, listen through several exchanges. Identify its call sign, determine whether it is working split, and note any instructions. Follow [Section 7.3]({{% pageref "7.3" %}})’s split-operation checks for the transmit VFO. Receiving a station legally does not mean you may transmit on its frequency.
+Before answering a station with a pileup, listen through several exchanges. Identify its call sign, determine whether it is working split, and note any instructions. Check which VFO will transmit, as described in [Section 7.3]({{% pageref "7.3" %}}). Receiving a station legally does not mean you may transmit on its frequency.
 
-Call during the listening period, then listen for the reply. If the operator answers a different callsign or asks for a partial call that does not match yours, leave the exchange clear. Repeated calls during someone else’s reply make it harder for both stations to finish.
+Call during the listening period, then listen for the reply. If the operator answers a different call sign or asks for a partial call that does not match yours, leave the exchange clear. Repeated calls during someone else’s reply make it harder for both stations to finish.
 
 As conditions change, stations in separate contacts may begin hearing one another. Neither group may have heard the other when its contact began:
 
@@ -49,9 +49,9 @@ One group may move to another clear frequency, or the operators may arrange to t
 
 A contest specifies which contacts count and what information operators must exchange. Before calling, read its rules for bands, modes, operating times, and entry categories. The exchange might include a signal report plus a state, zone, or serial number; the details depend on the event.
 
-Suppose a voice contest requires a report and a serial number. After exchanging callsigns, the other operator sends “five nine, one four two.” You record report 59 and their serial number 142. If this is your seventh contact, your reply might be “five nine, zero zero seven.” Your number records your own sequence, not a copy of theirs.
+Suppose a voice contest requires a report and a serial number. After exchanging call signs, the other operator sends “five nine, one four two.” You log a signal report of 59 and the other station’s serial number, 142. If this is your seventh contact, your reply might be “five nine, zero zero seven.” Your number records your own sequence, not a copy of theirs.
 
-You will often hear standard 59 or 599 reports in contests. Do not treat those brief exchanges as detailed evaluations of your signal. If you miss a callsign or number, request a repeat before the contact ends.
+You will often hear standard 59 or 599 reports in contests. Do not treat those brief exchanges as detailed evaluations of your signal. If you miss a call sign or number, request a repeat before the contact ends.
 
 A faster exchange does not change the station-identification requirements:
 
@@ -67,7 +67,7 @@ Some contest QRP categories have a 5-watt limit, but definitions and categories 
 
 #### Keep an Accurate Record
 
-A contest log records the date and time in UTC, band or frequency, mode, callsign, and required exchange. The same basic record can be useful for ordinary contacts:
+A contest log records the date and time in UTC, band or frequency, mode, call sign, and required exchange. The same basic record can be useful for ordinary contacts:
 
 > **Key Information:** Many amateurs keep a station log to help with a reply if the FCC requests information about their station. {{< link id="G2D08" >}}
 

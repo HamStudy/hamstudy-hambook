@@ -328,6 +328,20 @@ Prefer distinct, useful headings across the book. Where repeated wording is genu
 
 The print system currently scopes heading IDs by page, but that does not replace meaningful headings or verification after structural changes.
 
+### Control the printed section footer
+
+Place `<div class="no-section-footer"></div>` in its own block directly after the opening heading to keep the section title out of the running footer. In a file without an opening heading, put the marker before the first paragraph. The chapter header and page number still print. Use the existing `<div class="clear-footer"></div>` when you want to clear the current label only until the next section heading or explicit footer label.
+
+To apply the same behavior to a whole group, such as an introduction and its subsections, set `hideSectionFooter` in the parent `index.md` front matter as shown below.
+
+```yaml
+cascade:
+  params:
+    hideSectionFooter: true
+```
+
+An individual file can override the inherited setting with `hideSectionFooter: false` in its front matter. When sections share a printed page, the first footer label or reset on that page determines what appears at the bottom.
+
 ### Keep references and translations aligned
 
 Question anchors identify teaching points; they are not generic page links. Use `pageref` for internal destinations:

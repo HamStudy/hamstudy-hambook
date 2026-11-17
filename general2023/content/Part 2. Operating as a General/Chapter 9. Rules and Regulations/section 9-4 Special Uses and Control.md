@@ -29,7 +29,7 @@ A beacon provides a signal that other operators can use to *investigate a radio 
 
 > **Key Information:** Observation of propagation and reception is a purpose of a beacon station. {{< link id="G1B03" >}}
 
-How the beacon is controlled matters. The **control point** is where the control operator controls the station. With **automatic control**, devices and procedures keep the station within the rules without the control operator at the control point. The licensee and control operator remain responsible.
+How the beacon is controlled matters. The **control point** is the place from which the control operator directs the station. With **automatic control**, devices and procedures keep the station within the rules without the control operator at the control point. The licensee and control operator remain responsible.
 
 ![Three side-by-side scenes show the same transceiver under different control methods. At left, an operator beside the radio represents local control: the operator adjusts the radio directly. In the center, an operator uses a separate control console; a dashed line connects that console to the radio: remote control. At right, a small controller box marked with a chip symbol operates the radio, with no person shown: automatic control. The distinction is how the station is controlled, not simply whether it uses a computer. All three methods still have a responsible station licensee and control operator. The diagram explains control methods, not permission for any particular transmission.](../../../images/s9-4-station-control.svg)
 {.img-centered .mw-70 .img-mobile-full caption="Left: local control, with the operator adjusting the radio directly. Center: remote control through a control link. Right: automatic control, with a controller operating the radio without an operator at a control point. Each method still requires a responsible licensee and control operator."}
@@ -50,8 +50,8 @@ The location restriction is **per band**. You can have beacons on different band
 The gateway examples in the previous chapter use another form of automatic operation. A gateway might exchange signals with another automatically controlled station or answer an operator-controlled station. The rules differ for these two cases:
 
 > **Key Information:**
-> - Automatically controlled stations may communicate with other automatically controlled stations using RTTY or data on the 6-meter and shorter-wavelength bands, and in specified segments of some HF bands. {{< link id="G1E11" >}}
-> - When contacting an automatically controlled digital station outside the automatic-control segments, the station initiating the contact must be under local or remote control. {{< link id="G1E03" >}}
+> - Automatically controlled stations may communicate with other automatically controlled stations using RTTY or data on the 6-meter and shorter wavelength bands, and in specified segments of some HF bands. {{< link id="G1E11" >}}
+> - When contacting an automatically controlled digital station outside the automatic control segments, the station initiating the contact must be under local or remote control. {{< link id="G1E03" >}}
 
 The stations must still use frequencies and emission types that the rules allow. “Six meters and shorter wavelengths” means the higher-frequency bands. On HF, [Section 97.221(b)](https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-97/subpart-C/section-97.221) lists the permitted segments; check that list before setting up an unattended station.
 

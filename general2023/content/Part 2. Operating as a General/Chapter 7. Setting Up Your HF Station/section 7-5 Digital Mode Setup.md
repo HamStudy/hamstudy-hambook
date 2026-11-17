@@ -13,7 +13,7 @@ A computer can generate and decode digital signals, control the radio, or do bot
 
 In audio-based setups, the computer sends tones to the transmitter in place of microphone audio. On receive, the software decodes the audio coming from the radio. Some radios carry this audio through a built-in USB sound interface; others need an external sound interface and audio cables. Here, USB means the computer connection, not upper sideband.
 
-RTTY can use **audio frequency-shift keying (AFSK)**: the computer alternates between two audio tones, *mark* and *space*, and an SSB transmitter converts them to two RF frequencies. Their spacing, called the *shift*, stays the same:
+RTTY can use **audio frequency shift keying (AFSK)**: the computer alternates between two audio tones, *mark* and *space*, and an SSB transmitter converts them to two RF frequencies. Their spacing, called the *shift*, stays the same:
 
 > **Key Information:** The most common frequency shift for RTTY emissions in the amateur HF bands is 170 Hz. {{< link id="G2E06" >}}
 
@@ -52,7 +52,7 @@ A clock that is too far off can make signals difficult or impossible to decode, 
 
 #### When It Doesn't Work
 
-An RTTY signal can be strong and appear correctly tuned yet produce unreadable text. The software must agree with the sending station about which tone is mark or space and how fast they change:
+An RTTY signal can be strong and appear correctly tuned yet produce unreadable text. The software must agree with the sending station about which tone represents mark, which represents space, and how fast the symbols are sent:
 
 > **Key Information:** If you cannot decode an RTTY or other FSK signal even though it is apparently tuned in properly, the mark and space frequencies may be reversed, you may have selected the wrong baud rate, or you may be listening on the wrong sideband. {{< link id="G2E14" >}}
 

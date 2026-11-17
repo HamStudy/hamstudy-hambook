@@ -17,7 +17,7 @@ params:
   description: "Prepare for the 2023–2027 US General Class amateur radio exam. Learn about circuits, signals, antennas, propagation, safe station setup, operating procedures, and FCC rules."
   printStylesheet: "css/print.css"
   BookPortableLinks: true
-  BookSubtitle: (2023 - 2027)
+  # BookSubtitle: (2023 - 2027)
   BookLogo: "general2023.jpg"
   hsBaseURL: "https://hamstudy.org/flashcard/E3_2023?bk=hambook-general2023&def=q:"
   qrBaseURL: "https://hamstudy.org/api/v1/qrcode"
@@ -26,7 +26,7 @@ params:
     g7-1: >-
       Figure G7-1 is a schematic with eleven numbered components. Wires join the symbols into a
       circuit, with a positive DC supply connection at the top, an output at the right, and
-      repeated ground symbols marking a common connection. Number 1 is a field-effect
+      repeated ground symbols marking a common connection. Number 1 is a field effect
       transistor, with a gate arrow pointing toward its channel. Number 2 is an NPN transistor,
       with an emitter arrow pointing outward. Number 3 is an ordinary diode, with a straight
       cathode bar. Number 4 is a varactor diode, with an added capacitor-like pair of plates.

@@ -16,7 +16,7 @@ After you pass an exam element, the exam team gives you a Certificate of Success
 > **Key Information:**
 > - A Technician with an unexpired CSCE for General privileges may operate on any General or Technician band segment. {{< link id="G1D03" >}}
 > - A Technician using newly earned General privileges must add AG after the call sign until the General upgrade appears in the FCC database. {{< link id="G1D06" >}}
-> - A CSCE is valid for examination-element credit for 365 days. {{< link id="G1D09" >}}
+> - A CSCE is valid for exam element credit for 365 days. {{< link id="G1D09" >}}
 
 For example, W1ABC using the temporary General privileges identifies as “*W1ABC slash AG*” on voice, or *W1ABC/AG* in CW or an appropriate text mode.
 
@@ -29,12 +29,12 @@ If the FCC receives your properly filed renewal application by the expiration da
 Once the grace period ends, you cannot renew that license through the normal process. You may still get exam credit based on your old license:
 
 > **Key Information:**
-> - A person who can demonstrate a former FCC-issued General, Advanced, or Amateur Extra license that was not revoked may receive partial credit for the examination elements represented by that license. {{< link id="G1D01" >}}
-> - After a General Class License has expired beyond the two-year grace period, obtaining a new General Class License requires proof of the appropriate expired grant and passing the current Element 2 examination. {{< link id="G1D11" >}}
+> - Any person who can demonstrate that they once held an FCC-issued General, Advanced, or Amateur Extra class license that was not revoked by the FCC may receive partial credit for the elements represented by that expired amateur radio license. {{< link id="G1D01" >}}
+> - After a General class license has expired beyond the two-year grace period, obtaining a new General class license requires proof of the appropriate expired grant and passing the current Element 2 examination. {{< link id="G1D11" >}}
 
 A General or Advanced license past its grace period gives credit for **Element 3**, the General exam. It is not credit for Element 2. Without current Element 2 credit, you must pass the *current Technician exam* to get a new General grant. Someone with no current license must still wait for the new FCC grant before transmitting as a control operator.
 
-A former Amateur Extra grant provides credit for Elements 3 and 4. [FCC rule 97.505](https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-97/subpart-F/section-97.505) also lists other ways an older license can earn exam credit. Before the session, ask the exam team what proof to bring and which exams you need. You can claim exam credit with proof of an old license or a recent CSCE. The CSCE’s 365-day limit does not apply to credit from a qualifying old license.
+A former Amateur Extra grant provides credit for Elements 3 and 4. [FCC rule 97.505](https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-97/subpart-F/section-97.505) also lists other ways an older license can earn exam credit. Before the session, ask the exam team what proof to bring and which exams you need. The CSCE’s 365-day limit does not apply to credit from a qualifying old license.
 
 #### How Volunteer Examiners Fit into the Process
 
@@ -42,7 +42,7 @@ Volunteer Examiners, or VEs, give amateur radio exams. They work through a Volun
 
 > **Key Information:**
 > - Volunteer Examiners are accredited by a Volunteer Examiner Coordinator. {{< link id="G1D07" >}}
-> - An accredited VE holding a General Class License may administer Technician examinations only. {{< link id="G1D02" >}}
+> - An accredited VE holding a General class license may administer Technician examinations only. {{< link id="G1D02" >}}
 
 The FCC issues the license grant; the examining team administers and certifies the examination. A VE’s license class limits which exams that person may administer:
 

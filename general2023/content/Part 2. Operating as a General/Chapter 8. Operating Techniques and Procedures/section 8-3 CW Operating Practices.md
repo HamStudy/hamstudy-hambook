@@ -7,9 +7,9 @@ status: complete1
 
 ### Section 8.3: CW Operating Practices
 
-A CW contact may contain only a few lines of information: callsigns, a report, names, and locations. Short codes show when to reply, ask for a slower speed, or confirm what you received. Learning those signals alongside the code helps you follow the contact as a conversation.
+A CW contact may contain only a few lines of information: call signs, a report, names, and locations. Short codes show when to reply, ask for a slower speed, or confirm what you received. Learning those signals alongside the code helps you follow the contact as a conversation.
 
-CW’s narrow bandwidth makes it useful when signals are weak or the band is crowded. It also offers the chance to send and copy a signal directly by ear and hand. You do not need to operate at high speed to use it; the useful speed is one both operators can follow.
+CW’s narrow bandwidth makes it useful when signals are weak or the band is crowded. You can send by hand and copy by ear at whatever speed both operators can follow.
 
 #### Finding and Tuning a Signal
 
@@ -23,7 +23,7 @@ The frequency-use check introduced in the previous section has a short CW form:
 
 > **Key Information:** The Q signal “QRL?” means “Are you busy?” or “Is this frequency in use?” {{< link id="G2C04" >}}
 
-Q-signals are three-letter groups used for common statements and questions; they save time without requiring the operators to spell out each request.
+Q signals are three-letter groups used for common statements and questions; they save time without requiring the operators to spell out each request.
 
 Spacing separates independent contacts. When answering a station that expects a reply on its own frequency, you instead want your transmitter to match it:
 
@@ -45,7 +45,7 @@ You can ask the other operator to slow down during the contact. For the exam, re
 
 #### Taking Turns and Giving Reports
 
-CW operators use *prosigns*, or procedural signals, to manage an exchange. A prosign combines its written letters into one continuous Morse pattern, without the normal gap between letters. Q-signals such as QRS, by contrast, are sent as separate letters.
+CW operators use *prosigns*, or procedural signals, to manage an exchange. A prosign combines its written letters into one continuous Morse pattern, without the normal gap between letters. Q signals such as QRS, by contrast, are sent as separate letters.
 
 At the end of a general call, K invites a reply. When you are speaking to a particular station, KN makes the intended handoff more specific:
 
@@ -89,7 +89,7 @@ Normally, an operator waits for the other station to finish before replying. Ful
 
 > **Key Information:** Full break-in CW operation, or QSK, allows transmitting stations to receive between code characters and elements. {{< link id="G2C01" >}}
 
-The radio returns to receive during the brief gaps between transmitted elements. During those gaps, the sender can hear a reply from the other station, prompting them to stop and listen. This is rapid switching between transmit and receive, not simultaneous full-duplex operation.
+The radio returns to receive during the brief gaps between transmitted elements. During those gaps, the sender can hear a reply from the other station, prompting them to stop and listen. This is rapid switching between transmit and receive, not simultaneous full duplex operation.
 
 ![A timeline runs from left to right. The transmit row shows a dot, a longer dash, and another dot. In the receive row, blocks fill the gaps between those elements and follow the final dot. Full break-in lets the operator hear a reply during these gaps. Transmission and reception alternate; they do not happen at the same time. Switching intervals are simplified.](../../../images/s8-3-cw-break-in-timing.svg)
 {.img-centered .img-xlarge .img-mobile-full caption="Full break-in lets you listen between Morse elements. Switching intervals are simplified."}

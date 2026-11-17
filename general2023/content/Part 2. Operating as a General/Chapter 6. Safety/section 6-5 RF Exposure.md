@@ -7,7 +7,7 @@ status: complete1
 
 ### Section 6.5: RF Exposure
 
-When you transmit, where does all that RF energy go? Most of it radiates into the atmosphere and off toward distant stations (that's the plan, anyway). But some of it ends up closer to home. While you can't see or smell RF, it's real, and at high enough levels it can cause harm. The FCC requires amateur stations to comply with RF exposure limits—whether you're running low power (QRP) or pushing the legal limit.
+When you transmit, where does all that RF energy go? Most of it radiates into the atmosphere and off toward distant stations (that's the plan, anyway). Some of that RF energy can also reach people near the antenna. While you can't see or smell RF, it's real, and at high enough levels it can cause harm. The FCC requires amateur stations to comply with RF exposure limits—whether you're running low power (QRP) or pushing the legal limit.
 
 #### How RF Affects You
 
@@ -27,7 +27,7 @@ Three factors work together to determine how much RF exposure someone receives:
 
 **Power density** is the concentration of RF power in space, measured in milliwatts per square centimeter. Far enough from an antenna, in a given direction, moving twice as far away reduces power density to about one quarter (the inverse square law at work). Close to the antenna, the fields are more complex, so that shortcut may not apply.
 
-**Transmit duty cycle** is the percentage of time you're transmitting. If you listen for 5 minutes and transmit for 5 minutes, that is 50% over the full 10 minutes. But exposure rules use a specified time window, not necessarily your whole conversation. Alternating FT8 slots gives a transmit fraction a little below 50%, because each signal ends before its 15-second slot does; using 50% is a conservative estimate for that alternating pattern.
+**Transmit duty cycle** is the percentage of time you're transmitting. If you listen for 5 minutes and transmit for 5 minutes, that is 50% over the full 10 minutes. The exposure calculation uses a specified time window, which may cover only part of the conversation. If you transmit in every other 15-second FT8 slot, your signal is on the air for about 12.6 seconds out of every 30, or 42% of the time. Using 50% is a conservative estimate for that pattern.
 
 The FCC uses "time averaging" to account for duty cycle when evaluating exposure:
 
@@ -39,7 +39,7 @@ For the maximum permissible exposure (MPE) limits used here, the averaging perio
 
 Check the busiest applicable window. Five minutes transmitting followed by five minutes listening includes a six-minute controlled-exposure window with five minutes of transmission: $5 \div 6 \approx 83\%$, rather than 50%. Repeating that pattern throughout a 30-minute uncontrolled-exposure window gives 50%.
 
-![The radio transmits from minute zero to minute five, then receives until minute ten. Across all ten minutes, transmission takes five out of ten minutes, or fifty percent. But a six-minute window starting at zero includes five minutes of transmission and only one minute of receiving. Five divided by six is about eighty-three percent. Equal transmit and receive time over ten minutes does not mean fifty percent within every shorter window.](../../../images/s6-5-time-averaging.svg)
+![The radio transmits from minute zero to minute five, then receives until minute ten. Across all ten minutes, transmission takes five out of ten minutes, or fifty percent. The six-minute window starting at zero includes five minutes of transmission and only one minute of receiving. Five divided by six is about eighty-three percent. Equal transmit and receive time over ten minutes does not mean fifty percent within every shorter window.](../../../images/s6-5-time-averaging.svg)
 {.img-centered .mw-70 .img-mobile-full caption="The six-minute controlled-exposure window includes five minutes of transmission. Repeating the pattern over a 30-minute uncontrolled-exposure window averages 50%."}
 
 There is a second factor, **modulation duty cycle**: the average power **while transmitting** compared with peak envelope power (PEP). SSB speech rises and falls, and CW has spaces between keyed elements, so their average power can be below PEP. FM, RTTY and FT8 signals are close to full power while the signal is actually on. Do not count the same pauses in both factors.
@@ -71,7 +71,7 @@ Some stations qualify for an exemption from routine evaluation under the current
 > - An amateur operator must perform a routine RF exposure evaluation when required and prevent human exposure above the applicable limits, including by restricting access to identified high-exposure areas. {{< link id="G0A08" >}}
 > - If an evaluation shows that the RF energy radiated exceeds permissible limits for possible human absorption, you must take action to prevent human exposure to the excessive RF fields. {{< link id="G0A05" >}}
 
-"Take action" can mean several things: reduce power, raise or relocate antennas, limit access to high-exposure areas during transmission, or change operating patterns. The FCC doesn't accept "I know there's a problem but I can't fix it"—you must actually achieve compliance.
+"Take action" can mean several things: reduce power, raise or relocate antennas, limit access to high-exposure areas during transmission, or change operating patterns.
 
 #### Special Situations
 
@@ -90,7 +90,7 @@ A few scenarios deserve extra attention:
 
 #### Exposure and Contact Burns Are Different Problems
 
-The radiated-field evaluation in this section does not replace the grounding and bonding precautions covered earlier in this chapter. RF voltage on a microphone case or other equipment can cause a contact burn; bonding helps reduce those voltage differences. Passing an exposure evaluation does not prove that equipment is safe to touch, and bonding the equipment does not establish compliance with radiated-exposure limits. Both problems need attention.
+[Section 6.3]({{% pageref "6.3" %}}) explains how RF voltage on a microphone case or other equipment can cause a contact burn and how bonding helps reduce that voltage. Passing an exposure evaluation does not prove that equipment is safe to touch, and bonding the equipment does not establish compliance with radiated-exposure limits.
 
 #### Staying Compliant
 

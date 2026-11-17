@@ -25,7 +25,7 @@ That said, there are reasons you might eventually want to expand—adding an amp
 
 Before discussing circuit protection, it helps to understand what's actually inside that electrical cable. A standard 120-volt circuit has three conductors. These are the usual colors, but color alone never proves a wire is safe:
 
-- **Hot (black)**: Carries voltage from the breaker panel. This is the dangerous one—it's always "live" when the circuit is on.
+- **Hot (black)**: Connects the breaker to the load and is live whenever the circuit is energized.
 - **Neutral (white)**: Completes the circuit back to the panel. It carries current and normally sits close to ground potential, but it is not safe to touch merely because it is neutral.
 - **Ground (green or bare copper)**: A safety path that carries no current during normal operation, but provides a path for fault current back to the source so the fuse or breaker can disconnect power.
 
@@ -41,7 +41,7 @@ Local rules may adopt a particular NEC edition with amendments, so follow the ru
 
 #### Circuit Protection and Wire Sizing
 
-Current flowing through undersized wire creates heat—potentially enough to melt insulation and start fires. Think of wire gauge like water pipes—too small and things back up, but with electricity the result is heat rather than pressure.
+Current flowing through undersized wire creates heat—potentially enough to melt insulation and start fires.
 
 We can take advantage of this property by running current through a small wire carefully chosen to burn out and break if the current exceeds a safe level. This is called a fuse! Circuit breakers achieve the same protection using an electromagnetic or thermal mechanism to trip a switch; they have the advantage of being reusable—just reset them after fixing whatever caused the overload.
 
@@ -76,7 +76,7 @@ On a 120-volt circuit, protection goes in its single hot conductor. For the four
 
 #### GFCI Protection
 
-That outlet with the test and reset buttons could save your life. Ground Fault Circuit Interrupters detect when current isn't returning the way it should and shut down the circuit in milliseconds.
+That outlet with the test and reset buttons could save your life. Ground fault circuit interrupters detect when current isn't returning the way it should and shut down the circuit in milliseconds.
 
 On a 120-volt circuit in normal operation, all the current flowing out on the hot wire returns on the neutral. If some current takes a different path—directly to ground, through spilled water, into a person, etc.—the outgoing and returning currents no longer match. A GFCI detects this imbalance and opens its protected circuit. A receptacle GFCI need not trip the branch breaker; overload protection is a separate job.
 
@@ -90,7 +90,7 @@ High-voltage equipment can be dangerous even when unplugged—capacitors store e
 
 > **Key Information:** The purpose of a power supply interlock is to ensure that dangerous voltages are removed if the cabinet is opened. {{< link id="G0B12" >}}
 
-The concept is simple—open the cover, break the supply circuit. But disconnecting that supply does not necessarily remove charge already stored in capacitors.
+When the interlock opens the supply circuit, the capacitors can still hold a dangerous charge.
 
 Interlocks provide an important layer of protection, but they're not foolproof. Leave internal high-voltage work to someone trained for it. Proper servicing requires isolating the equipment from all power sources, following the manufacturer's stored-energy procedure, and verifying the safe condition with suitable test equipment. Waiting a few minutes or trusting the interlock is not a substitute for verification.
 

@@ -263,6 +263,14 @@ figure {
   a.anchor { display: none !important; }
   section.book-section > h2, .header-text { string-set: chapter content(); }
   section.book-section > h3, .footer-text { string-set: section content(); }
+  section.book-section:has(> .no-section-footer) {
+    > h3, .footer-text { string-set: none; }
+  }
+  .no-section-footer {
+    // Keep the empty marker out of the flow between a heading and its first paragraph.
+    position: absolute;
+    string-set: section '';
+  }
   .clear-footer {
     string-set: section '';
     position: relative

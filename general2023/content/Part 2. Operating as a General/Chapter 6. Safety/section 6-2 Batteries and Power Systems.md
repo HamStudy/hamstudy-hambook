@@ -33,11 +33,11 @@ Ever wonder why two batteries with the same amp-hour rating perform so different
 
 When your transmitter demands 20+ amps, internal resistance determines whether the battery delivers or disappoints. High internal resistance causes a significant voltage drop under load, which can make your transmitter shut down or perform poorly. Check the battery’s rated discharge current and voltage under load, rather than relying on a “high discharge rate” label alone. A short across the battery terminals can draw dangerous current; keep tools and jewelry from bridging them.
 
-Car starting batteries have very low internal resistance—they're designed to crank hundreds of amps to your starter motor. They're also generally meant to stay mostly charged all the time—they hate deep discharge. Run one down repeatedly and you will rapidly shorten its lifespan. Deep-cycle batteries tolerate repeated cycling but often have higher resistance. AGM (Absorbed Glass Mat) describes how a lead-acid battery holds its electrolyte, not whether it is a starting or deep-cycle battery. An AGM model rated for deep cycling and your transmit current can work well for ham radio.
+A car starting battery has very low internal resistance, so it can supply the hundreds of amps the starter motor draws to crank the engine. It is designed to stay mostly charged, and repeated deep discharges quickly shorten its life. Deep-cycle batteries tolerate repeated cycling but often have higher resistance. AGM (Absorbed Glass Mat) describes how a lead-acid battery holds its electrolyte, not whether it is a starting or deep-cycle battery. An AGM model rated for deep cycling and your transmit current can work well for ham radio.
 
 #### Lithium Batteries: A Growing Standard
 
-LiFePO4 (lithium iron phosphate) batteries have gone from exotic to nearly mainstream in recent years, and for good reason. For the same capacity, they're roughly half the weight of lead-acid batteries. They deliver more usable amp-hours: you can safely use 80% of their capacity versus maybe 50% for lead-acid. They also last for thousands of charge cycles. Yes, they cost more upfront—but when you factor in lifespan and performance, they often win on value too.
+A LiFePO4 (lithium iron phosphate) battery typically weighs less than a lead-acid battery of the same capacity. Some LiFePO4 models can deliver 80% of their capacity for thousands of charge cycles. With a lead-acid battery, you might plan to use only half its capacity between charges to extend its life. LiFePO4 batteries usually cost more up front.
 
 Those are useful comparisons, not universal ratings. Check the particular battery’s usable capacity, cycle-life conditions and maximum current.
 
@@ -45,7 +45,7 @@ The trade-off? They're pickier about charging, which we'll cover when we get to 
 
 #### Mobile Power: Doing It Right
 
-Working HF from your vehicle is one of the great joys of General privileges. But a 100-watt transceiver pulling 20+ amps on voice peaks needs more than a casual power connection.
+Working HF from your vehicle can be a lot of fun when you are a passenger and can do it safely. A 100-watt HF transceiver can draw more than 20 amps on voice peaks, so it needs a power connection rated for that current.
 
 ##### Go Straight to the Source
 
@@ -77,7 +77,7 @@ Away from your vehicle or an outlet, sunlight gives you another way to replenish
 
 *Open-circuit* means measured with no load connected. It is not a promise that the cell will maintain that voltage while supplying any amount of current you ask for.
 
-To make a useful panel, manufacturers combine cells, using the series and parallel relationships from [Chapter 1]({{% pageref "chpt1" %}}). Cells in series add their voltages; parallel strings increase the available current. In a simplified example, 36 cells at 0.5 volt each would add to 18 volts open-circuit, rather than the half volt from one cell.
+To make a useful panel, manufacturers combine cells, using the series and parallel relationships from [Section 1.1]({{% pageref "1.1" %}}). Cells in series add their voltages; parallel strings increase the available current. In a simplified example, 36 cells at 0.5 volt each would add to 18 volts open-circuit, rather than the half volt from one cell.
 
 Real cells and panels can have higher open-circuit voltages; use the panel’s specifications when choosing equipment. Actual voltage and current depend on illumination, temperature, and the load. The panel must supply enough voltage for charging under load, and charging equipment must keep the battery within its limits. That introduces two concerns: controlling current toward the battery and preventing current from flowing back out of it.
 
@@ -95,9 +95,9 @@ Remember how we said LiFePO4 batteries are pickier about charging? Here's where 
 
 > **Key Information:** When connecting a solar panel to a lithium iron phosphate battery, the solar panel must have a charge controller. {{< link id="G4E11" >}}
 
-All battery types need charging within the maker’s limits. Overcharging lead-acid batteries can cause heat, water loss and hazardous gas; lithium batteries also need the correct charging settings to avoid damage and safety hazards. A charge controller regulates voltage and current to keep everything happy. This isn't optional equipment—it's required for safe operation. Most often, a lithium battery also has a "Battery Management System" (BMS), either built in or added on. It handles cell balancing and additional safety features.
+All battery types need charging within the maker’s limits. Overcharging lead-acid batteries can cause heat, water loss and hazardous gas; lithium batteries also need the correct charging settings to avoid damage and safety hazards. Use a charge controller set to the battery maker’s specifications. Most often, a lithium battery also has a "Battery Management System" (BMS), either built in or added on. It handles cell balancing and additional safety features.
 
-The BMS is a protective backup, not a substitute for a compatible charge controller. Use the charging settings specified for the battery.
+The BMS is a protective backup, not a substitute for a compatible charge controller.
 
 ![Power flows from the solar panel through a charge controller and a fuse to the battery. The battery supplies the radio through a separate fuse. Both fuses are near the battery, one on its charging cable and one on the cable supplying the radio. The controller limits charging and may also block current from flowing backward into the panel. The arrows show power flow, not complete wiring connections.](../../../images/s6-2-solar-power.svg)
 {.img-centered .mw-70 .img-mobile-full caption="The controller limits charging and may block reverse current into the panel. Arrows show power flow; wiring details are omitted."}

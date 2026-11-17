@@ -71,14 +71,14 @@ For radio operating privileges, focus on where the transmitter is located. The o
 
 In the first case, the station remains a US station, operating under FCC rules and the control operator’s US privileges. The country you’re in may restrict how you connect to a remote station, even if you hold a US license. Check the local rules too.
 
-The reverse arrangement depends on permission from the transmitter’s country. A US General Class License does not automatically give you that permission. Get whatever approval that country requires and follow its frequency, power, identification, and control rules.
+The reverse arrangement depends on permission from the transmitter’s country. A US General class license does not automatically give you that permission. Get whatever approval that country requires and follow its frequency, power, identification, and control rules.
 
 ![Two examples connect an operator to a transmitter through a control link. In the first, the operator is abroad and the transmitter is in the United States: US radio rules and a US operator license apply. In the second, the operator is in the United States and the transmitter is abroad: only the transmitter country's radio rules and required authorization apply. When the operator is abroad and the transmitter is in the US, also check requirements where the operator is located.](../../../images/s9-5-remote-station-jurisdiction.svg)
 {.img-full .img-centered caption="In these remote-operation examples, radio rules follow the transmitter’s location."}
 
 #### Taking a Radio Abroad
 
-Before taking a radio abroad, check the current rules with that country’s radio regulator or recognized national amateur organization. Permission can depend on your destination and license class; a US General Class License does not automatically allow you to operate there. Find out whether you need a separate permit. Confirm the required documents, call sign prefix, power limits, and allowed bands.
+Before taking a radio abroad, check the current rules with that country’s radio regulator or recognized national amateur organization. Permission can depend on your destination and license class; a US General class license does not automatically allow you to operate there. Find out whether you need a separate permit. Confirm the required documents, call sign prefix, power limits, and allowed bands.
 
 Whether you’re at home, at a remote control point, or visiting another country, know which station you’re allowed to control and what it may transmit. You also need to keep your license valid and know when new or upgraded privileges take effect.
 

@@ -20,7 +20,7 @@ For most HF voice contacts, the starting point is single sideband:
 > - In SSB, only one sideband is transmitted; the other sideband and the carrier are suppressed. {{< link id="G2A07" >}}
 > - Less bandwidth used and greater power efficiency are advantages of SSB compared to other analog voice modes on the HF amateur bands. {{< link id="G2A06" >}}
 
-For the same audio-frequency range, one sideband occupies about half the bandwidth of a conventional AM signal with two sidebands. Suppressing the carrier also saves transmitter power because the carrier itself does not carry the changing voice information.
+For the same audio frequency range, one sideband occupies about half the bandwidth of a conventional AM signal with two sidebands. Suppressing the carrier also saves transmitter power because the carrier itself does not carry the changing voice information.
 
 #### Selecting the Sideband
 
@@ -41,7 +41,7 @@ Higher-frequency HF voice operation normally uses USB. The USB convention also e
 > - USB is most commonly used for voice communications on the 17- and 12-meter bands. {{< link id="G2A04" >}}
 > - USB is most commonly used for SSB voice communications in the VHF and UHF bands. {{< link id="G2A03" >}}
 
-The main lower-frequency exception is 60-meter voice operation, which uses USB. On the four separate US channels, USB is required for phone; in the continuous segment, it is the usual voice convention. The next chapter explains the two arrangements. These are voice conventions; digital modes have their own settings, covered later in this chapter.
+The main exception on the lower bands is 60 meters. For voice, USB is required on the four separate US channels and is customary in the continuous segment. [Section 9.1]({{% pageref "9.1" %}}) lists the four channels and the frequency limits of the continuous segment. Digital modes have their own settings, covered later in this chapter.
 
 #### Finding the Right Part of the Band
 
@@ -59,4 +59,4 @@ On 30 meters, US amateurs may use CW and permitted data emissions, but not phone
 
 #### Let the Activity Guide You
 
-Your first contact need not be with a distant or unusually weak station. A readable CQ gives you an opportunity to answer, and listening to a few exchanges helps you recognize what comes next. Once you have chosen an appropriate mode and part of the band, the remaining decision is how to make your call without interrupting someone else.
+Your first contact need not be with a distant or unusually weak station. A station calling CQ is inviting anyone to answer. Listen to a few exchanges to hear what comes next. Once you have chosen an appropriate mode and part of the band, the remaining decision is how to make your call without interrupting someone else.

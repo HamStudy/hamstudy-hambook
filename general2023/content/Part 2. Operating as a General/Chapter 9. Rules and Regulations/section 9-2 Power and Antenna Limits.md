@@ -41,7 +41,7 @@ The current rule also applies that *2.8 kHz maximum* to the other permitted 60-m
 
 Power on this band is specified as **effective radiated power (ERP)**, rather than only the transmitter’s output. The antenna’s gain therefore affects how much transmitter power you may use.
 
-You can find the latest version of this book at [hambook.org](https://hambook.org). The limits below reflect the rules effective February 13, 2026:
+The table gives the power limits in effect when this book was published.
 
 | 60-meter operation | Maximum radiated power |
 |---|---|
@@ -62,7 +62,7 @@ The record may use the manufacturer’s gain data or an appropriate calculation.
 
 An antenna can be electrically suitable and still require approval because of its height or location.
 
-> **Key Information:** Away from a public-use airport, an antenna structure may generally be up to 200 feet tall before its height triggers Federal Aviation Administration (FAA) notification and FCC registration. {{< link id="G1B01" >}}
+> **Key Information:** Away from a public use airport, an antenna structure may generally be up to 200 feet tall before its height triggers Federal Aviation Administration (FAA) notification and FCC registration. {{< link id="G1B01" >}}
 
 The height-based requirement generally applies to structures *more than 200 feet above ground level*. Shorter structures near airports may also require notification and registration. Measure the complete structure, including an antenna mounted on top, rather than only the length of the tower sections.
 

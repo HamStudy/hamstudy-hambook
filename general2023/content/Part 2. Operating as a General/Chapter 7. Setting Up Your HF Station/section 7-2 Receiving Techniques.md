@@ -62,7 +62,7 @@ What you hear can help identify the type of transmission:
 The solution depends on where the RF enters or is detected:
 
 > **Key Information:**
-> - A bypass capacitor can be useful in reducing RF interference to audio-frequency circuits. {{< link id="G4C01" >}}
+> - A bypass capacitor can be useful in reducing RF interference to audio frequency circuits. {{< link id="G4C01" >}}
 > - Placing a ferrite choke on an audio cable can reduce RF interference caused by common-mode current on that cable. {{< link id="G4C08" >}}
 
 A suitably chosen bypass capacitor can divert RF away from a sensitive point in the audio circuit. The capacitor has lower reactance at RF than at audio frequencies. That lets it reduce the interference while leaving the wanted audio largely unaffected.
@@ -71,9 +71,9 @@ RF can also reach the equipment as common-mode current on an audio cable. A ferr
 
 Capacitor value and placement matter, and a choke must be effective at the interfering frequency. Leave internal modifications to someone familiar with the circuit and its hazards.
 
-#### Understanding S-Meter Readings
+#### Understanding S Meter Readings
 
-Listening tells you whether a signal is understandable. The S-meter provides a different piece of information: its received strength. The scale runs from S1 through S9, followed by readings in decibels above S9, such as "20 over S9."
+Listening tells you whether a signal is understandable. The S meter provides a different piece of information: its received strength. The scale runs from S1 through S9, followed by readings in decibels above S9, such as "20 over S9."
 
 > **Key Information:**
 > - An S meter measures received signal strength. {{< link id="G4D04" >}}
@@ -86,13 +86,13 @@ With 6 dB per S unit, an S9 signal represents about four times the received powe
 ![A cartoon boy smiles gently and raises one index finger, as though he has just understood the explanation.](../../../images/illus/s7-2-understanding-child.svg)
 {.img-xsmall .float-right .mb-1}
 
-Actual S-meters vary, so readings are most useful for comparing signals on the same receiver with its settings unchanged. They can help you compare antennas or observe fading.
+Actual S meters vary, so readings are most useful for comparing signals on the same receiver with its settings unchanged. They can help you compare antennas or observe fading.
 
 Signal strength is also separate from readability. In a phone report of "52," the 5 means perfectly readable and the 2 means very weak. You may be able to complete a contact without increasing power, even when the signal-strength number is low.
 
 #### Listen First
 
-You can begin before earning your General Class License by listening to amateur HF signals. Try one control at a time and judge the result by how well you can follow the signal.
+You can begin before earning your General class license by listening to amateur HF signals. Try one control at a time and judge the result by how well you can follow the signal.
 
 Listening also helps you avoid interrupting a contact. A pause does not mean that a frequency is clear, especially if you can hear only one side of a conversation. Listen long enough to establish what is happening before transmitting.
 

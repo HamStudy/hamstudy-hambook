@@ -39,15 +39,12 @@ status: generated
   - Key Filter Specifications You Should Know
   - Impedance Matching with Filters
   - Filter Technologies in Your Radio
-  - Practical Applications in Your General Class Operations
   - Your Filter Toolkit Is Ready
 - Section 1.4: Transformers and Matching
   - The Maximum Power Transfer Theorem
   - Transformers: The Impedance Conversion Tools
-  - Practical Matching Systems for Antennas
   - Specialized RF Transformers
   - LC Matching Networks
-  - Application to General Class Operations
 - Section 1.5: Power and Measurements
   - Power Fundamentals
   - AC Power and RMS Measurements
@@ -78,7 +75,6 @@ status: generated
   - Half-Wave Rectification
   - Full-Wave Rectification
   - Center-tapped vs. Bridge Rectifier Designs
-  - Rectifier Voltage Drops
   - Filtering: Smoothing the Pulses
   - Safety: Bleeder Resistors
   - Modern Alternative: Switchmode Power Supplies
@@ -106,7 +102,6 @@ status: generated
   - Single Sideband: Trading Simplicity for Efficiency
   - Frequency and Phase Modulation: Constant-Amplitude Alternatives
   - Preventing Modulation Problems
-  - Choosing the Right Modulation Method
 - Section 3.2: Digital Modes and Signals
   - Basic Digital Modulation Techniques
   - Character Encoding: From Letters to Bits
@@ -114,20 +109,18 @@ status: generated
   - Error Detection and Correction
   - Packet Radio and Network Protocols
   - Digital Voice: The Best of Both Worlds
-  - The Science Behind Digital Efficiency
   - Practical Advantages for General Class Operators
 - Section 3.3: Frequency Mixing and Bandwidth
-  - The Magic of Heterodyning: Converting Problems into Solutions
+  - Heterodyning: Shifting Frequency
   - Tuning Your Radio: The Local Oscillator at Work
   - Building Higher Frequencies: Frequency Multiplication
   - The Dark Side of Mixing: Image Response
   - When Mixing Happens Unintentionally: Intermodulation
   - Signal Bandwidth: How Much Spectrum Space Do You Need?
   - Operating Considerations for General Class
-  - Practical Applications
 - Section 3.4: Digital Signal Processing
   - DSP Filters: Flexible Choices
-  - Software-Defined Radio: The Ultimate DSP
+  - Software-Defined Radio
   - I and Q Signals: The Technical Foundation
   - Practical DSP Benefits
   - DSP in Your General Class Operations
@@ -145,20 +138,8 @@ status: generated
   - Enter SWR: Our Diagnostic Tool
   - The Hidden Cost of High SWR
   - The Matching Network Illusion
-  - Connecting the Model to a Reading
   - System Performance: The Complete Picture
-  - The Complete Picture
-- Section 4.3: Directional Antennas
-  - The Yagi Antenna: Your Signal Spotlight
-  - Building Better Beams: Performance Factors
-  - Understanding Antenna Specifications
-  - Optimizing Your Beam
-  - Stacking: When One Antenna Isn't Enough
-  - The Log Periodic: One Antenna, Many Bands
-  - Specialized Antennas for Specific Needs
-  - Making Directional Antennas Work for You
-  - Your Path to Directional Success
-- Section 4.4: Dipoles and Vertical Antennas
+- Section 4.3: Dipoles and Vertical Antennas
   - Dipole Antennas: Your Gateway to HF Success
   - Height Transforms Your Dipole's Performance
   - Feed Point Magic: Controlling Impedance
@@ -173,7 +154,17 @@ status: generated
   - Random Wire Antennas: The Compromise That Works
   - NVIS: Your Regional Communication Powerhouse
   - Practical Antenna Solutions
-  - Your Antenna Journey Begins
+- Section 4.4: Directional Antennas
+  - The Yagi Antenna: Your Signal Spotlight
+  - Matching the Yagi
+  - Building Better Beams: Performance Factors
+  - Understanding Antenna Specifications
+  - Optimizing Your Beam
+  - Stacking: When One Antenna Isn't Enough
+  - The Log Periodic: One Antenna, Many Bands
+  - Specialized Antennas for Specific Needs
+  - Making Directional Antennas Work for You
+  - Your Path to Directional Success
 - Section 4.5: Mobile and Portable Antennas
   - Engineering Magic: Making Big Antennas Small
   - Taming Tip Discharge: Corona Protection
@@ -192,7 +183,6 @@ status: generated
   - Maximum and Lowest Usable Frequencies: Your Operating Window
   - Working Within Nature's Window
 - Section 5.2: Solar Effects on Propagation
-  - The Solar-Ionospheric Connection
   - Sunspots and Solar Activity
   - Measuring Solar Activity
   - Solar Disturbances: Flares and Particles
@@ -264,7 +254,6 @@ status: generated
   - Keeping Your Signal Within the Band
   - Working Split
   - Morse Code (CW) Operation
-  - Avoiding Unwanted Interference
 - Section 7.4: Power Amplifiers
   - Integrating the Amplifier
   - Operating a Tube Amplifier
@@ -275,7 +264,6 @@ status: generated
   - Reading the Waterfall
   - Keeping Accurate Time
   - When It Doesn't Work
-  - Checking Your Setup
 - Section 7.6: Test Equipment and Measurement
   - Choosing a Meter for the Job
   - Looking at a Transmitted Signal
@@ -312,7 +300,6 @@ status: generated
   - Making a Structured Contact with FT8
   - Sending Messages Through Winlink
   - Establishing and Checking the Connection
-  - Match the Procedure to the Purpose
 - Section 8.6: Emergency Communication
   - Responding to a Call for Help
   - Coordinating Several Stations

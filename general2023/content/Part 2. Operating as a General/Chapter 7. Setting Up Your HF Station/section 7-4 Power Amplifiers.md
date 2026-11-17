@@ -13,7 +13,7 @@ An external amplifier increases the power of the RF signal from your transceiver
 
 An amplifier often reaches its rated output with less drive than the transceiver can supply. Set the radio's output according to the amplifier manufacturer's instructions. Too much drive can distort the transmitted signal or damage the amplifier.
 
-If both devices support a compatible external Automatic Level Control (ALC) connection, the amplifier can signal the transceiver to reduce power:
+If both devices support a compatible external automatic level control (ALC) connection, the amplifier can signal the transceiver to reduce power:
 
 > **Key Information:** ALC is used with an RF power amplifier to prevent excessive drive. {{< link id="G4A05" >}}
 
