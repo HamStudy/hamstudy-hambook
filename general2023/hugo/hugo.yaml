@@ -16,6 +16,8 @@ params:
   keywords: "Amateur Radio, Ham Radio, General Class, Hambook, Study Manual"
   description: "Prepare for the 2023–2027 US General Class amateur radio exam. Learn about circuits, signals, antennas, propagation, safe station setup, operating procedures, and FCC rules."
   printStylesheet: "css/print.css"
+  pdfVersionInfo:
+    enabled: true
   BookPortableLinks: true
   # BookSubtitle: (2023 - 2027)
   BookLogo: "general2023.jpg"
